@@ -23,7 +23,9 @@ export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
   if (pathname.startsWith(`/${slug}`) || pathname.startsWith('/admin')) return NextResponse.next()
   const url = request.nextUrl.clone()
-  url.pathname = `/${slug}${pathname === '/' ? '' : pathname}`
+  // служебные файлы на своём домене лежат в корне — те же адреса, что у статической выгрузки
+  const files: Record<string, string> = { '/og.png': '/opengraph-image', '/icon.png': '/icon' }
+  url.pathname = `/${slug}${files[pathname] ?? (pathname === '/' ? '' : pathname)}`
   return NextResponse.rewrite(url)
 }
 

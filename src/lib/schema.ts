@@ -189,6 +189,19 @@ export const seoSchema = z.object({
   index: z.boolean().default(true),
 })
 
+/** Карточка в каталоге готовых сайтов: то, что видит покупатель до покупки. */
+export const listingSchema = z.object({
+  /** «12 900 000 сум» или пусто — тогда «цена по запросу» */
+  price: text,
+  /** два-три предложения: для кого сайт и чем он хорош */
+  description: text,
+  /** функционал вручную; пусто — собирается из сайта автоматически (lib/listing.ts) */
+  features: z.array(z.string()).default([]),
+  /** показывать в каталоге */
+  forSale: z.boolean().default(true),
+})
+export type Listing = z.infer<typeof listingSchema>
+
 export const siteSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/, 'только латиница, цифры и дефис'),
   template: z.string(),
@@ -201,6 +214,7 @@ export const siteSchema = z.object({
   business: businessSchema,
   seo: seoSchema,
   nav: z.object({ cta: link }).default({ cta: { label: '', href: '' } }),
+  listing: listingSchema.default({ price: '', description: '', features: [], forSale: true }),
   sections: z.array(sectionSchema),
   updatedAt: z.string().default(''),
 })

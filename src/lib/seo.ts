@@ -15,6 +15,16 @@ export function siteUrl(site: Site): string {
   return domain ? `https://${domain.replace(/^https?:\/\//, '').replace(/\/$/, '')}` : `${PLATFORM_URL}/${site.slug}`
 }
 
+/**
+ * Адрес служебного файла сайта. На своём домене файлы лежат в корне (/og.png, /llms.txt) —
+ * так их отдаёт и статическая выгрузка, и proxy конструктора; без домена — путь внутри конструктора.
+ */
+export function siteAsset(site: Site, file: 'og' | 'icon' | 'llms' | 'llms-full'): string {
+  const own = { og: 'og.png', icon: 'icon.png', llms: 'llms.txt', 'llms-full': 'llms-full.txt' }[file]
+  const inside = { og: 'opengraph-image', icon: 'icon', llms: 'llms.txt', 'llms-full': 'llms-full.txt' }[file]
+  return site.domains[0] ? `${siteUrl(site)}/${own}` : `${PLATFORM_URL}/${site.slug}/${inside}`
+}
+
 export function sectionsOf<T extends Section['type']>(site: Site, type: T): SectionOf<T>[] {
   return site.sections.filter((s): s is SectionOf<T> => s.type === type && s.enabled)
 }
@@ -42,7 +52,7 @@ export function buildMetadata(site: Site): Metadata {
   const url = siteUrl(site)
   const title = seoTitle(site)
   const description = seoDescription(site)
-  const images = site.seo.ogImage ? [site.seo.ogImage] : [`${PLATFORM_URL}/${site.slug}/opengraph-image`]
+  const images = site.seo.ogImage ? [site.seo.ogImage] : [siteAsset(site, 'og')]
   return {
     metadataBase: new URL(url),
     title: { absolute: title },
@@ -52,7 +62,9 @@ export function buildMetadata(site: Site): Metadata {
     robots: site.seo.index ? { index: true, follow: true, 'max-image-preview': 'large' } : { index: false, follow: false },
     openGraph: { type: 'website', url, title, description, siteName: site.name, locale: site.lang === 'ru' ? 'ru_RU' : site.lang, images },
     twitter: { card: 'summary_large_image', title, description, images },
-    other: { 'llms-txt': `${PLATFORM_URL}/${site.slug}/llms.txt` },
+    // без своего домена — относительный путь: иконка грузится с того же сервера, на каком порту он ни был
+    icons: { icon: site.domains[0] ? siteAsset(site, 'icon') : `/${site.slug}/icon` },
+    other: { 'llms-txt': siteAsset(site, 'llms') },
   }
 }
 
@@ -91,8 +103,8 @@ export function buildJsonLd(site: Site): object {
     description: seoDescription(site),
     slogan: site.tagline || undefined,
     url,
-    image: `${PLATFORM_URL}/${site.slug}/opengraph-image`,
-    logo: `${PLATFORM_URL}/${site.slug}/icon`,
+    image: siteAsset(site, 'og'),
+    logo: siteAsset(site, 'icon'),
     telephone: b.phone || undefined,
     email: b.email || undefined,
     foundingDate: b.founded || undefined,
@@ -256,7 +268,7 @@ export function buildLlms(site: Site, full: boolean): string {
         break
     }
   }
-  if (!full) lines.push('## Подробнее', '', `- [Полная версия](${PLATFORM_URL}/${site.slug}/llms-full.txt)`, '')
+  if (!full) lines.push('## Подробнее', '', `- [Полная версия](${siteAsset(site, 'llms-full')})`, '')
   return lines.join('\n')
 }
 

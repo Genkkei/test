@@ -21,7 +21,7 @@ export const meta: TemplateMeta = {
     "body": "Jost",
     "motion": 1
   },
-  "art": "arch",
+  "art": "blobs",
   "preview": {
     "bg": "#f4f1ea",
     "fg": "#2e2b26",

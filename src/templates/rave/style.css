@@ -1,0 +1,196 @@
+/* РЕЙВ — в духе Boiler Room, Resident Advisor и экспериментальных сайтов Awwwards:
+   чёрный, кислотный лайм, однобитный дизеринг, моноширинный терминал, афиша вместо меню. */
+
+.tpl-rave { --pad: clamp(14px, 2.4vw, 40px); font-size: 14px; line-height: 1.6; cursor: crosshair; }
+.tpl-rave a, .tpl-rave button, .tpl-rave summary { cursor: crosshair; }
+.tpl-rave .s { padding-block: clamp(64px, 9vw, 140px); border-top: 1px solid var(--line); }
+.tpl-rave .s__label { font-size: 12px; letter-spacing: .04em; color: var(--accent); text-transform: uppercase; }
+.tpl-rave .s__label::before { content: '> '; }
+.tpl-rave .s__title { font-family: var(--font-display); font-weight: 400; font-size: clamp(30px, 5.4vw, 92px); line-height: .98; letter-spacing: -.04em; text-transform: uppercase; }
+.tpl-rave .s__intro { color: var(--muted); }
+.tpl-rave ::selection { background: var(--accent); color: var(--bg); }
+
+.rv-btn, .tpl-rave .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 0 22px; border-radius: 0; font-family: var(--font-body); font-size: 13px; font-weight: 700; letter-spacing: .02em; text-transform: uppercase; background: var(--accent); color: var(--bg); border: 1px solid var(--accent); transition: background .15s steps(2), color .15s steps(2); white-space: nowrap; }
+.rv-btn:hover, .tpl-rave .btn--primary:hover { background: var(--bg); color: var(--accent); }
+.rv-btn--ghost, .tpl-rave .btn--ghost { background: transparent; color: var(--fg); border-color: var(--fg); }
+.rv-btn--ghost:hover, .tpl-rave .btn--ghost:hover { background: var(--fg); color: var(--bg); }
+.rv-btn--xl { min-height: 58px; padding: 0 30px; font-size: 15px; }
+
+/* шапка-терминал */
+.rv-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; gap: 22px; padding: 10px var(--pad); background: var(--bg); border-bottom: 1px solid var(--line); font-size: 12px; text-transform: uppercase; }
+.rv-logo { font-weight: 800; color: var(--accent); letter-spacing: .02em; }
+.rv-live { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+.rv-live i { width: 8px; height: 8px; background: var(--muted); }
+.rv-live[data-on] { color: var(--fg); }
+.rv-live[data-on] i { background: #ff3b3b; animation: rvBlink 1s steps(2) infinite; }
+@keyframes rvBlink { 50% { opacity: 0; } }
+.rv-nav { display: flex; justify-content: flex-end; gap: 14px; color: color-mix(in srgb, var(--fg) 75%, transparent); }
+.rv-nav a:hover { color: var(--accent); }
+.rv-header__side { display: flex; align-items: center; gap: 12px; }
+.rv-header .rv-btn { min-height: 34px; padding: 0 14px; font-size: 11.5px; }
+@media (max-width: 1100px) { .rv-nav { display: none; } .rv-header { grid-template-columns: auto 1fr auto; } }
+@media (max-width: 620px) { .rv-live { display: none; } .rv-header .rv-btn { display: none; } .rv-header { grid-template-columns: 1fr auto; } }
+
+/* первый экран */
+.rv-hero { min-height: 100svh; padding: 0; display: flex; align-items: flex-end; overflow: hidden; isolation: isolate; border-top: 0; }
+.rv-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; image-rendering: pixelated; background: repeating-linear-gradient(0deg, var(--bg) 0 2px, color-mix(in srgb, var(--accent) 12%, var(--bg)) 2px 4px); }
+.rv-hero::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, transparent 35%, color-mix(in srgb, var(--bg) 92%, transparent) 78%); pointer-events: none; }
+.rv-hero__inner { width: 100%; padding: 90px var(--pad) clamp(22px, 3vw, 40px); }
+.rv-hero__eyebrow { font-size: 13px; color: var(--accent); margin-bottom: 18px; text-transform: uppercase; background: var(--bg); width: fit-content; padding: 2px 6px; }
+.rv-hero__title { position: relative; font-family: var(--font-display); font-weight: 400; font-size: clamp(38px, 8.4vw, 168px); line-height: .9; letter-spacing: -.055em; text-transform: uppercase; max-width: 11ch; color: var(--fg); text-shadow: 0 0 0 transparent; animation: rvIn 1s steps(6) both; }
+.rv-hero__title::before, .rv-hero__title::after { content: attr(data-text); position: absolute; inset: 0; pointer-events: none; }
+.rv-hero__title::before { color: var(--accent); clip-path: inset(0 0 72% 0); transform: translateX(-.04em); animation: rvSlice 3.2s steps(1) infinite; mix-blend-mode: screen; }
+.rv-hero__title::after { color: #ff3b8d; clip-path: inset(64% 0 8% 0); transform: translateX(.03em); animation: rvSlice 2.6s steps(1) infinite reverse; mix-blend-mode: screen; }
+@keyframes rvSlice { 0%, 86%, 100% { opacity: 0; } 88% { opacity: 1; clip-path: inset(10% 0 70% 0); } 92% { opacity: 1; clip-path: inset(55% 0 20% 0); transform: translateX(-.06em); } 96% { opacity: 1; clip-path: inset(30% 0 52% 0); } }
+@keyframes rvIn { from { opacity: 0; letter-spacing: .2em; } }
+.rv-hero__foot { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) auto; gap: 24px; align-items: end; margin-top: clamp(22px, 3vw, 40px); padding-top: 18px; border-top: 1px dashed color-mix(in srgb, var(--fg) 35%, transparent); }
+.rv-hero__sub { max-width: 52ch; background: color-mix(in srgb, var(--bg) 80%, transparent); }
+.rv-hero__tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.rv-hero__tags li { padding: 4px 9px; border: 1px solid var(--accent); color: var(--accent); font-size: 12px; text-transform: uppercase; background: var(--bg); }
+.rv-hero__ctas { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.rv-boot { animation: rvBoot .6s steps(4) both; animation-delay: .3s; }
+@keyframes rvBoot { from { opacity: 0; clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@media (max-width: 960px) { .rv-hero__foot { grid-template-columns: 1fr; } .rv-hero__ctas { justify-content: flex-start; } }
+
+/* сводка */
+.tpl-rave .s-answer { padding-block: clamp(40px, 6vw, 80px); }
+.tpl-rave .s-answer__text { max-width: 78ch; font-size: clamp(15px, 1.25vw, 18px); border: 1px solid var(--accent); padding: 20px 24px; position: relative; }
+.tpl-rave .s-answer__text::before { content: 'README.TXT'; position: absolute; top: -10px; left: 16px; background: var(--bg); color: var(--accent); padding: 0 6px; font-size: 11px; }
+
+/* бегущая строка — лаймовая лента */
+.rv-marquee { padding: 0; background: var(--accent); color: var(--bg); border: 0; }
+.rv-marquee .marquee { padding: 10px 0; }
+.rv-marquee .marquee__item { font-family: var(--font-display); font-size: clamp(22px, 3.4vw, 54px); text-transform: uppercase; letter-spacing: -.04em; line-height: 1.05; }
+.rv-marquee .marquee__sep { opacity: 1; margin-inline: .6em; }
+
+/* о клубе */
+.tpl-rave .s-about__body { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 60px); align-items: start; }
+.tpl-rave .s-about__text { font-size: clamp(16px, 1.4vw, 20px); line-height: 1.6; }
+.tpl-rave .s-about__text::first-letter { color: var(--accent); }
+.tpl-rave .s-about__media { aspect-ratio: 1; overflow: hidden; filter: grayscale(1) contrast(1.6); border: 1px solid var(--accent); image-rendering: pixelated; }
+@media (max-width: 860px) { .tpl-rave .s-about__body { grid-template-columns: 1fr; } }
+
+/* афиша */
+.rv-events { border-top: 1px solid var(--accent); }
+.rv-event { display: grid; grid-template-columns: minmax(170px, .5fr) minmax(0, 2fr); gap: 24px; padding: clamp(22px, 3vw, 40px) 0; border-bottom: 1px solid var(--line); transition: background .2s steps(2); }
+.rv-event:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.rv-event__date { font-family: var(--font-display); font-size: clamp(22px, 2.4vw, 36px); line-height: 1; color: var(--accent); text-transform: uppercase; letter-spacing: -.03em; display: grid; gap: 10px; align-content: start; }
+.rv-event__date span { font-family: var(--font-body); font-size: 12px; color: var(--muted); letter-spacing: 0; }
+.rv-event__name { font-size: 13px; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; font-weight: 400; }
+.rv-event__acts { display: grid; }
+.rv-event__acts li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: baseline; gap: 18px; padding: 8px 0; border-top: 1px dashed var(--line); }
+.rv-event__acts b { font-family: var(--font-display); font-weight: 400; font-size: clamp(20px, 2.6vw, 42px); text-transform: uppercase; letter-spacing: -.04em; line-height: 1.05; }
+.rv-event__acts li:hover b { color: var(--accent); }
+.rv-event__acts small { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+.rv-event__acts em { font-style: normal; font-weight: 700; color: var(--bg); background: var(--accent); padding: 2px 8px; font-size: 12px; white-space: nowrap; }
+@media (max-width: 760px) { .rv-event { grid-template-columns: 1fr; gap: 12px; } .rv-event__acts li { grid-template-columns: 1fr auto; } .rv-event__acts small { grid-column: 1 / -1; } }
+/* базовое меню, если раздел останется обычным */
+.tpl-rave .s-menu__groups { display: grid; gap: 20px; }
+.tpl-rave .s-menu__gname { font-family: var(--font-display); color: var(--accent); font-weight: 400; text-transform: uppercase; }
+.tpl-rave .s-menu__item { padding: 8px 0; border-top: 1px dashed var(--line); }
+.tpl-rave .s-menu__price { color: var(--accent); }
+.tpl-rave .s-menu__text { color: var(--muted); font-size: 12px; }
+
+/* правила */
+.rv-rules__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.rv-rules__list li { background: var(--bg); padding: 24px; display: grid; gap: 10px; align-content: start; min-height: 210px; }
+.rv-rules__list li:hover { background: var(--surface); }
+.rv-rules__n { color: var(--accent); font-size: 12px; }
+.rv-rules__list h3 { font-family: var(--font-display); font-weight: 400; font-size: 21px; text-transform: uppercase; letter-spacing: -.03em; line-height: 1.1; }
+.rv-rules__list p { color: var(--muted); font-size: 13.5px; }
+.tpl-rave .s-process__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: var(--line); }
+.tpl-rave .s-process__item { background: var(--bg); padding: 22px; display: grid; gap: 8px; }
+.tpl-rave .s-process__num { color: var(--accent); }
+.tpl-rave .s-process__name { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 20px; }
+.tpl-rave .s-process__text { color: var(--muted); }
+
+/* услуги — как прайс бара/брони */
+.tpl-rave .s-services__list { border-top: 1px solid var(--accent); }
+.tpl-rave .s-services__item { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 18px; padding: 18px 0; border-bottom: 1px dashed var(--line); align-items: baseline; }
+.tpl-rave .s-services__num { color: var(--accent); font-size: 12px; }
+.tpl-rave .s-services__name { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: clamp(18px, 2vw, 28px); letter-spacing: -.03em; }
+.tpl-rave .s-services__text { color: var(--muted); font-size: 13px; }
+.tpl-rave .s-services__meta { display: grid; justify-items: end; gap: 4px; font-size: 12px; text-transform: uppercase; }
+.tpl-rave .s-services__price { background: var(--accent); color: var(--bg); padding: 2px 8px; font-weight: 700; white-space: nowrap; }
+.tpl-rave .s-services__tag { color: var(--muted); }
+
+/* работы / галерея — фото «на ксероксе» */
+.tpl-rave .s-works__grid, .tpl-rave .s-gallery__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.tpl-rave .s-works__item, .tpl-rave .s-gallery__item { background: var(--bg); position: relative; }
+.tpl-rave .s-works__media, .tpl-rave .s-gallery__item .media { aspect-ratio: 1; overflow: hidden; filter: grayscale(1) contrast(1.5); transition: filter .2s steps(2); }
+.tpl-rave .s-gallery__item { aspect-ratio: 1; overflow: hidden; }
+.tpl-rave .s-works__item:hover .s-works__media, .tpl-rave .s-gallery__item:hover .media { filter: none; }
+.tpl-rave .s-works__cap { padding: 14px; }
+.tpl-rave .s-works__name { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 18px; }
+.tpl-rave .s-works__meta { color: var(--accent); font-size: 12px; }
+.tpl-rave .s-works__text { color: var(--muted); font-size: 13px; }
+.tpl-rave .s-gallery__item figcaption { position: absolute; left: 0; bottom: 0; background: var(--accent); color: var(--bg); padding: 2px 8px; font-size: 11px; text-transform: uppercase; }
+
+/* цифры */
+.tpl-rave .s-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.tpl-rave .s-stats__item { background: var(--bg); padding: 22px; display: flex; flex-direction: column-reverse; gap: 14px; }
+.tpl-rave .s-stats__value { font-family: var(--font-display); font-size: clamp(32px, 3.8vw, 62px); line-height: .9; color: var(--accent); letter-spacing: -.05em; white-space: nowrap; }
+.tpl-rave .s-stats__suffix { font-size: .4em; color: var(--fg); margin-left: .2em; }
+.tpl-rave .s-stats__label { color: var(--muted); font-size: 12px; text-transform: uppercase; }
+
+/* отзывы — как сообщения в чате */
+.tpl-rave .s-testimonials__list { display: grid; gap: 14px; max-width: 900px; }
+.tpl-rave .s-testimonials__item { border: 1px solid var(--line); padding: 18px 20px; display: grid; gap: 12px; }
+.tpl-rave .s-testimonials__item:nth-child(even) { margin-left: auto; width: min(100%, 720px); border-color: var(--accent); }
+.tpl-rave .s-testimonials__quote { font-size: clamp(15px, 1.3vw, 18px); }
+.tpl-rave .s-testimonials__who { display: flex; gap: 10px; font-size: 12px; text-transform: uppercase; color: var(--accent); }
+.tpl-rave .s-testimonials__who b::before { content: '@'; }
+.tpl-rave .s-testimonials__who span { color: var(--muted); }
+
+/* команда — резиденты */
+.tpl-rave .s-team__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.tpl-rave .s-team__item { background: var(--bg); padding-bottom: 14px; }
+.tpl-rave .s-team__media { aspect-ratio: 1; overflow: hidden; filter: grayscale(1) contrast(1.6); margin-bottom: 12px; }
+.tpl-rave .s-team__name, .tpl-rave .s-team__role { padding-inline: 14px; }
+.tpl-rave .s-team__name { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 18px; }
+.tpl-rave .s-team__role { color: var(--accent); font-size: 12px; text-transform: uppercase; }
+
+/* тарифы — билеты */
+.tpl-rave .s-pricing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.tpl-rave .s-pricing__item { border: 1px dashed var(--fg); padding: 24px; display: grid; gap: 14px; align-content: start; position: relative; }
+.tpl-rave .s-pricing__item::before, .tpl-rave .s-pricing__item::after { content: ''; position: absolute; top: 50%; width: 18px; height: 18px; border-radius: 50%; background: var(--bg); border: 1px dashed var(--fg); }
+.tpl-rave .s-pricing__item::before { left: -10px; }
+.tpl-rave .s-pricing__item::after { right: -10px; }
+.tpl-rave .s-pricing__item.is-featured { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.tpl-rave .s-pricing__name { font-size: 12px; text-transform: uppercase; }
+.tpl-rave .s-pricing__price { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 38px); letter-spacing: -.04em; }
+.tpl-rave .s-pricing__price span { font-family: var(--font-body); font-size: 12px; }
+.tpl-rave .s-pricing__features { display: grid; gap: 6px; font-size: 13px; }
+.tpl-rave .s-pricing__features li::before { content: '+ '; }
+
+/* FAQ — как вывод терминала */
+.tpl-rave .s-faq__list { border-top: 1px solid var(--accent); max-width: 1100px; }
+.tpl-rave .s-faq__item { border-bottom: 1px dashed var(--line); }
+.tpl-rave .s-faq__q { display: flex; justify-content: space-between; gap: 16px; padding: 18px 0; font-size: clamp(15px, 1.3vw, 18px); text-transform: uppercase; }
+.tpl-rave .s-faq__q::before { content: '$'; color: var(--accent); margin-right: -6px; }
+.tpl-rave .s-faq__q span { flex: 1; }
+.tpl-rave .s-faq__q i::before { content: '[+]'; font-style: normal; color: var(--accent); }
+.tpl-rave .s-faq__item[open] .s-faq__q i::before { content: '[−]'; }
+.tpl-rave .s-faq__a { padding: 0 0 20px 22px; color: color-mix(in srgb, var(--fg) 75%, transparent); max-width: 80ch; }
+.tpl-rave .s-faq__a p::before { content: '→ '; color: var(--accent); }
+
+/* контакты */
+.tpl-rave .s-contact { background: var(--accent); color: var(--bg); }
+.tpl-rave .s-contact .s__label, .tpl-rave .s-contact .s__intro { color: var(--bg); }
+.tpl-rave .s-contact .s__title { font-size: clamp(36px, 7vw, 128px); }
+.tpl-rave .s-contact__body { display: grid; gap: 28px; }
+.tpl-rave .s-contact .btn--primary { background: var(--bg); color: var(--accent); border-color: var(--bg); width: fit-content; }
+.tpl-rave .s-contact .btn--primary:hover { background: transparent; color: var(--bg); }
+.tpl-rave .s-contact__facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; font-weight: 700; }
+.tpl-rave .s-contact__facts > * { display: grid; gap: 4px; }
+.tpl-rave .s-contact__facts small { font-weight: 400; text-transform: uppercase; font-size: 11px; }
+
+/* подвал */
+.rv-footer { padding: 0 var(--pad) 18px; border-top: 1px solid var(--line); overflow: hidden; }
+.rv-footer__word { font-family: var(--font-display); font-size: clamp(48px, 13.4vw, 260px); line-height: .9; letter-spacing: -.07em; text-transform: uppercase; white-space: nowrap; padding: 3vw 0 2vw; color: transparent; background: radial-gradient(circle, var(--accent) 1.2px, transparent 1.6px) 0 0 / 6px 6px; -webkit-background-clip: text; background-clip: text; }
+.rv-footer__grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; border-top: 1px solid var(--line); padding-top: 18px; font-size: 13px; }
+.rv-footer__grid p { display: grid; gap: 4px; align-content: start; }
+.rv-footer__grid span { color: var(--accent); font-size: 12px; }
+.rv-footer__grid a:hover { color: var(--accent); }
+.rv-footer__legal { margin-top: 30px; font-size: 11px; color: var(--muted); text-transform: uppercase; }
+@media (max-width: 760px) { .rv-footer__grid { grid-template-columns: 1fr 1fr; } }

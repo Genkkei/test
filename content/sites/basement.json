@@ -1,0 +1,126 @@
+{
+  "slug": "basement",
+  "template": "rave",
+  "name": "Basement",
+  "tagline": "Андеграунд под городом",
+  "niche": "Клуб электронной музыки и фестиваль",
+  "lang": "ru",
+  "domains": [],
+  "theme": { "bg": "#050505", "fg": "#f0f0f0", "accent": "#b6ff00", "muted": "#7a7a7a", "surface": "#121212", "line": "#262626", "display": "Rubik Mono One", "body": "JetBrains Mono", "motion": 1 },
+  "business": {
+    "type": "NightClub",
+    "legalName": "ООО «Бейсмент Клаб»",
+    "phone": "+998 71 200-00-33",
+    "email": "door@basement.uz",
+    "street": "ул. Шахрисабз, 5, вход со двора",
+    "city": "Ташкент",
+    "region": "Ташкент",
+    "country": "UZ",
+    "postalCode": "100000",
+    "lat": "41.3083",
+    "lng": "69.2756",
+    "hours": ["Th-Sa 22:00-06:00"],
+    "priceRange": "$$",
+    "founded": "2022",
+    "areaServed": "Ташкент",
+    "socials": [
+      { "name": "Instagram", "url": "https://instagram.com/basement.tas" },
+      { "name": "Telegram", "url": "https://t.me/basementtas" },
+      { "name": "SoundCloud", "url": "https://soundcloud.com/basementtas" },
+      { "name": "Resident Advisor", "url": "https://ra.co/clubs/basementtas" }
+    ]
+  },
+  "seo": {
+    "title": "Basement — клуб электронной музыки в Ташкенте",
+    "description": "Техно, хаус и электро в подвале на Шахрисабзской: вечеринки с четверга по субботу до 06:00, резиденты и гости, система звука Funktion-One. Билеты онлайн.",
+    "keywords": ["клуб Ташкент", "техно вечеринка Ташкент", "электронная музыка", "ночной клуб", "хаус", "афиша Ташкент"],
+    "ogImage": "",
+    "answer": "Basement — клуб электронной музыки в Ташкенте на ул. Шахрисабз, 5: техно, хаус и электро с четверга по субботу с 22:00 до 06:00. Вход 18+, билет онлайн — 120 000–200 000 сум, на входе дороже на 50 000 сум; фото и видео на танцполе запрещены.",
+    "index": true
+  },
+  "nav": { "cta": { "label": "Билеты", "href": "#lineup" } },
+  "sections": [
+    {
+      "id": "hero", "type": "hero", "enabled": true, "anchor": "", "label": "", "title": "Музыка громче города",
+      "eyebrow": "Клуб · Ташкент · Чт—Сб 22:00—06:00",
+      "subtitle": "Подвал на Шахрисабзской, система Funktion-One, тёмный танцпол и строгие правила: без телефонов, без VIP, без случайных людей.",
+      "words": ["Techno", "House", "Electro", "Breaks"],
+      "cta": { "label": "Купить билет", "href": "#lineup" },
+      "ctaSecondary": { "label": "Правила", "href": "#rules" },
+      "image": ""
+    },
+    { "id": "mq", "type": "marquee", "enabled": true, "anchor": "", "label": "", "title": "Правила коротко", "items": ["No photo on the dancefloor", "18+", "Respect the space", "Dance till 06:00"] },
+    {
+      "id": "lineup", "type": "menu", "enabled": true, "anchor": "lineup", "label": "Афиша", "title": "Ближайшие ночи",
+      "groups": [
+        { "name": "ЧТ 22.10 — Warm Up", "items": [
+          { "name": "Nodir Kh", "text": "residency · 23:00–02:00", "price": "120 000 сум" },
+          { "name": "Lola Static", "text": "electro · 02:00–05:00", "price": "" }
+        ] },
+        { "name": "ПТ 23.10 — Acid Friday", "items": [
+          { "name": "Kosmo Bek", "text": "acid techno · 00:00–03:00", "price": "180 000 сум" },
+          { "name": "Rina Volt", "text": "live · 03:00–04:30", "price": "" },
+          { "name": "Tashkent Tape Club", "text": "b2b · 04:30–06:00", "price": "" }
+        ] },
+        { "name": "СБ 24.10 — Basement Session 31", "items": [
+          { "name": "Marten Oy", "text": "Берлин · 01:00–03:30", "price": "200 000 сум" },
+          { "name": "Sabina D", "text": "house · 23:00–01:00", "price": "" },
+          { "name": "Nodir Kh", "text": "closing · 03:30–06:00", "price": "" }
+        ] },
+        { "name": "СБ 31.10 — Halloween Bunker", "items": [
+          { "name": "Secret guest", "text": "объявим за неделю", "price": "200 000 сум" },
+          { "name": "Kosmo Bek b2b Lola Static", "text": "all night long", "price": "" }
+        ] }
+      ]
+    },
+    {
+      "id": "about", "type": "about", "enabled": true, "anchor": "club", "label": "Клуб", "title": "Подвал на 400 человек, в котором слышно каждую ноту",
+      "text": "Basement открылся в 2022 году в бывшем складе под жилым домом. Звук настраивали инженеры, которые ставили системы в европейских клубах: Funktion-One, акустические панели, двадцать минут тишины перед каждой ночью на проверку. У нас нет VIP-зоны и столиков — только танцпол, бар и зона отдыха во дворе.",
+      "image": ""
+    },
+    {
+      "id": "rules", "type": "process", "enabled": true, "anchor": "rules", "label": "Правила", "title": "Правила подвала",
+      "items": [
+        { "title": "Без фото и видео", "text": "Камеры телефонов заклеиваем стикером на входе. Танцпол — не место для сторис." },
+        { "title": "Только 18+", "text": "На входе проверяем удостоверение личности у всех, без исключений." },
+        { "title": "Уважение", "text": "Никаких домогательств, дискриминации и агрессии. Нарушителей выводим без возврата билета." },
+        { "title": "Фейс-контроль", "text": "Смотрим не на одежду, а на настрой. Пьяных не пускаем." },
+        { "title": "Береги себя", "text": "Вода у бара бесплатно, в зоне отдыха дежурит медик." }
+      ]
+    },
+    {
+      "id": "stats", "type": "stats", "enabled": true, "anchor": "", "label": "Цифры", "title": "Подвал в данных",
+      "items": [
+        { "value": "400", "suffix": "чел.", "label": "вместимость танцпола" },
+        { "value": "31", "suffix": "", "label": "Basement Session с 2022" },
+        { "value": "8", "suffix": "ч", "label": "музыки каждую ночь" },
+        { "value": "0", "suffix": "VIP", "label": "столиков и вип-зон" }
+      ]
+    },
+    {
+      "id": "reviews", "type": "testimonials", "enabled": true, "anchor": "", "label": "Гости", "title": "Что пишут",
+      "items": [
+        { "quote": "Первый клуб в Ташкенте, где звук не режет уши даже у колонок. Ушёл в шесть утра без звона в голове.", "author": "timur.wav", "role": "гость Acid Friday" },
+        { "quote": "Стикер на камеру сначала раздражал, а потом поняла, что впервые за год просто танцевала.", "author": "malika", "role": "гость Session 28" },
+        { "quote": "Играл во многих подвалах, но здесь публика слушает. Вернусь с live-сетом.", "author": "Marten Oy", "role": "приглашённый артист" }
+      ]
+    },
+    {
+      "id": "faq", "type": "faq", "enabled": true, "anchor": "faq", "label": "FAQ", "title": "Перед ночью",
+      "items": [
+        { "q": "Сколько стоит вход?", "a": "Онлайн-билет — от 120 000 до 200 000 сум в зависимости от вечера. На входе билет дороже на 50 000 сум, если остались места." },
+        { "q": "С какого возраста можно прийти?", "a": "Только с 18 лет. Удостоверение личности проверяем у всех на входе." },
+        { "q": "Есть ли дресс-код?", "a": "Строгого нет: приходите в том, в чём удобно танцевать. Мы смотрим на настрой, а не на бренды." },
+        { "q": "Можно снимать на телефон?", "a": "На танцполе — нет, камеру заклеиваем стикером на входе. Во дворе в зоне отдыха — можно." },
+        { "q": "Можно вернуть билет?", "a": "Да, не позднее чем за 48 часов до начала вечера — по ссылке из письма с билетом." },
+        { "q": "Как добраться ночью?", "a": "Вход со двора дома на ул. Шахрисабз, 5. После закрытия у входа дежурит такси-партнёр, метро открывается в 05:00." }
+      ]
+    },
+    {
+      "id": "contact", "type": "contact", "enabled": true, "anchor": "contact", "label": "Контакты", "title": "Спускайтесь",
+      "text": "Шахрисабз, 5, вход со двора. Для артистов и промоутеров — почта ниже.",
+      "cta": { "label": "Telegram-канал", "href": "https://t.me/basementtas" }
+    }
+  ],
+  "updatedAt": ""
+}

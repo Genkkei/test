@@ -21,7 +21,7 @@ export const meta: TemplateMeta = {
     "body": "Inter Tight",
     "motion": 1
   },
-  "art": "stripes",
+  "art": "arch",
   "preview": {
     "bg": "#f2f2f0",
     "fg": "#0a0a0a",

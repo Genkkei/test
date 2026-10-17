@@ -1,5 +1,5 @@
 import { listSites } from '@/lib/store'
-import { PLATFORM_URL, seoDescription, siteUrl } from '@/lib/seo'
+import { seoDescription, siteAsset, siteUrl } from '@/lib/seo'
 
 export async function GET() {
   const sites = (await listSites()).filter((s) => s.seo.index)
@@ -10,7 +10,7 @@ export async function GET() {
     '',
     '## Сайты',
     '',
-    ...sites.map((s) => `- [${s.name}](${siteUrl(s)}): ${seoDescription(s)} — [llms.txt](${PLATFORM_URL}/${s.slug}/llms.txt)`),
+    ...sites.map((s) => `- [${s.name}](${siteUrl(s)}): ${seoDescription(s)} — [llms.txt](${siteAsset(s, 'llms')})`),
     '',
   ].join('\n')
   return new Response(body, { headers: { 'content-type': 'text/plain; charset=utf-8' } })

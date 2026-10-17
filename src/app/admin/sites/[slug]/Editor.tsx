@@ -618,6 +618,16 @@ function GeneralTab({ site, update, initialSlug }: TabProps & { initialSlug: str
         <Text label="Язык (код)" value={site.lang} onChange={(v) => update(['lang'], v)} />
         <FieldInput field={{ key: 'cta', label: 'Кнопка в шапке', kind: 'link' }} value={site.nav.cta} onChange={(v) => update(['nav', 'cta'], v)} />
       </div>
+      <div className="adm-pane__head">
+        <h2>Карточка в каталоге готовых сайтов</h2>
+        <p className="adm-muted">Что видит покупатель: цена, описание и функционал. Пустой функционал собирается из блоков сайта.</p>
+      </div>
+      <div className="adm-fields">
+        <Toggle label="Продаётся (показывать в каталоге)" value={site.listing.forSale} onChange={(v) => update(['listing', 'forSale'], v)} />
+        <Text label="Цена" value={site.listing.price} onChange={(v) => update(['listing', 'price'], v)} hint="Пусто — «цена по запросу»" />
+        <Text label="Описание" value={site.listing.description} onChange={(v) => update(['listing', 'description'], v)} area hint="Пусто — берётся сводка-ответ" />
+        <Strings label="Функционал (по строке)" value={site.listing.features} onChange={(v) => update(['listing', 'features'], v)} hint="Пусто — список собирается автоматически" />
+      </div>
       <div className="adm-danger">
         <h3>Удалить сайт</h3>
         <p className="adm-muted">Введите адрес «{initialSlug}», чтобы подтвердить.</p>
