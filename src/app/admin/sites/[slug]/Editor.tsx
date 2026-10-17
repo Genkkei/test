@@ -135,10 +135,31 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
               </button>
             </div>
           </div>
-          <div className={`adm-preview__frame adm-preview__frame--${device}`}>
-            <iframe key={previewKey} src={`/${initial.slug}`} title="Превью сайта" />
-          </div>
+          <PreviewFrame src={`/${initial.slug}`} device={device} reloadKey={previewKey} />
         </aside>
+      </div>
+    </div>
+  )
+}
+
+/** Компьютерное превью рисуется в настоящей ширине 1440 px и уменьшается целиком —
+ *  иначе узкая колонка показала бы мобильную вёрстку под видом компьютерной. */
+function PreviewFrame({ src, device, reloadKey }: { src: string; device: 'desktop' | 'phone'; reloadKey: number }) {
+  const [box, setBox] = useState<HTMLDivElement | null>(null)
+  const [size, setSize] = useState({ w: 0, h: 0 })
+  useEffect(() => {
+    if (!box) return
+    const ro = new ResizeObserver(([e]) => setSize({ w: e.contentRect.width, h: e.contentRect.height }))
+    ro.observe(box)
+    return () => ro.disconnect()
+  }, [box])
+  const W = device === 'desktop' ? 1440 : 390
+  const H = device === 'desktop' ? 900 : 844
+  const scale = size.w ? Math.min(1, size.w / W, size.h / H) : 0.4
+  return (
+    <div ref={setBox} className={`adm-preview__frame adm-preview__frame--${device}`}>
+      <div style={{ width: W * scale, height: H * scale }}>
+        <iframe key={reloadKey} src={src} title="Превью сайта" style={{ width: W, height: H, transform: `scale(${scale})`, transformOrigin: '0 0' }} />
       </div>
     </div>
   )
@@ -199,15 +220,7 @@ function FieldInput({ field, value, onChange }: { field: Field; value: any; onCh
     case 'textarea':
       return <Text label={field.label} value={value ?? ''} onChange={onChange} area hint={field.hint} />
     case 'image':
-      return (
-        <div className="adm-image">
-          <Text label={field.label} value={value ?? ''} onChange={onChange} hint="Пусто — генеративная иллюстрация в цветах сайта" mono />
-          {value ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={value} alt="" />
-          ) : null}
-        </div>
-      )
+      return <ImageField label={field.label} value={value ?? ''} onChange={onChange} />
     case 'bool':
       return <Toggle label={field.label} value={!!value} onChange={onChange} />
     case 'strings':
@@ -262,6 +275,37 @@ function FieldInput({ field, value, onChange }: { field: Field; value: any; onCh
       )
     }
   }
+}
+
+function ImageField({ label, value, onChange }: { label: string; value: string; onChange: (v: string) => void }) {
+  const [busy, setBusy] = useState(false)
+  const [err, setErr] = useState('')
+  const upload = async (file: File) => {
+    setBusy(true)
+    setErr('')
+    const body = new FormData()
+    body.append('file', file)
+    const res = await fetch('/api/admin/upload', { method: 'POST', body }).catch(() => null)
+    const data = res ? await res.json().catch(() => ({})) : {}
+    setBusy(false)
+    if (res?.ok && data.url) onChange(data.url)
+    else setErr(data.error || 'Не удалось загрузить')
+  }
+  return (
+    <div className="adm-image">
+      <Text label={label} value={value} onChange={onChange} hint="Пусто — генеративная иллюстрация в цветах сайта" mono />
+      <label className={`adm-image__drop${busy ? ' is-busy' : ''}`} title="Загрузить фото">
+        {value ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={value} alt="" />
+        ) : (
+          <span>{busy ? '…' : '+ фото'}</span>
+        )}
+        <input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif" onChange={(e) => e.target.files?.[0] && upload(e.target.files[0])} />
+      </label>
+      {err ? <p className="adm-error">{err}</p> : null}
+    </div>
+  )
 }
 
 function move<T>(list: T[], i: number, d: number): T[] {
