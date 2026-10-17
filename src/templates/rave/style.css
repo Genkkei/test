@@ -194,3 +194,7 @@
 .rv-footer__grid a:hover { color: var(--accent); }
 .rv-footer__legal { margin-top: 30px; font-size: 11px; color: var(--muted); text-transform: uppercase; }
 @media (max-width: 760px) { .rv-footer__grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 760px) {
+  .rv-event__acts em { justify-self: start; grid-column: 1 / -1; }
+  .rv-footer__word { background-size: 3px 3px; background-image: radial-gradient(circle, var(--accent) .9px, transparent 1.1px); font-size: 15vw; }
+}

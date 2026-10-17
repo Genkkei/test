@@ -7,40 +7,33 @@ import { ShaderCanvas } from '@/motion/shader'
  * нормаль из конечных разностей, отражение «студийных софтбоксов» — горизонтальных полос света.
  * Полосы медленно едут, курсор двигает студийный свет; в отражении — тонкий акцентный блик. */
 const METAL = `
+/* Кузов: поле высот из крупных изгибов. Отражение считаем «по-хромовому»: координата студии
+ * смещается на высоту и наклон поверхности, поэтому полосы софтбоксов гнутся по панелям. */
 float body(vec2 p){
   float t=uTime*.035;
-  return .6*sin(p.x*.9+.4+t)+.42*sin(p.y*1.35-p.x*.45-t*.6)+.08*snoise(p*.7+vec2(t,-t));
+  return .5*sin(p.x*1.1+.4+t)+.35*sin(p.y*1.6-p.x*.6-t*.6)+.1*snoise(p*.8+vec2(t,-t));
 }
-vec3 env(vec3 r,vec2 m,float sweep){
-  // студия: тёмный пол, светлый потолок, два софтбокса и тонкая лампа-полоса
-  float sky=smoothstep(-.6,.9,r.y+m.y*.3);
-  vec3 c=mix(uC1*.35,mix(uC2,uC3,.28),sky);
-  float box=smoothstep(.34,.04,abs(r.y-.3-m.y*.45))*smoothstep(1.3,.2,abs(r.x-m.x*1.2));
-  float box2=smoothstep(.22,.03,abs(r.x+.5-m.x*.5))*smoothstep(.9,.1,abs(r.y-.05));
-  float strip=smoothstep(.09,.0,abs(r.y+.2-.22*r.x-m.y*.2));
-  float rim=smoothstep(.06,.0,abs(r.x-.6+m.x*.3))*smoothstep(.7,.0,abs(r.y));
-  c+=uC3*box*(.55+.5*sweep);
-  c+=uC3*box2*.32;
-  c+=uC3*strip*(.22+.55*sweep);
-  c+=uC4*rim*.6;
-  return c;
-}
+float band(float x,float c,float w){return smoothstep(w,0.,abs(x-c));}
 void main(){
   vec2 uv=gl_FragCoord.xy/uRes;
   vec2 p=(gl_FragCoord.xy-.5*uRes)/uRes.y;
-  float e=.008;
+  vec2 m=uMouse-.5;
+  float e=.01;
   float h=body(p),hx=body(p+vec2(e,0.)),hy=body(p+vec2(0.,e));
-  vec3 n=normalize(vec3((h-hx)/e*1.15,(h-hy)/e*1.15,1.));
-  vec3 r=reflect(vec3(0.,0.,-1.),n);
-  vec2 m=(uMouse-.5);
-  // pow() от отрицательного основания в GLSL не определён (NaN, чёрный экран) — квадрат вручную
-  float sx=p.x-(fract(uTime*.04)*4.-2.);
-  float sweep=exp(-sx*sx*1.5);
-  vec3 col=env(r,m,sweep);
-  float fres=pow(1.-n.z,2.);
-  col=mix(col,uC2*1.4,fres*.4);
+  vec2 g=vec2(hx-h,hy-h)/e;
+  float ty=p.y*1.4+h*.55+g.y*.35+m.y*.35;
+  float tx=p.x+g.x*.4-m.x*.5;
+  // студийный свет: две широкие полосы, одна узкая, мягкий потолок
+  float l=band(ty,.42,.16)*.95+band(ty,-.05,.06)*.75+band(ty,-.42,.22)*.35;
+  l*=smoothstep(1.25,.35,abs(tx-.1));
+  float ceil=smoothstep(-.2,.9,ty)*.22;
+  float sx=tx-(fract(uTime*.045)*4.-2.);
+  float sweep=exp(-sx*sx*2.);
+  vec3 col=mix(uC1*.6,uC2*1.5,smoothstep(-.8,.8,ty));
+  col+=uC3*(l*(.55+.55*sweep)+ceil);
+  col+=uC4*band(ty,-.25,.025)*smoothstep(1.,.2,abs(tx+.4))*.9;
   col+=snoise(vec2(p.x*1.2,p.y*300.))*.012;
-  col*=1.-.6*pow(length(uv-vec2(.55,.6)),1.8);
+  col*=1.-.55*length(uv-vec2(.62,.55));
   col+=(hash(gl_FragCoord.xy+fract(uTime))-.5)*.022;
   gl_FragColor=vec4(col,1.);
 }`
