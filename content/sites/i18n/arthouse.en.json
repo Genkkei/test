@@ -1,0 +1,289 @@
+{
+  "name": "Arthouse",
+  "tagline": "A contemporary art gallery in Tashkent: new names, big exhibitions, open to everyone",
+  "niche": "Contemporary art gallery: exhibitions, talks, artwork sales",
+  "nav": {
+    "cta": {
+      "label": "Tickets",
+      "href": "#visit"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a gallery, museum or art space. A white cube with giant full-width type, a living WebGL colour field, exhibitions as an index and works in a salon hang with museum labels.",
+    "features": []
+  },
+  "seo": {
+    "title": "Arthouse — contemporary art gallery in Tashkent",
+    "description": "Exhibitions of artists from Uzbekistan and Central Asia, talks, tours and artwork sales. Tue–Sun 11:00–20:00, 74 Yahyo Gulyamov St.",
+    "keywords": [
+      "contemporary art gallery Tashkent",
+      "exhibitions Tashkent",
+      "art gallery Tashkent",
+      "buy a painting Tashkent",
+      "artists of Uzbekistan",
+      "exhibition tour"
+    ],
+    "answer": "Arthouse is a contemporary art gallery at 74 Yahyo Gulyamov Street in Tashkent, open Tuesday to Sunday from 11:00 to 20:00. Exhibition entry is 50,000 sum, free for students and children under 12; a curator-led tour is 150,000 sum. Works from the exhibitions are for sale: prices on request from the gallery manager."
+  },
+  "business": {
+    "legalName": "Arthouse Gallery LLC",
+    "street": "74 Yahyo Gulyamov St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Warm Wind: paintings by Kamila Yunusova",
+      "eyebrow": "Kamila Yunusova · “Warm Wind”, 2026 · oil on canvas · until 14 December",
+      "subtitle": "Thirty large canvases about summer in Tashkent: sun-bleached walls, the shade of plane trees and colour that stays in your memory. The artist’s first solo show.",
+      "words": [
+        "Painting",
+        "Photography",
+        "Installations",
+        "Weekend talks"
+      ],
+      "cta": {
+        "label": "Buy a ticket",
+        "href": "#visit"
+      },
+      "ctaSecondary": {
+        "label": "All exhibitions",
+        "href": "#exhibitions"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Warm Wind",
+        "Kamila Yunusova",
+        "Light and Dust",
+        "New media",
+        "Talks",
+        "Night at the gallery"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Gallery",
+      "title": "A place where art happens now",
+      "text": "Arthouse opened in 2018 in a former sewing workshop on Yahyo Gulyamov Street. 600 square metres of white walls, high ceilings and light from the roof. We show artists from Uzbekistan and Central Asia — from first solo shows to large retrospectives — host talks and help collectors find works.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Exhibitions",
+      "title": "This season",
+      "items": [
+        {
+          "title": "Warm Wind",
+          "category": "Kamila Yunusova, painting",
+          "year": "10.10 — 14.12.2026",
+          "text": "A first solo show: thirty canvases about the city in summer.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Light and Dust",
+          "category": "Group show, photography",
+          "year": "20.12.2026 — 28.02.2027",
+          "text": "Twelve photographers on the roads of the Fergana Valley.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Noise",
+          "category": "New media, video and sound",
+          "year": "March — May 2027",
+          "text": "Installations that listen to the viewer: sound, light and movement.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Clay",
+          "category": "Ceramics, archive and today",
+          "year": "June — August 2027",
+          "text": "Rishtan ceramics alongside works by young sculptors.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "In the halls",
+      "title": "On the walls now",
+      "items": [
+        {
+          "caption": "“Noon at Chorsu”, 2025",
+          "image": ""
+        },
+        {
+          "caption": "“Plane Tree Shade”, 2026",
+          "image": ""
+        },
+        {
+          "caption": "“Window on Beshagach”, 2024",
+          "image": ""
+        },
+        {
+          "caption": "“Heat”, 2026",
+          "image": ""
+        },
+        {
+          "caption": "“Evening”, 2025",
+          "image": ""
+        },
+        {
+          "caption": "“Courtyard”, 2026",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Gallery",
+      "title": "In brief",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "of exhibition halls"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "major exhibitions a season"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "days a week we’re open"
+        },
+        {
+          "value": "9",
+          "suffix": " h",
+          "label": "a day, except Mondays"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Programme",
+      "title": "What else we offer",
+      "intro": "",
+      "items": [
+        {
+          "title": "Curator-led tour",
+          "text": "An hour through the exhibition with the curator: how the works came about and what to look for. Groups up to 15.",
+          "price": "150,000 sum",
+          "tag": "Sat & Sun, 15:00"
+        },
+        {
+          "title": "Talks",
+          "text": "Talks on Central Asian and contemporary art for those just starting out.",
+          "price": "80,000 sum",
+          "tag": "Thu, 19:00"
+        },
+        {
+          "title": "Kids’ studio",
+          "text": "Sessions for children aged 6–12 inspired by the current show: we look, discuss and draw.",
+          "price": "120,000 sum",
+          "tag": "Sun, 11:00"
+        },
+        {
+          "title": "Buying works",
+          "text": "We’ll help you choose a work and arrange paperwork and delivery. Prices on request.",
+          "price": "",
+          "tag": "By appointment"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Visitors",
+      "title": "What people say",
+      "items": [
+        {
+          "quote": "Came for half an hour and stayed for three. Finally Tashkent has a place like this.",
+          "author": "Nigora",
+          "role": "visitor"
+        },
+        {
+          "quote": "The curator’s tour opened the show to me anew: I saw the canvases, but only understood them after the conversation.",
+          "author": "Jamshid",
+          "role": "architect"
+        },
+        {
+          "quote": "We bought the first work for our collection — the gallery helped with the paperwork and the frame.",
+          "author": "Elena and Rustam",
+          "role": "collectors"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you visit",
+      "items": [
+        {
+          "q": "How much is entry?",
+          "a": "An exhibition ticket is 50,000 sum. Students with ID and children under 12 get in free."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Tuesday to Sunday, 11:00 to 20:00; the gallery is closed on Mondays. Last entry at 19:30."
+        },
+        {
+          "q": "Can I take photos?",
+          "a": "Yes, without flash or a tripod. For commercial shoots, please write to us in advance."
+        },
+        {
+          "q": "How do I buy a work from the exhibition?",
+          "a": "Speak to the front desk or message us on Telegram — the manager will send a catalogue with prices and terms."
+        },
+        {
+          "q": "Is the gallery accessible?",
+          "a": "Yes, all halls are on the ground floor, the entrance is step-free and there is an accessible toilet."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Visit",
+      "title": "Come and look",
+      "text": "Tickets are sold at the door and online on Telegram. Tours and the kids’ studio are best booked in advance.",
+      "cta": {
+        "label": "Buy a ticket on Telegram",
+        "href": "https://t.me/arthousetashkent"
+      }
+    }
+  ]
+}

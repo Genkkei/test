@@ -1,0 +1,353 @@
+{
+  "name": "Ustara",
+  "tagline": "A haircut, a shave and a conversation — like the old barbershop on the corner",
+  "niche": "Barbershop: men’s haircuts, straight-razor shaves, beard care",
+  "nav": {
+    "cta": {
+      "label": "Book a chair",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a barbershop, men’s salon or tattoo studio. A vintage poster with a spinning barber pole, a letter-board price list, barbers as cards and reviews as newspaper clippings.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ustara — barbershop in Tashkent: haircuts and shaves",
+    "description": "Men’s haircuts, the royal straight-razor shave and beard care on Shota Rustaveli Street. Online booking, walk-ins welcome, coffee while you wait.",
+    "keywords": [
+      "barbershop Tashkent",
+      "men’s haircut Tashkent",
+      "straight razor shave",
+      "beard trim",
+      "barber Tashkent",
+      "royal shave"
+    ],
+    "answer": "Ustara is a barbershop at 41 Shota Rustaveli Street in Tashkent, open daily from 10:00 to 22:00. A men’s haircut is 150,000 sum, a royal shave with hot towels 120,000 sum, a haircut with beard 220,000 sum. Book on Telegram or by phone; walk-ins are welcome too."
+  },
+  "business": {
+    "legalName": "Ustara Barber LLC",
+    "street": "41 Shota Rustaveli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ustara",
+      "eyebrow": "Barbershop · 41 Shota Rustaveli · every day",
+      "subtitle": "Classic men’s cuts, straight-razor shaves with hot towels and a beard kept in shape. No rush: every guest gets an hour and a cup of coffee.",
+      "words": [
+        "haircuts",
+        "shaves",
+        "beards",
+        "conversations"
+      ],
+      "cta": {
+        "label": "Book a chair",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Price list",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Classic",
+        "Fade",
+        "Straight razor",
+        "Hot towels",
+        "Beard",
+        "Grey blending",
+        "Kids’ cuts"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A barbershop people return to for years",
+      "text": "We opened in 2019 in an old house on Rustaveli: leather chairs, tiled floor, a record player. Six barbers, each with their own hand — from strict classics to short fades. We cut only men and boys, sterilise tools after every guest and use single-use razor blades.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Price list",
+      "title": "What we do",
+      "intro": "Prices are for the barber’s work, including wash, styling and products.",
+      "items": [
+        {
+          "title": "Men’s haircut",
+          "text": "Consultation, wash, scissor and clipper cut, styling.",
+          "price": "150,000 sum",
+          "tag": "60 minutes"
+        },
+        {
+          "title": "Haircut + beard",
+          "text": "Haircut and beard shaping with a hot towel and oil.",
+          "price": "220,000 sum",
+          "tag": "Bestseller"
+        },
+        {
+          "title": "Royal shave",
+          "text": "Steam, three hot towels, straight razor, cooling mask.",
+          "price": "120,000 sum",
+          "tag": "45 minutes"
+        },
+        {
+          "title": "Beard shaping",
+          "text": "Shape, line-up, balm. For those who cut at home but trust us with the beard.",
+          "price": "90,000 sum",
+          "tag": ""
+        },
+        {
+          "title": "Clipper cut",
+          "text": "One guard all over and a neat outline.",
+          "price": "80,000 sum",
+          "tag": "30 minutes"
+        },
+        {
+          "title": "Kids’ haircut",
+          "text": "Boys under 12. Cartoons on a tablet and a lollipop at the end.",
+          "price": "100,000 sum",
+          "tag": ""
+        },
+        {
+          "title": "Grey blending",
+          "text": "Toning that keeps a natural look and washes out in 4–6 weeks.",
+          "price": "110,000 sum",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Barbers",
+      "title": "Who will cut your hair",
+      "items": [
+        {
+          "name": "Bakhtiyor",
+          "role": "senior barber, classics and shaves",
+          "image": ""
+        },
+        {
+          "name": "Timur",
+          "role": "fades and textured cuts",
+          "image": ""
+        },
+        {
+          "name": "Azamat",
+          "role": "beards and royal shaves",
+          "image": ""
+        },
+        {
+          "name": "Islom",
+          "role": "kids’ and school cuts",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Ritual",
+      "title": "How a visit goes",
+      "items": [
+        {
+          "title": "Coffee and a chat",
+          "text": "We talk about what you want and what suits your head shape and hair type."
+        },
+        {
+          "title": "Wash",
+          "text": "Shampoo for your scalp and a massage — five minutes of quiet."
+        },
+        {
+          "title": "The barber’s work",
+          "text": "Scissors, clippers, razor. No rush — we give each guest an hour."
+        },
+        {
+          "title": "Styling and tips",
+          "text": "We show how to style at home and suggest products — without pushing."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "7",
+          "suffix": " years",
+          "label": "on Rustaveli, since 2019"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "barbers on shift"
+        },
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "per guest"
+        },
+        {
+          "value": "12",
+          "suffix": " h",
+          "label": "open every day"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Club",
+      "title": "Club cards",
+      "items": [
+        {
+          "name": "Single visit",
+          "price": "150,000 sum",
+          "period": "per haircut",
+          "features": [
+            "Any barber",
+            "Coffee or tea",
+            "Booking a day ahead"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Monthly club",
+          "price": "390,000 sum",
+          "period": "per month",
+          "features": [
+            "3 haircuts or 2 haircuts + beard",
+            "Priority booking",
+            "10% off products"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Father and son",
+          "price": "230,000 sum",
+          "period": "per visit",
+          "features": [
+            "Two haircuts at the same time",
+            "Neighbouring chairs",
+            "A photo to remember"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The room",
+      "title": "Inside",
+      "items": [
+        {
+          "caption": "1960s chairs",
+          "image": ""
+        },
+        {
+          "caption": "Hot towels",
+          "image": ""
+        },
+        {
+          "caption": "Wall of records",
+          "image": ""
+        },
+        {
+          "caption": "Tools",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people say",
+      "items": [
+        {
+          "quote": "I’ve been going to Bakhtiyor for three years. Never once had to explain again what I want — he remembers.",
+          "author": "Ruslan",
+          "role": "guest since 2022"
+        },
+        {
+          "quote": "Brought my son for his first haircut — he didn’t cry and then asked to come back.",
+          "author": "Otabek",
+          "role": "father of Amir, 5"
+        },
+        {
+          "quote": "A royal shave before the wedding was the best thing I did that day before the registry office.",
+          "author": "Sherzod",
+          "role": "groom"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Do I need to book in advance?",
+          "a": "Better to book on Telegram or by phone — then your barber will definitely be free. If there’s a slot, we take walk-ins too."
+        },
+        {
+          "q": "How long does a haircut take?",
+          "a": "About an hour including consultation, wash and styling. A clipper cut is 30 minutes, a royal shave 45."
+        },
+        {
+          "q": "Can I choose a barber?",
+          "a": "Yes, name the barber when booking. Not sure who to pick? Tell us the cut you want and we’ll suggest."
+        },
+        {
+          "q": "Do you cut kids’ hair?",
+          "a": "Yes, boys from 3 years old. A kids’ haircut under 12 is 100,000 sum."
+        },
+        {
+          "q": "How can I pay?",
+          "a": "Cash, Uzcard and Humo cards, Payme or Click."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Take a seat",
+      "text": "Message us on Telegram or call — we’ll find a time and a barber. Running more than 15 minutes late? Let us know and we’ll reschedule.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/ustarabarber"
+      }
+    }
+  ]
+}

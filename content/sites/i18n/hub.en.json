@@ -1,0 +1,320 @@
+{
+  "name": "Hub 24",
+  "tagline": "A desk, a private room or an office for your team — from tomorrow and without a long lease",
+  "niche": "Coworking and serviced offices in central Tashkent",
+  "nav": {
+    "cta": {
+      "label": "Book a tour",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a coworking space, business centre or IT hub. A product-style bento grid with live widgets: a clock, “open now”, a WebGL colour field and tiles that light up under the cursor.",
+    "features": []
+  },
+  "seo": {
+    "title": "Hub 24 — coworking and offices in central Tashkent",
+    "description": "Hot desks, dedicated desks, offices for 2–20 people and meeting rooms on Amir Temur Street. 24/7 access, gigabit internet, contracts from one day.",
+    "keywords": [
+      "coworking Tashkent",
+      "office rental Tashkent",
+      "coworking desk",
+      "meeting room rental",
+      "team office",
+      "24/7 coworking"
+    ],
+    "answer": "Hub 24 is a coworking space at 107B Amir Temur Street in Tashkent with 24/7 access. A day pass is 120,000 sum, a hot desk 1,400,000 sum per month, a dedicated desk 2,100,000 sum, an office for 4 from 7,800,000 sum per month. Meeting rooms can be booked by the hour from 150,000 sum."
+  },
+  "business": {
+    "legalName": "Hub Twenty Four LLC",
+    "street": "107B Amir Temur St, floors 5–7",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "LinkedIn"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Work where you think best",
+      "eyebrow": "Coworking · 107B Amir Temur · 24/7",
+      "subtitle": "Three floors of desks, private rooms and meeting rooms in central Tashkent. Face-ID access, gigabit internet, unlimited coffee and a contract even for a single day.",
+      "words": [
+        "quiet zone",
+        "offices for 2–20",
+        "meeting rooms",
+        "kitchen and terrace",
+        "phone booths"
+      ],
+      "cta": {
+        "label": "Book a tour",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Spaces",
+      "title": "Choose how you work",
+      "intro": "Every format includes internet, coffee and tea, printing up to 100 pages a month and access to the kitchen and terrace.",
+      "items": [
+        {
+          "title": "Team office",
+          "text": "A private room for 2–20 people with furniture, a whiteboard and its own lock. Bring your own equipment and branding.",
+          "price": "from 7,800,000 sum / mo",
+          "tag": "2–20 seats"
+        },
+        {
+          "title": "Dedicated desk",
+          "text": "Your own desk with a drawer unit in the open hall: your monitor and things stay in place.",
+          "price": "2,100,000 sum / mo",
+          "tag": "24/7"
+        },
+        {
+          "title": "Hot desk",
+          "text": "Any free desk in the open hall or quiet zone.",
+          "price": "1,400,000 sum / mo",
+          "tag": ""
+        },
+        {
+          "title": "Meeting rooms",
+          "text": "Rooms for 4, 8 and 16 people with a screen, camera and whiteboard wall.",
+          "price": "from 150,000 sum / hour",
+          "tag": "Hourly"
+        },
+        {
+          "title": "Phone booths",
+          "text": "Six soundproof booths for calls — free for members.",
+          "price": "included",
+          "tag": ""
+        },
+        {
+          "title": "Event hall",
+          "text": "Up to 80 guests: meetups, lectures, presentations. Projector, sound and coffee break on request.",
+          "price": "from 1,200,000 sum / evening",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "Three floors for work",
+      "items": [
+        {
+          "value": "1800",
+          "suffix": " m²",
+          "label": "across three floors"
+        },
+        {
+          "value": "160",
+          "suffix": "",
+          "label": "workstations"
+        },
+        {
+          "value": "24",
+          "suffix": " offices",
+          "label": "for 2–20 people"
+        },
+        {
+          "value": "1",
+          "suffix": " Gbit/s",
+          "label": "fibre and a backup line"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About the hub",
+      "title": "An office without the hassle of a lease",
+      "text": "Hub 24 opened in 2023 in a business centre on Amir Temur. We take care of everything that distracts from work: cleaning, internet, security, coffee, reception and a registered address. Members are startup teams, freelancers, representative offices of foreign companies and studios.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Moving in",
+      "title": "From tour to your first working day",
+      "items": [
+        {
+          "title": "Tour",
+          "text": "Drop by for 15 minutes: we’ll show you the floors, meeting rooms and free offices."
+        },
+        {
+          "title": "Choose a format",
+          "text": "We’ll match a desk or office to your team size and budget."
+        },
+        {
+          "title": "Contract online",
+          "text": "Signed electronically, paid by card or bank transfer."
+        },
+        {
+          "title": "Access",
+          "text": "We register your face in the access system — you can start tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Pricing",
+      "title": "Prices without asterisks",
+      "items": [
+        {
+          "name": "Day pass",
+          "price": "120,000 sum",
+          "period": "day",
+          "features": [
+            "Any free desk",
+            "Coffee, tea, internet",
+            "Meeting room — at the hourly rate"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Member",
+          "price": "1,400,000 sum",
+          "period": "month",
+          "features": [
+            "24/7 access",
+            "2 meeting-room hours a month",
+            "Locker and mail"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Dedicated desk",
+          "price": "2,100,000 sum",
+          "period": "month",
+          "features": [
+            "Your own desk and drawers",
+            "5 meeting-room hours a month",
+            "Registered address"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Office for 4",
+          "price": "7,800,000 sum",
+          "period": "month",
+          "features": [
+            "Private room",
+            "10 meeting-room hours",
+            "Branded door"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Inside",
+      "title": "What working here feels like",
+      "items": [
+        {
+          "caption": "Open hall, 6th floor",
+          "image": ""
+        },
+        {
+          "caption": "Phone booths",
+          "image": ""
+        },
+        {
+          "caption": "Meeting room for 8",
+          "image": ""
+        },
+        {
+          "caption": "Kitchen",
+          "image": ""
+        },
+        {
+          "caption": "Terrace",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Members",
+      "title": "Why people stay",
+      "items": [
+        {
+          "quote": "Our team of eight moved in within two days: signed online and were working the next morning.",
+          "author": "Dilshod",
+          "role": "CTO, fintech startup"
+        },
+        {
+          "quote": "I take day passes when it’s noisy at home. The quiet zone really is quiet.",
+          "author": "Madina",
+          "role": "translator"
+        },
+        {
+          "quote": "I needed a registered address and an office to meet clients — this place has both.",
+          "author": "Abror",
+          "role": "founder of a design studio"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Can I come for just one day?",
+          "a": "Yes, a day pass is 120,000 sum: any free desk, internet, coffee and tea. Just message us on Telegram or come to reception."
+        },
+        {
+          "q": "Are you open at night and on weekends?",
+          "a": "Members get in 24/7 with their pass. Reception works daily from 08:00 to 22:00."
+        },
+        {
+          "q": "Can I register my company at your address?",
+          "a": "Yes, a registered address is included in the Dedicated desk and Office plans; for others it’s a separate service."
+        },
+        {
+          "q": "What is the minimum contract term?",
+          "a": "One day for a day pass, one month for desks and offices. 10% off when paying for six months."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, the business centre’s underground car park — with a pass; the first 2 hours are free for guests."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contacts",
+      "title": "Come for a tour",
+      "text": "We’ll show you the floors in 15 minutes and find you a spot. Tell us when suits you — we reply within an hour.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/hub24uz"
+      }
+    }
+  ]
+}

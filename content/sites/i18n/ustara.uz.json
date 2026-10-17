@@ -1,0 +1,353 @@
+{
+  "name": "Ustara",
+  "tagline": "Soch olish, soqol olish va suhbat — burchakdagi eski sartaroshxonadagidek",
+  "niche": "Barbershop: erkaklar soch turmagi, ustara bilan soqol olish, soqol parvarishi",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Barbershop, erkaklar sartaroshxonasi yoki tatu-salon uchun sayt. Aylanuvchi barber ustunli vintaj afisha, harfli doskadagi narxlar, ustalar kartochkalarda, sharhlar gazeta qirqimlari ko‘rinishida.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ustara — Toshkentdagi barbershop: soch va soqol",
+    "description": "Shota Rustaveli ko‘chasida erkaklar soch turmagi, ustara bilan qirollik soqol olish va soqol parvarishi. Onlayn yozilish, jonli navbat, kutayotganingizda qahva.",
+    "keywords": [
+      "barbershop Toshkent",
+      "erkaklar soch turmagi Toshkent",
+      "ustara bilan soqol olish",
+      "soqol olish",
+      "barber Toshkent",
+      "qirollik soqol olish"
+    ],
+    "answer": "Ustara — Toshkentdagi Shota Rustaveli ko‘chasi, 41-uydagi barbershop, har kuni 10:00 dan 22:00 gacha ishlaydi. Erkaklar soch turmagi — 150 000 so‘m, issiq sochiqli qirollik soqol olish — 120 000 so‘m, soch va soqol — 220 000 so‘m. Telegram yoki telefon orqali yoziling; jonli navbatda ham qabul qilamiz."
+  },
+  "business": {
+    "legalName": "«Ustara Barber» MChJ",
+    "street": "Shota Rustaveli ko‘chasi, 41",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ustara",
+      "eyebrow": "Barbershop · Shota Rustaveli, 41 · har kuni",
+      "subtitle": "Klassik erkaklar soch turmagi, issiq sochiq bilan ustarada soqol olish va tartibli soqol. Shoshilmasdan: har bir mehmonga bir soat va bir piyola qahva.",
+      "words": [
+        "soch turmaklari",
+        "soqol olish",
+        "soqollar",
+        "suhbatlar"
+      ],
+      "cta": {
+        "label": "Yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Narxnoma",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Klassika",
+        "Feyd",
+        "Ustara",
+        "Issiq sochiqlar",
+        "Soqol",
+        "Oq sochni bo‘yash",
+        "Bolalar soch turmagi"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Yillab qatnaladigan sartaroshxona",
+      "text": "Biz 2019-yilda Rustavelidagi eski uyda ochildik: charm kreslolar, poldagi plitka, plastinka eshittirgich. Oltita usta, har birining o‘z uslubi bor — qat’iy klassikadan qisqa feydlargacha. Faqat erkaklar va o‘g‘il bolalarni olamiz, asboblarni har mehmondan keyin sterilizatsiya qilamiz, ustara tig‘lari bir martalik.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Narxnoma",
+      "title": "Nima qilamiz",
+      "intro": "Narxlar usta ishi uchun, bosh yuvish, turmaklash va vositalar bilan birga.",
+      "items": [
+        {
+          "title": "Erkaklar soch turmagi",
+          "text": "Maslahat, yuvish, qaychi va mashinka bilan olish, turmaklash.",
+          "price": "150 000 so‘m",
+          "tag": "60 daqiqa"
+        },
+        {
+          "title": "Soch + soqol",
+          "text": "Soch olish va issiq sochiq, moy bilan soqolni shakllantirish.",
+          "price": "220 000 so‘m",
+          "tag": "Xit"
+        },
+        {
+          "title": "Qirollik soqol olish",
+          "text": "Bug‘lash, uchta issiq sochiq, ustara, sovutuvchi niqob.",
+          "price": "120 000 so‘m",
+          "tag": "45 daqiqa"
+        },
+        {
+          "title": "Soqolni shakllantirish",
+          "text": "Shakl, kontur, balzam. Uyda soch oladigan, ammo soqolini bizga ishonadiganlar uchun.",
+          "price": "90 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Mashinkada olish",
+          "text": "Butun bosh bo‘ylab bitta nasadka va toza kontur.",
+          "price": "80 000 so‘m",
+          "tag": "30 daqiqa"
+        },
+        {
+          "title": "Bolalar soch turmagi",
+          "text": "12 yoshgacha o‘g‘il bolalar uchun. Planshetda multfilm va oxirida konfet.",
+          "price": "100 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Oq sochni bo‘yash",
+          "text": "Tabiiy ko‘rinishni saqlaydigan va 4–6 haftada yuvilib ketadigan tonlash.",
+          "price": "110 000 so‘m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Ustalar",
+      "title": "Sochingizni kim oladi",
+      "items": [
+        {
+          "name": "Baxtiyor",
+          "role": "katta barber, klassika va soqol",
+          "image": ""
+        },
+        {
+          "name": "Temur",
+          "role": "feyd va teksturali soch turmaklari",
+          "image": ""
+        },
+        {
+          "name": "Azamat",
+          "role": "soqollar va qirollik soqol olish",
+          "image": ""
+        },
+        {
+          "name": "Islom",
+          "role": "bolalar va maktab soch turmaklari",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Marosim",
+      "title": "Tashrif qanday o‘tadi",
+      "items": [
+        {
+          "title": "Qahva va suhbat",
+          "text": "Nima xohlayotganingiz va bosh shakli, soch turiga nima mos kelishini muhokama qilamiz."
+        },
+        {
+          "title": "Yuvish",
+          "text": "Bosh terisiga mos shampun va massaj — besh daqiqa sokinlik."
+        },
+        {
+          "title": "Usta ishi",
+          "text": "Qaychi, mashinka, ustara. Shoshilmasdan — bir mehmonga bir soat."
+        },
+        {
+          "title": "Turmaklash va maslahatlar",
+          "text": "Uyda qanday turmaklashni ko‘rsatamiz va vositalarni maslahat beramiz — majburlamasdan."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "7",
+          "suffix": " yil",
+          "label": "Rustavelida, 2019-yildan"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "smenadagi usta"
+        },
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "bir mehmonga"
+        },
+        {
+          "value": "12",
+          "suffix": " soat",
+          "label": "har kuni ishlaymiz"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Klub",
+      "title": "Klub kartalari",
+      "items": [
+        {
+          "name": "Bir martalik tashrif",
+          "price": "150 000 so‘m",
+          "period": "bir soch turmagi",
+          "features": [
+            "Istalgan usta",
+            "Qahva yoki choy",
+            "Bir kun oldin yozilish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oylik klub",
+          "price": "390 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "3 ta soch turmagi yoki 2 ta soch + soqol",
+            "Navbatsiz yozilish",
+            "Vositalarga 10% chegirma"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ota va o‘g‘il",
+          "price": "230 000 so‘m",
+          "period": "bir tashrif",
+          "features": [
+            "Bir vaqtda ikki soch turmagi",
+            "Yonma-yon kreslolar",
+            "Esdalik surati"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zal",
+      "title": "Bizda qanday",
+      "items": [
+        {
+          "caption": "1960-yillar kreslolari",
+          "image": ""
+        },
+        {
+          "caption": "Issiq sochiqlar",
+          "image": ""
+        },
+        {
+          "caption": "Plastinkalar devori",
+          "image": ""
+        },
+        {
+          "caption": "Asboblar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Biz haqimizda yozishadi",
+      "items": [
+        {
+          "quote": "Baxtiyorga uch yildan beri qatnayman. Nima xohlashimni bir marta ham qayta tushuntirishga to‘g‘ri kelmagan — u eslab qoladi.",
+          "author": "Ruslan",
+          "role": "2022-yildan mehmon"
+        },
+        {
+          "quote": "O‘g‘limni birinchi soch olishga olib keldim — yig‘lamadi, keyin o‘zi yana kelishni so‘radi.",
+          "author": "Otabek",
+          "role": "Amirning dadasi, 5 yosh"
+        },
+        {
+          "quote": "To‘y oldidan qirollik soqol olish — o‘sha kuni FHDYOgacha qilgan eng yaxshi ishim bo‘ldi.",
+          "author": "Sherzod",
+          "role": "kuyov"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Oldindan yozilish kerakmi?",
+          "a": "Telegram yoki telefon orqali yozilgan ma’qul — shunda usta albatta bo‘sh bo‘ladi. Bo‘sh vaqt bo‘lsa, jonli navbatda ham qabul qilamiz."
+        },
+        {
+          "q": "Soch olish qancha davom etadi?",
+          "a": "Maslahat, yuvish va turmaklash bilan taxminan bir soat. Mashinkada olish — 30 daqiqa, qirollik soqol olish — 45."
+        },
+        {
+          "q": "Ustani tanlash mumkinmi?",
+          "a": "Ha, yozilishda ustani ayting. Kimni tanlashni bilmasangiz, qanday soch turmagi xohlayotganingizni ayting — maslahat beramiz."
+        },
+        {
+          "q": "Bolalarning sochini olasizmi?",
+          "a": "Ha, 3 yoshdan o‘g‘il bolalarni. 12 yoshgacha bolalar soch turmagi — 100 000 so‘m."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Naqd pul, Uzcard va Humo kartalari, Payme yoki Click orqali."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Kreslo sizni kutmoqda",
+      "text": "Telegramda yozing yoki qo‘ng‘iroq qiling — vaqt va usta tanlaymiz. 15 daqiqadan ko‘proq kechiksangiz, ogohlantiring, ko‘chiramiz.",
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/ustarabarber"
+      }
+    }
+  ]
+}

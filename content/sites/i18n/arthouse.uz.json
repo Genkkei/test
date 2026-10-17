@@ -1,0 +1,289 @@
+{
+  "name": "Arthouse",
+  "tagline": "Toshkentdagi zamonaviy san’at galereyasi: yangi ismlar, katta ko‘rgazmalar, hamma uchun ochiq",
+  "niche": "Zamonaviy san’at galereyasi: ko‘rgazmalar, ma’ruzalar, asarlar savdosi",
+  "nav": {
+    "cta": {
+      "label": "Chiptalar",
+      "href": "#visit"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Galereya, muzey yoki san’at maydoni uchun sayt. To‘liq kenglikdagi ulkan tipografikali oq kub, jonli WebGL rang maydoni, indeks ko‘rinishidagi ko‘rgazmalar va muzey yorliqli «salon» uslubidagi asarlar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Arthouse — Toshkentdagi zamonaviy san’at galereyasi",
+    "description": "O‘zbekiston va Markaziy Osiyo rassomlari ko‘rgazmalari, ma’ruzalar, ekskursiyalar va asarlar savdosi. Se–ya 11:00–20:00, Yahyo G‘ulomov ko‘chasi, 74.",
+    "keywords": [
+      "zamonaviy san’at galereyasi Toshkent",
+      "ko‘rgazmalar Toshkent",
+      "san’at galereyasi Toshkent",
+      "rasm sotib olish Toshkent",
+      "O‘zbekiston rassomlari",
+      "ko‘rgazma bo‘ylab ekskursiya"
+    ],
+    "answer": "Arthouse — Toshkentdagi Yahyo G‘ulomov ko‘chasi, 74-uydagi zamonaviy san’at galereyasi, seshanbadan yakshanbagacha 11:00 dan 20:00 gacha ochiq. Ko‘rgazmaga kirish — 50 000 so‘m, talabalar va 12 yoshgacha bolalar uchun bepul, kurator bilan ekskursiya — 150 000 so‘m. Ko‘rgazmalardagi asarlarni sotib olish mumkin: narxlar galereya menejeridan so‘rov bo‘yicha."
+  },
+  "business": {
+    "legalName": "«Artxaus Galereya» MChJ",
+    "street": "Yahyo G‘ulomov ko‘chasi, 74",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Iliq shamol: Kamila Yunusova rangtasvirlari",
+      "eyebrow": "Kamila Yunusova · «Iliq shamol», 2026 · moybo‘yoq, kanvas · 14-dekabrgacha",
+      "subtitle": "Yozgi Toshkent haqida o‘ttizta katta kanvas: quyoshda oqargan devorlar, chinorlar soyasi va xotirada qoladigan rang. Rassomaning birinchi shaxsiy ko‘rgazmasi.",
+      "words": [
+        "Rangtasvir",
+        "Fotografiya",
+        "Installyatsiyalar",
+        "Dam olish kunlari ma’ruzalar"
+      ],
+      "cta": {
+        "label": "Chipta sotib olish",
+        "href": "#visit"
+      },
+      "ctaSecondary": {
+        "label": "Barcha ko‘rgazmalar",
+        "href": "#exhibitions"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Iliq shamol",
+        "Kamila Yunusova",
+        "Yorug‘lik va chang",
+        "Yangi media",
+        "Ma’ruzalar",
+        "Galereyada tun"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Galereya",
+      "title": "San’at aynan hozir sodir bo‘ladigan joy",
+      "text": "Arthouse 2018-yilda Yahyo G‘ulomov ko‘chasidagi sobiq tikuv sexida ochildi. 600 kvadrat metr oq devorlar, baland shiftlar va tomdan tushadigan yorug‘lik. Biz O‘zbekiston va Markaziy Osiyo rassomlarini ko‘rsatamiz — birinchi shaxsiy ko‘rgazmalardan katta retrospektivalargacha, — ma’ruzalar o‘tkazamiz va kolleksionerlarga asar topishda yordam beramiz.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ko‘rgazmalar",
+      "title": "Mavsum dasturi",
+      "items": [
+        {
+          "title": "Iliq shamol",
+          "category": "Kamila Yunusova, rangtasvir",
+          "year": "10.10 — 14.12.2026",
+          "text": "Birinchi shaxsiy ko‘rgazma: yozgi shahar haqida o‘ttizta kanvas.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yorug‘lik va chang",
+          "category": "Guruh ko‘rgazmasi, fotografiya",
+          "year": "20.12.2026 — 28.02.2027",
+          "text": "O‘n ikki fotograf Farg‘ona vodiysi yo‘llari haqida.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Shovqin",
+          "category": "Yangi media, video va ovoz",
+          "year": "mart — may 2027",
+          "text": "Tomoshabinni tinglaydigan installyatsiyalar: ovoz, yorug‘lik va harakat.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Loy",
+          "category": "Keramika, arxiv va zamonaviylik",
+          "year": "iyun — avgust 2027",
+          "text": "Rishton keramikasi yosh haykaltaroshlar asarlari yonida.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zallarda",
+      "title": "Hozir devorlarda",
+      "items": [
+        {
+          "caption": "«Chorsuda tush», 2025",
+          "image": ""
+        },
+        {
+          "caption": "«Chinor soyasi», 2026",
+          "image": ""
+        },
+        {
+          "caption": "«Beshyog‘ochga deraza», 2024",
+          "image": ""
+        },
+        {
+          "caption": "«Jazirama», 2026",
+          "image": ""
+        },
+        {
+          "caption": "«Oqshom», 2025",
+          "image": ""
+        },
+        {
+          "caption": "«Hovli», 2026",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Galereya",
+      "title": "Qisqacha",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "ko‘rgazma zallari"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "mavsumdagi katta ko‘rgazmalar"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "haftada ochiq kunlar"
+        },
+        {
+          "value": "9",
+          "suffix": " soat",
+          "label": "kuniga, dushanbadan tashqari"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Dastur",
+      "title": "Bizda yana nimalar bor",
+      "intro": "",
+      "items": [
+        {
+          "title": "Kurator bilan ekskursiya",
+          "text": "Kurator bilan ko‘rgazma bo‘ylab bir soat: asarlar qanday paydo bo‘lgani va ularda nimani izlash kerakligi. 15 kishigacha guruh.",
+          "price": "150 000 so‘m",
+          "tag": "Sh va ya, 15:00"
+        },
+        {
+          "title": "Ma’ruzalar",
+          "text": "Endi boshlayotganlar uchun Markaziy Osiyo va zamonaviy san’at haqida ma’ruzalar.",
+          "price": "80 000 so‘m",
+          "tag": "Pa, 19:00"
+        },
+        {
+          "title": "Bolalar studiyasi",
+          "text": "6–12 yoshli bolalar uchun joriy ko‘rgazma asosida mashg‘ulotlar: ko‘ramiz, muhokama qilamiz, chizamiz.",
+          "price": "120 000 so‘m",
+          "tag": "Ya, 11:00"
+        },
+        {
+          "title": "Asar sotib olish",
+          "text": "Asar tanlash, hujjatlar va yetkazib berishni rasmiylashtirishda yordam beramiz. Narxlar — so‘rov bo‘yicha.",
+          "price": "",
+          "tag": "Yozilish bo‘yicha"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "Yarim soatga kelib, uch soat qoldim. Nihoyat Toshkentda shunday joy bor.",
+          "author": "Nigora",
+          "role": "tashrif buyuruvchi"
+        },
+        {
+          "quote": "Kurator bilan ekskursiya ko‘rgazmani men uchun qaytadan ochdi: kanvaslarni ko‘rgandim, lekin ularni suhbatdan keyingina tushundim.",
+          "author": "Jamshid",
+          "role": "arxitektor"
+        },
+        {
+          "quote": "Kolleksiyamiz uchun birinchi asarni sotib oldik — galereya hujjatlar va rom bilan yordam berdi.",
+          "author": "Yelena va Rustam",
+          "role": "kolleksionerlar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Kirish qancha turadi?",
+          "a": "Ko‘rgazmaga chipta — 50 000 so‘m. Talabalar talabalik guvohnomasi bilan va 12 yoshgacha bolalar bepul kiradi."
+        },
+        {
+          "q": "Qachon ochiqsiz?",
+          "a": "Seshanbadan yakshanbagacha 11:00 dan 20:00 gacha, dushanba kuni galereya yopiq. Oxirgi kirish — 19:30 da."
+        },
+        {
+          "q": "Suratga olish mumkinmi?",
+          "a": "Ha, chaqnoq va shtativsiz. Tijoriy suratga olish uchun oldindan yozing."
+        },
+        {
+          "q": "Ko‘rgazmadagi asarni qanday sotib olish mumkin?",
+          "a": "Administratorga murojaat qiling yoki Telegramda yozing — menejer narxlar va shartlar bilan katalog yuboradi."
+        },
+        {
+          "q": "Harakati cheklangan mehmonlar uchun qulaymi?",
+          "a": "Ha, barcha zallar birinchi qavatda, kirish zinasiz, nogironligi bor mehmonlar uchun hojatxona bor."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Tashrif",
+      "title": "Tomosha qilgani keling",
+      "text": "Chiptalar kirishda va Telegramda onlayn sotiladi. Ekskursiya va bolalar studiyasini oldindan band qilgan ma’qul.",
+      "cta": {
+        "label": "Telegramda chipta olish",
+        "href": "https://t.me/arthousetashkent"
+      }
+    }
+  ]
+}

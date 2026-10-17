@@ -1,0 +1,320 @@
+{
+  "name": "Hub 24",
+  "tagline": "Ish joyi, xona yoki jamoa uchun ofis — ertadan boshlab va uzoq shartnomasiz",
+  "niche": "Toshkent markazida kovorking va servis ofislar",
+  "nav": {
+    "cta": {
+      "label": "Ekskursiyaga yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kovorking, biznes-markaz yoki IT-hab uchun sayt. Jonli vidjetli mahsulot uslubidagi bento-to‘r: soat, «hozir ochiq», WebGL rang maydoni va kursor ostida yonadigan plitkalar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Hub 24 — Toshkent markazida kovorking va ofislar",
+    "description": "Amir Temur ko‘chasida ish joylari, biriktirilgan stollar, 2–20 kishilik ofislar va muzokara xonalari. 24/7 kirish, gigabit internet, shartnoma bir kundan.",
+    "keywords": [
+      "kovorking Toshkent",
+      "ofis ijarasi Toshkent",
+      "kovorkingda ish joyi",
+      "muzokara xonasi ijarasi",
+      "jamoa uchun ofis",
+      "24/7 kovorking"
+    ],
+    "answer": "Hub 24 — Toshkentdagi Amir Temur ko‘chasi, 107B-uydagi 24/7 kirishli kovorking. Mehmon kuni — 120 000 so‘m, biriktirilmagan joy — oyiga 1 400 000 so‘m, biriktirilgan stol — 2 100 000 so‘m, 4 kishilik ofis — oyiga 7 800 000 so‘mdan. Muzokara xonasini soatbay 150 000 so‘mdan ijaraga olish mumkin."
+  },
+  "business": {
+    "legalName": "«Hab Yigirma To‘rt» MChJ",
+    "street": "Amir Temur ko‘chasi, 107B, 5–7-qavatlar",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "LinkedIn"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Fikr keladigan joyda ishlang",
+      "eyebrow": "Kovorking · Amir Temur, 107B · 24/7",
+      "subtitle": "Toshkent markazida uch qavat ish joylari, xonalar va muzokara xonalari. Yuz orqali kirish, gigabit internet, cheklanmagan qahva va hatto bir kunlik shartnoma.",
+      "words": [
+        "sokin zona",
+        "2–20 kishilik xonalar",
+        "muzokara xonalari",
+        "oshxona va terrasa",
+        "telefon kabinalari"
+      ],
+      "cta": {
+        "label": "Ekskursiyaga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Tariflar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Joylar",
+      "title": "Ish formatini tanlang",
+      "intro": "Barcha formatlarga internet, qahva va choy, oyiga 100 varaqgacha chop etish va oshxona, terrasadan foydalanish kiradi.",
+      "items": [
+        {
+          "title": "Jamoa uchun ofis",
+          "text": "2–20 kishilik mebelli, doskali va o‘z qulfi bor yopiq xona. O‘z texnikangizni qo‘yib, brendlash mumkin.",
+          "price": "oyiga 7 800 000 so‘mdan",
+          "tag": "2–20 joy"
+        },
+        {
+          "title": "Biriktirilgan stol",
+          "text": "Ochiq zalda tumbali o‘z stolingiz: monitor va narsalaringiz joyida qoladi.",
+          "price": "oyiga 2 100 000 so‘m",
+          "tag": "24/7"
+        },
+        {
+          "title": "Biriktirilmagan joy",
+          "text": "Ochiq zal yoki sokin zonadagi istalgan bo‘sh stol.",
+          "price": "oyiga 1 400 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Muzokara xonalari",
+          "text": "Ekran, kamera va marker devorli 4, 8 va 16 kishilik xonalar.",
+          "price": "soatiga 150 000 so‘mdan",
+          "tag": "Soatbay"
+        },
+        {
+          "title": "Telefon kabinalari",
+          "text": "Qo‘ng‘iroqlar uchun oltita ovoz o‘tkazmaydigan kabina — rezidentlar uchun bepul.",
+          "price": "kiritilgan",
+          "tag": ""
+        },
+        {
+          "title": "Tadbirlar zali",
+          "text": "80 tagacha mehmon: mitaplar, ma’ruzalar, taqdimotlar. Proyektor, ovoz va qahva-breyk so‘rov bo‘yicha.",
+          "price": "kechasiga 1 200 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Ish uchun uch qavat",
+      "items": [
+        {
+          "value": "1800",
+          "suffix": " m²",
+          "label": "uch qavat maydoni"
+        },
+        {
+          "value": "160",
+          "suffix": "",
+          "label": "ish joyi"
+        },
+        {
+          "value": "24",
+          "suffix": " ofis",
+          "label": "2–20 kishilik"
+        },
+        {
+          "value": "1",
+          "suffix": " Gbit/s",
+          "label": "optika va zaxira kanal"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Hab haqida",
+      "title": "Ijara tashvishisiz ofis",
+      "text": "Hub 24 2023-yilda Amir Temurdagi biznes-markazda ochildi. Ishdan chalg‘itadigan hamma narsani o‘z zimmamizga olamiz: tozalash, internet, qo‘riqlash, qahva, resepshn va yuridik manzil. Rezidentlar — startap jamoalari, frilanserlar, xorijiy kompaniyalar vakolatxonalari va studiyalar.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday kirish",
+      "title": "Ekskursiyadan birinchi ish kunigacha",
+      "items": [
+        {
+          "title": "Ekskursiya",
+          "text": "15 daqiqaga keling: qavatlar, muzokara xonalari va bo‘sh ofislarni ko‘rsatamiz."
+        },
+        {
+          "title": "Format tanlash",
+          "text": "Jamoa hajmi va byudjetga mos joy yoki ofis tanlaymiz."
+        },
+        {
+          "title": "Onlayn shartnoma",
+          "text": "Elektron imzolaymiz, to‘lov karta yoki o‘tkazma orqali."
+        },
+        {
+          "title": "Ruxsatnoma",
+          "text": "Yuzingizni kirish tizimiga ro‘yxatdan o‘tkazamiz — ertadan ishlash mumkin."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "Yulduzchasiz narxlar",
+      "items": [
+        {
+          "name": "Mehmon kuni",
+          "price": "120 000 so‘m",
+          "period": "kun",
+          "features": [
+            "Istalgan bo‘sh joy",
+            "Qahva, choy, internet",
+            "Muzokara xonasi — tarif bo‘yicha"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Rezident",
+          "price": "1 400 000 so‘m",
+          "period": "oy",
+          "features": [
+            "24/7 kirish",
+            "Oyiga 2 soat muzokara xonasi",
+            "Shkafcha va pochta"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Biriktirilgan stol",
+          "price": "2 100 000 so‘m",
+          "period": "oy",
+          "features": [
+            "O‘z stoli va tumbasi",
+            "Oyiga 5 soat muzokara xonasi",
+            "Yuridik manzil"
+          ],
+          "featured": true
+        },
+        {
+          "name": "4 kishilik ofis",
+          "price": "7 800 000 so‘m",
+          "period": "oy",
+          "features": [
+            "Yopiq xona",
+            "10 soat muzokara xonasi",
+            "Eshikni brendlash"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ichkarida",
+      "title": "Bu yerda qanday ishlanadi",
+      "items": [
+        {
+          "caption": "6-qavatdagi ochiq zal",
+          "image": ""
+        },
+        {
+          "caption": "Telefon kabinalari",
+          "image": ""
+        },
+        {
+          "caption": "8 kishilik muzokara xonasi",
+          "image": ""
+        },
+        {
+          "caption": "Oshxona",
+          "image": ""
+        },
+        {
+          "caption": "Terrasa",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Rezidentlar",
+      "title": "Nega qolishadi",
+      "items": [
+        {
+          "quote": "Sakkiz kishilik jamoa bilan ikki kunda ko‘chib o‘tdik: shartnomani onlayn imzoladik, ertasi kuni ertalab ishlay boshladik.",
+          "author": "Dilshod",
+          "role": "CTO, fintex-startap"
+        },
+        {
+          "quote": "Uyda shovqin bo‘lganda mehmon kunlarini olaman. Sokin zona rostdan ham sokin.",
+          "author": "Madina",
+          "role": "tarjimon"
+        },
+        {
+          "quote": "Yuridik manzil va mijozlar bilan uchrashish uchun ofis kerak edi — bu yerda ikkalasi ham bor.",
+          "author": "Abror",
+          "role": "dizayn studiyasi asoschisi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Bir kunga kelish mumkinmi?",
+          "a": "Ha, mehmon kuni 120 000 so‘m: istalgan bo‘sh joy, internet, qahva va choy. Telegramda yozing yoki resepshnga keling."
+        },
+        {
+          "q": "Kechasi va dam olish kunlari ishlaysizmi?",
+          "a": "Rezidentlar ruxsatnoma bilan 24/7 kiradi. Resepshn har kuni 08:00 dan 22:00 gacha ishlaydi."
+        },
+        {
+          "q": "Kompaniyani sizning manzilingizga ro‘yxatdan o‘tkazish mumkinmi?",
+          "a": "Ha, yuridik manzil «Biriktirilgan stol» va «Ofis» tariflariga kiradi, qolganlar uchun — alohida xizmat."
+        },
+        {
+          "q": "Shartnomaning eng qisqa muddati qancha?",
+          "a": "Mehmon kirishi uchun bir kun, joylar va xonalar uchun bir oy. Yarim yilga to‘lasangiz 10% chegirma."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, biznes-markazning yer osti avtoturargohi — ruxsatnoma bilan, mehmonlar uchun birinchi 2 soat bepul."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Ekskursiyaga keling",
+      "text": "15 daqiqada qavatlarni ko‘rsatamiz va joy tanlaymiz. Qachon qulay ekanini yozing — bir soat ichida javob beramiz.",
+      "cta": {
+        "label": "Telegramda yozish",
+        "href": "https://t.me/hub24uz"
+      }
+    }
+  ]
+}
