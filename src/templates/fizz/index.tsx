@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -18,10 +19,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <Curtain word={site.name} />
       <FizzHeader>
-        <a href="#top" className="fizz-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="fizz-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
-        <nav className="fizz-nav" aria-label="Разделы">
+        <nav className="fizz-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -34,7 +35,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </FizzHeader>
       <main id="top">{children}</main>
@@ -42,16 +43,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <Marquee items={[site.tagline || site.name, site.name, site.tagline || site.name, site.name]} className="marquee fizz-footer__mq" speed={30} sep="●" />
         <div className="fizz-footer__grid">
           <div>
-            <p className="fizz-sticker">Связь</p>
+            <p className="fizz-sticker">{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</p>
             {site.business.phone ? <a href={`tel:${site.business.phone.replace(/[^\d+]/g, '')}`}>{site.business.phone}</a> : null}
             {site.business.email ? <a href={`mailto:${site.business.email}`}>{site.business.email}</a> : null}
           </div>
           <div>
-            <p className="fizz-sticker">Адрес</p>
+            <p className="fizz-sticker">{pick(site.lang, { ru: 'Адрес', uz: 'Manzil', en: 'Address' })}</p>
             <span>{[site.business.street, site.business.city].filter(Boolean).join(', ')}</span>
           </div>
           <div>
-            <p className="fizz-sticker">Соцсети</p>
+            <p className="fizz-sticker">{pick(site.lang, { ru: 'Соцсети', uz: 'Ijtimoiy tarmoqlar', en: 'Social' })}</p>
             {site.business.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -63,7 +64,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           {site.name}
         </p>
         <p className="fizz-footer__legal">
-          © {new Date().getFullYear()} {site.business.legalName || site.name}. Тонизирующий напиток. Не рекомендуется детям, беременным и кормящим.
+          © {new Date().getFullYear()} {site.business.legalName || site.name}. {pick(site.lang, { ru: 'Тонизирующий напиток. Не рекомендуется детям, беременным и кормящим.', uz: 'Tetiklashtiruvchi ichimlik. Bolalar, homilador va emizikli ayollarga tavsiya etilmaydi.', en: 'Energy drink. Not recommended for children or pregnant or breastfeeding women.' })}
         </p>
       </footer>
     </>
@@ -79,9 +80,9 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         <Marquee items={[...words].reverse()} className="marquee fizz-hero__mq fizz-hero__mq--rev" speed={26} sep="✱" />
       </div>
       <div className="fizz-hero__stage fizz-rise" style={{ ['--d' as string]: '1.25s' }}>
-        <Can name={site.name} flavor={s.eyebrow || 'Original'} color={site.theme.accent} className="can--hero" />
+        <Can strip={pick(site.lang, { ru: '0% сахара · 250 мл', uz: '0% shakar · 250 ml', en: '0% sugar · 250 ml' })} name={site.name} flavor={s.eyebrow || 'Original'} color={site.theme.accent} className="can--hero" />
         <span className="fizz-hero__sticker" aria-hidden="true">
-          0 г<br />сахара
+          {pick(site.lang, { ru: '0 г', uz: '0 g', en: '0 g' })}<br />{pick(site.lang, { ru: 'сахара', uz: 'shakar', en: 'sugar' })}
         </span>
       </div>
       <div className="fizz-hero__copy">
@@ -127,7 +128,7 @@ function Services({ section: s, site }: SectionProps<'services'>) {
         {s.items.map((it, i) => (
           <article key={i} className="fizz-flavor" style={{ ['--fl' as string]: flavorColor(site, i) }} data-reveal="up" data-delay={String((i % 3) * 0.08)}>
             <div className="fizz-flavor__stage">
-              <Can name={site.name} flavor={it.title} color={flavorColor(site, i)} live={false} className="can--card" />
+              <Can strip={pick(site.lang, { ru: '0% сахара · 250 мл', uz: '0% shakar · 250 ml', en: '0% sugar · 250 ml' })} name={site.name} flavor={it.title} color={flavorColor(site, i)} live={false} className="can--card" />
               {it.tag ? <span className="fizz-flavor__tag">{it.tag}</span> : null}
             </div>
             <div className="fizz-flavor__body">
@@ -142,9 +143,9 @@ function Services({ section: s, site }: SectionProps<'services'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee fizz-band" aria-label={s.title || 'Ключевые слова'}>
+    <section className="s s-marquee fizz-band" aria-label={s.title || pick(site.lang, { ru: 'Ключевые слова', uz: 'Kalit so‘zlar', en: 'Keywords' })}>
       <Marquee items={s.items} speed={28} sep="✱" />
       <Marquee items={s.items} className="marquee fizz-band__back" speed={34} sep="✱" />
     </section>

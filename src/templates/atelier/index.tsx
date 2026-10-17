@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
@@ -17,17 +18,17 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <PaperHeader>
-        <nav className="at-nav at-nav--l" aria-label="Разделы">
+        <nav className="at-nav at-nav--l" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.slice(0, half).map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
             </a>
           ))}
         </nav>
-        <a href="#top" className="at-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="at-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
-        <nav className="at-nav at-nav--r" aria-label="Ещё разделы">
+        <nav className="at-nav at-nav--r" aria-label={pick(site.lang, { ru: 'Ещё разделы', uz: 'Boshqa bo‘limlar', en: 'More sections' })}>
           {links.slice(half).map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -39,7 +40,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             </a>
           ) : null}
         </nav>
-        <MobileMenu links={links} cta={site.nav.cta} />
+        <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
       </PaperHeader>
       <main id="top">{children}</main>
       <footer className="at-footer">
@@ -48,22 +49,22 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </p>
         <div className="at-footer__cols">
           <div>
-            <h3>Адрес</h3>
+            <h3>{pick(site.lang, { ru: 'Адрес', uz: 'Manzil', en: 'Address' })}</h3>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
           </div>
           <div>
-            <h3>Часы</h3>
+            <h3>{pick(site.lang, { ru: 'Часы', uz: 'Ish vaqti', en: 'Hours' })}</h3>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <h3>Связь</h3>
+            <h3>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</h3>
             {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <h3>Мы в сети</h3>
+            <h3>{pick(site.lang, { ru: 'Мы в сети', uz: 'Biz tarmoqlarda', en: 'Follow us' })}</h3>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -115,7 +116,7 @@ function Hero({ section: s, site, art }: SectionProps<'hero'>) {
         </figure>
         {s.words.length ? (
           <aside className="at-hero__note" data-reveal="fade" data-delay="0.7">
-            <span>Сегодня в витрине</span>
+            <span>{pick(site.lang, { ru: 'Сегодня в витрине', uz: 'Bugun vitrinada', en: 'On the counter today' })}</span>
             {s.words.map((w) => (
               <i key={w}>{w}</i>
             ))}

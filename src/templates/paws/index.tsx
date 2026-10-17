@@ -1,7 +1,8 @@
 import './style.css'
 import type { Site } from '@/lib/schema'
 import { MobileMenu, Marquee } from '@/motion/widgets'
-import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { Head, Shell as Sec } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { fontStack } from '@/lib/fonts'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
@@ -46,11 +47,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <div className="pw-root" style={{ ['--hand' as string]: fontStack('Caveat') }}>
       <PawsHeader>
-        <a href="#top" className="pw-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="pw-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
           <Paw className="pw-logo__paw" />
           {site.name}
         </a>
-        <nav className="pw-nav" aria-label="Разделы">
+        <nav className="pw-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -69,7 +70,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </PawsHeader>
       <main id="top">{children}</main>
@@ -87,19 +88,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </div>
           <div className="pw-footer__cols">
             <div>
-              <h3>Клиника</h3>
+              <h3>{pick(site.lang, { ru: 'Клиника', uz: 'Klinika', en: 'Clinic' })}</h3>
               <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
               {b.hours.map((h) => (
-                <p key={h}>{humanHours(h)}</p>
+                <p key={h}>{humanHours(h, site.lang)}</p>
               ))}
             </div>
             <div>
-              <h3>Позвонить</h3>
+              <h3>{pick(site.lang, { ru: 'Позвонить', uz: 'Qo‘ng‘iroq qilish', en: 'Call us' })}</h3>
               {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
               {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
             </div>
             <div>
-              <h3>Мы в сетях</h3>
+              <h3>{pick(site.lang, { ru: 'Мы в сетях', uz: 'Ijtimoiy tarmoqlarda', en: 'Follow us' })}</h3>
               {b.socials.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                   {s.name}
@@ -109,7 +110,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </div>
         </div>
         <p className="pw-footer__legal">
-          © {new Date().getFullYear()} {b.legalName || site.name} · Лицензия на ветеринарную деятельность — у администратора
+          © {new Date().getFullYear()} {b.legalName || site.name} · {pick(site.lang, { ru: 'Лицензия на ветеринарную деятельность — у администратора', uz: 'Veterinariya faoliyati litsenziyasi — administratorda', en: 'Veterinary licence available from reception' })}
         </p>
       </footer>
     </div>
@@ -148,7 +149,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
             ) : null}
           </div>
           {s.words.length ? (
-            <ul className="pw-hero__pets pw-rise" style={{ ['--d' as string]: '.75s' }} aria-label="Кого лечим">
+            <ul className="pw-hero__pets pw-rise" style={{ ['--d' as string]: '.75s' }} aria-label={pick(site.lang, { ru: 'Кого лечим', uz: 'Kimlarni davolaymiz', en: 'Who we treat' })}>
               {s.words.map((w) => (
                 <li key={w}>{w}</li>
               ))}
@@ -161,11 +162,11 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           <span className="pw-heart" aria-hidden="true">
             ♥
           </span>
-          <Cat />
+          <Cat lang={site.lang} />
           <p className="pw-note" aria-hidden="true">
-            это Рыжик,
+            {pick(site.lang, { ru: 'это Рыжик,', uz: 'bu Malla,', en: 'this is Ginger,' })}
             <br />
-            он тут главврач
+            {pick(site.lang, { ru: 'он тут главврач', uz: 'u bu yerda bosh shifokor', en: 'he’s the head vet' })}
             <svg viewBox="0 0 80 50">
               <path d="M4 6 C 30 4, 60 14, 70 42 M70 42 l -12 -4 M70 42 l 2 -12" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
             </svg>
@@ -205,9 +206,9 @@ function Services({ section: s }: SectionProps<'services'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee pw-ribbon" aria-label={s.title || 'О клинике'}>
+    <section className="s s-marquee pw-ribbon" aria-label={s.title || pick(site.lang, { ru: 'О клинике', uz: 'Klinika haqida', en: 'About the clinic' })}>
       <Marquee items={s.items} speed={40} sep="🐾" />
     </section>
   )

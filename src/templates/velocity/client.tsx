@@ -62,20 +62,20 @@ export function SkewDriver() {
 }
 
 /** Шапка с живым статусом «открыто/закрыто» по часам клуба (Ташкент, UTC+5). */
-export function OpenStatus({ open, close }: { open: number; close: number }) {
+export function OpenStatus({ open, close, labels = ['Часы работы', 'Клуб открыт', 'Сейчас закрыто'] }: { open: number; close: number; labels?: [string, string, string] }) {
   const ref = useRef<HTMLSpanElement>(null)
   useEffect(() => {
     const h = Number(new Intl.DateTimeFormat('en-GB', { hour: 'numeric', hour12: false, timeZone: 'Asia/Tashkent' }).format(new Date()))
     const on = close > open ? h >= open && h < close : h >= open || h < close
     if (ref.current) {
       ref.current.dataset.on = on ? '1' : '0'
-      ref.current.lastChild!.textContent = on ? 'Клуб открыт' : 'Сейчас закрыто'
+      ref.current.lastChild!.textContent = on ? labels[1] : labels[2]
     }
-  }, [open, close])
+  }, [open, close, labels])
   return (
     <span ref={ref} className="v-status" suppressHydrationWarning>
       <i aria-hidden="true" />
-      <span>Часы работы</span>
+      <span>{labels[0]}</span>
     </span>
   )
 }

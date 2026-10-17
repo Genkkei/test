@@ -224,3 +224,6 @@ a.mono-work:hover .mono-work__name { color: var(--accent); }
 .mono-footer__note { font-size: 11px; color: color-mix(in srgb, var(--bg) 50%, transparent); border-top: 1px solid color-mix(in srgb, var(--bg) 20%, transparent); padding-top: 16px; }
 @media (max-width: 760px) { .mono-footer__cols { grid-template-columns: 1fr 1fr; } }
 
+/* В узбекском и английском слова заголовка длиннее русских («EXPECTATIONS» — 12 букв): кегль
+   первого экрана ниже, чтобы самое длинное слово помещалось в ширину телефона. */
+.mono-hero__title:lang(en), .mono-hero__title:lang(uz) { font-size: clamp(42px, 12.4vw, 260px); overflow-wrap: anywhere; }

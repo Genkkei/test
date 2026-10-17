@@ -5,6 +5,7 @@ import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { WindowLight } from './client'
 
 const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, '')}`
@@ -15,10 +16,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <header className="kin-header">
-        <a href="#top" className="kin-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="kin-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           {site.name}
         </a>
-        <nav className="kin-nav" aria-label="Разделы">
+        <nav className="kin-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
             <a key={l.href} href={l.href}>
               <sup>{String(i + 1).padStart(2, '0')}</sup>
@@ -32,7 +33,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label} →
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <main id="top">{children}</main>
@@ -47,19 +48,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </div>
         <div className="kin-footer__grid">
           <div>
-            <p className="kin-footer__h">Студия</p>
+            <p className="kin-footer__h">{pick(site.lang, { ru: 'Студия', uz: 'Studiya', en: 'Studio' })}</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
               <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <p className="kin-footer__h">Контакты</p>
+            <p className="kin-footer__h">{pick(site.lang, { ru: 'Контакты', uz: 'Kontaktlar', en: 'Contacts' })}</p>
             {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <p className="kin-footer__h">Журнал</p>
+            <p className="kin-footer__h">{pick(site.lang, { ru: 'Журнал', uz: 'Jurnal', en: 'Journal' })}</p>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -133,7 +134,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
                 <Media src={it.image} alt={it.title} seed={`${site.slug}-w${i}`} colors={soft} kind={art} className="media" />
               </figure>
               <div className="kin-spread__cap" data-reveal="up">
-                <p className="kin-spread__no">№ {String(i + 1).padStart(2, '0')}</p>
+                <p className="kin-spread__no">{pick(site.lang, { ru: '№', uz: '№', en: 'No.' })} {String(i + 1).padStart(2, '0')}</p>
                 <h3 className="kin-spread__name">{it.title}</h3>
                 <p className="kin-spread__meta">{[it.category, it.year].filter(Boolean).join(' · ')}</p>
                 <p className="kin-spread__text">{facts[0]}</p>

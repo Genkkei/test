@@ -87,7 +87,7 @@ export function PrismCanvas({ colors }: { colors: string[] }) {
 }
 
 /** Указатель разделов слева: подсвечивает раздел, который сейчас в кадре. */
-export function Rail({ links }: { links: { href: string; label: string }[] }) {
+export function Rail({ links, label = 'Разделы страницы' }: { links: { href: string; label: string }[]; label?: string }) {
   const [active, setActive] = useState('')
   useEffect(() => {
     const els = links.map((l) => document.querySelector(l.href)).filter(Boolean) as Element[]
@@ -101,7 +101,7 @@ export function Rail({ links }: { links: { href: string; label: string }[] }) {
     return () => io.disconnect()
   }, [links])
   return (
-    <nav className="prism-rail" aria-label="Разделы страницы">
+    <nav className="prism-rail" aria-label={label}>
       {links.map((l, i) => (
         <a key={l.href} href={l.href} className={active === l.href ? 'is-on' : ''}>
           <span>{String(i + 1).padStart(2, '0')}</span>

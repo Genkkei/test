@@ -7,7 +7,7 @@ import { useEffect, useRef } from 'react'
  * неподвижной светотенью. Глаз читает это как вращение, а стоит это один transform.
  * Скорость вращения: время + прокрутка + курсор; наклон — от курсора.
  */
-export function Can({ name, flavor, color, ink = '#191917', live = true, className = '' }: { name: string; flavor: string; color: string; ink?: string; live?: boolean; className?: string }) {
+export function Can({ name, flavor, color, ink = '#191917', live = true, className = '', strip = '0% сахара · 250 мл' }: { name: string; flavor: string; color: string; ink?: string; live?: boolean; className?: string; strip?: string }) {
   const ref = useRef<HTMLDivElement>(null)
   useEffect(() => {
     if (!live) return
@@ -52,7 +52,7 @@ export function Can({ name, flavor, color, ink = '#191917', live = true, classNa
     <span className="can__strip">
       <b>{name}</b>
       <em>{flavor}</em>
-      <i>0% сахара · 250 мл</i>
+      <i>{strip}</i>
     </span>
   )
   return (

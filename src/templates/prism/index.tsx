@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Clock, Cursor, MobileMenu } from '@/motion/widgets'
@@ -25,12 +26,12 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <Cursor className="cursor prism-cursor" />
       <PrismHeader>
-        <a href="#top" className="prism-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="prism-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           <span className="prism-logo__mark" aria-hidden="true" />
           {site.name}
         </a>
         <span className="prism-header__meta">
-          [ {site.business.city || 'Tashkent'} · <Clock /> ]
+          [ {site.business.city || 'Tashkent'} · <Clock lang={site.lang} /> ]
         </span>
         <div className="prism-header__side">
           {site.nav.cta.label ? (
@@ -39,10 +40,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               <i aria-hidden="true">→</i>
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </PrismHeader>
-      <Rail links={links} />
+      <Rail links={links} label={pick(site.lang, { ru: 'Разделы страницы', uz: 'Sahifa bo‘limlari', en: 'Page sections' })} />
       <main id="top">{children}</main>
       <footer className="prism-footer">
         <div className="prism-footer__grid">
@@ -52,16 +53,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </p>
           <div className="prism-footer__cols">
             <div>
-              <p className="prism-mono">Контакты</p>
+              <p className="prism-mono">{pick(site.lang, { ru: 'Контакты', uz: 'Kontaktlar', en: 'Contact' })}</p>
               {site.business.email ? <a href={`mailto:${site.business.email}`}>{site.business.email}</a> : null}
               {site.business.phone ? <a href={`tel:${site.business.phone.replace(/[^\d+]/g, '')}`}>{site.business.phone}</a> : null}
             </div>
             <div>
-              <p className="prism-mono">Офис</p>
+              <p className="prism-mono">{pick(site.lang, { ru: 'Офис', uz: 'Ofis', en: 'Office' })}</p>
               <span>{[site.business.street, site.business.city].filter(Boolean).join(', ')}</span>
             </div>
             <div>
-              <p className="prism-mono">Сети</p>
+              <p className="prism-mono">{pick(site.lang, { ru: 'Сети', uz: 'Tarmoqlar', en: 'Social' })}</p>
               {site.business.socials.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                   {s.name} ↗
@@ -75,7 +76,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             © {new Date().getFullYear()} {site.business.legalName || site.name}
           </span>
           <span>{site.niche}</span>
-          <a href="#top">↑ Наверх</a>
+          <a href="#top">↑ {pick(site.lang, { ru: 'Наверх', uz: 'Yuqoriga', en: 'Back to top' })}</a>
         </div>
       </footer>
     </>
@@ -194,7 +195,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
             </>
           )
           return it.href ? (
-            <a key={i} className="prism-panel" href={it.href} data-cursor="Открыть">
+            <a key={i} className="prism-panel" href={it.href} data-cursor={pick(site.lang, { ru: 'Открыть', uz: 'Ochish', en: 'Open' })}>
               {body}
             </a>
           ) : (

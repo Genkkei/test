@@ -267,25 +267,25 @@ export function buildLlms(site: Site, full: boolean): string {
     const title = s.title || s.label
     switch (s.type) {
       case 'about':
-        if (full && s.text) lines.push(`## ${title || 'О компании'}`, '', s.text, '')
+        if (full && s.text) lines.push(`## ${title || pick(site.lang, { ru: 'О компании', uz: 'Kompaniya haqida', en: 'About' })}`, '', s.text, '')
         break
       case 'services':
-        if (s.items.length) lines.push(`## ${title || 'Услуги'}`, '', ...s.items.map((i) => `- ${i.title}${i.price ? ` — ${i.price}` : ''}${full && i.text ? `: ${i.text}` : ''}`), '')
+        if (s.items.length) lines.push(`## ${title || pick(site.lang, { ru: 'Услуги', uz: 'Xizmatlar', en: 'Services' })}`, '', ...s.items.map((i) => `- ${i.title}${i.price ? ` — ${i.price}` : ''}${full && i.text ? `: ${i.text}` : ''}`), '')
         break
       case 'pricing':
-        if (s.items.length) lines.push(`## ${title || 'Цены'}`, '', ...s.items.map((i) => `- ${i.name}: ${i.price} ${i.period}${full ? ` (${i.features.join(', ')})` : ''}`), '')
+        if (s.items.length) lines.push(`## ${title || pick(site.lang, { ru: 'Цены', uz: 'Narxlar', en: 'Prices' })}`, '', ...s.items.map((i) => `- ${i.name}: ${i.price} ${i.period}${full ? ` (${i.features.join(', ')})` : ''}`), '')
         break
       case 'menu':
         for (const g of s.groups) lines.push(`## ${g.name}`, '', ...g.items.map((i) => `- ${i.name}${i.price ? ` — ${i.price}` : ''}${full && i.text ? `: ${i.text}` : ''}`), '')
         break
       case 'works':
-        if (full && s.items.length) lines.push(`## ${title || 'Работы'}`, '', ...s.items.map((i) => `- ${i.title} (${[i.category, i.year].filter(Boolean).join(', ')})${i.text ? `: ${i.text}` : ''}`), '')
+        if (full && s.items.length) lines.push(`## ${title || pick(site.lang, { ru: 'Работы', uz: 'Ishlar', en: 'Work' })}`, '', ...s.items.map((i) => `- ${i.title} (${[i.category, i.year].filter(Boolean).join(', ')})${i.text ? `: ${i.text}` : ''}`), '')
         break
       case 'process':
-        if (full && s.items.length) lines.push(`## ${title || 'Как мы работаем'}`, '', ...s.items.map((i, n) => `${n + 1}. ${i.title} — ${i.text}`), '')
+        if (full && s.items.length) lines.push(`## ${title || pick(site.lang, { ru: 'Как мы работаем', uz: 'Qanday ishlaymiz', en: 'How we work' })}`, '', ...s.items.map((i, n) => `${n + 1}. ${i.title} — ${i.text}`), '')
         break
       case 'faq':
-        if (s.items.length) lines.push(`## ${title || 'Частые вопросы'}`, '', ...s.items.flatMap((i) => [`### ${i.q}`, '', i.a, '']))
+        if (s.items.length) lines.push(`## ${title || pick(site.lang, { ru: 'Частые вопросы', uz: 'Ko‘p so‘raladigan savollar', en: 'FAQ' })}`, '', ...s.items.flatMap((i) => [`### ${i.q}`, '', i.a, '']))
         break
     }
   }

@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Clock, MobileMenu } from '@/motion/widgets'
@@ -16,13 +17,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <HorizonHeader>
-        <MobileMenu links={links} cta={site.nav.cta} />
-        <a href="#top" className="hz-logo" aria-label={`${site.name} — наверх`}>
+        <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
+        <a href="#top" className="hz-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
         <div className="hz-header__side">
           <span className="hz-time">
-            {b.city || 'Чимган'} · <Clock />
+            {b.city || pick(site.lang, { ru: 'Чимган', uz: 'Chimyon', en: 'Chimgan' })} · <Clock lang={site.lang} />
           </span>
           {site.nav.cta.label ? (
             <a className="hz-book" href={site.nav.cta.href}>
@@ -40,22 +41,22 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <p className="hz-footer__name">{site.name}</p>
         <div className="hz-footer__grid">
           <div>
-            <h3>Адрес</h3>
+            <h3>{pick(site.lang, { ru: 'Адрес', uz: 'Manzil', en: 'Address' })}</h3>
             <p>{[b.street, b.city, b.region].filter(Boolean).join(', ')}</p>
           </div>
           <div>
-            <h3>Ресепшен</h3>
+            <h3>{pick(site.lang, { ru: 'Ресепшен', uz: 'Qabulxona', en: 'Reception' })}</h3>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <h3>Бронирование</h3>
+            <h3>{pick(site.lang, { ru: 'Бронирование', uz: 'Bron qilish', en: 'Reservations' })}</h3>
             {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <h3>Следите</h3>
+            <h3>{pick(site.lang, { ru: 'Следите', uz: 'Kuzatib boring', en: 'Follow' })}</h3>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -99,7 +100,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         ) : null}
         <span className="hz-scroll" aria-hidden="true">
           <i />
-          Листайте
+          {pick(site.lang, { ru: 'Листайте', uz: 'Suring', en: 'Scroll' })}
         </span>
         {s.ctaSecondary.label ? (
           <a className="hz-btn" href={s.ctaSecondary.href || '#'}>
@@ -130,7 +131,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
               {it.text ? <p className="hz-room__text">{it.text}</p> : null}
               {it.href ? (
                 <a className="hz-link" href={it.href}>
-                  Подробнее
+                  {pick(site.lang, { ru: 'Подробнее', uz: 'Batafsil', en: 'Details' })}
                 </a>
               ) : null}
             </div>

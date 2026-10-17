@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
@@ -27,10 +28,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <EmberHeader>
-        <a href="#top" className="em-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="em-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
-        <nav className="em-nav" aria-label="Разделы">
+        <nav className="em-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -38,13 +39,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <div className="em-header__side">
-          <OpenNow hours={b.hours} />
+          <OpenNow hours={b.hours} lang={site.lang} />
           {site.nav.cta.label ? (
             <a className="em-btn em-btn--fire" href={site.nav.cta.href} data-magnetic>
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </EmberHeader>
       <main id="top">{children}</main>
@@ -54,19 +55,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <p className="em-footer__tag">{site.tagline}</p>
         <div className="em-footer__grid">
           <div>
-            <h3>Где</h3>
+            <h3>{pick(site.lang, { ru: 'Где', uz: 'Qayerda', en: 'Where' })}</h3>
             <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([b.street, b.city].filter(Boolean).join(', '))}`} target="_blank" rel="noopener">
               {[b.street, b.city].filter(Boolean).join(', ')}
             </a>
           </div>
           <div>
-            <h3>Когда</h3>
+            <h3>{pick(site.lang, { ru: 'Когда', uz: 'Qachon', en: 'When' })}</h3>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <h3>Бронь</h3>
+            <h3>{pick(site.lang, { ru: 'Бронь', uz: 'Bron', en: 'Bookings' })}</h3>
             {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
@@ -118,15 +119,15 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
       </div>
       <dl className="em-hero__facts" data-reveal="fade" data-delay="0.8">
         <div>
-          <dt>Адрес</dt>
+          <dt>{pick(site.lang, { ru: 'Адрес', uz: 'Manzil', en: 'Address' })}</dt>
           <dd>{b.street}</dd>
         </div>
         <div>
-          <dt>Часы</dt>
-          <dd>{b.hours.map(humanHours).join(', ')}</dd>
+          <dt>{pick(site.lang, { ru: 'Часы', uz: 'Ish vaqti', en: 'Hours' })}</dt>
+          <dd>{b.hours.map((h) => humanHours(h, site.lang)).join(', ')}</dd>
         </div>
         <div>
-          <dt>Бронь</dt>
+          <dt>{pick(site.lang, { ru: 'Бронь', uz: 'Bron', en: 'Bookings' })}</dt>
           <dd>{b.phone}</dd>
         </div>
       </dl>
@@ -134,7 +135,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   )
 }
 
-function Menu({ section: s }: SectionProps<'menu'>) {
+function Menu({ section: s, site }: SectionProps<'menu'>) {
   return (
     <Sec id={s.anchor} type="menu" className="em-menu">
       <div className="em-card" data-reveal="up">
@@ -162,7 +163,7 @@ function Menu({ section: s }: SectionProps<'menu'>) {
             </div>
           ))}
         </div>
-        <p className="em-card__foot">Цены в сумах · обслуживание 10% · о непереносимости продуктов скажите официанту</p>
+        <p className="em-card__foot">{pick(site.lang, { ru: 'Цены в сумах · обслуживание 10% · о непереносимости продуктов скажите официанту', uz: 'Narxlar so‘mda · xizmat 10% · oziq-ovqat ko‘tara olmasligingiz haqida ofitsiantga ayting', en: 'Prices in UZS · 10% service · please tell your server about any food intolerances' })}</p>
       </div>
     </Sec>
   )
@@ -205,9 +206,9 @@ function Team({ section: s, site }: SectionProps<'team'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee em-marquee" aria-label="О кухне">
+    <section className="s s-marquee em-marquee" aria-label={s.title || pick(site.lang, { ru: 'О кухне', uz: 'Oshxona haqida', en: 'About the kitchen' })}>
       <Marquee items={s.items} speed={60} sep="✺" />
     </section>
   )

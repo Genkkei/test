@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { pick } from '@/lib/i18n'
 import { ShaderCanvas } from '@/motion/shader'
 
 /* Открытый огонь: жар — fbm, поднимающийся снизу; искры — ячейки сетки, едущие вверх
@@ -43,8 +44,9 @@ export function FireCanvas({ colors }: { colors: string[] }) {
 }
 
 /** «Открыто до 23:00» — по часам Ташкента и правилам openingHours. */
-export function OpenNow({ hours }: { hours: string[] }) {
+export function OpenNow({ hours, lang = 'ru' }: { hours: string[]; lang?: string }) {
   const [text, setText] = useState('')
+  const [isOpen, setIsOpen] = useState(false)
   useEffect(() => {
     const days = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
     const calc = () => {
@@ -60,19 +62,25 @@ export function OpenNow({ hours }: { hours: string[] }) {
         const open = +m[3] * 60 + +m[4]
         let close = +m[5] * 60 + +m[6]
         if (close <= open) close += 24 * 60
-        if (mins >= open && mins < close) return setText(`Открыто до ${m[5]}:${m[6]}`)
-        if (mins < open) return setText(`Откроемся в ${m[3]}:${m[4]}`)
+        const until = `${m[5]}:${m[6]}`, from = `${m[3]}:${m[4]}`
+        if (mins >= open && mins < close) {
+          setIsOpen(true)
+          return setText(pick(lang, { ru: `Открыто до ${until}`, uz: `${until} gacha ochiq`, en: `Open until ${until}` }))
+        }
+        setIsOpen(false)
+        if (mins < open) return setText(pick(lang, { ru: `Откроемся в ${from}`, uz: `${from} da ochamiz`, en: `Opening at ${from}` }))
       }
-      setText('Сейчас закрыто')
+      setIsOpen(false)
+      setText(pick(lang, { ru: 'Сейчас закрыто', uz: 'Hozir yopiq', en: 'Closed now' }))
     }
     calc()
     const id = setInterval(calc, 60000)
     return () => clearInterval(id)
-  }, [hours])
+  }, [hours, lang])
   return (
-    <span className="em-open" data-open={text.startsWith('Открыто') || undefined} suppressHydrationWarning>
+    <span className="em-open" data-open={isOpen || undefined} suppressHydrationWarning>
       <i />
-      {text || 'Часы работы'}
+      {text || pick(lang, { ru: 'Часы работы', uz: 'Ish vaqti', en: 'Opening hours' })}
     </span>
   )
 }

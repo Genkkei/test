@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { pick } from '@/lib/i18n'
 
 /** Следы лап за курсором: каждые ~70 px пути остаётся отпечаток, который тает. */
 export function PawTrail() {
@@ -37,7 +38,7 @@ export function PawTrail() {
 }
 
 /** Кот моргает и поворачивает голову к курсору; на нажатие — «мур». */
-export function Cat() {
+export function Cat({ lang = 'ru' }: { lang?: string }) {
   const ref = useRef<SVGSVGElement>(null)
   const [purr, setPurr] = useState(false)
   useEffect(() => {
@@ -59,7 +60,7 @@ export function Cat() {
   }, [purr])
   return (
     <div className="pw-pet">
-      <svg ref={ref} viewBox="0 0 300 300" className="pw-cat" role="img" aria-label="Рыжий кот — талисман клиники" onPointerDown={() => setPurr(true)}>
+      <svg ref={ref} viewBox="0 0 300 300" className="pw-cat" role="img" aria-label={pick(lang, { ru: 'Рыжий кот — талисман клиники', uz: 'Malla mushuk — klinika tumori', en: 'Ginger the cat, the clinic’s mascot' })} onPointerDown={() => setPurr(true)}>
         <ellipse cx="150" cy="284" rx="96" ry="10" fill="var(--fg)" opacity=".1" />
         <path className="pw-cat__tail" d="M222 250 C 286 246, 290 170, 250 150" fill="none" stroke="var(--accent)" strokeWidth="22" strokeLinecap="round" />
         <path d="M78 284 C 70 200, 100 160, 150 160 C 200 160, 230 200, 222 284 Z" fill="var(--accent)" />
@@ -83,7 +84,7 @@ export function Cat() {
         </g>
       </svg>
       <span className="pw-purr" data-on={purr || undefined} aria-hidden="true">
-        мур-р!
+        {pick(lang, { ru: 'мур-р!', uz: 'mur-r!', en: 'purr!' })}
       </span>
     </div>
   )
