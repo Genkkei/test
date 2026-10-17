@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import type { Section, SectionOf, Site } from './schema'
+import { HREFLANG, OG_LOCALE } from './i18n'
 
 /*
  * SEO, AEO и GEO собираются из одних и тех же данных сайта:
@@ -9,10 +10,27 @@ import type { Section, SectionOf, Site } from './schema'
 
 export const PLATFORM_URL = (process.env.SITE_URL || 'http://localhost:3000').replace(/\/$/, '')
 
-/** Публичный адрес сайта: свой домен, если привязан, иначе путь внутри конструктора. */
-export function siteUrl(site: Site): string {
+/** Корень сайта: свой домен, если привязан, иначе путь внутри конструктора. */
+export function siteRoot(site: Site): string {
   const domain = site.domains[0]
   return domain ? `https://${domain.replace(/^https?:\/\//, '').replace(/\/$/, '')}` : `${PLATFORM_URL}/${site.slug}`
+}
+
+/** Основной язык сайта (у языковой версии — язык оригинала). */
+export function primaryLang(site: Site): string {
+  return site.baseLang ?? site.lang
+}
+
+/** Адрес сайта на языке lang: основной язык — в корне, остальные — /uz, /en. */
+export function langUrl(site: Site, lang: string): string {
+  if (lang === primaryLang(site)) return siteRoot(site)
+  // на своём домене версия лежит папкой (/uz/ — так её отдаёт статический хостинг), в конструкторе — /<slug>/uz
+  return site.domains[0] ? `${siteRoot(site)}/${lang}/` : `${siteRoot(site)}/${lang}`
+}
+
+/** Публичный адрес этой версии сайта (с учётом её языка). */
+export function siteUrl(site: Site): string {
+  return langUrl(site, site.lang)
 }
 
 /**
@@ -22,7 +40,7 @@ export function siteUrl(site: Site): string {
 export function siteAsset(site: Site, file: 'og' | 'icon' | 'llms' | 'llms-full'): string {
   const own = { og: 'og.png', icon: 'icon.png', llms: 'llms.txt', 'llms-full': 'llms-full.txt' }[file]
   const inside = { og: 'opengraph-image', icon: 'icon', llms: 'llms.txt', 'llms-full': 'llms-full.txt' }[file]
-  return site.domains[0] ? `${siteUrl(site)}/${own}` : `${PLATFORM_URL}/${site.slug}/${inside}`
+  return site.domains[0] ? `${siteRoot(site)}/${own}` : `${PLATFORM_URL}/${site.slug}/${inside}`
 }
 
 export function sectionsOf<T extends Section['type']>(site: Site, type: T): SectionOf<T>[] {
@@ -48,7 +66,7 @@ export function clip(s: string, n: number): string {
   return t.length <= n ? t : `${t.slice(0, n - 1).replace(/\s+\S*$/, '')}…`
 }
 
-export function buildMetadata(site: Site): Metadata {
+export function buildMetadata(site: Site, langs: string[] = [site.lang]): Metadata {
   const url = siteUrl(site)
   const title = seoTitle(site)
   const description = seoDescription(site)
@@ -58,9 +76,12 @@ export function buildMetadata(site: Site): Metadata {
     title: { absolute: title },
     description,
     keywords: site.seo.keywords,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: langs.length > 1 ? { ...Object.fromEntries(langs.map((l) => [HREFLANG[l] ?? l, langUrl(site, l)])), 'x-default': langUrl(site, primaryLang(site)) } : undefined,
+    },
     robots: site.seo.index ? { index: true, follow: true, 'max-image-preview': 'large' } : { index: false, follow: false },
-    openGraph: { type: 'website', url, title, description, siteName: site.name, locale: site.lang === 'ru' ? 'ru_RU' : site.lang, images },
+    openGraph: { type: 'website', url, title, description, siteName: site.name, locale: OG_LOCALE[site.lang] ?? site.lang, alternateLocale: langs.filter((l) => l !== site.lang).map((l) => OG_LOCALE[l] ?? l), images },
     twitter: { card: 'summary_large_image', title, description, images },
     // без своего домена — относительный путь: иконка грузится с того же сервера, на каком порту он ни был
     icons: { icon: site.domains[0] ? siteAsset(site, 'icon') : `/${site.slug}/icon` },

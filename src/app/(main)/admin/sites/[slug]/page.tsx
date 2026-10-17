@@ -8,7 +8,7 @@ import { Editor } from './Editor'
 
 export const dynamic = 'force-dynamic'
 
-export default async function EditSite({ params }: PageProps<'/admin/sites/[slug]'>) {
+export default async function EditSite({ params }: { params: Promise<{ slug: string }> }) {
   await requireAdmin()
   const site = await getSite((await params).slug)
   if (!site) notFound()

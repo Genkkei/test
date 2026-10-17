@@ -2,6 +2,7 @@ import 'server-only'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import { siteSchema, type Site } from './schema'
+import { EXTRA_LANGS, mergeTranslation } from './i18n'
 
 /*
  * Два слоя: content/sites — исходные сайты в репозитории (только чтение),
@@ -64,17 +65,50 @@ export async function listSites(): Promise<Site[]> {
   return sites.sort((a, b) => a.name.localeCompare(b.name, 'ru'))
 }
 
-export async function getSite(slug: string): Promise<Site | null> {
-  if (!/^[a-z0-9-]+$/.test(slug)) return null
-  if ((await tombstones()).has(slug)) return null
+async function readTranslation(slug: string, lang: string): Promise<Record<string, unknown> | null> {
   for (const dir of [DATA_DIR, CONTENT_DIR]) {
     try {
-      return parse(JSON.parse(await fs.readFile(path.join(dir, `${slug}.json`), 'utf8')), slug)
+      return JSON.parse(await fs.readFile(path.join(dir, 'i18n', `${slug}.${lang}.json`), 'utf8'))
+    } catch {
+      /* нет в этом слое */
+    }
+  }
+  return null
+}
+
+/** Сайт на основном языке или, если передан lang и есть перевод, — на нём. */
+export async function getSite(slug: string, lang?: string): Promise<Site | null> {
+  if (!/^[a-z0-9-]+$/.test(slug)) return null
+  if ((await tombstones()).has(slug)) return null
+  let base: Site | null = null
+  for (const dir of [DATA_DIR, CONTENT_DIR]) {
+    try {
+      base = parse(JSON.parse(await fs.readFile(path.join(dir, `${slug}.json`), 'utf8')), slug)
+      break
     } catch {
       /* нет в этом слое — смотрим следующий */
     }
   }
-  return null
+  if (!base || !lang || lang === base.lang) return base
+  const tr = await readTranslation(slug, lang)
+  return tr ? mergeTranslation(base, tr, lang) : null
+}
+
+/** Языки, на которых сайт есть: основной + те, для которых лежит перевод. */
+export async function siteLangs(slug: string): Promise<string[]> {
+  const base = await getSite(slug)
+  if (!base) return []
+  const out = [base.lang]
+  for (const l of EXTRA_LANGS) if (l !== base.lang && (await readTranslation(slug, l))) out.push(l)
+  return out
+}
+
+export async function saveTranslation(slug: string, lang: string, data: Record<string, unknown>): Promise<void> {
+  const dir = path.join(DATA_DIR, 'i18n')
+  await fs.mkdir(dir, { recursive: true })
+  const file = path.join(dir, `${slug}.${lang}.json`)
+  await fs.writeFile(`${file}.tmp`, JSON.stringify(data, null, 2))
+  await fs.rename(`${file}.tmp`, file)
 }
 
 export async function saveSite(site: Site): Promise<Site> {

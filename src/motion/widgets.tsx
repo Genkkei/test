@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { ui } from '@/lib/i18n'
 
 /** Курсор-кружок, раздувается над ссылками и элементами с data-cursor="текст". */
 export function Cursor({ className = 'cursor' }: { className?: string }) {
@@ -79,26 +80,26 @@ export function Badge({ text, className = 'badge' }: { text: string; className?:
 }
 
 /** Часы в часовом поясе бизнеса — живая деталь шапки агентств. */
-export function Clock({ tz = 'Asia/Tashkent', className }: { tz?: string; className?: string }) {
+export function Clock({ tz = 'Asia/Tashkent', className, lang = 'ru' }: { tz?: string; className?: string; lang?: string }) {
   const [t, setT] = useState('')
   useEffect(() => {
-    const f = () => setT(new Intl.DateTimeFormat('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: tz }).format(new Date()))
+    const f = () => setT(new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: tz }).format(new Date()))
     f()
     const i = setInterval(f, 15000)
     return () => clearInterval(i)
-  }, [tz])
+  }, [tz, lang])
   return <span className={className} suppressHydrationWarning>{t || '—:—'}</span>
 }
 
 /** Мобильное меню: кнопка + полноэкранная панель. */
-export function MobileMenu({ links, cta, className = 'mmenu' }: { links: { href: string; label: string }[]; cta?: { href: string; label: string }; className?: string }) {
+export function MobileMenu({ links, cta, className = 'mmenu', lang = 'ru' }: { links: { href: string; label: string }[]; cta?: { href: string; label: string }; className?: string; lang?: string }) {
   const [open, setOpen] = useState(false)
   useEffect(() => {
     document.documentElement.classList.toggle('menu-open', open)
   }, [open])
   return (
     <>
-      <button type="button" className={`${className}__btn`} aria-expanded={open} aria-label={open ? 'Закрыть меню' : 'Открыть меню'} onClick={() => setOpen(!open)}>
+      <button type="button" className={`${className}__btn`} aria-expanded={open} aria-label={ui(lang, open ? 'menuClose' : 'menuOpen')} onClick={() => setOpen(!open)}>
         <span />
         <span />
       </button>

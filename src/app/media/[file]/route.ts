@@ -2,7 +2,7 @@ import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { MEDIA_DIR, mimeOf } from '@/lib/media'
 
-export async function GET(_req: Request, ctx: RouteContext<'/media/[file]'>) {
+export async function GET(_req: Request, ctx: { params: Promise<{ file: string }> }) {
   const { file } = await ctx.params
   const mime = /^[a-f0-9]{20}\.[a-z]{3,4}$/.test(file) ? mimeOf(file) : null
   if (!mime) return new Response('Not found', { status: 404 })

@@ -29,16 +29,35 @@ for (const slug of slugs) {
   const dir = path.join(out, slug)
   rmSync(dir, { recursive: true, force: true })
   mkdirSync(dir, { recursive: true })
-  await grab(`${base}/${slug}`, path.join(dir, 'index.html'))
+  // языковые версии: основной язык — в корне, остальные — /uz/, /en/; ссылки переключателя
+  // ведут внутрь конструктора (/<slug>/uz) — здесь они переписываются в корень домена
+  const langs = item?.langs ?? ['ru']
+  for (const l of langs) {
+    const primary = l === langs[0]
+    const res = await fetch(`${base}/${slug}${primary ? '' : `/${l}`}`)
+    if (!res.ok) throw new Error(`${slug}/${l} → ${res.status}`)
+    const html = (await res.text())
+      .replace(new RegExp(`href="/${slug}/(${langs.join('|')})"`, 'g'), 'href="/$1/"')
+      .replace(new RegExp(`href="/${slug}"`, 'g'), 'href="/"')
+    const file = primary ? path.join(dir, 'index.html') : path.join(dir, l, 'index.html')
+    mkdirSync(path.dirname(file), { recursive: true })
+    writeFileSync(file, html)
+  }
   await grab(`${base}/${slug}/llms.txt`, path.join(dir, 'llms.txt'))
   await grab(`${base}/${slug}/llms-full.txt`, path.join(dir, 'llms-full.txt'))
   await grab(`${base}/${slug}/opengraph-image`, path.join(dir, 'og.png'), true)
   await grab(`${base}/${slug}/icon`, path.join(dir, 'icon.png'), true)
-  const origin = item?.url ?? `https://${slug}`
+  const origin = (item?.url ?? `https://${slug}`).replace(/\/(uz|en)$/, '')
   writeFileSync(path.join(dir, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`)
   writeFileSync(
     path.join(dir, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n<url><loc>${origin}</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod><image:image><image:loc>${origin}/og.png</image:loc></image:image></url>\n</urlset>\n`,
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${langs
+      .map((l, i) => {
+        const loc = i === 0 ? origin : `${origin}/${l}/`
+        const alts = langs.map((x, j) => `<xhtml:link rel="alternate" hreflang="${x}" href="${j === 0 ? origin : `${origin}/${x}/`}"/>`).join('')
+        return `<url><loc>${loc}</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod>${alts}<image:image><image:loc>${origin}/og.png</image:loc></image:image></url>`
+      })
+      .join('\n')}\n</urlset>\n`,
   )
   cpSync('.next/static', path.join(dir, '_next/static'), { recursive: true })
   console.log(`✓ ${slug} → ${dir}`)

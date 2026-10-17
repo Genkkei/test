@@ -217,6 +217,8 @@ export const siteSchema = z.object({
   listing: listingSchema.default({ price: '', description: '', features: [], forSale: true }),
   sections: z.array(sectionSchema),
   updatedAt: z.string().default(''),
+  /** основной язык сайта; заполняется только у языковой версии (перевод поверх основного) */
+  baseLang: z.string().optional(),
 })
 
 export type Site = z.infer<typeof siteSchema>

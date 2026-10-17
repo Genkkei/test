@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import type { SectionType, Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Marquee } from '@/motion/widgets'
+import { humanHours, ui } from '@/lib/i18n'
 import { palette, type SectionProps, type SectionRenderers } from '@/templates/types'
 
 /*
@@ -72,10 +73,10 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   )
 }
 
-function MarqueeSection({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSection({ section: s, site }: SectionProps<'marquee'>) {
   if (!s.items.length) return null
   return (
-    <section className="s s-marquee" aria-label={s.title || 'Ключевые слова'}>
+    <section className="s s-marquee" aria-label={s.title || ui(site.lang, 'keywords')}>
       <Marquee items={s.items} />
     </section>
   )
@@ -141,7 +142,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
             </>
           )
           return it.href ? (
-            <a key={i} className="s-works__item" href={it.href} data-cursor="Открыть">
+            <a key={i} className="s-works__item" href={it.href} data-cursor={ui(site.lang, 'open')}>
               {body}
             </a>
           ) : (
@@ -287,7 +288,7 @@ function Gallery({ section: s, site, art }: SectionProps<'gallery'>) {
       <div className="s-gallery__grid">
         {s.items.map((it, i) => (
           <figure key={i} className="s-gallery__item" data-reveal="clip" data-delay={String((i % 3) * 0.08)}>
-            <Media src={it.image} alt={it.caption || `${site.name} — фото ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
+            <Media src={it.image} alt={it.caption || `${site.name} — ${ui(site.lang, 'photo')} ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
             {it.caption ? <figcaption>{it.caption}</figcaption> : null}
           </figure>
         ))}
@@ -335,26 +336,26 @@ function Contact({ section: s, site }: SectionProps<'contact'>) {
         <address className="s-contact__facts">
           {b.phone ? (
             <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>
-              <small>Телефон</small>
+              <small>{ui(site.lang, 'phone')}</small>
               {b.phone}
             </a>
           ) : null}
           {b.email ? (
             <a href={`mailto:${b.email}`}>
-              <small>Почта</small>
+              <small>{ui(site.lang, 'email')}</small>
               {b.email}
             </a>
           ) : null}
           {address ? (
             <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`} target="_blank" rel="noopener">
-              <small>Адрес</small>
+              <small>{ui(site.lang, 'address')}</small>
               {address}
             </a>
           ) : null}
           {b.hours.length ? (
             <p>
-              <small>Часы</small>
-              {b.hours.map(humanHours).join(', ')}
+              <small>{ui(site.lang, 'hours')}</small>
+              {b.hours.map((h) => humanHours(h, site.lang)).join(', ')}
             </p>
           ) : null}
         </address>
@@ -363,11 +364,7 @@ function Contact({ section: s, site }: SectionProps<'contact'>) {
   )
 }
 
-const DAYS: Record<string, string> = { Mo: 'пн', Tu: 'вт', We: 'ср', Th: 'чт', Fr: 'пт', Sa: 'сб', Su: 'вс' }
-/** «Mo-Fr 09:00-18:00» → «пн–пт 09:00–18:00» */
-export function humanHours(h: string): string {
-  return h.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su)\b/g, (d) => DAYS[d]).replace(/-/g, '–')
-}
+export { humanHours }
 
 export const BASE: { [K in SectionType]: SectionRenderers[K] } = {
   hero: Hero,
@@ -390,7 +387,7 @@ export const BASE: { [K in SectionType]: SectionRenderers[K] } = {
 export function Answer({ site }: { site: Site }) {
   if (!site.seo.answer) return null
   return (
-    <section className="s s-answer" aria-label="Коротко о нас">
+    <section className="s s-answer" aria-label={ui(site.lang, 'about')}>
       <div className="s__inner">
         <p className="s-answer__text" data-speakable data-reveal="up">
           {site.seo.answer}
