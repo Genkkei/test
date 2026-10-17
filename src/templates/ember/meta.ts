@@ -22,7 +22,7 @@ export const meta: TemplateMeta = {
     "body": "Manrope",
     "motion": 1
   },
-  "art": "waves",
+  "art": "blobs",
   "preview": {
     "bg": "#140d0a",
     "fg": "#f2e6d6",

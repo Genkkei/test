@@ -1,0 +1,209 @@
+/* АТЕЛЬЕ — бумага, антиква и воздух. Скругление только у арок, кнопки — прямые плашки с тонкой рамкой. */
+
+.tpl-atelier { --pad: clamp(18px, 4vw, 72px); --serif: var(--font-display); font-weight: 350; font-size: clamp(15px, 1.02vw, 17px); }
+.tpl-atelier::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 80; opacity: .35; mix-blend-mode: multiply; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .55  0 0 0 0 .45  0 0 0 0 .35  0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E"); }
+.tpl-atelier .s { padding-block: clamp(80px, 11vw, 170px); }
+.tpl-atelier .s + .s, .tpl-atelier .s-wrap + .s-wrap > .s { border-top: 1px solid var(--line); }
+.tpl-atelier .s__label { font-size: 11px; letter-spacing: .3em; color: var(--accent); }
+.tpl-atelier .s__title { font-weight: 400; font-size: clamp(40px, 5.6vw, 96px); line-height: 1; letter-spacing: -.015em; }
+.tpl-atelier .s__title::first-letter { font-style: italic; }
+.tpl-atelier .s__head--center .s__title { max-width: 18ch; }
+.tpl-atelier .s__intro { font-size: 1em; }
+.tpl-atelier .btn { border-radius: 0; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; min-height: 50px; padding: 0 30px; font-weight: 400; }
+.tpl-atelier .btn--primary { background: var(--fg); color: var(--bg); }
+.tpl-atelier .btn--primary:hover { background: var(--accent); }
+.tpl-atelier .btn--ghost { border-color: var(--fg); }
+.at-link { font-family: var(--serif); font-style: italic; font-size: 20px; border-bottom: 1px solid currentColor; padding-bottom: 2px; transition: color .3s; }
+.at-link:hover { color: var(--accent); }
+.at-eyebrow { font-size: 11px; letter-spacing: .32em; text-transform: uppercase; color: var(--muted); }
+
+/* шапка */
+.at-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; padding: 26px var(--pad); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; transition: padding .6s var(--ease), background .5s, border-color .5s; border-bottom: 1px solid transparent; }
+.at-header.is-compact { padding-block: 14px; background: color-mix(in srgb, var(--bg) 92%, transparent); border-bottom-color: var(--line); }
+.at-logo { font-family: var(--serif); font-size: clamp(22px, 2vw, 30px); letter-spacing: .02em; text-transform: none; font-style: italic; }
+.at-nav { display: flex; gap: 28px; align-items: center; }
+.at-nav--r { justify-content: flex-end; }
+.at-nav a { position: relative; }
+.at-nav a:not(.at-nav__cta)::after { content: ''; position: absolute; left: 50%; bottom: -6px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); transform: translateX(-50%) scale(0); transition: transform .4s var(--ease); }
+.at-nav a:hover::after { transform: translateX(-50%) scale(1); }
+.at-nav__cta { border: 1px solid var(--fg); padding: 10px 16px; transition: background .3s, color .3s; }
+.at-nav__cta:hover { background: var(--fg); color: var(--bg); }
+.tpl-atelier .mmenu__btn { justify-self: end; }
+@media (max-width: 860px) {
+  .at-header { grid-template-columns: 1fr auto; padding-block: 16px; }
+  .at-nav { display: none; }
+  .at-logo { justify-self: start; }
+}
+
+/* первый экран */
+.at-hero { min-height: 100svh; padding: clamp(110px, 14vh, 160px) var(--pad) clamp(40px, 6vw, 80px); display: grid; align-items: center; }
+.at-hero__grid { width: min(100%, var(--max)); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: clamp(32px, 6vw, 110px); align-items: end; position: relative; }
+.at-hero__title { font-family: var(--serif); font-weight: 400; font-size: clamp(52px, 7.2vw, 138px); line-height: .9; letter-spacing: -.025em; margin: 22px 0 28px; }
+.at-hero__sub { max-width: 40ch; color: var(--muted); font-size: 1.05em; line-height: 1.65; }
+.at-hero__ctas { display: flex; align-items: center; gap: 28px; margin-top: 36px; flex-wrap: wrap; }
+.at-hero__arch { aspect-ratio: 3 / 4; justify-self: end; width: min(100%, calc((100svh - 200px) * .75)); border-radius: 999px 999px 0 0; overflow: hidden; outline: 1px solid var(--line); outline-offset: 12px; }
+.at-hero__note { position: absolute; left: calc(57.5% - 90px); bottom: 48px; display: grid; gap: 2px; font-size: 13px; color: var(--muted); background: var(--bg); padding: 18px 24px 20px; border: 1px solid var(--line); box-shadow: 0 20px 40px -24px rgba(60, 40, 20, .35); z-index: 2; }
+.at-hero__note span { font-size: 10px; letter-spacing: .3em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+.at-hero__note i { font-family: var(--serif); font-size: 20px; color: var(--fg); }
+@media (max-width: 860px) {
+  .at-hero { padding-top: 96px; }
+  .at-hero__grid { grid-template-columns: 1fr; }
+  .at-hero__arch { order: -1; width: 72%; justify-self: center; outline-offset: 8px; }
+  .at-hero__note { position: static; transform: none; text-align: left; }
+}
+
+/* сводка: письмо на бумаге */
+.tpl-atelier .s-answer { padding-block: clamp(50px, 7vw, 100px); border-top: 1px solid var(--line); }
+.tpl-atelier .s-answer__text { max-width: 34ch; margin-inline: auto; text-align: center; font-family: var(--serif); font-style: italic; font-size: clamp(24px, 2.6vw, 40px); line-height: 1.3; }
+
+/* бегущая строка */
+.tpl-atelier .s-marquee { padding-block: 28px; border-block: 1px solid var(--line); }
+.tpl-atelier .marquee__item { font-family: var(--serif); font-size: clamp(28px, 4vw, 60px); font-style: italic; }
+.tpl-atelier .marquee__sep { color: var(--accent); font-size: .5em; opacity: 1; }
+
+/* о доме: поля журнала */
+.at-about__grid { display: grid; grid-template-columns: 120px minmax(0, 1fr) minmax(0, .55fr); gap: clamp(24px, 4vw, 70px); align-items: start; }
+.at-margin { display: grid; gap: 8px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--fg); padding-top: 10px; position: sticky; top: 110px; }
+.at-about__title { font-family: var(--serif); font-weight: 400; font-size: clamp(32px, 3.8vw, 64px); line-height: 1.08; margin-bottom: 40px; }
+.at-about__cols { columns: 2 260px; column-gap: 40px; color: color-mix(in srgb, var(--fg) 82%, transparent); line-height: 1.75; }
+.at-about__cols p + p { margin-top: 1em; }
+.at-dropcap::first-letter { float: left; font-family: var(--serif); font-size: 4.6em; line-height: .8; padding: 6px 10px 0 0; color: var(--accent); }
+.at-about__arch { aspect-ratio: 2 / 3; border-radius: 999px 999px 0 0; overflow: hidden; margin-top: 80px; }
+.at-about__inner { height: 120%; margin-top: -10%; }
+@media (max-width: 960px) {
+  .at-about__grid { grid-template-columns: 1fr; }
+  .at-margin { position: static; display: flex; justify-content: space-between; }
+  .at-about__arch { width: 70%; margin-top: 0; justify-self: center; }
+}
+
+/* меню */
+.at-menu__groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(40px, 6vw, 110px) clamp(30px, 6vw, 110px); }
+.at-menu__gname { display: flex; align-items: baseline; gap: 16px; font-family: var(--serif); font-weight: 400; font-size: clamp(30px, 3vw, 46px); font-style: italic; padding-bottom: 14px; margin-bottom: 18px; border-bottom: 1px solid var(--fg); }
+.at-menu__gname span { font-style: normal; font-size: 13px; letter-spacing: .2em; color: var(--accent); font-family: var(--font-body); }
+.at-menu__item { padding: 14px 0; border-bottom: 1px dashed var(--line); }
+.tpl-atelier .s-menu__name { font-family: var(--serif); font-size: 22px; }
+.tpl-atelier .s-menu__price { font-size: 14px; letter-spacing: .06em; white-space: nowrap; }
+.tpl-atelier .s-menu__text { color: var(--muted); font-size: 14px; margin-top: 2px; max-width: 46ch; }
+.tpl-atelier .s-menu__dots { border-bottom-color: color-mix(in srgb, var(--fg) 30%, transparent); }
+.tpl-atelier .s-menu__groups { display: grid; grid-template-columns: repeat(2, 1fr); gap: 60px; }
+.tpl-atelier .s-menu__gname { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 34px; margin-bottom: 14px; }
+.tpl-atelier .s-menu__item { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+@media (max-width: 860px) { .at-menu__groups, .tpl-atelier .s-menu__groups { grid-template-columns: 1fr; } }
+
+/* лента */
+.at-gallery { overflow: hidden; }
+.at-ribbon { display: flex; gap: clamp(18px, 2.4vw, 36px); overflow-x: auto; padding: 8px var(--pad) 20px; scrollbar-width: none; cursor: grab; }
+.at-ribbon::-webkit-scrollbar { display: none; }
+.at-ribbon__item { flex: none; width: clamp(220px, 22vw, 340px); }
+.at-ribbon__item:nth-child(even) { margin-top: 70px; }
+.at-ribbon__arch { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; transition: transform 1s var(--ease); }
+.at-ribbon__item:hover .at-ribbon__arch { transform: translateY(-10px); }
+.at-ribbon__item figcaption { margin-top: 16px; font-family: var(--serif); font-size: 21px; font-style: italic; }
+.at-ribbon__item figcaption span { font-family: var(--font-body); font-style: normal; font-size: 11px; letter-spacing: .2em; color: var(--accent); margin-right: 8px; }
+.tpl-atelier .s-gallery__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+.tpl-atelier .s-gallery__item { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; }
+
+/* услуги */
+.tpl-atelier .s-services__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); border-top: 1px solid var(--fg); }
+.tpl-atelier .s-services__item { display: grid; grid-template-rows: auto 1fr auto; gap: 18px; padding: 28px 24px 30px 0; border-bottom: 1px solid var(--line); }
+.tpl-atelier .s-services__item + .s-services__item { padding-left: 24px; border-left: 1px solid var(--line); }
+.tpl-atelier .s-services__num { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--accent); }
+.tpl-atelier .s-services__name { font-family: var(--serif); font-weight: 400; font-size: 30px; line-height: 1.05; }
+.tpl-atelier .s-services__text { color: var(--muted); margin-top: 10px; }
+.tpl-atelier .s-services__meta { display: flex; justify-content: space-between; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.tpl-atelier .s-services__tag { color: var(--muted); }
+@media (max-width: 720px) { .tpl-atelier .s-services__item + .s-services__item { padding-left: 0; border-left: 0; } }
+
+/* работы / коллекции */
+.tpl-atelier .s-works__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(24px, 3vw, 48px); }
+.tpl-atelier .s-works__item:nth-child(3n + 2) { margin-top: 90px; }
+.tpl-atelier .s-works__media { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; }
+.tpl-atelier .s-works__cap { padding-top: 18px; display: grid; gap: 4px; }
+.tpl-atelier .s-works__name { font-family: var(--serif); font-weight: 400; font-size: 28px; }
+.tpl-atelier .s-works__meta { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+.tpl-atelier .s-works__text { color: var(--muted); font-size: 14px; }
+@media (max-width: 860px) { .tpl-atelier .s-works__grid { grid-template-columns: 1fr; } .tpl-atelier .s-works__item:nth-child(3n + 2) { margin-top: 0; } }
+
+/* цифры */
+.tpl-atelier .s-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); text-align: center; }
+.tpl-atelier .s-stats__item { display: flex; flex-direction: column-reverse; gap: 8px; padding: 20px; }
+.tpl-atelier .s-stats__item + .s-stats__item { border-left: 1px solid var(--line); }
+.tpl-atelier .s-stats__value { font-family: var(--serif); font-size: clamp(56px, 6vw, 104px); line-height: 1; font-variant-numeric: lining-nums; }
+.tpl-atelier .s-stats__suffix { font-style: italic; color: var(--accent); }
+.tpl-atelier .s-stats__label { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+@media (max-width: 720px) { .tpl-atelier .s-stats__item + .s-stats__item { border-left: 0; border-top: 1px solid var(--line); } }
+
+/* этапы */
+.tpl-atelier .s-process__list { counter-reset: p; display: grid; gap: 0; max-width: 980px; }
+.tpl-atelier .s-process__item { display: grid; grid-template-columns: 90px 1fr 1.2fr; gap: 24px; padding: 30px 0; border-top: 1px solid var(--line); align-items: baseline; }
+.tpl-atelier .s-process__num { font-family: var(--serif); font-style: italic; font-size: 40px; color: var(--accent); }
+.tpl-atelier .s-process__name { font-family: var(--serif); font-weight: 400; font-size: 30px; }
+.tpl-atelier .s-process__text { color: var(--muted); }
+@media (max-width: 720px) { .tpl-atelier .s-process__item { grid-template-columns: 60px 1fr; } .tpl-atelier .s-process__text { grid-column: 2; } }
+
+/* отзывы */
+.at-testi__list, .tpl-atelier .s-testimonials__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(30px, 5vw, 90px); }
+.at-testi__item blockquote, .tpl-atelier .s-testimonials__quote { font-family: var(--serif); font-size: clamp(24px, 2.2vw, 34px); line-height: 1.25; font-style: italic; }
+.at-testi__item figcaption, .tpl-atelier .s-testimonials__who { margin-top: 20px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); display: block; }
+.at-testi__item figcaption span { color: var(--muted); text-transform: none; letter-spacing: 0; }
+.tpl-atelier .s-testimonials__who span { display: block; color: var(--muted); text-transform: none; letter-spacing: 0; }
+
+/* команда */
+.tpl-atelier .s-team__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 40px; text-align: center; }
+.tpl-atelier .s-team__media { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; margin-bottom: 18px; }
+.tpl-atelier .s-team__name { font-family: var(--serif); font-weight: 400; font-size: 26px; }
+.tpl-atelier .s-team__role { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+/* тарифы */
+.tpl-atelier .s-pricing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.tpl-atelier .s-pricing__item { border: 1px solid var(--line); padding: 36px 30px; display: grid; gap: 16px; align-content: start; text-align: center; }
+.tpl-atelier .s-pricing__item.is-featured { border-color: var(--fg); background: var(--surface); }
+.tpl-atelier .s-pricing__name { font-family: var(--serif); font-style: italic; font-size: 28px; font-weight: 400; }
+.tpl-atelier .s-pricing__price { font-family: var(--serif); font-size: 46px; line-height: 1; }
+.tpl-atelier .s-pricing__price span { display: block; font-family: var(--font-body); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-top: 8px; }
+.tpl-atelier .s-pricing__features { display: grid; gap: 10px; color: var(--muted); font-size: 14px; }
+
+/* вопросы */
+.tpl-atelier .s-faq__list { max-width: 900px; margin-inline: auto; border-top: 1px solid var(--fg); }
+.tpl-atelier .s-faq .s__head { margin-inline: auto; text-align: center; justify-items: center; }
+.tpl-atelier .s-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-atelier .s-faq__q { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 24px 0; font-family: var(--serif); font-size: clamp(21px, 2vw, 28px); }
+.tpl-atelier .s-faq__q i::before { content: '+'; font-style: normal; font-family: var(--font-body); font-weight: 300; font-size: 24px; color: var(--accent); display: inline-block; transition: transform .5s var(--ease); }
+.tpl-atelier .s-faq__item[open] .s-faq__q i::before { transform: rotate(45deg); }
+.tpl-atelier .s-faq__a { padding-bottom: 26px; color: color-mix(in srgb, var(--fg) 75%, transparent); max-width: 64ch; line-height: 1.7; }
+
+/* контакты */
+.tpl-atelier .s-contact { text-align: center; background: var(--surface); }
+.tpl-atelier .s-contact .s__head { margin-inline: auto; justify-items: center; }
+.tpl-atelier .s-contact .s__title { font-style: italic; }
+.tpl-atelier .s-contact__body { display: grid; justify-items: center; gap: 48px; }
+.tpl-atelier .s-contact__facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 30px; width: 100%; max-width: 1000px; border-top: 1px solid var(--line); padding-top: 36px; }
+.tpl-atelier .s-contact__facts > * { display: grid; gap: 6px; }
+.tpl-atelier .s-contact__facts small { font-size: 10px; letter-spacing: .3em; text-transform: uppercase; color: var(--accent); }
+
+/* базовый «о нас» на случай второй секции */
+.tpl-atelier .s-about__body { display: grid; grid-template-columns: 1fr .7fr; gap: 60px; align-items: end; }
+.tpl-atelier .s-about__media { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; }
+@media (max-width: 860px) { .tpl-atelier .s-about__body { grid-template-columns: 1fr; } }
+
+/* подвал */
+.at-footer { padding: clamp(80px, 10vw, 140px) var(--pad) 30px; border-top: 1px solid var(--fg); text-align: center; }
+.at-footer__mark { font-family: var(--serif); font-style: italic; font-size: clamp(64px, 14vw, 240px); line-height: .9; letter-spacing: -.03em; color: var(--accent); }
+.at-footer__cols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin: 70px auto 60px; max-width: 1200px; text-align: left; }
+.at-footer__cols h3 { font-weight: 400; font-size: 10px; letter-spacing: .3em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+.at-footer__cols p, .at-footer__cols a { display: block; line-height: 1.8; }
+.at-footer__cols a:hover { color: var(--accent); }
+.at-footer__legal { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 22px; }
+@media (max-width: 860px) { .at-footer__cols { grid-template-columns: 1fr 1fr; } }
+
+/* «Шторка» для фото: клип на ребёнке, а не на наблюдаемом элементе — IntersectionObserver
+   учитывает clip-path самого элемента, и inset(100%) никогда не становился видимым. */
+.motion .tpl-atelier [data-reveal='clip']:not(.is-in) { clip-path: none; }
+.motion .tpl-atelier [data-reveal='clip'] > * { clip-path: inset(0 0 0 0); transition: clip-path 1.5s var(--ease), transform 1.9s var(--ease); transition-delay: var(--reveal-delay, 0s); }
+.motion .tpl-atelier [data-reveal='clip']:not(.is-in) > * { clip-path: inset(100% 0 0 0); transform: scale(1.2); }
+
+@media (max-width: 560px) {
+  .tpl-atelier .btn--xl { white-space: normal; text-align: center; letter-spacing: .14em; padding: 16px 26px; max-width: 100%; }
+  .tpl-atelier .s-contact__body { justify-items: stretch; }
+  .tpl-atelier .s-contact__facts { grid-template-columns: 1fr; }
+}
