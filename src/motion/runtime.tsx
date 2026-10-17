@@ -67,11 +67,14 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
   useEffect(() => {
     if (document.documentElement.classList.contains('reduce-motion')) return
     const ctx = gsap.context(() => {})
+    // Шторка data-reveal="clip" в скрытом состоянии имеет clip-path нулевой площади, и наблюдатель
+    // её «не видит» никогда. Поэтому за такими элементами следим через родителя.
+    const watched = new Map<Element, HTMLElement[]>()
     const io = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
           if (!e.isIntersecting) continue
-          e.target.classList.add('is-in')
+          for (const el of watched.get(e.target) ?? []) el.classList.add('is-in')
           io.unobserve(e.target)
         }
       },
@@ -80,7 +83,9 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
     document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
       const d = el.dataset.delay
       if (d) el.style.setProperty('--reveal-delay', `${d}s`)
-      io.observe(el)
+      const target = el.dataset.reveal === 'clip' && el.parentElement ? el.parentElement : el
+      watched.set(target, [...(watched.get(target) ?? []), el])
+      io.observe(target)
     })
 
     const splits: SplitText[] = []
