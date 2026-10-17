@@ -96,7 +96,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         ) : null}
         <h1 className="v-hero__title v-skew">
           {lines.map((l, i) => (
-            <span key={i} className={`v-hero__line${i % 2 ? ' is-outline' : ''}`} data-split="chars" data-delay={String(i * 0.15)}>
+            <span key={i} className={`v-hero__line${i % 2 ? ' is-outline' : ''}`} data-split="words" data-delay={String(i * 0.15)}>
               {l}{' '}
             </span>
           ))}

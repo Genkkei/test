@@ -95,7 +95,8 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
       document.querySelectorAll<HTMLElement>('[data-split]').forEach((el) => {
         const kind = (el.dataset.split || 'lines') as 'lines' | 'words' | 'chars'
         const split = SplitText.create(el, {
-          type: kind === 'chars' ? 'lines,chars' : kind === 'words' ? 'lines,words' : 'lines',
+          // при разбиении на буквы нужны и слова: иначе перенос рвёт слово посередине
+          type: kind === 'chars' ? 'lines,words,chars' : kind === 'words' ? 'lines,words' : 'lines',
           mask: 'lines',
           linesClass: 'split-line',
           autoSplit: true,

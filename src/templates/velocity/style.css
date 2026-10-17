@@ -184,7 +184,7 @@
 
 /* телефон: широкая гарнитура требует своих размеров — иначе длинные слова не влезают */
 @media (max-width: 600px) {
-  .v-hero__title { font-size: 16.5vw; }
+  .v-hero__title { font-size: 13.4vw; }
   .tpl-velocity .s__title { font-size: clamp(30px, 10vw, 60px); }
   .tpl-velocity .s-contact .s__title { font-size: 9vw; }
   .v-dirs__name { font-size: 5.6vw; hyphens: auto; overflow-wrap: normal; }
