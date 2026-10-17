@@ -1,7 +1,7 @@
 import 'server-only'
 import path from 'node:path'
 
-export const MEDIA_DIR = path.join(process.env.DATA_DIR || path.join(process.cwd(), 'data'), 'media')
+export const MEDIA_DIR = path.join(/*turbopackIgnore: true*/ process.env.DATA_DIR || path.join(process.cwd(), 'data'), 'media')
 export const MAX_MEDIA_BYTES = 8 * 1024 * 1024
 
 const TYPES: { ext: string; mime: string; test: (b: Uint8Array) => boolean }[] = [

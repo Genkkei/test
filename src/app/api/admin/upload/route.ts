@@ -16,6 +16,6 @@ export async function POST(request: Request) {
   // имя от содержимого: повторная загрузка того же фото не плодит копии
   const name = `${createHash('sha256').update(bytes).digest('hex').slice(0, 20)}.${type.ext}`
   await mkdir(MEDIA_DIR, { recursive: true })
-  await writeFile(path.join(MEDIA_DIR, name), bytes)
+  await writeFile(path.join(/*turbopackIgnore: true*/ MEDIA_DIR, name), bytes)
   return Response.json({ url: `/media/${name}` })
 }

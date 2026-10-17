@@ -89,6 +89,9 @@ html.menu-open { overflow: hidden; }
 .motion [data-reveal='clip']:not(.is-in) > * { transform: scale(1.25); }
 .motion [data-split]:not(.is-split) { opacity: 0; }
 .split-line { padding-bottom: .08em; margin-bottom: -.08em; }
+/* маска строки режет всё, что выходит за её высоту: краткая у «Й», «Ё» и курсивные хвосты.
+   Запас сверху и снизу внутри маски, компенсированный отрицательным отступом, сохраняет раскладку. */
+.split-line-mask { padding: .32em .06em .2em; margin: -.32em -.06em -.2em; }
 
 /* ---------- бегущая строка ---------- */
 .marquee { overflow: hidden; white-space: nowrap; }

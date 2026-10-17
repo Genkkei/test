@@ -13,7 +13,7 @@ import { siteSchema, type Site } from './schema'
  */
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'sites')
-const DATA_DIR = path.join(process.env.DATA_DIR || path.join(process.cwd(), 'data'), 'sites')
+const DATA_DIR = path.join(/*turbopackIgnore: true*/ process.env.DATA_DIR || path.join(process.cwd(), 'data'), 'sites')
 
 async function readJsonDir(dir: string): Promise<Map<string, unknown>> {
   const out = new Map<string, unknown>()

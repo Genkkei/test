@@ -55,7 +55,7 @@
 .ledger-hero__index { display: flex; gap: 24px; font-size: 13px; color: var(--muted); }
 .ledger-hero__index span:first-child { font-family: var(--font-display); font-style: italic; color: var(--accent); font-size: 18px; line-height: 1; }
 .ledger-hero__title { align-self: center; font-family: var(--font-body); font-weight: 500; font-size: clamp(46px, 8.6vw, 160px); line-height: .95; letter-spacing: -.06em; max-width: 13ch; }
-.ledger-voice { display: inline-block; font-family: var(--font-display); font-weight: 400; font-style: italic; letter-spacing: -.035em; color: var(--accent); overflow: hidden; vertical-align: bottom; padding-right: .08em; }
+.ledger-voice { display: inline-block; font-family: var(--font-display); font-weight: 400; font-style: italic; letter-spacing: -.035em; color: var(--accent); overflow: hidden; vertical-align: bottom; padding: .2em .08em .18em 0; margin: -.2em 0 -.18em; }
 .ledger-voice span { display: inline-block; animation: ledgerSlot .8s var(--ease) both; }
 @keyframes ledgerSlot { from { transform: translateY(100%); opacity: 0; } }
 .ledger-hero__foot { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: end; padding-top: 22px; border-top: 1px solid var(--fg); background: var(--bg); }
