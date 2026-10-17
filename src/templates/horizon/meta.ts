@@ -21,7 +21,7 @@ export const meta: TemplateMeta = {
     "body": "Montserrat",
     "motion": 1
   },
-  "art": "waves",
+  "art": "blobs",
   "preview": {
     "bg": "#efe9e1",
     "fg": "#26302c",

@@ -78,7 +78,9 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
           io.unobserve(e.target)
         }
       },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
+      // запас снизу компенсирует сдвиг data-reveal="up" на 48px: иначе элемент у нижнего края экрана
+      // уезжал за границу наблюдения и не появлялся без прокрутки
+      { rootMargin: '0px 0px 56px 0px', threshold: 0 },
     )
     document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
       const d = el.dataset.delay
