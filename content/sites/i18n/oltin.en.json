@@ -1,0 +1,333 @@
+{
+  "name": "Oltin Uy",
+  "tagline": "Jewellery made to be handed down",
+  "niche": "Jewellery house: engagement rings, gold collections and bespoke pieces",
+  "seo": {
+    "title": "Oltin Uy — jewellery house in Tashkent: rings and bespoke gold",
+    "description": "Engagement and wedding rings, earrings and necklaces in 14k and 18k gold with diamonds. Our own workshop: bespoke pieces, engraving, repairs.",
+    "keywords": [
+      "jewellery store Tashkent",
+      "engagement ring",
+      "wedding rings Tashkent",
+      "18k gold",
+      "bespoke jeweller",
+      "diamonds Tashkent"
+    ],
+    "answer": "Oltin Uy is a jewellery house with its own workshop in Tashkent: 14k gold wedding rings from 2,900,000 UZS a pair, diamond engagement rings from 9,500,000 UZS, a piece to your own sketch from 3 weeks. Every diamond piece comes with a stone certificate."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a boutique visit",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a jewellery house, watch boutique or jewellery salon. Night velvet with a gold sheen in WebGL, a rotating ring with a stone, collections in a vitrine under a spotlight and a gallery in arched niches.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Oltin Uy Jewellery LLC",
+    "street": "107B Amir Temur Ave, ground-floor boutique",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, delivery across Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Gold that remembers",
+      "eyebrow": "Jewellery house · Tashkent · since 2009",
+      "subtitle": "Engagement rings, collections and pieces made to your sketch. Every piece is assembled and polished by hand in our workshop behind the boutique wall.",
+      "words": [
+        "Engagement",
+        "Wedding",
+        "Heirloom",
+        "Bespoke"
+      ],
+      "cta": {
+        "label": "Book a boutique visit",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Collections",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "14k and 18k gold",
+        "Certified diamonds",
+        "Hand setting",
+        "Engraving",
+        "Workshop in the boutique"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The house",
+      "title": "A family workshop that became a house",
+      "text": "Oltin Uy began with one workbench and two jeweller brothers in the old city. Today we have a boutique on Amir Temur and a six-bench workshop where every piece goes from wax model to final polish. We choose stones ourselves and show them under a loupe before you buy, and every piece gets free cleaning for life.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Collections",
+      "title": "Pieces people come back to",
+      "items": [
+        {
+          "title": "Samarqand",
+          "category": "Rings",
+          "year": "2026",
+          "text": "Domes and tiles of the old city in 18k yellow gold, hand engraved.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tong",
+          "category": "Engagement",
+          "year": "2025",
+          "text": "A classic solitaire with a diamond from 0.3 carat in six prongs.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Atlas",
+          "category": "Earrings",
+          "year": "2025",
+          "text": "A wave of atlas silk in rose gold, light enough to wear all day.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Lola",
+          "category": "Necklaces",
+          "year": "2024",
+          "text": "A white-gold tulip scattered with diamonds on a fine chain.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ikki",
+          "category": "Wedding",
+          "year": "2024",
+          "text": "Matching rings with a matte and a polished facet and an engraving inside.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Meros",
+          "category": "Bracelets",
+          "year": "2023",
+          "text": "A weave inspired by our grandmothers' bracelets, reimagined in 14k gold.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Atelier",
+      "title": "The workshop behind the boutique wall",
+      "intro": "",
+      "items": [
+        {
+          "title": "A piece to your sketch",
+          "text": "We draw it, make a 3D model and a wax prototype to try on, then cast it in gold.",
+          "price": "from 3 weeks",
+          "tag": "individual"
+        },
+        {
+          "title": "Choosing a diamond",
+          "text": "We show three or four certified stones within your budget and explain the difference.",
+          "price": "free",
+          "tag": "by appointment"
+        },
+        {
+          "title": "Engraving",
+          "text": "Names, dates, a fingerprint or handwriting — laser and hand engraving.",
+          "price": "from 150,000 UZS",
+          "tag": "1–2 days"
+        },
+        {
+          "title": "Resizing and repairs",
+          "text": "We resize, rebuild prongs and replace clasps — including on pieces from other jewellers.",
+          "price": "from 200,000 UZS",
+          "tag": "from 2 days"
+        },
+        {
+          "title": "Cleaning and polishing",
+          "text": "Ultrasonic cleaning and polishing for Oltin Uy jewellery — free, for life.",
+          "price": "free",
+          "tag": "while you wait"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "17",
+          "suffix": "",
+          "label": "years of the workshop"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "jewellers at the bench"
+        },
+        {
+          "value": "3",
+          "suffix": " wks",
+          "label": "for a piece to your sketch"
+        },
+        {
+          "value": "750",
+          "suffix": "",
+          "label": "gold fineness of collections"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Workshop",
+      "title": "How a ring is born",
+      "items": [
+        {
+          "caption": "Sketch",
+          "image": ""
+        },
+        {
+          "caption": "Wax model",
+          "image": ""
+        },
+        {
+          "caption": "Casting",
+          "image": ""
+        },
+        {
+          "caption": "Stone setting",
+          "image": ""
+        },
+        {
+          "caption": "Polishing",
+          "image": ""
+        },
+        {
+          "caption": "The case",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bespoke",
+      "title": "From idea to the case",
+      "items": [
+        {
+          "title": "Meeting",
+          "text": "We discuss the idea, try on samples and choose the metal."
+        },
+        {
+          "title": "Sketch and 3D",
+          "text": "We draw it and show the model from every side."
+        },
+        {
+          "title": "Wax fitting",
+          "text": "A wax prototype on your finger — we adjust before casting."
+        },
+        {
+          "title": "Making",
+          "text": "Casting, setting, polishing and inspection."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Stories",
+      "title": "Our guests say",
+      "items": [
+        {
+          "quote": "We brought my grandmother's old ring, and its gold became two wedding bands. Her handwriting is engraved inside — I still can't look at it without tears.",
+          "author": "Dilnoza",
+          "role": "bespoke wedding rings"
+        },
+        {
+          "quote": "They showed me four diamonds under a loupe and told me honestly what I'd be overpaying for. The ring was ready in three weeks, just in time for the engagement.",
+          "author": "Timur",
+          "role": "engagement ring"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before your visit",
+      "items": [
+        {
+          "q": "How much is a wedding ring?",
+          "a": "A pair of plain 14k gold wedding rings starts at 2,900,000 UZS; the total depends on weight and width. We fix the price in the contract before making them."
+        },
+        {
+          "q": "Do diamonds come with certificates?",
+          "a": "Yes. Stones from 0.3 carat come with a gemmological lab certificate; smaller ones with a product passport."
+        },
+        {
+          "q": "How long does a bespoke piece take?",
+          "a": "Usually 3 to 5 weeks: a week for the sketch and 3D, a wax fitting, then making. Rush orders are discussed separately."
+        },
+        {
+          "q": "Can you melt down my old gold?",
+          "a": "Yes: we weigh it and test the fineness in front of you, and credit the metal's value towards the new piece."
+        },
+        {
+          "q": "Is there a warranty?",
+          "a": "One year on stone settings and clasps; free cleaning and polishing for life."
+        },
+        {
+          "q": "Do I need an appointment?",
+          "a": "You can drop into the boutique, but for choosing a diamond or a bespoke order it's best to book — a consultant will set aside an hour for you."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Boutique",
+      "title": "Come and try them on",
+      "text": "Book a time that suits you — we'll prepare samples and select stones in advance.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/oltinuy"
+      }
+    }
+  ]
+}

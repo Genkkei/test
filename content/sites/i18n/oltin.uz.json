@@ -1,0 +1,333 @@
+{
+  "name": "Oltin Uy",
+  "tagline": "Avloddan avlodga o‘tadigan taqinchoqlar",
+  "niche": "Zargarlik uyi: unashtiruv uzuklari, oltin kolleksiyalar va buyurtma asosidagi buyumlar",
+  "seo": {
+    "title": "Oltin Uy — Toshkentdagi zargarlik uyi: uzuklar va buyurtma oltin",
+    "description": "585 va 750 probali oltindan brilliantli unashtiruv va nikoh uzuklari, sirg‘alar va marjonlar. O‘z ustaxonamiz: buyurtma buyumlar, gravyura, ta’mirlash.",
+    "keywords": [
+      "zargarlik do‘koni Toshkent",
+      "unashtiruv uzugi",
+      "nikoh uzuklari Toshkent",
+      "750 probali oltin",
+      "buyurtma zargar",
+      "brilliantlar Toshkent"
+    ],
+    "answer": "Oltin Uy — Toshkentdagi o‘z ustaxonasiga ega zargarlik uyi: 585 probali oltindan nikoh uzuklari jufti 2 900 000 so‘mdan, brilliantli unashtiruv uzuklari 9 500 000 so‘mdan, sizning eskizingiz bo‘yicha buyum — 3 haftadan. Brilliantli har bir buyum tosh sertifikati bilan sotiladi."
+  },
+  "nav": {
+    "cta": {
+      "label": "Butikka yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Zargarlik uyi, soat butigi yoki taqinchoqlar saloni uchun sayt. WebGLda oltin jilvali tungi baxmal, toshli aylanuvchi uzuk, chiroq nuri ostidagi vitrina-kolleksiyalar va ravoqli tokchalardagi galereya.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Oltin Uy Jewellery» MChJ",
+    "street": "Amir Temur shoh ko‘chasi, 107B, 1-qavatdagi butik",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, O‘zbekiston bo‘ylab yetkazib berish",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Xotirani saqlovchi oltin",
+      "eyebrow": "Zargarlik uyi · Toshkent · 2009-yildan",
+      "subtitle": "Unashtiruv uzuklari, kolleksiyalar va sizning eskizingiz bo‘yicha buyumlar. Har bir buyum butik devori ortidagi ustaxonamizda qo‘lda yig‘iladi va sayqallanadi.",
+      "words": [
+        "Unashtiruv",
+        "To‘y",
+        "Meros",
+        "Buyurtma"
+      ],
+      "cta": {
+        "label": "Butikka yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Kolleksiyalar",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "585 va 750 probali oltin",
+        "Sertifikatli brilliantlar",
+        "Qo‘lda mahkamlash",
+        "Gravyura",
+        "Butik ichidagi ustaxona"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Uy",
+      "title": "Uyga aylangan oilaviy ustaxona",
+      "text": "Oltin Uy eski shahardagi bitta dastgoh va ikki aka-uka zargardan boshlangan. Bugun Amir Temurda butikimiz va olti ish o‘rinli ustaxonamiz bor: u yerda buyum mum modeldan yakuniy sayqalgacha yo‘l bosadi. Toshlarni o‘zimiz tanlaymiz va xariddan oldin lupa ostida ko‘rsatamiz, har bir buyumga umrbod bepul tozalash beramiz.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Kolleksiyalar",
+      "title": "Qayta-qayta qaytiladigan buyumlar",
+      "items": [
+        {
+          "title": "Samarqand",
+          "category": "Uzuklar",
+          "year": "2026",
+          "text": "Eski shahar gumbazlari va koshinlari 750 probali sariq oltinda, qo‘lda gravyura.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tong",
+          "category": "Unashtiruv",
+          "year": "2025",
+          "text": "Olti panjali, 0,3 karatdan brilliantli klassik soliter.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Atlas",
+          "category": "Sirg‘alar",
+          "year": "2025",
+          "text": "Pushti oltindagi atlas to‘lqini, kun bo‘yi taqishga yengil.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Lola",
+          "category": "Marjonlar",
+          "year": "2024",
+          "text": "Ingichka zanjirdagi brilliantlar sochilgan oq oltin lola.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ikki",
+          "category": "Nikoh uzuklari",
+          "year": "2024",
+          "text": "Xira va sayqallangan qirrali, ichida gravyurasi bor juft uzuklar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Meros",
+          "category": "Bilaguzuklar",
+          "year": "2023",
+          "text": "Buvilarimiz bilaguzuklari asosidagi to‘qima, 585 probada qayta talqin qilingan.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Atelye",
+      "title": "Butik devori ortidagi ustaxona",
+      "intro": "",
+      "items": [
+        {
+          "title": "Sizning eskizingiz bo‘yicha buyum",
+          "text": "Chizamiz, 3D-model va kiyib ko‘rish uchun mum prototip tayyorlaymiz, so‘ng oltindan quyamiz.",
+          "price": "3 haftadan",
+          "tag": "individual"
+        },
+        {
+          "title": "Brilliant tanlash",
+          "text": "Byudjetingizga mos uch-to‘rtta sertifikatli toshni ko‘rsatib, farqini tushuntiramiz.",
+          "price": "bepul",
+          "tag": "yozilish orqali"
+        },
+        {
+          "title": "Gravyura",
+          "text": "Ismlar, sanalar, barmoq izi yoki dastxat — lazer va qo‘l gravyurasi.",
+          "price": "150 000 so‘mdan",
+          "tag": "1–2 kun"
+        },
+        {
+          "title": "O‘lchamni o‘zgartirish va ta’mirlash",
+          "text": "O‘lchamni moslaymiz, panjalarni tiklaymiz, qulflarni almashtiramiz — boshqa zargarlar buyumlarida ham.",
+          "price": "200 000 so‘mdan",
+          "tag": "2 kundan"
+        },
+        {
+          "title": "Tozalash va sayqallash",
+          "text": "Oltin Uy taqinchoqlarini ultratovushli tozalash va sayqallash — bepul va umrbod.",
+          "price": "bepul",
+          "tag": "ko‘z oldingizda"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "17",
+          "suffix": "",
+          "label": "yillik ustaxona"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "zargar dastgoh ortida"
+        },
+        {
+          "value": "3",
+          "suffix": " hafta",
+          "label": "eskiz bo‘yicha buyumga"
+        },
+        {
+          "value": "750",
+          "suffix": "",
+          "label": "kolleksiyalar probasi"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ustaxona",
+      "title": "Uzuk qanday tug‘iladi",
+      "items": [
+        {
+          "caption": "Eskiz",
+          "image": ""
+        },
+        {
+          "caption": "Mum model",
+          "image": ""
+        },
+        {
+          "caption": "Quyish",
+          "image": ""
+        },
+        {
+          "caption": "Toshni mahkamlash",
+          "image": ""
+        },
+        {
+          "caption": "Sayqallash",
+          "image": ""
+        },
+        {
+          "caption": "G‘ilof",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Buyurtma",
+      "title": "G‘oyadan g‘ilofgacha",
+      "items": [
+        {
+          "title": "Uchrashuv",
+          "text": "G‘oyani muhokama qilamiz, namunalarni kiyib ko‘rib, metallni tanlaymiz."
+        },
+        {
+          "title": "Eskiz va 3D",
+          "text": "Chizamiz va modelni har tomondan ko‘rsatamiz."
+        },
+        {
+          "title": "Mumni kiyib ko‘rish",
+          "text": "Mum prototip barmog‘ingizda — quyishdan oldin tuzatamiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Quyish, mahkamlash, sayqallash va tekshirish."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Hikoyalar",
+      "title": "Mehmonlarimiz fikri",
+      "items": [
+        {
+          "quote": "Buvimizning eski uzugini olib keldik, uning oltinidan ikkita nikoh uzugi yasashdi. Ichiga buvimning dastxatini o‘yib yozishdi — hali ham ko‘zda yosh bilan qarayman.",
+          "author": "Dilnoza",
+          "role": "buyurtma nikoh uzuklari"
+        },
+        {
+          "quote": "Menga lupa ostida to‘rtta brilliant ko‘rsatib, nima uchun ortiqcha to‘layotganimni rostini aytishdi. Uzukni uch haftada, aynan unashtiruvga tayyorlashdi.",
+          "author": "Temur",
+          "role": "unashtiruv uzugi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Nikoh uzugi qancha turadi?",
+          "a": "585 probali oltindan silliq nikoh uzuklari jufti — 2 900 000 so‘mdan, yakuniy narx og‘irlik va kenglikka bog‘liq. Narxni tayyorlashdan oldin shartnomada qayd etamiz."
+        },
+        {
+          "q": "Brilliantlarga sertifikat bormi?",
+          "a": "Ha. 0,3 karatdan katta toshlar gemmologik laboratoriya sertifikati bilan, kichiklari — buyum pasporti bilan sotiladi."
+        },
+        {
+          "q": "Buyurtma buyum qancha vaqtda tayyorlanadi?",
+          "a": "Odatda 3 haftadan 5 haftagacha: eskiz va 3D — bir hafta, mumni kiyib ko‘rish, so‘ng tayyorlash. Shoshilinch buyurtma alohida kelishiladi."
+        },
+        {
+          "q": "Eski oltinimni qayta eritsa bo‘ladimi?",
+          "a": "Bo‘ladi: ko‘z oldingizda tortib, probasini tekshiramiz, metall qiymatini yangi buyumga hisoblaymiz."
+        },
+        {
+          "q": "Kafolat bormi?",
+          "a": "Tosh mahkamlash va qulflarga bir yil kafolat, bepul tozalash va sayqallash — umrbod."
+        },
+        {
+          "q": "Oldindan yozilish kerakmi?",
+          "a": "Butikka yozilmasdan kelish mumkin, lekin brilliant tanlash va eskiz bo‘yicha buyurtma uchun yozilgan ma’qul — maslahatchi sizga bir soat ajratadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Butik",
+      "title": "Kiyib ko‘rgani keling",
+      "text": "Qulay vaqtga yoziling — namunalarni tayyorlab, toshlarni oldindan tanlab qo‘yamiz.",
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/oltinuy"
+      }
+    }
+  ]
+}

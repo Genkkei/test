@@ -1,0 +1,352 @@
+{
+  "name": "Yo‘l Rent",
+  "tagline": "Bir soatda mashina eshigingiz oldida — bir kundan bir oygacha",
+  "niche": "Toshkentda yetkazib berish bilan avtomobil ijarasi",
+  "seo": {
+    "title": "Yo‘l Rent — Toshkentda yetkazib berish bilan avtomobil ijarasi",
+    "description": "Bir kundan bir oygacha avto ijarasi: Cobalt, Malibu, K5, Tucson, Camry, Carnival miniveni. Uyga va aeroportga yetkazish, sug‘urta narxga kiritilgan, rasmiylashtirish 15 daqiqada.",
+    "keywords": [
+      "avto ijarasi Toshkent",
+      "mashina ijarasi Toshkent",
+      "haydovchisiz avto ijarasi",
+      "Toshkent aeroportida avto ijarasi",
+      "miniven ijarasi",
+      "bir oylik avto ijarasi"
+    ],
+    "answer": "Yo‘l Rent — Toshkentdagi avtomobil ijarasi: Chevrolet Cobalt kuniga 350 000 so‘mdan, Toyota Camry 900 000 so‘mdan, Kia Carnival miniveni 1 200 000 so‘mdan. Pasport va kamida 2 yillik stajli guvohnoma kerak, yosh 21 dan; 3 kundan ortiq ijarada shahar bo‘ylab yetkazish bepul, aeroportga — 100 000 so‘m."
+  },
+  "nav": {
+    "cta": {
+      "label": "Band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Avtomobil ijarasi, karshering yoki transferlar uchun sayt. Harakatdagi mashina bilan studiya sahnasi, spetsifikatsiya kartalari va kunlik narxli avtopark lentasi, muddat bo‘yicha tariflar va mashinacha yuradigan ijara yo‘nalishi.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Yo‘l Rent» MChJ",
+    "street": "Bobur ko‘chasi, 45, berish ofisi",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Islom Karimov aeroporti, O‘zbekiston bo‘ylab safarlar",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bir soatda kalit qo‘lingizda",
+      "eyebrow": "Bugun 14 ta mashina bo‘sh",
+      "subtitle": "Toshkentda bir kundan bir oygacha avtomobil ijarasi. Mashinani uyingizga, mehmonxonaga yoki aeroportga to‘liq bak va sug‘urta bilan olib boramiz.",
+      "words": [
+        "kuniga 350 000 so‘mdan",
+        "Sug‘urta kiritilgan",
+        "Aeroportga yetkazish",
+        "Rasmiylashtirish 15 daqiqa"
+      ],
+      "cta": {
+        "label": "Band qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Avtoparkni ko‘rish",
+        "href": "#fleet"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Yashirin to‘lovlarsiz",
+        "To‘liq bak",
+        "KASKO va OSAGO",
+        "Bolalar o‘rindiqlari",
+        "Aeroportga 24/7 yetkazish"
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Avtopark",
+      "title": "Mashinani tanlang",
+      "items": [
+        {
+          "title": "Chevrolet Cobalt",
+          "category": "Ekonom sedan",
+          "year": "2024",
+          "text": "Shahar uchun eng tejamkor · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 350 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chevrolet Tracker",
+          "category": "Krossover",
+          "year": "2024",
+          "text": "Baland o‘rindiq va katta yukxona · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 550 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chevrolet Malibu",
+          "category": "Biznes sedan",
+          "year": "2023",
+          "text": "Ish safarlari uchun sokin salon · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 650 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kia K5",
+          "category": "Biznes sedan",
+          "year": "2024",
+          "text": "Panorama tom va adaptiv kruiz · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 700 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "BYD Song Plus",
+          "category": "Gibrid krossover",
+          "year": "2025",
+          "text": "Shaharda 100 km ga taxminan 5 litr · Uzatma: variator · O‘rin: 5 · Yoqilg‘i: gibrid · Narx: kuniga 800 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hyundai Tucson",
+          "category": "To‘liq privodli krossover",
+          "year": "2024",
+          "text": "Tog‘ga sayohat uchun to‘liq privod · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 850 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Toyota Camry",
+          "category": "Premium sedan",
+          "year": "2024",
+          "text": "Uchrashuvlar va to‘y kortejlari uchun · Uzatma: avtomat · O‘rin: 5 · Yoqilg‘i: benzin · Narx: kuniga 900 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kia Carnival",
+          "category": "Miniven",
+          "year": "2023",
+          "text": "Yetti o‘rin va suriladigan eshiklar · Uzatma: avtomat · O‘rin: 7 · Yoqilg‘i: dizel · Narx: kuniga 1 200 000 so‘mdan",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "38",
+          "suffix": "",
+          "label": "mashina avtoparkda"
+        },
+        {
+          "value": "15",
+          "suffix": " daq",
+          "label": "rasmiylashtirishga"
+        },
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "shahar bo‘ylab yetkazish"
+        },
+        {
+          "value": "7",
+          "suffix": " yil",
+          "label": "bozorda"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "Qancha uzoq — shuncha arzon",
+      "items": [
+        {
+          "name": "1–2 kun",
+          "price": "asosiy narx",
+          "period": "mashina tarifi bo‘yicha",
+          "features": [
+            "Kuniga 300 km kiritilgan",
+            "OSAGO va KASKO sug‘urtasi",
+            "Ofisda topshirish bepul"
+          ],
+          "featured": false
+        },
+        {
+          "name": "3–6 kun",
+          "price": "−10%",
+          "period": "asosiy narxdan",
+          "features": [
+            "Shahar bo‘ylab yetkazish bepul",
+            "Kuniga 300 km",
+            "Buzilganda mashinani almashtirish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "7–29 kun",
+          "price": "−20%",
+          "period": "asosiy narxdan",
+          "features": [
+            "Cheklanmagan yurish",
+            "Yetkazish va qaytarish bepul",
+            "Haftada bir marta yuvish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Bir oy va undan ko‘p",
+          "price": "−30%",
+          "period": "asosiy narxdan",
+          "features": [
+            "Cheklanmagan yurish",
+            "Rejali TO bizning hisobimizdan",
+            "Bo‘lib to‘lash"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Qo‘shimcha",
+      "title": "Ijaraga qulayliklar",
+      "intro": "",
+      "items": [
+        {
+          "title": "Aeroportga yetkazish",
+          "text": "Terminalda yozuvli taxtacha bilan kutib olib, kalitni topshiramiz — kecha-kunduz.",
+          "price": "100 000 so‘m",
+          "tag": "24/7"
+        },
+        {
+          "title": "Haydovchili mashina",
+          "text": "Uchrashuvlar, transferlar va to‘ylar uchun 10 yildan ortiq stajli haydovchi.",
+          "price": "kuniga 250 000 so‘mdan",
+          "tag": "10 soatgacha"
+        },
+        {
+          "title": "Bolalar o‘rindig‘i",
+          "text": "0 dan 12 yoshgacha bolalar uchun o‘rindiq va busterlar, yetkazishdan oldin o‘rnatamiz.",
+          "price": "kuniga 50 000 so‘m",
+          "tag": "so‘rov bo‘yicha"
+        },
+        {
+          "title": "O‘zbekiston bo‘ylab safarlar",
+          "text": "Samarqand, Buxoro, Chimyon — yo‘nalishni kelishib, ishonchnoma beramiz.",
+          "price": "tarif bo‘yicha",
+          "tag": "qo‘shimcha to‘lovsiz"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ijaraga olish",
+      "title": "Rulgacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Band qilish",
+          "text": "Mashina va sanalarni tanlang — ariza qoldiring yoki Telegramda yozing."
+        },
+        {
+          "title": "Hujjatlar",
+          "text": "Pasport va guvohnoma suratini yuboring — 10 daqiqada tekshiramiz."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "Mashinani uyga yoki aeroportga olib boramiz, shartnomani joyida imzolaymiz."
+        },
+        {
+          "title": "Qaytarish",
+          "text": "Mashinani qulay joyda qoldiring — o‘zimiz olib ketamiz va garovni qaytaramiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Haydovchilar fikri",
+      "items": [
+        {
+          "quote": "Kechasi uchib keldik, mashinani terminal chiqishida topshirishdi. Yigirma daqiqadan keyin mehmonxonaga ketayotgan edik.",
+          "author": "Aleksey",
+          "role": "Camry, 5 kun"
+        },
+        {
+          "quote": "Butun oila bilan Samarqandga borish uchun Carnivalni bir haftaga oldik. Mashina toza, bolalar o‘rindiqlari allaqachon o‘rnatilgan edi.",
+          "author": "Nodira",
+          "role": "Carnival, 7 kun"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ijaradan oldin",
+      "items": [
+        {
+          "q": "Qanday hujjatlar kerak?",
+          "a": "Pasport va kamida 2 yillik stajli B toifali haydovchilik guvohnomasi. Chet elliklarga — pasport va xalqaro guvohnoma bilan milliy guvohnoma."
+        },
+        {
+          "q": "Garov bormi?",
+          "a": "Ha, mashina sinfiga qarab 1 000 000 so‘mdan qaytariladigan garov. Topshirish kuni ko‘rikdan so‘ng qaytaramiz."
+        },
+        {
+          "q": "Sug‘urta kiritilganmi?",
+          "a": "OSAGO va KASKO narxga kiritilgan. KASKO franshizasi — 2 000 000 so‘mdan, qo‘shimcha to‘lov evaziga uni nolga tushirish mumkin."
+        },
+        {
+          "q": "Toshkentdan tashqariga chiqsa bo‘ladimi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab. Band qilishda yo‘nalishni ayting — ishonchnoma beramiz. Chet elga chiqishga ruxsat yo‘q."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab 3 kundan ortiq ijarada bepul, aks holda 50 000 so‘m. Aeroportga — istalgan vaqtda 100 000 so‘m."
+        },
+        {
+          "q": "Mashina buzilsa-chi?",
+          "a": "Dispetcherga qo‘ng‘iroq qiling: shaharda 2 soat ichida mashinani almashtiramiz, shahar tashqarisida — evakuator va almashtiruvchi mashina yuboramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Band qilish",
+      "title": "Mashinani qayerga olib boraylik?",
+      "text": "Sanalar, mashina sinfi va manzilni yozing — bandni 10 daqiqada tasdiqlaymiz.",
+      "cta": {
+        "label": "Telegramda band qilish",
+        "href": "https://t.me/yolrent"
+      }
+    }
+  ]
+}

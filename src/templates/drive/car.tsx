@@ -24,7 +24,7 @@ const BODY: Record<CarKind, { body: string; glass: string }> = {
 
 export function carKindOf(text: string): CarKind {
   const t = text.toLowerCase()
-  if (/внедор|кросс|suv|krossover|jeep|4x4|джип/.test(t)) return 'suv'
+  if (/внедор|кросс|cross|suv|krossover|jeep|4x4|джип/.test(t)) return 'suv'
   if (/минив|van|микроавт|miniven/.test(t)) return 'van'
   if (/купе|coupe|спорт|sport|кабри|kabri/.test(t)) return 'coupe'
   return 'sedan'

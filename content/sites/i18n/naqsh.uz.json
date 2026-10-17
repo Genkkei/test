@@ -1,0 +1,330 @@
+{
+  "name": "Naqsh",
+  "tagline": "Uylar, interyerlar va jamoat joylarini loyihalaymiz — eskizdan mualliflik nazoratigacha",
+  "niche": "Arxitektura byurosi va interyer dizayni",
+  "seo": {
+    "title": "Naqsh — Toshkentdagi arxitektura byurosi va interyer dizayni",
+    "description": "Xususiy uylar, kvartira interyerlari, restoran va ofislar loyihalari. Konsepsiya, ishchi hujjatlar, vizualizatsiya va qurilishda mualliflik nazorati.",
+    "keywords": [
+      "arxitektura byurosi Toshkent",
+      "interyer dizayni Toshkent",
+      "uy loyihasi",
+      "kvartira dizayni",
+      "mualliflik nazorati",
+      "arxitektor Toshkent"
+    ],
+    "answer": "Naqsh — Toshkentdagi arxitektura byurosi: xususiy uy loyihasi m² uchun 120 000 so‘mdan, interyer dizayn-loyihasi m² uchun 180 000 so‘mdan, mualliflik nazorati oyiga 4 000 000 so‘mdan. Konsepsiya 3–4 haftada, ishchi chizmalarning to‘liq to‘plami 2–3 oyda tayyor bo‘ladi."
+  },
+  "nav": {
+    "cta": {
+      "label": "Loyihani muhokama qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Arxitektura byurosi, interyer dizayneri yoki developer uchun sayt. Chizma to‘rli beton varaq: bino aksonometriyasi chiziqma-chiziq chiziladi, kursor ortidan koordinatali nishon yuradi, ulkan raqamli loyihalar indeksi va o‘lcham chiziqli xizmatlar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Naqsh Architects» MChJ",
+    "street": "Shota Rustaveli ko‘chasi, 41, 4-qavat",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Toshkent viloyati, Samarqand, Farg‘ona",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Shaklini saqlaydigan arxitektura",
+      "eyebrow": "Arxitektura byurosi · Toshkent · 2014-yildan",
+      "subtitle": "Xususiy uylar, interyerlar va jamoat joylarini loyihalaymiz. Yorug‘lik, ventilyatsiya va byudjetni fasad nisbatlari kabi sinchiklab hisoblaymiz — obyektni oxirgi rozetkagacha olib boramiz.",
+      "words": [
+        "Xususiy uylar",
+        "Interyerlar",
+        "Restoranlar",
+        "Ofislar"
+      ],
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Loyihalarni ko‘rish",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Konsepsiya",
+        "Ishchi hujjatlar",
+        "Vizualizatsiya",
+        "Jihozlash",
+        "Mualliflik nazorati",
+        "BIM"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Byuro",
+      "title": "O‘n ikki yil, qirqta obyekt, birontasi ham namunaviy emas",
+      "text": "Naqsh — to‘qqiz arxitektor, konstruktor va muhandisdan iborat jamoa. Biz internetdagi rasmdan emas, yer uchastkasi va odamlardan boshlaymiz: iyulda quyosh qanday tushadi, qo‘shni uyning soyasi qayerda, o‘n yildan keyin xonalarda kim yashaydi. Chizmalarni BIMda tayyorlaymiz — smeta va spetsifikatsiyalar shu modeldan hisoblanadi, shuning uchun qurilishda kutilmagan holatlar bo‘lmaydi. Har bir obyektga arxitektorimiz haftasiga bir marta keladi.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "Tanlangan ishlar",
+      "items": [
+        {
+          "title": "Hovlili uy",
+          "category": "Xususiy uy",
+          "year": "2025",
+          "text": "Ayvon va tokzorli ichki hovli atrofidagi uy · Maydon: 420 m² · Uchastka: 12 sotix · Joy: Yunusobod",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mirobodagi kvartira",
+          "category": "Interyer",
+          "year": "2025",
+          "text": "Eski «stalinka»ni qayta rejalash: ship balandligi va eman parketi qaytarildi · Maydon: 138 m² · Muddat: 7 oy",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Kamar» restorani",
+          "category": "Restoran",
+          "year": "2024",
+          "text": "Pishgan g‘isht gumbazlari ostidagi 90 o‘rinli zal · Maydon: 310 m² · Joy: Tashkent City",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "IT-kompaniya ofisi",
+          "category": "Ofis",
+          "year": "2024",
+          "text": "Yog‘och qutichali muzokara xonalari bor ochiq makon · Maydon: 860 m² · O‘rin: 120",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Shahar tashqarisidagi uy",
+          "category": "Xususiy uy",
+          "year": "2023",
+          "text": "Tog‘ etagidagi tosh va betondan bir qavatli uy · Maydon: 260 m² · Joy: Bo‘stonliq",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "amalga oshirilgan obyekt"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "yillik tajriba"
+        },
+        {
+          "value": "58",
+          "suffix": "",
+          "label": "ming m² loyihalangan"
+        },
+        {
+          "value": "11",
+          "suffix": "",
+          "label": "kishilik jamoa"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimalarni loyihalaymiz",
+      "intro": "To‘liq siklni yoki alohida bosqichni buyurtma qilish mumkin — masalan, faqat konsepsiya yoki boshqa birovning loyihasi bo‘yicha faqat nazorat.",
+      "items": [
+        {
+          "title": "Uyning arxitektura loyihasi",
+          "text": "Eskiz, rejalar, fasadlar, konstruktiv va muhandislik bo‘limlari, ruxsatnoma olish uchun hujjatlar to‘plami.",
+          "price": "120 000 so‘mdan / m²",
+          "tag": "2–3 oy"
+        },
+        {
+          "title": "Interyer dizayn-loyihasi",
+          "text": "Rejalash yechimi, barcha xonalar vizualizatsiyasi, ishchi chizmalar, materiallar va mebel ro‘yxati.",
+          "price": "180 000 so‘mdan / m²",
+          "tag": "6–10 hafta"
+        },
+        {
+          "title": "Tijorat interyerlari",
+          "text": "Restoranlar, ofislar, shourumlar: zonalash, mehmon ssenariylari, makondagi brend, pudratchilar bilan kelishuv.",
+          "price": "220 000 so‘mdan / m²",
+          "tag": "texnik topshiriq bo‘yicha"
+        },
+        {
+          "title": "Jihozlash",
+          "text": "Materiallar, yoritish va mebelni ishonchli yetkazib beruvchilardan tanlab buyurtma qilamiz, yetkazish muddatini kuzatamiz.",
+          "price": "xariddan 8%",
+          "tag": "qurilish davomida"
+        },
+        {
+          "title": "Mualliflik nazorati",
+          "text": "Arxitektor haftasiga bir marta obyektda, fotohisobot, qurilish davomida yechimlar, ishlarni qabul qilish.",
+          "price": "oyiga 4 000 000 so‘mdan",
+          "tag": "topshirishgacha"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Uchastkadan kalitgacha",
+      "items": [
+        {
+          "title": "O‘lchov va brif",
+          "text": "Obyektga chiqamiz, o‘lchovlarni olamiz, turmush tarzi va byudjetni muhokama qilamiz."
+        },
+        {
+          "title": "Konsepsiya",
+          "text": "Ikki-uchta reja va obraz: eskizlar, kollajlar, ilk 3D ko‘rinishlar."
+        },
+        {
+          "title": "Loyiha",
+          "text": "Bitta BIM-modeldan ishchi chizmalar, muhandislik va smeta."
+        },
+        {
+          "title": "Jihozlash",
+          "text": "Materiallar, mebel va yoritish — narxlari va yetkazish muddatlari bilan."
+        },
+        {
+          "title": "Nazorat",
+          "text": "Haftalik tashriflar, sifat nazorati, ishlarni qabul qilish."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Materiallar",
+      "title": "Nimadan quramiz",
+      "items": [
+        {
+          "caption": "Qo‘lda qoliplangan pishgan g‘isht",
+          "image": ""
+        },
+        {
+          "caption": "Travertin",
+          "image": ""
+        },
+        {
+          "caption": "Eman, moy",
+          "image": ""
+        },
+        {
+          "caption": "Ganch va o‘ymakorlik",
+          "image": ""
+        },
+        {
+          "caption": "Arxitektura betoni",
+          "image": ""
+        },
+        {
+          "caption": "Latun",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mijozlar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "Loyihadagi smeta yakuniy xarajatlar bilan deyarli bir xil chiqqani bizni hayratda qoldirdi. Farq — uch foiz, u ham plitkani o‘zimiz almashtirganimiz uchun.",
+          "author": "Shahzod va Nigora",
+          "role": "xususiy uy, Yunusobod"
+        },
+        {
+          "quote": "Restoran o‘z vaqtida ochildi. Arxitektor har hafta kelib, pudratchilar bilan masalalarni telefonda emas, joyida hal qildi.",
+          "author": "Bobur A.",
+          "role": "restoran egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ilk uchrashuvdan oldin",
+      "items": [
+        {
+          "q": "Uy loyihasi qancha turadi?",
+          "a": "Arxitektura loyihasi — kvadrat metri uchun 120 000 so‘mdan, yakuniy narx maydon va murakkablikka bog‘liq. Aniq narxni uchastkaga borib, brifdan so‘ng aytamiz."
+        },
+        {
+          "q": "Loyihalash qancha davom etadi?",
+          "a": "Konsepsiya — 3–4 hafta, uyning to‘liq ishchi chizmalari — 2–3 oy, kvartira dizayn-loyihasi — 6–10 hafta."
+        },
+        {
+          "q": "Toshkentdan tashqarida ishlaysizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab. Obyektga chiqishlar yo‘l xarajatlari bo‘yicha alohida to‘lanadi."
+        },
+        {
+          "q": "Faqat nazoratni buyurtma qilsa bo‘ladimi?",
+          "a": "Bo‘ladi, jumladan boshqa birovning loyihasi bo‘yicha ham. Avval hujjatlarni o‘rganib, qurilishdan oldin nimani tuzatish kerakligini aytamiz."
+        },
+        {
+          "q": "Qurilish ruxsatnomasi olishda yordam berasizmi?",
+          "a": "Hokimiyat uchun loyiha hujjatlari to‘plamini tayyorlaymiz va kelishuvni kuzatib boramiz, ammo arizani buyurtmachi topshiradi."
+        },
+        {
+          "q": "To‘lov qanday amalga oshiriladi?",
+          "a": "Shartnoma bo‘yicha bosqichma-bosqich: konsepsiyadan oldin 30%, ishchi hujjatlardan oldin 40%, loyiha topshirilganda 30%."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Uchastkadan boshlaymiz",
+      "text": "Nima qurayotganingiz yoki ta’mirlayotganingizni aytib, manzilni yuboring — o‘lchovga chiqishni kelishib olamiz.",
+      "cta": {
+        "label": "Telegramda yozish",
+        "href": "https://t.me/naqsh_architects"
+      }
+    }
+  ]
+}

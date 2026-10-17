@@ -1,0 +1,330 @@
+{
+  "name": "Naqsh",
+  "tagline": "We design houses, interiors and public spaces — from the first sketch to on-site supervision",
+  "niche": "Architecture practice and interior design",
+  "seo": {
+    "title": "Naqsh — architecture and interior design studio in Tashkent",
+    "description": "Private houses, apartment interiors, restaurants and offices. Concept, construction drawings, visualisation and architect's supervision on site.",
+    "keywords": [
+      "architecture firm Tashkent",
+      "interior design Tashkent",
+      "house design",
+      "apartment design",
+      "architect supervision",
+      "architect Tashkent"
+    ],
+    "answer": "Naqsh is an architecture practice in Tashkent: a private house design from 120,000 UZS per m², an interior design project from 180,000 UZS per m², on-site supervision from 4,000,000 UZS a month. A concept takes 3–4 weeks, a full set of construction drawings 2–3 months."
+  },
+  "nav": {
+    "cta": {
+      "label": "Discuss a project",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an architecture practice, interior designer or developer. A concrete sheet with a drafting grid: a building axonometry draws itself line by line, a crosshair with coordinates follows the cursor, a project index with huge numbers and services with dimension lines.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Naqsh Architects LLC",
+    "street": "41 Shota Rustaveli St, 4th floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Tashkent region, Samarkand, Fergana",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Architecture that holds its shape",
+      "eyebrow": "Architecture practice · Tashkent · since 2014",
+      "subtitle": "We design private houses, interiors and public spaces. We work out light, ventilation and budget as carefully as the proportions of a facade — and stay with the build down to the last socket.",
+      "words": [
+        "Private houses",
+        "Interiors",
+        "Restaurants",
+        "Offices"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See projects",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Concept",
+        "Construction drawings",
+        "Visualisation",
+        "Procurement",
+        "Site supervision",
+        "BIM"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studio",
+      "title": "Twelve years, forty buildings, not one off the shelf",
+      "text": "Naqsh is a team of nine architects, a structural engineer and a services engineer. We start with the site and the people, not with a picture from the internet: how the sun falls in July, where the neighbour's shadow lies, who will live in these rooms in ten years. Drawings are made in BIM — estimates and schedules come from the same model, so the build holds no surprises. On every project our architect visits the site once a week.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Selected work",
+      "items": [
+        {
+          "title": "Courtyard house",
+          "category": "Private house",
+          "year": "2025",
+          "text": "A house around an inner courtyard with an aivan and a vineyard · Area: 420 m² · Plot: 1,200 m² · Location: Yunusabad",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mirabad apartment",
+          "category": "Interior",
+          "year": "2025",
+          "text": "Replanning a 1950s apartment: restored ceiling heights and oak parquet · Area: 138 m² · Duration: 7 months",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kamar restaurant",
+          "category": "Restaurant",
+          "year": "2024",
+          "text": "A 90-seat hall under fired-brick vaults · Area: 310 m² · Location: Tashkent City",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "IT company office",
+          "category": "Office",
+          "year": "2024",
+          "text": "An open floor with timber meeting-room boxes · Area: 860 m² · Seats: 120",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Country house",
+          "category": "Private house",
+          "year": "2023",
+          "text": "A single-storey stone and concrete house at the foot of the mountains · Area: 260 m² · Location: Bostanlyk",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "completed projects"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "years of practice"
+        },
+        {
+          "value": "58",
+          "suffix": "",
+          "label": "thousand m² designed"
+        },
+        {
+          "value": "11",
+          "suffix": "",
+          "label": "people on the team"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we design",
+      "intro": "Order the full cycle or a single stage — for example, just a concept or just supervision of someone else's project.",
+      "items": [
+        {
+          "title": "House architecture project",
+          "text": "Sketch, plans, facades, structure and building services, plus the package for a building permit.",
+          "price": "from 120,000 UZS / m²",
+          "tag": "2–3 months"
+        },
+        {
+          "title": "Interior design project",
+          "text": "Layout, visualisations of every room, working drawings, schedule of materials and furniture.",
+          "price": "from 180,000 UZS / m²",
+          "tag": "6–10 weeks"
+        },
+        {
+          "title": "Commercial interiors",
+          "text": "Restaurants, offices, showrooms: zoning, guest journeys, the brand in space, coordination with contractors.",
+          "price": "from 220,000 UZS / m²",
+          "tag": "per brief"
+        },
+        {
+          "title": "Procurement",
+          "text": "We select and order materials, lighting and furniture from trusted suppliers and track delivery dates.",
+          "price": "8% of purchases",
+          "tag": "during the build"
+        },
+        {
+          "title": "Site supervision",
+          "text": "An architect on site once a week, a photo report, decisions as the build goes, sign-off of works.",
+          "price": "from 4,000,000 UZS / month",
+          "tag": "until handover"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "From the plot to the keys",
+      "items": [
+        {
+          "title": "Survey and brief",
+          "text": "We visit the site, take measurements and talk through how you live and the budget."
+        },
+        {
+          "title": "Concept",
+          "text": "Two or three layouts and a look: sketches, collages, first 3D views."
+        },
+        {
+          "title": "Design",
+          "text": "Working drawings, services and the estimate from a single BIM model."
+        },
+        {
+          "title": "Procurement",
+          "text": "Materials, furniture and lighting — with prices and lead times."
+        },
+        {
+          "title": "Supervision",
+          "text": "Weekly site visits, quality control, sign-off of works."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Materials",
+      "title": "What we build with",
+      "items": [
+        {
+          "caption": "Hand-moulded fired brick",
+          "image": ""
+        },
+        {
+          "caption": "Travertine",
+          "image": ""
+        },
+        {
+          "caption": "Oiled oak",
+          "image": ""
+        },
+        {
+          "caption": "Ganch plaster and carving",
+          "image": ""
+        },
+        {
+          "caption": "Architectural concrete",
+          "image": ""
+        },
+        {
+          "caption": "Brass",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Clients",
+      "title": "What they say",
+      "items": [
+        {
+          "quote": "What amazed us was that the estimate in the drawings almost matched the final cost. The difference was three per cent — and that only because we changed the tiles ourselves.",
+          "author": "Shakhzod and Nigora",
+          "role": "private house, Yunusabad"
+        },
+        {
+          "quote": "The restaurant opened on time. The architect came every week and settled things with the contractors on site, not over the phone.",
+          "author": "Bobur A.",
+          "role": "restaurant owner"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before we first meet",
+      "items": [
+        {
+          "q": "How much does a house design cost?",
+          "a": "An architecture project starts at 120,000 UZS per square metre; the total depends on area and complexity. We give an exact price after visiting the plot and the brief."
+        },
+        {
+          "q": "How long does design take?",
+          "a": "A concept takes 3–4 weeks, a full set of construction drawings for a house 2–3 months, an apartment interior project 6–10 weeks."
+        },
+        {
+          "q": "Do you work outside Tashkent?",
+          "a": "Yes, across Uzbekistan. Site visits are billed separately at actual travel cost."
+        },
+        {
+          "q": "Can I order supervision only?",
+          "a": "Yes, including on someone else's project. First we review the drawings and tell you what needs fixing before construction starts."
+        },
+        {
+          "q": "Do you help with the building permit?",
+          "a": "We prepare the design package for the khokimiyat and support the approval process, but the client files the application."
+        },
+        {
+          "q": "How does payment work?",
+          "a": "In stages under the contract: 30% before the concept, 40% before construction drawings, 30% on handover of the project."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Let's start with the plot",
+      "text": "Tell us what you are building or renovating and send the address — we'll arrange a site survey.",
+      "cta": {
+        "label": "Message us on Telegram",
+        "href": "https://t.me/naqsh_architects"
+      }
+    }
+  ]
+}

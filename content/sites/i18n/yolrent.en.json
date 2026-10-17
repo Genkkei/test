@@ -1,0 +1,352 @@
+{
+  "name": "Yo‘l Rent",
+  "tagline": "A car at your door within an hour — from a day to a month",
+  "niche": "Car rental in Tashkent with delivery",
+  "seo": {
+    "title": "Yo‘l Rent — car rental in Tashkent with delivery",
+    "description": "Rent a car from a day to a month: Cobalt, Malibu, K5, Tucson, Camry, Carnival minivan. Delivery to your door and the airport, insurance included, paperwork in 15 minutes.",
+    "keywords": [
+      "car hire Tashkent",
+      "rent a car Tashkent",
+      "self-drive car rental",
+      "car rental Tashkent airport",
+      "minivan rental",
+      "monthly car rental"
+    ],
+    "answer": "Yo‘l Rent is a car rental company in Tashkent: Chevrolet Cobalt from 350,000 UZS a day, Toyota Camry from 900,000 UZS, Kia Carnival minivan from 1,200,000 UZS. You need a passport and a licence held for at least 2 years, minimum age 21; delivery in the city is free for rentals of 3 days or more, to the airport 100,000 UZS."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book now",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for car rental, car sharing or transfers. A studio scene with a car on the move, the fleet as a strip of spec cards with a daily price, rates by rental length and a rental route with a little car driving along it.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Yo‘l Rent LLC",
+    "street": "45 Babur St, pick-up office",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Islam Karimov airport, trips across Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Keys in your hand within the hour",
+      "eyebrow": "14 cars available today",
+      "subtitle": "Car rental in Tashkent from a day to a month. We bring the car to your home, hotel or the airport — with a full tank and insurance.",
+      "words": [
+        "from 350,000 UZS/day",
+        "Insurance included",
+        "Airport delivery",
+        "15-minute paperwork"
+      ],
+      "cta": {
+        "label": "Book now",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See the fleet",
+        "href": "#fleet"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "No hidden fees",
+        "Full tank",
+        "Comprehensive and third-party cover",
+        "Child seats",
+        "24/7 airport delivery"
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Fleet",
+      "title": "Choose your car",
+      "items": [
+        {
+          "title": "Chevrolet Cobalt",
+          "category": "Economy sedan",
+          "year": "2024",
+          "text": "The most economical for the city · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 350,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chevrolet Tracker",
+          "category": "Crossover",
+          "year": "2024",
+          "text": "High seating and a big boot · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 550,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chevrolet Malibu",
+          "category": "Business sedan",
+          "year": "2023",
+          "text": "A quiet cabin for business trips · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 650,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kia K5",
+          "category": "Business sedan",
+          "year": "2024",
+          "text": "Panoramic roof and adaptive cruise · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 700,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "BYD Song Plus",
+          "category": "Hybrid crossover",
+          "year": "2025",
+          "text": "About 5 litres per 100 km in town · Gearbox: CVT · Seats: 5 · Fuel: hybrid · Price: from 800,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hyundai Tucson",
+          "category": "AWD crossover",
+          "year": "2024",
+          "text": "All-wheel drive for trips to the mountains · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 850,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Toyota Camry",
+          "category": "Premium sedan",
+          "year": "2024",
+          "text": "For meetings and wedding motorcades · Gearbox: automatic · Seats: 5 · Fuel: petrol · Price: from 900,000 UZS/day",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kia Carnival",
+          "category": "Minivan",
+          "year": "2023",
+          "text": "Seven seats and sliding doors · Gearbox: automatic · Seats: 7 · Fuel: diesel · Price: from 1,200,000 UZS/day",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "38",
+          "suffix": "",
+          "label": "cars in the fleet"
+        },
+        {
+          "value": "15",
+          "suffix": " min",
+          "label": "to sign the paperwork"
+        },
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "delivery in the city"
+        },
+        {
+          "value": "7",
+          "suffix": " yrs",
+          "label": "in business"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Rates",
+      "title": "The longer, the cheaper",
+      "items": [
+        {
+          "name": "1–2 days",
+          "price": "base price",
+          "period": "per the car's rate",
+          "features": [
+            "300 km a day included",
+            "Third-party and comprehensive insurance",
+            "Free pick-up at the office"
+          ],
+          "featured": false
+        },
+        {
+          "name": "3–6 days",
+          "price": "−10%",
+          "period": "off the base price",
+          "features": [
+            "Free delivery in the city",
+            "300 km a day",
+            "Replacement car if it breaks down"
+          ],
+          "featured": true
+        },
+        {
+          "name": "7–29 days",
+          "price": "−20%",
+          "period": "off the base price",
+          "features": [
+            "Unlimited mileage",
+            "Free delivery and return",
+            "A car wash every week"
+          ],
+          "featured": false
+        },
+        {
+          "name": "A month or longer",
+          "price": "−30%",
+          "period": "off the base price",
+          "features": [
+            "Unlimited mileage",
+            "Scheduled service on us",
+            "Pay in instalments"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Extras",
+      "title": "Add-ons to your rental",
+      "intro": "",
+      "items": [
+        {
+          "title": "Airport delivery",
+          "text": "We meet you at the terminal with a sign and hand over the keys, around the clock.",
+          "price": "100,000 UZS",
+          "tag": "24/7"
+        },
+        {
+          "title": "Car with a driver",
+          "text": "A driver with 10+ years of experience for meetings, transfers and weddings.",
+          "price": "from 250,000 UZS/day",
+          "tag": "up to 10 hours"
+        },
+        {
+          "title": "Child seat",
+          "text": "Seats and boosters for children from 0 to 12, fitted before delivery.",
+          "price": "50,000 UZS/day",
+          "tag": "on request"
+        },
+        {
+          "title": "Trips across Uzbekistan",
+          "text": "Samarkand, Bukhara, Chimgan — we agree the route and issue a power of attorney.",
+          "price": "at the usual rate",
+          "tag": "no surcharge"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to rent",
+      "title": "Four steps to the wheel",
+      "items": [
+        {
+          "title": "Booking",
+          "text": "Choose a car and dates — leave a request or message us on Telegram."
+        },
+        {
+          "title": "Documents",
+          "text": "Send photos of your passport and licence — we check them in 10 minutes."
+        },
+        {
+          "title": "Delivery",
+          "text": "We bring the car to your home or the airport and sign the contract on the spot."
+        },
+        {
+          "title": "Return",
+          "text": "Leave the car wherever suits you — we collect it and return your deposit."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What drivers say",
+      "items": [
+        {
+          "quote": "We landed at night and got the car right at the terminal exit. Twenty minutes later we were driving to the hotel.",
+          "author": "Alexey",
+          "role": "Camry, 5 days"
+        },
+        {
+          "quote": "We took the Carnival for a week for a family trip to Samarkand. The car was clean and the child seats were already fitted.",
+          "author": "Nodira",
+          "role": "Carnival, 7 days"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you rent",
+      "items": [
+        {
+          "q": "What documents do I need?",
+          "a": "A passport and a category B driving licence held for at least 2 years. Foreign visitors need a passport and a national licence with an international driving permit."
+        },
+        {
+          "q": "Is there a deposit?",
+          "a": "Yes, a refundable deposit from 1,000,000 UZS depending on the car class. It is returned on the day you hand the car back, after inspection."
+        },
+        {
+          "q": "Is insurance included?",
+          "a": "Third-party and comprehensive cover are included. The comprehensive excess is from 2,000,000 UZS and can be reduced to zero for an extra fee."
+        },
+        {
+          "q": "Can I drive outside Tashkent?",
+          "a": "Yes, anywhere in Uzbekistan. Tell us the route when booking and we'll issue a power of attorney. Driving abroad is not allowed."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Within Tashkent it's free for rentals of 3 days or more, otherwise 50,000 UZS. To the airport — 100,000 UZS at any time."
+        },
+        {
+          "q": "What if the car breaks down?",
+          "a": "Call the dispatcher: in the city we replace the car within 2 hours; outside the city we send a tow truck and a replacement."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Where should we bring the car?",
+      "text": "Send the dates, the car class and the delivery address — we'll confirm the booking within 10 minutes.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/yolrent"
+      }
+    }
+  ]
+}
