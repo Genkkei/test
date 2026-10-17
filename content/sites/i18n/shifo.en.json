@@ -1,0 +1,296 @@
+{
+  "name": "Shifo Lab",
+  "tagline": "Know your body by the numbers, not by guesswork",
+  "niche": "Medical laboratory and check-ups",
+  "nav": {
+    "cta": {
+      "label": "Book a test",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a medical laboratory, clinic or check-up centre. A Swiss grid, a live biomarker panel on the first screen, a test catalogue filterable by category and ready-made check-up panels.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Shifo Lab — lab tests and check-ups in Tashkent",
+    "description": "Blood tests, hormones, vitamins and infections. Results on Telegram within 1 day, a review with a GP, home visits. Walk-in blood draws from 7:00.",
+    "keywords": [
+      "lab tests Tashkent",
+      "medical laboratory Tashkent",
+      "blood test Tashkent",
+      "health check-up",
+      "vitamin D test",
+      "thyroid hormones test"
+    ],
+    "answer": "Shifo Lab is a medical laboratory on Mirabad Street in Tashkent: a complete blood count costs 60,000 UZS, vitamin D 190,000 UZS and a basic 24-marker check-up 690,000 UZS. Blood is drawn from 7:00 without an appointment, most results arrive on Telegram within a day, and a home visit costs 100,000 UZS."
+  },
+  "business": {
+    "legalName": "Shifo Diagnostics LLC",
+    "street": "41 Mirabad St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, home visits across the city",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Your health in numbers",
+      "eyebrow": "Laboratory · results in 1 day",
+      "subtitle": "Give blood in ten minutes in the morning and get a clear report on Telegram by evening — plus a GP review if anything is out of range.",
+      "words": [
+        "Haemoglobin",
+        "Ferritin",
+        "Vitamin D",
+        "Glucose",
+        "TSH"
+      ],
+      "cta": {
+        "label": "Book your tests",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Test catalogue",
+        "href": "#tests"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Walk-in from 7:00",
+        "Results on Telegram",
+        "Home visits",
+        "GP review",
+        "Single-use kits",
+        "Quality control"
+      ]
+    },
+    {
+      "id": "tests",
+      "type": "services",
+      "label": "Tests",
+      "title": "Test catalogue",
+      "intro": "Prices include sample collection. Turnaround is in working days from the draw.",
+      "items": [
+        {
+          "title": "Complete blood count",
+          "text": "Haemoglobin, white cells, platelets, ESR. Ready in 1 day.",
+          "price": "60,000 UZS",
+          "tag": "Blood"
+        },
+        {
+          "title": "Biochemistry, 12 markers",
+          "text": "Liver, kidneys, cholesterol, glucose. Ready in 1 day.",
+          "price": "280,000 UZS",
+          "tag": "Blood"
+        },
+        {
+          "title": "Ferritin",
+          "text": "Iron stores — the most common cause of fatigue. Ready in 1 day.",
+          "price": "90,000 UZS",
+          "tag": "Blood"
+        },
+        {
+          "title": "TSH and free T4",
+          "text": "Thyroid function. Ready in 1 day.",
+          "price": "160,000 UZS",
+          "tag": "Hormones"
+        },
+        {
+          "title": "Sex hormones",
+          "text": "LH, FSH, oestradiol or testosterone. Ready in 2 days.",
+          "price": "340,000 UZS",
+          "tag": "Hormones"
+        },
+        {
+          "title": "Vitamin D",
+          "text": "25-OH vitamin D. Ready in 1 day.",
+          "price": "190,000 UZS",
+          "tag": "Vitamins"
+        },
+        {
+          "title": "Vitamin B12 and folate",
+          "text": "For the nervous system and blood formation. Ready in 2 days.",
+          "price": "210,000 UZS",
+          "tag": "Vitamins"
+        },
+        {
+          "title": "Hepatitis B and C",
+          "text": "HBsAg and anti-HCV, required before surgery. Ready in 1 day.",
+          "price": "120,000 UZS",
+          "tag": "Infections"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "400",
+          "suffix": "+",
+          "label": "test types"
+        },
+        {
+          "value": "24",
+          "suffix": " h",
+          "label": "for most results"
+        },
+        {
+          "value": "10",
+          "suffix": " min",
+          "label": "to give blood"
+        },
+        {
+          "value": "7",
+          "suffix": " days",
+          "label": "a week open"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "How it works",
+      "title": "From the test tube to a clear answer",
+      "items": [
+        {
+          "title": "Choose",
+          "text": "Pick tests from the catalogue or a check-up. Not sure? Our admin will help on Telegram."
+        },
+        {
+          "title": "Draw",
+          "text": "In the morning on an empty stomach, walk-in from 7:00, or a nurse comes to your home."
+        },
+        {
+          "title": "Results",
+          "text": "A PDF and a plain-language summary arrive on Telegram, marking what is in range and what isn’t."
+        },
+        {
+          "title": "Review",
+          "text": "If anything is out of range, a GP calls you back and explains which specialist to see next."
+        }
+      ]
+    },
+    {
+      "id": "checkups",
+      "type": "pricing",
+      "label": "Check-ups",
+      "title": "Ready-made test panels",
+      "items": [
+        {
+          "name": "Essential",
+          "price": "690,000 UZS",
+          "period": "24 markers",
+          "features": [
+            "Complete blood count",
+            "Biochemistry",
+            "Ferritin",
+            "Vitamin D"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Complete",
+          "price": "1,450,000 UZS",
+          "period": "46 markers",
+          "features": [
+            "Everything in Essential",
+            "Thyroid",
+            "Vitamin B12 and folate",
+            "Hepatitis B and C",
+            "GP review"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Women’s health",
+          "price": "1,290,000 UZS",
+          "period": "38 markers",
+          "features": [
+            "Sex hormones",
+            "Thyroid",
+            "Ferritin and vitamin D",
+            "Gynaecologist review"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What patients say",
+      "items": [
+        {
+          "quote": "I gave blood at 7:30 before work and had an annotated report by lunch. For the first time I understood my results without googling.",
+          "author": "Gulnora A.",
+          "role": "Complete check-up"
+        },
+        {
+          "quote": "A nurse came to my father’s home at 8 a.m., everything neat and with no queue. The GP called back the same day.",
+          "author": "Timur Kh.",
+          "role": "home visit"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before your tests",
+      "items": [
+        {
+          "q": "Do I need an appointment?",
+          "a": "No, blood is drawn without an appointment from 7:00 to 12:00. You only need to book a home visit or afternoon tests."
+        },
+        {
+          "q": "How should I prepare?",
+          "a": "Most tests are taken fasting: 8–12 hours without food; water is fine. Avoid alcohol and hard workouts the day before."
+        },
+        {
+          "q": "How will I get my results?",
+          "a": "A doctor-signed PDF and a plain summary arrive on Telegram or by email. You can also collect a paper copy at the lab."
+        },
+        {
+          "q": "How much is a home visit?",
+          "a": "100,000 UZS within Tashkent, free for orders over 1,000,000 UZS. Nurses visit between 7:00 and 11:00."
+        },
+        {
+          "q": "Can children be tested?",
+          "a": "Yes, from age 1. We use fine needles and a separate room for children, and a parent always stays with them."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Book ahead or just walk in",
+      "text": "Tell us which tests you need — we’ll send preparation tips and the price. For a home visit, include your address and a convenient time.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/shifolab"
+      }
+    }
+  ]
+}

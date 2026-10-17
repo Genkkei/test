@@ -1,0 +1,296 @@
+{
+  "name": "Shifo Lab",
+  "tagline": "O‘z tanangizni taxmin bilan emas, raqamlar bilan biling",
+  "niche": "Tibbiy laboratoriya va chekaplar",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Tibbiy laboratoriya, klinika yoki chekap markazi uchun sayt. Shveytsariya to‘ri, birinchi ekranda jonli ko‘rsatkichlar paneli, bo‘limlar bo‘yicha filtrli tahlillar katalogi va tayyor chekap to‘plamlari.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Shifo Lab — Toshkentda 1 kunda tahlillar va chekaplar",
+    "description": "Qon tahlillari, gormonlar, vitaminlar va infeksiyalar. Natijalar 1 kunda Telegramda, terapevt bilan tahlil, uyga chiqish. Qon topshirish 7:00 dan navbatsiz.",
+    "keywords": [
+      "tahlillar Toshkent",
+      "laboratoriya Toshkent",
+      "qon tahlili topshirish",
+      "organizm chekapi",
+      "D vitamini tahlili",
+      "qalqonsimon bez gormonlari"
+    ],
+    "answer": "Shifo Lab — Toshkent, Mirobod ko‘chasidagi tibbiy laboratoriya: umumiy qon tahlili — 60 000 so‘m, D vitamini — 190 000 so‘m, 24 ko‘rsatkichli asosiy chekap — 690 000 so‘m. Qon 7:00 dan navbatsiz topshiriladi, ko‘pchilik natijalar bir kun ichida Telegramga keladi, uyga chiqish — 100 000 so‘m."
+  },
+  "business": {
+    "legalName": "«Shifo Diagnostics» MChJ",
+    "street": "Mirobod ko‘chasi, 41",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, shahar bo‘ylab uyga chiqish",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sog‘lig‘ingiz raqamlarda",
+      "eyebrow": "Laboratoriya · natijalar 1 kunda",
+      "subtitle": "Ertalab 10 daqiqada qon topshiring — kechqurun Telegramda tushunarli hisobot va biror narsa me’yordan tashqarida bo‘lsa, terapevt bilan tahlil oling.",
+      "words": [
+        "Gemoglobin",
+        "Ferritin",
+        "D vitamini",
+        "Glyukoza",
+        "TTG"
+      ],
+      "cta": {
+        "label": "Tahlillarga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Tahlillar katalogi",
+        "href": "#tests"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "7:00 dan navbatsiz",
+        "Natijalar Telegramda",
+        "Uyga chiqish",
+        "Terapevt bilan tahlil",
+        "Bir martalik tizimlar",
+        "Sifat nazorati"
+      ]
+    },
+    {
+      "id": "tests",
+      "type": "services",
+      "label": "Tahlillar",
+      "title": "Tahlillar katalogi",
+      "intro": "Narxga material olish kiradi. Muddat — topshirilgan kundan boshlab ish kunlari.",
+      "items": [
+        {
+          "title": "Umumiy qon tahlili",
+          "text": "Gemoglobin, leykotsitlar, trombotsitlar, ECHT. 1 kunda tayyor.",
+          "price": "60 000 so‘m",
+          "tag": "Qon"
+        },
+        {
+          "title": "Bioximiya, 12 ko‘rsatkich",
+          "text": "Jigar, buyraklar, xolesterin, glyukoza. 1 kunda tayyor.",
+          "price": "280 000 so‘m",
+          "tag": "Qon"
+        },
+        {
+          "title": "Ferritin",
+          "text": "Temir zaxiralari — charchoqning birinchi sababi. 1 kunda tayyor.",
+          "price": "90 000 so‘m",
+          "tag": "Qon"
+        },
+        {
+          "title": "TTG va erkin T4",
+          "text": "Qalqonsimon bez faoliyati. 1 kunda tayyor.",
+          "price": "160 000 so‘m",
+          "tag": "Gormonlar"
+        },
+        {
+          "title": "Jinsiy gormonlar",
+          "text": "LG, FSG, estradiol yoki testosteron. 2 kunda tayyor.",
+          "price": "340 000 so‘m",
+          "tag": "Gormonlar"
+        },
+        {
+          "title": "D vitamini",
+          "text": "25-OH D vitamini. 1 kunda tayyor.",
+          "price": "190 000 so‘m",
+          "tag": "Vitaminlar"
+        },
+        {
+          "title": "B12 vitamini va folatlar",
+          "text": "Asab tizimi va qon yaratish uchun. 2 kunda tayyor.",
+          "price": "210 000 so‘m",
+          "tag": "Vitaminlar"
+        },
+        {
+          "title": "B va C gepatitlari",
+          "text": "HBsAg va anti-HCV, operatsiyadan oldin majburiy. 1 kunda tayyor.",
+          "price": "120 000 so‘m",
+          "tag": "Infeksiyalar"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "400",
+          "suffix": "+",
+          "label": "tahlil turi"
+        },
+        {
+          "value": "24",
+          "suffix": " soat",
+          "label": "ko‘pchilik natijalar"
+        },
+        {
+          "value": "10",
+          "suffix": " daq",
+          "label": "qon topshirishga"
+        },
+        {
+          "value": "7",
+          "suffix": " kun",
+          "label": "haftada ochiqmiz"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "Bu qanday ishlaydi",
+      "title": "Probirkadan tushunarli javobgacha",
+      "items": [
+        {
+          "title": "Tanlov",
+          "text": "Katalogdan tahlillar yoki chekapni tanlang. Ishonchingiz komil bo‘lmasa — administrator Telegramda maslahat beradi."
+        },
+        {
+          "title": "Topshirish",
+          "text": "Ertalab och qoringa, 7:00 dan navbatsiz, yoki hamshira uyga keladi."
+        },
+        {
+          "title": "Natija",
+          "text": "PDF va tushunarli xulosa Telegramga keladi — nima me’yorda, nima yo‘qligi belgilangan."
+        },
+        {
+          "title": "Tahlil",
+          "text": "Biror narsa me’yordan tashqarida bo‘lsa, terapevt qo‘ng‘iroq qilib, keyin kimga borish kerakligini tushuntiradi."
+        }
+      ]
+    },
+    {
+      "id": "checkups",
+      "type": "pricing",
+      "label": "Chekaplar",
+      "title": "Tayyor tahlillar to‘plami",
+      "items": [
+        {
+          "name": "Asosiy",
+          "price": "690 000 so‘m",
+          "period": "24 ko‘rsatkich",
+          "features": [
+            "Umumiy qon tahlili",
+            "Bioximiya",
+            "Ferritin",
+            "D vitamini"
+          ],
+          "featured": false
+        },
+        {
+          "name": "To‘liq",
+          "price": "1 450 000 so‘m",
+          "period": "46 ko‘rsatkich",
+          "features": [
+            "«Asosiy»dagi hammasi",
+            "Qalqonsimon bez",
+            "B12 vitamini va folatlar",
+            "B va C gepatitlari",
+            "Terapevt bilan tahlil"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ayollar uchun",
+          "price": "1 290 000 so‘m",
+          "period": "38 ko‘rsatkich",
+          "features": [
+            "Jinsiy gormonlar",
+            "Qalqonsimon bez",
+            "Ferritin va D vitamini",
+            "Ginekolog bilan tahlil"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bemorlar nima deydi",
+      "items": [
+        {
+          "quote": "Ishdan oldin 7:30 da qon topshirdim, tushlikda esa belgilangan hisobot keldi. Birinchi marta tahlillarimni guglsiz tushundim.",
+          "author": "Gulnora A.",
+          "role": "«To‘liq» chekap"
+        },
+        {
+          "quote": "Hamshira otamning uyiga ertalab soat 8 da keldi, hammasi ozoda va navbatsiz. Terapevt o‘sha kuni qo‘ng‘iroq qildi.",
+          "author": "Temur X.",
+          "role": "uyga chiqish"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tahlil topshirishdan oldin",
+      "items": [
+        {
+          "q": "Yozilish kerakmi?",
+          "a": "Yo‘q, qon 7:00 dan 12:00 gacha navbatsiz topshiriladi. Yozilish faqat uyga chiqish va tushdan keyingi tahlillar uchun kerak."
+        },
+        {
+          "q": "Qanday tayyorlanish kerak?",
+          "a": "Ko‘pchilik tahlillar och qoringa topshiriladi: 8–12 soat ovqatsiz, suv ichish mumkin. Bir kun oldin — spirtli ichimliklar va og‘ir mashg‘ulotlarsiz."
+        },
+        {
+          "q": "Natijani qanday olaman?",
+          "a": "Shifokor imzosi bilan PDF va tushunarli xulosa Telegram yoki pochtaga keladi. Qog‘oz blankani laboratoriyadan olish mumkin."
+        },
+        {
+          "q": "Uyga chiqish qancha turadi?",
+          "a": "Toshkent bo‘ylab 100 000 so‘m, 1 000 000 so‘mdan ortiq buyurtmada bepul. Hamshira 7:00 dan 11:00 gacha keladi."
+        },
+        {
+          "q": "Bolaga tahlil topshirsa bo‘ladimi?",
+          "a": "Ha, 1 yoshdan. Bolalar uchun ingichka ignalar va alohida xonadan foydalanamiz; ota-ona doim yonida."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Yoziling yoki shunchaki keling",
+      "text": "Qaysi tahlillar kerakligini yozing — tayyorgarlik va narxni yuboramiz. Uyga chiqish uchun manzil va qulay vaqtni ko‘rsating.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/shifolab"
+      }
+    }
+  ]
+}

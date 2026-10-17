@@ -1,0 +1,311 @@
+{
+  "name": "Bolajon",
+  "tagline": "Bola o‘zi borishni so‘raydigan joy",
+  "niche": "Bolalar rivojlanish markazi va mini-bog‘cha",
+  "nav": {
+    "cta": {
+      "label": "Sinov darsi",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Bolalar markazi, xususiy bog‘cha yoki to‘garaklar studiyasi uchun sayt. Qalin chiziqli yorqin shakllar, birinchi ekranda surish mumkin bo‘lgan stikerlar, rangli kartochkalar ko‘rinishidagi to‘garaklar va qadamlar so‘qmog‘i.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Bolajon — Yunusoboddagi bolalar rivojlanish markazi",
+    "description": "2 yoshdan mini-bog‘cha, maktabga tayyorlov, ingliz tili, robototexnika va rasm. 8 bolagacha guruhlar, sinov darsi bepul.",
+    "keywords": [
+      "bolalar markazi Toshkent",
+      "rivojlanish markazi Yunusobod",
+      "mini-bog‘cha Toshkent",
+      "maktabga tayyorlov",
+      "bolalar uchun ingliz tili",
+      "bolalar robototexnikasi"
+    ],
+    "answer": "Bolajon — Toshkent, Yunusoboddagi bolalar rivojlanish markazi: 2–6 yoshli bolalar uchun 8:00 dan 19:00 gacha mini-bog‘cha, maktabga tayyorlov, ingliz tili, robototexnika va rasm. Guruhda 8 tadan ortiq bola bo‘lmaydi, to‘garak abonementi oyiga 480 000 so‘mdan, mini-bog‘cha oyiga 2 900 000 so‘m, sinov darsi bepul."
+  },
+  "business": {
+    "legalName": "«Bolajon Kids» MChJ",
+    "street": "Yunusobod massivi, 4-mavze, 17",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Yunusobod va Shayxontohur, Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Jiddiy o‘ynaymiz",
+      "eyebrow": "Bolalar markazi · 2–10 yosh",
+      "subtitle": "Yunusoboddagi mini-bog‘cha, maktabga tayyorlov va to‘garaklar. Kichik guruhlar, yorug‘ xonalar va kim nimani yaxshi ko‘rishini eslaydigan pedagoglar.",
+      "words": [],
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "To‘garaklar va narxlar",
+        "href": "#clubs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Mini-bog‘cha",
+        "Ingliz tili",
+        "Robototexnika",
+        "Rasm",
+        "Maktabga tayyorlov",
+        "Logoped",
+        "Raqs"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Markaz haqida",
+      "title": "O‘yin o‘rniga emas, o‘yin orqali o‘rganamiz",
+      "text": "Bolajon 2019-yilda ochildi — o‘z farzandlarimiz uchun joy qidirib topa olmaganimizda. Bu yerda qator partalar va baholar yo‘q: bolalar quradi, chizadi, qarag‘ay g‘uddalarini sanaydi, tushlikda inglizcha gaplashadi. Guruhda sakkiz kishidan ko‘p emas, shuning uchun pedagog har birini sezadi. Ota-onalar har kuni Telegramda rasmli qisqa hisobot oladi.",
+      "image": ""
+    },
+    {
+      "id": "clubs",
+      "type": "services",
+      "label": "To‘garaklar",
+      "title": "Bizda nimalar bo‘ladi",
+      "intro": "Abonement — oyiga 8 ta dars. Har qanday to‘garakda birinchi dars bepul.",
+      "items": [
+        {
+          "title": "Mini-bog‘cha",
+          "text": "8:00 dan 19:00 gacha to‘liq kun: nonushta, tushlik, uyqu, sayr va mashg‘ulotlar.",
+          "price": "oyiga 2 900 000 so‘m",
+          "tag": "2–6 yosh"
+        },
+        {
+          "title": "Maktabga tayyorlov",
+          "text": "Bo‘g‘inlab o‘qish, 100 gacha sanash, yozuv va 30 daqiqa o‘tira olish.",
+          "price": "oyiga 640 000 so‘m",
+          "tag": "5–7 yosh"
+        },
+        {
+          "title": "Ingliz tili",
+          "text": "Qo‘shiqlar, o‘yinlar va haftada bir marta til egasi bilan qisqa suhbatlar.",
+          "price": "oyiga 560 000 so‘m",
+          "tag": "3–10 yosh"
+        },
+        {
+          "title": "Robototexnika",
+          "text": "LEGO Education konstruktorlari va planshetdagi birinchi dasturlar.",
+          "price": "oyiga 620 000 so‘m",
+          "tag": "6–10 yosh"
+        },
+        {
+          "title": "Rasm",
+          "text": "Guash, loy va kollaj. Ishlarni uyga olib ketasiz — yoki ko‘rgazmamizga ramkaga.",
+          "price": "oyiga 480 000 so‘m",
+          "tag": "3–10 yosh"
+        },
+        {
+          "title": "Logoped",
+          "text": "Bepul tashxisdan keyin 30 daqiqalik yakka mashg‘ulotlar.",
+          "price": "mashg‘ulot uchun 150 000 so‘m",
+          "tag": "3–8 yosh"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "guruhda ko‘pi bilan bola"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "pedagog"
+        },
+        {
+          "value": "420",
+          "suffix": "+",
+          "label": "bitiruvchi"
+        },
+        {
+          "value": "7",
+          "suffix": " yil",
+          "label": "Yunusobod bolalari bilan"
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "type": "process",
+      "label": "Qanday boshlash",
+      "title": "Birinchi «yana xohlayman»gacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "Telegramga yozasiz yoki qo‘ng‘iroq qilasiz — yoshga qarab to‘garak tanlaymiz."
+        },
+        {
+          "title": "Tanishuv",
+          "text": "Birga keling: bola o‘ynaydi, siz xonalarni ko‘rasiz."
+        },
+        {
+          "title": "Sinov darsi",
+          "text": "Bepul va majburiyatsiz. Ota-ona yonida qolishi mumkin."
+        },
+        {
+          "title": "Abonement",
+          "text": "Yoqsa — abonement, shartnoma va guruh chatini rasmiylashtiramiz."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Pedagoglar",
+      "title": "Bolalar quloq soladigan kattalar",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "rahbar, pedagog-psixolog",
+          "image": ""
+        },
+        {
+          "name": "Olga Kim",
+          "role": "maktabga tayyorlov",
+          "image": ""
+        },
+        {
+          "name": "James Carter",
+          "role": "ingliz tili",
+          "image": ""
+        },
+        {
+          "name": "Behzod Ahmedov",
+          "role": "robototexnika",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Narxi qancha",
+      "items": [
+        {
+          "name": "Bitta to‘garak",
+          "price": "480 000 so‘mdan",
+          "period": "oyiga, 8 ta dars",
+          "features": [
+            "8 bolagacha guruh",
+            "Ota-onalarga Telegramda hisobot",
+            "Kasallik tufayli qoldirilgan dars ko‘chiriladi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mini-bog‘cha",
+          "price": "2 900 000 so‘m",
+          "period": "oyiga, to‘liq kun",
+          "features": [
+            "Kuniga 4 mahal ovqat",
+            "Ingliz tili va rasm kiradi",
+            "Uyqu va sayr",
+            "Markazda hamshira"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ikkita to‘garak",
+          "price": "−15%",
+          "period": "ikkinchi to‘garakka",
+          "features": [
+            "Aka-uka va opa-singillar uchun ham",
+            "Har qanday to‘garaklarni birlashtirish mumkin"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Ota-onalar",
+      "title": "Uyda nima deyishadi",
+      "items": [
+        {
+          "quote": "O‘g‘lim avval har qanday eshik oldida yig‘lardi, bu yerga esa meni qo‘limdan tortadi. Yarim yildan keyin peshlavhalarni o‘zi o‘qiyapti.",
+          "author": "Nilufar, Amirning onasi",
+          "role": "maktabga tayyorlov"
+        },
+        {
+          "quote": "Har kuni rasmli hisobotlar — ishda xotirjamman. Qizim endi robotlarni uyda ham yig‘yapti.",
+          "author": "Dmitriy, Sonyaning dadasi",
+          "role": "robototexnika"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ota-onalar so‘rashadi",
+      "items": [
+        {
+          "q": "Necha yoshdan qabul qilasiz?",
+          "a": "Mini-bog‘chaga — 2 yoshdan, agar bola hojatxonaga so‘ray olsa. To‘garaklarga — 3 yoshdan, robototexnikaga — 6 yoshdan."
+        },
+        {
+          "q": "Bolalarni nima bilan ovqatlantirasiz?",
+          "a": "O‘zimiz tayyorlaymiz, kuniga to‘rt mahal: bo‘tqa, sho‘rva, sabzavot, go‘sht va mevalar. Haftalik menyu — guruh chatida, allergiyalar hisobga olinadi."
+        },
+        {
+          "q": "Bir oyga kelsa bo‘ladimi?",
+          "a": "Ha, abonement oylik, kirish badallarisiz. Ketishingiz haqida ikki hafta oldin ogohlantiring."
+        },
+        {
+          "q": "Bola kasal bo‘lib qolsa-chi?",
+          "a": "Kasallik tufayli qoldirilgan darslarni boshqa kunga ko‘chiramiz. Mini-bog‘chada ma’lumotnoma bilan qoldirilgan hafta uchun to‘lovni qayta hisoblaymiz."
+        },
+        {
+          "q": "Kun qanday o‘tganini qanday bilaman?",
+          "a": "Har kuni kechqurun pedagog Telegramga qisqa hisobot yuboradi: nima qilishdi, qanday ovqatlandi va uxladi, bir-ikki rasm."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Sinov",
+      "title": "O‘ynagani keling",
+      "text": "Bolaning ismi va yoshini yozing — to‘garak va sinov darsi vaqtini tanlaymiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/bolajonkids"
+      }
+    }
+  ]
+}

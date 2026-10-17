@@ -13,7 +13,7 @@ export const meta: TemplateMeta = {
   "defaultTheme": {
     "bg": "#fbf6f3",
     "fg": "#3a2a2a",
-    "accent": "#c48a8a",
+    "accent": "#b9787a",
     "muted": "#8f7a78",
     "surface": "#f2e6e1",
     "line": "#e6d4cf",
@@ -21,11 +21,11 @@ export const meta: TemplateMeta = {
     "body": "Manrope",
     "motion": 1
   },
-  "art": "rings",
+  "art": "blobs",
   "preview": {
     "bg": "#fbf6f3",
     "fg": "#3a2a2a",
-    "accent": "#c48a8a",
+    "accent": "#b9787a",
     "word": "Венчание"
   }
 }

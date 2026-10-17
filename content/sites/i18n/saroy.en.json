@@ -1,0 +1,283 @@
+{
+  "name": "Saroy Suites",
+  "tagline": "Twelve rooms in an old house with a carved-plaster courtyard",
+  "niche": "Boutique hotel in central Tashkent",
+  "nav": {
+    "cta": {
+      "label": "Book a stay",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a boutique hotel, guest house or serviced apartments. Sunlight through a carved lattice in WebGL, a booking bar with dates, rooms as a catalogue and a moments strip that drifts sideways.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Saroy Suites — boutique hotel in central Tashkent",
+    "description": "Twelve rooms in a restored 1912 house: carved-plaster courtyard, breakfast by the fountain, hammam and terrace. A 10-minute walk to the Old City.",
+    "keywords": [
+      "boutique hotel Tashkent",
+      "hotel in central Tashkent",
+      "where to stay in Tashkent",
+      "courtyard hotel",
+      "hammam Tashkent",
+      "Tashkent accommodation"
+    ],
+    "answer": "Saroy Suites is a 12-room boutique hotel in a restored 1912 house in central Tashkent. Rooms from 1,400,000 UZS per night with breakfast, check-in from 14:00, check-out by 12:00, airport transfer 250,000 UZS. Reception is open 24 hours."
+  },
+  "business": {
+    "legalName": "Saroy Suites LLC",
+    "street": "12 Abdulla Qodiriy St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Booking.com"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A house where time slows down",
+      "eyebrow": "Boutique hotel · Tashkent · 1912",
+      "subtitle": "Twelve rooms around a carved-plaster courtyard with a fountain. Quiet, ten minutes from Chorsu bazaar.",
+      "words": [],
+      "cta": {
+        "label": "Check dates",
+        "href": "https://t.me/saroysuites"
+      },
+      "ctaSecondary": {
+        "label": "",
+        "href": ""
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Carved courtyard",
+        "Breakfast by the fountain",
+        "Hammam",
+        "Rooftop terrace",
+        "Old City on foot",
+        "24/7 reception"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The house",
+      "title": "A merchant’s house we chose not to rebuild",
+      "text": "The house was built in 1912 for a family of silk merchants. We spent three years removing later partitions, cleaning the ganch and restoring the wooden ceilings by hand. What remains are tall windows, thick walls that keep the summer cool, and a courtyard every room opens onto. There is no lobby music here — just tea, books and the shade of the vine.",
+      "image": ""
+    },
+    {
+      "id": "rooms",
+      "type": "services",
+      "label": "Rooms",
+      "title": "Twelve rooms, no two alike",
+      "intro": "Price per night for two with breakfast. A baby cot and late check-out until 15:00 are free when the room is available.",
+      "items": [
+        {
+          "title": "Courtyard",
+          "text": "Windows onto the courtyard, a carved niche above the bed, rain shower.",
+          "price": "from 1,400,000 UZS",
+          "tag": "24 m² · up to 2 guests"
+        },
+        {
+          "title": "Silk",
+          "text": "High painted ceilings, a bathtub by the window, a hand-embroidered suzani.",
+          "price": "from 1,900,000 UZS",
+          "tag": "32 m² · up to 2 guests"
+        },
+        {
+          "title": "Aivan",
+          "text": "A private covered veranda on the first floor overlooking the vine and minarets.",
+          "price": "from 2,400,000 UZS",
+          "tag": "38 m² · up to 3 guests"
+        },
+        {
+          "title": "Merchant’s Suite",
+          "text": "Two rooms, a sitting room with a fireplace and its own entrance from the courtyard.",
+          "price": "from 3,600,000 UZS",
+          "tag": "56 m² · up to 4 guests"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "rooms"
+        },
+        {
+          "value": "114",
+          "suffix": "",
+          "label": "years of history"
+        },
+        {
+          "value": "10",
+          "suffix": " min",
+          "label": "walk to Chorsu"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "reception"
+        }
+      ]
+    },
+    {
+      "id": "moments",
+      "type": "gallery",
+      "label": "Moments",
+      "title": "A day at Saroy",
+      "items": [
+        {
+          "caption": "Morning in the courtyard",
+          "image": ""
+        },
+        {
+          "caption": "Breakfast by the fountain",
+          "image": ""
+        },
+        {
+          "caption": "Ganch in the hallway",
+          "image": ""
+        },
+        {
+          "caption": "The hammam",
+          "image": ""
+        },
+        {
+          "caption": "Tea on the aivan",
+          "image": ""
+        },
+        {
+          "caption": "Terrace at sunset",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "type": "menu",
+      "label": "Breakfast",
+      "title": "The courtyard kitchen",
+      "groups": [
+        {
+          "name": "Morning (included)",
+          "items": [
+            {
+              "name": "Tandoor bread and kaymak",
+              "text": "With Chimgan honey and quince jam",
+              "price": "—"
+            },
+            {
+              "name": "Eggs in butter",
+              "text": "Fried, omelette or shakshuka",
+              "price": "—"
+            },
+            {
+              "name": "Samovar tea",
+              "text": "Green, black or with thyme",
+              "price": "—"
+            }
+          ]
+        },
+        {
+          "name": "Evening on the terrace",
+          "items": [
+            {
+              "name": "Plov to order",
+              "text": "Ready at 19:00, order by noon",
+              "price": "180,000 UZS"
+            },
+            {
+              "name": "Cheese plate and wine",
+              "text": "Uzbek cheeses and Samarkand wine",
+              "price": "160,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests write afterwards",
+      "items": [
+        {
+          "quote": "We woke to the sound of the fountain and the smell of fresh bread. The first place in Tashkent where we didn’t want to go anywhere.",
+          "author": "Anna & Mark",
+          "role": "Berlin, Aivan room"
+        },
+        {
+          "quote": "Quiet as a village, yet Chorsu is a ten-minute walk. The staff remembered which tea I drink.",
+          "author": "Dilnoza R.",
+          "role": "Samarkand, business trip"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you arrive",
+      "items": [
+        {
+          "q": "What are check-in and check-out times?",
+          "a": "Check-in from 14:00, check-out by 12:00. Early check-in and late check-out until 15:00 are free when the room is free."
+        },
+        {
+          "q": "Is there an airport transfer?",
+          "a": "Yes, 250,000 UZS one way, around the clock. Send your flight number and a driver will meet you with a sign."
+        },
+        {
+          "q": "Is breakfast included?",
+          "a": "Yes, breakfast in the courtyard from 7:30 to 10:30 is included in every rate. Breakfast in your room is available on request."
+        },
+        {
+          "q": "Can we come with children?",
+          "a": "Yes. A baby cot is free; an extra bed is 300,000 UZS per night in the Aivan and Merchant’s Suite."
+        },
+        {
+          "q": "How do I cancel a booking?",
+          "a": "Free cancellation up to 3 days before arrival. After that we keep the cost of the first night."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "When shall we expect you?",
+      "text": "Send your dates and number of guests — we reply within an hour and confirm the room.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/saroysuites"
+      }
+    }
+  ]
+}

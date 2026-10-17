@@ -1,1 +1,172 @@
-/* заготовка */
+/* ВЕНЧАНИЕ — в духе Over The Moon, Vogue Weddings, Brides: обложка журнала, курсив Playfair,
+   кольца, которые прорисовываются, лепестки, сценарий дня нитью по центру. */
+
+.tpl-vow { --pad: clamp(18px, 4vw, 64px); --ease: cubic-bezier(.22, .8, .2, 1); font-size: clamp(15px, 1vw, 17px); line-height: 1.7; }
+.tpl-vow .s { padding-block: clamp(90px, 12vw, 180px); }
+.tpl-vow .s__label { font-size: 11px; letter-spacing: .3em; color: var(--accent); }
+.tpl-vow .s__title { font-weight: 400; font-style: italic; font-size: clamp(36px, 5vw, 84px); line-height: 1.04; letter-spacing: -.02em; }
+.tpl-vow .s__head--center .s__title { max-width: 16ch; }
+.tpl-vow .s__intro { color: var(--muted); }
+.tpl-vow .btn { min-height: 52px; padding: 0 32px; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; }
+.tpl-vow .btn--primary { background: var(--accent); color: #fff; }
+.tpl-vow .btn--primary:hover { background: var(--fg); color: var(--bg); }
+.vw-link { font-family: var(--font-display); font-style: italic; font-size: 19px; border-bottom: 1px solid var(--accent); padding-bottom: 2px; }
+.vw-link:hover { color: var(--accent); }
+
+/* шапка */
+.vw-header { position: sticky; top: 0; z-index: 50; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 30px; padding: 18px var(--pad); background: color-mix(in srgb, var(--bg) 92%, transparent); border-bottom: 1px solid var(--line); }
+.vw-nav { display: flex; gap: 26px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
+.vw-nav--r { justify-content: flex-end; }
+.vw-nav a { color: var(--muted); transition: color .4s; }
+.vw-nav a:hover { color: var(--accent); }
+.vw-logo { font-family: var(--font-display); font-style: italic; font-size: 28px; line-height: 1; white-space: nowrap; }
+.vw-header .mmenu__btn { justify-self: end; }
+@media (max-width: 960px) { .vw-header { grid-template-columns: 1fr auto; } .vw-nav { display: none; } .vw-logo { font-size: 23px; } }
+
+/* обложка */
+.tpl-vow .vw-hero { min-height: calc(100svh - 70px); padding: 30px var(--pad) 50px; display: grid; grid-template-rows: auto 1fr auto; position: relative; overflow: hidden; isolation: isolate; }
+.vw-petals { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+.vw-hero__top { display: flex; justify-content: space-between; font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--muted); padding-bottom: 16px; border-bottom: 1px solid var(--fg); }
+.vw-rings { position: absolute; left: 50%; top: 50%; width: min(64vw, 720px); transform: translate(-50%, -54%); fill: none; stroke: var(--accent); stroke-width: .45; opacity: .55; z-index: -1; }
+.vw-rings circle { stroke-dasharray: 1; stroke-dashoffset: 1; animation: vwDraw 3.2s var(--ease) forwards; }
+.vw-rings circle + circle { animation-delay: .6s; }
+@keyframes vwDraw { to { stroke-dashoffset: 0; } }
+.vw-hero__title { align-self: center; text-align: center; font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(64px, 14vw, 250px); line-height: .9; letter-spacing: -.04em; padding-block: 40px; }
+.vw-hero__lines { position: absolute; left: var(--pad); top: 50%; transform: translateY(-50%); display: grid; gap: 14px; max-width: 200px; font-family: var(--font-display); font-size: 17px; line-height: 1.3; }
+.vw-hero__lines i { display: block; font-style: normal; font-family: var(--font-body); font-size: 10px; letter-spacing: .24em; color: var(--accent); }
+.vw-hero__foot { display: flex; justify-content: space-between; align-items: end; gap: 30px; flex-wrap: wrap; padding-top: 18px; border-top: 1px solid var(--line); }
+.vw-hero__sub { max-width: 46ch; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+.vw-hero__ctas { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+@media (max-width: 1100px) { .vw-hero__lines { position: static; transform: none; max-width: none; grid-template-columns: repeat(2, 1fr); padding-bottom: 24px; } .tpl-vow .vw-hero { grid-template-rows: auto 1fr auto auto; } }
+@media (max-width: 600px) { .vw-rings { width: 110vw; } .vw-hero__title { font-size: clamp(56px, 17vw, 90px); } }
+
+/* сводка */
+.tpl-vow .s-answer { padding-block: clamp(70px, 9vw, 130px) 0; text-align: center; }
+.tpl-vow .s-answer__text { max-width: 46ch; margin-inline: auto; font-family: var(--font-display); font-style: italic; font-size: clamp(20px, 2vw, 30px); line-height: 1.45; }
+
+/* бегущая строка */
+.tpl-vow .s-marquee { padding-block: 22px; background: var(--surface); }
+.tpl-vow .marquee__item { font-family: var(--font-display); font-style: italic; font-size: clamp(22px, 2.6vw, 40px); }
+.tpl-vow .marquee__sep { color: var(--accent); }
+
+/* разворот */
+.vw-about .s__inner { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(30px, 6vw, 110px); align-items: center; }
+.vw-about__media { margin: 0; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 999px 999px 0 0; }
+.vw-about__body { display: grid; gap: 22px; }
+.vw-about__title { font-family: var(--font-display); font-weight: 400; font-size: clamp(32px, 3.8vw, 60px); line-height: 1.08; }
+.vw-about__lead { font-family: var(--font-display); font-style: italic; font-size: clamp(21px, 2vw, 30px); line-height: 1.4; padding-left: 22px; border-left: 2px solid var(--accent); }
+.vw-about__text { color: color-mix(in srgb, var(--fg) 78%, transparent); columns: 2 260px; column-gap: 34px; }
+@media (max-width: 860px) { .vw-about .s__inner { grid-template-columns: 1fr; } .vw-about__media { max-width: 420px; } }
+
+/* сценарий дня */
+.vw-day { position: relative; display: grid; gap: clamp(30px, 5vw, 60px); max-width: 1000px; margin-inline: auto; --k: 0; }
+.vw-day::before, .vw-day::after { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--line); }
+.vw-day::after { background: var(--accent); transform-origin: top; transform: scaleY(var(--k)); }
+.vw-day__item { display: grid; grid-template-columns: 1fr 90px 1fr; align-items: center; }
+.vw-day__time { grid-column: 2; justify-self: center; position: relative; z-index: 1; width: 78px; height: 78px; border-radius: 50%; display: grid; place-items: center; background: var(--bg); border: 1px solid var(--line); font-family: var(--font-display); font-style: italic; font-size: 20px; transition: background .6s var(--ease), color .6s, border-color .6s; }
+.vw-day__item.is-lit .vw-day__time { background: var(--accent); color: #fff; border-color: var(--accent); }
+.vw-day__card { grid-column: 1; grid-row: 1; text-align: right; padding-right: 20px; }
+.vw-day__item:nth-child(even) .vw-day__card { grid-column: 3; text-align: left; padding: 0 0 0 20px; }
+.vw-day__card h3 { font-family: var(--font-display); font-weight: 400; font-size: clamp(22px, 2.2vw, 32px); line-height: 1.15; }
+.vw-day__card p { color: var(--muted); margin-top: 6px; }
+@media (max-width: 760px) {
+  .vw-day::before, .vw-day::after { left: 32px; }
+  .vw-day__item { grid-template-columns: 64px 1fr; }
+  .vw-day__time { grid-column: 1; width: 64px; height: 64px; font-size: 16px; }
+  .vw-day__card, .vw-day__item:nth-child(even) .vw-day__card { grid-column: 2; text-align: left; padding: 0 0 0 16px; }
+}
+
+/* альбом */
+.vw-album__cols { columns: 3 280px; column-gap: 26px; }
+.vw-album__item { break-inside: avoid; margin: 0 0 30px; }
+.vw-album__img { overflow: hidden; aspect-ratio: 3 / 4; }
+.vw-album__img--1 { aspect-ratio: 1; }
+.vw-album__img--2 { aspect-ratio: 4 / 5; border-radius: 999px 999px 0 0; }
+.vw-album__img--3 { aspect-ratio: 2 / 3; }
+.vw-album__img .media { width: 100%; height: 100%; transition: transform 1.4s var(--ease); }
+.vw-album__item:hover .media { transform: scale(1.04); }
+.vw-album__item figcaption { margin-top: 10px; font-family: var(--font-display); font-style: italic; font-size: 17px; text-align: center; }
+
+/* пакеты */
+.vw-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 24px; align-items: stretch; }
+.vw-card { text-align: center; padding: 44px 30px 40px; border: 1px solid var(--line); background: var(--bg); position: relative; display: grid; gap: 6px; align-content: start; }
+.vw-card::before { content: ''; position: absolute; inset: 8px; border: 1px solid var(--line); pointer-events: none; }
+.vw-card.is-featured { background: var(--surface); border-color: var(--accent); }
+.vw-card__flag { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #fff; font-size: 10px; letter-spacing: .24em; text-transform: uppercase; padding: 4px 14px; white-space: nowrap; }
+.vw-card__name { font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: 30px; }
+.vw-card__price { font-family: var(--font-display); font-size: clamp(26px, 2.4vw, 36px); margin-top: 8px; }
+.vw-card__period { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.vw-card__orn { color: var(--accent); font-size: 22px; margin: 10px 0; }
+.vw-card ul { display: grid; gap: 8px; font-size: 15px; color: color-mix(in srgb, var(--fg) 82%, transparent); }
+
+/* услуги */
+.tpl-vow .s-services__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.tpl-vow .s-services__item { background: var(--bg); padding: 34px 30px; display: grid; gap: 14px; align-content: start; }
+.tpl-vow .s-services__num { font-family: var(--font-display); font-style: italic; color: var(--accent); font-size: 22px; }
+.tpl-vow .s-services__name { font-family: var(--font-display); font-weight: 400; font-size: 27px; line-height: 1.15; }
+.tpl-vow .s-services__text { color: var(--muted); margin-top: 6px; }
+.tpl-vow .s-services__meta { display: flex; justify-content: space-between; gap: 12px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 14px; }
+.tpl-vow .s-services__tag { color: var(--muted); }
+.tpl-vow .s-services__price { font-family: var(--font-display); font-style: italic; font-size: 18px; }
+
+/* цифры */
+.tpl-vow .s-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 30px; text-align: center; }
+.tpl-vow .s-stats__item { display: flex; flex-direction: column-reverse; gap: 8px; }
+.tpl-vow .s-stats__value { font-family: var(--font-display); font-style: italic; font-size: clamp(56px, 6vw, 100px); line-height: 1; color: var(--accent); }
+.tpl-vow .s-stats__suffix { font-size: .5em; }
+.tpl-vow .s-stats__label { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+
+/* отзывы */
+.tpl-vow .s-testimonials__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: clamp(40px, 6vw, 90px); }
+.tpl-vow .s-testimonials__item { display: grid; gap: 20px; justify-items: center; text-align: center; }
+.tpl-vow .s-testimonials__quote { font-family: var(--font-display); font-style: italic; font-size: clamp(21px, 2vw, 30px); line-height: 1.42; }
+.tpl-vow .s-testimonials__who { display: grid; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+.tpl-vow .s-testimonials__who b { color: var(--accent); font-weight: 500; }
+
+/* меню */
+.tpl-vow .s-menu__groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 50px; }
+.tpl-vow .s-menu__gname { font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: 30px; text-align: center; margin-bottom: 14px; }
+.tpl-vow .s-menu__item { padding: 10px 0; }
+.tpl-vow .s-menu__price { color: var(--accent); }
+.tpl-vow .s-menu__text { color: var(--muted); font-size: 14px; }
+
+/* команда */
+.tpl-vow .s-team__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 34px; text-align: center; }
+.tpl-vow .s-team__media { aspect-ratio: 3 / 4; overflow: hidden; border-radius: 999px 999px 0 0; margin-bottom: 14px; }
+.tpl-vow .s-team__name { font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: 24px; }
+.tpl-vow .s-team__role { color: var(--muted); font-size: 13px; }
+
+/* FAQ */
+.tpl-vow .s-faq .s__head { margin-inline: auto; justify-items: center; text-align: center; }
+.tpl-vow .s-faq__list { max-width: 860px; margin-inline: auto; display: grid; gap: 12px; }
+.tpl-vow .s-faq__item { border: 1px solid var(--line); background: var(--bg); padding: 0 26px; }
+.tpl-vow .s-faq__item[open] { background: var(--surface); }
+.tpl-vow .s-faq__q { display: flex; justify-content: space-between; gap: 20px; padding: 22px 0; font-family: var(--font-display); font-size: clamp(19px, 1.7vw, 24px); }
+.tpl-vow .s-faq__q i::before { content: '+'; font-style: normal; color: var(--accent); font-size: 24px; line-height: 1; display: inline-block; transition: transform .5s var(--ease); }
+.tpl-vow .s-faq__item[open] .s-faq__q i::before { transform: rotate(45deg); }
+.tpl-vow .s-faq__a { padding-bottom: 24px; color: var(--muted); }
+
+/* контакты */
+.tpl-vow .s-contact .s__inner { background: var(--surface); padding: clamp(40px, 7vw, 110px) var(--pad); text-align: center; border-radius: 999px 999px 0 0; }
+.tpl-vow .s-contact .s__head { margin-inline: auto; justify-items: center; }
+.tpl-vow .s-contact__body { display: grid; justify-items: center; gap: 44px; }
+.tpl-vow .s-contact__facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px 48px; }
+.tpl-vow .s-contact__facts > * { display: grid; gap: 4px; }
+.tpl-vow .s-contact__facts small { font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); }
+@media (max-width: 600px) { .tpl-vow .s-contact .s__inner { border-radius: 200px 200px 0 0; padding-top: 90px; } }
+
+/* работы/галерея базовые */
+.tpl-vow .s-works__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 40px; }
+.tpl-vow .s-works__media { aspect-ratio: 4 / 5; overflow: hidden; margin-bottom: 14px; }
+.tpl-vow .s-works__name { font-family: var(--font-display); font-style: italic; font-size: 26px; }
+.tpl-vow .s-works__meta, .tpl-vow .s-works__text { color: var(--muted); font-size: 14px; }
+
+/* подвал */
+.vw-footer { padding: clamp(80px, 10vw, 140px) var(--pad) 28px; text-align: center; display: grid; justify-items: center; gap: 28px; border-top: 1px solid var(--line); }
+.vw-rings--sm { position: static; transform: none; width: 120px; opacity: 1; stroke-width: 1.2; }
+.vw-footer__lead { font-family: var(--font-display); font-style: italic; font-size: clamp(32px, 5vw, 80px); line-height: 1.05; max-width: 16ch; }
+.vw-footer__row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 30px; font-size: 14px; color: var(--muted); padding-top: 26px; border-top: 1px solid var(--line); width: 100%; }
+.vw-footer__row a:hover { color: var(--accent); }
+.vw-footer__legal { font-size: 12px; color: var(--muted); }
+@media (max-width: 1100px) { .vw-rings { top: 40%; } }
+@media (max-width: 600px) { .vw-rings { top: 30%; width: 92vw; } .vw-hero__lines { font-size: 15px; gap: 10px 16px; } .tpl-vow .vw-hero { padding-top: 20px; } }

@@ -1,0 +1,311 @@
+{
+  "name": "Bolajon",
+  "tagline": "The place your child asks to go back to",
+  "niche": "Children’s development centre and mini kindergarten",
+  "nav": {
+    "cta": {
+      "label": "Free trial",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a kids’ centre, private kindergarten or after-school clubs. Bright shapes with bold outlines, stickers you can drag around the first screen, clubs as colourful cards and a trail of steps.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Bolajon — children’s development centre in Tashkent",
+    "description": "Mini kindergarten from age 2, school readiness, English, robotics and art. Groups of up to 8 children, free trial lesson.",
+    "keywords": [
+      "kids centre Tashkent",
+      "development centre Yunusabad",
+      "mini kindergarten Tashkent",
+      "school readiness",
+      "English for kids",
+      "robotics for kids"
+    ],
+    "answer": "Bolajon is a children’s development centre in Yunusabad, Tashkent: a mini kindergarten for ages 2–6 from 8:00 to 19:00, school readiness, English, robotics and art. Groups have no more than 8 children, a club pass starts at 480,000 UZS per month, the mini kindergarten is 2,900,000 UZS per month, and the trial lesson is free."
+  },
+  "business": {
+    "legalName": "Bolajon Kids LLC",
+    "street": "17, Block 4, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Yunusabad and Shaykhantakhur, Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "We play for real",
+      "eyebrow": "Kids centre · ages 2–10",
+      "subtitle": "A mini kindergarten, school readiness and clubs in Yunusabad. Small groups, bright rooms and teachers who remember what every child loves.",
+      "words": [],
+      "cta": {
+        "label": "Book a free trial",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Clubs and prices",
+        "href": "#clubs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Mini kindergarten",
+        "English",
+        "Robotics",
+        "Art",
+        "School readiness",
+        "Speech therapy",
+        "Dance"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Learning through play, not instead of it",
+      "text": "Bolajon opened in 2019, when we were looking for a place for our own children and couldn’t find one. There are no rows of desks and no grades: children build, draw, count pine cones and speak English over lunch. Groups have no more than eight children, so the teacher notices everyone. Parents get a short report with photos on Telegram every day.",
+      "image": ""
+    },
+    {
+      "id": "clubs",
+      "type": "services",
+      "label": "Clubs",
+      "title": "What happens here",
+      "intro": "A monthly pass covers 8 lessons. The first lesson in any club is free.",
+      "items": [
+        {
+          "title": "Mini kindergarten",
+          "text": "A full day from 8:00 to 19:00: breakfast, lunch, nap, outdoor time and lessons.",
+          "price": "2,900,000 UZS / month",
+          "tag": "ages 2–6"
+        },
+        {
+          "title": "School readiness",
+          "text": "Reading by syllables, counting to 100, writing and sitting still for 30 minutes.",
+          "price": "640,000 UZS / month",
+          "tag": "ages 5–7"
+        },
+        {
+          "title": "English",
+          "text": "Songs, games and short conversations with a native speaker once a week.",
+          "price": "560,000 UZS / month",
+          "tag": "ages 3–10"
+        },
+        {
+          "title": "Robotics",
+          "text": "LEGO Education kits and first programs on a tablet.",
+          "price": "620,000 UZS / month",
+          "tag": "ages 6–10"
+        },
+        {
+          "title": "Art",
+          "text": "Gouache, clay and collage. Take the work home — or frame it for our exhibition.",
+          "price": "480,000 UZS / month",
+          "tag": "ages 3–10"
+        },
+        {
+          "title": "Speech therapy",
+          "text": "One-to-one 30-minute sessions after a free assessment.",
+          "price": "150,000 UZS / session",
+          "tag": "ages 3–8"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "children per group, max"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "teachers"
+        },
+        {
+          "value": "420",
+          "suffix": "+",
+          "label": "graduates"
+        },
+        {
+          "value": "7",
+          "suffix": " years",
+          "label": "with Yunusabad kids"
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "type": "process",
+      "label": "How to start",
+      "title": "Four steps to the first “again!”",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Message us on Telegram or call — we pick a club for your child’s age."
+        },
+        {
+          "title": "Meet us",
+          "text": "Come together: your child plays while you look around."
+        },
+        {
+          "title": "Trial lesson",
+          "text": "Free and with no commitment. A parent can stay close by."
+        },
+        {
+          "title": "Monthly pass",
+          "text": "If you like it, we set up the pass, the contract and the group chat."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Teachers",
+      "title": "Grown-ups children listen to",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "head, educational psychologist",
+          "image": ""
+        },
+        {
+          "name": "Olga Kim",
+          "role": "school readiness",
+          "image": ""
+        },
+        {
+          "name": "James Carter",
+          "role": "English",
+          "image": ""
+        },
+        {
+          "name": "Behzod Akhmedov",
+          "role": "robotics",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Passes",
+      "title": "What it costs",
+      "items": [
+        {
+          "name": "One club",
+          "price": "from 480,000 UZS",
+          "period": "per month, 8 lessons",
+          "features": [
+            "Groups of up to 8",
+            "Parent updates on Telegram",
+            "Lessons missed through illness are carried over"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mini kindergarten",
+          "price": "2,900,000 UZS",
+          "period": "per month, full day",
+          "features": [
+            "Four meals a day",
+            "English and art included",
+            "Nap and outdoor time",
+            "Nurse on site"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Two clubs",
+          "price": "−15%",
+          "period": "off the second club",
+          "features": [
+            "Also for siblings",
+            "Combine any two clubs"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Parents",
+      "title": "What they say at home",
+      "items": [
+        {
+          "quote": "My son used to cry at every door, but here he drags me by the hand. Six months on, he reads shop signs on his own.",
+          "author": "Nilufar, Amir’s mum",
+          "role": "school readiness"
+        },
+        {
+          "quote": "Daily photo updates mean I’m calm at work. And now my daughter builds robots at home too.",
+          "author": "Dmitry, Sonya’s dad",
+          "role": "robotics"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Parents ask",
+      "items": [
+        {
+          "q": "From what age do you accept children?",
+          "a": "The mini kindergarten from age 2, if the child is toilet-trained. Clubs from 3, robotics from 6."
+        },
+        {
+          "q": "What do the children eat?",
+          "a": "We cook ourselves, four times a day: porridge, soups, vegetables, meat and fruit. The weekly menu is in the group chat and allergies are taken into account."
+        },
+        {
+          "q": "Can we come for just one month?",
+          "a": "Yes, passes are monthly with no joining fee. Just give two weeks’ notice before leaving."
+        },
+        {
+          "q": "What if my child is ill?",
+          "a": "Lessons missed through illness are moved to another day. In the kindergarten we adjust the fee for a missed week with a doctor’s note."
+        },
+        {
+          "q": "How will I know how the day went?",
+          "a": "Every evening the teacher sends a short Telegram report: what they did, how your child ate and slept, plus a couple of photos."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Trial",
+      "title": "Come and play",
+      "text": "Send your child’s name and age — we’ll suggest a club and a time for the trial lesson.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/bolajonkids"
+      }
+    }
+  ]
+}

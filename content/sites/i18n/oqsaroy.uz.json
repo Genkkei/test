@@ -1,0 +1,310 @@
+{
+  "name": "Oq Saroy",
+  "tagline": "Har bir dasturxonda eslanadigan to‘y",
+  "niche": "Toshkentdagi to‘y va banket zali",
+  "nav": {
+    "cta": {
+      "label": "Bo‘sh sanalarni bilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "To‘yxona, banket restorani yoki event-agentlik uchun sayt. Chizilayotgan uzuklar va gulbarglar bilan jurnal muqovasi, markazdagi ip bo‘ylab kun ssenariysi, banket menyusi ko‘rinishidagi paketlar.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Oq Saroy — Toshkentdagi to‘y va banket zali",
+    "description": "80 dan 600 mehmongacha uchta zal, o‘z oshxonasi, bezak va to‘y koordinatori. Banket bir mehmon uchun 290 000 so‘mdan, menyu tatib ko‘rish bepul.",
+    "keywords": [
+      "to‘yxona Toshkent",
+      "banket zali Toshkent",
+      "to‘y uchun restoran",
+      "500 kishilik zal",
+      "Toshkentda to‘y",
+      "to‘y zali narxi"
+    ],
+    "answer": "Oq Saroy — Toshkentdagi uchta zalli to‘yxona: «Guliston» 80–150 mehmon, «Nur» 300 gacha va «Katta» 600 gacha. Banket bir mehmon uchun 290 000 so‘mdan, oshxona, dasturxon va ofitsiantlar bilan; bezak va koordinator «Klassika» paketidan boshlab kiradi. Sana 20% oldindan to‘lov bilan band qilinadi."
+  },
+  "business": {
+    "legalName": "«Oq Saroy Events» MChJ",
+    "street": "Bobur ko‘chasi, 81",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Oq Saroy",
+      "eyebrow": "To‘y uyi · Toshkent",
+      "subtitle": "Uchta zal, o‘z oshxonasi va kuningizni birinchi raqsdan oxirgi mehmongacha olib boradigan jamoa. Siz faqat quvonasiz.",
+      "words": [
+        "80, 300 va 600 mehmonlik zallar",
+        "Tatib ko‘riladigan menyu",
+        "Bezak va gullar",
+        "Kun koordinatori"
+      ],
+      "cta": {
+        "label": "Bo‘sh sanalarni bilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Zallarni ko‘rish",
+        "href": "#halls"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Nikoh to‘yi",
+        "Fotiha to‘yi",
+        "Yevropacha to‘y",
+        "Yubiley",
+        "Sunnat to‘yi",
+        "Bitiruv kechasi"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Uy haqida",
+      "title": "Siz bir-biringizning qo‘lingizni ushlab turishingiz uchun biz hammasini ushlab turamiz",
+      "text": "O‘zbekistonda to‘y — yuzlab mehmonlar, dasturxon va bir oqshomdagi o‘nlab qarorlar. 2018-yildan beri biz mingdan ortiq tantana o‘tkazdik va vaqt jadvali odatda qayerda buzilishini bilamiz. Shuning uchun har bir juftlikning bitta koordinatori bor: u siz bilan oldindan uchrashadi, boshlovchi, sozandalar, fotograf va oshxonani bitta rejaga keltiradi va butun oqshom sahna yonida turadi. Oshxona o‘zimizniki: osh, somsa va tortlar shu yerda tayyorlanadi, shuning uchun issiq taom issiq keladi.",
+      "image": ""
+    },
+    {
+      "id": "halls",
+      "type": "services",
+      "label": "Zallar",
+      "title": "Turli hajmdagi bayram uchun uchta zal",
+      "intro": "",
+      "items": [
+        {
+          "title": "«Guliston»",
+          "text": "Bog‘ va yozgi ayvonli kichik zal. Nikoh, fotiha va yevropacha to‘ylar uchun.",
+          "price": "mehmon boshiga 290 000 so‘mdan",
+          "tag": "80–150 mehmon"
+        },
+        {
+          "title": "«Nur»",
+          "text": "Billur qandilli yorug‘ zal va kelin uchun alohida xona.",
+          "price": "mehmon boshiga 320 000 so‘mdan",
+          "tag": "300 mehmongacha"
+        },
+        {
+          "title": "Katta zal",
+          "text": "12 metrli sahna, jonli musiqa uchun yorug‘lik va ovoz, mehmonlar va kortej uchun ikki kirish.",
+          "price": "mehmon boshiga 350 000 so‘mdan",
+          "tag": "600 mehmongacha"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "1000",
+          "suffix": "+",
+          "label": "to‘y va tantanalar"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "zal"
+        },
+        {
+          "value": "600",
+          "suffix": "",
+          "label": "katta zalda mehmon"
+        },
+        {
+          "value": "8",
+          "suffix": " yil",
+          "label": "to‘ylar o‘tkazamiz"
+        }
+      ]
+    },
+    {
+      "id": "day",
+      "type": "process",
+      "label": "Sizning kuningiz",
+      "title": "Oqshom qanday o‘tadi",
+      "items": [
+        {
+          "title": "16:00 — Kelin xonasi",
+          "text": "Sokinlik, oyna, qahva va mehmonlar oldiga chiqishgacha fotograf."
+        },
+        {
+          "title": "17:30 — Mehmonlarni kutib olish",
+          "text": "Xosteslar mehmonlarni reja bo‘yicha joylashtiradi, kirishda — furshet va musiqa."
+        },
+        {
+          "title": "18:30 — Kelin-kuyov chiqishi",
+          "text": "Chiroqlar o‘chadi, qo‘shig‘ingiz yangraydi — eshiklar aynan vaqtida ochiladi."
+        },
+        {
+          "title": "20:00 — Issiq taom va osh",
+          "text": "Mehmonlar lazgi raqsga tushayotganda osh oshxonamizdan laganlarda olib chiqiladi."
+        },
+        {
+          "title": "22:00 — Tort va birinchi raqs",
+          "text": "Qandolatxonamizdan tort va bir oy mashq qilgan raqsingiz."
+        }
+      ]
+    },
+    {
+      "id": "album",
+      "type": "gallery",
+      "label": "Albom",
+      "title": "O‘tgan oqshomlardan",
+      "items": [
+        {
+          "caption": "Bog‘dagi fotiha",
+          "image": ""
+        },
+        {
+          "caption": "Mehmonlar kelguncha «Nur» zali",
+          "image": ""
+        },
+        {
+          "caption": "Kelin xonasi",
+          "image": ""
+        },
+        {
+          "caption": "To‘y torti",
+          "image": ""
+        },
+        {
+          "caption": "Laganlarda osh",
+          "image": ""
+        },
+        {
+          "caption": "So‘nggi raqs",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Paketlar",
+      "title": "Bir mehmon uchun narx",
+      "items": [
+        {
+          "name": "Banket",
+          "price": "290 000 so‘m",
+          "period": "mehmon boshiga",
+          "features": [
+            "3 bosqichli menyu",
+            "Dasturxon va ofitsiantlar",
+            "Zal 6 soatga"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Klassika",
+          "price": "390 000 so‘m",
+          "period": "mehmon boshiga",
+          "features": [
+            "«Banket»dagi hammasi",
+            "Zal bezagi va gullar",
+            "Kun koordinatori",
+            "To‘y torti"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Hammasi tayyor",
+          "price": "520 000 so‘m",
+          "period": "mehmon boshiga",
+          "features": [
+            "«Klassika»dagi hammasi",
+            "Boshlovchi va sozandalar",
+            "Foto va video",
+            "5 ta mashinadan kortej"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Juftliklar",
+      "title": "To‘ydan keyingi maktublar",
+      "items": [
+        {
+          "quote": "Biz bir marta ham soatga qaramadik. Koordinator Nigora hamma narsani biz sezmasdan oldin hal qildi.",
+          "author": "Sevara va Jasur",
+          "role": "«Nur» zali, 280 mehmon"
+        },
+        {
+          "quote": "Osh barcha 500 mehmonga issiq keldi — buvim hali ham bu haqda gapiradi.",
+          "author": "Karimovlar oilasi",
+          "role": "Katta zal"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Sanani tanlashdan oldin",
+      "items": [
+        {
+          "q": "Sanani qanday band qilish mumkin?",
+          "a": "Zallarni ko‘rgani keling, sanani tanlang va shartnoma bo‘yicha 20% oldindan to‘lang. Qolgani — tantanadan 10 kun oldin."
+        },
+        {
+          "q": "Menyuni oldindan tatib ko‘rsa bo‘ladimi?",
+          "a": "Ha, sana band qilingandan keyin ikki kishi uchun tatib ko‘rish bepul. Ota-onalar uchun kishi boshiga 150 000 so‘mdan joy qo‘shish mumkin."
+        },
+        {
+          "q": "O‘z ichimliklarimiz va tortimizni olib kelsak bo‘ladimi?",
+          "a": "Ichimliklar — ha, qo‘shimcha to‘lovsiz. Tortni bizdan buyurtma qilish yoki qandolatxona hujjatlari bilan o‘zingiz olib kelishingiz mumkin."
+        },
+        {
+          "q": "Mehmonlar ko‘payib qolsa-chi?",
+          "a": "Mehmonlarning yakuniy sonini 5 kun oldin belgilaymiz. Ungacha paket narxida mehmon qo‘shish mumkin."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, 120 mashinaga mo‘ljallangan qo‘riqlanadigan avtoturargoh va asosiy kirish yonida kortej uchun alohida maydoncha bor."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Uchrashuv",
+      "title": "Zallarni ko‘rgani keling",
+      "text": "Istalgan sana va taxminiy mehmonlar sonini yozing — bo‘sh sanalarni yuboramiz va ekskursiyaga yozib qo‘yamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/oqsaroy"
+      }
+    }
+  ]
+}

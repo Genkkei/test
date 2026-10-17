@@ -1,0 +1,310 @@
+{
+  "name": "Oq Saroy",
+  "tagline": "A wedding they’ll remember at every family table",
+  "niche": "Wedding and banquet hall in Tashkent",
+  "nav": {
+    "cta": {
+      "label": "Check available dates",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a wedding hall, banquet restaurant or event agency. A magazine cover with rings that draw themselves and falling petals, the day’s schedule along a central thread, packages styled like a banquet menu.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Oq Saroy — wedding and banquet hall in Tashkent",
+    "description": "Three halls for 80 to 600 guests, our own kitchen, décor and a wedding coordinator. Banquets from 290,000 UZS per guest, free menu tasting.",
+    "keywords": [
+      "wedding hall Tashkent",
+      "banquet hall Tashkent",
+      "wedding venue Uzbekistan",
+      "hall for 500 guests",
+      "wedding in Tashkent",
+      "Uzbek wedding venue"
+    ],
+    "answer": "Oq Saroy is a wedding and banquet venue in Tashkent with three halls: Guliston for 80–150 guests, Nur for up to 300 and the Grand Hall for up to 600. Banquets start at 290,000 UZS per guest including food, table setting and waiters; décor and a coordinator are included from the Classic package. A date is held with a 20% deposit."
+  },
+  "business": {
+    "legalName": "Oq Saroy Events LLC",
+    "street": "81 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Oq Saroy",
+      "eyebrow": "Wedding house · Tashkent",
+      "subtitle": "Three halls, our own kitchen and a team that runs your day from the first dance to the last guest. You just celebrate.",
+      "words": [
+        "Halls for 80, 300 and 600",
+        "Menu with tasting",
+        "Décor and flowers",
+        "Day coordinator"
+      ],
+      "cta": {
+        "label": "Check available dates",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See the halls",
+        "href": "#halls"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Nikoh wedding",
+        "Fatiha ceremony",
+        "European-style wedding",
+        "Anniversary",
+        "Sunnat celebration",
+        "Graduation party"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "We hold everything so you can hold each other’s hands",
+      "text": "A wedding in Uzbekistan means hundreds of guests, a dastarkhan and dozens of decisions in one evening. Since 2018 we have hosted more than a thousand celebrations and we know where timing usually breaks. So every couple gets one coordinator: they meet you in advance, bring the host, musicians, photographer and kitchen into one plan and stand by the stage all evening. The kitchen is our own, nothing is brought in: plov, samsa and cakes are made here, so hot dishes arrive hot.",
+      "image": ""
+    },
+    {
+      "id": "halls",
+      "type": "services",
+      "label": "Halls",
+      "title": "Three halls for celebrations of every size",
+      "intro": "",
+      "items": [
+        {
+          "title": "Guliston",
+          "text": "An intimate hall with a garden and summer terrace. For nikoh, fatiha and European-style weddings.",
+          "price": "from 290,000 UZS / guest",
+          "tag": "80–150 guests"
+        },
+        {
+          "title": "Nur",
+          "text": "A bright hall with crystal chandeliers and a separate bridal room.",
+          "price": "from 320,000 UZS / guest",
+          "tag": "up to 300 guests"
+        },
+        {
+          "title": "Grand Hall",
+          "text": "A 12-metre stage, lighting and sound for live music, two entrances for guests and the cortege.",
+          "price": "from 350,000 UZS / guest",
+          "tag": "up to 600 guests"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "1000",
+          "suffix": "+",
+          "label": "weddings and celebrations"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "halls"
+        },
+        {
+          "value": "600",
+          "suffix": "",
+          "label": "guests in the Grand Hall"
+        },
+        {
+          "value": "8",
+          "suffix": " years",
+          "label": "hosting weddings"
+        }
+      ]
+    },
+    {
+      "id": "day",
+      "type": "process",
+      "label": "Your day",
+      "title": "How the evening unfolds",
+      "items": [
+        {
+          "title": "16:00 — The bridal room",
+          "text": "Quiet, a mirror, coffee and a photographer before you meet the guests."
+        },
+        {
+          "title": "17:30 — Welcoming guests",
+          "text": "Hostesses seat guests according to the plan; a welcome buffet and music at the entrance."
+        },
+        {
+          "title": "18:30 — The couple’s entrance",
+          "text": "The lights dim, your song plays and the doors open exactly on cue."
+        },
+        {
+          "title": "20:00 — Main course and plov",
+          "text": "Plov comes out of our kitchen on platters while the guests dance lazgi."
+        },
+        {
+          "title": "22:00 — Cake and first dance",
+          "text": "A cake from our pastry kitchen and the dance you’ve rehearsed for a month."
+        }
+      ]
+    },
+    {
+      "id": "album",
+      "type": "gallery",
+      "label": "Album",
+      "title": "From past evenings",
+      "items": [
+        {
+          "caption": "Fatiha in the garden",
+          "image": ""
+        },
+        {
+          "caption": "Nur hall before the guests",
+          "image": ""
+        },
+        {
+          "caption": "The bridal room",
+          "image": ""
+        },
+        {
+          "caption": "The wedding cake",
+          "image": ""
+        },
+        {
+          "caption": "Plov on platters",
+          "image": ""
+        },
+        {
+          "caption": "The last dance",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Packages",
+      "title": "Price per guest",
+      "items": [
+        {
+          "name": "Banquet",
+          "price": "290,000 UZS",
+          "period": "per guest",
+          "features": [
+            "Three-course menu",
+            "Table setting and waiters",
+            "Hall for 6 hours"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Classic",
+          "price": "390,000 UZS",
+          "period": "per guest",
+          "features": [
+            "Everything in Banquet",
+            "Hall décor and flowers",
+            "Day coordinator",
+            "Wedding cake"
+          ],
+          "featured": true
+        },
+        {
+          "name": "All-inclusive",
+          "price": "520,000 UZS",
+          "period": "per guest",
+          "features": [
+            "Everything in Classic",
+            "Host and musicians",
+            "Photo and video",
+            "Five-car cortege"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Couples",
+      "title": "Letters after the wedding",
+      "items": [
+        {
+          "quote": "We didn’t look at the clock once. Our coordinator Nigora solved everything before we even noticed.",
+          "author": "Sevara & Jasur",
+          "role": "Nur hall, 280 guests"
+        },
+        {
+          "quote": "The plov was hot for all 500 guests — grandma still talks about it.",
+          "author": "The Karimov family",
+          "role": "Grand Hall"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you choose a date",
+      "items": [
+        {
+          "q": "How do I book a date?",
+          "a": "Come and see the halls, choose a date and pay a 20% deposit under contract. The balance is due 10 days before the event."
+        },
+        {
+          "q": "Can we taste the menu in advance?",
+          "a": "Yes, a tasting for two is free once the date is booked. Parents can join for 150,000 UZS per person."
+        },
+        {
+          "q": "Can we bring our own drinks and cake?",
+          "a": "Drinks — yes, with no corkage fee. You can order a cake from us or bring your own with the bakery’s certificate."
+        },
+        {
+          "q": "What if the guest count grows?",
+          "a": "We fix the final guest count 5 days before. Until then you can add guests at the package price."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, a guarded car park for 120 cars and a separate bay for the cortege by the main entrance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Visit",
+      "title": "Come and see the halls",
+      "text": "Send your preferred date and rough guest count — we’ll reply with available dates and book you a tour.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/oqsaroy"
+      }
+    }
+  ]
+}

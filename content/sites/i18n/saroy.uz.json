@@ -1,0 +1,283 @@
+{
+  "name": "Saroy Suites",
+  "tagline": "Ganch hovlili eski uydagi o‘n ikki xona",
+  "niche": "Toshkent markazidagi butik-mehmonxona",
+  "nav": {
+    "cta": {
+      "label": "Band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Butik-mehmonxona, mehmon uyi yoki apartamentlar uchun sayt. WebGL’da ganch panjara orqali quyosh, sanali bron paneli, katalog ko‘rinishidagi xonalar va yonga suriladigan lahzalar lentasi.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Saroy Suites — Toshkent markazidagi butik-mehmonxona",
+    "description": "1912-yilgi ta’mirlangan uydagi o‘n ikki xona: ganch hovli, favvora yonida nonushta, hammom va ayvon. Eski shahargacha piyoda 10 daqiqa.",
+    "keywords": [
+      "butik-mehmonxona Toshkent",
+      "Toshkent markazidagi mehmonxona",
+      "Toshkentda mehmonxona",
+      "hovlili mehmonxona",
+      "hammom Toshkent",
+      "Toshkentda qayerda to‘xtash"
+    ],
+    "answer": "Saroy Suites — Toshkent markazidagi 1912-yilgi ta’mirlangan uyda joylashgan 12 xonali butik-mehmonxona. Nonushta bilan xonalar bir kecha uchun 1 400 000 so‘mdan, joylashish 14:00 dan, chiqish 12:00 gacha, aeroportdan transfer — 250 000 so‘m. Qabulxona kecha-kunduz ishlaydi."
+  },
+  "business": {
+    "legalName": "«Saroy Suites» MChJ",
+    "street": "Abdulla Qodiriy ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Booking.com"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Vaqt sekinroq o‘tadigan uy",
+      "eyebrow": "Butik-mehmonxona · Toshkent · 1912",
+      "subtitle": "Favvorali ganch hovli atrofida o‘n ikki xona. Chorsu bozoridan o‘n daqiqa narida sokinlik.",
+      "words": [],
+      "cta": {
+        "label": "Sanalarni tekshirish",
+        "href": "https://t.me/saroysuites"
+      },
+      "ctaSecondary": {
+        "label": "",
+        "href": ""
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Ganch hovli",
+        "Favvora yonida nonushta",
+        "Hammom",
+        "Tomdagi ayvon",
+        "Eski shahar piyoda",
+        "Qabulxona 24/7"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Uy",
+      "title": "Biz qayta qurmagan savdogar uyi",
+      "text": "Uy 1912-yilda ipak savdogarlari oilasi uchun qurilgan. Biz uch yil davomida keyingi to‘siqlarni olib tashladik, ganchni tozaladik va yog‘och shiftlarni qo‘lda tikladik. Baland derazalar, yozda salqinlikni saqlaydigan qalin devorlar va barcha xonalar chiqadigan hovli qoldi. Bu yerda musiqali lobbi yo‘q — choy, kitoblar va tok soyasi bor.",
+      "image": ""
+    },
+    {
+      "id": "rooms",
+      "type": "services",
+      "label": "Xonalar",
+      "title": "O‘n ikki xona, hech biri bir xil emas",
+      "intro": "Narx ikki kishi uchun bir kechaga, nonushta bilan. Bolalar karavoti va 15:00 gacha kech chiqish — xona bo‘sh bo‘lsa, bepul.",
+      "items": [
+        {
+          "title": "Hovli",
+          "text": "Hovliga qaragan derazalar, karavot ustida ganch tokcha, tropik yomg‘irli dush.",
+          "price": "1 400 000 so‘mdan",
+          "tag": "24 m² · 2 mehmongacha"
+        },
+        {
+          "title": "Ipak",
+          "text": "Naqshli baland shiftlar, deraza yonida vanna, qo‘lda tikilgan so‘zana.",
+          "price": "1 900 000 so‘mdan",
+          "tag": "32 m² · 2 mehmongacha"
+        },
+        {
+          "title": "Ayvon",
+          "text": "Ikkinchi qavatda o‘z ayvoni, tokzor va minoralarga manzara.",
+          "price": "2 400 000 so‘mdan",
+          "tag": "38 m² · 3 mehmongacha"
+        },
+        {
+          "title": "Savdogar syuiti",
+          "text": "Ikki xona, kaminli mehmonxona, hovlidan alohida kirish.",
+          "price": "3 600 000 so‘mdan",
+          "tag": "56 m² · 4 mehmongacha"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "xona"
+        },
+        {
+          "value": "114",
+          "suffix": "",
+          "label": "yillik uy"
+        },
+        {
+          "value": "10",
+          "suffix": " daq",
+          "label": "Chorsugacha piyoda"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "qabulxona"
+        }
+      ]
+    },
+    {
+      "id": "moments",
+      "type": "gallery",
+      "label": "Lahzalar",
+      "title": "Saroydagi bir kun",
+      "items": [
+        {
+          "caption": "Hovlida tong",
+          "image": ""
+        },
+        {
+          "caption": "Favvora yonida nonushta",
+          "image": ""
+        },
+        {
+          "caption": "Yo‘lakdagi ganch",
+          "image": ""
+        },
+        {
+          "caption": "Hammom",
+          "image": ""
+        },
+        {
+          "caption": "Ayvonda choy",
+          "image": ""
+        },
+        {
+          "caption": "Kun botishda ayvon",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "type": "menu",
+      "label": "Nonushta",
+      "title": "Hovli oshxonasi",
+      "groups": [
+        {
+          "name": "Tong (narxga kiradi)",
+          "items": [
+            {
+              "name": "Tandir non va qaymoq",
+              "text": "Chimyon asali va behi murabbosi bilan",
+              "price": "—"
+            },
+            {
+              "name": "Sariyog‘dagi tuxum",
+              "text": "Quymoq, omlet yoki shakshuka",
+              "price": "—"
+            },
+            {
+              "name": "Samovar choyi",
+              "text": "Ko‘k, qora, kakliguti bilan",
+              "price": "—"
+            }
+          ]
+        },
+        {
+          "name": "Ayvonda kechqurun",
+          "items": [
+            {
+              "name": "Buyurtma osh",
+              "text": "19:00 ga tayyorlaymiz, buyurtma tushgacha",
+              "price": "180 000 so‘m"
+            },
+            {
+              "name": "Pishloq va vino",
+              "text": "O‘zbek pishloqlari va Samarqand vinosi",
+              "price": "160 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Keyin nima yozishadi",
+      "items": [
+        {
+          "quote": "Favvora shovqini va non hidi bilan uyg‘ondik. Toshkentda hech qayerga ketgimiz kelmagan birinchi joy.",
+          "author": "Anna & Mark",
+          "role": "Berlin, «Ayvon» xonasi"
+        },
+        {
+          "quote": "Qishloqdagidek sokin, Chorsugacha esa piyoda o‘n daqiqa. Xodimlar qaysi choy ichishimni eslab qolishdi.",
+          "author": "Dilnoza R.",
+          "role": "Samarqand, xizmat safari"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kelishdan oldin",
+      "items": [
+        {
+          "q": "Joylashish va chiqish soat nechada?",
+          "a": "Joylashish 14:00 dan, chiqish 12:00 gacha. Xona bo‘sh bo‘lsa, erta joylashish va 15:00 gacha kech chiqish bepul."
+        },
+        {
+          "q": "Aeroportdan transfer bormi?",
+          "a": "Ha, bir tomonga 250 000 so‘m, kecha-kunduz. Reys raqamini yozing — haydovchi lavha bilan kutib oladi."
+        },
+        {
+          "q": "Nonushta narxga kiradimi?",
+          "a": "Ha, hovlidagi nonushta 7:30 dan 10:30 gacha barcha tariflarga kiradi. Nonushtani xonaga so‘rash mumkin."
+        },
+        {
+          "q": "Bolalar bilan kelsa bo‘ladimi?",
+          "a": "Ha. Bolalar karavoti bepul, «Ayvon» va «Savdogar syuiti» xonalarida qo‘shimcha karavot bir kechaga 300 000 so‘m."
+        },
+        {
+          "q": "Bronni qanday bekor qilish mumkin?",
+          "a": "Joylashishdan 3 kun oldin bepul bekor qilinadi. Keyinroq birinchi kecha narxi ushlab qolinadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Bron",
+      "title": "Sizni qachon kutaylik?",
+      "text": "Sanalar va mehmonlar sonini yozing — bir soat ichida javob beramiz va xonani tasdiqlaymiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/saroysuites"
+      }
+    }
+  ]
+}
