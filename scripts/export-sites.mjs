@@ -11,6 +11,14 @@ import { cpSync, mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import path from 'node:path'
 
+// Сокет keep-alive сервера закрывается, пока wrangler грузит предыдущий сайт: запрос повторяем.
+const fetchRaw = globalThis.fetch
+const fetch = async (url, opts) => {
+  for (let a = 1; ; a++) {
+    try { return await fetchRaw(url, opts) } catch (e) { if (a >= 4) throw e; await new Promise((r) => setTimeout(r, 1000 * a)) }
+  }
+}
+
 const args = process.argv.slice(2)
 const deploy = args.includes('--deploy')
 const [base = 'http://localhost:3200', out = 'out', ...only] = args.filter((a) => a !== '--deploy')
