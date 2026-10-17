@@ -1,0 +1,106 @@
+{
+  "name": "Torque Garage",
+  "tagline": "Detailing and service without compromise",
+  "niche": "Premium detailing studio and car service",
+  "seo": {
+    "title": "Torque Garage — detailing, ceramic coating and PPF in Tashkent",
+    "description": "Ceramic coating, paint protection film, polishing, interior cleaning and servicing for premium cars in Tashkent. Enclosed bays and a warranty on every job.",
+    "keywords": ["car detailing Tashkent", "ceramic coating", "paint protection film", "paint correction", "interior detailing", "window tinting"],
+    "answer": "Torque Garage is a detailing studio and car service in Tashkent: ceramic coating from 4,500,000 UZS (1–2 days), full-body PPF from 28,000,000 UZS (4–5 days), polishing from 2,200,000 UZS and interior cleaning from 1,400,000 UZS. We work in enclosed bays; book on +998 71 200-00-31."
+  },
+  "nav": { "cta": { "label": "Book", "href": "#contact" } },
+  "listing": {
+    "price": "",
+    "description": "A website for a detailing studio, car service or dealership. Studio light glides over the bodywork in WebGL, a tachometer turns as you scroll, with service packages, past work and a spec sheet.",
+    "features": []
+  },
+  "business": { "legalName": "Torque Garage LLC", "street": "18 Kichik Khalka Yuli St", "city": "Tashkent", "region": "Tashkent", "areaServed": "Tashkent and Tashkent Region" },
+  "sections": [
+    {
+      "id": "hero", "type": "hero", "label": "", "title": "A shine built for the road",
+      "eyebrow": "Detailing · Tashkent · since 2018",
+      "subtitle": "Ceramic coating, paint protection film, polishing and service for cars that are cared for seriously. Enclosed bays, studio lighting, a photo report at every stage.",
+      "words": ["9H|ceramic hardness", "10 yrs|PPF warranty", "6|enclosed bays", "48 h|typical turnaround"],
+      "cta": { "label": "Book an inspection", "href": "#contact" },
+      "ctaSecondary": { "label": "Packages and prices", "href": "#packages" },
+      "image": ""
+    },
+    { "id": "mq", "type": "marquee", "label": "", "title": "What we work with", "items": ["Ceramic", "PPF", "Polishing", "Interior cleaning", "Tinting", "Sound deadening", "Servicing"] },
+    {
+      "id": "about", "type": "about", "label": "Garage", "title": "We work like an atelier, not a car wash",
+      "text": "Every car is received by a technician: paint thickness measured, defects photographed, plan and timing agreed. Six enclosed bays with forced ventilation and studio lighting; films and coatings come only from manufacturers with an official warranty. Thirty days after a ceramic coating you get a free check-up wash.",
+      "image": ""
+    },
+    {
+      "id": "services", "type": "services", "label": "Services", "title": "What we do", "intro": "Prices depend on the car class and the condition of the paint — we quote exactly after an inspection, which is free.",
+      "items": [
+        { "title": "Ceramic coating", "text": "Two to three layers of ceramic on body, wheels and glass. Protection from road salt, UV and light scratches.", "price": "from 4,500,000 UZS", "tag": "1–2 days" },
+        { "title": "Paint protection film", "text": "Polyurethane film on high-impact areas or the whole body; light scratches heal themselves.", "price": "from 6,000,000 UZS", "tag": "1–5 days" },
+        { "title": "Paint polishing", "text": "Correction or protective polish: we remove holograms, swirls and car-wash marks.", "price": "from 2,200,000 UZS", "tag": "1–2 days" },
+        { "title": "Interior deep clean", "text": "Leather, Alcantara, headliner; ozone treatment and leather protection afterwards.", "price": "from 1,400,000 UZS", "tag": "1 day" },
+        { "title": "Tinting and heat-rejecting film", "text": "Films within the permitted light transmission, with no bubbles and no dust.", "price": "from 900,000 UZS", "tag": "4–6 hours" },
+        { "title": "Routine servicing", "text": "Oils, filters, brakes, diagnostics — genuine parts and a photo report.", "price": "from 650,000 UZS", "tag": "same day" }
+      ]
+    },
+    {
+      "id": "works", "type": "works", "label": "Work", "title": "From the garage",
+      "items": [
+        { "title": "Porsche 911 Carrera", "category": "Full-body PPF", "year": "5 days", "text": "Matte film over the entire body, ceramic on the wheels and calipers.", "image": "", "href": "" },
+        { "title": "Mercedes-Benz G 63", "category": "Ceramic, interior clean", "year": "2 days", "text": "Three-layer ceramic coating and leather restoration.", "image": "", "href": "" },
+        { "title": "BMW M5", "category": "Paint correction", "year": "2 days", "text": "Car-wash holograms removed with the clear coat thickness preserved.", "image": "", "href": "" },
+        { "title": "Range Rover", "category": "PPF on high-impact areas", "year": "1 day", "text": "Bonnet, bumper, headlights and sills — the parts that catch stones first.", "image": "", "href": "" },
+        { "title": "Toyota Land Cruiser 300", "category": "Sound deadening, tinting", "year": "3 days", "text": "Sound deadening for the arches and doors, heat-rejecting film on the windscreen.", "image": "", "href": "" }
+      ]
+    },
+    {
+      "id": "stats", "type": "stats", "label": "In numbers", "title": "Technical data",
+      "items": [
+        { "value": "3200", "suffix": "+", "label": "cars serviced" },
+        { "value": "6", "suffix": "bays", "label": "enclosed, with studio lighting" },
+        { "value": "10", "suffix": "yrs", "label": "manufacturer warranty on PPF" },
+        { "value": "30", "suffix": "days", "label": "until your free check-up wash" }
+      ]
+    },
+    {
+      "id": "packages", "type": "pricing", "label": "Packages", "title": "Protection packages",
+      "items": [
+        { "name": "City", "price": "4,500,000 UZS", "period": "sedan, 1 day", "features": ["Wash and decontamination", "Light polish", "Ceramic, 1 layer", "Ceramic on glass"], "featured": false },
+        { "name": "Complete", "price": "12,900,000 UZS", "period": "sedan, 3 days", "features": ["PPF on bonnet, bumper, headlights", "Paint correction", "Ceramic, 2 layers on the body", "Ceramic on wheels", "Interior deep clean"], "featured": true },
+        { "name": "Full protection", "price": "from 28,000,000 UZS", "period": "4–5 days", "features": ["Full-body PPF", "Ceramic over the film", "Ceramic on wheels and glass", "Leather protection", "Check-up after one year"], "featured": false }
+      ]
+    },
+    {
+      "id": "process", "type": "process", "label": "Process", "title": "How it works",
+      "items": [
+        { "title": "Inspection", "text": "Paint measurement, defect photos, a work plan and an exact price. Free, 30 minutes." },
+        { "title": "Preparation", "text": "Wash, decontamination and removal of parts where needed." },
+        { "title": "The work", "text": "In an enclosed bay under studio light; you get photos at every stage." },
+        { "title": "Handover", "text": "We show you the result in daylight and hand over a warranty card." }
+      ]
+    },
+    {
+      "id": "reviews", "type": "testimonials", "label": "Reviews", "title": "From the owners",
+      "items": [
+        { "quote": "They wrapped the 911 in five days, as promised. You can't see the seams even on the edges, and they sent photos every evening.", "author": "Timur", "role": "Porsche 911" },
+        { "quote": "The first service that showed me paint thickness before and after polishing. The price matched the one quoted at the inspection.", "author": "Dilnoza", "role": "BMW X5" },
+        { "quote": "Two years on, the ceramic still lets the car wash clean with water alone. They invited me back for the check-up wash after a month.", "author": "Alisher", "role": "Mercedes-Benz E-Class" }
+      ]
+    },
+    {
+      "id": "faq", "type": "faq", "label": "FAQ", "title": "Frequently asked questions",
+      "items": [
+        { "q": "How long does a ceramic coating last?", "a": "Two to five years depending on the product and the number of layers. The term is stated on your warranty card; we recommend a wash without harsh chemicals every six months." },
+        { "q": "Which is better — ceramic or PPF?", "a": "Film protects against chips and stones; ceramic protects against chemicals, UV and light scratches. They are usually combined: PPF on high-impact areas and ceramic on the rest of the body." },
+        { "q": "How long will the car stay with you?", "a": "Ceramic takes 1–2 days, full-body PPF 4–5 days, an interior clean one day. We confirm the exact timing at the inspection." },
+        { "q": "Can I wash the car right after ceramic?", "a": "For the first 7 days only touchless washing without shampoo; after 30 days we invite you for a free check-up wash." },
+        { "q": "Do you give a warranty?", "a": "Yes: the manufacturer’s warranty on film of up to 10 years plus our own warranty on installation and coating — the terms are on the card you receive with the car." },
+        { "q": "Do I need to book an inspection?", "a": "It’s best to book by phone or Telegram — the inspection is free and takes about 30 minutes." }
+      ]
+    },
+    {
+      "id": "contact", "type": "contact", "label": "Contact", "title": "Bring your car in for an inspection",
+      "text": "Free, 30 minutes, with a paint measurement and an exact price.",
+      "cta": { "label": "Call a technician", "href": "tel:+998712000031" }
+    }
+  ]
+}

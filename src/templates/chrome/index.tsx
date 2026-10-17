@@ -3,6 +3,7 @@ import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { pick, ui } from '@/lib/i18n'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { ChromeHeader, Glare, MetalCanvas, Tach } from './client'
@@ -17,11 +18,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <ChromeHeader>
-        <a href="#top" className="ch-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="ch-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           <i aria-hidden="true" />
           {site.name}
         </a>
-        <nav className="ch-nav" aria-label="Разделы">
+        <nav className="ch-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -39,7 +40,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
         <span className="ch-header__progress" aria-hidden="true" />
       </ChromeHeader>
@@ -47,20 +48,20 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="ch-footer">
         <div className="ch-footer__grid">
           <div>
-            <p className="ch-footer__k">Адрес</p>
+            <p className="ch-footer__k">{ui(site.lang, 'address')}</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
           </div>
           <div>
-            <p className="ch-footer__k">Часы</p>
-            <p>{b.hours.map(humanHours).join(' · ')}</p>
+            <p className="ch-footer__k">{ui(site.lang, 'hours')}</p>
+            <p>{b.hours.map((h) => humanHours(h, site.lang)).join(' · ')}</p>
           </div>
           <div>
-            <p className="ch-footer__k">Связь</p>
+            <p className="ch-footer__k">{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</p>
             {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <p className="ch-footer__k">Соцсети</p>
+            <p className="ch-footer__k">{pick(site.lang, { ru: 'Соцсети', uz: 'Ijtimoiy tarmoqlar', en: 'Social' })}</p>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name} ↗
@@ -76,7 +77,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
           <span>{site.tagline}</span>
-          <a href="#top">Наверх ↑</a>
+          <a href="#top">{ui(site.lang, 'toTop')} ↑</a>
         </div>
       </footer>
     </>
@@ -120,7 +121,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
             ))}
           </dl>
         ) : null}
-        <Tach label="об/мин" />
+        <Tach label={pick(site.lang, { ru: 'об/мин', uz: 'ayl/daq', en: 'rpm' })} />
       </div>
     </section>
   )

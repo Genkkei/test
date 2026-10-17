@@ -1,0 +1,106 @@
+{
+  "name": "Torque Garage",
+  "tagline": "Murosasiz deteyling va servis",
+  "niche": "Premium-klass deteyling markazi va avtoservis",
+  "seo": {
+    "title": "Torque Garage — Toshkentda deteyling, keramika va PPF",
+    "description": "Toshkentda premium avtomobillar uchun keramik qoplama, PPF tosh o‘tkazmas plyonka, sayqallash, kimyoviy tozalash va texnik xizmat. Yopiq bokslar, ishga kafolat.",
+    "keywords": ["deteyling Toshkent", "keramik qoplama", "PPF plyonka", "kuzovni sayqallash", "salonni kimyoviy tozalash", "tonirovka"],
+    "answer": "Torque Garage — Toshkentdagi deteyling markazi va avtoservis: keramika 4 500 000 so‘mdan (1–2 kun), kuzovni to‘liq PPF bilan qoplash 28 000 000 so‘mdan (4–5 kun), sayqallash 2 200 000 so‘mdan, salonni kimyoviy tozalash 1 400 000 so‘mdan. Yopiq bokslarda ishlaymiz, yozilish +998 71 200-00-31 telefoni orqali."
+  },
+  "nav": { "cta": { "label": "Yozilish", "href": "#contact" } },
+  "listing": {
+    "price": "",
+    "description": "Deteyling markazi, avtoservis yoki avtosalon uchun sayt. WebGL‘da studiya nuri kuzov bo‘ylab sirpanadi, taxometr aylantirish bilan aylanadi, xizmat paketlari, ishlar va texnik ko‘rsatkichlar varag‘i.",
+    "features": []
+  },
+  "business": { "legalName": "«Torque Garage» MChJ", "street": "Kichik Xalqa yo‘li ko‘chasi, 18", "city": "Toshkent", "region": "Toshkent", "areaServed": "Toshkent va Toshkent viloyati" },
+  "sections": [
+    {
+      "id": "hero", "type": "hero", "label": "", "title": "Yo‘lga bardosh beradigan jilo",
+      "eyebrow": "Deteyling · Toshkent · 2018-yildan",
+      "subtitle": "Keramika, tosh o‘tkazmas plyonka, sayqallash va servis — avtomobiliga jiddiy qaraydiganlar uchun. Yopiq bokslar, studiyadagidek yorug‘lik, har bir bosqich bo‘yicha fotohisobot.",
+      "words": ["9H|keramika qattiqligi", "10 yil|PPF kafolati", "6|yopiq boks", "48 soat|o‘rtacha ish muddati"],
+      "cta": { "label": "Ko‘rikka yozilish", "href": "#contact" },
+      "ctaSecondary": { "label": "Paketlar va narxlar", "href": "#packages" },
+      "image": ""
+    },
+    { "id": "mq", "type": "marquee", "label": "", "title": "Nima bilan ishlaymiz", "items": ["Keramika", "PPF", "Sayqallash", "Kimyoviy tozalash", "Tonirovka", "Shovqin izolyatsiyasi", "Texnik xizmat"] },
+    {
+      "id": "about", "type": "about", "label": "Garaj", "title": "Biz yuvish shoxobchasi emas, atelye kabi ishlaymiz",
+      "text": "Har bir avtomobilni usta qabul qiladi: lak qalinligini o‘lchaydi, nuqsonlarni suratga oladi, reja va muddatlarni kelishadi. Oqim shamollatishli va studiya yorug‘ligidagi oltita yopiq boks, plyonka va tarkiblar — faqat rasmiy kafolat beradigan ishlab chiqaruvchilardan. Keramikadan 30 kun o‘tib — bepul nazorat yuvish.",
+      "image": ""
+    },
+    {
+      "id": "services", "type": "services", "label": "Xizmatlar", "title": "Nima qilamiz", "intro": "Narx kuzov klassi va holatiga bog‘liq — aniq narxni ko‘rikdan keyin aytamiz, ko‘rik bepul.",
+      "items": [
+        { "title": "Keramik qoplama", "text": "Kuzov, disklar va oynalarga ikki-uch qatlamli keramika. Reagentlar, UB nurlar va mayda tirnalishlardan himoya.", "price": "4 500 000 so‘mdan", "tag": "1–2 kun" },
+        { "title": "Tosh o‘tkazmas PPF plyonka", "text": "Xavfli zonalarga yoki butun kuzovga poliuretan, mayda tirnalishlar o‘z-o‘zidan tekislanadi.", "price": "6 000 000 so‘mdan", "tag": "1–5 kun" },
+        { "title": "Kuzovni sayqallash", "text": "Tiklovchi yoki himoyaviy: gologrammalar, chiziqlar va yuvish izlarini ketkazamiz.", "price": "2 200 000 so‘mdan", "tag": "1–2 kun" },
+        { "title": "Salonni kimyoviy tozalash", "text": "Teri, alkantara, ship; ozonlash, tozalashdan keyin terini himoyalash.", "price": "1 400 000 so‘mdan", "tag": "1 kun" },
+        { "title": "Tonirovka va atermal plyonka", "text": "Ruxsat etilgan yorug‘lik o‘tkazuvchanlik doirasidagi plyonkalar, pufakchalar va changsiz.", "price": "900 000 so‘mdan", "tag": "4–6 soat" },
+        { "title": "Texnik xizmat ko‘rsatish", "text": "Moylar, filtrlar, tormozlar, diagnostika — original ehtiyot qismlar, fotohisobot bilan.", "price": "650 000 so‘mdan", "tag": "yozilgan kuni" }
+      ]
+    },
+    {
+      "id": "works", "type": "works", "label": "Ishlar", "title": "Garajdan",
+      "items": [
+        { "title": "Porsche 911 Carrera", "category": "To‘liq PPF qoplash", "year": "5 kun", "text": "Butun kuzovga mat plyonka, disklar va supportlarga keramika.", "image": "", "href": "" },
+        { "title": "Mercedes-Benz G 63", "category": "Keramika, kimyoviy tozalash", "year": "2 kun", "text": "Uch qatlamli keramika va salon terisini tiklash.", "image": "", "href": "" },
+        { "title": "BMW M5", "category": "Tiklovchi sayqallash", "year": "2 kun", "text": "Avtoyuvishlardan qolgan gologrammalarni ketkazdik, lak qalinligi saqlandi.", "image": "", "href": "" },
+        { "title": "Range Rover", "category": "Xavfli zonalarga PPF", "year": "1 kun", "text": "Kapot, bamper, faralar va ostonalar — toshlarni birinchi bo‘lib ushlaydigan joylar.", "image": "", "href": "" },
+        { "title": "Toyota Land Cruiser 300", "category": "Shovqin izolyatsiyasi, tonirovka", "year": "3 kun", "text": "G‘ildirak arklari va eshiklarni shovqindan izolyatsiyalash, old oynaga atermal plyonka.", "image": "", "href": "" }
+      ]
+    },
+    {
+      "id": "stats", "type": "stats", "label": "Raqamlarda", "title": "Texnik ma‘lumotlar",
+      "items": [
+        { "value": "3200", "suffix": "+", "label": "avtomobilga xizmat ko‘rsatildi" },
+        { "value": "6", "suffix": "boks", "label": "yopiq, studiya yorug‘ligida" },
+        { "value": "10", "suffix": "yil", "label": "PPF uchun ishlab chiqaruvchi kafolati" },
+        { "value": "30", "suffix": "kun", "label": "bepul nazorat yuvishgacha" }
+      ]
+    },
+    {
+      "id": "packages", "type": "pricing", "label": "Paketlar", "title": "Himoya paketlari",
+      "items": [
+        { "name": "Shahar", "price": "4 500 000 so‘m", "period": "sedan, 1 kun", "features": ["Yuvish va dekontaminatsiya", "Yengil sayqallash", "Keramika, 1 qatlam", "Oynalarga keramika"], "featured": false },
+        { "name": "Kompleks", "price": "12 900 000 so‘m", "period": "sedan, 3 kun", "features": ["Kapot, bamper, faralarga PPF", "Tiklovchi sayqallash", "Kuzovga 2 qatlam keramika", "Disklarga keramika", "Salonni kimyoviy tozalash"], "featured": true },
+        { "name": "To‘liq himoya", "price": "28 000 000 so‘mdan", "period": "4–5 kun", "features": ["Butun kuzovga PPF", "Plyonka ustidan keramika", "Disklar va oynalarga keramika", "Salon terisini himoyalash", "Bir yildan keyin nazorat ko‘rigi"], "featured": false }
+      ]
+    },
+    {
+      "id": "process", "type": "process", "label": "Jarayon", "title": "Bu qanday kechadi",
+      "items": [
+        { "title": "Ko‘rik", "text": "Lakni o‘lchash, nuqsonlarni suratga olish, ish rejasi va aniq narx. Bepul, 30 daqiqa." },
+        { "title": "Tayyorgarlik", "text": "Yuvish, dekontaminatsiya, kerak bo‘lsa qismlarni yechish." },
+        { "title": "Ish", "text": "Studiya yorug‘lidagi yopiq boksda; siz bosqichma-bosqich suratlarni olasiz." },
+        { "title": "Topshirish", "text": "Natijani kunduzgi yorug‘likda ko‘rsatamiz, kafolat talonini beramiz." }
+      ]
+    },
+    {
+      "id": "reviews", "type": "testimonials", "label": "Fikrlar", "title": "Egalari aytadi",
+      "items": [
+        { "quote": "911-ni va‘da qilganidek besh kunda qopladilar. Chetlarida ham choklar ko‘rinmaydi, har kuni kechqurun surat yuborib turishdi.", "author": "Timur", "role": "Porsche 911" },
+        { "quote": "Sayqallashdan oldin va keyin lak qalinligini ko‘rsatgan birinchi servis. Narx ko‘rikda aytilgani bilan bir xil chiqdi.", "author": "Dilnoza", "role": "BMW X5" },
+        { "quote": "Keramikaga ikki yil bo‘ldi, mashina hamon faqat suv bilan yuviladi. Bir oydan keyin o‘zlari nazorat yuvishga chaqirishdi.", "author": "Alisher", "role": "Mercedes-Benz E-klass" }
+      ]
+    },
+    {
+      "id": "faq", "type": "faq", "label": "Savollar", "title": "Ko‘p beriladigan savollar",
+      "items": [
+        { "q": "Keramik qoplama qancha vaqt saqlanadi?", "a": "Tarkib va qatlamlar soniga qarab 2 yildan 5 yilgacha. Muddatni kafolat talonida ko‘rsatamiz; har yarim yilda agressiv kimyosiz yuvishni tavsiya qilamiz." },
+        { "q": "Nima yaxshiroq — keramikami yoki PPF?", "a": "Plyonka chaqilish va toshlardan, keramika kimyo, ultrabinafsha va mayda tirnalishlardan himoya qiladi. Ko‘pincha ikkalasi birga qo‘llanadi: xavfli zonalarga PPF, qolgan kuzovga keramika." },
+        { "q": "Mashina sizda qancha turadi?", "a": "Keramika — 1–2 kun, to‘liq PPF qoplash — 4–5 kun, kimyoviy tozalash — bir kun. Aniq muddatni ko‘rikda belgilaymiz." },
+        { "q": "Keramikadan keyin darhol yuvsa bo‘ladimi?", "a": "Dastlabki 7 kun — faqat shampunsiz kontaktsiz yuvish; 30 kundan keyin bepul nazorat yuvishga taklif qilamiz." },
+        { "q": "Kafolat berasizmi?", "a": "Ha: plyonkaga ishlab chiqaruvchining 10 yilgacha kafolati va o‘rnatish hamda qoplamaga bizning kafolatimiz — shartlari mashina bilan beriladigan talonda." },
+        { "q": "Ko‘rikka yozilish kerakmi?", "a": "Telefon yoki Telegram orqali yozilgan ma‘qul — ko‘rik bepul va taxminan 30 daqiqa davom etadi." }
+      ]
+    },
+    {
+      "id": "contact", "type": "contact", "label": "Aloqa", "title": "Mashinani ko‘rikka olib keling",
+      "text": "Bepul, 30 daqiqa, lakni o‘lchash va aniq narx bilan.",
+      "cta": { "label": "Ustaga qo‘ng‘iroq", "href": "tel:+998712000031" }
+    }
+  ]
+}

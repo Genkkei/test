@@ -3,6 +3,7 @@ import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Shell as Sec, humanHours } from '@/components/sections'
+import { pick, ui } from '@/lib/i18n'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { Lookbook, ShowroomTime, Stretch } from './client'
@@ -15,10 +16,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <header className="rw-header">
-        <a href="#top" className="rw-cell rw-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="rw-cell rw-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
-        <nav className="rw-cell rw-nav" aria-label="Разделы">
+        <nav className="rw-cell rw-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -26,7 +27,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <p className="rw-cell rw-time">
-          {b.city || 'Ташкент'} <ShowroomTime />
+          {b.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })} <ShowroomTime />
         </p>
         <div className="rw-cell rw-header__side">
           {site.nav.cta.label ? (
@@ -34,24 +35,24 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label} <span>(→)</span>
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <main id="top">{children}</main>
       <footer className="rw-footer">
         <div className="rw-footer__cols">
           <div>
-            <p className="rw-k">Шоурум</p>
+            <p className="rw-k">{pick(site.lang, { ru: 'Шоурум', uz: 'Shourum', en: 'Showroom' })}</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
-            <p>{b.hours.map(humanHours).join(' · ')}</p>
+            <p>{b.hours.map((h) => humanHours(h, site.lang)).join(' · ')}</p>
           </div>
           <div>
-            <p className="rw-k">Связь</p>
+            <p className="rw-k">{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</p>
             {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <p className="rw-k">Следите</p>
+            <p className="rw-k">{pick(site.lang, { ru: 'Следите', uz: 'Kuzatib boring', en: 'Follow' })}</p>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -59,7 +60,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ))}
           </div>
           <div>
-            <p className="rw-k">Разделы</p>
+            <p className="rw-k">{ui(site.lang, 'sections')}</p>
             {links.map((l) => (
               <a key={l.href} href={l.href}>
                 {l.label}
@@ -73,7 +74,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="rw-footer__legal">
           <span>© {new Date().getFullYear()} {b.legalName || site.name}</span>
           <span>{site.tagline}</span>
-          <a href="#top">Наверх</a>
+          <a href="#top">{ui(site.lang, 'toTop')}</a>
         </div>
       </footer>
     </>
@@ -183,9 +184,9 @@ function Gallery({ section: s, site, art }: SectionProps<'gallery'>) {
       <Lookbook count={s.items.length}>
         {s.items.map((it, i) => (
           <figure key={i} className="rw-frame">
-            <Media src={it.image} alt={it.caption || `${site.name} — образ ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
+            <Media src={it.image} alt={it.caption || `${site.name} — ${pick(site.lang, { ru: 'образ', uz: 'obraz', en: 'look' })} ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
             <figcaption>
-              <span>Образ {n3(i)}</span>
+              <span>{pick(site.lang, { ru: 'Образ', uz: 'Obraz', en: 'Look' })} {n3(i)}</span>
               {it.caption}
             </figcaption>
           </figure>
@@ -195,9 +196,9 @@ function Gallery({ section: s, site, art }: SectionProps<'gallery'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee rw-marquee" aria-label={s.title || 'Ключевые слова'}>
+    <section className="s s-marquee rw-marquee" aria-label={s.title || ui(site.lang, 'keywords')}>
       <Marquee items={s.items} speed={30} sep="/" />
       <Marquee items={[...s.items].reverse()} speed={38} sep="/" className="marquee rw-marquee__rev" />
     </section>

@@ -63,7 +63,7 @@ export function Live({ open, close }: { open: number; close: number }) {
 }
 
 /** Текст, который на наведении перебирает символы и собирается обратно — терминальный эффект. */
-const GLYPHS = '█▓▒░/\\<>01#*+=—ЖЩФ'
+const GLYPHS = '█▓▒░/\\<>01#*+=—§¤※'
 export function Scramble({ text, className }: { text: string; className?: string }) {
   const ref = useRef<HTMLSpanElement>(null)
   const run = () => {

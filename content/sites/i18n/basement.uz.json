@@ -1,0 +1,101 @@
+{
+  "name": "Basement",
+  "tagline": "Shahar ostidagi andegraund",
+  "niche": "Elektron musiqa klubi va festival",
+  "seo": {
+    "title": "Basement — Toshkentdagi elektron musiqa klubi",
+    "description": "Shahrisabz ko‘chasidagi yerto‘lada tekno, xaus va elektro: payshanbadan shanbagacha 06:00 gacha kechalar, rezidentlar va mehmonlar, Funktion-One ovozi. Chiptalar onlayn.",
+    "keywords": ["klub Toshkent", "tekno kecha Toshkent", "elektron musiqa", "tungi klub", "xaus", "Toshkent afishasi"],
+    "answer": "Basement — Toshkentdagi elektron musiqa klubi, Shahrisabz ko‘chasi, 5: tekno, xaus va elektro payshanbadan shanbagacha 22:00 dan 06:00 gacha. Kirish 18+, onlayn chipta — 120 000–200 000 so‘m, kirishda 50 000 so‘m qimmatroq; raqs maydonida foto va video taqiqlangan."
+  },
+  "nav": { "cta": { "label": "Chiptalar", "href": "#lineup" } },
+  "listing": {
+    "price": "",
+    "description": "Klub, festival, bar yoki ivent-agentlik uchun sayt. WebGL‘da kislotali dizering va glitch, artistlar va narxlar bilan kechalar afishasi, terminal uslubidagi klub qoidalari va FAQ.",
+    "features": []
+  },
+  "business": { "legalName": "«Basement Club» MChJ", "street": "Shahrisabz ko‘chasi, 5, kirish hovli tomondan", "city": "Toshkent", "region": "Toshkent", "areaServed": "Toshkent" },
+  "sections": [
+    {
+      "id": "hero", "type": "hero", "label": "", "title": "Shahardan baland musiqa",
+      "eyebrow": "Klub · Toshkent · Pa—Sh 22:00—06:00",
+      "subtitle": "Shahrisabzdagi yerto‘la, Funktion-One tizimi, qorong‘i raqs maydoni va qat‘iy qoidalar: telefonlarsiz, VIP‘siz, tasodifiy odamlarsiz.",
+      "words": ["Techno", "House", "Electro", "Breaks"],
+      "cta": { "label": "Chipta olish", "href": "#lineup" },
+      "ctaSecondary": { "label": "Qoidalar", "href": "#rules" },
+      "image": ""
+    },
+    { "id": "mq", "type": "marquee", "label": "", "title": "Qisqacha qoidalar", "items": ["No photo on the dancefloor", "18+", "Respect the space", "Dance till 06:00"] },
+    {
+      "id": "lineup", "type": "menu", "label": "Afisha", "title": "Yaqin kechalar",
+      "groups": [
+        { "name": "PA 22.10 — Warm Up", "items": [
+          { "name": "Nodir Kh", "text": "rezidentlik · 23:00–02:00", "price": "120 000 so‘m" },
+          { "name": "Lola Static", "text": "electro · 02:00–05:00", "price": "" }
+        ] },
+        { "name": "JU 23.10 — Acid Friday", "items": [
+          { "name": "Kosmo Bek", "text": "acid techno · 00:00–03:00", "price": "180 000 so‘m" },
+          { "name": "Rina Volt", "text": "live · 03:00–04:30", "price": "" },
+          { "name": "Tashkent Tape Club", "text": "b2b · 04:30–06:00", "price": "" }
+        ] },
+        { "name": "SH 24.10 — Basement Session 31", "items": [
+          { "name": "Marten Oy", "text": "Berlin · 01:00–03:30", "price": "200 000 so‘m" },
+          { "name": "Sabina D", "text": "house · 23:00–01:00", "price": "" },
+          { "name": "Nodir Kh", "text": "yopilish · 03:30–06:00", "price": "" }
+        ] },
+        { "name": "SH 31.10 — Halloween Bunker", "items": [
+          { "name": "Secret guest", "text": "bir hafta oldin e‘lon qilamiz", "price": "200 000 so‘m" },
+          { "name": "Kosmo Bek b2b Lola Static", "text": "all night long", "price": "" }
+        ] }
+      ]
+    },
+    {
+      "id": "about", "type": "about", "label": "Klub", "title": "Har bir nota eshitiladigan 400 kishilik yerto‘la",
+      "text": "Basement 2022-yilda turar-joy binosi ostidagi sobiq omborda ochildi. Ovozni Yevropa klublarida tizim o‘rnatgan muhandislar sozlagan: Funktion-One, akustik panellar, har kecha oldidan tekshirish uchun yigirma daqiqa sukunat. Bizda VIP zona va stollar yo‘q — faqat raqs maydoni, bar va hovlidagi dam olish zonasi.",
+      "image": ""
+    },
+    {
+      "id": "rules", "type": "process", "label": "Qoidalar", "title": "Yerto‘la qoidalari",
+      "items": [
+        { "title": "Foto va videosiz", "text": "Kirishda telefon kameralarini stiker bilan yopamiz. Raqs maydoni — storis uchun joy emas." },
+        { "title": "Faqat 18+", "text": "Kirishda hammaning shaxsini tasdiqlovchi hujjatini tekshiramiz, istisnosiz." },
+        { "title": "Hurmat", "text": "Shilqimlik, kamsitish va tajovuz yo‘q. Qoidabuzarlarni chiptani qaytarmasdan chiqaramiz." },
+        { "title": "Feys-nazorat", "text": "Kiyimga emas, kayfiyatga qaraymiz. Mastlarni kiritmaymiz." },
+        { "title": "O‘zingni asra", "text": "Bardagi suv bepul, dam olish zonasida shifokor navbatchilik qiladi." }
+      ]
+    },
+    {
+      "id": "stats", "type": "stats", "label": "Raqamlar", "title": "Ma‘lumotlardagi yerto‘la",
+      "items": [
+        { "value": "400", "suffix": "kishi", "label": "raqs maydoni sig‘imi" },
+        { "value": "31", "suffix": "", "label": "2022-yildan beri Basement Session" },
+        { "value": "8", "suffix": "soat", "label": "har kecha musiqa" },
+        { "value": "0", "suffix": "VIP", "label": "stol va VIP zonalar" }
+      ]
+    },
+    {
+      "id": "reviews", "type": "testimonials", "label": "Mehmonlar", "title": "Nima yozishadi",
+      "items": [
+        { "quote": "Toshkentda kolonka yonida ham quloqni kesmaydigan ovozli birinchi klub. Ertalab oltida boshimda shovqinsiz chiqib ketdim.", "author": "timur.wav", "role": "Acid Friday mehmoni" },
+        { "quote": "Kameradagi stiker avvaliga g‘ashimga tegdi, keyin bir yilda birinchi marta shunchaki raqsga tushganimni tushundim.", "author": "malika", "role": "Session 28 mehmoni" },
+        { "quote": "Ko‘p yerto‘lalarda chalganman, lekin bu yerda tomoshabin tinglaydi. Live-set bilan qaytaman.", "author": "Marten Oy", "role": "taklif etilgan artist" }
+      ]
+    },
+    {
+      "id": "faq", "type": "faq", "label": "FAQ", "title": "Kecha oldidan",
+      "items": [
+        { "q": "Kirish qancha turadi?", "a": "Onlayn chipta kechaga qarab 120 000 dan 200 000 so‘mgacha. Joy qolgan bo‘lsa, kirishdagi chipta 50 000 so‘m qimmatroq." },
+        { "q": "Necha yoshdan kelish mumkin?", "a": "Faqat 18 yoshdan. Shaxsni tasdiqlovchi hujjatni kirishda hammadan tekshiramiz." },
+        { "q": "Dress-kod bormi?", "a": "Qat‘iysi yo‘q: raqs tushishga qulay kiyimda keling. Biz brendlarga emas, kayfiyatga qaraymiz." },
+        { "q": "Telefonda suratga olsa bo‘ladimi?", "a": "Raqs maydonida — yo‘q, kamerani kirishda stiker bilan yopamiz. Hovlidagi dam olish zonasida — mumkin." },
+        { "q": "Chiptani qaytarsa bo‘ladimi?", "a": "Ha, kecha boshlanishidan kamida 48 soat oldin — chipta kelgan xatdagi havola orqali." },
+        { "q": "Tunda qanday yetib borish mumkin?", "a": "Kirish Shahrisabz ko‘chasi, 5 dagi uyning hovlisidan. Yopilgandan keyin kirishda hamkor taksi navbatchilik qiladi, metro 05:00 da ochiladi." }
+      ]
+    },
+    {
+      "id": "contact", "type": "contact", "label": "Aloqa", "title": "Pastga tushing",
+      "text": "Shahrisabz, 5, kirish hovli tomondan. Artistlar va promouterlar uchun — pochta quyida.",
+      "cta": { "label": "Telegram-kanal", "href": "https://t.me/basementtas" }
+    }
+  ]
+}

@@ -151,7 +151,7 @@ html.menu-open { overflow: hidden; }
 .reduce-motion .marquee__track, .reduce-motion .badge svg { animation: none; }
 
 /* ---------- переключатель языка (общий для всех шаблонов) ---------- */
-.lang-switch { position: fixed; left: 14px; bottom: 14px; z-index: 80; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: color-mix(in srgb, var(--bg) 82%, transparent); border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent); box-shadow: 0 6px 24px rgb(0 0 0 / .18); font: 600 11px/1 var(--font-body); letter-spacing: .04em; }
+.lang-switch { position: fixed; right: 14px; bottom: 14px; z-index: 80; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: color-mix(in srgb, var(--bg) 82%, transparent); border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent); box-shadow: 0 6px 24px rgb(0 0 0 / .18); font: 600 11px/1 var(--font-body); letter-spacing: .04em; }
 .lang-switch a { display: grid; place-items: center; min-width: 40px; height: 30px; padding: 0 9px; border-radius: 999px; color: color-mix(in srgb, var(--fg) 70%, transparent); transition: background .3s, color .3s; }
 .lang-switch a:hover { color: var(--fg); }
 .lang-switch a[aria-current] { background: var(--fg); color: var(--bg); }

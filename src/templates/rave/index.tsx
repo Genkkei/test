@@ -2,6 +2,7 @@ import './style.css'
 import type { Site } from '@/lib/schema'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { DitherCanvas, Live, Scramble } from './client'
@@ -18,11 +19,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <header className="rv-header">
-        <a href="#top" className="rv-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="rv-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name.toUpperCase()}://{(b.city || 'tashkent').toUpperCase()}
         </a>
         <Live open={o} close={c} />
-        <nav className="rv-nav" aria-label="Разделы">
+        <nav className="rv-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               [<Scramble text={l.label} />]
@@ -35,7 +36,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label} ↗
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <main id="top">{children}</main>
@@ -50,7 +51,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </p>
           <p>
             <span>&gt; OPEN</span>
-            {b.hours.map(humanHours).join(' / ')}
+            {b.hours.map((h) => humanHours(h, site.lang)).join(' / ')}
           </p>
           <p>
             <span>&gt; CONTACT</span>
@@ -151,9 +152,9 @@ function Lineup({ section: s }: SectionProps<'menu'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee rv-marquee" aria-label={s.title || 'Ключевые слова'}>
+    <section className="s s-marquee rv-marquee" aria-label={s.title || ui(site.lang, 'keywords')}>
       <Marquee items={s.items} speed={22} sep="✱" />
     </section>
   )

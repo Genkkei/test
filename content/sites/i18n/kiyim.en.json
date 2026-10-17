@@ -1,0 +1,92 @@
+{
+  "name": "Kiyim",
+  "tagline": "Clothes from Tashkent that don’t need a logo",
+  "niche": "Clothing brand and showroom: linen, cotton, satin",
+  "seo": {
+    "title": "Kiyim — clothing brand and showroom in Tashkent",
+    "description": "Capsule collections in linen, cotton and satin, sewn in Tashkent in small runs. Showroom on Mirabad, fittings by appointment, delivery across Uzbekistan.",
+    "keywords": ["clothing brand Tashkent", "linen clothing", "capsule wardrobe", "Tashkent showroom", "Uzbek designers", "cotton clothing"],
+    "answer": "Kiyim is a clothing brand from Tashkent: capsule collections in linen, cotton and satin, sewn in small runs in our own workshop. Prices run from 390,000 UZS for a T-shirt to 1,850,000 UZS for a coat; the showroom at 21 Mirabad St is open daily, with delivery in Tashkent in 1 day and across Uzbekistan in 2–4 days."
+  },
+  "nav": { "cta": { "label": "Book a fitting", "href": "#contact" } },
+  "listing": {
+    "price": "",
+    "description": "A website for a clothing brand, boutique or showroom. Brutalist fashion: a full-width wordmark, the collection shown as exhibits with prices, a horizontal lookbook and counter-running tickers.",
+    "features": []
+  },
+  "business": { "legalName": "Kiyim Studio LLC", "street": "21 Mirabad St, showroom on the 2nd floor", "city": "Tashkent", "region": "Tashkent", "areaServed": "Uzbekistan, delivery across the CIS" },
+  "sections": [
+    {
+      "id": "hero", "type": "hero", "label": "", "title": "Clothes that speak quietly",
+      "eyebrow": "Collection 04 · Spring — Summer 2026",
+      "subtitle": "Linen from the Fergana Valley, cotton and satin. Sewn in Tashkent in small runs — every piece is numbered.",
+      "words": [],
+      "cta": { "label": "View the collection", "href": "#collection" },
+      "ctaSecondary": { "label": "Lookbook", "href": "#lookbook" },
+      "image": ""
+    },
+    { "id": "mq", "type": "marquee", "label": "", "title": "Materials", "items": ["Linen", "Cotton", "Satin", "Wool", "Small runs", "Made in Tashkent"] },
+    {
+      "id": "collection", "type": "works", "label": "Collection 04", "title": "New in",
+      "items": [
+        { "title": "Oversized shirt", "category": "Linen, milk", "year": "690,000 UZS", "text": "Relaxed cut, mother-of-pearl buttons, falls below the hip.", "image": "", "href": "" },
+        { "title": "Palazzo trousers", "category": "Linen, graphite", "year": "820,000 UZS", "text": "High rise, soft elastic at the back, deep pockets.", "image": "", "href": "" },
+        { "title": "Slip dress", "category": "Satin, blue", "year": "1,150,000 UZS", "text": "Bias cut, thin straps, midi length.", "image": "", "href": "" },
+        { "title": "Unlined jacket", "category": "Cotton, sand", "year": "1,390,000 UZS", "text": "Straight silhouette, patch pockets, three-quarter sleeves.", "image": "", "href": "" },
+        { "title": "Heavyweight T-shirt", "category": "Cotton 240 g, white", "year": "390,000 UZS", "text": "Dense cotton that keeps its shape wash after wash.", "image": "", "href": "" },
+        { "title": "Wrap skirt", "category": "Satin, black", "year": "760,000 UZS", "text": "Tie-fastened wrap, ankle length.", "image": "", "href": "" },
+        { "title": "Robe coat", "category": "Wool, camel", "year": "1,850,000 UZS", "text": "Kimono sleeves, belt, no lining.", "image": "", "href": "" },
+        { "title": "Bermuda shorts", "category": "Linen, olive", "year": "540,000 UZS", "text": "Pressed creases, button waistband, knee length.", "image": "", "href": "" }
+      ]
+    },
+    {
+      "id": "about", "type": "about", "label": "About", "title": "We make less, so that every piece lasts longer",
+      "text": "Kiyim began in 2021 in a workshop on Mirabad. We buy fabric from mills in Fergana and Namangan, and cut and sew everything ourselves in a workshop of 14 seamstresses. Each collection is 20–30 styles, with no more than 60 pieces of each; once a style sells out, we don’t remake it. The label carries the piece’s number and the name of the seamstress who made it.",
+      "image": ""
+    },
+    {
+      "id": "lookbook", "type": "gallery", "label": "Lookbook", "title": "Looks of the season",
+      "items": [
+        { "caption": "Oversized shirt and palazzo trousers", "image": "" },
+        { "caption": "Satin slip dress", "image": "" },
+        { "caption": "Jacket and Bermudas", "image": "" },
+        { "caption": "Robe coat over linen", "image": "" },
+        { "caption": "Wrap skirt and T-shirt", "image": "" },
+        { "caption": "Head-to-toe graphite", "image": "" }
+      ]
+    },
+    {
+      "id": "stats", "type": "stats", "label": "How we work", "title": "In small runs",
+      "items": [
+        { "value": "60", "suffix": "pcs", "label": "maximum pieces per style" },
+        { "value": "14", "suffix": "", "label": "seamstresses in our own workshop" },
+        { "value": "4", "suffix": "", "label": "collections since 2021" },
+        { "value": "1", "suffix": "day", "label": "delivery within Tashkent" }
+      ]
+    },
+    {
+      "id": "reviews", "type": "testimonials", "label": "Customers", "title": "Worn by",
+      "items": [
+        { "quote": "Linen I’m not embarrassed to wear to a meeting. I’m on my third season with these trousers and they look like day one.", "author": "Madina", "role": "architect" },
+        { "quote": "Came in for a half-hour fitting and left with a capsule for the whole summer. They took everything up to my height in two days.", "author": "Sevara", "role": "producer" },
+        { "quote": "The oversized shirt is the best thing I’ve bought in Tashkent. I love that the label has the seamstress’s name on it.", "author": "Behzod", "role": "photographer" }
+      ]
+    },
+    {
+      "id": "faq", "type": "faq", "label": "FAQ", "title": "Before you buy",
+      "items": [
+        { "q": "How do I choose my size?", "a": "Every style lists its measurements in centimetres. If you’re unsure, send your height and measurements on Telegram and we’ll advise within 15 minutes." },
+        { "q": "Can I try things on before buying?", "a": "Yes, at the showroom at 21 Mirabad St. It’s best to book ahead so we can have your sizes ready." },
+        { "q": "How much is delivery?", "a": "Within Tashkent it’s 30,000 UZS, free over 1,000,000 UZS, in 1 day. Across Uzbekistan it takes 2–4 days at the courier’s rate." },
+        { "q": "Can I return an item?", "a": "Yes, within 14 days if it hasn’t been worn and the tags are attached. We refund using the method you paid with." },
+        { "q": "Do you alter lengths?", "a": "Yes, we adjust trouser and sleeve length for free, usually in 1–2 days." },
+        { "q": "Will a sold-out style come back?", "a": "No: every style is a limited run and we don’t remake what has sold out. New collections arrive twice a year." }
+      ]
+    },
+    {
+      "id": "contact", "type": "contact", "label": "Showroom", "title": "Come for a fitting",
+      "text": "21 Mirabad, second floor. Coffee and a fitting room for an hour — by appointment.",
+      "cta": { "label": "Book on Telegram", "href": "https://t.me/kiyimstudio" }
+    }
+  ]
+}

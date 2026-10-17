@@ -224,3 +224,6 @@
   .tpl-runway .s-stats__item { min-height: 150px; gap: 20px; }
   .tpl-runway .s-stats__value { font-size: 54px; }
 }
+/* подпись сводки на языке страницы: <html lang> у каждой языковой версии свой */
+.tpl-runway:lang(uz) .s-answer .s__inner::before { content: 'Qisqacha'; }
+.tpl-runway:lang(en) .s-answer .s__inner::before { content: 'In brief'; }
