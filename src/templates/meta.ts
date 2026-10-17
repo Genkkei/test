@@ -20,10 +20,20 @@ import { meta as rave } from './rave/meta'
 import { meta as paws } from './paws/meta'
 import { meta as darkroom } from './darkroom/meta'
 import { meta as kinfolk } from './kinfolk/meta'
+import { meta as suite } from './suite/meta'
+import { meta as vow } from './vow/meta'
+import { meta as crayon } from './crayon/meta'
+import { meta as lab } from './lab/meta'
+import { meta as plinth } from './plinth/meta'
+import { meta as carat } from './carat/meta'
+import { meta as drive } from './drive/meta'
+import { meta as blade } from './blade/meta'
+import { meta as bento } from './bento/meta'
+import { meta as gallery } from './gallery/meta'
 import type { TemplateMeta } from './types'
 
 /** Метаданные без компонентов — для серверных действий и админки. */
-export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk]
+export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery]
 
 export function getTemplateMeta(id: string): TemplateMeta {
   return TEMPLATE_METAS.find((t) => t.id === id) ?? TEMPLATE_METAS[0]

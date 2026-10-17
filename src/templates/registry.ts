@@ -20,9 +20,19 @@ import { template as rave } from './rave'
 import { template as paws } from './paws'
 import { template as darkroom } from './darkroom'
 import { template as kinfolk } from './kinfolk'
+import { template as suite } from './suite'
+import { template as vow } from './vow'
+import { template as crayon } from './crayon'
+import { template as lab } from './lab'
+import { template as plinth } from './plinth'
+import { template as carat } from './carat'
+import { template as drive } from './drive'
+import { template as blade } from './blade'
+import { template as bento } from './bento'
+import { template as gallery } from './gallery'
 import type { TemplateDef } from './types'
 
-export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk]
+export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery]
 
 export function getTemplate(id: string): TemplateDef {
   return TEMPLATES.find((t) => t.id === id) ?? TEMPLATES[0]
