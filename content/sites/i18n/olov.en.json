@@ -1,0 +1,309 @@
+{
+  "name": "Olov",
+  "tagline": "An open-fire restaurant",
+  "niche": "Restaurant: modern Uzbek cooking over live fire",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "tel:+998712000012"
+    }
+  },
+  "seo": {
+    "title": "Olov — open-fire restaurant in Tashkent, table booking",
+    "description": "Modern Uzbek cooking over wood, embers and tandoor in central Tashkent. Marbled beef shashlik, oven-baked samsa, regional wines. Open for bookings until 02:00.",
+    "keywords": [
+      "restaurant Tashkent",
+      "charcoal grill",
+      "Uzbek cuisine",
+      "restaurant on Amir Temur",
+      "table booking",
+      "banquet Tashkent"
+    ],
+    "answer": "Olov is an open-fire restaurant at 41 Amir Temur St., Tashkent: modern Uzbek dishes from the oven, the grill and the tandoor. The average bill is 250–350 thousand UZS per guest; open daily from 12:00, until 02:00 on Fridays and weekends. Book a table on +998 71 200-00-12."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a restaurant, grill bar or café. WebGL fire and sparks, a menu like a printed card, a booking button, an ‘open until’ status, the chef and a gallery.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Olov Grill LLC",
+    "street": "41 Amir Temur St.",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Everything delicious starts with fire",
+      "eyebrow": "Olov · open-fire restaurant · Tashkent",
+      "subtitle": "Uzbek food cooked the way it has been for centuries — over apricot wood, saxaul embers and in a clay tandoor. We just look at it with fresh eyes.",
+      "words": [],
+      "cta": {
+        "label": "Book a table",
+        "href": "tel:+998712000012"
+      },
+      "ctaSecondary": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kitchen",
+      "title": "We don’t hide the fire in the kitchen — it’s in the middle of the room",
+      "text": "A 12-metre open kitchen: an oven, a grill and two tandoors. You see the flatbread rise, the fat melt on the skewer and the chef taste the sauce.\nOur meat comes from farmers in Jizzakh and we dry-age it ourselves for 21 days. Vegetables come from Chorsu market every morning. Bread is baked from opening until the last guest.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Apricot wood",
+        "Tandoor",
+        "21-day dry ageing",
+        "Seasonal produce from Chorsu",
+        "Wines of Uzbekistan"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "The fire menu",
+      "groups": [
+        {
+          "name": "From the tandoor",
+          "items": [
+            {
+              "name": "Sesame flatbread",
+              "text": "with kaymak and honey",
+              "price": "22 000"
+            },
+            {
+              "name": "Lamb samsa",
+              "text": "flaky pastry, tail fat",
+              "price": "38 000"
+            },
+            {
+              "name": "Tandir gosht",
+              "text": "lamb shoulder, 6 hours in clay",
+              "price": "185 000"
+            }
+          ]
+        },
+        {
+          "name": "From the grill",
+          "items": [
+            {
+              "name": "Marbled beef shashlik",
+              "text": "21-day dry-aged",
+              "price": "145 000"
+            },
+            {
+              "name": "Rack of lamb",
+              "text": "cumin, pomegranate sauce",
+              "price": "168 000"
+            },
+            {
+              "name": "Charcoal quail",
+              "text": "basil marinade",
+              "price": "92 000"
+            },
+            {
+              "name": "Charcoal aubergine",
+              "text": "suzma, walnuts, herbs",
+              "price": "48 000"
+            }
+          ]
+        },
+        {
+          "name": "Cold and seasonal",
+          "items": [
+            {
+              "name": "Achichuk with Chorsu tomatoes",
+              "text": "",
+              "price": "36 000"
+            },
+            {
+              "name": "Beef tartare",
+              "text": "smoked yolk, flatbread crisps",
+              "price": "96 000"
+            },
+            {
+              "name": "Chickpea hummus with lamb",
+              "text": "",
+              "price": "58 000"
+            }
+          ]
+        },
+        {
+          "name": "Desserts",
+          "items": [
+            {
+              "name": "Baked quince",
+              "text": "kaymak, honey, pistachio",
+              "price": "52 000"
+            },
+            {
+              "name": "Nishalda with berries",
+              "text": "",
+              "price": "44 000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Chef",
+      "title": "A kitchen that holds its own by the fire",
+      "items": [
+        {
+          "name": "Sherzod Rakhimov",
+          "role": "head chef and founder",
+          "image": ""
+        },
+        {
+          "name": "Anvar Yusupov",
+          "role": "tandoor master",
+          "image": ""
+        },
+        {
+          "name": "Kamila Akhmedova",
+          "role": "pastry chef",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The room",
+      "title": "An evening at Olov",
+      "items": [
+        {
+          "caption": "Open kitchen and oven",
+          "image": ""
+        },
+        {
+          "caption": "Tandir gosht",
+          "image": ""
+        },
+        {
+          "caption": "The terrace in summer",
+          "image": ""
+        },
+        {
+          "caption": "Shashlik over saxaul embers",
+          "image": ""
+        },
+        {
+          "caption": "Banquet room for 40 guests",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Events",
+      "title": "Celebrations and dinners",
+      "intro": "We close the room, put together a set menu and assign a dedicated grill master.",
+      "items": [
+        {
+          "title": "Banquet for up to 40",
+          "text": "A private room with a fireplace and its own menu.",
+          "price": "from 380,000 UZS per guest",
+          "tag": "3 days’ notice"
+        },
+        {
+          "title": "Dinner by the fire",
+          "text": "A table for 8 by the open kitchen, a 7-course set from the chef.",
+          "price": "650,000 UZS per guest",
+          "tag": "on Fridays"
+        },
+        {
+          "title": "Full buyout",
+          "text": "The whole room and terrace for your event, up to 120 guests.",
+          "price": "on request",
+          "tag": "2 weeks’ notice"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests say",
+      "items": [
+        {
+          "quote": "The tandir gosht melts and the bread arrives still hot. The best dinner in town for guests from abroad.",
+          "author": "Dilnoza",
+          "role": "dinner with partners"
+        },
+        {
+          "quote": "We sat by the open kitchen and watched the fire all evening. The chef came over himself to talk about dry-ageing.",
+          "author": "Alexey",
+          "role": "guest"
+        },
+        {
+          "quote": "We celebrated my father’s anniversary with 30 guests — the room, the menu and the cake went off without a single hitch.",
+          "author": "Behzod",
+          "role": "banquet"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you visit",
+      "items": [
+        {
+          "q": "How do I book a table?",
+          "a": "By phone on +998 71 200-00-12 or on Telegram @olov_table, daily from 11:00. We hold a booking for 20 minutes; for Friday and Saturday, book 2–3 days ahead."
+        },
+        {
+          "q": "What is the average bill?",
+          "a": "About 250–350 thousand UZS per guest without drinks. Service is 10%."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, free guarded parking in the courtyard for 25 cars, plus valet on Friday and Saturday evenings."
+        },
+        {
+          "q": "Can we hold a banquet?",
+          "a": "Yes, a private room for 40 with a fireplace — from 380,000 UZS per guest, booked 3 days ahead. The whole restaurant takes up to 120 guests, on request."
+        },
+        {
+          "q": "Can we come with children?",
+          "a": "Of course: there are high chairs, a kids’ menu and colouring books. The open kitchen is behind glass."
+        },
+        {
+          "q": "Are there vegetarian dishes?",
+          "a": "Yes: charcoal aubergine and vegetables, achichuk, meat-free hummus, flatbreads and pumpkin samsa in season. Tell your waiter and the chef will advise."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "The fire burns every evening",
+      "text": "Call us and we’ll find you a table by the kitchen, on the terrace or in a quiet corner.",
+      "cta": {
+        "label": "Call to book",
+        "href": "tel:+998712000012"
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "name": "Bloom",
+  "tagline": "A beauty bar where care is a pleasure",
+  "niche": "Beauty salon and cosmetology",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "tel:+998712000041"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a beauty salon, cosmetologist or skincare brand. Milky-pink glossy drops in WebGL, a price list by category, a before-and-after slider, the team.",
+    "features": []
+  },
+  "seo": {
+    "title": "Bloom — beauty salon and cosmetology in Tashkent",
+    "description": "Facials, cleansing and peels, manicure, brows and lashes, massage at Bloom on Mirabad. Sterile tools, online booking, open daily 9:00–21:00.",
+    "keywords": [
+      "beauty salon Tashkent",
+      "cosmetologist Tashkent",
+      "facial cleansing",
+      "manicure Mirabad",
+      "brow lamination",
+      "facial massage"
+    ],
+    "answer": "Bloom is a beauty salon at 18 Mirabad St in Tashkent: facials and cleansing from 350,000 UZS, manicure with polish from 180,000 UZS, brows and lashes from 150,000 UZS, massage from 300,000 UZS. Open daily 9:00–21:00, book by phone +998 71 200-00-41 or on Telegram."
+  },
+  "business": {
+    "legalName": "Bloom Beauty LLC",
+    "street": "18 Mirabad St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Skin you want to touch",
+      "eyebrow": "Beauty bar · Mirabad · daily 9–21",
+      "subtitle": "Facials, manicure, brows and massage in one light-filled space. Come for an hour — leave rested.",
+      "words": [
+        "Facials",
+        "Cleansing",
+        "Peels",
+        "Manicure",
+        "Brows and lashes",
+        "Massage"
+      ],
+      "cta": {
+        "label": "Book",
+        "href": "tel:+998712000041"
+      },
+      "ctaSecondary": {
+        "label": "See prices",
+        "href": "#price"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Glow",
+        "Softness",
+        "Clarity",
+        "Calm",
+        "Care"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The salon",
+      "title": "Beauty without the rush",
+      "text": "Bloom is a small six-chair salon. We never book back to back: there are twenty minutes between guests for cleaning and sterilisation. We use professional skincare; before a treatment the cosmetologist looks at your skin and chooses the right care rather than selling a course. Tea, quiet and soft light come as standard.",
+      "image": ""
+    },
+    {
+      "id": "price",
+      "type": "services",
+      "label": "Prices",
+      "title": "Services and prices",
+      "intro": "Prices per treatment. The cosmetologist will quote a course after a consultation — it’s free.",
+      "items": [
+        {
+          "title": "Cosmetologist consultation",
+          "text": "Skin assessment and a care plan for the season.",
+          "price": "free",
+          "tag": "Face"
+        },
+        {
+          "title": "Combined facial cleansing",
+          "text": "Ultrasonic and manual cleansing, mask, 75 minutes.",
+          "price": "from 350,000 UZS",
+          "tag": "Face"
+        },
+        {
+          "title": "Peel for your skin type",
+          "text": "Acid peel with soothing care.",
+          "price": "from 300,000 UZS",
+          "tag": "Face"
+        },
+        {
+          "title": "“Glow” facial",
+          "text": "Hydration, facial massage, alginate mask.",
+          "price": "from 420,000 UZS",
+          "tag": "Face"
+        },
+        {
+          "title": "Manicure with polish",
+          "text": "Machine manicure, gel polish, cuticle care.",
+          "price": "from 180,000 UZS",
+          "tag": "Hands and feet"
+        },
+        {
+          "title": "SMART pedicure",
+          "text": "A gentle pedicure with polish.",
+          "price": "from 250,000 UZS",
+          "tag": "Hands and feet"
+        },
+        {
+          "title": "Brow architecture",
+          "text": "Shaping and tinting.",
+          "price": "from 150,000 UZS",
+          "tag": "Brows and lashes"
+        },
+        {
+          "title": "Lash lamination",
+          "text": "Curl, tint, nourishment.",
+          "price": "from 220,000 UZS",
+          "tag": "Brows and lashes"
+        },
+        {
+          "title": "Sculpting facial massage",
+          "text": "Manual massage, 45 minutes.",
+          "price": "from 300,000 UZS",
+          "tag": "Massage"
+        },
+        {
+          "title": "Relaxing back massage",
+          "text": "Warm oil, 40 minutes.",
+          "price": "from 280,000 UZS",
+          "tag": "Massage"
+        }
+      ]
+    },
+    {
+      "id": "ba",
+      "type": "gallery",
+      "label": "Results",
+      "title": "Before and after",
+      "items": [
+        {
+          "caption": "A course of cleansing — 3 treatments",
+          "image": ""
+        },
+        {
+          "caption": "Lash lamination",
+          "image": ""
+        },
+        {
+          "caption": "Brow architecture",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "The team",
+      "title": "The people you trust with your face",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "Aesthetic cosmetologist, 9 years of practice",
+          "image": ""
+        },
+        {
+          "name": "Alina Kim",
+          "role": "Manicure and pedicure specialist",
+          "image": ""
+        },
+        {
+          "name": "Sevara Rakhimova",
+          "role": "Brow and lash artist",
+          "image": ""
+        },
+        {
+          "name": "Dilnoza Karimova",
+          "role": "Massage therapist",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What our guests say",
+      "items": [
+        {
+          "quote": "For the first time a cosmetologist didn’t push me into a course but told me honestly what I need right now. My skin after the cleansing feels like after a holiday.",
+          "author": "Kamila",
+          "role": "comes for a facial once a month"
+        },
+        {
+          "quote": "The manicure lasts three weeks, and the salon is so calm that I come early just to have tea.",
+          "author": "Olga",
+          "role": "guest since 2022"
+        },
+        {
+          "quote": "My brows were done so naturally that my husband just said I looked well. That’s the best compliment for the artist.",
+          "author": "Nigora",
+          "role": "brow architecture"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How do I book?",
+          "a": "By phone +998 71 200-00-41 or on Telegram @bloombeautybar. We confirm your booking by message the day before."
+        },
+        {
+          "q": "Are there contraindications for cleansing and peels?",
+          "a": "Yes: active inflammation, a fresh tan, pregnancy for some acids, isotretinoin treatment. The cosmetologist will ask about this at the consultation and suggest gentle care if in doubt."
+        },
+        {
+          "q": "How do you sterilise tools?",
+          "a": "Metal tools go through disinfection, ultrasonic cleaning and a dry-heat steriliser; the kraft pouch is opened in front of you. Files and buffers are single-use."
+        },
+        {
+          "q": "Can I buy a gift certificate?",
+          "a": "Yes, for any amount from 300,000 UZS or for a specific treatment. A certificate is valid for 6 months; we issue it at the salon or send an electronic one."
+        },
+        {
+          "q": "How long does a facial cleansing take?",
+          "a": "About 75 minutes including the mask. Redness usually goes within a few hours, so it’s better to plan important meetings for the next day."
+        },
+        {
+          "q": "What if I’m running late?",
+          "a": "Let us know: if you are more than 15 minutes late, the treatment may need to be shortened or moved so the next guest isn’t kept waiting."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Come for an hour of quiet",
+      "text": "We’re open daily 9:00–21:00 on Mirabad, with parking nearby.",
+      "cta": {
+        "label": "Call to book",
+        "href": "tel:+998712000041"
+      }
+    }
+  ]
+}

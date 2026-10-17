@@ -1,0 +1,290 @@
+{
+  "name": "Karvon Cargo",
+  "tagline": "Freight to Uzbekistan — on schedule, not on promises",
+  "niche": "Logistics: freight from China, Turkey and Europe to Uzbekistan",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a logistics company, cargo forwarder or warehouse. A WebGL route map with moving shipments, a departures board with transit times and rates, delivery stages and a tracker.",
+    "features": []
+  },
+  "seo": {
+    "title": "Karvon Cargo — freight from China and Turkey to Tashkent",
+    "description": "Groupage and full loads from China, Turkey and Europe to Uzbekistan: road, rail and air, customs clearance, a warehouse in Tashkent. A quote within an hour.",
+    "keywords": [
+      "freight from China to Tashkent",
+      "cargo Uzbekistan",
+      "Turkey Uzbekistan freight",
+      "customs clearance",
+      "groupage cargo",
+      "warehouse in Tashkent"
+    ],
+    "answer": "Karvon Cargo ships freight to Tashkent from China (road 18–22 days, from $1.9/kg; rail 25–30 days, from $120/m³), Turkey (10–14 days, from $2.4/kg) and Europe (14–20 days, from $2.9/kg), handles customs from $150 per declaration and stores goods at its own warehouse in Sergeli."
+  },
+  "business": {
+    "legalName": "Karvon Cargo LLC",
+    "street": "22 Yangi Sergeli St, warehouse 4, Sergeli district",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Freight to Tashkent, on schedule",
+      "eyebrow": "China · Turkey · Europe → Uzbekistan",
+      "subtitle": "Groupage and full loads by road, rail and air. We collect from the supplier, clear customs, store at our own warehouse and deliver to your door — one contract and one manager for the whole route.",
+      "words": [
+        "CN → UZ · 18–22 days",
+        "TR → UZ · 10–14 days",
+        "EU → UZ · 14–20 days",
+        "Air from Guangzhou · 5–7 days",
+        "Sergeli warehouse · 6,000 m²",
+        "Customs in 1–2 days"
+      ],
+      "cta": {
+        "label": "Get a quote",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Routes",
+        "href": "#routes"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Company",
+      "title": "Logistics without “I’ll check tomorrow”",
+      "text": "Since 2017 we have moved freight for retailers, manufacturers and marketplace sellers. Our own consolidation warehouses in Yiwu and Istanbul, our own customs broker and a bonded warehouse in Tashkent. Every shipment is visible in tracking: where the cargo is, when it reaches the border, when it is unloaded. If a date slips, we tell you first and explain why.",
+      "image": ""
+    },
+    {
+      "id": "routes",
+      "type": "services",
+      "label": "Routes",
+      "title": "Departures board",
+      "intro": "Regular scheduled departures. Transit times run from the consolidation warehouse to our warehouse in Tashkent.",
+      "items": [
+        {
+          "title": "China → Tashkent",
+          "text": "Consolidation in Yiwu and Guangzhou, departures on Tuesdays and Fridays.",
+          "price": "from $1.9/kg",
+          "tag": "Road · 18–22 days"
+        },
+        {
+          "title": "China → Tashkent",
+          "text": "20' and 40' containers and groupage cargo via Dostyk.",
+          "price": "from $120/m³",
+          "tag": "Rail · 25–30 days"
+        },
+        {
+          "title": "Guangzhou → Tashkent",
+          "text": "Samples, electronics, urgent shipments up to 500 kg.",
+          "price": "from $6.5/kg",
+          "tag": "Air · 5–7 days"
+        },
+        {
+          "title": "Turkey → Tashkent",
+          "text": "Textiles, furniture and building materials from our Istanbul warehouse.",
+          "price": "from $2.4/kg",
+          "tag": "Road · 10–14 days"
+        },
+        {
+          "title": "Europe → Tashkent",
+          "text": "Germany, Poland, Italy: equipment and spare parts.",
+          "price": "from $2.9/kg",
+          "tag": "Road · 14–20 days"
+        },
+        {
+          "title": "Tashkent → CIS",
+          "text": "Kazakhstan, Kyrgyzstan, Tajikistan: onward delivery from our warehouse.",
+          "price": "on request",
+          "tag": "Road · 3–9 days"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Rates",
+      "title": "What delivery costs",
+      "items": [
+        {
+          "name": "Groupage up to 1 m³",
+          "price": "from $1.9",
+          "period": "per kg",
+          "features": [
+            "China → Tashkent",
+            "Consolidation",
+            "Insurance 0.5%"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Groupage from 1 m³",
+          "price": "from $140",
+          "period": "per m³",
+          "features": [
+            "Road or rail",
+            "Packing and labelling",
+            "Photos of the cargo at the warehouse"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Full truck 82 m³",
+          "price": "from $4,800",
+          "period": "per trip",
+          "features": [
+            "Direct trip, no reloading",
+            "GPS tracking",
+            "Supplier’s seal"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Customs clearance",
+          "price": "from $150",
+          "period": "per declaration",
+          "features": [
+            "HS code selection",
+            "Certificates",
+            "Duty payment"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3800",
+          "suffix": "+",
+          "label": "shipments last year"
+        },
+        {
+          "value": "6000",
+          "suffix": " m²",
+          "label": "warehouse in Tashkent"
+        },
+        {
+          "value": "94",
+          "suffix": "%",
+          "label": "of shipments arrive on time"
+        },
+        {
+          "value": "1",
+          "suffix": " hour",
+          "label": "to get a quote"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "Five points on the route",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Send an invoice or a list of goods — we quote the rate and transit time within an hour."
+        },
+        {
+          "title": "Pick-up",
+          "text": "We collect from the supplier, check the quantity and take photos."
+        },
+        {
+          "title": "Consolidation",
+          "text": "We pack, label and build the shipment at our warehouse."
+        },
+        {
+          "title": "Border and customs",
+          "text": "Our broker prepares the declaration in advance — release in 1–2 days."
+        },
+        {
+          "title": "Unloading and delivery",
+          "text": "Free storage for 7 days, then delivery to your warehouse or store."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Clients",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "We ship tableware from Yiwu twice a month. Not a single lost box in a year, and tracking put an end to “where is the cargo” calls.",
+          "author": "Dilshod R.",
+          "role": "home goods store chain"
+        },
+        {
+          "quote": "They cleared equipment from Germany on the first try: the broker found the right code in advance and gathered the certificates.",
+          "author": "Anna K.",
+          "role": "packaging manufacturer"
+        },
+        {
+          "quote": "They quote fast and don’t change the rate at the border. For a marketplace seller, that’s what matters.",
+          "author": "Bekhzod T.",
+          "role": "marketplace seller"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How long does freight from China to Tashkent take?",
+          "a": "Road — 18–22 days from the Yiwu or Guangzhou warehouse, rail — 25–30 days, air — 5–7 days. The transit time is fixed in the contract and you can follow it in tracking."
+        },
+        {
+          "q": "Can I send a small shipment?",
+          "a": "Yes, as groupage from 30 kg. We combine your boxes with other clients’ cargo, so you pay only for your own weight or volume."
+        },
+        {
+          "q": "Is the cargo insured?",
+          "a": "Insurance is optional: 0.5% of the declared invoice value. In case of damage or loss we compensate under the insurance policy."
+        },
+        {
+          "q": "Do you help with customs?",
+          "a": "Yes, we have our own customs broker. We select the HS code, calculate duties in advance and arrange certificates — a declaration from $150."
+        },
+        {
+          "q": "Where is the cargo stored after arrival?",
+          "a": "At our warehouse in Sergeli: the first 7 days are free, then $1 per m³ per day. You can collect it yourself or order delivery across the city."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "By bank transfer in UZS or USD under the contract. 50% prepayment after the rate is confirmed, the balance before the cargo is released."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Quote",
+      "title": "Send an invoice — we’ll quote within an hour",
+      "text": "Tell us what you are shipping, from where and the approximate volume. We’ll reply with a rate, transit time and a list of documents.",
+      "cta": {
+        "label": "Message us on Telegram",
+        "href": "https://t.me/karvoncargo"
+      }
+    }
+  ]
+}

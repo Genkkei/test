@@ -1,0 +1,262 @@
+{
+  "name": "Smile Lab",
+  "tagline": "Qo‘rqmasdan boriladigan stomatologiya",
+  "niche": "Stomatologiya klinikasi: implantatsiya, vinirlar, elaynerlar, davolash",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "tel:+998712000021"
+    }
+  },
+  "seo": {
+    "title": "Smile Lab — Toshkentdagi stomatologiya: implant, vinir, elayner",
+    "description": "Mikroskop ostida og‘riqsiz davolash, implant, vinir va elaynerlar. Raqamli diagnostika, ish boshlanishidan oldin narxli reja, 0% muddatli to‘lov.",
+    "keywords": [
+      "stomatologiya Toshkent",
+      "tish implantatsiyasi Toshkent",
+      "vinirlar Toshkent",
+      "elaynerlar",
+      "og‘riqsiz tish davolash",
+      "bolalar stomatologi Toshkent"
+    ],
+    "answer": "Smile Lab — Toshkentdagi stomatologiya klinikasi (Mirzo Ulug‘bek tumani), har kuni ishlaydi. Implantatsiya — tayyor holda bitta implant uchun 4 900 000 so‘mdan, vinirlar — bir tish uchun 2 800 000 so‘mdan, kariesni davolash — 450 000 so‘mdan. 3D-rentgen bilan birinchi konsultatsiya — 150 000 so‘m, 12 oygacha 0% muddatli to‘lov bor."
+  },
+  "listing": {
+    "price": "",
+    "description": "Stomatologiya, klinika yoki estetik tibbiyot kabineti uchun sayt. Yorug‘ va sokin: yumshoq nurli maydonlar, «...dan» narxli xizmatlar, shifokorlar, davolash bosqichlari va yozilish.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Smile Lab Clinic» MChJ",
+    "street": "Mirzo Ulug‘bek ko‘chasi, 56",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Butun oila uchun sokin stomatologiya",
+      "eyebrow": "Bugun qabul qilamiz · navbatsiz",
+      "subtitle": "Avval — 3D-diagnostika va narxi aniq reja. Keyin — mikroskop ostida, sezmaydigan og‘riqsizlantirish bilan davolash.",
+      "words": [
+        "Implantatsiya",
+        "Vinirlar",
+        "Elaynerlar",
+        "Davolash",
+        "Bolalarga",
+        "Gigiena"
+      ],
+      "cta": {
+        "label": "Qabulga yozilish",
+        "href": "tel:+998712000021"
+      },
+      "ctaSecondary": {
+        "label": "Xizmatlar va narxlar",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Klinika haqida",
+      "title": "O‘zimiznikilarni qanday davolasak, sizni ham shunday davolaymiz",
+      "text": "Oltita kabinet, o‘zimizning kompyuter tomografi va tish texnik laboratoriyasi. Har bir davolash rejasini ikki shifokordan iborat konsilium kelishadi — ish boshlanishidan oldin uni narxi va muddatlari bilan qo‘lingizga olasiz. B klassi bo‘yicha sterilizatsiya, bir martalik to‘plamlar, bemor kartasida sterilizatsiya hisoboti.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Xizmatlar va narxlar",
+      "intro": "Narxlar «...dan» ko‘rsatilgan: aniq summa diagnostikadan keyin davolash rejasida bo‘ladi va ish davomida o‘zgarmaydi.",
+      "items": [
+        {
+          "title": "Implantatsiya",
+          "text": "Straumann va Osstem implantlari, navigatsion shablonlar, sirkoniy toj.",
+          "price": "4 900 000 so‘mdan",
+          "tag": "3–6 oy"
+        },
+        {
+          "title": "Vinirlar",
+          "text": "Tabassumning raqamli dizayni bo‘yicha keramik va kompozit vinirlar.",
+          "price": "2 800 000 so‘mdan",
+          "tag": "2 tashrif"
+        },
+        {
+          "title": "Elaynerlar",
+          "text": "Breketlar o‘rniga shaffof kapalar, tishlar harakatining 3D-rejasi.",
+          "price": "18 000 000 so‘mdan",
+          "tag": "6–18 oy"
+        },
+        {
+          "title": "Tishlarni davolash",
+          "text": "Karies, mikroskop ostida kanallar, kompozit restavratsiyalar.",
+          "price": "450 000 so‘mdan",
+          "tag": "1 tashrif"
+        },
+        {
+          "title": "Bolalar stomatologiyasi",
+          "text": "Moslashuv qabuli, sut tishlarini davolash, fissuralarni germetizatsiya qilish.",
+          "price": "250 000 so‘mdan",
+          "tag": "2 yoshdan"
+        },
+        {
+          "title": "Professional gigiena",
+          "text": "Ultratovush, Air Flow, sayqallash va ftorlash.",
+          "price": "500 000 so‘m",
+          "tag": "60 daqiqa"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "turli yo‘nalishdagi shifokorlar"
+        },
+        {
+          "value": "3 400",
+          "suffix": "+",
+          "label": "o‘rnatilgan implantlar"
+        },
+        {
+          "value": "8",
+          "suffix": " yil",
+          "label": "Toshkentda ishlaymiz"
+        },
+        {
+          "value": "0",
+          "suffix": "%",
+          "label": "muddatli to‘lovda ortiqcha to‘lov"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Shifokorlar",
+      "title": "Ishonchli shifokorlar",
+      "items": [
+        {
+          "name": "Dilnoza Rahimova",
+          "role": "Bosh shifokor, implantolog",
+          "image": ""
+        },
+        {
+          "name": "Temur Ahmedov",
+          "role": "Ortoped, vinir va tojlar",
+          "image": ""
+        },
+        {
+          "name": "Madina Yusupova",
+          "role": "Ortodont, elaynerlar",
+          "image": ""
+        },
+        {
+          "name": "Sardor Karimov",
+          "role": "Bolalar stomatologi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Davolash qanday o‘tadi",
+      "title": "Sog‘lom tabassumga to‘rt qadam",
+      "items": [
+        {
+          "title": "Konsultatsiya",
+          "text": "Ko‘rik, 3D-rentgen va sizni nima bezovta qilayotgani haqida suhbat. 40 daqiqa."
+        },
+        {
+          "title": "Narxli reja",
+          "text": "Yakuniy summa va muddatlar ko‘rsatilgan ikki-uch davolash varianti qo‘lingizda."
+        },
+        {
+          "title": "Davolash",
+          "text": "Og‘riqsizlantirish va mikroskop ostida, sizga qulay kunlarda."
+        },
+        {
+          "title": "Kuzatuv",
+          "text": "Nazorat tashriflari va yarim yilda bir gigiena — eslatma bilan."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Bemorlar nima deydi",
+      "items": [
+        {
+          "quote": "Bolalikdan stomatologlardan qo‘rqardim. Bu yerda birinchi marta butun davolashni ko‘z yoshisiz o‘tkazdim — shifokor har bir qadamni tushuntirdi, ukolni esa sezmay ham qoldim.",
+          "author": "Nigora",
+          "role": "davolash va vinirlar"
+        },
+        {
+          "quote": "Ikkita implant qo‘ydirdim. Rejadagi va chekdagi narx bir so‘mgacha mos keldi — bu kamdan-kam uchraydi. Yarim yildan keyin hammasi o‘z tishlarimdek.",
+          "author": "Baxtiyor",
+          "role": "implantatsiya"
+        },
+        {
+          "quote": "O‘g‘lim gigienaga o‘zi so‘rab boradi: bu yerda shiftda multfilmlar va men bilan emas, u bilan gaplashadigan shifokor bor.",
+          "author": "Olga",
+          "role": "bolalar qabuli"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Og‘riydimi?",
+          "a": "Yo‘q. Ukoldan oldin yuzaki gel surtamiz, anestetikni kompyuterli shprits bilan sekin yuboramiz — ukol deyarli sezilmaydi. Xavotirlanadigan bemorlar uchun sedatsiya ostida davolash bor."
+        },
+        {
+          "q": "Implantatsiya qancha davom etadi?",
+          "a": "Implantning o‘zi 30–60 daqiqada qo‘yiladi. Doimiy tojgacha implant suyak bilan birikishi uchun 3–6 oy o‘tadi. Suyak imkon bersa, o‘rnatish kuniyoq vaqtinchalik toj qo‘yamiz."
+        },
+        {
+          "q": "Davolashga qanday kafolat berasiz?",
+          "a": "Implantlarga — ishlab chiqaruvchining umrbod kafolati, toj va vinirlarga — 5 yil, plombalarga — yarim yilda bir gigiena sharti bilan 2 yil. Barcha muddatlar shartnomada yozilgan."
+        },
+        {
+          "q": "Muddatli to‘lovga davolansa bo‘ladimi?",
+          "a": "Ha, 3 000 000 so‘mdan boshlab davolashga 12 oygacha 0% muddatli to‘lov. Klinikada pasport bilan 15 daqiqada rasmiylashtiriladi."
+        },
+        {
+          "q": "Bolalarni necha yoshdan qabul qilasiz?",
+          "a": "Ikki yoshdan. Birinchi tashrif — moslashuv: bola shifokor va kreslo bilan tanishadi, bu kuni davolash qilmaymiz."
+        },
+        {
+          "q": "Birinchi konsultatsiya qancha turadi?",
+          "a": "150 000 so‘m, 3D-rentgen bilan birga. Agar davolanishni bizda boshlasangiz, bu summa narxdan chegirib tashlanadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Yoziling — 10 daqiqada qayta qo‘ng‘iroq qilamiz",
+      "text": "Qulay vaqt va shifokorni tanlaymiz. Bugun kelishingiz mumkin.",
+      "cta": {
+        "label": "Klinikaga qo‘ng‘iroq qilish",
+        "href": "tel:+998712000021"
+      }
+    }
+  ]
+}

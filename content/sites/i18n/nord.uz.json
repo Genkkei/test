@@ -1,0 +1,273 @@
+{
+  "name": "Nord Studio",
+  "tagline": "Qo‘l tekkizgingiz keladigan brendlar",
+  "niche": "Kreativ agentlik: brending, saytlar, prodakshn",
+  "nav": {
+    "cta": {
+      "label": "Loyihani muhokama qilish",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Nord Studio — Toshkentdagi brending va digital-agentlik",
+    "description": "O‘zbekiston va Markaziy Osiyo brendlari uchun aydentika, WebGL animatsiyali saytlar va reklama prodakshni yaratamiz. Strategiya, dizayn, ishlab chiqish — bitta jamoa.",
+    "keywords": [
+      "brending Toshkent",
+      "sayt yaratish",
+      "aydentika",
+      "digital-agentlik",
+      "WebGL saytlar",
+      "prodakshn"
+    ],
+    "answer": "Nord Studio — Toshkentdagi kreativ agentlik: brend strategiyasi, aydentika, WebGL animatsiyali saytlar va reklama roliklarini yaratamiz. Brending loyihasi 6 haftadan boshlanadi va narxi 9 000 $ dan, sayt — 6 haftadan va 7 000 $ dan."
+  },
+  "listing": {
+    "price": "",
+    "description": "Kreativ agentlik, dizayn-studiya yoki prodakshn uchun sayt. WebGL’dagi jonli ipak bilan qorong‘i vitrina, kursor ortidan suzuvchi rasmli loyihalar ro‘yxati, ulkan antikva — studiyani premium brend sifatida ko‘rsatadi.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Nord Studio» MChJ",
+    "street": "Shota Rustaveli ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston, Qozog‘iston, BAA"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Brendlarni",
+      "eyebrow": "Kreativ agentlik · Toshkent · 2019 yildan",
+      "subtitle": "«Shunchaki chiroyli» yetmaydigan kompaniyalar uchun strategiya, aydentika, saytlar va prodakshn. Birinchi g‘oyadan ishga tushirishgacha — bitta jamoa.",
+      "words": [
+        "jonli qilamiz",
+        "jasur qilamiz",
+        "qimmatbaho qilamiz",
+        "siznikidek qilamiz"
+      ],
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Ishlarni ko‘rish",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Strategiya",
+        "Aydentika",
+        "Saytlar",
+        "Motion",
+        "Qadoq",
+        "Prodakshn"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studiya",
+      "title": "Brend biznes uchun ishlashi va birinchi tegishdanoq esda qolishi uchun strategiya, hunar va texnologiyalarni birlashtiramiz.",
+      "text": "O‘n ikki kishi: strateglar, dizaynerlar, moushn-rassomlar va dasturchilar. Har bir loyihada kichik jamoa bilan, vositachi menejerlarsiz ishlaymiz — siz bevosita ishni bajaradiganlar bilan gaplashasiz. Olti yilda riteyl, developerlik, HoReCa va texnologiyalarda 80 dan ortiq brend.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Tanlangan loyihalar",
+      "items": [
+        {
+          "title": "Saffron Hall",
+          "category": "Aydentika, sayt",
+          "year": "2026",
+          "text": "Restoranlar guruhi rebrendingi: belgilar tizimi, menyu, bron qilish imkoniyatli sayt.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Orbita Bank",
+          "category": "Digital-mahsulot",
+          "year": "2025",
+          "text": "Mobil bank interfeysi va 400 komponentli dizayn-tizim.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yalla Tea",
+          "category": "Qadoq",
+          "year": "2025",
+          "text": "14 xil choy liniyasi: qadoq, fotosurat, ijtimoiy tarmoqlarda ishga tushirish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kamar Residence",
+          "category": "Sayt, 3D",
+          "year": "2024",
+          "text": "Kvartirani interaktiv tanlash imkoniyatli turar-joy majmuasi sayti.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Fergana Silk",
+          "category": "Kampaniya",
+          "year": "2024",
+          "text": "Imij kampaniyasi va hunarmandchilik haqida qisqa metrajli film.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nima qilamiz",
+      "intro": "Loyihani to‘liq yoki alohida bosqichini olamiz — muddat va byudjetni brifdan keyin aytamiz.",
+      "items": [
+        {
+          "title": "Brend strategiyasi",
+          "text": "Tadqiqot, pozitsiyalash, platforma va ovoz ohangi.",
+          "price": "3 000 $ dan",
+          "tag": "2–4 hafta"
+        },
+        {
+          "title": "Aydentika",
+          "text": "Logotip, shriftlar, rang, grafika, gaydlayn va tashuvchilar.",
+          "price": "9 000 $ dan",
+          "tag": "6–10 hafta"
+        },
+        {
+          "title": "Saytlar va WebGL",
+          "text": "Dizayn, animatsiya, Next.js’da ishlab chiqish, SEO va admin panel.",
+          "price": "7 000 $ dan",
+          "tag": "6–12 hafta"
+        },
+        {
+          "title": "Motion va prodakshn",
+          "text": "Kampaniyalar uchun roliklar, 3D, foto va video suratga olish.",
+          "price": "4 000 $ dan",
+          "tag": "3–8 hafta"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "80",
+          "suffix": "+",
+          "label": "ta brend ishga tushirildi"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "ta mukofot va qisqa ro‘yxat"
+        },
+        {
+          "value": "6",
+          "suffix": " yil",
+          "label": "bozorda"
+        },
+        {
+          "value": "4",
+          "suffix": " ta mamlakat",
+          "label": "mijozlar geografiyasi"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Jarayon",
+      "title": "Qanday ishlaymiz",
+      "items": [
+        {
+          "title": "Brif va sho‘ng‘ish",
+          "text": "Uchrashuv, jamoa bilan intervyu, bozor va raqobatchilar tahlili."
+        },
+        {
+          "title": "Strategiya",
+          "text": "Kim ekaningiz va kim uchun ekaningizni shakllantiramiz. Bu vizualning poydevori."
+        },
+        {
+          "title": "Dizayn",
+          "text": "Ikki-uchta konsepsiya, keyin bittasi — oxirgi detaligacha."
+        },
+        {
+          "title": "Ishga tushirish",
+          "text": "Gaydlayn, fayllar va saytni topshiramiz; dastlabki oylarda kuzatib boramiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Bizga ishonishadi",
+      "items": [
+        {
+          "quote": "Nord tarqoq restoranlardan bitta taniladigan oilani yig‘di. Mehmonlar bizni peshlavhadan oldin menyudan taniy boshladi.",
+          "author": "Aziz Karimov",
+          "role": "Saffron Hall asoschisi"
+        },
+        {
+          "quote": "Dizaynerlar mahsulotni tushunadigan noyob studiya. Jamoamiz ikkinchi yildan beri ishlayotgan dizayn-tizimni topshirishdi.",
+          "author": "Yelena Li",
+          "role": "CPO Orbita Bank"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Brending qancha turadi?",
+          "a": "To‘liq aydentika — 9 000 $ dan, strategiya alohida — 3 000 $ dan. Aniq summani brifdan keyin aytamiz: u tashuvchilar soni va tadqiqot hajmiga bog‘liq."
+        },
+        {
+          "q": "Loyiha qancha vaqt oladi?",
+          "a": "Strategiya — 2–4 hafta, aydentika — 6–10 hafta, sayt — 6–12 hafta. Muddatlarni shartnomada belgilaymiz."
+        },
+        {
+          "q": "Toshkentdan tashqaridagi kompaniyalar bilan ishlaysizmi?",
+          "a": "Ha. Mijozlarning uchdan biri Qozog‘iston va BAAdan. Uchrashuvlarni onlayn o‘tkazamiz, asosiy bosqichlarga uchib boramiz."
+        },
+        {
+          "q": "Faqat sayt buyurtma qilsa bo‘ladimi?",
+          "a": "Ha, agar sizda aydentika allaqachon bo‘lsa. Dizayn, animatsiya, ishlab chiqish, SEO va mustaqil tahrirlash uchun admin panel qilamiz."
+        },
+        {
+          "q": "Ishni qanday boshlash mumkin?",
+          "a": "Bizga yozing yoki qo‘ng‘iroq qiling — 15 savolli brif yuboramiz va ikki ish kuni ichida uchrashuv belgilaymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Keling, shov-shuvli narsa qilamiz",
+      "text": "Vazifangiz haqida aytib bering — bir ish kuni ichida javob beramiz.",
+      "cta": {
+        "label": "hello@nord.studio",
+        "href": "mailto:hello@nord.studio"
+      }
+    }
+  ]
+}

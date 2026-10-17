@@ -1,5 +1,6 @@
 'use client'
 
+import { pick } from '@/lib/i18n'
 import { useEffect, useRef, useState } from 'react'
 import { ShaderCanvas } from '@/motion/shader'
 
@@ -65,16 +66,16 @@ export function PetalHeader({ children }: { children: React.ReactNode }) {
 }
 
 /** До/после: ползунок поверх двух слоёв. Работает и пальцем, и клавиатурой (обычный range). */
-export function BeforeAfter({ before, after, label }: { before: React.ReactNode; after: React.ReactNode; label: string }) {
+export function BeforeAfter({ before, after, label, lang = 'ru' }: { before: React.ReactNode; after: React.ReactNode; label: string; lang?: string }) {
   const [v, setV] = useState(50)
   return (
     <div className="petal-ba" style={{ ['--ba' as string]: `${v}%` }}>
       <div className="petal-ba__layer petal-ba__layer--before">{before}</div>
       <div className="petal-ba__layer petal-ba__layer--after">{after}</div>
-      <span className="petal-ba__tag petal-ba__tag--l">до</span>
-      <span className="petal-ba__tag petal-ba__tag--r">после</span>
+      <span className="petal-ba__tag petal-ba__tag--l">{pick(lang, { ru: 'до', uz: 'oldin', en: 'before' })}</span>
+      <span className="petal-ba__tag petal-ba__tag--r">{pick(lang, { ru: 'после', uz: 'keyin', en: 'after' })}</span>
       <span className="petal-ba__handle" aria-hidden="true" />
-      <input type="range" min={0} max={100} value={v} onChange={(e) => setV(Number(e.target.value))} aria-label={`Сравнить до и после: ${label}`} />
+      <input type="range" min={0} max={100} value={v} onChange={(e) => setV(Number(e.target.value))} aria-label={`${pick(lang, { ru: 'Сравнить до и после', uz: 'Oldin va keyinni solishtirish', en: 'Compare before and after' })}: ${label}`} />
     </div>
   )
 }

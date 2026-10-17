@@ -1,4 +1,5 @@
 import './style.css'
+import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Badge, Clock, Cursor, Marquee, MobileMenu } from '@/motion/widgets'
@@ -14,10 +15,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <Cursor />
       <StickyHeader>
-        <a href="#top" className="silk-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="silk-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
           {site.name}
         </a>
-        <nav className="silk-nav" aria-label="Разделы">
+        <nav className="silk-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -26,14 +27,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </nav>
         <div className="silk-header__side">
           <span className="silk-clock">
-            {site.business.city || 'Ташкент'} <Clock />
+            {site.business.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })} <Clock lang={site.lang} />
           </span>
           {site.nav.cta.label ? (
             <a className="silk-header__cta" href={site.nav.cta.href} data-magnetic>
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </StickyHeader>
       <main id="top">{children}</main>
@@ -60,7 +61,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             © {new Date().getFullYear()} {site.business.legalName || site.name}
           </span>
           <span>{[site.business.street, site.business.city].filter(Boolean).join(', ')}</span>
-          <a href="#top">Наверх ↑</a>
+          <a href="#top">{pick(site.lang, { ru: 'Наверх', uz: 'Yuqoriga', en: 'Back to top' })} ↑</a>
         </div>
       </footer>
       <div className="silk-grain" aria-hidden="true" style={{ ['--grain-c' as string]: t.fg }} />
@@ -106,7 +107,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
               </a>
             ) : null}
           </div>
-          <Badge text="Листайте вниз" className="badge silk-badge" />
+          <Badge text={pick(site.lang, { ru: 'Листайте вниз', uz: 'Pastga suring', en: 'Scroll down' })} className="badge silk-badge" />
         </div>
       </div>
     </section>
@@ -136,6 +137,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
     <Sec id={s.anchor} type="works" className="silk-works-sec">
       <Head label={s.label} title={s.title} />
       <WorksHover
+        viewLabel={pick(site.lang, { ru: 'Смотреть', uz: 'Ko‘rish', en: 'View' })}
         items={s.items.map((it, i) => ({
           title: it.title,
           meta: [it.category, it.year].filter(Boolean).join(' — '),
@@ -148,9 +150,9 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee silk-marquee" aria-label="Что мы делаем">
+    <section className="s s-marquee silk-marquee" aria-label={s.title || pick(site.lang, { ru: 'Что мы делаем', uz: 'Nima qilamiz', en: 'What we do' })}>
       <Marquee items={s.items} speed={48} sep="✳" />
     </section>
   )

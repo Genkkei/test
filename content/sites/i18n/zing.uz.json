@@ -1,0 +1,222 @@
+{
+  "name": "Zing",
+  "tagline": "Shakarsiz va zerikishsiz quvvat",
+  "niche": "Kraft energetiklar va limonadlar brendi",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma berish",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Zing — Toshkentda shakarsiz kraft energetiklar",
+    "description": "Tabiiy energetikning olti ta’mi: yashil choy, guarana, shakarsiz sharbat. 250 ml — 14 000 so‘m, Toshkent bo‘ylab 60 daqiqada yetkazib berish.",
+    "keywords": [
+      "shakarsiz energetik",
+      "kraft limonad Toshkent",
+      "tabiiy energetik",
+      "ichimliklar yetkazib berish",
+      "Zing"
+    ],
+    "answer": "Zing — shakarsiz kraft energetiklarning toshkentlik brendi: yashil choy va guaranadan kofein, tabiiy sharbat, bir bankada 15 kkal. 250 ml banka 14 000 so‘m, 12 talik qadoq — 150 000 so‘m; Toshkent bo‘ylab yetkazib berish 60 daqiqada, 150 000 so‘mdan bepul."
+  },
+  "listing": {
+    "price": "",
+    "description": "Ichimliklar brendi, FMCG-mahsulot yoki yangilikni ishga tushirish uchun sayt. Ekran markazidagi mahsulot aylantirish bilan buriladi, cheksiz qatorlar, narxli ta’m kartochkalari va qayerdan olish mumkinligi.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Zing Beverage» MChJ",
+    "street": "Nukus ko‘chasi, 78, firma do‘koni",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tetiklashtiradi. Aldamaydi.",
+      "eyebrow": "Grapefruit Kick",
+      "subtitle": "Yashil choy va guaranali kraft energetik. Nol shakar, haqiqiy sharbat va qo‘sh espressodagidek kofein.",
+      "words": [
+        "Zing",
+        "Tetiklashtiradi",
+        "0 shakar",
+        "Zing",
+        "Shipillaydi"
+      ],
+      "cta": {
+        "label": "Ta’m tanlash",
+        "href": "#flavors"
+      },
+      "ctaSecondary": {
+        "label": "Qayerdan olish mumkin",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Shakarsiz",
+        "Yashil choy",
+        "Guarana",
+        "Haqiqiy sharbat",
+        "15 kkal",
+        "Toshkentda ishlab chiqarilgan"
+      ]
+    },
+    {
+      "id": "flavors",
+      "type": "services",
+      "label": "Ta’mlar",
+      "title": "Olti ta’m, nol murosa",
+      "intro": "Har bir banka — 250 ml, yashil choy va guaranadan 80 mg kofein, shirinlashtiruvchi — steviya va eritrit.",
+      "items": [
+        {
+          "title": "Grapefruit Kick",
+          "text": "Pushti greypfrut va laym. Uyg‘onish uchun yetarlicha achchiq.",
+          "price": "14 000 so‘m",
+          "tag": "Xit"
+        },
+        {
+          "title": "Lime Rush",
+          "text": "Laym, yalpiz va bir chimdim tuz — futboldan keyingi limonaddek.",
+          "price": "14 000 so‘m",
+          "tag": "Tetik"
+        },
+        {
+          "title": "Berry Riot",
+          "text": "Malina, olcha va karkade. Nordon, yorqin, baland.",
+          "price": "14 000 so‘m",
+          "tag": "Rezavor"
+        },
+        {
+          "title": "Blue Volt",
+          "text": "Ko‘k rezavor va kapalak no‘xati guli — muz bilan rangini o‘zgartiradi.",
+          "price": "15 000 so‘m",
+          "tag": "Yangilik"
+        },
+        {
+          "title": "Mango Sun",
+          "text": "Iliqlik kerak bo‘lganlar uchun mango, marakuyya va zanjabil.",
+          "price": "15 000 so‘m",
+          "tag": "Tropik"
+        },
+        {
+          "title": "Tarhun Zero",
+          "text": "Bolalikdagi tarxun, lekin shakar va bo‘yoqlarsiz.",
+          "price": "14 000 so‘m",
+          "tag": "Nostalgiya"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Nega Zing",
+      "title": "Tarkibini qo‘rquv bilan o‘qimasdan ichsa bo‘ladigan energetik",
+      "text": "Zing ni Toshkentdagi kichik ishlab chiqarishda tayyorlaymiz: haqiqiy sharbat, o‘simlik kofeini, taurin uchun taurin yo‘q. Partiyalar kichik — shuning uchun ta’m har safar bir xil.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "0",
+          "suffix": " g",
+          "label": "bankadagi shakar"
+        },
+        {
+          "value": "80",
+          "suffix": " mg",
+          "label": "choy va guaranadan kofein"
+        },
+        {
+          "value": "15",
+          "suffix": " kkal",
+          "label": "250 ml da"
+        },
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "Toshkent bo‘ylab yetkazib berish"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Ichishadi va yozishadi",
+      "items": [
+        {
+          "quote": "Oddiy energetiklardan Grapefruit Kick ga o‘tdim — xuddi shunday tetiklashtiradi, kechqurun esa qaltiratmaydi.",
+          "author": "Behzod",
+          "role": "dasturchi"
+        },
+        {
+          "quote": "Blue Volt — qahvaxonamizdagi eng fotogenik ichimlik. Mehmonlar rangi uchun buyurtma qilib, ta’mi uchun qolishadi.",
+          "author": "Madina",
+          "role": "qahvaxona egasi"
+        },
+        {
+          "quote": "Nihoyat, dorixona ta’mi bermaydigan shakarsiz energetik.",
+          "author": "Sasha",
+          "role": "krossfit murabbiyi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Tarkib haqida ochiq",
+      "items": [
+        {
+          "q": "Bir bankada qancha kofein bor?",
+          "a": "250 ml da 80 mg — taxminan qo‘sh espressodagidek. Kofein yashil choy ekstrakti va guaranadan. Kuniga uch bankadan ko‘p tavsiya etmaymiz."
+        },
+        {
+          "q": "Zing nima bilan shirinlashtirilgan?",
+          "a": "Steviya va eritrit bilan. Shakar — 0 g, kaloriyasi sharbat hisobiga bankada 15 kkal."
+        },
+        {
+          "q": "Narxi qancha va qanday buyurtma qilinadi?",
+          "a": "Banka — 14 000–15 000 so‘m, istalgan ta’mdagi 12 bankali qadoq — 150 000 so‘m. Telegram-bot yoki telefon orqali buyurtma qilish mumkin."
+        },
+        {
+          "q": "Qanchalik tez yetkazasiz?",
+          "a": "Toshkent bo‘ylab 10:00 dan 22:00 gacha 60 daqiqada. Yetkazib berish 15 000 so‘m, 150 000 so‘mdan bepul."
+        },
+        {
+          "q": "Bolalarga mumkinmi?",
+          "a": "Yo‘q. Zing — kofeinli tetiklashtiruvchi ichimlik: bolalar, homilador va emizikli ayollarga tavsiya etmaymiz."
+        },
+        {
+          "q": "Kafe va do‘konlar bilan ishlaysizmi?",
+          "a": "Ha, ulgurji narx — 5 qadoqdan. hi@zing.uz ga yozing, bir kun ichida prays va shartlarni yuboramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Qayerdan olish mumkin",
+      "title": "Sovuqligini olib ket yoki uyga buyurt",
+      "text": "Nukusdagi firma do‘koni har kuni ochiq, Toshkent bo‘ylab yetkazib berish — bir soatda.",
+      "cta": {
+        "label": "Telegramda buyurtma berish",
+        "href": "https://t.me/zingdrinks"
+      }
+    }
+  ]
+}

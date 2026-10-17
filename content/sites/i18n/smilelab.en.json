@@ -1,0 +1,262 @@
+{
+  "name": "Smile Lab",
+  "tagline": "Dentistry you don’t have to fear",
+  "niche": "Dental clinic: implants, veneers, aligners, treatment",
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "tel:+998712000021"
+    }
+  },
+  "seo": {
+    "title": "Smile Lab — dental clinic in Tashkent: implants, veneers",
+    "description": "Pain-free treatment under a microscope, implants, veneers and aligners. Digital diagnostics, a priced treatment plan before we start, 0% instalments.",
+    "keywords": [
+      "dentist Tashkent",
+      "dental implants Tashkent",
+      "veneers Tashkent",
+      "aligners",
+      "pain-free dental treatment",
+      "pediatric dentist Tashkent"
+    ],
+    "answer": "Smile Lab is a dental clinic in Tashkent (Mirzo Ulugbek district), open daily. Implants from 4,900,000 UZS per turnkey implant, veneers from 2,800,000 UZS per tooth, caries treatment from 450,000 UZS. First consultation with a 3D scan is 150,000 UZS, and 0% instalments for up to 12 months are available."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a dental practice, clinic or aesthetic medicine studio. Light and calm: soft glowing fields, services with “from” prices, doctors, treatment steps and booking.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Smile Lab Clinic LLC",
+    "street": "56 Mirzo Ulugbek St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Calm dentistry for the whole family",
+      "eyebrow": "Appointments today · no queues",
+      "subtitle": "First, 3D diagnostics and a clear plan with a price. Then treatment under a microscope with anaesthesia you won’t feel.",
+      "words": [
+        "Implants",
+        "Veneers",
+        "Aligners",
+        "Treatment",
+        "Kids",
+        "Hygiene"
+      ],
+      "cta": {
+        "label": "Book an appointment",
+        "href": "tel:+998712000021"
+      },
+      "ctaSecondary": {
+        "label": "Services and prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The clinic",
+      "title": "We treat you the way we’d treat our own",
+      "text": "Six treatment rooms, our own CT scanner and dental lab. Every treatment plan is agreed by a panel of two doctors — you get it in writing with the price and timeline before we start. Class B sterilisation, single-use kits, and a sterilisation record in every patient file.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "Services and prices",
+      "intro": "Prices are “from”: the exact amount is in your treatment plan after diagnostics, and it doesn’t change along the way.",
+      "items": [
+        {
+          "title": "Implants",
+          "text": "Straumann and Osstem implants, surgical guides, zirconia crown.",
+          "price": "from 4 900 000 UZS",
+          "tag": "3–6 months"
+        },
+        {
+          "title": "Veneers",
+          "text": "Ceramic and composite veneers based on a digital smile design.",
+          "price": "from 2 800 000 UZS",
+          "tag": "2 visits"
+        },
+        {
+          "title": "Aligners",
+          "text": "Clear aligners instead of braces, with a 3D plan of tooth movement.",
+          "price": "from 18 000 000 UZS",
+          "tag": "6–18 months"
+        },
+        {
+          "title": "Dental treatment",
+          "text": "Caries, root canals under a microscope, composite restorations.",
+          "price": "from 450 000 UZS",
+          "tag": "1 visit"
+        },
+        {
+          "title": "Pediatric dentistry",
+          "text": "Getting-to-know-you visit, baby teeth treatment, fissure sealing.",
+          "price": "from 250 000 UZS",
+          "tag": "from age 2"
+        },
+        {
+          "title": "Professional cleaning",
+          "text": "Ultrasound, Air Flow, polishing and fluoride.",
+          "price": "500 000 UZS",
+          "tag": "60 minutes"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "doctors across specialties"
+        },
+        {
+          "value": "3 400",
+          "suffix": "+",
+          "label": "implants placed"
+        },
+        {
+          "value": "8",
+          "suffix": " years",
+          "label": "in Tashkent"
+        },
+        {
+          "value": "0",
+          "suffix": "%",
+          "label": "mark-up on instalments"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Doctors",
+      "title": "Doctors people trust",
+      "items": [
+        {
+          "name": "Dilnoza Rakhimova",
+          "role": "Chief physician, implantologist",
+          "image": ""
+        },
+        {
+          "name": "Timur Akhmedov",
+          "role": "Prosthodontist, veneers and crowns",
+          "image": ""
+        },
+        {
+          "name": "Madina Yusupova",
+          "role": "Orthodontist, aligners",
+          "image": ""
+        },
+        {
+          "name": "Sardor Karimov",
+          "role": "Pediatric dentist",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How treatment works",
+      "title": "Four steps to a healthy smile",
+      "items": [
+        {
+          "title": "Consultation",
+          "text": "Examination, a 3D scan and a conversation about what worries you. 40 minutes."
+        },
+        {
+          "title": "A plan with a price",
+          "text": "Two or three treatment options with the total and timeline, in writing."
+        },
+        {
+          "title": "Treatment",
+          "text": "Under anaesthesia and a microscope, on days that suit you."
+        },
+        {
+          "title": "Follow-up",
+          "text": "Check-ups and cleaning every six months — we’ll remind you."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What patients say",
+      "items": [
+        {
+          "quote": "I’ve been afraid of dentists since childhood. Here, for the first time, I got through all my treatment without tears — the doctor explained every step, and I didn’t even notice the injection.",
+          "author": "Nigora",
+          "role": "treatment and veneers"
+        },
+        {
+          "quote": "I had two implants placed. The price in the plan and on the receipt matched to the last som — that’s rare. Six months later they feel like my own teeth.",
+          "author": "Bakhtiyor",
+          "role": "implants"
+        },
+        {
+          "quote": "My son asks to go for cleanings himself: there are cartoons on the ceiling and a doctor who talks to him, not to me.",
+          "author": "Olga",
+          "role": "pediatric visit"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Will it hurt?",
+          "a": "No. We apply a numbing gel before the injection and give the anaesthetic slowly with a computer-controlled syringe — you barely feel it. Anxious patients can be treated under sedation."
+        },
+        {
+          "q": "How long does an implant take?",
+          "a": "Placing the implant itself takes 30–60 minutes. It takes 3–6 months before the permanent crown, while the implant fuses with the bone. If the bone allows, we fit a temporary crown on the day of placement."
+        },
+        {
+          "q": "What warranty do you give?",
+          "a": "Implants carry the manufacturer’s lifetime warranty, crowns and veneers 5 years, fillings 2 years, provided you have a cleaning every six months. All terms are written into the contract."
+        },
+        {
+          "q": "Can I pay in instalments?",
+          "a": "Yes, 0% instalments for up to 12 months on treatment from 3,000,000 UZS. Set up at the clinic in 15 minutes with your passport."
+        },
+        {
+          "q": "From what age do you see children?",
+          "a": "From age two. The first visit is for getting used to things: the child meets the doctor and the chair, and we don’t treat on that day."
+        },
+        {
+          "q": "How much is the first consultation?",
+          "a": "150,000 UZS, including a 3D scan. If you start treatment with us, this amount is deducted from the cost."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Book now — we’ll call back within 10 minutes",
+      "text": "We’ll find a convenient time and doctor. You can come in today.",
+      "cta": {
+        "label": "Call the clinic",
+        "href": "tel:+998712000021"
+      }
+    }
+  ]
+}

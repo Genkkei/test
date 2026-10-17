@@ -1,0 +1,365 @@
+{
+  "name": "Nafas",
+  "tagline": "Yoga and spa for those who’ve forgotten how to breathe",
+  "niche": "Yoga studio and spa",
+  "nav": {
+    "cta": {
+      "label": "Book a class",
+      "href": "tel:+998712000042"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a yoga studio, spa or wellness centre. A WebGL breathing circle with an inhale-exhale rhythm, a day-by-day timetable, memberships, spa rituals and teachers.",
+    "features": []
+  },
+  "seo": {
+    "title": "Nafas — yoga studio and spa in central Tashkent",
+    "description": "Hatha, vinyasa and yoga nidra, breathing practices and spa rituals on Nukus St. Your first class is 90,000 UZS, memberships from 600,000 UZS a month.",
+    "keywords": [
+      "yoga Tashkent",
+      "yoga studio",
+      "spa Tashkent",
+      "breathing practices",
+      "yoga for beginners",
+      "massage Tashkent"
+    ],
+    "answer": "Nafas is a yoga studio and spa at 54 Nukus St in Tashkent. A drop-in class costs 130,000 UZS, the first class 90,000 UZS, an 8-class pass 600,000 UZS, unlimited 1,100,000 UZS a month. Spa rituals from 350,000 UZS. Open on weekdays 7:00–22:00, weekends 8:00–20:00."
+  },
+  "business": {
+    "legalName": "Nafas Wellness LLC",
+    "street": "54 Nukus St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Come back to your breath",
+      "eyebrow": "yoga · breath · spa",
+      "subtitle": "Small groups of up to twelve, a warm wooden floor and an hour in which you don’t need to hurry anywhere.",
+      "words": [],
+      "cta": {
+        "label": "First class — 90,000 UZS",
+        "href": "tel:+998712000042"
+      },
+      "ctaSecondary": {
+        "label": "Timetable",
+        "href": "#schedule"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "hatha",
+        "vinyasa",
+        "yoga nidra",
+        "pranayama",
+        "meditation",
+        "spa"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The studio",
+      "title": "We don’t teach poses — we teach how to breathe in them",
+      "text": "Nafas means “breath” in Uzbek. The studio takes up a floor of an old house on Nukus St: two halls with panoramic windows, a spa room with a hammam and a tea room. We guide beginners with care, watch alignment and offer modifications for injuries. Mats, blankets and bolsters are provided, and we’ll give you a towel too.",
+      "image": ""
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Timetable",
+      "title": "A week at the studio",
+      "groups": [
+        {
+          "name": "Mon",
+          "items": [
+            {
+              "name": "07:30 · Morning hatha",
+              "text": "a gentle start to the day · all levels · Malika",
+              "price": "130,000 UZS"
+            },
+            {
+              "name": "12:30 · Lunchtime yoga",
+              "text": "45 minutes · all levels · Alexey",
+              "price": "100,000 UZS"
+            },
+            {
+              "name": "19:30 · Vinyasa flow",
+              "text": "dynamic · intermediate · Alexey",
+              "price": "130,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Tue",
+          "items": [
+            {
+              "name": "08:00 · Pranayama and meditation",
+              "text": "breathing practices · all levels · Zarina",
+              "price": "120,000 UZS"
+            },
+            {
+              "name": "19:00 · Yoga for the back",
+              "text": "gentle · beginners · Malika",
+              "price": "130,000 UZS"
+            },
+            {
+              "name": "20:30 · Yoga nidra",
+              "text": "deep relaxation · all levels · Zarina",
+              "price": "120,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Wed",
+          "items": [
+            {
+              "name": "07:30 · Morning hatha",
+              "text": "all levels · Malika",
+              "price": "130,000 UZS"
+            },
+            {
+              "name": "18:30 · Foundations for beginners",
+              "text": "a 4-class course · Alexey",
+              "price": "130,000 UZS"
+            },
+            {
+              "name": "20:00 · Yin yoga",
+              "text": "long holds · all levels · Zarina",
+              "price": "130,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Thu",
+          "items": [
+            {
+              "name": "08:00 · Vinyasa flow",
+              "text": "intermediate · Alexey",
+              "price": "130,000 UZS"
+            },
+            {
+              "name": "19:00 · Hatha with a focus on balance",
+              "text": "all levels · Malika",
+              "price": "130,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Fri",
+          "items": [
+            {
+              "name": "07:30 · Pranayama and meditation",
+              "text": "all levels · Zarina",
+              "price": "120,000 UZS"
+            },
+            {
+              "name": "19:30 · Candlelight yoga",
+              "text": "slow flow · all levels · Malika",
+              "price": "150,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Sat",
+          "items": [
+            {
+              "name": "10:00 · Long practice",
+              "text": "2 hours · intermediate · Alexey",
+              "price": "180,000 UZS"
+            },
+            {
+              "name": "17:00 · Sound meditation",
+              "text": "singing bowls · all levels · Zarina",
+              "price": "150,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Sun",
+          "items": [
+            {
+              "name": "10:00 · Family yoga",
+              "text": "children from 6 with a parent · Malika",
+              "price": "180,000 UZS for two"
+            },
+            {
+              "name": "18:00 · Yin yoga and nidra",
+              "text": "all levels · Zarina",
+              "price": "130,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa",
+      "type": "services",
+      "label": "Spa",
+      "title": "Rituals after practice",
+      "intro": "The spa room works by appointment, with no more than two guests per ritual at a time.",
+      "items": [
+        {
+          "title": "Hammam and foam massage",
+          "text": "Warming up, kese scrub, foam massage and herbal tea.",
+          "price": "450,000 UZS",
+          "tag": "90 minutes"
+        },
+        {
+          "title": "Abhyanga",
+          "text": "An Ayurvedic full-body massage with warm oil.",
+          "price": "520,000 UZS",
+          "tag": "75 minutes"
+        },
+        {
+          "title": "Back and neck massage",
+          "text": "Releases tension after long hours of sitting.",
+          "price": "350,000 UZS",
+          "tag": "50 minutes"
+        },
+        {
+          "title": "“Silence” ritual",
+          "text": "Hammam, facial massage and yoga nidra in the spa room.",
+          "price": "780,000 UZS",
+          "tag": "2.5 hours"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Memberships",
+      "title": "Memberships",
+      "items": [
+        {
+          "name": "First class",
+          "price": "90,000 UZS",
+          "period": "",
+          "features": [
+            "Any class on the timetable",
+            "Mat and towel",
+            "Tea after practice"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8 classes",
+          "price": "600,000 UZS",
+          "period": "/ 6 weeks",
+          "features": [
+            "Any classes",
+            "7-day freeze",
+            "10% off spa"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Unlimited",
+          "price": "1,100,000 UZS",
+          "period": "/ month",
+          "features": [
+            "All classes, no limits",
+            "14-day freeze",
+            "15% off spa",
+            "A guest visit for a friend"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Teachers",
+      "title": "Who leads the practice",
+      "items": [
+        {
+          "name": "Malika Azimova",
+          "role": "hatha, yoga for the back · 8 years of teaching",
+          "image": ""
+        },
+        {
+          "name": "Alexey Pak",
+          "role": "vinyasa, long practices · 6 years",
+          "image": ""
+        },
+        {
+          "name": "Zarina Khasanova",
+          "role": "pranayama, nidra, yin · 10 years",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Students",
+      "title": "What students say",
+      "items": [
+        {
+          "quote": "I came with a bad lower back and a fear that I wouldn’t manage. Two months later I go to vinyasa and sleep without an alarm going off in my head.",
+          "author": "Dilfuza",
+          "role": "practising since 2023"
+        },
+        {
+          "quote": "Yoga nidra on Tuesdays is the best thing that has happened to my week. It’s the only hour when I don’t need my phone.",
+          "author": "Timur",
+          "role": "Unlimited membership"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before your first class",
+      "items": [
+        {
+          "q": "I’ve never done yoga. Where do I start?",
+          "a": "With “Foundations for beginners”, “Morning hatha” or “Yoga for the back”. Tell the teacher it’s your first time — they’ll suggest simpler variations."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Comfortable clothes. Mats, blankets, blocks and towels are at the studio, and the changing room has a shower and a hairdryer."
+        },
+        {
+          "q": "Can I practise if I’m pregnant or injured?",
+          "a": "Tell us before the class. For injuries the teacher will give modifications; not every class suits pregnancy — we’ll find the right ones. For acute conditions, check with your doctor first."
+        },
+        {
+          "q": "Do I need to book in advance?",
+          "a": "Yes, groups are up to twelve people. Book by phone +998 71 200-00-42 or on Telegram; you can cancel free of charge up to 4 hours before."
+        },
+        {
+          "q": "How much is a class?",
+          "a": "A drop-in class is 130,000 UZS, the first one 90,000 UZS. An 8-class pass is 600,000 UZS for six weeks, unlimited is 1,100,000 UZS a month."
+        },
+        {
+          "q": "Can I come just for the spa?",
+          "a": "Yes, spa rituals are available without a membership, by appointment. Hammam with foam massage is 450,000 UZS, the “Silence” ritual is 780,000 UZS."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contacts",
+      "title": "Come and breathe",
+      "text": "54 Nukus St, second floor. Entrance from the courtyard, free parking nearby.",
+      "cta": {
+        "label": "Book a class",
+        "href": "tel:+998712000042"
+      }
+    }
+  ]
+}

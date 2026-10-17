@@ -51,7 +51,7 @@ export function Rotator({ words }: { words: string[] }) {
 }
 
 /** Список проектов как у monopo: строка на проект, фото плывёт за курсором на пружине. */
-export function WorksHover({ items }: { items: { title: string; meta: string; text: string; href: string; art: React.ReactNode }[] }) {
+export function WorksHover({ items, viewLabel = 'Смотреть' }: { items: { title: string; meta: string; text: string; href: string; art: React.ReactNode }[]; viewLabel?: string }) {
   const box = useRef<HTMLDivElement>(null)
   const [active, setActive] = useState(-1)
   useEffect(() => {
@@ -83,7 +83,7 @@ export function WorksHover({ items }: { items: { title: string; meta: string; te
           const Tag = it.href ? 'a' : 'div'
           return (
             <li key={i} data-reveal="up" data-delay={String(i * 0.05)}>
-              <Tag className={`silk-works__row${active === i ? ' is-active' : ''}`} {...(it.href ? { href: it.href } : {})} onPointerEnter={() => setActive(i)} data-cursor={it.href ? 'Смотреть' : undefined}>
+              <Tag className={`silk-works__row${active === i ? ' is-active' : ''}`} {...(it.href ? { href: it.href } : {})} onPointerEnter={() => setActive(i)} data-cursor={it.href ? viewLabel : undefined}>
                 <span className="silk-works__idx">{String(i + 1).padStart(2, '0')}</span>
                 <span className="silk-works__title">{it.title}</span>
                 <span className="silk-works__meta">{it.meta}</span>

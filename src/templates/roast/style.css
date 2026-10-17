@@ -210,3 +210,7 @@
 /* мобильное меню в цветах шаблона */
 .tpl-roast .mmenu__panel a { font-family: var(--font-display); text-transform: uppercase; font-weight: 600; }
 .tpl-roast .mmenu__panel .mmenu__cta { background: var(--blue); }
+
+/* подписи из CSS на языке страницы */
+:lang(uz) .tpl-roast .s-pricing__item.is-featured::before { content: 'Ko‘p olinadi'; }
+:lang(en) .tpl-roast .s-pricing__item.is-featured::before { content: 'Most popular'; }

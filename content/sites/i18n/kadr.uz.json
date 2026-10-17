@@ -1,0 +1,314 @@
+{
+  "name": "Kadr",
+  "tagline": "Yigirma yildan keyin ham eslashga arziydigan qilib suratga olaman",
+  "niche": "Fotograf va videograf: to‘ylar, portretlar, tijoriy suratga olish",
+  "nav": {
+    "cta": {
+      "label": "Sanani band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Fotograf, videograf yoki prodakshn uchun sayt. Qizil chiroqli qorong‘i xona: surat WebGL’da ochiladi, ishlar kontakt varag‘i va plyonka ko‘rinishida, suratga olish paketlari.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kadr — Toshkentdagi to‘y va portret fotografi",
+    "description": "To‘ylar, portretlar, brendlar uchun kontent va qisqa filmlar. Sahnalashtirishsiz jonli reportaj, plyonka ranglari, tayyor suratlar 3 haftada.",
+    "keywords": [
+      "to‘y fotografi Toshkent",
+      "fotograf Toshkent",
+      "portret suratga olish",
+      "to‘yga videograf",
+      "brendlar uchun suratga olish",
+      "fotostudiya Toshkent"
+    ],
+    "answer": "Kadr — Toshkentdagi foto va video studiya: to‘y reportaji kuniga 6 000 000 so‘mdan, studiyada portret soatiga 1 200 000 so‘mdan, brendlar uchun kontent 4 500 000 so‘mdan. Tayyor suratlarni 3 haftada, prevyuni 3 kunda beramiz; sanani band qilish — 30% oldindan to‘lov."
+  },
+  "business": {
+    "legalName": "YaTT Rahimov T. A.",
+    "street": "Muqimiy ko‘chasi, 7, 3-qavatdagi studiya",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Samarqand, Buxoro, O‘zbekiston bo‘ylab chiqish"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qoladigan yorug‘lik",
+      "eyebrow": "Foto va video · Toshkent · 2016-yildan",
+      "subtitle": "To‘ylar, portretlar va brendlar uchun suratga olish. Sahnalashtirilgan pozalar va plastik retushsiz — chop etgingiz keladigan plyonka rangli jonli kadrlar.",
+      "words": [
+        "To‘ylar",
+        "Portretlar",
+        "Brendlar",
+        "Qisqa filmlar"
+      ],
+      "cta": {
+        "label": "Sanani band qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Seriyalarni ko‘rish",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Reportaj",
+        "Plyonka rangi",
+        "35 mm",
+        "O‘rta format",
+        "Qisqa filmlar",
+        "Laboratoriyada chop etish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studiya",
+      "title": "Timur Rahimov, fotograf",
+      "text": "O‘n yildan beri odamlarni suratga olaman: ikki yuzdan ortiq to‘y, yuzlab portretlar, restoranlar va kiyim brendlari uchun kampaniyalar. Raqamli va plyonkada ishlayman, rangni har bir hikoya uchun qo‘lda yig‘aman. Suratga olishda deyarli sezilmayman — eng yaxshi kadrlar kamera unutilganda chiqadi.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Seriyalar",
+      "title": "Kontakt varag‘i",
+      "items": [
+        {
+          "title": "Malika va Aziz",
+          "category": "To‘y",
+          "year": "2026",
+          "text": "Bo‘stonliqdagi bog‘da yozgi to‘y: tongdagi tayyorgarlikdan chiroqlar ostidagi raqsgacha.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Quruq mavsum",
+          "category": "Kiyim brendi",
+          "year": "2025",
+          "text": "Qizilqum cho‘lida suratga olingan zig‘ir kolleksiyasi kampaniyasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Eski shahar",
+          "category": "Portret",
+          "year": "2025",
+          "text": "Buxoro ustalarining o‘z ustaxonalaridagi portretlari seriyasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tomdagi kechki ovqat",
+          "category": "Restoran",
+          "year": "2024",
+          "text": "Mavsum ochilishi uchun restoran menyusi, interyeri va mehmonlari.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Daryo bo‘yidagi uy",
+          "category": "Oila",
+          "year": "2024",
+          "text": "Dam olish kunidagi oilaviy suratga olish — rejissurasiz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "To‘qqiz daqiqa",
+          "category": "Qisqa film",
+          "year": "2023",
+          "text": "Samarqanddagi to‘y haqida hujjatli film.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "type": "gallery",
+      "label": "Plyonka",
+      "title": "Kadrlar orasidagi kadrlar",
+      "items": [
+        {
+          "caption": "Kelinning tayyorgarligi",
+          "image": ""
+        },
+        {
+          "caption": "Toshkent, ertalab 6:40",
+          "image": ""
+        },
+        {
+          "caption": "Birinchi nigoh",
+          "image": ""
+        },
+        {
+          "caption": "Buxorodagi ustaxona",
+          "image": ""
+        },
+        {
+          "caption": "Dasturxon",
+          "image": ""
+        },
+        {
+          "caption": "So‘nggi raqs",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Paketlar",
+      "title": "Suratga olish qancha turadi",
+      "items": [
+        {
+          "name": "Portret",
+          "price": "1 200 000 so‘m",
+          "period": "studiyada soatiga",
+          "features": [
+            "Rangi tuzatilgan 30 surat",
+            "5 kadr retushi",
+            "7 kunda tayyor"
+          ],
+          "featured": false
+        },
+        {
+          "name": "To‘y kuni",
+          "price": "6 000 000 so‘m",
+          "period": "10 soatgacha",
+          "features": [
+            "Tayyorgarlikdan raqsgacha reportaj",
+            "Rangi tuzatilgan 400+ surat",
+            "3 kunda prevyu",
+            "Bir yillik onlayn galereya"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Foto + film",
+          "price": "11 000 000 so‘m",
+          "period": "kuniga",
+          "features": [
+            "Fotograf va videograf",
+            "5–9 daqiqalik film",
+            "Ijtimoiy tarmoqlar uchun tizer",
+            "Qasamlar ovozi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Brendlar uchun",
+          "price": "4 500 000 so‘mdan",
+          "period": "smenaga",
+          "features": [
+            "Katalog yoki kampaniya",
+            "Foydalanish huquqi",
+            "Firma uslubiga mos rang"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Qo‘ng‘iroqdan bosma suratgacha",
+      "items": [
+        {
+          "title": "Tanishuv",
+          "text": "Qo‘ng‘iroqlashib, kun, joy va kayfiyatni muhokama qilamiz. Sanani oldindan to‘lov bilan band qilamiz."
+        },
+        {
+          "title": "Suratga olish rejasi",
+          "text": "Suratga olishdan bir hafta oldin vaqt jadvali va muhim kadrlar hamda odamlar ro‘yxatini tuzamiz."
+        },
+        {
+          "title": "Suratga olish",
+          "text": "Jimgina va yaqin turib ishlayman. To‘yda — tayyorgarlikdan so‘nggi raqsgacha."
+        },
+        {
+          "title": "Ochish va rang",
+          "text": "Kadrlarni saralayman, rangni qo‘lda yig‘aman. Prevyu — 3 kunda."
+        },
+        {
+          "title": "Galereya",
+          "text": "Onlayn galereya, to‘liq o‘lchamdagi fayllar va xohishga ko‘ra laboratoriyada chop etish."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "Uning qachon suratga olganini sezmadik ham. Keyin suratlarda hammasini ko‘rdik: dadamning qo‘llari qanday titragani, buvimning qanday kulgani.",
+          "author": "Malika va Aziz",
+          "role": "to‘y, 2026"
+        },
+        {
+          "quote": "Kampaniyani o‘n kunda topshirishdi, rang aynan bizning uslubimizga tushdi. Suratlar hali ham reklamada ishlayapti.",
+          "author": "Lola N.",
+          "role": "kiyim brendi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Suratga olishdan oldin",
+      "items": [
+        {
+          "q": "Suratlar qachon tayyor bo‘ladi?",
+          "a": "30–40 kadrlik prevyu — to‘ydan 3 kun o‘tib, to‘liq galereya — 3 haftada. Portret suratga olish — 7 kunda."
+        },
+        {
+          "q": "Asl fayllarni berasizmi?",
+          "a": "Barcha muvaffaqiyatli kadrlarni rangi tuzatilgan holda to‘liq o‘lchamda beraman. RAW fayllarni bermayman: bu negativ, rang esa mualliflik ishining bir qismi."
+        },
+        {
+          "q": "Boshqa shaharlarga chiqasizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab va xorijga. Yo‘l va yashashni buyurtmachi to‘laydi, yo‘ldagi kunlar hisoblanmaydi."
+        },
+        {
+          "q": "Sanani qanday band qilish mumkin?",
+          "a": "Shartnoma bo‘yicha 30% oldindan to‘lov kifoya. Qolgani — suratga olish kuni. Sana o‘zgarsa, oldindan to‘lovni yangi sanaga o‘tkazamiz."
+        },
+        {
+          "q": "Plyonkaga suratga olish mumkinmi?",
+          "a": "Ha, har qanday paketga 1–2 ta 35 mm yoki o‘rta format plyonka qo‘shaman: ochish va skanlar narxga kiradi."
+        },
+        {
+          "q": "O‘z studiyangiz bormi?",
+          "a": "Ha, Muqimiyda kunduzgi yorug‘likdagi 90 m² studiya — portretlar, kataloglar va predmet suratlari uchun."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Bron",
+      "title": "Qaysi sanani band qilamiz?",
+      "text": "Sana, shahar va o‘zingiz haqingizda bir-ikki so‘z yozing — bir kun ichida javob beraman.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/kadrstudio"
+      }
+    }
+  ]
+}

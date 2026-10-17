@@ -2,7 +2,8 @@ import './style.css'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
-import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { Head, Shell as Sec } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { FacadeCanvas, Floor , ClipReveal } from './client'
@@ -18,11 +19,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         ))}
       </div>
       <header className="mono-header">
-        <a href="#top" className="mono-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="mono-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
           <b aria-hidden="true">▲</b>
           {site.name}
         </a>
-        <nav className="mono-nav" aria-label="Разделы">
+        <nav className="mono-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
             <a key={l.href} href={l.href}>
               <small>{String(i + 1).padStart(2, '0')}</small>
@@ -31,13 +32,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <div className="mono-header__side">
-          <Floor />
+          <Floor label={pick(site.lang, { ru: 'ЭТАЖ', uz: 'QAVAT', en: 'FLOOR' })} />
           {site.nav.cta.label ? (
             <a className="mono-header__cta" href={site.nav.cta.href}>
               {site.nav.cta.label} ↘
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <ClipReveal />
@@ -48,19 +49,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </p>
         <div className="mono-footer__cols">
           <div>
-            <small>Офис продаж</small>
+            <small>{pick(site.lang, { ru: 'Офис продаж', uz: 'Savdo ofisi', en: 'Sales office' })}</small>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <small>Связь</small>
+            <small>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</small>
             {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <small>Соцсети</small>
+            <small>{pick(site.lang, { ru: 'Соцсети', uz: 'Ijtimoiy tarmoqlar', en: 'Social' })}</small>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name} ↗
@@ -68,12 +69,12 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ))}
           </div>
           <div>
-            <small>Компания</small>
+            <small>{pick(site.lang, { ru: 'Компания', uz: 'Kompaniya', en: 'Company' })}</small>
             <p>© {new Date().getFullYear()} {b.legalName || site.name}</p>
-            <a href="#top">Наверх ↑</a>
+            <a href="#top">{ui(site.lang, 'toTop')} ↑</a>
           </div>
         </div>
-        <p className="mono-footer__note">Информация на сайте не является публичной офертой. Проектные декларации — в офисе продаж.</p>
+        <p className="mono-footer__note">{pick(site.lang, { ru: 'Информация на сайте не является публичной офертой. Проектные декларации — в офисе продаж.', uz: 'Saytdagi ma’lumotlar ommaviy oferta hisoblanmaydi. Loyiha deklaratsiyalari — savdo ofisida.', en: 'Information on this site is not a public offer. Project declarations are available at the sales office.' })}</p>
       </footer>
     </>
   )
@@ -140,7 +141,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
         {s.items.map((it, i) => {
           const Tag = it.href ? 'a' : 'article'
           return (
-            <Tag key={i} className="mono-work" {...(it.href ? { href: it.href, 'data-cursor': 'Открыть' } : {})}>
+            <Tag key={i} className="mono-work" {...(it.href ? { href: it.href, 'data-cursor': ui(site.lang, 'open') } : {})}>
               <figure className="mono-work__media" data-reveal="clip">
                 <div className="mono-work__parallax" data-parallax="0.18">
                   <Media src={it.image} alt={it.title} seed={`${site.slug}-w${i}`} colors={palette(site)} kind={art} className="media" />
@@ -154,13 +155,13 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
                 <dl className="mono-work__specs" data-reveal="up">
                   {it.category ? (
                     <div>
-                      <dt>Объект</dt>
+                      <dt>{pick(site.lang, { ru: 'Объект', uz: 'Obyekt', en: 'Property' })}</dt>
                       <dd>{it.category}</dd>
                     </div>
                   ) : null}
                   {it.year ? (
                     <div>
-                      <dt>Сдача</dt>
+                      <dt>{pick(site.lang, { ru: 'Сдача', uz: 'Topshirish', en: 'Completion' })}</dt>
                       <dd>{it.year}</dd>
                     </div>
                   ) : null}

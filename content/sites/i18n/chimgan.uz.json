@@ -1,0 +1,242 @@
+{
+  "name": "Chimgan Lodge",
+  "tagline": "Chimyon tog‘laridagi butik-mehmonxona",
+  "niche": "Butik-mehmonxona va tog‘larda shahar tashqarisida dam olish",
+  "nav": {
+    "cta": {
+      "label": "Bron qilish",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Chimgan Lodge — Chimyon tog‘larida, Toshkentdan 90 daqiqa",
+    "description": "Katta Chimyonga qaragan o‘n ikki xona, hammom, restoran va ostonadan boshlanadigan so‘qmoqlar. Toshkentdan transfer, xonalar nonushta bilan kechasi 1 400 000 so‘mdan.",
+    "keywords": [
+      "Chimyon mehmonxonasi",
+      "butik-mehmonxona O‘zbekiston",
+      "tog‘larda dam olish Toshkent",
+      "Chimyon xonalari",
+      "shahar tashqarisidagi mehmonxona",
+      "tog‘dagi hammom"
+    ],
+    "answer": "Chimgan Lodge — Chimyon qishlog‘idagi 12 xonali butik-mehmonxona, Toshkentdan 90 daqiqalik yo‘l. Xonalar — nonushta bilan kechasi 1 400 000 so‘mdan, joylashish 14:00 dan, chiqish 12:00 gacha; Toshkentdan transfer, hammom, restoran va mehmonxonadan boshlanadigan tog‘ so‘qmoqlari bor."
+  },
+  "listing": {
+    "price": "",
+    "description": "Butik-mehmonxona, shahar tashqarisidagi klub yoki glemping uchun sayt. WebGL’da tog‘lar uzra tong, narxli xonalar tasmasi, taassurotlar, marshrut va bron.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Chimgan Lodge» MChJ",
+    "street": "Bo‘stonliq tumani, Chimyon qishlog‘i, Tog‘ ko‘chasi, 7",
+    "city": "Chimyon",
+    "region": "Toshkent viloyati",
+    "areaServed": "Chimyon, Toshkent viloyati"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Uyg‘onishga arziydigan tong",
+      "eyebrow": "Chimyon · dengiz sathidan 1 600 m",
+      "subtitle": "Katta Chimyonga qaragan o‘n ikki xona, sokinlik, archali hammom va ostonadan boshlanadigan so‘qmoqlar.",
+      "words": [],
+      "cta": {
+        "label": "Sanalarni tanlash",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Xonalar",
+        "href": "#rooms"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Lodj",
+      "title": "Tog‘lar asosiy bo‘lishi uchun qurilgan tosh va yog‘och uy",
+      "text": "Mehmonxonani yonbag‘irga shunday qurdikki, har bir xonadan Katta Chimyon cho‘qqisi ko‘rinadi. Tosh — mahalliy soydan, yog‘och — qayrag‘och va yong‘oq, matolar — Rishton va Marg‘ilon hunarmandlarining qo‘l ishi.\nBu yerda shovqinli kechalar va animatsiya yo‘q. Ayvonda ertalabki qahva, kamin yonida kechki ovqat va shaharda ko‘rinmaydigan yulduzlar bor.",
+      "image": ""
+    },
+    {
+      "id": "rooms",
+      "type": "works",
+      "label": "Xonalar",
+      "title": "Cho‘qqilarga qaragan o‘n ikki xona",
+      "items": [
+        {
+          "title": "«So‘qmoq» xonasi",
+          "category": "28 m² · 2 mehmon",
+          "year": "kechasi 1 400 000 so‘mdan",
+          "text": "Katta karavot, vodiyga qaragan poldan shiftgacha deraza, issiq toshli dush.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Cho‘qqi» xonasi",
+          "category": "36 m² · 2 mehmon",
+          "year": "kechasi 1 900 000 so‘mdan",
+          "text": "Katta Chimyonga qaragan ayvon va alohida turgan vanna.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Oilaviy lyuks",
+          "category": "52 m² · 4 mehmon",
+          "year": "kechasi 2 700 000 so‘mdan",
+          "text": "Ikki yotoqxona, kaminli mehmonxona, so‘rov bo‘yicha bolalar anjomlari.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Daryo bo‘yidagi shale",
+          "category": "70 m² · 4 mehmon",
+          "year": "kechasi 3 800 000 so‘mdan",
+          "text": "Soy bo‘yidagi alohida uy: o‘z hammomi, oshxonasi va mangal zonasi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Lodjda",
+      "title": "Shoshilmay dam olish uchun hammasi",
+      "intro": "",
+      "items": [
+        {
+          "title": "Archali hammom",
+          "text": "Tog‘ soyi suvli hovuzcha va o‘simlik choyi bilan rus hammomi.",
+          "price": "450 000 so‘m / 2 soat",
+          "tag": "yozilish bo‘yicha"
+        },
+        {
+          "title": "Kamin yonidagi restoran",
+          "text": "Mavsumiy oshxona, qo‘shni xo‘jalikdan gulmoy, tandirdan non.",
+          "price": "nonushta kiritilgan",
+          "tag": "08:00–22:00"
+        },
+        {
+          "title": "So‘qmoqlar va gidlar",
+          "text": "2 soatdan 8 soatgacha marshrutlar: sharsharalar, Beldersoy, Ko‘mbel platosi.",
+          "price": "350 000 so‘mdan",
+          "tag": "gid bilan"
+        },
+        {
+          "title": "Qishda chang‘i",
+          "text": "Beldersoy osma yo‘llari 15 daqiqada, ko‘targichlargacha transfer.",
+          "price": "transfer bepul",
+          "tag": "dekabr–mart"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Taassurotlar",
+      "title": "Tog‘dagi kun qanday bo‘ladi",
+      "items": [
+        {
+          "caption": "Ayvondagi tong",
+          "image": ""
+        },
+        {
+          "caption": "Beldersoy sharsharalari",
+          "image": ""
+        },
+        {
+          "caption": "Kamin yonida kechki ovqat",
+          "image": ""
+        },
+        {
+          "caption": "Hammomdan keyin hovuzcha",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "Qanday yetib borish mumkin",
+      "title": "Toshkentdan to‘qson daqiqa",
+      "items": [
+        {
+          "title": "Transfer",
+          "text": "Toshkentdan yoki aeroportdan miniven bilan olib ketamiz: bir tomonga mashina uchun 450 000 so‘m."
+        },
+        {
+          "title": "O‘z mashinangizda",
+          "text": "G‘azalkent va Chimyonga A-373 trassasi, 85 km. Mehmonxona yonida avtoturargoh bepul."
+        },
+        {
+          "title": "Joylashish",
+          "text": "Resepshn kecha-kunduz ishlaydi — kechasi kelsangiz ham chiroq va issiq choy qoldiramiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "O‘zlari bilan nima olib ketishadi",
+      "items": [
+        {
+          "quote": "Cho‘qqidagi yorug‘likdan uyg‘ondik va kechadan beri telefonni ochmaganimizni angladik. Qishda qaytamiz.",
+          "author": "Nigora va Said",
+          "role": "«Cho‘qqi» xonasi"
+        },
+        {
+          "quote": "Daryo bo‘yidagi shale oila uchun ideal: bolalar soy bo‘yida, biz hammomda, kechki ovqatni to‘g‘ri uyga olib kelishdi.",
+          "author": "Irina",
+          "role": "ikki farzandli oila"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Safardan oldin",
+      "items": [
+        {
+          "q": "Joylashish va chiqish soat nechada?",
+          "a": "Joylashish 14:00 dan, chiqish 12:00 gacha. Erta joylashish va kech chiqish — bo‘sh joy bo‘lsa, bir kecha narxining 50%."
+        },
+        {
+          "q": "Toshkentdan transfer bormi?",
+          "a": "Ha, 6 kishigacha miniven — bir tomonga 450 000 so‘m, aeroportdan — 550 000 so‘m. Yo‘l taxminan 90 daqiqa oladi."
+        },
+        {
+          "q": "Uy hayvonlari bilan mumkinmi?",
+          "a": "15 kg gacha itlar — daryo bo‘yidagi shale va oilaviy lyuksda, butun turish uchun 200 000 so‘m. Bron qilishda ogohlantiring."
+        },
+        {
+          "q": "Mehmonxona bolalar uchun mosmi?",
+          "a": "Ha: bolalar karavoti va stulchalari bepul, bolalar menyusi bor, alohida joysiz 6 yoshgacha bolalar bepul yashaydi."
+        },
+        {
+          "q": "Bekor qilish shartlari qanday?",
+          "a": "Joylashishdan 7 kun oldin bepul bekor qilish. Keyinroq — birinchi kecha narxini ushlab qolamiz; Yangi yil sanalarida — qaytarilmaydigan 50% oldindan to‘lov."
+        },
+        {
+          "q": "Narxga nimalar kiradi?",
+          "a": "Nonushta, avtoturargoh, Wi-Fi, qishda Beldersoy ko‘targichlarigacha transfer va trekking tayoqlari ijarasi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Bron qilish",
+      "title": "Tog‘lar kutmoqda — sanalarni tanlang",
+      "text": "Yozing yoki qo‘ng‘iroq qiling — xona, transfer va birinchi kun marshrutini tanlaymiz.",
+      "cta": {
+        "label": "Resepshnga qo‘ng‘iroq qilish",
+        "href": "tel:+998712000013"
+      }
+    }
+  ]
+}

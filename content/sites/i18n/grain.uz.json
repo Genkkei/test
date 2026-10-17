@@ -1,0 +1,366 @@
+{
+  "name": "Grain",
+  "tagline": "Toshkentda har seshanba spesialti qahva qovuramiz",
+  "niche": "Spesialti qahva qovuruvchi va qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Don sotib olish",
+      "href": "#beans"
+    }
+  },
+  "seo": {
+    "title": "Grain — Toshkentda spesialti qahva va don qovurish",
+    "description": "Spesialti donni har seshanba qovuramiz va Toshkent bo‘ylab bir kunda yetkazamiz. Mirobodda qahvaxona, donga obuna, barista kurslari.",
+    "keywords": [
+      "spesialti qahva Toshkent",
+      "qahva doni",
+      "qahva qovurish",
+      "Mirobod qahvaxonasi",
+      "qahvaga obuna",
+      "barista kurslari"
+    ],
+    "answer": "Grain — Toshkentdagi qovurish sexi va qahvaxona, Mirobod ko‘chasi, 22. Spesialti donni har seshanba qovuramiz: 250 g lik paket 145 000 so‘mdan, Toshkent bo‘ylab yetkazish ertasi kuni, 300 000 so‘mdan bepul. Qahvaxona har kuni soat 8:00 dan ochiq."
+  },
+  "listing": {
+    "price": "",
+    "description": "Qahvaxona, qahva qovuruvchi yoki novvoyxona uchun sayt. Tokchadagi ta’m notalari va narxi bor don paketlari, WebGL’da finjon ustidagi bug‘, qahvaxona menyusi, donga obuna va fermadan finjongacha yo‘l.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Grain Coffee» MChJ",
+    "street": "Mirobod ko‘chasi, 22",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, don O‘zbekiston bo‘ylab yetkaziladi"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ombor emas, ferma hidi keladigan qahva",
+      "eyebrow": "Qovurish · Qahvaxona · Toshkent",
+      "subtitle": "Yashil donni kichik fermalardan to‘g‘ridan-to‘g‘ri olib kelamiz, seshanba kunlari kichik partiyalarda qovuramiz va qahvaning xarakteri borligida sotamiz.",
+      "words": [
+        "Ko‘k mevali",
+        "Yasmin",
+        "Kakao",
+        "Shaftoli"
+      ],
+      "cta": {
+        "label": "Don tanlash",
+        "href": "#beans"
+      },
+      "ctaSecondary": {
+        "label": "Qahvaxona menyusi",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "tape",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Har seshanba yangi qovurish",
+        "Toshkent bo‘ylab bir kunda yetkazish",
+        "Don to‘g‘ridan-to‘g‘ri fermalardan",
+        "Filtr va espresso",
+        "Barista kurslari"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Katta qaysarlikka ega kichik qovurish sexi",
+      "text": "Biz 2021 yilda Chilonzordagi garajda besh kilogrammlik rostr bilan boshlaganmiz. Bugun haftasiga 300 kilogrammgacha qovuramiz, lekin qoidalar o‘sha-o‘sha: har bir fermani nomi bilan bilamiz, har bir partiyani kapping qilamiz va qovurilganiga bir oydan oshgan qahvani sotmaymiz. Mirobod qahvaxonasida tokchadagi istalgan navni — filtr, espresso yoki aeropress orqali tatib ko‘rish mumkin.",
+      "image": ""
+    },
+    {
+      "id": "beans",
+      "type": "services",
+      "label": "Don",
+      "title": "Bu haftaning tokchasida",
+      "intro": "250 g lik paket, qovurilganiga yetti kundan oshmagan. Qahva qaynatgichingizga moslab bepul maydalab beramiz.",
+      "items": [
+        {
+          "title": "Efiopiya Guji",
+          "text": "ko‘k meva, yasmin, bergamot",
+          "price": "185 000 so‘m",
+          "tag": "Efiopiya · tabiiy"
+        },
+        {
+          "title": "Kolumbiya Uila",
+          "text": "qizil olma, karamel, kakao",
+          "price": "165 000 so‘m",
+          "tag": "Kolumbiya · yuvilgan"
+        },
+        {
+          "title": "Keniya Nyeri",
+          "text": "qora smorodina, greypfrut, pomidor",
+          "price": "195 000 so‘m",
+          "tag": "Keniya · yuvilgan"
+        },
+        {
+          "title": "Braziliya Serrado",
+          "text": "findiq, sutli shokolad, asal",
+          "price": "145 000 so‘m",
+          "tag": "Braziliya · pulpnatural"
+        },
+        {
+          "title": "Ruanda Nyamasheke",
+          "text": "shaftoli, choy, qamish shakari",
+          "price": "175 000 so‘m",
+          "tag": "Ruanda · yuvilgan"
+        },
+        {
+          "title": "Grain espresso aralashmasi",
+          "text": "kakao, olcha, uzoq ta’m",
+          "price": "150 000 so‘m",
+          "tag": "Braziliya + Efiopiya · aralashma"
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Qahvaxona",
+      "title": "Mirobod menyusi",
+      "groups": [
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Grain aralashmasi yoki hafta navi",
+              "price": "22 000"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "ikkilangan espresso, 180 ml sut",
+              "price": "34 000"
+            },
+            {
+              "name": "Kapuchino",
+              "text": "",
+              "price": "32 000"
+            },
+            {
+              "name": "Holvali raf",
+              "text": "qishning xiti",
+              "price": "38 000"
+            }
+          ]
+        },
+        {
+          "name": "Filtr",
+          "items": [
+            {
+              "name": "V60",
+              "text": "tokchadagi istalgan nav",
+              "price": "36 000"
+            },
+            {
+              "name": "Aeropress",
+              "text": "",
+              "price": "34 000"
+            },
+            {
+              "name": "Kold bryu",
+              "text": "18 soat damlanadi",
+              "price": "35 000"
+            }
+          ]
+        },
+        {
+          "name": "Qahvaga",
+          "items": [
+            {
+              "name": "Kruassan",
+              "text": "qo‘shni novvoyxonadan",
+              "price": "26 000"
+            },
+            {
+              "name": "Banan noni",
+              "text": "",
+              "price": "24 000"
+            },
+            {
+              "name": "Sirniki",
+              "text": "13:00 gacha",
+              "price": "42 000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "Don yo‘li",
+      "title": "Fermadan finjongacha",
+      "items": [
+        {
+          "title": "Ferma",
+          "text": "Yashil donni 84 balldan yuqori baholangan kooperativ va oilaviy fermalardan sotib olamiz."
+        },
+        {
+          "title": "Kapping",
+          "text": "Har bir partiyani sotib olishdan oldin va Toshkentga kelgandan keyin tatib ko‘ramiz."
+        },
+        {
+          "title": "Qovurish",
+          "text": "Seshanba kunlari, 5 kg lik partiyalarda, har bir navga o‘z profili."
+        },
+        {
+          "title": "Dam olish",
+          "text": "Karbonat angidrid chiqishi uchun don 3–5 kun dam oladi."
+        },
+        {
+          "title": "Finjon",
+          "text": "Qahvaxonada, uyingizda yoki ofisda — qahva eng yaxshi paytida."
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "type": "pricing",
+      "label": "Obuna",
+      "title": "Har ikki haftada yangi don",
+      "items": [
+        {
+          "name": "Uy",
+          "price": "290 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "Oyiga 250 g dan 2 paket",
+            "Hafta navi — qovuruvchi tanlovi",
+            "Bepul yetkazish",
+            "Istalgan vaqtda pauza"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Gurman",
+          "price": "520 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "250 g dan 4 paket",
+            "Ikki xil nav",
+            "Damlash retseptlari kartochkalari",
+            "Qahvaxonada 10% chegirma"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ofis",
+          "price": "1 200 000 so‘mdan",
+          "period": "/ oy",
+          "features": [
+            "3 kg dan espresso aralashmasi",
+            "Qahva mashinangizni sozlash",
+            "Xodimlarni o‘qitish",
+            "Yuridik shaxs uchun hisob-faktura"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "300",
+          "suffix": " kg",
+          "label": "haftasiga qovuramiz"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "8 mamlakatdagi hamkor fermalar"
+        },
+        {
+          "value": "7",
+          "suffix": " kun",
+          "label": "tokchadagi qovurishning eng ko‘p yoshi"
+        },
+        {
+          "value": "1",
+          "suffix": " kun",
+          "label": "Toshkent bo‘ylab yetkazish"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Birinchi paketdan keyin nima yozishadi",
+      "items": [
+        {
+          "quote": "Efiopiyani sinab ko‘rdim va birinchi marta qahva hech qanday siropsiz ko‘k meva hidini berishi mumkinligini tushundim. Endi obunadaman.",
+          "author": "Dilnoza",
+          "role": "«Uy» obunasi"
+        },
+        {
+          "quote": "Ofis qahva mashinamizga aralashma qo‘yib, yigitlarni o‘qitishdi. Endi qahvaga navbat kulerga navbatdan uzunroq.",
+          "author": "Temur",
+          "role": "IT-kompaniya ofis-menejeri"
+        },
+        {
+          "quote": "Mirobodning eng yaxshi flet uayti, barista esa bugun voronkada nima borligini doim aytib beradi.",
+          "author": "Aleksey",
+          "role": "qahvaxona mehmoni"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Donni qanchalik tez yetkazasiz?",
+          "a": "Toshkent bo‘ylab — buyurtmadan keyingi kuni, 300 000 so‘mdan bepul, aks holda 25 000 so‘m. O‘zbekistonning boshqa shaharlariga — yetkazish xizmati orqali 2–4 kun."
+        },
+        {
+          "q": "Qahvani maydalab bera olasizmi?",
+          "a": "Ha, bepul. Damlash usulini — jazva, espresso, filtr, frensh-press yoki geyzer qahva qaynatgichni ko‘rsating, maydalash unga mos bo‘ladi."
+        },
+        {
+          "q": "Don qancha saqlanadi?",
+          "a": "Qahva qovurilganidan keyin 5-kundan 30-kungacha eng yaxshi ochiladi. Paketni yopiq holda xona haroratida saqlang, muzlatkichda emas."
+        },
+        {
+          "q": "Jazva yoki geyzer uchun qaysi navni tanlash kerak?",
+          "a": "Braziliya Serrado yoki espresso aralashmasini oling: shokolad va yong‘oq notalari yuqori haroratga yaxshi chidaydi."
+        },
+        {
+          "q": "Barista kurslari bormi?",
+          "a": "Ha, oyiga bir marta: asosiy kurs 3 kun, har kuni 3 soatdan, 1 900 000 so‘m, guruh 6 kishigacha. Jadvalni Telegramda e’lon qilamiz."
+        },
+        {
+          "q": "Kafe va restoranlar bilan ishlaysizmi?",
+          "a": "Ha, haftasiga 3 kg dan don yetkazamiz, uskunani sozlaymiz va baristalarni o‘qitamiz. Bizga yozing — kapping uchun namunalar yuboramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Bir finjonga kiring yoki uyga buyurtma qiling",
+      "text": "Qahvaxona Mirobodda, qovurish sexi ham o‘sha yerda. Don buyurtmalarini Telegram va telefon orqali qabul qilamiz.",
+      "cta": {
+        "label": "Telegramda buyurtma berish",
+        "href": "https://t.me/graincoffee"
+      }
+    }
+  ]
+}

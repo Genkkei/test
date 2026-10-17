@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 /** Поли — маскот из геометрии: глаза следят за курсором, моргает, на нажатие подпрыгивает. */
-export function Mascot({ className = 'pl-mascot' }: { className?: string }) {
+export function Mascot({ className = 'pl-mascot', label }: { className?: string; label: string }) {
   const ref = useRef<SVGSVGElement>(null)
   const [jump, setJump] = useState(0)
   useEffect(() => {
@@ -34,7 +34,7 @@ export function Mascot({ className = 'pl-mascot' }: { className?: string }) {
     }
   }, [])
   return (
-    <svg ref={ref} className={className} viewBox="0 0 240 260" role="img" aria-label="Поли — маскот школы" onPointerDown={() => setJump((j) => j + 1)} data-jump={jump % 2}>
+    <svg ref={ref} className={className} viewBox="0 0 240 260" role="img" aria-label={label} onPointerDown={() => setJump((j) => j + 1)} data-jump={jump % 2}>
       <ellipse cx="120" cy="248" rx="70" ry="9" fill="currentColor" opacity=".12" className="pl-mascot__shadow" />
       <g className="pl-mascot__body">
         <rect x="58" y="150" width="124" height="82" rx="38" fill="var(--c2)" />

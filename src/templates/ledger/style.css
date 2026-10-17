@@ -196,3 +196,9 @@ a.s-works__item:hover .s-works__name { color: var(--accent); }
 .ledger-footer__legal { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; color: color-mix(in srgb, var(--bg) 55%, transparent); padding-top: 18px; border-top: 1px solid color-mix(in srgb, var(--bg) 22%, transparent); }
 @media (max-width: 760px) { .ledger-footer__grid { grid-template-columns: 1fr 1fr; } .ledger-footer__brand { grid-column: 1 / -1; } }
 
+
+/* подписи из CSS на языке страницы (<html lang> задаёт языковая версия) */
+:lang(uz) .tpl-ledger .s-answer .s__inner::before { content: 'Qisqacha'; }
+:lang(en) .tpl-ledger .s-answer .s__inner::before { content: 'In brief'; }
+:lang(uz) .tpl-ledger .s-faq__q::before { content: 'Savol ' counter(q, decimal-leading-zero); }
+:lang(en) .tpl-ledger .s-faq__q::before { content: 'Question ' counter(q, decimal-leading-zero); }

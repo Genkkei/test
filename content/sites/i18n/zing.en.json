@@ -1,0 +1,222 @@
+{
+  "name": "Zing",
+  "tagline": "Energy without sugar or boredom",
+  "niche": "A craft energy drink and lemonade brand",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Zing — sugar-free craft energy drinks in Tashkent",
+    "description": "Six flavours of natural energy: green tea, guarana, juice, no sugar. 250 ml for 14,000 UZS, delivered across Tashkent in 60 minutes.",
+    "keywords": [
+      "sugar-free energy drink",
+      "craft lemonade Tashkent",
+      "natural energy drink",
+      "drinks delivery",
+      "Zing"
+    ],
+    "answer": "Zing is a Tashkent brand of sugar-free craft energy drinks: caffeine from green tea and guarana, real juice, 15 kcal per can. A 250 ml can costs 14,000 UZS, a 12-pack 150,000 UZS; delivery across Tashkent takes 60 minutes and is free from 150,000 UZS."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a drinks brand, FMCG product or product launch. The product at the centre turns as you scroll, endless type lines, flavour cards with prices and where to buy.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Zing Beverage LLC",
+    "street": "78 Nukus St., flagship store",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Wakes you up. Never lies.",
+      "eyebrow": "Grapefruit Kick",
+      "subtitle": "A craft energy drink made with green tea and guarana. Zero sugar, real juice and exactly as much caffeine as a double espresso.",
+      "words": [
+        "Zing",
+        "Energises",
+        "0 sugar",
+        "Zing",
+        "Fizzes"
+      ],
+      "cta": {
+        "label": "Pick a flavour",
+        "href": "#flavors"
+      },
+      "ctaSecondary": {
+        "label": "Where to buy",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "No sugar",
+        "Green tea",
+        "Guarana",
+        "Real juice",
+        "15 kcal",
+        "Made in Tashkent"
+      ]
+    },
+    {
+      "id": "flavors",
+      "type": "services",
+      "label": "Flavours",
+      "title": "Six flavours, zero compromise",
+      "intro": "Every can is 250 ml with 80 mg of caffeine from green tea and guarana, sweetened with stevia and erythritol.",
+      "items": [
+        {
+          "title": "Grapefruit Kick",
+          "text": "Pink grapefruit and lime. Just bitter enough to wake you up.",
+          "price": "14,000 UZS",
+          "tag": "Bestseller"
+        },
+        {
+          "title": "Lime Rush",
+          "text": "Lime, mint and a pinch of salt — like lemonade after football.",
+          "price": "14,000 UZS",
+          "tag": "Fresh"
+        },
+        {
+          "title": "Berry Riot",
+          "text": "Raspberry, cherry and hibiscus. Sour, bright, loud.",
+          "price": "14,000 UZS",
+          "tag": "Berry"
+        },
+        {
+          "title": "Blue Volt",
+          "text": "Blueberry and butterfly pea flower — it changes colour over ice.",
+          "price": "15,000 UZS",
+          "tag": "New"
+        },
+        {
+          "title": "Mango Sun",
+          "text": "Mango, passion fruit and ginger for those who need some warmth.",
+          "price": "15,000 UZS",
+          "tag": "Tropical"
+        },
+        {
+          "title": "Tarhun Zero",
+          "text": "The tarragon soda of your childhood, minus the sugar and dyes.",
+          "price": "14,000 UZS",
+          "tag": "Nostalgia"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Why Zing",
+      "title": "An energy drink you can drink without reading the label in horror",
+      "text": "We brew Zing in a small facility in Tashkent: real juice, plant-based caffeine, no taurine for the sake of taurine. Batches are small, so the taste is the same every time.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "0",
+          "suffix": " g",
+          "label": "sugar per can"
+        },
+        {
+          "value": "80",
+          "suffix": " mg",
+          "label": "caffeine from tea and guarana"
+        },
+        {
+          "value": "15",
+          "suffix": " kcal",
+          "label": "per 250 ml"
+        },
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "delivery across Tashkent"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "They drink, they write",
+      "items": [
+        {
+          "quote": "Switched from regular energy drinks to Grapefruit Kick — same buzz, no jitters in the evening.",
+          "author": "Behzod",
+          "role": "developer"
+        },
+        {
+          "quote": "Blue Volt is the most photogenic drink in our coffee shop. Guests order it for the colour and stay for the taste.",
+          "author": "Madina",
+          "role": "coffee shop owner"
+        },
+        {
+          "quote": "Finally, a sugar-free energy drink that doesn’t taste like a pharmacy.",
+          "author": "Sasha",
+          "role": "CrossFit coach"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Honest about ingredients",
+      "items": [
+        {
+          "q": "How much caffeine is in one can?",
+          "a": "80 mg per 250 ml — roughly a double espresso. The caffeine comes from green tea extract and guarana. We don’t recommend more than three cans a day."
+        },
+        {
+          "q": "What sweetens Zing?",
+          "a": "Stevia and erythritol. Sugar is 0 g; the 15 kcal per can come from the juice."
+        },
+        {
+          "q": "How much is it and how do I order?",
+          "a": "A can costs 14,000–15,000 UZS; a 12-pack in any flavours is 150,000 UZS. Order via our Telegram bot or by phone."
+        },
+        {
+          "q": "How fast is delivery?",
+          "a": "Within Tashkent in 60 minutes, 10:00 to 22:00. Delivery is 15,000 UZS, free from 150,000 UZS."
+        },
+        {
+          "q": "Is it OK for children?",
+          "a": "No. Zing is a caffeinated energy drink: not recommended for children or pregnant or breastfeeding women."
+        },
+        {
+          "q": "Do you supply cafés and shops?",
+          "a": "Yes, wholesale pricing starts at 5 packs. Write to hi@zing.uz and we’ll send the price list and terms within a day."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Where to buy",
+      "title": "Grab one cold or order it home",
+      "text": "Our flagship store on Nukus is open every day, and delivery across Tashkent takes an hour.",
+      "cta": {
+        "label": "Order on Telegram",
+        "href": "https://t.me/zingdrinks"
+      }
+    }
+  ]
+}

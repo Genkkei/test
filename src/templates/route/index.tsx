@@ -4,6 +4,7 @@ import { Clock, Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { ProgressLine, RouteCanvas, RouteHeader } from './client'
 
 /*
@@ -17,11 +18,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <RouteHeader>
-        <a href="#top" className="route-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="route-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           <i aria-hidden="true" />
           {site.name}
         </a>
-        <nav className="route-nav" aria-label="Разделы">
+        <nav className="route-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -31,14 +32,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="route-header__side">
           <span className="route-status">
             <i aria-hidden="true" />
-            {b.city || 'Ташкент'} <Clock />
+            {b.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })} <Clock lang={site.lang} />
           </span>
           {site.nav.cta.label ? (
             <a className="route-btn route-btn--sm" href={site.nav.cta.href} data-magnetic>
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </RouteHeader>
       <main id="top">{children}</main>
@@ -54,7 +55,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <dl className="route-footer__facts">
             {b.phone ? (
               <div>
-                <dt>Диспетчерская</dt>
+                <dt>{pick(site.lang, { ru: 'Диспетчерская', uz: 'Dispetcherlik', en: 'Dispatch' })}</dt>
                 <dd>
                   <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a>
                 </dd>
@@ -62,7 +63,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ) : null}
             {b.email ? (
               <div>
-                <dt>Почта</dt>
+                <dt>{ui(site.lang, 'email')}</dt>
                 <dd>
                   <a href={`mailto:${b.email}`}>{b.email}</a>
                 </dd>
@@ -70,14 +71,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ) : null}
             {b.street ? (
               <div>
-                <dt>Склад и офис</dt>
+                <dt>{pick(site.lang, { ru: 'Склад и офис', uz: 'Ombor va ofis', en: 'Warehouse and office' })}</dt>
                 <dd>{[b.street, b.city].filter(Boolean).join(', ')}</dd>
               </div>
             ) : null}
             {b.hours.length ? (
               <div>
-                <dt>Часы</dt>
-                <dd>{b.hours.map(humanHours).join(', ')}</dd>
+                <dt>{ui(site.lang, 'hours')}</dt>
+                <dd>{b.hours.map((h) => humanHours(h, site.lang)).join(', ')}</dd>
               </div>
             ) : null}
           </dl>
@@ -99,7 +100,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
           <span>41.31° N · 69.24° E</span>
-          <a href="#top">Наверх ↑</a>
+          <a href="#top">{ui(site.lang, 'toTop')} ↑</a>
         </div>
       </footer>
     </>
@@ -142,11 +143,11 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           ) : null}
         </div>
         {first ? (
-          <div className="route-track route-rise" style={{ ['--d' as string]: '0.85s' }} aria-label="Пример направления">
+          <div className="route-track route-rise" style={{ ['--d' as string]: '0.85s' }} aria-label={pick(site.lang, { ru: 'Пример направления', uz: 'Yo‘nalish namunasi', en: 'Sample route' })}>
             <div className="route-track__row">
-              <span className="route-track__code">{first.tag || 'В пути'}</span>
+              <span className="route-track__code">{first.tag || pick(site.lang, { ru: 'В пути', uz: 'Yo‘lda', en: 'In transit' })}</span>
               <span className="route-track__live">
-                <i aria-hidden="true" /> в пути
+                <i aria-hidden="true" /> {pick(site.lang, { ru: 'в пути', uz: 'yo‘lda', en: 'in transit' })}
               </span>
             </div>
             <p className="route-track__name">{first.title}</p>
@@ -155,7 +156,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
             </div>
             <div className="route-track__row route-track__row--muted">
               <span>{first.price}</span>
-              <span>Ташкент</span>
+              <span>{site.business.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })}</span>
             </div>
           </div>
         ) : null}
@@ -175,7 +176,8 @@ function split(title: string): [string, string] {
   return [a || title, b || '']
 }
 
-function Services({ section: s }: SectionProps<'services'>) {
+function Services({ section: s, site }: SectionProps<'services'>) {
+  const L = (ru: string, uz: string, en: string) => pick(site.lang, { ru, uz, en })
   return (
     <Sec id={s.anchor} type="services" className="route-board-sec">
       <Head label={s.label} title={s.title}>
@@ -185,12 +187,12 @@ function Services({ section: s }: SectionProps<'services'>) {
           </p>
         ) : null}
       </Head>
-      <div className="route-board" role="table" aria-label={s.title || 'Направления'}>
+      <div className="route-board" role="table" aria-label={s.title || L('Направления', 'Yo‘nalishlar', 'Routes')}>
         <div className="route-board__head" role="row">
-          <span role="columnheader">Откуда</span>
-          <span role="columnheader">Куда</span>
-          <span role="columnheader">Срок и транспорт</span>
-          <span role="columnheader">Ставка</span>
+          <span role="columnheader">{L('Откуда', 'Qayerdan', 'From')}</span>
+          <span role="columnheader">{L('Куда', 'Qayerga', 'To')}</span>
+          <span role="columnheader">{L('Срок и транспорт', 'Muddat va transport', 'Transit and mode')}</span>
+          <span role="columnheader">{L('Ставка', 'Tarif', 'Rate')}</span>
         </div>
         {s.items.map((it, i) => {
           const [from, to] = split(it.title)
@@ -223,7 +225,7 @@ function Services({ section: s }: SectionProps<'services'>) {
   )
 }
 
-function Pricing({ section: s }: SectionProps<'pricing'>) {
+function Pricing({ section: s, site }: SectionProps<'pricing'>) {
   return (
     <Sec id={s.anchor} type="pricing" className="route-calc-sec">
       <Head label={s.label} title={s.title} />
@@ -246,12 +248,18 @@ function Pricing({ section: s }: SectionProps<'pricing'>) {
           </article>
         ))}
       </div>
-      <p className="route-calc__note">Ставки ориентировочные: точную сумму считаем по весу, объёму и коду ТН ВЭД в течение часа.</p>
+      <p className="route-calc__note">
+        {pick(site.lang, {
+          ru: 'Ставки ориентировочные: точную сумму считаем по весу, объёму и коду ТН ВЭД в течение часа.',
+          uz: 'Tariflar taxminiy: aniq summani og‘irlik, hajm va TIF TN kodi bo‘yicha bir soat ichida hisoblaymiz.',
+          en: 'Rates are indicative: we calculate the exact amount by weight, volume and HS code within an hour.',
+        })}
+      </p>
     </Sec>
   )
 }
 
-function Process({ section: s }: SectionProps<'process'>) {
+function Process({ section: s, site }: SectionProps<'process'>) {
   return (
     <Sec id={s.anchor} type="process" className="route-process">
       <Head label={s.label} title={s.title} />
@@ -262,7 +270,7 @@ function Process({ section: s }: SectionProps<'process'>) {
               <span className="route-steps__node" aria-hidden="true">
                 <i />
               </span>
-              <span className="route-steps__km">КП {String(i + 1).padStart(2, '0')}</span>
+              <span className="route-steps__km">{pick(site.lang, { ru: 'КП', uz: 'NP', en: 'CP' })} {String(i + 1).padStart(2, '0')}</span>
               <h3>{it.title}</h3>
               <p>{it.text}</p>
             </li>

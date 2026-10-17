@@ -1,0 +1,324 @@
+{
+  "name": "Pulse",
+  "tagline": "A club for people who train seriously",
+  "niche": "Fitness club: strength, functional and combat training",
+  "nav": {
+    "cta": {
+      "label": "Free trial session",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Pulse — fitness club in Tashkent: gym and boxing",
+    "description": "An 1,800 m² gym, functional training, boxing and group programmes. Open 6:00 to 23:00, memberships from 590,000 UZS a month.",
+    "keywords": [
+      "fitness club Tashkent",
+      "gym",
+      "personal trainer",
+      "boxing Tashkent",
+      "functional training",
+      "gym membership"
+    ],
+    "answer": "Pulse is a fitness club on Amir Temur in Tashkent: an 1,800 m² gym, a functional training zone, a ring and group programmes. Open daily from 6:00 to 23:00. Memberships from 590,000 UZS a month, a personal session is 250,000 UZS, and your first session with a coach is free."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a fitness club, sports studio or event. Neon on black, huge kinetic type that skews with scroll speed, memberships, coaches and a schedule.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Pulse Club LLC",
+    "street": "107B Amir Temur St.",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Faster. Stronger. Further.",
+      "eyebrow": "Fitness club · Tashkent · 06:00–23:00",
+      "subtitle": "1,800 m² of iron, a ring, a functional zone and coaches who track your progress, not your sets.",
+      "words": [
+        "First session free"
+      ],
+      "cta": {
+        "label": "Book for free",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Memberships",
+        "href": "#prices"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Strength",
+        "Boxing",
+        "Functional",
+        "Cardio",
+        "Mobility",
+        "Recovery"
+      ]
+    },
+    {
+      "id": "dirs",
+      "type": "services",
+      "label": "Programmes",
+      "title": "Choose your speed",
+      "intro": "Every programme is included in the Unlimited membership. Personal training is separate.",
+      "items": [
+        {
+          "title": "Gym",
+          "text": "Free weights up to 60 kg, 9 power racks, a Hammer Strength line and a 40-station cardio zone.",
+          "price": "in every membership",
+          "tag": "06:00–23:00"
+        },
+        {
+          "title": "Functional training",
+          "text": "Groups of up to 12: strength, endurance and coordination in 50 minutes.",
+          "price": "12 classes a week",
+          "tag": "Groups"
+        },
+        {
+          "title": "Boxing and kickboxing",
+          "text": "A ring, 20 bags, coaches with national team experience. Beginners train in a separate group.",
+          "price": "8 classes a week",
+          "tag": "Ring"
+        },
+        {
+          "title": "Personal training",
+          "text": "A plan for your goal, nutrition tracking and measurements every four weeks.",
+          "price": "250,000 UZS",
+          "tag": "1 on 1"
+        },
+        {
+          "title": "Recovery",
+          "text": "A Finnish sauna, a hammam and a massage therapist by appointment.",
+          "price": "from 150,000 UZS",
+          "tag": "Spa"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "The club in numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "1800",
+          "suffix": " m²",
+          "label": "club floor area"
+        },
+        {
+          "value": "17",
+          "suffix": " h",
+          "label": "open every day"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "coaches on the team"
+        },
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "group classes a week"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Memberships",
+      "title": "No hidden fees",
+      "items": [
+        {
+          "name": "Daytime",
+          "price": "590,000 UZS",
+          "period": "/ month",
+          "features": [
+            "Gym and cardio from 6:00 to 17:00",
+            "An intro session with a coach",
+            "Locker and towel"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Unlimited",
+          "price": "790,000 UZS",
+          "period": "/ month",
+          "features": [
+            "The whole club from 6:00 to 23:00",
+            "All group programmes",
+            "Sauna and hammam",
+            "Monthly measurements"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Year",
+          "price": "6,900,000 UZS",
+          "period": "/ 12 months",
+          "features": [
+            "Everything in Unlimited",
+            "Freeze for up to 60 days",
+            "4 personal sessions",
+            "Guest visits for a friend"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Coaches",
+      "title": "The team",
+      "items": [
+        {
+          "name": "Rustam Khalilov",
+          "role": "Strength training",
+          "image": ""
+        },
+        {
+          "name": "Diana Sergeeva",
+          "role": "Functional and mobility",
+          "image": ""
+        },
+        {
+          "name": "Sherzod Akhmedov",
+          "role": "Boxing",
+          "image": ""
+        },
+        {
+          "name": "Olga Pak",
+          "role": "Nutrition",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Schedule",
+      "title": "A week at the club",
+      "groups": [
+        {
+          "name": "Weekdays",
+          "items": [
+            {
+              "name": "Functional training",
+              "text": "Studio B · up to 12 people",
+              "price": "07:00"
+            },
+            {
+              "name": "Boxing for beginners",
+              "text": "Ring",
+              "price": "19:00"
+            },
+            {
+              "name": "Mobility",
+              "text": "Studio B",
+              "price": "20:30"
+            }
+          ]
+        },
+        {
+          "name": "Weekends",
+          "items": [
+            {
+              "name": "Partner strength",
+              "text": "Studio A",
+              "price": "10:00"
+            },
+            {
+              "name": "Kickboxing",
+              "text": "Ring",
+              "price": "12:00"
+            },
+            {
+              "name": "Recovery and stretching",
+              "text": "Studio B",
+              "price": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Member results",
+      "items": [
+        {
+          "quote": "In six months with Rustam my bench went from 70 to 110 kg. Most importantly, no injuries: technique is drilled from the first session.",
+          "author": "Azamat",
+          "role": "member since 2024"
+        },
+        {
+          "quote": "I came for a trial functional class and stayed. The groups are small and the coach sees everyone.",
+          "author": "Kamila",
+          "role": "group class member"
+        },
+        {
+          "quote": "I go at 6 a.m. before work — the gym is empty, everything is clean, and the coffee at the bar is ready.",
+          "author": "Dmitry",
+          "role": "Year membership"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Questions before you start",
+      "items": [
+        {
+          "q": "How much is a membership?",
+          "a": "Daytime (until 17:00) is 590,000 UZS a month, Unlimited 790,000 UZS, and the annual 6,900,000 UZS. A single visit is 120,000 UZS."
+        },
+        {
+          "q": "Is there a trial session?",
+          "a": "Yes, your first session with a coach is free: a club tour, measurements and a plan for the first month. Book by phone or on Telegram."
+        },
+        {
+          "q": "What are the club’s hours?",
+          "a": "Every day from 6:00 to 23:00, holidays included. Group classes run on schedule from 7:00 to 21:00."
+        },
+        {
+          "q": "How much is a personal trainer?",
+          "a": "One session is 250,000 UZS, a pack of 10 is 2,200,000 UZS. You can choose or change your coach at any time."
+        },
+        {
+          "q": "Can I freeze my membership?",
+          "a": "Yes: monthly memberships for up to 7 days, annual for up to 60 days a year, by request at reception."
+        },
+        {
+          "q": "Do I need my own kit and towel?",
+          "a": "Just your kit and indoor shoes. Towels, lockers and showers are included in every membership."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Start",
+      "title": "Your first session is on us",
+      "text": "Leave a request — our front desk will call back within 15 minutes and find you a time.",
+      "cta": {
+        "label": "Call the club",
+        "href": "tel:+998712000004"
+      }
+    }
+  ]
+}

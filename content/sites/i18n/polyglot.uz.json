@@ -1,0 +1,322 @@
+{
+  "name": "Polyglot",
+  "tagline": "Faqat dastlabki besh daqiqasi qo‘rqinchli bo‘lgan til maktabi",
+  "niche": "Til maktabi: bolalar va kattalar uchun ingliz, koreys, nemis tillari",
+  "nav": {
+    "cta": {
+      "label": "Sinov darsi",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Polyglot — Toshkentdagi til maktabi: ingliz, koreys tillari",
+    "description": "6 yoshdan bolalar va kattalar uchun ingliz, koreys va nemis tillari. 8 kishigacha guruhlar, IELTS va TOPIK’ga tayyorlov, bepul sinov darsi.",
+    "keywords": [
+      "ingliz tili kurslari Toshkent",
+      "koreys tili kurslari",
+      "IELTS’ga tayyorlov",
+      "TOPIK Toshkent",
+      "bolalar uchun ingliz tili",
+      "nemis tili kurslari"
+    ],
+    "answer": "Polyglot — Toshkentdagi til maktabi, Nukus ko‘chasi, 54. 6 yoshdan bolalar va kattalarga 8 kishigacha guruhlarda ingliz, koreys va nemis tillarini o‘rgatamiz. Bir oylik darslar — 690 000 so‘mdan (haftasiga 3 dars), IELTS’ga tayyorlov — 4 oy. Birinchi dars va daraja testi bepul."
+  },
+  "listing": {
+    "price": "",
+    "description": "Til maktabi, bolalar markazi yoki onlayn kurslar uchun sayt. Yorqin va sakrovchan: kursorni kuzatuvchi maskot, kartochka ko‘rinishidagi dasturlar, darajalar bo‘yicha o‘quv yo‘li, formatlar va narxlar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Polyglot Education» MChJ",
+    "street": "Nukus ko‘chasi, 54",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, O‘zbekiston bo‘ylab onlayn"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bir oyda yangi tilda gapira boshlang",
+      "eyebrow": "👋 Ingliz · Koreys · Nemis",
+      "subtitle": "8 kishigacha guruhlar, jonli o‘qituvchilar va o‘qituvchi emas, o‘quvchilar gapiradigan darslar. Birinchi dars — bepul.",
+      "words": [
+        "Hello!",
+        "안녕하세요!",
+        "Hallo!",
+        "Salom!"
+      ],
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Dasturlar",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "langs",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "English",
+        "한국어",
+        "Deutsch",
+        "IELTS",
+        "TOPIK",
+        "Speaking club",
+        "Kids"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Til odatga aylanishi uchun o‘rgatamiz",
+      "text": "2018 yildan beri guruhlarimizdan uch mingdan ortiq o‘quvchi o‘tdi. Darsda vaqtning 70% ida talabalar gapiradi: muhokama qiladi, bahslashadi, o‘ynaydi va masalalar yechadi. Darslar orasida — Telegram-botda kuniga 10 daqiqalik qisqa topshiriqlar, til dam olish kunlarida unutilmasligi uchun. Oyiga bir marta — til egalari bilan so‘zlashuv klubi.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Dasturlar",
+      "title": "O‘z dasturingizni tanlang",
+      "intro": "Har bir dastur bepul daraja testi va sinov darsidan boshlanadi.",
+      "items": [
+        {
+          "title": "Kattalar uchun ingliz tili",
+          "text": "Noldan ishonchli B2 gacha: so‘zlashuv, yodlashsiz grammatika, ish yozishmalari.",
+          "price": "690 000 so‘mdan / oy",
+          "tag": "A1–C1"
+        },
+        {
+          "title": "Koreys tili",
+          "text": "Ikki haftada hangil, keyin so‘zlashuv koreys tili va TOPIK I–II ga tayyorlov.",
+          "price": "750 000 so‘mdan / oy",
+          "tag": "TOPIK"
+        },
+        {
+          "title": "Nemis tili",
+          "text": "Germaniyada o‘qish va ishlash uchun: A1–B1 darajalari va Goethe-Zertifikat’ga tayyorlov.",
+          "price": "720 000 so‘mdan / oy",
+          "tag": "A1–B1"
+        },
+        {
+          "title": "IELTS’ga tayyorlov",
+          "text": "4 oylik intensiv: imtihonning to‘rtala qismi, har ikki haftada sinov testlari.",
+          "price": "1 100 000 so‘m / oy",
+          "tag": "IELTS"
+        },
+        {
+          "title": "Bolalar uchun ingliz tili",
+          "text": "6 yoshdan 12 yoshgacha: o‘yinlar, qo‘shiqlar, loyihalar. Ota-onalar ilovada natijani ko‘radi.",
+          "price": "590 000 so‘mdan / oy",
+          "tag": "6–12 yosh"
+        },
+        {
+          "title": "So‘zlashuv klubi",
+          "text": "Haftasiga bir marta: hayotiy mavzular, til egalari, darsliklarsiz.",
+          "price": "120 000 so‘m / uchrashuv",
+          "tag": "barcha darajalar"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Qanday boshlash kerak",
+      "title": "«Hello» dan erkin nutqqacha",
+      "items": [
+        {
+          "title": "Daraja testi",
+          "text": "Onlayn yoki maktabda 15 daqiqa — bepul."
+        },
+        {
+          "title": "Sinov darsi",
+          "text": "O‘qituvchi va guruh bilan tanishasiz."
+        },
+        {
+          "title": "Darajangizga mos guruh",
+          "text": "8 kishigacha, haftasiga 3 dars, har biri 80 daqiqa."
+        },
+        {
+          "title": "Har oy natija",
+          "text": "Mini-test va hisobot: nima chiqdi, nima ustida ishlash kerak."
+        },
+        {
+          "title": "Imtihon yoki maqsad",
+          "text": "IELTS, TOPIK, suhbat yoki ko‘chib o‘tish — natijagacha yetkazamiz."
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Formatlar va narxlar",
+      "items": [
+        {
+          "name": "Guruh",
+          "price": "690 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "80 daqiqalik 12 dars",
+            "8 kishigacha",
+            "Telegram-botda topshiriqlar",
+            "Chegirmali so‘zlashuv klubi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mini-guruh",
+          "price": "990 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "80 daqiqalik 12 dars",
+            "3–4 kishi",
+            "Maqsadlarga ko‘ra guruh tanlash",
+            "Har oylik natija hisoboti"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Individual",
+          "price": "180 000 so‘m",
+          "period": "bir dars",
+          "features": [
+            "Qulay vaqt, onlayn yoki oflayn",
+            "Maqsadingizga mos dastur",
+            "8 darslik paket — 10% chegirma"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3200",
+          "suffix": "+",
+          "label": "2018 yildan beri o‘quvchilar"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "guruhda ko‘pi bilan kishi"
+        },
+        {
+          "value": "70",
+          "suffix": "%",
+          "label": "dars vaqtida o‘quvchilar gapiradi"
+        },
+        {
+          "value": "4",
+          "suffix": " oy",
+          "label": "IELTS intensivi"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "O‘qituvchilar",
+      "title": "Zerikarli bo‘lmaydiganlar",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "ingliz tili, IELTS · CELTA",
+          "image": ""
+        },
+        {
+          "name": "Kim Su Yon",
+          "role": "koreys tili, til egasi",
+          "image": ""
+        },
+        {
+          "name": "Anna Shmidt",
+          "role": "nemis tili, Goethe imtihonchisi",
+          "image": ""
+        },
+        {
+          "name": "Bobur Rahimov",
+          "role": "bolalar uchun ingliz tili",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "O‘quvchilarimiz nima deydi",
+      "items": [
+        {
+          "quote": "To‘rt oyda IELTS’da 5.5 dan 7.0 ga ko‘tarildim. Eng foydalisi — har ikki haftadagi sinov testlari: imtihonga borganda qo‘rqinch qolmagan edi.",
+          "author": "Sevara",
+          "role": "IELTS 7.0, magistraturaga kirdi"
+        },
+        {
+          "quote": "O‘g‘lim bugun ingliz tili ekanini o‘zi eslatadi. Oldin undan bir so‘z ham chiqarib bo‘lmasdi, endi qo‘shiq aytadi va o‘qituvchi bilan bahslashadi.",
+          "author": "Olga",
+          "role": "o‘quvchining onasi, 8 yosh"
+        },
+        {
+          "quote": "Seuldagi ishdan oldin koreys tilini noldan boshladim. Yarim yildan keyin do‘konda ham, ishda ham bemalol tushuntira olaman.",
+          "author": "Jasur",
+          "role": "TOPIK I, 2-daraja"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Sinov darsi rostdan ham bepulmi?",
+          "a": "Ha. Sinov darsi 60 daqiqa davom etadi va daraja testini o‘z ichiga oladi. Undan keyin qolish-qolmaslikni o‘zingiz hal qilasiz — hech qanday majburiyatsiz."
+        },
+        {
+          "q": "Darajamni qanday aniqlash mumkin?",
+          "a": "Testdan o‘ting: 15 daqiqa yozma qism va o‘qituvchi bilan 5 daqiqa suhbat. Natijaga ko‘ra mos darajadagi guruhni taklif qilamiz."
+        },
+        {
+          "q": "Onlayn o‘qish mumkinmi?",
+          "a": "Ha, barcha dasturlar onlayn mavjud: o‘sha o‘qituvchilar va 8 kishigacha guruhlar, darslar Zoom’da, topshiriqlar Telegram-botda."
+        },
+        {
+          "q": "Bolalarni necha yoshdan qabul qilasiz?",
+          "a": "6 yoshdan. Bolalar yosh bo‘yicha guruhlarda o‘qiydi: 6–8, 9–10 va 11–12 yosh; 13 yoshdan o‘smirlar — o‘z darajasidagi kattalar guruhlarida."
+        },
+        {
+          "q": "Darsni o‘tkazib yuborsam-chi?",
+          "a": "Dars yozuvi va materiallar Telegramga keladi. Mavzuni so‘zlashuv klubida o‘zlashtirish yoki xuddi shu darajadagi parallel guruhga borish mumkin."
+        },
+        {
+          "q": "Pulni qaytarish mumkinmi?",
+          "a": "Ha. Agar o‘qishni to‘xtatsangiz, joriy oyning o‘tilmagan barcha darslari uchun to‘lovni 10 ish kuni ichida qaytaramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Birinchi dars — bizning hisobimizdan",
+      "text": "Qo‘ng‘iroq qiling yoki Telegramga yozing — test va sinov darsi uchun qulay vaqtni tanlaymiz.",
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "https://t.me/polyglot_school"
+      }
+    }
+  ]
+}

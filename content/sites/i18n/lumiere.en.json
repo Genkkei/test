@@ -1,0 +1,307 @@
+{
+  "name": "Maison Lumière",
+  "tagline": "A French pâtisserie in the heart of Tashkent",
+  "niche": "Pâtisserie: custom cakes, pastries, macarons, bakes and coffee",
+  "nav": {
+    "cta": {
+      "label": "Order a cake",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Maison Lumière — French pâtisserie and custom cakes",
+    "description": "Custom cakes, macarons, croissants and pastries from French recipes in Tashkent. 82% butter, Belgian chocolate, same-day delivery across the city.",
+    "keywords": [
+      "custom cakes Tashkent",
+      "French pâtisserie",
+      "macarons",
+      "croissants",
+      "pastries",
+      "pâtisserie in Mirabad"
+    ],
+    "answer": "Maison Lumière is a French pâtisserie at 18 Mirabad St., Tashkent. Custom cakes from 420,000 UZS per kilogram with 48 hours’ notice; macarons 18,000 UZS each, croissants 28,000 UZS. Open daily from 8:00, with delivery across Tashkent."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a pâtisserie, bakery, coffee shop or boutique. Warm paper and serif type, photos in arches, a menu in sections with prices and a counter ribbon — like a magazine about good food.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Maison Lumière LLC",
+    "street": "18 Mirabad St.",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sweetness, made slowly",
+      "eyebrow": "Pâtisserie · Tashkent · since 2021",
+      "subtitle": "Cakes, pastries and viennoiserie from classic French recipes. Every morning, with 82% butter, Madagascan vanilla and Belgian chocolate.",
+      "words": [
+        "Fig tart",
+        "Paris–Brest",
+        "Pistachio macaron"
+      ],
+      "cta": {
+        "label": "Order a cake",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See the menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The house",
+      "title": "We don’t rush: croissant dough rests for three days, and tart cream cooks over a low flame.",
+      "text": "Maison Lumière opened in 2021 on quiet Mirabad Street. Our head pastry chef trained in Paris and brought back the main rule: a dessert shouldn’t just be sweet — it needs character, texture and a finish.\nWe bake in small batches, so the counter empties by evening. Cakes are made to order only — for your occasion, your taste and your guest count. Seasonal berries come from farmers in Tashkent Region, nuts from suppliers in Samarkand.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Croissants",
+        "Macarons",
+        "Tarts",
+        "Éclairs",
+        "Custom cakes",
+        "Coffee"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "On the counter today",
+      "groups": [
+        {
+          "name": "Pastries",
+          "items": [
+            {
+              "name": "Paris–Brest",
+              "text": "choux pastry, hazelnut praline, light cream",
+              "price": "46 000"
+            },
+            {
+              "name": "Fig tart",
+              "text": "shortcrust pastry, almond cream, fresh figs",
+              "price": "42 000"
+            },
+            {
+              "name": "Vanilla éclair",
+              "text": "crème pâtissière with Madagascan vanilla",
+              "price": "32 000"
+            },
+            {
+              "name": "Mille-feuille",
+              "text": "caramelised puff pastry, diplomat cream",
+              "price": "44 000"
+            }
+          ]
+        },
+        {
+          "name": "Viennoiserie",
+          "items": [
+            {
+              "name": "Croissant",
+              "text": "82% butter, dough rested for three days",
+              "price": "28 000"
+            },
+            {
+              "name": "Pain au chocolat",
+              "text": "two sticks of Belgian chocolate",
+              "price": "32 000"
+            },
+            {
+              "name": "Almond croissant",
+              "text": "almond cream and flakes",
+              "price": "36 000"
+            },
+            {
+              "name": "Quiche Lorraine",
+              "text": "turkey bacon, cheese, cream",
+              "price": "38 000"
+            }
+          ]
+        },
+        {
+          "name": "Macarons",
+          "items": [
+            {
+              "name": "Pistachio",
+              "text": "",
+              "price": "18 000"
+            },
+            {
+              "name": "Salted caramel",
+              "text": "",
+              "price": "18 000"
+            },
+            {
+              "name": "Raspberry and rose",
+              "text": "",
+              "price": "18 000"
+            },
+            {
+              "name": "Box of 12",
+              "text": "any flavours",
+              "price": "205 000"
+            }
+          ]
+        },
+        {
+          "name": "Custom cakes",
+          "items": [
+            {
+              "name": "Classics: Napoleon, honey cake, Prague cake",
+              "text": "from 1.5 kg, order 48 hours ahead",
+              "price": "380,000 / kg"
+            },
+            {
+              "name": "Signature mousse cakes",
+              "text": "design and filling for your occasion",
+              "price": "420,000 / kg"
+            },
+            {
+              "name": "Wedding cake",
+              "text": "tasting of 3 flavours — free",
+              "price": "from 520,000 / kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The counter",
+      "title": "A little of what we bake",
+      "items": [
+        {
+          "caption": "Fig tart",
+          "image": ""
+        },
+        {
+          "caption": "Macarons",
+          "image": ""
+        },
+        {
+          "caption": "Morning croissants",
+          "image": ""
+        },
+        {
+          "caption": "The Lumière cake",
+          "image": ""
+        },
+        {
+          "caption": "Paris–Brest",
+          "image": ""
+        },
+        {
+          "caption": "Mille-feuille",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Ordering a cake",
+      "title": "How to order a cake",
+      "items": [
+        {
+          "title": "Write to us",
+          "text": "The date, guest count, occasion and flavour wishes — by phone or on Telegram."
+        },
+        {
+          "title": "We pick the filling",
+          "text": "We suggest 2–3 combinations and a design sketch, and give you the exact price."
+        },
+        {
+          "title": "50% deposit",
+          "text": "It secures the date. Cakes are assembled no earlier than a day before the event."
+        },
+        {
+          "title": "Delivery or pickup",
+          "text": "We deliver across Tashkent in a chilled box or have it ready when you arrive."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What our guests say",
+      "items": [
+        {
+          "quote": "We ordered a wedding cake for 80 guests — delicate, not cloying, and eaten down to the last crumb.",
+          "author": "Madina",
+          "role": "May wedding"
+        },
+        {
+          "quote": "The croissant here is like in Paris: flaky and smelling of butter. I stop by every morning on the way to the office.",
+          "author": "Timur",
+          "role": "regular guest"
+        },
+        {
+          "quote": "A macaron box for my mum’s birthday — beautifully packed, and all twelve were different.",
+          "author": "Olga",
+          "role": "home delivery"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How far ahead should I order a cake?",
+          "a": "At least 48 hours. Wedding and tiered cakes need 7–10 days so there’s time for a tasting."
+        },
+        {
+          "q": "How much does a custom cake cost?",
+          "a": "Classic cakes are 380,000 UZS per kilogram, signature mousse cakes 420,000 UZS, wedding cakes from 520,000 UZS. The minimum weight is 1.5 kg."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Yes, across Tashkent daily from 10:00 to 20:00. Cakes travel in chilled boxes; delivery within the city starts at 35,000 UZS."
+        },
+        {
+          "q": "Do you make sugar-free or gluten-free desserts?",
+          "a": "Yes: macarons are naturally gluten-free, and we make sugar-free and gluten-free cakes to order — just mention it when you order."
+        },
+        {
+          "q": "Can I sit in with a coffee?",
+          "a": "Yes, there are 24 seats inside and a summer terrace. Our coffee is brewed from beans roasted in Tashkent."
+        },
+        {
+          "q": "Do you take corporate orders?",
+          "a": "Yes: branded macaron boxes, coffee breaks and dessert tables from 30 guests. We’ll send a proposal within a day."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come for coffee — or order a cake",
+      "text": "We take orders by phone and on Telegram daily from 9:00 to 20:00.",
+      "cta": {
+        "label": "Call to order",
+        "href": "tel:+998712000011"
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "Chimgan Lodge",
+  "tagline": "A boutique hotel in the Chimgan mountains",
+  "niche": "Boutique hotel and mountain retreat",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Chimgan Lodge — boutique mountain hotel 90 min from Tashkent",
+    "description": "Twelve rooms facing Big Chimgan, a banya, a restaurant and trails from the doorstep. Transfers from Tashkent; rooms from 1,400,000 UZS a night with breakfast.",
+    "keywords": [
+      "Chimgan hotel",
+      "boutique hotel Uzbekistan",
+      "mountain getaway Tashkent",
+      "Chimgan rooms",
+      "country hotel",
+      "mountain banya"
+    ],
+    "answer": "Chimgan Lodge is a 12-room boutique hotel in Chimgan village, a 90-minute drive from Tashkent. Rooms start at 1,400,000 UZS a night with breakfast; check-in from 14:00, check-out by 12:00. There are transfers from Tashkent, a banya, a restaurant and mountain trails from the door."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a boutique hotel, country club or glamping site. A WebGL sunrise over the mountains, a ribbon of rooms with prices, experiences, directions and booking.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Chimgan Lodge LLC",
+    "street": "7 Gornaya St., Chimgan village, Bostanlyk District",
+    "city": "Chimgan",
+    "region": "Tashkent Region",
+    "areaServed": "Chimgan, Tashkent Region"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A sunrise worth waking up for",
+      "eyebrow": "Chimgan · 1,600 m above sea level",
+      "subtitle": "Twelve rooms facing Big Chimgan, silence, a juniper banya and trails that begin at the door.",
+      "words": [],
+      "cta": {
+        "label": "Choose dates",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Rooms",
+        "href": "#rooms"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The lodge",
+      "title": "A house of stone and wood, built so the mountains come first",
+      "text": "We set the hotel on the slope so every room sees the peak of Big Chimgan. The stone comes from the local riverbed, the wood is elm and walnut, the textiles are handmade by craftswomen from Rishtan and Margilan.\nThere are no loud parties or entertainers here. There is morning coffee on the terrace, dinner by the fireplace and stars you never see in the city.",
+      "image": ""
+    },
+    {
+      "id": "rooms",
+      "type": "works",
+      "label": "Rooms",
+      "title": "Twelve rooms with a view of the peaks",
+      "items": [
+        {
+          "title": "The Trail room",
+          "category": "28 m² · 2 guests",
+          "year": "from 1,400,000 UZS/night",
+          "text": "A large bed, a floor-to-ceiling window onto the valley, a hot-stone shower.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Peak room",
+          "category": "36 m² · 2 guests",
+          "year": "from 1,900,000 UZS/night",
+          "text": "A terrace facing Big Chimgan and a freestanding bath.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Family suite",
+          "category": "52 m² · 4 guests",
+          "year": "from 2,700,000 UZS/night",
+          "text": "Two bedrooms, a living room with a fireplace, children’s amenities on request.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Riverside chalet",
+          "category": "70 m² · 4 guests",
+          "year": "from 3,800,000 UZS/night",
+          "text": "A separate house by the stream with its own banya, kitchen and grill area.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "At the lodge",
+      "title": "Everything for slow rest",
+      "intro": "",
+      "items": [
+        {
+          "title": "Juniper banya",
+          "text": "A Russian banya with a plunge pool fed by a mountain stream and herbal tea.",
+          "price": "450,000 UZS / 2 hours",
+          "tag": "by appointment"
+        },
+        {
+          "title": "Fireside restaurant",
+          "text": "Seasonal cooking, trout from the neighbouring farm, bread from the oven.",
+          "price": "breakfast included",
+          "tag": "08:00–22:00"
+        },
+        {
+          "title": "Trails and guides",
+          "text": "Routes of 2 to 8 hours: waterfalls, Beldersay, the Kumbel plateau.",
+          "price": "from 350,000 UZS",
+          "tag": "with a guide"
+        },
+        {
+          "title": "Skiing in winter",
+          "text": "The Beldersay cable cars are 15 minutes away, with transfers to the lifts.",
+          "price": "free transfer",
+          "tag": "December–March"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Experiences",
+      "title": "What a day in the mountains feels like",
+      "items": [
+        {
+          "caption": "Morning on the terrace",
+          "image": ""
+        },
+        {
+          "caption": "Beldersay waterfalls",
+          "image": ""
+        },
+        {
+          "caption": "Dinner by the fireplace",
+          "image": ""
+        },
+        {
+          "caption": "A plunge after the banya",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "Getting here",
+      "title": "Ninety minutes from Tashkent",
+      "items": [
+        {
+          "title": "Transfer",
+          "text": "We pick you up from Tashkent or the airport by minivan: 450,000 UZS per car one way."
+        },
+        {
+          "title": "By car",
+          "text": "The A-373 highway towards Gazalkent and Chimgan, 85 km. Parking at the hotel is free."
+        },
+        {
+          "title": "Check-in",
+          "text": "Reception is open around the clock — even if you arrive at night, we’ll leave the lights on and hot tea waiting."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests take home",
+      "items": [
+        {
+          "quote": "We woke to the light on the peak and realised we hadn’t opened our phones since the night before. We’ll be back in winter.",
+          "author": "Nigora and Said",
+          "role": "the Peak room"
+        },
+        {
+          "quote": "The riverside chalet is perfect for a family: the kids by the stream, us in the banya, dinner brought right to the house.",
+          "author": "Irina",
+          "role": "family with two children"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you travel",
+      "items": [
+        {
+          "q": "What are check-in and check-out times?",
+          "a": "Check-in from 14:00, check-out by 12:00. Early check-in and late check-out are subject to availability at 50% of the nightly rate."
+        },
+        {
+          "q": "Is there a transfer from Tashkent?",
+          "a": "Yes, a minivan for up to 6 people is 450,000 UZS one way, or 550,000 UZS from the airport. The drive takes about 90 minutes."
+        },
+        {
+          "q": "Are pets allowed?",
+          "a": "Dogs up to 15 kg are welcome in the riverside chalet and family suite, 200,000 UZS per stay. Please mention it when booking."
+        },
+        {
+          "q": "Is the hotel good for children?",
+          "a": "Yes: cots and high chairs are free, there is a kids’ menu, and children under 6 without a separate bed stay free."
+        },
+        {
+          "q": "What is the cancellation policy?",
+          "a": "Free cancellation up to 7 days before arrival. After that we keep the first night’s rate; over New Year a non-refundable 50% deposit applies."
+        },
+        {
+          "q": "What is included in the rate?",
+          "a": "Breakfast, parking, Wi-Fi, winter transfers to the Beldersay lifts and trekking pole hire."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Reservations",
+      "title": "The mountains are waiting — choose your dates",
+      "text": "Write or call — we’ll match you with a room, a transfer and a route for your first day.",
+      "cta": {
+        "label": "Call reception",
+        "href": "tel:+998712000013"
+      }
+    }
+  ]
+}

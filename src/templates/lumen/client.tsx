@@ -51,7 +51,7 @@ export function LumenHeader({ children }: { children: React.ReactNode }) {
 }
 
 /** Слова-«капсулы» первого экрана: подсвечивается одна за другой. */
-export function Pills({ words }: { words: string[] }) {
+export function Pills({ words, label }: { words: string[]; label: string }) {
   const [i, setI] = useState(0)
   useEffect(() => {
     if (words.length < 2 || document.documentElement.classList.contains('reduce-motion')) return
@@ -59,7 +59,7 @@ export function Pills({ words }: { words: string[] }) {
     return () => clearInterval(id)
   }, [words.length])
   return (
-    <ul className="lumen-pills" aria-label="Направления">
+    <ul className="lumen-pills" aria-label={label}>
       {words.map((w, j) => (
         <li key={w} className={j === i ? 'is-on' : ''}>
           {w}

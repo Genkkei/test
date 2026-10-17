@@ -1,0 +1,267 @@
+{
+  "name": "Som Pay",
+  "tagline": "Siz kabi tez harakatlanadigan pullar",
+  "niche": "Fintex: ilovada multivalyuta karta, o‘tkazmalar va biznes hisob",
+  "nav": {
+    "cta": {
+      "label": "Hisob ochish",
+      "href": "#plans"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Fintex ilova, startap yoki onlayn xizmat uchun sayt. WebGL’dagi shimol yog‘dusi, CSS’da yasalgan ilova interfeysli telefon, bento-to‘rdagi imkoniyatlar, tariflar va xavfsizlik.",
+    "features": []
+  },
+  "seo": {
+    "title": "Som Pay — bitta ilovada multivalyuta karta va o‘tkazmalar",
+    "description": "So‘m, dollar va yevrodagi karta, telefon raqami orqali soniyalarda o‘tkazmalar, 5% gacha keshbek va YaTT uchun biznes hisob. Onlayn 5 daqiqada oching.",
+    "keywords": [
+      "multivalyuta karta O‘zbekiston",
+      "telefon raqami orqali o‘tkazma",
+      "keshbekli karta",
+      "YaTT uchun biznes hisob",
+      "fintex ilova",
+      "virtual karta"
+    ],
+    "answer": "Som Pay — multivalyuta karta (UZS, USD, EUR), telefon raqami orqali o‘tkazmalar va 5% gacha keshbekli ilova. Bazaviy tarif bepul, Plus — oyiga 29 000 so‘m, YaTT uchun biznes hisob — oyiga 99 000 so‘m; pasport bilan 5 daqiqada onlayn ochish mumkin. Aniq limit va komissiyalar ilovada ko‘rsatilgan."
+  },
+  "business": {
+    "legalName": "«Som Pay» MChJ",
+    "street": "Tashkent City, Islom Karimov xiyoboni, 3, 1204-ofis",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Chegarasiz va navbatsiz pullar",
+      "eyebrow": "Uch valyutadagi karta — bepul",
+      "subtitle": "So‘m, dollar va yevro bitta kartada. Telefon raqami orqali soniyalarda o‘tkazmalar, har bir xarid uchun keshbek va biznes hisob — hammasi bitta ilovada.",
+      "words": [
+        "5 daqiqada ochish",
+        "Ofisga bormasdan",
+        "Har bir operatsiya haqida bildirishnoma"
+      ],
+      "cta": {
+        "label": "Hisob ochish",
+        "href": "#plans"
+      },
+      "ctaSecondary": {
+        "label": "Qanday ishlaydi",
+        "href": "#features"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "UZS",
+        "USD",
+        "EUR",
+        "O‘tkazmalar",
+        "Keshbek",
+        "Jamg‘armalar",
+        "QR-to‘lov",
+        "Biznes hisob"
+      ]
+    },
+    {
+      "id": "features",
+      "type": "services",
+      "label": "Imkoniyatlar",
+      "title": "Pullaringizga kerak bo‘lgan hamma narsa",
+      "intro": "Kundalik xarajatlar, sayohatlar va biznes uchun bitta hisob.",
+      "items": [
+        {
+          "title": "Multivalyuta karta",
+          "text": "So‘m, dollar va yevro bitta kartada. Valyutani ilovada almashtirishdan oldin ko‘rib turgan kurs bo‘yicha almashtiring.",
+          "price": "Chiqarish bepul",
+          "tag": "Visa · UZS · USD · EUR"
+        },
+        {
+          "title": "Raqam orqali o‘tkazmalar",
+          "text": "Pul soniyalarda keladi — qabul qiluvchining telefon raqami kifoya.",
+          "price": "Bir zumda",
+          "tag": "Humo · Uzcard · Visa"
+        },
+        {
+          "title": "5% gacha keshbek",
+          "text": "Kafe, taksi va onlayn xaridlardagi xarajatlarning bir qismini qaytaramiz.",
+          "price": "5% gacha",
+          "tag": "Har oy"
+        },
+        {
+          "title": "Biznes hisob",
+          "text": "YaTT va kichik kompaniyalar uchun hisob: to‘lovlar, ko‘chirmalar va xodimlar bitta oynada.",
+          "price": "99 000 so‘m/oy",
+          "tag": "YaTT va MChJ"
+        },
+        {
+          "title": "Jamg‘armalar va maqsadlar",
+          "text": "Sayohat yoki texnika uchun pul yig‘ing: xaridlarni yaxlitlash va avtomatik to‘ldirish.",
+          "price": "Bepul",
+          "tag": "Jamg‘arma"
+        },
+        {
+          "title": "QR orqali to‘lov",
+          "text": "Do‘konlarda va xizmatlar uchun kassadagi QR-kodni skanerlab to‘lang.",
+          "price": "Komissiyasiz",
+          "tag": "Do‘konlar va xizmatlar"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "type": "about",
+      "label": "Xavfsizlik",
+      "title": "Pullaringiz himoyada",
+      "text": "Har bir operatsiyani o‘zingiz tasdiqlaysiz: biometriya orqali kirish, bir martalik kodlar va bir teginishda kartani darhol bloklash. Ma’lumotlar uzatishda shifrlanadi, har bir yechib olish haqida bildirishnoma darhol keladi. Kartani hamkor bank chiqaradi, uning nomi va rekvizitlari ilovadagi shartnomada ko‘rsatilgan.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": " daqiqa",
+          "label": "hisob ochish uchun"
+        },
+        {
+          "value": "3",
+          "suffix": " valyuta",
+          "label": "bitta kartada"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "chatda yordam"
+        },
+        {
+          "value": "0",
+          "suffix": " so‘m",
+          "label": "karta chiqarish uchun"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "O‘z tarifingizni tanlang",
+      "items": [
+        {
+          "name": "Standard",
+          "price": "0 so‘m",
+          "period": "oyiga",
+          "features": [
+            "Virtual karta",
+            "Raqam orqali o‘tkazmalar",
+            "1% keshbek",
+            "Jamg‘armalar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Plus",
+          "price": "29 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "Plastik karta bepul",
+            "5% gacha keshbek",
+            "Eng yaxshi kursda valyuta almashtirish",
+            "Ustuvor yordam"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "price": "99 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "YaTT va MChJ uchun hisob",
+            "Xodimlarga kartalar",
+            "Buxgalteriya uchun ko‘chirmalar",
+            "1C bilan integratsiya"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Foydalanuvchilar Som Pay haqida",
+      "items": [
+        {
+          "quote": "Kartani tushlik paytida ochdim, kechqurun esa sayohatda dollarda to‘layotgan edim. Kurs almashtirishdan oldin ko‘rinadi — hech qanday kutilmagan holat yo‘q.",
+          "author": "Madina",
+          "role": "dizayner"
+        },
+        {
+          "quote": "Ota-onamga telefon raqami orqali pul o‘tkazaman, pul telefonni cho‘ntakka solgunimcha yetib boradi.",
+          "author": "Timur",
+          "role": "muhandis"
+        },
+        {
+          "quote": "YaTT uchun qulay: buxgalter uchun ko‘chirma ikki bosishda, xodimlarga kartalarni o‘zim chiqaraman.",
+          "author": "Shahzod",
+          "role": "qahvaxona egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Hisobni qanday ochish mumkin?",
+          "a": "Ilovani yuklab oling, pasport yoki ID-kartani suratga oling va yuz tekshiruvidan o‘ting. Odatda bu 5 daqiqa oladi, virtual karta darhol paydo bo‘ladi."
+        },
+        {
+          "q": "Xizmat ko‘rsatish qancha turadi?",
+          "a": "Standard tarifi bepul, Plus — oyiga 29 000 so‘m, Business — oyiga 99 000 so‘m. Amaldagi shartlar har doim ilovaning «Tariflar» bo‘limida ko‘rsatilgan."
+        },
+        {
+          "q": "O‘tkazmalar uchun qanday limit va komissiyalar bor?",
+          "a": "Limitlar tarif va shaxsni tasdiqlashga bog‘liq. Aniq summalar va komissiyalarni o‘tkazmani tasdiqlashdan oldin ilovada ko‘rsatamiz."
+        },
+        {
+          "q": "Bu qanchalik xavfsiz?",
+          "a": "Biometriya orqali kirish, operatsiyalarni kod bilan tasdiqlash, ilovada kartani darhol bloklash va har bir yechib olish haqida bildirishnoma. Kartani hamkor bank chiqaradi, uning rekvizitlari shartnomada ko‘rsatilgan."
+        },
+        {
+          "q": "Kartadan chet elda foydalansa bo‘ladimi?",
+          "a": "Ha, Visa kartasi bilan chet elda va onlayn to‘lash mumkin. Dollar yoki yevrodagi xarajat ikki marta konvertatsiyasiz valyuta hisobidan yechiladi."
+        },
+        {
+          "q": "Telefonni yo‘qotib qo‘ysam nima qilish kerak?",
+          "a": "Yordam xizmatiga qo‘ng‘iroq qiling yoki boshqa qurilmadan kiring — karta bir daqiqada bloklanadi. Hisobdagi pullar xavfsiz qoladi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Boshlash",
+      "title": "Hisobni bugun oching",
+      "text": "Ilova App Store va Google Play’da. Savollar — yordam chatida yoki telefon orqali.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/sompay"
+      }
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Olov",
+  "tagline": "Ochiq olov restorani",
+  "niche": "Restoran: jonli olovdagi zamonaviy o‘zbek oshxonasi",
+  "nav": {
+    "cta": {
+      "label": "Bron qilish",
+      "href": "tel:+998712000012"
+    }
+  },
+  "seo": {
+    "title": "Olov — Toshkentdagi ochiq olov restorani, stol bron qilish",
+    "description": "Toshkent markazida o‘tin, ko‘mir va tandirda zamonaviy o‘zbek oshxonasi. Marmar mol go‘shtidan kabob, tandir somsa, mintaqa vinolari. Bron 02:00 gacha.",
+    "keywords": [
+      "restoran Toshkent",
+      "ko‘mirda grill",
+      "o‘zbek oshxonasi",
+      "Amir Temur ko‘chasidagi restoran",
+      "stol bron qilish",
+      "banket Toshkent"
+    ],
+    "answer": "Olov — Toshkent, Amir Temur ko‘chasi, 41 dagi ochiq olov restorani: pech, mangal va tandirdan zamonaviy o‘zbek taomlari. O‘rtacha chek — bir mehmonga 250–350 ming so‘m, har kuni 12:00 dan ochiq, juma va dam olish kunlari — 02:00 gacha. Stollar +998 71 200-00-12 telefoni orqali bron qilinadi."
+  },
+  "listing": {
+    "price": "",
+    "description": "Restoran, grill-bar yoki kafe uchun sayt. WebGL’dagi olov va uchqunlar, bosma kartaga o‘xshash menyu, bron tugmasi, «…gacha ochiq» holati, oshpaz va galereya.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Olov Grill» MChJ",
+    "street": "Amir Temur ko‘chasi, 41",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mazali narsa olovdan boshlanadi",
+      "eyebrow": "Olov · ochiq olov restorani · Toshkent",
+      "subtitle": "O‘zbek oshxonasini asrlar davomida qanday tayyorlangan bo‘lsa, shunday pishiramiz — o‘rik o‘tinida, saksovul cho‘g‘ida va loy tandirda. Faqat unga yangicha nigoh bilan qaraymiz.",
+      "words": [],
+      "cta": {
+        "label": "Stol bron qilish",
+        "href": "tel:+998712000012"
+      },
+      "ctaSecondary": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Oshxona",
+      "title": "Biz olovni oshxonada yashirmaymiz — u zal markazida",
+      "text": "12 metrlik ochiq oshxona: pech, mangal va ikkita tandir. Nonning ko‘tarilishini, sixdagi yog‘ning erishini va oshpazning sousni tatib ko‘rishini ko‘rasiz.\nGo‘shtni Jizzax fermerlaridan olamiz va 21 kun o‘zimiz yetiltiramiz. Sabzavotlar — har tong Chorsu bozoridan. Nonni ochilishga va oxirgi mehmongacha yopamiz.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "O‘rik o‘tini",
+        "Tandir",
+        "21 kunlik quruq yetiltirish",
+        "Chorsuning mavsumiy sabzavotlari",
+        "O‘zbekiston vinolari"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Olov kartasi",
+      "groups": [
+        {
+          "name": "Tandirdan",
+          "items": [
+            {
+              "name": "Kunjutli non",
+              "text": "qaymoq va asal bilan",
+              "price": "22 000"
+            },
+            {
+              "name": "Qo‘y go‘shtli somsa",
+              "text": "qatlamli xamir, dumba yog‘i",
+              "price": "38 000"
+            },
+            {
+              "name": "Tandir go‘sht",
+              "text": "qo‘y kuragi, loyda 6 soat",
+              "price": "185 000"
+            }
+          ]
+        },
+        {
+          "name": "Mangaldan",
+          "items": [
+            {
+              "name": "Marmar mol go‘shtidan kabob",
+              "text": "21 kunlik quruq yetiltirish",
+              "price": "145 000"
+            },
+            {
+              "name": "Qo‘zichoq qovurg‘asi",
+              "text": "zira, anor sousi",
+              "price": "168 000"
+            },
+            {
+              "name": "Cho‘g‘da bedana",
+              "text": "rayhon marinadi",
+              "price": "92 000"
+            },
+            {
+              "name": "Cho‘g‘da baqlajon",
+              "text": "suzma, yong‘oq, ko‘katlar",
+              "price": "48 000"
+            }
+          ]
+        },
+        {
+          "name": "Sovuq va mavsumiy",
+          "items": [
+            {
+              "name": "Chorsu pomidorlaridan achchiq-chuchuk",
+              "text": "",
+              "price": "36 000"
+            },
+            {
+              "name": "Mol go‘shtidan tartar",
+              "text": "dudlangan sarig‘, non chipslari",
+              "price": "96 000"
+            },
+            {
+              "name": "Qo‘y go‘shtli no‘xat xumusi",
+              "text": "",
+              "price": "58 000"
+            }
+          ]
+        },
+        {
+          "name": "Desertlar",
+          "items": [
+            {
+              "name": "Pishirilgan behi",
+              "text": "qaymoq, asal, pista",
+              "price": "52 000"
+            },
+            {
+              "name": "Rezavorli nisholda",
+              "text": "",
+              "price": "44 000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Oshpaz",
+      "title": "Olov oldida uyalmaydigan oshxona",
+      "items": [
+        {
+          "name": "Sherzod Rahimov",
+          "role": "bosh oshpaz va asoschi",
+          "image": ""
+        },
+        {
+          "name": "Anvar Yusupov",
+          "role": "tandir ustasi",
+          "image": ""
+        },
+        {
+          "name": "Kamila Ahmedova",
+          "role": "qandolatchi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zal",
+      "title": "Olov’dagi oqshom",
+      "items": [
+        {
+          "caption": "Ochiq oshxona va pech",
+          "image": ""
+        },
+        {
+          "caption": "Tandir go‘sht",
+          "image": ""
+        },
+        {
+          "caption": "Yozgi ayvon",
+          "image": ""
+        },
+        {
+          "caption": "Saksovul cho‘g‘idagi kabob",
+          "image": ""
+        },
+        {
+          "caption": "40 mehmonlik banket zali",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Tadbirlar",
+      "title": "Bayramlar va kechki ovqatlar",
+      "intro": "Zalni yopamiz, set-menyu tuzamiz va mangalga alohida usta qo‘yamiz.",
+      "items": [
+        {
+          "title": "40 mehmongacha banket",
+          "text": "Kaminli va o‘z menyusiga ega alohida zal.",
+          "price": "mehmon boshiga 380 000 so‘mdan",
+          "tag": "3 kun oldin"
+        },
+        {
+          "title": "Olov yonida kechki ovqat",
+          "text": "Ochiq oshxona yonida 8 kishilik stol, oshpazdan 7 taomli set.",
+          "price": "mehmon boshiga 650 000 so‘m",
+          "tag": "jumalarda"
+        },
+        {
+          "title": "Restoranni yopish",
+          "text": "Tadbiringiz uchun butun zal va ayvon, 120 mehmongacha.",
+          "price": "so‘rov bo‘yicha",
+          "tag": "2 hafta oldin"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlar nima deydi",
+      "items": [
+        {
+          "quote": "Tandir go‘sht og‘izda eriydi, nonni esa hali issiq olib kelishadi. Chet ellik mehmonlar uchun shahardagi eng yaxshi kechki ovqat.",
+          "author": "Dilnoza",
+          "role": "hamkorlar bilan kechki ovqat"
+        },
+        {
+          "quote": "Ochiq oshxona yonida o‘tirib, kun bo‘yi olovga qaradik. Oshpazning o‘zi kelib go‘shtni yetiltirish haqida aytib berdi.",
+          "author": "Aleksey",
+          "role": "mehmon"
+        },
+        {
+          "quote": "Otamning yubileyini 30 kishi bilan nishonladik — zal, menyu va tort birorta ham xatosiz bo‘ldi.",
+          "author": "Behzod",
+          "role": "banket"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Stolni qanday bron qilish mumkin?",
+          "a": "+998 71 200-00-12 telefoni yoki Telegram’da @olov_table orqali har kuni 11:00 dan. Bronni 20 daqiqa ushlab turamiz, juma va shanba uchun 2–3 kun oldin bron qilgan ma’qul."
+        },
+        {
+          "q": "O‘rtacha chek qancha?",
+          "a": "Ichimliklarsiz bir mehmonga taxminan 250–350 ming so‘m. Xizmat — 10%."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, hovlida 25 mashinalik bepul qo‘riqlanadigan avtoturargoh va juma hamda shanba oqshomlari valet xizmati bor."
+        },
+        {
+          "q": "Banket o‘tkazish mumkinmi?",
+          "a": "Ha, 40 mehmonlik kaminli alohida zal — mehmon boshiga 380 000 so‘mdan, buyurtma 3 kun oldin. Butun restoran — 120 mehmongacha, so‘rov bo‘yicha."
+        },
+        {
+          "q": "Bolalar bilan kelsa bo‘ladimi?",
+          "a": "Albatta: bolalar stullari, bolalar menyusi va bo‘yash kitoblari bor. Ochiq oshxona shisha bilan to‘silgan."
+        },
+        {
+          "q": "Vegetarian taomlar bormi?",
+          "a": "Ha: cho‘g‘da baqlajon va sabzavotlar, achchiq-chuchuk, go‘shtsiz xumus, nonlar va mavsumda qovoqli somsa. Ofitsiantni ogohlantiring — oshpaz maslahat beradi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Bron",
+      "title": "Olov har oqshom yonadi",
+      "text": "Qo‘ng‘iroq qiling — oshxona yonida, ayvonda yoki sokin burchakda stol tanlaymiz.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilib bron qilish",
+        "href": "tel:+998712000012"
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "name": "Bloom",
+  "tagline": "Parvarish rohatga aylanadigan beauty bar",
+  "niche": "Go‘zallik saloni va kosmetologiya",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "tel:+998712000041"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Go‘zallik saloni, kosmetolog yoki kosmetika brendi uchun sayt. WebGL’dagi sutli-pushti yaltiroq tomchilar, toifalar bo‘yicha prays, «oldin va keyin» slayderi, ustalar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Bloom — Toshkentdagi go‘zallik saloni va kosmetologiya",
+    "description": "Yuz parvarishi, tozalash va piling, manikyur, qosh va kipriklar, massaj — Mirobodda Bloom salonida. Steril asboblar, onlayn yozilish, har kuni 9:00–21:00.",
+    "keywords": [
+      "go‘zallik saloni Toshkent",
+      "kosmetolog Toshkent",
+      "yuzni tozalash",
+      "manikyur Mirobod",
+      "qoshni laminatsiya qilish",
+      "yuz massaji"
+    ],
+    "answer": "Bloom — Toshkentda Mirobod ko‘chasi, 18 dagi go‘zallik saloni: yuz parvarishi va tozalash 350 000 so‘mdan, qoplamali manikyur 180 000 so‘mdan, qosh va kipriklar 150 000 so‘mdan, massaj 300 000 so‘mdan. Har kuni 9:00 dan 21:00 gacha ishlaymiz, +998 71 200-00-41 telefoni yoki Telegram orqali yoziling."
+  },
+  "business": {
+    "legalName": "«Bloom Beauty» MChJ",
+    "street": "Mirobod ko‘chasi, 18",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tegingiz keladigan teri",
+      "eyebrow": "Beauty bar · Mirobod · har kuni 9–21",
+      "subtitle": "Yuz parvarishi, manikyur, qosh va massaj — bitta yorug‘ maskanda. Bir soatga keling — dam olib keting.",
+      "words": [
+        "Yuz parvarishi",
+        "Tozalash",
+        "Pilinglar",
+        "Manikyur",
+        "Qosh va kipriklar",
+        "Massaj"
+      ],
+      "cta": {
+        "label": "Yozilish",
+        "href": "tel:+998712000041"
+      },
+      "ctaSecondary": {
+        "label": "Praysni ko‘rish",
+        "href": "#price"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Yorqinlik",
+        "Mayinlik",
+        "Tozalik",
+        "Xotirjamlik",
+        "Parvarish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Salon haqida",
+      "title": "Shoshilmasdan go‘zallik",
+      "text": "Bloom — olti o‘rinli kichik salon. Yozuvlarni ketma-ket qo‘ymaymiz: mehmonlar orasida tozalash va sterilizatsiya uchun yigirma daqiqa bor. Professional kosmetikada ishlaymiz, muolajadan oldin kosmetolog terini ko‘rib, kurs sotmasdan, mos parvarishni tanlaydi. Choy, sokinlik va mayin yorug‘lik — doim.",
+      "image": ""
+    },
+    {
+      "id": "price",
+      "type": "services",
+      "label": "Prays",
+      "title": "Xizmatlar va narxlar",
+      "intro": "Narxlar bitta muolaja uchun. Kursning aniq narxini kosmetolog maslahatdan keyin aytadi — maslahat bepul.",
+      "items": [
+        {
+          "title": "Kosmetolog maslahati",
+          "text": "Terini ko‘rikdan o‘tkazish, mavsumga parvarish rejasi.",
+          "price": "bepul",
+          "tag": "Yuz"
+        },
+        {
+          "title": "Kombinatsiyalangan tozalash",
+          "text": "Ultratovush va qo‘lda tozalash, niqob, 75 daqiqa.",
+          "price": "350 000 so‘mdan",
+          "tag": "Yuz"
+        },
+        {
+          "title": "Teri turiga mos piling",
+          "text": "Tinchlantiruvchi parvarishli kislotali piling.",
+          "price": "300 000 so‘mdan",
+          "tag": "Yuz"
+        },
+        {
+          "title": "«Yorqinlik» parvarishi",
+          "text": "Namlash, yuz massaji, alginat niqob.",
+          "price": "420 000 so‘mdan",
+          "tag": "Yuz"
+        },
+        {
+          "title": "Qoplamali manikyur",
+          "text": "Apparat manikyur, gel-lak, kutikula parvarishi.",
+          "price": "180 000 so‘mdan",
+          "tag": "Qo‘l va oyoq"
+        },
+        {
+          "title": "SMART pedikyur",
+          "text": "Qoplamali ehtiyotkor pedikyur.",
+          "price": "250 000 so‘mdan",
+          "tag": "Qo‘l va oyoq"
+        },
+        {
+          "title": "Qosh arxitekturasi",
+          "text": "Shaklni tuzatish va bo‘yash.",
+          "price": "150 000 so‘mdan",
+          "tag": "Qosh va kipriklar"
+        },
+        {
+          "title": "Kipriklarni laminatsiya qilish",
+          "text": "Egilish, bo‘yash, oziqlantirish.",
+          "price": "220 000 so‘mdan",
+          "tag": "Qosh va kipriklar"
+        },
+        {
+          "title": "Haykaltaroshlik yuz massaji",
+          "text": "Qo‘l massaji, 45 daqiqa.",
+          "price": "300 000 so‘mdan",
+          "tag": "Massaj"
+        },
+        {
+          "title": "Bo‘shashtiruvchi bel massaji",
+          "text": "Iliq moy, 40 daqiqa.",
+          "price": "280 000 so‘mdan",
+          "tag": "Massaj"
+        }
+      ]
+    },
+    {
+      "id": "ba",
+      "type": "gallery",
+      "label": "Natijalar",
+      "title": "Oldin va keyin",
+      "items": [
+        {
+          "caption": "Tozalash kursi — 3 muolaja",
+          "image": ""
+        },
+        {
+          "caption": "Kipriklarni laminatsiya qilish",
+          "image": ""
+        },
+        {
+          "caption": "Qosh arxitekturasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Ustalar",
+      "title": "Yuzingizni ishonib topshiradiganlar",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "Kosmetolog-estetist, 9 yillik tajriba",
+          "image": ""
+        },
+        {
+          "name": "Alina Kim",
+          "role": "Manikyur va pedikyur ustasi",
+          "image": ""
+        },
+        {
+          "name": "Sevara Rahimova",
+          "role": "Qosh va kiprik ustasi",
+          "image": ""
+        },
+        {
+          "name": "Dilnoza Karimova",
+          "role": "Massajchi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Mehmonlarimiz nima deydi",
+      "items": [
+        {
+          "quote": "Birinchi marta kosmetolog kursga ko‘ndirmadi, hozir nima kerakligini halol aytdi. Tozalashdan keyin teri xuddi ta’tildan keyingidek.",
+          "author": "Kamila",
+          "role": "oyiga bir marta parvarishga keladi"
+        },
+        {
+          "quote": "Manikyur uch hafta turadi, salonda shunchalik sokinki, choy ichish uchun ataylab erta kelaman.",
+          "author": "Olga",
+          "role": "2022-yildan beri mehmon"
+        },
+        {
+          "quote": "Qoshlarni shunchalik tabiiy qilishdiki, erim shunchaki yaxshi ko‘rinyapsan, dedi. Bu usta uchun eng yaxshi maqtov.",
+          "author": "Nigora",
+          "role": "qosh arxitekturasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Qanday yozilish mumkin?",
+          "a": "+998 71 200-00-41 telefoni yoki Telegramda @bloombeautybar orqali. Tashrifdan bir kun oldin yozuvni xabar bilan tasdiqlaymiz."
+        },
+        {
+          "q": "Tozalash va pilinglarga qarshi ko‘rsatmalar bormi?",
+          "a": "Ha: faol yallig‘lanish, yangi qoraygan teri, ba’zi kislotalar uchun homiladorlik, izotretinoin qabul qilish. Kosmetolog maslahatda bu haqda so‘raydi va shubha bo‘lsa, yumshoq parvarish taklif qiladi."
+        },
+        {
+          "q": "Asboblarni qanday sterilizatsiya qilasiz?",
+          "a": "Metall asboblar dezinfeksiya, ultratovushli tozalash va quruq issiqlik shkafidan o‘tadi; kraft-paket sizning ko‘z oldingizda ochiladi. Egovlar va baflar bir martalik."
+        },
+        {
+          "q": "Sovg‘a sertifikatini sotib olsa bo‘ladimi?",
+          "a": "Ha, 300 000 so‘mdan istalgan summaga yoki aniq muolajaga. Sertifikat 6 oy amal qiladi, salonda rasmiylashtiramiz yoki elektron shaklda yuboramiz."
+        },
+        {
+          "q": "Yuzni tozalash qancha davom etadi?",
+          "a": "Niqob bilan birga taxminan 75 daqiqa. Qizarish odatda bir necha soatda o‘tadi, shuning uchun muhim uchrashuvlarni ertangi kunga rejalashtirgan ma’qul."
+        },
+        {
+          "q": "Kechiksam-chi?",
+          "a": "Bizni ogohlantiring: 15 daqiqadan ko‘p kechikilsa, keyingi mehmonni kuttirmaslik uchun muolajani qisqartirish yoki ko‘chirish kerak bo‘lishi mumkin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Bir soatlik sokinlikka keling",
+      "text": "Har kuni 9:00 dan 21:00 gacha Mirobodda kutamiz, yaqinida avtoturargoh bor.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilib yozilish",
+        "href": "tel:+998712000041"
+      }
+    }
+  ]
+}

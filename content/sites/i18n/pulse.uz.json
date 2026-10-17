@@ -1,0 +1,324 @@
+{
+  "name": "Pulse",
+  "tagline": "Jiddiy shug‘ullanadiganlar uchun klub",
+  "niche": "Fitnes-klub: kuch, funksional va jang mashg‘ulotlari",
+  "nav": {
+    "cta": {
+      "label": "Sinov mashg‘uloti",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Pulse — Toshkentdagi fitnes-klub: trenajyor zal va boks",
+    "description": "1 800 m² trenajyor zal, funksional mashg‘ulotlar, boks va guruh dasturlari. 6:00 dan 23:00 gacha ochiq, abonement — oyiga 590 000 so‘mdan.",
+    "keywords": [
+      "fitnes-klub Toshkent",
+      "trenajyor zal",
+      "shaxsiy murabbiy",
+      "boks Toshkent",
+      "funksional trening",
+      "sport zalga abonement"
+    ],
+    "answer": "Pulse — Toshkentda Amir Temur ko‘chasidagi fitnes-klub: 1 800 m² trenajyor zal, funksional trening zonasi, ring va guruh dasturlari. Har kuni 6:00 dan 23:00 gacha ishlaydi. Abonement — oyiga 590 000 so‘mdan, shaxsiy mashg‘ulot — 250 000 so‘m, murabbiy bilan birinchi mashg‘ulot bepul."
+  },
+  "listing": {
+    "price": "",
+    "description": "Fitnes-klub, sport studiyasi yoki tadbir uchun sayt. Qora fonda neon, tezlikdan qiyshayadigan ulkan kinetik tipografika, abonementlar, murabbiylar va jadval.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Pulse Club» MChJ",
+    "street": "Amir Temur ko‘chasi, 107B",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tezroq. Kuchliroq. Uzoqroq.",
+      "eyebrow": "Fitnes-klub · Toshkent · 06:00–23:00",
+      "subtitle": "1 800 m² temir, ring, funksional zona va yondashuvlaringizni emas, natijangizni hisoblaydigan murabbiylar.",
+      "words": [
+        "Birinchi mashg‘ulot bepul"
+      ],
+      "cta": {
+        "label": "Bepul yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Abonementlar",
+        "href": "#prices"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Kuch",
+        "Boks",
+        "Funksional",
+        "Kardio",
+        "Harakatchanlik",
+        "Tiklanish"
+      ]
+    },
+    {
+      "id": "dirs",
+      "type": "services",
+      "label": "Yo‘nalishlar",
+      "title": "O‘z tezligingni tanla",
+      "intro": "Barcha yo‘nalishlar «Cheksiz» abonementiga kiradi. Shaxsiy mashg‘ulotlar — alohida.",
+      "items": [
+        {
+          "title": "Trenajyor zal",
+          "text": "60 kg gacha erkin og‘irliklar, 9 ta kuch ramasi, Hammer Strength liniyasi va 40 o‘rinli kardio-zona.",
+          "price": "har qanday abonementda",
+          "tag": "06:00–23:00"
+        },
+        {
+          "title": "Funksional trening",
+          "text": "12 kishigacha guruhlar: 50 daqiqada kuch, chidamlilik va muvofiqlashtirish.",
+          "price": "haftasiga 12 mashg‘ulot",
+          "tag": "Guruhlar"
+        },
+        {
+          "title": "Boks va kikboksing",
+          "text": "Ring, 20 ta qop, terma jamoa tajribasiga ega murabbiylar. Yangi boshlovchilar — alohida guruh.",
+          "price": "haftasiga 8 mashg‘ulot",
+          "tag": "Ring"
+        },
+        {
+          "title": "Shaxsiy mashg‘ulotlar",
+          "text": "Maqsadingizga mos reja, ovqatlanish nazorati va har to‘rt haftada o‘lchovlar.",
+          "price": "250 000 so‘m",
+          "tag": "1 ga 1"
+        },
+        {
+          "title": "Tiklanish",
+          "text": "Fin saunasi, hammom va yozilish bo‘yicha massajchi.",
+          "price": "150 000 so‘mdan",
+          "tag": "Spa"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Klub raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "1800",
+          "suffix": " m²",
+          "label": "klub maydoni"
+        },
+        {
+          "value": "17",
+          "suffix": " soat",
+          "label": "har kuni ochiq"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "jamoadagi murabbiylar"
+        },
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "haftalik guruh mashg‘ulotlari"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Yashirin to‘lovlarsiz",
+      "items": [
+        {
+          "name": "Kunduzgi",
+          "price": "590 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "Zal va kardio 6:00 dan 17:00 gacha",
+            "Murabbiy bilan kirish mashg‘uloti",
+            "Shkafcha va sochiq"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Cheksiz",
+          "price": "790 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "Butun klub 6:00 dan 23:00 gacha",
+            "Barcha guruh dasturlari",
+            "Sauna va hammom",
+            "Oyda bir marta o‘lchov"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Yil",
+          "price": "6 900 000 so‘m",
+          "period": "/ 12 oy",
+          "features": [
+            "«Cheksiz»dagi hamma narsa",
+            "60 kungacha muzlatish",
+            "4 ta shaxsiy mashg‘ulot",
+            "Do‘st uchun mehmon tashriflari"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Murabbiylar",
+      "title": "Jamoa",
+      "items": [
+        {
+          "name": "Rustam Xalilov",
+          "role": "Kuch treningi",
+          "image": ""
+        },
+        {
+          "name": "Diana Sergeyeva",
+          "role": "Funksional va harakatchanlik",
+          "image": ""
+        },
+        {
+          "name": "Sherzod Ahmedov",
+          "role": "Boks",
+          "image": ""
+        },
+        {
+          "name": "Olga Pak",
+          "role": "Nutritsiologiya",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Jadval",
+      "title": "Klubdagi hafta",
+      "groups": [
+        {
+          "name": "Ish kunlari",
+          "items": [
+            {
+              "name": "Funksional trening",
+              "text": "B zal · 12 kishigacha",
+              "price": "07:00"
+            },
+            {
+              "name": "Yangi boshlovchilar uchun boks",
+              "text": "Ring",
+              "price": "19:00"
+            },
+            {
+              "name": "Harakatchanlik",
+              "text": "B zal",
+              "price": "20:30"
+            }
+          ]
+        },
+        {
+          "name": "Dam olish kunlari",
+          "items": [
+            {
+              "name": "Juftlikda kuch",
+              "text": "A zal",
+              "price": "10:00"
+            },
+            {
+              "name": "Kikboksing",
+              "text": "Ring",
+              "price": "12:00"
+            },
+            {
+              "name": "Tiklanish va cho‘zilish",
+              "text": "B zal",
+              "price": "17:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "A’zolar natijalari",
+      "items": [
+        {
+          "quote": "Rustam bilan yarim yilda jim 70 dan 110 kg gacha oshdi. Eng muhimi — jarohatsiz: texnika birinchi mashg‘ulotdan qo‘yiladi.",
+          "author": "Azamat",
+          "role": "2024 yildan beri klubda"
+        },
+        {
+          "quote": "Sinov funksional mashg‘ulotiga keldim va qoldim. Guruhlar kichik, murabbiy har birini ko‘radi.",
+          "author": "Kamila",
+          "role": "guruhlar ishtirokchisi"
+        },
+        {
+          "quote": "Ishdan oldin ertalab soat 6 da boraman — zal bo‘sh, hammasi toza, bardagi qahva tayyor.",
+          "author": "Dmitriy",
+          "role": "«Yil» abonementi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Boshlashdan oldingi savollar",
+      "items": [
+        {
+          "q": "Abonement qancha turadi?",
+          "a": "Kunduzgi (17:00 gacha) — oyiga 590 000 so‘m, «Cheksiz» — 790 000 so‘m, yillik — 6 900 000 so‘m. Bir martalik tashrif — 120 000 so‘m."
+        },
+        {
+          "q": "Sinov mashg‘uloti bormi?",
+          "a": "Ha, murabbiy bilan birinchi mashg‘ulot bepul: klub bilan tanishuv, o‘lchovlar va birinchi oy rejasi. Yozilish telefon yoki Telegram orqali."
+        },
+        {
+          "q": "Klub soat nechada ishlaydi?",
+          "a": "Har kuni 6:00 dan 23:00 gacha, bayramlarda ham. Guruh mashg‘ulotlari — jadval bo‘yicha 7:00 dan 21:00 gacha."
+        },
+        {
+          "q": "Shaxsiy murabbiy qancha turadi?",
+          "a": "Bitta mashg‘ulot — 250 000 so‘m, 10 talik paket — 2 200 000 so‘m. Murabbiyni istalgan vaqtda tanlash yoki almashtirish mumkin."
+        },
+        {
+          "q": "Abonementni muzlatish mumkinmi?",
+          "a": "Ha: oylik — 7 kungacha, yillik — yiliga 60 kungacha, resepshndagi ariza bo‘yicha."
+        },
+        {
+          "q": "O‘z kiyimim va sochig‘im kerakmi?",
+          "a": "Faqat sport kiyimi va almashtiriladigan poyabzal. Sochiq, shkafcha va dushxona barcha abonementlarga kiradi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Start",
+      "title": "Birinchi mashg‘ulot — bizning hisobimizdan",
+      "text": "Ariza qoldiring — administrator 15 daqiqa ichida qo‘ng‘iroq qilib, vaqt tanlaydi.",
+      "cta": {
+        "label": "Klubga qo‘ng‘iroq qilish",
+        "href": "tel:+998712000004"
+      }
+    }
+  ]
+}

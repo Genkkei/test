@@ -5,6 +5,7 @@ import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { BeforeAfter, DropsCanvas, PetalHeader } from './client'
 
 const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, '')}`
@@ -16,18 +17,18 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <PetalHeader>
-        <nav className="petal-nav" aria-label="Разделы">
+        <nav className="petal-nav" aria-label={ui(site.lang, 'sections')}>
           {links.slice(0, half).map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
             </a>
           ))}
         </nav>
-        <a href="#top" className="petal-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="petal-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           {site.name}
         </a>
         <div className="petal-header__side">
-          <nav className="petal-nav" aria-label="Ещё разделы">
+          <nav className="petal-nav" aria-label={pick(site.lang, { ru: 'Ещё разделы', uz: 'Boshqa bo‘limlar', en: 'More sections' })}>
             {links.slice(half).map((l) => (
               <a key={l.href} href={l.href}>
                 {l.label}
@@ -39,7 +40,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </PetalHeader>
       <main id="top">{children}</main>
@@ -50,19 +51,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </p>
           <div className="petal-footer__cols">
             <div>
-              <p className="petal-footer__h">Запись</p>
+              <p className="petal-footer__h">{pick(site.lang, { ru: 'Запись', uz: 'Yozilish', en: 'Booking' })}</p>
               {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
               {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
             </div>
             <div>
-              <p className="petal-footer__h">Салон</p>
+              <p className="petal-footer__h">{pick(site.lang, { ru: 'Салон', uz: 'Salon', en: 'Salon' })}</p>
               <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
               {b.hours.map((h) => (
-                <p key={h}>{humanHours(h)}</p>
+                <p key={h}>{humanHours(h, site.lang)}</p>
               ))}
             </div>
             <div>
-              <p className="petal-footer__h">Мы в сетях</p>
+              <p className="petal-footer__h">{pick(site.lang, { ru: 'Мы в сетях', uz: 'Ijtimoiy tarmoqlarda', en: 'Follow us' })}</p>
               {b.socials.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                   {s.name}
@@ -112,7 +113,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         </div>
       </div>
       {s.words.length ? (
-        <ul className="petal-hero__chips" aria-label="Направления">
+        <ul className="petal-hero__chips" aria-label={pick(site.lang, { ru: 'Направления', uz: 'Yo‘nalishlar', en: 'Services' })}>
           {s.words.map((w, i) => (
             <li key={w} className="petal-rise" style={{ ['--d' as string]: `${0.8 + i * 0.08}s` }}>
               {w}
@@ -124,19 +125,19 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee petal-marquee" aria-label="Наши направления">
+    <section className="s s-marquee petal-marquee" aria-label={pick(site.lang, { ru: 'Наши направления', uz: 'Yo‘nalishlarimiz', en: 'What we do' })}>
       <Marquee items={s.items} speed={44} sep="✿" />
     </section>
   )
 }
 
 /** Прайс как карточка салона: услуги собраны по метке в группы, цена справа. */
-function Services({ section: s }: SectionProps<'services'>) {
+function Services({ section: s, site }: SectionProps<'services'>) {
   const groups = new Map<string, typeof s.items>()
   for (const it of s.items) {
-    const key = it.tag || 'Услуги'
+    const key = it.tag || pick(site.lang, { ru: 'Услуги', uz: 'Xizmatlar', en: 'Services' })
     groups.set(key, [...(groups.get(key) ?? []), it])
   }
   return (
@@ -182,13 +183,13 @@ function Gallery({ section: s, site }: SectionProps<'gallery'>) {
           const img = (filter?: boolean) =>
             it.image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img className="media" src={it.image} alt={it.caption || `${site.name} — работа ${i + 1}`} loading="lazy" style={filter ? { filter: 'saturate(.35) brightness(.92) contrast(.9)' } : undefined} />
+              <img className="media" src={it.image} alt={it.caption || `${site.name} — ${pick(site.lang, { ru: 'работа', uz: 'ish', en: 'result' })} ${i + 1}`} loading="lazy" style={filter ? { filter: 'saturate(.35) brightness(.92) contrast(.9)' } : undefined} />
             ) : (
               <Art className="media" seed={seed} colors={filter ? [p[0], p[3], p[3], p[2]] : p} kind="blobs" label={it.caption} />
             )
           return (
             <figure key={i} className="petal-gallery__item" data-reveal="up" data-delay={String((i % 3) * 0.08)}>
-              <BeforeAfter before={img(true)} after={img(false)} label={it.caption || `работа ${i + 1}`} />
+              <BeforeAfter before={img(true)} after={img(false)} label={it.caption || `${pick(site.lang, { ru: 'работа', uz: 'ish', en: 'result' })} ${i + 1}`} lang={site.lang} />
               {it.caption ? <figcaption>{it.caption}</figcaption> : null}
             </figure>
           )

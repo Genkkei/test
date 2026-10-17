@@ -1,0 +1,366 @@
+{
+  "name": "Grain",
+  "tagline": "Specialty coffee roasted in Tashkent every Tuesday",
+  "niche": "Specialty coffee roaster and café",
+  "nav": {
+    "cta": {
+      "label": "Buy beans",
+      "href": "#beans"
+    }
+  },
+  "seo": {
+    "title": "Grain — specialty coffee and roastery in Tashkent",
+    "description": "We roast specialty beans every Tuesday and deliver across Tashkent within a day. Café in Mirabad, bean subscriptions, barista courses.",
+    "keywords": [
+      "specialty coffee Tashkent",
+      "coffee beans",
+      "coffee roasting",
+      "café Mirabad",
+      "coffee subscription",
+      "barista courses"
+    ],
+    "answer": "Grain is a roastery and café in Tashkent at 22 Mirabad St. We roast specialty beans every Tuesday: a 250 g bag costs from 145,000 UZS, delivery across Tashkent is next day and free over 300,000 UZS. The café is open daily from 8:00."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a café, coffee roaster or bakery. Bags of beans on a shelf with tasting notes and prices, steam over a cup in WebGL, a café menu, a bean subscription and the journey from farm to cup.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Grain Coffee LLC",
+    "street": "22 Mirabad St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent; beans delivered across Uzbekistan"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee that smells of the farm, not the warehouse",
+      "eyebrow": "Roastery · Café · Tashkent",
+      "subtitle": "We bring green beans straight from small farms, roast them in small batches on Tuesdays and sell them while the coffee still has character.",
+      "words": [
+        "Blueberry",
+        "Jasmine",
+        "Cocoa",
+        "Peach"
+      ],
+      "cta": {
+        "label": "Choose beans",
+        "href": "#beans"
+      },
+      "ctaSecondary": {
+        "label": "Café menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "tape",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Fresh roast every Tuesday",
+        "Same-day delivery in Tashkent",
+        "Beans direct from farms",
+        "Filter and espresso",
+        "Barista courses"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "A small roastery with a big stubborn streak",
+      "text": "We started in 2021 with a five-kilo roaster in a garage in Chilanzar. Today we roast up to 300 kilos a week, but the rules haven’t changed: we know every farm by name, cup every batch and never sell coffee more than a month after roasting. At the Mirabad café you can try any bean from the shelf — as filter, espresso or AeroPress.",
+      "image": ""
+    },
+    {
+      "id": "beans",
+      "type": "services",
+      "label": "Beans",
+      "title": "On the shelf this week",
+      "intro": "250 g bags, roasted no more than seven days ago. We’ll grind for your brewer for free.",
+      "items": [
+        {
+          "title": "Ethiopia Guji",
+          "text": "blueberry, jasmine, bergamot",
+          "price": "185 000 UZS",
+          "tag": "Ethiopia · natural"
+        },
+        {
+          "title": "Colombia Huila",
+          "text": "red apple, caramel, cocoa",
+          "price": "165 000 UZS",
+          "tag": "Colombia · washed"
+        },
+        {
+          "title": "Kenya Nyeri",
+          "text": "blackcurrant, grapefruit, tomato",
+          "price": "195 000 UZS",
+          "tag": "Kenya · washed"
+        },
+        {
+          "title": "Brazil Cerrado",
+          "text": "hazelnut, milk chocolate, honey",
+          "price": "145 000 UZS",
+          "tag": "Brazil · pulped natural"
+        },
+        {
+          "title": "Rwanda Nyamasheke",
+          "text": "peach, tea, cane sugar",
+          "price": "175 000 UZS",
+          "tag": "Rwanda · washed"
+        },
+        {
+          "title": "Grain espresso blend",
+          "text": "cocoa, cherry, long finish",
+          "price": "150 000 UZS",
+          "tag": "Brazil + Ethiopia · blend"
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Café",
+      "title": "The Mirabad menu",
+      "groups": [
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Grain blend or bean of the week",
+              "price": "22 000"
+            },
+            {
+              "name": "Flat white",
+              "text": "double espresso, 180 ml milk",
+              "price": "34 000"
+            },
+            {
+              "name": "Cappuccino",
+              "text": "",
+              "price": "32 000"
+            },
+            {
+              "name": "Raf with halva",
+              "text": "our winter favourite",
+              "price": "38 000"
+            }
+          ]
+        },
+        {
+          "name": "Filter",
+          "items": [
+            {
+              "name": "V60",
+              "text": "any bean from the shelf",
+              "price": "36 000"
+            },
+            {
+              "name": "AeroPress",
+              "text": "",
+              "price": "34 000"
+            },
+            {
+              "name": "Cold brew",
+              "text": "steeped for 18 hours",
+              "price": "35 000"
+            }
+          ]
+        },
+        {
+          "name": "With your coffee",
+          "items": [
+            {
+              "name": "Croissant",
+              "text": "from the bakery next door",
+              "price": "26 000"
+            },
+            {
+              "name": "Banana bread",
+              "text": "",
+              "price": "24 000"
+            },
+            {
+              "name": "Syrniki",
+              "text": "until 1 pm",
+              "price": "42 000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "The bean’s journey",
+      "title": "From farm to cup",
+      "items": [
+        {
+          "title": "Farm",
+          "text": "We buy green beans from cooperatives and family farms scoring above 84 points."
+        },
+        {
+          "title": "Cupping",
+          "text": "We taste every batch before buying and again when it arrives in Tashkent."
+        },
+        {
+          "title": "Roasting",
+          "text": "On Tuesdays, in 5 kg batches, with a profile for each bean."
+        },
+        {
+          "title": "Resting",
+          "text": "The beans rest for 3–5 days so the carbon dioxide can escape."
+        },
+        {
+          "title": "Cup",
+          "text": "At the café, at home or at the office — while the coffee is at its peak."
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "type": "pricing",
+      "label": "Subscription",
+      "title": "Fresh beans every two weeks",
+      "items": [
+        {
+          "name": "Home",
+          "price": "290 000 UZS",
+          "period": "/ month",
+          "features": [
+            "2 × 250 g bags a month",
+            "Bean of the week, roaster’s choice",
+            "Free delivery",
+            "Pause anytime"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Gourmet",
+          "price": "520 000 UZS",
+          "period": "/ month",
+          "features": [
+            "4 × 250 g bags",
+            "Two different beans",
+            "Brewing recipe cards",
+            "10% off at the café"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Office",
+          "price": "from 1 200 000 UZS",
+          "period": "/ month",
+          "features": [
+            "From 3 kg of espresso blend",
+            "Setting up your coffee machine",
+            "Staff training",
+            "Invoicing for companies"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "300",
+          "suffix": " kg",
+          "label": "roasted every week"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "partner farms in 8 countries"
+        },
+        {
+          "value": "7",
+          "suffix": " days",
+          "label": "maximum age of roast on the shelf"
+        },
+        {
+          "value": "1",
+          "suffix": " day",
+          "label": "delivery across Tashkent"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people write after their first bag",
+      "items": [
+        {
+          "quote": "I tried the Ethiopia and realised for the first time that coffee can smell of blueberries without any syrup. I’m on the subscription now.",
+          "author": "Dilnoza",
+          "role": "“Home” subscription"
+        },
+        {
+          "quote": "They set up a blend in our office coffee machine and trained the team. The queue for coffee is now longer than the one for the water cooler.",
+          "author": "Timur",
+          "role": "office manager at an IT company"
+        },
+        {
+          "quote": "The best flat white in Mirabad, and the barista always tells you what’s in the dripper today.",
+          "author": "Alexey",
+          "role": "café guest"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How fast do you deliver beans?",
+          "a": "Within Tashkent, the day after you order — free over 300,000 UZS, otherwise 25,000 UZS. To other cities in Uzbekistan, 2–4 days by courier service."
+        },
+        {
+          "q": "Can you grind the coffee?",
+          "a": "Yes, for free. Tell us your brewing method — cezve, espresso, filter, French press or moka pot — and we’ll grind to suit it."
+        },
+        {
+          "q": "How long do the beans keep?",
+          "a": "Coffee opens up best between day 5 and day 30 after roasting. Keep the bag closed at room temperature, not in the fridge."
+        },
+        {
+          "q": "Which bean should I choose for a cezve or moka pot?",
+          "a": "Go for Brazil Cerrado or the espresso blend: chocolate and nutty notes handle high temperatures well."
+        },
+        {
+          "q": "Do you run barista courses?",
+          "a": "Yes, once a month: a 3-day basic course of 3 hours a day, 1,900,000 UZS, groups of up to 6. We post the schedule on Telegram."
+        },
+        {
+          "q": "Do you work with cafés and restaurants?",
+          "a": "Yes, we supply beans from 3 kg a week, set up equipment and train baristas. Write to us and we’ll send samples for cupping."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Drop in for a cup or order to your door",
+      "text": "The café is in Mirabad, with the roastery in the same place. We take bean orders on Telegram and by phone.",
+      "cta": {
+        "label": "Order on Telegram",
+        "href": "https://t.me/graincoffee"
+      }
+    }
+  ]
+}

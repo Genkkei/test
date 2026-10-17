@@ -1,0 +1,314 @@
+{
+  "name": "Kadr",
+  "tagline": "I shoot so that twenty years from now you have something to remember",
+  "niche": "Photographer and videographer: weddings, portraits, commercial shoots",
+  "nav": {
+    "cta": {
+      "label": "Book a date",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a photographer, videographer or production studio. A darkroom under red light: a photo develops in WebGL, work shown as a contact sheet and film strip, shoot packages.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kadr — wedding and portrait photographer in Tashkent",
+    "description": "Weddings, portraits, content for brands and short films. Candid reportage without posing, film-style colour, finished photos in 3 weeks.",
+    "keywords": [
+      "wedding photographer Tashkent",
+      "photographer Tashkent",
+      "portrait photography",
+      "wedding videographer",
+      "brand photography",
+      "photo studio Tashkent"
+    ],
+    "answer": "Kadr is a photo and video studio in Tashkent: wedding reportage from 6,000,000 UZS per day, a studio portrait from 1,200,000 UZS per hour, brand content from 4,500,000 UZS. Finished photos are delivered in 3 weeks, previews in 3 days; a date is booked with a 30% deposit."
+  },
+  "business": {
+    "legalName": "Sole trader T. A. Rakhimov",
+    "street": "7 Mukimi St, studio on the 3rd floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Samarkand, Bukhara, travel across Uzbekistan"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Light that stays",
+      "eyebrow": "Photo and video · Tashkent · since 2016",
+      "subtitle": "Weddings, portraits and shoots for brands. No staged poses or plastic retouching — candid frames with film colour that you’ll want to print.",
+      "words": [
+        "Weddings",
+        "Portraits",
+        "Brands",
+        "Short films"
+      ],
+      "cta": {
+        "label": "Book a date",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See the series",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Reportage",
+        "Film colour",
+        "35 mm",
+        "Medium format",
+        "Short films",
+        "Lab prints"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studio",
+      "title": "Timur Rakhimov, photographer",
+      "text": "I’ve been photographing people for ten years: more than two hundred weddings, hundreds of portraits, campaigns for restaurants and clothing brands. I shoot digital and film and build the colour by hand for every story. On a shoot I’m almost invisible — the best frames happen when people forget about the camera.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Series",
+      "title": "Contact sheet",
+      "items": [
+        {
+          "title": "Malika & Aziz",
+          "category": "Wedding",
+          "year": "2026",
+          "text": "A summer garden wedding in Bostanlyk: from getting ready at dawn to dancing under the string lights.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Dry season",
+          "category": "Clothing brand",
+          "year": "2025",
+          "text": "A linen collection campaign shot in the Kyzylkum desert.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Old town",
+          "category": "Portrait",
+          "year": "2025",
+          "text": "A series of portraits of Bukhara craftsmen in their workshops.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Dinner on the roof",
+          "category": "Restaurant",
+          "year": "2024",
+          "text": "Menu, interior and guests of a restaurant for the season launch.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "House by the river",
+          "category": "Family",
+          "year": "2024",
+          "text": "A family shoot on a day off — no direction.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Nine minutes",
+          "category": "Short film",
+          "year": "2023",
+          "text": "A documentary film about a wedding in Samarkand.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "type": "gallery",
+      "label": "Film",
+      "title": "Frames between frames",
+      "items": [
+        {
+          "caption": "The bride getting ready",
+          "image": ""
+        },
+        {
+          "caption": "Tashkent, 6:40 a.m.",
+          "image": ""
+        },
+        {
+          "caption": "First look",
+          "image": ""
+        },
+        {
+          "caption": "A workshop in Bukhara",
+          "image": ""
+        },
+        {
+          "caption": "Dastarkhan",
+          "image": ""
+        },
+        {
+          "caption": "The last dance",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Packages",
+      "title": "What a shoot costs",
+      "items": [
+        {
+          "name": "Portrait",
+          "price": "1,200,000 UZS",
+          "period": "per hour in the studio",
+          "features": [
+            "30 colour-graded photos",
+            "Retouching of 5 frames",
+            "Ready in 7 days"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Wedding day",
+          "price": "6,000,000 UZS",
+          "period": "up to 10 hours",
+          "features": [
+            "Reportage from getting ready to the dance",
+            "400+ colour-graded photos",
+            "Preview in 3 days",
+            "Online gallery for a year"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Photo + film",
+          "price": "11,000,000 UZS",
+          "period": "per day",
+          "features": [
+            "Photographer and videographer",
+            "A 5–9 minute film",
+            "A teaser for social media",
+            "Audio of the vows"
+          ],
+          "featured": false
+        },
+        {
+          "name": "For brands",
+          "price": "from 4,500,000 UZS",
+          "period": "per shift",
+          "features": [
+            "Catalogue or campaign",
+            "Usage rights",
+            "Colour matched to your brand style"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From the first call to the print",
+      "items": [
+        {
+          "title": "Getting to know you",
+          "text": "We talk through the day, the place and the mood. The date is booked with a deposit."
+        },
+        {
+          "title": "Shoot plan",
+          "text": "A week before the shoot we put together a timeline and a list of key shots and people."
+        },
+        {
+          "title": "The shoot",
+          "text": "I work quietly and close by. At a wedding — from getting ready to the last dance."
+        },
+        {
+          "title": "Developing and colour",
+          "text": "I select the frames and build the colour by hand. Preview in 3 days."
+        },
+        {
+          "title": "Gallery",
+          "text": "An online gallery, full-size files and lab prints if you like."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people say",
+      "items": [
+        {
+          "quote": "We never noticed when he was shooting. Then we saw everything in the photos: how Dad’s hands were shaking and how Grandma was laughing.",
+          "author": "Malika & Aziz",
+          "role": "wedding, 2026"
+        },
+        {
+          "quote": "The campaign was delivered in ten days, and the colour matched our style exactly. The photos still work in our ads.",
+          "author": "Lola N.",
+          "role": "clothing brand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before the shoot",
+      "items": [
+        {
+          "q": "When will the photos be ready?",
+          "a": "A preview of 30–40 frames 3 days after the wedding, the full gallery in 3 weeks. Portrait sessions — in 7 days."
+        },
+        {
+          "q": "Do you hand over the raw files?",
+          "a": "I deliver every good frame, colour-graded, at full size. I don’t hand over RAW files: they are the negative, and the colour is part of the authorship."
+        },
+        {
+          "q": "Do you travel to other cities?",
+          "a": "Yes, across Uzbekistan and abroad. Travel and accommodation are paid by the client; travel days are not charged."
+        },
+        {
+          "q": "How do I book a date?",
+          "a": "A 30% deposit under a contract is enough. The rest is paid on the day of the shoot. If the date moves, the deposit moves to the new one."
+        },
+        {
+          "q": "Can you shoot on film?",
+          "a": "Yes, I can add 1–2 rolls of 35 mm or medium format to any package: developing and scans are included."
+        },
+        {
+          "q": "Do you have your own studio?",
+          "a": "Yes, a 90 m² daylight studio on Mukimi St — for portraits, catalogues and product shots."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Which date shall we hold?",
+      "text": "Send me the date, the city and a few words about yourselves — I’ll reply within a day.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/kadrstudio"
+      }
+    }
+  ]
+}

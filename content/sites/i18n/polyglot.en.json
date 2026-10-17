@@ -1,0 +1,322 @@
+{
+  "name": "Polyglot",
+  "tagline": "A language school where only the first five minutes are scary",
+  "niche": "Language school: English, Korean and German for kids and adults",
+  "nav": {
+    "cta": {
+      "label": "Trial lesson",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Polyglot — language school in Tashkent: English, Korean",
+    "description": "English, Korean and German for children from 6 and adults. Groups of up to 8, IELTS and TOPIK preparation, and a free trial lesson.",
+    "keywords": [
+      "English courses Tashkent",
+      "Korean language courses",
+      "IELTS preparation",
+      "TOPIK Tashkent",
+      "English for kids",
+      "German language courses"
+    ],
+    "answer": "Polyglot is a language school in Tashkent at 54 Nukus St. We teach English, Korean and German to children from age 6 and adults in groups of up to 8. A month of classes starts from 690,000 UZS (3 lessons a week); IELTS preparation takes 4 months. The first lesson and level test are free."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a language school, kids’ centre or online courses. Bright and bouncy: a mascot that follows the cursor, programme cards, a level-by-level learning path, formats and prices.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Polyglot Education LLC",
+    "street": "54 Nukus St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent; online across Uzbekistan"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Speak a new language within a month",
+      "eyebrow": "👋 English · Korean · German",
+      "subtitle": "Groups of up to 8, real teachers and lessons where the students do the talking, not the teacher. The first lesson is free.",
+      "words": [
+        "Hello!",
+        "안녕하세요!",
+        "Hallo!",
+        "Salom!"
+      ],
+      "cta": {
+        "label": "Book a trial lesson",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Programmes",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "langs",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "English",
+        "한국어",
+        "Deutsch",
+        "IELTS",
+        "TOPIK",
+        "Speaking club",
+        "Kids"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "We teach so the language becomes a habit",
+      "text": "Since 2018, more than three thousand students have been through our groups. Students talk for 70% of every lesson: discussing, debating, playing and solving problems. Between lessons there are 10-minute daily tasks in a Telegram bot, so the language doesn’t slip away over the weekend. Once a month there’s a speaking club with native speakers.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Programmes",
+      "title": "Choose your programme",
+      "intro": "Every programme starts with a free level test and a trial lesson.",
+      "items": [
+        {
+          "title": "English for adults",
+          "text": "From zero to a confident B2: speaking, grammar without cramming, business correspondence.",
+          "price": "from 690 000 UZS / mo",
+          "tag": "A1–C1"
+        },
+        {
+          "title": "Korean",
+          "text": "Hangul in two weeks, then conversational Korean and TOPIK I–II preparation.",
+          "price": "from 750 000 UZS / mo",
+          "tag": "TOPIK"
+        },
+        {
+          "title": "German",
+          "text": "For study and work in Germany: levels A1–B1 and Goethe-Zertifikat preparation.",
+          "price": "from 720 000 UZS / mo",
+          "tag": "A1–B1"
+        },
+        {
+          "title": "IELTS preparation",
+          "text": "A 4-month intensive: all four parts of the exam, mock tests every two weeks.",
+          "price": "1 100 000 UZS / mo",
+          "tag": "IELTS"
+        },
+        {
+          "title": "English for kids",
+          "text": "Ages 6 to 12: games, songs, projects. Parents follow progress in the app.",
+          "price": "from 590 000 UZS / mo",
+          "tag": "ages 6–12"
+        },
+        {
+          "title": "Speaking club",
+          "text": "Once a week: real-life topics, native speakers, no textbooks.",
+          "price": "120 000 UZS / session",
+          "tag": "all levels"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "How to start",
+      "title": "From “hello” to fluent speech",
+      "items": [
+        {
+          "title": "Level test",
+          "text": "15 minutes online or at school — free."
+        },
+        {
+          "title": "Trial lesson",
+          "text": "Meet your teacher and group."
+        },
+        {
+          "title": "A group at your level",
+          "text": "Up to 8 people, 3 lessons a week, 80 minutes each."
+        },
+        {
+          "title": "Progress every month",
+          "text": "A mini-test and a report: what worked and what to work on."
+        },
+        {
+          "title": "Exam or goal",
+          "text": "IELTS, TOPIK, a job interview or a move abroad — we see you through to the result."
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "Formats and prices",
+      "items": [
+        {
+          "name": "Group",
+          "price": "690 000 UZS",
+          "period": "per month",
+          "features": [
+            "12 lessons of 80 minutes",
+            "Up to 8 people",
+            "Tasks in the Telegram bot",
+            "Speaking club at a discount"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mini-group",
+          "price": "990 000 UZS",
+          "period": "per month",
+          "features": [
+            "12 lessons of 80 minutes",
+            "3–4 people",
+            "Groups matched to your goals",
+            "Monthly progress report"
+          ],
+          "featured": true
+        },
+        {
+          "name": "One-to-one",
+          "price": "180 000 UZS",
+          "period": "per lesson",
+          "features": [
+            "Time that suits you, online or in person",
+            "A programme built around your goal",
+            "10% off a pack of 8 lessons"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3200",
+          "suffix": "+",
+          "label": "students since 2018"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "people maximum per group"
+        },
+        {
+          "value": "70",
+          "suffix": "%",
+          "label": "of each lesson students talk"
+        },
+        {
+          "value": "4",
+          "suffix": " mo",
+          "label": "IELTS intensive"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Teachers",
+      "title": "Never a dull lesson",
+      "items": [
+        {
+          "name": "Madina Yusupova",
+          "role": "English, IELTS · CELTA",
+          "image": ""
+        },
+        {
+          "name": "Kim Soo-young",
+          "role": "Korean, native speaker",
+          "image": ""
+        },
+        {
+          "name": "Anna Schmidt",
+          "role": "German, Goethe examiner",
+          "image": ""
+        },
+        {
+          "name": "Bobur Rakhimov",
+          "role": "English for kids",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What our students say",
+      "items": [
+        {
+          "quote": "In four months I went from 5.5 to 7.0 in IELTS. The most useful part was the mock tests every two weeks: by exam day it wasn’t scary anymore.",
+          "author": "Sevara",
+          "role": "IELTS 7.0, got into a master’s programme"
+        },
+        {
+          "quote": "My son reminds me himself that it’s English day. He used to barely say a word — now he sings songs and argues with his teacher.",
+          "author": "Olga",
+          "role": "mother of a student, age 8"
+        },
+        {
+          "quote": "I started Korean from scratch before a job in Seoul. Six months later I can easily get by in shops and at work.",
+          "author": "Jasur",
+          "role": "TOPIK I, level 2"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the trial lesson really free?",
+          "a": "Yes. The trial lesson lasts 60 minutes and includes a level test. Afterwards you decide whether to stay — no obligation."
+        },
+        {
+          "q": "How do you determine my level?",
+          "a": "Take the test: 15 minutes of writing and 5 minutes of conversation with a teacher. Based on the results, we’ll suggest a group at the right level."
+        },
+        {
+          "q": "Can I study online?",
+          "a": "Yes, all programmes are available online: the same teachers and groups of up to 8, classes on Zoom, tasks in the Telegram bot."
+        },
+        {
+          "q": "From what age do you take children?",
+          "a": "From age 6. Children study in age groups: 6–8, 9–10 and 11–12; teenagers from 13 join adult groups at their level."
+        },
+        {
+          "q": "What if I miss a lesson?",
+          "a": "You’ll get the lesson recording and materials on Telegram. You can catch up on the topic at the speaking club or join a parallel group at the same level."
+        },
+        {
+          "q": "Can I get a refund?",
+          "a": "Yes. If you stop studying, we refund all unused lessons in the current month within 10 working days."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Your first lesson is on us",
+      "text": "Call or message us on Telegram — we’ll find a convenient time for the test and trial lesson.",
+      "cta": {
+        "label": "Book a trial lesson",
+        "href": "https://t.me/polyglot_school"
+      }
+    }
+  ]
+}

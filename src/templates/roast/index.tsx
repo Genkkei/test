@@ -1,7 +1,8 @@
 import './style.css'
 import type { Site } from '@/lib/schema'
 import { MobileMenu, Marquee } from '@/motion/widgets'
-import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { Head, Shell as Sec } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { RoastHeader, SteamCanvas, TiltShelf } from './client'
@@ -41,11 +42,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <RoastHeader>
-        <a href="#top" className="rs-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="rs-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
           <Bean className="rs-logo__bean" />
           <span>{site.name}</span>
         </a>
-        <nav className="rs-nav" aria-label="Разделы">
+        <nav className="rs-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -58,7 +59,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </RoastHeader>
       <main id="top">{children}</main>
@@ -72,7 +73,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" strokeWidth="2" />
               <circle cx="60" cy="60" r="32" fill="none" stroke="currentColor" strokeWidth="1" />
               <text>
-                <textPath href="#rs-ring">{`${site.name} · обжарено в ${b.city || 'Ташкенте'} · ${b.founded || ''} · `}</textPath>
+                <textPath href="#rs-ring">{`${site.name} · ${pick(site.lang, { ru: `обжарено в ${b.city || 'Ташкенте'}`, uz: `${b.city || 'Toshkent'}da qovurilgan`, en: `roasted in ${b.city || 'Tashkent'}` })} · ${b.founded || ''} · `}</textPath>
               </text>
             </svg>
             <Bean className="rs-stamp__bean" />
@@ -80,19 +81,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <p className="rs-footer__tag">{site.tagline}</p>
           <div className="rs-footer__cols">
             <div>
-              <h3>Кофейня</h3>
+              <h3>{pick(site.lang, { ru: 'Кофейня', uz: 'Qahvaxona', en: 'Café' })}</h3>
               <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
               {b.hours.map((h) => (
-                <p key={h}>{humanHours(h)}</p>
+                <p key={h}>{humanHours(h, site.lang)}</p>
               ))}
             </div>
             <div>
-              <h3>Связь</h3>
+              <h3>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</h3>
               {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
               {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
             </div>
             <div>
-              <h3>Соцсети</h3>
+              <h3>{pick(site.lang, { ru: 'Соцсети', uz: 'Ijtimoiy tarmoqlar', en: 'Social' })}</h3>
               {b.socials.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                   {s.name}
@@ -146,7 +147,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         <SteamCanvas color={site.theme.bg} />
         <Cup />
         {s.words.length ? (
-          <ul className="rs-hero__notes" aria-label="Ноты вкуса">
+          <ul className="rs-hero__notes" aria-label={pick(site.lang, { ru: 'Ноты вкуса', uz: 'Ta’m notalari', en: 'Tasting notes' })}>
             {s.words.map((w, i) => (
               <li key={w} style={{ ['--i' as string]: i }}>
                 {w}
@@ -155,9 +156,9 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           </ul>
         ) : null}
         <span className="rs-hero__badge rs-rise" style={{ ['--d' as string]: '.8s' }}>
-          обжарка
+          {pick(site.lang, { ru: 'обжарка', uz: 'qovurish', en: 'roasted' })}
           <br />
-          каждый вторник
+          {pick(site.lang, { ru: 'каждый вторник', uz: 'har seshanba', en: 'every Tuesday' })}
         </span>
       </div>
     </section>
@@ -223,9 +224,9 @@ function Process({ section: s }: SectionProps<'process'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee rs-tape" aria-label={s.title || 'О кофе'}>
+    <section className="s s-marquee rs-tape" aria-label={s.title || pick(site.lang, { ru: 'О кофе', uz: 'Qahva haqida', en: 'About the coffee' })}>
       <Marquee items={s.items} speed={34} sep="●" />
     </section>
   )

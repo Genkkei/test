@@ -40,7 +40,7 @@ export function FacadeCanvas({ colors }: { colors: string[] }) {
 }
 
 /** Строка координат и прокрутки в шапке: процент пройденного «этажа». */
-export function Floor() {
+export function Floor({ label }: { label: string }) {
   const ref = useRef<HTMLSpanElement>(null)
   useEffect(() => {
     const el = ref.current!
@@ -49,13 +49,13 @@ export function Floor() {
       cancelAnimationFrame(raf)
       raf = requestAnimationFrame(() => {
         const max = Math.max(1, document.documentElement.scrollHeight - innerHeight)
-        el.textContent = `ЭТАЖ ${String(Math.round((scrollY / max) * 32)).padStart(2, '0')}/32`
+        el.textContent = `${label} ${String(Math.round((scrollY / max) * 32)).padStart(2, '0')}/32`
       })
     }
     on()
     addEventListener('scroll', on, { passive: true })
     return () => removeEventListener('scroll', on)
-  }, [])
+  }, [label])
   return <span ref={ref} className="mono-floor" aria-hidden="true" suppressHydrationWarning />
 }
 

@@ -1,0 +1,294 @@
+{
+  "name": "Adliya Partners",
+  "tagline": "O‘zbekistondagi biznes uchun yuridik firma",
+  "niche": "Yuridik firma: korporativ huquq, soliqlar, nizolar, M&A",
+  "nav": {
+    "cta": {
+      "label": "Konsultatsiya",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Adliya Partners — Toshkentdagi biznes uchun yuridik firma",
+    "description": "Korporativ huquq, soliq nizolari, M&A, ma’lumotlarni himoya qilish va O‘zbekistondagi xorijiy investorlarni kuzatish. Bosqich narxi qat’iy, javob bir kun ichida.",
+    "keywords": [
+      "yuridik firma Toshkent",
+      "korporativ yurist O‘zbekiston",
+      "soliq nizolari",
+      "M&A O‘zbekiston",
+      "xorijliklar uchun kompaniya ro‘yxatdan o‘tkazish",
+      "shaxsiy ma’lumotlar O‘zbekiston"
+    ],
+    "answer": "Adliya Partners — Toshkentdagi yuridik firma, 2012 yildan beri O‘zbekistondagi kompaniyalar ishlarini yuritadi: korporativ huquq, soliqlar, sud nizolari, M&A bitimlari, IT va shaxsiy ma’lumotlar, xorijiy investorlarni kuzatish. Xorijiy ishtirokdagi kompaniyani ro‘yxatdan o‘tkazish — 10 ish kunida 12 000 000 so‘mdan, birlamchi konsultatsiya — 1 soat, 1 500 000 so‘mdan."
+  },
+  "listing": {
+    "price": "",
+    "description": "Yuridik firma, konsalting yoki moliya kompaniyasi uchun sayt. Chizg‘ich va paragraflari bor shveytsar to‘ri, reyestr ko‘rinishidagi amaliyotlar, hamkorlar va nomsiz keyslar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Adliya Partners» MChJ",
+    "street": "Afrosiyob ko‘chasi, 4B, biznes-markaz, 7-qavat",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston, Markaziy Osiyo"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Huquq — unga",
+      "eyebrow": "Yuridik firma · Toshkent · 2012 yildan",
+      "subtitle": "O‘zbekistonda kompaniya va investorlarni ro‘yxatdan o‘tish va shartnomalardan tortib soliq tekshiruvlari, sudlar va bitimlargacha kuzatamiz. Har bir bosqich — qat’iy narx va aniq muddat bilan.",
+      "words": [
+        "tayanish mumkin",
+        "ishonish mumkin",
+        "suyanish mumkin"
+      ],
+      "cta": {
+        "label": "Konsultatsiyaga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Amaliyotlar",
+        "href": "#practices"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Firma",
+      "title": "Biz bir vaqtning o‘zida biznes va qonun tilida gaplashamiz",
+      "text": "Yigirma ikki yurist va to‘rt hamkor. Har bir ishni hamkor shaxsan — birinchi uchrashuvdan natijagacha yuritadi. Sud jarayoni natijasini va’da qilmaymiz, lekin qaror qabul qilishingizdan oldin har doim xatarlar, imkoniyatlar va narxni aytamiz. Rus, o‘zbek va ingliz tillarida ishlaymiz.",
+      "image": ""
+    },
+    {
+      "id": "practices",
+      "type": "services",
+      "label": "Amaliyotlar",
+      "title": "Nima bilan shug‘ullanamiz",
+      "intro": "Narxlar «...dan» ko‘rsatilgan va ish boshlanishidan oldin kelishuvda qat’iylashtiriladi.",
+      "items": [
+        {
+          "title": "Korporativ huquq",
+          "text": "Ro‘yxatdan o‘tkazish, ustavlar, korporativ shartnomalar, kompaniyalar guruhini qayta tuzish.",
+          "price": "12 000 000 so‘mdan",
+          "tag": "10 ish kunidan"
+        },
+        {
+          "title": "Soliqlar",
+          "text": "Soliq rejalashtirish, tekshiruvlarni kuzatish, qo‘shimcha hisoblangan soliqlarni shikoyat qilish.",
+          "price": "9 000 000 so‘mdan",
+          "tag": "bosqichma-bosqich"
+        },
+        {
+          "title": "Nizolar va arbitraj",
+          "text": "Iqtisodiy sudlar, xalqaro arbitraj, qarorlarni ijro etish.",
+          "price": "25 000 000 so‘mdan",
+          "tag": "2 oydan"
+        },
+        {
+          "title": "M&A bitimlari",
+          "text": "Due diligence, tuzilmalash, muzokaralar, bitimni yopish.",
+          "price": "60 000 000 so‘mdan",
+          "tag": "6 haftadan"
+        },
+        {
+          "title": "IT va shaxsiy ma’lumotlar",
+          "text": "Ma’lumotlarni lokalizatsiya qilish, siyosatlar, IT pudratchilar bilan shartnomalar, IT Park.",
+          "price": "7 500 000 so‘mdan",
+          "tag": "2 haftadan"
+        },
+        {
+          "title": "Xorijiy investorlar",
+          "text": "Bozorga kirish, ruxsatnomalar, valyuta nazorati, mehnat masalalari.",
+          "price": "15 000 000 so‘mdan",
+          "tag": "kuzatuv"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "yil",
+          "label": "O‘zbekistondagi amaliyot"
+        },
+        {
+          "value": "22",
+          "suffix": "",
+          "label": "yurist, ulardan 4 nafari hamkor"
+        },
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "kompaniyalar uchun loyihalar"
+        },
+        {
+          "value": "3",
+          "suffix": "til",
+          "label": "ish tillari: rus, o‘zbek, ingliz"
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "type": "works",
+      "label": "Amaliyot",
+      "title": "Tanlangan ishlar",
+      "items": [
+        {
+          "title": "Chakana savdoda M&A: 18 do‘kondan iborat tarmoqni sotib olish",
+          "category": "M&A",
+          "year": "2025",
+          "text": "Due diligence, bitim tuzilmasi, 11 haftada yopish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ishlab chiqaruvchiga qo‘shimcha hisoblangan soliqni bekor qilish",
+          "category": "Soliqlar",
+          "year": "2025",
+          "text": "Qo‘shimcha hisob apellyatsiya instansiyasida bekor qilindi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yevropa IT-xoldingining O‘zbekiston bozoriga kirishi",
+          "category": "Investitsiyalar",
+          "year": "2024",
+          "text": "Ro‘yxatdan o‘tkazish, IT Park rezidentligi, ma’lumotlarni lokalizatsiya qilish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qurilish kompaniyasi ishtirokchilari o‘rtasidagi korporativ nizo",
+          "category": "Nizolar",
+          "year": "2024",
+          "text": "Ulushni bozor bahosi bo‘yicha sotib olish bilan kelishuv bitimi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Hamkorlar",
+      "title": "Firma hamkorlari",
+      "items": [
+        {
+          "name": "Farrux Ismoilov",
+          "role": "Boshqaruvchi hamkor, korporativ huquq va M&A",
+          "image": ""
+        },
+        {
+          "name": "Natalya Kim",
+          "role": "Hamkor, soliqlar",
+          "image": ""
+        },
+        {
+          "name": "Sherzod Aliyev",
+          "role": "Hamkor, nizolar va arbitraj",
+          "image": ""
+        },
+        {
+          "name": "Lola Nasirova",
+          "role": "Hamkor, IT va shaxsiy ma’lumotlar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Ish tartibi",
+      "title": "Ishni qanday yuritamiz",
+      "items": [
+        {
+          "title": "Uchrashuv",
+          "text": "Hamkor bilan bir soat: vaziyat va hujjatlarni ko‘rib chiqamiz."
+        },
+        {
+          "title": "Xulosa",
+          "text": "Xatarlar, variantlar va narxning yozma bahosi."
+        },
+        {
+          "title": "Kelishuv",
+          "text": "Har bir bosqichning hajmi, muddati va narxini qayd qilamiz."
+        },
+        {
+          "title": "Ish",
+          "text": "Har bir qadam bo‘yicha hisobot va ishga istalgan vaqtda kirish."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mijozlar",
+      "title": "Mijozlar sharhlari",
+      "items": [
+        {
+          "quote": "Birinchi uchrashuvdayoq bitimning oxirgi bosqichigacha narxini aytishdi — va u o‘zgarmadi.",
+          "author": "Moliya direktori",
+          "role": "chakana savdo tarmog‘i"
+        },
+        {
+          "quote": "Soliq tekshiruvidan bizni xotirjam va kutilmagan holatlarsiz o‘tkazishdi. Inspeksiyaning har bir so‘rovini tayyor javob bilan ko‘rdik.",
+          "author": "Bosh direktor",
+          "role": "ishlab chiqarish kompaniyasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Konsultatsiya qancha turadi?",
+          "a": "Hamkor bilan birlamchi konsultatsiya bir soat davom etadi va 1 500 000 so‘mdan turadi. Agar kelishuv tuzsangiz, bu summa ish haqiga hisoblanadi."
+        },
+        {
+          "q": "Xorijiy ishtirokdagi kompaniyani ro‘yxatdan o‘tkazish qancha vaqt oladi?",
+          "a": "Odatda hujjatlar olingandan boshlab 10 ish kuni, bank hisobini ochish bilan birga. Narxi — 12 000 000 so‘mdan."
+        },
+        {
+          "q": "Soatbay to‘lov bilan ishlaysizmi?",
+          "a": "Ha, lekin ko‘pincha bosqichning qat’iy narxini taklif qilamiz: shunda byudjet oldindan aniq bo‘ladi. Hamkorning soatlik stavkasi — 2 000 000 so‘mdan."
+        },
+        {
+          "q": "Sudda natijani kafolatlay olasizmi?",
+          "a": "Yo‘q, va hech kim halol ravishda kafolatlay olmaydi. Nizo boshlanishidan oldin imkoniyat va xatarlarning yozma bahosini beramiz va xatarlarni kamaytirish uchun harakat qilamiz."
+        },
+        {
+          "q": "Maxfiylikka rioya qilasizmi?",
+          "a": "Ha. Maxfiylikni kelishuvda mustahkamlaymiz, xodimlar oshkor qilmaslik majburiyatlarini imzolaydi, hujjatlar himoyalangan tizimda saqlanadi."
+        },
+        {
+          "q": "Xorijlik mijozlar bilan ishlaysizmi?",
+          "a": "Ha, mijozlarimizning qariyb yarmi — xorijiy kompaniyalar. Uchrashuvlarni onlayn o‘tkazamiz, hujjatlarni rus, o‘zbek va ingliz tillarida tayyorlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Vazifangizni muhokama qilamiz",
+      "text": "Ish kuni davomida javob beramiz va hamkor bilan uchrashuv vaqtini taklif qilamiz.",
+      "cta": {
+        "label": "office@adliya.partners",
+        "href": "mailto:office@adliya.partners"
+      }
+    }
+  ]
+}

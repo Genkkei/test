@@ -1,7 +1,7 @@
 import './style.css'
 import type { Site } from '@/lib/schema'
 import { MobileMenu } from '@/motion/widgets'
-import { humanHours } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { GlowCanvas, LumenHeader, Pills , ClipReveal } from './client'
@@ -15,11 +15,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <LumenHeader>
         <div className="lumen-header__pill">
-          <a href="#top" className="lumen-logo" aria-label={`${site.name} — наверх`}>
+          <a href="#top" className="lumen-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
             <i aria-hidden="true" />
             {site.name}
           </a>
-          <nav className="lumen-nav" aria-label="Разделы">
+          <nav className="lumen-nav" aria-label={ui(site.lang, 'sections')}>
             {links.map((l) => (
               <a key={l.href} href={l.href}>
                 {l.label}
@@ -31,7 +31,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </LumenHeader>
       <ClipReveal />
@@ -46,19 +46,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             {site.tagline ? <p className="lumen-footer__tag">{site.tagline}</p> : null}
           </div>
           <div>
-            <p className="lumen-footer__h">Связаться</p>
+            <p className="lumen-footer__h">{pick(site.lang, { ru: 'Связаться', uz: 'Bog‘lanish', en: 'Get in touch' })}</p>
             {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <p className="lumen-footer__h">Адрес</p>
+            <p className="lumen-footer__h">{ui(site.lang, 'address')}</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <p className="lumen-footer__h">Мы в сетях</p>
+            <p className="lumen-footer__h">{pick(site.lang, { ru: 'Мы в сетях', uz: 'Ijtimoiy tarmoqlarda', en: 'Follow us' })}</p>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -70,7 +70,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <span>
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
-          <span>Есть противопоказания, нужна консультация специалиста</span>
+          <span>{pick(site.lang, { ru: 'Есть противопоказания, нужна консультация специалиста', uz: 'Qarshi ko‘rsatmalar bor, mutaxassis maslahati kerak', en: 'Contraindications apply; consult a specialist' })}</span>
         </div>
       </footer>
     </>
@@ -81,9 +81,9 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   const t = site.theme
   const b = site.business
   const facts = [
-    b.hours[0] ? { k: 'Часы', v: humanHours(b.hours[0]) } : null,
-    b.street ? { k: 'Адрес', v: b.street } : null,
-    b.phone ? { k: 'Запись', v: b.phone } : null,
+    b.hours[0] ? { k: ui(site.lang, 'hours'), v: humanHours(b.hours[0], site.lang) } : null,
+    b.street ? { k: ui(site.lang, 'address'), v: b.street } : null,
+    b.phone ? { k: pick(site.lang, { ru: 'Запись', uz: 'Yozilish', en: 'Booking' }), v: b.phone } : null,
   ].filter(Boolean) as { k: string; v: string }[]
   return (
     <section id={s.anchor || undefined} className="s s-hero lumen-hero">
@@ -118,7 +118,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         </div>
         {s.words.length ? (
           <div data-reveal="up" data-delay="0.65">
-            <Pills words={s.words} />
+            <Pills words={s.words} label={pick(site.lang, { ru: 'Направления', uz: 'Yo‘nalishlar', en: 'Specialties' })} />
           </div>
         ) : null}
       </div>

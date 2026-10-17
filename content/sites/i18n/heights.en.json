@@ -1,0 +1,276 @@
+{
+  "name": "Tashkent Heights",
+  "tagline": "Homes that hold the horizon",
+  "niche": "Business-class residential developer",
+  "nav": {
+    "cta": {
+      "label": "Choose an apartment",
+      "href": "#plans"
+    }
+  },
+  "seo": {
+    "title": "Tashkent Heights — business-class new-build apartments",
+    "description": "Residential complexes in Yunusabad, Mirabad and Chilanzar: apartments from 15.9M UZS per m², up to 36 months of instalments, mortgages via partner banks.",
+    "keywords": [
+      "new builds Tashkent",
+      "buy an apartment in Tashkent",
+      "business-class residential complex",
+      "apartment instalments Tashkent",
+      "developer Tashkent",
+      "new-build mortgage"
+    ],
+    "answer": "Tashkent Heights is a Tashkent developer building business-class residential complexes since 2014, with 9 buildings delivered. Apartments on sale start at 15,900,000 UZS per m², with interest-free instalments for up to 36 months from a 30% down payment and mortgages through partner banks. The next handover is Q4 2026."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a developer, real-estate agency or architecture firm. Architectural grid, a WebGL facade, projects with technical data, blueprint-style floor plans and mortgages.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Tashkent Heights Development LLC",
+    "street": "107B Amir Temur Ave",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Homes above expectations",
+      "eyebrow": "Developer · Tashkent · since 2014",
+      "subtitle": "Four residential complexes in Tashkent: monolithic frames, ventilated facades, car-free courtyards and apartments with a ready finish.",
+      "words": [
+        "9 buildings delivered",
+        "1,860 apartments",
+        "4 districts",
+        "0% instalments"
+      ],
+      "cta": {
+        "label": "Choose an apartment",
+        "href": "#plans"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Monolithic frame",
+        "Car-free courtyard",
+        "Underground parking",
+        "White-box finish",
+        "Panoramic windows",
+        "In-house management"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Company",
+      "title": "We build slowly, so you can live long",
+      "text": "We design a building from its courtyard, not its height: light, quiet and routes first, square metres second. Every project passes an independent review, construction is run by our own general contractor, and after handover the building is managed by our own management company.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Residential complexes",
+      "items": [
+        {
+          "title": "Heights Boulevard",
+          "category": "Yunusabad · 24 floors · 312 apartments",
+          "year": "Q4 2026",
+          "text": "Two towers above the boulevard and a courtyard on the podium roof, from 17,400,000 UZS per m².",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Sky Garden",
+          "category": "Mirabad · 16 floors · 198 apartments",
+          "year": "Q2 2027",
+          "text": "Apartments with garden terraces on every floor, from 19,900,000 UZS per m².",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chilonzor Park",
+          "category": "Chilanzar · 12 floors · 420 apartments",
+          "year": "Delivered in 2025",
+          "text": "A block of six buildings around a park, ready apartments from 15,900,000 UZS per m².",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "9",
+          "suffix": "buildings",
+          "label": "delivered on time or early"
+        },
+        {
+          "value": "1 860",
+          "suffix": "",
+          "label": "families already live in our buildings"
+        },
+        {
+          "value": "12",
+          "suffix": "yrs",
+          "label": "on the Tashkent market"
+        },
+        {
+          "value": "36",
+          "suffix": "mo",
+          "label": "instalments with no mark-up"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "type": "pricing",
+      "label": "Floor plans",
+      "title": "Apartments on sale",
+      "items": [
+        {
+          "name": "1 room",
+          "price": "from 699M UZS",
+          "period": "44 m²",
+          "features": [
+            "18 m² kitchen-living room",
+            "Loggia",
+            "White-box finish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 rooms",
+          "price": "from 1.02B UZS",
+          "period": "64 m²",
+          "features": [
+            "Master bedroom with walk-in wardrobe",
+            "Two bathrooms",
+            "Windows onto the courtyard"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3 rooms",
+          "price": "from 1.46B UZS",
+          "period": "92 m²",
+          "features": [
+            "Corner living room",
+            "Storage room",
+            "Parking space at 20% off"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Penthouse",
+          "price": "from 3.2B UZS",
+          "period": "168 m²",
+          "features": [
+            "40 m² terrace",
+            "3.6 m ceilings",
+            "Custom layout"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Buying",
+      "title": "How to buy an apartment",
+      "items": [
+        {
+          "title": "Choose",
+          "text": "Online or at the sales office: layout, floor, view from the window."
+        },
+        {
+          "title": "Reserve",
+          "text": "We lock the price for 7 days with no prepayment."
+        },
+        {
+          "title": "Contract",
+          "text": "Shared-equity purchase, instalments or a mortgage — arranged in a day."
+        },
+        {
+          "title": "Keys",
+          "text": "Inspection with an engineer and handover of keys on the contract date."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Residents",
+      "title": "What residents say",
+      "items": [
+        {
+          "quote": "The building was delivered a month early. There are no cars in the courtyard — the kids ride scooters right from the entrance.",
+          "author": "Jasur T.",
+          "role": "Chilonzor Park resident"
+        },
+        {
+          "quote": "We bought on instalments at the foundation stage and paid no interest. At handover we found two small issues — fixed within a week.",
+          "author": "Anna and Rustam",
+          "role": "Chilonzor Park residents"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Questions about buying",
+      "items": [
+        {
+          "q": "What are the instalment terms?",
+          "a": "A down payment from 30%, the rest in equal payments over up to 36 months with no interest or price increase. Early repayment is possible at any time."
+        },
+        {
+          "q": "Can I buy with a mortgage?",
+          "a": "Yes, through partner banks: the rate depends on the bank’s programme, with a down payment from 25%. Our manager gathers the documents and applies to several banks at once."
+        },
+        {
+          "q": "When are the buildings delivered?",
+          "a": "Heights Boulevard in Q4 2026, Sky Garden in Q2 2027. Chilonzor Park is already delivered and apartments are ready to move into."
+        },
+        {
+          "q": "What finish do the apartments have?",
+          "a": "White box: levelled walls and floors, electrical and plumbing runs, an entrance door and double-glazed windows. A final finish is optional, as a package from 2,900,000 UZS per m²."
+        },
+        {
+          "q": "What documents do I need to buy?",
+          "a": "A passport or ID card is enough for the contract. For a mortgage, the bank will also ask for proof of income."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Sales office",
+      "title": "Come and see for yourself",
+      "text": "We’ll show you the models, floor plans and the construction site. The finished-interior showroom is at the sales office.",
+      "cta": {
+        "label": "Call the sales team",
+        "href": "tel:+998712000022"
+      }
+    }
+  ]
+}

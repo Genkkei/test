@@ -1,0 +1,365 @@
+{
+  "name": "Nafas",
+  "tagline": "Nafas olishni unutganlar uchun yoga va spa",
+  "niche": "Yoga studiyasi va spa",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "tel:+998712000042"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Yoga studiyasi, spa yoki wellness markazi uchun sayt. Nafas olish va chiqarish ritmidagi WebGL nafas doirasi, kunlar bo‘yicha jadval, abonementlar, spa-marosimlar va ustozlar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Nafas — Toshkent markazidagi yoga studiyasi va spa",
+    "description": "Xatxa, vinyasa va yoga-nidra, nafas amaliyotlari va spa-marosimlar Nukus ko‘chasida. Birinchi mashg‘ulot — 90 000 so‘m, abonementlar oyiga 600 000 so‘mdan.",
+    "keywords": [
+      "yoga Toshkent",
+      "yoga studiyasi",
+      "spa Toshkent",
+      "nafas amaliyotlari",
+      "boshlovchilar uchun yoga",
+      "massaj Toshkent"
+    ],
+    "answer": "Nafas — Toshkentda Nukus ko‘chasi, 54 dagi yoga studiyasi va spa. Bir martalik mashg‘ulot 130 000 so‘m, birinchisi — 90 000 so‘m, 8 mashg‘ulotlik abonement — 600 000 so‘m, cheksiz — oyiga 1 100 000 so‘m. Spa-marosimlar 350 000 so‘mdan. Ish kunlari 7:00 dan 22:00 gacha, dam olish kunlari 8:00 dan 20:00 gacha ochiq."
+  },
+  "business": {
+    "legalName": "«Nafas Wellness» MChJ",
+    "street": "Nukus ko‘chasi, 54",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Nafasingizga qayting",
+      "eyebrow": "yoga · nafas · spa",
+      "subtitle": "O‘n ikki kishigacha bo‘lgan kichik guruhlar, iliq yog‘och pol va hech qayerga shoshilish shart bo‘lmagan bir soat.",
+      "words": [],
+      "cta": {
+        "label": "Birinchi mashg‘ulot — 90 000 so‘m",
+        "href": "tel:+998712000042"
+      },
+      "ctaSecondary": {
+        "label": "Jadval",
+        "href": "#schedule"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "xatxa",
+        "vinyasa",
+        "yoga-nidra",
+        "pranayama",
+        "meditatsiya",
+        "spa"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studiya",
+      "title": "Biz pozalarni emas, ularda qanday nafas olishni o‘rgatamiz",
+      "text": "Nafas — o‘zbekcha «nafas» degani. Studiya Nukusdagi eski uyning bir qavatini egallaydi: panoramali derazali ikki zal, hammomli spa-xona va choyxona. Yangi boshlovchilarga ehtiyotkorlik bilan yo‘l ko‘rsatamiz, tana holatini kuzatamiz va jarohatlarda muqobil variantlar beramiz. Gilamchalar, pledlar va bolsterlar — studiyaniki, sochiq ham beramiz.",
+      "image": ""
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Jadval",
+      "title": "Studiyadagi hafta",
+      "groups": [
+        {
+          "name": "Du",
+          "items": [
+            {
+              "name": "07:30 · Ertalabki xatxa",
+              "text": "kunning yumshoq boshlanishi · barcha darajalar · Malika",
+              "price": "130 000 so‘m"
+            },
+            {
+              "name": "12:30 · Tushlikdagi yoga",
+              "text": "45 daqiqa · barcha darajalar · Aleksey",
+              "price": "100 000 so‘m"
+            },
+            {
+              "name": "19:30 · Vinyasa-flou",
+              "text": "dinamik · o‘rta daraja · Aleksey",
+              "price": "130 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Se",
+          "items": [
+            {
+              "name": "08:00 · Pranayama va meditatsiya",
+              "text": "nafas amaliyotlari · barcha darajalar · Zarina",
+              "price": "120 000 so‘m"
+            },
+            {
+              "name": "19:00 · Bel uchun yoga",
+              "text": "ehtiyotkor · boshlovchilar · Malika",
+              "price": "130 000 so‘m"
+            },
+            {
+              "name": "20:30 · Yoga-nidra",
+              "text": "chuqur bo‘shashish · barcha darajalar · Zarina",
+              "price": "120 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Ch",
+          "items": [
+            {
+              "name": "07:30 · Ertalabki xatxa",
+              "text": "barcha darajalar · Malika",
+              "price": "130 000 so‘m"
+            },
+            {
+              "name": "18:30 · Boshlovchilar uchun asoslar",
+              "text": "4 mashg‘ulotlik kurs · Aleksey",
+              "price": "130 000 so‘m"
+            },
+            {
+              "name": "20:00 · In-yoga",
+              "text": "uzoq ushlab turish · barcha darajalar · Zarina",
+              "price": "130 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Pa",
+          "items": [
+            {
+              "name": "08:00 · Vinyasa-flou",
+              "text": "o‘rta daraja · Aleksey",
+              "price": "130 000 so‘m"
+            },
+            {
+              "name": "19:00 · Muvozanatga urg‘u berilgan xatxa",
+              "text": "barcha darajalar · Malika",
+              "price": "130 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Ju",
+          "items": [
+            {
+              "name": "07:30 · Pranayama va meditatsiya",
+              "text": "barcha darajalar · Zarina",
+              "price": "120 000 so‘m"
+            },
+            {
+              "name": "19:30 · Sham yorug‘idagi yoga",
+              "text": "sekin oqim · barcha darajalar · Malika",
+              "price": "150 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Sh",
+          "items": [
+            {
+              "name": "10:00 · Uzoq amaliyot",
+              "text": "2 soat · o‘rta daraja · Aleksey",
+              "price": "180 000 so‘m"
+            },
+            {
+              "name": "17:00 · Tovushli meditatsiya",
+              "text": "kuylovchi kosalar · barcha darajalar · Zarina",
+              "price": "150 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Ya",
+          "items": [
+            {
+              "name": "10:00 · Oilaviy yoga",
+              "text": "6 yoshdan bolalar ota-onasi bilan · Malika",
+              "price": "ikki kishi uchun 180 000 so‘m"
+            },
+            {
+              "name": "18:00 · In-yoga va nidra",
+              "text": "barcha darajalar · Zarina",
+              "price": "130 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa",
+      "type": "services",
+      "label": "Spa",
+      "title": "Amaliyotdan keyingi marosimlar",
+      "intro": "Spa-xona yozilish orqali ishlaydi, bitta marosimga bir vaqtda ikki mehmondan ko‘p emas.",
+      "items": [
+        {
+          "title": "Hammom va ko‘pikli massaj",
+          "text": "Isinish, kese, ko‘pikli massaj va o‘tlar choyi.",
+          "price": "450 000 so‘m",
+          "tag": "90 daqiqa"
+        },
+        {
+          "title": "Abxyanga",
+          "text": "Iliq moy bilan butun tanaga ayurvedik massaj.",
+          "price": "520 000 so‘m",
+          "tag": "75 daqiqa"
+        },
+        {
+          "title": "Bel va bo‘yin massaji",
+          "text": "Uzoq o‘tirishdan keyingi zo‘riqishni bo‘shatadi.",
+          "price": "350 000 so‘m",
+          "tag": "50 daqiqa"
+        },
+        {
+          "title": "«Sokinlik» marosimi",
+          "text": "Hammom, yuz massaji, spa-xonada yoga-nidra.",
+          "price": "780 000 so‘m",
+          "tag": "2,5 soat"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Abonementlar",
+      "items": [
+        {
+          "name": "Birinchi mashg‘ulot",
+          "price": "90 000 so‘m",
+          "period": "",
+          "features": [
+            "Jadvaldagi istalgan dars",
+            "Gilamcha va sochiq",
+            "Amaliyotdan keyin choy"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8 mashg‘ulot",
+          "price": "600 000 so‘m",
+          "period": "/ 6 hafta",
+          "features": [
+            "Istalgan darslar",
+            "7 kunlik muzlatish",
+            "Spaga 10% chegirma"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Cheksiz",
+          "price": "1 100 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "Barcha darslar cheklovsiz",
+            "14 kunlik muzlatish",
+            "Spaga 15% chegirma",
+            "Do‘stingiz uchun mehmon tashrifi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Ustozlar",
+      "title": "Amaliyotni kim olib boradi",
+      "items": [
+        {
+          "name": "Malika Azimova",
+          "role": "xatxa, bel uchun yoga · 8 yillik o‘qituvchilik",
+          "image": ""
+        },
+        {
+          "name": "Aleksey Pak",
+          "role": "vinyasa, uzoq amaliyotlar · 6 yil",
+          "image": ""
+        },
+        {
+          "name": "Zarina Xasanova",
+          "role": "pranayama, nidra, in · 10 yil",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Shogirdlar",
+      "title": "Shogirdlar nima deydi",
+      "items": [
+        {
+          "quote": "Beli og‘riydigan va eplay olmayman deb qo‘rqib kelgandim. Ikki oydan keyin vinyasaga qatnayapman va boshimda budilnik jiringlamasdan uxlayapman.",
+          "author": "Dilfuza",
+          "role": "2023-yildan beri shug‘ullanadi"
+        },
+        {
+          "quote": "Seshanba kungi yoga-nidra — haftamda bo‘lgan eng yaxshi narsa. Bu telefon kerak bo‘lmaydigan yagona soat.",
+          "author": "Timur",
+          "role": "«Cheksiz» abonementi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Birinchi mashg‘ulotdan oldin",
+      "items": [
+        {
+          "q": "Hech qachon yoga bilan shug‘ullanmaganman. Nimadan boshlay?",
+          "a": "«Boshlovchilar uchun asoslar», «Ertalabki xatxa» yoki «Bel uchun yoga» darslaridan. Ustozni birinchi marta kelganingizdan ogohlantiring — u soddalashtirilgan variantlarni ko‘rsatadi."
+        },
+        {
+          "q": "O‘zim bilan nima olib kelay?",
+          "a": "Qulay kiyim. Gilamcha, pled, bloklar va sochiqlar studiyada bor, kiyinish xonasida dush va fen bor."
+        },
+        {
+          "q": "Homiladorlik yoki jarohatlarda shug‘ullansa bo‘ladimi?",
+          "a": "Bu haqda mashg‘ulotdan oldin ayting. Jarohatlarda ustoz muqobil variantlar beradi, homiladorlarga hamma darslar ham mos emas — mosini tanlaymiz. O‘tkir holatlarda avval shifokor bilan maslahatlashing."
+        },
+        {
+          "q": "Oldindan yozilish kerakmi?",
+          "a": "Ha, guruhlar o‘n ikki kishigacha. +998 71 200-00-42 telefoni yoki Telegram orqali yoziling; 4 soat oldin bepul bekor qilish mumkin."
+        },
+        {
+          "q": "Mashg‘ulot qancha turadi?",
+          "a": "Bir martalik — 130 000 so‘m, birinchisi — 90 000 so‘m. 8 mashg‘ulotlik abonement — olti haftaga 600 000 so‘m, cheksiz — oyiga 1 100 000 so‘m."
+        },
+        {
+          "q": "Faqat spaga kelsa bo‘ladimi?",
+          "a": "Ha, spa-marosimlar abonementsiz, yozilish orqali mavjud. Ko‘pikli massajli hammom — 450 000 so‘m, «Sokinlik» marosimi — 780 000 so‘m."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Nafas olgani keling",
+      "text": "Nukus, 54, ikkinchi qavat. Kirish hovli tomondan, yaqinida bepul avtoturargoh bor.",
+      "cta": {
+        "label": "Mashg‘ulotga yozilish",
+        "href": "tel:+998712000042"
+      }
+    }
+  ]
+}

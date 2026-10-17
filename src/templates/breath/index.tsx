@@ -4,6 +4,7 @@ import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { BreathCanvas, BreathLabel, Schedule } from './client'
 
 const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, '')}`
@@ -14,10 +15,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <header className="breath-header">
-        <a href="#top" className="breath-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="breath-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           {site.name.toLowerCase()}
         </a>
-        <nav className="breath-nav" aria-label="Разделы">
+        <nav className="breath-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -31,28 +32,28 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <main id="top">{children}</main>
       <footer className="breath-footer">
         <div className="breath-footer__circle" aria-hidden="true" />
-        <p className="breath-footer__quote">Сделайте вдох. Мы подождём.</p>
+        <p className="breath-footer__quote">{pick(site.lang, { ru: 'Сделайте вдох. Мы подождём.', uz: 'Nafas oling. Biz kutib turamiz.', en: 'Take a breath. We’ll wait.' })}</p>
         <div className="breath-footer__grid">
           <div>
-            <p className="breath-footer__h">Студия</p>
+            <p className="breath-footer__h">{pick(site.lang, { ru: 'Студия', uz: 'Studiya', en: 'Studio' })}</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <p className="breath-footer__h">Связь</p>
+            <p className="breath-footer__h">{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</p>
             {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <p className="breath-footer__h">Следите</p>
+            <p className="breath-footer__h">{pick(site.lang, { ru: 'Следите', uz: 'Kuzatib boring', en: 'Follow' })}</p>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -73,7 +74,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   return (
     <section id={s.anchor || undefined} className="s s-hero breath-hero">
       <BreathCanvas colors={[t.bg, t.surface, t.accent, t.fg]} />
-      <BreathLabel />
+      <BreathLabel lang={site.lang} />
       <div className="breath-hero__inner">
         {s.eyebrow ? <p className="breath-hero__eyebrow breath-fade">{s.eyebrow}</p> : null}
         <h1 className="breath-hero__title" data-split="words">
@@ -101,9 +102,9 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee breath-marquee" aria-label="Практики">
+    <section className="s s-marquee breath-marquee" aria-label={pick(site.lang, { ru: 'Практики', uz: 'Amaliyotlar', en: 'Practices' })}>
       <Marquee items={s.items} speed={70} sep="◦" />
     </section>
   )
@@ -127,12 +128,12 @@ function About({ section: s }: SectionProps<'about'>) {
   )
 }
 
-function Menu({ section: s }: SectionProps<'menu'>) {
+function Menu({ section: s, site }: SectionProps<'menu'>) {
   return (
     <Sec id={s.anchor} type="menu" className="breath-menu">
       <Head label={s.label} title={s.title} center />
       <div data-reveal="up">
-        <Schedule groups={s.groups} />
+        <Schedule groups={s.groups} lang={site.lang} />
       </div>
     </Sec>
   )

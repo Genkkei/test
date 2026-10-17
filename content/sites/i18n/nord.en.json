@@ -1,0 +1,273 @@
+{
+  "name": "Nord Studio",
+  "tagline": "Brands you want to touch",
+  "niche": "Creative agency: branding, websites, production",
+  "nav": {
+    "cta": {
+      "label": "Discuss a project",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Nord Studio — branding and digital agency in Tashkent",
+    "description": "Identity, WebGL-animated websites and ad production for brands in Uzbekistan and Central Asia. Strategy, design and development — one team.",
+    "keywords": [
+      "branding Tashkent",
+      "website development",
+      "brand identity",
+      "digital agency",
+      "WebGL websites",
+      "production"
+    ],
+    "answer": "Nord Studio is a creative agency in Tashkent: brand strategy, identity, WebGL-animated websites and commercials. A branding project takes from 6 weeks and starts at $9,000; a website takes from 6 weeks and starts at $7,000."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a creative agency, design studio or production house. A dark showcase with living WebGL silk, projects as rows with a photo that follows the cursor, oversized serif type — it presents the studio as a premium brand.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Nord Studio LLC",
+    "street": "12 Shota Rustaveli St.",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan, Kazakhstan, UAE"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "We make brands",
+      "eyebrow": "Creative agency · Tashkent · since 2019",
+      "subtitle": "Strategy, identity, websites and production for companies that need more than “just pretty”. One team from the first idea to launch.",
+      "words": [
+        "alive",
+        "bold",
+        "premium",
+        "yours"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See the work",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Strategy",
+        "Identity",
+        "Websites",
+        "Motion",
+        "Packaging",
+        "Production"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studio",
+      "title": "We combine strategy, craft and technology so a brand works for the business — and is remembered from the first touch.",
+      "text": "Twelve people: strategists, designers, motion artists and developers. We work in small teams per project with no account managers in between — you talk to the people doing the work. In six years, more than 80 brands in retail, real estate, hospitality and tech.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Work",
+      "title": "Selected projects",
+      "items": [
+        {
+          "title": "Saffron Hall",
+          "category": "Identity, website",
+          "year": "2026",
+          "text": "Rebranding of a restaurant group: sign system, menus, a website with bookings.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Orbita Bank",
+          "category": "Digital product",
+          "year": "2025",
+          "text": "A mobile banking interface and a 400-component design system.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yalla Tea",
+          "category": "Packaging",
+          "year": "2025",
+          "text": "A range of 14 teas: packaging, photography, social launch.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kamar Residence",
+          "category": "Website, 3D",
+          "year": "2024",
+          "text": "A residential complex website with interactive apartment selection.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Fergana Silk",
+          "category": "Campaign",
+          "year": "2024",
+          "text": "An image campaign and a short film about the craft.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we do",
+      "intro": "We take on a whole project or a single stage — timing and budget come after the brief.",
+      "items": [
+        {
+          "title": "Brand strategy",
+          "text": "Research, positioning, platform and tone of voice.",
+          "price": "from $3,000",
+          "tag": "2–4 weeks"
+        },
+        {
+          "title": "Identity",
+          "text": "Logo, typefaces, colour, graphics, guidelines and applications.",
+          "price": "from $9,000",
+          "tag": "6–10 weeks"
+        },
+        {
+          "title": "Websites and WebGL",
+          "text": "Design, animation, Next.js development, SEO and an admin panel.",
+          "price": "from $7,000",
+          "tag": "6–12 weeks"
+        },
+        {
+          "title": "Motion and production",
+          "text": "Films, 3D, photo and video shoots for campaigns.",
+          "price": "from $4,000",
+          "tag": "3–8 weeks"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "80",
+          "suffix": "+",
+          "label": "brands launched"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "awards and shortlists"
+        },
+        {
+          "value": "6",
+          "suffix": " years",
+          "label": "in the market"
+        },
+        {
+          "value": "4",
+          "suffix": " countries",
+          "label": "client geography"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Process",
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Brief and immersion",
+          "text": "A meeting, team interviews, market and competitor analysis."
+        },
+        {
+          "title": "Strategy",
+          "text": "We define who you are and who you are for. It is the foundation of the visuals."
+        },
+        {
+          "title": "Design",
+          "text": "Two or three concepts, then one — down to the last detail."
+        },
+        {
+          "title": "Launch",
+          "text": "We hand over the guidelines, files and website, and support you for the first months."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "They trust us",
+      "items": [
+        {
+          "quote": "Nord turned scattered restaurants into one recognisable family. Guests now know us by the menu before they see the sign.",
+          "author": "Aziz Karimov",
+          "role": "founder of Saffron Hall"
+        },
+        {
+          "quote": "A rare studio where designers understand the product. They delivered a design system our team has been working with for two years now.",
+          "author": "Elena Li",
+          "role": "CPO Orbita Bank"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much does branding cost?",
+          "a": "A full identity starts at $9,000, strategy on its own at $3,000. We quote the exact amount after the brief: it depends on the number of applications and the scope of research."
+        },
+        {
+          "q": "How long does a project take?",
+          "a": "Strategy takes 2–4 weeks, identity 6–10 weeks, a website 6–12 weeks. Timelines are fixed in the contract."
+        },
+        {
+          "q": "Do you work with companies outside Tashkent?",
+          "a": "Yes. A third of our clients are from Kazakhstan and the UAE. Meetings are online, and we fly in for key stages."
+        },
+        {
+          "q": "Can we order just a website?",
+          "a": "Yes, if you already have an identity. We do the design, animation, development, SEO and an admin panel so you can edit it yourself."
+        },
+        {
+          "q": "How do we get started?",
+          "a": "Write or call us — we will send a 15-question brief and set up a meeting within two working days."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Let’s make something loud",
+      "text": "Tell us about the task — we will reply within one working day.",
+      "cta": {
+        "label": "hello@nord.studio",
+        "href": "mailto:hello@nord.studio"
+      }
+    }
+  ]
+}

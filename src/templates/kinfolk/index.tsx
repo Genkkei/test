@@ -50,7 +50,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             <p className="kin-footer__h">Студия</p>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>

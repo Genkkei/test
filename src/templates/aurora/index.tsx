@@ -4,6 +4,7 @@ import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { AuroraCanvas, AuroraHeader, Glow, Tilt } from './client'
 
 /*
@@ -17,11 +18,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <AuroraHeader>
-        <a href="#top" className="aurora-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="aurora-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           <i aria-hidden="true" />
           {site.name}
         </a>
-        <nav className="aurora-nav" aria-label="Разделы">
+        <nav className="aurora-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
             <a key={l.href} href={l.href}>
               {l.label}
@@ -34,7 +35,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </AuroraHeader>
       <main id="top">{children}</main>
@@ -50,16 +51,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </div>
           <div className="aurora-footer__cols">
             <div>
-              <p>Связь</p>
+              <p>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</p>
               {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
               {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
             </div>
             <div>
-              <p>Офис</p>
+              <p>{pick(site.lang, { ru: 'Офис', uz: 'Ofis', en: 'Office' })}</p>
               <span>{[b.street, b.city].filter(Boolean).join(', ')}</span>
             </div>
             <div>
-              <p>Сети</p>
+              <p>{pick(site.lang, { ru: 'Сети', uz: 'Tarmoqlar', en: 'Social' })}</p>
               {b.socials.map((s) => (
                 <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                   {s.name}
@@ -69,7 +70,8 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           </div>
         </div>
         <p className="aurora-footer__legal">
-          © {new Date().getFullYear()} {b.legalName || site.name}. Условия, лимиты и тарифы — в приложении и договоре.
+          © {new Date().getFullYear()} {b.legalName || site.name}.{' '}
+          {pick(site.lang, { ru: 'Условия, лимиты и тарифы — в приложении и договоре.', uz: 'Shartlar, limitlar va tariflar — ilovada va shartnomada.', en: 'Terms, limits and fees are in the app and the agreement.' })}
         </p>
       </footer>
     </>
@@ -77,19 +79,20 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
 }
 
 function Phone({ site }: { site: Site }) {
+  const L = (ru: string, uz: string, en: string) => pick(site.lang, { ru, uz, en })
   return (
     <Tilt className="aurora-phone-wrap">
       <div className="aurora-phone" aria-hidden="true">
         <div className="aurora-phone__notch" />
         <div className="aurora-phone__screen">
           <div className="aurora-app__top">
-            <span className="aurora-app__avatar">А</span>
-            <span>Добрый вечер</span>
+            <span className="aurora-app__avatar">{L('А', 'A', 'A')}</span>
+            <span>{L('Добрый вечер', 'Xayrli kech', 'Good evening')}</span>
             <span className="aurora-app__bell" />
           </div>
-          <p className="aurora-app__label">Общий баланс</p>
+          <p className="aurora-app__label">{L('Общий баланс', 'Umumiy balans', 'Total balance')}</p>
           <p className="aurora-app__balance">
-            12 480 000 <small>сум</small>
+            {L('12 480 000', '12 480 000', '12,480,000')} <small>{L('сум', 'so‘m', 'UZS')}</small>
           </p>
           <div className="aurora-app__chips">
             <span className="is-on">UZS</span>
@@ -103,10 +106,10 @@ function Phone({ site }: { site: Site }) {
           </div>
           <div className="aurora-app__actions">
             <span>
-              <i>↗</i>Перевод
+              <i>↗</i>{L('Перевод', 'O‘tkazma', 'Send')}
             </span>
             <span>
-              <i>＋</i>Пополнить
+              <i>＋</i>{L('Пополнить', 'To‘ldirish', 'Top up')}
             </span>
             <span>
               <i>▦</i>QR
@@ -118,7 +121,7 @@ function Phone({ site }: { site: Site }) {
               <span>−184 000</span>
             </li>
             <li>
-              <b>Перевод от Мамы</b>
+              <b>{L('Перевод от Мамы', 'Onamdan o‘tkazma', 'Transfer from Mum')}</b>
               <span className="is-plus">+500 000</span>
             </li>
             <li>
@@ -126,14 +129,14 @@ function Phone({ site }: { site: Site }) {
               <span>−32 000</span>
             </li>
             <li>
-              <b>Кэшбэк за месяц</b>
+              <b>{L('Кэшбэк за месяц', 'Oylik keshbek', 'Monthly cashback')}</b>
               <span className="is-plus">+12 400</span>
             </li>
           </ul>
         </div>
       </div>
-      <span className="aurora-float aurora-float--a">Перевод за 3 секунды</span>
-      <span className="aurora-float aurora-float--b">Кэшбэк до 5%</span>
+      <span className="aurora-float aurora-float--a">{L('Перевод за 3 секунды', '3 soniyada o‘tkazma', 'Transfer in 3 seconds')}</span>
+      <span className="aurora-float aurora-float--b">{L('Кэшбэк до 5%', '5% gacha keshbek', 'Up to 5% cashback')}</span>
     </Tilt>
   )
 }
@@ -220,14 +223,14 @@ function Services({ section: s }: SectionProps<'services'>) {
   )
 }
 
-function Pricing({ section: s }: SectionProps<'pricing'>) {
+function Pricing({ section: s, site }: SectionProps<'pricing'>) {
   return (
     <Sec id={s.anchor} type="pricing" className="aurora-plans-sec">
       <Head label={s.label} title={s.title} center />
       <div className="aurora-plans">
         {s.items.map((it, i) => (
           <article key={i} className={`aurora-plan${it.featured ? ' is-featured' : ''}`} data-reveal="up" data-delay={String(i * 0.08)}>
-            {it.featured ? <span className="aurora-plan__badge">Выбор большинства</span> : null}
+            {it.featured ? <span className="aurora-plan__badge">{pick(site.lang, { ru: 'Выбор большинства', uz: 'Ko‘pchilik tanlovi', en: 'Most popular' })}</span> : null}
             <h3>{it.name}</h3>
             <p className="aurora-plan__price">
               {it.price}

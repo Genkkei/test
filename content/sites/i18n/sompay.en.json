@@ -1,0 +1,267 @@
+{
+  "name": "Som Pay",
+  "tagline": "Money that moves as fast as you do",
+  "niche": "Fintech: a multi-currency card, transfers and a business account in one app",
+  "nav": {
+    "cta": {
+      "label": "Open an account",
+      "href": "#plans"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a fintech app, startup or online service. Northern lights in WebGL, a phone with the app interface built in CSS, a bento grid of features, plans and security.",
+    "features": []
+  },
+  "seo": {
+    "title": "Som Pay — a multi-currency card and transfers in one app",
+    "description": "A card in UZS, USD and EUR, transfers by phone number in seconds, up to 5% cashback and a business account for sole traders. Open online in 5 minutes.",
+    "keywords": [
+      "multi-currency card Uzbekistan",
+      "transfers by phone number",
+      "cashback card",
+      "business account for sole traders",
+      "fintech app",
+      "virtual card"
+    ],
+    "answer": "Som Pay is an app with a multi-currency card (UZS, USD, EUR), transfers by phone number and up to 5% cashback. The basic plan is free, Plus is 29,000 UZS a month, a business account for sole traders is 99,000 UZS a month; you can open it online in 5 minutes with your passport. Exact limits and fees are shown in the app."
+  },
+  "business": {
+    "legalName": "Som Pay LLC",
+    "street": "Tashkent City, 3 Islam Karimov Boulevard, office 1204",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Money without borders or queues",
+      "eyebrow": "A card in three currencies — free",
+      "subtitle": "Som, dollars and euros on one card. Transfers by phone number in seconds, cashback on every purchase and a business account — all in one app.",
+      "words": [
+        "Open in 5 minutes",
+        "No branch visit",
+        "Notifications for every transaction"
+      ],
+      "cta": {
+        "label": "Open an account",
+        "href": "#plans"
+      },
+      "ctaSecondary": {
+        "label": "How it works",
+        "href": "#features"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "UZS",
+        "USD",
+        "EUR",
+        "Transfers",
+        "Cashback",
+        "Savings",
+        "QR payments",
+        "Business account"
+      ]
+    },
+    {
+      "id": "features",
+      "type": "services",
+      "label": "Features",
+      "title": "Everything your money needs",
+      "intro": "One account for everyday spending, travel and business.",
+      "items": [
+        {
+          "title": "Multi-currency card",
+          "text": "Som, dollars and euros on one card. Exchange currency in the app at a rate you see before you exchange.",
+          "price": "Free to issue",
+          "tag": "Visa · UZS · USD · EUR"
+        },
+        {
+          "title": "Transfers by phone number",
+          "text": "Money arrives in seconds — all you need is the recipient’s phone number.",
+          "price": "Instant",
+          "tag": "Humo · Uzcard · Visa"
+        },
+        {
+          "title": "Up to 5% cashback",
+          "text": "We return part of what you spend in cafés, taxis and online.",
+          "price": "up to 5%",
+          "tag": "Every month"
+        },
+        {
+          "title": "Business account",
+          "text": "An account for sole traders and small companies: payments, statements and staff in one window.",
+          "price": "99,000 UZS/mo",
+          "tag": "Sole traders and LLCs"
+        },
+        {
+          "title": "Savings and goals",
+          "text": "Save for a trip or new tech: round-ups on purchases and automatic top-ups.",
+          "price": "Free",
+          "tag": "Savings"
+        },
+        {
+          "title": "QR payments",
+          "text": "Pay in shops and for services by scanning the QR code at the till.",
+          "price": "No fee",
+          "tag": "Shops and services"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "type": "about",
+      "label": "Security",
+      "title": "Your money is protected",
+      "text": "You confirm every transaction: biometric login, one-time codes and instant card freezing with one tap. Data is encrypted in transit, and you get a notification for every charge right away. The card is issued by a partner bank; its name and details are in the agreement in the app.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": " minutes",
+          "label": "to open an account"
+        },
+        {
+          "value": "3",
+          "suffix": " currencies",
+          "label": "on one card"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "chat support"
+        },
+        {
+          "value": "0",
+          "suffix": " UZS",
+          "label": "to issue a card"
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "type": "pricing",
+      "label": "Plans",
+      "title": "Choose your plan",
+      "items": [
+        {
+          "name": "Standard",
+          "price": "0 UZS",
+          "period": "per month",
+          "features": [
+            "Virtual card",
+            "Transfers by phone number",
+            "1% cashback",
+            "Savings pots"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Plus",
+          "price": "29,000 UZS",
+          "period": "per month",
+          "features": [
+            "Free physical card",
+            "Up to 5% cashback",
+            "Best-rate currency exchange",
+            "Priority support"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business",
+          "price": "99,000 UZS",
+          "period": "per month",
+          "features": [
+            "Account for sole traders and LLCs",
+            "Cards for employees",
+            "Statements for accounting",
+            "1C integration"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What users say about Som Pay",
+      "items": [
+        {
+          "quote": "I opened the card over lunch and by evening I was paying in dollars on my trip. The rate is shown before the exchange — no surprises.",
+          "author": "Madina",
+          "role": "designer"
+        },
+        {
+          "quote": "I send money to my parents by phone number, and it arrives before I put my phone away.",
+          "author": "Timur",
+          "role": "engineer"
+        },
+        {
+          "quote": "Handy for a sole trader: a statement for the accountant in two clicks, and I issue staff cards myself.",
+          "author": "Shakhzod",
+          "role": "coffee shop owner"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How do I open an account?",
+          "a": "Download the app, photograph your passport or ID card and complete the face check. It usually takes 5 minutes, and the virtual card appears right away."
+        },
+        {
+          "q": "How much does it cost?",
+          "a": "The Standard plan is free, Plus is 29,000 UZS a month, Business is 99,000 UZS a month. Current terms are always shown in the app under “Plans”."
+        },
+        {
+          "q": "What are the transfer limits and fees?",
+          "a": "Limits depend on your plan and identity verification. We show the exact amounts and fees in the app before you confirm a transfer."
+        },
+        {
+          "q": "How secure is it?",
+          "a": "Biometric login, code confirmation for transactions, instant card freezing in the app and a notification for every charge. The card is issued by a partner bank; its details are in the agreement."
+        },
+        {
+          "q": "Can I use the card abroad?",
+          "a": "Yes, you can pay abroad and online with the Visa card. Spending in dollars or euros is taken from your currency account without double conversion."
+        },
+        {
+          "q": "What if I lose my phone?",
+          "a": "Call support or log in from another device — the card will be frozen within a minute. The money in your account stays safe."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Get started",
+      "title": "Open an account today",
+      "text": "The app is on the App Store and Google Play. Questions — in the support chat or by phone.",
+      "cta": {
+        "label": "Message us on Telegram",
+        "href": "https://t.me/sompay"
+      }
+    }
+  ]
+}

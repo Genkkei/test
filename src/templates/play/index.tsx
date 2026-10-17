@@ -1,7 +1,8 @@
 import './style.css'
 import type { Site } from '@/lib/schema'
 import { Marquee, MobileMenu } from '@/motion/widgets'
-import { Head, Shell as Sec, humanHours } from '@/components/sections'
+import { Head, Shell as Sec } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { Mascot, PlayHeader, Playground } from './client'
@@ -19,14 +20,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   return (
     <>
       <PlayHeader>
-        <a href="#top" className="pl-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="pl-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
           <span className="pl-logo__dot" aria-hidden="true">
             <i />
             <i />
           </span>
           {site.name}
         </a>
-        <nav className="pl-nav" aria-label="Разделы">
+        <nav className="pl-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
             <a key={l.href} href={l.href} style={{ ['--hc' as string]: COLORS[i % COLORS.length] }}>
               {l.label}
@@ -39,31 +40,31 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label}
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </PlayHeader>
       <main id="top">{children}</main>
       <footer className="pl-footer">
         <div className="pl-footer__card">
-          <Mascot className="pl-mascot pl-mascot--footer" />
+          <Mascot className="pl-mascot pl-mascot--footer" label={pick(site.lang, { ru: 'Поли — маскот школы', uz: 'Poli — maktab maskoti', en: 'Poly, the school mascot' })} />
           <div className="pl-footer__main">
             <p className="pl-footer__name">{site.name}</p>
             <p className="pl-footer__tag">{site.tagline}</p>
             <div className="pl-footer__cols">
               <div>
-                <h3>Адрес</h3>
+                <h3>{ui(site.lang, 'address')}</h3>
                 <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
                 {b.hours.map((h) => (
-                  <p key={h}>{humanHours(h)}</p>
+                  <p key={h}>{humanHours(h, site.lang)}</p>
                 ))}
               </div>
               <div>
-                <h3>Связь</h3>
+                <h3>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</h3>
                 {b.phone ? <a href={tel(b.phone)}>{b.phone}</a> : null}
                 {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
               </div>
               <div>
-                <h3>Мы тут</h3>
+                <h3>{pick(site.lang, { ru: 'Мы тут', uz: 'Biz shu yerdamiz', en: 'Find us' })}</h3>
                 <ul className="pl-footer__social">
                   {b.socials.map((s, i) => (
                     <li key={s.url}>
@@ -131,7 +132,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           </div>
           <div className="pl-hero__mascot pl-pop" style={{ ['--d' as string]: '.3s' }}>
             {s.words.length ? (
-              <ul className="pl-bubbles" aria-label="Приветствия">
+              <ul className="pl-bubbles" aria-label={pick(site.lang, { ru: 'Приветствия', uz: 'Salomlashuvlar', en: 'Greetings' })}>
                 {s.words.map((w, i) => (
                   <li key={w} style={{ ['--i' as string]: i, ['--hc' as string]: COLORS[i % COLORS.length] }}>
                     {w}
@@ -139,7 +140,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
                 ))}
               </ul>
             ) : null}
-            <Mascot />
+            <Mascot label={pick(site.lang, { ru: 'Поли — маскот школы', uz: 'Poli — maktab maskoti', en: 'Poly, the school mascot' })} />
           </div>
         </div>
       </Playground>
@@ -197,9 +198,9 @@ function Process({ section: s }: SectionProps<'process'>) {
   )
 }
 
-function MarqueeSec({ section: s }: SectionProps<'marquee'>) {
+function MarqueeSec({ section: s, site }: SectionProps<'marquee'>) {
   return (
-    <section className="s s-marquee pl-stickers" aria-label={s.title || 'Языки'}>
+    <section className="s s-marquee pl-stickers" aria-label={s.title || pick(site.lang, { ru: 'Языки', uz: 'Tillar', en: 'Languages' })}>
       <Marquee items={s.items} speed={36} sep="✦" />
     </section>
   )

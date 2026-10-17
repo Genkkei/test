@@ -1,5 +1,6 @@
 'use client'
 
+import { pick } from '@/lib/i18n'
 import { useState } from 'react'
 import { ShaderCanvas } from '@/motion/shader'
 
@@ -37,21 +38,21 @@ export function BreathCanvas({ colors }: { colors: string[] }) {
 }
 
 /** Подпись в центре круга: «вдох» и «выдох» сменяются каждые 4 с. */
-export function BreathLabel() {
+export function BreathLabel({ lang = 'ru' }: { lang?: string }) {
   return (
     <p className="breath-label" aria-hidden="true">
-      <span>вдох</span>
-      <span>выдох</span>
+      <span>{pick(lang, { ru: 'вдох', uz: 'nafas oling', en: 'inhale' })}</span>
+      <span>{pick(lang, { ru: 'выдох', uz: 'nafas chiqaring', en: 'exhale' })}</span>
     </p>
   )
 }
 
 /** Расписание: вкладки по дням. Все дни есть в HTML (для поиска), видимый — один. */
-export function Schedule({ groups }: { groups: { name: string; items: { name: string; text: string; price: string }[] }[] }) {
+export function Schedule({ groups, lang = 'ru' }: { groups: { name: string; items: { name: string; text: string; price: string }[] }[]; lang?: string }) {
   const [active, setActive] = useState(0)
   return (
     <div className="breath-sched">
-      <div className="breath-sched__tabs" role="tablist" aria-label="Дни недели">
+      <div className="breath-sched__tabs" role="tablist" aria-label={pick(lang, { ru: 'Дни недели', uz: 'Hafta kunlari', en: 'Days of the week' })}>
         {groups.map((g, i) => (
           <button key={g.name} role="tab" aria-selected={i === active} className={i === active ? 'is-on' : ''} onClick={() => setActive(i)}>
             {g.name}

@@ -1,7 +1,7 @@
 import './style.css'
 import type { Site } from '@/lib/schema'
 import { Clock, MobileMenu } from '@/motion/widgets'
-import { humanHours } from '@/components/sections'
+import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { PaperCanvas, Ruler, Voice , ClipReveal } from './client'
@@ -15,15 +15,15 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <header className="ledger-header">
         <div className="ledger-header__top">
           <span>
-            {b.city || 'Ташкент'}, <Clock />
+            {b.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })}, <Clock lang={site.lang} />
           </span>
           {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
         </div>
         <div className="ledger-header__main">
-          <a href="#top" className="ledger-logo" aria-label={`${site.name} — наверх`}>
+          <a href="#top" className="ledger-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
             {site.name}
           </a>
-          <nav className="ledger-nav" aria-label="Разделы">
+          <nav className="ledger-nav" aria-label={ui(site.lang, 'sections')}>
             {links.map((l, i) => (
               <a key={l.href} href={l.href}>
                 <sup>{String(i + 1).padStart(2, '0')}</sup>
@@ -36,7 +36,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label} <span aria-hidden="true">→</span>
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <ClipReveal />
@@ -47,19 +47,19 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="ledger-footer__grid">
           <p className="ledger-footer__brand">{site.name}</p>
           <div>
-            <small>Офис</small>
+            <small>{pick(site.lang, { ru: 'Офис', uz: 'Ofis', en: 'Office' })}</small>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>
             {b.hours.map((h) => (
-              <p key={h}>{humanHours(h)}</p>
+              <p key={h}>{humanHours(h, site.lang)}</p>
             ))}
           </div>
           <div>
-            <small>Связь</small>
+            <small>{pick(site.lang, { ru: 'Связь', uz: 'Aloqa', en: 'Contact' })}</small>
             {b.phone ? <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a> : null}
             {b.email ? <a href={`mailto:${b.email}`}>{b.email}</a> : null}
           </div>
           <div>
-            <small>Профили</small>
+            <small>{pick(site.lang, { ru: 'Профили', uz: 'Profillar', en: 'Profiles' })}</small>
             {b.socials.map((s) => (
               <a key={s.url} href={s.url} target="_blank" rel="noopener me">
                 {s.name}
@@ -71,7 +71,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <span>
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
-          <span>Материалы сайта носят информационный характер и не являются юридической консультацией.</span>
+          <span>{pick(site.lang, { ru: 'Материалы сайта носят информационный характер и не являются юридической консультацией.', uz: 'Sayt materiallari ma’lumot uchun mo‘ljallangan va yuridik maslahat hisoblanmaydi.', en: 'The content of this site is for information only and is not legal advice.' })}</span>
         </div>
       </footer>
     </>

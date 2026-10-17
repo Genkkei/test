@@ -1,0 +1,290 @@
+{
+  "name": "Karvon Cargo",
+  "tagline": "O‘zbekistonga yuklar — va’da bo‘yicha emas, jadval bo‘yicha",
+  "niche": "Logistika: Xitoy, Turkiya va Yevropadan O‘zbekistonga yuk tashish",
+  "nav": {
+    "cta": {
+      "label": "Narxni hisoblash",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Logistika kompaniyasi, kargo yoki ombor uchun sayt. WebGL’dagi yo‘nalishlar xaritasi va harakatlanayotgan yuklar, muddat va tariflar ko‘rsatilgan jo‘nash tablosi, yetkazish bosqichlari va treker.",
+    "features": []
+  },
+  "seo": {
+    "title": "Karvon Cargo — Xitoy va Turkiyadan Toshkentga yuk tashish",
+    "description": "Xitoy, Turkiya va Yevropadan O‘zbekistonga yig‘ma va to‘liq yuklar: avto, temir yo‘l va avia, bojxona rasmiylashtiruvi, Toshkentda ombor. Narx bir soatda.",
+    "keywords": [
+      "Xitoydan Toshkentga yetkazib berish",
+      "kargo O‘zbekiston",
+      "Turkiya O‘zbekiston yuk tashish",
+      "bojxona rasmiylashtiruvi",
+      "yig‘ma yuklar",
+      "Toshkentda ombor"
+    ],
+    "answer": "Karvon Cargo Toshkentga yuklarni Xitoydan (avto 18–22 kun, 1,9 $/kg dan; temir yo‘l 25–30 kun, 120 $/m³ dan), Turkiyadan (10–14 kun, 2,4 $/kg dan) va Yevropadan (14–20 kun, 2,9 $/kg dan) olib keladi, bojxonani deklaratsiya uchun 150 $ dan rasmiylashtiradi va yukni Sergelidagi o‘z omborida saqlaydi."
+  },
+  "business": {
+    "legalName": "«Karvon Cargo» MChJ",
+    "street": "Sergeli tumani, Yangi Sergeli ko‘chasi, 22, 4-ombor",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston, Qozog‘iston, Qirg‘iziston, Tojikiston"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Toshkentga yuklar — jadval bo‘yicha",
+      "eyebrow": "Xitoy · Turkiya · Yevropa → O‘zbekiston",
+      "subtitle": "Yig‘ma va to‘liq partiyalar avto, temir yo‘l va avia orqali. Yetkazib beruvchidan olamiz, bojxonadan o‘tkazamiz, o‘z omborimizda saqlaymiz va eshigingizgacha yetkazamiz — butun yo‘l uchun bitta shartnoma va bitta menejer.",
+      "words": [
+        "CN → UZ · 18–22 kun",
+        "TR → UZ · 10–14 kun",
+        "EU → UZ · 14–20 kun",
+        "Guanchjoudan avia · 5–7 kun",
+        "Sergelidagi ombor · 6 000 m²",
+        "Bojxona 1–2 kunda"
+      ],
+      "cta": {
+        "label": "Narxni hisoblash",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Yo‘nalishlar",
+        "href": "#routes"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kompaniya",
+      "title": "«Ertaga aniqlayman»siz logistika",
+      "text": "2017-yildan beri chakana savdo, ishlab chiqarish va marketpleyslar uchun yuk tashiymiz. Iu va Istanbulda o‘z konsolidatsiya omborlarimiz, o‘z bojxona brokerimiz va Toshkentda vaqtincha saqlash omborimiz bor. Har bir jo‘natma trekingda ko‘rinadi: yuk qayerda, chegaradan qachon o‘tadi, qachon tushiriladi. Muddat surilsa — birinchi bo‘lib xabar beramiz va sababini tushuntiramiz.",
+      "image": ""
+    },
+    {
+      "id": "routes",
+      "type": "services",
+      "label": "Yo‘nalishlar",
+      "title": "Jo‘nash tablosi",
+      "intro": "Jadval bo‘yicha muntazam reyslar. Muddatlar — konsolidatsiya omboridan Toshkentdagi omborimizgacha.",
+      "items": [
+        {
+          "title": "Xitoy → Toshkent",
+          "text": "Iu va Guanchjouda konsolidatsiya, jo‘natmalar seshanba va juma kunlari.",
+          "price": "1,9 $/kg dan",
+          "tag": "Avto · 18–22 kun"
+        },
+        {
+          "title": "Xitoy → Toshkent",
+          "text": "20' va 40' konteynerlar hamda Do‘stiq orqali yig‘ma yuklar.",
+          "price": "120 $/m³ dan",
+          "tag": "Temir yo‘l · 25–30 kun"
+        },
+        {
+          "title": "Guanchjou → Toshkent",
+          "text": "Namunalar, elektronika, 500 kg gacha shoshilinch partiyalar.",
+          "price": "6,5 $/kg dan",
+          "tag": "Avia · 5–7 kun"
+        },
+        {
+          "title": "Turkiya → Toshkent",
+          "text": "Istanbuldagi ombordan to‘qimachilik, mebel, qurilish materiallari.",
+          "price": "2,4 $/kg dan",
+          "tag": "Avto · 10–14 kun"
+        },
+        {
+          "title": "Yevropa → Toshkent",
+          "text": "Germaniya, Polsha, Italiya: uskunalar va ehtiyot qismlar.",
+          "price": "2,9 $/kg dan",
+          "tag": "Avto · 14–20 kun"
+        },
+        {
+          "title": "Toshkent → MDH",
+          "text": "Qozog‘iston, Qirg‘iziston, Tojikiston: ombordan tarqatamiz.",
+          "price": "so‘rov bo‘yicha",
+          "tag": "Avto · 3–9 kun"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "Yetkazib berish qancha turadi",
+      "items": [
+        {
+          "name": "1 m³ gacha yig‘ma yuk",
+          "price": "1,9 $ dan",
+          "period": "har kg uchun",
+          "features": [
+            "Xitoy → Toshkent",
+            "Konsolidatsiya",
+            "Sug‘urta 0,5%"
+          ],
+          "featured": false
+        },
+        {
+          "name": "1 m³ dan yig‘ma yuk",
+          "price": "140 $ dan",
+          "period": "har m³ uchun",
+          "features": [
+            "Avto yoki temir yo‘l",
+            "Qadoqlash va markirovka",
+            "Ombordagi yuk surati"
+          ],
+          "featured": false
+        },
+        {
+          "name": "To‘liq fura 82 m³",
+          "price": "4 800 $ dan",
+          "period": "har reys uchun",
+          "features": [
+            "Qayta yuklashsiz to‘g‘ri reys",
+            "GPS-treking",
+            "Yetkazib beruvchi plombasi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Bojxona rasmiylashtiruvi",
+          "price": "150 $ dan",
+          "period": "har deklaratsiya uchun",
+          "features": [
+            "TIF TN kodini tanlash",
+            "Sertifikatlar",
+            "Bojlarni to‘lash"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3800",
+          "suffix": "+",
+          "label": "o‘tgan yilgi jo‘natmalar"
+        },
+        {
+          "value": "6000",
+          "suffix": " m²",
+          "label": "Toshkentdagi ombor"
+        },
+        {
+          "value": "94",
+          "suffix": "%",
+          "label": "yuklar o‘z vaqtida yetib keladi"
+        },
+        {
+          "value": "1",
+          "suffix": " soat",
+          "label": "narxni hisoblashga"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaydi",
+      "title": "Yo‘nalishning besh nuqtasi",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "Invoys yoki tovarlar ro‘yxatini yuborasiz — bir soatda narx va muddatni hisoblaymiz."
+        },
+        {
+          "title": "Yukni olib ketish",
+          "text": "Yetkazib beruvchidan olamiz, sonini tekshiramiz, suratga olamiz."
+        },
+        {
+          "title": "Konsolidatsiya",
+          "text": "Omborimizda qadoqlaymiz, markirovka qilamiz, partiyani yig‘amiz."
+        },
+        {
+          "title": "Chegara va bojxona",
+          "text": "Broker deklaratsiyani oldindan tayyorlaydi — chiqarish 1–2 kunda."
+        },
+        {
+          "title": "Tushirish va yetkazish",
+          "text": "7 kun bepul saqlaymiz, omboringiz yoki do‘koningizgacha yetkazamiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mijozlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Iudan oyiga ikki marta idish-tovoq olib kelamiz. Bir yilda birorta quti yo‘qolmadi, treking esa «yuk qayerda» qo‘ng‘iroqlaridan qutqardi.",
+          "author": "Dilshod R.",
+          "role": "uy-ro‘zg‘or tovarlari do‘konlari tarmog‘i"
+        },
+        {
+          "quote": "Germaniyadan uskunani birinchi urinishda bojxonadan o‘tkazishdi: broker kerakli kodni oldindan topib, sertifikatlarni yig‘di.",
+          "author": "Anna K.",
+          "role": "qadoq ishlab chiqarish"
+        },
+        {
+          "quote": "Narxni tez hisoblashadi va chegarada o‘zgartirishmaydi. Marketpleys sotuvchisi uchun eng muhimi shu.",
+          "author": "Behzod T.",
+          "role": "marketpleys sotuvchisi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Xitoydan Toshkentga yuk qancha vaqtda keladi?",
+          "a": "Avto — Iu yoki Guanchjoudagi ombordan 18–22 kun, temir yo‘l — 25–30 kun, avia — 5–7 kun. Muddatni shartnomada belgilaymiz va harakatni trekingda ko‘rsatamiz."
+        },
+        {
+          "q": "Kichik partiya jo‘natsa bo‘ladimi?",
+          "a": "Ha, 30 kg dan yig‘ma yuk sifatida. Qutilaringizni boshqa mijozlarning yuklari bilan birlashtiramiz, shuning uchun faqat o‘z vazningiz yoki hajmingiz uchun to‘laysiz."
+        },
+        {
+          "q": "Yuk sug‘urtalanganmi?",
+          "a": "Xohishga ko‘ra sug‘urtalaymiz: invoys bo‘yicha e’lon qilingan qiymatning 0,5%. Shikastlanish yoki yo‘qolganda sug‘urta polisi bo‘yicha qoplaymiz."
+        },
+        {
+          "q": "Bojxonada yordam berasizmi?",
+          "a": "Ha, o‘z bojxona brokerimiz bor. TIF TN kodini tanlaymiz, bojlarni oldindan hisoblaymiz, sertifikatlarni rasmiylashtiramiz — deklaratsiya 150 $ dan."
+        },
+        {
+          "q": "Yuk kelgandan keyin qayerda saqlanadi?",
+          "a": "Sergelidagi omborimizda: dastlabki 7 kun bepul, keyin sutkasiga har m³ uchun 1 $. O‘zingiz olib ketishingiz yoki shahar bo‘ylab yetkazishni buyurtma qilishingiz mumkin."
+        },
+        {
+          "q": "Qanday to‘lanadi?",
+          "a": "Shartnoma bo‘yicha so‘mda yoki dollarda hisob raqamga o‘tkazma orqali. Narx tasdiqlangach 50% oldindan to‘lov, qolgani — yukni berishdan oldin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Hisob-kitob",
+      "title": "Invoys yuboring — bir soatda hisoblaymiz",
+      "text": "Nima, qayerdan va taxminan qancha hajmda olib kelishingizni yozing. Narx, muddat va hujjatlar ro‘yxati bilan javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/karvoncargo"
+      }
+    }
+  ]
+}

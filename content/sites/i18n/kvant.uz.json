@@ -1,0 +1,282 @@
+{
+  "name": "Kvant",
+  "tagline": "O‘ylaydigan muhandislik",
+  "niche": "IT-kompaniya: SI-mahsulotlar, SaaS va mobil ilovalar",
+  "nav": {
+    "cta": {
+      "label": "Vazifani muhokama qilish",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Kvant — Toshkentda SI-mahsulotlar, SaaS va ilovalar yaratish",
+    "description": "SI-assistentlar, SaaS-platformalar va mobil ilovalarni loyihalaymiz va ishlab chiqamiz. IT Park rezidenti: 40 muhandisli jamoa, MVP 10–12 haftada.",
+    "keywords": [
+      "SI ishlab chiqish Toshkent",
+      "SaaS ishlab chiqish",
+      "mobil ilovalar",
+      "LLM integratsiyasi",
+      "IT Park",
+      "dasturlash autsorsingi"
+    ],
+    "answer": "Kvant — Toshkentdagi IT-kompaniya, IT Park rezidenti. LLM asosidagi SI-assistentlar, SaaS-platformalar hamda iOS va Android uchun mobil ilovalar yaratamiz. MVP 10–12 haftada ishga tushadi, narxi 25 000 $ dan; ajratilgan jamoa — oyiga 9 000 $ dan."
+  },
+  "listing": {
+    "price": "",
+    "description": "IT-kompaniya, SI-mahsulotlar yoki SaaS ishlab chiquvchi uchun sayt. Kamalak dispersiyali shisha shar, yo‘nalishlar so‘zlaridan devor, perspektivadagi keyslar karuseli — andozasiz texnologik obraz.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Kvant Labs» MChJ",
+    "street": "IT Park, Mirzo Ulug‘bek ko‘chasi, 49",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston, Qozog‘iston, Yevropa"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bozordan tezroq o‘rganadigan mahsulotlar quramiz",
+      "eyebrow": "Kvant Labs · SI / SaaS / Mobile",
+      "subtitle": "Ichida SI bo‘lgan raqamli mahsulotlarni loyihalaymiz, yaratamiz va kengaytiramiz — ikki haftalik prototipdan million foydalanuvchili platformagacha.",
+      "words": [
+        "Machine Learning",
+        "SaaS",
+        "Mobile",
+        "LLM",
+        "Cloud",
+        "Data"
+      ],
+      "cta": {
+        "label": "Vazifani muhokama qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Keyslar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Python",
+        "TypeScript",
+        "Kotlin",
+        "Swift",
+        "PyTorch",
+        "Kubernetes",
+        "PostgreSQL",
+        "Next.js",
+        "Go"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kompaniya",
+      "title": "Biz soatlar uchun emas, mahsulot natijasi uchun javob beradigan muhandislar jamoasimiz.",
+      "text": "Toshkentda 40 nafar muhandis, dizayner va tahlilchi. Ikki haftalik qisqa iteratsiyalarda ishlaymiz, har juma ishlaydigan versiyani ko‘rsatamiz. Kod, infratuzilma va ma’lumotlar birinchi kundan sizniki: repozitoriy sizning akkauntingizda, hujjatlar jarayonda yoziladi, keyin emas.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Ekspertiza",
+      "title": "Nimalarni yaratamiz",
+      "intro": "Mahsulotni to‘liq olamiz yoki jamoangizni alohida muhandislar bilan kuchaytiramiz.",
+      "items": [
+        {
+          "title": "SI-assistentlar va LLM",
+          "text": "Qo‘llab-quvvatlash va savdo chat-botlari, hujjatlar bo‘yicha qidiruv (RAG), tizimlaringizga kirish huquqi bor agentlar.",
+          "price": "15 000 $ dan",
+          "tag": "AI"
+        },
+        {
+          "title": "SaaS-platformalar",
+          "text": "Ko‘p foydalanuvchili veb-xizmatlar: billing, rollar, analitika, hamkorlar uchun API.",
+          "price": "40 000 $ dan",
+          "tag": "Web"
+        },
+        {
+          "title": "Mobil ilovalar",
+          "text": "Nativ iOS va Android yoki Flutter: banking, yetkazib berish, yozilish xizmatlari.",
+          "price": "25 000 $ dan",
+          "tag": "Mobile"
+        },
+        {
+          "title": "Ajratilgan jamoa",
+          "text": "Stekingizga mos senior-muhandislar, texlid va haftalik hisobot bilan.",
+          "price": "oyiga 9 000 $ dan",
+          "tag": "Team"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Keyslar",
+      "title": "Ishlayotgan mahsulotlar",
+      "items": [
+        {
+          "title": "Navo Assistant",
+          "category": "LLM, qo‘llab-quvvatlash",
+          "year": "2026",
+          "text": "Telekom-operator koll-markazi uchun SI-operator: murojaatlarning 62% ini insonsiz yopadi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Sklad OS",
+          "category": "SaaS, logistika",
+          "year": "2025",
+          "text": "Mintaqadagi 120 distribyutor uchun omborlarni boshqarish platformasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tez Pay",
+          "category": "Mobile, fintex",
+          "year": "2025",
+          "text": "P2P o‘tkazmalar va QR orqali to‘lovli hamyon, 800 ming o‘rnatish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "MedScan",
+          "category": "Computer Vision",
+          "year": "2024",
+          "text": "Shifokorlar uchun ikkinchi fikr sifatida rentgen suratlarini aniqlash.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Bozor Data",
+          "category": "Data, analitika",
+          "year": "2024",
+          "text": "300 ta do‘kondan iborat chakana tarmoq uchun talab prognozi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "shtatdagi muhandislar"
+        },
+        {
+          "value": "65",
+          "suffix": "+",
+          "label": "ishga tushirilgan mahsulotlar"
+        },
+        {
+          "value": "12",
+          "suffix": " hafta",
+          "label": "MVP ning o‘rtacha muddati"
+        },
+        {
+          "value": "8",
+          "suffix": " yil",
+          "label": "bozorda"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Jarayon",
+      "title": "G‘oyadan relizgacha",
+      "items": [
+        {
+          "title": "Discovery",
+          "text": "Ikki hafta: intervyular, mahsulot xaritasi, arxitektura, soat va pulda baholash."
+        },
+        {
+          "title": "Prototip",
+          "text": "Bosiladigan prototip yoki ma’lumotlaringizda ishlaydigan SI-demo."
+        },
+        {
+          "title": "Ishlab chiqish",
+          "text": "Ikki haftalik sprintlar, har juma demo, birinchi kundan CI/CD."
+        },
+        {
+          "title": "Ishga tushirish va o‘sish",
+          "text": "Reliz, monitoring, 24/7 qo‘llab-quvvatlash va metrikalar bo‘yicha rivojlantirish."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Mijozlar fikri",
+      "items": [
+        {
+          "quote": "Kvant uch oyda operatorlarning yarmidan ko‘p ish-yumushini o‘z zimmasiga olgan assistentni yaratdi. Eng muhimi — ular SI nima qilmasligi kerakligini ochiq aytishdi.",
+          "author": "Temur Abdullayev",
+          "role": "mijozlarga xizmat ko‘rsatish direktori, telekom"
+        },
+        {
+          "quote": "Pudratchi emas, mahsulot jamoasini oldik: biz bilan metrikalar haqida bahslashishdi va haq bo‘lib chiqishdi.",
+          "author": "Anna Kim",
+          "role": "CEO Sklad OS"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "MVP yaratish qancha turadi?",
+          "a": "Veb-xizmat yoki mobil ilova MVP si — 25 000 $ dan, ma’lumotlaringizdagi SI-assistent — 15 000 $ dan. Aniq bahoni ikki haftalik Discovery dan keyin beramiz, uning narxi 3 000 $ va loyiha hisobiga o‘tkaziladi."
+        },
+        {
+          "q": "Mahsulotni qanchalik tez ishga tushirasiz?",
+          "a": "MVP ning o‘rtacha muddati — 10–12 hafta. Prototip yoki ishlaydigan SI-demoni boshlanganidan 2–3 hafta o‘tib ko‘rsatamiz."
+        },
+        {
+          "q": "Kod kimga tegishli?",
+          "a": "Sizga. Repozitoriy va bulutli infratuzilma sizning akkauntlaringizda yaratiladi, huquqlar birinchi kommitdan shartnoma bo‘yicha o‘tkaziladi."
+        },
+        {
+          "q": "Xorijiy kompaniyalar bilan ishlaysizmi?",
+          "a": "Ha, mijozlarning uchdan biri Qozog‘iston va Yevropadan. IT Park rezidenti sifatida dollar yoki yevroda eksport shartnomasi bo‘yicha ishlaymiz."
+        },
+        {
+          "q": "Qaysi SI-modellardan foydalanasiz?",
+          "a": "Vazifa va ma’lumotlarga qo‘yiladigan talablarga qarab tanlaymiz: yirik provayderlarning bulutli LLM lari yoki ma’lumotlarni tashqariga uzatib bo‘lmasa — serveringizda o‘rnatilgan ochiq modellar."
+        },
+        {
+          "q": "Ishga tushgandan keyin-chi?",
+          "a": "Muhim nosozliklarga 1 soatgacha javob beradigan qo‘llab-quvvatlash va oylik reja bo‘yicha mahsulotni rivojlantirish — oyiga 4 000 $ dan."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Nima qurishimizni aytib bering",
+      "text": "G‘oyani ikki xatboshida yuboring — bir sutka ichida savollar va dastlabki baho bilan qaytamiz.",
+      "cta": {
+        "label": "hello@kvant.dev",
+        "href": "mailto:hello@kvant.dev"
+      }
+    }
+  ]
+}

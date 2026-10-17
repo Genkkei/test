@@ -1,0 +1,294 @@
+{
+  "name": "Adliya Partners",
+  "tagline": "A law firm for business in Uzbekistan",
+  "niche": "Law firm: corporate law, tax, disputes, M&A",
+  "nav": {
+    "cta": {
+      "label": "Consultation",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Adliya Partners — business law firm in Tashkent",
+    "description": "Corporate law, tax disputes, M&A, data protection and support for foreign investors in Uzbekistan. A fixed price per stage and a reply within a day.",
+    "keywords": [
+      "law firm Tashkent",
+      "corporate lawyer Uzbekistan",
+      "tax disputes",
+      "M&A Uzbekistan",
+      "company registration for foreigners",
+      "personal data Uzbekistan"
+    ],
+    "answer": "Adliya Partners is a law firm in Tashkent, founded in 2012, handling company matters in Uzbekistan: corporate law, tax, litigation, M&A deals, IT and personal data, and support for foreign investors. Registering a company with foreign participation starts from 12,000,000 UZS in 10 working days; an initial one-hour consultation starts from 1,500,000 UZS."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a law firm, consultancy or financial company. A Swiss grid with rulers and numbered paragraphs, practices as a register, partners and anonymised cases.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Adliya Partners LLC",
+    "street": "4B Afrosiyob St, business centre, 7th floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan, Central Asia"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Law you can",
+      "eyebrow": "Law firm · Tashkent · since 2012",
+      "subtitle": "We support companies and investors in Uzbekistan, from registration and contracts to tax audits, courts and deals. Every stage has a fixed price and a clear timeline.",
+      "words": [
+        "rely on",
+        "count on",
+        "lean on"
+      ],
+      "cta": {
+        "label": "Book a consultation",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Practices",
+        "href": "#practices"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The firm",
+      "title": "We speak the language of business and of law at the same time",
+      "text": "Twenty-two lawyers and four partners. A partner personally leads every matter, from the first meeting to the result. We don’t promise the outcome of a lawsuit, but we always set out the risks, chances and cost before you decide. We work in Russian, Uzbek and English.",
+      "image": ""
+    },
+    {
+      "id": "practices",
+      "type": "services",
+      "label": "Practices",
+      "title": "What we do",
+      "intro": "Prices are “from” and are fixed in the engagement agreement before work begins.",
+      "items": [
+        {
+          "title": "Corporate law",
+          "text": "Registration, charters, shareholder agreements, group restructuring.",
+          "price": "from 12 000 000 UZS",
+          "tag": "from 10 working days"
+        },
+        {
+          "title": "Tax",
+          "text": "Tax planning, audit support, appeals against additional assessments.",
+          "price": "from 9 000 000 UZS",
+          "tag": "by stage"
+        },
+        {
+          "title": "Disputes and arbitration",
+          "text": "Economic courts, international arbitration, enforcement of judgments.",
+          "price": "from 25 000 000 UZS",
+          "tag": "from 2 months"
+        },
+        {
+          "title": "M&A deals",
+          "text": "Due diligence, structuring, negotiation, deal closing.",
+          "price": "from 60 000 000 UZS",
+          "tag": "from 6 weeks"
+        },
+        {
+          "title": "IT and personal data",
+          "text": "Data localisation, policies, contracts with IT contractors, IT Park.",
+          "price": "from 7 500 000 UZS",
+          "tag": "from 2 weeks"
+        },
+        {
+          "title": "Foreign investors",
+          "text": "Market entry, permits, currency control, employment matters.",
+          "price": "from 15 000 000 UZS",
+          "tag": "ongoing support"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "yrs",
+          "label": "of practice in Uzbekistan"
+        },
+        {
+          "value": "22",
+          "suffix": "",
+          "label": "lawyers, including 4 partners"
+        },
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "projects for companies"
+        },
+        {
+          "value": "3",
+          "suffix": "languages",
+          "label": "we work in: Russian, Uzbek, English"
+        }
+      ]
+    },
+    {
+      "id": "cases",
+      "type": "works",
+      "label": "Track record",
+      "title": "Selected matters",
+      "items": [
+        {
+          "title": "Retail M&A: acquisition of an 18-store chain",
+          "category": "M&A",
+          "year": "2025",
+          "text": "Due diligence, deal structure, closing in 11 weeks.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Additional tax assessment overturned for a manufacturer",
+          "category": "Tax",
+          "year": "2025",
+          "text": "The assessment was overturned on appeal.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "A European IT holding enters the Uzbek market",
+          "category": "Investment",
+          "year": "2024",
+          "text": "Registration, IT Park residency, data localisation.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Shareholder dispute in a construction company",
+          "category": "Disputes",
+          "year": "2024",
+          "text": "Settlement with a buy-out of the stake at market valuation.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Partners",
+      "title": "The firm’s partners",
+      "items": [
+        {
+          "name": "Farrukh Ismailov",
+          "role": "Managing partner, corporate law and M&A",
+          "image": ""
+        },
+        {
+          "name": "Natalya Kim",
+          "role": "Partner, tax",
+          "image": ""
+        },
+        {
+          "name": "Sherzod Aliev",
+          "role": "Partner, disputes and arbitration",
+          "image": ""
+        },
+        {
+          "name": "Lola Nasyrova",
+          "role": "Partner, IT and personal data",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "How we run a matter",
+      "items": [
+        {
+          "title": "Meeting",
+          "text": "An hour with a partner going through the situation and documents."
+        },
+        {
+          "title": "Opinion",
+          "text": "A written assessment of risks, options and cost."
+        },
+        {
+          "title": "Agreement",
+          "text": "We fix the scope, timeline and price of each stage."
+        },
+        {
+          "title": "Work",
+          "text": "A report on every step and access to the matter at any time."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Clients",
+      "title": "Client reviews",
+      "items": [
+        {
+          "quote": "They gave us the cost of the deal down to the last stage at the very first meeting — and it didn’t change.",
+          "author": "Chief financial officer",
+          "role": "retail chain"
+        },
+        {
+          "quote": "They took us through a tax audit calmly and without surprises. We saw every request from the inspectors with an answer already prepared.",
+          "author": "Chief executive officer",
+          "role": "manufacturing company"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much is a consultation?",
+          "a": "An initial consultation with a partner lasts an hour and costs from 1,500,000 UZS. If you sign an engagement agreement, the amount is credited towards the work."
+        },
+        {
+          "q": "How long does it take to register a company with foreign participation?",
+          "a": "Usually 10 working days from receipt of the documents, including opening a bank account. The cost is from 12,000,000 UZS."
+        },
+        {
+          "q": "Do you work on an hourly basis?",
+          "a": "Yes, but we usually offer a fixed price per stage so the budget is clear in advance. A partner’s hourly rate starts from 2,000,000 UZS."
+        },
+        {
+          "q": "Can you guarantee the outcome in court?",
+          "a": "No, and nobody honestly can. We give a written assessment of the chances and risks before a dispute begins and act to reduce those risks."
+        },
+        {
+          "q": "Do you keep matters confidential?",
+          "a": "Yes. Confidentiality is set out in the agreement, our staff sign non-disclosure undertakings, and documents are kept in a secure system."
+        },
+        {
+          "q": "Do you work with clients from abroad?",
+          "a": "Yes, about half of our clients are foreign companies. We meet online and prepare documents in Russian, Uzbek and English."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Let’s discuss your matter",
+      "text": "We’ll reply within a working day and suggest a time to meet a partner.",
+      "cta": {
+        "label": "office@adliya.partners",
+        "href": "mailto:office@adliya.partners"
+      }
+    }
+  ]
+}

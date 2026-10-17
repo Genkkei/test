@@ -252,3 +252,7 @@
   .pl-bubbles li:nth-child(3) { right: 0; top: 48%; }
   .pl-bubbles li:nth-child(4) { left: 0; top: 52%; }
 }
+
+/* подписи из CSS на языке страницы */
+:lang(uz) .tpl-play .s-pricing__item.is-featured::before { content: 'Xit ★'; }
+:lang(en) .tpl-play .s-pricing__item.is-featured::before { content: 'Popular ★'; }

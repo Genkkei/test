@@ -5,6 +5,7 @@ import { Cursor, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
+import { pick, ui } from '@/lib/i18n'
 import { DevelopCanvas, FrameCounter } from './client'
 
 /*
@@ -26,11 +27,11 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <Cursor className="cursor dark-cursor" />
       <header className="dark-header">
-        <a href="#top" className="dark-logo" aria-label={`${site.name} — наверх`}>
+        <a href="#top" className="dark-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
           <i aria-hidden="true" />
           {site.name}
         </a>
-        <nav className="dark-nav" aria-label="Разделы">
+        <nav className="dark-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
             <a key={l.href} href={l.href}>
               <small>{pad(i + 1)}</small>
@@ -45,7 +46,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               {site.nav.cta.label} ↗
             </a>
           ) : null}
-          <MobileMenu links={links} cta={site.nav.cta} />
+          <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         </div>
       </header>
       <main id="top">{children}</main>
@@ -58,7 +59,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <dl className="dark-footer__facts">
             {b.phone ? (
               <div>
-                <dt>Тел.</dt>
+                <dt>{pick(site.lang, { ru: 'Тел.', uz: 'Tel.', en: 'Tel.' })}</dt>
                 <dd>
                   <a href={`tel:${b.phone.replace(/[^\d+]/g, '')}`}>{b.phone}</a>
                 </dd>
@@ -66,7 +67,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ) : null}
             {b.email ? (
               <div>
-                <dt>Почта</dt>
+                <dt>{ui(site.lang, 'email')}</dt>
                 <dd>
                   <a href={`mailto:${b.email}`}>{b.email}</a>
                 </dd>
@@ -74,12 +75,12 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             ) : null}
             {b.street ? (
               <div>
-                <dt>Студия</dt>
+                <dt>{pick(site.lang, { ru: 'Студия', uz: 'Studiya', en: 'Studio' })}</dt>
                 <dd>{[b.street, b.city].filter(Boolean).join(', ')}</dd>
               </div>
             ) : null}
             <div>
-              <dt>Сети</dt>
+              <dt>{pick(site.lang, { ru: 'Сети', uz: 'Tarmoqlar', en: 'Social' })}</dt>
               <dd className="dark-footer__social">
                 {b.socials.map((s) => (
                   <a key={s.url} href={s.url} target="_blank" rel="noopener me">
@@ -96,7 +97,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <span>
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
-          <a href="#top">▲ В начало</a>
+          <a href="#top">▲ {pick(site.lang, { ru: 'В начало', uz: 'Boshiga', en: 'Back to top' })}</a>
         </div>
       </footer>
     </>
@@ -188,7 +189,7 @@ function Works({ section: s, site, art }: SectionProps<'works'>) {
               </>
             )
             return it.href ? (
-              <a key={i} href={it.href} className="dark-sheet__item" data-reveal="fade" data-delay={String((i % 3) * 0.08)} data-cursor="Смотреть">
+              <a key={i} href={it.href} className="dark-sheet__item" data-reveal="fade" data-delay={String((i % 3) * 0.08)} data-cursor={ui(site.lang, 'view')}>
                 {body}
               </a>
             ) : (
@@ -212,10 +213,10 @@ function Gallery({ section: s, site, art }: SectionProps<'gallery'>) {
       </div>
       <div className="dark-film" data-lenis-prevent-wheel>
         <Perforation />
-        <div className="dark-film__track" tabIndex={0} aria-label="Плёнка: листайте вбок">
+        <div className="dark-film__track" tabIndex={0} aria-label={pick(site.lang, { ru: 'Плёнка: листайте вбок', uz: 'Plyonka: yon tomonga suring', en: 'Film strip: scroll sideways' })}>
           {s.items.map((it, i) => (
             <figure key={i} className="dark-film__frame">
-              <Media src={it.image} alt={it.caption || `${site.name} — кадр ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
+              <Media src={it.image} alt={it.caption || `${site.name} — ${pick(site.lang, { ru: 'кадр', uz: 'kadr', en: 'frame' })} ${i + 1}`} seed={`${site.slug}-g${i}`} colors={palette(site)} kind={art} className="media" />
               <figcaption>
                 <span>{pad(i + 1)}A</span>
                 {it.caption}
@@ -229,7 +230,7 @@ function Gallery({ section: s, site, art }: SectionProps<'gallery'>) {
   )
 }
 
-function Pricing({ section: s }: SectionProps<'pricing'>) {
+function Pricing({ section: s, site }: SectionProps<'pricing'>) {
   return (
     <Sec id={s.anchor} type="pricing" className="dark-packs-sec">
       <Head label={s.label} title={s.title} />
@@ -238,7 +239,7 @@ function Pricing({ section: s }: SectionProps<'pricing'>) {
           <article key={i} className={`dark-pack${it.featured ? ' is-featured' : ''}`} data-reveal="up" data-delay={String(i * 0.08)}>
             <div className="dark-pack__top">
               <span>PKG {pad(i + 1)}</span>
-              {it.featured ? <span className="dark-pack__flag">● Чаще выбирают</span> : null}
+              {it.featured ? <span className="dark-pack__flag">● {pick(site.lang, { ru: 'Чаще выбирают', uz: 'Ko‘proq tanlashadi', en: 'Most chosen' })}</span> : null}
             </div>
             <h3>{it.name}</h3>
             <p className="dark-pack__price">
