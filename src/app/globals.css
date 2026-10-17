@@ -13,6 +13,18 @@
 @import '@fontsource/dela-gothic-one';
 @import '@fontsource/tenor-sans';
 @import '@fontsource/prata';
+@import '@fontsource-variable/oswald';
+@import '@fontsource/yeseva-one';
+@import '@fontsource/rubik-mono-one';
+@import '@fontsource-variable/rubik';
+@import '@fontsource-variable/lora';
+@import '@fontsource-variable/lora/wght-italic.css';
+@import '@fontsource-variable/nunito';
+@import '@fontsource/russo-one';
+@import '@fontsource-variable/exo-2';
+@import '@fontsource-variable/raleway';
+@import '@fontsource-variable/literata';
+@import '@fontsource-variable/caveat';
 
 /* ---------- сброс ---------- */
 *, *::before, *::after { box-sizing: border-box; }

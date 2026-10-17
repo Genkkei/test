@@ -17,6 +17,17 @@ export const FONTS = {
   'Tenor Sans': "'Tenor Sans', sans-serif",
   'Prata': "'Prata', serif",
   'Montserrat': "'Montserrat Variable', sans-serif",
+  'Oswald': "'Oswald Variable', sans-serif",
+  'Yeseva One': "'Yeseva One', serif",
+  'Rubik Mono One': "'Rubik Mono One', sans-serif",
+  'Rubik': "'Rubik Variable', sans-serif",
+  'Lora': "'Lora Variable', serif",
+  'Nunito': "'Nunito Variable', sans-serif",
+  'Russo One': "'Russo One', sans-serif",
+  'Exo 2': "'Exo 2 Variable', sans-serif",
+  'Raleway': "'Raleway Variable', sans-serif",
+  'Literata': "'Literata Variable', serif",
+  'Caveat': "'Caveat Variable', cursive",
 } as const
 
 export type FontName = keyof typeof FONTS
