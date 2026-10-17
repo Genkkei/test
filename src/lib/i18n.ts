@@ -35,6 +35,11 @@ export function mergeTranslation(base: Site, tr: Json, lang: string): Site {
     const b = tr.business as Json
     out.business = { ...base.business }
     for (const k of ['legalName', 'street', 'city', 'region', 'areaServed'] as const) if (typeof b[k] === 'string' && b[k]) out.business[k] = b[k] as string
+    // названия профилей («Яндекс Карты») переводятся, ссылки остаются из основного файла
+    if (Array.isArray(b.socials)) {
+      const names = b.socials as { name?: string }[]
+      out.business.socials = base.business.socials.map((s, i) => ({ ...s, name: names[i]?.name || s.name }))
+    }
   }
   if (Array.isArray(tr.sections)) {
     const byId = new Map((tr.sections as Json[]).map((s) => [s.id as string, s]))
@@ -57,7 +62,7 @@ export function translatableOf(site: Site): Json {
     seo: { title: site.seo.title, description: site.seo.description, keywords: site.seo.keywords, answer: site.seo.answer },
     nav: site.nav,
     listing: { price: site.listing.price, description: site.listing.description, features: site.listing.features },
-    business: { legalName: site.business.legalName, street: site.business.street, city: site.business.city, region: site.business.region, areaServed: site.business.areaServed },
+    business: { legalName: site.business.legalName, street: site.business.street, city: site.business.city, region: site.business.region, areaServed: site.business.areaServed, socials: site.business.socials.map((s) => ({ name: s.name })) },
     sections: site.sections.map(({ enabled: _e, anchor: _a, ...rest }) => rest),
   }
 }

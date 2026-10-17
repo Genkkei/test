@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { Section, SectionOf, Site } from './schema'
-import { HREFLANG, OG_LOCALE } from './i18n'
+import { HREFLANG, OG_LOCALE, pick } from './i18n'
 
 /*
  * SEO, AEO и GEO собираются из одних и тех же данных сайта:
@@ -143,7 +143,7 @@ export function buildJsonLd(site: Site): object {
   if (services.length || pricing.length) {
     org.hasOfferCatalog = {
       '@type': 'OfferCatalog',
-      name: firstOf(site, 'services')?.title || 'Услуги',
+      name: firstOf(site, 'services')?.title || pick(site.lang, { ru: 'Услуги', uz: 'Xizmatlar', en: 'Services' }),
       itemListElement: [
         ...services.map((s) => ({
           '@type': 'Offer',
@@ -166,7 +166,7 @@ export function buildJsonLd(site: Site): object {
   if (menus.length && ['Restaurant', 'Bakery', 'CafeOrCoffeeShop'].includes(b.type)) {
     org.hasMenu = {
       '@type': 'Menu',
-      name: menus[0].title || 'Меню',
+      name: menus[0].title || pick(site.lang, { ru: 'Меню', uz: 'Menyu', en: 'Menu' }),
       hasMenuSection: menus.flatMap((m) =>
         m.groups.map((g) => ({
           '@type': 'MenuSection',
@@ -217,7 +217,7 @@ export function buildJsonLd(site: Site): object {
   if (steps?.items.length) {
     graph.push({
       '@type': 'HowTo',
-      name: steps.title || `Как мы работаем — ${site.name}`,
+      name: steps.title || `${pick(site.lang, { ru: 'Как мы работаем', uz: 'Qanday ishlaymiz', en: 'How we work' })} — ${site.name}`,
       step: steps.items.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s.title, text: s.text })),
     })
   }
