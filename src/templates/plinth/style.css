@@ -5,8 +5,8 @@
   background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
   background-size: 100% 120px, 120px 100%; background-position: 0 -1px, -1px 0; background-attachment: fixed;
   background-color: var(--bg); }
-.tpl-plinth::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0; background: color-mix(in srgb, var(--bg) 78%, transparent); }
-.tpl-plinth > * { position: relative; z-index: 1; }
+.tpl-plinth { isolation: isolate; }
+.tpl-plinth::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: -1; background: color-mix(in srgb, var(--bg) 78%, transparent); }
 .tpl-plinth .s { padding-block: clamp(80px, 11vw, 170px); }
 .tpl-plinth .s__inner { width: calc(100% - 2 * var(--pad)); max-width: none; }
 .tpl-plinth .s__head { max-width: none; grid-template-columns: minmax(150px, 1fr) 3fr; column-gap: 24px; border-top: var(--hair); padding-top: 14px; align-items: start; }

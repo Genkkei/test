@@ -185,3 +185,4 @@
 @media (max-width: 760px) { .crt-footer__cols { grid-template-columns: 1fr; } }
 .tpl-carat .s-contact__body { min-width: 0; }
 @media (max-width: 600px) { .tpl-carat .s-contact .btn { white-space: normal; text-align: center; padding-inline: 24px; max-width: 100%; } }
+.tpl-carat .s-contact__facts > * { min-width: 0; overflow-wrap: anywhere; } .tpl-carat .s-contact__body { width: 100%; }

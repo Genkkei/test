@@ -41,7 +41,7 @@
 .drv-hero__eyebrow { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .drv-hero__eyebrow i { width: 9px; height: 9px; border-radius: 50%; background: #1fbf5a; box-shadow: 0 0 0 4px color-mix(in srgb, #1fbf5a 25%, transparent); animation: drvPulse 2s infinite; }
 @keyframes drvPulse { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, #1fbf5a 0%, transparent); } }
-.drv-hero__title { font-family: var(--font-display); font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(44px, 6.6vw, 124px); line-height: .88; letter-spacing: -.04em; }
+.drv-hero__title { font-family: var(--font-display); font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(40px, 5.7vw, 112px); line-height: .9; letter-spacing: -.04em; }
 .drv-hero__sub { max-width: 44ch; color: color-mix(in srgb, var(--fg) 75%, transparent); font-size: 17px; }
 .drv-hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; }
 .drv-hero__stage { position: relative; display: grid; align-items: end; min-height: 360px; background: radial-gradient(ellipse 70% 60% at 55% 62%, #fff, transparent 70%), linear-gradient(var(--surface), var(--bg)); overflow: hidden; }
