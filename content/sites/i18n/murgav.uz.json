@@ -1,0 +1,317 @@
+{
+  "name": "Mur & Gav",
+  "tagline": "Hatto veterinar oldida ham dumi likillaydigan qilib davolaymiz",
+  "niche": "Veterinariya klinikasi va gruming",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Mur & Gav — Toshkentda kecha-kunduz veterinariya va gruming",
+    "description": "Bobur ko‘chasidagi kecha-kunduz ishlaydigan veterinariya klinikasi: emlash, UZI, sterilizatsiya, stomatologiya va mushuk-itlar uchun gruming. Onlayn va telefon orqali yozilish.",
+    "keywords": [
+      "veterinariya klinikasi Toshkent",
+      "kecha-kunduz veterinariya klinikasi",
+      "mushukni sterilizatsiya qilish narxi",
+      "itni emlash",
+      "gruming Toshkent",
+      "hayvonlar uchun UZI"
+    ],
+    "answer": "«Mur & Gav» — Toshkentdagi kecha-kunduz ishlaydigan veterinariya klinikasi, Bobur ko‘chasi, 17. Mushuk, it, quyon va sassiqko‘zanlarni davolaymiz: terapevt qabuli — 150 000 so‘m, kompleks emlash — 220 000 so‘mdan, mushukni sterilizatsiya qilish — 650 000 so‘m. Shoshilinch yordam — 24/7, yozilishsiz."
+  },
+  "listing": {
+    "price": "",
+    "description": "Veterinariya klinikasi, gruming yoki zoodo‘kon uchun sayt. Iliq va do‘stona: SVG mushuk, kursor ortidan panja izlari, narxli xizmatlar, shifokorlar va 24/7 shoshilinch liniya.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Mur & Gav Vet» MChJ",
+    "street": "Bobur ko‘chasi, 17",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Borishga qo‘rqinchli bo‘lmagan veterinariya klinikasi",
+      "eyebrow": "Kecha-kunduz · Bobur ko‘chasi, 17",
+      "subtitle": "Terapiya, jarrohlik, UZI, stomatologiya va gruming bir tom ostida. Mushuk va itlar uchun alohida kirish va kutish zallari — hech kim hech kimga vishillamasligi uchun.",
+      "words": [
+        "mushuklar",
+        "itlar",
+        "quyonlar",
+        "sassiqko‘zanlar"
+      ],
+      "cta": {
+        "label": "Qabulga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Xizmat narxlari",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "ribbon",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Shoshilinch yordam 24/7",
+        "Mushuklar uchun alohida kirish",
+        "30 daqiqada tahlillar",
+        "Stresssiz gruming",
+        "Uyga chiqish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "klinika haqida",
+      "title": "Avval tanishamiz, keyin davolaymiz",
+      "text": "Har bir qabul xonani hidlab chiqish va shirinliklar uchun besh daqiqadan boshlanadi. Shifokorlar shoshilmaydi, tashxisni oddiy so‘zlar bilan tushuntiradi va davolash rejasini Telegramga yuboradi. Klinikada o‘z laboratoriyamiz, rentgen, UZI va kameralar bilan statsionar bor — operatsiyadan keyin uy hayvoningiz qanday uxlayotganini ko‘rishingiz mumkin.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "xizmatlar va narxlar",
+      "title": "Qanday yordam beramiz",
+      "intro": "Narxlar dorilarsiz, qabul yoki muolaja uchun. Davolashning aniq narxini shifokor ko‘rikdan keyin aytadi.",
+      "items": [
+        {
+          "title": "Emlash",
+          "text": "Kompleks emlash, chip va veterinariya pasporti. Keyingisini eslatamiz.",
+          "price": "220 000 so‘mdan",
+          "tag": "15 daqiqa"
+        },
+        {
+          "title": "Terapevt qabuli",
+          "text": "Ko‘rik, maslahat va Telegramda davolash rejasi.",
+          "price": "150 000 so‘m",
+          "tag": "navbatsiz"
+        },
+        {
+          "title": "Gruming",
+          "text": "Yuvish, qirqish, tirnoq va quloqlar. Usta sedatsiyasiz ishlaydi.",
+          "price": "250 000 so‘mdan",
+          "tag": "9:00 dan 21:00 gacha"
+        },
+        {
+          "title": "Stomatologiya",
+          "text": "Ultratovush bilan tozalash, tish olib tashlash, milklarni davolash.",
+          "price": "480 000 so‘mdan",
+          "tag": "narkoz ostida"
+        },
+        {
+          "title": "UZI va rentgen",
+          "text": "Qorin bo‘shlig‘i va yurak UZIsi, tavsifli raqamli rentgen.",
+          "price": "200 000 so‘mdan",
+          "tag": "murojaat kuni"
+        },
+        {
+          "title": "Sterilizatsiya",
+          "text": "Mushuklar — 650 000 so‘m, erkak itlar — 700 000 so‘mdan. Popona va keyingi ko‘rik narxga kiradi.",
+          "price": "650 000 so‘mdan",
+          "tag": "operatsiya kuni uyga"
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "type": "process",
+      "label": "qabul qanday o‘tadi",
+      "title": "Stresssiz, qadamma-qadam",
+      "items": [
+        {
+          "title": "Yozilish",
+          "text": "Telefon, Telegram orqali yoki shoshilinch holatda yozilishsiz."
+        },
+        {
+          "title": "Tanishuv",
+          "text": "Alohida kutish zali, shirinliklar va moslashish uchun besh daqiqa."
+        },
+        {
+          "title": "Ko‘rik",
+          "text": "Shifokor har bir harakatni tushuntiradi va tahlil natijalarini ko‘rsatadi."
+        },
+        {
+          "title": "Davolash rejasi",
+          "text": "Sxema, dozalar va eslatmalar Telegramga keladi."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "dam olishsiz ochiqmiz"
+        },
+        {
+          "value": "11",
+          "suffix": "",
+          "label": "shifokor va assistentlar"
+        },
+        {
+          "value": "30",
+          "suffix": " daq",
+          "label": "o‘z laboratoriyamizda qon tahlili"
+        },
+        {
+          "value": "18000",
+          "suffix": "+",
+          "label": "bazamizdagi dumlar"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "shifokorlar",
+      "title": "Panjalar ishonadiganlar",
+      "items": [
+        {
+          "name": "Shahnoza Karimova",
+          "role": "bosh shifokor, terapevt",
+          "image": ""
+        },
+        {
+          "name": "Rustam Aliyev",
+          "role": "jarroh, ortoped",
+          "image": ""
+        },
+        {
+          "name": "Yelena Pak",
+          "role": "UZI va kardiologiya",
+          "image": ""
+        },
+        {
+          "name": "Dinara Usmonova",
+          "role": "gruming ustasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "type": "pricing",
+      "label": "sog‘liq dasturlari",
+      "title": "Bir to‘lov bilan bir yillik g‘amxo‘rlik",
+      "items": [
+        {
+          "name": "Kichkintoy",
+          "price": "1 200 000 so‘m",
+          "period": "yiliga",
+          "features": [
+            "Birinchi yilning barcha emlashlari",
+            "Chip va veterinariya pasporti",
+            "3 ta terapevt qabuli",
+            "Parazitlarga qarshi ishlov"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Katta",
+          "price": "1 450 000 so‘m",
+          "period": "yiliga",
+          "features": [
+            "Yillik emlash",
+            "Qon tahlili bilan chek-ap",
+            "4 ta terapevt qabuli",
+            "Grumingga 10% chegirma"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Donishmand yosh",
+          "price": "2 100 000 so‘m",
+          "period": "yiliga",
+          "features": [
+            "Yiliga ikki marta kengaytirilgan chek-ap",
+            "Qorin bo‘shlig‘i va yurak UZIsi",
+            "Cheksiz konsultatsiyalar",
+            "Davolashga 15% chegirma"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "sharhlar",
+      "title": "Egalari nima deydi",
+      "items": [
+        {
+          "quote": "Bobikni kechasi zaharlanish bilan olib keldik, besh daqiqada qabul qilishdi. Ertalab statsionardan video yuborishdi — allaqachon dumini likillatayotgan edi.",
+          "author": "Akmal",
+          "role": "bigl Bobikning egasi"
+        },
+        {
+          "quote": "Musyamiz tashuvchini ham, shifokorlarni ham yomon ko‘radi. Bu u asabiylashmay chiqqan birinchi klinika. Mushuklar uchun alohida kirish — ajoyib g‘oya.",
+          "author": "Natalya",
+          "role": "britaniyalik Musyaning egasi"
+        },
+        {
+          "quote": "Grumer shpitsimizni shunday qirqdiki, qo‘shnilar qayerda qirqtirayotganimizni so‘rashadi. Uyqu dorisisiz!",
+          "author": "Gulnora",
+          "role": "shpits Richining egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Rostdan ham kecha-kunduz ishlaysizmi?",
+          "a": "Ha, klinika 24/7 dam olishsiz ochiq. Kechasi terapevt va jarroh navbatchilik qiladi, shoshilinch bemorlarni yozilishsiz qabul qilamiz."
+        },
+        {
+          "q": "Sterilizatsiya qancha turadi?",
+          "a": "Mushukni sterilizatsiya qilish — 650 000 so‘m, erkak mushukni kastratsiya qilish — 400 000 so‘m, erkak itlar — vazniga qarab 700 000 so‘mdan. Narxga narkoz, popona va nazorat ko‘rigi kiradi."
+        },
+        {
+          "q": "Operatsiyaga tayyorlanish kerakmi?",
+          "a": "Ha: 8–12 soat ovqat bermang, suvni 2 soat oldin olib qo‘ying. Operatsiyadan oldin qon tahlili olamiz — natija 30 daqiqada tayyor."
+        },
+        {
+          "q": "Uyga chiqasizmi?",
+          "a": "Ha, Toshkent bo‘ylab 9:00 dan 21:00 gacha. Chiqish — 200 000 so‘m va xizmatlar narxi. Emlash va keksa hayvonlar uchun qulay."
+        },
+        {
+          "q": "Gruming sedatsiyasiz qilinadimi?",
+          "a": "Ha. Xavotirli hayvonlar uchun usta tanaffus qiladi, egasi esa yonida bo‘lishi mumkin. Sedatsiya — faqat shifokor qarori bilan."
+        },
+        {
+          "q": "Qaysi hayvonlarni qabul qilasiz?",
+          "a": "Mushuklar, itlar, quyonlar, sassiqko‘zanlar va dengiz cho‘chqachalari. Qushlar va sudralib yuruvchilar bilan hozircha ishlamaymiz — qayerga murojaat qilishni aytamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "yozilish",
+      "title": "Qo‘ng‘iroq qiling — kechasi ham javob beramiz",
+      "text": "Rejali qabul — yozilish orqali, shoshilinch yordam — kecha-kunduz yozilishsiz. Kirish oldida avtoturargoh.",
+      "cta": {
+        "label": "Klinikaga qo‘ng‘iroq qilish",
+        "href": "tel:+998712000053"
+      }
+    }
+  ]
+}

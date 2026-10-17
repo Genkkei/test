@@ -1,0 +1,274 @@
+{
+  "name": "Uy Interiors",
+  "tagline": "Qaytib kelgingiz keladigan uylar",
+  "niche": "Interyer dizayn studiyasi",
+  "nav": {
+    "cta": {
+      "label": "Loyihani muhokama qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Interyer dizayn studiyasi, mebel brendi yoki dekor uchun sayt. WebGL’da barglar soyasi tushgan derazadan kelayotgan yorug‘lik, obyekt pasportli loyiha yoyilmalari, materiallar palitrasi va m² uchun tariflar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Uy Interiors — Toshkentda kvartira va uylar interyer dizayni",
+    "description": "Dizayn-loyiha m² uchun 180 000 so‘mdan, mualliflik nazorati va mebel bilan jihozlash. Toshkentdagi kvartira va uylar uchun tabiiy materiallardan sokin interyerlar.",
+    "keywords": [
+      "interyer dizayni Toshkent",
+      "kvartira dizayn-loyihasi",
+      "mualliflik nazorati",
+      "interyer dizayneri",
+      "mebel bilan jihozlash",
+      "uy interyeri"
+    ],
+    "answer": "Uy Interiors — Toshkentdagi interyer dizayn studiyasi (Bobur ko‘chasi, 41). Kvartira dizayn-loyihasi m² uchun 180 000 so‘mdan turadi va 6–10 hafta oladi, mualliflik nazorati — oyiga 4 000 000 so‘mdan, jihozlash — xarid byudjetining 8% idan. O‘lchash uchun obyektga chiqish bepul."
+  },
+  "business": {
+    "legalName": "«Uy Interiors» MChJ",
+    "street": "Bobur ko‘chasi, 41",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sokin interyerlar",
+      "eyebrow": "Interyer studiyasi · Toshkent · 2017-yildan",
+      "subtitle": "Kvartira va uylarni tabiiy materiallardan loyihalaymiz: yog‘och, zig‘ir, tosh va yorug‘lik. Loyihani o‘lchashdan tokchadagi so‘nggi vazagacha olib boramiz.",
+      "words": [
+        "Boburdagi kvartira",
+        "tong",
+        "oktabr"
+      ],
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Loyihalarni ko‘rish",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studiya haqida",
+      "title": "Biz chiroyli rasmlarni emas, devorlar ichidagi hayotni loyihalaymiz",
+      "text": "Avval tinglaymiz: qanday uyg‘onasiz, qayerda kitob o‘qiysiz, jumada nechta mehmon keladi. Keyin yorug‘lik, saqlash joylari va uy bo‘ylab yo‘llarni hisoblaymiz — shundan keyingina materiallarni tanlaymiz. Mahalliy ustalar bilan ishlaymiz: Farg‘onalik duradgorlar, Rishtonlik kulollar, Marg‘ilonlik to‘quvchilar. Har biri bilan shaxsan shug‘ullanish uchun bir vaqtda oltitadan ortiq obyekt olmaymiz.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "Tanlangan interyerlar",
+      "items": [
+        {
+          "title": "Boburdagi kvartira",
+          "category": "Kvartira",
+          "year": "2025",
+          "text": "Ikki farzandli oila uchun yorug‘ uch xonali kvartira: eman, ohak suvoq, o‘rnatilgan saqlash joylari · Maydon: 118 m² · Muddat: 5 oy · Loyiha: 180 000 so‘m/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yunusoboddagi uy",
+          "category": "Xususiy uy",
+          "year": "2024",
+          "text": "Ichki hovli, ayvon va zinapoya ostidagi kutubxonali ikki qavatli uy · Maydon: 310 m² · Muddat: 9 oy · Loyiha: 160 000 so‘m/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tashkent City apartamentlari",
+          "category": "Apartamentlar",
+          "year": "2024",
+          "text": "Ijaraga berish uchun ixcham apartamentlar: buyurtma mebel va qum ranglari palitrasi · Maydon: 64 m² · Muddat: 3 oy · Loyiha: 200 000 so‘m/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Tishina» qahvaxonasi",
+          "category": "Jamoat interyeri",
+          "year": "2023",
+          "text": "Yigirma o‘rinli qahvaxona: qayrag‘ochdan uzun umumiy stol va mayin yorug‘lik · Maydon: 85 m² · Muddat: 4 oy · Loyiha: 220 000 so‘m/m²",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "type": "gallery",
+      "label": "Palitra",
+      "title": "Biz ishlaydigan materiallar",
+      "items": [
+        {
+          "caption": "Eman, moy",
+          "image": ""
+        },
+        {
+          "caption": "Ohak suvoq",
+          "image": ""
+        },
+        {
+          "caption": "Travertin",
+          "image": ""
+        },
+        {
+          "caption": "Zig‘ir, oqartirilmagan",
+          "image": ""
+        },
+        {
+          "caption": "Yong‘oq, tonlangan",
+          "image": ""
+        },
+        {
+          "caption": "Rishton kulolchiligi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Jarayon",
+      "title": "Ish qanday tashkil etilgan",
+      "items": [
+        {
+          "title": "Tanishuv va o‘lchash",
+          "text": "Obyektga bepul chiqamiz, o‘lchaymiz, turmush tarzingiz va byudjetni muhokama qilamiz."
+        },
+        {
+          "title": "Planirovka",
+          "text": "Planirovkaning ikki-uch varianti, mebel va yorug‘likni joylashtirish."
+        },
+        {
+          "title": "Konsepsiya",
+          "text": "Kollajlar, materiallar, asosiy zonalar vizualizatsiyasi."
+        },
+        {
+          "title": "Ishchi chizmalar",
+          "text": "Quruvchilar uchun to‘liq to‘plam: elektr, santexnika, devor yoyilmalari."
+        },
+        {
+          "title": "Nazorat va jihozlash",
+          "text": "Obyektga boramiz, ishlarni qabul qilamiz, mebel va yoritgichlarga buyurtma beramiz."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Narx",
+      "title": "Tariflar",
+      "items": [
+        {
+          "name": "Planirovka",
+          "price": "60 000 so‘m",
+          "period": "m² uchun",
+          "features": [
+            "O‘lchov rejasi",
+            "Planirovkaning 2–3 varianti",
+            "Mebelni joylashtirish",
+            "Muddat — 2 hafta"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Dizayn-loyiha",
+          "price": "180 000 so‘m",
+          "period": "m² uchun",
+          "features": [
+            "Planirovka va konsepsiya",
+            "Barcha xonalar vizualizatsiyasi",
+            "Chizmalarning to‘liq to‘plami",
+            "Materiallar qaydnomasi",
+            "Muddat — 6–10 hafta"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Mualliflik nazorati",
+          "price": "4 000 000 so‘mdan",
+          "period": "oyiga",
+          "features": [
+            "Haftasiga bir marta obyektga chiqish",
+            "Ish bosqichlarini qabul qilish",
+            "Quruvchilar bilan aloqa",
+            "Jihozlash — byudjetning 8% idan"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Bir yildan keyin ham yozishadi",
+      "items": [
+        {
+          "quote": "Bir yil o‘tdi, biz hamon biz uchun o‘ylab qo‘yilgan mayda narsalarni sezyapmiz: soyabonni qayerga qo‘yish, oshxonaga ertalabki yorug‘lik qayerdan tushishi.",
+          "author": "Irina va Baxtiyor",
+          "role": "Boburdagi kvartira"
+        },
+        {
+          "quote": "Studiya smetaga sig‘di, yetkazib beruvchi oshxona muddatini buzganda esa Farg‘onadan duradgorni o‘zlari topishdi. Qurilishga biror marta ham behuda bormadik.",
+          "author": "Shahnoza",
+          "role": "Yunusoboddagi uy"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Muddatlar va pul haqida",
+      "items": [
+        {
+          "q": "Dizayn-loyiha qancha turadi?",
+          "a": "Kvartiralar uchun m² ga 180 000 so‘m, 250 m² dan katta uylar uchun m² ga 160 000 so‘m. Faqat planirovka — m² ga 60 000 so‘m. Narxni ish boshlanishidan oldin shartnomada belgilaymiz."
+        },
+        {
+          "q": "Loyiha qancha vaqt oladi?",
+          "a": "Planirovka — taxminan ikki hafta, kvartiraning to‘liq dizayn-loyihasi — maydon va kelishuvlar soniga qarab 6–10 hafta."
+        },
+        {
+          "q": "Kalit topshirish ta’mirini qilasizmi?",
+          "a": "O‘zimiz qurmaymiz, lekin ishonchli brigadalar bilan ishlaymiz va mualliflik nazorati hamda jihozlash orqali obyektni loyihadan ko‘chib kirishgacha olib bora olamiz."
+        },
+        {
+          "q": "Shahar tashqarisiga o‘lchashga chiqasizmi?",
+          "a": "Ha, Toshkent bo‘ylab chiqish bepul, Toshkent viloyatiga — shartnoma tuzilganda bepul, aks holda 300 000 so‘m."
+        },
+        {
+          "q": "Eski mebelimizni ham joylashtirsa bo‘ladimi?",
+          "a": "Albatta. Siz uchun qadrli buyumlarni suratga olib, o‘lchaymiz va loyihani ular atrofida quramiz."
+        },
+        {
+          "q": "Loyiha qanday to‘lanadi?",
+          "a": "Uch qismda: shartnoma imzolanganda 40%, konsepsiya tasdiqlangandan keyin 30%, chizmalar topshirilganda 30%."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "Uyingiz haqida aytib bering",
+      "text": "Reja yoki bir-ikkita surat yuboring — bir ish kuni ichida javob berib, studiyada yoki obyektda uchrashish vaqtini taklif qilamiz.",
+      "cta": {
+        "label": "Studiyaga yozish",
+        "href": "mailto:studio@uy-interiors.uz"
+      }
+    }
+  ]
+}

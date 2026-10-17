@@ -1,0 +1,317 @@
+{
+  "name": "Mur & Gav",
+  "tagline": "We treat pets so well their tails wag even at the vet",
+  "niche": "Veterinary clinic and grooming",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#contact"
+    }
+  },
+  "seo": {
+    "title": "Mur & Gav — 24/7 vet clinic and grooming in Tashkent",
+    "description": "A 24/7 veterinary clinic on Bobur St: vaccinations, ultrasound, spaying, dentistry and grooming for cats and dogs. Book online or by phone.",
+    "keywords": [
+      "vet clinic Tashkent",
+      "24/7 veterinary clinic",
+      "cat spaying price",
+      "dog vaccinations",
+      "pet grooming Tashkent",
+      "pet ultrasound"
+    ],
+    "answer": "Mur & Gav is a 24/7 veterinary clinic in Tashkent at 17 Bobur St. We treat cats, dogs, rabbits and ferrets: a GP consultation is 150,000 UZS, a combined vaccination from 220,000 UZS, and cat spaying 650,000 UZS. Emergency care is available 24/7 with no appointment."
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a vet clinic, grooming salon or pet shop. Warm and friendly: an SVG cat, paw prints following the cursor, services with prices, doctors and a 24/7 emergency line.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Mur & Gav Vet LLC",
+    "street": "17 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A vet clinic that isn’t scary to visit",
+      "eyebrow": "Open 24/7 · 17 Bobur St",
+      "subtitle": "General medicine, surgery, ultrasound, dentistry and grooming under one roof. Separate entrances and waiting rooms for cats and dogs — so nobody hisses at anybody.",
+      "words": [
+        "cats",
+        "dogs",
+        "rabbits",
+        "ferrets"
+      ],
+      "cta": {
+        "label": "Book an appointment",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Service prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "ribbon",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Emergency care 24/7",
+        "Separate entrance for cats",
+        "Lab results in 30 minutes",
+        "Stress-free grooming",
+        "Home visits"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "the clinic",
+      "title": "First we get acquainted, then we treat",
+      "text": "Every visit starts with five minutes to sniff around the room and some treats. Our vets take their time, explain the diagnosis in plain words and send the treatment plan on Telegram. We have our own lab, X-ray, ultrasound and a ward with cameras — you can watch your pet sleep after surgery.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "services and prices",
+      "title": "How we can help",
+      "intro": "Prices are per visit or procedure, excluding medication. The vet gives the exact cost of treatment after the examination.",
+      "items": [
+        {
+          "title": "Vaccination",
+          "text": "Combined vaccine, microchip and pet passport. We’ll remind you of the next one.",
+          "price": "from 220 000 UZS",
+          "tag": "15 minutes"
+        },
+        {
+          "title": "GP consultation",
+          "text": "Examination, consultation and a treatment plan on Telegram.",
+          "price": "150 000 UZS",
+          "tag": "no queue"
+        },
+        {
+          "title": "Grooming",
+          "text": "Bathing, trimming, nails and ears. Our groomer works without sedation.",
+          "price": "from 250 000 UZS",
+          "tag": "9 am to 9 pm"
+        },
+        {
+          "title": "Dentistry",
+          "text": "Ultrasonic scaling, extractions, gum treatment.",
+          "price": "from 480 000 UZS",
+          "tag": "under anaesthesia"
+        },
+        {
+          "title": "Ultrasound and X-ray",
+          "text": "Abdominal and cardiac ultrasound, digital X-ray with a report.",
+          "price": "from 200 000 UZS",
+          "tag": "same day"
+        },
+        {
+          "title": "Spaying and neutering",
+          "text": "Cats 650,000 UZS, male dogs from 700,000 UZS. Recovery suit and follow-up check included.",
+          "price": "from 650 000 UZS",
+          "tag": "home the same day"
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "type": "process",
+      "label": "how a visit works",
+      "title": "Stress-free, step by step",
+      "items": [
+        {
+          "title": "Booking",
+          "text": "By phone, on Telegram, or with no appointment in an emergency."
+        },
+        {
+          "title": "Getting acquainted",
+          "text": "A separate waiting room, treats and five minutes to settle in."
+        },
+        {
+          "title": "Examination",
+          "text": "The vet explains every step and shows you the test results."
+        },
+        {
+          "title": "Treatment plan",
+          "text": "The regimen, doses and reminders arrive on Telegram."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "open every day"
+        },
+        {
+          "value": "11",
+          "suffix": "",
+          "label": "vets and assistants"
+        },
+        {
+          "value": "30",
+          "suffix": " min",
+          "label": "blood test in our own lab"
+        },
+        {
+          "value": "18000",
+          "suffix": "+",
+          "label": "tails in our records"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "vets",
+      "title": "The people paws trust",
+      "items": [
+        {
+          "name": "Shakhnoza Karimova",
+          "role": "chief vet, general practitioner",
+          "image": ""
+        },
+        {
+          "name": "Rustam Aliev",
+          "role": "surgeon, orthopaedist",
+          "image": ""
+        },
+        {
+          "name": "Elena Pak",
+          "role": "ultrasound and cardiology",
+          "image": ""
+        },
+        {
+          "name": "Dinara Usmanova",
+          "role": "groomer",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "plans",
+      "type": "pricing",
+      "label": "health plans",
+      "title": "A year of care in one payment",
+      "items": [
+        {
+          "name": "Little one",
+          "price": "1 200 000 UZS",
+          "period": "per year",
+          "features": [
+            "All first-year vaccinations",
+            "Microchip and pet passport",
+            "3 GP consultations",
+            "Parasite treatment"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Adult",
+          "price": "1 450 000 UZS",
+          "period": "per year",
+          "features": [
+            "Annual vaccination",
+            "Check-up with blood test",
+            "4 GP consultations",
+            "10% off grooming"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Golden years",
+          "price": "2 100 000 UZS",
+          "period": "per year",
+          "features": [
+            "Extended check-up twice a year",
+            "Abdominal and cardiac ultrasound",
+            "Unlimited consultations",
+            "15% off treatment"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "reviews",
+      "title": "What owners say",
+      "items": [
+        {
+          "quote": "We brought Bobik in at night with poisoning and he was seen in five minutes. In the morning they sent a video from the ward — he was already wagging his tail.",
+          "author": "Akmal",
+          "role": "owner of Bobik the beagle"
+        },
+        {
+          "quote": "Our Musya hates her carrier and vets. This is the first clinic she’s left without a meltdown. A separate entrance for cats is genius.",
+          "author": "Natalya",
+          "role": "owner of Musya the British Shorthair"
+        },
+        {
+          "quote": "The groomer trimmed our Spitz so well that the neighbours ask where we get him groomed. And no sedatives!",
+          "author": "Gulnora",
+          "role": "owner of Richie the Spitz"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Are you really open 24/7?",
+          "a": "Yes, the clinic is open 24/7 with no days off. A GP and a surgeon are on duty at night, and emergency patients are seen without an appointment."
+        },
+        {
+          "q": "How much does spaying or neutering cost?",
+          "a": "Spaying a cat is 650,000 UZS, neutering a tomcat 400,000 UZS, male dogs from 700,000 UZS depending on weight. The price includes anaesthesia, a recovery suit and a follow-up check."
+        },
+        {
+          "q": "Does my pet need preparation for surgery?",
+          "a": "Yes: no food for 8–12 hours and no water for 2 hours beforehand. We take a blood test before surgery, and the result is ready in 30 minutes."
+        },
+        {
+          "q": "Do you do home visits?",
+          "a": "Yes, within Tashkent from 9:00 to 21:00. A visit costs 200,000 UZS plus the cost of services — convenient for vaccinations and older animals."
+        },
+        {
+          "q": "Do you groom without sedation?",
+          "a": "Yes. For anxious animals the groomer takes breaks, and the owner can stay. Sedation is used only if a vet decides it’s needed."
+        },
+        {
+          "q": "Which animals do you see?",
+          "a": "Cats, dogs, rabbits, ferrets and guinea pigs. We don’t treat birds or reptiles yet — we’ll tell you where to go."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "booking",
+      "title": "Call us — we answer even at night",
+      "text": "Routine visits by appointment, emergency care around the clock with no appointment. Parking at the entrance.",
+      "cta": {
+        "label": "Call the clinic",
+        "href": "tel:+998712000053"
+      }
+    }
+  ]
+}

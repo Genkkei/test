@@ -1,0 +1,274 @@
+{
+  "name": "Uy Interiors",
+  "tagline": "Homes you want to come back to",
+  "niche": "Interior design studio",
+  "nav": {
+    "cta": {
+      "label": "Discuss a project",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an interior design studio, furniture brand or decor shop. Window light with leaf shadows in WebGL, project spreads with an object passport, a material palette and per-m² rates.",
+    "features": []
+  },
+  "seo": {
+    "title": "Uy Interiors — interior design for flats and houses in Tashkent",
+    "description": "A design project from 180,000 UZS per m², design supervision and furnishing. Calm interiors in natural materials for flats and houses in Tashkent.",
+    "keywords": [
+      "interior design Tashkent",
+      "flat design project",
+      "design supervision",
+      "interior designer",
+      "furnishing",
+      "house interior"
+    ],
+    "answer": "Uy Interiors is an interior design studio in Tashkent (41 Bobur St). A design project for a flat costs from 180,000 UZS per m² and takes 6–10 weeks, design supervision from 4,000,000 UZS a month, furnishing from 8% of the purchasing budget. The site visit for measurements is free."
+  },
+  "business": {
+    "legalName": "Uy Interiors LLC",
+    "street": "41 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Interiors where it’s quiet",
+      "eyebrow": "Interior studio · Tashkent · since 2017",
+      "subtitle": "We design flats and houses in natural materials: wood, linen, stone and light. We lead the project from the first measurement to the last vase on the shelf.",
+      "words": [
+        "Flat on Bobur St",
+        "morning",
+        "October"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See projects",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The studio",
+      "title": "We don’t design pretty pictures — we design life within the walls",
+      "text": "First we listen: how you wake up, where you read, how many guests you have on Fridays. Then we work out light, storage and routes through the home — and only then choose materials. We work with local craftspeople: joiners from Fergana, ceramicists from Rishtan, weavers from Margilan. We take on no more than six projects at a time so we can handle each one personally.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Selected interiors",
+      "items": [
+        {
+          "title": "Flat on Bobur St",
+          "category": "Flat",
+          "year": "2025",
+          "text": "A bright three-room flat for a family with two children: oak, lime plaster, built-in storage · Area: 118 m² · Timeline: 5 months · Project: 180,000 UZS/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "House in Yunusabad",
+          "category": "Private house",
+          "year": "2024",
+          "text": "A two-storey house with an inner courtyard, an aivan and a library under the stairs · Area: 310 m² · Timeline: 9 months · Project: 160,000 UZS/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tashkent City apartments",
+          "category": "Apartments",
+          "year": "2024",
+          "text": "Compact apartments for rent: custom furniture and a sand palette · Area: 64 m² · Timeline: 3 months · Project: 200,000 UZS/m²",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Tishina” coffee shop",
+          "category": "Public interior",
+          "year": "2023",
+          "text": "A twenty-seat coffee shop: a long communal elm table and soft light · Area: 85 m² · Timeline: 4 months · Project: 220,000 UZS/m²",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "type": "gallery",
+      "label": "Palette",
+      "title": "Materials we work with",
+      "items": [
+        {
+          "caption": "Oak, oiled",
+          "image": ""
+        },
+        {
+          "caption": "Lime plaster",
+          "image": ""
+        },
+        {
+          "caption": "Travertine",
+          "image": ""
+        },
+        {
+          "caption": "Linen, unbleached",
+          "image": ""
+        },
+        {
+          "caption": "Walnut, toned",
+          "image": ""
+        },
+        {
+          "caption": "Rishtan ceramics",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Process",
+      "title": "How the work is organised",
+      "items": [
+        {
+          "title": "Meeting and measurements",
+          "text": "We visit the site free of charge, take measurements and discuss your lifestyle and budget."
+        },
+        {
+          "title": "Layout",
+          "text": "Two or three layout options, furniture placement and lighting."
+        },
+        {
+          "title": "Concept",
+          "text": "Collages, materials and visualisations of the key areas."
+        },
+        {
+          "title": "Working drawings",
+          "text": "A full set for the builders: electrics, plumbing, wall elevations."
+        },
+        {
+          "title": "Supervision and furnishing",
+          "text": "We visit the site, sign off the works, order furniture and lighting."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Cost",
+      "title": "Rates",
+      "items": [
+        {
+          "name": "Layout",
+          "price": "60,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Measured plan",
+            "2–3 layout options",
+            "Furniture placement",
+            "Timeline — 2 weeks"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Design project",
+          "price": "180,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Layout and concept",
+            "Visualisations of every room",
+            "A full set of drawings",
+            "Materials schedule",
+            "Timeline — 6–10 weeks"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Design supervision",
+          "price": "from 4,000,000 UZS",
+          "period": "per month",
+          "features": [
+            "Weekly site visits",
+            "Sign-off of each stage",
+            "Liaison with the builders",
+            "Furnishing — from 8% of the budget"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "People write to us a year later",
+      "items": [
+        {
+          "quote": "A year on, we still notice the little things that were thought through for us: where the umbrella goes, where the morning light falls in the kitchen.",
+          "author": "Irina & Bakhtiyor",
+          "role": "flat on Bobur St"
+        },
+        {
+          "quote": "The studio stayed within the estimate, and when the supplier missed the kitchen deadline they found a joiner in Fergana themselves. We never once went to the site for nothing.",
+          "author": "Shakhnoza",
+          "role": "house in Yunusabad"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "About timelines and money",
+      "items": [
+        {
+          "q": "How much does a design project cost?",
+          "a": "180,000 UZS per m² for flats and 160,000 UZS per m² for houses over 250 m². A layout only — 60,000 UZS per m². The price is fixed in the contract before work begins."
+        },
+        {
+          "q": "How long does a project take?",
+          "a": "A layout takes about two weeks; a full design project for a flat takes 6–10 weeks depending on the area and the number of approvals."
+        },
+        {
+          "q": "Do you do turnkey renovation?",
+          "a": "We don’t build ourselves, but we work with trusted crews and can lead the project from design to move-in through supervision and furnishing."
+        },
+        {
+          "q": "Do you travel out of town for measurements?",
+          "a": "Yes: within Tashkent the visit is free, in Tashkent region it’s free once the contract is signed, otherwise 300,000 UZS."
+        },
+        {
+          "q": "Can you include our existing furniture?",
+          "a": "Of course. We photograph and measure the pieces you love and build the project around them."
+        },
+        {
+          "q": "How is the project paid for?",
+          "a": "In three parts: 40% on signing the contract, 30% after the concept is approved, 30% on delivery of the drawings."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contacts",
+      "title": "Tell us about your home",
+      "text": "Send a floor plan or a couple of photos — we’ll reply within a working day and suggest a time to meet at the studio or on site.",
+      "cta": {
+        "label": "Write to the studio",
+        "href": "mailto:studio@uy-interiors.uz"
+      }
+    }
+  ]
+}
