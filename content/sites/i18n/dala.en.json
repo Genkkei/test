@@ -1,0 +1,334 @@
+{
+  "name": "Dala",
+  "tagline": "Vegetables, fruit and dairy from farms near Tashkent, at your door within a day",
+  "niche": "Farm produce delivery",
+  "nav": {
+    "cta": {
+      "label": "Order a box",
+      "href": "#boxes"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for farm delivery, an organic shop or a greengrocer. A crate that fills with vegetables on the first screen, the week’s harvest as tag cards, boxes in three sizes and a delivery route with a moving van.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Dala — farm produce delivery in Tashkent",
+    "description": "Seasonal vegetables, fruit, dairy and eggs straight from farms in Tashkent region. The weekly box starts at 290,000 UZS, next-day delivery, pay on receipt.",
+    "keywords": [
+      "farm produce Tashkent",
+      "vegetable delivery Tashkent",
+      "farm vegetables",
+      "farm milk Tashkent",
+      "veg box delivery",
+      "organic food Tashkent"
+    ],
+    "answer": "Dala delivers farm produce across Tashkent. The Small weekly box for one or two people costs 290,000 UZS, the Family box 490,000 UZS and the Large box 690,000 UZS. Orders placed before 18:00 arrive the next day between 9:00 and 21:00; delivery in Tashkent is free from 300,000 UZS, and you pay by cash or card on receipt."
+  },
+  "business": {
+    "legalName": "Dala Food LLC",
+    "street": "27 Fargona Yuli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Food that was in the field yesterday",
+      "eyebrow": "Today we pick for tomorrow’s orders",
+      "subtitle": "We gather vegetables, fruit and dairy from 14 farms in Tashkent region and deliver within a day — no warehouses, no long supply chain, no middleman mark-up.",
+      "words": [
+        "Tomatoes",
+        "Cherries",
+        "Kaymak",
+        "Herbs",
+        "Eggs"
+      ],
+      "cta": {
+        "label": "Build a box",
+        "href": "#boxes"
+      },
+      "ctaSecondary": {
+        "label": "What’s in season",
+        "href": "#harvest"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Order by 18:00, get it tomorrow",
+        "Free delivery from 300,000 UZS",
+        "Pay on receipt",
+        "14 partner farms",
+        "No warehouses, nothing frozen"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A short road from farm to table",
+      "text": "We started with one farm in Bostanlyk and friends who were tired of tasteless supermarket tomatoes. Today we work with 14 farms: vegetables from Parkent, fruit from Bostanlyk, dairy and eggs from Zangiata. Every morning we collect what was picked the day before, sort it and deliver it. Whatever doesn’t sell goes to canteens, so nothing sits around for weeks.",
+      "image": ""
+    },
+    {
+      "id": "harvest",
+      "type": "services",
+      "label": "This week’s harvest",
+      "title": "What’s in the fields now",
+      "intro": "Prices per kilo or pack. Order on their own or add them to your box.",
+      "items": [
+        {
+          "title": "Oxheart tomatoes",
+          "text": "Meaty and sweet, made for a salad with onion.",
+          "price": "28,000 UZS/kg",
+          "tag": "in season"
+        },
+        {
+          "title": "Yellow carrots",
+          "text": "The real thing for plov, from Parkent.",
+          "price": "9,000 UZS/kg",
+          "tag": "new harvest"
+        },
+        {
+          "title": "Field cucumbers",
+          "text": "Crunchy and bumpy, grown outdoors.",
+          "price": "14,000 UZS/kg",
+          "tag": "in season"
+        },
+        {
+          "title": "Reinette apples",
+          "text": "Sweet and sharp, they keep for weeks.",
+          "price": "18,000 UZS/kg",
+          "tag": "from Bostanlyk"
+        },
+        {
+          "title": "Aubergines",
+          "text": "Small and never bitter, ideal for frying.",
+          "price": "12,000 UZS/kg",
+          "tag": "in season"
+        },
+        {
+          "title": "Sweet peppers",
+          "text": "Yellow and red, thick-walled.",
+          "price": "22,000 UZS/kg",
+          "tag": "in season"
+        },
+        {
+          "title": "Husayni grapes",
+          "text": "Long, sweet berries, nearly seedless.",
+          "price": "24,000 UZS/kg",
+          "tag": "from Bostanlyk"
+        },
+        {
+          "title": "Fresh herbs, bunch",
+          "text": "Dill, coriander and basil, cut in the morning.",
+          "price": "4,000 UZS",
+          "tag": "new harvest"
+        }
+      ]
+    },
+    {
+      "id": "boxes",
+      "type": "pricing",
+      "label": "Boxes",
+      "title": "The weekly box",
+      "items": [
+        {
+          "name": "Small",
+          "price": "290,000 UZS",
+          "period": "week",
+          "features": [
+            "6–7 kg of veg and fruit",
+            "For one or two people",
+            "Herbs on the house"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Family",
+          "price": "490,000 UZS",
+          "period": "week",
+          "features": [
+            "11–12 kg of veg and fruit",
+            "Ten eggs",
+            "A litre of milk",
+            "For three or four people"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Large",
+          "price": "690,000 UZS",
+          "period": "week",
+          "features": [
+            "16–18 kg of veg and fruit",
+            "Eggs, milk and kaymak",
+            "Seasonal berries",
+            "For five or six people"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "Delivery",
+      "title": "How a box travels",
+      "items": [
+        {
+          "title": "Order by 18:00",
+          "text": "On the site, on Telegram or by phone. Leave out anything you don’t like."
+        },
+        {
+          "title": "Picked at the farms",
+          "text": "Farmers pick at dawn and we collect by 8 a.m."
+        },
+        {
+          "title": "Sorting",
+          "text": "We check every crate and pack boxes in paper, not plastic."
+        },
+        {
+          "title": "At your door",
+          "text": "The courier calls an hour ahead and arrives in your chosen slot between 9:00 and 21:00."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "partner farms"
+        },
+        {
+          "value": "24",
+          "suffix": " h",
+          "label": "from field to door"
+        },
+        {
+          "value": "60",
+          "suffix": "+",
+          "label": "products in season"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "paper packaging"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "The tomatoes smell like the ones at my grandmother’s. I’ve ordered the family box every week for six months.",
+          "author": "Nigora S.",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "It’s handy that you can drop what we don’t eat and add kaymak. They always arrive on time.",
+          "author": "Bakhtiyor R.",
+          "role": "Mirzo-Ulugbek"
+        },
+        {
+          "quote": "I order herbs and cucumbers for my café. Fresher than the bazaar, and no 6 a.m. trip.",
+          "author": "Dilshod M.",
+          "role": "café owner"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Farms",
+      "title": "Where it all comes from",
+      "items": [
+        {
+          "caption": "Greenhouses in Parkent",
+          "image": ""
+        },
+        {
+          "caption": "Orchard in Bostanlyk",
+          "image": ""
+        },
+        {
+          "caption": "Morning sorting",
+          "image": ""
+        },
+        {
+          "caption": "Dairy farm in Zangiata",
+          "image": ""
+        },
+        {
+          "caption": "A box ready to go",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "When will my order arrive?",
+          "a": "Orders placed before 18:00 arrive the next day. You pick a three-hour window between 9:00 and 21:00."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Free in Tashkent from 300,000 UZS, otherwise 25,000 UZS. Delivery to the region is arranged individually."
+        },
+        {
+          "q": "Can I change what’s in the box?",
+          "a": "Yes. Mark what you don’t want and we’ll swap it for something else from the week’s harvest of the same weight."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "Cash or card to the courier on delivery, or a transfer via Payme or Click."
+        },
+        {
+          "q": "What if something arrives damaged?",
+          "a": "Send a photo on Telegram on the day of delivery and we’ll refund it or replace it with your next order."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Order",
+      "title": "Let us pack your first box",
+      "text": "Tell us on Telegram what you like and what you don’t; a manager will pack the box and confirm your delivery time.",
+      "cta": {
+        "label": "Order on Telegram",
+        "href": "https://t.me/dala_food"
+      }
+    }
+  ]
+}

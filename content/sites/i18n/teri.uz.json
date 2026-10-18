@@ -1,0 +1,260 @@
+{
+  "name": "Teri Clinic",
+  "tagline": "Shifokorlik yondashuvi bilan kosmetologiya va dermatologiya",
+  "niche": "Kosmetologiya va dermatologiya klinikasi",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kosmetologiya, dermatologiya yoki estetik tibbiyot klinikasi uchun sayt. Sheyderda yumshoq yorug‘likli sutrang fon, kursiv antikva, muolajalar narxi qatorlarda va arkalardagi shifokorlar.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Teri Clinic — Toshkentda kosmetologiya va dermatologiya",
+    "description": "Dermatolog konsultatsiyasi, tozalash, pilinglar, biorevitalizatsiya va akneni davolash. Dermatokosmetolog shifokorlar, muolajalar ko‘rikdan keyin, Shahrisabz ko‘chasida qabul.",
+    "keywords": [
+      "kosmetolog Toshkent",
+      "dermatolog Toshkent",
+      "yuzni tozalash Toshkent",
+      "yuz pilingi",
+      "biorevitalizatsiya",
+      "akneni davolash Toshkent"
+    ],
+    "answer": "Teri Clinic — Toshkentdagi Shahrisabz ko‘chasi, 16 dagi kosmetologiya va dermatologiya klinikasi, dushanbadan shanbagacha 10:00 dan 20:00 gacha qabul qiladi. Teri ko‘rigi bilan dermatolog konsultatsiyasi — 200 000 so‘m, kombinatsiyalangan yuz tozalash — 350 000 so‘m, o‘rta piling — 450 000 so‘mdan. Har qanday muolaja faqat shifokor konsultatsiyasidan keyin tayinlanadi."
+  },
+  "business": {
+    "legalName": "«Teri Clinic» MChJ",
+    "street": "Shahrisabz ko‘chasi, 16",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Xotirjam teri",
+      "eyebrow": "Dermatologiya · kosmetologiya",
+      "subtitle": "Dermatolog shifokorlar teriga yaxlit qaraydi: avval sabab, keyin muolaja. Ortiqcha kurslar va «filtrdan keyingidek» va’dalarsiz.",
+      "words": [
+        "Dermatoskop ostida ko‘rik",
+        "Bir oylik parvarish rejasi",
+        "Ko‘rsatma bo‘yicha muolajalar"
+      ],
+      "cta": {
+        "label": "Konsultatsiyaga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Muolajalar va narxlar",
+        "href": "#treatments"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Klinika haqida",
+      "title": "Avval suhbat, keyin muolaja",
+      "text": "Teri Clinic'ni «har ehtimolga qarshi» qilingan muolajalar oqibatlarini ko‘rishdan charchagan dermatolog shifokorlar ochgan. Birinchi tashrif — parvarishingiz, turmush tarzingiz va kutganlaringiz haqida 40 daqiqalik ko‘rik va suhbat. Agar uydagi parvarish yetarli bo‘lsa, shuni aytamiz. Muolaja kerak bo‘lsa — u nima berishini, nechta seans kerakligini va dastlabki kunlarda nimani kutish kerakligini tushuntiramiz.",
+      "image": ""
+    },
+    {
+      "id": "treatments",
+      "type": "services",
+      "label": "Muolajalar",
+      "title": "Muolajalar va narxlar",
+      "intro": "Narxlar bitta muolaja uchun. Kurs va birikmalarni shifokor konsultatsiyada belgilaydi.",
+      "items": [
+        {
+          "title": "Dermatolog konsultatsiyasi",
+          "text": "Dermatoskop ostida teri ko‘rigi, uy parvarishini tahlil qilish va yozma reja.",
+          "price": "200 000 so‘m",
+          "tag": "40 daq"
+        },
+        {
+          "title": "Kombinatsiyalangan tozalash",
+          "text": "Ultratovush va qo‘lda tozalash, tinchlantiruvchi niqob.",
+          "price": "350 000 so‘m",
+          "tag": "75 daq"
+        },
+        {
+          "title": "Yuzaki piling",
+          "text": "Bodom yoki sut kislotasi — rangni tekislaydi, tiklanish davrisiz.",
+          "price": "280 000 so‘m",
+          "tag": "40 daq"
+        },
+        {
+          "title": "O‘rta piling",
+          "text": "Postakne va pigmentatsiya uchun, kuz-qish mavsumida.",
+          "price": "450 000 so‘mdan",
+          "tag": "60 daq"
+        },
+        {
+          "title": "Biorevitalizatsiya",
+          "text": "Terining namligi va zichligi uchun gialuron kislotasi in’eksiyalari.",
+          "price": "900 000 so‘mdan",
+          "tag": "45 daq"
+        },
+        {
+          "title": "Akneni davolash",
+          "text": "3 oylik reja: shifokor, ko‘rsatma bo‘yicha muolajalar, har 4 haftada nazorat.",
+          "price": "1 200 000 so‘mdan",
+          "tag": "3 oy"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Xotirjam teriga yo‘l",
+      "items": [
+        {
+          "title": "Konsultatsiya",
+          "text": "Ko‘rik, parvarish va sog‘liq haqida savollar, boshlanishidan oldingi surat."
+        },
+        {
+          "title": "Reja",
+          "text": "Uy parvarishi va kerak bo‘lsa muolajalar — narx va muddatlar bilan."
+        },
+        {
+          "title": "Muolajalar",
+          "text": "Sizni ko‘rgan shifokor bir martalik materiallarda o‘tkazadi."
+        },
+        {
+          "title": "Nazorat",
+          "text": "4–6 haftadan keyin qayta ko‘rik va suratlarni solishtirish."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Shifokorlar",
+      "title": "Bizning shifokorlar",
+      "items": [
+        {
+          "name": "Nigora Hasanova",
+          "role": "dermatolog, bosh shifokor",
+          "image": ""
+        },
+        {
+          "name": "Madina Rashidova",
+          "role": "dermatokosmetolog",
+          "image": ""
+        },
+        {
+          "name": "Shahzoda Ibrohimova",
+          "role": "dermatokosmetolog",
+          "image": ""
+        },
+        {
+          "name": "Gulnoza Mirzayeva",
+          "role": "hamshira",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": " daq",
+          "label": "birinchi konsultatsiya"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "kishilik jamoa"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "muolajalar — ko‘rikdan keyin"
+        },
+        {
+          "value": "6",
+          "suffix": " hafta",
+          "label": "nazorat ko‘rigigacha"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bemorlar nima deydi",
+      "items": [
+        {
+          "quote": "Birinchi marta menga ostonadanoq kurs sotishmadi. Shifokor parvarishni uchta vositagacha qisqartirdi va teri nihoyat tinchlandi.",
+          "author": "Zarina A.",
+          "role": "konsultatsiya"
+        },
+        {
+          "quote": "Akneni uch oy davoladim. Hammasi reja bo‘yicha, oldin va keyingi suratlar va har bosqichda tushunarli izohlar bilan.",
+          "author": "Madina T.",
+          "role": "akneni davolash"
+        },
+        {
+          "quote": "Ertasi kuni qizarishsiz tozalash — klinikadan to‘g‘ri uchrashuvga bordim.",
+          "author": "Oybek N.",
+          "role": "yuzni tozalash"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Darhol muolajaga yozilsa bo‘ladimi?",
+          "a": "Yo‘q: birinchi uchrashuv — har doim konsultatsiya. Bu xavfsizroq va keraksiz muolajalarga pulni tejaydi."
+        },
+        {
+          "q": "Muolajalarga qarshi ko‘rsatmalar bormi?",
+          "a": "Ha: homiladorlik, o‘tkir yallig‘lanishlar, ba’zi dorilar va kasalliklar. Shifokor hammasini konsultatsiyada tekshiradi."
+        },
+        {
+          "q": "Pilinglarni qachon qilgan ma’qul?",
+          "a": "Yuzakilari — yil bo‘yi SPF bilan, o‘rtalari — oktyabrdan martgacha, quyosh yumshoqroq bo‘lganda."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Naqd, Uzcard va Humo kartalari, Payme yoki Click orqali. To‘lov muolajadan keyin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Konsultatsiyaga yoziling",
+      "text": "Ish vaqtida Telegramda bir soat ichida javob beramiz va shifokor hamda vaqtni tanlaymiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/tericlinic"
+      }
+    }
+  ]
+}

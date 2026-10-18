@@ -132,7 +132,7 @@
 .nest-stat dd { font-weight: 700; font-size: clamp(46px, 5.4vw, 90px); letter-spacing: -.04em; line-height: 1; }
 .nest-stat dd small { font-size: .32em; margin-left: 6px; letter-spacing: 0; color: var(--accent); }
 .nest-stat dt { opacity: .7; font-size: 14px; }
-@media (max-width: 760px) { .nest-stats { grid-template-columns: 1fr 1fr; row-gap: 30px; } .nest-stat:nth-child(2n) { border-right: 0; } }
+@media (max-width: 760px) { .nest-stats { grid-template-columns: 1fr 1fr; row-gap: 30px; } .nest-stat:nth-child(2n) { border-right: 0; } .nest-stat dd { font-size: 36px; } }
 
 /* галерея, отзывы, вопросы */
 .tpl-nest .s-gallery__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }

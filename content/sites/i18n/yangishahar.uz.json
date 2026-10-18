@@ -1,0 +1,289 @@
+{
+  "name": "Yangi Shahar",
+  "tagline": "Bog‘ yonidagi turar-joy mavzesi: beshta uy, mashinasiz yopiq hovli va yaqinida maktab",
+  "niche": "Quruvchidan turar-joy majmuasi",
+  "nav": {
+    "cta": {
+      "label": "Xonadon tanlash",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Turar-joy majmuasi, quruvchi yoki yangi binolar agentligi uchun sayt. Derazalari yonadigan mavze silueti, almashtirgichli reja chizmalari, shkalalardagi qurilish jarayoni va xonadon turlari bo‘yicha narxlar.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Yangi Shahar — Chilonzordagi bog‘ yonida yangi bino",
+    "description": "Beshta uydan iborat mavzeda 42 dan 118 m² gacha xonadonlar: mashinasiz yopiq hovli, yer osti avtoturargohi, yaqinida maktab va bog‘cha. Birinchi navbat topshirilishi — 2027 yil IV chorak, 24 oygacha muddatli to‘lov.",
+    "keywords": [
+      "Toshkent yangi binolar",
+      "Chilonzorda yangi binoda xonadon",
+      "Toshkent turar-joy majmuasi",
+      "Toshkentda xonadon sotib olish",
+      "xonadonga muddatli to‘lov",
+      "bog‘ yonidagi TJM"
+    ],
+    "answer": "Yangi Shahar — Toshkentning Chilonzor tumanida, bog‘ yonida joylashgan 9 dan 16 qavatgacha bo‘lgan beshta uydan iborat turar-joy mavzesi. 42,5 m² dan bir xonali xonadonlar 620 mln so‘mdan, 64 m² dan ikki xonalilar — 890 mln so‘mdan, 86 m² dan uch xonalilar — 1 180 mln so‘mdan. Birinchi navbat 2027 yil IV choragida topshiriladi, birinchi badal 30% dan boshlab 24 oygacha muddatli to‘lov mavjud."
+  },
+  "business": {
+    "legalName": "«Yangi Shahar Development» MChJ",
+    "street": "Chilonzor ko‘chasi, 2",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Chilonzor tumani",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Hovli bolalar uchun bo‘lgan uy",
+      "eyebrow": "Turar-joy mavzesi · Chilonzor",
+      "subtitle": "Mashinasiz yopiq hovli atrofida beshta uy, bog‘ yonida va metrodan o‘n daqiqa masofada. Tayyor rejali va «kalit topshirish» pardozli xonadonlar.",
+      "words": [
+        "5 ta uy, 9–16 qavat",
+        "Mashinasiz hovli",
+        "Yer osti avtoturargohi",
+        "Topshirish — 2027 IV chorak"
+      ],
+      "cta": {
+        "label": "Rejani tanlash",
+        "href": "#plans"
+      },
+      "ctaSecondary": {
+        "label": "Qurilish jarayoni",
+        "href": "#progress"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Loyiha haqida",
+      "title": "Shunchaki uy emas, mavze",
+      "text": "Yangi Shahar bog‘ yonidagi 3,2 gektarlik maydonda qurilmoqda. Mashinalar 640 o‘rinli yer osti avtoturargohiga tushadi, hovli esa odamlar uchun qoladi: turli yoshdagilar uchun bolalar maydonchalari, sport zonasi, soyali sokin bog‘. Birinchi qavatlarda — kafe, dorixona va oziq-ovqat do‘koni, yo‘lning narigi tomonida — maktab va bog‘cha.",
+      "image": ""
+    },
+    {
+      "id": "plans",
+      "type": "works",
+      "label": "Rejalar",
+      "title": "Rejani tanlang",
+      "items": [
+        {
+          "title": "1 xonali",
+          "category": "42,5 m²",
+          "year": "620 mln so‘mdan",
+          "text": "Oshxona-mehmonxona va hovliga qaragan yotoqxona, 4 m² lodjiya.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "2 xonali",
+          "category": "64 m²",
+          "year": "890 mln so‘mdan",
+          "text": "Ikkita alohida yotoqxona, 22 m² oshxona-mehmonxona, kiyim xonasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "3 xonali",
+          "category": "86 m²",
+          "year": "1 180 mln so‘mdan",
+          "text": "Hammomli asosiy yotoqxona, ikkita bolalar xonasi, burchakli mehmonxona.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "4 xonali",
+          "category": "118 m²",
+          "year": "1 590 mln so‘mdan",
+          "text": "Ikkita hammom, kabinet va yuqori qavatlarda terrasa.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "progress",
+      "type": "process",
+      "label": "Qurilish",
+      "title": "Qurilish jarayoni",
+      "items": [
+        {
+          "title": "Kotlovan va poydevor — 100%",
+          "text": "Mart oyida yakunlangan, texnik nazorat tomonidan qabul qilingan."
+        },
+        {
+          "title": "Monolit karkas — 72%",
+          "text": "1 va 2-uylar — 14-qavat, 3-uy — 9-qavat."
+        },
+        {
+          "title": "Fasadlar va derazalar — 30%",
+          "text": "1-uyni qoplash boshlangan, derazalar birinchi qavatdan o‘rnatilmoqda."
+        },
+        {
+          "title": "Muhandislik tarmoqlari — 25%",
+          "text": "Tashqi suv va kanalizatsiya tarmoqlari yotqizilgan."
+        },
+        {
+          "title": "Hovlini obodonlashtirish — 0%",
+          "text": "Kranlar olingandan keyin boshlanadi, reja — 2027 yil bahori."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "mavzedagi uylar"
+        },
+        {
+          "value": "620",
+          "suffix": "",
+          "label": "birinchi navbatdagi xonadonlar"
+        },
+        {
+          "value": "32 000",
+          "suffix": " m²",
+          "label": "maydon hajmi"
+        },
+        {
+          "value": "640",
+          "suffix": "",
+          "label": "avtoturargohdagi o‘rinlar"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Narx va muddatli to‘lov",
+      "items": [
+        {
+          "name": "1 xonali",
+          "price": "620 mln so‘mdan",
+          "period": "",
+          "features": [
+            "42,5–48 m²",
+            "2–16 qavatlar",
+            "«Kalit topshirish» pardozi +6 mln so‘m/m²"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 xonali",
+          "price": "890 mln so‘mdan",
+          "period": "",
+          "features": [
+            "64–72 m²",
+            "Ikki tomonga derazalar",
+            "24 oygacha muddatli to‘lov"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3 xonali",
+          "price": "1 180 mln so‘mdan",
+          "period": "",
+          "features": [
+            "86–94 m²",
+            "Ikkita hammom",
+            "Avtoturargohda joy sovg‘a"
+          ],
+          "featured": false
+        },
+        {
+          "name": "4 xonali",
+          "price": "1 590 mln so‘mdan",
+          "period": "",
+          "features": [
+            "112–118 m²",
+            "Yuqori qavatlarda terrasa",
+            "Shaxsiy menejer"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Vizualizatsiyalar",
+      "title": "Mavze qanday ko‘rinadi",
+      "items": [
+        {
+          "caption": "Mashinasiz hovli",
+          "image": ""
+        },
+        {
+          "caption": "2-uyga kirish",
+          "image": ""
+        },
+        {
+          "caption": "Aravacha xonali lobbi",
+          "image": ""
+        },
+        {
+          "caption": "Bog‘ manzarasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Xaridorlarning ko‘p beradigan savollari",
+      "items": [
+        {
+          "q": "Uy qachon topshiriladi?",
+          "a": "Birinchi navbat (1–3-uylar) — 2027 yil IV chorak, ikkinchi navbat (4–5-uylar) — 2028 yil II chorak. Ishlar jarayonini saytda har oy yangilaymiz."
+        },
+        {
+          "q": "Muddatli to‘lov shartlari qanday?",
+          "a": "Birinchi badal 30% dan, qolgani — foizsiz 24 oygacha teng to‘lovlar bilan, lekin uy topshirilganidan kechiktirmay."
+        },
+        {
+          "q": "Ipoteka bilan sotib olsa bo‘ladimi?",
+          "a": "Ha, loyiha bir nechta banklarda akkreditatsiyadan o‘tgan. Menejer hujjatlarni yig‘ish va shartlarni solishtirishda yordam beradi."
+        },
+        {
+          "q": "«Kalit topshirish» pardoziga nima kiradi?",
+          "a": "Devorlar, pollar, eshiklar, santexnika va yoritish uchta uslubdan birida — kalitlarni olgandan keyin darhol ko‘chib kirish mumkin."
+        },
+        {
+          "q": "Qurilishni ko‘rsa bo‘ladimi?",
+          "a": "Ha, shanba kunlari soat 11:00 da muhandis bilan ekskursiya o‘tkazamiz — Telegramda yozilish."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Savdo ofisi",
+      "title": "Oilangizga mos xonadon tanlaymiz",
+      "text": "Qurilish yonidagi savdo ofisiga keling yoki Telegramga yozing — bo‘sh xonadonlar rejalarini va muddatli to‘lov hisobini yuboramiz.",
+      "cta": {
+        "label": "Tanlovni olish",
+        "href": "https://t.me/yangishahar_uz"
+      }
+    }
+  ]
+}

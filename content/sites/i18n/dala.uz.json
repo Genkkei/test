@@ -1,0 +1,334 @@
+{
+  "name": "Dala",
+  "tagline": "Toshkent atrofidagi fermalardan sabzavot, meva va sut mahsulotlari — bir kunda eshigingizgacha",
+  "niche": "Fermer mahsulotlarini yetkazib berish",
+  "nav": {
+    "cta": {
+      "label": "Quti buyurtma qilish",
+      "href": "#boxes"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Fermer yetkazib berish, eko-do‘kon yoki sabzavot do‘koni uchun sayt. Birinchi ekranda sabzavotlar tushadigan quti, hafta hosili yorliq-kartochkalarda, uch o‘lchamdagi qutilar va furgonli yetkazib berish yo‘nalishi.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Dala — Toshkent bo‘ylab fermer mahsulotlari yetkazib berish",
+    "description": "Toshkent viloyati fermalaridan mavsumiy sabzavotlar, mevalar, sut mahsulotlari va tuxum. Hafta qutisi 290 000 so‘mdan, ertasi kuni yetkazib berish, qabul qilganda to‘lov.",
+    "keywords": [
+      "fermer mahsulotlari Toshkent",
+      "sabzavot yetkazib berish",
+      "fermadan sabzavot",
+      "fermer suti",
+      "sabzavot qutisi",
+      "eko mahsulotlar Toshkent"
+    ],
+    "answer": "Dala — Toshkentdagi fermer mahsulotlarini yetkazib berish xizmati. 1–2 kishilik «Kichik» hafta qutisi 290 000 so‘m, «Oilaviy» — 490 000 so‘m, «Katta» — 690 000 so‘m. 18:00 gacha berilgan buyurtmani ertasi kuni 9:00 dan 21:00 gacha olib kelamiz, Toshkent bo‘ylab 300 000 so‘mdan yetkazib berish bepul, to‘lov qabul qilganda naqd yoki karta orqali."
+  },
+  "business": {
+    "legalName": "«Dala Food» MChJ",
+    "street": "Farg‘ona yo‘li ko‘chasi, 27",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kecha dalada bo‘lgan taom",
+      "eyebrow": "Bugun ertangi buyurtmalar uchun hosil yig‘moqdamiz",
+      "subtitle": "Toshkent viloyatidagi 14 fermadan sabzavot, meva va sut mahsulotlarini yig‘ib, bir kunda olib kelamiz — omborlarsiz, uzun logistikasiz va vositachilarga ortiqcha to‘lovsiz.",
+      "words": [
+        "Pomidor",
+        "Gilos",
+        "Qaymoq",
+        "Ko‘katlar",
+        "Tuxum"
+      ],
+      "cta": {
+        "label": "Quti yig‘ish",
+        "href": "#boxes"
+      },
+      "ctaSecondary": {
+        "label": "Mavsumda nima bor",
+        "href": "#harvest"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "18:00 gacha buyurtma — ertaga olib kelamiz",
+        "300 000 so‘mdan bepul yetkazib berish",
+        "Qabul qilganda to‘lov",
+        "14 hamkor ferma",
+        "Omborsiz va muzlatishsiz"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Fermadan dasturxongacha qisqa yo‘l",
+      "text": "Biz Bo‘stonliqdagi bitta ferma va supermarketdagi ta’msiz pomidorlardan charchagan tanishlardan boshladik. Bugun bizda 14 ta xo‘jalik bor: Parkentdan sabzavotlar, Bo‘stonliqdan mevalar, Zangiotadan sut mahsulotlari va tuxum. Har tongda kecha yig‘ilganini olib, saralaymiz va tarqatamiz. Sotilmaganini oshxonalarga beramiz — hech narsa haftalab yotmaydi.",
+      "image": ""
+    },
+    {
+      "id": "harvest",
+      "type": "services",
+      "label": "Hafta hosili",
+      "title": "Hozir dalada nima bor",
+      "intro": "Narxlar kilogramm yoki qadoq uchun. Alohida buyurtma qilish yoki qutiga qo‘shish mumkin.",
+      "items": [
+        {
+          "title": "«Ho‘kiz yuragi» pomidori",
+          "text": "Go‘shtdor, shirin, piyozli salat uchun.",
+          "price": "28 000 so‘m/kg",
+          "tag": "mavsumda"
+        },
+        {
+          "title": "Sariq sabzi",
+          "text": "Palov uchun aynan o‘sha, Parkentdan.",
+          "price": "9 000 so‘m/kg",
+          "tag": "yangi hosil"
+        },
+        {
+          "title": "Ochiq dala bodringi",
+          "text": "Qarsildoq, g‘adir-budur, issiqxonasiz.",
+          "price": "14 000 so‘m/kg",
+          "tag": "mavsumda"
+        },
+        {
+          "title": "«Renet» olmasi",
+          "text": "Nordon-shirin, uzoq saqlanadi.",
+          "price": "18 000 so‘m/kg",
+          "tag": "Bo‘stonliqdan"
+        },
+        {
+          "title": "Baqlajon",
+          "text": "Kichik, achchiqsiz — qovurma uchun.",
+          "price": "12 000 so‘m/kg",
+          "tag": "mavsumda"
+        },
+        {
+          "title": "Shirin qalampir",
+          "text": "Sariq va qizil, qalin devorli.",
+          "price": "22 000 so‘m/kg",
+          "tag": "mavsumda"
+        },
+        {
+          "title": "«Husayni» uzumi",
+          "text": "Uzun, shirin, deyarli danaksiz.",
+          "price": "24 000 so‘m/kg",
+          "tag": "Bo‘stonliqdan"
+        },
+        {
+          "title": "Ko‘katlar, bog‘lam",
+          "text": "Shivit, kashnich, rayhon — ertalab kesiladi.",
+          "price": "4 000 so‘m",
+          "tag": "yangi hosil"
+        }
+      ]
+    },
+    {
+      "id": "boxes",
+      "type": "pricing",
+      "label": "Qutilar",
+      "title": "Hafta qutisi",
+      "items": [
+        {
+          "name": "Kichik",
+          "price": "290 000 so‘m",
+          "period": "hafta",
+          "features": [
+            "6–7 kg sabzavot va meva",
+            "1–2 kishi uchun",
+            "Ko‘katlar sovg‘a"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oilaviy",
+          "price": "490 000 so‘m",
+          "period": "hafta",
+          "features": [
+            "11–12 kg sabzavot va meva",
+            "O‘nta tuxum",
+            "Bir litr sut",
+            "3–4 kishi uchun"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Katta",
+          "price": "690 000 so‘m",
+          "period": "hafta",
+          "features": [
+            "16–18 kg sabzavot va meva",
+            "Tuxum, sut, qaymoq",
+            "Mavsumiy rezavorlar",
+            "5–6 kishi uchun"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "Yetkazib berish",
+      "title": "Qutining yo‘li",
+      "items": [
+        {
+          "title": "18:00 gacha buyurtma",
+          "text": "Saytda, Telegramda yoki telefon orqali. Yoqmaganini olib tashlash mumkin."
+        },
+        {
+          "title": "Fermalarda yig‘im",
+          "text": "Fermerlar hosilni tongda yig‘ishadi, biz uni ertalab 8 gacha olib ketamiz."
+        },
+        {
+          "title": "Saralash",
+          "text": "Har bir yashikni tekshirib, qutilarni qog‘oz qadoqqa yig‘amiz."
+        },
+        {
+          "title": "Eshigingiz oldida",
+          "text": "Kuryer bir soat oldin qo‘ng‘iroq qilib, 9:00 dan 21:00 gacha tanlangan vaqtda olib keladi."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "hamkor ferma"
+        },
+        {
+          "value": "24",
+          "suffix": " soat",
+          "label": "daladan eshikkacha"
+        },
+        {
+          "value": "60",
+          "suffix": "+",
+          "label": "mavsumda mahsulot"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "qog‘oz qadoq"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar nima yozadi",
+      "items": [
+        {
+          "quote": "Pomidorlar bolaligimdagi buvimnikidek hidlanadi. Yarim yildan beri har hafta oilaviy quti olaman.",
+          "author": "Nigora S.",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Yemaydiganimizni olib tashlab, qaymoq qo‘shish mumkinligi qulay. Aynan vaqtida olib kelishadi.",
+          "author": "Baxtiyor R.",
+          "role": "Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Kafe uchun ko‘kat va bodring buyurtma qilaman — bozordagidan yangiroq va ertalab 6 da borish shart emas.",
+          "author": "Dilshod M.",
+          "role": "kafe egasi"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Fermalar",
+      "title": "Hammasi qayerdan keladi",
+      "items": [
+        {
+          "caption": "Parkentdagi issiqxonalar",
+          "image": ""
+        },
+        {
+          "caption": "Bo‘stonliqdagi bog‘",
+          "image": ""
+        },
+        {
+          "caption": "Ertalabki saralash",
+          "image": ""
+        },
+        {
+          "caption": "Zangiotadagi sut fermasi",
+          "image": ""
+        },
+        {
+          "caption": "Jo‘natishdan oldin quti",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Buyurtma qachon keladi?",
+          "a": "18:00 gacha berilgan buyurtmani ertasi kuni olib kelamiz. Vaqtni o‘zingiz tanlaysiz: 9:00 dan 21:00 gacha, oralig‘i — 3 soat."
+        },
+        {
+          "q": "Yetkazib berish qancha turadi?",
+          "a": "Toshkent bo‘ylab 300 000 so‘mdan bepul, aks holda 25 000 so‘m. Viloyat bo‘ylab — kelishuv asosida."
+        },
+        {
+          "q": "Quti tarkibini o‘zgartirsa bo‘ladimi?",
+          "a": "Ha. Nimani istamasligingizni belgilang — hafta hosilidan shu vazndagi boshqasiga almashtiramiz."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Qabul qilganda kuryerga naqd yoki karta orqali, shuningdek Payme yoki Click orqali o‘tkazma bilan."
+        },
+        {
+          "q": "Mahsulot yomon chiqsa-chi?",
+          "a": "Yetkazib berilgan kuni Telegramga rasm yuboring — pulni qaytaramiz yoki keyingi buyurtma bilan almashtirib beramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Birinchi qutingizni yig‘ib beramiz",
+      "text": "Telegramga nimani yoqtirishingiz va nimani yoqtirmasligingizni yozing — menejer qutini yig‘ib, yetkazib berish vaqtini tasdiqlaydi.",
+      "cta": {
+        "label": "Telegramda buyurtma berish",
+        "href": "https://t.me/dala_food"
+      }
+    }
+  ]
+}

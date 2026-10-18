@@ -1,0 +1,325 @@
+{
+  "name": "Choy Uyi",
+  "tagline": "Choy uyi: bargli choy, idish-tovoq va eski shahardagi sokin choyxona",
+  "niche": "Choy do‘koni va choyxona",
+  "nav": {
+    "cta": {
+      "label": "Stol band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Choy do‘koni, choyxona yoki qahvaxona uchun sayt. Birinchi ekranda bug‘i ko‘tarilayotgan piyola, javonda yorliqli bankalardagi choy va taymer-halqali damlash marosimi.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Choy Uyi — Toshkentdagi choy do‘koni va choyxona",
+    "description": "Bargli ko‘k, qora choy, ulun va puer, choy idishlari va degustatsiyalar. Sebzordagi choyxona, O‘zbekiston bo‘ylab choy yetkazib berish, 50 g dan tortib olish.",
+    "keywords": [
+      "choy do‘koni Toshkent",
+      "bargli choy",
+      "ulun Toshkent",
+      "puer sotib olish",
+      "choyxona Toshkent",
+      "choy marosimi"
+    ],
+    "answer": "Choy Uyi — Toshkentdagi Sebzor ko‘chasi, 14 dagi choy do‘koni va choyxona, har kuni 10:00 dan 22:00 gacha ochiq. Bargli choyni 50 g dan tortib sotamiz: ko‘k «Sencha» — 65 000 so‘m, «Te Guan In» uluni — 50 g uchun 95 000 so‘m. Choyxonada bir choynak choy — 45 000 so‘mdan, beshta choy degustatsiyasi — 180 000 so‘m, Toshkent bo‘ylab ertasi kuni yetkazib beramiz."
+  },
+  "business": {
+    "legalName": "«Choy Uyi» YaTT",
+    "street": "Sebzor ko‘chasi, 14",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, O‘zbekiston bo‘ylab yetkazib berish",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Choy damlash vaqti",
+      "eyebrow": "Choy uyi · Sebzor, 14",
+      "subtitle": "Xitoy, Yaponiya, Hindiston va Shri-Lankadan bargli choy, qo‘lda yasalgan idishlar va sotib olishdan oldin hammasini tatib ko‘rish mumkin bo‘lgan choyxona.",
+      "words": [
+        "Te Guan In",
+        "Sencha",
+        "Shu puer",
+        "Darjiling",
+        "Bay Xao In Chjen"
+      ],
+      "cta": {
+        "label": "Choy tanlash",
+        "href": "#teas"
+      },
+      "ctaSecondary": {
+        "label": "Choyxonaga kelish",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "50 g dan tortib choy",
+        "Dam olish kunlari degustatsiya",
+        "Qo‘lda yasalgan idishlar",
+        "O‘zbekiston bo‘ylab yetkazib berish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Uy haqida",
+      "title": "Shoshilmasdan choy",
+      "text": "Biz choy shoshib ichiladigan paketcha emas, yana tanaffusga aylanishi uchun Sebzordagi eski uyda choy uyini ochdik. Javonlarda 60 ga yaqin nav bor, ularni kichik xo‘jaliklardan to‘g‘ridan-to‘g‘ri olib kelamiz va o‘zimiz tatib ko‘ramiz. Choyxonada gayvan va piyolalarda damlashadi, do‘konda esa ta’mingiz va uydagi suvingizga mos choy tanlashga yordam berishadi.",
+      "image": ""
+    },
+    {
+      "id": "teas",
+      "type": "menu",
+      "label": "Choy",
+      "title": "Choy uyi javoni",
+      "groups": [
+        {
+          "name": "Ko‘k va oq",
+          "items": [
+            {
+              "name": "Sencha",
+              "text": "Yaponiya. O‘tli, dengiz yangiligi bilan.",
+              "price": "65 000 so‘m / 50 g"
+            },
+            {
+              "name": "Lunszin",
+              "text": "Xitoy. Qovurilgan kashtan va shirinlik.",
+              "price": "85 000 so‘m / 50 g"
+            },
+            {
+              "name": "Kumush ignalar",
+              "text": "Xitoy. Kurtaklardan oq choy, asal va o‘rik.",
+              "price": "140 000 so‘m / 50 g"
+            }
+          ]
+        },
+        {
+          "name": "Ulunlar va qizil",
+          "items": [
+            {
+              "name": "Te Guan In",
+              "text": "Nastarin va qaymoq, 7 martagacha damlanadi.",
+              "price": "95 000 so‘m / 50 g"
+            },
+            {
+              "name": "Da Xun Pao",
+              "text": "Qovurilgan qoya uluni, iliq va chuqur.",
+              "price": "120 000 so‘m / 50 g"
+            },
+            {
+              "name": "Darjiling",
+              "text": "Hindiston, birinchi terim. Muskat va gullar.",
+              "price": "90 000 so‘m / 50 g"
+            }
+          ]
+        },
+        {
+          "name": "Puer va giyohlar",
+          "items": [
+            {
+              "name": "Shu puer 2016",
+              "text": "Tuproqli, shirin, qishda isitadi.",
+              "price": "75 000 so‘m / 50 g"
+            },
+            {
+              "name": "Shen puer 2019",
+              "text": "Yangi, yengil achchiqlik va mevalar bilan.",
+              "price": "110 000 so‘m / 50 g"
+            },
+            {
+              "name": "Tog‘ giyohlari",
+              "text": "Chimyondan kakkuo‘t, yalpiz va na’matak.",
+              "price": "35 000 so‘m / 50 g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Marosim",
+      "title": "Ulunni qanday damlaymiz",
+      "items": [
+        {
+          "title": "Isitish",
+          "text": "Gayvan va piyolalarni qaynoq suv bilan chayish — choy iliq idishda ochiladi."
+        },
+        {
+          "title": "Uyg‘otish",
+          "text": "7 g choyni 95° suv bilan quyib, darhol to‘kish — barg uyg‘onadi."
+        },
+        {
+          "title": "Damlash",
+          "text": "Birinchi quyishlar — 15 soniyadan, har keyingisi 5 soniya uzoqroq."
+        },
+        {
+          "title": "Bo‘lishish",
+          "text": "Hammada bir xil ta’m bo‘lishi uchun chaxay orqali teng quyish."
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Choyxonada",
+      "title": "Bizda nima qilish mumkin",
+      "items": [
+        {
+          "title": "Bir choynak choy",
+          "text": "Javondagi istalgan choy gayvan yoki choynakda, xohlaganingizcha suv qo‘shamiz.",
+          "price": "45 000 so‘mdan",
+          "tag": "1–3 mehmonga"
+        },
+        {
+          "title": "Degustatsiya",
+          "text": "Ko‘kdan puergacha beshta choy, usta hikoyasi bilan.",
+          "price": "180 000 so‘m",
+          "tag": "shanba va yakshanba"
+        },
+        {
+          "title": "Choy marosimi",
+          "text": "6 kishigacha bo‘lgan davra uchun gunfu cha, taxminan bir yarim soat.",
+          "price": "450 000 so‘m",
+          "tag": "yozilish bo‘yicha"
+        },
+        {
+          "title": "Sovg‘a to‘plami",
+          "text": "Bankalarda uchta choy, piyolalar va otkritka, kraft qog‘ozga o‘raymiz.",
+          "price": "390 000 so‘mdan",
+          "tag": "bir kunda tayyor"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "",
+          "label": "javonda nav"
+        },
+        {
+          "value": "7",
+          "suffix": "",
+          "label": "yaxshi ulun quyishlari"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "choyxonada o‘rin"
+        },
+        {
+          "value": "50",
+          "suffix": " g",
+          "label": "eng kam xarid"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Choyxona",
+      "title": "Sebzordagi sokin hovli",
+      "items": [
+        {
+          "caption": "Hovliga qaragan zal",
+          "image": ""
+        },
+        {
+          "caption": "Qo‘lda yasalgan gayvanlar",
+          "image": ""
+        },
+        {
+          "caption": "Puerlar javoni",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlar nima deydi",
+      "items": [
+        {
+          "quote": "Sovg‘a uchun kelgandim, ikki soatdan keyin uchta banka va yangi sevimli ulun bilan chiqdim. Juda sokin joy.",
+          "author": "Kamila T.",
+          "role": "choyxona mehmoni"
+        },
+        {
+          "quote": "Degustatsiya puer faqat «tuproq» emasligini ko‘rsatdi. Usta takabburliksiz tushuntiradi.",
+          "author": "Sanjar Yu.",
+          "role": "degustatsiya"
+        },
+        {
+          "quote": "Samarqandga choy buyurtma qilaman — ikki kunda keladi, doim qanday damlash haqida yozuv bilan.",
+          "author": "Lola N.",
+          "role": "yetkazib berish"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Choy va biz haqimizda",
+      "items": [
+        {
+          "q": "Sotib olishdan oldin choyni tatib ko‘rsa bo‘ladimi?",
+          "a": "Ha. Javondagi istalgan choyni do‘konda tatib ko‘rish uchun damlaymiz — 50 g dan xarid qilganda bepul."
+        },
+        {
+          "q": "Choy yetkazib berasizmi?",
+          "a": "Toshkent bo‘ylab — ertasi kuni, 20 000 so‘m, 300 000 so‘mdan bepul. O‘zbekiston bo‘ylab — pochta orqali 2–4 kunda."
+        },
+        {
+          "q": "Stol band qilish kerakmi?",
+          "a": "Ish kunlari odatda kerak emas. Juma kechqurun va dam olish kunlari oldindan yozgan ma’qul — bizda 12 o‘rin bor."
+        },
+        {
+          "q": "Yangi boshlovchiga qaysi choy?",
+          "a": "«Te Guan In» yoki «Darjiling»dan boshlang: ular tushunarli va damlashdagi xatolarni kechiradi."
+        },
+        {
+          "q": "Bargli choyni qanday saqlash kerak?",
+          "a": "Yopiq bankada, qorong‘ida va ziravorlardan uzoqda. Ko‘k choyni yarim yilda ichgan ma’qul, puer yillab saqlanishi mumkin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Keling",
+      "title": "Bir choynak choyga kiring",
+      "text": "Choyxona har kuni 10:00 dan 22:00 gacha ochiq. Stol va degustatsiyani Telegramda band qilish qulayroq.",
+      "cta": {
+        "label": "Telegramda band qilish",
+        "href": "https://t.me/choyuyi"
+      }
+    }
+  ]
+}

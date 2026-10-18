@@ -1,0 +1,302 @@
+{
+  "name": "Tayanch",
+  "tagline": "Rehabilitation and orthopaedics: getting you moving again, without rushing and without miracle promises",
+  "niche": "Rehabilitation and orthopaedics centre",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a rehab centre, orthopaedic clinic or massage studio. A spine drawn in lines that lights up under the cursor, services by body area, a recovery plan on a progress bar and figures as columns.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Tayanch — rehabilitation and orthopaedics in Tashkent",
+    "description": "Recovery after injuries and surgery, back and neck pain, exercise therapy and massage. An initial consultation with assessment is 250,000 UZS, with programmes of 4–8 weeks.",
+    "keywords": [
+      "rehabilitation Tashkent",
+      "orthopaedist Tashkent",
+      "exercise therapy",
+      "back pain treatment",
+      "recovery after surgery",
+      "physiotherapy Tashkent"
+    ],
+    "answer": "Tayanch is a rehabilitation and orthopaedics centre at 62 Babur Street in Tashkent, open Monday to Saturday from 8:00 to 20:00. An initial consultation with a rehabilitation doctor, including assessment and tests, is 250,000 UZS; an exercise therapy session with an instructor is 180,000 UZS and a therapeutic back massage 150,000 UZS. After the assessment you get a 4–8 week programme, with progress checked every two weeks."
+  },
+  "business": {
+    "legalName": "Tayanch Medical LLC",
+    "street": "62 Babur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Moving without pain is a skill",
+      "eyebrow": "Rehab · orthopaedics · exercise therapy",
+      "subtitle": "We work out where the pain comes from and rebuild strength and mobility step by step, with a doctor, an instructor and a clear plan over several weeks.",
+      "words": [
+        "Neck",
+        "Lower back",
+        "Knee",
+        "After surgery"
+      ],
+      "cta": {
+        "label": "Book an assessment",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "What we treat",
+        "href": "#zones"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "We treat with movement, not just procedures",
+      "text": "Tayanch brings together rehabilitation doctors, orthopaedists and exercise therapists. We start with a detailed assessment: how you stand, walk and bend, and where movement is limited. Then we build an exercise programme you do with an instructor in the gym and on your own at home. Massage and physiotherapy support the exercises; they don’t replace them.",
+      "image": ""
+    },
+    {
+      "id": "zones",
+      "type": "services",
+      "label": "What we treat",
+      "title": "What people come in with",
+      "intro": "Prices are per visit. Programme length depends on your assessment.",
+      "items": [
+        {
+          "title": "Neck pain",
+          "text": "Desk posture, tension headaches, numb hands.",
+          "price": "180,000 UZS",
+          "tag": "60 min"
+        },
+        {
+          "title": "Shoulder",
+          "text": "Limited arm lift, recovery after a dislocation.",
+          "price": "180,000 UZS",
+          "tag": "60 min"
+        },
+        {
+          "title": "Lower back and discs",
+          "text": "Low back pain, disc bulges and herniations without acute nerve symptoms.",
+          "price": "180,000 UZS",
+          "tag": "60 min"
+        },
+        {
+          "title": "Knee",
+          "text": "After ligament injuries or arthroscopy, and runner’s knee.",
+          "price": "180,000 UZS",
+          "tag": "60 min"
+        },
+        {
+          "title": "Foot and ankle",
+          "text": "Flat feet, heel spurs, after sprains.",
+          "price": "160,000 UZS",
+          "tag": "45 min"
+        },
+        {
+          "title": "Posture in teens",
+          "text": "Grade I–II scoliosis and slouching, in small groups.",
+          "price": "120,000 UZS",
+          "tag": "45 min"
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "type": "process",
+      "label": "The plan",
+      "title": "How recovery works",
+      "items": [
+        {
+          "title": "Assessment",
+          "text": "60 minutes with a rehab doctor: your history, movement and strength tests, and imaging referrals if needed."
+        },
+        {
+          "title": "Calm the pain",
+          "text": "Weeks 1–2: gentle exercise, massage and physiotherapy where indicated."
+        },
+        {
+          "title": "Rebuild strength",
+          "text": "Weeks 3–6: strength and stability work, checked every two weeks."
+        },
+        {
+          "title": "On your own",
+          "text": "A home programme and a follow-up a month later."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "specialists on the team"
+        },
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "for the first assessment"
+        },
+        {
+          "value": "6",
+          "suffix": " wk",
+          "label": "typical programme"
+        },
+        {
+          "value": "2",
+          "suffix": " gyms",
+          "label": "for exercise therapy"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Team",
+      "title": "Who you’ll work with",
+      "items": [
+        {
+          "name": "Aziz Karimov",
+          "role": "rehab doctor, head of centre",
+          "image": ""
+        },
+        {
+          "name": "Malika Yusupova",
+          "role": "orthopaedist",
+          "image": ""
+        },
+        {
+          "name": "Otabek Rakhimov",
+          "role": "exercise therapist",
+          "image": ""
+        },
+        {
+          "name": "Sevara Alieva",
+          "role": "massage therapist",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "Programme passes",
+      "items": [
+        {
+          "name": "Assessment",
+          "price": "250,000 UZS",
+          "period": "",
+          "features": [
+            "60 minutes with a rehab doctor",
+            "Movement and strength tests",
+            "A written plan"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8-session programme",
+          "price": "1,290,000 UZS",
+          "period": "",
+          "features": [
+            "8 sessions with an instructor",
+            "A progress check",
+            "Home exercises on Telegram"
+          ],
+          "featured": true
+        },
+        {
+          "name": "16-session programme",
+          "price": "2,390,000 UZS",
+          "period": "",
+          "features": [
+            "16 sessions with an instructor",
+            "Two progress checks",
+            "Four massage sessions"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Patient stories",
+      "items": [
+        {
+          "quote": "After knee surgery I was afraid to put weight on my leg. Six weeks later I’m back to 5 km walks, and I know which exercises to keep doing.",
+          "author": "Dilnoza Sh.",
+          "role": "knee"
+        },
+        {
+          "quote": "They explained why my back hurts without frightening diagnoses. I train at home with videos on Telegram.",
+          "author": "Rustam B.",
+          "role": "lower back"
+        },
+        {
+          "quote": "My son is in the posture group. He enjoys it, and I can see how his back has changed in three months.",
+          "author": "Feruza K.",
+          "role": "posture"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before your first visit",
+      "items": [
+        {
+          "q": "Do I need a referral?",
+          "a": "No. Bring any scans and discharge notes you have and the rehab doctor will review them."
+        },
+        {
+          "q": "What should I wear?",
+          "a": "Comfortable sportswear and clean indoor shoes. We provide towels and water."
+        },
+        {
+          "q": "How soon will I see results?",
+          "a": "Most people notice the first changes after 2–3 weeks of regular sessions, but it depends on the problem; the doctor will be more precise after the assessment."
+        },
+        {
+          "q": "Are there contraindications?",
+          "a": "Yes: acute inflammation, fever and some heart conditions. That’s why sessions only start after a doctor’s assessment."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Let’s start with an assessment",
+      "text": "Message us on Telegram or call, and we’ll find a convenient time in the next few days.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/tayanch_clinic"
+      }
+    }
+  ]
+}

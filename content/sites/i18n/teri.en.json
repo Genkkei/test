@@ -1,0 +1,260 @@
+{
+  "name": "Teri Clinic",
+  "tagline": "Cosmetology and dermatology with a medical approach",
+  "niche": "Cosmetology and dermatology clinic",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a cosmetology, dermatology or aesthetic medicine clinic. A milky background with soft shader light, an italic serif, a price list of treatments as rows and doctors framed in arches.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Teri Clinic — cosmetology and dermatology in Tashkent",
+    "description": "Dermatologist consultations, facial cleansing, peels, biorevitalisation and acne treatment. Doctors who specialise in dermatocosmetology, treatments only after an assessment, on Shakhrisabz Street.",
+    "keywords": [
+      "cosmetologist Tashkent",
+      "dermatologist Tashkent",
+      "facial cleansing Tashkent",
+      "chemical peel",
+      "biorevitalisation",
+      "acne treatment Tashkent"
+    ],
+    "answer": "Teri Clinic is a cosmetology and dermatology clinic at 16 Shakhrisabz Street in Tashkent, open Monday to Saturday from 10:00 to 20:00. A dermatologist consultation with a skin assessment is 200,000 UZS, a combined facial cleanse 350,000 UZS and a medium-depth peel from 450,000 UZS. Every treatment is prescribed only after a doctor’s consultation."
+  },
+  "business": {
+    "legalName": "Teri Clinic LLC",
+    "street": "16 Shakhrisabz St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Skin at ease",
+      "eyebrow": "Dermatology · cosmetology",
+      "subtitle": "Our dermatologists look at the whole picture: cause first, treatment second. No unnecessary courses, no ‘filter-perfect’ promises.",
+      "words": [
+        "Dermatoscope assessment",
+        "A one-month care plan",
+        "Treatments when indicated"
+      ],
+      "cta": {
+        "label": "Book a consultation",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Treatments and prices",
+        "href": "#treatments"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A conversation first, then a treatment",
+      "text": "Teri Clinic was founded by dermatologists who were tired of seeing the after-effects of ‘just in case’ treatments. The first visit is a 40-minute assessment and a conversation about your skincare, lifestyle and expectations. If home care is enough, we’ll tell you. If a treatment makes sense, we’ll explain what it does, how many sessions it takes and what to expect in the first few days.",
+      "image": ""
+    },
+    {
+      "id": "treatments",
+      "type": "services",
+      "label": "Treatments",
+      "title": "Treatments and prices",
+      "intro": "Prices are per session. Your doctor decides on courses and combinations at the consultation.",
+      "items": [
+        {
+          "title": "Dermatologist consultation",
+          "text": "A dermatoscope skin check, a review of your home care and a written plan.",
+          "price": "200,000 UZS",
+          "tag": "40 min"
+        },
+        {
+          "title": "Combined facial cleanse",
+          "text": "Ultrasonic and manual extraction, finished with a calming mask.",
+          "price": "350,000 UZS",
+          "tag": "75 min"
+        },
+        {
+          "title": "Superficial peel",
+          "text": "Mandelic or lactic acid to even out tone, with no downtime.",
+          "price": "280,000 UZS",
+          "tag": "40 min"
+        },
+        {
+          "title": "Medium-depth peel",
+          "text": "For post-acne marks and pigmentation, in autumn and winter.",
+          "price": "from 450,000 UZS",
+          "tag": "60 min"
+        },
+        {
+          "title": "Biorevitalisation",
+          "text": "Hyaluronic acid injections for hydration and skin density.",
+          "price": "from 900,000 UZS",
+          "tag": "45 min"
+        },
+        {
+          "title": "Acne treatment",
+          "text": "A three-month plan: doctor visits, treatments where indicated and a check-in every four weeks.",
+          "price": "from 1,200,000 UZS",
+          "tag": "3 months"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "How we work",
+      "title": "The road to calmer skin",
+      "items": [
+        {
+          "title": "Consultation",
+          "text": "An assessment, questions about your care and health, and ‘before’ photos."
+        },
+        {
+          "title": "Plan",
+          "text": "Home care and, if needed, treatments, with costs and timings."
+        },
+        {
+          "title": "Treatments",
+          "text": "Done by the doctor who assessed you, with single-use materials."
+        },
+        {
+          "title": "Follow-up",
+          "text": "A follow-up and photo comparison after 4–6 weeks."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Doctors",
+      "title": "Our doctors",
+      "items": [
+        {
+          "name": "Nigora Khasanova",
+          "role": "dermatologist, medical director",
+          "image": ""
+        },
+        {
+          "name": "Madina Rashidova",
+          "role": "dermatocosmetologist",
+          "image": ""
+        },
+        {
+          "name": "Shakhzoda Ibragimova",
+          "role": "dermatocosmetologist",
+          "image": ""
+        },
+        {
+          "name": "Gulnoza Mirzaeva",
+          "role": "nurse",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": " min",
+          "label": "first consultation"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "people on the team"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "of treatments after an assessment"
+        },
+        {
+          "value": "6",
+          "suffix": " wk",
+          "label": "until the follow-up"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What patients say",
+      "items": [
+        {
+          "quote": "For the first time nobody tried to sell me a course at the door. The doctor cut my routine to three products and my skin finally calmed down.",
+          "author": "Zarina A.",
+          "role": "consultation"
+        },
+        {
+          "quote": "I treated acne for three months. Everything followed the plan, with before-and-after photos and clear explanations at every step.",
+          "author": "Madina T.",
+          "role": "acne treatment"
+        },
+        {
+          "quote": "A facial with no redness the next day. I went straight from the clinic to a meeting.",
+          "author": "Oybek N.",
+          "role": "facial cleanse"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I book a treatment straight away?",
+          "a": "No: the first visit is always a consultation. It’s safer and saves you money on treatments you don’t need."
+        },
+        {
+          "q": "Are there contraindications?",
+          "a": "Yes: pregnancy, active inflammation and some medications and conditions. The doctor checks everything at the consultation."
+        },
+        {
+          "q": "When is the best time for peels?",
+          "a": "Superficial peels can be done year-round with SPF; medium peels from October to March, when the sun is gentler."
+        },
+        {
+          "q": "How can I pay?",
+          "a": "Cash, Uzcard and Humo cards, Payme or Click. You pay after the treatment."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Book a consultation",
+      "text": "We reply on Telegram within an hour during opening hours and find you a doctor and a time.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/tericlinic"
+      }
+    }
+  ]
+}

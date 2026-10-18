@@ -60,8 +60,8 @@
   .spine-hero__inner { grid-template-columns: 1fr; }
   .spine-hero__figure { width: min(78vw, 340px); }
   .spine-hero__chips li { font-size: 12px; }
-  .spine-hero__chips li:nth-child(odd) { left: -14%; }
-  .spine-hero__chips li:nth-child(even) { right: -14%; }
+  .spine-hero__chips li:nth-child(odd) { left: -2%; }
+  .spine-hero__chips li:nth-child(even) { right: -2%; }
 }
 
 /* сводка */

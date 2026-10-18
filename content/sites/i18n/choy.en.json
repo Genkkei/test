@@ -1,0 +1,325 @@
+{
+  "name": "Choy Uyi",
+  "tagline": "A tea house: loose-leaf tea, teaware and a quiet tea room in the old town",
+  "niche": "Tea shop and tea room",
+  "nav": {
+    "cta": {
+      "label": "Book a table",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a tea shop, tea room or coffee house. A steaming cup on the first screen, teas as labelled tins on a shelf and a brewing ritual with timer rings.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Choy Uyi — tea shop and tea room in Tashkent",
+    "description": "Loose-leaf green, black, oolong and pu-erh, teaware and tastings. A tea room on Sebzor, tea delivery across Uzbekistan, loose tea from 50 g.",
+    "keywords": [
+      "tea shop Tashkent",
+      "loose leaf tea",
+      "oolong Tashkent",
+      "buy pu-erh",
+      "tea room Tashkent",
+      "tea ceremony Tashkent"
+    ],
+    "answer": "Choy Uyi is a tea shop and tea room at 14 Sebzor Street in Tashkent, open daily from 10:00 to 22:00. Loose tea is sold from 50 g: Sencha green tea is 65,000 UZS and Tie Guan Yin oolong 95,000 UZS per 50 g. A pot of tea in the tea room starts at 45,000 UZS, a five-tea tasting is 180,000 UZS, and delivery in Tashkent takes one day."
+  },
+  "business": {
+    "legalName": "Choy Uyi sole proprietorship",
+    "street": "14 Sebzor St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, delivery across Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Time to brew",
+      "eyebrow": "Tea house · 14 Sebzor",
+      "subtitle": "Loose-leaf tea from China, Japan, India and Sri Lanka, handmade teaware and a tea room where you can try everything before you buy.",
+      "words": [
+        "Tie Guan Yin",
+        "Sencha",
+        "Shou pu-erh",
+        "Darjeeling",
+        "Silver Needle"
+      ],
+      "cta": {
+        "label": "Choose a tea",
+        "href": "#teas"
+      },
+      "ctaSecondary": {
+        "label": "Visit the tea room",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Loose tea from 50 g",
+        "Weekend tastings",
+        "Handmade teaware",
+        "Delivery across Uzbekistan"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The house",
+      "title": "Tea, unhurried",
+      "text": "We opened the tea house in an old building on Sebzor so that tea could be a pause again, not a teabag on the run. The shelves hold about 60 teas that we bring directly from small growers and taste ourselves. In the tea room we brew in gaiwans and piyalas, and in the shop we’ll help you choose a tea for your taste and the water you have at home.",
+      "image": ""
+    },
+    {
+      "id": "teas",
+      "type": "menu",
+      "label": "Tea",
+      "title": "The tea shelf",
+      "groups": [
+        {
+          "name": "Green and white",
+          "items": [
+            {
+              "name": "Sencha",
+              "text": "Japan. Grassy, with a sea-breeze freshness.",
+              "price": "65,000 UZS / 50 g"
+            },
+            {
+              "name": "Longjing",
+              "text": "China. Roasted chestnut and sweetness.",
+              "price": "85,000 UZS / 50 g"
+            },
+            {
+              "name": "Silver Needle",
+              "text": "China. White tea from buds, honey and apricot.",
+              "price": "140,000 UZS / 50 g"
+            }
+          ]
+        },
+        {
+          "name": "Oolong and black",
+          "items": [
+            {
+              "name": "Tie Guan Yin",
+              "text": "Lilac and cream, steeps up to seven times.",
+              "price": "95,000 UZS / 50 g"
+            },
+            {
+              "name": "Da Hong Pao",
+              "text": "A roasted rock oolong, warm and deep.",
+              "price": "120,000 UZS / 50 g"
+            },
+            {
+              "name": "Darjeeling",
+              "text": "India, first flush. Muscatel and flowers.",
+              "price": "90,000 UZS / 50 g"
+            }
+          ]
+        },
+        {
+          "name": "Pu-erh and herbals",
+          "items": [
+            {
+              "name": "Shou pu-erh 2016",
+              "text": "Earthy and sweet, warming in winter.",
+              "price": "75,000 UZS / 50 g"
+            },
+            {
+              "name": "Sheng pu-erh 2019",
+              "text": "Bright, with a light bitterness and fruit.",
+              "price": "110,000 UZS / 50 g"
+            },
+            {
+              "name": "Mountain herbs",
+              "text": "Thyme, mint and rosehip from Chimgan.",
+              "price": "35,000 UZS / 50 g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Ritual",
+      "title": "How we brew an oolong",
+      "items": [
+        {
+          "title": "Warm",
+          "text": "Rinse the gaiwan and cups with boiling water: tea opens up in warm ware."
+        },
+        {
+          "title": "Wake",
+          "text": "Pour 95° water over 7 g of tea and discard it at once to wake the leaf."
+        },
+        {
+          "title": "Steep",
+          "text": "First infusions are 15 seconds each, then 5 seconds longer every time."
+        },
+        {
+          "title": "Share",
+          "text": "Pour through a pitcher so everyone’s cup tastes the same."
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "In the tea room",
+      "title": "What to do here",
+      "items": [
+        {
+          "title": "A pot of tea",
+          "text": "Any tea from the shelf in a gaiwan or teapot, with refills of water as long as you like.",
+          "price": "from 45,000 UZS",
+          "tag": "for 1–3 guests"
+        },
+        {
+          "title": "Tasting",
+          "text": "Five teas from green to pu-erh, with a tea master guiding you.",
+          "price": "180,000 UZS",
+          "tag": "Saturdays and Sundays"
+        },
+        {
+          "title": "Tea ceremony",
+          "text": "Gongfu cha for up to six people, around an hour and a half.",
+          "price": "450,000 UZS",
+          "tag": "by booking"
+        },
+        {
+          "title": "Gift set",
+          "text": "Three teas in tins, two cups and a card, wrapped in kraft paper.",
+          "price": "from 390,000 UZS",
+          "tag": "ready in a day"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "",
+          "label": "teas on the shelf"
+        },
+        {
+          "value": "7",
+          "suffix": "",
+          "label": "infusions from a good oolong"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "seats in the tea room"
+        },
+        {
+          "value": "50",
+          "suffix": " g",
+          "label": "minimum purchase"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Tea room",
+      "title": "A quiet courtyard on Sebzor",
+      "items": [
+        {
+          "caption": "The room overlooking the yard",
+          "image": ""
+        },
+        {
+          "caption": "Handmade gaiwans",
+          "image": ""
+        },
+        {
+          "caption": "The pu-erh shelf",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests say",
+      "items": [
+        {
+          "quote": "I came for a gift and left two hours later with three tins and a new favourite oolong. Such a calm place.",
+          "author": "Kamila T.",
+          "role": "tea room guest"
+        },
+        {
+          "quote": "The tasting showed me pu-erh isn’t just ‘earth’. The tea master explains without any snobbery.",
+          "author": "Sanjar Yu.",
+          "role": "tasting"
+        },
+        {
+          "quote": "I order tea to Samarkand. It arrives in two days, always with a note on how to brew it.",
+          "author": "Lola N.",
+          "role": "delivery"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "About tea and us",
+      "items": [
+        {
+          "q": "Can I taste a tea before buying it?",
+          "a": "Yes. We’ll brew any tea from the shelf for you to try; it’s free with a purchase of 50 g or more."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "In Tashkent the next day for 20,000 UZS, free from 300,000 UZS. Across Uzbekistan by post in 2–4 days."
+        },
+        {
+          "q": "Do I need to book a table?",
+          "a": "Usually not on weekdays. For Friday evenings and weekends it’s best to message ahead: we have 12 seats."
+        },
+        {
+          "q": "Which tea should a beginner try?",
+          "a": "Start with Tie Guan Yin or Darjeeling: both are easy to like and forgive brewing mistakes."
+        },
+        {
+          "q": "How should I store loose tea?",
+          "a": "In a closed tin, in the dark and away from spices. Drink green tea within six months; pu-erh can keep for years."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Visit",
+      "title": "Come in for a pot of tea",
+      "text": "The tea room is open daily from 10:00 to 22:00. It’s easiest to book a table or tasting on Telegram.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/choyuyi"
+      }
+    }
+  ]
+}

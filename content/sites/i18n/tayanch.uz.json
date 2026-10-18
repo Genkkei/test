@@ -1,0 +1,302 @@
+{
+  "name": "Tayanch",
+  "tagline": "Reabilitatsiya va ortopediya: harakatni shoshilmasdan va mo‘jiza va’dalarisiz qaytaramiz",
+  "niche": "Reabilitatsiya va ortopediya markazi",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Reabilitatsiya, ortopediya yoki massaj markazi uchun sayt. Chiziqlar bilan chiziladigan va kursor ortidan yonadigan umurtqa pog‘onasi, tana zonalari bo‘yicha yo‘nalishlar, shkala ko‘rinishidagi tiklanish rejasi va ustunli raqamlar.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Tayanch — Toshkentda reabilitatsiya va ortopediya",
+    "description": "Jarohat va operatsiyadan keyin tiklanish, bel va bo‘yindagi og‘riq, davolovchi jismoniy tarbiya va massaj. Ko‘rik bilan birlamchi konsultatsiya — 250 000 so‘m, 4–8 haftalik dastur.",
+    "keywords": [
+      "reabilitatsiya Toshkent",
+      "ortoped Toshkent",
+      "davolovchi jismoniy tarbiya",
+      "bel og‘rig‘ini davolash",
+      "operatsiyadan keyin tiklanish",
+      "bel massaji Toshkent"
+    ],
+    "answer": "Tayanch — Toshkentdagi Bobur ko‘chasi, 62 dagi reabilitatsiya va ortopediya markazi, dushanbadan shanbagacha 8:00 dan 20:00 gacha qabul qiladi. Ko‘rik va testlar bilan reabilitolog birlamchi konsultatsiyasi — 250 000 so‘m, instruktor bilan davolovchi jismoniy tarbiya mashg‘uloti — 180 000 so‘m, davolovchi bel massaji — 150 000 so‘m. Ko‘rikdan keyin 4–8 haftalik dastur tuziladi va har ikki haftada natija tekshiriladi."
+  },
+  "business": {
+    "legalName": "«Tayanch Medical» MChJ",
+    "street": "Bobur ko‘chasi, 62",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Og‘riqsiz harakatlanish — bu ko‘nikma",
+      "eyebrow": "Reabilitatsiya · ortopediya · DJT",
+      "subtitle": "Og‘riq qayerdan ekanini aniqlaymiz va kuch hamda harakatchanlikni bosqichma-bosqich tiklaymiz — shifokor, instruktor va bir necha haftalik tushunarli reja bilan.",
+      "words": [
+        "Bo‘yin",
+        "Bel",
+        "Tizza",
+        "Operatsiyadan keyin"
+      ],
+      "cta": {
+        "label": "Ko‘rikka yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Yo‘nalishlar",
+        "href": "#zones"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Markaz haqida",
+      "title": "Faqat muolajalar bilan emas, harakat bilan davolaymiz",
+      "text": "Tayanchda reabilitologlar, ortopedlar va DJT instruktorlari ishlaydi. Biz batafsil ko‘rikdan boshlaymiz: qanday turasiz, yurasiz, egilasiz, harakat qayerda cheklangan. So‘ng zalda instruktor bilan va uyda o‘zingiz bajaradigan mashqlar dasturini tuzamiz. Massaj va fizioterapiya mashqlar o‘rniga emas, ularga yordam sifatida.",
+      "image": ""
+    },
+    {
+      "id": "zones",
+      "type": "services",
+      "label": "Yo‘nalishlar",
+      "title": "Ko‘pincha nima bilan kelishadi",
+      "intro": "Narx — bir tashrif uchun. Dastur davomiyligi ko‘rikka bog‘liq.",
+      "items": [
+        {
+          "title": "Bo‘yindagi og‘riq",
+          "text": "Ofis holati, zo‘riqish bosh og‘riqlari, qo‘llarning uvishishi.",
+          "price": "180 000 so‘m",
+          "tag": "60 daq"
+        },
+        {
+          "title": "Yelka",
+          "text": "Qo‘lni ko‘tarishning cheklanishi, chiqishdan keyin tiklanish.",
+          "price": "180 000 so‘m",
+          "tag": "60 daq"
+        },
+        {
+          "title": "Bel va churralar",
+          "text": "Beldagi og‘riq, o‘tkir nevrologiyasiz protruziya va churralar.",
+          "price": "180 000 so‘m",
+          "tag": "60 daq"
+        },
+        {
+          "title": "Tizza",
+          "text": "Bog‘lam jarohatidan, artroskopiyadan keyin, yuguruvchilardagi og‘riqda.",
+          "price": "180 000 so‘m",
+          "tag": "60 daq"
+        },
+        {
+          "title": "Oyoq panjasi va to‘piq",
+          "text": "Yassi oyoqlik, tovon shpori, cho‘zilishdan keyin.",
+          "price": "160 000 so‘m",
+          "tag": "45 daq"
+        },
+        {
+          "title": "O‘smirlarda qomat",
+          "text": "I–II darajali skolioz, bukrilik — mini-guruhlarda mashg‘ulotlar.",
+          "price": "120 000 so‘m",
+          "tag": "45 daq"
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "type": "process",
+      "label": "Reja",
+      "title": "Tiklanish qanday kechadi",
+      "items": [
+        {
+          "title": "Ko‘rik va testlar",
+          "text": "Reabilitolog bilan 60 daqiqa: tarix, harakatlar, kuch testlari, kerak bo‘lsa — suratga yo‘llanma."
+        },
+        {
+          "title": "Og‘riqni kamaytirish",
+          "text": "Birinchi 1–2 hafta: yumshoq mashqlar, massaj, ko‘rsatma bo‘yicha fizioterapiya."
+        },
+        {
+          "title": "Kuchni qaytarish",
+          "text": "3–6 haftalar: kuch va barqarorlashtiruvchi mashqlar, har ikki haftada nazorat."
+        },
+        {
+          "title": "Mustaqil yashash",
+          "text": "Uy uchun dastur va bir oydan keyin qayta ko‘rik."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "jamoada mutaxassis"
+        },
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "birinchi ko‘rik davom etadi"
+        },
+        {
+          "value": "6",
+          "suffix": " hafta",
+          "label": "o‘rtacha dastur"
+        },
+        {
+          "value": "2",
+          "suffix": " zal",
+          "label": "DJT mashg‘ulotlari uchun"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Jamoa",
+      "title": "Siz bilan kim ishlaydi",
+      "items": [
+        {
+          "name": "Aziz Karimov",
+          "role": "reabilitolog, markaz rahbari",
+          "image": ""
+        },
+        {
+          "name": "Malika Yusupova",
+          "role": "ortoped shifokor",
+          "image": ""
+        },
+        {
+          "name": "Otabek Rahimov",
+          "role": "DJT instruktori",
+          "image": ""
+        },
+        {
+          "name": "Sevara Aliyeva",
+          "role": "massajchi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Dastur abonementlari",
+      "items": [
+        {
+          "name": "Ko‘rik",
+          "price": "250 000 so‘m",
+          "period": "",
+          "features": [
+            "Reabilitolog bilan 60 daqiqa",
+            "Harakat va kuch testlari",
+            "Yozma reja"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8 mashg‘ulotli dastur",
+          "price": "1 290 000 so‘m",
+          "period": "",
+          "features": [
+            "Instruktor bilan 8 mashg‘ulot",
+            "Nazorat ko‘rigi",
+            "Uy mashqlari Telegramda"
+          ],
+          "featured": true
+        },
+        {
+          "name": "16 mashg‘ulotli dastur",
+          "price": "2 390 000 so‘m",
+          "period": "",
+          "features": [
+            "Instruktor bilan 16 mashg‘ulot",
+            "2 ta nazorat ko‘rigi",
+            "4 seans massaj"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bemorlar hikoyalari",
+      "items": [
+        {
+          "quote": "Tizza operatsiyasidan keyin oyoqqa yuk berishdan qo‘rqardim. Olti haftadan keyin 5 km lik sayrlarga qaytdim, eng muhimi — keyin qanday mashqlar qilishni bilaman.",
+          "author": "Dilnoza Sh.",
+          "role": "tizza"
+        },
+        {
+          "quote": "Bel nega og‘rishini qo‘rqituvchi tashxislarsiz tushuntirishdi. Uyda Telegramdagi video bo‘yicha shug‘ullanaman.",
+          "author": "Rustam B.",
+          "role": "bel"
+        },
+        {
+          "quote": "O‘g‘lim qomat guruhida shug‘ullanadi — unga yoqadi, men esa uch oyda beli qanday o‘zgarganini ko‘ryapman.",
+          "author": "Feruza K.",
+          "role": "qomat"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Birinchi tashrifdan oldin",
+      "items": [
+        {
+          "q": "Shifokor yo‘llanmasi kerakmi?",
+          "a": "Yo‘q. Agar bo‘lsa, suratlar va ko‘chirmalarni olib keling — reabilitolog ularni ko‘rib chiqadi."
+        },
+        {
+          "q": "Mashg‘ulotga nima kiyish kerak?",
+          "a": "Qulay sport kiyimi va toza almashtiriladigan poyabzal. Sochiq va suv beramiz."
+        },
+        {
+          "q": "Natija qachon bo‘ladi?",
+          "a": "Odatda birinchi o‘zgarishlar muntazam mashg‘ulotlarning 2–3 haftasida seziladi, lekin muddat muammoga bog‘liq — aniqrog‘ini shifokor ko‘rikdan keyin aytadi."
+        },
+        {
+          "q": "Qarshi ko‘rsatmalar bormi?",
+          "a": "Ha: o‘tkir yallig‘lanishlar, isitma, ba’zi yurak kasalliklari. Shuning uchun mashg‘ulotlar faqat shifokor ko‘rigidan keyin boshlanadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Ko‘rikdan boshlaymiz",
+      "text": "Telegramga yozing yoki qo‘ng‘iroq qiling — yaqin kunlarda qulay vaqtni tanlaymiz.",
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/tayanch_clinic"
+      }
+    }
+  ]
+}

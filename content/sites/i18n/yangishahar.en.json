@@ -1,0 +1,289 @@
+{
+  "name": "Yangi Shahar",
+  "tagline": "A residential quarter by the park: five buildings, a car-free courtyard and a school next door",
+  "niche": "Residential development",
+  "nav": {
+    "cta": {
+      "label": "Find an apartment",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a residential complex, developer or new-build agency. A skyline with windows lighting up, floor-plan drawings with a switcher, construction progress bars and prices by apartment type.",
+    "features": [],
+    "forSale": true
+  },
+  "seo": {
+    "title": "Yangi Shahar — new homes by the park in Chilanzar",
+    "description": "Apartments from 42 to 118 m² in a quarter of five buildings: a car-free courtyard, underground parking, a school and kindergarten nearby. Phase one completes in Q4 2027, with instalments over up to 24 months.",
+    "keywords": [
+      "new builds Tashkent",
+      "new apartment Chilanzar",
+      "residential complex Tashkent",
+      "buy an apartment in Tashkent",
+      "apartment instalment plan",
+      "homes by the park Tashkent"
+    ],
+    "answer": "Yangi Shahar is a quarter of five buildings, 9 to 16 storeys high, by the park in Tashkent’s Chilanzar district. One-bedroom apartments from 42.5 m² start at 620 million UZS, two-bedroom from 64 m² at 890 million UZS and three-bedroom from 86 m² at 1,180 million UZS. Phase one completes in Q4 2027, and instalments over up to 24 months are available with a 30% down payment."
+  },
+  "business": {
+    "legalName": "Yangi Shahar Development LLC",
+    "street": "2 Chilanzar St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Chilanzar district",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Where the courtyard belongs to children",
+      "eyebrow": "Residential quarter · Chilanzar",
+      "subtitle": "Five buildings around a car-free courtyard, beside the park and ten minutes from the metro. Apartments with finished layouts and turnkey interiors.",
+      "words": [
+        "5 buildings, 9–16 floors",
+        "Car-free courtyard",
+        "Underground parking",
+        "Completion Q4 2027"
+      ],
+      "cta": {
+        "label": "Choose a layout",
+        "href": "#plans"
+      },
+      "ctaSecondary": {
+        "label": "Construction progress",
+        "href": "#progress"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The project",
+      "title": "A neighbourhood, not just a building",
+      "text": "Yangi Shahar is being built on a 3.2-hectare site next to the park. Cars go into a 640-space underground car park, leaving the courtyard to people: playgrounds for different ages, a sports area and a quiet shaded garden. The ground floors hold a café, a pharmacy and a grocery, with a school and kindergarten across the road.",
+      "image": ""
+    },
+    {
+      "id": "plans",
+      "type": "works",
+      "label": "Layouts",
+      "title": "Choose your layout",
+      "items": [
+        {
+          "title": "1-bedroom",
+          "category": "42.5 m²",
+          "year": "from 620 m UZS",
+          "text": "A kitchen-living room and a bedroom facing the courtyard, with a 4 m² loggia.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "2-bedroom",
+          "category": "64 m²",
+          "year": "from 890 m UZS",
+          "text": "Two separate bedrooms, a 22 m² kitchen-living room and a walk-in wardrobe.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "3-bedroom",
+          "category": "86 m²",
+          "year": "from 1,180 m UZS",
+          "text": "A master bedroom with en-suite, two children’s rooms and a corner living room.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "4-bedroom",
+          "category": "118 m²",
+          "year": "from 1,590 m UZS",
+          "text": "Two bathrooms, a study and a terrace on the upper floors.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "progress",
+      "type": "process",
+      "label": "Construction",
+      "title": "Construction progress",
+      "items": [
+        {
+          "title": "Excavation and foundations — 100%",
+          "text": "Completed in March and signed off by the technical supervisor."
+        },
+        {
+          "title": "Concrete frame — 72%",
+          "text": "Buildings 1 and 2 are at floor 14, building 3 at floor 9."
+        },
+        {
+          "title": "Facades and windows — 30%",
+          "text": "Cladding has started on building 1, and windows are going in from the ground floor up."
+        },
+        {
+          "title": "Utilities — 25%",
+          "text": "External water and sewer mains are laid."
+        },
+        {
+          "title": "Courtyard landscaping — 0%",
+          "text": "Starts once the cranes come down, planned for spring 2027."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "buildings in the quarter"
+        },
+        {
+          "value": "620",
+          "suffix": "",
+          "label": "apartments in phase one"
+        },
+        {
+          "value": "32 000",
+          "suffix": " m²",
+          "label": "site area"
+        },
+        {
+          "value": "640",
+          "suffix": "",
+          "label": "parking spaces"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "Prices and instalments",
+      "items": [
+        {
+          "name": "1-bedroom",
+          "price": "from 620 m UZS",
+          "period": "",
+          "features": [
+            "42.5–48 m²",
+            "Floors 2–16",
+            "Turnkey finish +6m UZS/m²"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2-bedroom",
+          "price": "from 890 m UZS",
+          "period": "",
+          "features": [
+            "64–72 m²",
+            "Dual-aspect windows",
+            "Instalments up to 24 months"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3-bedroom",
+          "price": "from 1,180 m UZS",
+          "period": "",
+          "features": [
+            "86–94 m²",
+            "Two bathrooms",
+            "A parking space included"
+          ],
+          "featured": false
+        },
+        {
+          "name": "4-bedroom",
+          "price": "from 1,590 m UZS",
+          "period": "",
+          "features": [
+            "112–118 m²",
+            "Terrace on upper floors",
+            "A personal manager"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Renderings",
+      "title": "What the quarter will look like",
+      "items": [
+        {
+          "caption": "The car-free courtyard",
+          "image": ""
+        },
+        {
+          "caption": "Entrance to building 2",
+          "image": ""
+        },
+        {
+          "caption": "Lobby with a pram room",
+          "image": ""
+        },
+        {
+          "caption": "View of the park",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Buyers’ questions",
+      "items": [
+        {
+          "q": "When will it be completed?",
+          "a": "Phase one (buildings 1–3) completes in Q4 2027 and phase two (buildings 4–5) in Q2 2028. We update construction progress on the site every month."
+        },
+        {
+          "q": "What are the instalment terms?",
+          "a": "A down payment from 30%, then equal interest-free payments over up to 24 months, finishing no later than completion."
+        },
+        {
+          "q": "Can I buy with a mortgage?",
+          "a": "Yes, the project is accredited with several banks. A manager will help you gather documents and compare offers."
+        },
+        {
+          "q": "What’s included in the turnkey finish?",
+          "a": "Walls, floors, doors, sanitaryware and lighting in one of three styles: you can move in as soon as you get the keys."
+        },
+        {
+          "q": "Can I visit the site?",
+          "a": "Yes, we run site tours with an engineer on Saturdays at 11:00; book on Telegram."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Sales office",
+      "title": "We’ll find the right home for your family",
+      "text": "Visit the sales office by the site or message us on Telegram, and we’ll send available layouts and an instalment calculation.",
+      "cta": {
+        "label": "Get a selection",
+        "href": "https://t.me/yangishahar_uz"
+      }
+    }
+  ]
+}
