@@ -1,0 +1,327 @@
+{
+  "name": "Gadget",
+  "tagline": "Sotib olishdan oldin ushlab ko‘rish, keyin esa ta’mirlash mumkin bo‘lgan texnika",
+  "niche": "Elektronika do‘koni va servis markazi: smartfonlar, noutbuklar, audio, ta’mirlash",
+  "seo": {
+    "title": "Gadget — Toshkentda elektronika do‘koni va servis",
+    "description": "Rasmiy kafolatli smartfonlar, noutbuklar, quloqchinlar va aqlli soatlar. Trade-in, muddatli to‘lov va 15 daqiqada diagnostika qiladigan servis markazi.",
+    "keywords": [
+      "Toshkent elektronika do‘koni",
+      "Toshkentda smartfon sotib olish",
+      "Toshkentda telefon ta’mirlash",
+      "trade-in",
+      "muddatli to‘lovga noutbuk",
+      "quloqchinlar"
+    ],
+    "answer": "Gadget — Toshkentdagi Amir Temur shoh ko‘chasi, 15 dagi elektronika do‘koni va servis markazi, har kuni 10:00 dan 21:00 gacha ochiq. Smartfonlar — 2 900 000 so‘mdan, noutbuklar — 7 400 000 so‘mdan, 6–12 oyga muddatli to‘lov, eski qurilmani trade-in. Servisda diagnostika bepul, ekranni almashtirish — 450 000 so‘mdan."
+  },
+  "nav": {
+    "cta": {
+      "label": "Maslahat",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Elektronika do‘koni, servis markazi yoki gadjet brendi uchun sayt. Kursordan tarqaladigan nuqtali matritsa sarlavha, spetsifikatsiya kartochkalari ko‘rinishidagi mahsulotlar, terminal logi ko‘rinishidagi servis va LED tablodagi raqamlar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Gadget Store» MChJ",
+    "street": "Amir Temur shoh ko‘chasi, 15",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kutilmagan holatlarsiz texnika",
+      "eyebrow": "Do‘kon va servis · Amir Temur, 15",
+      "subtitle": "Hammasini shu yerda yoqib, sinab ko‘rish mumkin. Rasmiy kafolat, ortiqcha to‘lovsiz muddatli to‘lov va bir qavat yuqorida servis — biror narsa buzilsa, uzoqqa borish shart emas.",
+      "words": [
+        "2 yilgacha kafolat",
+        "0% muddatli to‘lov",
+        "Trade-in",
+        "Bir kunda ta’mirlash"
+      ],
+      "cta": {
+        "label": "Texnikani ko‘rish",
+        "href": "#shop"
+      },
+      "ctaSecondary": {
+        "label": "Ta’mirga topshirish",
+        "href": "#service"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Smartfonlar",
+        "Noutbuklar",
+        "Quloqchinlar",
+        "Soatlar",
+        "Planshetlar",
+        "Konsollar",
+        "Aksessuarlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Do‘kon haqida",
+      "title": "Hamma narsa yoqilgan vitrina",
+      "text": "Biz texnikani qutilarda saqlamaymiz: har bir model stolda quvvatlangan va ochiq holda turadi. Maslahatchilar qimmat modellardan foiz olmaydi, shuning uchun o‘tgan yilgi smartfon yetarli bo‘lsa, rostini aytishadi. Hammasini rasmiy kafolat bilan sotamiz va o‘zimiz xizmat ko‘rsatamiz.",
+      "image": ""
+    },
+    {
+      "id": "shop",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Hozir stollarda nima bor",
+      "intro": "Narxlar — asosiy komplektatsiya uchun. Mavjudlik va boshqa versiyalarni Telegramda aniqlang.",
+      "items": [
+        {
+          "title": "Pro 6.1″ smartfon",
+          "text": "6,1″ OLED 120 Gs · 256 GB · uchlik 48 Mp kamera · eSIM",
+          "price": "12 900 000 so‘m",
+          "tag": "yangi"
+        },
+        {
+          "title": "Lite smartfon",
+          "text": "6,5″ AMOLED · 128 GB · 5000 mA·s · NFC",
+          "price": "2 900 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Air 13″ noutbuk",
+          "text": "13,6″ · 16 GB OXQ · 512 GB SSD · 18 soat ishlash",
+          "price": "14 500 000 so‘m",
+          "tag": "xit"
+        },
+        {
+          "title": "O‘qish uchun noutbuk",
+          "text": "15,6″ IPS · 8 GB OXQ · 256 GB SSD · Windows 11",
+          "price": "7 400 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "ANC quloqchinlar",
+          "text": "Faol shovqin bostirish · 30 soat · USB-C · multinuqta",
+          "price": "3 200 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Aqlli soatlar",
+          "text": "1,9″ AMOLED · puls va SpO₂ · GPS · 7 kun quvvatsiz",
+          "price": "2 400 000 so‘m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "15",
+          "suffix": " daq",
+          "label": "servisda diagnostika"
+        },
+        {
+          "value": "2",
+          "suffix": " yil",
+          "label": "texnikaga kafolat"
+        },
+        {
+          "value": "12",
+          "suffix": " oy",
+          "label": "ortiqcha to‘lovsiz muddatli to‘lov"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "stollardagi model"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "type": "process",
+      "label": "Servis",
+      "title": "Ta’mirlash — bosqichma-bosqich va hisobot bilan",
+      "items": [
+        {
+          "title": "Qabul",
+          "text": "Nosozlikni yozib, buyurtma raqamli kvitansiya beramiz."
+        },
+        {
+          "title": "Diagnostika",
+          "text": "Sizning oldingizda 15 daqiqa, bepul. Ish boshlanishidan oldin narxni aytamiz."
+        },
+        {
+          "title": "Ta’mirlash",
+          "text": "Asl yoki sertifikatlangan ehtiyot qismlar — tanlovingizga."
+        },
+        {
+          "title": "Tekshiruv",
+          "text": "Ekran, kameralar, aloqa va batareyani chek-list bo‘yicha tekshiramiz."
+        },
+        {
+          "title": "Topshirish",
+          "text": "Tayyor bo‘lganda Telegramga yozamiz. Ishga kafolat — 6 oy."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Ta’mirlash",
+      "title": "Ko‘p uchraydigan ta’mirlar",
+      "items": [
+        {
+          "name": "Smartfon ekrani",
+          "price": "450 000 so‘m",
+          "period": "dan, ish va detal uchun",
+          "features": [
+            "1–2 soatda almashtirish",
+            "6 oy kafolat",
+            "Himoya oynasi sovg‘a"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Batareya",
+          "price": "280 000 so‘m",
+          "period": "dan",
+          "features": [
+            "Bir soatda almashtirish",
+            "Sig‘imni tekshirish",
+            "Eskisini utilizatsiya"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Noutbukni tozalash",
+          "price": "250 000 so‘m",
+          "period": "ish uchun",
+          "features": [
+            "Sovutish tizimini tozalash",
+            "Termopastani almashtirish",
+            "Haroratni tekshirish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar aytadi",
+      "items": [
+        {
+          "quote": "Qimmat modeldan qaytarishdi — o‘tgan yilgisini oldim, men uchun farqi yo‘q.",
+          "author": "Sherzod",
+          "role": "smartfon"
+        },
+        {
+          "quote": "Ekranni bir yarim soatda almashtirishdi, men pastda qahva ichib turganimda.",
+          "author": "Kamila",
+          "role": "servis"
+        },
+        {
+          "quote": "Eski noutbukni trade-in’ga topshirdim, farqini to‘ladim va o‘sha kuni yangisi bilan ketdim.",
+          "author": "Bobur",
+          "role": "trade-in"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Do‘kon",
+      "title": "Ushlab ko‘rishga kiring",
+      "items": [
+        {
+          "caption": "Texnika zali",
+          "image": ""
+        },
+        {
+          "caption": "Quloqchinlar stoli",
+          "image": ""
+        },
+        {
+          "caption": "Servis",
+          "image": ""
+        },
+        {
+          "caption": "Topshirish zonasi",
+          "image": ""
+        },
+        {
+          "caption": "Ustaxona",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Muddatli to‘lov qanday ishlaydi?",
+          "a": "Hamkor banklar va Uzum Nasiya orqali 6 yoki 12 oyga ortiqcha to‘lovsiz. Faqat pasport kerak, qaror — 10 daqiqada."
+        },
+        {
+          "q": "Trade-in nima?",
+          "a": "Eski qurilmangizni sizning oldingizda baholaymiz va uning narxini yangisini xarid qilishda hisobga olamiz."
+        },
+        {
+          "q": "Ta’mirlashga kafolat berasizmi?",
+          "a": "Ha, ish va o‘rnatilgan detallarga 6 oy. Kvitansiyani bazada saqlaymiz — qog‘ozni yo‘qotsangiz ham bo‘ladi."
+        },
+        {
+          "q": "Yetkazib berish bormi?",
+          "a": "Toshkent bo‘ylab — buyurtma kuni kuryer orqali, O‘zbekiston bo‘ylab — 1–3 kun. Texnikani kuryer oldida tekshirasiz."
+        },
+        {
+          "q": "Sizdan olinmagan texnikani ta’mirlaysizmi?",
+          "a": "Ha, istalganini. Ta’mirlamaslikka qaror qilsangiz ham diagnostika bepul."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Mavjudligini so‘rang",
+      "text": "Telegramga modelni yozing — stolda bor-yo‘qligini aytamiz va bir sutkaga olib qo‘yamiz. Ta’mir uchun nosozlik rasmini yuboring.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/gadgetuz_store"
+      }
+    }
+  ]
+}

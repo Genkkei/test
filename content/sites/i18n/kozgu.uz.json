@@ -1,0 +1,327 @@
+{
+  "name": "Ko‘zgu",
+  "tagline": "Vitrina emas, ko‘zlaringizga qarab tanlangan ko‘zoynaklar",
+  "niche": "Optika saloni: ko‘rishni tekshirish, gardishlar, linzalar va quyoshdan saqlovchi ko‘zoynaklar",
+  "seo": {
+    "title": "Ko‘zgu — Toshkentda optika: ko‘rish tekshiruvi va ko‘zoynak",
+    "description": "20 daqiqada kompyuter ko‘rish tekshiruvi, salonda 400 gardish, linzalar 1–3 kunda tayyorlanadi. Toshkent, Shahrisabz ko‘chasi, 9.",
+    "keywords": [
+      "Toshkent optika",
+      "ko‘rishni tekshirish Toshkent",
+      "ko‘rish uchun ko‘zoynak",
+      "gardishlar",
+      "kontakt linzalar",
+      "quyoshdan saqlovchi ko‘zoynak"
+    ],
+    "answer": "Ko‘zgu — Toshkentdagi Shahrisabz ko‘chasi, 9 dagi optika saloni. Ko‘rishni tekshirish — 80 000 so‘m, ko‘zoynak buyurtma qilinsa bepul, gardishlar — 290 000 so‘mdan, linzali tayyor ko‘zoynak — 550 000 so‘mdan, tayyorlash — 1–3 kun. Du–sh 9:00 dan 20:00 gacha, ya — 10:00 dan 17:00 gacha ishlaymiz."
+  },
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Optika saloni yoki oftalmologiya kabineti uchun sayt. Kursorga qaraydigan ko‘zli gardish sinash xonasi, gardish siluetli katalog, jadval qatorlari ko‘rinishidagi ko‘rish tekshiruvi va raqamlar o‘rniga retsept.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Ko‘zgu Optika» MChJ",
+    "street": "Shahrisabz ko‘chasi, 9",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Aniq ko‘rish — va o‘zingizdek ko‘rinish",
+      "eyebrow": "Shahrisabz ko‘chasidagi optika · har kuni ochiq",
+      "subtitle": "20 daqiqada ko‘rishni tekshiramiz, 400 modeldan gardish tanlashga yordam beramiz va ko‘zoynakni 1–3 kunda tayyorlaymiz. Linzalar mos kelmasa — bepul qayta tayyorlaymiz.",
+      "words": [
+        "Ko‘rish tekshiruvi 20 daqiqa",
+        "Ko‘zoynak 1–3 kunda",
+        "Linzalarga kafolat"
+      ],
+      "cta": {
+        "label": "Tekshiruvga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Gardishlar katalogi",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Gardishlar",
+        "Qoplamali linzalar",
+        "Progressiv linzalar",
+        "Kontakt linzalar",
+        "Quyoshdan saqlovchi",
+        "Bolalar ko‘zoynagi",
+        "Ta’mirlash"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Salon haqida",
+      "title": "Avval ko‘z, keyin gardish",
+      "text": "Biz vitrinadan emas, tekshiruvdan boshlaymiz: optometrist o‘tkirlik, refraksiya va ko‘zlarning birgalikda ishlashini ko‘radi. Keyin gardishni yuz shakli va burun ko‘prigi kengligiga, linzalarni esa ekran oldida qancha o‘tirishingiz va mashina haydashingizga qarab tanlaymiz. Har bir ko‘zoynakni topshirishdan oldin dioptrimetrda tekshiramiz.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Gardishlar, linzalar va boshqalar",
+      "intro": "Narxlar — tayyor mahsulotlar uchun. Linzali ko‘zoynakning aniq narxini ko‘rish tekshiruvidan keyin aytamiz.",
+      "items": [
+        {
+          "title": "Dumaloq gardishlar",
+          "text": "Asetat va ingichka metall, tor va to‘rtburchak yuz uchun.",
+          "price": "290 000 so‘m",
+          "tag": "120 model"
+        },
+        {
+          "title": "To‘rtburchak gardishlar",
+          "text": "Ofis uchun klassika: shaklini saqlaydi, chakkaga bosmaydi.",
+          "price": "320 000 so‘m",
+          "tag": "Xit"
+        },
+        {
+          "title": "Mushuk ko‘zi",
+          "text": "Ko‘tarilgan burchaklar, toshbaqa rang va shaffof asetat.",
+          "price": "340 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Quyoshdan saqlovchi aviatorlar",
+          "text": "UV400 va polyarizatsiya. Retsept bo‘yicha linzalar bilan ham bo‘ladi.",
+          "price": "380 000 so‘m",
+          "tag": "UV400"
+        },
+        {
+          "title": "Ekran uchun linzalar",
+          "text": "Kompyuterda ishlash uchun ko‘k nur filtri va aksga qarshi qoplama.",
+          "price": "260 000 so‘m",
+          "tag": "juft"
+        },
+        {
+          "title": "Kontakt linzalar",
+          "text": "Bir kunlik va oylik. Birinchi juftni tanlab, taqishni o‘rgatamiz.",
+          "price": "150 000 so‘m",
+          "tag": "qadoq"
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "type": "process",
+      "label": "Ko‘rish tekshiruvi",
+      "title": "20 daqiqada nima bo‘ladi",
+      "items": [
+        {
+          "title": "Suhbat",
+          "text": "Qayerda va qanday qaraysiz: ekran, mashina, kitob, sport."
+        },
+        {
+          "title": "Avtorefraktometr",
+          "text": "Apparat bir daqiqada har bir ko‘zning sinishini o‘lchaydi."
+        },
+        {
+          "title": "Jadval va sinov linzalari",
+          "text": "Harflar zo‘riqmasdan aniq ko‘rinmaguncha retseptni aniqlashtiramiz."
+        },
+        {
+          "title": "Binokulyar ko‘rish",
+          "text": "Ko‘zlarning birga qanday ishlashini tekshiramiz — charchoq shunga bog‘liq."
+        },
+        {
+          "title": "Retsept qo‘lingizga",
+          "text": "Natijani oddiy so‘zlar bilan tushuntirib, retseptni beramiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "Salon raqamlarda",
+      "items": [
+        {
+          "value": "400",
+          "suffix": "+",
+          "label": "salondagi gardish"
+        },
+        {
+          "value": "20",
+          "suffix": " daq",
+          "label": "ko‘rish tekshiruvi davom etadi"
+        },
+        {
+          "value": "3",
+          "suffix": " kun",
+          "label": "ko‘zoynak tayyorlash uchun ko‘pi bilan"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "smenada optometrist"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tayyor ko‘zoynak",
+      "title": "Gardish + linzalar + tekshiruv",
+      "items": [
+        {
+          "name": "Asosiy",
+          "price": "550 000 so‘m",
+          "period": "ko‘zoynak uchun",
+          "features": [
+            "320 000 so‘mgacha gardish",
+            "Mustahkamlangan linzalar",
+            "Ko‘rish tekshiruvi bepul"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Ekran uchun",
+          "price": "790 000 so‘m",
+          "period": "ko‘zoynak uchun",
+          "features": [
+            "400 000 so‘mgacha istalgan gardish",
+            "Ko‘k nur filtri",
+            "Aksga qarshi qoplama",
+            "G‘ilof va salfetka"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Progressiv",
+          "price": "1 650 000 so‘m",
+          "period": "ko‘zoynak uchun",
+          "features": [
+            "Uzoq va yaqin uchun bitta ko‘zoynak",
+            "Markazlash o‘lchovlari",
+            "Moslashish — ikki hafta"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Jamoa",
+      "title": "Ko‘rishingizni kim tekshiradi",
+      "items": [
+        {
+          "name": "Nigora Karimova",
+          "role": "optometrist",
+          "image": ""
+        },
+        {
+          "name": "Jasur Yo‘ldoshev",
+          "role": "optometrist, kontakt linzalar",
+          "image": ""
+        },
+        {
+          "name": "Lola Rahimova",
+          "role": "gardishlar bo‘yicha maslahatchi",
+          "image": ""
+        },
+        {
+          "name": "Farrux Ahmedov",
+          "role": "ko‘zoynak yig‘uvchi usta",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Kechqurun ko‘zlarim og‘rimay qoldi — eski retsept xato ekan.",
+          "author": "Aziz",
+          "role": "dasturchi"
+        },
+        {
+          "quote": "O‘g‘limga gardishni yarim soat tanladik, hech kim shoshiltirmadi. Ikki kundan keyin oldik.",
+          "author": "Gulnora",
+          "role": "ona"
+        },
+        {
+          "quote": "Progressiv linzalardan qo‘rqqandim, lekin va’da qilinganidek bir haftada ko‘nikdim.",
+          "author": "Rustam",
+          "role": "haydovchi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Tekshiruvga yozilish kerakmi?",
+          "a": "Kutmaslik uchun yozilgan ma’qul: tekshiruv 20 daqiqa davom etadi. Optometrist bo‘sh bo‘lsa, yozilmasdan ham qabul qilamiz."
+        },
+        {
+          "q": "Ko‘zoynak qancha vaqtda tayyorlanadi?",
+          "a": "Oddiy linzalar — ertasi kuni, qoplamali — 2–3 kun, progressiv — 7 kungacha."
+        },
+        {
+          "q": "O‘z gardishimni olib kelsam bo‘ladimi?",
+          "a": "Ha, agar u butun va o‘lchami mos bo‘lsa, gardishingizga yangi linzalar qo‘yamiz."
+        },
+        {
+          "q": "Linzalar mos kelmasa-chi?",
+          "a": "Agar 14 kun ichida biror narsa xalaqit bersa, ko‘rishni qayta tekshirib, linzalarni bepul qayta tayyorlaymiz."
+        },
+        {
+          "q": "Bolalarni tekshirasizmi?",
+          "a": "Ha, 5 yoshdan. Kichikroq bolalarga yoki g‘ilaylik shubhasi bo‘lsa, oftalmologdan boshlashni maslahat beramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Ko‘rish tekshiruviga yoziling",
+      "text": "Telegramga qulay kun va vaqtni yozing — bir soat ichida yozuvni tasdiqlaymiz. Ko‘zoynakni bizdan buyurtma qilsangiz, tekshiruv bepul.",
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/kozguoptika"
+      }
+    }
+  ]
+}

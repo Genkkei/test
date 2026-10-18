@@ -1,0 +1,305 @@
+{
+  "name": "Padel Club Tashkent",
+  "tagline": "Four courts, rackets to hire and a game you can learn in one evening",
+  "niche": "Padel club: court hire, coaching, tournaments and a league",
+  "seo": {
+    "title": "Padel in Tashkent — Padel Club: courts and coaching",
+    "description": "Four indoor padel courts, hire from 280,000 UZS for 90 minutes, rackets to rent, beginner coaching and an amateur league. Book on Telegram.",
+    "keywords": [
+      "padel Tashkent",
+      "padel court hire",
+      "padel tennis",
+      "padel coaching",
+      "padel for beginners",
+      "sport Tashkent"
+    ],
+    "answer": "Padel Club Tashkent has four indoor courts at 166 Muqimiy St, open daily 7:00–23:30. A 90-minute court costs 280,000 UZS by day and 380,000 UZS in the evening for four players; racket hire is 30,000 UZS. A beginner trial session is 120,000 UZS per person. Book on Telegram."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a court",
+      "href": "#courts"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a padel or tennis club, sports venue or pool. The court is drawn in chalk, a ball flies an arc with its shadow, a weekly booking board sends the chosen slot to Telegram, and numbers sit on a scoreboard.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Padel Club Tashkent LLC",
+    "street": "166 Muqimiy St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "You can play padel from your very first evening",
+      "eyebrow": "Padel club · 166 Muqimiy St",
+      "subtitle": "Padel is tennis in a glass box: the ball bounces off the walls, it’s two against two and the rules take ten minutes to explain. Bring friends; we’ll lend the rackets.",
+      "words": [
+        "4 indoor courts",
+        "Rackets for hire",
+        "Beginner coaches"
+      ],
+      "cta": {
+        "label": "Book a court",
+        "href": "#courts"
+      },
+      "ctaSecondary": {
+        "label": "Trial session",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Court hire",
+        "Americano",
+        "Wednesday league",
+        "Kids’ groups",
+        "Tournaments",
+        "Courtside café"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The club",
+      "title": "A sport people stay around to talk after",
+      "text": "We opened the club because there was nowhere in Tashkent to play padel all year round. Four indoor courts with panoramic glass and artificial turf, air-conditioning in summer and heating in winter, and a café looking onto the courts. Half our guests come without a partner, and the front desk will find players at your level.",
+      "image": ""
+    },
+    {
+      "id": "courts",
+      "type": "services",
+      "label": "Courts and booking",
+      "title": "Pick a court and a time",
+      "intro": "Prices are per court for 90 minutes, split between four. Evening rates apply from 17:30 and at weekends.",
+      "items": [
+        {
+          "title": "Daytime court",
+          "text": "Weekdays 7:00–17:30: quieter and cheaper.",
+          "price": "280,000 UZS",
+          "tag": "90 min"
+        },
+        {
+          "title": "Evening court",
+          "text": "Weekdays after 17:30 and all day at weekends.",
+          "price": "380,000 UZS",
+          "tag": "90 min"
+        },
+        {
+          "title": "Racket and balls",
+          "text": "Racket hire and a fresh tube of balls.",
+          "price": "30,000 UZS",
+          "tag": "per game"
+        },
+        {
+          "title": "Coach on court",
+          "text": "A coach for the whole game: rules, shots, tactics.",
+          "price": "250,000 UZS",
+          "tag": "up to 4 players"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "The club in numbers",
+      "items": [
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "indoor courts with panoramic glass"
+        },
+        {
+          "value": "16",
+          "suffix": " h",
+          "label": "a day the courts are open"
+        },
+        {
+          "value": "10",
+          "suffix": " min",
+          "label": "to learn the rules"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "pairs in the Wednesday league"
+        }
+      ]
+    },
+    {
+      "id": "start",
+      "type": "process",
+      "label": "Getting started",
+      "title": "Four steps to your first set",
+      "items": [
+        {
+          "title": "Book",
+          "text": "Pick a time on the board and send it to Telegram."
+        },
+        {
+          "title": "Rackets",
+          "text": "No racket? Use ours, with fresh balls every game."
+        },
+        {
+          "title": "Rules",
+          "text": "The front desk explains scoring and serving in ten minutes."
+        },
+        {
+          "title": "Play",
+          "text": "Ninety minutes on court, then tea in the café by the glass."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Coaching",
+      "title": "Learn to play",
+      "items": [
+        {
+          "name": "Trial",
+          "price": "120,000 UZS",
+          "period": "per person",
+          "features": [
+            "Groups of up to 4",
+            "60 minutes with a coach",
+            "Racket included"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Beginner course",
+          "price": "790,000 UZS",
+          "period": "8 sessions",
+          "features": [
+            "A group at your level",
+            "Shots, glass play, tactics",
+            "A league match to finish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "League",
+          "price": "150,000 UZS",
+          "period": "per pair per evening",
+          "features": [
+            "Wednesdays 19:00–23:00",
+            "Rankings and a table",
+            "Prizes at season end"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "After the game",
+      "items": [
+        {
+          "quote": "Four of us came and none of us had held a racket. An hour later we were arguing about the score.",
+          "author": "Jahongir",
+          "role": "court hire"
+        },
+        {
+          "quote": "I play the Wednesday league. It’s the best way to meet people in town.",
+          "author": "Madina",
+          "role": "league"
+        },
+        {
+          "quote": "Cool in summer, warm in winter. We play all year round.",
+          "author": "Oleg",
+          "role": "morning games"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Club",
+      "title": "Glass, turf and light",
+      "items": [
+        {
+          "caption": "Court 1",
+          "image": ""
+        },
+        {
+          "caption": "Café by the glass",
+          "image": ""
+        },
+        {
+          "caption": "Wednesday league",
+          "image": ""
+        },
+        {
+          "caption": "Changing rooms",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How many players do I need?",
+          "a": "Four, two against two. If you’re fewer, message us and we’ll find partners or add a coach."
+        },
+        {
+          "q": "Do I need my own racket?",
+          "a": "No, racket hire is 30,000 UZS a game. You just need trainers with clean soles."
+        },
+        {
+          "q": "Can I cancel a booking?",
+          "a": "Free up to 12 hours before. After that, we’ll move it to another time within the week."
+        },
+        {
+          "q": "Is padel like tennis?",
+          "a": "Same scoring, but a smaller court, an underarm serve and you can play the ball off the glass, so it’s easier to pick up."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, free parking for 40 cars by the entrance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "See you on court",
+      "text": "Bookings, trial sessions or finding partners: message us on Telegram, we reply 7:00–23:30.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/padeltashkent"
+      }
+    }
+  ]
+}

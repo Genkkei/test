@@ -1,0 +1,321 @@
+{
+  "name": "Gul Skin",
+  "tagline": "Skincare with an honest ingredient list, made for Tashkent’s climate",
+  "niche": "Skincare brand: serums, creams and SPF",
+  "seo": {
+    "title": "Gul Skin — skincare in Tashkent: serums and SPF",
+    "description": "Serums, creams and sunscreen with an ingredient list you can read. Routine advice from a photo on Telegram, same-day delivery in Tashkent, 2–4 days across Uzbekistan.",
+    "keywords": [
+      "skincare Tashkent",
+      "face serum",
+      "SPF cream",
+      "cosmetics Uzbekistan",
+      "niacinamide",
+      "moisturiser"
+    ],
+    "answer": "Gul Skin is a skincare brand from Tashkent: serums from 145,000 UZS, creams from 165,000 UZS, SPF 50 sunscreen at 175,000 UZS. The showroom at 18 Mirobod St is open Mon–Sat, 10:00–20:00; delivery in Tashkent is same-day, across Uzbekistan 2–4 days."
+  },
+  "nav": {
+    "cta": {
+      "label": "Find my routine",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a cosmetics brand, beauty store or skincare clinic. A WebGL serum droplet, a shelf of bottles with the key active, a morning/evening ritual and number rings.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Gul Skin LLC",
+    "street": "18 Mirobod St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Uzum Market"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Skin that feels calm",
+      "eyebrow": "Skincare · Tashkent",
+      "subtitle": "Serums and creams with short ingredient lists for dry air, sun and dust. Every active comes with its percentage on the label.",
+      "words": [
+        "niacinamide 10%",
+        "hyaluronic acid",
+        "panthenol",
+        "SPF 50"
+      ],
+      "cta": {
+        "label": "Find my routine",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Shop the range",
+        "href": "#shop"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Niacinamide",
+        "Ceramides",
+        "Panthenol",
+        "Squalane",
+        "Centella",
+        "Hyaluronic acid",
+        "Zinc"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "We print everything that’s inside on the jar",
+      "text": "Gul Skin started when we got tired of guessing what hides behind “innovative formula”. We make skincare with short ingredient lists, print the percentage of every active and test textures in a Tashkent summer, not in an air-conditioned lab. No fragrance where it isn’t needed, and no promises to take ten years off in a week.",
+      "image": ""
+    },
+    {
+      "id": "shop",
+      "type": "services",
+      "label": "Shop",
+      "title": "Five products for every day",
+      "intro": "Volume and ingredients are on every jar. Not sure where to start? Send a photo of your skin on Telegram and we’ll suggest a routine.",
+      "items": [
+        {
+          "title": "Tone serum",
+          "text": "Evens out tone and refines pores. 30 ml lasts two months.",
+          "price": "145,000 UZS",
+          "tag": "niacinamide 10%"
+        },
+        {
+          "title": "Gentle cleanser",
+          "text": "Soft and sulfate-free. Doesn’t tighten even dry skin. 150 ml.",
+          "price": "98,000 UZS",
+          "tag": "pH 5.5"
+        },
+        {
+          "title": "Barrier cream",
+          "text": "A rich night cream for skin that flakes from wind and air-conditioning. 50 ml.",
+          "price": "165,000 UZS",
+          "tag": "ceramides 3%"
+        },
+        {
+          "title": "Daily SPF 50",
+          "text": "A light fluid with no white cast that sits well under make-up. 50 ml.",
+          "price": "175,000 UZS",
+          "tag": "SPF 50 PA++++"
+        },
+        {
+          "title": "Hydrating toner",
+          "text": "Hydrates after cleansing and preps skin for serum. 200 ml.",
+          "price": "115,000 UZS",
+          "tag": "hyaluronic acid"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Formula",
+      "title": "Numbers we don’t hide",
+      "items": [
+        {
+          "value": "97",
+          "suffix": "%",
+          "label": "of the cleanser’s ingredients are of natural origin"
+        },
+        {
+          "value": "10",
+          "suffix": "%",
+          "label": "niacinamide in the Tone serum"
+        },
+        {
+          "value": "0",
+          "suffix": "%",
+          "label": "fragrance in our sensitive-skin products"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "products make a complete routine"
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Ritual",
+      "title": "Five minutes in the morning, five at night",
+      "items": [
+        {
+          "title": "Cleanse",
+          "text": "Gel on damp skin, a minute of massage, lukewarm water."
+        },
+        {
+          "title": "Serum",
+          "text": "Three drops of Tone, pressed in, not rubbed."
+        },
+        {
+          "title": "SPF",
+          "text": "Two finger-lengths, reapplied every three hours outdoors."
+        },
+        {
+          "title": "Wash the day off",
+          "text": "Cleanse twice if you wore SPF and make-up."
+        },
+        {
+          "title": "Toner",
+          "text": "With your palms, no cotton pad — less friction."
+        },
+        {
+          "title": "Barrier",
+          "text": "A pea-sized amount for the whole face, a little more on dry patches."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Sets",
+      "title": "Sets at a lower price",
+      "items": [
+        {
+          "name": "Starter",
+          "price": "235,000 UZS",
+          "period": "cleanser + serum",
+          "features": [
+            "Gentle cleanser",
+            "Tone serum",
+            "Ritual card"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Full routine",
+          "price": "590,000 UZS",
+          "period": "all five products",
+          "features": [
+            "All five products",
+            "Free delivery",
+            "Telegram consultation"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Summer",
+          "price": "265,000 UZS",
+          "period": "SPF + toner",
+          "features": [
+            "Daily SPF 50",
+            "Hydrating toner",
+            "Pouch"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our customers",
+      "items": [
+        {
+          "quote": "Finally a cream that stops my skin flaking under the office air-con.",
+          "author": "Malika",
+          "role": "Barrier cream"
+        },
+        {
+          "quote": "I sent a photo on Telegram and they told me not to buy extra. Cleanser and SPF were enough.",
+          "author": "Dilnoza",
+          "role": "Starter set"
+        },
+        {
+          "quote": "The SPF leaves no white cast and doesn’t pill under foundation.",
+          "author": "Sevara",
+          "role": "SPF 50"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Showroom",
+      "title": "Come and try the textures",
+      "items": [
+        {
+          "caption": "The tester table",
+          "image": ""
+        },
+        {
+          "caption": "Tone serum",
+          "image": ""
+        },
+        {
+          "caption": "Mirror and daylight",
+          "image": ""
+        },
+        {
+          "caption": "Packing orders",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How do I know what suits me?",
+          "a": "Send a photo of your skin in daylight on Telegram and tell us what bothers you. We’ll suggest two or three products, not the whole range."
+        },
+        {
+          "q": "How long does delivery take?",
+          "a": "In Tashkent — same day if you order before 16:00. Across Uzbekistan — 2–4 days by post."
+        },
+        {
+          "q": "Can I return a product?",
+          "a": "Unopened jars within 14 days. If a product irritated your skin, write to us and we’ll sort it out case by case."
+        },
+        {
+          "q": "Is it safe during pregnancy?",
+          "a": "The range has no retinoids or high-strength salicylic acid, but it’s best to check with your doctor before starting anything new during pregnancy."
+        },
+        {
+          "q": "Where can I buy in person?",
+          "a": "At our showroom at 18 Mirobod St, where you can try every texture. We’re also on Uzum Market."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Advice",
+      "title": "We’ll build your routine from a photo",
+      "text": "Message us on Telegram: a make-up-free photo in daylight and a few words about what you’d like to change. We reply 10:00–20:00.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/gulskin"
+      }
+    }
+  ]
+}

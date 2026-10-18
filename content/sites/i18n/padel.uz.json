@@ -1,0 +1,305 @@
+{
+  "name": "Padel Club Tashkent",
+  "tagline": "To‘rtta kort, ijaraga raketkalar va bir kechada o‘rganiladigan o‘yin",
+  "niche": "Padel klubi: kort ijarasi, mashg‘ulotlar, turnirlar va liga",
+  "seo": {
+    "title": "Toshkentda padel — Padel Club: kortlar va mashg‘ulotlar",
+    "description": "To‘rtta yopiq padel korti, 1,5 soatlik ijara 280 000 so‘mdan, ijaraga raketkalar, yangi boshlovchilar uchun mashg‘ulotlar va havaskorlar ligasi. Bron Telegramda.",
+    "keywords": [
+      "Toshkent padel",
+      "padel kort ijarasi",
+      "padel tennis",
+      "padel mashg‘ulotlari",
+      "boshlovchilar uchun padel",
+      "Toshkent sport"
+    ],
+    "answer": "Padel Club Tashkent — Muqimiy ko‘chasi, 166 dagi to‘rtta yopiq kort, har kuni 7:00 dan 23:30 gacha ochiq. Kortni 1,5 soatga ijaraga olish — to‘rt kishiga kunduzi 280 000 so‘m, kechqurun 380 000 so‘m, raketka ijarasi — 30 000 so‘m. Yangi boshlovchilar uchun sinov mashg‘uloti — kishi boshiga 120 000 so‘m. Bron — Telegramda."
+  },
+  "nav": {
+    "cta": {
+      "label": "Kortni bron qilish",
+      "href": "#courts"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Padel yoki tennis klubi, sport maydonchasi yoki basseyn uchun sayt. Kort bo‘r bilan chiziladi, to‘p soya bilan yoy bo‘ylab uchadi, haftalik bron tablosi tanlangan vaqtni Telegramga yuboradi, raqamlar — hisob tablosida.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Padel Club Tashkent» MChJ",
+    "street": "Muqimiy ko‘chasi, 166",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Padelni birinchi kechadanoq o‘ynash mumkin",
+      "eyebrow": "Padel klubi · Muqimiy, 166",
+      "subtitle": "Padel — shisha qutidagi tennis: to‘p devorlardan qaytadi, ikkiga ikki o‘ynashadi, qoidalarni esa o‘n daqiqada tushuntirishadi. Do‘stlaringizni oling, raketkalarni beramiz.",
+      "words": [
+        "4 ta yopiq kort",
+        "Ijaraga raketkalar",
+        "Boshlovchilar uchun murabbiylar"
+      ],
+      "cta": {
+        "label": "Kortni bron qilish",
+        "href": "#courts"
+      },
+      "ctaSecondary": {
+        "label": "Sinov mashg‘uloti",
+        "href": "#contact"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Kort ijarasi",
+        "Amerikano",
+        "Chorshanba ligasi",
+        "Bolalar guruhlari",
+        "Turnirlar",
+        "Kortlar yonidagi kafe"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Klub",
+      "title": "O‘yindan keyin suhbatlashgani qoladigan sport",
+      "text": "Klubni Toshkentda yil bo‘yi padel o‘ynaydigan joy bo‘lmagani uchun ochdik. Panoramali shisha va sun’iy o‘tli to‘rtta yopiq kort, yozda konditsioner, qishda isitish, o‘yinga qaragan kafe. Mehmonlarning yarmi juftsiz keladi — administrator darajasiga mos raqiblarni topib beradi.",
+      "image": ""
+    },
+    {
+      "id": "courts",
+      "type": "services",
+      "label": "Kortlar va bron",
+      "title": "Kort va vaqtni tanlang",
+      "intro": "Narx — kort uchun 1,5 soatga, to‘rt kishiga bo‘linadi. Kechqurun — 17:30 dan va dam olish kunlari.",
+      "items": [
+        {
+          "title": "Kunduzgi kort",
+          "text": "Ish kunlari 7:00 dan 17:30 gacha — bo‘shroq va arzonroq.",
+          "price": "280 000 so‘m",
+          "tag": "1,5 soat"
+        },
+        {
+          "title": "Kechki kort",
+          "text": "Ish kunlari 17:30 dan keyin va dam olish kunlari kun bo‘yi.",
+          "price": "380 000 so‘m",
+          "tag": "1,5 soat"
+        },
+        {
+          "title": "Raketka va to‘plar",
+          "text": "Ijaraga raketka va yangi bankadagi to‘plar.",
+          "price": "30 000 so‘m",
+          "tag": "bir o‘yin uchun"
+        },
+        {
+          "title": "Kortga murabbiy",
+          "text": "Butun o‘yinga murabbiy: qoidalar, zarbalar, taktika.",
+          "price": "250 000 so‘m",
+          "tag": "4 kishigacha"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "Klub raqamlarda",
+      "items": [
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "panoramali shishali yopiq kort"
+        },
+        {
+          "value": "16",
+          "suffix": " soat",
+          "label": "kunda kortlar ochiq"
+        },
+        {
+          "value": "10",
+          "suffix": " daq",
+          "label": "qoidalarni o‘rganish uchun"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "chorshanba ligasidagi juft"
+        }
+      ]
+    },
+    {
+      "id": "start",
+      "type": "process",
+      "label": "Qanday boshlash",
+      "title": "Birinchi setgacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Bron",
+          "text": "Tablodan vaqtni tanlab, Telegramga yuboring."
+        },
+        {
+          "title": "Raketkalar",
+          "text": "O‘zingizniki bo‘lmasa — biznikini oling, har o‘yinga yangi to‘plar."
+        },
+        {
+          "title": "Qoidalar",
+          "text": "Administrator hisob va zarbani o‘n daqiqada tushuntiradi."
+        },
+        {
+          "title": "O‘yin",
+          "text": "Kortda bir yarim soat, keyin — shisha yonidagi kafeda choy."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Mashg‘ulotlar",
+      "title": "O‘ynashni o‘rganish",
+      "items": [
+        {
+          "name": "Sinov",
+          "price": "120 000 so‘m",
+          "period": "kishi boshiga",
+          "features": [
+            "4 kishigacha guruh",
+            "Murabbiy bilan 60 daqiqa",
+            "Raketka kiritilgan"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Boshlovchi kursi",
+          "price": "790 000 so‘m",
+          "period": "8 mashg‘ulot",
+          "features": [
+            "O‘z darajangizdagi guruh",
+            "Zarbalar, shisha, taktika",
+            "Kurs oxirida liga o‘yini"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Liga",
+          "price": "150 000 so‘m",
+          "period": "juftlikka bir kecha",
+          "features": [
+            "Chorshanba, 19:00–23:00",
+            "Reyting va jadval",
+            "Mavsum oxirida sovrinlar"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "O‘yindan keyin yozishadi",
+      "items": [
+        {
+          "quote": "To‘rt kishi keldik, hech kim raketka ushlamagan edi. Bir soatdan keyin hisob haqida bahslashardik.",
+          "author": "Jahongir",
+          "role": "kort ijarasi"
+        },
+        {
+          "quote": "Chorshanba ligasiga qatnayman — shaharda tanishishning eng yaxshi usuli.",
+          "author": "Madina",
+          "role": "liga"
+        },
+        {
+          "quote": "Yozda zal salqin, qishda iliq — yil bo‘yi o‘ynaymiz.",
+          "author": "Oleg",
+          "role": "ertalabki o‘yinlar"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Klub",
+      "title": "Shisha, o‘t va yorug‘lik",
+      "items": [
+        {
+          "caption": "Kort 1",
+          "image": ""
+        },
+        {
+          "caption": "Shisha yonidagi kafe",
+          "image": ""
+        },
+        {
+          "caption": "Chorshanba ligasi",
+          "image": ""
+        },
+        {
+          "caption": "Kiyinish xonalari",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "O‘yin uchun necha kishi kerak?",
+          "a": "To‘rt kishi — ikkiga ikki. Kamroq bo‘lsangiz, yozing: sheriklar topamiz yoki murabbiy qo‘yamiz."
+        },
+        {
+          "q": "O‘z raketkam kerakmi?",
+          "a": "Yo‘q, raketka ijarasi bir o‘yinga 30 000 so‘m. Faqat tagi toza krossovka kerak."
+        },
+        {
+          "q": "Bronni bekor qilsa bo‘ladimi?",
+          "a": "Bepul — o‘yindan 12 soat oldin. Keyinroq — bir hafta ichida boshqa vaqtga ko‘chiramiz."
+        },
+        {
+          "q": "Padel tennisga o‘xshaydimi?",
+          "a": "Hisob bir xil, lekin kort kichikroq, zarba pastdan, to‘pni shishadan qaytarib o‘ynash mumkin. Shuning uchun o‘rganish osonroq."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, kirish yonida 40 ta mashinaga bepul avtoturargoh."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Kortda ko‘rishguncha",
+      "text": "Bron, sinov mashg‘uloti yoki sheriklar qidirish — Telegramga yozing, 7:00 dan 23:30 gacha javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/padeltashkent"
+      }
+    }
+  ]
+}

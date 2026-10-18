@@ -1,0 +1,321 @@
+{
+  "name": "Gul Skin",
+  "tagline": "Toshkent iqlimi uchun tarkibi tushunarli teri parvarishi",
+  "niche": "Kosmetika brendi: teri parvarishi uchun zardoblar, kremlar va SPF",
+  "seo": {
+    "title": "Gul Skin — Toshkentda teri parvarishi: zardoblar va SPF",
+    "description": "Tarkibi tushunarli zardoblar, kremlar va quyoshdan himoya. Telegramda rasm bo‘yicha parvarish tanlash, Toshkent bo‘ylab bir kunda, O‘zbekiston bo‘ylab 2–4 kunda yetkazib berish.",
+    "keywords": [
+      "Toshkent teri parvarishi",
+      "yuz uchun zardob",
+      "SPF krem",
+      "O‘zbekiston kosmetikasi",
+      "niatsinamid",
+      "namlovchi krem"
+    ],
+    "answer": "Gul Skin — Toshkentdagi teri parvarishi brendi: zardoblar 145 000 so‘mdan, kremlar 165 000 so‘mdan, SPF 50 quyoshdan himoya — 175 000 so‘m. Mirobod ko‘chasi, 18 dagi shourum du–sh 10:00 dan 20:00 gacha ishlaydi; Toshkent bo‘ylab yetkazib berish — buyurtma kuni, O‘zbekiston bo‘ylab — 2–4 kun."
+  },
+  "nav": {
+    "cta": {
+      "label": "Parvarish tanlash",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kosmetika brendi, go‘zallik do‘koni yoki parvarish klinikasi uchun sayt. WebGL’dagi zardob tomchisi, faol tarkibli flakonlar javoni, «ertalab/kechqurun» marosimi va raqamli halqalar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Gul Skin» MChJ",
+    "street": "Mirobod ko‘chasi, 18",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Uzum Market"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Xotirjam teri",
+      "eyebrow": "Teri parvarishi · Toshkent",
+      "subtitle": "Quruq havo, quyosh va chang uchun qisqa tarkibli zardoblar va kremlar. Har bir komponent — yorliqda foizi bilan.",
+      "words": [
+        "niatsinamid 10%",
+        "gialuron kislotasi",
+        "pantenol",
+        "SPF 50"
+      ],
+      "cta": {
+        "label": "Parvarish tanlash",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Katalog",
+        "href": "#shop"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Niatsinamid",
+        "Seramidlar",
+        "Pantenol",
+        "Skvalan",
+        "Sentella",
+        "Gialuron kislotasi",
+        "Rux"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Brend haqida",
+      "title": "Bankada nima bo‘lsa, hammasini yozamiz",
+      "text": "Gul Skin «innovatsion formula» so‘zlari ortida nima borligini taxmin qilishdan charchaganimizda paydo bo‘ldi. Biz qisqa tarkibli parvarish vositalarini tayyorlaymiz, faol komponentlar foizini yozamiz va teksturalarni konditsionerli laboratoriyada emas, Toshkent yozida sinaymiz. Keraksiz joyda xushbo‘ylashtirgichsiz va «bir haftada yoshartiramiz» va’dalarisiz.",
+      "image": ""
+    },
+    {
+      "id": "shop",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Har kunga beshta vosita",
+      "intro": "Har bir bankada hajm va tarkib yozilgan. Nimadan boshlashni bilmasangiz — Telegramga teringiz rasmini yuboring, maslahat beramiz.",
+      "items": [
+        {
+          "title": "«Ton» zardobi",
+          "text": "Teri rangini tekislaydi va g‘ovaklarni toraytiradi. 30 ml, ikki oyga yetadi.",
+          "price": "145 000 so‘m",
+          "tag": "niatsinamid 10%"
+        },
+        {
+          "title": "Yuvinish geli",
+          "text": "Yumshoq, sulfatsiz. Quruq terini ham tortmaydi. 150 ml.",
+          "price": "98 000 so‘m",
+          "tag": "pH 5,5"
+        },
+        {
+          "title": "«Barer» kremi",
+          "text": "Shamol va konditsionerdan po‘st tashlaydigan teri uchun tungi zich krem. 50 ml.",
+          "price": "165 000 so‘m",
+          "tag": "seramidlar 3%"
+        },
+        {
+          "title": "SPF 50 quyoshdan himoya",
+          "text": "Oq iz qoldirmaydigan yengil flyuid, pardoz ostiga yaxshi tushadi. 50 ml.",
+          "price": "175 000 so‘m",
+          "tag": "SPF 50 PA++++"
+        },
+        {
+          "title": "«Namlik» toniki",
+          "text": "Yuvingandan keyin namlaydi va terini zardobga tayyorlaydi. 200 ml.",
+          "price": "115 000 so‘m",
+          "tag": "gialuron kislotasi"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Formula",
+      "title": "Yashirmaydigan raqamlarimiz",
+      "items": [
+        {
+          "value": "97",
+          "suffix": "%",
+          "label": "gelda tabiiy kelib chiqishli komponentlar"
+        },
+        {
+          "value": "10",
+          "suffix": "%",
+          "label": "«Ton» zardobidagi niatsinamid"
+        },
+        {
+          "value": "0",
+          "suffix": "%",
+          "label": "sezgir teri vositalaridagi xushbo‘ylashtirgich"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "vosita — butun asosiy parvarish"
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Marosim",
+      "title": "Ertalab besh daqiqa, kechqurun besh daqiqa",
+      "items": [
+        {
+          "title": "Yuvinish",
+          "text": "Nam teriga gel, bir daqiqa massaj, iliq suv."
+        },
+        {
+          "title": "Zardob",
+          "text": "«Ton»dan uch tomchi yuzga, ishqalamasdan."
+        },
+        {
+          "title": "SPF",
+          "text": "Barmoq uzunligida ikki chiziq — ko‘chada har uch soatda shunday."
+        },
+        {
+          "title": "Kunni yuvish",
+          "text": "Agar SPF va pardoz bo‘lsa, gel bilan ikki marta."
+        },
+        {
+          "title": "Tonik",
+          "text": "Paxta diskisiz, kaftlar bilan — ishqalanish kamroq."
+        },
+        {
+          "title": "Barer",
+          "text": "Butun yuzga no‘xatdek krem, quruq joylarga — yana."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "To‘plamlar",
+      "title": "Chegirmali to‘plamlar",
+      "items": [
+        {
+          "name": "Start",
+          "price": "235 000 so‘m",
+          "period": "gel + zardob",
+          "features": [
+            "Yuvinish geli",
+            "«Ton» zardobi",
+            "Marosim kartochkasi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "To‘liq parvarish",
+          "price": "590 000 so‘m",
+          "period": "barcha beshta vosita",
+          "features": [
+            "Barcha beshta vosita",
+            "Bepul yetkazib berish",
+            "Telegramda maslahat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Yoz",
+          "price": "265 000 so‘m",
+          "period": "SPF + tonik",
+          "features": [
+            "SPF 50 quyoshdan himoya",
+            "«Namlik» toniki",
+            "Kosmetichka"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar yozadi",
+      "items": [
+        {
+          "quote": "Nihoyat, ofisdagi konditsionerdan keyin terini po‘st tashlatmaydigan krem.",
+          "author": "Malika",
+          "role": "«Barer» kremi"
+        },
+        {
+          "quote": "Telegramga rasm yubordim — ortiqcha olmaslikni maslahat berishdi. Gel va SPF yetdi.",
+          "author": "Dilnoza",
+          "role": "«Start» to‘plami"
+        },
+        {
+          "quote": "SPF oq iz qoldirmaydi va tonal ostida yumaloqlanmaydi.",
+          "author": "Sevara",
+          "role": "SPF 50"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Shourum",
+      "title": "Teksturalarni sinab ko‘rishga keling",
+      "items": [
+        {
+          "caption": "Namunalar stoli",
+          "image": ""
+        },
+        {
+          "caption": "«Ton» zardobi",
+          "image": ""
+        },
+        {
+          "caption": "Oyna va kunduzgi yorug‘lik",
+          "image": ""
+        },
+        {
+          "caption": "Buyurtmalarni qadoqlash",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Menga nima mos kelishini qanday bilaman?",
+          "a": "Telegramga kunduzgi yorug‘likda teringiz rasmini yuboring va nima bezovta qilayotganini ayting. Butun seriyani emas, ikki-uch vositadan iborat parvarishni taklif qilamiz."
+        },
+        {
+          "q": "Yetkazib berish qancha vaqt oladi?",
+          "a": "Toshkent bo‘ylab — 16:00 gacha buyurtma qilinsa, o‘sha kuni. O‘zbekiston bo‘ylab — pochta orqali 2–4 kun."
+        },
+        {
+          "q": "Vositani qaytarish mumkinmi?",
+          "a": "Ochilmagan bankani — 14 kun ichida. Agar vosita ta’sirlanish chaqirgan bo‘lsa, bizga yozing: har bir holatni ko‘rib chiqamiz."
+        },
+        {
+          "q": "Homiladorlikda parvarish mos keladimi?",
+          "a": "Seriyada yuqori konsentratsiyadagi retinoidlar va salitsil kislotasi yo‘q, ammo bu davrda yangi parvarishdan oldin shifokordan so‘ragan ma’qul."
+        },
+        {
+          "q": "Oflayn qayerdan sotib olish mumkin?",
+          "a": "Mirobod, 18 dagi shourumda — u yerda barcha teksturalarni sinab ko‘rish mumkin. Bizni Uzum Market’da ham topasiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Tanlash",
+      "title": "Rasm bo‘yicha parvarish tanlaymiz",
+      "text": "Telegramga yozing: kunduzgi yorug‘likda pardozsiz rasm va nimani o‘zgartirmoqchi ekaningiz haqida bir-ikki so‘z. 10:00 dan 20:00 gacha javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/gulskin"
+      }
+    }
+  ]
+}

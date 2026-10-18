@@ -1,0 +1,316 @@
+{
+  "name": "Jang",
+  "tagline": "Birinchi marta keladiganlar va ringga chiqadiganlar uchun boks va yakkakurash",
+  "niche": "Boks, kikboksing va funksional mashg‘ulotlar klubi",
+  "seo": {
+    "title": "Jang — Toshkentda boks va kikboksing klubi",
+    "description": "Kattalar va o‘smirlar uchun boks, kikboksing va funksional mashg‘ulotlar. Yangi boshlovchilar guruhlari, shaxsiy mashg‘ulotlar, birinchi mashg‘ulot bepul.",
+    "keywords": [
+      "Toshkent boks",
+      "Toshkent kikboksing",
+      "boks to‘garagi",
+      "boshlovchilar uchun boks",
+      "boks shaxsiy murabbiy",
+      "yakkakurash"
+    ],
+    "answer": "Jang — Toshkentdagi Bobur ko‘chasi, 54 dagi boks va kikboksing klubi. 8 ta guruh mashg‘uloti abonementi — 550 000 so‘m, cheksiz — oyiga 890 000 so‘m, shaxsiy mashg‘ulot — 250 000 so‘m. Birinchi mashg‘ulot bepul, qo‘lqoplarni beramiz. Du–sh 7:00 dan 22:00 gacha, ya — 9:00 dan 15:00 gacha ishlaymiz."
+  },
+  "nav": {
+    "cta": {
+      "label": "Sinov mashg‘uloti",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Boks klubi, yakkakurash maktabi yoki fitnes studiyasi uchun sayt. Ulkan shriftli jang afishasi va taymerli raund tablosi, kontur qatorli dasturlar, ring burchaklaridagi murabbiylar, arqonlar ortidagi abonementlar.",
+    "features": []
+  },
+  "business": {
+    "legalName": "«Jang Fight Club» MChJ",
+    "street": "Bobur ko‘chasi, 54",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qo‘rquvsiz boks",
+      "eyebrow": "Yakkakurash klubi · Toshkent",
+      "subtitle": "To‘g‘ri zarba berishni va zarbadan qo‘rqmaslikni o‘rgatamiz. Birinchi oy sparringsiz yangi boshlovchilar guruhlari, shaxsiy mashg‘ulotlar va havaskorlar turnirlariga tayyorgarlik.",
+      "words": [
+        "Birinchi mashg‘ulot bepul",
+        "Qo‘lqoplarni beramiz",
+        "12 yoshdan"
+      ],
+      "cta": {
+        "label": "Bepul kelish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Dasturlar",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Boks",
+        "Kikboksing",
+        "Muay-tay",
+        "Funksional",
+        "Sparring",
+        "Qop bilan ishlash",
+        "Arg‘amchi"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Klub",
+      "title": "Ring, yigirmata qop va tushuntiradigan murabbiylar",
+      "text": "Jang — Bobur ko‘chasidagi yerto‘ladagi 600 m²: to‘liq o‘lchamli ring, yigirmata qop, funksional zona va dushli kiyinish xonalari. Murabbiylarimiz terma jamoada chiqishgan va o‘zlari noldan boshlashgan, shuning uchun baqirishmaydi, ko‘rsatib berishadi. Bu yerda talabalar, IT mutaxassislar, dekretdan keyingi onalar va turnirga tayyorlanayotganlar shug‘ullanadi.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Dasturlar",
+      "title": "O‘z burchagingizni tanlang",
+      "intro": "Barcha guruhlar — 12 kishigacha. Narx bir martalik mashg‘ulot uchun; abonementlar arzonroq.",
+      "items": [
+        {
+          "title": "Boks",
+          "text": "Turish, zarbalar, himoya, juftlikda ishlash. Sparring — xohishga ko‘ra va ikkinchi oydan oldin emas.",
+          "price": "90 000 so‘m",
+          "tag": "Yangi va tajribali"
+        },
+        {
+          "title": "Kikboksing",
+          "text": "Qo‘l va oyoq, zarba birikmalari, lapa va qoplar. Yaxshi quritadi va muvofiqlashtirishni o‘rgatadi.",
+          "price": "90 000 so‘m",
+          "tag": "Intensiv"
+        },
+        {
+          "title": "Funksional",
+          "text": "Bokschi aylanma mashg‘ulotlari: arg‘amchi, arqonlar, medbol, chidamlilik.",
+          "price": "70 000 so‘m",
+          "tag": "45 daqiqa"
+        },
+        {
+          "title": "O‘smirlar",
+          "text": "12–16 yosh. Texnika, intizom va xavfsizlik qoidalari, qattiq sparringlarsiz.",
+          "price": "70 000 so‘m",
+          "tag": "12–16 yosh"
+        },
+        {
+          "title": "Shaxsiy",
+          "text": "Murabbiy bilan yakkama-yakka bir soat: maqsad, reja va har bir xatoni tahlil qilish.",
+          "price": "250 000 so‘m",
+          "tag": "60 daqiqa"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "Bobur ko‘chasidagi zal"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "boks qopi"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "guruhda ko‘pi bilan kishi"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "jamoadagi murabbiy"
+        }
+      ]
+    },
+    {
+      "id": "coaches",
+      "type": "team",
+      "label": "Murabbiylar",
+      "title": "Sizning burchagingizda",
+      "items": [
+        {
+          "name": "Dilshod Rahimov",
+          "role": "boks, terma jamoaning sobiq a’zosi",
+          "image": ""
+        },
+        {
+          "name": "Aziza Tursunova",
+          "role": "kikboksing, ayollar guruhlari",
+          "image": ""
+        },
+        {
+          "name": "Sardor Karimov",
+          "role": "funksional va o‘smirlar",
+          "image": ""
+        },
+        {
+          "name": "Eldor Yusupov",
+          "role": "muay-tay, shaxsiy",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Qanday boshlash",
+      "title": "Yangi boshlovchi yo‘li",
+      "items": [
+        {
+          "title": "Sinov",
+          "text": "Yangi boshlovchilar guruhida bepul mashg‘ulot. Qo‘lqop va bintlarni beramiz."
+        },
+        {
+          "title": "Turish",
+          "text": "Birinchi oy — faqat texnika va chidamlilik, sparringsiz."
+        },
+        {
+          "title": "Birikmalar",
+          "text": "Murabbiy bilan lapada ishlash, kombinatsiyalar va himoya."
+        },
+        {
+          "title": "Ring",
+          "text": "Dubulg‘ada yengil sparringlar — o‘zingiz tayyor bo‘lganingizda."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Abonementlar",
+      "items": [
+        {
+          "name": "8 mashg‘ulot",
+          "price": "550 000 so‘m",
+          "period": "bir oyga",
+          "features": [
+            "Istalgan guruhlar",
+            "Klub qo‘lqoplari",
+            "Bir haftaga muzlatish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Cheksiz",
+          "price": "890 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "Barcha guruhlar cheklovsiz",
+            "Bitta shaxsiy mashg‘ulot sovg‘a",
+            "Shaxsiy shkafcha"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Shaxsiy",
+          "price": "1 800 000 so‘m",
+          "period": "8 mashg‘ulot",
+          "features": [
+            "Murabbiy yakkama-yakka",
+            "Maqsadingizga mos reja",
+            "Texnikani video tahlil qilish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bizning burchakdan",
+      "items": [
+        {
+          "quote": "Vazn tashlash uchun keldim, boks uchun qoldim. Yarim yildan keyin birinchi marta sparringga chiqdim.",
+          "author": "Nodira",
+          "role": "kikboksing"
+        },
+        {
+          "quote": "Birinchi oy hech kim urmadi — faqat texnika. Aynan shu menga yoqdi.",
+          "author": "Temur",
+          "role": "boks"
+        },
+        {
+          "quote": "O‘g‘lim bir yildan beri o‘smirlar guruhiga qatnaydi — intizom ko‘paydi, mushtlashuv kamaydi.",
+          "author": "Alisher",
+          "role": "ota"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Tayyorgarliksiz kelsa bo‘ladimi?",
+          "a": "Ha, ko‘pchilik noldan boshlaydi. Yangi boshlovchilar guruhida sur’at xotirjam, murabbiy yuklamani moslaydi."
+        },
+        {
+          "q": "O‘zim bilan nima olay?",
+          "a": "Sport kiyimi, krossovka va suv. Birinchi mashg‘ulotlar uchun qo‘lqop va bintlarni beramiz."
+        },
+        {
+          "q": "Jang qilish shartmi?",
+          "a": "Yo‘q. Sparring — faqat xohishga ko‘ra va bir oylik texnikadan keyin. Ko‘pchilik ularsiz shug‘ullanadi."
+        },
+        {
+          "q": "Ayollar guruhlari bormi?",
+          "a": "Ha, seshanba va payshanba kunlari soat 19:00 da murabbiy Aziza bilan ayollar uchun kikboksing."
+        },
+        {
+          "q": "Abonementni muzlatsa bo‘ladimi?",
+          "a": "Ha, oyiga bir haftaga ma’lumotnomasiz, kasallikda — ma’lumotnoma bilan uzoqroq."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Birinchi raund — bepul",
+      "text": "Telegramga qachon kelish qulayligini yozing — yangi boshlovchilar guruhiga yozib qo‘yamiz. Boshlanishdan 15 daqiqa oldin keling, kiyinish xonasini ko‘rsatamiz.",
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/jangfightclub"
+      }
+    }
+  ]
+}

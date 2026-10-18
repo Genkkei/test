@@ -1,0 +1,327 @@
+{
+  "name": "Ko‘zgu",
+  "tagline": "Glasses fitted to your eyes, not to the shop window",
+  "niche": "Optician: eye tests, frames, lenses and sunglasses",
+  "seo": {
+    "title": "Ko‘zgu — optician in Tashkent: eye tests and glasses",
+    "description": "A 20-minute computerised eye test, 400 frames in store and lenses made in 1–3 days. 9 Shahrisabz St, Tashkent.",
+    "keywords": [
+      "optician Tashkent",
+      "eye test Tashkent",
+      "prescription glasses",
+      "frames",
+      "contact lenses",
+      "sunglasses"
+    ],
+    "answer": "Ko‘zgu is an optician at 9 Shahrisabz St, Tashkent. An eye test costs 80,000 UZS and is free with any order of glasses; frames start at 290,000 UZS, complete glasses with lenses at 550,000 UZS, made in 1–3 days. Open Mon–Sat 9:00–20:00, Sun 10:00–17:00."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a test",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for an optician or eye clinic. A frame try-on with eyes that follow the cursor, a catalogue of frame silhouettes, an eye test laid out as chart lines and a prescription card instead of plain numbers.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Ko‘zgu Optika LLC",
+    "street": "9 Shahrisabz St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "See clearly and still look like you",
+      "eyebrow": "Optician on Shahrisabz St · open every day",
+      "subtitle": "We test your eyes in 20 minutes, help you choose from 400 frames and make your glasses in 1–3 days. If the lenses don’t suit you, we remake them for free.",
+      "words": [
+        "20-minute eye test",
+        "Glasses in 1–3 days",
+        "Lens guarantee"
+      ],
+      "cta": {
+        "label": "Book an eye test",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Browse frames",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Frames",
+        "Coated lenses",
+        "Progressive lenses",
+        "Contact lenses",
+        "Sunglasses",
+        "Kids’ glasses",
+        "Repairs"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Eyes first, then the frame",
+      "text": "We start with the test, not the display: an optometrist checks acuity, refraction and how your eyes work together. Then we match the frame to your face and bridge width, and the lenses to how long you spend at a screen and whether you drive. Every pair is checked on a lensmeter before you take it home.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "Frames, lenses and the rest",
+      "intro": "Prices are for finished items. We’ll quote the exact price of glasses with lenses after your eye test.",
+      "items": [
+        {
+          "title": "Round frames",
+          "text": "Acetate and fine metal, for narrow and square faces.",
+          "price": "290,000 UZS",
+          "tag": "120 models"
+        },
+        {
+          "title": "Square frames",
+          "text": "Office classics that hold their shape and don’t pinch the temples.",
+          "price": "320,000 UZS",
+          "tag": "Bestseller"
+        },
+        {
+          "title": "Cat-eye frames",
+          "text": "Lifted corners in tortoiseshell and clear acetate.",
+          "price": "340,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Aviator sunglasses",
+          "text": "UV400 and polarised, also available with prescription lenses.",
+          "price": "380,000 UZS",
+          "tag": "UV400"
+        },
+        {
+          "title": "Screen lenses",
+          "text": "Blue-light filter and anti-glare coating for computer work.",
+          "price": "260,000 UZS",
+          "tag": "per pair"
+        },
+        {
+          "title": "Contact lenses",
+          "text": "Daily and monthly. We fit your first pair and show you how to put them in.",
+          "price": "150,000 UZS",
+          "tag": "per box"
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "type": "process",
+      "label": "Eye test",
+      "title": "What happens in 20 minutes",
+      "items": [
+        {
+          "title": "A short chat",
+          "text": "Where and how you use your eyes: screens, driving, books, sport."
+        },
+        {
+          "title": "Autorefraction",
+          "text": "A machine measures how each eye bends light in about a minute."
+        },
+        {
+          "title": "Chart and trial lenses",
+          "text": "We fine-tune the prescription until letters are sharp without effort."
+        },
+        {
+          "title": "Binocular vision",
+          "text": "We check how your eyes work together, which affects eye strain."
+        },
+        {
+          "title": "Your prescription",
+          "text": "We explain the result in plain words and hand you the prescription."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "The shop in numbers",
+      "items": [
+        {
+          "value": "400",
+          "suffix": "+",
+          "label": "frames in store"
+        },
+        {
+          "value": "20",
+          "suffix": " min",
+          "label": "for an eye test"
+        },
+        {
+          "value": "3",
+          "suffix": " days",
+          "label": "at most to make your glasses"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "optometrists on every shift"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Complete glasses",
+      "title": "Frame + lenses + test",
+      "items": [
+        {
+          "name": "Basic",
+          "price": "550,000 UZS",
+          "period": "per pair",
+          "features": [
+            "Frame up to 320,000 UZS",
+            "Hard-coated lenses",
+            "Free eye test"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Screen",
+          "price": "790,000 UZS",
+          "period": "per pair",
+          "features": [
+            "Any frame up to 400,000 UZS",
+            "Blue-light filter",
+            "Anti-glare coating",
+            "Case and cloth"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Progressive",
+          "price": "1,650,000 UZS",
+          "period": "per pair",
+          "features": [
+            "Distance and reading in one pair",
+            "Centring measurements",
+            "Two-week adaptation period"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Team",
+      "title": "Who will test your eyes",
+      "items": [
+        {
+          "name": "Nigora Karimova",
+          "role": "optometrist",
+          "image": ""
+        },
+        {
+          "name": "Jasur Yuldashev",
+          "role": "optometrist, contact lenses",
+          "image": ""
+        },
+        {
+          "name": "Lola Rahimova",
+          "role": "frame stylist",
+          "image": ""
+        },
+        {
+          "name": "Farrukh Akhmedov",
+          "role": "lab technician",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "My eyes stopped aching by evening. It turned out my old prescription was off.",
+          "author": "Aziz",
+          "role": "developer"
+        },
+        {
+          "quote": "We spent half an hour choosing a frame for my son and nobody rushed us. We picked them up two days later.",
+          "author": "Gulnora",
+          "role": "mum"
+        },
+        {
+          "quote": "I was nervous about progressives, but I got used to them in a week, just as they said.",
+          "author": "Rustam",
+          "role": "driver"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Do I need to book an eye test?",
+          "a": "Booking means no waiting; the test takes 20 minutes. If an optometrist is free, we’ll see you without one."
+        },
+        {
+          "q": "How long do glasses take?",
+          "a": "Simple lenses take a day, coated lenses 2–3 days, progressives up to 7 days."
+        },
+        {
+          "q": "Can I bring my own frame?",
+          "a": "Yes, we’ll fit new lenses into your frame if it’s intact and the right size."
+        },
+        {
+          "q": "What if the lenses don’t suit me?",
+          "a": "If anything bothers you within 14 days, we recheck your eyes and remake the lenses free of charge."
+        },
+        {
+          "q": "Do you test children?",
+          "a": "Yes, from age 5. For younger children, or if you suspect a squint, we recommend starting with an ophthalmologist."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Book your eye test",
+      "text": "Send us a day and time on Telegram and we’ll confirm within an hour. The test is free if you order your glasses with us.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/kozguoptika"
+      }
+    }
+  ]
+}

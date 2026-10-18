@@ -1,0 +1,327 @@
+{
+  "name": "Gadget",
+  "tagline": "Tech you can try before you buy and get fixed after",
+  "niche": "Electronics store and repair centre: phones, laptops, audio, repairs",
+  "seo": {
+    "title": "Gadget — electronics store and repairs in Tashkent",
+    "description": "Phones, laptops, headphones and smartwatches with an official warranty. Trade-in, instalments and a repair centre with a 15-minute diagnosis.",
+    "keywords": [
+      "electronics store Tashkent",
+      "buy a phone in Tashkent",
+      "phone repair Tashkent",
+      "trade-in",
+      "laptop on instalments",
+      "headphones"
+    ],
+    "answer": "Gadget is an electronics store and repair centre at 15 Amir Temur Ave, Tashkent, open daily 10:00–21:00. Phones from 2,900,000 UZS, laptops from 7,400,000 UZS, 6–12 month instalments and trade-in for your old device. Diagnosis is free; screen replacement starts at 450,000 UZS."
+  },
+  "nav": {
+    "cta": {
+      "label": "Ask us",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for an electronics store, repair centre or gadget brand. A dot-matrix headline that scatters from the cursor, products as spec cards, the repair service as a terminal log and numbers on an LED board.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Gadget Store LLC",
+    "street": "15 Amir Temur Ave",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tech without surprises",
+      "eyebrow": "Store and service · 15 Amir Temur",
+      "subtitle": "Switch on and try anything in store. Official warranty, interest-free instalments and a repair centre one floor up, so if something breaks you won’t have far to go.",
+      "words": [
+        "Up to 2-year warranty",
+        "0% instalments",
+        "Trade-in",
+        "Same-day repairs"
+      ],
+      "cta": {
+        "label": "Shop devices",
+        "href": "#shop"
+      },
+      "ctaSecondary": {
+        "label": "Book a repair",
+        "href": "#service"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Phones",
+        "Laptops",
+        "Headphones",
+        "Watches",
+        "Tablets",
+        "Consoles",
+        "Accessories"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A showroom where everything is switched on",
+      "text": "We don’t keep devices in boxes: every model sits on a table, charged and unlocked. Our staff get no commission on pricier models, so they’ll tell you honestly if last year’s phone is enough. Everything comes with an official warranty, and we service it ourselves.",
+      "image": ""
+    },
+    {
+      "id": "shop",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "On the tables right now",
+      "intro": "Prices are for the base configuration. Ask on Telegram about stock and other versions.",
+      "items": [
+        {
+          "title": "Pro 6.1″ phone",
+          "text": "6.1″ OLED 120 Hz · 256 GB · triple 48 MP camera · eSIM",
+          "price": "12,900,000 UZS",
+          "tag": "new"
+        },
+        {
+          "title": "Lite phone",
+          "text": "6.5″ AMOLED · 128 GB · 5000 mAh · NFC",
+          "price": "2,900,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Air 13″ laptop",
+          "text": "13.6″ · 16 GB RAM · 512 GB SSD · 18-hour battery",
+          "price": "14,500,000 UZS",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Student laptop",
+          "text": "15.6″ IPS · 8 GB RAM · 256 GB SSD · Windows 11",
+          "price": "7,400,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "ANC headphones",
+          "text": "Active noise cancelling · 30 hours · USB-C · multipoint",
+          "price": "3,200,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Smartwatch",
+          "text": "1.9″ AMOLED · heart rate and SpO₂ · GPS · 7-day battery",
+          "price": "2,400,000 UZS",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "15",
+          "suffix": " min",
+          "label": "to diagnose a fault"
+        },
+        {
+          "value": "2",
+          "suffix": " years",
+          "label": "warranty on devices"
+        },
+        {
+          "value": "12",
+          "suffix": " mo",
+          "label": "interest-free instalments"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "models on display"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "type": "process",
+      "label": "Repairs",
+      "title": "Repairs, step by step, with a report",
+      "items": [
+        {
+          "title": "Drop-off",
+          "text": "We note the fault and give you a receipt with an order number."
+        },
+        {
+          "title": "Diagnosis",
+          "text": "15 minutes while you wait, free. We quote before any work starts."
+        },
+        {
+          "title": "Repair",
+          "text": "Original or certified parts, your choice."
+        },
+        {
+          "title": "Testing",
+          "text": "We test the screen, cameras, signal and battery against a checklist."
+        },
+        {
+          "title": "Pick-up",
+          "text": "We message you on Telegram when it’s ready. 6-month warranty on the work."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Repairs",
+      "title": "Common repairs",
+      "items": [
+        {
+          "name": "Phone screen",
+          "price": "450,000 UZS",
+          "period": "from, parts and labour",
+          "features": [
+            "Replaced in 1–2 hours",
+            "6-month warranty",
+            "Free screen protector"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Battery",
+          "price": "280,000 UZS",
+          "period": "from",
+          "features": [
+            "Replaced in an hour",
+            "Capacity check",
+            "Old battery recycled"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Laptop clean-up",
+          "price": "250,000 UZS",
+          "period": "labour",
+          "features": [
+            "Cooling system cleaned",
+            "Thermal paste replaced",
+            "Temperature check"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our customers",
+      "items": [
+        {
+          "quote": "They talked me out of the expensive model. I bought last year’s and can’t tell the difference.",
+          "author": "Sherzod",
+          "role": "phone"
+        },
+        {
+          "quote": "They replaced the screen in an hour and a half while I had a coffee downstairs.",
+          "author": "Kamila",
+          "role": "repairs"
+        },
+        {
+          "quote": "I traded in my old laptop, paid the difference and left with a new one the same day.",
+          "author": "Bobur",
+          "role": "trade-in"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Store",
+      "title": "Come in and try",
+      "items": [
+        {
+          "caption": "The showroom",
+          "image": ""
+        },
+        {
+          "caption": "Headphone bar",
+          "image": ""
+        },
+        {
+          "caption": "Repair desk",
+          "image": ""
+        },
+        {
+          "caption": "Pick-up point",
+          "image": ""
+        },
+        {
+          "caption": "Workshop",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How do instalments work?",
+          "a": "6 or 12 months interest-free through partner banks and Uzum Nasiya. You only need your passport; a decision takes 10 minutes."
+        },
+        {
+          "q": "What is trade-in?",
+          "a": "We value your old device in front of you and put that amount towards a new one."
+        },
+        {
+          "q": "Is there a warranty on repairs?",
+          "a": "Yes, 6 months on the work and the parts fitted. We keep your receipt on file, so it doesn’t matter if you lose the paper."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "In Tashkent by courier the same day, across Uzbekistan in 1–3 days. You can check the device in front of the courier."
+        },
+        {
+          "q": "Do you repair devices bought elsewhere?",
+          "a": "Yes, any device. Diagnosis is free even if you decide not to go ahead."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Ask what’s in stock",
+      "text": "Send us the model on Telegram and we’ll tell you if it’s on display and hold it for a day. For repairs, send a photo of the damage.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/gadgetuz_store"
+      }
+    }
+  ]
+}

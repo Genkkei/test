@@ -1,0 +1,316 @@
+{
+  "name": "Jang",
+  "tagline": "Boxing and combat sports for first-timers and for those who step into the ring",
+  "niche": "Boxing, kickboxing and conditioning club",
+  "seo": {
+    "title": "Jang — boxing and kickboxing club in Tashkent",
+    "description": "Boxing, kickboxing and conditioning for adults and teens. Beginner groups, personal training, and your first session is free.",
+    "keywords": [
+      "boxing Tashkent",
+      "kickboxing Tashkent",
+      "boxing gym",
+      "boxing for beginners",
+      "personal boxing coach",
+      "combat sports"
+    ],
+    "answer": "Jang is a boxing and kickboxing club at 54 Bobur St, Tashkent. A pass for 8 group sessions costs 550,000 UZS, unlimited is 890,000 UZS a month, a personal session 250,000 UZS. Your first session is free and we lend gloves. Open Mon–Sat 7:00–22:00, Sun 9:00–15:00."
+  },
+  "nav": {
+    "cta": {
+      "label": "Free trial",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a boxing club, martial arts school or fitness studio. A fight-poster hero with huge type and a round timer, programmes as outlined rows, coaches by ring corner and memberships behind the ropes.",
+    "features": []
+  },
+  "business": {
+    "legalName": "Jang Fight Club LLC",
+    "street": "54 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Boxing without fear",
+      "eyebrow": "Fight club · Tashkent",
+      "subtitle": "We teach you to punch properly and not to fear a punch. Beginner groups with no sparring in the first month, personal training and preparation for amateur bouts.",
+      "words": [
+        "First session free",
+        "Gloves provided",
+        "Ages 12+"
+      ],
+      "cta": {
+        "label": "Try it free",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Programmes",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Boxing",
+        "Kickboxing",
+        "Muay Thai",
+        "Conditioning",
+        "Sparring",
+        "Heavy bag",
+        "Skipping"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The club",
+      "title": "A ring, twenty bags and coaches who explain",
+      "text": "Jang is 600 m² in a basement on Bobur St: a full-size ring, twenty heavy bags, a conditioning area and changing rooms with showers. Our coaches fought for the national team and started from zero themselves, so they show rather than shout. Students, developers, new mums and people preparing for a bout all train here.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Programmes",
+      "title": "Choose your corner",
+      "intro": "All groups are capped at 12. Prices are per drop-in session; passes work out cheaper.",
+      "items": [
+        {
+          "title": "Boxing",
+          "text": "Stance, punches, defence and partner drills. Sparring is optional and never before month two.",
+          "price": "90,000 UZS",
+          "tag": "All levels"
+        },
+        {
+          "title": "Kickboxing",
+          "text": "Hands and kicks, combinations, pads and bags. Great for conditioning and coordination.",
+          "price": "90,000 UZS",
+          "tag": "High intensity"
+        },
+        {
+          "title": "Conditioning",
+          "text": "Boxer circuits: skipping, battle ropes, medicine ball and stamina work.",
+          "price": "70,000 UZS",
+          "tag": "45 minutes"
+        },
+        {
+          "title": "Teens",
+          "text": "Ages 12–16. Technique, discipline and safety, no hard sparring.",
+          "price": "70,000 UZS",
+          "tag": "Ages 12–16"
+        },
+        {
+          "title": "One-to-one",
+          "text": "An hour alone with a coach: your goal, a plan and every mistake explained.",
+          "price": "250,000 UZS",
+          "tag": "60 minutes"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "of gym floor on Bobur St"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "heavy bags"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "people max per group"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "coaches on the team"
+        }
+      ]
+    },
+    {
+      "id": "coaches",
+      "type": "team",
+      "label": "Coaches",
+      "title": "In your corner",
+      "items": [
+        {
+          "name": "Dilshod Rakhimov",
+          "role": "boxing, former national team member",
+          "image": ""
+        },
+        {
+          "name": "Aziza Tursunova",
+          "role": "kickboxing, women’s groups",
+          "image": ""
+        },
+        {
+          "name": "Sardor Karimov",
+          "role": "conditioning and teens",
+          "image": ""
+        },
+        {
+          "name": "Eldor Yusupov",
+          "role": "Muay Thai, one-to-one",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Getting started",
+      "title": "Your first rounds",
+      "items": [
+        {
+          "title": "Trial",
+          "text": "A free session in the beginners’ group. We lend gloves and wraps."
+        },
+        {
+          "title": "Stance",
+          "text": "Month one is all technique and stamina, no sparring."
+        },
+        {
+          "title": "Combos",
+          "text": "Pad work with a coach, combinations and defence."
+        },
+        {
+          "title": "The ring",
+          "text": "Light sparring in headgear, when you feel ready."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Memberships",
+      "title": "Memberships",
+      "items": [
+        {
+          "name": "8 sessions",
+          "price": "550,000 UZS",
+          "period": "per month",
+          "features": [
+            "Any group class",
+            "Club gloves",
+            "One-week freeze"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Unlimited",
+          "price": "890,000 UZS",
+          "period": "per month",
+          "features": [
+            "Unlimited group classes",
+            "One free personal session",
+            "Your own locker"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Personal",
+          "price": "1,800,000 UZS",
+          "period": "8 sessions",
+          "features": [
+            "One-to-one coaching",
+            "A plan built around your goal",
+            "Video technique review"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our corner",
+      "items": [
+        {
+          "quote": "I came to lose weight and stayed for the boxing. Six months in, I did my first sparring round.",
+          "author": "Nodira",
+          "role": "kickboxing"
+        },
+        {
+          "quote": "Nobody hit me in the first month, it was all technique. That’s what won me over.",
+          "author": "Timur",
+          "role": "boxing"
+        },
+        {
+          "quote": "My son has been in the teen group for a year. More discipline, fewer fights.",
+          "author": "Alisher",
+          "role": "dad"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I come with no experience?",
+          "a": "Yes, most people start from zero. The beginners’ group is steady and the coach adjusts the load."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Sportswear, trainers and water. We lend gloves and wraps for your first sessions."
+        },
+        {
+          "q": "Do I have to fight?",
+          "a": "No. Sparring is optional and only after a month of technique. Plenty of members never spar."
+        },
+        {
+          "q": "Are there women-only groups?",
+          "a": "Yes, women’s kickboxing on Tuesdays and Thursdays at 19:00 with coach Aziza."
+        },
+        {
+          "q": "Can I freeze my membership?",
+          "a": "Yes, for a week a month with no paperwork, or longer with a doctor’s note."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Book",
+      "title": "Round one is on us",
+      "text": "Tell us on Telegram when suits you and we’ll book you into a beginners’ group. Arrive 15 minutes early and we’ll show you around.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/jangfightclub"
+      }
+    }
+  ]
+}

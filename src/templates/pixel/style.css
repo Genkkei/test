@@ -41,7 +41,7 @@
 .pixel-rec i { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pixelBlink 1.2s steps(2) infinite; }
 @keyframes pixelBlink { 50% { opacity: 0; } }
 .pixel-matrix { position: relative; }
-.pixel-hero__title { font-family: var(--font-display); font-weight: 800; font-size: clamp(54px, 11vw, 190px); line-height: .95; letter-spacing: -.02em; text-transform: uppercase; max-width: 12ch; }
+.pixel-hero__title { font-family: var(--font-display); font-weight: 800; font-size: clamp(60px, 11vw, 190px); line-height: .95; letter-spacing: -.02em; text-transform: uppercase; max-width: 12ch; }
 .pixel-matrix[data-ready] .pixel-hero__title { color: transparent; }
 .pixel-matrix__cv { position: absolute; left: 0; top: 0; pointer-events: none; }
 .pixel-hero__foot { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) auto; gap: 24px 40px; align-items: end; border-top: 1px solid var(--line); padding-top: 22px; }
