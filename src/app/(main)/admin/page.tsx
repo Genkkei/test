@@ -64,6 +64,11 @@ export default async function AdminHome() {
                   <a href={siteUrl(s)} target="_blank" className="adm-btn">
                     Открыть ↗
                   </a>
+                  {s.listing.forSale ? (
+                    <Link href={`/admin/handover?from=${s.slug}`} className="adm-btn">
+                      Выдать клиенту
+                    </Link>
+                  ) : null}
                   <form action={duplicateSiteAction}>
                     <input type="hidden" name="slug" value={s.slug} />
                     <button className="adm-btn">Копия</button>

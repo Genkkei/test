@@ -4,7 +4,8 @@ import { headers } from 'next/headers'
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
 import { adminScope, canEdit, checkLogin, endSession, isMaster, loginFailed, loginLimited, makePassword, setSitePassword, startSession } from '@/lib/auth'
-import { deleteSite, getSite, listSites, saveSite, saveTranslation } from '@/lib/store'
+import { copyTranslations, deleteSite, getSite, listSites, saveSite, saveTranslation } from '@/lib/store'
+import { attachDomain, publishRouter, workersSubdomain, type DomainState } from '@/lib/cloudflare'
 import { translatableOf } from '@/lib/i18n'
 import { botInfo, connectBot, disconnectBot, removeChat, sendLead, type BotInfo } from '@/lib/bot'
 import { siteSchema, type Site } from '@/lib/schema'
@@ -190,4 +191,73 @@ export async function testLeadAction(slug: string): Promise<ActionState> {
   if (!site) return { ok: false, message: 'Нет сайта' }
   const n = await sendLead(slug, site.name, site.leads.kind, { name: 'Пробный Клиент', phone: '+998 90 000-00-00', date: site.leads.kind === 'booking' ? 'завтра' : '', time: site.leads.kind === 'booking' ? '15:00' : '', items: '', comment: 'Это проверка: так будут выглядеть заявки с сайта.' }, 'Отправлено из админки', true)
   return n ? { ok: true, message: `Отправлено в ${n} чат(а). Проверьте Telegram.` } : { ok: false, message: 'Некуда отправлять: сначала нажмите Start у бота (шаг 3).' }
+}
+
+// --- Выдача сайта клиенту ---
+
+export type HandOver = { ok: boolean; message?: string; slug?: string; url?: string; admin?: string; password?: string }
+
+/**
+ * «Выдать клиенту»: копия демо-сайта под клиента (с переводами), свой адрес, пароль владельца
+ * и публикация воркера сайта — одним действием. Демо в каталоге остаётся как было.
+ */
+export async function handOverAction(_: HandOver, form: FormData): Promise<HandOver> {
+  await guard()
+  const from = String(form.get('from') || '')
+  const name = String(form.get('name') || '').trim()
+  const source = await getSite(from)
+  if (!source) return { ok: false, message: 'Нет такого демо-сайта' }
+  if (name.length < 2) return { ok: false, message: 'Впишите название бизнеса клиента' }
+  const taken = new Set((await listSites()).map((s) => s.slug))
+  const slug = uniqueSlug(String(form.get('slug') || '') || translit(name), taken)
+  let sub = 'genkai'
+  try {
+    sub = await workersSubdomain()
+  } catch (e) {
+    return { ok: false, message: e instanceof Error ? e.message : String(e) }
+  }
+  const site: Site = {
+    ...structuredClone(source),
+    slug,
+    name,
+    domains: [`${slug}.${sub}.workers.dev`],
+    listing: { ...source.listing, forSale: false },
+    seo: { ...source.seo, title: '' },
+  }
+  await saveSite(site)
+  await copyTranslations(from, slug)
+  const password = makePassword()
+  await setSitePassword(slug, password)
+  try {
+    const url = await publishRouter(slug)
+    return { ok: true, slug, url, admin: `${url}/admin`, password }
+  } catch (e) {
+    return { ok: false, slug, password, message: `Сайт создан, но не опубликован: ${e instanceof Error ? e.message : e}. Нажмите «Опубликовать» в редакторе сайта.` }
+  }
+}
+
+export async function publishAction(slug: string): Promise<{ ok: boolean; message: string }> {
+  await guard()
+  try {
+    return { ok: true, message: `Опубликован: ${await publishRouter(slug)}` }
+  } catch (e) {
+    return { ok: false, message: e instanceof Error ? e.message : String(e) }
+  }
+}
+
+export async function domainAction(slug: string, host: string): Promise<DomainState> {
+  await guard()
+  const site = await getSite(slug)
+  if (!site) return { status: 'error', message: 'Нет сайта' }
+  try {
+    const res = await attachDomain(slug, host)
+    if (res.status === 'active') {
+      const h = res.url.replace('https://', '')
+      await saveSite({ ...site, domains: [h, ...site.domains.filter((d) => d !== h)] })
+      refresh(slug)
+    }
+    return res
+  } catch (e) {
+    return { status: 'error', message: e instanceof Error ? e.message : String(e) }
+  }
 }

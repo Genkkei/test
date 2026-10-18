@@ -8,3 +8,4 @@ next-env.d.ts
 /src/lib/seeds.generated.ts
 .open-next
 .wrangler
+/src/lib/router-script.generated.ts

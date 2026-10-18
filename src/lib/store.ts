@@ -123,3 +123,11 @@ export async function siteByHost(host: string): Promise<Site | null> {
   const sites = await listSites()
   return sites.find((s) => s.domains.some((d) => d.toLowerCase().replace(/^www\./, '') === h)) ?? null
 }
+
+/** Переводы сайта под новым адресом — для копии сайта клиенту. */
+export async function copyTranslations(from: string, to: string): Promise<void> {
+  for (const l of EXTRA_LANGS) {
+    const tr = await readTranslation(from, l)
+    if (tr) await saveTranslation(to, l, tr)
+  }
+}

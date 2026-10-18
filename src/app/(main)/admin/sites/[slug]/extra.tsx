@@ -3,7 +3,7 @@
 import { useState, useTransition } from 'react'
 import type { Site } from '@/lib/schema'
 import type { BotInfo } from '@/lib/bot'
-import { botStatusAction, changeOwnPasswordAction, connectBotAction, disconnectBotAction, removeChatAction, resetSitePasswordAction, testLeadAction } from '../../actions'
+import { domainAction, publishAction, botStatusAction, changeOwnPasswordAction, connectBotAction, disconnectBotAction, removeChatAction, resetSitePasswordAction, testLeadAction } from '../../actions'
 
 export type { BotInfo }
 
@@ -279,6 +279,73 @@ export function AccessTab({ slug, master, hasPassword }: { slug: string; master:
           </button>
         </div>
       )}
+    </div>
+  )
+}
+
+export function PublishTab({ slug, url }: { slug: string; url: string }) {
+  const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null)
+  const [host, setHost] = useState('')
+  const [ns, setNs] = useState<string[] | null>(null)
+  const [pending, start] = useTransition()
+  return (
+    <div>
+      <div className="adm-pane__head">
+        <h2>Публикация и домен</h2>
+        <p className="adm-muted">
+          Сейчас сайт открывается на <a href={url} target="_blank">{url.replace('https://', '')}</a>. Правки видны сразу после «Сохранить» — публиковать заново не нужно; кнопка ниже — если адрес не открывается.
+        </p>
+      </div>
+      {msg ? <p className={msg.ok ? 'adm-note' : 'adm-note adm-note--warn'}>{msg.text}</p> : null}
+      <button className="adm-btn" disabled={pending} onClick={() => start(async () => { const r = await publishAction(slug); setMsg({ ok: r.ok, text: r.message }) })}>
+        Опубликовать адрес заново
+      </button>
+
+      <div className="adm-pane__head" style={{ marginTop: 28 }}>
+        <h2>Свой домен клиента</h2>
+        <p className="adm-muted">Например, mycafe.uz. Домен покупает клиент (или вы) у любого регистратора .uz — ahost.uz, webspace.uz, cctld.uz.</p>
+      </div>
+      <ol className="adm-steps">
+        <li className={ns ? 'is-done' : 'is-now'}>
+          <b>Впишите домен и нажмите «Подключить».</b>
+          <div className="adm-pair">
+            <input value={host} onChange={(e) => setHost(e.target.value)} placeholder="mycafe.uz" className="mono" />
+            <button
+              className="adm-btn adm-btn--primary"
+              disabled={pending || host.length < 4}
+              onClick={() =>
+                start(async () => {
+                  const r = await domainAction(slug, host)
+                  if (r.status === 'active') {
+                    setNs(null)
+                    setMsg({ ok: true, text: `Готово: сайт открывается на ${r.url} (сертификат выпускается до 15 минут).` })
+                  } else if (r.status === 'pending') {
+                    setNs(r.nameServers)
+                    setMsg({ ok: true, text: 'Домен добавлен в Cloudflare. Остался шаг 2.' })
+                  } else setMsg({ ok: false, text: r.message })
+                })
+              }
+            >
+              Подключить
+            </button>
+          </div>
+        </li>
+        <li className={ns ? 'is-now' : ''}>
+          <b>У регистратора домена замените NS-серверы</b> на эти два (в личном кабинете регистратора: «DNS-серверы» / «NS»):
+          {ns ? (
+            <div className="adm-ns">
+              {ns.map((n) => (
+                <div key={n}>{n}</div>
+              ))}
+            </div>
+          ) : (
+            <span className="adm-muted"> появятся после шага 1, если домен ещё не в Cloudflare.</span>
+          )}
+        </li>
+        <li>
+          <b>Через 1–24 часа нажмите «Подключить» ещё раз</b> — когда регистратор применит NS, домен привяжется к сайту, и он станет главным адресом (canonical для Google).
+        </li>
+      </ol>
     </div>
   )
 }

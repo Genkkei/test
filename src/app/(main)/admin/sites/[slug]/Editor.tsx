@@ -8,9 +8,9 @@ import { SECTION_META, type Field } from '@/lib/fields'
 import { auditSite, buildJsonLd, seoDescription, seoTitle } from '@/lib/seo'
 import type { TemplateMeta } from '@/templates/types'
 import { saveSiteAction, deleteSiteAction } from '../../actions'
-import { AccessTab, BotTab, HelpTab, type BotInfo } from './extra'
+import { AccessTab, BotTab, HelpTab, PublishTab, type BotInfo } from './extra'
 
-type Tab = 'help' | 'sections' | 'design' | 'seo' | 'business' | 'general' | 'bot' | 'access' | 'json'
+type Tab = 'publish' | 'help' | 'sections' | 'design' | 'seo' | 'business' | 'general' | 'bot' | 'access' | 'json'
 // Подписи — простыми словами: админкой пользуется владелец бизнеса, а не разработчик.
 const TABS: { id: Tab; label: string; master?: boolean; baseOnly?: boolean }[] = [
   { id: 'help', label: 'С чего начать' },
@@ -21,6 +21,7 @@ const TABS: { id: Tab; label: string; master?: boolean; baseOnly?: boolean }[] =
   { id: 'seo', label: 'Поиск Google и ИИ' },
   { id: 'general', label: 'Название и кнопка' },
   { id: 'access', label: 'Пароль', baseOnly: true },
+  { id: 'publish', label: 'Публикация и домен', master: true, baseOnly: true },
   { id: 'json', label: 'JSON', master: true, baseOnly: true },
 ]
 
@@ -146,6 +147,7 @@ export function Editor({ initial, templates, fonts, publicUrl, mode }: { initial
             </p>
           ) : null}
           {tab === 'help' && <HelpTab site={site} master={mode.master} publicUrl={publicUrl} go={(t: string) => setTab(t as Tab)} />}
+          {tab === 'publish' && <PublishTab slug={initial.slug} url={publicUrl} />}
           {tab === 'bot' && <BotTab slug={initial.slug} bot={mode.bot} site={site} update={update} />}
           {tab === 'access' && <AccessTab slug={initial.slug} master={mode.master} hasPassword={mode.hasPassword} />}
           {tab === 'sections' && <SectionsTab site={site} update={update} setSite={setSite} open={open} setOpen={setOpen} />}
