@@ -23,3 +23,20 @@ describe('токен бота в базе', () => {
     expect(webhookSecret(TOKEN)).not.toBe(webhookSecret(TOKEN.replace('A', 'B')))
   })
 })
+
+describe('секреты для GitHub (crypto_box_seal)', () => {
+  it('libsodium открывает то, что запечатал наш код', async () => {
+    const sodium = (await import('libsodium-wrappers')).default
+    await sodium.ready
+    const kp = sodium.crypto_box_keypair()
+    const { sealedBox } = await import('@/lib/seal')
+    const sealed = sealedBox('секрет-123', Buffer.from(kp.publicKey).toString('base64'))
+    const opened = sodium.crypto_box_seal_open(Buffer.from(sealed, 'base64'), kp.publicKey, kp.privateKey)
+    expect(new TextDecoder().decode(opened)).toBe('секрет-123')
+  })
+  it('цели шифрования разделены', async () => {
+    const { seal, unseal } = await import('@/lib/seal')
+    const s = await seal('bot-token', 'x')
+    await expect(unseal('transfer', s)).rejects.toThrow()
+  })
+})

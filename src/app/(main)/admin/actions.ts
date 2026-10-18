@@ -11,7 +11,7 @@ import { botInfo, connectBot, disconnectBot, removeChat, sendLead, type BotInfo 
 import { siteSchema, type Site } from '@/lib/schema'
 import { getTemplateMeta, TEMPLATE_METAS } from '@/templates/meta'
 
-const RESERVED = new Set(['admin', 'api', 'llms', 'sitemap', 'robots', '_next', 'favicon'])
+const RESERVED = new Set(['admin', 'api', 'llms', 'sitemap', 'robots', '_next', 'favicon', 'transfer', 'media', 'catalog'])
 
 export type ActionState = { ok: boolean; message: string; issues?: string[] }
 

@@ -21,6 +21,9 @@ export default async function AdminHome() {
         </Link>
         <span className="adm-bar__crumb">Сайты</span>
         <div className="adm-bar__side">
+          <Link href="/admin/transfer" className="adm-btn">
+            Перенос заказчику
+          </Link>
           <Link href="/" className="adm-btn">
             Витрина
           </Link>
@@ -68,7 +71,11 @@ export default async function AdminHome() {
                     <Link href={`/admin/handover?from=${s.slug}`} className="adm-btn">
                       Выдать клиенту
                     </Link>
-                  ) : null}
+                  ) : (
+                    <Link href={`/admin/transfer?slug=${s.slug}`} className="adm-btn">
+                      Перенести заказчику
+                    </Link>
+                  )}
                   <form action={duplicateSiteAction}>
                     <input type="hidden" name="slug" value={s.slug} />
                     <button className="adm-btn">Копия</button>

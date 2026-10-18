@@ -1,6 +1,7 @@
 import 'server-only'
 import { createHmac, timingSafeEqual } from 'node:crypto'
 import { kvGet, kvPut, kvDel } from './kv'
+import { seal, unseal } from './seal'
 
 /*
  * Telegram-бот владельца сайта: через него на сайт приходят заказы и записи.
@@ -31,24 +32,10 @@ export function webhookSecret(token: string): string {
   return createHmac('sha256', `atlas-tg:${process.env.ADMIN_SECRET || ''}`).update(token).digest('hex').slice(0, 48)
 }
 
-// Токен бота в базе зашифрован (AES-GCM, ключ из ADMIN_SECRET): выгрузка или копия базы не даёт
-// управлять ботами клиентов. Записи старого образца (токен открытым текстом) читаются как раньше и
-// шифруются при следующем сохранении.
-async function key(): Promise<CryptoKey> {
-  const raw = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`atlas-bot-token:${process.env.ADMIN_SECRET || ''}`))
-  return crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['encrypt', 'decrypt'])
-}
-export async function sealToken(token: string): Promise<string> {
-  const iv = crypto.getRandomValues(new Uint8Array(12))
-  const ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, await key(), new TextEncoder().encode(token)))
-  return `v1.${Buffer.from(iv).toString('base64url')}.${Buffer.from(ct).toString('base64url')}`
-}
-export async function openToken(stored: string): Promise<string> {
-  if (!stored.startsWith('v1.')) return stored
-  const [, iv, ct] = stored.split('.')
-  const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: Buffer.from(iv, 'base64url') }, await key(), Buffer.from(ct, 'base64url'))
-  return new TextDecoder().decode(pt)
-}
+// Токен бота в базе зашифрован (seal.ts, ключ из ADMIN_SECRET): выгрузка или копия базы не даёт управлять
+// ботами клиентов. Записи старого образца (токен открытым текстом) читаются и шифруются при следующей записи.
+export const sealToken = (token: string) => seal('bot-token', token)
+export const openToken = (stored: string) => unseal('bot-token', stored)
 
 async function read(slug: string): Promise<BotRecord | null> {
   const raw = await kvGet(`bot:${slug}`)

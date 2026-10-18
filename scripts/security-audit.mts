@@ -89,12 +89,20 @@ const add = (list: Check[], id: string, ok: boolean, blocking: boolean, detail?:
   const evals = sh("grep -rnE '\\beval\\(|new Function\\(' src").stdout.trim()
   add(global, 'no-eval', !evals, true, evals || undefined)
   const cfg = readFileSync('next.config.ts', 'utf8')
+  // предпросмотр в редакторе — фрейм со своего адреса: CSP не должна его запрещать
+  add(global, 'csp-allows-editor-preview', /frame-src 'self'/.test(readFileSync('next.config.ts', 'utf8')), true)
   for (const h of ['Content-Security-Policy', 'Strict-Transport-Security', 'X-Content-Type-Options', 'X-Frame-Options', 'Referrer-Policy', 'Permissions-Policy']) add(global, `header-config:${h}`, cfg.includes(h), true)
   const actions = readFileSync('src/app/(main)/admin/actions.ts', 'utf8')
   // каждое серверное действие админки начинает с проверки прав (кроме входа/выхода/запроса области)
   const fns = [...actions.matchAll(/export async function (\w+)\([^)]*\)[^{]*\{\n([^\n]*)/g)]
   const noGuard = fns.filter(([, name, first]) => !['login', 'logout', 'currentScope'].includes(name) && !/guard\(\)|canEdit\(/.test(first)).map(([, n]) => n)
   add(global, 'admin-actions-guarded', noGuard.length === 0, true, noGuard.join(', ') || undefined)
+  // действия переноса: в админке — только владелец конструктора, у заказчика — только по действующей ссылке
+  for (const [file, rule] of [['src/app/(main)/admin/transfer/actions.ts', /await master\(\)/], ['src/app/(main)/transfer/actions.ts', /guard\(link\)/]] as const) {
+    const src = readFileSync(file, 'utf8')
+    const bad = [...src.matchAll(/export async function (\w+)\([^)]*\)[^{]*\{\n([\s\S]*?)\n\}/g)].filter(([, , body]) => !rule.test(body)).map(([, n]) => n)
+    add(global, `actions-guarded:${file.split('/').slice(-2).join('/')}`, bad.length === 0, true, bad.join(', ') || undefined)
+  }
 }
 
 // 4. тесты и сборка

@@ -21,3 +21,4 @@ docs/deck/out/counts.json
 *.key
 security/results/
 !.env.example
+/src/lib/export-snapshot.generated.ts

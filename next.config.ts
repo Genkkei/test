@@ -18,7 +18,7 @@ const CSP = [
   "font-src 'self' data:",
   "media-src 'self' blob: https:",
   `connect-src 'self'${dev ? ' ws:' : ''}`,
-  "frame-src 'none'",
+  "frame-src 'self'", // предпросмотр сайта в редакторе админки
   "frame-ancestors 'self'",
   "object-src 'none'",
   "base-uri 'self'",
@@ -50,6 +50,16 @@ const nextConfig: NextConfig = {
           { key: 'Content-Security-Policy', value: `${CSP}; frame-ancestors 'none'`.replace("frame-ancestors 'self'; ", '') },
           { key: 'Cache-Control', value: 'no-store' },
           { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+        ],
+      },
+      // страница переноса: ссылка — ключ доступа, поэтому без кэша, без индекса и без Referer наружу
+      {
+        source: '/transfer/:path*',
+        headers: [
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'Cache-Control', value: 'no-store' },
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+          { key: 'Referrer-Policy', value: 'no-referrer' },
         ],
       },
       { source: '/api/:path*', headers: [{ key: 'Cache-Control', value: 'no-store' }] },

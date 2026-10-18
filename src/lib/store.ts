@@ -131,3 +131,8 @@ export async function copyTranslations(from: string, to: string): Promise<void> 
     if (tr) await saveTranslation(to, l, tr)
   }
 }
+
+/** Перевод как он хранится (для переноса сайта заказчику). */
+export async function rawTranslation(slug: string, lang: string): Promise<Record<string, unknown> | null> {
+  return readTranslation(slug, lang)
+}
