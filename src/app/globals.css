@@ -176,3 +176,79 @@ html.menu-open { overflow: hidden; }
 .lead__alt a { color: var(--fg); }
 .lead__trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 @media (prefers-reduced-motion: reduce) { .lead[open] { animation: none; } }
+
+/* Шапка, которая прячется при прокрутке вниз (SiteChrome) */
+.atlas-hdr { transition: transform .4s cubic-bezier(.2, .8, .2, 1), background-color .4s, padding .4s; will-change: transform; }
+.atlas-hdr.atlas-hdr-hide { transform: translateY(-115%) !important; }
+@media (prefers-reduced-motion: reduce) { .atlas-hdr { transition: none; } }
+/* на телефоне переключатель языка компактнее и не закрывает текст */
+@media (max-width: 640px) { .lang-switch { right: 8px; bottom: 8px; font-size: 10px; padding: 2px; } .lang-switch a { min-width: 32px; height: 26px; padding: 0 6px; } }
+
+/* Интернет-магазин (секция shop) — минимальные карточки в цветах и шрифтах темы.
+   Сетка плотная: на телефоне две карточки в ряд, иначе каталог превращается в бесконечную ленту. */
+.s-shop .shop-cats { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 20px; }
+.s-shop .shop-cats button { font: 500 13px/1 var(--font-body); padding: 9px 14px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent); background: none; color: var(--fg); cursor: pointer; transition: background .25s, color .25s; }
+.s-shop .shop-cats button.is-on { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.shop-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 22px 16px; }
+.shop-card { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.shop-card[hidden] { display: none; }
+.shop-card__img { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 12px; background: color-mix(in srgb, var(--fg) 6%, var(--bg)); }
+.shop-card__img .media, .shop-card__img img, .shop-card__img svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2, .8, .2, 1); }
+.shop-card:hover .shop-card__img .media { transform: scale(1.04); }
+.shop-card__badge { position: absolute; left: 8px; top: 8px; font: 600 10px/1 var(--font-body); letter-spacing: .04em; text-transform: uppercase; padding: 6px 8px; border-radius: 999px; background: var(--bg); color: var(--fg); }
+.shop-card__body { display: flex; flex-direction: column; gap: 4px; flex: 1; font-family: var(--font-body); }
+.shop-card__name { font: 600 15px/1.25 var(--font-body); margin: 0; letter-spacing: 0; text-transform: none; }
+.shop-card__text { margin: 0; font-size: 13px; line-height: 1.4; color: var(--muted, color-mix(in srgb, var(--fg) 62%, transparent)); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.shop-card__price { margin: 2px 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 15px; }
+.shop-card__price small { font-size: 12px; color: var(--muted, inherit); }
+.shop-card__price s { font-size: 12px; opacity: .55; }
+.shop-add { margin-top: auto; align-self: flex-start; font: 600 13px/1 var(--font-body); min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--fg); background: none; color: var(--fg); cursor: pointer; transition: background .25s, color .25s; }
+.shop-add:hover, .shop-add.is-done { background: var(--fg); color: var(--bg); }
+@media (max-width: 640px) {
+  .shop-grid { grid-template-columns: 1fr 1fr; gap: 18px 10px; }
+  .shop-card__img { aspect-ratio: 1 / 1; }
+  .shop-card__name { font-size: 13px; }
+  .shop-card__text { display: none; }
+  .shop-card__price { font-size: 13px; }
+  .shop-add { min-height: 36px; padding: 0 12px; font-size: 12px; align-self: stretch; }
+}
+
+/* Корзина: кнопка внизу слева (справа — переключатель языка) и выезжающая панель */
+.cart-fab { position: fixed; left: 14px; bottom: 14px; z-index: 9990; display: flex; align-items: center; gap: 8px; min-height: 46px; padding: 0 16px 0 14px; border: 0; border-radius: 999px; background: var(--fg); color: var(--bg); font: 600 14px/1 var(--font-body); box-shadow: 0 10px 30px rgb(0 0 0 / .25); cursor: pointer; animation: lead-in .35s cubic-bezier(.2, .8, .2, 1); }
+.cart-fab span { display: grid; place-items: center; min-width: 22px; height: 22px; border-radius: 999px; background: var(--accent); color: var(--bg); font-size: 12px; }
+.cart-fab.is-bump { animation: cart-bump .5s; }
+@keyframes cart-bump { 40% { transform: scale(1.08); } }
+.cart { border: 0; padding: 0; margin: 0 0 0 auto; height: 100dvh; max-height: 100dvh; width: min(420px, 100vw); background: var(--bg); color: var(--fg); font-family: var(--font-body); box-shadow: -20px 0 60px rgb(0 0 0 / .3); }
+.cart[open] { display: flex; flex-direction: column; animation: cart-in .4s cubic-bezier(.2, .8, .2, 1); }
+@keyframes cart-in { from { transform: translateX(40px); opacity: 0; } }
+.cart::backdrop { background: rgb(0 0 0 / .5); backdrop-filter: blur(3px); }
+.cart__head { display: flex; align-items: center; justify-content: space-between; padding: 18px 20px; border-bottom: 1px solid color-mix(in srgb, var(--fg) 12%, transparent); }
+.cart__title { margin: 0; font: 400 24px/1.1 var(--font-display); }
+.cart__x { width: 40px; height: 40px; border: 0; background: none; color: var(--fg); font-size: 28px; cursor: pointer; }
+.cart__lines { list-style: none; margin: 0; padding: 8px 20px; overflow: auto; flex: 1; }
+.cart__lines li { display: grid; grid-template-columns: 56px 1fr auto; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid color-mix(in srgb, var(--fg) 8%, transparent); }
+.cart__lines img, .cart__ph { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; background: color-mix(in srgb, var(--fg) 8%, var(--bg)); display: block; }
+.cart__name { margin: 0; font-size: 14px; font-weight: 600; line-height: 1.3; }
+.cart__price { margin: 2px 0 0; font-size: 13px; color: var(--muted, inherit); }
+.cart__qty { display: flex; align-items: center; gap: 4px; }
+.cart__qty button { width: 32px; height: 32px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--fg) 20%, transparent); background: none; color: var(--fg); font-size: 16px; cursor: pointer; }
+.cart__qty span { min-width: 22px; text-align: center; font-size: 14px; }
+.cart__sum { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 20px 0; font-size: 14px; }
+.cart__sum b { font-size: 20px; }
+.cart__btn { margin: 14px 20px 20px; font: 600 16px/1 var(--font-body); min-height: 52px; border: 0; border-radius: 999px; background: var(--accent); color: var(--bg); cursor: pointer; }
+.cart__btn:disabled { opacity: .6; }
+.cart__empty, .cart__done { padding: 28px 20px; }
+.cart__done { display: grid; gap: 8px; }
+.cart__done .cart__btn { margin: 12px 0 0; }
+.cart__big { margin: 0; font: 400 28px/1.1 var(--font-display); }
+.cart__form { display: grid; gap: 12px; padding: 18px 0 0; overflow: auto; flex: 1; align-content: start; }
+.cart__form > label, .cart__form > .cart__seg, .cart__form > .lead__err { margin: 0 20px; }
+.cart__form label { display: grid; gap: 6px; font-size: 13px; color: var(--muted, inherit); }
+.cart__form input, .cart__form textarea { font: inherit; font-size: 16px; color: var(--fg); background: color-mix(in srgb, var(--fg) 5%, var(--bg)); border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent); border-radius: 10px; padding: 12px 14px; width: 100%; box-sizing: border-box; }
+.cart__seg { display: grid; grid-template-columns: 1fr 1fr; padding: 3px; border-radius: 999px; background: color-mix(in srgb, var(--fg) 7%, var(--bg)); }
+.cart__seg button { font: 600 14px/1 var(--font-body); min-height: 40px; border: 0; border-radius: 999px; background: none; color: var(--fg); cursor: pointer; }
+.cart__seg button.is-on { background: var(--fg); color: var(--bg); }
+.cart__form .cart__btn { margin-bottom: 0; }
+.cart__back { margin: 0 20px 20px; border: 0; background: none; color: var(--fg); font: 500 14px/1 var(--font-body); min-height: 44px; cursor: pointer; }
+@media (max-width: 640px) { .cart-fab { left: 8px; bottom: 8px; min-height: 40px; font-size: 13px; } .cart { width: 100vw; } }
+@media (prefers-reduced-motion: reduce) { .cart[open], .cart-fab { animation: none; } }

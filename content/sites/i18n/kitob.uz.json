@@ -287,6 +287,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/kitobuyi"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Kitoblar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«O‘tkan kunlar», Abdulla Qodiriy",
+          "text": "Qattiq muqova.",
+          "price": 97000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Nasr",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Master va Margarita»",
+          "text": "Rasmli nashr.",
+          "price": 141000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Nasr",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Atom odatlar»",
+          "text": "Kichik qadamlar hayotni qanday o‘zgartiradi.",
+          "price": 125000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Nofantastika",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Sapiens»",
+          "text": "Insoniyatning qisqa tarixi.",
+          "price": 147000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Nofantastika",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Kichkina shahzoda»",
+          "text": "Sovg‘a nashri.",
+          "price": 75000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bolalarga",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Rang berish kitoblari to‘plami",
+          "text": "Uch kitob, 4–7 yosh.",
+          "price": 82000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bolalarga",
+          "badge": "Yangi",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Zig‘ir muqovali bloknot",
+          "text": "A5, nuqta, 160 bet.",
+          "price": 104000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "200 000 so‘mlik sertifikat",
+          "text": "Bir yil amal qiladi.",
+          "price": 218000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

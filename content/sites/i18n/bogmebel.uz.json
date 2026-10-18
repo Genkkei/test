@@ -238,6 +238,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/bogmebel"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Bog‘ mebeli",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Bog‘ arg‘imchog‘i",
+          "text": "Uch o‘rinli, soyabonli.",
+          "price": 4128000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Pol gultuvagi",
+          "text": "Fibrotsement, 60 sm.",
+          "price": 624000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Terrasa» to‘plami 4+1",
+          "text": "Stol va to‘rt kreslo, sun’iy rotang.",
+          "price": 7584000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "G‘ildirakli shezlong",
+          "text": "Alyuminiy, besh holatli suyanchiq.",
+          "price": 2208000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Osma pilla-kreslo",
+          "text": "Yostiq va tirgak bilan.",
+          "price": 3456000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Tik skameykasi",
+          "text": "150 sm, yomg‘irdan qo‘rqmaydi.",
+          "price": 2688000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ko‘cha modul divani",
+          "text": "Olinadigan g‘ilofli yostiqlar.",
+          "price": 9024000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Yon tayanchli soyabon",
+          "text": "3 m, 360° buriladi.",
+          "price": 2016000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

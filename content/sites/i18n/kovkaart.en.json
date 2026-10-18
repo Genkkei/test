@@ -272,6 +272,94 @@
         "label": "Call the workshop",
         "href": "tel:+998712000407"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "In stock",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Loft wall hanger",
+          "text": "Six hooks, powder coat.",
+          "price": 354000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Wine rack",
+          "text": "Holds six bottles.",
+          "price": 468000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Hanging planter",
+          "text": "Forged ring and chain.",
+          "price": 302000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Garden",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "House number plate",
+          "text": "Laser cut, your number.",
+          "price": 364000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Mountains” wall art",
+          "text": "Corten, 90×45 cm.",
+          "price": 1248000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Forged rose",
+          "text": "A gift that never wilts.",
+          "price": 166000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Forged garden bench",
+          "text": "Steel and pine, 150 cm.",
+          "price": 2704000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Garden",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Railing section, per metre",
+          "text": "“Classic” pattern, fitting extra.",
+          "price": 1144000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "m"
+        }
+      ]
     }
   ]
 }

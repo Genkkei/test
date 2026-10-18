@@ -272,6 +272,94 @@
         "label": "Yozilish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mebel katalogi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Ikki eshikli shkaf",
+          "text": "Shtanga va tokchalar, 100 sm.",
+          "price": 3978000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Eman» ovqat stoli 160",
+          "text": "Eman massivi, moy-mum.",
+          "price": 5508000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Vena» stuli",
+          "text": "Buk, yumshoq o‘rindiq.",
+          "price": 704000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslo va stullar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Dumaloq jurnal stoli",
+          "text": "Yong‘oq shponi, 80 sm.",
+          "price": 1938000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "To‘rt tortmali komod",
+          "text": "Yopgichlar, LDSP + eman.",
+          "price": 2754000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ochiq javon",
+          "text": "Besh tokcha, metall va yog‘och.",
+          "price": 1632000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "«Nordik» karavot 160×200",
+          "text": "Qarag‘ay massivi, ortoped asos.",
+          "price": 4896000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Karavotlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Karavot yoni tumbasi",
+          "text": "Tortma va tokcha.",
+          "price": 806000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

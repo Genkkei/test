@@ -217,6 +217,84 @@
         "label": "Order on Telegram",
         "href": "https://t.me/zingdrinks"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Order drinks",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Original” energy",
+          "text": "Taurine, caffeine, low sugar. 0.45 l.",
+          "price": 13600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Energy",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Zero” energy",
+          "text": "Sugar-free, grapefruit.",
+          "price": 13600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Energy",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Tarragon lemonade",
+          "text": "Real tarragon.",
+          "price": 11600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lemonades",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Pomegranate & basil lemonade",
+          "text": "Uzbek pomegranate.",
+          "price": 12600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lemonades",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Mixed crate, 12 cans",
+          "text": "All flavours, 15% off.",
+          "price": 135000,
+          "oldPrice": 162000,
+          "image": "",
+          "category": "Boxes",
+          "badge": "Sale",
+          "unit": "set"
+        },
+        {
+          "name": "Logo hoodie",
+          "text": "For fans of the brand.",
+          "price": 310000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Display fridge rental",
+          "text": "For a shop or office, per month.",
+          "price": 242000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

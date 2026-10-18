@@ -228,6 +228,94 @@
         "label": "Book a table",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Coffee for home",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Drip bags, assorted",
+          "text": "Ten filter cups, no gear: pour and wait three minutes.",
+          "price": 92000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "Bestseller",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Nespresso pods “Espresso”",
+          "text": "Our coffee in aluminium pods.",
+          "price": 77000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Ceramic V60 dripper",
+          "text": "For a clean cup of filter at home.",
+          "price": 233000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "French press 600 ml",
+          "text": "Glass and steel, three cups.",
+          "price": 204000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Hand grinder",
+          "text": "Steel burrs, espresso to French press.",
+          "price": 669000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Logo travel mug",
+          "text": "350 ml, keeps it hot for three hours.",
+          "price": 179000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Three origins” gift box",
+          "text": "Three 100 g bags and a tasting card.",
+          "price": 252000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "Bestseller",
+          "unit": "set"
+        },
+        {
+          "name": "Ethiopia Yirgacheffe",
+          "text": "Jasmine, bergamot, lemon zest. Light roast.",
+          "price": 183000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "Bestseller",
+          "unit": "250 g"
+        }
+      ]
     }
   ]
 }

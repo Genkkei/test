@@ -266,6 +266,94 @@
         "label": "Tort buyurtma qilish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Yetkazib berish bilan tort va desertlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Nyu-York chizkeyki",
+          "text": "Qaymoqli pishloq, qumloq asos. 1 kg.",
+          "price": 281000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Qizil baxmal» torti",
+          "text": "Krem-chiz bilan. 1,5 kg.",
+          "price": 330000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Makaron, 12 dona",
+          "text": "Pista, malina, sho‘r karamel, limon.",
+          "price": 175000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Xit",
+          "unit": "10 dona"
+        },
+        {
+          "name": "Eklerlar, 6 dona",
+          "text": "Vanil, shokolad, qahva.",
+          "price": 116000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Bodomli kruassan",
+          "text": "Fransuz yog‘i, bodom kremi.",
+          "price": 31000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Rezavorli tart",
+          "text": "Qumloq xamir, krem, yangi rezavorlar.",
+          "price": 44000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bento-tort",
+          "text": "Yozuvingiz bilan ikki kishilik kichik tort.",
+          "price": 146000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Kartoshka» pirojniysi",
+          "text": "Bolalikdagidek, kakao bilan.",
+          "price": 21000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

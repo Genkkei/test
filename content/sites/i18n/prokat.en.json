@@ -285,6 +285,94 @@
         "label": "Order steel",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Steel, delivered",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Electrodes MR-3 Ø3",
+          "text": "5 kg pack.",
+          "price": 209000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Rebar & angle",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Box section 40×20×2",
+          "text": "Black steel, 6 m length.",
+          "price": 25000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tube",
+          "badge": "Bestseller",
+          "unit": "m"
+        },
+        {
+          "name": "Box section 60×40×2",
+          "text": "For canopies and gates.",
+          "price": 42000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tube",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Box section 80×80×3",
+          "text": "Posts and load-bearing frames.",
+          "price": 87000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tube",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Hot-rolled sheet 2 mm",
+          "text": "1250×2500 mm.",
+          "price": 759000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sheet",
+          "badge": "",
+          "unit": "sheet"
+        },
+        {
+          "name": "Galvanised sheet 0.5 mm",
+          "text": "1250×2500 mm, for roofing.",
+          "price": 341000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sheet",
+          "badge": "",
+          "unit": "sheet"
+        },
+        {
+          "name": "Rebar A500C Ø12",
+          "text": "Ribbed, 11.7 m length.",
+          "price": 10800,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Rebar & angle",
+          "badge": "Bestseller",
+          "unit": "m"
+        },
+        {
+          "name": "Angle 50×50×5",
+          "text": "Equal angle, 6 m.",
+          "price": 37000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Rebar & angle",
+          "badge": "",
+          "unit": "m"
+        }
+      ]
     }
   ]
 }

@@ -287,6 +287,94 @@
         "label": "Telegram’da yozish",
         "href": "https://t.me/qorametall"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mavjud buyumlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Tog‘lar» devor panosi",
+          "text": "Korten, 90×45 sm.",
+          "price": 1140000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bolg‘alangan atirgul",
+          "text": "So‘lmaydigan sovg‘a.",
+          "price": 152000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Bolg‘alangan bog‘ skameykasi",
+          "text": "Metall va qarag‘ay, 150 sm.",
+          "price": 2470000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Panjara bo‘lagi, metr",
+          "text": "«Klassika» naqshi, o‘rnatish alohida.",
+          "price": 1045000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Bolg‘alangan shamdon",
+          "text": "Uchta sham uchun, qo‘lda bolg‘alangan.",
+          "price": 370000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Taqa kalitdon",
+          "text": "Besh ilmoq, omad uchun.",
+          "price": 171000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Kronshteynli tokcha",
+          "text": "Eman va qora metall, 80 sm.",
+          "price": 494000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Loft devor ilgichi",
+          "text": "Olti ilmoq, kukun bo‘yoq.",
+          "price": 323000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

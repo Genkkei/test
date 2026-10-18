@@ -65,7 +65,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <span>
             © {new Date().getFullYear()} {b.legalName || site.name}
           </span>
-          <span>{pick(site.lang, { ru: 'Татуируем с 18 лет', uz: '18 yoshdan tatu qilamiz', en: 'Tattooing clients 18+' })}</span>
+          {site.business.type === 'TattooParlor' ? <span>{pick(site.lang, { ru: 'Татуируем с 18 лет', uz: '18 yoshdan tatu qilamiz', en: 'Tattooing clients 18+' })}</span> : null}
           <a href="#top">↑ {ui(site.lang, 'toTop')}</a>
         </div>
       </footer>

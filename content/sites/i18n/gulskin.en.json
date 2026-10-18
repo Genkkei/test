@@ -92,45 +92,6 @@
       "image": ""
     },
     {
-      "id": "shop",
-      "type": "services",
-      "label": "Shop",
-      "title": "Five products for every day",
-      "intro": "Volume and ingredients are on every jar. Not sure where to start? Send a photo of your skin on Telegram and we’ll suggest a routine.",
-      "items": [
-        {
-          "title": "Tone serum",
-          "text": "Evens out tone and refines pores. 30 ml lasts two months.",
-          "price": "145,000 UZS",
-          "tag": "niacinamide 10%"
-        },
-        {
-          "title": "Gentle cleanser",
-          "text": "Soft and sulfate-free. Doesn’t tighten even dry skin. 150 ml.",
-          "price": "98,000 UZS",
-          "tag": "pH 5.5"
-        },
-        {
-          "title": "Barrier cream",
-          "text": "A rich night cream for skin that flakes from wind and air-conditioning. 50 ml.",
-          "price": "165,000 UZS",
-          "tag": "ceramides 3%"
-        },
-        {
-          "title": "Daily SPF 50",
-          "text": "A light fluid with no white cast that sits well under make-up. 50 ml.",
-          "price": "175,000 UZS",
-          "tag": "SPF 50 PA++++"
-        },
-        {
-          "title": "Hydrating toner",
-          "text": "Hydrates after cleansing and preps skin for serum. 200 ml.",
-          "price": "115,000 UZS",
-          "tag": "hyaluronic acid"
-        }
-      ]
-    },
-    {
       "id": "stats",
       "type": "stats",
       "label": "Formula",
@@ -316,6 +277,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/gulskin"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Skin care",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Retinol 0.3%",
+          "text": "For beginners, at night.",
+          "price": 242000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Face",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Body lotion",
+          "text": "With 5% urea. 250 ml.",
+          "price": 140000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Body",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Basic routine” set",
+          "text": "Cleanser, serum, cream and SPF.",
+          "price": 596000,
+          "oldPrice": 715000,
+          "image": "",
+          "category": "Boxes",
+          "badge": "Sale",
+          "unit": "set"
+        },
+        {
+          "name": "Lip balm",
+          "text": "With shea butter.",
+          "price": 49000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Body",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Niacinamide 10% serum",
+          "text": "Even tone, fewer visible pores. 30 ml.",
+          "price": 191000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Face",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Ceramide moisturiser",
+          "text": "For dry, sensitive skin. 50 ml.",
+          "price": 212000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Face",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "SPF 50 fluid",
+          "text": "Weightless, no white cast.",
+          "price": 177000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sun care",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Gentle cleanser",
+          "text": "pH 5.5, sulfate-free.",
+          "price": 116000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Face",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

@@ -241,6 +241,94 @@
         "label": "Buyurtma berish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Kolleksiyalar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Chester» kamin kreslosi",
+          "text": "Tabiiy charm, karetali tikuv.",
+          "price": 7474000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslo va stullar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Idish vitrinasi",
+          "text": "Shisha, yoritish, qo‘lda bezak.",
+          "price": 9898000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Oynali konsol",
+          "text": "Varaqli oltin bilan zarhal.",
+          "price": 6262000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Marmar jurnal stoli",
+          "text": "Karrara va quyma bronza.",
+          "price": 5656000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Billur qandil",
+          "text": "Sakkiz shoxli, chex billuri.",
+          "price": 8989000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yoritish",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Versal» mehmonxona to‘plami",
+          "text": "Divan va ikki kreslo, o‘ymakor, patina.",
+          "price": 28280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Divanlar",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "8 kishilik ovqat guruhi",
+          "text": "Transformer stol va sakkiz stul.",
+          "price": 19695000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "«Imperiya» yotoqxonasi",
+          "text": "Karavot, ikki tumba va komod.",
+          "price": 32320000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Karavotlar",
+          "badge": "",
+          "unit": "to‘plam"
+        }
+      ]
     }
   ]
 }

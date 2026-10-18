@@ -92,45 +92,6 @@
       "image": ""
     },
     {
-      "id": "shop",
-      "type": "services",
-      "label": "Katalog",
-      "title": "Har kunga beshta vosita",
-      "intro": "Har bir bankada hajm va tarkib yozilgan. Nimadan boshlashni bilmasangiz — Telegramga teringiz rasmini yuboring, maslahat beramiz.",
-      "items": [
-        {
-          "title": "«Ton» zardobi",
-          "text": "Teri rangini tekislaydi va g‘ovaklarni toraytiradi. 30 ml, ikki oyga yetadi.",
-          "price": "145 000 so‘m",
-          "tag": "niatsinamid 10%"
-        },
-        {
-          "title": "Yuvinish geli",
-          "text": "Yumshoq, sulfatsiz. Quruq terini ham tortmaydi. 150 ml.",
-          "price": "98 000 so‘m",
-          "tag": "pH 5,5"
-        },
-        {
-          "title": "«Barer» kremi",
-          "text": "Shamol va konditsionerdan po‘st tashlaydigan teri uchun tungi zich krem. 50 ml.",
-          "price": "165 000 so‘m",
-          "tag": "seramidlar 3%"
-        },
-        {
-          "title": "SPF 50 quyoshdan himoya",
-          "text": "Oq iz qoldirmaydigan yengil flyuid, pardoz ostiga yaxshi tushadi. 50 ml.",
-          "price": "175 000 so‘m",
-          "tag": "SPF 50 PA++++"
-        },
-        {
-          "title": "«Namlik» toniki",
-          "text": "Yuvingandan keyin namlaydi va terini zardobga tayyorlaydi. 200 ml.",
-          "price": "115 000 so‘m",
-          "tag": "gialuron kislotasi"
-        }
-      ]
-    },
-    {
       "id": "stats",
       "type": "stats",
       "label": "Formula",
@@ -316,6 +277,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/gulskin"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Teri parvarishi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Retinol 0,3%",
+          "text": "Boshlovchilar uchun, kechqurun.",
+          "price": 242000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yuz",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Tana losoni",
+          "text": "5% mochevina bilan. 250 ml.",
+          "price": 140000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tana",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Asosiy parvarish» to‘plami",
+          "text": "Ko‘pik, zardob, krem va SPF.",
+          "price": 596000,
+          "oldPrice": 715000,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Chegirma",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Lab balzami",
+          "text": "Shi yog‘i bilan.",
+          "price": 49000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tana",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Niatsinamidli zardob 10%",
+          "text": "Tekis rang va kamroq g‘ovak. 30 ml.",
+          "price": 191000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yuz",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Seramidli namlovchi krem",
+          "text": "Quruq va sezgir teri uchun. 50 ml.",
+          "price": 212000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yuz",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "SPF 50 flyuid",
+          "text": "Yengil, oq iz qoldirmaydi.",
+          "price": 177000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Quyoshdan himoya",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Yuvinish ko‘pigi",
+          "text": "pH 5,5, sulfatsiz.",
+          "price": 116000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yuz",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

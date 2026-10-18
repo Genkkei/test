@@ -259,6 +259,94 @@
         "label": "Call us",
         "href": "tel:+998712000402"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Floor mirror",
+          "text": "Oak frame, 170 cm.",
+          "price": 1325000,
+          "oldPrice": 1590000,
+          "image": "",
+          "category": "Decor",
+          "badge": "Sale",
+          "unit": "pc"
+        },
+        {
+          "name": "Two-door wardrobe",
+          "text": "Rail and shelves, 100 cm.",
+          "price": 4134000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Oak” dining table 160",
+          "text": "Solid oak, oil-wax finish.",
+          "price": 5724000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Bentwood” chair",
+          "text": "Beech with soft seat.",
+          "price": 731000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 2014000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2862000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1696000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 5088000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

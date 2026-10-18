@@ -5,88 +5,360 @@
   "seo": {
     "title": "Kiyim — Toshkentdagi kiyim brendi va shourum",
     "description": "Zig‘ir, paxta va atlasdan kapsula kolleksiyalar: Toshkentda kichik tirajlarda tikamiz. Mirobodda shourum, oldindan yozilib kiyib ko‘rish, O‘zbekiston bo‘ylab yetkazish.",
-    "keywords": ["kiyim brendi Toshkent", "zig‘ir kiyim", "kapsula garderob", "shourum Toshkent", "o‘zbek dizaynerlari", "paxta kiyim"],
+    "keywords": [
+      "kiyim brendi Toshkent",
+      "zig‘ir kiyim",
+      "kapsula garderob",
+      "shourum Toshkent",
+      "o‘zbek dizaynerlari",
+      "paxta kiyim"
+    ],
     "answer": "Kiyim — Toshkentdagi kiyim brendi: zig‘ir, paxta va atlasdan kapsula kolleksiyalar, o‘z sexida kichik tirajlarda tikiladi. Narxlar — futbolka uchun 390 000 so‘mdan palto uchun 1 850 000 so‘mgacha; Mirobod ko‘chasi, 21 dagi shourum har kuni ochiq, Toshkent bo‘ylab yetkazish 1 kunda, O‘zbekiston bo‘ylab — 2–4 kunda."
   },
-  "nav": { "cta": { "label": "Kiyib ko‘rishga yozilish", "href": "#contact" } },
+  "nav": {
+    "cta": {
+      "label": "Kiyib ko‘rishga yozilish",
+      "href": "#contact"
+    }
+  },
   "listing": {
     "price": "",
     "description": "Kiyim brendi, butik yoki shourum uchun sayt. Brutal moda: butun kenglikdagi nom, narxlari bilan eksponat kabi kolleksiya, gorizontal lentadagi lukbuk, qarama-qarshi yuguruvchi satrlar.",
     "features": []
   },
-  "business": { "legalName": "«Kiyim Studio» MChJ", "street": "Mirobod ko‘chasi, 21, shourum 2-qavatda", "city": "Toshkent", "region": "Toshkent", "areaServed": "O‘zbekiston, MDH bo‘ylab yetkazish" },
+  "business": {
+    "legalName": "«Kiyim Studio» MChJ",
+    "street": "Mirobod ko‘chasi, 21, shourum 2-qavatda",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston, MDH bo‘ylab yetkazish"
+  },
   "sections": [
     {
-      "id": "hero", "type": "hero", "label": "", "title": "Ohista gapiradigan kiyim",
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ohista gapiradigan kiyim",
       "eyebrow": "Kolleksiya 04 · Bahor — yoz 2026",
       "subtitle": "Farg‘ona zig‘iri, paxta va atlas. Toshkentda kichik tirajlarda tikamiz — har bir buyum raqamlangan.",
       "words": [],
-      "cta": { "label": "Kolleksiyani ko‘rish", "href": "#collection" },
-      "ctaSecondary": { "label": "Lukbuk", "href": "#lookbook" },
+      "cta": {
+        "label": "Kolleksiyani ko‘rish",
+        "href": "#collection"
+      },
+      "ctaSecondary": {
+        "label": "Lukbuk",
+        "href": "#lookbook"
+      },
       "image": ""
     },
-    { "id": "mq", "type": "marquee", "label": "", "title": "Materiallar", "items": ["Zig‘ir", "Paxta", "Atlas", "Jun", "Kichik tirajlar", "Toshkentda tikilgan"] },
     {
-      "id": "collection", "type": "works", "label": "Kolleksiya 04", "title": "Yangi",
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "Materiallar",
       "items": [
-        { "title": "Oversayz ko‘ylak", "category": "Zig‘ir, sutrang", "year": "690 000 so‘m", "text": "Erkin bichim, sadaf tugmalar, uzunligi soningdan pastda.", "image": "", "href": "" },
-        { "title": "Palatstso shim", "category": "Zig‘ir, grafit", "year": "820 000 so‘m", "text": "Baland bel, orqasida yumshoq rezina, chuqur cho‘ntaklar.", "image": "", "href": "" },
-        { "title": "Kombinatsiya ko‘ylak", "category": "Atlas, ko‘k", "year": "1 150 000 so‘m", "text": "Qiya bichim, ingichka yelkaliklar, midi uzunlik.", "image": "", "href": "" },
-        { "title": "Astarsiz jaket", "category": "Paxta, qum rang", "year": "1 390 000 so‘m", "text": "To‘g‘ri siluet, ustki cho‘ntaklar, to‘rtdan uch yeng.", "image": "", "href": "" },
-        { "title": "Qalin futbolka", "category": "Paxta 240 g, oq", "year": "390 000 so‘m", "text": "Yuvishlardan keyin ham shaklini saqlaydigan qalin paxta.", "image": "", "href": "" },
-        { "title": "O‘ralma yubka", "category": "Atlas, qora", "year": "760 000 so‘m", "text": "Bog‘ichli o‘ralma, to‘pig‘gacha uzunlik.", "image": "", "href": "" },
-        { "title": "Xalat-palto", "category": "Jun, tuya rang", "year": "1 850 000 so‘m", "text": "Yaxlit bichilgan yeng, kamar, astarsiz.", "image": "", "href": "" },
-        { "title": "Bermuda shortilar", "category": "Zig‘ir, zaytun rang", "year": "540 000 so‘m", "text": "Strelkalar, tugmali kamar, tizzagacha uzunlik.", "image": "", "href": "" }
+        "Zig‘ir",
+        "Paxta",
+        "Atlas",
+        "Jun",
+        "Kichik tirajlar",
+        "Toshkentda tikilgan"
       ]
     },
     {
-      "id": "about", "type": "about", "label": "Brend haqida", "title": "Har bir buyum uzoq yashashi uchun kamroq tikamiz",
+      "id": "collection",
+      "type": "works",
+      "label": "Kolleksiya 04",
+      "title": "Yangi",
+      "items": [
+        {
+          "title": "Oversayz ko‘ylak",
+          "category": "Zig‘ir, sutrang",
+          "year": "690 000 so‘m",
+          "text": "Erkin bichim, sadaf tugmalar, uzunligi soningdan pastda.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Palatstso shim",
+          "category": "Zig‘ir, grafit",
+          "year": "820 000 so‘m",
+          "text": "Baland bel, orqasida yumshoq rezina, chuqur cho‘ntaklar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kombinatsiya ko‘ylak",
+          "category": "Atlas, ko‘k",
+          "year": "1 150 000 so‘m",
+          "text": "Qiya bichim, ingichka yelkaliklar, midi uzunlik.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Astarsiz jaket",
+          "category": "Paxta, qum rang",
+          "year": "1 390 000 so‘m",
+          "text": "To‘g‘ri siluet, ustki cho‘ntaklar, to‘rtdan uch yeng.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qalin futbolka",
+          "category": "Paxta 240 g, oq",
+          "year": "390 000 so‘m",
+          "text": "Yuvishlardan keyin ham shaklini saqlaydigan qalin paxta.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "O‘ralma yubka",
+          "category": "Atlas, qora",
+          "year": "760 000 so‘m",
+          "text": "Bog‘ichli o‘ralma, to‘pig‘gacha uzunlik.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Xalat-palto",
+          "category": "Jun, tuya rang",
+          "year": "1 850 000 so‘m",
+          "text": "Yaxlit bichilgan yeng, kamar, astarsiz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Bermuda shortilar",
+          "category": "Zig‘ir, zaytun rang",
+          "year": "540 000 so‘m",
+          "text": "Strelkalar, tugmali kamar, tizzagacha uzunlik.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Brend haqida",
+      "title": "Har bir buyum uzoq yashashi uchun kamroq tikamiz",
       "text": "Kiyim 2021-yilda Mirobodagi ustaxonada paydo bo‘ldi. Matolarni Farg‘ona va Namangan fabrikalaridan olamiz, o‘zimiz bichamiz va tikamiz — 14 tikuvchili sexda. Har bir kolleksiya — 20–30 model, har biridan ko‘pi bilan 60 dona; sotilib ketganini qayta chiqarmaymiz. Yorliqda — buyum raqami va uni tikkan tikuvchining ismi.",
       "image": ""
     },
     {
-      "id": "lookbook", "type": "gallery", "label": "Lukbuk", "title": "Mavsum obrazlari",
+      "id": "lookbook",
+      "type": "gallery",
+      "label": "Lukbuk",
+      "title": "Mavsum obrazlari",
       "items": [
-        { "caption": "Oversayz ko‘ylak va palatstso shim", "image": "" },
-        { "caption": "Atlas kombinatsiya ko‘ylak", "image": "" },
-        { "caption": "Jaket va bermuda", "image": "" },
-        { "caption": "Zig‘ir ustidan xalat-palto", "image": "" },
-        { "caption": "O‘ralma yubka va futbolka", "image": "" },
-        { "caption": "Grafit rangdagi to‘liq obraz", "image": "" }
+        {
+          "caption": "Oversayz ko‘ylak va palatstso shim",
+          "image": ""
+        },
+        {
+          "caption": "Atlas kombinatsiya ko‘ylak",
+          "image": ""
+        },
+        {
+          "caption": "Jaket va bermuda",
+          "image": ""
+        },
+        {
+          "caption": "Zig‘ir ustidan xalat-palto",
+          "image": ""
+        },
+        {
+          "caption": "O‘ralma yubka va futbolka",
+          "image": ""
+        },
+        {
+          "caption": "Grafit rangdagi to‘liq obraz",
+          "image": ""
+        }
       ]
     },
     {
-      "id": "stats", "type": "stats", "label": "Qanday ishlaymiz", "title": "Kichik tirajlarda",
+      "id": "stats",
+      "type": "stats",
+      "label": "Qanday ishlaymiz",
+      "title": "Kichik tirajlarda",
       "items": [
-        { "value": "60", "suffix": "dona", "label": "bir modelning eng ko‘p nusxasi" },
-        { "value": "14", "suffix": "", "label": "o‘z sexidagi tikuvchilar" },
-        { "value": "4", "suffix": "", "label": "2021-yildan beri kolleksiya" },
-        { "value": "1", "suffix": "kun", "label": "Toshkent bo‘ylab yetkazish" }
+        {
+          "value": "60",
+          "suffix": "dona",
+          "label": "bir modelning eng ko‘p nusxasi"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "o‘z sexidagi tikuvchilar"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "2021-yildan beri kolleksiya"
+        },
+        {
+          "value": "1",
+          "suffix": "kun",
+          "label": "Toshkent bo‘ylab yetkazish"
+        }
       ]
     },
     {
-      "id": "reviews", "type": "testimonials", "label": "Xaridorlar", "title": "Kiyishadi",
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Xaridorlar",
+      "title": "Kiyishadi",
       "items": [
-        { "quote": "Uchrashuvga kiyib borishdan uyalmaydigan zig‘ir. Shimni uchinchi mavsum kiyaman, shakli birinchi kundagidek.", "author": "Madina", "role": "arxitektor" },
-        { "quote": "Yarim soatga kiyib ko‘rishga keldim, butun yozga kapsula bilan chiqdim. Bo‘yimga moslab ikki kunda qisqartirib berishdi.", "author": "Sevara", "role": "prodyuser" },
-        { "quote": "Oversayz ko‘ylak — Toshkentda sotib olganlarimning eng yaxshisi. Yorliqda tikuvchining ismi borligi yoqadi.", "author": "Behzod", "role": "fotograf" }
+        {
+          "quote": "Uchrashuvga kiyib borishdan uyalmaydigan zig‘ir. Shimni uchinchi mavsum kiyaman, shakli birinchi kundagidek.",
+          "author": "Madina",
+          "role": "arxitektor"
+        },
+        {
+          "quote": "Yarim soatga kiyib ko‘rishga keldim, butun yozga kapsula bilan chiqdim. Bo‘yimga moslab ikki kunda qisqartirib berishdi.",
+          "author": "Sevara",
+          "role": "prodyuser"
+        },
+        {
+          "quote": "Oversayz ko‘ylak — Toshkentda sotib olganlarimning eng yaxshisi. Yorliqda tikuvchining ismi borligi yoqadi.",
+          "author": "Behzod",
+          "role": "fotograf"
+        }
       ]
     },
     {
-      "id": "faq", "type": "faq", "label": "Savollar", "title": "Xarid oldidan",
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Xarid oldidan",
       "items": [
-        { "q": "O‘lchamni qanday tanlash mumkin?", "a": "Har bir model kartochkasida santimetrdagi o‘lchamlar bor. Ikkilansangiz, Telegramga bo‘yingiz va o‘lchamlaringizni yozing: 15 daqiqada maslahat beramiz." },
-        { "q": "Xariddan oldin kiyib ko‘rsa bo‘ladimi?", "a": "Ha, Mirobod ko‘chasi, 21 dagi shourumda. Oldindan yozilgan ma‘qul — kerakli o‘lchamlarni tayyorlab qo‘yamiz." },
-        { "q": "Yetkazish qancha turadi?", "a": "Toshkent bo‘ylab — 30 000 so‘m, 1 000 000 so‘mdan bepul, muddat 1 kun. O‘zbekiston bo‘ylab — 2–4 kun, narxi yetkazish xizmati tarifiga ko‘ra." },
-        { "q": "Buyumni qaytarsa bo‘ladimi?", "a": "Ha, 14 kun ichida, agar buyum kiyilmagan va yorliqlari saqlangan bo‘lsa. Pulni siz to‘lagan usulda qaytaramiz." },
-        { "q": "Bo‘yga moslab qisqartirasizmi?", "a": "Ha, shim va yeng uzunligini bepul moslaymiz, odatda 1–2 kunda." },
-        { "q": "Sotilib ketgan model qayta chiqadimi?", "a": "Yo‘q: har bir modelning tiraji cheklangan, sotilib ketganini qayta chiqarmaymiz. Yangi kolleksiyalar yiliga ikki marta chiqadi." }
+        {
+          "q": "O‘lchamni qanday tanlash mumkin?",
+          "a": "Har bir model kartochkasida santimetrdagi o‘lchamlar bor. Ikkilansangiz, Telegramga bo‘yingiz va o‘lchamlaringizni yozing: 15 daqiqada maslahat beramiz."
+        },
+        {
+          "q": "Xariddan oldin kiyib ko‘rsa bo‘ladimi?",
+          "a": "Ha, Mirobod ko‘chasi, 21 dagi shourumda. Oldindan yozilgan ma‘qul — kerakli o‘lchamlarni tayyorlab qo‘yamiz."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab — 30 000 so‘m, 1 000 000 so‘mdan bepul, muddat 1 kun. O‘zbekiston bo‘ylab — 2–4 kun, narxi yetkazish xizmati tarifiga ko‘ra."
+        },
+        {
+          "q": "Buyumni qaytarsa bo‘ladimi?",
+          "a": "Ha, 14 kun ichida, agar buyum kiyilmagan va yorliqlari saqlangan bo‘lsa. Pulni siz to‘lagan usulda qaytaramiz."
+        },
+        {
+          "q": "Bo‘yga moslab qisqartirasizmi?",
+          "a": "Ha, shim va yeng uzunligini bepul moslaymiz, odatda 1–2 kunda."
+        },
+        {
+          "q": "Sotilib ketgan model qayta chiqadimi?",
+          "a": "Yo‘q: har bir modelning tiraji cheklangan, sotilib ketganini qayta chiqarmaymiz. Yangi kolleksiyalar yiliga ikki marta chiqadi."
+        }
       ]
     },
     {
-      "id": "contact", "type": "contact", "label": "Shourum", "title": "Kiyib ko‘rishga keling",
+      "id": "contact",
+      "type": "contact",
+      "label": "Shourum",
+      "title": "Kiyib ko‘rishga keling",
       "text": "Mirobod, 21, ikkinchi qavat. Qahva va bir soatlik kiyinish xonasi — oldindan yozilib.",
-      "cta": { "label": "Telegramda yozilish", "href": "https://t.me/kiyimstudio" }
+      "cta": {
+        "label": "Telegramda yozilish",
+        "href": "https://t.me/kiyimstudio"
+      }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Yangi kolleksiya",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Flisli xudi",
+          "text": "Issiq, kapyushonli.",
+          "price": 355000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ustki kiyim",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Zig‘ir ko‘ylak",
+          "text": "Erkin bichim.",
+          "price": 291000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ustki kiyim",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "To‘g‘ri jinsi",
+          "text": "Zich denim.",
+          "price": 410000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastki kiyim",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Kargo shim",
+          "text": "Olti cho‘ntak, paxta.",
+          "price": 328000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastki kiyim",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Jun palto",
+          "text": "70% jun, kuz uchun.",
+          "price": 1356000,
+          "oldPrice": 1627000,
+          "image": "",
+          "category": "Ustki kiyim (sovuq)",
+          "badge": "Chegirma",
+          "unit": "dona"
+        },
+        {
+          "name": "Bomber kurtka",
+          "text": "Neylon, isitgich.",
+          "price": 810000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ustki kiyim (sovuq)",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Printli shoper",
+          "text": "Zich mato.",
+          "price": 81000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Aksessuarlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Oversayz futbolka",
+          "text": "240 g paxta, o‘zbek trikotaji.",
+          "price": 163000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ustki kiyim",
+          "badge": "Xit",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

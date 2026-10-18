@@ -235,6 +235,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/bolalar_mebel"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Bolalar mebeli katalogi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Oy» tungi chirog‘i",
+          "text": "Iliq yorug‘lik, 30 daqiqa taymer.",
+          "price": 247000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yoritish",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Uycha-karavot",
+          "text": "Qayin massivi, 80×160, to‘siqlar.",
+          "price": 3230000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bolalar xonasi",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "O‘suvchi stol va stul",
+          "text": "3 yoshdan 14 yoshgacha sozlanadi.",
+          "price": 2755000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bolalar xonasi",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Ikki qavatli karavot",
+          "text": "Komod-narvon, ikki o‘rin.",
+          "price": 6460000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bolalar xonasi",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "O‘yinchoq javoni",
+          "text": "Olti quti, past — bola o‘zi oladi.",
+          "price": 1045000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Yo‘rgaklash komodi",
+          "text": "Olinadigan stolcha, to‘rt tortma.",
+          "price": 2280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bolalar divanchasi",
+          "text": "O‘yin matiga yoyiladi.",
+          "price": 903000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Divanlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Yumshoq qo‘ziqorin puf",
+          "text": "Velyur, yuviladi.",
+          "price": 370000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

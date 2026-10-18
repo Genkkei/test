@@ -270,6 +270,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/atelye_mebel"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 1938000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2754000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1632000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 4896000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bedside table",
+          "text": "Drawer and niche.",
+          "price": 806000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "TV stand 180",
+          "text": "Fluted fronts, hidden cable channel.",
+          "price": 3162000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Writing desk",
+          "text": "120×60 with a small drawer.",
+          "price": 1734000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Floor mirror",
+          "text": "Oak frame, 170 cm.",
+          "price": 1275000,
+          "oldPrice": 1530000,
+          "image": "",
+          "category": "Decor",
+          "badge": "Sale",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

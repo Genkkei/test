@@ -227,6 +227,94 @@
         "label": "Book a tasting",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Coffee for home",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Nespresso pods “Espresso”",
+          "text": "Our coffee in aluminium pods.",
+          "price": 72000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Ceramic V60 dripper",
+          "text": "For a clean cup of filter at home.",
+          "price": 218000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "French press 600 ml",
+          "text": "Glass and steel, three cups.",
+          "price": 191000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Hand grinder",
+          "text": "Steel burrs, espresso to French press.",
+          "price": 628000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Logo travel mug",
+          "text": "350 ml, keeps it hot for three hours.",
+          "price": 168000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Three origins” gift box",
+          "text": "Three 100 g bags and a tasting card.",
+          "price": 237000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "Bestseller",
+          "unit": "set"
+        },
+        {
+          "name": "Ethiopia Yirgacheffe",
+          "text": "Jasmine, bergamot, lemon zest. Light roast.",
+          "price": 172000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "Bestseller",
+          "unit": "250 g"
+        },
+        {
+          "name": "Colombia Huila",
+          "text": "Caramel, red apple, gentle acidity.",
+          "price": 150000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        }
+      ]
     }
   ]
 }

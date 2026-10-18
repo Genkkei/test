@@ -279,6 +279,94 @@
         "label": "Call the showroom",
         "href": "tel:+998712000112"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Loft” sofa bed",
+          "text": "Click-clack with linen drawer.",
+          "price": 8268000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Cocoon” armchair",
+          "text": "Bouclé on wooden legs.",
+          "price": 3392000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Recliner chair",
+          "text": "Footrest mechanism.",
+          "price": 4876000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round pouf",
+          "text": "Velvet, 50 cm.",
+          "price": 943000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Upholstered bed",
+          "text": "160×200 with lift storage.",
+          "price": 6572000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Hallway bench",
+          "text": "Soft seat, shoe shelf.",
+          "price": 1431000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Throw cushion",
+          "text": "Linen, 45×45.",
+          "price": 191000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Mini” loveseat",
+          "text": "For a small living room, 160 cm.",
+          "price": 5194000,
+          "oldPrice": 6233000,
+          "image": "",
+          "category": "Sofas",
+          "badge": "Sale",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

@@ -12,7 +12,10 @@ export async function POST(request: Request) {
   if (str(body.website, 100)) return Response.json({ ok: true })
   const slug = str(body.slug, 60)
   const site = await getSite(slug, str(body.lang, 5) || undefined)
-  if (!site || !site.leads.enabled) return Response.json({ ok: false, error: 'off' }, { status: 404 })
+  if (!site) return Response.json({ ok: false, error: 'off' }, { status: 404 })
+  // демо из каталога: форма работает, но заявка никуда не уходит — так и говорим посетителю
+  if (site.listing.forSale) return Response.json({ ok: true, demo: true })
+  if (!site.leads.enabled) return Response.json({ ok: false, error: 'off' }, { status: 404 })
   const lead = { name: str(body.name, 80), phone: str(body.phone, 30), date: str(body.date, 20), time: str(body.time, 10), comment: str(body.comment, 600), items: str(body.items, 600) }
   if (lead.name.length < 2 || lead.phone.replace(/\D/g, '').length < 7) return Response.json({ ok: false, error: 'fields' }, { status: 400 })
   const ip = request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'local'

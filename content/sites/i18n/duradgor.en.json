@@ -341,6 +341,94 @@
         "label": "Discuss an order",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2619000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1552000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 4656000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bedside table",
+          "text": "Drawer and niche.",
+          "price": 766000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "TV stand 180",
+          "text": "Fluted fronts, hidden cable channel.",
+          "price": 3007000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Writing desk",
+          "text": "120×60 with a small drawer.",
+          "price": 1649000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Floor mirror",
+          "text": "Oak frame, 170 cm.",
+          "price": 1212000,
+          "oldPrice": 1454000,
+          "image": "",
+          "category": "Decor",
+          "badge": "Sale",
+          "unit": "pc"
+        },
+        {
+          "name": "Two-door wardrobe",
+          "text": "Rail and shelves, 100 cm.",
+          "price": 3783000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

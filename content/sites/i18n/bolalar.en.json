@@ -235,6 +235,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/bolalar_mebel"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Kids’ catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Moon” night light",
+          "text": "Warm light, 30-minute timer.",
+          "price": 247000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "House bed",
+          "text": "Solid birch, 80×160, rails.",
+          "price": 3230000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kids",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Growing desk and chair",
+          "text": "Adjusts from 3 to 14 years.",
+          "price": 2755000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kids",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Bunk bed",
+          "text": "Drawer stairs, sleeps two.",
+          "price": 6460000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kids",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Toy shelf",
+          "text": "Six bins, low enough to reach.",
+          "price": 1045000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Changing chest",
+          "text": "Removable top, four drawers.",
+          "price": 2280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Kids’ sofa",
+          "text": "Folds out into a play mat.",
+          "price": 903000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Mushroom pouf",
+          "text": "Washable velvet.",
+          "price": 370000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

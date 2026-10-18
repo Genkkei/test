@@ -290,6 +290,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/shirin_cakes"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Cakes and desserts delivered",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Red velvet cake",
+          "text": "With cream cheese frosting. 1.5 kg.",
+          "price": 306000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Macarons, 12 pcs",
+          "text": "Pistachio, raspberry, salted caramel, lemon.",
+          "price": 162000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Boxes",
+          "badge": "Bestseller",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Éclairs, 6 pcs",
+          "text": "Vanilla, chocolate, coffee.",
+          "price": 108000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Almond croissant",
+          "text": "French butter, almond cream.",
+          "price": 29000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Berry tart",
+          "text": "Shortcrust, cream, fresh berries.",
+          "price": 40000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Bento cake",
+          "text": "Small cake for two with your message.",
+          "price": 135000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Kartoshka” truffle cake",
+          "text": "Like in childhood, cocoa and rum.",
+          "price": 20000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Tea-time box",
+          "text": "Six pastries, baker’s choice.",
+          "price": 122000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Boxes",
+          "badge": "",
+          "unit": "set"
+        }
+      ]
     }
   ]
 }

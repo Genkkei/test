@@ -92,51 +92,6 @@
       "image": ""
     },
     {
-      "id": "shop",
-      "type": "services",
-      "label": "Katalog",
-      "title": "Hozir stollarda nima bor",
-      "intro": "Narxlar — asosiy komplektatsiya uchun. Mavjudlik va boshqa versiyalarni Telegramda aniqlang.",
-      "items": [
-        {
-          "title": "Pro 6.1″ smartfon",
-          "text": "6,1″ OLED 120 Gs · 256 GB · uchlik 48 Mp kamera · eSIM",
-          "price": "12 900 000 so‘m",
-          "tag": "yangi"
-        },
-        {
-          "title": "Lite smartfon",
-          "text": "6,5″ AMOLED · 128 GB · 5000 mA·s · NFC",
-          "price": "2 900 000 so‘m",
-          "tag": ""
-        },
-        {
-          "title": "Air 13″ noutbuk",
-          "text": "13,6″ · 16 GB OXQ · 512 GB SSD · 18 soat ishlash",
-          "price": "14 500 000 so‘m",
-          "tag": "xit"
-        },
-        {
-          "title": "O‘qish uchun noutbuk",
-          "text": "15,6″ IPS · 8 GB OXQ · 256 GB SSD · Windows 11",
-          "price": "7 400 000 so‘m",
-          "tag": ""
-        },
-        {
-          "title": "ANC quloqchinlar",
-          "text": "Faol shovqin bostirish · 30 soat · USB-C · multinuqta",
-          "price": "3 200 000 so‘m",
-          "tag": ""
-        },
-        {
-          "title": "Aqlli soatlar",
-          "text": "1,9″ AMOLED · puls va SpO₂ · GPS · 7 kun quvvatsiz",
-          "price": "2 400 000 so‘m",
-          "tag": ""
-        }
-      ]
-    },
-    {
       "id": "stats",
       "type": "stats",
       "label": "",
@@ -322,6 +277,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/gadgetuz_store"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Do‘kon",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "65 Vt GaN quvvatlagich",
+          "text": "Uch port, noutbuk uchun.",
+          "price": 367000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Aksessuarlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Zarbga chidamli g‘ilof",
+          "text": "Mashhur modellar uchun.",
+          "price": 113000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Aksessuarlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Galaxy A-seriya smartfoni 256 GB",
+          "text": "12 oylik rasmiy kafolat.",
+          "price": 4033000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Smartfonlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "iPhone 17 128 GB",
+          "text": "Yangi, muhrlangan.",
+          "price": 12126000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Smartfonlar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Shovqin so‘ndiruvchi simsiz quloqchinlar",
+          "text": "G‘ilof bilan 30 soatgacha.",
+          "price": 931000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ovoz",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Bluetooth karnay",
+          "text": "IP67 namdan himoya, 12 soat.",
+          "price": 649000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Ovoz",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "20 000 mA·s powerbank",
+          "text": "22,5 Vt tez quvvat.",
+          "price": 301000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Aksessuarlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Aqlli soat",
+          "text": "Puls, uyqu, bildirishnomalar.",
+          "price": 1401000,
+          "oldPrice": 1681000,
+          "image": "",
+          "category": "Aksessuarlar",
+          "badge": "Chegirma",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

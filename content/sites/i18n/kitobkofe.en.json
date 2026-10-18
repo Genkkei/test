@@ -258,6 +258,94 @@
         "label": "Sign up",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Coffee for home",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Kenya AA",
+          "text": "Blackcurrant, grapefruit, juicy body.",
+          "price": 232000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "New",
+          "unit": "250 g"
+        },
+        {
+          "name": "Guatemala Antigua",
+          "text": "Cocoa, spice, long finish.",
+          "price": 189000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Decaf Colombia",
+          "text": "Caffeine-free, still tasty: caramel and almond.",
+          "price": 172000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Drip bags, assorted",
+          "text": "Ten filter cups, no gear: pour and wait three minutes.",
+          "price": 103000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "Bestseller",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Nespresso pods “Espresso”",
+          "text": "Our coffee in aluminium pods.",
+          "price": 85000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "",
+          "unit": "10 pcs"
+        },
+        {
+          "name": "Ceramic V60 dripper",
+          "text": "For a clean cup of filter at home.",
+          "price": 259000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "French press 600 ml",
+          "text": "Glass and steel, three cups.",
+          "price": 227000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Hand grinder",
+          "text": "Steel burrs, espresso to French press.",
+          "price": 745000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Brewing gear",
+          "badge": "New",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

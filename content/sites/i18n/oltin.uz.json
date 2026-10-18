@@ -328,6 +328,94 @@
         "label": "Telegramda yozilish",
         "href": "https://t.me/oltinuy"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Zargarlik buyumlari",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Bismark» zanjiri",
+          "text": "585 oltin, 50 sm.",
+          "price": 7524000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Marjon va zanjirlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bosh harfli marjon",
+          "text": "Gravyura bepul.",
+          "price": 1881000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Marjon va zanjirlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Zanjir bilaguzuk",
+          "text": "585 oltin, 18 sm.",
+          "price": 2673000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Marjon va zanjirlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Zargarlik qutisi",
+          "text": "Baxmal, oyna.",
+          "price": 446000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Unashuv uzugi, olmos 0,3 kt",
+          "text": "585 oq oltin, sertifikat.",
+          "price": 14751000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Uzuklar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Nikoh uzuklari, juft",
+          "text": "585 sariq oltin, qulay o‘tirish.",
+          "price": 9702000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Uzuklar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Pusetlar",
+          "text": "585 oltin, fianitlar.",
+          "price": 2376000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sirg‘alar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Halqa sirg‘alar",
+          "text": "585 oltin, 20 mm.",
+          "price": 3069000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sirg‘alar",
+          "badge": "Yangi",
+          "unit": "to‘plam"
+        }
+      ]
     }
   ]
 }

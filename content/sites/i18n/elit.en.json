@@ -272,6 +272,94 @@
         "label": "Book",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Two-door wardrobe",
+          "text": "Rail and shelves, 100 cm.",
+          "price": 3978000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Oak” dining table 160",
+          "text": "Solid oak, oil-wax finish.",
+          "price": 5508000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Bentwood” chair",
+          "text": "Beech with soft seat.",
+          "price": 704000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 1938000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2754000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1632000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 4896000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bedside table",
+          "text": "Drawer and niche.",
+          "price": 806000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

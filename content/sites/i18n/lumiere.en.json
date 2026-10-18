@@ -302,6 +302,94 @@
         "label": "Call to order",
         "href": "tel:+998712000011"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Cakes and desserts delivered",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Almond croissant",
+          "text": "French butter, almond cream.",
+          "price": 29000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Berry tart",
+          "text": "Shortcrust, cream, fresh berries.",
+          "price": 40000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Bento cake",
+          "text": "Small cake for two with your message.",
+          "price": 135000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Kartoshka” truffle cake",
+          "text": "Like in childhood, cocoa and rum.",
+          "price": 20000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pastries",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Tea-time box",
+          "text": "Six pastries, baker’s choice.",
+          "price": 122000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Boxes",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Honey cake",
+          "text": "Eight layers, sour-cream frosting. 1.2 kg.",
+          "price": 234000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Napoleon",
+          "text": "Puff pastry and custard. 1 kg.",
+          "price": 216000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "New York cheesecake",
+          "text": "Cream cheese on a shortbread base. 1 kg.",
+          "price": 261000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cakes",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

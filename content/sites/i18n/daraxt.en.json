@@ -257,6 +257,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/daraxt_eco"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Two-door wardrobe",
+          "text": "Rail and shelves, 100 cm.",
+          "price": 3627000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Oak” dining table 160",
+          "text": "Solid oak, oil-wax finish.",
+          "price": 5022000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Bentwood” chair",
+          "text": "Beech with soft seat.",
+          "price": 642000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 1767000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2511000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1488000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 4464000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bedside table",
+          "text": "Drawer and niche.",
+          "price": 735000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

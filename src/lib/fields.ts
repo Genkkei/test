@@ -6,7 +6,7 @@ import type { SectionType } from './schema'
  */
 
 export type Field =
-  | { key: string; label: string; kind: 'text' | 'textarea' | 'image' | 'bool' | 'strings'; hint?: string }
+  | { key: string; label: string; kind: 'text' | 'textarea' | 'image' | 'bool' | 'strings' | 'number'; hint?: string }
   | { key: string; label: string; kind: 'link' }
   | { key: string; label: string; kind: 'list'; item: Field[]; itemLabel: string; empty: Record<string, unknown> }
 
@@ -203,5 +203,30 @@ export const SECTION_META: Record<SectionType, { name: string; description: stri
     name: 'Контакты',
     description: 'Телефон, адрес и часы берутся из «Бизнеса».',
     fields: [...common, { key: 'text', label: 'Текст', kind: 'textarea' }, { key: 'cta', label: 'Кнопка', kind: 'link' }],
+  },
+  shop: {
+    name: 'Интернет-магазин',
+    description: 'Товары с ценами: покупатель кладёт их в корзину и оформляет заказ — он приходит в Telegram (вкладка «Заявки в Telegram»).',
+    fields: [
+      ...common,
+      { key: 'text', label: 'Текст над товарами', kind: 'textarea' },
+      {
+        key: 'items',
+        label: 'Товары',
+        kind: 'list',
+        itemLabel: 'Товар',
+        empty: { name: '', text: '', price: 0, oldPrice: 0, image: '', category: '', badge: '', unit: '' },
+        item: [
+          { key: 'name', label: 'Название', kind: 'text' },
+          { key: 'price', label: 'Цена, сум (только цифры)', kind: 'number', hint: '0 — «цена по запросу», в корзину не кладётся' },
+          { key: 'oldPrice', label: 'Старая цена, сум (для скидки)', kind: 'number' },
+          { key: 'unit', label: 'За что цена', kind: 'text', hint: 'шт, кг, м², 250 г — можно пусто' },
+          { key: 'category', label: 'Категория', kind: 'text', hint: 'по ней фильтр над товарами' },
+          { key: 'badge', label: 'Метка', kind: 'text', hint: 'Новинка, Хит, −20%' },
+          { key: 'text', label: 'Описание', kind: 'textarea' },
+          { key: 'image', label: 'Фото', kind: 'image' },
+        ],
+      },
+    ],
   },
 }

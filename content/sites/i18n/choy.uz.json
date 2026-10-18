@@ -320,6 +320,94 @@
         "label": "Telegramda band qilish",
         "href": "https://t.me/choyuyi"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Choy va idishlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Uyqu» o‘t yig‘masi",
+          "text": "Yalpiz, moychechak, melissa.",
+          "price": 64000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "Yangi",
+          "unit": "100 g"
+        },
+        {
+          "name": "Naqshli piyola",
+          "text": "Rishton keramikasi, qo‘lda bezak.",
+          "price": 60000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Idishlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Paxta» choynagi",
+          "text": "Paxta naqshli chinni, 1 l.",
+          "price": 221000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Idishlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Choyxona» to‘plami",
+          "text": "Choynak, olti piyola va 250 g choy.",
+          "price": 543000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "«Toshkent 95» ko‘k choyi",
+          "text": "O‘sha, yumshoq bujmaygan ta’m.",
+          "price": 41000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "Xit",
+          "unit": "250 g"
+        },
+        {
+          "name": "Puer shu 2015",
+          "text": "Tuproq, quruq meva, iliq ta’m.",
+          "price": 202000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "«Te Guan In» uluni",
+          "text": "Gulli, qaymoqli.",
+          "price": 166000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "Assam qora choyi",
+          "text": "Kuchli, sut bilan.",
+          "price": 87000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "",
+          "unit": "250 g"
+        }
+      ]
     }
   ]
 }

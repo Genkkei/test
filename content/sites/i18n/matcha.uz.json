@@ -254,6 +254,94 @@
         "label": "Telegramga yozish",
         "href": "https://t.me/midorimatcha"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga matcha",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Marosim matchasi",
+          "text": "Udzi, birinchi terim. Yorqin, shirin.",
+          "price": 316000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Matcha",
+          "badge": "Xit",
+          "unit": "100 g"
+        },
+        {
+          "name": "Latte uchun matcha",
+          "text": "Quyuq ta’m, sut bilan yaxshi.",
+          "price": 207000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Matcha",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "Xodzicha",
+          "text": "Qovurilgan ko‘k choy: yong‘oq, karamel.",
+          "price": 164000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Matcha",
+          "badge": "Yangi",
+          "unit": "100 g"
+        },
+        {
+          "name": "Chasen ko‘pirtirgich",
+          "text": "Bambuk, 100 tishli.",
+          "price": 153000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Tyavan kosasi",
+          "text": "Qo‘lda yasalgan keramika.",
+          "price": 283000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Birinchi matcha» to‘plami",
+          "text": "30 g matcha, ko‘pirtirgich, qoshiq, yo‘riqnoma.",
+          "price": 349000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Sencha",
+          "text": "Klassik yapon ko‘k choyi.",
+          "price": 131000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Choy",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "Saqlash bankasi",
+          "text": "Yorug‘lik va namlikni o‘tkazmaydi.",
+          "price": 82000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

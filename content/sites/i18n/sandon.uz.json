@@ -298,6 +298,94 @@
         "label": "O‘lchovchini chaqirish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Tayyor buyumlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Kamin to‘plami",
+          "text": "Kocherga, kurak, cho‘tka, qisqich.",
+          "price": 931000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kaminlar va pechlar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Bolg‘alangan o‘tinxona",
+          "text": "Uy va terrasa uchun.",
+          "price": 722000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kaminlar va pechlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Gril panjarasi",
+          "text": "Zanglamas, dastali, 40×30 sm.",
+          "price": 200000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Manqallar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Manqal g‘ilofi",
+          "text": "Namga chidamli mato.",
+          "price": 247000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Manqallar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Klassik» manqal 6 mm",
+          "text": "10 six uchun, 6 mm po‘lat, tom.",
+          "price": 3705000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Manqallar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Qozon pechi",
+          "text": "12–22 l qozon uchun, kolosnikli eshik.",
+          "price": 2280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kaminlar va pechlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Manqal majmuasi",
+          "text": "Manqal, pech, stol usti va o‘tin joyi.",
+          "price": 13775000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Manqallar",
+          "badge": "Yangi",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Bolg‘alangan sixlar, 10 dona",
+          "text": "Zanglamas, jingalak dasta.",
+          "price": 399000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Manqallar",
+          "badge": "",
+          "unit": "to‘plam"
+        }
+      ]
     }
   ]
 }

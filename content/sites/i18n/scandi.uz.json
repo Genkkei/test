@@ -294,6 +294,94 @@
         "label": "Qo‘ng‘iroq qilish",
         "href": "tel:+998712000111"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mebel katalogi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Nordik» karavot 160×200",
+          "text": "Qarag‘ay massivi, ortoped asos.",
+          "price": 5280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Karavotlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Karavot yoni tumbasi",
+          "text": "Tortma va tokcha.",
+          "price": 869000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "TV-tumba 180",
+          "text": "Rifli fasadlar, yashirin kabel kanali.",
+          "price": 3410000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Yozuv stoli",
+          "text": "120×60, mayda narsalar tortmasi.",
+          "price": 1870000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Polga qo‘yiladigan oyna",
+          "text": "Eman rama, 170 sm.",
+          "price": 1375000,
+          "oldPrice": 1650000,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Chegirma",
+          "unit": "dona"
+        },
+        {
+          "name": "Ikki eshikli shkaf",
+          "text": "Shtanga va tokchalar, 100 sm.",
+          "price": 4290000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Eman» ovqat stoli 160",
+          "text": "Eman massivi, moy-mum.",
+          "price": 5940000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Vena» stuli",
+          "text": "Buk, yumshoq o‘rindiq.",
+          "price": 759000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslo va stullar",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

@@ -222,6 +222,94 @@
         "label": "Joy band qilish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga qahva",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Dekaf Kolumbiya",
+          "text": "Kofeinsiz, lekin mazali: karamel va bodom.",
+          "price": 175000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Drip-paketlar, assorti",
+          "text": "Varonkasiz o‘nta filtr: suv quyib uch daqiqa kutasiz.",
+          "price": 105000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip va kapsulalar",
+          "badge": "Xit",
+          "unit": "10 dona"
+        },
+        {
+          "name": "Nespresso kapsulalari «Espresso»",
+          "text": "Bizning qahva alyumin kapsulalarda.",
+          "price": 87000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip va kapsulalar",
+          "badge": "",
+          "unit": "10 dona"
+        },
+        {
+          "name": "V60 keramik varonka",
+          "text": "Uyda toza filtr qahva uchun.",
+          "price": 264000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Frensh-press 600 ml",
+          "text": "Shisha va po‘lat, uch piyola uchun.",
+          "price": 231000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Qo‘l kofe tegirmoni",
+          "text": "Po‘lat jernovlar, espressodan frenshgacha.",
+          "price": 759000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Logotipli termokrujka",
+          "text": "350 ml, issiqlikni uch soat saqlaydi.",
+          "price": 204000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Uch mamlakat» sovg‘a to‘plami",
+          "text": "Uch qadoq 100 g dan va ta’m tavsifi bilan otkritka.",
+          "price": 286000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        }
+      ]
     }
   ]
 }

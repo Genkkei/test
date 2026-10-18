@@ -4,6 +4,8 @@ import { Media } from '@/motion/art'
 import { Marquee } from '@/motion/widgets'
 import { humanHours, ui } from '@/lib/i18n'
 import { palette, type SectionProps, type SectionRenderers } from '@/templates/types'
+import { AddToCart, ShopFilter } from './shop/AddToCart'
+import { money } from './shop/money'
 
 /*
  * Базовые секции. Разметка семантическая и одинаковая для всех шаблонов,
@@ -364,6 +366,46 @@ function Contact({ section: s, site }: SectionProps<'contact'>) {
   )
 }
 
+/** Интернет-магазин: компактные карточки товаров (фото, название, цена, «В корзину»). Вид — переменные темы. */
+function Shop({ section: s, site, art }: SectionProps<'shop'>) {
+  const cats = [...new Set(s.items.map((it) => it.category).filter(Boolean))]
+  const gridId = `shop-${s.id}`
+  return (
+    <Shell id={s.anchor} type="shop">
+      <Head label={s.label} title={s.title}>
+        {s.text ? <p className="s-shop__text">{s.text}</p> : null}
+      </Head>
+      <ShopFilter cats={cats} lang={site.lang} target={gridId} />
+      <ul className="shop-grid" id={gridId}>
+        {s.items.map((it, i) => (
+          <li key={i} className="shop-card" data-cat={it.category || undefined}>
+            <div className="shop-card__img">
+              <Media src={it.image} alt={it.name} seed={`${site.slug}-p${i}`} colors={palette(site)} kind={art} className="media" />
+              {it.badge ? <span className="shop-card__badge">{it.badge}</span> : null}
+            </div>
+            <div className="shop-card__body">
+              <h3 className="shop-card__name">{it.name}</h3>
+              {it.text ? <p className="shop-card__text">{it.text}</p> : null}
+              <p className="shop-card__price">
+                {it.price > 0 ? (
+                  <>
+                    <b>{money(it.price, site.lang)}</b>
+                    {it.unit ? <small> / {it.unit}</small> : null}
+                    {it.oldPrice > it.price ? <s>{money(it.oldPrice, site.lang)}</s> : null}
+                  </>
+                ) : (
+                  <b>{ui(site.lang, 'priceOnRequest')}</b>
+                )}
+              </p>
+              {it.price > 0 ? <AddToCart k={`${s.id}:${i}`} lang={site.lang} /> : null}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </Shell>
+  )
+}
+
 export { humanHours }
 
 export const BASE: { [K in SectionType]: SectionRenderers[K] } = {
@@ -381,6 +423,7 @@ export const BASE: { [K in SectionType]: SectionRenderers[K] } = {
   gallery: Gallery,
   faq: Faq,
   contact: Contact,
+  shop: Shop,
 }
 
 /** Сводка-ответ (AEO) — фактический абзац сразу после первого экрана. */

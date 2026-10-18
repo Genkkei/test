@@ -260,6 +260,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/dizayn_gallery"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Bentwood” chair",
+          "text": "Beech with soft seat.",
+          "price": 662000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 1824000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2592000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1536000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "“Nordic” bed 160×200",
+          "text": "Solid pine, slatted base.",
+          "price": 4608000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bedside table",
+          "text": "Drawer and niche.",
+          "price": 758000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "TV stand 180",
+          "text": "Fluted fronts, hidden cable channel.",
+          "price": 2976000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Writing desk",
+          "text": "120×60 with a small drawer.",
+          "price": 1632000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

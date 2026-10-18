@@ -256,6 +256,15 @@ function FieldInput({ field, value, onChange }: { field: Field; value: any; onCh
       return <Text label={field.label} value={value ?? ''} onChange={onChange} area hint={field.hint} />
     case 'image':
       return <ImageField label={field.label} value={value ?? ''} onChange={onChange} />
+    case 'number':
+      return (
+        <Text
+          label={field.label}
+          value={value ? String(value) : ''}
+          onChange={(v) => onChange(Math.max(0, Math.floor(Number(String(v).replace(/[^\d]/g, '')) || 0)))}
+          hint={field.hint}
+        />
+      )
     case 'bool':
       return <Toggle label={field.label} value={!!value} onChange={onChange} />
     case 'strings':

@@ -92,51 +92,6 @@
       "image": ""
     },
     {
-      "id": "shop",
-      "type": "services",
-      "label": "Catalogue",
-      "title": "On the tables right now",
-      "intro": "Prices are for the base configuration. Ask on Telegram about stock and other versions.",
-      "items": [
-        {
-          "title": "Pro 6.1″ phone",
-          "text": "6.1″ OLED 120 Hz · 256 GB · triple 48 MP camera · eSIM",
-          "price": "12,900,000 UZS",
-          "tag": "new"
-        },
-        {
-          "title": "Lite phone",
-          "text": "6.5″ AMOLED · 128 GB · 5000 mAh · NFC",
-          "price": "2,900,000 UZS",
-          "tag": ""
-        },
-        {
-          "title": "Air 13″ laptop",
-          "text": "13.6″ · 16 GB RAM · 512 GB SSD · 18-hour battery",
-          "price": "14,500,000 UZS",
-          "tag": "bestseller"
-        },
-        {
-          "title": "Student laptop",
-          "text": "15.6″ IPS · 8 GB RAM · 256 GB SSD · Windows 11",
-          "price": "7,400,000 UZS",
-          "tag": ""
-        },
-        {
-          "title": "ANC headphones",
-          "text": "Active noise cancelling · 30 hours · USB-C · multipoint",
-          "price": "3,200,000 UZS",
-          "tag": ""
-        },
-        {
-          "title": "Smartwatch",
-          "text": "1.9″ AMOLED · heart rate and SpO₂ · GPS · 7-day battery",
-          "price": "2,400,000 UZS",
-          "tag": ""
-        }
-      ]
-    },
-    {
       "id": "stats",
       "type": "stats",
       "label": "",
@@ -322,6 +277,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/gadgetuz_store"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Shop",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "65 W GaN charger",
+          "text": "Three ports, laptop-ready.",
+          "price": 367000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Accessories",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Rugged case",
+          "text": "For popular models.",
+          "price": 113000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Accessories",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Galaxy A-series phone 256 GB",
+          "text": "12-month official warranty.",
+          "price": 4033000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Phones",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "iPhone 17 128 GB",
+          "text": "New, sealed.",
+          "price": 12126000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Phones",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Noise-cancelling earbuds",
+          "text": "Up to 30 hours with case.",
+          "price": 931000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Audio",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Bluetooth speaker",
+          "text": "IP67, 12 hours.",
+          "price": 649000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Audio",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "20,000 mAh power bank",
+          "text": "22.5 W fast charging.",
+          "price": 301000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Accessories",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Smartwatch",
+          "text": "Heart rate, sleep, notifications.",
+          "price": 1401000,
+          "oldPrice": 1681000,
+          "image": "",
+          "category": "Accessories",
+          "badge": "Sale",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

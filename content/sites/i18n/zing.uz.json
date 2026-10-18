@@ -217,6 +217,84 @@
         "label": "Telegramda buyurtma berish",
         "href": "https://t.me/zingdrinks"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Ichimliklarni buyurtma qilish",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Original» energetigi",
+          "text": "Taurin, kofein, ortiqcha shakarsiz.",
+          "price": 13600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Energetiklar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Nol» energetigi",
+          "text": "Shakarsiz, greypfrut ta’mi.",
+          "price": 13600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Energetiklar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Tarxun» limonadi",
+          "text": "Haqiqiy estragon.",
+          "price": 11600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Limonadlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Anor va rayhon» limonadi",
+          "text": "O‘zbek anori.",
+          "price": 12600,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Limonadlar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "12 banka assorti qutisi",
+          "text": "Barcha ta’mlar, 15% chegirma.",
+          "price": 135000,
+          "oldPrice": 162000,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Chegirma",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Logotipli xudi",
+          "text": "Brend muxlislari uchun.",
+          "price": 310000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ijaraga vitrina-muzlatgich",
+          "text": "Do‘kon yoki ofis uchun, oyiga.",
+          "price": 242000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

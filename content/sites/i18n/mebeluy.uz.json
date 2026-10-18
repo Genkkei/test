@@ -248,6 +248,94 @@
         "label": "To‘plamni hisoblash",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mebel katalogi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "To‘rt tortmali komod",
+          "text": "Yopgichlar, LDSP + eman.",
+          "price": 2592000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ochiq javon",
+          "text": "Besh tokcha, metall va yog‘och.",
+          "price": 1536000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "«Nordik» karavot 160×200",
+          "text": "Qarag‘ay massivi, ortoped asos.",
+          "price": 4608000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Karavotlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Karavot yoni tumbasi",
+          "text": "Tortma va tokcha.",
+          "price": 758000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "TV-tumba 180",
+          "text": "Rifli fasadlar, yashirin kabel kanali.",
+          "price": 2976000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Yozuv stoli",
+          "text": "120×60, mayda narsalar tortmasi.",
+          "price": 1632000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Polga qo‘yiladigan oyna",
+          "text": "Eman rama, 170 sm.",
+          "price": 1200000,
+          "oldPrice": 1440000,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Chegirma",
+          "unit": "dona"
+        },
+        {
+          "name": "Ikki eshikli shkaf",
+          "text": "Shtanga va tokchalar, 100 sm.",
+          "price": 3744000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

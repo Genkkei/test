@@ -314,6 +314,94 @@
         "label": "Droplar Telegrami",
         "href": "https://t.me/krossovka_drops"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Do‘kon",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Tozalash to‘plami",
+          "text": "Ko‘pik, cho‘tka, salfetka.",
+          "price": 116000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Parvarish",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Sport paypoqlari, 3 juft",
+          "text": "Kompressiyali paxta.",
+          "price": 73000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Parvarish",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Ortopedik ichki taglik",
+          "text": "Oyoq gumbazini qo‘llab-quvvatlaydi.",
+          "price": 155000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Parvarish",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Yugurish krossovkalari",
+          "text": "Amortizatsiya, to‘r, 260 g.",
+          "price": 1251000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yugurish",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Klassik kedlar",
+          "text": "Oq, rezina tumshuq.",
+          "price": 572000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kundalik",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Retro krossovkalar",
+          "text": "Zamsha va to‘r.",
+          "price": 1057000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kundalik",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Treyl krossovkalari",
+          "text": "Tog‘ uchun protektor.",
+          "price": 1445000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yugurish",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Slaydlar",
+          "text": "Yumshoq ko‘pik.",
+          "price": 281000,
+          "oldPrice": 337000,
+          "image": "",
+          "category": "Kundalik",
+          "badge": "Chegirma",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

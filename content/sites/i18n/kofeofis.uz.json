@@ -294,6 +294,94 @@
         "label": "Band qilish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga qahva",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Efiopiya Irgacheffe",
+          "text": "Yasmin, bergamot, limon po‘stlog‘i. Och qovurilgan.",
+          "price": 183000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "250 g"
+        },
+        {
+          "name": "Kolumbiya Uila",
+          "text": "Karamel, qizil olma, yumshoq nordonlik.",
+          "price": 160000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Braziliya Serrado",
+          "text": "Shokolad va yong‘oq — espresso va sut uchun.",
+          "price": 135000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "«Uy» espresso aralashmasi",
+          "text": "Quyuq, shirin, achchiqsiz. Kofemashina uchun.",
+          "price": 407000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "1 kg"
+        },
+        {
+          "name": "Keniya AA",
+          "text": "Qora smorodina, greypfrut, to‘q ta’m.",
+          "price": 209000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Yangi",
+          "unit": "250 g"
+        },
+        {
+          "name": "Gvatemala Antigua",
+          "text": "Kakao, ziravorlar, uzoq ta’m.",
+          "price": 170000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Dekaf Kolumbiya",
+          "text": "Kofeinsiz, lekin mazali: karamel va bodom.",
+          "price": 154000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Drip-paketlar, assorti",
+          "text": "Varonkasiz o‘nta filtr: suv quyib uch daqiqa kutasiz.",
+          "price": 92000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip va kapsulalar",
+          "badge": "Xit",
+          "unit": "10 dona"
+        }
+      ]
     }
   ]
 }

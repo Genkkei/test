@@ -230,6 +230,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/yorug_home"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Light and furniture",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "White coffee table",
+          "text": "Ash veneer, 90 cm.",
+          "price": 1440000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Filament bulb",
+          "text": "E27, 2700 K, dimmable.",
+          "price": 40000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Dome” pendant",
+          "text": "Matte metal, Ø 40 cm.",
+          "price": 801000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Linen floor lamp",
+          "text": "Oak and linen, 160 cm.",
+          "price": 1125000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Mushroom” table lamp",
+          "text": "Opal glass, warm light.",
+          "price": 504000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Swing-arm sconce",
+          "text": "For reading in bed.",
+          "price": 423000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Bubbles” chandelier",
+          "text": "Six glass globes.",
+          "price": 2610000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Light shelf unit",
+          "text": "White oak, 180 cm.",
+          "price": 1710000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

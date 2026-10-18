@@ -265,6 +265,94 @@
         "label": "Don buyurtma",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga qahva",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Kolumbiya Uila",
+          "text": "Karamel, qizil olma, yumshoq nordonlik.",
+          "price": 150000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Braziliya Serrado",
+          "text": "Shokolad va yong‘oq — espresso va sut uchun.",
+          "price": 126000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "«Uy» espresso aralashmasi",
+          "text": "Quyuq, shirin, achchiqsiz. Kofemashina uchun.",
+          "price": 382000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "1 kg"
+        },
+        {
+          "name": "Keniya AA",
+          "text": "Qora smorodina, greypfrut, to‘q ta’m.",
+          "price": 196000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Yangi",
+          "unit": "250 g"
+        },
+        {
+          "name": "Gvatemala Antigua",
+          "text": "Kakao, ziravorlar, uzoq ta’m.",
+          "price": 159000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Dekaf Kolumbiya",
+          "text": "Kofeinsiz, lekin mazali: karamel va bodom.",
+          "price": 145000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Drip-paketlar, assorti",
+          "text": "Varonkasiz o‘nta filtr: suv quyib uch daqiqa kutasiz.",
+          "price": 86000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip va kapsulalar",
+          "badge": "Xit",
+          "unit": "10 dona"
+        },
+        {
+          "name": "Nespresso kapsulalari «Espresso»",
+          "text": "Bizning qahva alyumin kapsulalarda.",
+          "price": 72000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip va kapsulalar",
+          "badge": "",
+          "unit": "10 dona"
+        }
+      ]
     }
   ]
 }

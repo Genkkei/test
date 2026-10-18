@@ -242,6 +242,94 @@
         "label": "Buyurtma berish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Qutini buyurtma qiling",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Ko‘p martalik shisha",
+          "text": "Shisha, silikon g‘ilof, 500 ml.",
+          "price": 131000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Klassik kold-bryu",
+          "text": "18 soat sovuq ekstraksiya, shakarsiz.",
+          "price": 35000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "Xit",
+          "unit": "shisha"
+        },
+        {
+          "name": "Vanilli kold-bryu",
+          "text": "Tabiiy vanil, ozgina shirinlik.",
+          "price": 38000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "",
+          "unit": "shisha"
+        },
+        {
+          "name": "Sutli kold-bryu",
+          "text": "Shishada tayyor latte.",
+          "price": 39000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "",
+          "unit": "shisha"
+        },
+        {
+          "name": "Nitro kold-bryu",
+          "text": "Azot bilan: ko‘pik, qaymoqli ta’m.",
+          "price": 43000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "Yangi",
+          "unit": "shisha"
+        },
+        {
+          "name": "Kold-bryu tonik",
+          "text": "Qahva, tonik va apelsin.",
+          "price": 37000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "",
+          "unit": "shisha"
+        },
+        {
+          "name": "«Hafta» qutisi",
+          "text": "Olti shisha assorti chegirma bilan.",
+          "price": 195000,
+          "oldPrice": 234000,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Chegirma",
+          "unit": "6 shisha"
+        },
+        {
+          "name": "Konsentrat 1 l",
+          "text": "Suv yoki sut bilan birga-bir suyultiring.",
+          "price": 97000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kold-bryu",
+          "badge": "",
+          "unit": "l"
+        }
+      ]
     }
   ]
 }

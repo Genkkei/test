@@ -287,6 +287,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/kitobuyi"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Books",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Bygone Days”, Abdulla Qodiriy",
+          "text": "Hardcover.",
+          "price": 97000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fiction",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“The Master and Margarita”",
+          "text": "Illustrated edition.",
+          "price": 141000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fiction",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Atomic Habits”",
+          "text": "Small steps, big changes.",
+          "price": 125000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Non-fiction",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Sapiens”",
+          "text": "A brief history of humankind.",
+          "price": 147000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Non-fiction",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“The Little Prince”",
+          "text": "Gift edition.",
+          "price": 75000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kids",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Colouring book set",
+          "text": "Three books, ages 4–7.",
+          "price": 82000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kids",
+          "badge": "New",
+          "unit": "set"
+        },
+        {
+          "name": "Linen notebook",
+          "text": "A5 dotted, 160 pages.",
+          "price": 104000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Gift card 200,000 UZS",
+          "text": "Valid for a year.",
+          "price": 218000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

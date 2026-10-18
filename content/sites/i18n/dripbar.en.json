@@ -271,6 +271,94 @@
         "label": "Order to go",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Coffee for home",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Ethiopia Yirgacheffe",
+          "text": "Jasmine, bergamot, lemon zest. Light roast.",
+          "price": 197000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "Bestseller",
+          "unit": "250 g"
+        },
+        {
+          "name": "Colombia Huila",
+          "text": "Caramel, red apple, gentle acidity.",
+          "price": 172000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Brazil Cerrado",
+          "text": "Chocolate and nuts — for espresso and milk.",
+          "price": 145000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "House espresso blend",
+          "text": "Dense and sweet, no bitterness. For machines.",
+          "price": 437000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "Bestseller",
+          "unit": "1 kg"
+        },
+        {
+          "name": "Kenya AA",
+          "text": "Blackcurrant, grapefruit, juicy body.",
+          "price": 224000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "New",
+          "unit": "250 g"
+        },
+        {
+          "name": "Guatemala Antigua",
+          "text": "Cocoa, spice, long finish.",
+          "price": 182000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Decaf Colombia",
+          "text": "Caffeine-free, still tasty: caramel and almond.",
+          "price": 165000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beans",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Drip bags, assorted",
+          "text": "Ten filter cups, no gear: pour and wait three minutes.",
+          "price": 99000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Drip & capsules",
+          "badge": "Bestseller",
+          "unit": "10 pcs"
+        }
+      ]
     }
   ]
 }

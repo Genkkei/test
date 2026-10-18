@@ -242,6 +242,94 @@
         "label": "Order",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Order a crate",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Reusable bottle",
+          "text": "Glass with silicone sleeve, 500 ml.",
+          "price": 131000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Classic cold brew",
+          "text": "18 hours cold steep, no sugar.",
+          "price": 35000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "Bestseller",
+          "unit": "bottle"
+        },
+        {
+          "name": "Vanilla cold brew",
+          "text": "Real vanilla, a touch of sweetness.",
+          "price": 38000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "",
+          "unit": "bottle"
+        },
+        {
+          "name": "Cold brew latte",
+          "text": "Ready latte in a bottle.",
+          "price": 39000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "",
+          "unit": "bottle"
+        },
+        {
+          "name": "Nitro cold brew",
+          "text": "Nitrogen-charged, creamy head.",
+          "price": 43000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "New",
+          "unit": "bottle"
+        },
+        {
+          "name": "Cold brew tonic",
+          "text": "Coffee, tonic and orange.",
+          "price": 37000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "",
+          "unit": "bottle"
+        },
+        {
+          "name": "“Week” crate",
+          "text": "Six assorted bottles, discounted.",
+          "price": 195000,
+          "oldPrice": 234000,
+          "image": "",
+          "category": "Boxes",
+          "badge": "Sale",
+          "unit": "6 bottles"
+        },
+        {
+          "name": "Concentrate 1 l",
+          "text": "Mix one to one with water or milk.",
+          "price": 97000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Cold brew",
+          "badge": "",
+          "unit": "l"
+        }
+      ]
     }
   ]
 }

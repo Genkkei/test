@@ -329,6 +329,94 @@
         "label": "Telegramda buyurtma berish",
         "href": "https://t.me/dala_food"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Fermer do‘koni",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Farg‘ona bodomi",
+          "text": "Tozalangan, 2026 hosili.",
+          "price": 136000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Baqqollik",
+          "badge": "Yangi",
+          "unit": "kg"
+        },
+        {
+          "name": "Devzira guruch",
+          "text": "Palov uchun, saqlangan.",
+          "price": 35000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Baqqollik",
+          "badge": "Xit",
+          "unit": "kg"
+        },
+        {
+          "name": "Paxta yog‘i",
+          "text": "Rafinatsiyalanmagan, 1 l.",
+          "price": 26000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Baqqollik",
+          "badge": "",
+          "unit": "l"
+        },
+        {
+          "name": "«Hafta» savati",
+          "text": "Oila uchun sabzavot, ko‘kat, tuxum, pishloq.",
+          "price": 355000,
+          "oldPrice": 426000,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "Chegirma",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Issiqxona pomidori",
+          "text": "«Ho‘kiz yuragi» navi.",
+          "price": 16400,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fermer mahsulotlari",
+          "badge": "",
+          "unit": "kg"
+        },
+        {
+          "name": "Tog‘ asali",
+          "text": "Bo‘stonliq, filtrlanmagan, 1 kg.",
+          "price": 146000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fermer mahsulotlari",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Suluguni pishlog‘i",
+          "text": "Fermer sutidan.",
+          "price": 109000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fermer mahsulotlari",
+          "badge": "",
+          "unit": "kg"
+        },
+        {
+          "name": "Qishloq tuxumi, 10 dona",
+          "text": "Erkin yuradigan tovuqlar.",
+          "price": 25000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fermer mahsulotlari",
+          "badge": "",
+          "unit": "10 dona"
+        }
+      ]
     }
   ]
 }

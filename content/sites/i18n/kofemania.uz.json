@@ -260,6 +260,94 @@
         "label": "Vafli buyurtma",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga qahva",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Frensh-press 600 ml",
+          "text": "Shisha va po‘lat, uch piyola uchun.",
+          "price": 210000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Qo‘l kofe tegirmoni",
+          "text": "Po‘lat jernovlar, espressodan frenshgacha.",
+          "price": 690000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Damlash uchun",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Logotipli termokrujka",
+          "text": "350 ml, issiqlikni uch soat saqlaydi.",
+          "price": 185000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Uch mamlakat» sovg‘a to‘plami",
+          "text": "Uch qadoq 100 g dan va ta’m tavsifi bilan otkritka.",
+          "price": 260000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Efiopiya Irgacheffe",
+          "text": "Yasmin, bergamot, limon po‘stlog‘i. Och qovurilgan.",
+          "price": 189000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "250 g"
+        },
+        {
+          "name": "Kolumbiya Uila",
+          "text": "Karamel, qizil olma, yumshoq nordonlik.",
+          "price": 165000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Braziliya Serrado",
+          "text": "Shokolad va yong‘oq — espresso va sut uchun.",
+          "price": 139000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "«Uy» espresso aralashmasi",
+          "text": "Quyuq, shirin, achchiqsiz. Kofemashina uchun.",
+          "price": 420000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "1 kg"
+        }
+      ]
     }
   ]
 }

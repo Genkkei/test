@@ -328,6 +328,94 @@
         "label": "Book on Telegram",
         "href": "https://t.me/oltinuy"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Jewellery",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Bismarck chain",
+          "text": "14k gold, 50 cm.",
+          "price": 7524000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Necklaces",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Initial pendant",
+          "text": "Free engraving.",
+          "price": 1881000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Necklaces",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Chain bracelet",
+          "text": "14k gold, 18 cm.",
+          "price": 2673000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Necklaces",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Jewellery box",
+          "text": "Velvet with mirror.",
+          "price": 446000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Engagement ring, 0.3 ct diamond",
+          "text": "14k white gold, certified.",
+          "price": 14751000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Rings",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Wedding bands, pair",
+          "text": "14k yellow gold, comfort fit.",
+          "price": 9702000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Rings",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Stud earrings",
+          "text": "14k gold, cubic zirconia.",
+          "price": 2376000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Earrings",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Hoop earrings",
+          "text": "14k gold, 20 mm.",
+          "price": 3069000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Earrings",
+          "badge": "New",
+          "unit": "set"
+        }
+      ]
     }
   ]
 }

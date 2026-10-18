@@ -302,6 +302,94 @@
         "label": "Qo‘ng‘iroq qilib buyurtma berish",
         "href": "tel:+998712000011"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Yetkazib berish bilan tort va desertlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Bodomli kruassan",
+          "text": "Fransuz yog‘i, bodom kremi.",
+          "price": 29000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Rezavorli tart",
+          "text": "Qumloq xamir, krem, yangi rezavorlar.",
+          "price": 40000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bento-tort",
+          "text": "Yozuvingiz bilan ikki kishilik kichik tort.",
+          "price": 135000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "«Kartoshka» pirojniysi",
+          "text": "Bolalikdagidek, kakao bilan.",
+          "price": 20000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pirojniylar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Choy uchun to‘plam",
+          "text": "Qandolatchi tanlagan olti pirojniy.",
+          "price": 122000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "To‘plamlar",
+          "badge": "",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Medovik",
+          "text": "Sakkiz qatlam, smetanali krem. 1,2 kg.",
+          "price": 234000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Napoleon",
+          "text": "Qatlamli xamir va qaynatilgan krem. 1 kg.",
+          "price": 216000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Nyu-York chizkeyki",
+          "text": "Qaymoqli pishloq, qumloq asos. 1 kg.",
+          "price": 261000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tortlar",
+          "badge": "",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

@@ -283,6 +283,94 @@
         "label": "Buyurtma berish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Uyga qahva",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Logotipli termokrujka",
+          "text": "350 ml, issiqlikni uch soat saqlaydi.",
+          "price": 202000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Uch mamlakat» sovg‘a to‘plami",
+          "text": "Uch qadoq 100 g dan va ta’m tavsifi bilan otkritka.",
+          "price": 283000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Merch",
+          "badge": "Xit",
+          "unit": "to‘plam"
+        },
+        {
+          "name": "Efiopiya Irgacheffe",
+          "text": "Yasmin, bergamot, limon po‘stlog‘i. Och qovurilgan.",
+          "price": 206000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "250 g"
+        },
+        {
+          "name": "Kolumbiya Uila",
+          "text": "Karamel, qizil olma, yumshoq nordonlik.",
+          "price": 180000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "Braziliya Serrado",
+          "text": "Shokolad va yong‘oq — espresso va sut uchun.",
+          "price": 152000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        },
+        {
+          "name": "«Uy» espresso aralashmasi",
+          "text": "Quyuq, shirin, achchiqsiz. Kofemashina uchun.",
+          "price": 458000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Xit",
+          "unit": "1 kg"
+        },
+        {
+          "name": "Keniya AA",
+          "text": "Qora smorodina, greypfrut, to‘q ta’m.",
+          "price": 234000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "Yangi",
+          "unit": "250 g"
+        },
+        {
+          "name": "Gvatemala Antigua",
+          "text": "Kakao, ziravorlar, uzoq ta’m.",
+          "price": 191000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Don",
+          "badge": "",
+          "unit": "250 g"
+        }
+      ]
     }
   ]
 }

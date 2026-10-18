@@ -285,6 +285,94 @@
         "label": "Metall buyurtma",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Yetkazib berish bilan metall prokat",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "MR-3 elektrodlari Ø3",
+          "text": "5 kg qadoq.",
+          "price": 209000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Armatura va burchak",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Profil quvur 40×20×2",
+          "text": "Qora po‘lat, 6 m.",
+          "price": 25000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Quvur",
+          "badge": "Xit",
+          "unit": "m"
+        },
+        {
+          "name": "Profil quvur 60×40×2",
+          "text": "Ayvon va darvozalar uchun.",
+          "price": 42000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Quvur",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Profil quvur 80×80×3",
+          "text": "Ustunlar va yuk ko‘taruvchi qismlar.",
+          "price": 87000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Quvur",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Issiq prokat list 2 mm",
+          "text": "1250×2500 mm.",
+          "price": 759000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "List",
+          "badge": "",
+          "unit": "list"
+        },
+        {
+          "name": "Ruxlangan list 0,5 mm",
+          "text": "1250×2500 mm, tom uchun.",
+          "price": 341000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "List",
+          "badge": "",
+          "unit": "list"
+        },
+        {
+          "name": "A500S armatura Ø12",
+          "text": "Rifli, 11,7 m.",
+          "price": 10800,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Armatura va burchak",
+          "badge": "Xit",
+          "unit": "m"
+        },
+        {
+          "name": "Burchak 50×50×5",
+          "text": "Teng tokchali, 6 m.",
+          "price": 37000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Armatura va burchak",
+          "badge": "",
+          "unit": "m"
+        }
+      ]
     }
   ]
 }

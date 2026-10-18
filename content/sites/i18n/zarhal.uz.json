@@ -282,6 +282,94 @@
         "label": "Shourumga yozilish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mavjud buyumlar",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "Panjara bo‘lagi, metr",
+          "text": "«Klassika» naqshi, o‘rnatish alohida.",
+          "price": 1177000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "m"
+        },
+        {
+          "name": "Bolg‘alangan shamdon",
+          "text": "Uchta sham uchun, qo‘lda bolg‘alangan.",
+          "price": 417000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Taqa kalitdon",
+          "text": "Besh ilmoq, omad uchun.",
+          "price": 193000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Kronshteynli tokcha",
+          "text": "Eman va qora metall, 80 sm.",
+          "price": 556000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Loft devor ilgichi",
+          "text": "Olti ilmoq, kukun bo‘yoq.",
+          "price": 364000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Vino tokchasi",
+          "text": "Olti shisha uchun.",
+          "price": 482000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Osma gultuvak",
+          "text": "Bolg‘alangan halqa va zanjir.",
+          "price": 310000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Bog‘ uchun",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Uy raqami lavhasi",
+          "text": "Lazer kesish, sizning raqamingiz.",
+          "price": 374000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "Xit",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

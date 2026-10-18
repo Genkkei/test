@@ -12,6 +12,7 @@ import type { Leads } from '@/lib/schema'
 export function LeadDialog({ slug, lang, leads, phone }: { slug: string; lang: string; leads: Leads; phone: string }) {
   const ref = useRef<HTMLDialogElement>(null)
   const [state, setState] = useState<'idle' | 'sending' | 'done' | 'error'>('idle')
+  const [demo, setDemo] = useState(false)
   const [err, setErr] = useState('')
   const t = (ru: string, uz: string, en: string) => pick(lang, { ru, uz, en })
   const booking = leads.kind === 'booking'
@@ -35,8 +36,11 @@ export function LeadDialog({ slug, lang, leads, phone }: { slug: string; lang: s
     setState('sending')
     try {
       const res = await fetch('/api/lead', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ ...data, slug, lang, page: location.href }) })
-      const out = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string }
-      if (out.ok) return setState('done')
+      const out = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string; demo?: boolean }
+      if (out.ok) {
+        setDemo(!!out.demo)
+        return setState('done')
+      }
       setErr(
         out.error === 'rate'
           ? t('Слишком много заявок подряд. Попробуйте через 10 минут или позвоните нам.', 'Juda ko‘p ariza. 10 daqiqadan keyin urinib ko‘ring yoki qo‘ng‘iroq qiling.', 'Too many requests. Try again in 10 minutes or call us.')
@@ -60,8 +64,12 @@ export function LeadDialog({ slug, lang, leads, phone }: { slug: string; lang: s
       </button>
       {state === 'done' ? (
         <div className="lead__done">
-          <p className="lead__title">{t('Заявка отправлена', 'Ariza yuborildi', 'Request sent')}</p>
-          <p>{leads.thanks || t('Спасибо! Мы свяжемся с вами в ближайшее время.', 'Rahmat! Tez orada siz bilan bog‘lanamiz.', 'Thank you! We will get back to you shortly.')}</p>
+          <p className="lead__title">{demo ? t('Это демо-сайт', 'Bu demo-sayt', 'This is a demo site') : t('Заявка отправлена', 'Ariza yuborildi', 'Request sent')}</p>
+          <p>
+            {demo
+              ? t('Так выглядит заявка. На сайте владельца она сразу приходит ему в Telegram.', 'Ariza shunday ko‘rinadi. Egasining saytida u darhol uning Telegramiga keladi.', 'This is how a request works. On the owner’s site it goes straight to their Telegram.')
+              : leads.thanks || t('Спасибо! Мы свяжемся с вами в ближайшее время.', 'Rahmat! Tez orada siz bilan bog‘lanamiz.', 'Thank you! We will get back to you shortly.')}
+          </p>
           <button className="lead__btn" onClick={() => ref.current?.close()}>
             {t('Хорошо', 'Yaxshi', 'OK')}
           </button>

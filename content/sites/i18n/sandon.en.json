@@ -298,6 +298,94 @@
         "label": "Book a measurer",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Ready-made pieces",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Fireplace tool set",
+          "text": "Poker, shovel, brush and tongs on a stand.",
+          "price": 931000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fireplaces",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Forged log holder",
+          "text": "For home or terrace.",
+          "price": 722000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fireplaces",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Grill grate",
+          "text": "Stainless with handles, 40×30 cm.",
+          "price": 200000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Grills",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Grill cover",
+          "text": "Water-resistant fabric.",
+          "price": 247000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Grills",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Classic” grill 6 mm",
+          "text": "10 skewers, 6 mm steel, roof.",
+          "price": 3705000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Grills",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Kazan stove",
+          "text": "For 12–22 l kazan, grate door.",
+          "price": 2280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Fireplaces",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "BBQ station",
+          "text": "Grill, stove, worktop and log store.",
+          "price": 13775000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Grills",
+          "badge": "New",
+          "unit": "set"
+        },
+        {
+          "name": "Forged skewers, 10 pcs",
+          "text": "Stainless, scrolled handle.",
+          "price": 399000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Grills",
+          "badge": "",
+          "unit": "set"
+        }
+      ]
     }
   ]
 }

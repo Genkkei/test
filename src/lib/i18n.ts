@@ -51,7 +51,18 @@ export function mergeTranslation(base: Site, tr: Json, lang: string): Site {
       const t = byId.get(s.id)
       if (!t) return s
       // тип, включённость и якорь — из основного файла: перевод не меняет устройство страницы
-      return keepFormLinks({ ...s, ...t, id: s.id, type: s.type, enabled: s.enabled, anchor: s.anchor }, s) as typeof s
+      const merged = { ...s, ...t, id: s.id, type: s.type, enabled: s.enabled, anchor: s.anchor } as Json
+      // в магазине перевод даёт только слова: цены, фото и состав витрины всегда из основной версии,
+      // иначе правка цены в админке не дошла бы до узбекской и английской страниц
+      if (s.type === 'shop' && Array.isArray(t.items)) {
+        const words = t.items as Json[]
+        merged.items = s.items.map((it, i) => {
+          const w = words[i] || {}
+          const str = (k: string) => (typeof w[k] === 'string' && w[k] ? (w[k] as string) : (it as Json)[k])
+          return { ...it, name: str('name'), text: str('text'), category: str('category'), badge: str('badge'), unit: str('unit') }
+        })
+      }
+      return keepFormLinks(merged, s) as typeof s
     })
   }
   out.nav = keepFormLinks(out.nav, base.nav) as Site['nav']
@@ -96,6 +107,7 @@ export const UI = {
   email: { ru: 'Почта', uz: 'Pochta', en: 'Email' },
   address: { ru: 'Адрес', uz: 'Manzil', en: 'Address' },
   hours: { ru: 'Часы', uz: 'Ish vaqti', en: 'Hours' },
+  priceOnRequest: { ru: 'Цена по запросу', uz: 'Narxi so‘rov bo‘yicha', en: 'Price on request' },
   about: { ru: 'Коротко о нас', uz: 'Biz haqimizda qisqacha', en: 'About us in brief' },
   keywords: { ru: 'Ключевые слова', uz: 'Kalit so‘zlar', en: 'Keywords' },
   open: { ru: 'Открыть', uz: 'Ochish', en: 'Open' },

@@ -241,6 +241,94 @@
         "label": "Order",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Collections",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Chester” wingback",
+          "text": "Leather with button tufting.",
+          "price": 7474000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "China cabinet",
+          "text": "Glass, lighting, hand-painted.",
+          "price": 9898000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Console with mirror",
+          "text": "Gilded with gold leaf.",
+          "price": 6262000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "Marble coffee table",
+          "text": "Carrara and cast bronze.",
+          "price": 5656000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Crystal chandelier",
+          "text": "Eight arms, Czech crystal.",
+          "price": 8989000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Lighting",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Versailles” living set",
+          "text": "Sofa and two armchairs, carving, patina.",
+          "price": 28280000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "Bestseller",
+          "unit": "set"
+        },
+        {
+          "name": "Dining set for 8",
+          "text": "Extending table and eight chairs.",
+          "price": 19695000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "“Empire” bedroom",
+          "text": "Bed, two nightstands and a dresser.",
+          "price": 32320000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Beds",
+          "badge": "",
+          "unit": "set"
+        }
+      ]
     }
   ]
 }

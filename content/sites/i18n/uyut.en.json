@@ -272,6 +272,94 @@
         "label": "Order",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Throw cushion",
+          "text": "Linen, 45×45.",
+          "price": 187000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Mini” loveseat",
+          "text": "For a small living room, 160 cm.",
+          "price": 5096000,
+          "oldPrice": 6115000,
+          "image": "",
+          "category": "Sofas",
+          "badge": "Sale",
+          "unit": "pc"
+        },
+        {
+          "name": "“Scandi” 3-seater sofa",
+          "text": "Woven fabric, removable covers, 220 cm.",
+          "price": 7176000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Module” corner sofa",
+          "text": "Reversible corner, sleeps two.",
+          "price": 11856000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Loft” sofa bed",
+          "text": "Click-clack with linen drawer.",
+          "price": 8112000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Cocoon” armchair",
+          "text": "Bouclé on wooden legs.",
+          "price": 3328000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Recliner chair",
+          "text": "Footrest mechanism.",
+          "price": 4784000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round pouf",
+          "text": "Velvet, 50 cm.",
+          "price": 926000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

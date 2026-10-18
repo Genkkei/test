@@ -263,6 +263,94 @@
         "label": "Message on Telegram",
         "href": "https://t.me/smartmebel_uz"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Furniture catalogue",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Writing desk",
+          "text": "120×60 with a small drawer.",
+          "price": 1870000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Floor mirror",
+          "text": "Oak frame, 170 cm.",
+          "price": 1375000,
+          "oldPrice": 1650000,
+          "image": "",
+          "category": "Decor",
+          "badge": "Sale",
+          "unit": "pc"
+        },
+        {
+          "name": "Two-door wardrobe",
+          "text": "Rail and shelves, 100 cm.",
+          "price": 4290000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Oak” dining table 160",
+          "text": "Solid oak, oil-wax finish.",
+          "price": 5940000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Bentwood” chair",
+          "text": "Beech with soft seat.",
+          "price": 759000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Chairs",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Round coffee table",
+          "text": "Walnut veneer, 80 cm.",
+          "price": 2090000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Four-drawer chest",
+          "text": "Soft-close, board and oak.",
+          "price": 2970000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Open shelving unit",
+          "text": "Five shelves, metal and wood.",
+          "price": 1760000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Storage",
+          "badge": "New",
+          "unit": "pc"
+        }
+      ]
     }
   ]
 }

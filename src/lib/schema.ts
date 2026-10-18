@@ -88,6 +88,28 @@ export const sectionSchemas = {
     items: z.array(z.object({ q: text, a: text })).default([]),
   }),
   contact: z.object({ ...base, type: z.literal('contact'), text, cta: link }),
+  /** Интернет-магазин: товары с ценой в сумах, корзина и заказ в Telegram владельца. */
+  shop: z.object({
+    ...base,
+    type: z.literal('shop'),
+    text,
+    items: z
+      .array(
+        z.object({
+          name: text,
+          text,
+          /** цена в сумах целым числом; 0 — «цена по запросу», в корзину не кладётся */
+          price: z.number().int().min(0).default(0),
+          oldPrice: z.number().int().min(0).default(0),
+          image: text,
+          category: text,
+          badge: text,
+          /** «шт», «кг», «м²», «250 г» — пусто, если очевидно */
+          unit: text,
+        }),
+      )
+      .default([]),
+  }),
 } as const
 
 export type SectionType = keyof typeof sectionSchemas
@@ -108,6 +130,7 @@ export const sectionSchema = z.discriminatedUnion('type', [
   sectionSchemas.gallery,
   sectionSchemas.faq,
   sectionSchemas.contact,
+  sectionSchemas.shop,
 ])
 
 export type Section = z.infer<typeof sectionSchema>

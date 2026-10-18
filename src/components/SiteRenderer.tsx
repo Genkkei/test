@@ -1,4 +1,6 @@
 import { LeadDialog } from './LeadDialog'
+import { SiteChrome } from './SiteChrome'
+import { CartDrawer, type Product } from './shop/CartDrawer'
 import type { CSSProperties } from 'react'
 import type { Site } from '@/lib/schema'
 import { buildJsonLd } from '@/lib/seo'
@@ -41,6 +43,13 @@ export function themeStyle(site: Site): CSSProperties {
 
 /** Инлайн-скрипт до отрисовки: включает скрытие для появления, только если JS жив.
  *  Если среда движения не запустилась за 4 с — снимает скрытие, текст не теряется. */
+// Телефон: страница раскладывается на ширину экрана / 0.76 и вписывается в экран — все объекты
+// шаблона (шрифты, отступы, картинки) становятся мельче одинаково, без правки каждого шаблона.
+// Срабатывает до первой отрисовки; планшеты и компьютеры не трогает.
+// На телефоне вся страница уменьшается: слой раскладки шире экрана в 1/0.76 раза. Next ставит свою метку
+// viewport (иногда две, React добавляет их позже), поэтому правим все и следим за новыми.
+const PHONE_SCALE = `(function(){try{var w=Math.min(screen.width,innerWidth||screen.width);if(w>=600)return;var c='width='+Math.round(w/0.76)+', viewport-fit=cover';var a=function(){var l=document.querySelectorAll('meta[name=viewport]');for(var i=0;i<l.length;i++)if(l[i].content!==c)l[i].setAttribute('content',c)};a();new MutationObserver(a).observe(document.head,{childList:true,subtree:true})}catch(e){}})()`
+
 const MOTION_BOOT = `(function(){try{var d=document.documentElement;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;d.classList.add('motion');setTimeout(function(){if(!d.classList.contains('motion-live'))d.classList.remove('motion')},4000)}catch(e){}})()`
 
 export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?: string[] }) {
@@ -48,10 +57,16 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
   const { Shell } = tpl
   const sections = site.sections.filter((s) => s.enabled)
   const jsonLd = JSON.stringify(buildJsonLd(site)).replace(/</g, '\\u003c')
+  // товары всех секций магазина — для корзины (ключ «секция:номер», как у кнопки «В корзину»)
+  const products: Product[] = sections.flatMap((s) =>
+    s.type === 'shop' ? s.items.flatMap((it, i) => (it.price > 0 ? [{ key: `${s.id}:${i}`, name: it.name, price: it.price, unit: it.unit, image: it.image }] : [])) : [],
+  )
 
   return (
     <div className={`site tpl-${tpl.id}`} style={themeStyle(site)} data-template={tpl.id}>
+      <script dangerouslySetInnerHTML={{ __html: PHONE_SCALE }} />
       {site.theme.motion > 0 ? <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} /> : null}
+      <SiteChrome />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <MotionRuntime level={site.theme.motion} />
       <Shell site={site}>
@@ -71,7 +86,8 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
         })}
       </Shell>
       <LangSwitch site={site} langs={langs} />
-      {site.leads.enabled ? <LeadDialog slug={site.slug} lang={site.lang} leads={site.leads} phone={site.business.phone} /> : null}
+      {site.leads.enabled || site.listing.forSale ? <LeadDialog slug={site.slug} lang={site.lang} leads={site.leads} phone={site.business.phone} /> : null}
+      {products.length ? <CartDrawer slug={site.slug} lang={site.lang} products={products} demo={site.listing.forSale} phone={site.business.phone} /> : null}
     </div>
   )
 }

@@ -287,6 +287,94 @@
         "label": "Ariza qoldirish",
         "href": "#order"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Do‘kon",
+      "title": "Mebel katalogi",
+      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "items": [
+        {
+          "name": "«Loft» divan-karavot",
+          "text": "Yevrokitob, choyshab qutisi.",
+          "price": 8112000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Divanlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Pilla» kreslo",
+          "text": "Bukle, yog‘och oyoqlar.",
+          "price": 3328000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslo va stullar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
+          "name": "Kreslo-reklayner",
+          "text": "Oyoq tirgagi bilan mexanizm.",
+          "price": 4784000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslo va stullar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Dumaloq puf",
+          "text": "Velyur, 50 sm.",
+          "price": 926000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Yumshoq boshli karavot",
+          "text": "160×200, ko‘tarish mexanizmi.",
+          "price": 6448000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Karavotlar",
+          "badge": "Xit",
+          "unit": "dona"
+        },
+        {
+          "name": "Dahlizga banketka",
+          "text": "Yumshoq o‘rindiq, poyabzal tokchasi.",
+          "price": 1404000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Bezak yostig‘i",
+          "text": "Zig‘ir, 45×45.",
+          "price": 187000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Mini» ikki o‘rinli divan",
+          "text": "Kichik mehmonxona uchun, 160 sm.",
+          "price": 5096000,
+          "oldPrice": 6115000,
+          "image": "",
+          "category": "Divanlar",
+          "badge": "Chegirma",
+          "unit": "dona"
+        }
+      ]
     }
   ]
 }

@@ -329,6 +329,94 @@
         "label": "Order on Telegram",
         "href": "https://t.me/dala_food"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Farm shop",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "Fergana almonds",
+          "text": "Shelled, 2026 harvest.",
+          "price": 136000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pantry",
+          "badge": "New",
+          "unit": "kg"
+        },
+        {
+          "name": "Devzira rice",
+          "text": "Aged, for plov.",
+          "price": 35000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pantry",
+          "badge": "Bestseller",
+          "unit": "kg"
+        },
+        {
+          "name": "Cottonseed oil",
+          "text": "Unrefined, 1 l.",
+          "price": 26000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pantry",
+          "badge": "",
+          "unit": "l"
+        },
+        {
+          "name": "“Week” basket",
+          "text": "Vegetables, herbs, eggs and cheese for a family.",
+          "price": 355000,
+          "oldPrice": 426000,
+          "image": "",
+          "category": "Boxes",
+          "badge": "Sale",
+          "unit": "set"
+        },
+        {
+          "name": "Greenhouse tomatoes",
+          "text": "Ox-heart variety.",
+          "price": 16400,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Farm",
+          "badge": "",
+          "unit": "kg"
+        },
+        {
+          "name": "Mountain honey",
+          "text": "Bostanlyk, raw, 1 kg.",
+          "price": 146000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Farm",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "Suluguni cheese",
+          "text": "From farm milk.",
+          "price": 109000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Farm",
+          "badge": "",
+          "unit": "kg"
+        },
+        {
+          "name": "Free-range eggs, 10 pcs",
+          "text": "Free-range hens.",
+          "price": 25000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Farm",
+          "badge": "",
+          "unit": "10 pcs"
+        }
+      ]
     }
   ]
 }

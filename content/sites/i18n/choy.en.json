@@ -320,6 +320,94 @@
         "label": "Book on Telegram",
         "href": "https://t.me/choyuyi"
       }
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "title": "Tea and teaware",
+      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "items": [
+        {
+          "name": "“Sleep” herbal blend",
+          "text": "Mint, chamomile, lemon balm.",
+          "price": 64000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tea",
+          "badge": "New",
+          "unit": "100 g"
+        },
+        {
+          "name": "Patterned piala",
+          "text": "Rishtan ceramics, hand painted.",
+          "price": 60000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Teaware",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Cotton” teapot",
+          "text": "Cotton-pattern porcelain, 1 l.",
+          "price": 221000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Teaware",
+          "badge": "Bestseller",
+          "unit": "pc"
+        },
+        {
+          "name": "“Chaikhana” set",
+          "text": "Teapot, six pialas and 250 g tea.",
+          "price": 543000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Boxes",
+          "badge": "",
+          "unit": "set"
+        },
+        {
+          "name": "“Tashkent 95” green tea",
+          "text": "The classic one, gently brisk.",
+          "price": 41000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tea",
+          "badge": "Bestseller",
+          "unit": "250 g"
+        },
+        {
+          "name": "Shou puerh 2015",
+          "text": "Earthy, dried fruit, warming.",
+          "price": 202000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tea",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "Tieguanyin oolong",
+          "text": "Floral and creamy.",
+          "price": 166000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tea",
+          "badge": "",
+          "unit": "100 g"
+        },
+        {
+          "name": "Assam black tea",
+          "text": "Strong, good with milk.",
+          "price": 87000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tea",
+          "badge": "",
+          "unit": "250 g"
+        }
+      ]
     }
   ]
 }
