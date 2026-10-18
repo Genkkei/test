@@ -1,0 +1,328 @@
+{
+  "name": "Choyxona Bahor",
+  "tagline": "Qozondan palov, tandirdan somsa va uch marta qaytariladigan choy",
+  "niche": "Choyxona va milliy o‘zbek taomlari",
+  "nav": {
+    "cta": {
+      "label": "So‘ri band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Choyxona, milliy taomlar restorani yoki ziyofat zali uchun sayt. Iliq qog‘oz, islimiy naqsh, taomlar raqamlangan rasmli menyu va ravoqlardagi suratlar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Choyxona Bahor — Toshkentda palov va choyxona",
+    "description": "Qozondan ertalabki palov, tandir somsa, sho‘rva va favvora yonidagi so‘rida ko‘k choy. 120 mehmongacha ziyofatlar, Toshkent bo‘ylab yetkazib berish.",
+    "keywords": [
+      "palov Toshkent",
+      "choyxona Toshkent",
+      "ertalabki palov",
+      "o‘zbek taomlari",
+      "tandir somsa",
+      "ziyofat Toshkent"
+    ],
+    "answer": "Choyxona Bahor — Toshkent, Beshyog‘och ko‘chasi, 18 dagi choyxona, har kuni 8:00 dan 23:00 gacha ochiq. Ertalabki palov 8:00 dan 11:00 gacha beriladi — porsiyasi 55 000 so‘m, tandir somsa — 14 000 so‘m, choynak ko‘k choy — 12 000 so‘m. 120 mehmonlik ziyofat zali, shahar bo‘ylab yetkazib berish."
+  },
+  "business": {
+    "legalName": "«Bahor Choyxona» MChJ",
+    "street": "Beshyog‘och ko‘chasi, 18",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Bahor",
+      "eyebrow": "Choyxona · Beshyog‘och · ertalab 8 dan",
+      "subtitle": "Qirq kilolik qozondan ertalabki palov, tandirdan uzilgan somsa va damlanishi uchun uch marta qaytariladigan choy.",
+      "words": [
+        "palov",
+        "somsa",
+        "sho‘rva",
+        "choy"
+      ],
+      "cta": {
+        "label": "Menyuni ko‘rish",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Ziyofatlar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Ertalabki palov",
+        "Tandir somsa",
+        "Lag‘mon",
+        "Sho‘rva",
+        "Manti",
+        "Ko‘k choy",
+        "Favvora yonida so‘rilar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Choyxona haqida",
+      "title": "Dasturxon doim yozilgan uy",
+      "text": "2012-yilda eski mahalla hovlisida ochildik: tok ostida so‘rilar, favvora, mis choynaklar. Palovni oshpaz Rustam aka har tong qirq kilolik qozonda paxta yog‘i va devzira guruchida damlaydi. Non va somsani o‘z tandirimizda yopamiz, sabzavotlarni Chorsudan olamiz.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Bugun nima tortiladi",
+      "groups": [
+        {
+          "name": "Palov va issiq taomlar",
+          "items": [
+            {
+              "name": "Ertalabki palov",
+              "text": "8:00 dan 11:00 gacha, qazi va bedana tuxumi bilan",
+              "price": "55 000 so‘m"
+            },
+            {
+              "name": "Uyg‘ur lag‘moni",
+              "text": "Cho‘zma lag‘mon, mol go‘shti, bolgar qalampiri",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Qo‘y go‘shtidan sho‘rva",
+              "text": "Tiniq sho‘rva, no‘xat, yirik sabzavotlar",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Bug‘da pishgan manti",
+              "text": "Besh dona, qovoq yoki qo‘y go‘shti bilan",
+              "price": "36 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Tandirdan",
+          "items": [
+            {
+              "name": "Qo‘y go‘shtli somsa",
+              "text": "Qatlama xamir, dumba yog‘i, zira",
+              "price": "14 000 so‘m"
+            },
+            {
+              "name": "Qovoqli somsa",
+              "text": "Kuzgi, piyoz va qora murch bilan",
+              "price": "11 000 so‘m"
+            },
+            {
+              "name": "Patir non",
+              "text": "Sariyog‘li patir, tandirdan",
+              "price": "9 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Choy va shirinliklar",
+          "items": [
+            {
+              "name": "Ko‘k choy, choynak",
+              "text": "Uch marta qaytarib damlaymiz",
+              "price": "12 000 so‘m"
+            },
+            {
+              "name": "Asal va sutli choy",
+              "text": "Buxorodagi buvimnikidek",
+              "price": "16 000 so‘m"
+            },
+            {
+              "name": "Parvarda va holva",
+              "text": "Choyga sharqona shirinliklar likopchasi",
+              "price": "22 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "kg",
+          "label": "har tong palov"
+        },
+        {
+          "value": "120",
+          "suffix": "",
+          "label": "ziyofat zalida mehmon"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "hovlidagi so‘rilar"
+        },
+        {
+          "value": "15",
+          "suffix": "yil",
+          "label": "bitta qozon yonida"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Ziyofatlar",
+      "title": "To‘ylar, marosimlar va tug‘ilgan kunlar",
+      "items": [
+        {
+          "name": "Dasturxon",
+          "price": "180 000 so‘m",
+          "period": "mehmon uchun",
+          "features": [
+            "Palov, salatlar, nonlar",
+            "Cheksiz choy va shirinliklar",
+            "Hovlida so‘rilar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "To‘y",
+          "price": "290 000 so‘m",
+          "period": "mehmon uchun",
+          "features": [
+            "120 mehmongacha ziyofat zali",
+            "Palov, shashlik, norin, manti",
+            "Karnay-surnay va sozandalar kelishuv bo‘yicha"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Olib ketish uchun palov",
+          "price": "480 000 so‘m",
+          "period": "10 kishilik lagan",
+          "features": [
+            "Bir kun oldin buyurtma",
+            "Toshkent bo‘ylab yetkazib berish",
+            "Laganni kuryerga qaytarasiz"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Hovli",
+      "title": "Tok, favvora va mis",
+      "items": [
+        {
+          "caption": "Tok ostidagi hovli",
+          "image": ""
+        },
+        {
+          "caption": "Qirq kilolik qozon",
+          "image": ""
+        },
+        {
+          "caption": "Somsali tandir",
+          "image": ""
+        },
+        {
+          "caption": "Mis choynaklar",
+          "image": ""
+        },
+        {
+          "caption": "Ziyofat zali",
+          "image": ""
+        },
+        {
+          "caption": "Lagan palov",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Choy ustida nima deyishadi",
+      "items": [
+        {
+          "quote": "Juma kunlari otam bilan ertalabki palovga kelamiz. Qazini ko‘z oldingizda kesishadi, choyni so‘ramay olib kelishadi.",
+          "author": "Sherzod",
+          "role": "juma mehmoni"
+        },
+        {
+          "quote": "Bu yerda 90 kishilik marosim o‘tkazdik — hammasi uydagidek, laganlar kechgacha bo‘shamadi.",
+          "author": "Dilnoza",
+          "role": "ziyofat buyurtma qilgan"
+        },
+        {
+          "quote": "Germaniyalik hamkasblarni olib keldim. Tandir somsa har qanday kruassandan ustun keldi.",
+          "author": "Aziz",
+          "role": "IT Park"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Ertalabki palov soat nechagacha beriladi?",
+          "a": "8:00 dan 11:00 gacha yoki qozon tugaguncha — dam olish kunlari odatda soat o‘ngacha. Oldindan qo‘ng‘iroq qilib porsiyani band qilish mumkin."
+        },
+        {
+          "q": "So‘rini band qilsa bo‘ladimi?",
+          "a": "Ha, telefon yoki Telegram orqali. So‘ri 6–8 kishiga mo‘ljallangan, bandni 20 daqiqa ushlab turamiz."
+        },
+        {
+          "q": "Yetkazib berish bormi?",
+          "a": "Toshkent bo‘ylab 10:00 dan 22:00 gacha yetkazamiz. Laganli palov — bir kun oldin buyurtma bilan."
+        },
+        {
+          "q": "Eng kichik ziyofat qancha?",
+          "a": "Ziyofat zalini 30 mehmondan, hovlini 15 mehmondan band qilamiz. Menyuni bir hafta oldin kelishamiz."
+        },
+        {
+          "q": "Go‘shtsiz taomlar bormi?",
+          "a": "Ha: qovoqli manti va somsa, sabzavotli sho‘rva, salatlar va barcha shirinliklar."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Choyga keling",
+      "text": "So‘ri va ziyofatlarni telefon yoki Telegram orqali band qiling. O‘n daqiqada javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/bahorchoyxona"
+      }
+    }
+  ]
+}

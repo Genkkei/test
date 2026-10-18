@@ -137,11 +137,11 @@
 .bento-stat__v { font-family: var(--font-display); font-weight: 600; font-size: clamp(44px, 5vw, 80px); line-height: 1; letter-spacing: -.05em; }
 .bento-stat__v small { font-size: .4em; color: var(--muted); letter-spacing: -.02em; margin-left: 4px; }
 .bento-stat__l { color: var(--muted); font-size: 14px; }
-.bento-stat__ring { position: absolute; right: 18px; top: 18px; width: 38px; height: 38px; border-radius: 50%; background: conic-gradient(var(--accent) 0 var(--p, 0%), var(--edge) 0); -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 calc(100% - 3px)); mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 calc(100% - 3px)); }
-@property --p { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
+.bento-stat__ring { position: absolute; right: 18px; top: 18px; width: 38px; height: 38px; border-radius: 50%; background: conic-gradient(var(--accent) 0 var(--bento-p, 0%), var(--edge) 0); -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 calc(100% - 3px)); mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 calc(100% - 3px)); }
+@property --bento-p { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
 .bento-stat.is-in .bento-stat__ring, .bento-stat:not([data-reveal]) .bento-stat__ring { animation: bentoRing 1.6s var(--ease) .3s both; }
-html:not(.motion) .bento-stat__ring { --p: 100%; }
-@keyframes bentoRing { from { --p: 0%; } to { --p: 100%; } }
+html:not(.motion) .bento-stat__ring { --bento-p: 100%; }
+@keyframes bentoRing { from { --p: 0%; } to { --bento-p: 100%; } }
 @media (max-width: 900px) { .bento-stats { grid-template-columns: 1fr 1fr; } .bento-stat { min-height: 150px; } }
 
 /* тарифы */

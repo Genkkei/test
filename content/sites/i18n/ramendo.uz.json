@@ -1,0 +1,298 @@
+{
+  "name": "Ramen Do",
+  "tagline": "Sho‘rva o‘n sakkiz soat qaynaydi, lag‘monni har tong cho‘zamiz",
+  "niche": "Ramen-bar va yapon ko‘cha taomlari",
+  "nav": {
+    "cta": {
+      "label": "Yetkazib berish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Ramen-bar, osiyo kafesi yoki tungi ko‘cha taomlari uchun sayt. Miltillovchi neon peshlavha, kosadan ko‘tarilayotgan bug‘, yapon chipta avtomati ko‘rinishidagi menyu.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ramen Do — Toshkentda tungi soat ikkigacha ramen-bar",
+    "description": "O‘n sakkiz soatlik sho‘rvadagi tonkotsu, shoyu va miso ramen, gyoza va takoyaki. Chipta avtomati orqali buyurtma, dam olish kunlari 2:00 gacha. Toshkent bo‘ylab yetkazib berish.",
+    "keywords": [
+      "ramen Toshkent",
+      "yapon oshxonasi Toshkent",
+      "tonkotsu",
+      "gyoza",
+      "Toshkentda tunda ovqatlanish",
+      "ramen yetkazib berish"
+    ],
+    "answer": "Ramen Do — Toshkent, Mustaqillik ko‘chasi, 59A dagi ramen-bar. 12:00 dan yarim tungacha, juma va dam olish kunlari — 2:00 gacha ishlaydi. Tonkotsu ramen 79 000 so‘m, shoyu — 72 000 so‘m, miso — 74 000 so‘m, gyoza — 39 000 so‘m. Buyurtma kirishdagi chipta avtomati orqali, yetkazib berish bor."
+  },
+  "business": {
+    "legalName": "«Ramen Do» MChJ",
+    "street": "Mustaqillik ko‘chasi, 59A",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Eda"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ramen Do",
+      "eyebrow": "Ramen-bar · Mustaqillik 59A · 02:00 gacha",
+      "subtitle": "Mol suyagidan sho‘rva o‘n sakkiz soat qaynaydi, lag‘monni har tong cho‘zamiz, tuxumni bir kecha-kunduz marinadlaymiz. Avtomatdan chipta oling va peshtaxtaga o‘tiring.",
+      "words": [
+        "tonkotsu",
+        "shoyu",
+        "miso"
+      ],
+      "cta": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Qanday buyurtma qilish",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Tonkotsu",
+        "Shoyu",
+        "Miso",
+        "Gyoza",
+        "Takoyaki",
+        "Onigiri",
+        "2:00 gacha"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Bar",
+      "title": "Peshtaxta yonida o‘n sakkiz o‘rin va bitta qozon",
+      "text": "Oshpaz Timur Fukuokadagi ustadan o‘rgangan va u yerdan bir qoidani olib kelgan: oxirigacha pishgan bitta sho‘rva o‘nta o‘rtachasidan yaxshiroq. 120 litrlik qozon peshtaxtaning ortida turadi — ko‘pikni qanday olishlari va lag‘monni qanday cho‘zishlari ko‘rinib turadi. Baland gaplashamiz, tez va issiq yeymiz.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Tugmani bosing — chipta oling",
+      "groups": [
+        {
+          "name": "Ramen",
+          "items": [
+            {
+              "name": "Tonkotsu",
+              "text": "Sutsimon mol sho‘rvasi, chashu, tuxum, nori",
+              "price": "79 000 so‘m"
+            },
+            {
+              "name": "Shoyu",
+              "text": "Soya sousli tiniq tovuq sho‘rvasi",
+              "price": "72 000 so‘m"
+            },
+            {
+              "name": "Miso",
+              "text": "To‘q miso pastasi, makkajo‘xori, sariyog‘",
+              "price": "74 000 so‘m"
+            },
+            {
+              "name": "Achchiq tantanmen",
+              "text": "Kunjut pastasi, qiyma, chili yog‘i",
+              "price": "78 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Ramenga",
+          "items": [
+            {
+              "name": "Gyoza, 6 dona",
+              "text": "Qarsildoq tagi, mol go‘shti va karam",
+              "price": "39 000 so‘m"
+            },
+            {
+              "name": "Takoyaki",
+              "text": "Sakkizoyoqli sharchalar, tunets qirindisi",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Onigiri",
+              "text": "Losos yoki marinadlangan olxo‘ri bilan",
+              "price": "24 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qo‘shimchalar",
+          "items": [
+            {
+              "name": "Ajitama tuxum",
+              "text": "Bir kecha-kunduz marinadlanadi",
+              "price": "9 000 so‘m"
+            },
+            {
+              "name": "Kaedama",
+              "text": "Sho‘rvangizga ikkinchi porsiya lag‘mon",
+              "price": "14 000 so‘m"
+            },
+            {
+              "name": "Sovuq ulun",
+              "text": "Shakarsiz, katta stakan",
+              "price": "16 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaydi",
+      "title": "Kosagacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Chipta",
+          "text": "Kirishdagi avtomatda ramenni tanlang, karta yoki naqd bilan to‘lang."
+        },
+        {
+          "title": "Anketa",
+          "text": "Lag‘mon qattiqligi, yog‘liligi va achchiqligini belgilang — noldan beshta qalampirgacha."
+        },
+        {
+          "title": "Peshtaxta",
+          "text": "Chiptani oshpazga bering va kosangiz qanday yig‘ilishini tomosha qiling. Taxminan yetti daqiqa."
+        },
+        {
+          "title": "Kaedama",
+          "text": "Sho‘rva qoldimi? Tugmani yana bosing — lag‘mon qo‘shamiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Oshxona raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "soat",
+          "label": "sho‘rva qaynaydi"
+        },
+        {
+          "value": "120",
+          "suffix": "l",
+          "label": "peshtaxta ortidagi qozon"
+        },
+        {
+          "value": "18",
+          "suffix": "",
+          "label": "peshtaxtadagi o‘rin"
+        },
+        {
+          "value": "7",
+          "suffix": "daq",
+          "label": "kosangizgacha"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Tungi bar",
+      "title": "Bug‘, neon va peshtaxta",
+      "items": [
+        {
+          "caption": "O‘n sakkiz o‘rinli peshtaxta",
+          "image": ""
+        },
+        {
+          "caption": "Chashuli tonkotsu",
+          "image": ""
+        },
+        {
+          "caption": "Chipta avtomati",
+          "image": ""
+        },
+        {
+          "caption": "Ertalabki lag‘mon",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Smenadan keyin",
+      "items": [
+        {
+          "quote": "Shaharda tungi soat birda shaurma emas, haqiqiy issiq sho‘rva beradigan yagona joy.",
+          "author": "Kamila",
+          "role": "barmen"
+        },
+        {
+          "quote": "Chipta avtomati avvaliga hayron qoldirdi, endi esa bu kechaning eng yaxshi qismi.",
+          "author": "Jasur",
+          "role": "juma mehmoni"
+        },
+        {
+          "quote": "To‘rt qalampirli achchiqlik — haqiqiy. Beshinchisini do‘stlarimdan hali hech kim yengolmadi.",
+          "author": "Li Min",
+          "role": "talaba"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Birinchi tashrifdan oldin",
+      "items": [
+        {
+          "q": "Ramenda cho‘chqa go‘shti bormi?",
+          "a": "Yo‘q. Sho‘rvalarni mol suyagi va tovuqdan qaynatamiz, chashu — mol go‘shtidan."
+        },
+        {
+          "q": "Stol band qilsa bo‘ladimi?",
+          "a": "Band qilish yo‘q: peshtaxta jonli navbat bilan ishlaydi, odatda o‘n daqiqadan ko‘p kutilmaydi."
+        },
+        {
+          "q": "Vegetarian ramen bormi?",
+          "a": "Ha, qo‘ziqorinli sho‘rvada tofuli miso — avtomatda «Veg» tugmasini bosing."
+        },
+        {
+          "q": "Yetkazib berishda lag‘mon bo‘kib qolmaydimi?",
+          "a": "Lag‘mon va sho‘rvani termosumkada alohida olib boramiz. Uyda o‘n soniyada birlashtirasiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Yarim tunda och qoldingizmi?",
+      "text": "Band qilmasdan keling yoki Telegramda yetkazib berishga buyurtma bering — 40 daqiqada issiq olib kelamiz.",
+      "cta": {
+        "label": "Telegramda buyurtma",
+        "href": "https://t.me/ramendo_uz"
+      }
+    }
+  ]
+}

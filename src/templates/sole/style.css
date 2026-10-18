@@ -1,1 +1,185 @@
-/* заготовка */
+/* ПОДОШВА — магазин кроссовок: серая витрина, моно-капс, огромная пара, таймер дропа. */
+
+.tpl-sole {
+  --pad: clamp(14px, 3vw, 44px);
+  --black: #0a0a0a;
+  font-size: clamp(14.5px, 1vw, 16.5px);
+}
+.tpl-sole .s { padding-block: clamp(70px, 9vw, 130px); }
+.tpl-sole .s__head { gap: 12px; }
+.tpl-sole .s__label { font-family: var(--font-body); font-weight: 700; font-size: 12px; letter-spacing: .12em; color: var(--accent); display: inline-flex; gap: 8px; align-items: center; }
+.tpl-sole .s__label::before { content: ''; width: 8px; height: 8px; background: var(--accent); }
+.tpl-sole .s__title { font-weight: 400; font-size: clamp(30px, 4.8vw, 74px); line-height: 1; letter-spacing: -.04em; text-transform: uppercase; }
+.tpl-sole .s__intro { color: var(--muted); }
+
+.sole-in { animation: soleIn .9s var(--ease) both; animation-delay: var(--d, .3s); }
+@keyframes soleIn { from { opacity: 0; transform: translateY(16px); } }
+
+.sole-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 26px; border-radius: 999px; background: var(--black); color: #fff; font-weight: 700; font-size: 14px; letter-spacing: .02em; transition: background .25s, color .25s; }
+.sole-btn:hover { background: var(--accent); }
+.sole-btn--ghost { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1.5px var(--fg); }
+.sole-btn--ghost:hover { background: var(--fg); color: #fff; }
+.sole-btn--sm { min-height: 40px; padding: 0 18px; font-size: 13px; }
+.tpl-sole .btn--primary { background: var(--black); color: #fff; }
+.tpl-sole .btn--primary:hover { background: var(--accent); }
+
+/* шапка */
+.sole-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 12px var(--pad); background: color-mix(in srgb, var(--bg) 86%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.sole-logo { font-family: var(--font-display); font-size: 18px; letter-spacing: -.03em; text-transform: uppercase; }
+.sole-nav { display: flex; justify-content: center; gap: 22px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.sole-nav sup { font-size: 9px; color: var(--accent); margin-right: 3px; }
+.sole-nav a { transition: color .2s; }
+.sole-nav a:hover { color: var(--accent); }
+.sole-header__side { display: flex; align-items: center; gap: 12px; }
+
+/* первый экран */
+.sole-hero { position: relative; min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; gap: 10px; padding: 96px var(--pad) 72px; overflow: hidden; }
+.sole-hero__bg { position: absolute; left: 50%; top: 50%; translate: -50% -50%; font-family: var(--font-display); font-size: 36vw; line-height: 1; letter-spacing: -.08em; color: #fff; z-index: 0; pointer-events: none; white-space: nowrap; }
+.sole-hero__top { position: relative; z-index: 2; display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
+.sole-hero__title { font-family: var(--font-display); font-weight: 400; font-size: clamp(40px, 7vw, 120px); line-height: .9; letter-spacing: -.06em; text-transform: uppercase; max-width: 10ch; }
+.sole-timer { text-align: right; }
+.sole-timer ol { display: flex; gap: 8px; }
+.sole-timer li { display: grid; justify-items: center; min-width: 64px; padding: 10px 8px; background: var(--black); color: #fff; border-radius: 10px; }
+.sole-timer b { font-family: var(--font-display); font-weight: 400; font-size: clamp(22px, 2.4vw, 36px); line-height: 1; font-variant-numeric: tabular-nums; }
+.sole-timer small { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; opacity: .6; margin-top: 4px; }
+.sole-timer p { margin-top: 8px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.sole-tilt { position: relative; z-index: 1; display: grid; place-items: center; }
+.sole-tilt__inner { width: min(56vw, 760px, 70svh * 2); transform: rotate(-8deg); will-change: transform; }
+.sole-hero__shoe { width: 100%; display: block; animation: soleFloat 6s ease-in-out infinite, soleEnter 1.3s var(--ease) both; filter: drop-shadow(0 40px 30px rgb(0 0 0 / .18)); }
+@keyframes soleFloat { 50% { translate: 0 -14px; } }
+@keyframes soleEnter { from { opacity: 0; transform: translateX(-30%) rotate(-14deg); } }
+.reduce-motion .sole-hero__shoe { animation: none; }
+.sole-hero__bottom { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: end; }
+.sole-hero__model { font-family: var(--font-display); font-size: 15px; text-transform: uppercase; letter-spacing: -.02em; }
+.sole-hero__sub { margin-top: 8px; max-width: 52ch; color: var(--muted); }
+.sole-hero__buy { display: grid; gap: 12px; justify-items: end; }
+.sole-hero__sizes-label { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.sole-sizes { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: 420px; }
+.sole-sizes li { min-width: 46px; padding: 9px 8px; text-align: center; border: 1px solid var(--line); border-radius: 8px; background: #fff; font-size: 13px; font-weight: 600; transition: border-color .2s, background .2s, color .2s; }
+.sole-sizes li:hover { border-color: var(--fg); background: var(--fg); color: #fff; }
+.sole-hero__ctas { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+
+/* бренды */
+.tpl-sole .sole-band { padding: 0; background: var(--black); color: #fff; }
+.sole-band .marquee { padding: 18px 0; font-family: var(--font-display); font-size: clamp(22px, 3vw, 44px); text-transform: uppercase; letter-spacing: -.04em; }
+.sole-band .marquee__sep { color: var(--accent); opacity: 1; font-size: .6em; }
+
+/* сводка */
+.tpl-sole .s-answer { padding-block: clamp(46px, 6vw, 80px) 0; }
+.tpl-sole .s-answer__text { max-width: 78ch; font-size: clamp(16px, 1.25vw, 19px); }
+
+/* релизы */
+.sole-drops { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.sole-drop { display: grid; gap: 14px; }
+.sole-drop__stage { position: relative; aspect-ratio: 4 / 3.4; display: grid; place-items: center; background: #fff; border-radius: 14px; overflow: hidden; }
+.sole-drop__stage .media { position: absolute; inset: 0; }
+.sole-drop__shoe { width: 86%; transform: rotate(-6deg); transition: transform .7s var(--ease); }
+.sole-drop:hover .sole-drop__shoe { transform: rotate(-14deg) translateY(-12px) scale(1.06); }
+.sole-drop__badge { position: absolute; top: 12px; left: 12px; z-index: 1; padding: 6px 10px; border-radius: 999px; background: var(--bg); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.sole-drop:first-child .sole-drop__badge { background: var(--accent); color: #fff; }
+.sole-drop__brand { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.sole-drop__name { font-family: var(--font-display); font-weight: 400; font-size: 18px; letter-spacing: -.04em; text-transform: uppercase; margin: 4px 0; }
+.sole-drop__text { font-size: 14px; }
+
+/* о магазине */
+.tpl-sole .s-about__body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 5vw, 80px); align-items: center; }
+.tpl-sole .s-about__text { font-size: clamp(17px, 1.35vw, 21px); line-height: 1.6; }
+.tpl-sole .s-about__media { aspect-ratio: 4 / 3; overflow: hidden; border-radius: 14px; }
+
+/* мастерская-чек */
+.sole-receipt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 5vw, 90px); align-items: start; }
+.sole-receipt { padding: 28px 26px 22px; background: #fff; font-family: var(--font-body); box-shadow: 0 30px 50px -40px rgb(0 0 0 / .5); rotate: 1.2deg; mask: radial-gradient(circle 7px at 50% 0, transparent 97%, #000) 0 0 / 18px 100% repeat-x; }
+.sole-receipt__head { font-family: var(--font-display); text-transform: uppercase; font-size: 13px; letter-spacing: -.02em; padding-bottom: 14px; border-bottom: 1.5px dashed var(--fg); }
+.sole-receipt ul { display: grid; gap: 16px; padding: 18px 0; border-bottom: 1.5px dashed var(--fg); }
+.sole-receipt__row { display: flex; align-items: baseline; gap: 10px; font-weight: 700; }
+.sole-receipt__row i { flex: 1; border-bottom: 2px dotted var(--line); }
+.sole-receipt__row b { white-space: nowrap; }
+.sole-receipt li p { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.sole-receipt li em { font-style: normal; color: var(--accent); font-weight: 600; }
+.sole-receipt__code { margin-top: 14px; font-size: 26px; letter-spacing: -2px; line-height: 1; text-align: center; overflow: hidden; white-space: nowrap; }
+
+/* шаги */
+.tpl-sole .s-process__list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.tpl-sole .s-process__item { padding: 22px 20px; border-radius: 14px; background: #fff; display: grid; gap: 10px; align-content: start; }
+.tpl-sole .s-process__num { font-family: var(--font-display); font-size: 40px; line-height: 1; color: var(--accent); }
+.tpl-sole .s-process__name { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; letter-spacing: -.04em; font-size: 18px; }
+.tpl-sole .s-process__text { font-size: 14px; color: var(--muted); }
+
+/* цифры */
+.tpl-sole .s-stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 2px solid var(--fg); }
+.tpl-sole .s-stats__item { padding: 22px 16px 0 0; display: flex; flex-direction: column-reverse; gap: 10px; }
+.tpl-sole .s-stats__item + .s-stats__item { padding-left: 16px; border-left: 1px solid var(--line); }
+.tpl-sole .s-stats__value { font-family: var(--font-display); font-size: clamp(42px, 5.6vw, 92px); line-height: 1; letter-spacing: -.06em; }
+.tpl-sole .s-stats__suffix { color: var(--accent); font-size: .6em; }
+.tpl-sole .s-stats__label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+
+/* лукбук */
+.tpl-sole .s-gallery__grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 200px; gap: 10px; }
+.tpl-sole .s-gallery__item { position: relative; overflow: hidden; border-radius: 12px; }
+.tpl-sole .s-gallery__item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.tpl-sole .s-gallery__item:nth-child(4) { grid-row: span 2; }
+.tpl-sole .s-gallery__item figcaption { position: absolute; left: 10px; bottom: 10px; padding: 5px 9px; border-radius: 999px; background: #fff; font-size: 12px; font-weight: 600; }
+
+/* отзывы */
+.tpl-sole .s-testimonials__list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.tpl-sole .s-testimonials__item { padding: 24px 22px; background: #fff; border-radius: 14px; display: grid; gap: 18px; align-content: space-between; }
+.tpl-sole .s-testimonials__quote { font-size: 16px; line-height: 1.55; }
+.tpl-sole .s-testimonials__who { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; }
+.tpl-sole .s-testimonials__who span { color: var(--accent); font-weight: 700; }
+
+/* вопросы */
+.tpl-sole .s-faq__list { border-top: 2px solid var(--fg); }
+.tpl-sole .s-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-sole .s-faq__q { display: flex; justify-content: space-between; gap: 18px; padding: 20px 0; font-weight: 700; font-size: 17px; }
+.tpl-sole .s-faq__q i { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--fg); position: relative; transition: background .2s, transform .4s var(--ease); }
+.tpl-sole .s-faq__q i::before, .tpl-sole .s-faq__q i::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 2px; background: #fff; translate: -50% -50%; }
+.tpl-sole .s-faq__q i::after { rotate: 90deg; }
+.tpl-sole .s-faq__item[open] .s-faq__q i { background: var(--accent); transform: rotate(45deg); }
+.tpl-sole .s-faq__a { padding: 0 0 22px; color: var(--muted); max-width: 72ch; }
+
+/* контакты */
+.tpl-sole .s-contact .s__inner { padding: clamp(28px, 5vw, 70px); border-radius: 22px; background: var(--accent); color: #fff; }
+.tpl-sole .s-contact .s__label { color: #fff; }
+.tpl-sole .s-contact .s__label::before { background: #fff; }
+.tpl-sole .s-contact .s__intro { color: #fff; opacity: .85; }
+.tpl-sole .s-contact__body { display: grid; gap: 28px; }
+.tpl-sole .s-contact .btn--primary { width: fit-content; background: #fff; color: var(--black); }
+.tpl-sole .s-contact__facts { display: flex; flex-wrap: wrap; gap: 14px 40px; font-style: normal; font-weight: 600; }
+.tpl-sole .s-contact__facts small { display: block; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; opacity: .7; }
+
+/* подвал */
+.sole-footer { background: var(--black); color: #fff; padding: 50px var(--pad) 22px; overflow: hidden; }
+.sole-footer__top { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; }
+.sole-footer__tag { max-width: 36ch; opacity: .8; }
+.sole-footer__facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; font-size: 14px; }
+.sole-footer__facts dt { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+.sole-footer__social { display: grid; gap: 4px; }
+.sole-footer__word { margin-top: 40px; font-family: var(--font-display); font-size: clamp(48px, 13vw, 230px); line-height: .85; letter-spacing: -.08em; text-transform: uppercase; white-space: nowrap; }
+.sole-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 22px; padding-top: 16px; border-top: 1px solid rgb(255 255 255 / .18); font-size: 12px; opacity: .7; }
+
+.tpl-sole .mmenu__panel a { font-family: var(--font-display); text-transform: uppercase; letter-spacing: -.04em; font-size: clamp(26px, 8vw, 44px); }
+.tpl-sole .mmenu__panel .mmenu__cta { background: var(--accent); color: #fff; }
+
+@media (max-width: 1000px) {
+  .sole-nav { display: none; }
+  .sole-header { grid-template-columns: 1fr auto; }
+  .sole-hero__bottom, .sole-receipt-grid, .sole-footer__top, .tpl-sole .s-about__body { grid-template-columns: 1fr; }
+  .sole-hero__buy { justify-items: start; }
+  .sole-sizes, .sole-hero__ctas { justify-content: flex-start; }
+  .sole-drops { grid-template-columns: 1fr 1fr; }
+  .tpl-sole .s-process__list, .tpl-sole .s-stats__grid { grid-template-columns: 1fr 1fr; }
+  .tpl-sole .s-stats__item:nth-child(3) { padding-left: 0; border-left: 0; }
+  .tpl-sole .s-testimonials__list { grid-template-columns: 1fr; }
+  .tpl-sole .s-gallery__grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 160px; }
+  .sole-footer__facts { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .sole-header__side .sole-btn--sm { display: none; }
+  .sole-hero { padding-top: 92px; }
+  .sole-timer { text-align: left; }
+  .sole-timer li { min-width: 54px; }
+  .sole-tilt__inner { width: 96vw; }
+  .sole-drops { grid-template-columns: 1fr; }
+  .tpl-sole .s-process__list { grid-template-columns: 1fr; }
+}
+.sole-hero__bottom > *, .sole-receipt-grid > * { min-width: 0; } .sole-hero__title { overflow-wrap: anywhere; }

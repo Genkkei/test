@@ -1,0 +1,259 @@
+{
+  "name": "Forno",
+  "tagline": "Neapolitan pizza from a 450-degree oven, hot at your door in 35 minutes",
+  "niche": "Pizzeria with delivery across Tashkent",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a pizzeria, burger joint or any food delivery. The pizza spins as you scroll, stickers, a card menu and an order tracker from oven to door.",
+    "features": []
+  },
+  "seo": {
+    "title": "Forno — Neapolitan pizza delivered in Tashkent",
+    "description": "Pizza on a 48-hour fermented dough from a wood-fired oven: margherita, pepperoni, four cheese. Delivery across Tashkent in 35 minutes, pickup at 77 Bobur St.",
+    "keywords": [
+      "pizza Tashkent",
+      "pizza delivery Tashkent",
+      "Neapolitan pizza",
+      "margherita",
+      "pepperoni",
+      "pizzeria"
+    ],
+    "answer": "Forno is a pizzeria at 77 Bobur St in Tashkent, open from 11:00 to 23:30. Our 32 cm pizzas bake for 90 seconds in a 450 °C oven: margherita costs 79,000 UZS, pepperoni 95,000 UZS and four cheese 105,000 UZS. Delivery across the city takes about 35 minutes and is free from 150,000 UZS."
+  },
+  "business": {
+    "legalName": "Forno Pizza LLC",
+    "street": "77 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Eats"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Pizza like in Naples",
+      "eyebrow": "Forno · 77 Bobur · delivery in 35 min",
+      "subtitle": "The dough ferments for 48 hours, the tomatoes are San Marzano, the mozzarella local and made yesterday. The oven runs at 450 degrees: a pizza is ready in 90 seconds.",
+      "words": [],
+      "cta": {
+        "label": "Pick a pizza",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "How we deliver",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Margherita",
+        "Pepperoni",
+        "Four cheese",
+        "Diavola",
+        "48-hour dough",
+        "450 °C oven"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The pizzeria",
+      "title": "One oven, three pizzaioli and no shortcuts in the dough",
+      "text": "We brought the oven from Naples in 2020 and have not changed the recipe since: 00 flour, water, salt and a sourdough starter. The crust puffs up in bubbles and chars a little — that is how it should be. If it does not fit in the oven we do not make it: no rolls, no burgers, just pizza, salad and tiramisu.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "32 cm pizzas",
+      "groups": [
+        {
+          "name": "Classics",
+          "items": [
+            {
+              "name": "Margherita",
+              "text": "San Marzano tomato, mozzarella, basil",
+              "price": "79,000 UZS"
+            },
+            {
+              "name": "Pepperoni",
+              "text": "Beef pepperoni, mozzarella, oregano",
+              "price": "95,000 UZS"
+            },
+            {
+              "name": "Four cheese",
+              "text": "Mozzarella, gorgonzola, parmesan, suluguni",
+              "price": "105,000 UZS"
+            },
+            {
+              "name": "Diavola",
+              "text": "Spicy sausage, chilli, honey",
+              "price": "99,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Chef’s",
+          "items": [
+            {
+              "name": "Pumpkin and sage",
+              "text": "Roast pumpkin, ricotta, fried sage",
+              "price": "92,000 UZS"
+            },
+            {
+              "name": "Truffle",
+              "text": "Mushrooms, truffle cream, egg",
+              "price": "118,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "On the side",
+          "items": [
+            {
+              "name": "Caesar",
+              "text": "Romaine, chicken, parmesan",
+              "price": "58,000 UZS"
+            },
+            {
+              "name": "Tiramisu",
+              "text": "In a jar, to go",
+              "price": "36,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Delivery",
+      "title": "From oven to door",
+      "items": [
+        {
+          "title": "Order",
+          "text": "In the Telegram bot, by phone or on the site — minimum order 79,000 UZS."
+        },
+        {
+          "title": "Oven",
+          "text": "Stretched by hand, 90 seconds in the oven at 450 °C."
+        },
+        {
+          "title": "Courier",
+          "text": "Vented box, thermal bag and no stops for other orders on the way."
+        },
+        {
+          "title": "Door",
+          "text": "35 minutes on average. Over 20 minutes late and your next pizza is on us."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "48",
+          "suffix": "h",
+          "label": "dough fermentation"
+        },
+        {
+          "value": "450",
+          "suffix": "°C",
+          "label": "in the oven"
+        },
+        {
+          "value": "90",
+          "suffix": "sec",
+          "label": "bake time"
+        },
+        {
+          "value": "35",
+          "suffix": "min",
+          "label": "average delivery"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Written after the first slice",
+      "items": [
+        {
+          "quote": "A blistered, charred crust — like Naples, not like a food court.",
+          "author": "Sardor",
+          "role": "orders on Fridays"
+        },
+        {
+          "quote": "The courier arrived in 31 minutes and the pizza was hotter than from the place next door.",
+          "author": "Madina",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "Pumpkin and sage is, surprisingly, the best pizza on the menu.",
+          "author": "Olga",
+          "role": "dine-in guest"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "About pizza and delivery",
+      "items": [
+        {
+          "q": "Where do you deliver?",
+          "a": "All of Tashkent inside the ring road. Free from 150,000 UZS, otherwise 15,000 UZS."
+        },
+        {
+          "q": "Why is the crust charred?",
+          "a": "Those are “leopard spots”, the sign of a proper Neapolitan bake at 450 °C. They are not bitter."
+        },
+        {
+          "q": "Is there gluten-free pizza?",
+          "a": "No: in a shared oven we cannot guarantee there is no flour. We do have wheat-free salads."
+        },
+        {
+          "q": "Can I get half-and-half?",
+          "a": "Yes, any two classics, at the price of the more expensive one."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Order",
+      "title": "Hungry? The oven is already hot",
+      "text": "Order in the Telegram bot and it shows where your courier is. Or drop by 77 Bobur: pizza to go in ten minutes.",
+      "cta": {
+        "label": "Order on Telegram",
+        "href": "https://t.me/forno_uz_bot"
+      }
+    }
+  ]
+}

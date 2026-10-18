@@ -1,0 +1,259 @@
+{
+  "name": "Forno",
+  "tagline": "450 darajali pechdan neapol pitsasi — eshigingizgacha 35 daqiqada issiq",
+  "niche": "Toshkent bo‘ylab yetkazib beriladigan pitseriya",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Pitseriya, burgerxona yoki har qanday ovqat yetkazish uchun sayt. Pitsa aylantirish bilan aylanadi, stikerlar, kartochkali menyu va pechdan eshikkacha buyurtma kuzatuvchisi.",
+    "features": []
+  },
+  "seo": {
+    "title": "Forno — Toshkentda yetkazib beriladigan neapol pitsasi",
+    "description": "48 soat achitilgan xamirdan o‘tin pechida pitsa: margarita, pepperoni, to‘rt pishloq. Toshkent bo‘ylab 35 daqiqada yetkazish, Bobur 77 dan olib ketish.",
+    "keywords": [
+      "pitsa Toshkent",
+      "pitsa yetkazib berish Toshkent",
+      "neapol pitsasi",
+      "margarita",
+      "pepperoni",
+      "pitseriya"
+    ],
+    "answer": "Forno — Toshkent, Bobur ko‘chasi, 77 dagi pitseriya, 11:00 dan 23:30 gacha ishlaydi. 32 sm pitsani 450 °C pechda 90 soniyada pishiramiz: margarita — 79 000 so‘m, pepperoni — 95 000 so‘m, to‘rt pishloq — 105 000 so‘m. Shahar bo‘ylab yetkazish — taxminan 35 daqiqa, 150 000 so‘mdan bepul."
+  },
+  "business": {
+    "legalName": "«Forno Pizza» MChJ",
+    "street": "Bobur ko‘chasi, 77",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Eda"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Neapolcha pitsa",
+      "eyebrow": "Forno · Bobur 77 · 35 daqiqada yetkazish",
+      "subtitle": "Xamir 48 soat achiydi, pomidorlar — San Marzano, motsarella — mahalliy, kechagi. Pech 450 darajagacha qizdirilgan: pitsa 90 soniyada tayyor.",
+      "words": [],
+      "cta": {
+        "label": "Pitsa tanlash",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Qanday yetkazamiz",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Margarita",
+        "Pepperoni",
+        "To‘rt pishloq",
+        "Diavola",
+        "Xamir 48 soat",
+        "Pech 450 °C"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Pitseriya",
+      "title": "Bitta pech, uch pitsayolo va xamirda shoshilish yo‘q",
+      "text": "Pechni 2020-yilda Neapoldan olib keldik va o‘shandan beri retseptni o‘zgartirmadik: 00 un, suv, tuz va xamirturush. Pitsa chetlari pufaklanib, biroz kuyadi — shunday bo‘lishi kerak. Pechga sig‘maydigan narsani tayyorlamaymiz: rollar ham, burgerlar ham yo‘q, faqat pitsa, salat va tiramisu.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "32 sm pitsalar",
+      "groups": [
+        {
+          "name": "Klassika",
+          "items": [
+            {
+              "name": "Margarita",
+              "text": "San Marzano pomidorlari, motsarella, rayhon",
+              "price": "79 000 so‘m"
+            },
+            {
+              "name": "Pepperoni",
+              "text": "Mol go‘shtidan pepperoni, motsarella, oregano",
+              "price": "95 000 so‘m"
+            },
+            {
+              "name": "To‘rt pishloq",
+              "text": "Motsarella, gorgonzola, parmezan, suluguni",
+              "price": "105 000 so‘m"
+            },
+            {
+              "name": "Diavola",
+              "text": "Achchiq kolbasa, chili, asal",
+              "price": "99 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Oshpazdan",
+          "items": [
+            {
+              "name": "Qovoq va shalfey",
+              "text": "Pishgan qovoq, rikotta, qovurilgan shalfey",
+              "price": "92 000 so‘m"
+            },
+            {
+              "name": "Tryufelli",
+              "text": "Qo‘ziqorin, tryufel kremi, tuxum",
+              "price": "118 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Pitsa yonida",
+          "items": [
+            {
+              "name": "Sezar",
+              "text": "Romen, tovuq, parmezan",
+              "price": "58 000 so‘m"
+            },
+            {
+              "name": "Tiramisu",
+              "text": "Bankada, olib ketish uchun",
+              "price": "36 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Yetkazib berish",
+      "title": "Pechdan eshikkacha",
+      "items": [
+        {
+          "title": "Buyurtma",
+          "text": "Telegram-botda, telefonda yoki saytda — eng kam buyurtma 79 000 so‘m."
+        },
+        {
+          "title": "Pech",
+          "text": "Xamirni qo‘lda yoyamiz, 450 °C da pechda 90 soniya."
+        },
+        {
+          "title": "Kuryer",
+          "text": "Shamollatiladigan quti, termosumka, buyurtmalar orasida to‘xtamasdan."
+        },
+        {
+          "title": "Eshik",
+          "text": "O‘rtacha 35 daqiqa. 20 daqiqadan ko‘p kechiksak — keyingi pitsa bizdan."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlar",
+      "title": "",
+      "items": [
+        {
+          "value": "48",
+          "suffix": "soat",
+          "label": "xamir achishi"
+        },
+        {
+          "value": "450",
+          "suffix": "°C",
+          "label": "pechda"
+        },
+        {
+          "value": "90",
+          "suffix": "son",
+          "label": "pitsa pishishi"
+        },
+        {
+          "value": "35",
+          "suffix": "daq",
+          "label": "o‘rtacha yetkazish"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Birinchi bo‘lakdan keyin yozishadi",
+      "items": [
+        {
+          "quote": "Pufakli va kuygan qobiq — savdo markazidagidek emas, Neapoldagidek.",
+          "author": "Sardor",
+          "role": "juma kunlari buyurtma qiladi"
+        },
+        {
+          "quote": "Kuryer 31 daqiqada keldi, pitsa qo‘shni pitseriyadagidan issiqroq edi.",
+          "author": "Madina",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Shalfeyli qovoq — kutilmaganda menyudagi eng yaxshi pitsa.",
+          "author": "Olga",
+          "role": "pitseriya mehmoni"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Pitsa va yetkazish haqida",
+      "items": [
+        {
+          "q": "Qayerga yetkazasiz?",
+          "a": "Halqa yo‘li ichida butun Toshkent bo‘ylab. 150 000 so‘mdan yetkazish bepul, aks holda — 15 000 so‘m."
+        },
+        {
+          "q": "Nega pitsa cheti kuygan?",
+          "a": "Bu «qoplon dog‘lari» — 450 °C da to‘g‘ri neapol pishirig‘ining belgisi. Ularda achchiqlik yo‘q."
+        },
+        {
+          "q": "Glyutensiz pitsa bormi?",
+          "a": "Yo‘q: umumiy pechda un yo‘qligini kafolatlay olmaymiz. Ammo bug‘doysiz salatlar bor."
+        },
+        {
+          "q": "Pitsani ikki xil yarimga bo‘lsa bo‘ladimi?",
+          "a": "Ha, istalgan ikkita klassik pitsa — qimmatrog‘ining narxida."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Och qoldingizmi? Pech allaqachon issiq",
+      "text": "Telegram-botda buyurtma bering — u kuryer qayerdaligini ko‘rsatadi. Yoki Bobur, 77 ga keling: o‘n daqiqada olib ketish uchun pitsa.",
+      "cta": {
+        "label": "Telegramda buyurtma",
+        "href": "https://t.me/forno_uz_bot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "name": "Shirin",
+  "tagline": "Bayramingizga moslab tort yig‘iladigan qandolatxona",
+  "niche": "Qandolatxona va buyurtma tortlar",
+  "nav": {
+    "cta": {
+      "label": "Tort buyurtma",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Qandolatxona, novvoyxona yoki uy qandolatchisi uchun sayt. Narx yorliqli pastel vitrina, qatlam-qatlam yig‘iladigan yarusli tort va tort buyurtmasi bosqichma-bosqich.",
+    "features": []
+  },
+  "seo": {
+    "title": "Shirin — Toshkentda buyurtma tortlar va qandolatxona",
+    "description": "1,5 kg dan buyurtma tortlar, muss pirojniylar, makaron va eklerlar. Ichliklarni tatib ko‘rish, bayram kuni Toshkent bo‘ylab yetkazish. Oybek, 24.",
+    "keywords": [
+      "buyurtma tort Toshkent",
+      "qandolatxona Toshkent",
+      "to‘y torti",
+      "bolalar torti",
+      "makaron",
+      "eklerlar"
+    ],
+    "answer": "Shirin — Toshkent, Oybek ko‘chasi, 24 dagi qandolatxona, har kuni 9:00 dan 21:00 gacha ochiq. Buyurtma tort kilogrami 290 000 so‘mdan, eng kam vazni — 1,5 kg, buyurtmani uch kun oldin qabul qilamiz. Vitrinada — 28 000 so‘mdan eklerlar, dona makaron — 14 000 so‘m, muss pirojniylar."
+  },
+  "business": {
+    "legalName": "«Shirin Patisserie» MChJ",
+    "street": "Oybek ko‘chasi, 24",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Bolalikdagidek shirin",
+      "eyebrow": "Qandolatxona · Oybek, 24 · 9 dan 21 gacha",
+      "subtitle": "Tortni bayramingizga moslab yig‘amiz: ichlikni tatib ko‘rib tanlaysiz, bezakni siz bilan birga chizamiz. Vitrinada har kuni — eklerlar, makaron va muss pirojniylar.",
+      "words": [
+        "to‘y",
+        "tug‘ilgan kun",
+        "beshik to‘y"
+      ],
+      "cta": {
+        "label": "Tort buyurtma",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Vitrina",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Buyurtma tortlar",
+        "Makaron",
+        "Eklerlar",
+        "Muss pirojniylar",
+        "Keksiklar",
+        "Ichliklarni tatib ko‘rish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Katta vitrinali kichik qandolatxona",
+      "text": "Shirin qandolatxonani 2017-yilda Parijdagi kurslardan keyin ochgan — uchta retsept va bitta duxovka bilan. Bugun biz sakkiz kishimiz, lekin qoidalar o‘sha: margarin o‘rniga sariyog‘, Belgiya shokoladi, mavsumiy rezavorlar va hech qanday konservant yo‘q. Shuning uchun tort uch kun yashaydi — va odatda shu muddatgacha ham yetib bormaydi.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Vitrina",
+      "title": "Bugun javonlarda",
+      "groups": [
+        {
+          "name": "Pirojniylar",
+          "items": [
+            {
+              "name": "Pistali ekler",
+              "text": "Qaynatma xamir, Sitsiliya pistasidan krem",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Vanilli ekler",
+              "text": "Madagaskar vanili, oq glazur",
+              "price": "28 000 so‘m"
+            },
+            {
+              "name": "Malinali bulut",
+              "text": "Malina mussi, biskvit, oq shokolad",
+              "price": "36 000 so‘m"
+            },
+            {
+              "name": "Medovik",
+              "text": "Sakkizta korj, smetanali krem",
+              "price": "30 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Makaron va keksiklar",
+          "items": [
+            {
+              "name": "Makaron",
+              "text": "Sakkiz ta’m, sho‘r karameldan lavandagacha",
+              "price": "14 000 so‘m"
+            },
+            {
+              "name": "Makaron qutisi, 12 dona",
+              "text": "Sovg‘a qutisida assorti",
+              "price": "155 000 so‘m"
+            },
+            {
+              "name": "Qizil baxmal keksik",
+              "text": "Krem-chiz, rezavorlar",
+              "price": "26 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tortlar",
+      "title": "Buyurtma tort narxi",
+      "items": [
+        {
+          "name": "Klassika",
+          "price": "290 000 so‘m",
+          "period": "kg uchun",
+          "features": [
+            "Tanlov bo‘yicha biskvit va krem",
+            "Yozuv va rezavorlar",
+            "1,5 kg dan"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Bayramona",
+          "price": "360 000 so‘m",
+          "period": "kg uchun",
+          "features": [
+            "Mussli yoki yarusli",
+            "Eskiz bo‘yicha bezak",
+            "Ichliklarni tatib ko‘rish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "To‘y torti",
+          "price": "420 000 so‘m",
+          "period": "kg uchun",
+          "features": [
+            "Uch yarusdan",
+            "Tirik gullar va shakar floristikasi",
+            "Joyida yetkazish va yig‘ish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "To‘rt qadamda tort",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "Sana, mehmonlar soni va sababni yozing — bayramdan kamida uch kun oldin."
+        },
+        {
+          "title": "Tatib ko‘rish",
+          "text": "To‘rtta ichlikni tatib ko‘rishga keling — 3 kg dan buyurtmalar uchun bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Tortni uslubingiz va ranglaringizga moslab chizamiz, mayda-chuydasigacha kelishamiz."
+        },
+        {
+          "title": "Bayram",
+          "text": "Belgilangan vaqtga sovutgichli mashinada olib kelamiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Allaqachon yeb bo‘lingan tortlar",
+      "items": [
+        {
+          "caption": "To‘y torti, uch yarus",
+          "image": ""
+        },
+        {
+          "caption": "Beshik to‘y, vanil va qulupnay",
+          "image": ""
+        },
+        {
+          "caption": "Qutidagi makaron",
+          "image": ""
+        },
+        {
+          "caption": "Shokoladli muss",
+          "image": ""
+        },
+        {
+          "caption": "Bolalar torti, yakkashoxlar",
+          "image": ""
+        },
+        {
+          "caption": "Yubiley uchun medovik",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mehmonlardan yozuvlar",
+      "items": [
+        {
+          "quote": "To‘y torti eskizdagidek bo‘ldi, pistali kremni mehmonlar hali ham eslashadi.",
+          "author": "Nigora",
+          "role": "kelin"
+        },
+        {
+          "quote": "Har juma ofisga makaron qutisini olaman — hamkasblar ertalabdan kutishadi.",
+          "author": "Timur",
+          "role": "doimiy mehmon"
+        },
+        {
+          "quote": "Qizimga besh yosh to‘ldi — yakkashoxli tort multfilmdagidek edi.",
+          "author": "Lola",
+          "role": "ona"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Tortni necha kun oldin buyurtma qilish kerak?",
+          "a": "Kamida uch kun oldin, to‘y torti — ikki-uch hafta oldin. Shoshilinch buyurtmalar — imkon bo‘lsa, Telegramda aniqlang."
+        },
+        {
+          "q": "Tortning eng kam vazni qancha?",
+          "a": "1,5 kg — bu 8–10 bo‘lak. Yarusli tortlar — 4 kg dan."
+        },
+        {
+          "q": "Oldindan to‘lov kerakmi?",
+          "a": "Ha, buyurtmada 50%, qolgani — olganda. Karta, Payme va Click qabul qilamiz."
+        },
+        {
+          "q": "Shakarsiz yoki glyutensiz tort qilasizmi?",
+          "a": "Bodom unidan glyutensiz tort qilamiz. Butunlay shakarsiz — yo‘q, ammo shirinlikni kamaytira olamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Bayramingiz haqida aytib bering",
+      "text": "Sana, mehmonlar soni va namuna rasmini yuboring — bir soat ichida ichlik variantlari va narx bilan javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/shirin_cakes"
+      }
+    }
+  ]
+}

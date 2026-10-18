@@ -1,0 +1,328 @@
+{
+  "name": "Choyxona Bahor",
+  "tagline": "Plov from the kazan, samsa from the tandoor and tea poured back three times",
+  "niche": "Teahouse and national Uzbek cuisine",
+  "nav": {
+    "cta": {
+      "label": "Book a topchan",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a teahouse, national-cuisine restaurant or banquet hall. Warm paper, islimi ornament, an illustrated numbered menu and photos framed in arches.",
+    "features": []
+  },
+  "seo": {
+    "title": "Choyxona Bahor — plov and teahouse in Tashkent",
+    "description": "Morning plov from the kazan, tandoor samsa, shurpa and green tea on topchans by the fountain. Banquets for up to 120 guests, delivery across Tashkent.",
+    "keywords": [
+      "plov Tashkent",
+      "teahouse Tashkent",
+      "morning plov",
+      "Uzbek cuisine",
+      "tandoor samsa",
+      "banquet Tashkent"
+    ],
+    "answer": "Choyxona Bahor is a teahouse at 18 Beshyogoch St in Tashkent, open daily from 8:00 to 23:00. Morning plov is served from 8:00 to 11:00 at 55,000 UZS a portion, tandoor samsa costs 14,000 UZS and a pot of green tea 12,000 UZS. A banquet hall for 120 guests and delivery across the city."
+  },
+  "business": {
+    "legalName": "Bahor Choyxona LLC",
+    "street": "18 Beshyogoch St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Bahor",
+      "eyebrow": "Teahouse · Beshyogoch · from 8 am",
+      "subtitle": "Morning plov from a forty-kilo kazan, samsa straight from the tandoor and tea poured and returned three times so it brews.",
+      "words": [
+        "plov",
+        "samsa",
+        "shurpa",
+        "tea"
+      ],
+      "cta": {
+        "label": "See the menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Banquets",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Morning plov",
+        "Tandoor samsa",
+        "Lagman",
+        "Shurpa",
+        "Manti",
+        "Green tea",
+        "Topchans by the fountain"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A house where the dastarkhan is always set",
+      "text": "We opened in 2012 in the courtyard of an old mahalla house: topchans under the vines, a fountain, copper teapots. Our oshpaz Rustam-aka cooks plov every morning in a forty-kilo kazan, with cotton-seed oil and devzira rice. Bread and samsa come from our own tandoor, vegetables from Chorsu bazaar.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "What we serve today",
+      "groups": [
+        {
+          "name": "Plov and mains",
+          "items": [
+            {
+              "name": "Morning plov",
+              "text": "8:00 to 11:00, with horse-meat kazy and a quail egg",
+              "price": "55,000 UZS"
+            },
+            {
+              "name": "Uyghur lagman",
+              "text": "Hand-pulled noodles, beef, bell pepper",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Lamb shurpa",
+              "text": "Clear broth, chickpeas, chunky vegetables",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Steamed manti",
+              "text": "Five pieces, pumpkin or lamb",
+              "price": "36,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "From the tandoor",
+          "items": [
+            {
+              "name": "Lamb samsa",
+              "text": "Flaky pastry, tail fat, cumin",
+              "price": "14,000 UZS"
+            },
+            {
+              "name": "Pumpkin samsa",
+              "text": "Autumn one, with onion and black pepper",
+              "price": "11,000 UZS"
+            },
+            {
+              "name": "Patyr bread",
+              "text": "Butter flatbread, from the oven",
+              "price": "9,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Tea and sweets",
+          "items": [
+            {
+              "name": "Green tea, pot",
+              "text": "Poured and returned three times",
+              "price": "12,000 UZS"
+            },
+            {
+              "name": "Tea with milk and honey",
+              "text": "Like grandma makes in Bukhara",
+              "price": "16,000 UZS"
+            },
+            {
+              "name": "Parvarda and halva",
+              "text": "A plate of eastern sweets for tea",
+              "price": "22,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "kg",
+          "label": "of plov every morning"
+        },
+        {
+          "value": "120",
+          "suffix": "",
+          "label": "guests in the banquet hall"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "topchans in the courtyard"
+        },
+        {
+          "value": "15",
+          "suffix": "years",
+          "label": "by the same kazan"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Banquets",
+      "title": "Weddings, ceremonies and birthdays",
+      "items": [
+        {
+          "name": "Dastarkhan",
+          "price": "180,000 UZS",
+          "period": "per guest",
+          "features": [
+            "Plov, salads, flatbread",
+            "Unlimited tea and sweets",
+            "Topchans in the courtyard"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Toy",
+          "price": "290,000 UZS",
+          "period": "per guest",
+          "features": [
+            "Banquet hall for up to 120",
+            "Plov, shashlik, naryn, manti",
+            "Karnai-surnai and musicians on request"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Plov to go",
+          "price": "480,000 UZS",
+          "period": "lagan for 10",
+          "features": [
+            "Order a day ahead",
+            "Delivery across Tashkent",
+            "Return the lagan to the courier"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Courtyard",
+      "title": "Vines, fountain and copper",
+      "items": [
+        {
+          "caption": "Courtyard under the vines",
+          "image": ""
+        },
+        {
+          "caption": "The forty-kilo kazan",
+          "image": ""
+        },
+        {
+          "caption": "Tandoor with samsa",
+          "image": ""
+        },
+        {
+          "caption": "Copper teapots",
+          "image": ""
+        },
+        {
+          "caption": "Banquet hall",
+          "image": ""
+        },
+        {
+          "caption": "A lagan of plov",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What people say over tea",
+      "items": [
+        {
+          "quote": "My father and I come here on Fridays for morning plov. They slice the kazy in front of you and bring tea without asking.",
+          "author": "Sherzod",
+          "role": "Friday regular"
+        },
+        {
+          "quote": "We held a ceremony for 90 people here — homely, and the lagans never emptied till evening.",
+          "author": "Dilnoza",
+          "role": "booked a banquet"
+        },
+        {
+          "quote": "I brought colleagues from Germany. Tandoor samsa beat any croissant.",
+          "author": "Aziz",
+          "role": "IT Park"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "Until when is morning plov served?",
+          "a": "From 8:00 to 11:00 or until the kazan runs out — on weekends usually by ten. Call ahead to keep a portion for you."
+        },
+        {
+          "q": "Can I book a topchan?",
+          "a": "Yes, by phone or Telegram. A topchan seats 6–8, and we hold the booking for 20 minutes."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Across Tashkent from 10:00 to 22:00. Plov on lagans by order a day ahead."
+        },
+        {
+          "q": "What is the minimum banquet?",
+          "a": "The banquet hall from 30 guests, the courtyard from 15. We agree the menu a week ahead."
+        },
+        {
+          "q": "Do you have meat-free dishes?",
+          "a": "Yes: pumpkin manti and samsa, vegetable shurpa, salads and all the sweets."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come over for tea",
+      "text": "Book topchans and banquets by phone or Telegram. We reply within ten minutes.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/bahorchoyxona"
+      }
+    }
+  ]
+}

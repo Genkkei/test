@@ -1,0 +1,319 @@
+{
+  "name": "Krossovka",
+  "tagline": "Original krossovkalar, shanba kungi droplar va juftlikni yangidek qiladigan tozalash",
+  "niche": "Krossovka va stritvir do‘koni",
+  "nav": {
+    "cta": {
+      "label": "Droplar Telegrami",
+      "href": "https://t.me/krossovka_drops"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Krossovka, stritvir do‘koni yoki sport butigi uchun sayt. Keyingi dropgacha taymer, birinchi ekranda katta juftlik, o‘lchamli kartochkalar ko‘rinishidagi relizlar va lukbuk to‘ri.",
+    "features": []
+  },
+  "seo": {
+    "title": "Krossovka — Toshkentda original krossovkalar va droplar",
+    "description": "Haqiqiyligi tekshirilgan original Nike, New Balance, adidas va Asics. Shanba kunlari 10:00 da droplar, Telegramda o‘yinlar, krossovkalarni tozalash va tiklash.",
+    "keywords": [
+      "krossovka Toshkent",
+      "original krossovkalar",
+      "New Balance Toshkent",
+      "Nike Toshkent",
+      "krossovka tozalash",
+      "stritvir"
+    ],
+    "answer": "Krossovka — Magic City dagi (Shahrisabz ko‘chasi, 5, Toshkent) original krossovkalar do‘koni, 10:00 dan 22:00 gacha ochiq. Har bir juftlik haqiqiylik tekshiruvidan o‘tadi, yangi relizlar shanba kunlari 10:00 da chiqadi, noyob juftliklarni Telegramda o‘ynaymiz. Narxlar — 990 000 so‘mdan, krossovka tozalash — 120 000 so‘m, O‘zbekiston bo‘ylab yetkazib berish."
+  },
+  "business": {
+    "legalName": "«Krossovka» MChJ",
+    "street": "Shahrisabz ko‘chasi, 5, Magic City",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "TikTok"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Keyingi drop",
+      "eyebrow": "New Balance 1906R · Silver Metallic",
+      "subtitle": "Har shanba soat 10:00 da — yangi reliz. Faqat haqiqiyligi tekshirilgan originallar, noyob juftliklar — chayqovchilar bo‘lmasligi uchun Telegramdagi o‘yin orqali.",
+      "words": [],
+      "cta": {
+        "label": "O‘yinda qatnashish",
+        "href": "https://t.me/krossovka_drops"
+      },
+      "ctaSecondary": {
+        "label": "Relizlar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Nike",
+        "New Balance",
+        "adidas",
+        "Asics",
+        "Salomon",
+        "Converse",
+        "Vans",
+        "On"
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Relizlar",
+      "title": "Mavjud va tez orada",
+      "items": [
+        {
+          "title": "1906R Silver Metallic",
+          "category": "New Balance",
+          "year": "SH 10:00",
+          "text": "O‘lchamlar 40–45, o‘yin · 2 190 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Air Max 1 ’86 OG",
+          "category": "Nike",
+          "year": "Mavjud",
+          "text": "O‘lchamlar 39–46 · 2 290 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Samba OG",
+          "category": "adidas",
+          "year": "Mavjud",
+          "text": "Oq va qora, 36–45 · 1 490 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Gel-1130",
+          "category": "Asics",
+          "year": "Mavjud",
+          "text": "O‘lchamlar 37–44 · 1 390 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "XT-6",
+          "category": "Salomon",
+          "year": "Oldindan buyurtma",
+          "text": "10 kunda olib kelamiz · 2 590 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chuck 70 Hi",
+          "category": "Converse",
+          "year": "Mavjud",
+          "text": "Klassika, 36–46 · 990 000 so‘m",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Do‘kon",
+      "title": "Qalbakisiz va chayqovchisiz",
+      "text": "2019-yilda bitta javon va Instagramdan boshlaganmiz, bugun — Magic City dagi do‘kon va devorda yuzlab juftliklar. Har bir juftlikni chok, yorliq va kod bo‘yicha tekshiramiz, noyob relizlarni o‘yin orqali sotamiz — bir kishiga bir juftlik. Eski krossovkalarni qayta jonlantirmoqchimisiz — o‘z tozalash ustaxonamiz bor.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Ustaxona",
+      "title": "Tozalash va tiklash",
+      "intro": "Zamsh, nubuk, charm va to‘qimachilik bilan ishlaymiz. Muddat — 2 kundan 5 kungacha.",
+      "items": [
+        {
+          "title": "Tozalash",
+          "text": "Ust qism, tagcharm, bog‘ichlar, hidni ketkazish",
+          "price": "120 000 so‘m",
+          "tag": "2 kun"
+        },
+        {
+          "title": "Tagcharmni oqartirish",
+          "text": "Shaffof va oq tagcharmdan sariqlikni ketkazamiz",
+          "price": "180 000 so‘m",
+          "tag": "3 kun"
+        },
+        {
+          "title": "Zamshni bo‘yash",
+          "text": "Rang va tukni tiklaymiz",
+          "price": "250 000 so‘m",
+          "tag": "5 kun"
+        },
+        {
+          "title": "Kastom",
+          "text": "Eskizingiz bo‘yicha rasm va detallar",
+          "price": "600 000 so‘mdan",
+          "tag": "eskiz bo‘yicha"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Drop qanday ishlaydi",
+      "title": "Juftlikkacha to‘rt qadam",
+      "items": [
+        {
+          "title": "E’lon",
+          "text": "Dushanba kuni modelni va narxni Telegramda ko‘rsatamiz."
+        },
+        {
+          "title": "Ariza",
+          "text": "Jumagacha o‘lcham bilan ariza qoldirasiz — bitta akkaunt, bitta ariza."
+        },
+        {
+          "title": "O‘yin",
+          "text": "Shanba kuni 10:00 da g‘oliblarni tasodifiy, jonli efirda tanlaymiz."
+        },
+        {
+          "title": "Sotib olish",
+          "text": "Juftlikni do‘kondan olish yoki yetkazishni rasmiylashtirish uchun 48 soat."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlar",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": "+",
+          "label": "devordagi juftliklar"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "haqiqiylik tekshiruvi"
+        },
+        {
+          "value": "52",
+          "suffix": "",
+          "label": "yiliga drop"
+        },
+        {
+          "value": "14",
+          "suffix": "kun",
+          "label": "o‘lchamni almashtirishga"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Lukbuk",
+      "title": "Toshkent ko‘chalaridan",
+      "items": [
+        {
+          "caption": "Brodveyda Samba",
+          "image": ""
+        },
+        {
+          "caption": "1906R, Magic City",
+          "image": ""
+        },
+        {
+          "caption": "Do‘kon devori",
+          "image": ""
+        },
+        {
+          "caption": "Tozalash ustaxonasi",
+          "image": ""
+        },
+        {
+          "caption": "Air Max Day",
+          "image": ""
+        },
+        {
+          "caption": "Dropga navbat",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar aytadi",
+      "items": [
+        {
+          "quote": "Birinchi urinishda o‘yinda 1906R yutib oldim — chayqovchilarga ortiqcha to‘lovsiz.",
+          "author": "Behruz",
+          "role": "42 o‘lcham"
+        },
+        {
+          "quote": "Eski zamsh Gazelleni bo‘yashga berdim — qutidan chiqqandek qaytdi.",
+          "author": "Sabina",
+          "role": "ustaxona mijozi"
+        },
+        {
+          "quote": "Salomonni buyurtma bo‘yicha to‘qqiz kunda olib kelishdi, chek va qutisi bilan.",
+          "author": "Ildar",
+          "role": "Samarqand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Haqiqiylikni qanday tekshirasiz?",
+          "a": "Faqat rasmiy distribyutorlar va tekshirilgan bayerlardan olamiz, har bir juftlikni chok, yorliq, kod va quti bo‘yicha solishtiramiz. Shubha bo‘lsa, sotmaymiz."
+        },
+        {
+          "q": "O‘lchamni almashtirsa bo‘ladimi?",
+          "a": "Ha, 14 kun ichida, agar juftlik kiyilmagan va qutisi saqlangan bo‘lsa."
+        },
+        {
+          "q": "Viloyatlarga yetkazasizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab 1–3 kunda, olganda yoki onlayn to‘lov."
+        },
+        {
+          "q": "Tozalash qancha turadi?",
+          "a": "Oddiy tozalash — 120 000 so‘m, tagcharmni oqartirish — 180 000 so‘m, zamshni bo‘yash — 250 000 so‘m."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Do‘kon",
+      "title": "Jonli kiyib ko‘ring",
+      "text": "Magic City, ikkinchi qavat, favvora yonida. Shanba dropini o‘tkazib yubormaslik uchun Telegramga obuna bo‘ling.",
+      "cta": {
+        "label": "Droplar Telegrami",
+        "href": "https://t.me/krossovka_drops"
+      }
+    }
+  ]
+}

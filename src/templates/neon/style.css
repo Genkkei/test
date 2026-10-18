@@ -1,1 +1,183 @@
-/* заготовка */
+/* НЕОН — ночной рамен-бар: тёмная улица, мигающая вывеска, пар, автомат с билетами. */
+
+.tpl-neon {
+  --pad: clamp(16px, 4vw, 56px);
+  --cyan: #46f0ff;
+  --amber: #ffb02e;
+  --glow: 0 0 6px color-mix(in srgb, var(--accent) 90%, #fff), 0 0 18px var(--accent), 0 0 42px color-mix(in srgb, var(--accent) 60%, transparent);
+  font-size: clamp(15px, 1.02vw, 17px);
+  background:
+    radial-gradient(1200px 600px at 80% -10%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 60%),
+    radial-gradient(900px 500px at -10% 40%, color-mix(in srgb, var(--cyan) 8%, transparent), transparent 60%),
+    var(--bg);
+}
+.tpl-neon .s { padding-block: clamp(80px, 10vw, 150px); }
+.tpl-neon .s__label { color: var(--cyan); letter-spacing: .3em; font-size: 12px; text-shadow: 0 0 10px color-mix(in srgb, var(--cyan) 60%, transparent); }
+.tpl-neon .s__title { font-weight: 400; text-transform: uppercase; font-size: clamp(34px, 5.4vw, 86px); line-height: .98; letter-spacing: -.005em; }
+.tpl-neon .s__intro { color: var(--muted); }
+
+.neon-in { animation: neonIn 1s var(--ease) both; animation-delay: var(--d, .2s); }
+@keyframes neonIn { from { opacity: 0; transform: translateY(18px); } }
+
+.neon-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 28px; border: 1.5px solid var(--accent); color: #fff; background: color-mix(in srgb, var(--accent) 18%, transparent); font-family: var(--font-display); letter-spacing: .14em; text-transform: uppercase; font-size: 14px; border-radius: 4px; box-shadow: 0 0 18px -4px var(--accent), inset 0 0 14px -6px var(--accent); transition: background .3s, box-shadow .3s; }
+.neon-btn:hover { background: var(--accent); box-shadow: 0 0 36px -2px var(--accent); }
+.neon-btn--ghost { border-color: var(--cyan); background: transparent; box-shadow: 0 0 18px -6px var(--cyan); }
+.neon-btn--ghost:hover { background: color-mix(in srgb, var(--cyan) 18%, transparent); box-shadow: 0 0 30px -4px var(--cyan); }
+.neon-btn--sm { min-height: 40px; padding: 0 16px; font-size: 12px; }
+.tpl-neon .btn { border-radius: 4px; font-family: var(--font-display); letter-spacing: .12em; text-transform: uppercase; }
+.tpl-neon .btn--primary { background: var(--accent); color: #fff; box-shadow: 0 0 30px -6px var(--accent); }
+
+/* шапка */
+.neon-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 28px; padding: 14px var(--pad); background: color-mix(in srgb, var(--bg) 80%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.neon-logo { display: inline-flex; align-items: center; gap: 12px; font-family: var(--font-display); font-size: 21px; letter-spacing: .06em; text-transform: uppercase; }
+.neon-logo__jp { display: grid; place-items: center; width: 34px; height: 34px; border: 1.5px solid var(--accent); border-radius: 4px; color: var(--accent); text-shadow: var(--glow); box-shadow: 0 0 14px -4px var(--accent); font-size: 18px; }
+.neon-nav { display: flex; justify-content: center; gap: 28px; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
+.neon-nav a { color: color-mix(in srgb, var(--fg) 72%, transparent); transition: color .2s, text-shadow .2s; }
+.neon-nav a:hover { color: #fff; text-shadow: 0 0 12px var(--accent); }
+.neon-header__side { display: flex; align-items: center; gap: 18px; }
+.neon-clock { font-family: var(--font-display); color: var(--amber); letter-spacing: .1em; font-size: 14px; text-shadow: 0 0 10px color-mix(in srgb, var(--amber) 60%, transparent); }
+
+/* первый экран */
+.neon-hero { position: relative; min-height: 100svh; display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 30px; padding: 120px var(--pad) 60px; overflow: hidden; }
+.neon-hero__glow { position: absolute; right: -10%; bottom: -30%; width: 70vw; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--amber) 22%, transparent), transparent 60%); filter: blur(10px); pointer-events: none; }
+.neon-hero__kana { position: absolute; right: var(--pad); top: 96px; writing-mode: vertical-rl; font-size: clamp(60px, 9vw, 150px); line-height: 1; font-weight: 900; color: transparent; -webkit-text-stroke: 1.5px color-mix(in srgb, var(--cyan) 70%, transparent); text-shadow: 0 0 24px color-mix(in srgb, var(--cyan) 30%, transparent); letter-spacing: .05em; opacity: .4; pointer-events: none; z-index: 0; }
+.neon-hero__inner { position: relative; z-index: 2; }
+.neon-hero__eyebrow { color: var(--amber); font-size: 13px; letter-spacing: .24em; text-transform: uppercase; }
+.neon-hero__title { margin: 18px 0 22px; font-family: var(--font-display); font-weight: 400; font-size: clamp(64px, 11.5vw, 190px); line-height: .9; text-transform: uppercase; letter-spacing: -.01em; }
+/* вывеска включается: два мигания, потом ровный свет и лёгкое гудение */
+.neon-sign { color: #fff; text-shadow: var(--glow); animation: neonOn 1.6s steps(1, end) .3s both, neonHum 5s ease-in-out 2.2s infinite; }
+@keyframes neonOn { 0% { opacity: .08; text-shadow: none; } 12% { opacity: 1; text-shadow: var(--glow); } 18% { opacity: .1; text-shadow: none; } 30% { opacity: 1; text-shadow: var(--glow); } 34% { opacity: .2; text-shadow: none; } 46%, 100% { opacity: 1; text-shadow: var(--glow); } }
+@keyframes neonHum { 0%, 92%, 100% { opacity: 1; } 94% { opacity: .78; } 96% { opacity: 1; } 97% { opacity: .85; } }
+.neon-hero__rot { font-size: clamp(18px, 1.8vw, 26px); display: flex; flex-wrap: wrap; gap: .4em; align-items: baseline; }
+.neon-rot { display: inline-grid; overflow: hidden; vertical-align: bottom; font-family: var(--font-display); text-transform: uppercase; color: var(--cyan); text-shadow: 0 0 14px var(--cyan); }
+.neon-rot__word { animation: neonRot .7s var(--ease) both; }
+@keyframes neonRot { from { transform: translateY(100%); filter: blur(4px); opacity: 0; } }
+.neon-hero__sub { margin-top: 20px; max-width: 48ch; color: color-mix(in srgb, var(--fg) 78%, transparent); }
+.neon-hero__ctas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+
+.neon-bowl { position: relative; z-index: 1; color: #f3ede4; justify-self: center; width: min(100%, 520px); }
+.neon-bowl svg { width: 100%; display: block; filter: drop-shadow(0 30px 40px rgb(0 0 0 / .6)); }
+.neon-bowl svg > path:nth-last-of-type(1) { color: #e9e2d6; }
+.neon-steam { position: absolute; left: 20%; right: 20%; bottom: 70%; height: 240px; display: flex; justify-content: space-around; pointer-events: none; }
+.neon-steam i { width: 40px; height: 100%; border-radius: 50%; background: linear-gradient(to top, rgb(255 255 255 / .5), transparent); filter: blur(14px); animation: neonSteam 4.5s ease-in infinite; transform-origin: bottom; }
+.neon-steam i:nth-child(2) { animation-delay: 1.4s; }
+.neon-steam i:nth-child(3) { animation-delay: 2.8s; }
+@keyframes neonSteam { 0% { transform: translateY(40px) scaleY(.4) scaleX(1); opacity: 0; } 30% { opacity: .9; } 100% { transform: translateY(-80px) scaleY(1.2) scaleX(1.8); opacity: 0; } }
+.reduce-motion .neon-steam i, .reduce-motion .neon-sign { animation: none; }
+
+/* лента */
+.tpl-neon .neon-ticker { padding: 0; border-block: 1px solid var(--line); background: #08070b; }
+.neon-ticker .marquee { padding: 16px 0; font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 34px); text-transform: uppercase; color: var(--amber); text-shadow: 0 0 14px color-mix(in srgb, var(--amber) 55%, transparent); }
+.neon-ticker .marquee__sep { color: var(--accent); opacity: 1; }
+
+/* сводка */
+.tpl-neon .s-answer { padding-block: clamp(50px, 7vw, 100px) 0; }
+.tpl-neon .s-answer__text { max-width: 70ch; font-size: clamp(17px, 1.4vw, 21px); padding-left: 22px; border-left: 2px solid var(--accent); color: color-mix(in srgb, var(--fg) 86%, transparent); }
+
+/* о баре */
+.tpl-neon .s-about__body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 5vw, 80px); align-items: center; }
+.tpl-neon .s-about__text { font-size: clamp(17px, 1.3vw, 20px); line-height: 1.7; }
+.tpl-neon .s-about__media { aspect-ratio: 4 / 3; overflow: hidden; border-radius: 6px; border: 1px solid var(--line); }
+
+/* автомат с билетами */
+.neon-machine { display: grid; grid-template-columns: 1fr 260px; gap: 24px; padding: clamp(18px, 2.4vw, 30px); border-radius: 14px; background: linear-gradient(160deg, #1d1b24, #121017); border: 1px solid var(--line); box-shadow: inset 0 1px 0 rgb(255 255 255 / .06), 0 40px 80px -40px #000; }
+.neon-machine__hint { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+.neon-machine__group + .neon-machine__group { margin-top: 26px; }
+.neon-machine__gname { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; letter-spacing: .14em; font-size: 14px; color: var(--amber); margin-bottom: 12px; }
+.neon-machine__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.neon-key { width: 100%; height: 100%; display: grid; gap: 6px; align-content: start; text-align: left; padding: 14px 14px 12px; border-radius: 8px; background: linear-gradient(180deg, #2a2733, #1c1a23); border: 1px solid #3a3645; box-shadow: 0 4px 0 #0a090d, inset 0 1px 0 rgb(255 255 255 / .08); color: var(--fg); cursor: pointer; transition: transform .12s, box-shadow .12s, border-color .2s; }
+.neon-key:hover { border-color: var(--accent); box-shadow: 0 4px 0 #0a090d, 0 0 20px -6px var(--accent); }
+.neon-key:active { transform: translateY(3px); box-shadow: 0 1px 0 #0a090d; }
+.neon-key__name { font-family: var(--font-display); text-transform: uppercase; font-size: 15px; letter-spacing: .02em; }
+.neon-key__text { font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+.neon-key__price { margin-top: 4px; font-family: var(--font-display); color: var(--accent); text-shadow: 0 0 10px color-mix(in srgb, var(--accent) 60%, transparent); font-size: 15px; }
+.neon-machine__slot { position: sticky; top: 90px; align-self: start; display: grid; gap: 12px; justify-items: center; padding: 18px; border-radius: 10px; background: #0d0c11; border: 1px solid var(--line); }
+.neon-machine__label { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.neon-machine__mouth { width: 80%; height: 8px; border-radius: 4px; background: #000; box-shadow: inset 0 2px 4px #000, 0 1px 0 #2a2633; }
+.neon-ticket { width: 86%; display: grid; gap: 6px; padding: 16px 14px 18px; background: #fbf6ea; color: #1b1a1e; text-align: center; border-radius: 2px; mask: radial-gradient(circle 6px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 6px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat; animation: neonPrint .9s var(--ease) both; transform-origin: top; }
+.neon-ticket strong { font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 18px; line-height: 1.1; }
+.neon-ticket__head { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #8a8090; border-bottom: 1px dashed #c8bfb0; padding-bottom: 6px; }
+.neon-ticket small { font-size: 11px; color: #8a8090; }
+.neon-ticket--idle { opacity: .35; animation: none; }
+@keyframes neonPrint { from { transform: translateY(-30px) scaleY(.2); opacity: 0; } }
+
+/* шаги */
+.neon-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; counter-reset: s; }
+.neon-step { position: relative; padding: 26px 22px 24px; border: 1px solid var(--line); border-radius: 10px; background: color-mix(in srgb, var(--surface) 80%, transparent); transition: border-color .3s, box-shadow .3s; }
+.neon-step:hover { border-color: var(--cyan); box-shadow: 0 0 30px -12px var(--cyan); }
+.neon-step__no { font-size: 46px; line-height: 1; color: var(--accent); text-shadow: var(--glow); }
+.neon-step h3 { margin: 16px 0 8px; font-family: var(--font-display); font-weight: 400; text-transform: uppercase; font-size: 21px; }
+.neon-step p { color: var(--muted); font-size: 15px; }
+
+/* цифры */
+.tpl-neon .s-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.tpl-neon .s-stats__item { background: var(--bg); padding: 30px 24px; display: flex; flex-direction: column-reverse; gap: 8px; }
+.tpl-neon .s-stats__value { font-family: var(--font-display); font-size: clamp(54px, 6vw, 96px); line-height: 1; color: #fff; text-shadow: 0 0 22px color-mix(in srgb, var(--cyan) 50%, transparent); }
+.tpl-neon .s-stats__suffix { font-size: .38em; color: var(--cyan); margin-left: 6px; }
+.tpl-neon .s-stats__label { color: var(--muted); font-size: 14px; letter-spacing: .04em; }
+
+/* галерея: строки развёртки поверх кадра */
+.neon-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.neon-gallery__item { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: 6px; }
+.neon-gallery__item:nth-child(even) { translate: 0 40px; }
+.neon-gallery__item::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(0deg, rgb(0 0 0 / .18) 0 2px, transparent 2px 4px); pointer-events: none; }
+.neon-gallery__item figcaption { position: absolute; left: 10px; right: 10px; bottom: 10px; z-index: 1; font-size: 13px; padding: 6px 10px; background: rgb(8 7 11 / .75); border-left: 2px solid var(--accent); }
+
+/* отзывы */
+.tpl-neon .s-testimonials__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+.tpl-neon .s-testimonials__item { padding: 28px 24px; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); display: grid; gap: 22px; align-content: space-between; }
+.tpl-neon .s-testimonials__quote { font-size: 17px; line-height: 1.6; }
+.tpl-neon .s-testimonials__quote::before { content: '「'; color: var(--accent); }
+.tpl-neon .s-testimonials__quote::after { content: '」'; color: var(--accent); }
+.tpl-neon .s-testimonials__who { display: grid; font-size: 14px; }
+.tpl-neon .s-testimonials__who span { color: var(--muted); }
+
+/* вопросы */
+.tpl-neon .s-faq__list { display: grid; gap: 10px; max-width: 920px; }
+.tpl-neon .s-faq__item { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.tpl-neon .s-faq__q { display: flex; justify-content: space-between; gap: 20px; padding: 20px 22px; font-weight: 600; font-size: 17px; }
+.tpl-neon .s-faq__q i::before { content: '+'; font-family: var(--font-display); color: var(--accent); font-size: 22px; line-height: 1; display: inline-block; transition: transform .4s var(--ease); }
+.tpl-neon .s-faq__item[open] .s-faq__q i::before { transform: rotate(45deg); }
+.tpl-neon .s-faq__a { padding: 0 22px 22px; color: var(--muted); }
+
+/* контакты */
+.tpl-neon .s-contact .s__inner { border: 1px solid var(--line); border-radius: 18px; padding: clamp(30px, 5vw, 70px); background: radial-gradient(600px 300px at 90% 100%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 70%), var(--surface); }
+.tpl-neon .s-contact__body { display: grid; gap: 34px; }
+.tpl-neon .s-contact .btn--xl { width: fit-content; }
+.tpl-neon .s-contact__facts { display: flex; flex-wrap: wrap; gap: 18px 44px; font-style: normal; }
+.tpl-neon .s-contact__facts small { display: block; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--cyan); margin-bottom: 4px; }
+
+/* подвал */
+.neon-footer { border-top: 1px solid var(--line); padding: 50px var(--pad) 24px; overflow: hidden; }
+.neon-footer__sign { font-family: var(--font-display); text-transform: uppercase; font-size: clamp(56px, 13vw, 220px); line-height: .9; color: transparent; -webkit-text-stroke: 1.5px var(--accent); text-shadow: 0 0 30px color-mix(in srgb, var(--accent) 40%, transparent); white-space: nowrap; }
+.neon-footer__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 26px; margin-top: 40px; font-size: 14px; }
+.neon-footer__grid small { display: block; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.neon-footer__tag { color: color-mix(in srgb, var(--fg) 80%, transparent); max-width: 32ch; }
+.neon-footer__social { display: grid; gap: 4px; align-content: start; }
+.neon-footer__social a:hover { color: var(--accent); }
+.neon-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+
+.tpl-neon .mmenu__panel { background: #08070b; }
+.tpl-neon .mmenu__panel a { text-transform: uppercase; }
+.tpl-neon .mmenu__panel .mmenu__cta { background: var(--accent); color: #fff; }
+
+@media (max-width: 1000px) {
+  .neon-nav { display: none; }
+  .neon-header { grid-template-columns: 1fr auto; }
+  .neon-hero { grid-template-columns: 1fr; padding-top: 110px; }
+  .neon-bowl { width: min(86%, 420px); }
+  .neon-machine { grid-template-columns: 1fr; }
+  .neon-machine__slot { position: sticky; bottom: 70px; top: auto; order: -1; grid-template-columns: 1fr; }
+  .neon-gallery { grid-template-columns: repeat(2, 1fr); }
+  .neon-footer__grid { grid-template-columns: 1fr 1fr; }
+  .tpl-neon .s-about__body { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .neon-clock { display: none; }
+  .neon-hero__kana { display: none; }
+  .neon-header__side .neon-btn--sm { display: none; }
+  .neon-machine__slot { display: none; }
+  .neon-machine__grid { grid-template-columns: 1fr; }
+  .neon-footer__grid { grid-template-columns: 1fr; }
+}
+.neon-hero > * { min-width: 0; } .neon-hero__title { overflow-wrap: anywhere; }

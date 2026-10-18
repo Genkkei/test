@@ -1,0 +1,298 @@
+{
+  "name": "Ramen Do",
+  "tagline": "The broth simmers for eighteen hours, the noodles are made every morning",
+  "niche": "Ramen bar and Japanese street food",
+  "nav": {
+    "cta": {
+      "label": "Delivery",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a ramen bar, Asian café or late-night street food. A flickering neon sign, steam over the bowl and a menu laid out like a Japanese ticket machine.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ramen Do — ramen bar in Tashkent open till 2 am",
+    "description": "Tonkotsu, shoyu and miso ramen on an eighteen-hour broth, gyoza and takoyaki. Order at the ticket machine, open till 2:00 on weekends. Delivery across Tashkent.",
+    "keywords": [
+      "ramen Tashkent",
+      "Japanese food Tashkent",
+      "tonkotsu",
+      "gyoza",
+      "late-night food Tashkent",
+      "ramen delivery"
+    ],
+    "answer": "Ramen Do is a ramen bar at 59A Mustaqillik St in Tashkent, open from 12:00 to midnight and till 2:00 on Fridays and weekends. Tonkotsu ramen costs 79,000 UZS, shoyu 72,000 UZS, miso 74,000 UZS and gyoza 39,000 UZS. Order at the ticket machine by the door; delivery is available."
+  },
+  "business": {
+    "legalName": "Ramen Do LLC",
+    "street": "59A Mustaqillik St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Eats"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Ramen Do",
+      "eyebrow": "Ramen bar · Mustaqillik 59A · till 02:00",
+      "subtitle": "The bone broth simmers for eighteen hours, noodles are pulled every morning and eggs marinate for a day. Grab a ticket at the machine and take a seat at the counter.",
+      "words": [
+        "tonkotsu",
+        "shoyu",
+        "miso"
+      ],
+      "cta": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "How to order",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Tonkotsu",
+        "Shoyu",
+        "Miso",
+        "Gyoza",
+        "Takoyaki",
+        "Onigiri",
+        "Till 2 am"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The bar",
+      "title": "Eighteen counter seats and one stockpot",
+      "text": "Chef Timur trained under a master in Fukuoka and brought back one rule: a single broth taken all the way is better than ten average ones. The 120-litre pot sits right behind the counter — you can watch them skim it and pull the noodles. We talk loud and eat fast and hot.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Press a button, get a ticket",
+      "groups": [
+        {
+          "name": "Ramen",
+          "items": [
+            {
+              "name": "Tonkotsu",
+              "text": "Creamy beef bone broth, chashu, egg, nori",
+              "price": "79,000 UZS"
+            },
+            {
+              "name": "Shoyu",
+              "text": "Clear chicken broth seasoned with soy",
+              "price": "72,000 UZS"
+            },
+            {
+              "name": "Miso",
+              "text": "Dark miso paste, corn, butter",
+              "price": "74,000 UZS"
+            },
+            {
+              "name": "Spicy tantanmen",
+              "text": "Sesame paste, minced beef, chilli oil",
+              "price": "78,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "On the side",
+          "items": [
+            {
+              "name": "Gyoza, 6 pcs",
+              "text": "Crispy bottoms, beef and cabbage",
+              "price": "39,000 UZS"
+            },
+            {
+              "name": "Takoyaki",
+              "text": "Octopus balls with bonito flakes",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Onigiri",
+              "text": "Salmon or pickled plum",
+              "price": "24,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Extras",
+          "items": [
+            {
+              "name": "Ajitama egg",
+              "text": "Marinated for a day",
+              "price": "9,000 UZS"
+            },
+            {
+              "name": "Kaedama",
+              "text": "A second portion of noodles for your broth",
+              "price": "14,000 UZS"
+            },
+            {
+              "name": "Iced oolong",
+              "text": "Unsweetened, large glass",
+              "price": "16,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "Four steps to a bowl",
+      "items": [
+        {
+          "title": "Ticket",
+          "text": "Choose your ramen at the machine by the door, pay by card or cash."
+        },
+        {
+          "title": "Order sheet",
+          "text": "Tick noodle firmness, richness and heat — from zero to five chillies."
+        },
+        {
+          "title": "Counter",
+          "text": "Hand the ticket to the cook and watch your bowl come together. About seven minutes."
+        },
+        {
+          "title": "Kaedama",
+          "text": "Broth left over? Press the button again and we add more noodles."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Kitchen numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "h",
+          "label": "broth simmers"
+        },
+        {
+          "value": "120",
+          "suffix": "L",
+          "label": "stockpot behind the counter"
+        },
+        {
+          "value": "18",
+          "suffix": "",
+          "label": "counter seats"
+        },
+        {
+          "value": "7",
+          "suffix": "min",
+          "label": "to your bowl"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The bar at night",
+      "title": "Steam, neon and the counter",
+      "items": [
+        {
+          "caption": "The eighteen-seat counter",
+          "image": ""
+        },
+        {
+          "caption": "Tonkotsu with chashu",
+          "image": ""
+        },
+        {
+          "caption": "The ticket machine",
+          "image": ""
+        },
+        {
+          "caption": "Morning noodles",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "After the shift",
+      "items": [
+        {
+          "quote": "The only place in town where at 1 am you get a proper hot broth instead of a shawarma.",
+          "author": "Kamila",
+          "role": "bartender"
+        },
+        {
+          "quote": "The ticket machine threw me at first — now it is the best part of the night.",
+          "author": "Jasur",
+          "role": "Friday regular"
+        },
+        {
+          "quote": "Four-chilli heat is honest. None of my friends has managed five yet.",
+          "author": "Li Min",
+          "role": "student"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before your first visit",
+      "items": [
+        {
+          "q": "Is there pork in the ramen?",
+          "a": "No. Our broths are made from beef bones and chicken, and the chashu is beef."
+        },
+        {
+          "q": "Can I book a table?",
+          "a": "No bookings: the counter works first come, first served, and the wait is rarely over ten minutes."
+        },
+        {
+          "q": "Is there a vegetarian ramen?",
+          "a": "Yes, a miso on mushroom broth with tofu — press the “Veg” button on the machine."
+        },
+        {
+          "q": "Won’t delivery go soggy?",
+          "a": "Noodles and broth travel separately in a thermal bag. You combine them at home in ten seconds."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Hungry at midnight?",
+      "text": "Walk in, no booking, or order delivery on Telegram — we bring it hot within 40 minutes.",
+      "cta": {
+        "label": "Order on Telegram",
+        "href": "https://t.me/ramendo_uz"
+      }
+    }
+  ]
+}

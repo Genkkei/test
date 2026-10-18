@@ -1,0 +1,295 @@
+{
+  "name": "Shirin",
+  "tagline": "A patisserie that builds the cake around your celebration",
+  "niche": "Patisserie and custom cakes",
+  "nav": {
+    "cta": {
+      "label": "Order a cake",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a patisserie, bakery or home baker. A pastel display case with price tags, a tiered cake that stacks up layer by layer and a step-by-step cake order.",
+    "features": []
+  },
+  "seo": {
+    "title": "Shirin — custom cakes and patisserie in Tashkent",
+    "description": "Custom cakes from 1.5 kg, mousse pastries, macarons and éclairs. Filling tastings and same-day delivery for your celebration across Tashkent. 24 Oybek St.",
+    "keywords": [
+      "custom cake Tashkent",
+      "patisserie Tashkent",
+      "wedding cake",
+      "kids’ birthday cake",
+      "macarons",
+      "éclairs"
+    ],
+    "answer": "Shirin is a patisserie at 24 Oybek St in Tashkent, open daily from 9:00 to 21:00. Custom cakes start at 290,000 UZS per kilogram with a 1.5 kg minimum, ordered three days ahead. The counter has éclairs from 28,000 UZS, macarons at 14,000 UZS each and mousse pastries."
+  },
+  "business": {
+    "legalName": "Shirin Patisserie LLC",
+    "street": "24 Oybek St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Sweet like childhood",
+      "eyebrow": "Patisserie · 24 Oybek · 9 am to 9 pm",
+      "subtitle": "We build the cake around your celebration: you choose the filling at a tasting and we sketch the décor together. The counter has éclairs, macarons and mousse pastries every day.",
+      "words": [
+        "wedding",
+        "birthday",
+        "beshik-toy"
+      ],
+      "cta": {
+        "label": "Order a cake",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "The counter",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Custom cakes",
+        "Macarons",
+        "Éclairs",
+        "Mousse pastries",
+        "Cupcakes",
+        "Filling tastings"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A small patisserie with a big display case",
+      "text": "Shirin opened the patisserie in 2017 after a course in Paris, with three recipes and one oven. Today there are eight of us, but the rules are the same: butter instead of margarine, Belgian chocolate, seasonal berries and no preservatives. That is why a cake keeps for three days — and rarely lasts that long.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "The counter",
+      "title": "On the shelves today",
+      "groups": [
+        {
+          "name": "Pastries",
+          "items": [
+            {
+              "name": "Pistachio éclair",
+              "text": "Choux pastry, Sicilian pistachio cream",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Vanilla éclair",
+              "text": "Madagascar vanilla, white glaze",
+              "price": "28,000 UZS"
+            },
+            {
+              "name": "Raspberry cloud",
+              "text": "Raspberry mousse, sponge, white chocolate",
+              "price": "36,000 UZS"
+            },
+            {
+              "name": "Medovik",
+              "text": "Eight honey layers, sour-cream frosting",
+              "price": "30,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Macarons and cupcakes",
+          "items": [
+            {
+              "name": "Macaron",
+              "text": "Eight flavours, salted caramel to lavender",
+              "price": "14,000 UZS"
+            },
+            {
+              "name": "Box of 12 macarons",
+              "text": "Assorted, in a gift box",
+              "price": "155,000 UZS"
+            },
+            {
+              "name": "Red velvet cupcake",
+              "text": "Cream cheese, berries",
+              "price": "26,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Cakes",
+      "title": "Custom cake pricing",
+      "items": [
+        {
+          "name": "Classic",
+          "price": "290,000 UZS",
+          "period": "per kg",
+          "features": [
+            "Choice of sponge and cream",
+            "Lettering and berries",
+            "From 1.5 kg"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Celebration",
+          "price": "360,000 UZS",
+          "period": "per kg",
+          "features": [
+            "Mousse or tiered",
+            "Décor to a sketch",
+            "Filling tasting"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Wedding",
+          "price": "420,000 UZS",
+          "period": "per kg",
+          "features": [
+            "Three tiers and up",
+            "Fresh flowers and sugar florals",
+            "Delivery and assembly on site"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "A cake in four steps",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Send the date, number of guests and the occasion, at least three days ahead."
+        },
+        {
+          "title": "Tasting",
+          "text": "Come and taste four fillings, free for orders of 3 kg or more."
+        },
+        {
+          "title": "Sketch",
+          "text": "We sketch the cake in your style and colours and agree every detail."
+        },
+        {
+          "title": "The day",
+          "text": "Delivered in a refrigerated van at the agreed time."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Our cakes",
+      "title": "Cakes already eaten",
+      "items": [
+        {
+          "caption": "Wedding, three tiers",
+          "image": ""
+        },
+        {
+          "caption": "Beshik-toy, vanilla and strawberry",
+          "image": ""
+        },
+        {
+          "caption": "Boxed macarons",
+          "image": ""
+        },
+        {
+          "caption": "Chocolate mousse cake",
+          "image": ""
+        },
+        {
+          "caption": "Kids’, unicorns",
+          "image": ""
+        },
+        {
+          "caption": "Medovik for an anniversary",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Kind words",
+      "title": "Notes from guests",
+      "items": [
+        {
+          "quote": "The wedding cake matched the sketch exactly, and guests still talk about the pistachio cream.",
+          "author": "Nigora",
+          "role": "bride"
+        },
+        {
+          "quote": "Every Friday I take a box of macarons to the office — my colleagues wait for it all morning.",
+          "author": "Timur",
+          "role": "regular"
+        },
+        {
+          "quote": "My daughter turned five — the unicorn cake looked straight out of a cartoon.",
+          "author": "Lola",
+          "role": "mum"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "How far ahead should I order?",
+          "a": "At least three days ahead, two to three weeks for a wedding cake. Rush orders when we can — ask on Telegram."
+        },
+        {
+          "q": "What is the minimum weight?",
+          "a": "1.5 kg, which is 8–10 slices. Tiered cakes start at 4 kg."
+        },
+        {
+          "q": "Is a deposit required?",
+          "a": "Yes, 50% when ordering and the rest on delivery. We accept cards, Payme and Click."
+        },
+        {
+          "q": "Do you make sugar-free or gluten-free cakes?",
+          "a": "We make a gluten-free cake on almond flour. Completely sugar-free, no, but we can make it less sweet."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Order",
+      "title": "Tell us about your celebration",
+      "text": "Send the date, guest count and a reference photo — we reply with filling options and a price within an hour.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/shirin_cakes"
+      }
+    }
+  ]
+}
