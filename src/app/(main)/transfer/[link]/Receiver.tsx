@@ -72,7 +72,7 @@ export function Receiver({ link, initial, oauth, ghError }: { link: string; init
             </p>
           ) : (
             <>
-              <p className="adm-muted">Нет аккаунта? Зарегистрируйтесь на github.com (бесплатно), затем вернитесь сюда.</p>
+              <p className="adm-muted">Нет аккаунта? Зарегистрируйтесь на github.com (бесплатно, можно через Google), затем вернитесь сюда.</p>
               {oauth ? (
                 <p>
                   <a className="adm-btn adm-btn--primary" href={`/api/transfer/github/start?link=${link}`}>
@@ -108,9 +108,9 @@ export function Receiver({ link, initial, oauth, ghError }: { link: string; init
           ) : (
             <>
               <p className="adm-muted">
-                Нет аккаунта? Зарегистрируйтесь на dash.cloudflare.com (бесплатно) и один раз откройте раздел R2 → «Включить» (бесплатный объём, нужна карта для проверки, деньги не списываются).
+                Нет аккаунта? Откройте dash.cloudflare.com → «Sign up» → «Continue with Google» — регистрация вашим Google за минуту, бесплатно. Затем один раз откройте раздел R2 → «Включить» (бесплатный объём; Cloudflare просит карту для проверки, деньги не списываются).
               </p>
-              <p className="adm-muted">1) нажмите кнопку — откроется Cloudflare с уже выставленными правами; 2) внизу «Continue to summary» → «Create Token»; 3) скопируйте ключ и вставьте сюда.</p>
+              <p className="adm-muted">Дальше один шаг, который Cloudflare не даёт сделать за вас: 1) нажмите кнопку — откроется Cloudflare с уже выставленными правами (войдите через Google, если попросит); 2) внизу «Continue to summary» → «Create Token»; 3) скопируйте ключ и вставьте сюда.</p>
               <p>
                 <a className="adm-btn" href={CF_TOKEN_URL} target="_blank" rel="noopener noreferrer">
                   Создать ключ Cloudflare ↗
