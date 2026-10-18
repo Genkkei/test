@@ -1,0 +1,268 @@
+{
+  "name": "Smart Mebel",
+  "tagline": "Kichik kvartiralar uchun transformer mebel: bitta xona — uchta ssenariy",
+  "niche": "Transformer mebel",
+  "seo": {
+    "title": "Smart Mebel — kichik kvartiralar uchun transformer mebel",
+    "description": "Studiya va bir xonali kvartiralar uchun shkaf-karavotlar, yig‘ma stollar va ko‘tarish mexanizmli divanlar. Nemis mexanizmlari, Chilonzordagi shourumda ko‘rsatish, bir kunda o‘rnatish.",
+    "keywords": [
+      "Toshkentda shkaf-karavot",
+      "transformer mebel",
+      "studiya uchun mebel",
+      "yig‘ma stol",
+      "kichik kvartira uchun mebel"
+    ],
+    "answer": "Smart Mebel — Toshkentdagi transformer mebel shourumi (Chilonzor, Muqimiy ko‘chasi, 166). Nemis mexanizmli shkaf-karavotlar 11 900 000 so‘mdan, divanli shkaf-karavot 16 500 000 so‘mdan, yig‘ma stollar 2 400 000 so‘mdan. O‘lchash va 3D bepul, tayyorlash 21 kun, bir kunda o‘rnatish."
+  },
+  "nav": {
+    "cta": {
+      "label": "O‘lchashga buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Transformer mebel, aqlli uy yoki texnologik mahsulot uchun sayt: nuqtali matritsa sarlavhasi, narxli spetsifikatsiya kartalari, bosqichma-bosqich o‘rnatish logi va tablodagi raqamlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Smart Mebel» MChJ",
+    "street": "Muqimiy ko‘chasi, 166, Chilonzor",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kvartira kattaroq bo‘ladi",
+      "eyebrow": "Shourum · Chilonzor · 10–21",
+      "subtitle": "Kunduzi — mehmonxona, kechqurun — yotoqxona, dam olish kunlari — sakkiz kishilik oshxona. Karavot bir qo‘l bilan shkafga kiradi, stol konsoldan o‘n soniyada yoyiladi.",
+      "words": [
+        "Shkaf-karavot",
+        "Konsol-stol",
+        "Mexanizmli divan",
+        "Kafolat 5 yil"
+      ],
+      "cta": {
+        "label": "O‘lchashga buyurtma",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Modellar",
+        "href": "#models"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Shkaf-karavot",
+        "Transformer stol",
+        "Ko‘tarish mexanizmi",
+        "Studiya 25 m²",
+        "Bir kunda o‘rnatish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "20 000 ko‘tarishda sinalgan mexanizmlar",
+      "text": "Korpusni Toshkentda E1 sinfidagi namga chidamli plitadan yasaymiz, gaz amortizatorli nemis mexanizmlarini o‘rnatamiz. Chilonzordagi shourumda 25 m² studiya yig‘ilgan: karavotni o‘zingiz yig‘ishingiz va stolni sakkiz kishiga yoyishingiz mumkin.",
+      "image": ""
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Modellar",
+      "title": "Bitta xonada nima yig‘ish mumkin",
+      "intro": "Narxlar — bazaviy o‘lcham va rang uchun. Aniq narx o‘lchashdan keyin hisoblanadi.",
+      "items": [
+        {
+          "title": "Vertical shkaf-karavot",
+          "text": "Uxlash joyi 160×200 · gaz amortizatorlari · ortopedik lamellar · chuqurligi 45 sm",
+          "price": "11 900 000 so‘m",
+          "tag": "xit"
+        },
+        {
+          "title": "Divanli shkaf-karavot",
+          "text": "Karavot 140×200 · divan joyida qoladi · yonlarida tokchalar",
+          "price": "16 500 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Konsol-stol",
+          "text": "Yig‘ilganda 45 sm · yoyilganda 230 sm gacha · 8 kishigacha",
+          "price": "2 400 000 so‘m",
+          "tag": "yangi"
+        },
+        {
+          "title": "Ko‘tarish mexanizmli divan",
+          "text": "Ko‘rpa uchun 300 l quti · uxlash joyi 150×200",
+          "price": "7 800 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Shkafdagi ish joyi",
+          "text": "Yig‘ma stol usti · rozetka va yoritgich · monitor bilan yopiladi",
+          "price": "5 200 000 so‘m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "20000",
+          "suffix": "",
+          "label": "sinovda ko‘tarish sikllari"
+        },
+        {
+          "value": "10",
+          "suffix": " son",
+          "label": "karavotni yoyish uchun"
+        },
+        {
+          "value": "21",
+          "suffix": " kun",
+          "label": "tayyorlash"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "mexanizmga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "type": "process",
+      "label": "O‘rnatish",
+      "title": "Qanday o‘rnatamiz",
+      "items": [
+        {
+          "title": "O‘lchash",
+          "text": "O‘lchovchi namunalar bilan keladi, devor va simlarni tekshiradi. Bepul."
+        },
+        {
+          "title": "3D-loyiha",
+          "text": "Xonani uch ssenariyda ko‘rsatamiz: kunduz, kecha, mehmonlar."
+        },
+        {
+          "title": "Ishlab chiqarish",
+          "text": "21 ish kuni, yig‘ish uchastkasidan rasmlar yuboramiz."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Devorga ankerlar bilan mahkamlaymiz, mexanizmni sozlaymiz, chiqindini olib ketamiz — bir kunda."
+        },
+        {
+          "title": "Servis",
+          "text": "Yarim yildan keyin mexanizmni bepul sozlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Studiya egalari yozadi",
+      "items": [
+        {
+          "quote": "28 metrda endi yotoqxona ham, mehmon kutadigan joy ham bor.",
+          "author": "Dilshod",
+          "role": "divanli shkaf-karavot"
+        },
+        {
+          "quote": "Qizim ertalab karavotni o‘zi yig‘adi — mexanizm yengil.",
+          "author": "Saida",
+          "role": "Vertical"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Shourum",
+      "title": "O‘zingiz sinab ko‘ring",
+      "items": [
+        {
+          "caption": "Kunduzgi studiya",
+          "image": ""
+        },
+        {
+          "caption": "Kechasi o‘sha studiya",
+          "image": ""
+        },
+        {
+          "caption": "Sakkiz kishilik stol",
+          "image": ""
+        },
+        {
+          "caption": "Shkafdagi ofis",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Devor chidaydimi?",
+          "a": "O‘lchovchi devorni tekshiradi. Gipsokarton uchun mustahkamlangan karkas qo‘yamiz — bu smetaga kiradi."
+        },
+        {
+          "q": "Bolalar uchun xavfli emasmi?",
+          "a": "Karavot ikkala holatda ham qotiriladi va o‘zi tushmaydi."
+        },
+        {
+          "q": "Oddiy matras mos keladimi?",
+          "a": "Ha, qalinligi 25 sm gacha. Shourumda matras tanlab berishimiz mumkin."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, 12 oygacha ortiqcha to‘lovsiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Kvartira rejasini yuboring",
+      "text": "Telegramda nima sig‘ishini chamalaymiz va o‘lchashdan oldin narxini aytamiz. Shourum har kuni 10 dan 21 gacha ochiq.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/smartmebel_uz"
+      }
+    }
+  ]
+}

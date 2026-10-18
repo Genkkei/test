@@ -1,0 +1,286 @@
+{
+  "name": "Temirchi",
+  "tagline": "A young forge: blacksmithing workshops and forged gifts",
+  "niche": "Blacksmith workshops and handmade forged gifts",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a forge running workshops: a poster-style first screen, programmes laid out as rounds, the smiths, passes and gift vouchers.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a workshop",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Temirchi — blacksmithing workshops in Tashkent",
+    "description": "Forge a knife, horseshoe or candlestick with your own hands in three hours, guided by a smith. Workshops for couples and groups, gift vouchers and forged gifts made to order.",
+    "keywords": [
+      "blacksmithing workshop",
+      "forge Tashkent",
+      "experience gift voucher",
+      "forged gifts"
+    ],
+    "answer": "Temirchi is a forge in Chilanzar, Tashkent, running blacksmithing workshops: in three hours you forge a horseshoe, candlestick or knife yourself with a smith beside you. Workshops from 450,000 UZS per person or 800,000 UZS for a couple, and gift vouchers are available. Ages 14 and up; aprons and gloves provided. Phone +998 71 200-07-07."
+  },
+  "business": {
+    "legalName": "Temirchi (sole trader)",
+    "street": "Box 5, industrial zone, Block 19, Chilanzar",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Forge your own",
+      "eyebrow": "Forge · Chilanzar · workshops",
+      "subtitle": "A forge, an anvil and three hours — then you hold something you made yourself. We show you how to swing the hammer from the very first strike, even if you have never held a tool.",
+      "words": [
+        "Three-hour workshop",
+        "Ages 14+",
+        "Apron and gloves provided"
+      ],
+      "cta": {
+        "label": "Book a place",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Workshops",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Lucky horseshoe",
+        "Candlestick",
+        "Leaf-spring knife",
+        "Barbecue set",
+        "A date at the forge"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About the forge",
+      "title": "A forge people visit for the experience",
+      "text": "We are three smiths who opened the forge so people could feel metal with their own hands. Everyone works at their own anvil with a smith beside them. It is safe: goggles, leather aprons and gloves are ours — your job is to strike.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Workshops",
+      "title": "Pick your round",
+      "items": [
+        {
+          "title": "Lucky horseshoe",
+          "text": "A first go at the forge: two hours, and you take it home.",
+          "price": "350,000 UZS",
+          "tag": "Beginners"
+        },
+        {
+          "title": "Scrolled candlestick",
+          "text": "Drawing out, twisting and scrolls — three hours.",
+          "price": "450,000 UZS",
+          "tag": "Popular"
+        },
+        {
+          "title": "Leaf-spring knife",
+          "text": "Two four-hour sessions: forging, hardening and a walnut handle.",
+          "price": "1,400,000 UZS",
+          "tag": "Experienced"
+        },
+        {
+          "title": "A date at the forge",
+          "text": "A couple forges two keepsake rings; tea and photos included.",
+          "price": "800,000 UZS per couple",
+          "tag": "For two"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "anvils in the forge"
+        },
+        {
+          "value": "3",
+          "suffix": " h",
+          "label": "per workshop"
+        },
+        {
+          "value": "1200",
+          "suffix": "°",
+          "label": "heat of the forge"
+        },
+        {
+          "value": "14",
+          "suffix": "+",
+          "label": "minimum age"
+        }
+      ]
+    },
+    {
+      "id": "coaches",
+      "type": "team",
+      "label": "Smiths",
+      "title": "Who will be beside you",
+      "items": [
+        {
+          "name": "Sherzod",
+          "role": "Head smith, knives and blades",
+          "image": ""
+        },
+        {
+          "name": "Alisher",
+          "role": "Ornamental work, candlesticks",
+          "image": ""
+        },
+        {
+          "name": "Kamola",
+          "role": "Workshops for couples and teens",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "How it goes",
+      "title": "Three rounds at the anvil",
+      "items": [
+        {
+          "title": "Briefing",
+          "text": "Kit on, then we learn to hold the hammer and tongs."
+        },
+        {
+          "title": "Forging",
+          "text": "We heat the bar and shape it with the smith guiding you."
+        },
+        {
+          "title": "Finish",
+          "text": "We clean it, wax it against rust, and it goes home with you."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Vouchers",
+      "title": "Give the gift of a hammer strike",
+      "items": [
+        {
+          "name": "Taster",
+          "price": "350,000 UZS",
+          "period": "1 person · 2 hours",
+          "features": [
+            "Horseshoe of your choice",
+            "Valid for 3 months"
+          ],
+          "featured": false
+        },
+        {
+          "name": "For two",
+          "price": "800,000 UZS",
+          "period": "couple · 3 hours",
+          "features": [
+            "Two keepsake rings",
+            "Tea and photos",
+            "A printed card"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Group",
+          "price": "2,400,000 UZS",
+          "period": "up to 6 people",
+          "features": [
+            "The whole forge to yourselves",
+            "Team day or birthday"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "After the forge",
+      "items": [
+        {
+          "quote": "I gave my husband a voucher and now we come every month. The candlestick has pride of place.",
+          "author": "Sevara",
+          "role": "workshop for two"
+        },
+        {
+          "quote": "We brought the team: six people, six horseshoes and not one bored face.",
+          "author": "Jasur",
+          "role": "team lead"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is it safe?",
+          "a": "Yes — goggles, a leather apron and gloves are provided, and a smith is always beside you."
+        },
+        {
+          "q": "Do I need to be strong?",
+          "a": "No — we match the hammer to your hand and the fire does most of the work."
+        },
+        {
+          "q": "What should I wear?",
+          "a": "Closed shoes and cotton clothing — synthetics melt under sparks."
+        },
+        {
+          "q": "How do vouchers work?",
+          "a": "Valid for three months; the recipient picks a date on Telegram."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Book — the fire will be lit when you arrive",
+      "text": "Box 5, industrial zone, Block 19, Chilanzar. Tue–Fri 12:00–21:00, Sat–Sun 10:00–20:00.",
+      "cta": {
+        "label": "Book a place",
+        "href": "#order"
+      }
+    }
+  ]
+}

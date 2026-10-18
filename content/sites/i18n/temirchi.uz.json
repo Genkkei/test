@@ -1,0 +1,286 @@
+{
+  "name": "Temirchi",
+  "tagline": "Yosh temirxona: temirchilik master-klasslari va temir sovg‘alar",
+  "niche": "Master-klass va qo‘lda yasalgan sovg‘alar temirxonasi",
+  "nav": {
+    "cta": {
+      "label": "Yozilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Master-klassli temirxona uchun sayt: birinchi ekranda afisha-plakat, raund kabi dasturlar, temirchilar, abonement va sovg‘a sertifikatlari.",
+    "features": []
+  },
+  "leads": {
+    "title": "Master-klassga yozilish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Temirchi — Toshkentda temirchilik master-klasslari",
+    "description": "Temirchi nazoratida 3 soatda o‘z qo‘lingiz bilan pichoq, taqa yoki shamdon yasang. Juftliklar va kompaniyalar uchun master-klasslar, sovg‘a sertifikatlari va buyurtma asosida temir sovg‘alar.",
+    "keywords": [
+      "temirchilik master-klassi",
+      "Toshkent temirxona",
+      "taassurot sovg‘a sertifikati",
+      "temir sovg‘alar"
+    ],
+    "answer": "Temirchi — Chilonzordagi (Toshkent) temirchilik master-klasslari bo‘lgan temirxona: 3 soatda temirchi nazoratida o‘zingiz taqa, shamdon yoki pichoq yasaysiz. Master-klass — kishi boshiga 450 000 so‘mdan, juftlik uchun — 800 000 so‘m, sovg‘a sertifikatlari bor. Yosh — 14 dan, fartuk va qo‘lqop beramiz. Telefon +998 71 200-07-07."
+  },
+  "business": {
+    "legalName": "YaTT «Temirchi»",
+    "street": "Chilonzor, 19-mavze, sanoat zonasi, 5-boks",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "O‘zingnikini yasa",
+      "eyebrow": "Temirxona · Chilonzor · master-klasslar",
+      "subtitle": "O‘choq, sandon va uch soat — so‘ng qo‘lingizda o‘zingiz yasagan buyum bo‘ladi. Birinchi zarbdanoq bolg‘ani ushlashni o‘rgatamiz — hech qachon asbob ushlamagan bo‘lsangiz ham qo‘rqinchli emas.",
+      "words": [
+        "Master-klass 3 soat",
+        "14 yoshdan",
+        "Fartuk va qo‘lqop beramiz"
+      ],
+      "cta": {
+        "label": "Yozilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Dasturlar",
+        "href": "#programs"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Omad taqasi",
+        "Shamdon",
+        "Ressoradan pichoq",
+        "Mangal to‘plami",
+        "O‘choq yonida uchrashuv"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Temirxona haqida",
+      "title": "Taassurot uchun keladigan temirxona",
+      "text": "Biz uch temirchimiz va odamlar metallni qo‘llari bilan his qilishlari uchun temirxona ochdik. Har bir qatnashchi o‘z sandonida ishlaydi, temirchi esa yonida turadi. Hammasi xavfsiz: himoya ko‘zoynaklari, charm fartuk va qo‘lqoplar — bizniki, sizning vazifangiz — urish.",
+      "image": ""
+    },
+    {
+      "id": "programs",
+      "type": "services",
+      "label": "Dasturlar",
+      "title": "O‘z raundingizni tanlang",
+      "items": [
+        {
+          "title": "Omad taqasi",
+          "text": "O‘choq bilan birinchi tanishuv: 2 soat, buyumni o‘zingiz bilan olib ketasiz.",
+          "price": "350 000 so‘m",
+          "tag": "Yangilar uchun"
+        },
+        {
+          "title": "Jingalakli shamdon",
+          "text": "Cho‘zish, burash va jingalaklar — 3 soat.",
+          "price": "450 000 so‘m",
+          "tag": "Ommabop"
+        },
+        {
+          "title": "Ressoradan pichoq",
+          "text": "Ikki mashg‘ulot 4 soatdan: temirchilik, toblash, yong‘oq dastasi.",
+          "price": "1 400 000 so‘m",
+          "tag": "Tajribalilar uchun"
+        },
+        {
+          "title": "O‘choq yonida uchrashuv",
+          "text": "Juftlik ikkita tumor-uzuk yasaydi, choy va surat sovg‘a.",
+          "price": "juftlik uchun 800 000 so‘m",
+          "tag": "Ikki kishi uchun"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "temirxonada sandon"
+        },
+        {
+          "value": "3",
+          "suffix": " soat",
+          "label": "master-klass davomiyligi"
+        },
+        {
+          "value": "1200",
+          "suffix": "°",
+          "label": "o‘choqdagi harorat"
+        },
+        {
+          "value": "14",
+          "suffix": "+",
+          "label": "qatnashchilar yoshi"
+        }
+      ]
+    },
+    {
+      "id": "coaches",
+      "type": "team",
+      "label": "Temirchilar",
+      "title": "Yoningizda kim bo‘ladi",
+      "items": [
+        {
+          "name": "Sherzod",
+          "role": "Bosh temirchi, pichoq va tig‘lar",
+          "image": ""
+        },
+        {
+          "name": "Alisher",
+          "role": "Badiiy temirchilik, shamdonlar",
+          "image": ""
+        },
+        {
+          "name": "Kamola",
+          "role": "Juftliklar va bolalar uchun master-klasslar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Qanday o‘tadi",
+      "title": "Sandon yonida uch raund",
+      "items": [
+        {
+          "title": "Yo‘riqnoma",
+          "text": "Himoya kiyamiz, bolg‘a va ombirni ushlashni o‘rganamiz."
+        },
+        {
+          "title": "Temirchilik",
+          "text": "Tayoqni qizdiramiz va temirchi maslahati bilan shakl yasaymiz."
+        },
+        {
+          "title": "Yakun",
+          "text": "Tozalaymiz, zangdan mum bilan himoyalaymiz, olib ketasiz."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Sertifikatlar",
+      "title": "Bolg‘a zarbasini sovg‘a qiling",
+      "items": [
+        {
+          "name": "Sinov",
+          "price": "350 000 so‘m",
+          "period": "1 kishi · 2 soat",
+          "features": [
+            "Tanlov bo‘yicha taqa",
+            "3 oy amal qiladi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Ikki kishi uchun",
+          "price": "800 000 so‘m",
+          "period": "juftlik · 3 soat",
+          "features": [
+            "Ikkita tumor-uzuk",
+            "Choy va surat",
+            "Chiroyli otkritka"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Kompaniya",
+          "price": "2 400 000 so‘m",
+          "period": "6 kishigacha",
+          "features": [
+            "Butun temirxona sizniki",
+            "Timbilding yoki tug‘ilgan kun"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Temirxonadan keyin",
+      "items": [
+        {
+          "quote": "Erimga sertifikat sovg‘a qildim, natijada har oy temir yasaymiz. Shamdon eng ko‘zga ko‘rinadigan joyda turibdi.",
+          "author": "Sevara",
+          "role": "ikki kishilik master-klass"
+        },
+        {
+          "quote": "Bo‘limga timbilding qildik: olti kishi, oltita taqa va birorta zerikkan yuz yo‘q.",
+          "author": "Jasur",
+          "role": "bo‘lim boshlig‘i"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Bu xavfsizmi?",
+          "a": "Ha, ko‘zoynak, charm fartuk va qo‘lqop beramiz, temirchi doim yonida."
+        },
+        {
+          "q": "Jismoniy tayyorgarlik kerakmi?",
+          "a": "Yo‘q, bolg‘ani qo‘lga mos tanlaymiz, asosiy ishni o‘choq qiladi."
+        },
+        {
+          "q": "Nima kiyib kelish kerak?",
+          "a": "Yopiq oyoq kiyim va paxta kiyimda; sintetika uchqundan eriydi."
+        },
+        {
+          "q": "Sertifikat qanday ishlaydi?",
+          "a": "3 oy amal qiladi, sanani oluvchi o‘zi Telegramda tanlaydi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Yoziling — kelishingizga o‘choqni yoqib qo‘yamiz",
+      "text": "Chilonzor, 19-mavze, sanoat zonasi, 5-boks. Se–Ju 12:00–21:00, Sh–Ya 10:00–20:00.",
+      "cta": {
+        "label": "Yozilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

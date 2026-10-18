@@ -1,0 +1,268 @@
+{
+  "name": "Smart Mebel",
+  "tagline": "Transforming furniture for small flats: one room, three set-ups",
+  "niche": "Transforming furniture",
+  "seo": {
+    "title": "Smart Mebel — transforming furniture for small apartments",
+    "description": "Wall beds, folding tables and lift-up sofas for studios and one-bedroom flats. German mechanisms, a demo showroom in Chilanzar and installation in a day.",
+    "keywords": [
+      "wall bed Tashkent",
+      "transforming furniture",
+      "furniture for a studio flat",
+      "folding table",
+      "small apartment furniture"
+    ],
+    "answer": "Smart Mebel is a transforming furniture showroom in Tashkent (Chilanzar, 166 Mukimi Street). Wall beds with German mechanisms from UZS 11,900,000, wall beds with a sofa from UZS 16,500,000, folding tables from UZS 2,400,000. Free measuring and 3D, made in 21 days, installed in one day."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a measure",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for transforming furniture, smart-home or tech products: a dot-matrix headline, spec cards with prices, a step-by-step install log and figures on an LED board.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Smart Mebel LLC",
+    "street": "166 Mukimi Street, Chilanzar",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Your flat gets bigger",
+      "eyebrow": "Showroom · Chilanzar · 10–21",
+      "subtitle": "Living room by day, bedroom by night and a dining room for eight at weekends. The bed folds into the wardrobe with one hand and the table opens from a console in ten seconds.",
+      "words": [
+        "Wall bed",
+        "Console table",
+        "Lift-up sofa",
+        "5-year warranty"
+      ],
+      "cta": {
+        "label": "Book a measure",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Models",
+        "href": "#models"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Wall bed",
+        "Transforming table",
+        "Lift mechanism",
+        "Studio 25 m²",
+        "Installed in a day"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "Mechanisms tested for 20,000 lifts",
+      "text": "Cabinets are made in Tashkent from moisture-resistant E1 board, fitted with German mechanisms and gas struts. Our Chilanzar showroom has a 25 m² studio set up so you can fold the bed yourself and open the table for eight.",
+      "image": ""
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Models",
+      "title": "What fits in a single room",
+      "intro": "Prices are for the base size and colour; the exact price comes after measuring.",
+      "items": [
+        {
+          "title": "Vertical wall bed",
+          "text": "Sleeps 160×200 · gas struts · orthopaedic slats · 45 cm deep",
+          "price": "from UZS 11,900,000",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Wall bed with sofa",
+          "text": "Bed 140×200 · sofa stays in place · side shelves",
+          "price": "from UZS 16,500,000",
+          "tag": ""
+        },
+        {
+          "title": "Console table",
+          "text": "45 cm folded · up to 230 cm open · seats up to 8",
+          "price": "from UZS 2,400,000",
+          "tag": "new"
+        },
+        {
+          "title": "Lift-up sofa",
+          "text": "300 l linen storage · sleeps 150×200",
+          "price": "from UZS 7,800,000",
+          "tag": ""
+        },
+        {
+          "title": "Office in a cupboard",
+          "text": "Fold-down desk · sockets and lighting · closes with the monitor inside",
+          "price": "from UZS 5,200,000",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "20000",
+          "suffix": "",
+          "label": "lift cycles tested"
+        },
+        {
+          "value": "10",
+          "suffix": " s",
+          "label": "to fold out the bed"
+        },
+        {
+          "value": "21",
+          "suffix": " days",
+          "label": "production time"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "mechanism warranty"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "type": "process",
+      "label": "Installation",
+      "title": "How we install",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "A surveyor visits with samples and checks the wall and wiring. Free."
+        },
+        {
+          "title": "3D design",
+          "text": "We show the room in three set-ups: day, night and guests."
+        },
+        {
+          "title": "Production",
+          "text": "21 working days, with photos from the assembly line."
+        },
+        {
+          "title": "Installation",
+          "text": "Anchored to the wall, mechanism adjusted, rubbish removed — all in one day."
+        },
+        {
+          "title": "Service",
+          "text": "After six months we retune the mechanism for free."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From studio owners",
+      "items": [
+        {
+          "quote": "In 28 square metres we now have both a bedroom and somewhere to host guests.",
+          "author": "Dilshod",
+          "role": "wall bed with sofa"
+        },
+        {
+          "quote": "My daughter folds the bed away herself in the morning — the mechanism is light.",
+          "author": "Saida",
+          "role": "Vertical"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Showroom",
+      "title": "Try it yourself",
+      "items": [
+        {
+          "caption": "The studio by day",
+          "image": ""
+        },
+        {
+          "caption": "The same studio at night",
+          "image": ""
+        },
+        {
+          "caption": "Table for eight",
+          "image": ""
+        },
+        {
+          "caption": "Office in a cupboard",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Will my wall hold it?",
+          "a": "The surveyor checks the wall. For plasterboard we fit a reinforced frame, included in the quote."
+        },
+        {
+          "q": "Is it safe for children?",
+          "a": "The bed locks in both positions and never comes down by itself."
+        },
+        {
+          "q": "Will a normal mattress fit?",
+          "a": "Yes, up to 25 cm thick. We can help choose one in the showroom."
+        },
+        {
+          "q": "Do you offer instalments?",
+          "a": "Yes, up to 12 months with no mark-up."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us your floor plan",
+      "text": "On Telegram we will work out what fits and give a price before measuring. The showroom is open daily from 10 to 21.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/smartmebel_uz"
+      }
+    }
+  ]
+}
