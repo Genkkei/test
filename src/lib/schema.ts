@@ -176,6 +176,8 @@ export const BUSINESS_TYPES = [
   'EntertainmentBusiness',
   'PerformingArtsTheater',
   'GroceryStore',
+  'FurnitureStore',
+  'HomeGoodsStore',
 ] as const
 
 export const businessSchema = z.object({

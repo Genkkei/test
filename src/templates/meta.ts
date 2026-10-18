@@ -60,10 +60,28 @@ import { meta as leaf } from './leaf/meta'
 import { meta as spine } from './spine/meta'
 import { meta as derma } from './derma/meta'
 import { meta as nest } from './nest/meta'
+import { meta as brew } from './brew/meta'
+import { meta as crema } from './crema/meta'
+import { meta as bean } from './bean/meta'
+import { meta as drip } from './drip/meta'
+import { meta as kiosk } from './kiosk/meta'
+import { meta as reserve } from './reserve/meta'
+import { meta as oak } from './oak/meta'
+import { meta as velvet } from './velvet/meta'
+import { meta as module } from './module/meta'
+import { meta as loft } from './loft/meta'
+import { meta as sofa } from './sofa/meta'
+import { meta as joinery } from './joinery/meta'
+import { meta as anvil } from './anvil/meta'
+import { meta as iron } from './iron/meta'
+import { meta as forge } from './forge/meta'
+import { meta as scroll } from './scroll/meta'
+import { meta as steel } from './steel/meta'
+import { meta as rivet } from './rivet/meta'
 import type { TemplateMeta } from './types'
 
 /** Метаданные без компонентов — для серверных действий и админки. */
-export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest]
+export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet]
 
 export function getTemplateMeta(id: string): TemplateMeta {
   return TEMPLATE_METAS.find((t) => t.id === id) ?? TEMPLATE_METAS[0]

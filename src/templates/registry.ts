@@ -60,9 +60,27 @@ import { template as leaf } from './leaf'
 import { template as spine } from './spine'
 import { template as derma } from './derma'
 import { template as nest } from './nest'
+import { template as brew } from './brew'
+import { template as crema } from './crema'
+import { template as bean } from './bean'
+import { template as drip } from './drip'
+import { template as kiosk } from './kiosk'
+import { template as reserve } from './reserve'
+import { template as oak } from './oak'
+import { template as velvet } from './velvet'
+import { template as module } from './module'
+import { template as loft } from './loft'
+import { template as sofa } from './sofa'
+import { template as joinery } from './joinery'
+import { template as anvil } from './anvil'
+import { template as iron } from './iron'
+import { template as forge } from './forge'
+import { template as scroll } from './scroll'
+import { template as steel } from './steel'
+import { template as rivet } from './rivet'
 import type { TemplateDef } from './types'
 
-export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest]
+export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet]
 
 export function getTemplate(id: string): TemplateDef {
   return TEMPLATES.find((t) => t.id === id) ?? TEMPLATES[0]
