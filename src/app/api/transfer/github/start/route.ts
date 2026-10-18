@@ -7,12 +7,12 @@ import { transferByLink } from '@/lib/transfer'
 export async function GET(request: Request) {
   const link = new URL(request.url).searchParams.get('link') || ''
   const t = await transferByLink(link)
-  if (!t || !oauthConfigured()) return new Response('Ссылка недействительна', { status: 404 })
+  if (!t || !(await oauthConfigured())) return new Response('Ссылка недействительна', { status: 404 })
   const state = randomBytes(24).toString('base64url')
   await kvPut(`xfer-state:${state}`, JSON.stringify({ id: t.id, exp: Date.now() + 600_000 }))
   const base = (process.env.ATLAS_URL || '').replace(/\/$/, '')
   const u = new URL('https://github.com/login/oauth/authorize')
-  u.searchParams.set('client_id', process.env.GITHUB_CLIENT_ID!)
+  u.searchParams.set('client_id', (await (await import('@/lib/settings')).integrations()).githubClientId)
   u.searchParams.set('redirect_uri', `${base}/api/transfer/github/callback`)
   u.searchParams.set('scope', 'repo workflow')
   u.searchParams.set('state', state)

@@ -29,7 +29,7 @@ export async function receiverStateAction(link: string): Promise<Out> {
     const t = (await refreshTransfer(await guard(link))).t
     // пароль админки видит заказчик — сайт теперь его
     const password = t.status === 'done' || t.status === 'deploying' ? (t.password ? await openKey(t.password) : undefined) : undefined
-    return { ok: true, view: publicView(t), password, oauth: oauthConfigured() }
+    return { ok: true, view: publicView(t), password, oauth: await oauthConfigured() }
   } catch (e) {
     return fail(e)
   }

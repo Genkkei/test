@@ -24,6 +24,9 @@ export default async function AdminHome() {
           <Link href="/admin/transfer" className="adm-btn">
             Перенос заказчику
           </Link>
+          <Link href="/admin/settings" className="adm-btn">
+            Входы
+          </Link>
           <Link href="/" className="adm-btn">
             Витрина
           </Link>

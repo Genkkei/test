@@ -120,15 +120,17 @@ export async function rerun(token: string, owner: string, repo: string): Promise
 }
 
 /** Вход через GitHub (OAuth-приложение владельца конструктора). Без GITHUB_CLIENT_ID — только вставка ключа. */
-export function oauthConfigured(): boolean {
-  return !!(process.env.GITHUB_CLIENT_ID && process.env.GITHUB_CLIENT_SECRET)
+export async function oauthConfigured(): Promise<boolean> {
+  const i = await (await import('./settings')).integrations()
+  return !!(i.githubClientId && i.githubClientSecret)
 }
 
 export async function exchangeCode(code: string): Promise<string> {
+  const i = await (await import('./settings')).integrations()
   const res = await fetch('https://github.com/login/oauth/access_token', {
     method: 'POST',
     headers: { accept: 'application/json', 'content-type': 'application/json' },
-    body: JSON.stringify({ client_id: process.env.GITHUB_CLIENT_ID, client_secret: process.env.GITHUB_CLIENT_SECRET, code }),
+    body: JSON.stringify({ client_id: i.githubClientId, client_secret: i.githubClientSecret, code }),
   })
   const data = (await res.json().catch(() => null)) as { access_token?: string; error_description?: string } | null
   if (!data?.access_token) throw new Error(data?.error_description || 'GitHub не выдал доступ')

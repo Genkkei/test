@@ -102,7 +102,9 @@ export function makePassword(): string {
 /** Проверка пароля: на адресе сайта — пароль сайта или общий; на адресе конструктора — только общий. Возвращает область. */
 export async function checkLogin(input: string): Promise<string | null> {
   const master = adminPassword()
-  if (master && safeEqual(sign(input), sign(master))) return '*'
+  // общий пароль можно выключить, когда настроен вход через Google (Настройки → Входы)
+  const passwordOn = (await (await import('./settings')).integrations()).passwordLogin
+  if (master && passwordOn && safeEqual(sign(input), sign(master))) return '*'
   const site = await hostSite()
   if (site && (await checkSitePassword(site, input))) return site
   return null
@@ -114,7 +116,8 @@ export async function checkLogin(input: string): Promise<string | null> {
  * отпечаток ADMIN_PASSWORD.
  */
 async function passVersion(scope: string): Promise<string> {
-  const src = scope === '*' ? `master:${adminPassword() ?? ''}` : `site:${(await kvGet(`pass:${scope}`)) ?? ''}`
+  // для «*» в отпечаток входит и список почт Google: убрали почту из списка — её вход закрыт
+  const src = scope === '*' ? `master:${adminPassword() ?? ''}:${(await (await import('./settings')).integrations()).adminEmails.join(',')}` : `site:${(await kvGet(`pass:${scope}`)) ?? ''}`
   return sign(src).slice(0, 12)
 }
 

@@ -98,3 +98,23 @@ describe('вход и сессии', () => {
     expect(await auth.loginLimited('5.6.7.8')).toBe(false)
   })
 })
+
+describe('вход через Google и выключенный пароль', () => {
+  it('выключенный вход паролем не пускает общий пароль, пароль сайта работает', async () => {
+    const { saveIntegrations } = await import('@/lib/settings')
+    await saveIntegrations({ passwordLogin: false })
+    expect(await auth.checkLogin('master-pass-123')).toBeNull()
+    await auth.setSitePassword('sofa', 'site-pass-1')
+    atSite('sofa.genkai.workers.dev')
+    expect(await auth.checkLogin('site-pass-1')).toBe('sofa')
+    await saveIntegrations({ passwordLogin: true })
+  })
+  it('почту убрали из списка — её сессия закрыта', async () => {
+    const { saveIntegrations } = await import('@/lib/settings')
+    await saveIntegrations({ adminEmails: ['a@gmail.com'] })
+    await auth.startSession('*')
+    expect(await auth.adminScope()).toBe('*')
+    await saveIntegrations({ adminEmails: [] })
+    expect(await auth.adminScope()).toBeNull()
+  })
+})

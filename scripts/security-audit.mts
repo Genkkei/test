@@ -98,7 +98,7 @@ const add = (list: Check[], id: string, ok: boolean, blocking: boolean, detail?:
   const noGuard = fns.filter(([, name, first]) => !['login', 'logout', 'currentScope'].includes(name) && !/guard\(\)|canEdit\(/.test(first)).map(([, n]) => n)
   add(global, 'admin-actions-guarded', noGuard.length === 0, true, noGuard.join(', ') || undefined)
   // действия переноса: в админке — только владелец конструктора, у заказчика — только по действующей ссылке
-  for (const [file, rule] of [['src/app/(main)/admin/transfer/actions.ts', /await master\(\)/], ['src/app/(main)/transfer/actions.ts', /guard\(link\)/]] as const) {
+  for (const [file, rule] of [['src/app/(main)/admin/transfer/actions.ts', /await master\(\)/], ['src/app/(main)/admin/settings/actions.ts', /isMaster\(\)/], ['src/app/(main)/transfer/actions.ts', /guard\(link\)/]] as const) {
     const src = readFileSync(file, 'utf8')
     const bad = [...src.matchAll(/export async function (\w+)\([^)]*\)[^{]*\{\n([\s\S]*?)\n\}/g)].filter(([, , body]) => !rule.test(body)).map(([, n]) => n)
     add(global, `actions-guarded:${file.split('/').slice(-2).join('/')}`, bad.length === 0, true, bad.join(', ') || undefined)

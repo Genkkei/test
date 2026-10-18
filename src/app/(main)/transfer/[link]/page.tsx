@@ -21,7 +21,7 @@ export default async function ReceiverPage({ params, searchParams }: { params: P
           </p>
         </div>
       </div>
-      <Receiver link={link} initial={publicView(t)} oauth={oauthConfigured()} ghError={ghError ? ghError.slice(0, 200) : undefined} />
+      <Receiver link={link} initial={publicView(t)} oauth={await oauthConfigured()} ghError={ghError ? ghError.slice(0, 200) : undefined} />
     </main>
   )
 }
