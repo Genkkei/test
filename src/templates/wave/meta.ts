@@ -14,9 +14,9 @@ export const meta: TemplateMeta = {
     "bg": "#eaf6fb",
     "fg": "#06283d",
     "accent": "#00a3d9",
-    "muted": "#7a7a7a",
-    "surface": "#eaf6fb",
-    "line": "#cccccc",
+    "muted": "#4f6b7a",
+    "surface": "#d4edf6",
+    "line": "#b7dbe8",
     "display": "Exo 2",
     "body": "Onest",
     "motion": 1

@@ -1,1 +1,193 @@
-/* заготовка */
+/* ЩИТ — страхование: тёплый белый, сливово-чёрный текст, горячий розовый. Всё круглое и дружелюбное. */
+
+.tpl-shield { --pad: clamp(18px, 4vw, 64px); --ease: cubic-bezier(.34, 1.3, .64, 1); --soft: cubic-bezier(.2, .8, .2, 1); --r: 28px; font-size: clamp(15px, 1.05vw, 18px); line-height: 1.55; }
+.tpl-shield .s { padding-block: clamp(80px, 10vw, 140px); }
+.tpl-shield .s__label { width: fit-content; padding: 6px 14px; border-radius: 999px; background: var(--surface); color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; }
+.tpl-shield .s__title { font-weight: 700; font-size: clamp(34px, 4.6vw, 72px); line-height: 1.02; letter-spacing: -.03em; }
+.tpl-shield .s__intro { color: var(--muted); }
+
+.shield-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 26px; border-radius: 999px; background: var(--accent); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 16px; box-shadow: 0 10px 24px -10px var(--accent); transition: transform .45s var(--ease), box-shadow .45s var(--soft); white-space: nowrap; }
+.shield-btn:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 16px 30px -12px var(--accent); }
+.shield-btn--sm { min-height: 42px; padding: 0 18px; font-size: 14px; }
+.shield-btn--xl { min-height: 62px; padding: 0 34px; font-size: 18px; }
+.shield-link { font-family: var(--font-display); font-weight: 600; color: var(--fg); border-bottom: 2px solid var(--accent); padding-bottom: 2px; }
+.tpl-shield .btn--primary { background: var(--accent); color: #fff; }
+.tpl-shield .btn--primary:hover { background: var(--fg); color: #fff; }
+
+/* шапка */
+.shield-header { position: sticky; top: 12px; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 20px; margin: 12px var(--pad) 0; padding: 10px 12px 10px 20px; border-radius: 999px; background: color-mix(in srgb, #fff 82%, transparent); backdrop-filter: blur(16px); box-shadow: 0 10px 30px -18px color-mix(in srgb, var(--fg) 40%, transparent); }
+.shield-logo { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-weight: 700; font-size: 21px; letter-spacing: -.02em; }
+.shield-logo svg { width: 24px; height: 24px; fill: var(--accent); }
+.shield-nav { display: flex; justify-content: center; gap: 4px; }
+.shield-nav a { padding: 8px 14px; border-radius: 999px; font-size: 15px; font-weight: 500; transition: background .3s; }
+.shield-nav a:hover { background: var(--surface); }
+.shield-header__side { display: flex; align-items: center; gap: 8px; }
+@media (max-width: 860px) { .shield-nav, .shield-header__side > .shield-btn { display: none; } .shield-header { grid-template-columns: 1fr auto; padding-block: 4px; } }
+
+/* первый экран */
+.tpl-shield .shield-hero { padding: clamp(30px, 5vw, 70px) 0 clamp(50px, 7vw, 100px); overflow: hidden; }
+.shield-hero__inner { width: min(100% - 2 * var(--pad), 1440px); margin-inline: auto; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(20px, 4vw, 60px); align-items: center; min-height: min(78svh, 760px); }
+.shield-hero__text { display: grid; gap: 26px; }
+.shield-hero__eyebrow { font-family: var(--font-display); font-weight: 600; color: var(--accent); }
+.shield-hero__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(48px, 7.2vw, 128px); line-height: .95; letter-spacing: -.045em; }
+.shield-hero__sub { max-width: 44ch; color: var(--muted); font-size: clamp(17px, 1.35vw, 21px); }
+.shield-hero__ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; }
+.shield-hero__art { position: relative; aspect-ratio: 1; display: grid; place-items: center; }
+.shield-hero__art::before { content: ''; position: absolute; inset: 8%; border-radius: 50%; background: var(--surface); animation: shieldBlob 9s ease-in-out infinite alternate; }
+@keyframes shieldBlob { 50% { border-radius: 46% 54% 58% 42% / 52% 44% 56% 48%; transform: rotate(8deg) scale(1.03); } }
+.shield-big { position: relative; width: 52%; overflow: visible; }
+.shield-big__fill { fill: #fff; filter: drop-shadow(0 24px 40px color-mix(in srgb, var(--accent) 35%, transparent)); }
+.shield-big__water { fill: var(--accent); transform: translateY(100%); animation: shieldFill 1.8s 1s var(--soft) forwards; }
+@keyframes shieldFill { to { transform: translateY(0); } }
+.shield-big__line { fill: none; stroke: var(--fg); stroke-width: 4; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: shieldDraw 1.4s .2s var(--soft) forwards; }
+.shield-big__check { fill: none; stroke: #fff; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: shieldDraw .8s 2.5s var(--soft) forwards; }
+@keyframes shieldDraw { to { stroke-dashoffset: 0; } }
+.shield-chip { position: absolute; display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px 10px 12px; border-radius: 999px; background: #fff; font-family: var(--font-display); font-weight: 600; font-size: 15px; box-shadow: 0 12px 28px -14px color-mix(in srgb, var(--fg) 45%, transparent); opacity: 0; animation: shieldPop .7s var(--d) var(--ease) forwards, shieldBob 4s calc(var(--d) + .7s) ease-in-out infinite alternate; white-space: nowrap; }
+.shield-chip .shield-ico { width: 22px; height: 22px; color: var(--accent); }
+.shield-chip--0 { top: 8%; left: 2%; }
+.shield-chip--1 { top: 16%; right: 0; }
+.shield-chip--2 { bottom: 20%; left: -2%; }
+.shield-chip--3 { bottom: 10%; right: 4%; }
+.shield-chip--4 { top: 46%; right: -4%; }
+.shield-chip--5 { top: 44%; left: -6%; }
+@keyframes shieldPop { from { opacity: 0; transform: scale(.4) translateY(20px); } to { opacity: 1; transform: none; } }
+@keyframes shieldBob { to { transform: translateY(-10px); } }
+.shield-ico { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 960px) { .shield-hero__inner { grid-template-columns: 1fr; min-height: 0; } .shield-hero__art { width: min(100%, 460px); justify-self: center; } }
+@media (max-width: 520px) { .shield-chip { font-size: 13px; padding: 8px 12px 8px 10px; } .shield-chip--4, .shield-chip--5 { display: none; } }
+
+/* сводка */
+.tpl-shield .s-answer { padding-block: 0; }
+.tpl-shield .s-answer .s__inner { padding: clamp(28px, 4vw, 50px); border-radius: var(--r); background: var(--fg); color: #fff; }
+.tpl-shield .s-answer__text { max-width: 66ch; font-size: clamp(17px, 1.5vw, 22px); line-height: 1.5; }
+
+/* о компании */
+.tpl-shield .s-about .s__inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(30px, 5vw, 80px); align-items: center; }
+.tpl-shield .s-about__body { display: grid; gap: 22px; }
+.tpl-shield .s-about__text { font-size: clamp(17px, 1.35vw, 21px); color: var(--muted); }
+.tpl-shield .s-about__media { aspect-ratio: 1; border-radius: 50% 50% var(--r) var(--r); overflow: hidden; }
+@media (max-width: 860px) { .tpl-shield .s-about .s__inner { grid-template-columns: 1fr; } }
+
+/* выбор полиса */
+.shield-picker { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 18px; align-items: start; }
+.shield-picker__tabs { display: grid; gap: 10px; }
+.shield-picker__tabs button { display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 22px; background: #fff; text-align: left; font-family: var(--font-display); font-weight: 600; font-size: 18px; box-shadow: inset 0 0 0 1.5px var(--line); transition: box-shadow .3s, background .3s, transform .45s var(--ease); }
+.shield-picker__tabs button .shield-ico { flex: none; width: 34px; height: 34px; padding: 6px; border-radius: 12px; background: var(--surface); color: var(--accent); }
+.shield-picker__tabs button:hover { transform: translateX(4px); }
+.shield-picker__tabs button.is-on { background: var(--fg); color: #fff; box-shadow: none; }
+.shield-picker__tabs button.is-on .shield-ico { background: var(--accent); color: #fff; }
+.shield-picker__panels { display: grid; }
+.shield-policy { grid-area: 1 / 1; display: grid; align-content: start; gap: 14px; padding: clamp(26px, 3vw, 40px); border-radius: var(--r); background: var(--surface); opacity: 0; visibility: hidden; transform: translateY(16px) scale(.98); transition: opacity .35s var(--soft), transform .55s var(--ease), visibility 0s .35s; }
+.shield-policy.is-on { opacity: 1; visibility: visible; transform: none; transition: opacity .35s var(--soft), transform .55s var(--ease), visibility 0s; }
+.shield-policy__icon { width: 74px; height: 74px; display: grid; place-items: center; border-radius: 24px; background: var(--accent); color: #fff; }
+.shield-policy__icon .shield-ico { width: 40px; height: 40px; stroke-width: 1.5; }
+.shield-policy__tag { width: fit-content; padding: 4px 12px; border-radius: 999px; background: #fff; font-size: 13px; font-weight: 600; }
+.shield-policy h3 { font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 3vw, 44px); letter-spacing: -.03em; line-height: 1.05; }
+.shield-policy__text { font-size: 17px; color: var(--muted); max-width: 44ch; }
+.shield-policy__foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; margin-top: 10px; padding-top: 18px; border-top: 1.5px dashed color-mix(in srgb, var(--accent) 35%, transparent); }
+.shield-policy__price { display: grid; font-family: var(--font-display); font-weight: 700; font-size: 26px; letter-spacing: -.02em; }
+.shield-policy__price small { font-family: var(--font-body); font-weight: 500; font-size: 13px; color: var(--muted); letter-spacing: 0; }
+@media (max-width: 860px) { .shield-picker { grid-template-columns: 1fr; } .shield-picker__tabs { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); } .shield-picker__tabs button { font-size: 15px; padding: 12px; } }
+
+/* переписка */
+.tpl-shield .shield-chat-sec .s__inner { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(30px, 5vw, 80px); align-items: start; }
+.shield-chat { border-radius: var(--r); background: #fff; box-shadow: 0 30px 70px -40px color-mix(in srgb, var(--fg) 45%, transparent); overflow: hidden; }
+.shield-chat__top { display: flex; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.shield-chat__top small { display: block; color: #22a06b; font-size: 12px; }
+.shield-chat__avatar { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: #fff; font-family: var(--font-display); font-weight: 700; }
+.shield-chat__list { display: grid; gap: 14px; padding: 22px; background: color-mix(in srgb, var(--surface) 45%, #fff); }
+.shield-msg { display: grid; justify-items: start; gap: 6px; }
+.shield-msg--me { justify-items: end; }
+.shield-msg__bubble { display: grid; gap: 4px; max-width: 82%; padding: 14px 18px; border-radius: 22px 22px 22px 6px; background: #fff; box-shadow: 0 2px 0 var(--line); }
+.shield-msg--me .shield-msg__bubble { border-radius: 22px 22px 6px 22px; background: var(--accent); color: #fff; box-shadow: none; }
+.shield-msg__bubble b { font-family: var(--font-display); font-size: 17px; }
+.shield-msg__bubble span { font-size: 15px; opacity: .85; }
+.shield-msg__typing { display: inline-flex; gap: 4px; max-height: 40px; padding: 12px 14px; border-radius: 18px; background: #fff; overflow: hidden; }
+.shield-msg--me .shield-msg__typing { background: color-mix(in srgb, var(--accent) 20%, #fff); }
+.shield-msg__typing i { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); animation: shieldDot 1s infinite; }
+.shield-msg__typing i:nth-child(2) { animation-delay: .15s; }
+.shield-msg__typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes shieldDot { 50% { transform: translateY(-4px); opacity: .4; } }
+/* без скрипта — сразу сообщения; со скриптом — сначала «печатает…», через паузу пузырь */
+html:not(.motion) .shield-msg__typing { display: none; }
+.motion .tpl-shield .shield-msg[data-reveal] { opacity: 1; transform: none; }
+.motion .tpl-shield .shield-msg:not(.is-in) .shield-msg__bubble { display: none; }
+.motion .tpl-shield .shield-msg.is-in .shield-msg__typing { animation: shieldGone .25s calc(var(--reveal-delay, 0s) + .7s) forwards; }
+.motion .tpl-shield .shield-msg.is-in .shield-msg__bubble { animation: shieldIn .55s calc(var(--reveal-delay, 0s) + .8s) var(--ease) both; }
+@keyframes shieldGone { to { opacity: 0; max-height: 0; padding-block: 0; } }
+@keyframes shieldIn { from { opacity: 0; transform: translateY(10px) scale(.95); } }
+@media (max-width: 860px) { .tpl-shield .shield-chat-sec .s__inner { grid-template-columns: 1fr; } }
+
+/* цифры */
+.shield-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 18px; }
+.shield-stat { display: grid; place-items: center; gap: 6px; aspect-ratio: 1; padding: 24px; text-align: center; border-radius: 46% 54% 50% 50% / 52% 48% 52% 48%; background: var(--surface); }
+.shield-stat:nth-child(2n) { background: var(--fg); color: #fff; border-radius: 54% 46% 48% 52% / 46% 54% 46% 54%; }
+.shield-stat dd { font-family: var(--font-display); font-weight: 700; font-size: clamp(46px, 5vw, 76px); line-height: 1; letter-spacing: -.04em; color: var(--accent); }
+.shield-stat__suffix { font-size: .5em; }
+.shield-stat dt { max-width: 18ch; font-size: 15px; }
+@media (max-width: 600px) { .shield-stats { grid-template-columns: 1fr 1fr; gap: 10px; } .shield-stat { padding: 14px; } .shield-stat dd { font-size: 38px; } .shield-stat dt { font-size: 12px; } }
+
+/* отзывы */
+.shield-reviews { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 20px; }
+.shield-review { display: grid; gap: 22px; align-content: space-between; padding: 28px; border-radius: var(--r); background: #fff; box-shadow: 0 20px 50px -34px color-mix(in srgb, var(--fg) 45%, transparent); transform: rotate(var(--tilt)); transition: transform .5s var(--ease); }
+.shield-review:hover { transform: rotate(0) translateY(-4px); }
+.shield-review blockquote { font-size: 18px; line-height: 1.5; }
+.shield-review figcaption { display: flex; align-items: center; gap: 12px; }
+.shield-review__ava { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; background: var(--surface); color: var(--accent); font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+.shield-review figcaption b { display: block; }
+.shield-review figcaption small { color: var(--muted); }
+
+/* команда */
+.tpl-shield .s-team__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 20px; }
+.tpl-shield .s-team__media { aspect-ratio: 1; border-radius: 50%; overflow: hidden; margin-bottom: 14px; }
+.tpl-shield .s-team__item { text-align: center; }
+.tpl-shield .s-team__name { font-family: var(--font-display); font-weight: 700; font-size: 19px; }
+.tpl-shield .s-team__role { color: var(--muted); font-size: 14px; }
+
+/* цены */
+.tpl-shield .s-pricing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 18px; }
+.tpl-shield .s-pricing__item { display: grid; align-content: start; gap: 14px; padding: 30px; border-radius: var(--r); background: #fff; box-shadow: inset 0 0 0 1.5px var(--line); }
+.tpl-shield .s-pricing__item.is-featured { background: var(--accent); color: #fff; box-shadow: none; }
+.tpl-shield .s-pricing__name { font-family: var(--font-display); font-weight: 700; font-size: 22px; }
+.tpl-shield .s-pricing__price { font-family: var(--font-display); font-weight: 700; font-size: 26px; }
+.tpl-shield .s-pricing__price span { font-weight: 400; font-size: 14px; opacity: .75; }
+.tpl-shield .s-pricing__features { display: grid; gap: 8px; }
+.tpl-shield .s-pricing__features li::before { content: '♥ '; color: var(--accent); }
+.tpl-shield .is-featured .s-pricing__features li::before { color: #fff; }
+
+/* вопросы */
+.tpl-shield .s-faq .s__inner { max-width: 900px; }
+.tpl-shield .s-faq__list { display: grid; gap: 12px; }
+.tpl-shield .s-faq__item { border-radius: 22px; background: #fff; padding-inline: 24px; box-shadow: inset 0 0 0 1.5px var(--line); transition: background .3s; }
+.tpl-shield .s-faq__item[open] { background: var(--surface); box-shadow: none; }
+.tpl-shield .s-faq__q { display: flex; justify-content: space-between; gap: 16px; padding: 20px 0; font-family: var(--font-display); font-weight: 600; font-size: 18px; }
+.tpl-shield .s-faq__q i { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); position: relative; transition: transform .5s var(--ease); }
+.tpl-shield .s-faq__q i::before, .tpl-shield .s-faq__q i::after { content: ''; position: absolute; left: 9px; right: 9px; top: 14px; height: 2px; border-radius: 1px; background: #fff; }
+.tpl-shield .s-faq__q i::after { transform: rotate(90deg); }
+.tpl-shield .s-faq__item[open] .s-faq__q i { transform: rotate(135deg); }
+.tpl-shield .s-faq__a { padding-bottom: 20px; color: var(--muted); }
+
+/* связь */
+.tpl-shield .s-contact .s__inner { padding: clamp(36px, 6vw, 90px); border-radius: 40px; background: var(--accent); color: #fff; text-align: center; }
+.tpl-shield .s-contact .s__head { margin-inline: auto; justify-items: center; }
+.tpl-shield .s-contact .s__label { background: #fff; }
+.tpl-shield .s-contact .s__intro { color: color-mix(in srgb, #fff 82%, transparent); margin-inline: auto; }
+.tpl-shield .s-contact__body { display: grid; justify-items: center; gap: 36px; }
+.tpl-shield .s-contact__body > .btn { background: #fff; color: var(--fg); }
+.tpl-shield .s-contact__facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 36px; font-style: normal; }
+.tpl-shield .s-contact__facts > * { display: grid; gap: 2px; }
+.tpl-shield .s-contact__facts small { font-size: 12px; opacity: .75; }
+
+/* подвал */
+.shield-footer { padding: 0 var(--pad) 80px; }
+.shield-footer__card { display: grid; gap: 22px; padding: clamp(30px, 5vw, 60px); border-radius: 40px; background: var(--fg); color: #fff; }
+.shield-footer__name { font-family: var(--font-display); font-weight: 700; font-size: clamp(48px, 9vw, 150px); line-height: .9; letter-spacing: -.05em; color: var(--accent); }
+.shield-footer__tag { max-width: 46ch; opacity: .75; }
+.shield-footer__facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; padding-top: 22px; border-top: 1px solid color-mix(in srgb, #fff 15%, transparent); }
+.shield-footer__facts li { display: grid; gap: 2px; }
+.shield-footer__facts small { opacity: .55; font-size: 12px; }
+.shield-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; font-size: 13px; opacity: .7; }
+.shield-footer__social { display: flex; gap: 16px; }
+
+.tpl-shield .mmenu__panel a { font-weight: 700; letter-spacing: -.03em; }
+.tpl-shield .mmenu__panel .mmenu__cta { background: var(--accent); color: #fff; }

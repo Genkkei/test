@@ -14,14 +14,14 @@ export const meta: TemplateMeta = {
     "bg": "#f7efe9",
     "fg": "#2a2321",
     "accent": "#e8a9a0",
-    "muted": "#7a7a7a",
-    "surface": "#f7efe9",
-    "line": "#cccccc",
+    "muted": "#8a7a74",
+    "surface": "#efe2d9",
+    "line": "#e2d2c8",
     "display": "Tenor Sans",
     "body": "Manrope",
     "motion": 1
   },
-  "art": "waves",
+  "art": "blobs",
   "preview": {
     "bg": "#f7efe9",
     "fg": "#2a2321",

@@ -14,9 +14,9 @@ export const meta: TemplateMeta = {
     "bg": "#f5f4ef",
     "fg": "#141414",
     "accent": "#ffd400",
-    "muted": "#7a7a7a",
-    "surface": "#f5f4ef",
-    "line": "#cccccc",
+    "muted": "#6b6a64",
+    "surface": "#ffffff",
+    "line": "#dedcd3",
     "display": "Dela Gothic One",
     "body": "Onest",
     "motion": 1

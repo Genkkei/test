@@ -156,9 +156,9 @@ html:not(.motion) .bento-stat__ring { --bento-p: 100%; }
 .bento-plan li svg { flex: none; width: 16px; height: 16px; margin-top: 3px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .bento-plan__cta { width: 100%; }
 /* бегущая по кромке подсветка выделенного тарифа */
-@property --a { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
-.bento-plan.is-featured { border-color: transparent; background: linear-gradient(var(--surface), var(--surface)) padding-box, conic-gradient(from var(--a), var(--edge) 0 60%, var(--accent) 75%, #38bdf8 85%, var(--edge) 100%) border-box; animation: bentoEdge 5s linear infinite; }
-@keyframes bentoEdge { to { --a: 360deg; } }
+@property --bento-a { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+.bento-plan.is-featured { border-color: transparent; background: linear-gradient(var(--surface), var(--surface)) padding-box, conic-gradient(from var(--bento-a), var(--edge) 0 60%, var(--accent) 75%, #38bdf8 85%, var(--edge) 100%) border-box; animation: bentoEdge 5s linear infinite; }
+@keyframes bentoEdge { to { --bento-a: 360deg; } }
 .reduce-motion .bento-plan.is-featured { animation: none; }
 
 /* галерея: мозаика */

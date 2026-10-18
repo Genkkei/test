@@ -14,9 +14,9 @@ export const meta: TemplateMeta = {
     "bg": "#140b0d",
     "fg": "#f2e9de",
     "accent": "#c8102e",
-    "muted": "#7a7a7a",
-    "surface": "#140b0d",
-    "line": "#cccccc",
+    "muted": "#a89389",
+    "surface": "#1f1214",
+    "line": "#3a2427",
     "display": "Cormorant Garamond",
     "body": "Manrope",
     "motion": 1

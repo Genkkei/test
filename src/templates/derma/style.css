@@ -1,1 +1,168 @@
-/* заготовка */
+/* КОЖА — эстетическая клиника: молочный свет на шейдере, курсивная антиква, арки, прайс строками. */
+
+.tpl-derma { --pad: clamp(18px, 4vw, 64px); font-size: clamp(15px, 1.02vw, 17px); }
+.tpl-derma .s__label { font-size: 12px; letter-spacing: .26em; text-transform: uppercase; color: var(--accent); }
+.tpl-derma .s__title { font-weight: 400; font-size: clamp(38px, 5.6vw, 92px); line-height: 1; letter-spacing: -.02em; }
+.tpl-derma .s__title em { font-style: italic; color: var(--accent); }
+.tpl-derma .s__intro { color: var(--muted); }
+.derma-in { animation: dermaIn 1.4s var(--ease) both; animation-delay: var(--d, .2s); }
+@keyframes dermaIn { from { opacity: 0; transform: translateY(12px); } }
+.reduce-motion .derma-in { animation: none; }
+
+.derma-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 30px; border-radius: 999px; background: var(--fg); color: var(--bg); font-size: 14px; letter-spacing: .06em; transition: background .4s var(--ease); }
+.derma-btn:hover { background: var(--accent); }
+.derma-btn--sm { min-height: 42px; padding: 0 20px; font-size: 13px; }
+.derma-link { font-size: 14px; letter-spacing: .06em; border-bottom: 1px solid currentColor; padding-bottom: 3px; }
+.tpl-derma .btn { letter-spacing: .06em; }
+.tpl-derma .btn--primary:hover { background: var(--accent); }
+.derma-arch { border-radius: 999px 999px 0 0; overflow: hidden; aspect-ratio: 3 / 4; background: var(--surface); }
+.derma-arch .media { transition: transform 1.6s var(--ease); }
+.derma-arch:hover .media { transform: scale(1.05); }
+
+/* шапка */
+.derma-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 18px var(--pad); background: linear-gradient(color-mix(in srgb, var(--bg) 92%, transparent), color-mix(in srgb, var(--bg) 0%, transparent)); }
+.derma-logo { font-family: var(--font-display); font-style: italic; font-size: 28px; }
+.derma-nav { display: flex; justify-content: center; gap: 28px; font-size: 14px; }
+.derma-nav a { position: relative; padding-bottom: 3px; }
+.derma-nav a::after { content: ''; position: absolute; left: 50%; right: 50%; bottom: 0; height: 1px; background: currentColor; transition: left .4s var(--ease), right .4s var(--ease); }
+.derma-nav a:hover::after { left: 0; right: 0; }
+.derma-header__side { display: flex; align-items: center; gap: 14px; }
+@media (max-width: 1080px) { .derma-nav { display: none; } .derma-header { grid-template-columns: 1fr auto; } }
+@media (max-width: 520px) { .derma-header .derma-btn--sm { display: none; } }
+.tpl-derma .mmenu__panel a { font-style: italic; }
+
+/* первый экран */
+.derma-hero { min-height: 100svh; padding: clamp(110px, 12vw, 150px) 0 clamp(50px, 6vw, 90px); overflow: hidden; display: grid; align-items: center; }
+.derma-glow { position: absolute; inset: 0; width: 100%; height: 100%; }
+.derma-hero__inner { position: relative; width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(30px, 6vw, 110px); align-items: center; }
+.derma-hero__eyebrow { font-size: 12px; letter-spacing: .3em; text-transform: uppercase; color: var(--accent); margin-bottom: 26px; }
+.derma-hero__title { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: clamp(50px, 7.6vw, 132px); line-height: .96; letter-spacing: -.03em; }
+.derma-hero__sub { margin-top: 28px; max-width: 46ch; font-size: clamp(16px, 1.25vw, 20px); color: color-mix(in srgb, var(--fg) 72%, transparent); }
+.derma-hero__ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-top: 34px; }
+.derma-hero__visual { position: relative; }
+.derma-hero__arch { width: 100%; max-width: 440px; margin-left: auto; box-shadow: 0 40px 80px -50px rgb(80 50 40 / .45); }
+.derma-hero__words { position: absolute; left: -22%; bottom: 8%; display: grid; gap: 10px; }
+.derma-hero__words li { display: flex; gap: 12px; align-items: baseline; padding: 12px 18px; border-radius: 999px; background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(10px); font-size: 14px; box-shadow: 0 10px 30px -20px rgb(60 40 30 / .5); white-space: nowrap; }
+.derma-hero__words span { font-family: var(--font-display); font-style: italic; color: var(--accent); }
+@media (max-width: 900px) {
+  .derma-hero__inner { grid-template-columns: 1fr; }
+  .derma-hero__arch { max-width: 300px; margin-inline: auto 0; }
+  .derma-hero__words { left: 0; bottom: 6%; }
+  .derma-hero__words li { font-size: 13px; padding: 10px 14px; }
+}
+
+/* сводка */
+.tpl-derma .s-answer .s__inner { max-width: 980px; text-align: center; }
+.tpl-derma .s-answer__text { font-family: var(--font-display); font-size: clamp(22px, 2.5vw, 36px); line-height: 1.3; }
+
+/* о клинике */
+.tpl-derma .s-about__body { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(28px, 6vw, 110px); align-items: center; }
+.tpl-derma .s-about__media { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; overflow: hidden; order: -1; }
+.tpl-derma .s-about__text { font-size: clamp(18px, 1.5vw, 23px); line-height: 1.65; }
+@media (max-width: 860px) { .tpl-derma .s-about__body { grid-template-columns: 1fr; } .tpl-derma .s-about__media { max-width: 340px; } }
+
+/* прайс процедур */
+.derma-menu__head { display: grid; grid-template-columns: 60px 1fr 160px 180px; gap: 20px; padding-bottom: 14px; font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--fg); }
+.derma-menu__head span:first-child { grid-column: 2; }
+.derma-menu__head span:last-child { text-align: right; }
+.derma-row { position: relative; display: grid; grid-template-columns: 60px 1fr 160px 180px; gap: 20px; align-items: baseline; padding: 24px 0; border-bottom: 1px solid var(--line); cursor: default; outline: none; }
+.derma-row::before { content: ''; position: absolute; inset: 0 calc(-1 * var(--pad)); background: var(--surface); opacity: 0; transition: opacity .5s var(--ease); z-index: -1; }
+.derma-row:hover::before, .derma-row:focus-visible::before { opacity: 1; }
+.derma-row__no { font-family: var(--font-display); font-style: italic; color: var(--accent); }
+.derma-row__name { font-family: var(--font-display); font-weight: 400; font-size: clamp(22px, 2.2vw, 32px); transition: transform .6s var(--ease); }
+.derma-row:hover .derma-row__name { transform: translateX(10px); }
+.derma-row__time { color: var(--muted); font-size: 14px; }
+.derma-row__price { text-align: right; font-size: 16px; }
+.derma-row__more { grid-column: 2 / -1; display: grid; grid-template-rows: 0fr; transition: grid-template-rows .6s var(--ease); }
+.derma-row__more p { overflow: hidden; color: color-mix(in srgb, var(--fg) 72%, transparent); max-width: 62ch; }
+.derma-row:hover .derma-row__more, .derma-row:focus-within .derma-row__more { grid-template-rows: 1fr; }
+@media (hover: none) { .derma-row__more { grid-template-rows: 1fr; } .derma-row__more p { padding-top: 8px; } }
+@media (max-width: 760px) {
+  .derma-menu__head { display: none; }
+  .derma-row { grid-template-columns: 40px 1fr auto; row-gap: 6px; }
+  .derma-row__time { grid-column: 2; grid-row: 2; }
+  .derma-row__price { grid-column: 3; grid-row: 1; }
+  .derma-row__more { grid-column: 2 / -1; }
+}
+
+/* путь пациента */
+.derma-path-sec { background: var(--surface); }
+.derma-path { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(16px, 2.4vw, 36px); }
+.derma-path::before { content: ''; position: absolute; left: 12%; right: 12%; top: 70px; border-top: 1px dashed color-mix(in srgb, var(--fg) 30%, transparent); }
+.derma-step { position: relative; display: grid; justify-items: center; text-align: center; gap: 12px; }
+.derma-step__arch { width: 110px; height: 140px; border-radius: 999px 999px 0 0; background: var(--bg); box-shadow: inset 0 0 0 1px var(--line); display: grid; place-items: center; transition: background .6s var(--ease), color .6s var(--ease); }
+.derma-step:hover .derma-step__arch { background: var(--accent); color: var(--bg); }
+.derma-step__arch em { font-family: var(--font-display); font-size: 40px; }
+.derma-step h3 { font-family: var(--font-display); font-weight: 400; font-size: 25px; margin-top: 6px; }
+.derma-step p { color: var(--muted); font-size: 15px; max-width: 30ch; }
+@media (max-width: 900px) { .derma-path { grid-template-columns: 1fr 1fr; row-gap: 40px; } .derma-path::before { display: none; } }
+@media (max-width: 480px) { .derma-path { grid-template-columns: 1fr; } }
+
+/* врачи */
+.derma-team { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(16px, 2.4vw, 36px); }
+.derma-doc { display: grid; gap: 8px; }
+.derma-doc:nth-child(even) { margin-top: 60px; }
+.derma-doc h3 { font-family: var(--font-display); font-weight: 400; font-size: 24px; margin-top: 12px; }
+.derma-doc p { color: var(--muted); font-size: 14px; }
+@media (max-width: 860px) { .derma-team { grid-template-columns: 1fr 1fr; } .derma-doc:nth-child(even) { margin-top: 30px; } }
+
+/* отзывы */
+.derma-quotes { max-width: 1000px; margin-inline: auto; text-align: center; display: grid; justify-items: center; gap: 30px; min-height: 260px; }
+.derma-quote { display: grid; gap: 24px; animation: dermaQuote 1.1s var(--ease) both; }
+@keyframes dermaQuote { from { opacity: 0; transform: translateY(16px); filter: blur(6px); } }
+.derma-quote blockquote { font-family: var(--font-display); font-style: italic; font-size: clamp(26px, 3vw, 46px); line-height: 1.22; }
+.derma-quote blockquote::before { content: '“'; display: block; font-size: 2em; line-height: .6; color: var(--accent); }
+.derma-quote figcaption { font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.derma-quotes__dots { display: flex; gap: 10px; }
+.derma-quotes__dots button { width: 34px; height: 23px; background: color-mix(in srgb, var(--fg) 22%, transparent); transition: background .4s; }
+.derma-quotes__dots button[aria-selected='true'] { background: var(--fg); }
+.derma-quotes__dots button { padding: 10px 0; background-clip: content-box; }
+
+/* цены, галерея, цифры */
+.tpl-derma .s-pricing__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.tpl-derma .s-pricing__item { padding: 34px 28px; border-radius: 999px 999px 24px 24px; background: var(--surface); display: grid; gap: 14px; justify-items: center; text-align: center; padding-top: 80px; }
+.tpl-derma .s-pricing__item.is-featured { background: var(--fg); color: var(--bg); }
+.tpl-derma .s-pricing__name { font-family: var(--font-display); font-weight: 400; font-style: italic; font-size: 28px; }
+.tpl-derma .s-pricing__price { font-size: 22px; }
+.tpl-derma .s-pricing__price span { font-size: 13px; opacity: .7; }
+.tpl-derma .s-pricing__features { display: grid; gap: 8px; font-size: 15px; opacity: .85; }
+@media (max-width: 900px) { .tpl-derma .s-pricing__grid { grid-template-columns: 1fr; } }
+.tpl-derma .s-gallery__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.tpl-derma .s-gallery__item .media { aspect-ratio: 3 / 4; border-radius: 999px 999px 0 0; }
+.tpl-derma .s-gallery__item:nth-child(even) { margin-top: 50px; }
+.tpl-derma .s-gallery__item figcaption { padding-top: 10px; font-size: 14px; color: var(--muted); text-align: center; }
+@media (max-width: 700px) { .tpl-derma .s-gallery__grid { grid-template-columns: 1fr 1fr; } }
+.tpl-derma .s-stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--fg); }
+.tpl-derma .s-stats__item { display: flex; flex-direction: column-reverse; gap: 8px; padding: 26px 20px 0 0; }
+.tpl-derma .s-stats__value { font-family: var(--font-display); font-style: italic; font-size: clamp(48px, 5vw, 84px); line-height: 1; }
+.tpl-derma .s-stats__label { color: var(--muted); font-size: 14px; }
+@media (max-width: 760px) { .tpl-derma .s-stats__grid { grid-template-columns: 1fr 1fr; } }
+
+/* вопросы */
+.tpl-derma .s-faq__list { max-width: 940px; border-top: 1px solid var(--fg); }
+.tpl-derma .s-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-derma .s-faq__q { display: flex; justify-content: space-between; gap: 20px; padding: 24px 0; font-family: var(--font-display); font-size: clamp(20px, 1.8vw, 26px); }
+.tpl-derma .s-faq__q::after { content: '+'; font-family: var(--font-body); font-weight: 300; transition: transform .5s var(--ease); }
+.tpl-derma .s-faq__item[open] .s-faq__q::after { transform: rotate(45deg); }
+.tpl-derma .s-faq__a { padding-bottom: 24px; color: color-mix(in srgb, var(--fg) 75%, transparent); max-width: 66ch; }
+
+/* контакты */
+.tpl-derma .s-contact { background: var(--surface); text-align: center; }
+.tpl-derma .s-contact .s__head { margin-inline: auto; justify-items: center; }
+.tpl-derma .s-contact__body { display: grid; justify-items: center; gap: 40px; }
+.tpl-derma .s-contact__facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 50px; }
+.tpl-derma .s-contact__facts > * { display: grid; gap: 4px; }
+.tpl-derma .s-contact__facts small { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); }
+
+/* подвал */
+.derma-footer { background: var(--fg); color: var(--bg); overflow: hidden; }
+.derma-footer__word { font-family: var(--font-display); font-style: italic; font-size: clamp(80px, 17vw, 300px); line-height: .9; text-align: center; padding-top: 30px; color: color-mix(in srgb, var(--accent) 70%, var(--bg)); white-space: nowrap; }
+.derma-footer__inner { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: grid; grid-template-columns: 1fr 1.6fr; gap: 40px; padding: 40px 0; }
+.derma-footer__tag { font-family: var(--font-display); font-style: italic; font-size: 22px; max-width: 26ch; opacity: .85; }
+.derma-footer__facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.derma-footer__facts dt { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: color-mix(in srgb, var(--accent) 70%, var(--bg)); margin-bottom: 6px; }
+.derma-footer__social { display: flex; flex-wrap: wrap; gap: 14px; }
+.derma-footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.derma-footer__warn { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; padding: 16px 0; border-top: 1px solid rgb(255 255 255 / .14); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .6; }
+.derma-footer__bottom { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: flex; justify-content: space-between; padding: 16px 0 30px; border-top: 1px solid rgb(255 255 255 / .14); font-size: 13px; opacity: .7; }
+@media (max-width: 860px) { .derma-footer__inner, .derma-footer__facts { grid-template-columns: 1fr; } }

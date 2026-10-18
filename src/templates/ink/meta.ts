@@ -14,9 +14,9 @@ export const meta: TemplateMeta = {
     "bg": "#0d0d0d",
     "fg": "#eae6df",
     "accent": "#c6ff3d",
-    "muted": "#7a7a7a",
-    "surface": "#0d0d0d",
-    "line": "#cccccc",
+    "muted": "#8f8a82",
+    "surface": "#161616",
+    "line": "#2a2a2a",
     "display": "Rubik Mono One",
     "body": "Golos Text",
     "motion": 1

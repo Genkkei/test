@@ -1,1 +1,177 @@
-/* заготовка */
+/* КВАРТАЛ — жилой комплекс: силуэт с окнами, чертежи планировок, ход строительства шкалами. */
+
+.tpl-nest { --pad: clamp(18px, 4vw, 64px); font-size: clamp(15px, 1.02vw, 17px); }
+.tpl-nest .s__label { font-size: 12px; font-weight: 600; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); }
+.tpl-nest .s__title { font-weight: 600; text-transform: uppercase; letter-spacing: -.02em; font-size: clamp(32px, 4.8vw, 78px); line-height: 1; }
+.tpl-nest .s__intro { color: var(--muted); }
+.nest-in { animation: nestIn 1.1s var(--ease) both; animation-delay: var(--d, .2s); }
+@keyframes nestIn { from { opacity: 0; transform: translateY(14px); } }
+.reduce-motion .nest-in { animation: none; }
+
+.nest-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 28px; background: var(--fg); color: var(--bg); font-weight: 600; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; transition: background .3s, color .3s; }
+.nest-btn:hover { background: var(--accent); }
+.nest-btn--ghost { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1.5px var(--fg); }
+.nest-btn--ghost:hover { background: var(--fg); color: var(--bg); }
+.nest-btn--sm { min-height: 42px; padding: 0 18px; font-size: 12px; }
+.tpl-nest .btn { border-radius: 0; text-transform: uppercase; letter-spacing: .14em; font-weight: 600; font-size: 13px; }
+.tpl-nest .btn--primary:hover { background: var(--accent); }
+
+/* шапка */
+.nest-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 14px var(--pad); background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.nest-logo { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; letter-spacing: .14em; text-transform: uppercase; }
+.nest-logo__mark { display: flex; align-items: flex-end; gap: 3px; height: 24px; }
+.nest-logo__mark i { width: 7px; background: var(--fg); }
+.nest-logo__mark i:nth-child(1) { height: 60%; }
+.nest-logo__mark i:nth-child(2) { height: 100%; background: var(--accent); }
+.nest-logo__mark i:nth-child(3) { height: 78%; }
+.nest-nav { display: flex; justify-content: center; gap: 26px; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+.nest-nav a { color: color-mix(in srgb, var(--fg) 70%, transparent); transition: color .3s; }
+.nest-nav a:hover { color: var(--accent); }
+.nest-header__side { display: flex; align-items: center; gap: 16px; }
+.nest-phone { font-weight: 600; font-size: 14px; }
+@media (max-width: 1160px) { .nest-nav { display: none; } .nest-header { grid-template-columns: 1fr auto; } }
+@media (max-width: 640px) { .nest-phone, .nest-header .nest-btn--sm { display: none; } }
+
+/* первый экран */
+.nest-hero { min-height: 100svh; padding: clamp(110px, 11vw, 140px) 0 0; display: grid; grid-template-rows: 1fr auto; overflow: hidden; background: linear-gradient(180deg, var(--bg) 40%, var(--surface)); }
+.nest-hero__inner { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(20px, 4vw, 60px); align-items: end; }
+.nest-hero__copy { padding-bottom: clamp(30px, 5vw, 80px); align-self: center; }
+.nest-hero__eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .26em; text-transform: uppercase; color: var(--accent); margin-bottom: 22px; }
+.nest-hero__title { font-weight: 700; text-transform: uppercase; font-size: clamp(44px, 6.4vw, 108px); line-height: .94; letter-spacing: -.035em; }
+.nest-hero__sub { margin-top: 24px; max-width: 46ch; font-size: clamp(16px, 1.2vw, 19px); color: color-mix(in srgb, var(--fg) 72%, transparent); }
+.nest-hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.nest-hero__sky { align-self: end; }
+.nest-sky { width: 100%; height: auto; overflow: visible; }
+.nest-sky__ground { stroke: var(--fg); stroke-width: 2; }
+.nest-sky__tower { transform-origin: bottom; transform-box: fill-box; animation: nestRise 1.6s var(--ease) both; animation-delay: calc(.2s + var(--t) * .12s); }
+@keyframes nestRise { from { transform: scaleY(0); } }
+.nest-sky__body { fill: color-mix(in srgb, var(--fg) 92%, var(--bg)); }
+.nest-sky__tower:nth-child(odd) .nest-sky__body { fill: color-mix(in srgb, var(--fg) 82%, var(--bg)); }
+.nest-sky__roof { fill: var(--accent); }
+.nest-win { fill: rgb(255 255 255 / .06); transition: fill 1.2s ease; }
+.nest-win.is-on { fill: #f3cf8a; }
+.reduce-motion .nest-sky__tower { animation: none; }
+.nest-hero__facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); background: var(--bg); }
+.nest-hero__facts li { padding: 22px var(--pad); border-right: 1px solid var(--line); font-weight: 600; font-size: 15px; }
+.nest-hero__facts li:last-child { border-right: 0; }
+@media (max-width: 900px) {
+  .nest-hero__inner { grid-template-columns: 1fr; }
+  .nest-hero__facts { grid-template-columns: 1fr 1fr; }
+  .nest-hero__facts li { padding: 16px var(--pad); font-size: 14px; border-bottom: 1px solid var(--line); }
+}
+
+/* сводка */
+.tpl-nest .s-answer { padding-block: clamp(46px, 6vw, 90px); }
+.tpl-nest .s-answer__text { font-size: clamp(19px, 1.9vw, 28px); line-height: 1.45; max-width: 62ch; }
+
+/* о проекте */
+.tpl-nest .s-about__body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 90px); align-items: center; }
+.tpl-nest .s-about__text { font-size: clamp(17px, 1.35vw, 21px); line-height: 1.65; }
+.tpl-nest .s-about__media { aspect-ratio: 4 / 3; overflow: hidden; }
+@media (max-width: 860px) { .tpl-nest .s-about__body { grid-template-columns: 1fr; } }
+
+/* планировки */
+.nest-plans-sec { background: var(--surface); }
+.nest-plans__tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; }
+.nest-plans__tabs button { padding: 12px 20px; border: 1.5px solid var(--fg); font-weight: 600; font-size: 14px; transition: background .3s, color .3s; }
+.nest-plans__tabs button[aria-selected='true'] { background: var(--fg); color: var(--bg); }
+.nest-plans__stage { display: grid; }
+.nest-plans__item { grid-area: 1 / 1; display: grid; grid-template-columns: 1.3fr .7fr; gap: clamp(20px, 4vw, 60px); align-items: center; padding: clamp(20px, 3vw, 44px); background: var(--bg); opacity: 0; visibility: hidden; transition: opacity .6s var(--ease), visibility .6s; }
+.nest-plans__item.is-on { opacity: 1; visibility: visible; }
+.nest-plans__info { display: grid; gap: 18px; }
+.nest-plans__info h3 { font-weight: 700; text-transform: uppercase; font-size: clamp(26px, 2.6vw, 40px); letter-spacing: -.02em; }
+.nest-plans__info dl { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-block: 16px; border-block: 1px solid var(--line); }
+.nest-plans__info dt { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.nest-plans__info dd { font-weight: 700; font-size: 20px; margin-top: 4px; }
+.nest-plans__info p { color: var(--muted); }
+.nest-plan { width: 100%; height: auto; }
+.nest-plan__room { fill: color-mix(in srgb, var(--accent) 6%, transparent); stroke: var(--fg); stroke-width: 3; }
+.nest-plan__room.is-big { fill: color-mix(in srgb, var(--accent) 14%, transparent); }
+.nest-plan__outer { fill: none; stroke: var(--fg); stroke-width: 7; }
+.nest-plan__door { fill: var(--bg); }
+.nest-plan__window { fill: var(--bg); stroke: var(--fg); stroke-width: 1.5; }
+.nest-plan__area { font-size: 12px; font-weight: 600; text-anchor: middle; fill: var(--muted); }
+.nest-plans__item.is-on .nest-plan__room, .nest-plans__item.is-on .nest-plan__outer { stroke-dasharray: 1; animation: nestDraw 1.4s var(--ease) both; }
+@keyframes nestDraw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.reduce-motion .nest-plan * { animation: none !important; }
+@media (max-width: 860px) { .nest-plans__item { grid-template-columns: 1fr; } }
+
+/* ход строительства */
+.nest-build { display: grid; grid-template-columns: 1fr 1fr; gap: 26px clamp(24px, 4vw, 70px); }
+.nest-stage { display: grid; gap: 12px; }
+.nest-stage__top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.nest-stage h3 { font-weight: 600; font-size: 20px; }
+.nest-stage__pct { font-weight: 700; font-size: 28px; color: var(--accent); }
+.nest-stage__bar { height: 8px; background: var(--surface); overflow: hidden; }
+.nest-stage__bar span { display: block; height: 100%; width: 100%; background: var(--fg); transform-origin: left; transform: scaleX(var(--pct)); transition: transform 1.8s var(--ease) .2s; }
+.motion .nest-stage:not(.is-in) .nest-stage__bar span { transform: scaleX(0); }
+.nest-stage p { color: var(--muted); font-size: 15px; }
+.nest-stage p b { color: var(--accent); font-weight: 600; }
+@media (max-width: 760px) { .nest-build { grid-template-columns: 1fr; } }
+
+/* цены */
+.nest-prices { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.nest-price { padding: 26px; background: var(--surface); display: grid; gap: 12px; align-content: start; transition: transform .5s var(--ease); }
+.nest-price:hover { transform: translateY(-6px); }
+.nest-price.is-featured { background: var(--fg); color: var(--bg); }
+.nest-price.is-featured .nest-plan__room, .nest-price.is-featured .nest-plan__outer { stroke: var(--bg); }
+.nest-price.is-featured .nest-plan__door, .nest-price.is-featured .nest-plan__window { fill: var(--fg); }
+.nest-price.is-featured .nest-plan__area { fill: rgb(255 255 255 / .6); }
+.nest-price__plan { padding: 10px 0; }
+.nest-price h3 { font-weight: 700; text-transform: uppercase; font-size: 20px; }
+.nest-price__value { font-weight: 700; font-size: 24px; color: var(--accent); }
+.nest-price__value small { font-size: 13px; font-weight: 500; opacity: .7; }
+.nest-price ul { display: grid; gap: 6px; font-size: 14px; }
+.nest-price li::before { content: '— '; color: var(--accent); }
+
+/* цифры */
+.nest-stats-sec { background: var(--fg); color: var(--bg); }
+.nest-stats { display: grid; grid-template-columns: repeat(4, 1fr); }
+.nest-stat { display: flex; flex-direction: column-reverse; gap: 10px; padding: 10px 20px 10px 0; border-right: 1px solid rgb(255 255 255 / .15); }
+.nest-stat:last-child { border-right: 0; }
+.nest-stat dd { font-weight: 700; font-size: clamp(46px, 5.4vw, 90px); letter-spacing: -.04em; line-height: 1; }
+.nest-stat dd small { font-size: .32em; margin-left: 6px; letter-spacing: 0; color: var(--accent); }
+.nest-stat dt { opacity: .7; font-size: 14px; }
+@media (max-width: 760px) { .nest-stats { grid-template-columns: 1fr 1fr; row-gap: 30px; } .nest-stat:nth-child(2n) { border-right: 0; } }
+
+/* галерея, отзывы, вопросы */
+.tpl-nest .s-gallery__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.tpl-nest .s-gallery__item .media { aspect-ratio: 4 / 3; }
+.tpl-nest .s-gallery__item:first-child { grid-column: span 2; grid-row: span 2; }
+.tpl-nest .s-gallery__item:first-child .media { aspect-ratio: auto; height: 100%; }
+.tpl-nest .s-gallery__item figcaption { font-size: 13px; color: var(--muted); padding-top: 6px; }
+@media (max-width: 700px) { .tpl-nest .s-gallery__grid { grid-template-columns: 1fr 1fr; } }
+.tpl-nest .s-testimonials__list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.tpl-nest .s-testimonials__item { padding: 28px; background: var(--surface); display: grid; gap: 20px; }
+.tpl-nest .s-testimonials__quote { font-size: 18px; line-height: 1.5; }
+.tpl-nest .s-testimonials__who { font-weight: 600; font-size: 14px; }
+@media (max-width: 900px) { .tpl-nest .s-testimonials__list { grid-template-columns: 1fr; } }
+.tpl-nest .s-faq__list { max-width: 960px; border-top: 2px solid var(--fg); }
+.tpl-nest .s-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-nest .s-faq__q { display: flex; justify-content: space-between; gap: 20px; padding: 22px 0; font-weight: 600; font-size: 18px; }
+.tpl-nest .s-faq__q::after { content: '+'; color: var(--accent); font-size: 24px; line-height: 1; transition: transform .4s var(--ease); }
+.tpl-nest .s-faq__item[open] .s-faq__q::after { transform: rotate(45deg); }
+.tpl-nest .s-faq__a { padding-bottom: 22px; color: color-mix(in srgb, var(--fg) 78%, transparent); max-width: 70ch; }
+
+/* контакты */
+.tpl-nest .s-contact { background: var(--surface); }
+.tpl-nest .s-contact__body { display: grid; grid-template-columns: auto 1fr; gap: 50px; align-items: center; }
+.tpl-nest .s-contact__facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.tpl-nest .s-contact__facts > * { display: grid; gap: 4px; font-weight: 600; }
+.tpl-nest .s-contact__facts small { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+.tpl-nest .s-contact .btn--primary { border-radius: 0; }
+@media (max-width: 860px) { .tpl-nest .s-contact__body, .tpl-nest .s-contact__facts { grid-template-columns: 1fr; } }
+
+/* подвал */
+.nest-footer { background: var(--fg); color: var(--bg); padding-top: clamp(50px, 6vw, 90px); }
+.nest-footer__inner { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 40px; }
+.nest-footer__name { font-weight: 700; text-transform: uppercase; font-size: clamp(44px, 6vw, 100px); letter-spacing: -.04em; line-height: .9; }
+.nest-footer__tag { margin-top: 14px; opacity: .7; max-width: 38ch; }
+.nest-footer__facts { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.nest-footer__facts dt { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; font-weight: 600; }
+.nest-footer__social { display: flex; flex-wrap: wrap; gap: 14px; }
+.nest-footer a:hover { color: var(--accent); }
+.nest-footer__note { width: min(100% - 2 * var(--pad), var(--max)); margin: 40px auto 0; padding: 16px 0; border-top: 1px solid rgb(255 255 255 / .14); font-size: 12px; opacity: .55; }
+.nest-footer__bottom { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; display: flex; justify-content: space-between; padding: 16px 0 30px; border-top: 1px solid rgb(255 255 255 / .14); font-size: 13px; opacity: .7; }
+@media (max-width: 860px) { .nest-footer__inner, .nest-footer__facts { grid-template-columns: 1fr; } }
+.tpl-nest .s-testimonials__who span { display: block; color: var(--muted); font-weight: 500; margin-top: 2px; }
