@@ -11,7 +11,10 @@
     "prebuild": "node scripts/seeds.mjs",
     "deploy": "SITE_URL=https://atlas.genkai.workers.dev opennextjs-cloudflare build && wrangler deploy && node scripts/deploy-routers.mjs",
     "deploy:atlas": "SITE_URL=https://atlas.genkai.workers.dev opennextjs-cloudflare build && wrangler deploy",
-    "deploy:routers": "node scripts/deploy-routers.mjs"
+    "deploy:routers": "node scripts/deploy-routers.mjs",
+    "test": "vitest run",
+    "security:audit": "tsx scripts/security-audit.mts",
+    "security:audit:live": "tsx scripts/security-audit.mts --live --skip-build"
   },
   "dependencies": {
     "@fontsource-variable/caveat": "^5.3.0",
@@ -52,7 +55,14 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
+    "vitest": "^5.0.5",
     "wrangler": "^4.151.1"
+  },
+  "overrides": {
+    "@node-minify/core": {
+      "glob": "^10.5.0"
+    }
   }
 }

@@ -60,6 +60,7 @@ export async function saveSiteAction(json: string, originalSlug: string, lang?: 
   let site = parsed.data
   const base = await getSite(originalSlug)
   // перевод: сохраняются только тексты, структура и оформление остаются от основной версии
+  if (lang && !['ru', 'uz', 'en'].includes(lang)) return { ok: false, message: 'Нет такого языка' }
   if (base && lang && lang !== base.lang) {
     await saveTranslation(originalSlug, lang, translatableOf(site) as Record<string, unknown>)
     refresh(originalSlug)
@@ -151,7 +152,9 @@ export async function changeOwnPasswordAction(slug: string, password: string): P
   if (!(await canEdit(slug))) return { ok: false, message: 'Нет доступа' }
   if (password.trim().length < 8) return { ok: false, message: 'Пароль — не короче 8 символов' }
   await setSitePassword(slug, password.trim())
-  return { ok: true, message: 'Пароль изменён' }
+  // смена пароля закрывает все прежние сессии этой области — текущему владельцу выдаём новую
+  if ((await adminScope()) === null && !(await isMaster())) await startSession(slug)
+  return { ok: true, message: 'Пароль изменён. Остальные устройства вышли из админки.' }
 }
 
 export async function currentScope() {

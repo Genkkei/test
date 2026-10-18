@@ -1,4 +1,5 @@
-import { formRefusal } from '@/lib/guard'
+import { formRefusal, hitLimit, requestIp } from '@/lib/guard'
+import { hostSite } from '@/lib/auth'
 import { sendLead } from '@/lib/bot'
 import { kvGet, kvPut } from '@/lib/kv'
 import { getSite } from '@/lib/store'
@@ -20,6 +21,8 @@ export async function POST(request: Request) {
   const lang = str(body.lang, 5) || undefined
   const site = await getSite(slug, lang)
   if (!site) return Response.json({ ok: false, error: 'off' }, { status: 404 })
+  const via = await hostSite()
+  if (via && via !== slug) return Response.json({ ok: false, error: 'origin' }, { status: 403 })
 
   const catalog = new Map<string, { name: string; price: number; unit: string }>()
   for (const s of site.sections) if (s.type === 'shop' && s.enabled) s.items.forEach((it, i) => it.price > 0 && catalog.set(`${s.id}:${i}`, it))
@@ -35,11 +38,10 @@ export async function POST(request: Request) {
   if (site.listing.forSale) return Response.json({ ok: true, demo: true })
   if (!site.leads.enabled) return Response.json({ ok: false, error: 'off' }, { status: 404 })
 
-  const ip = request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'local'
-  const key = `rl:order:${slug}:${ip}`
-  const hits: number[] = JSON.parse((await kvGet(key)) || '[]').filter((t: number) => Date.now() - t < 600_000)
-  if (hits.length >= 5) return Response.json({ ok: false, error: 'rate' }, { status: 429 })
-  await kvPut(key, JSON.stringify([...hits, Date.now()]))
+  // лимиты: 5 за 10 минут с одного адреса и 30 в час на сайт — чтобы с тысячи адресов не завалить Telegram владельца
+  const store = { get: kvGet, put: kvPut }
+  if ((await hitLimit(store, `rl:order:${slug}:${requestIp(request)}`, 5, 600_000)) || (await hitLimit(store, `rl:order:${slug}`, 30, 3_600_000)))
+    return Response.json({ ok: false, error: 'rate' }, { status: 429 })
 
   const total = lines.reduce((a, l) => a + l.qty * l.item.price, 0)
   const ru = 'ru'

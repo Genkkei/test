@@ -16,3 +16,20 @@ export function formRefusal(request: Request): Response | null {
   }
   return null
 }
+
+/** Скользящее окно: true — лимит исчерпан (попытка не записывается); иначе попытка засчитана. */
+export async function hitLimit(store: { get(k: string): Promise<string | null>; put(k: string, v: string): Promise<void> }, key: string, max: number, windowMs: number, now = Date.now()): Promise<boolean> {
+  let list: number[] = []
+  try {
+    const raw = JSON.parse((await store.get(key)) || '[]')
+    if (Array.isArray(raw)) list = raw.filter((t) => typeof t === 'number' && now - t < windowMs)
+  } catch {}
+  if (list.length >= max) return true
+  await store.put(key, JSON.stringify([...list, now].slice(-max)))
+  return false
+}
+
+/** Адрес посетителя для лимитов: cf-connecting-ip ставит Cloudflare, снаружи его не подделать. */
+export function requestIp(request: Request): string {
+  return request.headers.get('cf-connecting-ip') || request.headers.get('x-real-ip') || 'local'
+}

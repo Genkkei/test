@@ -17,6 +17,7 @@ import { kvGet, kvPut } from './kv'
 
 const COOKIE = 'atlas_admin'
 const TTL = 60 * 60 * 24 * 30
+const LEGACY_UNTIL = Date.parse('2026-10-25T00:00:00Z')
 
 export function adminPassword(): string | null {
   if (process.env.ADMIN_PASSWORD) return process.env.ADMIN_PASSWORD
@@ -40,13 +41,21 @@ function safeEqual(a: string, b: string): boolean {
 /** Сайт, на адресе которого открыта админка (заголовок маршрутизатора), или null — адрес конструктора. */
 export async function hostSite(): Promise<string | null> {
   const h = await headers()
-  const s = h.get('x-atlas-site')
-  if (!s || !/^[a-z0-9-]+$/.test(s)) return null
-  // Заголовок ставит маршрутизатор сайта, но его может прислать и кто угодно, обратившись к
-  // конструктору напрямую. На собственном адресе конструктора заголовку не верим.
-  const own = process.env.ATLAS_URL ? new URL(process.env.ATLAS_URL).host : null
-  if (own && h.get('host') === own) return null
-  return s
+  return trustedSite(h.get('x-atlas-site'), h.get('host'), async (slug) => (await import('./store')).getSite(slug).then((x) => x?.domains ?? null))
+}
+
+/**
+ * Заголовку x-atlas-site верим, только если сам адрес запроса (Host, его снаружи не подделать —
+ * по нему Cloudflare выбирает воркер) принадлежит этому сайту: <slug>.<поддомен>.workers.dev или
+ * домен из его настроек. Иначе кто угодно прислал бы заголовок прямо конструктору — на его
+ * основной адрес или на адреса превью версий — и вошёл бы как «на адресе сайта».
+ */
+export async function trustedSite(header: string | null, host: string | null, domainsOf: (slug: string) => Promise<string[] | null>): Promise<string | null> {
+  if (!header || !host || !/^[a-z0-9-]+$/.test(header)) return null
+  const hn = host.toLowerCase().replace(/:\d+$/, '')
+  if (hn.startsWith(`${header}.`) && hn.endsWith('.workers.dev') && hn.split('.').length === 4) return header
+  const domains = await domainsOf(header)
+  return domains?.some((d) => d.toLowerCase() === hn) ? header : null
 }
 
 /** Адрес посетителя: Cloudflare ставит cf-connecting-ip сам, подделать его снаружи нельзя (x-forwarded-for — можно). */
@@ -99,10 +108,20 @@ export async function checkLogin(input: string): Promise<string | null> {
   return null
 }
 
+/**
+ * Отпечаток пароля области входит в подпись куки: сменили или сбросили пароль — все прежние
+ * сессии этой области перестают действовать сразу, а не через 30 дней. Для общей области «*» —
+ * отпечаток ADMIN_PASSWORD.
+ */
+async function passVersion(scope: string): Promise<string> {
+  const src = scope === '*' ? `master:${adminPassword() ?? ''}` : `site:${(await kvGet(`pass:${scope}`)) ?? ''}`
+  return sign(src).slice(0, 12)
+}
+
 export async function startSession(scope: string) {
   const exp = String(Math.floor(Date.now() / 1000) + TTL)
   const body = `${scope}.${exp}`
-  ;(await cookies()).set(COOKIE, `${body}.${sign(body)}`, {
+  ;(await cookies()).set(COOKIE, `${body}.${sign(`${body}.${await passVersion(scope)}`)}`, {
     httpOnly: true,
     sameSite: 'lax',
     secure: process.env.NODE_ENV === 'production',
@@ -122,7 +141,12 @@ export async function adminScope(): Promise<string | null> {
   const parts = raw.split('.')
   if (parts.length !== 3) return null
   const [scope, exp, sig] = parts
-  if (!safeEqual(sig, sign(`${scope}.${exp}`)) || Number(exp) < Date.now() / 1000) return null
+  if (!/^(\*|[a-z0-9-]+)$/.test(scope) || Number(exp) < Date.now() / 1000) return null
+  const current = safeEqual(sig, sign(`${scope}.${exp}.${await passVersion(scope)}`))
+  // куки старого образца (без отпечатка пароля) принимаем до LEGACY_UNTIL, чтобы смена схемы не
+  // выкинула разом всех, кто уже вошёл; после этой даты они недействительны
+  const legacy = !current && Date.now() < LEGACY_UNTIL && safeEqual(sig, sign(`${scope}.${exp}`))
+  if (!current && !legacy) return null
   // кука владельца сайта годится только на адресе его сайта
   if (scope !== '*' && scope !== (await hostSite())) return null
   return scope

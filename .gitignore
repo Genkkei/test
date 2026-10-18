@@ -12,3 +12,12 @@ next-env.d.ts
 docs/deck/out/*.png
 docs/deck/out/deck.html
 docs/deck/out/counts.json
+
+# секреты: никогда в git
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+security/results/
+!.env.example

@@ -1,5 +1,5 @@
 import 'server-only'
-import { createHmac } from 'node:crypto'
+import { createHmac, timingSafeEqual } from 'node:crypto'
 import { kvGet, kvPut, kvDel } from './kv'
 
 /*
@@ -95,7 +95,9 @@ type Update = { message?: { text?: string; chat: { id: number; type: string; fir
 /** Вебхук: «/start <код>» добавляет чат в получатели, остальным бот отвечает ссылкой на сайт. */
 export async function handleUpdate(slug: string, secret: string | null, update: Update, siteName: string, siteLink: string): Promise<boolean> {
   const r = await read(slug)
-  if (!r || secret !== webhookSecret(r.token)) return false
+  const want = r ? Buffer.from(webhookSecret(r.token)) : null
+  const got = Buffer.from(secret || '')
+  if (!r || !want || want.length !== got.length || !timingSafeEqual(want, got)) return false
   const m = update.message
   if (!m) return true
   const text = (m.text || '').trim()
