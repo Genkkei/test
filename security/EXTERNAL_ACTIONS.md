@@ -22,3 +22,8 @@
 6. **Двухфакторный вход в сами аккаунты** GitHub и Cloudflare — включить, если ещё не включён.
 7. **Telegram-боты клиентов.** Токен бота показывается только при подключении; если клиент считает, что токен
    утёк, — `/revoke` в @BotFather и «Подключить» заново.
+8. **Кнопка «Войти через GitHub» на странице переноса (необязательно).** Без неё заказчик подключает GitHub
+   по ключу (кнопка открывает GitHub с уже отмеченными правами). Чтобы был вход одной кнопкой: GitHub →
+   Settings → Developer settings → OAuth Apps → New OAuth App; Homepage URL `https://atlas.genkai.workers.dev`,
+   Authorization callback URL `https://atlas.genkai.workers.dev/api/transfer/github/callback`. Затем
+   `npx wrangler secret put GITHUB_CLIENT_ID` и `npx wrangler secret put GITHUB_CLIENT_SECRET`.
