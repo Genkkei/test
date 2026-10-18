@@ -17,7 +17,8 @@ const by = (list) => forSale.filter((s) => list.includes(s.slug)).length
 const COFFEE = 'brewlab crema origin dripbar kofego reserve bodrost tong karamel matcha qahvauy arabica nurkofe tunkofe kofemania noir coldbrew kitobkofe plastinka kofeofis'.split(' ')
 const FURN = 'scandi velvet modul loftmebel sofa duradgor uyut forma royalmebel monomebel elit mebeluy obivka atelye yorug dizayn bolalar bogmebel daraxt smartmebel'.split(' ')
 const METAL = 'sandon vorota kuznitsa ornament laser karkas xrom metallform olovtemir konstruktsiya qora uchqun kovkaart prokat panjara svarka temirsanat darvoza zarhal temirchi'.split(' ')
-const counts = { sites: forSale.length, templates, coffee: by(COFFEE), furniture: by(FURN), metal: by(METAL) }
+const shops = forSale.filter((s) => s.sections.some((x) => x.type === 'shop' && x.enabled)).length
+const counts = { sites: forSale.length, templates, shops, coffee: by(COFFEE), furniture: by(FURN), metal: by(METAL) }
 const deck = slides(counts)
 
 const nm = (p) => `file://${root}/node_modules/${p}`

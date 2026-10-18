@@ -1,13 +1,13 @@
 // Содержание презентации «Готовые сайты: настройка, продажа, передача» — один источник для PDF и PPTX.
 // Числа сайтов и шаблонов подставляются при сборке из content/sites и src/templates.
 
-export function slides({ sites, templates, coffee, furniture, metal }) {
+export function slides({ sites, templates, shops, coffee, furniture, metal }) {
   return [
     {
       kind: 'cover',
       label: 'Инструкция для владельца',
       title: 'Готовые сайты: настройка, продажа, передача',
-      plate: `${sites} готовых сайтов на ${templates} шаблонах. У каждого — свой адрес, три языка, админка и заявки в Telegram.`,
+      plate: `${sites} готовых сайтов на ${templates} шаблонах. У каждого — свой адрес, три языка, админка и заявки в Telegram; у ${shops} — интернет-магазин с корзиной.`,
       meta: [['Каталог', 'point.cero.uz/sites'], ['Конструктор', 'atlas.genkai.workers.dev'], ['Дата', '18.10.2026'], ['Версия', '1.0']],
     },
     {
@@ -19,7 +19,7 @@ export function slides({ sites, templates, coffee, furniture, metal }) {
       stats: [
         [String(sites), 'готовых сайтов в каталоге'],
         [String(templates), 'шаблонов дизайна'],
-        ['3', 'языка: русский, узбекский, английский'],
+        [String(shops), 'с интернет-магазином: корзина, заказ в Telegram'],
         [`${coffee} · ${furniture} · ${metal}`, 'кофеен · мебельных · по ковке металла'],
       ],
     },
@@ -30,7 +30,7 @@ export function slides({ sites, templates, coffee, furniture, metal }) {
       title: 'Четыре части системы',
       items: [
         ['Каталог', 'point.cero.uz/sites — витрина: фильтр по нишам, демо, кнопка «Купить» → заявка в Telegram.'],
-        ['Демо-сайты', 'Каждый на своём адресе <имя>.genkai.workers.dev, на трёх языках. Клиент смотрит до покупки.'],
+        ['Демо-сайты', 'Каждый на своём адресе <имя>.genkai.workers.dev, на трёх языках. Клиент смотрит до покупки; в магазинах можно пройти заказ до конца — сайт честно скажет, что это демо.'],
         ['Конструктор Atlas', 'atlas.genkai.workers.dev/admin — ваша общая админка: все сайты, «Выдать клиенту», домены.'],
         ['Сайт клиента', 'Копия демо под клиента: свой адрес или домен, своя админка с паролем, заявки в его Telegram.'],
       ],
