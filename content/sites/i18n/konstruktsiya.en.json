@@ -1,0 +1,242 @@
+{
+  "name": "Konstruktsiya",
+  "tagline": "We design and install steel structures",
+  "niche": "Design and installation of steel structures: stairs, mezzanines, frames",
+  "seo": {
+    "title": "Konstruktsiya — turnkey steel structures in Tashkent",
+    "description": "Calculations, structural and shop drawings, fabrication and installation: stairs, mezzanines, extension and attic frames for homes and commercial sites.",
+    "keywords": [
+      "steel structures Tashkent",
+      "steel mezzanine",
+      "steel-frame staircase",
+      "shop drawings"
+    ],
+    "answer": "Konstruktsiya is an engineering company in Chilanzar designing and installing steel structures. Steel-frame stairs from 14,000,000 UZS, mezzanines from 950,000 UZS per m², extension frames from 1,200,000 UZS per m², shop drawings from 2,500,000 UZS. 5-year warranty, phone +998 71 200-04-04."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a structural steel engineering firm: drafting graphics, projects with specs, priced services and installation stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Konstruktsiya Engineering LLC",
+    "street": "15 Bunyodkor Ave, Chilanzar",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "We calculate, draw, weld and install",
+      "eyebrow": "Steel structures · Tashkent",
+      "subtitle": "Turnkey stairs, mezzanines and extension frames. Every structure is load-checked first, then drawn up in shop drawings — and only then do we cut steel.",
+      "words": [
+        "Stairs",
+        "Mezzanines",
+        "Frames",
+        "Attics"
+      ],
+      "cta": {
+        "label": "Book an engineer",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we do",
+      "items": [
+        {
+          "title": "Steel-frame staircase",
+          "text": "Straight, L- or U-shaped, ready for timber or concrete cladding.",
+          "price": "from 14,000,000 UZS",
+          "tag": "3 weeks"
+        },
+        {
+          "title": "Mezzanine",
+          "text": "A second level in a warehouse, shop or high-ceilinged flat.",
+          "price": "from 950,000 UZS per m²",
+          "tag": "2–4 weeks"
+        },
+        {
+          "title": "Extension frame",
+          "text": "Terraces, conservatories and extensions to private houses.",
+          "price": "from 1,200,000 UZS per m²",
+          "tag": "4 weeks"
+        },
+        {
+          "title": "Structural and shop drawings",
+          "text": "If another contractor will fabricate, we hand over the calculations and drawings.",
+          "price": "from 2,500,000 UZS",
+          "tag": "5–10 days"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Completed projects",
+      "items": [
+        {
+          "title": "Warehouse mezzanine",
+          "category": "Commercial",
+          "year": "2026",
+          "text": "A second level for an online store’s racking · Area: 320 m² · Load: 500 kg/m² · Time: 4 weeks",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Staircase in a Chilanzar house",
+          "category": "Private house",
+          "year": "2025",
+          "text": "U-shaped stringer stair for oak cladding · Floors: 3 · Time: 3 weeks",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Attic over a garage",
+          "category": "Extension",
+          "year": "2025",
+          "text": "A light steel frame on existing walls · Area: 64 m² · Time: 5 weeks",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Café terrace",
+          "category": "Hospitality",
+          "year": "2024",
+          "text": "A summer terrace frame with a sliding roof · Area: 140 m² · Time: 6 weeks",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Company",
+      "title": "Engineers who stand on site themselves",
+      "text": "We have two structural engineers, our own 600 m² workshop and two installation crews. Calculations follow local building codes, and every project comes with a passport of drawings and a hidden-works report — useful for sign-off and for selling the house.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "How the work goes",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "own workshop"
+        },
+        {
+          "value": "180",
+          "suffix": "+",
+          "label": "projects completed"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "installation crews"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "structural warranty"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Does a mezzanine need drawings?",
+          "a": "Yes — without a load check a mezzanine is unsafe. Calculations and drawings are included if we install it."
+        },
+        {
+          "q": "How much is an engineer’s visit?",
+          "a": "Free within Tashkent. The engineer measures, checks the base and gives a preliminary price on the spot."
+        },
+        {
+          "q": "Can you install in winter?",
+          "a": "Yes, steel goes up year-round. Outdoor painting waits for days above +5 °C."
+        },
+        {
+          "q": "Do you provide paperwork?",
+          "a": "A contract, estimate, shop drawings, a hidden-works report and a 5-year warranty passport."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "We will send an engineer to site",
+      "text": "15 Bunyodkor Ave, Chilanzar. Mon–Fri 9:00–18:00, Sat 10:00–14:00.",
+      "cta": {
+        "label": "Call an engineer",
+        "href": "tel:+998712000404"
+      }
+    }
+  ]
+}

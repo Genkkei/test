@@ -1,0 +1,284 @@
+{
+  "name": "Velvet Casa",
+  "tagline": "Interyeringizga moslab tikilgan italyan yumshoq mebeli",
+  "niche": "Italyan yumshoq mebeli saloni: divanlar, kreslolar, karavotlar",
+  "nav": {
+    "cta": {
+      "label": "Salonga yozilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Premium mebel saloni uchun sayt: projektor ostidagi divan va qoplamani almashtirish, rim raqamli kolleksiyalar, vino kartasi uslubidagi narxlar va buyurtma yo‘lining jez ipi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Velvet Casa — Toshkentda italyan divan va kreslolari",
+    "description": "Amir Temurdagi italyan yumshoq mebeli saloni: 300 xil matoda buyurtma asosida divanlar, kreslolar va karavotlar. Mato namunalari uyga, yetkazish va joylashtirish.",
+    "keywords": [
+      "italyan mebeli Toshkent",
+      "italyan divanlari",
+      "buyurtma asosida yumshoq mebel",
+      "baxmal divan",
+      "Italiyadan kreslo",
+      "Toshkentdagi mebel saloni"
+    ],
+    "answer": "Velvet Casa — Toshkentdagi italyan yumshoq mebeli saloni, Amir Temur shohko‘chasi, 107B. Buyurtma divanlar — 38 000 000 so‘mdan, kreslolar — 14 500 000 so‘mdan, karavotlar — 29 000 000 so‘mdan; 300 dan ortiq mato, Italiyada tayyorlash 8–12 hafta. Mato namunalarini uyga bepul olib kelamiz."
+  },
+  "business": {
+    "legalName": "«Velvet Kaza» MChJ",
+    "street": "Amir Temur shohko‘chasi, 107B",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ko‘rinib turadigan yumshoqlik",
+      "eyebrow": "Italyan mebeli · Toshkent",
+      "subtitle": "Brianza fabrikalarining divan, kreslo va karavotlari, o‘lchamingiz va matongizga tikilgan. Baxmal rangini tanlang — divan rangini o‘zgartiradi.",
+      "cta": {
+        "label": "Salonga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Kolleksiyalar",
+        "href": "#collections"
+      },
+      "image": "",
+      "words": []
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Salon",
+      "title": "Bir marta tanlanadigan mebel",
+      "text": "Velvet Casa — Amir Temurdagi 600 m² zal, bu yerda har bir modelni ushlab ko‘rish, matoni esa devoringiz namunasiga qo‘yib ko‘rish mumkin. Biz Brianzadagi uchta oilaviy fabrika bilan ishlaymiz: ular har bir divanni qo‘lda, o‘lchamlaringiz bo‘yicha tikadi. Salon dizayneri o‘lchovga kelib, model xonada qanday turishini ko‘rsatadi.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Baxmal",
+        "Bukle",
+        "Zig‘ir",
+        "Nappa charmi",
+        "Jez",
+        "Yong‘oq",
+        "Italiyada yasalgan"
+      ]
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Kolleksiyalar",
+      "title": "Bitta salonning to‘rt xarakteri",
+      "items": [
+        {
+          "title": "Lago",
+          "category": "Modulli divanlar",
+          "year": "Brianza",
+          "text": "Burchak, orol yoki to‘g‘ri chiziq bo‘lib yig‘iladigan past modullar. Pat to‘ldirilgan yostiqlar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Duna",
+          "category": "Kreslo va puflar",
+          "year": "Meyda",
+          "text": "Baxmal va bukledagi chuqur o‘tiriladigan dumaloq kreslolar. Xohishga ko‘ra aylanadigan asos.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Notte",
+          "category": "Karavotlar",
+          "year": "Kantu",
+          "text": "Shiftgacha yumshoq bosh qismlar, choyshab qutisi, 160 dan 200 sm gacha o‘lchamlar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Terra",
+          "category": "Stol va konsollar",
+          "year": "Brianza",
+          "text": "Yong‘oq, travertin va jez — divan atrofidagi kompozitsiyani ushlab turadigan stollar.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Modellar va narxlar",
+      "title": "Salondagi narxlar",
+      "intro": "«dan» narxi — A toifasidagi asosiy matodagi model uchun. Yakuniy narx o‘lcham, mato va to‘ldirgichga bog‘liq; huzuringizda hisoblaymiz.",
+      "items": [
+        {
+          "title": "Lago divani, 3 modul",
+          "text": "Pat va ko‘pik, yechiladigan g‘iloflar.",
+          "price": "38 000 000 so‘mdan",
+          "tag": "280 × 105"
+        },
+        {
+          "title": "Lago burchakli divani",
+          "text": "Chap yoki o‘ng burchak, 5 tagacha modul.",
+          "price": "54 000 000 so‘mdan",
+          "tag": "320 × 240"
+        },
+        {
+          "title": "Duna kreslosi",
+          "text": "Baxmal yoki bukle, aylanadigan asos.",
+          "price": "14 500 000 so‘mdan",
+          "tag": "92 × 88"
+        },
+        {
+          "title": "Duna pufi",
+          "text": "Kreslo bilan to‘plamda yoki alohida.",
+          "price": "4 800 000 so‘mdan",
+          "tag": "Ø 60"
+        },
+        {
+          "title": "Notte karavoti",
+          "text": "Yumshoq bosh qismi, choyshab qutisi.",
+          "price": "29 000 000 so‘mdan",
+          "tag": "180 × 200"
+        },
+        {
+          "title": "Terra konsoli",
+          "text": "Travertin va jez.",
+          "price": "11 200 000 so‘mdan",
+          "tag": "160 × 40"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "Matodan birinchi oqshomgacha",
+      "items": [
+        {
+          "title": "Salonga tashrif",
+          "text": "Modellarda o‘tirib ko‘rasiz, 300 namunadan o‘lcham va mato tanlaysiz."
+        },
+        {
+          "title": "O‘lchov va loyiha",
+          "text": "Dizayner uyga kelib, joylashtirish rejasi va vizualizatsiya qiladi."
+        },
+        {
+          "title": "Italiyada ishlab chiqarish",
+          "text": "Fabrika o‘lchamlaringiz bo‘yicha 8–12 hafta tikadi, ishlab chiqarishdan suratlar yuboramiz."
+        },
+        {
+          "title": "Yetkazish va joylashtirish",
+          "text": "Olib kelamiz, ochamiz, reja bo‘yicha joylashtiramiz va qadoqni olib ketamiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "mato va charmlar"
+        },
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "salon maydoni"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "Brianzadagi oilaviy fabrikalar"
+        },
+        {
+          "value": "10",
+          "suffix": " yil",
+          "label": "karkasga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Uyida allaqachon turganlar",
+      "items": [
+        {
+          "quote": "Divanni o‘n hafta kutdik va bir marta ham afsuslanmadik: u aynan biz izlagan yashil rangda.",
+          "author": "Sevara va Otabek",
+          "role": "Toshkent Siti"
+        },
+        {
+          "quote": "Dizayner mato namunalarini to‘g‘ridan-to‘g‘ri kvartiraga olib kelib, pardalarga tutib ko‘rdi. Hammasini shu hal qildi.",
+          "author": "Nargiza",
+          "role": "Yunusobod"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Buyurtma mebelni qancha kutish kerak?",
+          "a": "Oldindan to‘lovdan 8–12 hafta: fabrika o‘lchamlaringiz bo‘yicha tikadi, so‘ng Toshkentga yetkazish."
+        },
+        {
+          "q": "Mavjud mebel bormi?",
+          "a": "Ha, ko‘rgazma namunalari chegirma bilan sotiladi va 2–3 kunda yetkaziladi."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Buyurtmada 50% oldindan to‘lov, qolgani — yetkazishdan oldin. Naqd, karta, hisob raqamiga o‘tkazma."
+        },
+        {
+          "q": "Mato namunalarini uyga olsa bo‘ladimi?",
+          "a": "Ha, Toshkent bo‘ylab 10 tagacha namunani bepul olib kelamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Salon",
+      "title": "Bir piyola espressoga keling",
+      "text": "Amir Temur, 107B, ikkinchi qavat. Kirish oldida bepul avtoturargoh.",
+      "cta": {
+        "label": "Salonga qo‘ng‘iroq qilish",
+        "href": "tel:+998712000112"
+      }
+    }
+  ]
+}

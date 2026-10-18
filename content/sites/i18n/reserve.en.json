@@ -1,0 +1,331 @@
+{
+  "name": "Reserve Coffee",
+  "tagline": "A roastery café on Makhtumkuli: rare lots, tastings and roasting in front of you",
+  "niche": "Premium roastery café",
+  "nav": {
+    "cta": {
+      "label": "Reserve",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a premium café, roastery or wine bar: dark copper, a rotating seal, tasting flights and a roast curve that draws itself as you scroll.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Reserve Coffee — roastery and coffee tastings in Tashkent",
+    "description": "A café with its own roaster at 3 Makhtumkuli St: rare lots from Ethiopia, Panama and Colombia, tasting flights and brewing workshops. Daily 9:00–23:00.",
+    "keywords": [
+      "Tashkent roastery",
+      "specialty coffee Tashkent",
+      "coffee tasting",
+      "coffee beans",
+      "geisha",
+      "coffee workshop"
+    ],
+    "answer": "Reserve Coffee is a roastery café at 3 Makhtumkuli St in Tashkent, open daily 9:00–23:00. Beans are roasted on site in small batches. A three-lot tasting flight costs 95,000 UZS, a pour-over workshop 290,000 UZS and a private tasting for up to 8 people 1,400,000 UZS."
+  },
+  "business": {
+    "legalName": "Reserve Coffee LLC",
+    "street": "3 Makhtumkuli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee roasted in front of you",
+      "eyebrow": "Roastery · 3 Makhtumkuli · since 2023",
+      "subtitle": "A copper roaster in the middle of the room, rare lots that arrive once a season and a barista who will tell you why this cup smells of jasmine.",
+      "words": [],
+      "cta": {
+        "label": "Book a tasting",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Tasting flights",
+        "href": "#flights"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Ethiopia Guji",
+        "Panama Geisha",
+        "Colombia Huila",
+        "Kenya AA",
+        "Roasting on Thursdays"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The roastery",
+      "title": "Twelve minutes that decide the taste",
+      "text": "We bring in green beans in small lots directly from importers and roast them right here in the room, fifteen kilos at a time. Every batch is cupped before it reaches a cup or a bag. That is why the menu changes: some coffees end for good, others appear for a single season.",
+      "image": ""
+    },
+    {
+      "id": "flights",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Tasting flights",
+      "groups": [
+        {
+          "name": "Filter",
+          "items": [
+            {
+              "name": "Ethiopia Guji",
+              "text": "jasmine, bergamot, peach",
+              "price": "38 000 UZS"
+            },
+            {
+              "name": "Colombia Huila",
+              "text": "caramel, red apple",
+              "price": "34 000 UZS"
+            },
+            {
+              "name": "Panama Geisha",
+              "text": "linden blossom, honey, lime",
+              "price": "85 000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Espresso of the day",
+              "text": "ask the barista — it changes daily",
+              "price": "26 000 UZS"
+            },
+            {
+              "name": "Cortado",
+              "text": "espresso with a little milk",
+              "price": "30 000 UZS"
+            },
+            {
+              "name": "Flat white",
+              "text": "double ristretto",
+              "price": "36 000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Flights",
+          "items": [
+            {
+              "name": "Three lots",
+              "text": "three 100 ml filters with tasting cards",
+              "price": "95 000 UZS"
+            },
+            {
+              "name": "Espresso and milk",
+              "text": "one lot as espresso, cortado and cappuccino",
+              "price": "78 000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp",
+      "type": "pricing",
+      "label": "Experiences",
+      "title": "Tastings and workshops",
+      "items": [
+        {
+          "name": "Cupping",
+          "price": "150 000 UZS",
+          "period": "person",
+          "features": [
+            "Six lots blind",
+            "How professionals score coffee",
+            "Saturday, 11:00, 60 minutes"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Brewing workshop",
+          "price": "290 000 UZS",
+          "period": "person",
+          "features": [
+            "V60, AeroPress and Chemex",
+            "A 250 g bag of beans to take home",
+            "Up to 6 people, 2 hours"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Private tasting",
+          "price": "1 400 000 UZS",
+          "period": "group",
+          "features": [
+            "Up to 8 guests, the room is yours",
+            "A batch roasted in front of you",
+            "Desserts paired with each lot"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "roast",
+      "type": "process",
+      "label": "Roasting",
+      "title": "The curve of one batch",
+      "items": [
+        {
+          "title": "Charge",
+          "text": "Green beans drop into a drum heated to 200 °C."
+        },
+        {
+          "title": "Drying",
+          "text": "For the first four minutes the beans lose moisture and turn yellow."
+        },
+        {
+          "title": "First crack",
+          "text": "Around minute nine the beans crack and the flavour starts to develop."
+        },
+        {
+          "title": "Development",
+          "text": "Two or three minutes decide whether the coffee turns floral or chocolatey."
+        },
+        {
+          "title": "Drop",
+          "text": "The beans cool on the tray in four minutes and rest for three days."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "15",
+          "suffix": "kg",
+          "label": "per roast"
+        },
+        {
+          "value": "12",
+          "suffix": "min",
+          "label": "a batch takes"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "lots this season"
+        },
+        {
+          "value": "3",
+          "suffix": "days",
+          "label": "beans rest"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "After the tasting",
+      "items": [
+        {
+          "quote": "For the first time I understood that coffee can smell of peach without any syrup.",
+          "author": "Kamila",
+          "role": "Saturday cupping"
+        },
+        {
+          "quote": "We celebrated our company’s anniversary here — the barista roasted a batch right in front of us.",
+          "author": "Farhod",
+          "role": "private tasting"
+        },
+        {
+          "quote": "Since the workshop my coffee at home beats what I used to get in any café.",
+          "author": "Anna",
+          "role": "brewing workshop"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The room",
+      "title": "Copper, wood and the smell of roasting",
+      "items": [
+        {
+          "caption": "The roaster in the middle of the room",
+          "image": ""
+        },
+        {
+          "caption": "The filter coffee bar",
+          "image": ""
+        },
+        {
+          "caption": "The cupping table",
+          "image": ""
+        },
+        {
+          "caption": "The shelf of seasonal lots",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Before you visit",
+      "items": [
+        {
+          "q": "Do I need to book a tasting flight?",
+          "a": "No, you can order a flight any time. Booking is only needed for cupping, workshops and private tastings."
+        },
+        {
+          "q": "When do you roast?",
+          "a": "Thursdays from 10:00 to 14:00 — come and watch."
+        },
+        {
+          "q": "Can I buy beans to take home?",
+          "a": "Yes, 250 g bags from 140,000 UZS. We’ll grind them for your brewer."
+        },
+        {
+          "q": "Is the room good for business meetings?",
+          "a": "Yes, there is a separate table for eight by the window — book it in advance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come for a tasting",
+      "text": "3 Makhtumkuli — five minutes from Hamid Olimjon metro. We roast on Thursdays from 10:00.",
+      "cta": {
+        "label": "Book",
+        "href": "#order"
+      }
+    }
+  ]
+}

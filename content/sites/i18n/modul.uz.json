@@ -1,0 +1,351 @@
+{
+  "name": "Modul",
+  "tagline": "Buyurtma asosida shkaf va korpus mebel — santimetr aniqligida",
+  "niche": "Buyurtma korpus mebel: kupe shkaflar, kiyim xonalari, oshxonalar, dahlizlar",
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchi chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Korpus mebel ishlab chiqaruvchi uchun sayt: chizmali va taxminiy narxli jonli shkaf konfiguratori, yig‘ish yo‘riqnomasi tili — millimetrli qog‘oz, o‘lcham chiziqlari, sariq marker.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Modul — Toshkentda buyurtma kupe shkaf va korpus mebel",
+    "description": "Kupe shkaflar, kiyim xonalari, oshxona va dahlizlar o‘lchamlaringiz bo‘yicha. Shkafni onlayn hisoblang, o‘lchov bepul, tayyorlash 14 kundan, Toshkentda o‘rnatish.",
+    "keywords": [
+      "Toshkentda buyurtma kupe shkaf",
+      "buyurtma korpus mebel",
+      "buyurtma kiyim xonasi",
+      "o‘rnatilgan shkaf",
+      "Toshkentda buyurtma oshxona",
+      "shkaf kalkulyatori"
+    ],
+    "answer": "Modul — Toshkentda buyurtma korpus mebel ishlab chiqaruvchi, sex va shou-rum Qatortol ko‘chasi, 28 da, du–sh 9:00 dan 19:00 gacha ishlaymiz. Ochiladigan eshikli shkaf — fasadning m² uchun 2 600 000 so‘mdan, kupe shkaf — m² uchun 3 100 000 so‘mdan; o‘lchov bepul, tayyorlash 14–21 kun, o‘rnatish narxga kiradi."
+  },
+  "business": {
+    "legalName": "«Modul Mebel» MChJ",
+    "street": "Qatortol ko‘chasi, 28",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Shkaf aynan tokchaga",
+      "eyebrow": "Buyurtma korpus mebel · Toshkent",
+      "subtitle": "Loyihalaymiz, kesamiz va o‘zimiz yig‘amiz — dahlizdagi tokchadan butun devorli kiyim xonasigacha. Shkafingizni bir daqiqada onlayn hisoblang.",
+      "cta": {
+        "label": "Shkafni hisoblash",
+        "href": "#calc"
+      },
+      "ctaSecondary": {
+        "label": "Ishlarimiz",
+        "href": "#projects"
+      },
+      "image": "",
+      "words": [
+        "o‘lchov",
+        "loyiha",
+        "sex",
+        "o‘rnatish"
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": " kun",
+          "label": "eng qisqa tayyorlash muddati"
+        },
+        {
+          "value": "0",
+          "suffix": " so‘m",
+          "label": "o‘lchov va loyiha"
+        },
+        {
+          "value": "3",
+          "suffix": " yil",
+          "label": "furnituraga kafolat"
+        },
+        {
+          "value": "1",
+          "suffix": " mm",
+          "label": "CNC dastgohida kesish aniqligi"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Kalkulyator",
+      "title": "Shkafni o‘zingiz yig‘ing",
+      "items": [
+        {
+          "name": "Ochiladigan",
+          "price": "2 600 000",
+          "period": "fasad m² uchun so‘m",
+          "features": [
+            "Egger LDSP, Blum yopilish moslamali ilmoqlar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Kupe",
+          "price": "3 100 000",
+          "period": "fasad m² uchun so‘m",
+          "features": [
+            "Alyuminiy profil, shovqinsiz roliklar"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ochiq javon",
+          "price": "1 700 000",
+          "period": "fasad m² uchun so‘m",
+          "features": [
+            "Eshiksiz, 25 mm tokchalar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Tortmalar bloki",
+          "price": "650 000",
+          "period": "blok uchun so‘m",
+          "features": [
+            "To‘liq tortiladigan uchta tortma"
+          ],
+          "featured": false
+        },
+        {
+          "name": "LED yoritish",
+          "price": "480 000",
+          "period": "seksiya uchun so‘m",
+          "features": [
+            "Eshik ochilganda yonadi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oynali eshik",
+          "price": "900 000",
+          "period": "eshik uchun so‘m",
+          "features": [
+            "Xavfsizlik plyonkali 4 mm kumush oyna"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "type": "services",
+      "label": "Nima qilamiz",
+      "title": "Butun uy uchun detallar",
+      "intro": "Har bir buyumni xonangizga moslab loyihalaymiz: tokchalar, quvurlar, shift qiyaliklari — muammo emas.",
+      "items": [
+        {
+          "title": "Kupe shkaflar",
+          "text": "Devordan devorgacha va shiftgacha, oyna yoki xira shisha bilan.",
+          "price": "m² uchun 3 100 000 so‘mdan",
+          "tag": "14–21 kun"
+        },
+        {
+          "title": "Kiyim xonalari",
+          "text": "Ilgichlar, tortmalar va poyabzal tokchalari bilan saqlash tizimlari.",
+          "price": "9 500 000 so‘mdan",
+          "tag": "18–24 kun"
+        },
+        {
+          "title": "Oshxonalar",
+          "text": "Emal yoki shpondagi MDF fasadlar, kvars stol usti.",
+          "price": "pog. m uchun 2 900 000 so‘mdan",
+          "tag": "21–30 kun"
+        },
+        {
+          "title": "Dahlizlar",
+          "text": "Shkaf, o‘tirg‘ich va oyna bitta kompozitsiyada.",
+          "price": "6 200 000 so‘mdan",
+          "tag": "14–18 kun"
+        },
+        {
+          "title": "Bolalar xonalari",
+          "text": "Bola bilan birga o‘sadigan javonlar, cherdak-karavot va stol.",
+          "price": "7 800 000 so‘mdan",
+          "tag": "18–24 kun"
+        },
+        {
+          "title": "TV zonalari va javonlar",
+          "text": "Texnika uchun tumba, tokcha va yashirin kabel kanallari.",
+          "price": "4 300 000 so‘mdan",
+          "tag": "14–18 kun"
+        }
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Egger",
+        "Blum",
+        "Hettich",
+        "CNC kesish",
+        "2 mm qirra",
+        "O‘rnatish narxda"
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Yaqinda yig‘ilgan",
+      "items": [
+        {
+          "title": "Yotoqxonadagi kupe shkaf",
+          "category": "Yunusobod",
+          "year": "3200 × 2700",
+          "text": "To‘rt eshik, ikkitasi oynali, ichida yoritish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kiyim xonasi",
+          "category": "Toshkent Siti",
+          "year": "2400 × 1800",
+          "text": "P shaklidagi tizim, 14 tortma, soatlar uchun orolcha.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Orolli oshxona",
+          "category": "Mirzo Ulug‘bek",
+          "year": "4100 + 1800",
+          "text": "Shalfey rangidagi emal, kvars stol usti.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tokchadagi dahliz",
+          "category": "Chilonzor",
+          "year": "1600 × 2600",
+          "text": "Shkaf, tortmali o‘tirg‘ich, bo‘ychan oyna.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Tayyor shkafgacha besh qadam",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Qulay kuni kelamiz, Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Loyiha",
+          "text": "1–2 kunda 3D vizualizatsiya va smeta."
+        },
+        {
+          "title": "Shartnoma",
+          "text": "Narx va muddatni qayd etamiz, 50% oldindan to‘lov."
+        },
+        {
+          "title": "Sex",
+          "text": "CNC kesish, qirra, korpus yig‘ish."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Bir kunda o‘rnatamiz, chiqindini olib ketamiz, kafolat beramiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Buyurtmachilar aytadi",
+      "items": [
+        {
+          "quote": "Kalkulyator 14 million ko‘rsatdi, shartnomada 14,6 chiqdi — o‘zimiz so‘ragan yoritish sababli.",
+          "author": "Shahzod",
+          "role": "kupe shkaf"
+        },
+        {
+          "quote": "Quvurli tokcha — shkaf birorta tirqishsiz joylashdi.",
+          "author": "Lola",
+          "role": "dahliz"
+        },
+        {
+          "quote": "Kiyim xonasini bir kunda yig‘ishdi va hammasini yig‘ishtirib ketishdi.",
+          "author": "Rustam",
+          "role": "kiyim xonasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Kalkulyator qanchalik aniq?",
+          "a": "Odatda shartnoma bilan farq — 10% gacha: aniq narxni o‘lchovdan keyin aytamiz va shartnomada qayd etamiz."
+        },
+        {
+          "q": "O‘lchov haqiqatan bepulmi?",
+          "a": "Ha, Toshkent bo‘ylab bepul va majburiyatsiz. Viloyatga — 100 000 so‘m, buyurtmadan chegiriladi."
+        },
+        {
+          "q": "Qanday materiallardan yasaysiz?",
+          "a": "E1 sinfidagi Egger LDSP, emaldagi MDF, Blum va Hettich furniturasi."
+        },
+        {
+          "q": "Tayyorlash qancha davom etadi?",
+          "a": "Kupe shkaf uchun 14 kundan emalli oshxona uchun 30 kungacha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Kontaktlar",
+      "title": "O‘lchovchini chaqiring",
+      "text": "Sex va shou-rum — Qatortol, 28. LDSP, fasad va furnitura namunalarini jonli ko‘rish mumkin.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilish",
+        "href": "tel:+998712000113"
+      }
+    }
+  ]
+}

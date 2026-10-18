@@ -1,0 +1,261 @@
+{
+  "name": "Olov Temir",
+  "tagline": "Qo‘lda bolg‘alangan manqal, qozon o‘choqlari va kaminlar",
+  "niche": "Temirxona: manqallar, qozon o‘choqlari, kaminlar va barbekyu zonalari",
+  "seo": {
+    "title": "Olov Temir — Toshkentda bolg‘alangan manqal va qozon o‘choqlari",
+    "description": "Sergelidagi temirxona: 4–6 mm po‘latdan manqallar, qozon o‘choqlari, kaminlar va kalit topshiriladigan barbekyu zonalari. Qo‘lda bolg‘alash, issiqqa chidamli bo‘yoq, 3 yil kafolat.",
+    "keywords": [
+      "buyurtma manqal Toshkent",
+      "qozon o‘chog‘i",
+      "bolg‘alangan kamin",
+      "barbekyu zonasi"
+    ],
+    "answer": "Olov Temir — Sergelidagi temirxona: qo‘lda bolg‘alangan manqallar 2 800 000 so‘mdan, 12–22 litrli qozon o‘choqlari 3 500 000 so‘mdan, bolg‘alangan kaminlar 9 000 000 so‘mdan, kalit topshiriladigan barbekyu zonalari 24 000 000 so‘mdan. 4–6 mm po‘lat, 800 °C gacha chidamli bo‘yoq, 3 yil kafolat. Telefon +998 71 200-04-03."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Temirxona va manqal ustaxonasi uchun sayt: birinchi ekranda jonli olov, narxli buyumlar katalogi, usta va brigada, ishlar galereyasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Olov Temir» YaTT",
+    "street": "Yangi Sergeli ko‘chasi, 27, Sergeli",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Olov qalin metallni yaxshi ko‘radi",
+      "eyebrow": "Olov Temir · temirxona · Sergeli",
+      "subtitle": "4–6 mm po‘latdan manqal, qozon o‘choqlari va kaminlar yasaymiz. Bunday metall issiqdan qiyshaymaydi va u turgan dachadan ham uzoq xizmat qiladi.",
+      "words": [],
+      "cta": {
+        "label": "Manqal buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Katalog",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Po‘lat 4–6 mm",
+        "Qo‘lda bolg‘alash",
+        "800 °C gacha bo‘yoq",
+        "Qozon o‘choqlari",
+        "Barbekyu zonalari"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Temirxona",
+      "title": "Har bir buyum o‘choqdan o‘tadi",
+      "text": "Mahalladagi qo‘shnilar uchun manqallardan boshlagandik, endi oyiga qirqta buyum yasaymiz. Oyoqlar, tutqichlar va panjaralarni sandonda qo‘lda bolg‘alaymiz, korpusni yaxlit chok bilan payvandlaymiz — tutun yondan chiqmaydi, cho‘g‘ esa oxirgi sixgacha issiqlikni ushlab turadi.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Nimalarni yasaymiz",
+      "intro": "Narxlar — standart o‘lchamlar uchun. Istalgan buyumni hovlingiz, qozoningiz yoki tokchangizga moslaymiz.",
+      "items": [
+        {
+          "title": "10 sixli manqal",
+          "text": "4 mm po‘lat, bolg‘alangan oyoqlar, o‘tin javoni, yomg‘ir qopqog‘i.",
+          "price": "2 800 000 so‘mdan",
+          "tag": "7 kun"
+        },
+        {
+          "title": "Qozon o‘chog‘i",
+          "text": "12, 16 yoki 22 litrli qozon uchun, puflagichli eshikcha, mo‘ri.",
+          "price": "3 500 000 so‘mdan",
+          "tag": "10 kun"
+        },
+        {
+          "title": "Tomli manqal",
+          "text": "Profnastildan soyabon, stol usti, asboblar uchun ilgaklar.",
+          "price": "7 400 000 so‘mdan",
+          "tag": "2 hafta"
+        },
+        {
+          "title": "Bolg‘alangan kamin",
+          "text": "6 mm po‘latdan o‘choq, bolg‘alangan ekran va o‘tindon.",
+          "price": "9 000 000 so‘mdan",
+          "tag": "3 hafta"
+        },
+        {
+          "title": "Kalit topshiriladigan barbekyu zonasi",
+          "text": "Manqal, qozon o‘chog‘i, yuvgich va ish stoli bitta modulda.",
+          "price": "24 000 000 so‘mdan",
+          "tag": "4 hafta"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Temirxonadan",
+      "items": [
+        {
+          "caption": "Uzum novdali manqal",
+          "image": ""
+        },
+        {
+          "caption": "22 litrli qozon o‘chog‘i",
+          "image": ""
+        },
+        {
+          "caption": "Qibraydagi barbekyu zonasi",
+          "image": ""
+        },
+        {
+          "caption": "Bolg‘alangan ekranli kamin",
+          "image": ""
+        },
+        {
+          "caption": "Sandonda oyoqlarni bolg‘alash",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Usta",
+      "title": "O‘zi kabob pishiradiganlar bolg‘alaydi",
+      "items": [
+        {
+          "name": "Rustam Ahmedov",
+          "role": "temirchi va asoschi",
+          "image": ""
+        },
+        {
+          "name": "Jamshid Karimov",
+          "role": "payvandchi",
+          "image": ""
+        },
+        {
+          "name": "Otabek Yo‘ldoshev",
+          "role": "o‘rnatish va bo‘yash",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Qanday buyurtma qilinadi",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Dacha egalari aytadi",
+      "items": [
+        {
+          "quote": "22 litrli qozon o‘chog‘i uchinchi yil turibdi: bo‘yoq ushlab turibdi, eshikcha qiyshaymagan.",
+          "author": "Shuhrat",
+          "role": "Bo‘stonliqdagi dacha"
+        },
+        {
+          "quote": "Hovlimizga moslab yuvgichli barbekyu zonasi yasashdi. Bir kunda olib kelib o‘rnatishdi.",
+          "author": "Dilnoza",
+          "role": "xususiy uy, Qibray"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Nega 2 mm emas, 4–6 mm po‘lat?",
+          "a": "Yupqa metall ikki-uch mavsumda kuyib ketadi va issiqdan qiyshayadi. Qalin metall shaklni va issiqlikni ushlaydi — cho‘g‘ tekisroq yonadi."
+        },
+        {
+          "q": "Mening qozonimga mumkinmi?",
+          "a": "Ha. Qozonni olib keling yoki diametrini ayting — halqani aynan unga moslab yasaymiz."
+        },
+        {
+          "q": "Bo‘yoq qancha xizmat qiladi?",
+          "a": "Issiqqa chidamli bo‘yoq 800 °C gacha bardosh beradi. 3–4 yildan so‘ng uni ballonchik bilan yangilash kifoya — buyum bilan birga sotamiz."
+        },
+        {
+          "q": "Shahar tashqarisiga yetkazasizmi?",
+          "a": "Toshkent bo‘ylab yetkazish bepul, viloyatga — hisob bo‘yicha. Og‘ir o‘choqlarni o‘zimiz olib kirib o‘rnatamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Temirxonaga keling",
+      "text": "Sergeli, Yangi Sergeli ko‘chasi, 27. Du–Sha 8:00–18:00 — tayyor manqallar va o‘choqni ko‘rsatamiz.",
+      "cta": {
+        "label": "Temirchiga qo‘ng‘iroq",
+        "href": "tel:+998712000403"
+      }
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Xrom Steel",
+  "tagline": "Stainless steel and glass railings",
+  "niche": "Stainless steel railings, balustrades and structures",
+  "seo": {
+    "title": "Xrom Steel — stainless steel and glass railings in Tashkent",
+    "description": "Handrails, stair and balcony balustrades, glass railings on stainless posts. Own workshop, mirror polish, one-day installation and a 5-year warranty.",
+    "keywords": [
+      "stainless railings Tashkent",
+      "glass balustrades",
+      "stair railings",
+      "stainless handrails"
+    ],
+    "answer": "Xrom Steel is a workshop in Mirobod making railings and balustrades from AISI 304 stainless steel and glass: stair railings from 650,000 UZS per metre, glass balustrades from 1,450,000 UZS per metre. Free measurement, one-day installation, 5-year warranty. Phone +998 71 200-04-01."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a metal fabrication shop making railings and balustrades: chrome shine on the first screen, specs, a catalogue of projects, packages and stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Xrom Steel LLC",
+    "street": "41 Mirobod St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metal that reflects your home",
+      "eyebrow": "Stainless steel · Tashkent · since 2016",
+      "subtitle": "Railings, balustrades and handrails in AISI 304 stainless steel and toughened glass. Own workshop, mirror polish, installed in a single day.",
+      "words": [
+        "304|steel grade",
+        "10 mm|toughened glass",
+        "5 yrs|warranty",
+        "1 day|install"
+      ],
+      "cta": {
+        "label": "Book a measurement",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "What we make",
+      "items": [
+        "Railings",
+        "Glass balustrades",
+        "Handrails",
+        "Balconies",
+        "Canopies",
+        "Polishing"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "We make what people touch every day",
+      "text": "A handrail is the only part of an interior people hold in their hand. So we grind welds until they disappear, round off the ends, fit end caps and fix the posts with chemical anchors. We work with private houses, apartment complexes and restaurants in Mirobod and across Tashkent.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "Prices per metre",
+      "intro": "We give the exact price after measuring: it depends on height, number of turns and fixing type.",
+      "items": [
+        {
+          "title": "Stair railing",
+          "text": "Posts and a Ø50 mm handrail with rails or cables. Satin or mirror finish.",
+          "price": "from 650,000 UZS per m",
+          "tag": "5–7 days"
+        },
+        {
+          "title": "Glass balustrade",
+          "text": "10 mm toughened glass on point fixings or in a channel.",
+          "price": "from 1,450,000 UZS per m",
+          "tag": "7–10 days"
+        },
+        {
+          "title": "Balcony balustrade",
+          "text": "Stainless steel with glass, perforated sheet or bar infill.",
+          "price": "from 900,000 UZS per m",
+          "tag": "7 days"
+        },
+        {
+          "title": "Wall handrail",
+          "text": "For narrow stairs and entrances, with brackets every 80 cm.",
+          "price": "from 280,000 UZS per m",
+          "tag": "3 days"
+        },
+        {
+          "title": "Entrance canopy",
+          "text": "A stainless frame with laminated glass to keep the rain off.",
+          "price": "from 4,800,000 UZS",
+          "tag": "10 days"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Made in our workshop",
+      "items": [
+        {
+          "title": "House in Mirobod",
+          "category": "Staircase, 3 floors",
+          "year": "6 days",
+          "text": "Glass on point fixings and a mirror-polished handrail running the full height.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Residence on Shota Rustaveli",
+          "category": "Balconies, 48 units",
+          "year": "3 weeks",
+          "text": "Perforated-sheet balustrades, identical on every floor of the facade.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restaurant in Tashkent City",
+          "category": "Mezzanine",
+          "year": "8 days",
+          "text": "Satin stainless steel with brass inserts to match the dining room.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Clinic in Yunusabad",
+          "category": "Handrails, 120 m",
+          "year": "5 days",
+          "text": "Two-level handrails along the corridors for patients.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "Specifications",
+      "items": [
+        {
+          "value": "1400",
+          "suffix": "+",
+          "label": "metres of railing a year"
+        },
+        {
+          "value": "304",
+          "suffix": "",
+          "label": "stainless steel grade"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "warranty on welds and fixings"
+        },
+        {
+          "value": "1",
+          "suffix": " day",
+          "label": "to install in a flat or house"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "From measurement to installation",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "packages",
+      "type": "pricing",
+      "label": "Packages",
+      "title": "Typical orders",
+      "items": [
+        {
+          "name": "Apartment",
+          "price": "from 3,900,000 UZS",
+          "period": "stairs up to 6 m",
+          "features": [
+            "304 posts and handrail",
+            "Rails or cables",
+            "One-day install"
+          ],
+          "featured": false
+        },
+        {
+          "name": "House",
+          "price": "from 12,500,000 UZS",
+          "period": "2–3 floor staircase",
+          "features": [
+            "10 mm glass",
+            "Mirror polish",
+            "3D sketch",
+            "5-year warranty"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Commercial",
+          "price": "on quote",
+          "period": "residences, offices, restaurants",
+          "features": [
+            "Drawings and estimate",
+            "Floor-by-floor schedule",
+            "Handover documents"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Will stainless steel rust outdoors?",
+          "a": "For outdoors we use AISI 304 and passivate the welds. You will not get rust spots; wiping it once a year with a stainless cleaner is enough."
+        },
+        {
+          "q": "How much is the measurement?",
+          "a": "Free within Tashkent. In the region we charge travel, which is then deducted from the order."
+        },
+        {
+          "q": "What glass do you use?",
+          "a": "Toughened 10 mm or 8+8 laminated. If broken, toughened glass crumbles into blunt pieces."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "50% upfront once the sketch is agreed, the rest after installation. Cash, card or bank transfer."
+        },
+        {
+          "q": "What does the warranty cover?",
+          "a": "Welds, fixings and geometry for 5 years. If a post works loose, we come and re-fix it free of charge."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "We can send a surveyor tomorrow",
+      "text": "41 Mirobod St, Mirobod. Mon–Fri 9:00–19:00, Sat until 16:00.",
+      "cta": {
+        "label": "Call us",
+        "href": "tel:+998712000401"
+      }
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "name": "Metallform",
+  "tagline": "Minimalist metal furniture and structures",
+  "niche": "Metal furniture and modern steel structures",
+  "seo": {
+    "title": "Metallform — metal furniture and structures, Tashkent",
+    "description": "Tables, shelving, stringer stairs and partitions in raw and painted steel, made to our drawings or a designer’s brief. Yakkasaray, Tashkent.",
+    "keywords": [
+      "metal furniture Tashkent",
+      "stringer staircase",
+      "steel shelving",
+      "steel partitions"
+    ],
+    "answer": "Metallform is a workshop in Yakkasaray making minimalist steel furniture and structures: tables from 3,200,000 UZS, shelving from 2,600,000 UZS, single-stringer stairs from 18,000,000 UZS. Lead time 2–4 weeks, 3-year warranty, phone +998 71 200-04-02."
+  },
+  "nav": {
+    "cta": {
+      "label": "Discuss",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a metal furniture and fabrication studio: a strict grid, big type, projects with specs and work stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Metallform LLC",
+    "street": "112 Shota Rustaveli St, Yakkasaray",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Steel, nothing extra",
+      "eyebrow": "Studio · Yakkasaray · Tashkent",
+      "subtitle": "Tables, shelving, stairs and partitions in raw and painted steel. Slim profiles, exact angles, not a single visible weld.",
+      "words": [
+        "Tables",
+        "Shelving",
+        "Stairs",
+        "Partitions"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studio",
+      "title": "We make things that outlast the renovation",
+      "text": "There are six of us: a designer, three welders and two painters. Every piece is drawn to scale first, then built from 20×20 tube or 3 mm sheet. We work with interior designers and directly with owners of flats, cafés and offices.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Recent work",
+      "items": [
+        {
+          "title": "Single-stringer staircase",
+          "category": "Townhouse, Mirzo Ulugbek",
+          "year": "March 2026",
+          "text": "A 10 mm plate stringer with oak treads and no posts — it hangs off the wall.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Floor-to-ceiling shelving",
+          "category": "Apartment, Yakkasaray",
+          "year": "January 2026",
+          "text": "A 20×20 frame in matt black, 42 shelves and built-in lighting.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Wired-glass partition",
+          "category": "Office, Tashkent City",
+          "year": "November 2025",
+          "text": "14 metres of loft-style partitions with doors on concealed hinges.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Café furniture",
+          "category": "Café, Chilanzar",
+          "year": "September 2025",
+          "text": "A bar counter, 12 tables and high stools in terracotta.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "What we make",
+      "title": "Prices from",
+      "intro": "Final price comes from the drawing: metal, finishing and installation are itemised separately.",
+      "items": [
+        {
+          "title": "Dining table",
+          "text": "A steel base with a solid wood or ceramic top.",
+          "price": "from 3,200,000 UZS",
+          "tag": "2 weeks"
+        },
+        {
+          "title": "Shelving",
+          "text": "Open or backed, any height.",
+          "price": "from 2,600,000 UZS",
+          "tag": "2 weeks"
+        },
+        {
+          "title": "Stringer staircase",
+          "text": "One or two stringers, timber or steel treads.",
+          "price": "from 18,000,000 UZS",
+          "tag": "3–4 weeks"
+        },
+        {
+          "title": "Partition",
+          "text": "Glass in a steel frame, with or without a door.",
+          "price": "from 1,900,000 UZS per m²",
+          "tag": "3 weeks"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "people in the workshop"
+        },
+        {
+          "value": "240",
+          "suffix": "+",
+          "label": "pieces made"
+        },
+        {
+          "value": "3",
+          "suffix": " yrs",
+          "label": "warranty on welds"
+        },
+        {
+          "value": "2",
+          "suffix": " wks",
+          "label": "typical lead time"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "They built the shelving exactly to the alcove, to the centimetre, and sent the drawing before we paid anything.",
+          "author": "Nigora",
+          "role": "apartment in Yakkasaray"
+        },
+        {
+          "quote": "They did the café furniture turnkey — counter, tables, stools — and finished in three weeks, in time for opening.",
+          "author": "Bakhtiyor",
+          "role": "café owner"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can you work from a designer’s sketch?",
+          "a": "Yes. We turn the sketch into a working drawing, agree the joints and only then start cutting."
+        },
+        {
+          "q": "What finishes are available?",
+          "a": "Any RAL colour in matt or textured finish, or raw black steel under wax."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "Furniture takes 2 weeks, stairs 3–4 weeks from drawing approval."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Delivery and assembly in Tashkent are included. Outside the city we quote separately."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us measurements or a photo of the space",
+      "text": "112 Shota Rustaveli St, Yakkasaray. Mon–Fri 10:00–19:00, Sat 11:00–17:00.",
+      "cta": {
+        "label": "Call us",
+        "href": "tel:+998712000402"
+      }
+    }
+  ]
+}

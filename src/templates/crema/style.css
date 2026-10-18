@@ -1,1 +1,143 @@
-/* заготовка */
+/* КРЕМА — белый куб, чёрный текст, один бежевый. Чашка сверху, талоны меню. */
+
+.tpl-crema {
+  --pad: clamp(18px, 4vw, 72px);
+  --crema-k: color-mix(in srgb, var(--fg) 55%, transparent);
+  font-size: clamp(14.5px, .98vw, 16.5px);
+  letter-spacing: .01em;
+}
+.tpl-crema .s { padding-block: clamp(90px, 12vw, 190px); }
+.tpl-crema .s__label { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--fg); }
+.tpl-crema .s__title { font-weight: 400; font-size: clamp(28px, 3.6vw, 56px); letter-spacing: .02em; text-transform: uppercase; line-height: 1.12; }
+.tpl-crema .s__intro { color: var(--crema-k); }
+
+.crema-in { animation: cremaIn 1.4s var(--ease) both; animation-delay: var(--d, 0s); }
+@keyframes cremaIn { from { opacity: 0; } }
+
+.crema-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 0 30px; background: var(--fg); color: var(--bg); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; transition: background .3s, color .3s; }
+.crema-btn:hover { background: var(--accent); color: var(--fg); }
+.crema-btn--line { background: none; color: var(--fg); box-shadow: inset 0 0 0 1px var(--fg); }
+.crema-btn--line:hover { background: var(--fg); color: var(--bg); }
+.tpl-crema .btn { border-radius: 0; text-transform: uppercase; letter-spacing: .18em; font-size: 12px; }
+
+/* шапка */
+.crema-header { position: fixed; inset: 0 0 auto; z-index: 50; display: flex; align-items: center; justify-content: space-between; padding: 22px var(--pad); background: color-mix(in srgb, var(--bg) 92%, transparent); }
+.crema-logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 600; letter-spacing: .08em; font-size: 15px; }
+.crema-mark { width: 22px; height: 22px; flex: none; }
+.crema-nav { display: flex; align-items: center; gap: 34px; font-size: 11.5px; letter-spacing: .2em; text-transform: uppercase; }
+.crema-nav sup { font-size: 9px; margin-right: 4px; color: var(--crema-k); letter-spacing: 0; }
+.crema-nav a:hover { color: var(--accent); }
+.crema-nav__cta { padding: 10px 16px; box-shadow: inset 0 0 0 1px var(--fg); }
+.crema-nav__cta:hover { background: var(--fg); color: var(--bg) !important; }
+.tpl-crema .mmenu__btn { color: var(--fg); }
+.tpl-crema .mmenu__panel a { text-transform: uppercase; letter-spacing: .06em; font-size: clamp(26px, 7vw, 40px); }
+.tpl-crema .mmenu__panel .mmenu__cta { border-radius: 0; letter-spacing: .2em; font-size: 12px; }
+.crema-side { position: fixed; z-index: 40; left: calc(var(--pad) * .35); top: 50%; translate: 0 -50%; writing-mode: vertical-rl; rotate: 180deg; font-size: 10px; letter-spacing: .32em; text-transform: uppercase; color: var(--crema-k); pointer-events: none; }
+
+/* первый экран: чашка сверху и подпись под ней */
+.crema-hero { min-height: 100svh; display: grid; place-items: center; align-content: center; gap: clamp(30px, 4vw, 54px); padding: 120px var(--pad) 80px; text-align: center; }
+.crema-hero__cup { width: min(52vh, 74vw, 470px); }
+.crema-cup { width: 100%; display: block; overflow: visible; }
+.crema-cup__saucer { fill: color-mix(in srgb, var(--fg) 3%, var(--bg)); }
+.crema-cup__line { fill: none; stroke: color-mix(in srgb, var(--fg) 14%, transparent); }
+.crema-cup__rim { fill: var(--bg); stroke: var(--fg); stroke-width: 1.2; }
+.crema-cup__coffee { fill: color-mix(in srgb, var(--accent) 70%, #6b4226); }
+.crema-cup__line--in { stroke: color-mix(in srgb, #fff 40%, transparent); }
+.crema-cup__handle { fill: none; stroke: var(--fg); stroke-width: 1.2; }
+.crema-cup__art { transform-origin: 0 0; animation: cremaTurn 60s linear infinite; }
+.crema-cup__draw { fill: none; stroke: #f8efe3; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: cremaDraw 1.2s var(--ease) forwards; animation-delay: calc(.6s + var(--i) * .14s); }
+.crema-cup__draw:last-child { fill: #f8efe3; stroke-width: 2; }
+@keyframes cremaDraw { to { stroke-dashoffset: 0; } }
+@keyframes cremaTurn { to { transform: rotate(360deg); } }
+.reduce-motion .crema-cup__art { animation: none; }
+.reduce-motion .crema-cup__draw { animation: none; stroke-dashoffset: 0; }
+.crema-hero__eyebrow { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--crema-k); }
+.crema-hero__title { font-family: var(--font-display); font-weight: 500; font-size: clamp(40px, 6.4vw, 104px); letter-spacing: .14em; text-transform: uppercase; line-height: 1; margin: 18px 0; }
+.crema-hero__sub { max-width: 46ch; margin-inline: auto; color: var(--crema-k); line-height: 1.75; }
+.crema-hero__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 30px; }
+
+.crema-band { padding-block: 0 !important; border-block: 1px solid var(--fg); }
+.crema-band .marquee { padding: 16px 0; font-size: 12px; letter-spacing: .3em; text-transform: uppercase; }
+
+/* о кофейне */
+.crema-about__grid { display: grid; grid-template-columns: 180px 1.2fr .8fr; gap: clamp(24px, 4vw, 70px); align-items: start; }
+.crema-about__grid > * { min-width: 0; }
+.crema-about__title { font-family: var(--font-display); font-weight: 400; font-size: clamp(26px, 3vw, 46px); letter-spacing: .03em; line-height: 1.25; text-transform: uppercase; }
+.crema-about__text { margin-top: 28px; color: var(--crema-k); line-height: 1.85; max-width: 56ch; }
+.crema-about__media { aspect-ratio: 1; overflow: hidden; background: var(--surface); }
+.crema-about__media .media { width: 100%; height: 100%; display: block; }
+
+/* меню-талоны */
+.crema-menu__group + .crema-menu__group { margin-top: clamp(40px, 6vw, 80px); }
+.crema-menu__gname { font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--crema-k); margin-bottom: 16px; }
+.crema-menu { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); border-top: 1px solid var(--fg); border-left: 1px solid var(--fg); }
+.crema-ticket { position: relative; aspect-ratio: 1; background: var(--bg); padding: 20px; border-right: 1px solid var(--fg); border-bottom: 1px solid var(--fg); display: grid; grid-template-rows: auto 1fr auto auto; gap: 6px; transition: background .4s var(--ease), color .4s var(--ease); }
+.crema-ticket:hover { background: var(--fg); color: var(--bg); }
+.crema-ticket__no { font-size: 11px; letter-spacing: .14em; color: var(--accent); }
+.crema-ticket__name { align-self: end; font-family: var(--font-display); font-size: 19px; text-transform: uppercase; letter-spacing: .06em; line-height: 1.2; }
+.crema-ticket__text { font-size: 12.5px; color: var(--crema-k); line-height: 1.5; }
+.crema-ticket:hover .crema-ticket__text { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.crema-ticket__price { font-size: 13px; letter-spacing: .08em; padding-top: 10px; border-top: 1px solid currentColor; font-variant-numeric: tabular-nums; }
+.crema-menu__note { margin-top: 22px; font-size: 12px; letter-spacing: .08em; color: var(--crema-k); }
+
+/* галерея: квадраты, ч/б до наведения */
+.crema-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.crema-gallery__item { position: relative; aspect-ratio: 1; overflow: hidden; background: var(--surface); }
+.crema-gallery__item .media { width: 100%; height: 100%; display: block; filter: grayscale(1); transition: filter .8s var(--ease), transform 1.2s var(--ease); }
+.crema-gallery__item:hover .media { filter: none; transform: scale(1.04); }
+.crema-gallery__item figcaption { position: absolute; left: 14px; bottom: 12px; font-size: 10px; letter-spacing: .24em; text-transform: uppercase; background: var(--bg); padding: 6px 8px; }
+
+/* контакт: круглая кнопка */
+.crema-contact__grid { display: grid; grid-template-columns: 1fr auto; gap: clamp(30px, 6vw, 100px); align-items: center; }
+.crema-contact__grid > * { min-width: 0; }
+.crema-contact__text { color: var(--crema-k); max-width: 50ch; line-height: 1.8; }
+.crema-contact__facts { display: grid; gap: 14px; margin: 30px 0 0; }
+.crema-contact__facts dt { font-size: 10.5px; letter-spacing: .26em; text-transform: uppercase; color: var(--crema-k); }
+.crema-contact__facts dd { margin: 4px 0 0; }
+.crema-round { width: clamp(180px, 22vw, 300px); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; text-align: center; background: var(--fg); color: var(--bg); font-size: 12px; letter-spacing: .26em; text-transform: uppercase; padding: 26px; transition: background .4s, color .4s; }
+.crema-round:hover { background: var(--accent); color: var(--fg); }
+
+/* базовые секции */
+.tpl-crema .s-faq__item { border-top: 1px solid var(--fg); padding: 22px 0; }
+.tpl-crema .s-faq__q { text-transform: uppercase; letter-spacing: .08em; font-size: .95em; }
+.tpl-crema .s-faq__a { color: var(--crema-k); margin-top: 10px; line-height: 1.8; max-width: 70ch; }
+.tpl-crema .s-stats__value { font-family: var(--font-display); font-weight: 400; letter-spacing: .02em; }
+.tpl-crema .s-stats__label, .tpl-crema .s-process__num { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--crema-k); }
+.tpl-crema .s-testimonials__item { border-top: 1px solid var(--fg); padding-top: 22px; }
+.tpl-crema .s-testimonials__quote { line-height: 1.8; }
+.tpl-crema .s-answer__text { font-size: 13px; letter-spacing: .04em; line-height: 1.9; color: var(--crema-k); max-width: 74ch; }
+
+/* подвал */
+.crema-footer { border-top: 1px solid var(--fg); padding: clamp(50px, 7vw, 90px) var(--pad) 26px; font-size: 13px; }
+.crema-footer__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; max-width: var(--max); margin: 0 auto; }
+.crema-footer__brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); letter-spacing: .1em; font-size: 16px; }
+.crema-footer__brand .crema-mark { width: 30px; height: 30px; }
+.crema-footer__k { font-size: 10px; letter-spacing: .28em; text-transform: uppercase; color: var(--crema-k); margin-bottom: 8px; }
+.crema-footer__grid a:hover { color: var(--accent); }
+.crema-footer__bottom { max-width: var(--max); margin: 60px auto 0; display: flex; justify-content: space-between; gap: 16px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--crema-k); flex-wrap: wrap; }
+
+@media (max-width: 960px) {
+  .crema-nav { display: none; }
+  .crema-side { display: none; }
+  .crema-about__grid { grid-template-columns: 1fr; }
+  .crema-gallery { grid-template-columns: repeat(2, 1fr); }
+  .crema-contact__grid { grid-template-columns: 1fr; justify-items: start; }
+  .crema-footer__grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .crema-hero__title { letter-spacing: .08em; font-size: clamp(34px, 11vw, 56px); }
+  .crema-menu { grid-template-columns: 1fr 1fr; }
+  .crema-ticket { padding: 14px; }
+  .crema-ticket__name { font-size: 15px; }
+  .crema-ticket__text { display: none; }
+  .crema-footer__grid { grid-template-columns: 1fr; }
+}
+
+/* отзывы, цифры — базовая разметка */
+.tpl-crema .s-testimonials__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+.tpl-crema .s-testimonials__who { margin-top: 16px; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--crema-k); }
+.tpl-crema .s-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); border-top: 1px solid var(--fg); border-left: 1px solid var(--fg); margin: 0; }
+.tpl-crema .s-stats__item { padding: 26px; border-right: 1px solid var(--fg); border-bottom: 1px solid var(--fg); }
+.tpl-crema .s-stats__suffix { font-size: .4em; margin-left: 8px; letter-spacing: .1em; }
+.tpl-crema .s-stats__value { margin: 10px 0 0; }
+.tpl-crema .s-stats__value { font-size: clamp(40px, 5vw, 76px); line-height: 1; }

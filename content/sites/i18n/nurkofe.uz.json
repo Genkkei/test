@@ -1,0 +1,227 @@
+{
+  "name": "Nur Coffee & Work",
+  "tagline": "Panorama derazali yorug‘ qahvaxona-kovorking: qahva, har stolda rozetka va sokin zal",
+  "niche": "Qahvaxona-kovorking",
+  "nav": {
+    "cta": {
+      "label": "Joy band qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Qahvaxona-kovorking, o‘quv markazi yoki studiya uchun sayt: yorug‘, toza, narxli xizmatlar, jamoa va bosqichlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Nur — Toshkentda panorama derazali qahvaxona-kovorking",
+    "description": "Qahva va ish joyi birda: har stolda rozetka, tez Wi-Fi, sokin zal va muzokara xonasi. Qahva bilan kunlik ruxsatnoma — 90 000 so‘m. Mustaqillik, 59.",
+    "keywords": [
+      "Toshkent ishlash uchun qahvaxona",
+      "qahvali kovorking",
+      "rozetkali qahvaxona",
+      "kunlik kovorking",
+      "soatbay muzokara xonasi"
+    ],
+    "answer": "Nur — Mustaqillik ko‘chasi, 59, 3-qavatdagi qahvaxona-kovorking, ish kunlari 8:00 dan 22:00 gacha va dam olish kunlari 9:00 dan ochiq. Kapuchino — 30 000 so‘m, ikki ichimlikli kunlik ruxsatnoma — 90 000 so‘m, 6 kishilik muzokara xonasi — soatiga 120 000 so‘m. Har stolda rozetka, Wi-Fi 300 Mbit/s."
+  },
+  "business": {
+    "legalName": "«Nur Kofe» MChJ",
+    "street": "Mustaqillik ko‘chasi, 59, 3-qavat, Mirzo Ulug‘bek",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Mirzo Ulug‘bek",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Yorug‘lik va rozetkali qahva",
+      "eyebrow": "Qahvaxona-kovorking · Mustaqillik, 59",
+      "subtitle": "Uchinchi qavat, poldan shiftgacha derazalar va qirq o‘rin: har stolda rozetka, sokin zalda qo‘ng‘iroq qilish mumkin emas. Qahvani stolga olib kelishadi.",
+      "words": [],
+      "cta": {
+        "label": "Joy band qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Ishlash qulay qahvaxona",
+      "text": "Yaxshi qahva va oddiy ish stoli o‘rtasida tanlash shart bo‘lmagan joy yaratdik. Qahva mashinasi shovqinini yoqtiradiganlar uchun umumiy zal, kutubxona qoidalari bilan sokin zal va oynavand muzokara xonasi. Baristalar Toshkent qovuruvchilarining donidan tayyorlaydi.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Narxlar",
+      "title": "Qahva va o‘rinlar",
+      "intro": "",
+      "items": [
+        {
+          "title": "Kapuchino",
+          "text": "Va espresso-bardagi barcha qahva.",
+          "price": "30 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Kunlik ruxsatnoma",
+          "text": "Yopilguncha o‘rin va istalgan ikki ichimlik.",
+          "price": "90 000 so‘m",
+          "tag": "ommabop"
+        },
+        {
+          "title": "Oylik abonement",
+          "text": "Sokin zalda doimiy stol va har kuni qahva.",
+          "price": "1 290 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Muzokara xonasi",
+          "text": "6 kishigacha, ekran va doska.",
+          "price": "120 000 so‘m / soat",
+          "tag": "bron bilan"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "ikki zaldagi o‘rinlar"
+        },
+        {
+          "value": "300",
+          "suffix": " Mbit/s",
+          "label": "Wi-Fi"
+        },
+        {
+          "value": "1",
+          "suffix": "",
+          "label": "har stolda rozetka"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Baristalar",
+      "title": "Qahvani kim tayyorlaydi",
+      "items": [
+        {
+          "name": "Islom",
+          "role": "Katta barista",
+          "image": ""
+        },
+        {
+          "name": "Mohira",
+          "role": "Barista, latte-art",
+          "image": ""
+        },
+        {
+          "name": "Daniel",
+          "role": "Zal ma’muri",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday kelish",
+      "title": "Bir daqiqada joy",
+      "items": [
+        {
+          "title": "Band qiling",
+          "text": "Saytdagi tugma orqali yoki shunchaki keling — ish kunlari 10:00 gacha joy doim bor."
+        },
+        {
+          "title": "Zalni tanlang",
+          "text": "Umumiy — suhbat uchun, sokin — diqqat uchun."
+        },
+        {
+          "title": "Ishlang",
+          "text": "Qahvani stolga olib kelishadi, to‘lov ketishda."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Frilanserlar nima deydi",
+      "items": [
+        {
+          "quote": "Nihoyat rozetka qidirish shart bo‘lmagan qahvaxona. Bu yerda haftada uch kun ishlayman.",
+          "author": "Laziz T.",
+          "role": "dizayner"
+        },
+        {
+          "quote": "Muzokara xonasida mijoz bilan uchrashuv o‘tkazdik — ekran, doska va hammaga kapuchino.",
+          "author": "Gulnora Sh.",
+          "role": "marketolog"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kelishdan oldin",
+      "items": [
+        {
+          "q": "Ruxsatnomasiz noutbuk bilan o‘tirsa bo‘ladimi?",
+          "a": "Ha, umumiy zalda — istalgan buyurtma bilan, ikki soatgacha. Uzoqroq — kunlik ruxsatnoma."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, biznes-markazning yer osti avtoturargohi, birinchi ikki soat bepul."
+        },
+        {
+          "q": "Qo‘ng‘iroq qilsa bo‘ladimi?",
+          "a": "Umumiy zalda — quloqchinda, sokin zalda — yo‘q. Qo‘ng‘iroqlar uchun ikkita kabina bor."
+        },
+        {
+          "q": "Ovqat bormi?",
+          "a": "Kun bo‘yi sendvich, salat va pishiriqlar."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Manzil",
+      "title": "Ishlagani keling",
+      "text": "Mustaqillik ko‘chasi, 59, 3-qavat. Ish kunlari 8:00–22:00, dam olish kunlari 9:00–22:00.",
+      "cta": {
+        "label": "Joy band qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

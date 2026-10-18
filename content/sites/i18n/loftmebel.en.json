@@ -1,0 +1,309 @@
+{
+  "name": "Loft Factory",
+  "tagline": "Steel and solid-wood furniture for homes, cafés and offices",
+  "niche": "Loft-style furniture: tables, chairs, shelving, furniture for cafés and offices",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a loft-style furniture maker, a metalwork shop or a café furniture store. A dark workshop look, a table blueprint that draws itself on the first screen, a catalogue of steel plates and a welding seam for the work stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Loft Factory — loft-style furniture in Tashkent",
+    "description": "Made-to-order tables, chairs, shelving and bar counters in steel and solid oak. Our own workshop in Sergeli, made in 14 days or more, delivery and assembly across Tashkent.",
+    "keywords": [
+      "loft furniture Tashkent",
+      "custom loft table",
+      "café furniture",
+      "bar stools",
+      "metal and wood shelving",
+      "metal and wood furniture"
+    ],
+    "answer": "Loft Factory is a loft-style furniture workshop at 22 Yangi Sergeli St in Tashkent. We weld steel frames and make tops from solid oak and elm: a dining table from 6,900,000 UZS, a bar stool from 1,150,000 UZS, shelving from 3,400,000 UZS. Made in 14 days or more, 2-year warranty, delivery and assembly across Tashkent. Open Mon–Sat, 9:00–19:00."
+  },
+  "business": {
+    "legalName": "Loft Factory LLC",
+    "street": "22 Yangi Sergeli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and the region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Furniture of steel and wood",
+      "eyebrow": "Workshop · Tashkent · welding & solid wood",
+      "subtitle": "Loft-style tables, chairs, shelving and bar counters for homes, cafés and offices. We weld the frames ourselves and make tops from solid oak and elm. Made in 14 days or more.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Catalogue",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "Steel 40×40 mm",
+        "Solid oak and elm",
+        "From 14 days",
+        "2-year warranty"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Tables",
+        "Chairs",
+        "Shelving",
+        "Bar counters",
+        "Café furniture",
+        "Offices",
+        "Powder coating",
+        "Solid wood"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The workshop",
+      "title": "Here furniture is welded, not assembled from a box",
+      "text": "We run our own workshop in Sergeli: welding bays, a paint booth and a joinery section. The frame, made of 40×40 mm box section, is fully welded and powder-coated, and the top is 40 mm solid oak or elm finished with oil. That is why a table does not wobble a year later and a chair survives a café from morning to night.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "From a stool to a bar counter",
+      "intro": "Prices are for the base size with black textured paint. A different size, frame colour or wood — we will quote within a day.",
+      "items": [
+        {
+          "title": "“Industrial” dining table",
+          "text": "1800 × 900 mm, 40 mm oak, frame with diagonal braces. Seats 6–8.",
+          "price": "from 6,900,000 UZS",
+          "tag": "14 days"
+        },
+        {
+          "title": "“Reyka” bar stool",
+          "text": "Seat height 75 cm, footrest, oak seat. For counters and islands.",
+          "price": "from 1,150,000 UZS",
+          "tag": "in stock"
+        },
+        {
+          "title": "“Karkas” shelving unit",
+          "text": "2000 × 1000 × 350 mm, four solid-wood shelves, cross bracing. Holds books and appliances.",
+          "price": "from 3,400,000 UZS",
+          "tag": "10 days"
+        },
+        {
+          "title": "“Masterskaya” desk",
+          "text": "1400 × 700 mm, side unit with shelves, cable tray under the top.",
+          "price": "from 4,200,000 UZS",
+          "tag": "14 days"
+        },
+        {
+          "title": "“Vokzal” bench",
+          "text": "1600 mm, for hallways, cafés and verandas. Moisture-resistant coating.",
+          "price": "from 2,300,000 UZS",
+          "tag": "10 days"
+        },
+        {
+          "title": "Café bar counter",
+          "text": "Built to your plan: solid-wood top, shelves for tableware, lighting. Measured on site.",
+          "price": "from 9,800,000 UZS",
+          "tag": "21 days"
+        },
+        {
+          "title": "“Bridge” console",
+          "text": "1200 × 350 mm, two shelves, cross-braced frame. For a hallway or under the TV.",
+          "price": "from 2,900,000 UZS",
+          "tag": "10 days"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Cafés, offices, flats",
+      "items": [
+        {
+          "title": "Coffee shop on Shota Rustaveli",
+          "category": "Café",
+          "year": "40 seats",
+          "text": "A bar counter, 12 tables and 40 chairs in five weeks.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "IT company office",
+          "category": "Office",
+          "year": "60 workstations",
+          "text": "Desks with cable trays, shelving used as partitions, a meeting room.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "A flat in Tashkent City",
+          "category": "Home",
+          "year": "120 m²",
+          "text": "Dining area, kitchen island and a wall-to-wall library.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Burger joint in Chilanzar",
+          "category": "Café",
+          "year": "28 seats",
+          "text": "Wall benches, bar stools and a pick-up counter.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From sketch to assembly",
+      "items": [
+        {
+          "title": "Measuring and sketch",
+          "text": "We come over, take measurements and draw a sketch with frame options."
+        },
+        {
+          "title": "Quote and contract",
+          "text": "The price is fixed in the contract, 50% up front."
+        },
+        {
+          "title": "Welding the frame",
+          "text": "We cut the tube, weld, grind the seams and powder-coat."
+        },
+        {
+          "title": "The top",
+          "text": "We glue up a solid-wood panel, sand it and apply two coats of oil."
+        },
+        {
+          "title": "Delivery and assembly",
+          "text": "We deliver, assemble on site and level everything."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "1200",
+          "suffix": "+",
+          "label": "pieces made"
+        },
+        {
+          "value": "14",
+          "suffix": "days",
+          "label": "typical lead time"
+        },
+        {
+          "value": "35",
+          "suffix": "+",
+          "label": "cafés and offices furnished"
+        },
+        {
+          "value": "2",
+          "suffix": "years",
+          "label": "warranty on welds"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "We ordered furniture for the whole coffee shop. Everything arrived on time, and the chairs have not loosened in a year, even though guests rock on them.",
+          "author": "Dilnoza",
+          "role": "coffee shop owner"
+        },
+        {
+          "quote": "The elm table is the heart of our flat. They made it exactly to the size of our alcove.",
+          "author": "Timur",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "They redrew the sketch three times and never rushed us. The shelving works as partitions and holds our whole archive.",
+          "author": "Sardor",
+          "role": "office manager"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How long does a custom table take?",
+          "a": "Usually 14 days from the deposit. Bar counters and café orders take 21 days or more; the date goes into the contract."
+        },
+        {
+          "q": "Can I have a different size or frame colour?",
+          "a": "Yes. We weld to your size and paint in any RAL colour. The price is recalculated from the estimate."
+        },
+        {
+          "q": "What wood do you use?",
+          "a": "Solid oak and local elm, sometimes walnut. We do not use chipboard or veneer for tops."
+        },
+        {
+          "q": "Do you deliver and assemble?",
+          "a": "Yes: in Tashkent, delivery and assembly are included for orders over 5,000,000 UZS. Outside the city by arrangement."
+        },
+        {
+          "q": "Do you work with cafés and offices by bank transfer?",
+          "a": "Yes, we work with companies: contract, invoice and acceptance certificate."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Describe the job — we will quote within a day",
+      "text": "Send us the dimensions, a photo of the room or a picture from the internet. The showroom and workshop are open to visitors — come and try the chairs.",
+      "cta": {
+        "label": "Send a request",
+        "href": "#order"
+      }
+    }
+  ]
+}

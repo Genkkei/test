@@ -1,0 +1,307 @@
+{
+  "name": "Brew Lab",
+  "tagline": "Ko‘z oldingizda damlanadigan qahva: voronka, tarozi va to‘rt daqiqa sukunat",
+  "niche": "Speshelti qahvaxona va muqobil damlash bari",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Speshelti qahvaxona yoki muqobil damlash bari uchun sayt. Oq havo va bitta ko‘k rang, tomchilar finjonga tushadi, mehmon marosim qadamlarini varaqlaganda voronka to‘ladi.",
+    "features": []
+  },
+  "seo": {
+    "title": "Brew Lab — Toshkentda speshelti qahva va voronkalar",
+    "description": "Mirobodda qahvaxona: tarozida V60, Chemex va aeropress, yangi qovurilgan donadan espresso, uyda damlash bo‘yicha master-klasslar. Ertalab 8 dan ishlaymiz.",
+    "keywords": [
+      "speshelti qahva Toshkent",
+      "V60 Toshkent",
+      "Mirobod qahvaxona",
+      "muqobil damlash",
+      "barista master-klass",
+      "donali qahva"
+    ],
+    "answer": "Brew Lab — Toshkent, Mirobod ko‘chasi, 12 dagi speshelti qahvaxona. Ish kunlari 8:00–21:00, dam olish kunlari 9:00–22:00. V60 filtr-qahva — 38 000 so‘m, kapuchino — 32 000 so‘m, uyda damlash master-klassi — ikki soat uchun 250 000 so‘m. Don Toshkentda kamida haftada bir marta qovuriladi."
+  },
+  "business": {
+    "legalName": "«Brew Lab» MChJ",
+    "street": "Mirobod ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Tarozida damlangan qahva",
+      "eyebrow": "Mirobod, 12 · 8:00 dan ochiq",
+      "subtitle": "O‘n sakkiz gramm don, 93 darajadagi uch yuz gramm suv va uch yarim daqiqa. Barista har bir finjonni ko‘z oldingizda damlaydi va bu qahva qayerdan ekanini aytib beradi.",
+      "words": [
+        "V60",
+        "Chemex",
+        "AeroPress",
+        "Kalita Wave"
+      ],
+      "cta": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Qanday damlaymiz",
+        "href": "#ritual"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Qahvaxona",
+      "title": "Qahva asosiy taom bo‘lgan kichik peshtaxta",
+      "text": "Peshtaxta yonida o‘nta o‘rin va deraza yonida katta stol. Siroplar va ko‘pirtirilgan qaymoq yo‘q — har oy almashadigan uch-to‘rtta fermaning doni va nimani tatib ko‘rishni maslahat beradigan barista bor: rezavor Efiopiya, shokoladli Kolumbiya yoki butunlay yangi narsa.",
+      "image": ""
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Marosim",
+      "title": "V60 ni qanday damlaymiz",
+      "items": [
+        {
+          "title": "Maydalash",
+          "text": "18 gramm donni damlashdan oldin dengiz tuzidek o‘rtacha maydalaymiz."
+        },
+        {
+          "title": "Isitish",
+          "text": "Filtrni issiq suv bilan yuvamiz: qog‘oz ta’mi ketadi, voronka isiydi."
+        },
+        {
+          "title": "Gullash",
+          "text": "50 gramm suv va 40 soniya kutish: don gazini chiqaradi va ko‘pik bo‘lib ko‘tariladi."
+        },
+        {
+          "title": "Quyish",
+          "text": "Ingichka oqim bilan spiral bo‘ylab uch marta quyib 300 grammgacha yetkazamiz."
+        },
+        {
+          "title": "Finjon",
+          "text": "3:30 dan keyin qahva tayyor. Avval issiq, keyin iliq tatib ko‘ramiz — ta’m sovigan sari ochiladi."
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Bugun nima damlaymiz",
+      "groups": [
+        {
+          "name": "Filtr",
+          "items": [
+            {
+              "name": "V60",
+              "text": "Toza va yorqin, Efiopiya uchun eng yaxshisi",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Chemex",
+              "text": "Ikki kishiga, 500 ml, yumshoq va shirin",
+              "price": "58 000 so‘m"
+            },
+            {
+              "name": "AeroPress",
+              "text": "Quyuq, tanali, ikki daqiqada tayyor",
+              "price": "36 000 so‘m"
+            },
+            {
+              "name": "Kold bryu",
+              "text": "18 soat damlangan, muz bilan beramiz",
+              "price": "34 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Ikki karra, finjonda 36 gramm",
+              "price": "24 000 so‘m"
+            },
+            {
+              "name": "Kapuchino",
+              "text": "Sut 3,2% yoki suli suti",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "Ikki shot va yupqa ko‘pik",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Kortado",
+              "text": "Espresso va sut teng yarmi",
+              "price": "28 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qahvaga",
+          "items": [
+            {
+              "name": "Kanele",
+              "text": "Rom va vanil, ertalab pishiriladi",
+              "price": "22 000 so‘m"
+            },
+            {
+              "name": "Banan noni",
+              "text": "Yong‘oq va sho‘r sariyog‘ bilan",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Don 250 g",
+              "text": "Voronkangizga moslab maydalaymiz",
+              "price": "145 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Retsept",
+      "title": "Bizning V60 raqamlarda",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "g",
+          "label": "don"
+        },
+        {
+          "value": "300",
+          "suffix": "g",
+          "label": "suv"
+        },
+        {
+          "value": "93",
+          "suffix": "°C",
+          "label": "harorat"
+        },
+        {
+          "value": "210",
+          "suffix": "son",
+          "label": "vaqt"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Peshtaxta",
+      "title": "Mirobodda tong",
+      "items": [
+        {
+          "caption": "O‘n o‘rinli peshtaxta",
+          "image": ""
+        },
+        {
+          "caption": "Tarozi va V60",
+          "image": ""
+        },
+        {
+          "caption": "Deraza yonidagi stol",
+          "image": ""
+        },
+        {
+          "caption": "Oy doni",
+          "image": ""
+        },
+        {
+          "caption": "Shanba kungi master-klass",
+          "image": ""
+        },
+        {
+          "caption": "Filtrga kanele",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Peshtaxta yonida nima deyishadi",
+      "items": [
+        {
+          "quote": "Birinchi marta sutsiz filtrni tatib ko‘rdim va qahva qulupnay hidli bo‘lishi mumkinligini tushundim.",
+          "author": "Madina",
+          "role": "ertalabki mehmon"
+        },
+        {
+          "quote": "Master-klassga bordim, voronka sotib oldim — endi uyda ham yomon damlamayman.",
+          "author": "Temur",
+          "role": "muhandis"
+        },
+        {
+          "quote": "Jim, mazali va hech kim shoshiltirmaydi. Tushgacha ishlash uchun eng yaxshi joy.",
+          "author": "Anna",
+          "role": "dizayner"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Asosiysi haqida qisqacha",
+      "items": [
+        {
+          "q": "Filtr amerikanodan nimasi bilan farq qiladi?",
+          "a": "Filtr qog‘oz filtr orqali sekin va to‘liq damlanadi: ta’mi tozaroq va yorqinroq, kofein ko‘proq. Amerikano — suv bilan suyultirilgan espresso."
+        },
+        {
+          "q": "Uyga don sotib olsa bo‘ladimi?",
+          "a": "Ha, 250 grammlik qadoqlar 145 000 so‘mdan. Voronkangiz, turka yoki qahva mashinangizga moslab maydalaymiz."
+        },
+        {
+          "q": "Master-klasslar qachon?",
+          "a": "Shanba kunlari soat 11:00 da, oltita kishigacha. Ikki soat, 250 000 so‘m, don va filtrlar beriladi."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Suli va bodom suti, qo‘shimcha to‘lovsiz."
+        },
+        {
+          "q": "Olib ketishga buyurtma bersa bo‘ladimi?",
+          "a": "Ha: saytda yoki Telegramda buyurtma qoldiring, kelishingizga tayyorlab qo‘yamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Bir finjonga kiring",
+      "text": "Mirobod, 12 — «Oybek» metrosidan besh daqiqa piyoda. Hovlida avtoturargoh.",
+      "cta": {
+        "label": "Oldindan buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "name": "Vorota Pro",
+  "tagline": "Gates and fences that open with one button and last for decades",
+  "niche": "Wrought gates, fences and automation for private homes",
+  "nav": {
+    "cta": {
+      "label": "Book a measurer",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a maker of gates, fences and automation. A drawing of a sliding gate that opens as you scroll, a catalogue of fence sections priced per running metre and a “model × length” calculator right on the page.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurer",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Vorota Pro — gates and fences in Tashkent with automation",
+    "description": "Wrought and sliding gates, louvre, corrugated-sheet and 3D-mesh fences, turnkey automation. From 290,000 UZS per running metre, free measuring, installation from 7 days.",
+    "keywords": [
+      "gates Tashkent",
+      "sliding gate",
+      "wrought iron fence",
+      "louvre fence",
+      "gate automation",
+      "fence price per metre"
+    ],
+    "answer": "Vorota Pro makes gates and fences in Tashkent, with a workshop and showroom at 38 Fargona Yuli St.; open Mon–Fri 9:00–19:00 and Saturday 10:00–16:00. A 3D-mesh fence starts at 290,000 UZS, a wrought fence with spears at 650,000 UZS, louvres at 780,000 UZS per running metre; sliding gate automation starts at 4,800,000 UZS. Measuring is free, installation takes from 7 days, with a 3-year warranty."
+  },
+  "business": {
+    "legalName": "Vorota Pro LLC",
+    "street": "38 Fargona Yuli St. (workshop and showroom)",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Gates that open themselves",
+      "eyebrow": "Gates · fences · automation",
+      "subtitle": "We design, weld and install gates and fences for private homes. Our own workshop on Fargona Yuli — prices per running metre with no middlemen.",
+      "cta": {
+        "label": "Book a measurer",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Catalogue & prices",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "Free measuring",
+        "Installed from 7 days",
+        "3-year warranty",
+        "Nice & BFT automation"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Sliding gates",
+        "Swing gates",
+        "Wrought fences",
+        "Louvres",
+        "3D mesh",
+        "Wickets",
+        "Automation"
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "Sections and prices per metre",
+      "intro": "Prices are for 1.8 m height including posts and paint. Pick a model and length in the calculator below to see the total straight away.",
+      "items": [
+        {
+          "title": "Wrought with spears",
+          "text": "14 mm square bar, spear tops and rails, powder coat.",
+          "price": "from 650,000 UZS/m",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Louvre fence",
+          "text": "Angled slats: privacy for the yard while air still flows.",
+          "price": "from 780,000 UZS/m",
+          "tag": ""
+        },
+        {
+          "title": "Corrugated sheet on a frame",
+          "text": "0.5 mm polymer-coated sheet in any RAL colour.",
+          "price": "from 420,000 UZS/m",
+          "tag": ""
+        },
+        {
+          "title": "3D mesh",
+          "text": "Galvanised panels with a stiffening fold — for dachas and warehouses.",
+          "price": "from 290,000 UZS/m",
+          "tag": ""
+        },
+        {
+          "title": "Ranch fence",
+          "text": "Horizontal metal boards with a wood-look finish.",
+          "price": "from 520,000 UZS/m",
+          "tag": ""
+        },
+        {
+          "title": "Ornamental pattern",
+          "text": "Hand-forged scrolls, leaves and a family monogram.",
+          "price": "from 1,200,000 UZS/m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "type": "pricing",
+      "label": "Automation",
+      "title": "Gates with a button",
+      "items": [
+        {
+          "name": "Sliding: start",
+          "price": "4,800,000 UZS",
+          "period": "per kit",
+          "features": [
+            "Drive up to 600 kg",
+            "2 remotes",
+            "Safety photocells",
+            "Installation and setup"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Sliding: turnkey",
+          "price": "9,500,000 UZS",
+          "period": "per kit",
+          "features": [
+            "Drive up to 1000 kg",
+            "Open from your phone",
+            "Warning lamp",
+            "Wicket with an electric lock",
+            "1 year of service"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Swing gates",
+          "price": "6,900,000 UZS",
+          "period": "per kit",
+          "features": [
+            "Two linear drives",
+            "2 remotes",
+            "Manual release",
+            "Installation and setup"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Figures",
+      "title": "",
+      "items": [
+        {
+          "value": "1350",
+          "suffix": "+",
+          "label": "gates and fences"
+        },
+        {
+          "value": "42",
+          "suffix": " km",
+          "label": "of fencing installed"
+        },
+        {
+          "value": "7",
+          "suffix": " days",
+          "label": "from measuring to install"
+        },
+        {
+          "value": "3",
+          "suffix": " years",
+          "label": "warranty"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Steps",
+      "title": "Five steps to the “Open” button",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "A specialist brings samples and measures the opening, the ground and the drive position."
+        },
+        {
+          "title": "Sketch",
+          "text": "A dimensioned drawing and quote within a day. The price is fixed in the contract."
+        },
+        {
+          "title": "Forging & welding",
+          "text": "We cut, forge and weld in our own workshop, so deadlines don’t depend on suppliers."
+        },
+        {
+          "title": "Painting",
+          "text": "Sandblasting, zinc primer and powder coat in a booth."
+        },
+        {
+          "title": "Installation",
+          "text": "We concrete the posts, fit the sections and drive, and show you how to use the remote."
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Recent projects",
+      "items": [
+        {
+          "title": "5 m sliding gate with ornament",
+          "category": "Yunusabad, private house",
+          "year": "2026",
+          "text": "Turnkey drive, wicket with an electric lock, opening from a phone.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "46 m louvre fence",
+          "category": "Kibray, cottage",
+          "year": "2026",
+          "text": "Graphite RAL 7024, 80×80 posts, done in 9 days.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Wrought fence for a school",
+          "category": "Chilanzar, private school",
+          "year": "2025",
+          "text": "120 m with blunt spear tops and two swing gates.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients write",
+      "items": [
+        {
+          "quote": "We worked out the fence on the website, the measurer came the next day — the final price differed by 4%.",
+          "author": "Farrukh",
+          "role": "Kibray"
+        },
+        {
+          "quote": "The gate opens from my phone even when I’m at work — I let couriers into the yard.",
+          "author": "Dilnoza",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "They put up 120 metres around the school during the holidays and finished in two weeks.",
+          "author": "School management",
+          "role": "Chilanzar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How much does a fence cost per metre?",
+          "a": "From 290,000 UZS per running metre for 3D mesh to 1,200,000 UZS for ornamental forging. The price includes posts, paint and installation at 1.8 m height."
+        },
+        {
+          "q": "How long does production take?",
+          "a": "Fences and sliding gates take from 7 days after measuring; ornamental forging takes from 3 weeks."
+        },
+        {
+          "q": "Which automation do you install?",
+          "a": "Nice and BFT drives with the manufacturer’s warranty. A sliding gate kit starts at 4,800,000 UZS including installation and setup."
+        },
+        {
+          "q": "Is the measuring really free?",
+          "a": "Yes, measuring within Tashkent is free with no obligation. In the region it is free for orders of 30 running metres or more."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "3 years on the structure and paint; automation carries the manufacturer’s warranty plus a year of our service."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Visit the showroom",
+      "text": "Samples of every section and working drives are on display at the Fargona Yuli showroom. Or leave a request and a measurer will come on a day that suits you.",
+      "cta": {
+        "label": "Book a measurer",
+        "href": "#order"
+      }
+    }
+  ]
+}

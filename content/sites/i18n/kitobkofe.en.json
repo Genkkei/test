@@ -1,0 +1,263 @@
+{
+  "name": "Sahifa",
+  "tagline": "A coffee shop where people read",
+  "niche": "Coffee shop and book club",
+  "nav": {
+    "cta": {
+      "label": "Join the club",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a book café, literary club or small bookshop. A shelf of spines on the first screen, books of the month in classic cover style and club meetings as cards.",
+    "features": []
+  },
+  "seo": {
+    "title": "Sahifa — coffee shop and book club in Tashkent",
+    "description": "Coffee, pastries and a thousand books on the shelves at 31 Buyuk Ipak Yuli St. A book club on Wednesdays, a book swap and quiet reading tables. Open 9 am to 11 pm.",
+    "keywords": [
+      "book café Tashkent",
+      "book club Tashkent",
+      "coffee and books",
+      "book swap",
+      "café Mirzo Ulugbek"
+    ],
+    "answer": "Sahifa is a coffee shop with a library at 31 Buyuk Ipak Yuli St in Tashkent, open daily from 9 am to 11 pm. A cappuccino costs 26,000 UZS; the Wednesday book club at 7 pm is 60,000 UZS with coffee and dessert. Books on the shelves are free to read and swap."
+  },
+  "business": {
+    "legalName": "Sahifa LLC",
+    "street": "31 Buyuk Ipak Yuli St, Mirzo Ulugbek",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "A cup of coffee and one more chapter",
+      "eyebrow": "Book café · Buyuk Ipak Yuli, 31",
+      "subtitle": "A thousand books on the shelves to read at your table, fresh pastries and coffee from the roaster next door. Book club on Wednesdays, book swap on Sundays.",
+      "words": [
+        "Fiction",
+        "Poetry",
+        "Uzbek classics",
+        "Non-fiction",
+        "Children",
+        "In English"
+      ],
+      "cta": {
+        "label": "Book of the month",
+        "href": "#books"
+      },
+      "ctaSecondary": {
+        "label": "Join the club",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Coffee",
+        "Books",
+        "Wednesday club",
+        "Book swap",
+        "Quiet tables",
+        "Pastries"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A library where you can whisper",
+      "text": "Sahifa means “page” in Uzbek. Our books came from the home libraries of friends and readers: classics, contemporary fiction, books in three languages. Take any of them to your table, and leave one of yours on the swap shelf. There are sockets, but please take loud calls out to the terrace.",
+      "image": ""
+    },
+    {
+      "id": "books",
+      "type": "works",
+      "label": "This season’s club",
+      "title": "What we read this autumn",
+      "items": [
+        {
+          "title": "Bygone Days",
+          "category": "Abdulla Qodiriy",
+          "year": "meeting 5 November",
+          "text": "The first Uzbek novel, re-read by the whole club.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Master and Margarita",
+          "category": "Mikhail Bulgakov",
+          "year": "meeting 12 November",
+          "text": "We argue about who the real hero is.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Little Prince",
+          "category": "Antoine de Saint-Exupéry",
+          "year": "meeting 19 November",
+          "text": "A session for parents and children.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "One Hundred Years of Solitude",
+          "category": "Gabriel García Márquez",
+          "year": "meeting 26 November",
+          "text": "We draw the Buendía family tree on napkins.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "formats",
+      "type": "services",
+      "label": "What we offer",
+      "title": "Four reasons to come",
+      "intro": "",
+      "items": [
+        {
+          "title": "Book club",
+          "text": "Wednesdays at 7 pm we discuss the book of the week. Coffee and dessert included.",
+          "price": "60,000 UZS",
+          "tag": "Wednesday"
+        },
+        {
+          "title": "Book swap",
+          "text": "Bring a book you have read and take any from the swap shelf.",
+          "price": "free",
+          "tag": "Sunday"
+        },
+        {
+          "title": "Read-alouds",
+          "text": "Children’s hour: fairy tales read in Uzbek and Russian.",
+          "price": "30,000 UZS",
+          "tag": "Saturday"
+        },
+        {
+          "title": "Author evenings",
+          "text": "Once a month we host writers and translators.",
+          "price": "80,000 UZS",
+          "tag": "monthly"
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "For reading",
+      "groups": [
+        {
+          "name": "Coffee and tea",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "300 ml",
+              "price": "26,000 UZS"
+            },
+            {
+              "name": "Filter coffee",
+              "text": "A 500 ml pot for a long chapter",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Thyme tea",
+              "text": "A pot",
+              "price": "24,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Pastries",
+          "items": [
+            {
+              "name": "Apple strudel",
+              "text": "With vanilla sauce",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Syrniki",
+              "text": "With sour cream and honey, until 1 pm",
+              "price": "35,000 UZS"
+            },
+            {
+              "name": "Carrot cake",
+              "text": "With walnuts",
+              "price": "34,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Readers",
+      "title": "What the club says",
+      "items": [
+        {
+          "quote": "I came for coffee and left with “Bygone Days” and a club pass.",
+          "author": "Nigora",
+          "role": "literature teacher"
+        },
+        {
+          "quote": "The only café where quiet is a rule, not an accident.",
+          "author": "Bahrom",
+          "role": "translator"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "How it works",
+      "items": [
+        {
+          "q": "Can I take books home?",
+          "a": "Not from the main shelves — read at your table. From the swap shelf, yes, if you leave one of yours."
+        },
+        {
+          "q": "How do I join the book club?",
+          "a": "Leave a request and we send you the book of the week plus a reminder. It costs 60,000 UZS with coffee and dessert."
+        },
+        {
+          "q": "Can I work on a laptop?",
+          "a": "Yes, in the window room. Calls go to the terrace so readers aren’t disturbed."
+        },
+        {
+          "q": "Are there books in Uzbek?",
+          "a": "Yes, about a third of the shelves are Uzbek literature and translations into Uzbek."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Your table is waiting",
+      "text": "31 Buyuk Ipak Yuli St, first floor up. Every day 9 am to 11 pm. Join the club and we will send the book of the week.",
+      "cta": {
+        "label": "Sign up",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "name": "Origin Roasters",
+  "tagline": "Seshanba kuni qovuramiz, chorshanba jo‘natamiz. Ferma pasportli don",
+  "niche": "Qovurish sexi va donali qahva do‘koni",
+  "nav": {
+    "cta": {
+      "label": "Don buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Qovurish sexi, donali qahva do‘koni yoki choy brendi uchun sayt. Ma’lumotlarga boy qorong‘i mavzu: jonli qovurish profili, ta’m g‘ildiragi bilan lotlar, qadoqlar ko‘rinishidagi obuna.",
+    "features": []
+  },
+  "seo": {
+    "title": "Origin Roasters — Toshkentda yangi qovurilgan qahva",
+    "description": "Chilonzordagi qovurish sexi: Efiopiya, Kolumbiya, Keniya va Braziliyadan speshelti don, har seshanba qovurish, O‘zbekiston bo‘ylab yetkazib beriladigan obuna va qahvaxonalar uchun ulgurji.",
+    "keywords": [
+      "donali qahva Toshkent",
+      "qahva qovurish",
+      "speshelti don",
+      "qahva obunasi",
+      "qahvaxonalar uchun ulgurji qahva",
+      "yangi qovurish"
+    ],
+    "answer": "Origin Roasters — Toshkent, Qatortol ko‘chasi, 28 dagi qovurish sexi. Har seshanba qovuramiz, do‘kon seshanbadan shanbagacha 10:00–19:00 ochiq. 250 g qadoq — 145 000 so‘mdan, «Oyiga ikki qadoq» obunasi — O‘zbekiston bo‘ylab yetkazish bilan 270 000 so‘m. Qahvaxonalar uchun — 5 kg dan ulgurji."
+  },
+  "business": {
+    "legalName": "«Origin Roasters» MChJ",
+    "street": "Qatortol ko‘chasi, 28",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Har seshanba yangi qovurish",
+      "eyebrow": "Qovurish sexi · Chilonzor · yetkazish bilan",
+      "subtitle": "Yashil donni fermalardan to‘g‘ridan-to‘g‘ri sotib olamiz, 12 kg lik kichik partiyalarda qovuramiz va bir kun ichida jo‘natamiz. Har bir qadoqda — ferma, balandlik, ishlov va qovurilgan sana.",
+      "words": [
+        "Ethiopia Guji",
+        "Colombia Huila",
+        "Kenya Nyeri"
+      ],
+      "cta": {
+        "label": "Don tanlash",
+        "href": "#lots"
+      },
+      "ctaSecondary": {
+        "label": "Obuna",
+        "href": "#subscription"
+      },
+      "image": ""
+    },
+    {
+      "id": "lots",
+      "type": "works",
+      "label": "Lotlar",
+      "title": "Hozir nima qovurilmoqda",
+      "items": [
+        {
+          "title": "Ethiopia Guji",
+          "category": "tabiiy · 2100 m",
+          "year": "joriy mavsum hosili",
+          "text": "qulupnay, yasmin, qora shokolad",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Colombia Huila",
+          "category": "yuvilgan · 1750 m",
+          "year": "joriy mavsum hosili",
+          "text": "karamel, qizil olma, kakao",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kenya Nyeri AA",
+          "category": "yuvilgan · 1800 m",
+          "year": "joriy mavsum hosili",
+          "text": "qora smorodina, greypfrut, pomidor",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Brazil Cerrado",
+          "category": "pulpalangan · 1100 m",
+          "year": "espresso uchun",
+          "text": "yong‘oq, sutli shokolad, asal",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Rwanda Huye",
+          "category": "yuvilgan · 1900 m",
+          "year": "kichik lot",
+          "text": "bergamot, shaftoli, asalli choy",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "Don yo‘li",
+      "title": "Fermadan finjoningizgacha",
+      "items": [
+        {
+          "title": "Ferma",
+          "text": "Lotlarni namunalar va kapping bo‘yicha tanlaymiz, vositachilarsiz sotib olamiz."
+        },
+        {
+          "title": "Qovurish",
+          "text": "Har seshanba, 12 kg lik partiyalar, har bir lot uchun alohida profil."
+        },
+        {
+          "title": "Kapping",
+          "text": "Har bir partiyani tatib ko‘ramiz: o‘tmagani qadoqqa tushmaydi."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "Toshkent bo‘ylab ertasi kuni, O‘zbekiston bo‘ylab — 2–4 kunda."
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "pricing",
+      "label": "Obuna",
+      "title": "Eslatmalarsiz yangi don",
+      "items": [
+        {
+          "name": "Bitta qadoq",
+          "price": "140 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "oy lotidan 250 g",
+            "Toshkent bo‘ylab bepul yetkazish",
+            "voronkangizga mos maydalash"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Ikki qadoq",
+          "price": "270 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "ikki xil lot",
+            "O‘zbekiston bo‘ylab bepul yetkazish",
+            "damlash retsepti kartasi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Qahvaxonalar uchun",
+          "price": "5 kg dan",
+          "period": "/ hafta",
+          "features": [
+            "espresso aralashmasi yoki monosort",
+            "barista o‘qitish",
+            "joyida qahva tegirmonini sozlash"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Pasport",
+      "title": "Qovurish sexi raqamlarda",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "kg",
+          "label": "qovurish partiyasi"
+        },
+        {
+          "value": "5",
+          "suffix": "lot",
+          "label": "hozir qovurilmoqda"
+        },
+        {
+          "value": "24",
+          "suffix": "soat",
+          "label": "qovurishdan jo‘natishgacha"
+        },
+        {
+          "value": "40",
+          "suffix": "qahvaxona",
+          "label": "donimizda ishlaydi"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Qahvamizni kim ichadi",
+      "items": [
+        {
+          "quote": "Qahvaxonani ularning espresso aralashmasiga o‘tkazdik — mehmonlar ikki baravar porsiya ola boshladi.",
+          "author": "Jasur",
+          "role": "qahvaxona egasi"
+        },
+        {
+          "quote": "Obuna chorshanba keladi, qovurilgan sana — seshanba. Bundan yangisini topib bo‘lmaydi.",
+          "author": "Olga",
+          "role": "obunachi"
+        },
+        {
+          "quote": "Ularning Keniyasi rostdan smorodina hidli. Endi faqat shuni olaman.",
+          "author": "Baxtiyor",
+          "role": "uy baristasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Don va yetkazish haqida",
+      "items": [
+        {
+          "q": "Don qancha saqlanadi?",
+          "a": "Eng yaxshi ta’m — qovurilgandan keyin 5-kundan 30-kungacha. Qadoqni yopiq saqlang, muzlatgichsiz."
+        },
+        {
+          "q": "Turka uchun maydalaysizmi?",
+          "a": "Ha, turka, voronka, frantsuz press, geyzer yoki espresso uchun — buyurtmada belgilang."
+        },
+        {
+          "q": "Viloyatlarga yetkazasizmi?",
+          "a": "Butun O‘zbekiston bo‘ylab 2–4 kunda. «Ikki qadoq» obunasi uchun — bepul."
+        },
+        {
+          "q": "Kappingga kelsa bo‘ladimi?",
+          "a": "Ochiq kapping — har shanba soat 12:00 da, bepul, yozilish kerak."
+        },
+        {
+          "q": "Qahvaxonalar bilan ishlaysizmi?",
+          "a": "Ha: haftasiga 5 kg dan ulgurji, barista o‘qitish va uskunalarni sozlash."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "O‘zingiz olib keting yoki yetkazishga buyurtma bering",
+      "text": "Qatortol, 28, hovli tomonidan kirish. Seshanba kuni butun mahallaga qovurish hidi taraladi.",
+      "cta": {
+        "label": "Don buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

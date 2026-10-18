@@ -1,0 +1,286 @@
+{
+  "name": "Kofe Go",
+  "tagline": "Ikki daqiqada olib ketiladigan qahva — metro yonida va biznes-markazlarda oltita orolcha",
+  "niche": "Olib ketiladigan qahva orolchalari tarmog‘i",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Olib ketiladigan qahva, orolchalar tarmog‘i yoki fud-korner uchun sayt: katta grotesk, aylantirganda egiladigan stakan, S·M·L o‘lcham tanlovli menyu va nuqtalar xaritasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Kofe Go — 2 daqiqada olib ketiladigan qahva, Toshkentda 6 nuqta",
+    "description": "Kapuchino, latte, raf va ays-qahva olib ketish uchun: Toshkentdagi metro yonida va biznes-markazlardagi oltita orolcha, 7:30 dan 22:00 gacha. Oldindan buyurtma bering — navbatsiz olasiz.",
+    "keywords": [
+      "Toshkent olib ketiladigan qahva",
+      "qahva olib ketish",
+      "metro yonida qahvaxona",
+      "Toshkent kapuchino",
+      "ays-latte",
+      "qahva orolchasi"
+    ],
+    "answer": "Kofe Go — Toshkentdagi oltita qahva orolchasidan iborat tarmoq: «Oybek», «Buyuk Ipak Yo‘li», «Chilonzor» metrolari yonida, IT Parkda va ikkita biznes-markazda. 7:30 dan 22:00 gacha ishlaydi. Kapuchino — 250, 350 yoki 450 ml uchun 16 000, 20 000 yoki 24 000 so‘m; ichimlik taxminan ikki daqiqada tayyor bo‘ladi."
+  },
+  "business": {
+    "legalName": "«Kofe Go» MChJ",
+    "street": "Amir Temur ko‘chasi, 60 («Oybek» metrosi yonida)",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ikki daqiqada qahva",
+      "eyebrow": "● Hozir 6 ta orolcha ishlayapti",
+      "subtitle": "Metro yonida va biznes-markazlardagi orolchalar. Yo‘lda saytda buyurtma bering — stakan ismingiz bilan kutib turadi.",
+      "words": [],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Qayerdamiz",
+        "href": "#spots"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Kapuchino",
+        "Latte",
+        "Raf",
+        "Ays-latte",
+        "Matcha",
+        "Kakao"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "O‘lchamni tanlang",
+      "groups": [
+        {
+          "name": "Issiq",
+          "items": [
+            {
+              "name": "Kapuchino",
+              "text": "Espresso va ko‘pik",
+              "price": "16 000 / 20 000 / 24 000 so‘m"
+            },
+            {
+              "name": "Latte",
+              "text": "Ko‘proq sut, yumshoq ta’m",
+              "price": "17 000 / 21 000 / 25 000 so‘m"
+            },
+            {
+              "name": "Vanilli raf",
+              "text": "Qaymoq va vanil",
+              "price": "20 000 / 25 000 / 29 000 so‘m"
+            },
+            {
+              "name": "Amerikano",
+              "text": "Espresso va issiq suv",
+              "price": "12 000 / 15 000 / 18 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Sovuq",
+          "items": [
+            {
+              "name": "Ays-latte",
+              "text": "Muz, sut, ikki hissa shot",
+              "price": "19 000 / 23 000 / 27 000 so‘m"
+            },
+            {
+              "name": "Bambl",
+              "text": "Apelsin sharbati va espresso",
+              "price": "22 000 / 26 000 / 30 000 so‘m"
+            },
+            {
+              "name": "Ays-matcha",
+              "text": "Sutdagi yapon matchasi",
+              "price": "24 000 / 28 000 / 32 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spots",
+      "type": "services",
+      "label": "Nuqtalar",
+      "title": "Oltita orolcha",
+      "intro": "Barcha nuqtalar 7:30 dan 22:00 gacha, IT Parkdagisi — 20:00 gacha ishlaydi.",
+      "items": [
+        {
+          "title": "«Oybek» metrosi",
+          "text": "Amir Temur, 60, Oybek tomondagi chiqish",
+          "price": "",
+          "tag": "flagman"
+        },
+        {
+          "title": "«Buyuk Ipak Yo‘li» metrosi",
+          "text": "Parkent bozori tomondagi chiqish",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "«Chilonzor» metrosi",
+          "text": "Chilonzor, 9-mavze",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "IT Park",
+          "text": "Mirzo Ulug‘bek, 2, birinchi qavat",
+          "price": "",
+          "tag": "20:00 gacha"
+        },
+        {
+          "title": "Shota Rustaveli biznes-markazi",
+          "text": "Lobbi, liftlar yonida",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Yunusoboddagi biznes-markaz",
+          "text": "Yunusobod, 4-mavze",
+          "price": "",
+          "tag": "yangi"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "Qanday buyurtma beriladi",
+      "title": "Stakangacha uch qadam",
+      "items": [
+        {
+          "title": "Tanlang",
+          "text": "Ichimlik, o‘lcham va olish qulay bo‘lgan nuqtani."
+        },
+        {
+          "title": "Yuboring",
+          "text": "Ism va telefon — barista buyurtmani darhol ko‘radi."
+        },
+        {
+          "title": "Olib keting",
+          "text": "Ikki daqiqadan so‘ng ismingiz yozilgan stakan darchada kutadi."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "shahardagi orolcha"
+        },
+        {
+          "value": "2",
+          "suffix": "daq",
+          "label": "bitta ichimlikka"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "stakan o‘lchami"
+        },
+        {
+          "value": "7",
+          "suffix": ":30",
+          "label": "ochilamiz"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Qahva navbatidan",
+      "items": [
+        {
+          "quote": "Metrodan buyurtma beraman, chiqaman — stakan allaqachon turibdi. Tong qutqarildi.",
+          "author": "Bekzod",
+          "role": "Oybek, har ish kuni"
+        },
+        {
+          "quote": "450 ml ays-latte — iyul jaziramasida aynan kerakli narsa.",
+          "author": "Dilnoza",
+          "role": "IT Park"
+        },
+        {
+          "quote": "Narxlar insofli, kapuchino esa o‘tiradigan qahvaxonanikidan qolishmaydi.",
+          "author": "Ruslan",
+          "role": "Chilonzor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Buyurtma haqida",
+      "items": [
+        {
+          "q": "Ichimlik qanchalik tez tayyor bo‘ladi?",
+          "a": "Odatda ikki daqiqada. Tig‘iz soatda — besh daqiqagacha."
+        },
+        {
+          "q": "Karta bilan to‘lasa bo‘ladimi?",
+          "a": "Ha: Uzcard, Humo, Visa, shuningdek darchadagi QR orqali Click va Payme."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Suli va kokos suti, +5 000 so‘m."
+        },
+        {
+          "q": "Ofis uchun qahva qilasizmi?",
+          "a": "Ha, 20 stakandan boshlab istalgan nuqta yaqinidagi ofisga olib boramiz — oldindan yozing."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Oldindan buyurtma bering",
+      "text": "Saytda buyurtma qoldiring yoki qo‘ng‘iroq qiling — va istalgan nuqtada navbatsiz qahvangizni oling.",
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      }
+    }
+  ]
+}

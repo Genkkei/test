@@ -1,0 +1,243 @@
+{
+  "name": "Bog‘ Mebel",
+  "tagline": "Garden and terrace furniture for the dacha, courtyard and aivan",
+  "niche": "Garden and terrace furniture",
+  "seo": {
+    "title": "Bog‘ Mebel — garden furniture for dacha and terrace",
+    "description": "Garden furniture in teak, acacia and rattan: dining sets, loungers, swings and suri for the aivan. Showroom in Kibray, delivery across the region and winter storage.",
+    "keywords": [
+      "garden furniture Tashkent",
+      "dacha furniture",
+      "terrace furniture",
+      "buy a sun lounger",
+      "suri for the aivan"
+    ],
+    "answer": "Bog‘ Mebel is a garden furniture showroom in Kibray (14 Tashkent Ring Road). Acacia dining sets from UZS 7,200,000, teak loungers from UZS 2,900,000, suri for the aivan from UZS 5,500,000. Delivery across Tashkent region, on-site assembly and winter storage."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a garden furniture, gazebo or dacha goods shop: a calm natural first screen, sets presented like hotel rooms, benefits, steps and questions.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Bog Mebel LLC",
+    "street": "14 Tashkent Ring Road, Kibray",
+    "city": "Kibray",
+    "region": "Tashkent region",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "An evening in the courtyard starts with a good chair",
+      "eyebrow": "Showroom in Kibray · 15 minutes from Tashkent",
+      "subtitle": "Teak, acacia and rattan that stand up to sun, rain and the Uzbek summer. We deliver, assemble and take it away for storage in winter.",
+      "words": [],
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Sets",
+        "href": "#sets"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "Furniture that isn’t afraid of the outdoors",
+      "text": "For eight years we have made and sourced furniture for dachas, courtyards and restaurant terraces. Wood gets two coats of oil, metal is powder-coated, and the outdoor fabrics don’t fade and dry within an hour.\nBefore buying you can sit on everything in our open-air showroom.",
+      "image": ""
+    },
+    {
+      "id": "sets",
+      "type": "works",
+      "label": "Sets",
+      "title": "Ready-made courtyard sets",
+      "items": [
+        {
+          "title": "“Aivan” dining set",
+          "category": "Acacia · table and six chairs",
+          "year": "from UZS 7,200,000",
+          "text": "An extending 160–220 cm table, chairs with removable cushions.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Pool” lounge",
+          "category": "Rattan · sofa and two armchairs",
+          "year": "from UZS 9,800,000",
+          "text": "Outdoor cushions and a glass-topped coffee table.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Choykhona” suri",
+          "category": "Elm · 2×2.5 m",
+          "year": "from UZS 5,500,000",
+          "text": "A classic carved platform with kurpacha mattresses.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Shade” lounger",
+          "category": "Teak · on wheels",
+          "year": "from UZS 2,900,000",
+          "text": "Five backrest positions and a pull-out side table.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Service",
+      "title": "What comes with your purchase",
+      "intro": "",
+      "items": [
+        {
+          "title": "Delivery across the region",
+          "text": "Free from UZS 5,000,000, otherwise from UZS 150,000 by zone.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "On-site assembly",
+          "text": "We set it up, level it and show you how to care for it.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Winter storage",
+          "text": "We collect in October, clean and re-oil, and bring it back in April.",
+          "price": "from UZS 600,000",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "Four steps to an evening outside",
+      "items": [
+        {
+          "title": "Photo of your yard",
+          "text": "Send a photo and the size and we pick a set."
+        },
+        {
+          "title": "Showroom",
+          "text": "Sit down, feel the fabrics and choose cushion colours."
+        },
+        {
+          "title": "Delivery",
+          "text": "Delivered in 2–4 days, larger orders within a week."
+        },
+        {
+          "title": "Assembly",
+          "text": "We assemble and leave a wood-care kit."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Clients’ courtyards",
+      "title": "How it looks at home",
+      "items": [
+        {
+          "caption": "Terrace in Bostanlyk",
+          "image": ""
+        },
+        {
+          "caption": "Courtyard with a suri in Yunusabad",
+          "image": ""
+        },
+        {
+          "caption": "Poolside lounge",
+          "image": ""
+        },
+        {
+          "caption": "Summer café",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From dacha owners",
+      "items": [
+        {
+          "quote": "Third season out in the open and it still looks new.",
+          "author": "Ulugbek",
+          "role": "“Aivan” set"
+        },
+        {
+          "quote": "They collected it in autumn and brought it back re-oiled in spring — very convenient.",
+          "author": "Nargiza",
+          "role": "winter storage"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can the furniture stay out in the rain?",
+          "a": "Yes, the wood is oiled and the fabrics are outdoor grade. It is best to bring cushions in at night."
+        },
+        {
+          "q": "How do I care for teak?",
+          "a": "Wipe with the oil from the kit once a season. Without oil teak turns grey, which is normal and doesn’t affect its strength."
+        },
+        {
+          "q": "Do you supply cafés?",
+          "a": "Yes, for summer terraces we quote sets from 20 seats with a discount."
+        },
+        {
+          "q": "Do you offer instalments?",
+          "a": "Yes, up to 12 months via Uzum Nasiya."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send a photo of your yard",
+      "text": "On Telegram we will pick a set for your terrace. The Kibray showroom is open daily from 9 to 19.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/bogmebel"
+      }
+    }
+  ]
+}

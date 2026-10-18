@@ -1,0 +1,346 @@
+{
+  "name": "Duradgor",
+  "tagline": "Solid-wood furniture made by hand",
+  "niche": "Joinery workshop: custom solid-wood and live-edge slab furniture",
+  "nav": {
+    "cta": {
+      "label": "Discuss an order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a joinery workshop or a maker of solid-wood and slab furniture. A tree cross-section whose growth rings draw themselves on the first screen, products as lines in a workbook, wood species as grain samples and the work stages along a tape measure.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Duradgor — custom solid-wood and slab furniture, Tashkent",
+    "description": "A joinery workshop in Yunusabad: live-edge dining tables, beds, wardrobes and kitchen islands in oak, walnut and elm. No chipboard, oil and wax finish, from 3 weeks.",
+    "keywords": [
+      "solid wood furniture Tashkent",
+      "live-edge slab table",
+      "joinery workshop",
+      "custom wooden furniture",
+      "elm table",
+      "oak bed"
+    ],
+    "answer": "Duradgor is a joinery workshop at 210 Bogishamol St in Tashkent. We make chipboard-free furniture in solid oak, walnut, ash and local elm: a live-edge slab table from 9,500,000 UZS, an oak bed from 12,000,000 UZS, a coffee table from 3,800,000 UZS. From 3 weeks, oil and wax finish, and you can choose the board for your table at the workshop. Open Mon–Sat, 9:00–18:00."
+  },
+  "business": {
+    "legalName": "Duradgor sole proprietorship",
+    "street": "210 Bogishamol St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Solid-wood furniture that will outlive us",
+      "eyebrow": "Joinery workshop · Tashkent",
+      "subtitle": "We make custom tables, beds, wardrobes and slabs in oak, walnut and local elm. Each piece is led by one maker — from the board to the last coat of oil.",
+      "cta": {
+        "label": "Discuss an order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "What we make",
+        "href": "#works"
+      },
+      "image": "",
+      "words": [
+        "solid wood, no chipboard",
+        "oil and wax",
+        "from 3 weeks"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "oak",
+        "walnut",
+        "elm",
+        "ash",
+        "slab",
+        "mortise & tenon",
+        "oil",
+        "wax"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "Five joiners and a nine-metre workbench",
+      "text": "We join wood with tenons and wedges, not screws, dry boards to 8% moisture and never hide them under lacquer. That is why a table can be sanded back in twenty years and look new again.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "services",
+      "label": "Pieces",
+      "title": "What we make by hand",
+      "intro": "“From” prices are for the base size. We give the exact figure after the sketch — it depends on the board you choose.",
+      "items": [
+        {
+          "title": "Live-edge dining table",
+          "text": "One-piece slab with a live edge, steel or solid legs. 4–6 weeks.",
+          "price": "from 9,500,000 UZS",
+          "tag": "elm · slab"
+        },
+        {
+          "title": "Solid-wood bed",
+          "text": "A frame joined on tenons with no metal, a headboard of solid slats. 4 weeks.",
+          "price": "from 12,000,000 UZS",
+          "tag": "oak"
+        },
+        {
+          "title": "Wardrobe with hinged doors",
+          "text": "Panelled doors, shelves and a rail to your layout. 5–6 weeks.",
+          "price": "from 14,000,000 UZS",
+          "tag": "ash"
+        },
+        {
+          "title": "Coffee table",
+          "text": "Round or rectangular, with a lower shelf. 3 weeks.",
+          "price": "from 3,800,000 UZS",
+          "tag": "walnut"
+        },
+        {
+          "title": "Bookcase",
+          "text": "Wall to wall, each shelf holds 40 kg. 4 weeks.",
+          "price": "from 6,200,000 UZS",
+          "tag": "oak"
+        },
+        {
+          "title": "Kitchen island",
+          "text": "Solid-wood worktop, drawers on concealed runners. 6 weeks.",
+          "price": "from 18,000,000 UZS",
+          "tag": "oak & walnut"
+        }
+      ]
+    },
+    {
+      "id": "woods",
+      "type": "pricing",
+      "label": "Woods",
+      "title": "What we work with",
+      "items": [
+        {
+          "name": "Oak",
+          "price": "from 4,800,000 UZS",
+          "period": "per m² of top",
+          "features": [
+            "Hard and dense",
+            "Light, with a strong grain",
+            "For kitchens and tables"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Walnut",
+          "price": "from 7,200,000 UZS",
+          "period": "per m² of top",
+          "features": [
+            "Dark chocolate colour",
+            "Silky to the touch",
+            "For statement pieces"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Elm",
+          "price": "from 4,200,000 UZS",
+          "period": "per m² of top",
+          "features": [
+            "Local Tashkent timber",
+            "Lively figure and knots",
+            "Best choice for slabs"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ash",
+          "price": "from 4,500,000 UZS",
+          "period": "per m² of top",
+          "features": [
+            "Almost white",
+            "Springy, bends well",
+            "For wardrobes and chairs"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From board to table",
+      "items": [
+        {
+          "title": "Sketch and measuring",
+          "text": "We talk about how the piece will be used and draw a sketch with dimensions."
+        },
+        {
+          "title": "Choosing the board",
+          "text": "You visit the workshop and pick your own slab or boards."
+        },
+        {
+          "title": "Cutting and drying",
+          "text": "Boards dry to 8% moisture before any work starts."
+        },
+        {
+          "title": "Joinery and sanding",
+          "text": "Mortise-and-tenon joints, sanding up to 240 grit."
+        },
+        {
+          "title": "Oil and delivery",
+          "text": "Three coats of hard-wax oil, then we deliver and install."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "joiners",
+          "label": "in the workshop"
+        },
+        {
+          "value": "600",
+          "suffix": "+",
+          "label": "pieces made"
+        },
+        {
+          "value": "8",
+          "suffix": "%",
+          "label": "board moisture before work"
+        },
+        {
+          "value": "3",
+          "suffix": "weeks",
+          "label": "shortest lead time"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "From the workshop",
+      "items": [
+        {
+          "caption": "Elm slab, 2.4 m",
+          "image": ""
+        },
+        {
+          "caption": "Oak bed",
+          "image": ""
+        },
+        {
+          "caption": "Walnut coffee table",
+          "image": ""
+        },
+        {
+          "caption": "Ash wardrobe",
+          "image": ""
+        },
+        {
+          "caption": "Dovetail joint",
+          "image": ""
+        },
+        {
+          "caption": "Kitchen island",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "About tables and people",
+      "items": [
+        {
+          "quote": "We picked the slab ourselves and saw it at every stage. The table gathers the whole family every Friday.",
+          "author": "Aziz",
+          "role": "elm table"
+        },
+        {
+          "quote": "A bed without a single screw — and nothing creaks. You can tell it was made by someone who loves wood.",
+          "author": "Shahnoza",
+          "role": "oak bed"
+        },
+        {
+          "quote": "Three years later we asked for the same table for a second flat — they found a board of the same shade.",
+          "author": "Rustam",
+          "role": "two walnut tables"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How long does a slab table take?",
+          "a": "Four to six weeks, depending on size and whether the board needs further drying. The date goes into the contract."
+        },
+        {
+          "q": "Can I choose the board myself?",
+          "a": "Yes — it is our favourite part. Come to the workshop: there are always 30–40 slabs of different species in stock."
+        },
+        {
+          "q": "What finish do you use?",
+          "a": "Three coats of hard-wax oil. It shrugs off water and hot mugs, and you can touch up a scratch at home."
+        },
+        {
+          "q": "Do you work from other people’s drawings?",
+          "a": "Yes, we work with designers and architects on their projects."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Five years on the joinery and a free refinish after the first year."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come and choose your board",
+      "text": "Send an idea or a photo you like — we will reply with a sketch and a price. You can visit the workshop during opening hours without booking.",
+      "cta": {
+        "label": "Discuss an order",
+        "href": "#order"
+      }
+    }
+  ]
+}

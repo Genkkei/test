@@ -1,0 +1,331 @@
+{
+  "name": "Reserve Coffee",
+  "tagline": "Maxtumquli ko‘chasidagi qahvaxona-qovurish ustaxonasi: noyob lotlar, degustatsiyalar va ko‘z oldida qovurish",
+  "niche": "Premium qahvaxona-qovurish ustaxonasi",
+  "nav": {
+    "cta": {
+      "label": "Band qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Premium qahvaxona, qovurish ustaxonasi yoki vino bari uchun sayt: to‘q mis rangi, aylanuvchi muhr, degustatsiya to‘plamlari va aylantirganda chiziladigan qovurish egri chizig‘i.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Reserve Coffee — Toshkentda qahva qovurish va degustatsiya",
+    "description": "Maxtumquli, 3 dagi o‘z rosteriga ega qahvaxona: Efiopiya, Panama va Kolumbiyadan noyob lotlar, degustatsiya to‘plamlari va damlash bo‘yicha master-klasslar. Har kuni 9:00 dan 23:00 gacha.",
+    "keywords": [
+      "Toshkent qahva qovurish",
+      "Toshkent speshelti qahva",
+      "qahva degustatsiyasi",
+      "donli qahva",
+      "geysha",
+      "qahva master-klassi"
+    ],
+    "answer": "Reserve Coffee — Toshkentdagi Maxtumquli ko‘chasi, 3 dagi qahvaxona-qovurish ustaxonasi, har kuni 9:00 dan 23:00 gacha ochiq. Don shu yerning o‘zida kichik partiyalarda qovuriladi. Uch lotdan iborat degustatsiya to‘plami 95 000 so‘m, muqobil damlash bo‘yicha master-klass — 290 000 so‘m, 8 kishigacha kompaniya uchun xususiy degustatsiya — 1 400 000 so‘m."
+  },
+  "business": {
+    "legalName": "«Reserve Coffee» MChJ",
+    "street": "Maxtumquli ko‘chasi, 3",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ko‘z oldingizda qovuriladigan qahva",
+      "eyebrow": "Qovurish ustaxonasi · Maxtumquli 3 · 2023 yildan",
+      "subtitle": "Zal markazidagi mis rosteri, mavsumda bir marta keladigan noyob lotlar va bu chashka nega yasmin hidi kelishini aytib beradigan barista.",
+      "words": [],
+      "cta": {
+        "label": "Degustatsiyani band qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Degustatsiya to‘plamlari",
+        "href": "#flights"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Efiopiya Guji",
+        "Panama Geysha",
+        "Kolumbiya Uila",
+        "Keniya AA",
+        "Payshanba kunlari qovurish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Ta’mni hal qiladigan o‘n ikki daqiqa",
+      "text": "Yashil donni importyorlardan to‘g‘ridan-to‘g‘ri kichik lotlarda olib kelamiz va shu yerning o‘zida, zalda, bir martada o‘n besh kilogrammdan qovuramiz. Har bir partiyani chashkaga yoki paketga tushishidan oldin kapping protokoli bo‘yicha tatib ko‘ramiz. Shuning uchun menyu o‘zgaradi: nimadir butunlay tugaydi, nimadir bir mavsumga paydo bo‘ladi.",
+      "image": ""
+    },
+    {
+      "id": "flights",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Degustatsiya to‘plamlari",
+      "groups": [
+        {
+          "name": "Filtr",
+          "items": [
+            {
+              "name": "Efiopiya Guji",
+              "text": "yasmin, bergamot, shaftoli",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Kolumbiya Uila",
+              "text": "karamel, qizil olma",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Panama Geysha",
+              "text": "jo‘ka gullari, asal, laym",
+              "price": "85 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Kun espressosi",
+              "text": "baristadan so‘rang — har kuni o‘zgaradi",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Kortado",
+              "text": "espresso va ozgina sut",
+              "price": "30 000 so‘m"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "ikki hissa ristretto",
+              "price": "36 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "To‘plamlar",
+          "items": [
+            {
+              "name": "Uch lot",
+              "text": "100 ml dan uchta filtr va ta’m kartochkalari",
+              "price": "95 000 so‘m"
+            },
+            {
+              "name": "Espresso va sut",
+              "text": "bitta lot — espresso, kortado va kapuchino",
+              "price": "78 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exp",
+      "type": "pricing",
+      "label": "Taassurotlar",
+      "title": "Degustatsiyalar va master-klasslar",
+      "items": [
+        {
+          "name": "Kapping",
+          "price": "150 000 so‘m",
+          "period": "kishi",
+          "features": [
+            "Ko‘r-ko‘rona oltita lot",
+            "Mutaxassislar qahvani qanday baholaydi",
+            "Shanba, 11:00, 60 daqiqa"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Damlash master-klassi",
+          "price": "290 000 so‘m",
+          "period": "kishi",
+          "features": [
+            "V60, aeropress va keymeks",
+            "250 g don paketini olib ketasiz",
+            "6 kishigacha, 2 soat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Xususiy degustatsiya",
+          "price": "1 400 000 so‘m",
+          "period": "kompaniya",
+          "features": [
+            "8 nafargacha mehmon, zal siz uchun yopiq",
+            "Partiya ko‘z oldingizda qovuriladi",
+            "Har bir lotga desert"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "roast",
+      "type": "process",
+      "label": "Qovurish",
+      "title": "Bitta partiyaning egri chizig‘i",
+      "items": [
+        {
+          "title": "Yuklash",
+          "text": "Yashil don 200 °C gacha qizdirilgan barabanga tushadi."
+        },
+        {
+          "title": "Quritish",
+          "text": "Dastlabki to‘rt daqiqada don namligini chiqaradi va sarg‘ayadi."
+        },
+        {
+          "title": "Birinchi chirsillash",
+          "text": "Taxminan to‘qqizinchi daqiqada don chirsillaydi — ta’m rivojlana boshlaydi."
+        },
+        {
+          "title": "Rivojlanish",
+          "text": "Ikki-uch daqiqa qahva gulli yoki shokoladli bo‘lishini hal qiladi."
+        },
+        {
+          "title": "Tushirish",
+          "text": "Don patnisda to‘rt daqiqada soviydi va uch kun dam oladi."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "15",
+          "suffix": "kg",
+          "label": "bir qovurishda"
+        },
+        {
+          "value": "12",
+          "suffix": "daq",
+          "label": "partiya davomiyligi"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "mavsumdagi lot"
+        },
+        {
+          "value": "3",
+          "suffix": "kun",
+          "label": "donning dam olishi"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Degustatsiyadan so‘ng",
+      "items": [
+        {
+          "quote": "Qahva hech qanday siropsiz shaftoli hidi kelishi mumkinligini birinchi marta tushundim.",
+          "author": "Kamila",
+          "role": "shanbadagi kapping"
+        },
+        {
+          "quote": "Bu yerda kompaniya yilligini nishonladik — barista partiyani ko‘z oldimizda qovurdi.",
+          "author": "Farhod",
+          "role": "xususiy degustatsiya"
+        },
+        {
+          "quote": "Master-klassdan keyin uyda avvalgi har qanday qahvaxonadagidan yaxshiroq chiqyapti.",
+          "author": "Anna",
+          "role": "damlash master-klassi"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zal",
+      "title": "Mis, yog‘och va qovurish hidi",
+      "items": [
+        {
+          "caption": "Zal markazidagi rosteri",
+          "image": ""
+        },
+        {
+          "caption": "Filtr-qahva bari",
+          "image": ""
+        },
+        {
+          "caption": "Kapping stoli",
+          "image": ""
+        },
+        {
+          "caption": "Mavsum lotlari javoni",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Degustatsiya to‘plamini band qilish kerakmi?",
+          "a": "Yo‘q, to‘plamni istalgan vaqtda buyurtma qilish mumkin. Faqat kapping, master-klass va xususiy degustatsiya uchun bron kerak."
+        },
+        {
+          "q": "Don qachon qovuriladi?",
+          "a": "Payshanba kunlari 10:00 dan 14:00 gacha — kelib ko‘rishingiz mumkin."
+        },
+        {
+          "q": "Uyga don sotib olsa bo‘ladimi?",
+          "a": "Ha, 250 g lik paketlar — 140 000 so‘mdan. Qahvaqaynatgichingizga moslab maydalaymiz."
+        },
+        {
+          "q": "Zal ish uchrashuvlari uchun mos keladimi?",
+          "a": "Ha, deraza yonida sakkiz o‘rinli alohida stol bor — uni oldindan band qiling."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Degustatsiyaga keling",
+      "text": "Maxtumquli, 3 — «Hamid Olimjon» metrosidan besh daqiqada. Payshanba kunlari 10:00 dan qovuramiz.",
+      "cta": {
+        "label": "Band qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

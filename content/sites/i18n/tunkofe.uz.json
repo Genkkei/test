@@ -1,0 +1,288 @@
+{
+  "name": "Tun Kofe",
+  "tagline": "Uxlamaydiganlar uchun qahva va desertlar",
+  "niche": "Tungi soat 3 gacha ishlaydigan qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kun botgandan keyin ishlaydigan tungi qahvaxona, bar yoki kafe uchun sayt. Neon peshlavha, chipta avtomati ko‘rinishidagi menyu, birinchi ekranda ish vaqti.",
+    "features": []
+  },
+  "seo": {
+    "title": "Tun Kofe — Toshkentda tungi 3 gacha qahvaxona",
+    "description": "Shevchenko, 21 da 18:00 dan 3:00 gacha qahva, raf, matcha va desertlar. Tunda ishlash uchun sokin zal, rozetkalar, Mirobod tumani bo‘ylab qahva va pirojniy yetkazib berish.",
+    "keywords": [
+      "tungi qahvaxona Toshkent",
+      "tungi 3 gacha qahva",
+      "tunda desert",
+      "Toshkentda tunda qayerda ishlash",
+      "Mirobod qahvaxona"
+    ],
+    "answer": "Tun Kofe — Toshkent, Taras Shevchenko ko‘chasi, 21 dagi tungi qahvaxona. Har kuni 18:00 dan 3:00 gacha ishlaydi. Kapuchino 28 000 so‘m, raf — 34 000 so‘m, chizkeyk — 36 000 so‘m. Rozetkali sokin zal va Mirobod tumani bo‘ylab 2:30 gacha yetkazib berish bor."
+  },
+  "business": {
+    "legalName": "«Tun Kofe» MChJ",
+    "street": "Taras Shevchenko ko‘chasi, 21",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Tun Kofe",
+      "eyebrow": "Tungi qahvaxona · Shevchenko 21 · 18:00–03:00",
+      "subtitle": "Boshqalar yopilganda ochilamiz. Yangi espresso, iliq desertlar va diplom yozayotgan, rolik montaj qilayotgan yoki shunchaki uxlashni istamaganlar uchun sokinlik.",
+      "words": [
+        "espresso",
+        "raf",
+        "chizkeyk"
+      ],
+      "cta": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Uyga buyurtma",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Espresso",
+        "Lavanda raf",
+        "Matcha",
+        "Chizkeyk",
+        "Sokin zal",
+        "3:00 gacha"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Tungi menyu",
+      "groups": [
+        {
+          "name": "Qahva",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Ikkilik, braziliya qovurilishi",
+              "price": "18 000 so‘m"
+            },
+            {
+              "name": "Kapuchino",
+              "text": "300 ml, suli sutida ham bo‘ladi",
+              "price": "28 000 so‘m"
+            },
+            {
+              "name": "Lavanda raf",
+              "text": "Qaymoq, vanil, lavanda siropi",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Kofeinsiz tungi",
+              "text": "Baribir uxlamoqchi bo‘lganlar uchun dekaf",
+              "price": "26 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qahva emas",
+          "items": [
+            {
+              "name": "Matcha latte",
+              "text": "Marosim matchasi, sut",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Marshmellou kakao",
+              "text": "Belgiya shokoladi",
+              "price": "29 000 so‘m"
+            },
+            {
+              "name": "Chakanda choyi",
+              "text": "Ikki kishilik choynak",
+              "price": "30 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Desertlar",
+          "items": [
+            {
+              "name": "Nyu-York chizkeyki",
+              "text": "Klassik, rezavor sousli",
+              "price": "36 000 so‘m"
+            },
+            {
+              "name": "Iliq brauni",
+              "text": "Plombir sharchasi bilan",
+              "price": "33 000 so‘m"
+            },
+            {
+              "name": "Bodomli kruassan",
+              "text": "17:30 da ochilishga pishiramiz",
+              "price": "27 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Boyo‘g‘li uchun qahvaxona",
+      "text": "Biz o‘zimiz tunda ishlaganmiz va soat o‘ndan keyin noutbuk bilan bemalol o‘tiradigan joy topa olmaganmiz. Shuning uchun Tun Kofe kechki oltida ochiladi: yumshoq yorug‘lik, har stolda rozetka, tez Wi-Fi va o‘ylashga xalaqit bermaydigan musiqa.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Yetkazib berish",
+      "title": "Tunda uyga qahva",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "«Buyurtma»ni bosing va nima olib kelishni yozing."
+        },
+        {
+          "title": "Qo‘ng‘iroq",
+          "text": "Barista besh daqiqada qo‘ng‘iroq qilib, manzilni aniqlaydi."
+        },
+        {
+          "title": "Termoboks",
+          "text": "Ichimliklarni ko‘pigi tushmasligi uchun termoboksda olib boramiz."
+        },
+        {
+          "title": "Eshik oldida",
+          "text": "Mirobod tumani bo‘ylab taxminan 30 daqiqa, oxirgi buyurtma — 2:30."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Tun raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "9",
+          "suffix": "soat",
+          "label": "har tun ochiqmiz"
+        },
+        {
+          "value": "42",
+          "suffix": "",
+          "label": "rozetkali o‘rin"
+        },
+        {
+          "value": "30",
+          "suffix": "daq",
+          "label": "tuman bo‘ylab yetkazish"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "vitrinadagi desert"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zal",
+      "title": "Xalaqit bermaydigan yorug‘lik",
+      "items": [
+        {
+          "caption": "Sokin zal",
+          "image": ""
+        },
+        {
+          "caption": "Lavanda raf",
+          "image": ""
+        },
+        {
+          "caption": "Desert vitrinasi",
+          "image": ""
+        },
+        {
+          "caption": "Tungi 2 dagi peshlavha",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Bu yerda tunda kimlar",
+      "items": [
+        {
+          "quote": "Diplomni burchakdagi stolda to‘rt kechada yozib tugatdim. Lavanda raf endi himoya hidini beradi.",
+          "author": "Malika",
+          "role": "talaba"
+        },
+        {
+          "quote": "Shifoxonadagi tungi smenadan keyin — yaxshi qahvali yagona ochiq joy.",
+          "author": "Otabek",
+          "role": "shifokor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kelishdan oldin",
+      "items": [
+        {
+          "q": "Rostdan 3 gacha ishlaysizmi?",
+          "a": "Ha, har kuni 18:00 dan 3:00 gacha, dam olishsiz. Kassada oxirgi buyurtma — 2:45."
+        },
+        {
+          "q": "Butun tunga noutbuk bilan kelsa bo‘ladimi?",
+          "a": "Mumkin. Har stolda rozetka, Wi-Fi 200 Mbit/s, vaqt cheklovi yo‘q."
+        },
+        {
+          "q": "Qayerga yetkazasiz?",
+          "a": "Mirobod tumani va Yakkasaroyning qo‘shni mavzelariga. Eng kam buyurtma — 60 000 so‘m."
+        },
+        {
+          "q": "Kofeinsiz narsa bormi?",
+          "a": "Ha: dekaf, kakao, chakanda choyi va o‘simlik choylari."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Uyqu kelmayaptimi?",
+      "text": "Shevchenko, 21, kirish hovli tomondan. Har kuni 18:00 dan 3:00 gacha. Uyga qahva buyurtma qiling — yarim soatda olib kelamiz.",
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      }
+    }
+  ]
+}

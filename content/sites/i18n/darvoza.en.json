@@ -1,0 +1,266 @@
+{
+  "name": "Darvoza Plus",
+  "tagline": "Gates, fence, wicket and carport for your house in one order",
+  "niche": "Complete metalwork packages for private houses",
+  "nav": {
+    "cta": {
+      "label": "Book a measure",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a gates, fencing and carport company: ready packages with a plan and price, live job progress in percentages, and measuring bookings.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measure",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Darvoza Plus — gates, fencing and carports in Tashkent",
+    "description": "Ready packages for a house: an entrance gate with wicket, a profiled-sheet or louvred fence, a carport. Design in 2 days, fitted within a week, 3-year guarantee, instalments available.",
+    "keywords": [
+      "gate and fence installation",
+      "sliding gates Tashkent",
+      "carport price",
+      "louvred fence"
+    ],
+    "answer": "Darvoza Plus builds gates, fences, wickets and carports for houses in and around Tashkent as ready packages: “Entrance” (gate and wicket) from 18,000,000 UZS, “Perimeter” (gate plus 30 m of fence) from 42,000,000 UZS, and “Turnkey yard” with a carport from 68,000,000 UZS. Design in 2 days, installation in about a week, 3-year guarantee, up to 6 months’ instalments. Phone +998 71 200-07-05."
+  },
+  "business": {
+    "legalName": "Darvoza Plus LLC",
+    "street": "3 Ahmad Yassavi St, Kibray District",
+    "city": "Kibray",
+    "region": "Tashkent Region",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Gate, fence and carport in one order",
+      "eyebrow": "Metalwork for houses · Tashkent and region",
+      "subtitle": "No need to find three contractors. We design the whole yard: an automated entrance gate, a wicket, a matching fence and a carport.",
+      "words": [
+        "Design in 2 days",
+        "Full installation",
+        "3-year guarantee",
+        "Up to 6 months’ instalments"
+      ],
+      "cta": {
+        "label": "Choose a package",
+        "href": "#packages"
+      },
+      "ctaSecondary": {
+        "label": "Job progress",
+        "href": "#object"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "A yard where everything matches",
+      "text": "Darvoza Plus has its own workshop in Kibray and four installation crews. Gate, fence, wicket and carport are made from one profile in one colour, so the yard looks of a piece. We lay foundations, posts and automation ourselves, with no subcontractors.",
+      "image": ""
+    },
+    {
+      "id": "packages",
+      "type": "works",
+      "label": "Packages",
+      "title": "Choose a package",
+      "items": [
+        {
+          "title": "Package 1 · Entrance",
+          "category": "4 m gate + wicket",
+          "year": "from UZS 18 m",
+          "text": "Swing or sliding gate with a locking wicket, posts set in concrete.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Package 2 · Perimeter",
+          "category": "gate + 30 m of fence",
+          "year": "from UZS 42 m",
+          "text": "Profiled-sheet or louvred fence on a strip foundation.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Package 3 · Turnkey yard",
+          "category": "+ two-car carport",
+          "year": "from UZS 68 m",
+          "text": "Everything in Package 2 plus a polycarbonate or metal-tile carport.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Package 4 · Automation",
+          "category": "motor + remotes + photocells",
+          "year": "from UZS 9 m",
+          "text": "A motor for existing gates, opened by phone or remote.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "type": "process",
+      "label": "Live job",
+      "title": "Building now: a house in Kibray",
+      "items": [
+        {
+          "title": "Measuring and design — 100%",
+          "text": "Approved a 5 m sliding gate and a graphite louvred fence."
+        },
+        {
+          "title": "Foundation and posts — 100%",
+          "text": "42 m of strip foundation poured and cured."
+        },
+        {
+          "title": "Workshop fabrication — 80%",
+          "text": "Fence panels done, the gate is being painted."
+        },
+        {
+          "title": "Installation — 35%",
+          "text": "12 of 34 fence panels installed."
+        },
+        {
+          "title": "Automation — 0%",
+          "text": "The motor goes in after the gate is hung — planned for Friday."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": " days",
+          "label": "for design and estimate"
+        },
+        {
+          "value": "7",
+          "suffix": " days",
+          "label": "to install “Perimeter”"
+        },
+        {
+          "value": "3",
+          "suffix": " years",
+          "label": "guarantee"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "installation crews"
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "type": "services",
+      "label": "Extras",
+      "title": "Add-ons",
+      "items": [
+        {
+          "title": "Wicket canopy",
+          "text": "Same profile, with a gutter.",
+          "price": "from 2,400,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Video intercom",
+          "text": "A call panel on the wicket and a screen indoors.",
+          "price": "from 3,200,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Post lighting",
+          "text": "A light on every post, switched by sensor.",
+          "price": "from 450,000 UZS per post",
+          "tag": ""
+        },
+        {
+          "title": "Mailbox and house number",
+          "text": "Laser-cut to match the gate.",
+          "price": "from 900,000 UZS",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "Yards we have built",
+      "items": [
+        {
+          "caption": "Kibray, graphite louvres",
+          "image": ""
+        },
+        {
+          "caption": "Zangiata, 6 m sliding gate",
+          "image": ""
+        },
+        {
+          "caption": "Yunusabad, two-car carport",
+          "image": ""
+        },
+        {
+          "caption": "Sergeli, wicket with canopy",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I order just a gate?",
+          "a": "Yes — the “Entrance” package is a gate with a wicket, and the rest can be added later in the same style."
+        },
+        {
+          "q": "How do instalments work?",
+          "a": "30% on order, the rest in equal parts over up to 6 months at no extra cost."
+        },
+        {
+          "q": "Do you work outside the city?",
+          "a": "Yes, across Tashkent Region; measuring is free within 40 km."
+        },
+        {
+          "q": "What does the guarantee cover?",
+          "a": "Three years on structure, welds and paint; one year on automation."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send a photo of your plot — we will price a package",
+      "text": "3 Ahmad Yassavi St, Kibray. Mon–Sat 9:00–18:00. Profile and colour samples are in the showroom at the workshop.",
+      "cta": {
+        "label": "Book a measure",
+        "href": "#order"
+      }
+    }
+  ]
+}

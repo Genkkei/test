@@ -1,0 +1,263 @@
+{
+  "name": "Sahifa",
+  "tagline": "Kitob o‘qiladigan qahvaxona",
+  "niche": "Qahvaxona va kitob klubi",
+  "nav": {
+    "cta": {
+      "label": "Klubga yozilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kitob qahvaxonasi, adabiy klub yoki kichik kitob do‘koni uchun sayt. Birinchi ekranda kitob tokchalari, klassik muqova uslubidagi oy kitoblari, klub uchrashuvlari kartochkalarda.",
+    "features": []
+  },
+  "seo": {
+    "title": "Sahifa — Toshkentdagi qahvaxona va kitob klubi",
+    "description": "Buyuk Ipak Yo‘li, 31 da qahva, pishiriqlar va javonlarda ming kitob. Chorshanba kunlari kitob klubi, kitob almashinuvi, o‘qish uchun sokin stollar. 9:00 dan 23:00 gacha ochiq.",
+    "keywords": [
+      "kitob qahvaxonasi Toshkent",
+      "kitob klubi Toshkent",
+      "qahva va kitoblar",
+      "kitob almashinuvi",
+      "Mirzo Ulug‘bek kafe"
+    ],
+    "answer": "Sahifa — Toshkent, Buyuk Ipak Yo‘li ko‘chasi, 31 dagi kutubxonali qahvaxona. Har kuni 9:00 dan 23:00 gacha ishlaydi. Kapuchino 26 000 so‘m, chorshanba kunlari 19:00 dagi kitob klubi — qahva va desert bilan 60 000 so‘m. Javondagi kitoblarni bepul o‘qish va almashtirish mumkin."
+  },
+  "business": {
+    "legalName": "«Sahifa» MChJ",
+    "street": "Mirzo Ulug‘bek, Buyuk Ipak Yo‘li ko‘chasi, 31",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Bir piyola qahva va yana bir bob",
+      "eyebrow": "Kitob qahvaxonasi · Buyuk Ipak Yo‘li, 31",
+      "subtitle": "Javonlarda stolda o‘qish mumkin bo‘lgan ming kitob, yangi pishiriqlar va qo‘shni qovurish sexidan qahva. Chorshanba kunlari — kitob klubi, yakshanbada — kitob almashinuvi.",
+      "words": [
+        "Roman",
+        "She’riyat",
+        "O‘zbek klassikasi",
+        "Non-fikshn",
+        "Bolalar",
+        "Ingliz tilida"
+      ],
+      "cta": {
+        "label": "Oy kitobi",
+        "href": "#books"
+      },
+      "ctaSecondary": {
+        "label": "Klubga yozilish",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Qahva",
+        "Kitoblar",
+        "Chorshanba klubi",
+        "Kitob almashinuvi",
+        "Sokin stollar",
+        "Pishiriqlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Shivirlab gaplashsa bo‘ladigan kutubxona",
+      "text": "Sahifa — o‘zbekcha bet degani. Kitoblarni do‘stlar va o‘quvchilarning uy kutubxonalaridan to‘pladik: klassika, zamonaviy nasr, uch tildagi kitoblar. Istalganini stolga olib borish, o‘zingiznikini esa almashinuv javoniga qoldirish mumkin. Rozetkalar bor, lekin baland qo‘ng‘iroqlarni terassaga olib chiqishni so‘raymiz.",
+      "image": ""
+    },
+    {
+      "id": "books",
+      "type": "works",
+      "label": "Mavsum klubi",
+      "title": "Kuzda nima o‘qiymiz",
+      "items": [
+        {
+          "title": "O‘tkan kunlar",
+          "category": "Abdulla Qodiriy",
+          "year": "5-noyabr uchrashuvi",
+          "text": "Birinchi o‘zbek romani — butun klub bilan qayta o‘qiymiz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Master va Margarita",
+          "category": "Mixail Bulgakov",
+          "year": "12-noyabr uchrashuvi",
+          "text": "Bosh qahramon kimligi haqida bahslashamiz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kichkina shahzoda",
+          "category": "Antuan de Sent-Ekzyuperi",
+          "year": "19-noyabr uchrashuvi",
+          "text": "Ota-onalar va bolalar uchun uchrashuv.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yolg‘izlikning yuz yili",
+          "category": "Gabriel Garsia Markes",
+          "year": "26-noyabr uchrashuvi",
+          "text": "Buendiya oila shajarasini salfetkalarda chizamiz.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "formats",
+      "type": "services",
+      "label": "Bizda nima bor",
+      "title": "Kelish uchun to‘rt sabab",
+      "intro": "",
+      "items": [
+        {
+          "title": "Kitob klubi",
+          "text": "Chorshanba kunlari 19:00 da hafta kitobini muhokama qilamiz. Qahva va desert kiradi.",
+          "price": "60 000 so‘m",
+          "tag": "chorshanba"
+        },
+        {
+          "title": "Kitob almashinuvi",
+          "text": "O‘qilgan kitobni olib keling — almashinuv javonidan istalganini oling.",
+          "price": "bepul",
+          "tag": "yakshanba"
+        },
+        {
+          "title": "Ovoz chiqarib o‘qish",
+          "text": "Bolalar soati: o‘zbek va rus tilida ertak o‘qiymiz.",
+          "price": "30 000 so‘m",
+          "tag": "shanba"
+        },
+        {
+          "title": "Mualliflar bilan uchrashuv",
+          "text": "Oyiga bir marta yozuvchi va tarjimonlarni taklif qilamiz.",
+          "price": "80 000 so‘m",
+          "tag": "oyiga bir"
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "O‘qish uchun",
+      "groups": [
+        {
+          "name": "Qahva va choy",
+          "items": [
+            {
+              "name": "Kapuchino",
+              "text": "300 ml",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Filtr qahva",
+              "text": "Uzun bob uchun 500 ml li qahvadon",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Kakliko‘tli choy",
+              "text": "Choynak",
+              "price": "24 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Pishiriqlar",
+          "items": [
+            {
+              "name": "Olmali shtrudel",
+              "text": "Vanil sousi bilan",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Sirniki",
+              "text": "Qaymoq va asal bilan, 13:00 gacha",
+              "price": "35 000 so‘m"
+            },
+            {
+              "name": "Sabzili tort",
+              "text": "Yong‘oq bilan",
+              "price": "34 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "O‘quvchilar",
+      "title": "Klubda nima deyishadi",
+      "items": [
+        {
+          "quote": "Qahva uchun kelgandim, «O‘tkan kunlar» va klub abonementi bilan ketdim.",
+          "author": "Nigora",
+          "role": "adabiyot o‘qituvchisi"
+        },
+        {
+          "quote": "Sokinlik tasodif emas, qoida bo‘lgan yagona qahvaxona.",
+          "author": "Bahrom",
+          "role": "tarjimon"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Hammasi qanday tashkil etilgan",
+      "items": [
+        {
+          "q": "Kitoblarni uyga olib ketsa bo‘ladimi?",
+          "a": "Umumiy javonlardan — yo‘q, stolda o‘qing. Almashinuv javonidan — ha, o‘rniga o‘zingiznikini qoldirib."
+        },
+        {
+          "q": "Kitob klubiga qanday kirish mumkin?",
+          "a": "Ariza qoldiring — hafta kitobini yuboramiz va uchrashuvni eslatamiz. Ishtirok — qahva va desert bilan 60 000 so‘m."
+        },
+        {
+          "q": "Noutbuk bilan ishlasa bo‘ladimi?",
+          "a": "Ha, deraza yonidagi zalda. Qo‘ng‘iroqlar — o‘quvchilarga xalaqit bermaslik uchun terassada."
+        },
+        {
+          "q": "O‘zbek tilidagi kitoblar bormi?",
+          "a": "Ha, javonlarning qariyb uchdan biri — o‘zbek adabiyoti va o‘zbek tiliga tarjimalar."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Stolingiz kutmoqda",
+      "text": "Buyuk Ipak Yo‘li, 31, ikkinchi qavat. Har kuni 9:00 dan 23:00 gacha. Klubga yoziling — hafta kitobini yuboramiz.",
+      "cta": {
+        "label": "Yozilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

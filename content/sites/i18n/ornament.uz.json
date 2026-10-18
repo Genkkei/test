@@ -1,0 +1,317 @@
+{
+  "name": "Ornament",
+  "tagline": "Avloddan avlodga o‘tadigan badiiy temirchilik",
+  "niche": "Badiiy temirchilik: panjaralar, zinapoyalar, balkonlar, darvozalar va metall bezaklar",
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchini chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Temirchilik va badiiy zarb ustaxonasi uchun sayt. Birinchi ekrandagi panjara jingalakma-jingalak chiziladi, katalogdagi har bir mahsulotning o‘z belgisi bor, ishlar ravoqli ramkalarda.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Ornament — Toshkentda badiiy temirchilik",
+    "description": "Eskizingiz bo‘yicha zarb qilingan panjaralar, zinapoyalar, balkonlar va darvozalar. Qo‘l mehnati, issiq zarb, kukunli bo‘yoq, Toshkent bo‘ylab kalit topshirish.",
+    "keywords": [
+      "badiiy temirchilik Toshkent",
+      "zarb qilingan panjara",
+      "temir zinapoya",
+      "temir darvoza",
+      "temir balkon"
+    ],
+    "answer": "Ornament — Toshkentdagi Chupon-ota ko‘chasi, 18 da joylashgan badiiy temirchilik ustaxonasi. Zarb qilingan panjaralar har metri 1 200 000 so‘mdan, balkonlar metri 1 500 000 so‘mdan, darvozalar 9 000 000 so‘mdan. O‘lchov va eskiz bepul, tayyorlash muddati 3 haftadan, payvand va bo‘yoqqa 5 yil kafolat."
+  },
+  "business": {
+    "legalName": "«Ornament Metall» MChJ",
+    "street": "Chupon-ota ko‘chasi, 18",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Dantelga aylangan metall",
+      "eyebrow": "Badiiy temirchilik · Toshkent · 2012-yildan",
+      "subtitle": "Panjaralar, zinapoyalar, balkonlar va darvozalar — eskizingiz bo‘yicha. Har bir jingalakni o‘choqda qo‘lda zarb qilamiz va joyida moslaymiz.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ishlarni ko‘rish",
+        "href": "#works"
+      },
+      "image": "",
+      "words": [
+        "panjaralar",
+        "zinapoyalar",
+        "balkonlar",
+        "darvozalar"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "issiq zarb",
+        "qo‘l mehnati",
+        "eskiz bepul",
+        "kukunli bo‘yoq",
+        "patina va zarhal",
+        "kalit topshirish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Sex emas, temirchilik ustaxonasi",
+      "text": "Biz katalogdagi detallarni shtamplamaymiz. Har bir barg, jingalak va nayzani temirchilarimiz tasma va sim temirdan, o‘choq va sandonda zarb qiladi. Shu sababli panjara zinapoyangiz egilishini, darvoza esa fasad naqshini takrorlaydi.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Mahsulotlar",
+      "title": "Nimalarni zarb qilamiz",
+      "intro": "Narxlar — kukunli bo‘yoq bilan, o‘rnatishsiz. Aniq summani o‘lchov va eskizdan keyin aytamiz.",
+      "items": [
+        {
+          "title": "Panjaralar va to‘siqlar",
+          "text": "Zinapoya, terassa va galereyalar uchun: oddiy sterjenlardan qalin o‘simlik naqshigacha.",
+          "price": "1 200 000 so‘mdan / metr",
+          "tag": "3–4 hafta"
+        },
+        {
+          "title": "Metall karkasli zinapoyalar",
+          "text": "Marshli va vintli, yog‘och pog‘onalar va zarb qilingan balyasinlar bilan.",
+          "price": "18 000 000 so‘mdan",
+          "tag": "5–7 hafta"
+        },
+        {
+          "title": "Balkonlar va fransuz derazalari",
+          "text": "«Savatcha» shaklidagi qavariq va to‘g‘ri, gullar va monogramma bilan.",
+          "price": "1 500 000 so‘mdan / metr",
+          "tag": "3–4 hafta"
+        },
+        {
+          "title": "Darvoza va eshikchalar",
+          "text": "Ochiladigan va suriladigan, avtomatika uchun, yaxlit yoki ajurli.",
+          "price": "9 000 000 so‘mdan",
+          "tag": "4–6 hafta"
+        },
+        {
+          "title": "Soyabon va ayvonlar",
+          "text": "Kirish, ayvon va terassa ustida — polikarbonat yoki shisha bilan.",
+          "price": "3 500 000 so‘mdan",
+          "tag": "2–3 hafta"
+        },
+        {
+          "title": "Bezaklar va mebel",
+          "text": "Shamdonlar, kamin to‘plamlari, stollar va zarb qilingan suyanchiqli karavotlar.",
+          "price": "400 000 so‘mdan",
+          "tag": "1–3 hafta"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Qo‘l bilan yasalgan",
+      "intro": "",
+      "items": [
+        {
+          "title": "Darxondagi uy zinapoyasi",
+          "category": "Zinapoya",
+          "year": "2025",
+          "text": "Vintli, 14 pog‘ona, akant barglari bilan balyasinlar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qibraydagi hovli darvozasi",
+          "category": "Darvoza",
+          "year": "2025",
+          "text": "Suriladigan, 6 metr, zarhal nayzalar bilan.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mirobodda balkonlar",
+          "category": "Balkonlar",
+          "year": "2024",
+          "text": "Fasadni ta’mirlash uchun sakkizta fransuz balkoni.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restoran terassasi panjarasi",
+          "category": "Panjara",
+          "year": "2024",
+          "text": "Uzum novdasi naqshli 42 metr.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Klinika kirishi ustidagi soyabon",
+          "category": "Soyabon",
+          "year": "2023",
+          "text": "Zarb qilingan karkas va toblangan shisha.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kamin to‘plami va to‘sig‘i",
+          "category": "Bezak",
+          "year": "2023",
+          "text": "«Eski bronza» patinasi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "13",
+          "suffix": " yil",
+          "label": "o‘choq yonida"
+        },
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "mahsulot topshirilgan"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "payvand va bo‘yoqqa kafolat"
+        },
+        {
+          "value": "0",
+          "suffix": " so‘m",
+          "label": "o‘lchov va eskiz uchun"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "O‘lchovdan o‘rnatishgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta metall va patina namunalari bilan keladi, o‘lchamlarni oladi, uslubni muhokama qilamiz."
+        },
+        {
+          "title": "Eskiz va smeta",
+          "text": "Masshtabda 2–3 variant chizamiz va aniq narxni hisoblaymiz. Yoqsagina to‘laysiz."
+        },
+        {
+          "title": "Zarb",
+          "text": "Detallarni qo‘lda zarb qilamiz, stendda yig‘amiz va foto hamda video yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Qum purkash, grunt, kukunli bo‘yoq va patina — metall yillar davomida zanglamaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Bir kunda o‘rnatamiz, joyni tozalab ketamiz va kafolat beramiz."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Panjara eskizdagidek chiqdi. Usta suyanchiqni emandan qilishni o‘zi taklif qildi — endi bu uyning asosiy bezagi.",
+          "author": "Dilnoza",
+          "role": "xususiy uy, Yunusobod"
+        },
+        {
+          "quote": "40 metrli darvoza va panjara buyurtma qildik. Ikki kunda olib kelib o‘rnatishdi, hammasi tekis, payvand izlari yo‘q.",
+          "author": "Sherzod",
+          "role": "kottej, Qibray"
+        },
+        {
+          "quote": "Eski uy balkonlarini fotosuratlar bo‘yicha tikladik. Naqsh jingalagigacha takrorlandi.",
+          "author": "Anna",
+          "role": "arxitektor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Zarb qilingan panjara qancha turadi?",
+          "a": "Bo‘yoq bilan har metri 1 200 000 so‘mdan. Narx naqsh zichligi va metall qalinligiga qarab oshadi — aniq summani eskizdan keyin aytamiz."
+        },
+        {
+          "q": "O‘lchov haqiqatan bepulmi?",
+          "a": "Ha, Toshkent bo‘ylab o‘lchov va eskiz bepul. Viloyatga — 150 000 so‘m, buyurtmadan chegiriladi."
+        },
+        {
+          "q": "Tayyorlash qancha vaqt oladi?",
+          "a": "Panjara va balkonlar — 3–4 hafta, darvozalar — 4–6, zinapoyalar — eskiz tasdiqlangandan keyin 5–7 hafta."
+        },
+        {
+          "q": "Metall zanglamaydimi?",
+          "a": "Bo‘yashdan oldin metallni qum bilan tozalab, gruntlaymiz, so‘ng kukunli bo‘yoq surtamiz. Qoplamaga 5 yil kafolat beramiz."
+        },
+        {
+          "q": "O‘z rasmim bo‘yicha buyurtma bersa bo‘ladimi?",
+          "a": "Albatta: rasm yoki chizmani Telegramga yuboring — uni chizmaga aylantiramiz va o‘lchamlaringizga moslashni taklif qilamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Eskizingizni muhokama qilamiz",
+      "text": "Qo‘ng‘iroq qiling yoki ariza qoldiring — o‘lchovchi qulay kuni metall namunalari bilan keladi.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

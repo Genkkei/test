@@ -1,0 +1,351 @@
+{
+  "name": "Modul",
+  "tagline": "Made-to-measure wardrobes and cabinetry — accurate to the centimetre",
+  "niche": "Custom cabinetry: sliding wardrobes, walk-in closets, kitchens, hallways",
+  "nav": {
+    "cta": {
+      "label": "Book a measurement",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a cabinetry maker: a live wardrobe configurator with a drawing and an estimate, styled like an assembly manual — graph paper, dimension lines and a yellow marker.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Modul — custom wardrobes and cabinetry in Tashkent",
+    "description": "Sliding wardrobes, walk-in closets, kitchens and hallways made to your measurements. Price a wardrobe online, free measuring, made in 14 days, installed in Tashkent.",
+    "keywords": [
+      "custom sliding wardrobe Tashkent",
+      "custom cabinetry",
+      "walk-in closet",
+      "built-in wardrobe",
+      "custom kitchen Tashkent",
+      "wardrobe price calculator"
+    ],
+    "answer": "Modul makes custom cabinetry in Tashkent, with a workshop and showroom at 28 Katartal St, open Mon–Sat 9:00–19:00. A hinged-door wardrobe starts at 2,600,000 UZS per m² of front, a sliding wardrobe at 3,100,000 UZS per m²; measuring is free, production takes 14–21 days, installation included."
+  },
+  "business": {
+    "legalName": "Modul Mebel LLC",
+    "street": "28 Katartal St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Wardrobes that fit",
+      "eyebrow": "Custom cabinetry · Tashkent",
+      "subtitle": "We design, cut and assemble everything ourselves — from a hallway niche to a wall-to-wall closet. Price your wardrobe online in a minute.",
+      "cta": {
+        "label": "Price a wardrobe",
+        "href": "#calc"
+      },
+      "ctaSecondary": {
+        "label": "Our work",
+        "href": "#projects"
+      },
+      "image": "",
+      "words": [
+        "measure",
+        "design",
+        "workshop",
+        "install"
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": " days",
+          "label": "shortest production time"
+        },
+        {
+          "value": "0",
+          "suffix": " UZS",
+          "label": "measuring and design"
+        },
+        {
+          "value": "3",
+          "suffix": " yrs",
+          "label": "hardware warranty"
+        },
+        {
+          "value": "1",
+          "suffix": " mm",
+          "label": "CNC cutting accuracy"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Calculator",
+      "title": "Build your wardrobe",
+      "items": [
+        {
+          "name": "Hinged",
+          "price": "2 600 000",
+          "period": "UZS per m² of front",
+          "features": [
+            "Egger board, Blum soft-close hinges"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Sliding",
+          "price": "3 100 000",
+          "period": "UZS per m² of front",
+          "features": [
+            "Aluminium frame, silent rollers"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Open shelving",
+          "price": "1 700 000",
+          "period": "UZS per m² of front",
+          "features": [
+            "No doors, 25 mm shelves"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Drawer block",
+          "price": "650 000",
+          "period": "UZS per block",
+          "features": [
+            "Three full-extension drawers"
+          ],
+          "featured": false
+        },
+        {
+          "name": "LED lighting",
+          "price": "480 000",
+          "period": "UZS per section",
+          "features": [
+            "Turns on when the door opens"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mirror door",
+          "price": "900 000",
+          "period": "UZS per door",
+          "features": [
+            "4 mm silver mirror with safety film"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "type": "services",
+      "label": "What we make",
+      "title": "Parts for the whole home",
+      "intro": "Every piece is designed for your room: niches, pipes and sloped ceilings are not a problem.",
+      "items": [
+        {
+          "title": "Sliding wardrobes",
+          "text": "Wall to wall and floor to ceiling, with mirrors or frosted glass.",
+          "price": "from 3,100,000 UZS/m²",
+          "tag": "14–21 days"
+        },
+        {
+          "title": "Walk-in closets",
+          "text": "Storage systems with rails, drawers and shoe shelves.",
+          "price": "from 9,500,000 UZS",
+          "tag": "18–24 days"
+        },
+        {
+          "title": "Kitchens",
+          "text": "Painted or veneered MDF fronts, quartz worktops.",
+          "price": "from 2,900,000 UZS/linear m",
+          "tag": "21–30 days"
+        },
+        {
+          "title": "Hallways",
+          "text": "Wardrobe, bench and mirror in one composition.",
+          "price": "from 6,200,000 UZS",
+          "tag": "14–18 days"
+        },
+        {
+          "title": "Kids’ rooms",
+          "text": "Shelving, a loft bed and a desk that grow with the child.",
+          "price": "from 7,800,000 UZS",
+          "tag": "18–24 days"
+        },
+        {
+          "title": "TV walls & shelving",
+          "text": "Cabinets, shelves and hidden cable channels for your tech.",
+          "price": "from 4,300,000 UZS",
+          "tag": "14–18 days"
+        }
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Egger",
+        "Blum",
+        "Hettich",
+        "CNC cutting",
+        "2 mm edging",
+        "Installation included"
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Recently assembled",
+      "items": [
+        {
+          "title": "Bedroom sliding wardrobe",
+          "category": "Yunusabad",
+          "year": "3200 × 2700",
+          "text": "Four doors, two mirrored, lighting inside.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Walk-in closet",
+          "category": "Tashkent City",
+          "year": "2400 × 1800",
+          "text": "U-shaped system, 14 drawers, an island for watches.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kitchen with an island",
+          "category": "Mirzo Ulugbek",
+          "year": "4100 + 1800",
+          "text": "Sage-coloured enamel, quartz worktop.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hallway in a niche",
+          "category": "Chilanzar",
+          "year": "1600 × 2600",
+          "text": "Wardrobe, bench with a drawer, full-length mirror.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "type": "process",
+      "label": "How we work",
+      "title": "Five steps to a finished wardrobe",
+      "items": [
+        {
+          "title": "Measure",
+          "text": "We come on a day that suits you, free in Tashkent."
+        },
+        {
+          "title": "Design",
+          "text": "3D render and quote in 1–2 days."
+        },
+        {
+          "title": "Contract",
+          "text": "We fix price and timing; 50% deposit."
+        },
+        {
+          "title": "Workshop",
+          "text": "CNC cutting, edging, carcass assembly."
+        },
+        {
+          "title": "Install",
+          "text": "Installed in a day, debris removed, warranty issued."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our clients",
+      "items": [
+        {
+          "quote": "The calculator showed 14 million and the contract came to 14.6 — because of the lighting we asked for ourselves.",
+          "author": "Shahzod",
+          "role": "sliding wardrobe"
+        },
+        {
+          "quote": "A niche with a pipe in it, and the wardrobe went in without a single gap.",
+          "author": "Lola",
+          "role": "hallway"
+        },
+        {
+          "quote": "They assembled the closet in one day and cleaned up after themselves.",
+          "author": "Rustam",
+          "role": "walk-in closet"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "How accurate is the calculator?",
+          "a": "Usually within 10% of the contract: we confirm the exact price after measuring and fix it in the contract."
+        },
+        {
+          "q": "Is measuring really free?",
+          "a": "Yes, free and with no obligation in Tashkent. Outside the city it is 100,000 UZS, deducted from the order."
+        },
+        {
+          "q": "What materials do you use?",
+          "a": "Egger E1 board, enamelled MDF, Blum and Hettich hardware."
+        },
+        {
+          "q": "How long does production take?",
+          "a": "From 14 days for a sliding wardrobe to 30 days for an enamelled kitchen."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Book a measurement",
+      "text": "Workshop and showroom at 28 Katartal. See board, front and hardware samples in person.",
+      "cta": {
+        "label": "Call us",
+        "href": "tel:+998712000113"
+      }
+    }
+  ]
+}

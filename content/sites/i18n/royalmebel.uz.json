@@ -1,0 +1,246 @@
+{
+  "name": "Royal Mebel",
+  "tagline": "Yotoqxona va mehmonxona uchun klassik mebel",
+  "niche": "Klassik mebel",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Klassik mebel saloni uchun sayt: pasportli garnitur kartochkalari, alohida buyumlar narxnomasi, sekin kadrlar va Telegramga buyurtma formasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Royal Mebel — yotoqxona va mehmonxona uchun klassik mebel",
+    "description": "Yong‘oq va qoraqayin yaxlit yog‘ochidan klassik uslubdagi yotoqxona va mehmonxonalar: garniturlar 24 000 000 so‘mdan, alohida buyumlar, to‘y to‘plamlari. Amir Temurdagi salon.",
+    "keywords": [
+      "klassik mebel Toshkent",
+      "yotoqxona garnituri",
+      "mehmonxona mebeli",
+      "to‘y mebeli",
+      "yaxlit yog‘och mebel"
+    ],
+    "answer": "Royal Mebel — Toshkentdagi klassik mebel saloni (Amir Temur shoh ko‘chasi, 107). Yaxlit yog‘ochdan yotoqxona garniturlari 24 000 000 so‘mdan, mehmonxonalar 31 000 000 so‘mdan, buyurtma asosida tayyorlash 30–45 kun. Toshkent bo‘ylab yetkazish va yig‘ish bepul, yaxlit yog‘ochga kafolat 3 yil."
+  },
+  "business": {
+    "legalName": "«Royal Mebel» MChJ",
+    "street": "Amir Temur shoh ko‘chasi, 107",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston viloyatlari",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bolalarga meros qoladigan mebel",
+      "eyebrow": "Klassik mebel saloni · 2011 yildan",
+      "subtitle": "Qo‘lda o‘yilgan va patinali yong‘oq va qoraqayin yaxlit yog‘ochidan yotoqxona va mehmonxonalar. Xonangizga to‘plam yig‘amiz va 30–45 kunda olib kelamiz.",
+      "words": [],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Garniturlar",
+        "href": "#sets"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Salon",
+      "title": "Qo‘lda o‘ymakorlik, ko‘rinadigan bitta ham mixsiz yig‘ish",
+      "text": "Chirchiqdagi fabrikamiz 2011 yildan ishlaydi: yog‘ochni o‘zimiz quritamiz, o‘ymakorlikni qo‘lda kesamiz, olti qatlam lak bilan qoplaymiz. Amir Temurdagi salonda oltita garnitur to‘liq turibdi — karavotda yotib ko‘rish va har bir tortmani ochish mumkin.",
+      "image": ""
+    },
+    {
+      "id": "sets",
+      "type": "services",
+      "label": "Garniturlar",
+      "title": "Salonda oltita garnitur",
+      "intro": "",
+      "items": [
+        {
+          "title": "«Venetsiya» yotoqxonasi",
+          "text": "O‘yma boshli karavot, ikki tumba, oynali komod va olti eshikli shkaf.",
+          "price": "38 000 000 so‘mdan",
+          "tag": "Yong‘oq · 6 buyum"
+        },
+        {
+          "title": "«Shirin» yotoqxonasi",
+          "text": "Och patina, yumshoq bosh, kelin uchun pardoz stoli.",
+          "price": "24 000 000 so‘mdan",
+          "tag": "Qoraqayin · 5 buyum"
+        },
+        {
+          "title": "«Registon» mehmonxonasi",
+          "text": "Jakkardli divan va ikki kreslo, idish vitrinasi va jurnal stoli.",
+          "price": "31 000 000 so‘mdan",
+          "tag": "Yong‘oq · 5 buyum"
+        },
+        {
+          "title": "«Dasturxon» oshxonasi",
+          "text": "12 kishilik yig‘ma stol va o‘yma suyanchiqli stullar.",
+          "price": "27 000 000 so‘mdan",
+          "tag": "Qoraqayin · 13 buyum"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "menu",
+      "label": "Narxlar",
+      "title": "Alohida buyumlar",
+      "groups": [
+        {
+          "name": "Yotoqxona",
+          "items": [
+            {
+              "name": "Karavot 180 × 200",
+              "text": "O‘yma bosh, ortopedik asos",
+              "price": "9 800 000 so‘mdan"
+            },
+            {
+              "name": "Oynali komod",
+              "text": "Yopgichli besh tortma",
+              "price": "5 400 000 so‘mdan"
+            },
+            {
+              "name": "Karavot yonidagi tumba",
+              "text": "Tortma va javon",
+              "price": "1 900 000 so‘mdan"
+            }
+          ]
+        },
+        {
+          "name": "Mehmonxona",
+          "items": [
+            {
+              "name": "Uch o‘rinli divan",
+              "text": "Tanlov bo‘yicha jakkard yoki velyur",
+              "price": "12 500 000 so‘mdan"
+            },
+            {
+              "name": "Idish vitrinasi",
+              "text": "Fasetli oyna, yoritish",
+              "price": "8 200 000 so‘mdan"
+            },
+            {
+              "name": "Kreslo",
+              "text": "Qoraqayin karkas, o‘yma suyanchiqlar",
+              "price": "4 300 000 so‘mdan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moments",
+      "type": "gallery",
+      "label": "Salon",
+      "title": "Jonli ko‘rinishi",
+      "items": [
+        {
+          "caption": "Yong‘oqqa o‘ymakorlik",
+          "image": ""
+        },
+        {
+          "caption": "«Fil suyagi» patinasi",
+          "image": ""
+        },
+        {
+          "caption": "Mehmonxona uchun jakkard",
+          "image": ""
+        },
+        {
+          "caption": "Latun furnitura",
+          "image": ""
+        },
+        {
+          "caption": "Chirchiqdagi quritish kamerasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Buyurtma",
+      "title": "Garniturni qanday buyurtma qilish",
+      "items": [
+        {
+          "title": "Salonda tanlash",
+          "text": "Patina rangi va matoni namunalar bo‘yicha tanlaymiz."
+        },
+        {
+          "title": "Xonani o‘lchash",
+          "text": "Shkaf eshikdan o‘tishi va tokchaga sig‘ishini tekshiramiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Fabrikada 30–45 kun, har bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Yetkazish va yig‘ish",
+          "text": "Toshkent bo‘ylab bepul, viloyatlarga — tashuvchi tarifida."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Garniturdan bitta buyumni olsa bo‘ladimi?",
+          "a": "Ha, har qanday buyum narxnoma bo‘yicha alohida sotiladi."
+        },
+        {
+          "q": "To‘y to‘plamlarini qilasizmi?",
+          "a": "Ha, yoshlar uchun yotoqxona va mehmonxona 7% chegirma va sanaga qadoqlash bilan."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, hamkor banklar orqali 12 oygacha."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Yaxlit yog‘ochga 3 yil, mato va mexanizmlarga 1 yil."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Salonga keling",
+      "text": "Amir Temur, 107. Du–sha 10:00–20:00, ya 11:00–18:00. Qahva va maslahat — bepul.",
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      }
+    }
+  ]
+}

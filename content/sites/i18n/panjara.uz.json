@@ -1,0 +1,292 @@
+{
+  "name": "Panjara",
+  "tagline": "Deraza, balkon va eshiklar uchun temir panjaralar",
+  "niche": "Temir panjaralar va balkon to‘siqlari",
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchini chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Temir panjara ustaxonasi uchun sayt: naqshlar katalogi «afisha» ko‘rinishida, partér, beletaj va lojadagi chiptalar kabi uch narx darajasi, o‘lchashga yozilish.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Panjara — Toshkentda deraza va balkonlar uchun panjaralar",
+    "description": "Deraza, balkon va eshiklar uchun panjaralar: oddiy kvadrat profildan jingalakli badiiy temirchilikkacha. O‘lchash bepul, tayyorlash 10 kun, kukunli bo‘yoq, kafolat 5 yil.",
+    "keywords": [
+      "temir panjara Toshkent",
+      "deraza panjaralari",
+      "balkon to‘sig‘i",
+      "eshik panjarasi"
+    ],
+    "answer": "Panjara Toshkentda deraza, balkon va eshiklar uchun temir panjaralar yasaydi: 12 mm kvadratdan oddiy panjara — m² uchun 650 000 so‘mdan, temirchilik elementlari bilan — 950 000 so‘mdan, badiiy — 1 600 000 so‘mdan. O‘lchash bepul, muddat 10 ish kuni, kafolat 5 yil. Telefon +998 71 200-07-02."
+  },
+  "business": {
+    "legalName": "YaTT «Panjara»",
+    "street": "Yunusobod, 11-mavze, 4",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Panjara",
+      "eyebrow": "Temir panjaralar · Toshkent · buyurtmalar mavsumi ochiq",
+      "subtitle": "Uyni himoya qiladigan va fasadni yashirmaydigan deraza, balkon va eshik panjaralari. Derazangizga naqsh chizamiz, yasaymiz, kukun bilan bo‘yaymiz va bir kunda o‘rnatamiz.",
+      "words": [
+        "Derazalar",
+        "Balkonlar",
+        "Eshiklar"
+      ],
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Naqshlar",
+        "href": "#patterns"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona haqida",
+      "title": "Panjara — uy mehmonlari ko‘radigan birinchi narsa",
+      "text": "Ustaxonamiz Yunusobodda, unda to‘rt temirchi va rassom ishlaydi. Har bir naqshni avval fasadingiz suratiga chizamiz — panjara katalogga emas, derazangizga mos bo‘lsin. Birinchi qavat panjaralarini yong‘in xavfsizligi uchun ochiladigan tavaqa bilan yasaymiz.",
+      "image": ""
+    },
+    {
+      "id": "patterns",
+      "type": "works",
+      "label": "Naqshlar",
+      "title": "Naqshlar repertuari",
+      "items": [
+        {
+          "title": "«Qat’iy katak»",
+          "category": "Deraza · 12 mm kvadrat",
+          "year": "I parda",
+          "text": "Bezaksiz tekis to‘r — zamonaviy fasad va ofislar uchun.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Quyosh chiqishi»",
+          "category": "Deraza · burchakdan nurlar",
+          "year": "II parda",
+          "text": "Tayoqlar pastki burchakdan yelpig‘ichday tarqaladi, markazda — temir quyosh.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Tok novdasi»",
+          "category": "Balkon · badiiy temirchilik",
+          "year": "III parda",
+          "text": "List metalldan barg va shingillar, qo‘lda zarb.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Girix»",
+          "category": "Eshik · sharqona naqsh",
+          "year": "IV parda",
+          "text": "Eski madrasalardagidek yulduz va ko‘pburchaklardan geometriya.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Zalda o‘rin tanlang",
+      "items": [
+        {
+          "name": "Partér",
+          "price": "650 000 so‘mdan",
+          "period": "m² uchun",
+          "features": [
+            "12 mm kvadrat",
+            "Bezaksiz payvand",
+            "Kukunli bo‘yoq"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Beletaj",
+          "price": "950 000 so‘mdan",
+          "period": "m² uchun",
+          "features": [
+            "Nayza, halqa, savatchalar",
+            "Fasad suratida eskiz",
+            "Ochiladigan tavaqa"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Loja",
+          "price": "1 600 000 so‘mdan",
+          "period": "m² uchun",
+          "features": [
+            "Badiiy temirchilik",
+            "Qo‘lda zarb",
+            "Bronza patinasi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "10",
+          "suffix": " kun",
+          "label": "tayyorlash"
+        },
+        {
+          "value": "1",
+          "suffix": " kun",
+          "label": "o‘rnatish"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "payvand va bo‘yoqqa kafolat"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "katalogda naqsh"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Premyeragacha besh harakat",
+      "items": [
+        {
+          "title": "O‘lchash",
+          "text": "Bepul kelamiz, o‘rinlarni o‘lchaymiz va fasadni suratga olamiz."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Naqshni to‘g‘ridan-to‘g‘ri suratga chizamiz, tasdiqlanguncha tuzatamiz."
+        },
+        {
+          "title": "Temirchilik",
+          "text": "Ustaxonada 7–10 kunda bukamiz, yasaymiz va payvandlaymiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Qumli tozalash, grunt va pechda kukunli bo‘yoq."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Bir kunda ankerlarga o‘rnatamiz va o‘zimizdan keyin tozalaymiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Fasadlardagi panjaralar",
+      "items": [
+        {
+          "caption": "Yunusobod, birinchi qavat derazalari",
+          "image": ""
+        },
+        {
+          "caption": "Mirobod, fransuzcha balkon",
+          "image": ""
+        },
+        {
+          "caption": "Chilonzor, podyezd eshigi",
+          "image": ""
+        },
+        {
+          "caption": "Qibray, ayvon",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Premyeradan keyin",
+      "items": [
+        {
+          "quote": "Derazani qafasga aylantirmaydigan panjara so‘radik. «Quyosh chiqishi»ni chizishdi — qo‘shnilar qayerdan buyurtma qilganimizni so‘rashyapti.",
+          "author": "Nodira",
+          "role": "birinchi qavatdagi kvartira"
+        },
+        {
+          "quote": "Shanbada o‘lchashdi, bir yarim haftadan keyin o‘rnatishdi. Qishda bo‘yoq ko‘chmadi.",
+          "author": "Rustam",
+          "role": "xususiy uy"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "O‘lchash pullikmi?",
+          "a": "Yo‘q, Toshkent bo‘ylab o‘lchash bepul, keyin rad etsangiz ham."
+        },
+        {
+          "q": "Panjarani ichkaridan ochsa bo‘ladimi?",
+          "a": "Ha, birinchi qavat derazalariga qulfli ochiladigan tavaqa qo‘yamiz — bu yong‘in xavfsizligi talabi."
+        },
+        {
+          "q": "Narx qanday hisoblanadi?",
+          "a": "Panjara maydoni (m²) va naqsh murakkabligi bo‘yicha; aniq summani eskizdan keyin aytamiz."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Payvand choklar va kukunli bo‘yoqqa 5 yil."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "O‘lchashga yoziling — bu bepul",
+      "text": "Yunusobod, 11-mavze, 4. Du–Sh 9:00–19:00. Deraza suratini Telegramga yuboring — taxminiy narxni darhol aytamiz.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

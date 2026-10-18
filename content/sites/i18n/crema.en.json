@@ -1,0 +1,241 @@
+{
+  "name": "Crema",
+  "tagline": "One cup at a time. A white window, good espresso and no fuss",
+  "niche": "Japanese-style coffee to go",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a to-go coffee shop or coffee window in Japanese minimalism. A white cube, latte art drawn in a line on the cup, a menu of numbered tickets and one round order button.",
+    "features": []
+  },
+  "seo": {
+    "title": "Crema — coffee to go in Tashkent City",
+    "description": "A minimalist coffee window in Tashkent City: espresso, latte, mochi and seasonal drinks to go. Open daily from 7:30, order ahead on the site.",
+    "keywords": [
+      "coffee to go Tashkent",
+      "coffee Tashkent City",
+      "latte",
+      "espresso",
+      "Japanese coffee",
+      "matcha latte"
+    ],
+    "answer": "Crema is a coffee-to-go window in Tashkent City at 1 Furqat St, open daily from 7:30 to 22:00. An espresso costs 22,000 UZS, a latte 32,000 UZS and a matcha latte 38,000 UZS. You can order on the site and collect without queueing."
+  },
+  "business": {
+    "legalName": "Crema LLC",
+    "street": "Tashkent City, 1 Furqat St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Crema",
+      "eyebrow": "Coffee to go · Tashkent City",
+      "subtitle": "A ground-floor window, one espresso machine and three baristas. Espresso in a minute in the morning, latte and mochi by day, quiet white light in the evening.",
+      "words": [],
+      "cta": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Order ahead",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Espresso",
+        "Latte",
+        "Matcha",
+        "Hojicha",
+        "Mochi",
+        "Tashkent City"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The window",
+      "title": "We made everything unnecessary disappear",
+      "text": "No sign, no chalkboard menu, no syrups. A white wall, a window and coffee made equally well at 7:30 and at 21:30. The beans are a light roast from Tashkent, the milk is local and the cups are recycled paper. While you wait you can watch the rosetta being poured.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "What is in the window",
+      "groups": [
+        {
+          "name": "Espresso bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Light roast, 30 ml",
+              "price": "22,000 UZS"
+            },
+            {
+              "name": "Americano",
+              "text": "Espresso and hot water",
+              "price": "24,000 UZS"
+            },
+            {
+              "name": "Latte",
+              "text": "With a rosetta, 300 ml",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Flat white",
+              "text": "Double shot, 180 ml",
+              "price": "32,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Not coffee",
+          "items": [
+            {
+              "name": "Matcha latte",
+              "text": "Ceremonial matcha from Uji",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Hojicha",
+              "text": "Roasted green tea with milk",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Yuzu tonic",
+              "text": "Tonic, yuzu, ice",
+              "price": "30,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "With your cup",
+          "items": [
+            {
+              "name": "Mochi",
+              "text": "Strawberry, mango or matcha",
+              "price": "18,000 UZS"
+            },
+            {
+              "name": "Madeleine",
+              "text": "Lemon and butter",
+              "price": "14,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "The window",
+      "title": "One day",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "sec",
+          "label": "per espresso"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "baristas per shift"
+        },
+        {
+          "value": "14",
+          "suffix": "h",
+          "label": "open every day"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Light",
+      "title": "The white window",
+      "items": [
+        {
+          "caption": "latte",
+          "image": ""
+        },
+        {
+          "caption": "window",
+          "image": ""
+        },
+        {
+          "caption": "matcha",
+          "image": ""
+        },
+        {
+          "caption": "mochi",
+          "image": ""
+        },
+        {
+          "caption": "morning",
+          "image": ""
+        },
+        {
+          "caption": "cup",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "In short",
+      "items": [
+        {
+          "q": "Is there seating?",
+          "a": "Six seats along the window counter. We are built for take-away, but nobody will rush you."
+        },
+        {
+          "q": "Can I order ahead?",
+          "a": "Yes. Tap Order, choose your drink and time and pick it up without queueing."
+        },
+        {
+          "q": "Is there plant milk?",
+          "a": "Oat and coconut, at no extra cost."
+        },
+        {
+          "q": "Do you take cards?",
+          "a": "Uzcard, Humo, Visa, Click and Payme."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Where",
+      "title": "Ground floor, the white window",
+      "text": "Tashkent City, on the park side. Look for the white light and a queue of three.",
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      }
+    }
+  ]
+}

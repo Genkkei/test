@@ -1,0 +1,233 @@
+{
+  "name": "Forma Studio",
+  "tagline": "Furniture designed by architects",
+  "niche": "Designer furniture and interior solutions",
+  "nav": {
+    "cta": {
+      "label": "Discuss a project",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a designer furniture bureau: a project index with huge numbers, services with a dimension line under the price, stages on level marks and a drafting grid.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Forma Studio — bespoke designer furniture in Tashkent",
+    "description": "Architects design furniture for your interior: built-in storage, kitchens, tables and shelving. Drawings in 5 days, production from 30 days.",
+    "keywords": [
+      "designer furniture Tashkent",
+      "bespoke furniture",
+      "built-in furniture",
+      "custom kitchen",
+      "custom shelving"
+    ],
+    "answer": "Forma Studio is a furniture architecture bureau in Tashkent (16 Shakhrisabz St). We design and make built-in and cabinet furniture to bespoke drawings: drawings in 5 working days from 1,500,000 UZS, production from 30 days, installation in 1–3 days."
+  },
+  "business": {
+    "legalName": "Forma Studio LLC",
+    "street": "16 Shakhrisabz St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Furniture as part of architecture",
+      "eyebrow": "Furniture bureau · Tashkent · 16 Shakhrisabz",
+      "subtitle": "We design wardrobes, kitchens, libraries and tables as precisely as buildings: with drawings, joints and millimetre tolerances.",
+      "words": [
+        "niche",
+        "shelving",
+        "kitchen"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Bureau",
+      "title": "Drawing first, timber second",
+      "text": "There are eight of us: three architects, a design engineer and four makers in our own workshop in Sergeli. Every piece starts with a measured plan of the flat and ends with an installation led by the same architect. We work with oak, ash, veneer and HPL laminate; hardware is Blum and Hettich.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we design",
+      "intro": "",
+      "items": [
+        {
+          "title": "Built-in storage",
+          "text": "Floor-to-ceiling wardrobes, walk-in closets, appliance niches — no gaps, no visible joints.",
+          "price": "from 3,800,000 UZS / m²",
+          "tag": "30–40 days"
+        },
+        {
+          "title": "Kitchens",
+          "text": "From working-triangle ergonomics to sockets in the splashback. Oak veneer or matt laminate fronts.",
+          "price": "from 4,500,000 UZS / rm",
+          "tag": "35–45 days"
+        },
+        {
+          "title": "Tables and libraries",
+          "text": "Solid-wood dining tables, book walls and workstations with cable channels.",
+          "price": "from 6,200,000 UZS",
+          "tag": "25–30 days"
+        },
+        {
+          "title": "Design only",
+          "text": "Drawings and a specification any workshop can build from.",
+          "price": "from 1,500,000 UZS",
+          "tag": "5 days"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Selected",
+      "items": [
+        {
+          "title": "A library in Mirabad",
+          "category": "Flat",
+          "year": "2025",
+          "text": "An ash book wall for 1,400 volumes with a rail ladder · Length: 7.2 m · Lead time: 38 days · Material: ash",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "An island kitchen in Yunusabad",
+          "category": "House",
+          "year": "2025",
+          "text": "A 3.4 m island with a hob and a hidden extractor · Length: 6.8 m · Lead time: 44 days · Material: oak veneer",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "An IT company office",
+          "category": "Office",
+          "year": "2024",
+          "text": "Twenty workstations, a meeting room and a coffee point in one system · Area: 240 m² · Lead time: 52 days · Material: HPL",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "The bureau in numbers",
+      "items": [
+        {
+          "value": "180",
+          "suffix": "+",
+          "label": "furniture projects"
+        },
+        {
+          "value": "1",
+          "suffix": " mm",
+          "label": "installation tolerance"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "people on the team"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "From survey to installation",
+      "items": [
+        {
+          "title": "Survey",
+          "text": "Laser survey of the room and photos of the joints."
+        },
+        {
+          "title": "Sketch and quote",
+          "text": "Two options with prices — in 3 days."
+        },
+        {
+          "title": "Working drawings",
+          "text": "Joints, cutting plans, hardware — we agree every sheet."
+        },
+        {
+          "title": "Production",
+          "text": "In our own workshop, with a photo report every week."
+        },
+        {
+          "title": "Installation",
+          "text": "We install, adjust and clean up after ourselves."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I order just the design?",
+          "a": "Yes, drawings and a specification from 1,500,000 UZS that any workshop can build from."
+        },
+        {
+          "q": "How is production paid?",
+          "a": "50% after drawings are approved, 40% before delivery, 10% after installation."
+        },
+        {
+          "q": "Do you work outside Tashkent?",
+          "a": "Yes, across Uzbekistan; delivery and installers’ travel are quoted separately."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Two years on the furniture and lifetime on Blum hardware."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us your floor plan",
+      "text": "We reply within a day with lead times. Bureau: 16 Shakhrisabz St, Mon–Fri 10:00–19:00.",
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#order"
+      }
+    }
+  ]
+}

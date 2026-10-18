@@ -1,0 +1,262 @@
+{
+  "name": "Daraxt",
+  "tagline": "Laksiz, formaldegidli yelimsiz va plastiksiz yaxlit yog‘ochdan eko-mebel",
+  "niche": "Tabiiy yog‘ochdan eko-mebel",
+  "seo": {
+    "title": "Daraxt — Toshkentda yog‘och massividan eko-mebel",
+    "description": "Yaxlit qayrag‘och, yong‘oq va qarag‘aydan karavotlar, stollar va tokchalar. Laksiz — faqat moy va mum, DSP va formaldegidli yelimsiz. Tayyorlash 14 kundan.",
+    "keywords": [
+      "Toshkentda eko-mebel",
+      "massivdan mebel",
+      "laksiz mebel",
+      "massivdan karavot",
+      "tabiiy mebel"
+    ],
+    "answer": "Daraxt — Toshkentdagi eko-mebel ustaxonasi (Shayxontohur, Labzak ko‘chasi, 8). Yaxlit qayrag‘och, yong‘oq va qarag‘aydan moy va mum pardozli, DSP va laksiz karavot, stol va javonlar yasaydi. Qarag‘ay karavot 4 200 000 so‘mdan, qayrag‘och stol 5 600 000 so‘mdan, tayyorlash 14 kundan."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma berish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Eko-mebel ustaxonasi yoki tabiiy materiallardan buyumlar uchun sayt: iliq qog‘oz, narxli massiv katalogi, materiallar haqida raqamlar, yetkazish bilan buyurtma yo‘li va galereya.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Daraxt» MChJ",
+    "street": "Labzak ko‘chasi, 8, Shayxontohur",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Nafas olish mumkin bo‘lgan mebel",
+      "eyebrow": "Yaxlit yog‘och · moy va mum · laksiz",
+      "subtitle": "Mebelni plitalardan emas, taxtalardan yasaymiz: qayrag‘och, yong‘oq va qarag‘ay, moy va mum pardozi. Yotoqxonada yelim emas, yog‘och hidi keladi.",
+      "words": [
+        "Qayrag‘och",
+        "Yong‘oq",
+        "Qarag‘ay",
+        "Zig‘ir moyi"
+      ],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Katalog",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "DSPsiz",
+        "Laksiz",
+        "Moy va mum",
+        "Mahalliy yog‘och",
+        "Ta’mirlash mumkin"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "O‘z umrini yashagan yog‘och",
+      "text": "Qayrag‘och va yong‘oqni Toshkent viloyati bog‘larining rejali kesishlaridan olamiz, yarim yil ayvon ostida quritamiz va shundan keyingina ishlatamiz. Shurup emas, tishli birikmalar bilan biriktiramiz, zig‘ir moyi va asalari mumi bilan pardozlaymiz — tirnalishni uyda besh daqiqada silliqlash mumkin.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "works",
+      "label": "Katalog",
+      "title": "Nima yasaymiz",
+      "items": [
+        {
+          "title": "«Tong» karavoti",
+          "category": "Qarag‘ay · 160×200",
+          "year": "4 200 000 so‘m",
+          "text": "Baland boshlik, olxadan lamellar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Dasturxon» ovqat stoli",
+          "category": "Qayrag‘och · 180×90",
+          "year": "5 600 000 so‘m",
+          "text": "Tabiiy qirrali uch taxtadan stol usti.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Tokcha» javoni",
+          "category": "Yong‘oq · 5 tokcha",
+          "year": "3 300 000 so‘m",
+          "text": "Orqa devorsiz — yog‘och nafas oladi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Dahliz uchun skameyka",
+          "category": "Qayrag‘och · 120 sm",
+          "year": "1 900 000 so‘m",
+          "text": "Poyabzal tokchasi bilan.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": " oy",
+          "label": "yog‘ochni ishdan oldin quritamiz"
+        },
+        {
+          "value": "0",
+          "suffix": "",
+          "label": "DSP va MDF listlari"
+        },
+        {
+          "value": "14",
+          "suffix": " kun",
+          "label": "tayyorlash ...dan"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "birikmalarga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "Taxtadan xonangizgacha",
+      "items": [
+        {
+          "title": "Yog‘och tanlash",
+          "text": "Mebelingiz yasaladigan taxtalarni ko‘rsatamiz — naqshni tanlash mumkin."
+        },
+        {
+          "title": "Chizma",
+          "text": "O‘lchamlarni xonaga moslab, narxni tasdiqlaymiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "14 kundan: randalaymiz, biriktiramiz, uch qavat moy."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "Olib kelib yig‘amiz, Toshkent bo‘ylab bepul."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "Bolada allergiya bor — yangi karavot bilan nihoyat kimyo hidi yo‘q.",
+          "author": "Gulnora",
+          "role": "«Tong» karavoti"
+        },
+        {
+          "quote": "Stol uchun taxtalarni o‘zimiz tanladik — qayrag‘och naqshi xuddi rasmdek.",
+          "author": "Sherzod",
+          "role": "«Dasturxon» stoli"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ustaxona",
+      "title": "Qanday yasaladi",
+      "items": [
+        {
+          "caption": "Taxtalarni quritish",
+          "image": ""
+        },
+        {
+          "caption": "Tishli birikma",
+          "image": ""
+        },
+        {
+          "caption": "Moy va mum",
+          "image": ""
+        },
+        {
+          "caption": "Tayyor yotoqxona",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Nega laksiz?",
+          "a": "Moy yog‘ochga singadi va yorilmaydi. Mebel ushlaganda yoqimli, tirnalishlarni esa oson yangilash mumkin."
+        },
+        {
+          "q": "Yog‘och qiyshaymaydimi?",
+          "a": "Yarim yil quritamiz va mavsumiy harakat uchun bo‘shliq qoldiramiz — birikmalarga 5 yil kafolat."
+        },
+        {
+          "q": "Qanday parvarish qilish kerak?",
+          "a": "Yiliga bir marta mebel bilan qoldiradigan to‘plamdagi moy bilan artish."
+        },
+        {
+          "q": "Viloyatlarga yetkazasizmi?",
+          "a": "Ha, yog‘och qutida, narxi masofaga qarab."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Taxtalarni tanlashga keling",
+      "text": "Labzakdagi ustaxona du–sha 9 dan 18 gacha ochiq. Nima buyurtma qilmoqchiligingizni Telegramga yozing — mavjud yog‘och rasmlarini yuboramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/daraxt_eco"
+      }
+    }
+  ]
+}

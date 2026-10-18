@@ -1,0 +1,262 @@
+{
+  "name": "Daraxt",
+  "tagline": "Eco furniture in solid wood with no lacquer, formaldehyde glue or plastic",
+  "niche": "Natural solid wood eco furniture",
+  "seo": {
+    "title": "Daraxt — eco furniture in solid wood in Tashkent",
+    "description": "Beds, tables and shelves in solid elm, walnut and pine. No lacquer — only oil and wax, no chipboard or formaldehyde glue. Made in 14 days and up.",
+    "keywords": [
+      "eco furniture Tashkent",
+      "solid wood furniture",
+      "unlacquered furniture",
+      "solid wood bed",
+      "natural furniture"
+    ],
+    "answer": "Daraxt is an eco furniture workshop in Tashkent (Shaykhantakhur, 8 Labzak Street). It makes beds, tables and shelving in solid elm, walnut and pine finished with oil and wax, with no chipboard or lacquer. A pine bed starts at UZS 4,200,000, an elm table at UZS 5,600,000, made in 14 days and up."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for an eco furniture workshop or natural-materials brand: warm paper, a priced solid-wood catalogue, figures about materials, an ordering path with delivery and a gallery.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Daraxt LLC",
+    "street": "8 Labzak Street, Shaykhantakhur",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Furniture you can breathe around",
+      "eyebrow": "Solid wood · oil and wax · no lacquer",
+      "subtitle": "We build from solid boards, not chipboard panels: elm, walnut and pine finished with oil and wax. Your bedroom smells of wood, not glue.",
+      "words": [
+        "Elm",
+        "Walnut",
+        "Pine",
+        "Linseed oil"
+      ],
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Catalogue",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "No chipboard",
+        "No lacquer",
+        "Oil and wax",
+        "Local timber",
+        "Repairable"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "Timber that has lived its own life",
+      "text": "We source elm and walnut from planned orchard clearing in Tashkent region, dry it for six months under cover and only then start work. Joints are pinned rather than screwed, finished with linseed oil and beeswax — a scratch can be sanded out at home in five minutes.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "works",
+      "label": "Catalogue",
+      "title": "What we make",
+      "items": [
+        {
+          "title": "“Tong” bed",
+          "category": "Pine · 160×200",
+          "year": "from UZS 4,200,000",
+          "text": "High headboard, beech slats.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Dastarkhan” dining table",
+          "category": "Elm · 180×90",
+          "year": "from UZS 5,600,000",
+          "text": "A three-board top with a live edge.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Shelf” bookcase",
+          "category": "Walnut · five shelves",
+          "year": "from UZS 3,300,000",
+          "text": "Open back so the wood can breathe.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hallway bench",
+          "category": "Elm · 120 cm",
+          "year": "from UZS 1,900,000",
+          "text": "With a shoe shelf.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": " mo",
+          "label": "drying time before work"
+        },
+        {
+          "value": "0",
+          "suffix": "",
+          "label": "sheets of chipboard or MDF"
+        },
+        {
+          "value": "14",
+          "suffix": " days",
+          "label": "lead time from"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "warranty on joints"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "From board to your room",
+      "items": [
+        {
+          "title": "Choosing the wood",
+          "text": "We show you the actual boards so you can choose the grain."
+        },
+        {
+          "title": "Drawing",
+          "text": "We fit the dimensions to your room and fix the price."
+        },
+        {
+          "title": "Making",
+          "text": "From 14 days: planing, joining, three coats of oil."
+        },
+        {
+          "title": "Delivery",
+          "text": "We deliver and assemble, free within Tashkent."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people say",
+      "items": [
+        {
+          "quote": "Our child has allergies; with the new bed there’s finally no chemical smell.",
+          "author": "Gulnora",
+          "role": "“Tong” bed"
+        },
+        {
+          "quote": "We chose the boards for our table ourselves; the elm grain looks like a painting.",
+          "author": "Sherzod",
+          "role": "“Dastarkhan” table"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Workshop",
+      "title": "How it’s made",
+      "items": [
+        {
+          "caption": "Drying the boards",
+          "image": ""
+        },
+        {
+          "caption": "Pinned joints",
+          "image": ""
+        },
+        {
+          "caption": "Oil and wax",
+          "image": ""
+        },
+        {
+          "caption": "A finished bedroom",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Why no lacquer?",
+          "a": "Oil soaks into the wood and doesn’t crack. The furniture feels good to the touch and scratches are easy to refresh."
+        },
+        {
+          "q": "Won’t the wood warp?",
+          "a": "We dry it for six months and leave room for seasonal movement — joints carry a 5-year warranty."
+        },
+        {
+          "q": "How do I look after it?",
+          "a": "Once a year, wipe it with the oil from the kit we leave with the furniture."
+        },
+        {
+          "q": "Do you deliver to the regions?",
+          "a": "Yes, crated, priced by distance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come and choose your boards",
+      "text": "The Labzak workshop is open Mon–Sat 9–18. Tell us on Telegram what you’d like and we will send photos of the timber we have.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/daraxt_eco"
+      }
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "name": "Brew Lab",
+  "tagline": "Coffee brewed in front of you: a dripper, a scale and four quiet minutes",
+  "niche": "Specialty coffee shop and manual brew bar",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a specialty coffee shop or manual brew bar. White space and a single blue, drops falling into a cup, and a dripper that fills as the guest scrolls through the ritual.",
+    "features": []
+  },
+  "seo": {
+    "title": "Brew Lab — specialty coffee and pour-over in Tashkent",
+    "description": "A coffee shop in Mirobod: V60, Chemex and AeroPress brewed by weight, espresso on freshly roasted beans and home-brewing workshops. Open from 8 am.",
+    "keywords": [
+      "specialty coffee Tashkent",
+      "V60 Tashkent",
+      "coffee shop Mirobod",
+      "manual brew",
+      "barista workshop",
+      "whole bean coffee"
+    ],
+    "answer": "Brew Lab is a specialty coffee shop at 12 Mirobod St in Tashkent, open 8:00–21:00 on weekdays and 9:00–22:00 at weekends. A V60 filter costs 38,000 UZS, a cappuccino 32,000 UZS and a two-hour home-brewing workshop 250,000 UZS. The beans are roasted in Tashkent at least once a week."
+  },
+  "business": {
+    "legalName": "Brew Lab LLC",
+    "street": "12 Mirobod St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Coffee brewed by weight",
+      "eyebrow": "12 Mirobod · open from 8:00",
+      "subtitle": "Eighteen grams of coffee, three hundred grams of water at 93 degrees and three and a half minutes. The barista brews every cup in front of you and tells you where it comes from.",
+      "words": [
+        "V60",
+        "Chemex",
+        "AeroPress",
+        "Kalita Wave"
+      ],
+      "cta": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "How we brew",
+        "href": "#ritual"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The shop",
+      "title": "A small bar where coffee is the main course",
+      "text": "Ten seats at the bar and a big table by the window. No syrups and no whipped cream — just beans from three or four farms that change every month, and a barista who will suggest what to try: berry-bright Ethiopia, chocolatey Colombia or something entirely new.",
+      "image": ""
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "The ritual",
+      "title": "How we brew a V60",
+      "items": [
+        {
+          "title": "Grind",
+          "text": "We grind 18 grams of beans medium, like sea salt, right before brewing."
+        },
+        {
+          "title": "Rinse",
+          "text": "We rinse the paper with hot water to lose the paper taste and warm the dripper."
+        },
+        {
+          "title": "Bloom",
+          "text": "50 grams of water and a 40-second wait while the coffee releases gas and rises in a dome."
+        },
+        {
+          "title": "Pour",
+          "text": "A thin spiral stream in three pours brings it up to 300 grams."
+        },
+        {
+          "title": "Cup",
+          "text": "At 3:30 it is ready. Taste it hot, then warm — the flavour opens up as it cools."
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "What to brew today",
+      "groups": [
+        {
+          "name": "Filter",
+          "items": [
+            {
+              "name": "V60",
+              "text": "Clean and bright, best for Ethiopia",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Chemex",
+              "text": "For two, 500 ml, soft and sweet",
+              "price": "58,000 UZS"
+            },
+            {
+              "name": "AeroPress",
+              "text": "Dense and full-bodied, ready in two minutes",
+              "price": "36,000 UZS"
+            },
+            {
+              "name": "Cold brew",
+              "text": "Steeped for 18 hours, served over ice",
+              "price": "34,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Double, 36 grams in the cup",
+              "price": "24,000 UZS"
+            },
+            {
+              "name": "Cappuccino",
+              "text": "3.2% or oat milk",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Flat white",
+              "text": "Two shots and thin microfoam",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Cortado",
+              "text": "Half espresso, half milk",
+              "price": "28,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "With coffee",
+          "items": [
+            {
+              "name": "Canelé",
+              "text": "Rum and vanilla, baked every morning",
+              "price": "22,000 UZS"
+            },
+            {
+              "name": "Banana bread",
+              "text": "With walnuts and salted butter",
+              "price": "26,000 UZS"
+            },
+            {
+              "name": "Beans 250 g",
+              "text": "Ground for your brewer",
+              "price": "145,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Recipe",
+      "title": "Our V60 in numbers",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "g",
+          "label": "coffee"
+        },
+        {
+          "value": "300",
+          "suffix": "g",
+          "label": "water"
+        },
+        {
+          "value": "93",
+          "suffix": "°C",
+          "label": "temperature"
+        },
+        {
+          "value": "210",
+          "suffix": "sec",
+          "label": "time"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The bar",
+      "title": "Morning in Mirobod",
+      "items": [
+        {
+          "caption": "Ten seats at the bar",
+          "image": ""
+        },
+        {
+          "caption": "Scale and V60",
+          "image": ""
+        },
+        {
+          "caption": "The window table",
+          "image": ""
+        },
+        {
+          "caption": "Beans of the month",
+          "image": ""
+        },
+        {
+          "caption": "Saturday workshop",
+          "image": ""
+        },
+        {
+          "caption": "A canelé with filter",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "Overheard at the bar",
+      "items": [
+        {
+          "quote": "I tried filter coffee without milk for the first time and realised coffee can smell of strawberries.",
+          "author": "Madina",
+          "role": "morning regular"
+        },
+        {
+          "quote": "Went to the workshop, bought a dripper — now I brew just as well at home.",
+          "author": "Timur",
+          "role": "engineer"
+        },
+        {
+          "quote": "Quiet, delicious and nobody rushes you. The best place to work until lunch.",
+          "author": "Anna",
+          "role": "designer"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "The short answers",
+      "items": [
+        {
+          "q": "How is filter different from an americano?",
+          "a": "Filter is brewed slowly through paper: the taste is cleaner and brighter and there is more caffeine. An americano is espresso topped up with water."
+        },
+        {
+          "q": "Can I buy beans to take home?",
+          "a": "Yes, 250-gram bags from 145,000 UZS. We will grind them for your dripper, cezve or espresso machine."
+        },
+        {
+          "q": "When are the workshops?",
+          "a": "Saturdays at 11:00, up to six people. Two hours for 250,000 UZS, beans and filters to take home included."
+        },
+        {
+          "q": "Do you have plant milk?",
+          "a": "Oat and almond, at no extra cost."
+        },
+        {
+          "q": "Can I order ahead to take away?",
+          "a": "Yes: leave an order on the site or in Telegram and it will be ready when you arrive."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come in for a cup",
+      "text": "12 Mirobod — a five-minute walk from Oybek metro. Parking in the courtyard.",
+      "cta": {
+        "label": "Order ahead",
+        "href": "#order"
+      }
+    }
+  ]
+}

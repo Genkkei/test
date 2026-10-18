@@ -1,0 +1,275 @@
+{
+  "name": "Atelye Mebel",
+  "tagline": "Sizning eskizingiz bo‘yicha mebel — salfetkadagi rasmdan tayyor buyumgacha",
+  "niche": "Buyurtma asosidagi mebel ateleyesi",
+  "seo": {
+    "title": "Atelye Mebel — Toshkentda eskiz bo‘yicha buyurtma mebel",
+    "description": "Mirobod tumanidagi mebel ateleyesi: stol, komod, kutubxona va karavotlar sizning eskizingiz bo‘yicha. Chizma va 3D bepul, tayyorlash 21 kundan, kafolat 2 yil.",
+    "keywords": [
+      "Toshkentda buyurtma mebel",
+      "eskiz bo‘yicha mebel",
+      "mebel ateleyesi",
+      "buyurtma bo‘yicha massiv stol",
+      "buyurtma komod"
+    ],
+    "answer": "Atelye Mebel — Toshkentdagi mebel ateleyesi (Shahrisabz ko‘chasi, 34), mijoz eskizi bo‘yicha stol, komod, shkaf va karavotlar yasaydi. Chizma va 3D-vizualizatsiya bepul, tayyorlash 21 kundan, massivdan ovqat stoli — 6 800 000 so‘mdan, kafolat 2 yil."
+  },
+  "nav": {
+    "cta": {
+      "label": "Eskiz buyurtma qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Buyurtma mebel ateleyesi yoki duradgorlik studiyasi uchun sayt: latunli to‘q vitrina, «...dan» narxli buyumlar katalogi, eskizdan yetkazishgacha yo‘l va ishlar galereyasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Atelye Mebel» MChJ",
+    "street": "Shahrisabz ko‘chasi, 34",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Chizing — biz yasaymiz",
+      "eyebrow": "Mebel ateleyesi · Mirobod · 2019-yildan",
+      "subtitle": "Eskiz, Pinterestdan rasm yoki shunchaki joy o‘lchamlarini olib keling. G‘oyani chizmaga aylantiramiz, 3D da ko‘rsatamiz va hech kimda yo‘q buyum yasaymiz.",
+      "words": [
+        "Stollar",
+        "Komodlar",
+        "Kutubxonalar",
+        "Karavotlar"
+      ],
+      "cta": {
+        "label": "Eskiz buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Nima qilamiz",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelye",
+      "title": "Salonda topib bo‘lmaydigan mebel",
+      "text": "Biz tayyor modellarni sotmaymiz — har bir buyum sizning rasmingizdan boshlanadi.\nKonstruktor eskizni chizmaga aylantiradi, yog‘och turi, furnitura va matoni tanlaydi, siz esa birinchi taxta kesilishidan oldin 3D ni tasdiqlaysiz. Eman, shumtol, yong‘oq va shpon bilan ishlaymiz, pardoz — moy, mum yoki mat lak.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Eman",
+        "Yong‘oq",
+        "Shumtol",
+        "Latun",
+        "Shpon",
+        "Bukle"
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "menu",
+      "label": "Nima qilamiz",
+      "title": "Narxlar «...dan» — yakuniy narx chizmadan keyin",
+      "groups": [
+        {
+          "name": "Stollar",
+          "items": [
+            {
+              "name": "Massivdan ovqat stoli",
+              "text": "Eman yoki shumtol, 180×90 sm, 6–8 kishiga",
+              "price": "6 800 000 so‘m"
+            },
+            {
+              "name": "Jurnal stoli",
+              "text": "Yong‘oq shponi, latun oyoqlar",
+              "price": "2 400 000 so‘m"
+            },
+            {
+              "name": "Yozuv stoli",
+              "text": "Tortmalar va kabel kanali bilan",
+              "price": "3 900 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Saqlash",
+          "items": [
+            {
+              "name": "Komod",
+              "text": "Yopgichli 6 ta tortma, 140 sm",
+              "price": "5 200 000 so‘m"
+            },
+            {
+              "name": "Butun devorga kutubxona",
+              "text": "Narx bir pog‘on metr uchun",
+              "price": "3 600 000 so‘m"
+            },
+            {
+              "name": "TV-tumba",
+              "text": "Osma, yoritgichli",
+              "price": "2 900 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Yotoqxona",
+          "items": [
+            {
+              "name": "Yumshoq boshli karavot",
+              "text": "160×200, 40 namunadan mato tanlash",
+              "price": "7 400 000 so‘m"
+            },
+            {
+              "name": "Karavot yonidagi tumbalar",
+              "text": "Juft, karavot rangida",
+              "price": "2 200 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Rasmdan yetkazishgacha",
+      "items": [
+        {
+          "title": "Uchrashuv",
+          "text": "Eskizni ateleyeda muhokama qilamiz yoki o‘lchashga kelamiz — Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Chizma va 3D",
+          "text": "3–5 kunda chizma, 3D va aniq smeta tayyorlaymiz."
+        },
+        {
+          "title": "Namunalar",
+          "text": "Yog‘och, pardoz va matoni haqiqiy namunalarda jonli tanlaysiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "21 ish kunidan, ustaxonadan rasmlar yuboramiz."
+        },
+        {
+          "title": "Yetkazish va yig‘ish",
+          "text": "Olib kelamiz, yig‘amiz, qadoqni olib ketamiz. Kafolat 2 yil."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Mijozlar eskizlari bo‘yicha yasalgan",
+      "items": [
+        {
+          "caption": "8 kishilik eman stol",
+          "image": ""
+        },
+        {
+          "caption": "Latun dastali komod",
+          "image": ""
+        },
+        {
+          "caption": "Kabinetdagi kutubxona",
+          "image": ""
+        },
+        {
+          "caption": "Bukle karavot",
+          "image": ""
+        },
+        {
+          "caption": "Yong‘oqdan TV-zona",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Buyurtmachilar nima deydi",
+      "items": [
+        {
+          "quote": "Bloknot varag‘idagi rasmni olib keldim — xuddi o‘ylaganimdek komod oldim.",
+          "author": "Nigora",
+          "role": "komod"
+        },
+        {
+          "quote": "3D ni oldindan ko‘rsatishdi, oyoqlarni ikki marta almashtirdik — qo‘shimcha to‘lovsiz.",
+          "author": "Temur",
+          "role": "ovqat stoli"
+        },
+        {
+          "quote": "Kutubxona joyga millimetrigacha mos tushdi.",
+          "author": "Dilnoza",
+          "role": "kutubxona"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Chiza olish kerakmi?",
+          "a": "Yo‘q. Internetdan rasm, o‘lchamlar va bir-ikki so‘z yetarli — eskizni konstruktorimiz chizadi."
+        },
+        {
+          "q": "Chizma qancha turadi?",
+          "a": "Chizma, 3D va smeta bepul. Faqat buyum uchun to‘laysiz."
+        },
+        {
+          "q": "Qanday to‘lanadi?",
+          "a": "3D tasdiqlangach 50% oldindan to‘lov, qolgani — yig‘ishdan keyin. Naqd, o‘tkazma yoki karta."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Konstruksiya va furnituraga 2 yil. Bir yildan keyin fasadlarni sozlashga bepul kelamiz."
+        },
+        {
+          "q": "Restoran va ofislar uchun mebel qilasizmi?",
+          "a": "Ha, bitta stoldan butun zal jihozigacha. Muddat va narx alohida hisoblanadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Rasmingizni yuboring",
+      "text": "Eskizni suratga olib Telegramga yuboring — o‘sha kuniyoq nimadan yasash va qancha turishini aytamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/atelye_mebel"
+      }
+    }
+  ]
+}

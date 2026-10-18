@@ -1,0 +1,235 @@
+{
+  "name": "Yorug‘ Home",
+  "tagline": "Light furniture and lighting for a home you want to spend evenings in",
+  "niche": "Light-toned furniture and lighting",
+  "seo": {
+    "title": "Yorug‘ Home — light furniture and lamps in Tashkent",
+    "description": "A light furniture and lighting showroom in Yunusabad: sofas, tables, shelving, lamps and floor lamps. Lighting picked from a photo of your room, delivery in 3 days, instalments.",
+    "keywords": [
+      "light furniture Tashkent",
+      "lamps Tashkent",
+      "buy a floor lamp",
+      "Scandinavian style furniture",
+      "apartment lighting"
+    ],
+    "answer": "Yorug‘ Home is a light furniture and lighting showroom in Tashkent (Yunusabad, 107B Amir Temur Street). Sofas from UZS 5,900,000, lamps from UZS 450,000, free lighting selection from a photo of your room, delivery across Tashkent in 3 days and instalments up to 12 months."
+  },
+  "nav": {
+    "cta": {
+      "label": "Place an order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a furniture and lighting showroom: a bright first screen with categories, a priced catalogue, key figures, step-by-step lighting selection and buyer questions.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Yorug Home LLC",
+    "street": "107B Amir Temur Street, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A home full of light",
+      "eyebrow": "Furniture and light · Yunusabad · daily 10–20",
+      "subtitle": "Pale wood, soft fabrics and warm light. Send a photo of your room and we will pick furniture and lamps so it feels cosy at night and spacious by day.",
+      "words": [
+        "Sofas",
+        "Tables",
+        "Floor lamps",
+        "Pendant lamps"
+      ],
+      "cta": {
+        "label": "Place an order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "See the catalogue",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Showroom",
+      "title": "Light is furniture too",
+      "text": "In our showroom every sofa stands under its own lamp, so you see how the fabric looks in warm and cool light and get the shade right. We work with factories in Uzbekistan, Turkey and Poland, and everything is in stock at our Tashkent warehouse.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "In the showroom",
+      "intro": "Prices are for the base version. Other fabrics and sizes on request.",
+      "items": [
+        {
+          "title": "“Cloud” sofa, three-seater",
+          "text": "Milk-white bouclé, removable covers",
+          "price": "from UZS 5,900,000",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Ash dining table",
+          "text": "160×90 cm, light oil finish",
+          "price": "from UZS 4,200,000",
+          "tag": ""
+        },
+        {
+          "title": "“Ladder” shelving",
+          "text": "Birch, five shelves",
+          "price": "from UZS 1,600,000",
+          "tag": ""
+        },
+        {
+          "title": "Linen floor lamp",
+          "text": "Warm 2700K light, dimmer",
+          "price": "from UZS 950,000",
+          "tag": "new"
+        },
+        {
+          "title": "Rattan pendant lamp",
+          "text": "50 cm diameter, for over the table",
+          "price": "from UZS 780,000",
+          "tag": ""
+        },
+        {
+          "title": "“Mushroom” table lamp",
+          "text": "Frosted glass, three modes",
+          "price": "from UZS 450,000",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": "+",
+          "label": "pieces in the showroom"
+        },
+        {
+          "value": "3",
+          "suffix": " days",
+          "label": "delivery in Tashkent"
+        },
+        {
+          "value": "12",
+          "suffix": " mo",
+          "label": "instalments"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "fabric samples"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Lighting plan",
+      "title": "We plan the lighting from a photo of your room",
+      "items": [
+        {
+          "title": "Photo and size",
+          "text": "Send a photo of the room by day and by night and its rough size."
+        },
+        {
+          "title": "Lighting plan",
+          "text": "A designer marks where you need overhead, task and soft light."
+        },
+        {
+          "title": "Selection",
+          "text": "Three options for different budgets, with prices and stock."
+        },
+        {
+          "title": "Delivery and fitting",
+          "text": "We deliver in 3 days and hang the lamps ourselves."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our buyers",
+      "items": [
+        {
+          "quote": "I sent a photo of the living room and got three options the next day. We took the middle one; evenings now feel like a café.",
+          "author": "Madina",
+          "role": "lighting plan"
+        },
+        {
+          "quote": "The bouclé sofa has been with us a year; we wash the covers and it looks new.",
+          "author": "Aziz",
+          "role": "“Cloud” sofa"
+        },
+        {
+          "quote": "They delivered and hung the pendant lamp on the day they promised.",
+          "author": "Lola",
+          "role": "lighting"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the lighting plan paid?",
+          "a": "No, from a photo it is free. A designer visit in Tashkent costs UZS 200,000, which counts towards your purchase."
+        },
+        {
+          "q": "Do you offer instalments?",
+          "a": "Yes, 6 or 12 months with no mark-up through partner banks and Uzum Nasiya."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Free within Tashkent from UZS 3,000,000, otherwise UZS 150,000. To the regions at the carrier’s rate."
+        },
+        {
+          "q": "Can I return items?",
+          "a": "Lamps and decor within 14 days in their packaging. In-stock furniture by agreement."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send a photo of your room",
+      "text": "We will reply on Telegram with a furniture and lighting selection. The Yunusabad showroom is open daily from 10 to 20.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/yorug_home"
+      }
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "name": "Ornament",
+  "tagline": "Wrought iron made to be handed down",
+  "niche": "Art forging: railings, staircases, balconies, gates and metal décor",
+  "nav": {
+    "cta": {
+      "label": "Book a measurement",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a forge or art-forging workshop. The railing on the first screen draws itself scroll by scroll, every catalogue item has its own forged mark, and projects sit in arched frames.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurement",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Ornament — art forging and wrought iron in Tashkent",
+    "description": "Wrought iron railings, staircases, balconies and gates made to your sketch. Hand forging, powder coating and turnkey installation across Tashkent.",
+    "keywords": [
+      "art forging Tashkent",
+      "wrought iron railings",
+      "wrought iron staircase",
+      "wrought iron gates",
+      "wrought iron balcony"
+    ],
+    "answer": "Ornament is an art-forging workshop at 18 Chupon-ota Street, Tashkent. Wrought iron railings start at 1,200,000 sum per metre, balconies at 1,500,000 sum per metre and gates at 9,000,000 sum. Measuring and the sketch are free, production takes from 3 weeks, and welding and paint carry a 5-year guarantee."
+  },
+  "business": {
+    "legalName": "Ornament Metall LLC",
+    "street": "18 Chupon-ota St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Iron turned into lace",
+      "eyebrow": "Art forging · Tashkent · since 2012",
+      "subtitle": "Railings, staircases, balconies and gates to your sketch. Every scroll is hand-forged at the fire and fitted on site.",
+      "cta": {
+        "label": "Book a measurement",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "See our work",
+        "href": "#works"
+      },
+      "image": "",
+      "words": [
+        "railings",
+        "staircases",
+        "balconies",
+        "gates"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "hot forging",
+        "handmade",
+        "free sketch",
+        "powder coating",
+        "patina and gilding",
+        "turnkey installation"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "A forge, not a factory",
+      "text": "We do not stamp parts out of a catalogue. Every leaf, volute and spear is forged by our smiths from bar and rod, at the fire and on the anvil. That is why a railing follows the curve of your stair and a gate echoes the pattern of the façade.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "What we make",
+      "title": "What we forge",
+      "intro": "Prices include powder coating and exclude installation. We give the exact figure after measuring and a sketch.",
+      "items": [
+        {
+          "title": "Railings and guards",
+          "text": "For stairs, terraces and galleries: from plain bars to dense foliage ornament.",
+          "price": "from 1,200,000 sum / m",
+          "tag": "3–4 weeks"
+        },
+        {
+          "title": "Staircases on steel frames",
+          "text": "Straight and spiral, with timber treads and forged balusters.",
+          "price": "from 18,000,000 sum",
+          "tag": "5–7 weeks"
+        },
+        {
+          "title": "Balconies and Juliet balconies",
+          "text": "Bowed basket-style or straight, with flowers or a monogram.",
+          "price": "from 1,500,000 sum / m",
+          "tag": "3–4 weeks"
+        },
+        {
+          "title": "Gates and wickets",
+          "text": "Swing or sliding, ready for automation, solid or open-work.",
+          "price": "from 9,000,000 sum",
+          "tag": "4–6 weeks"
+        },
+        {
+          "title": "Canopies and porches",
+          "text": "Over doors, porches and terraces, with polycarbonate or glass.",
+          "price": "from 3,500,000 sum",
+          "tag": "2–3 weeks"
+        },
+        {
+          "title": "Décor and furniture",
+          "text": "Candlesticks, fireplace sets, tables and beds with forged headboards.",
+          "price": "from 400,000 sum",
+          "tag": "1–3 weeks"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Work",
+      "title": "Made by hand",
+      "intro": "",
+      "items": [
+        {
+          "title": "Staircase in a Darkhan house",
+          "category": "Staircase",
+          "year": "2025",
+          "text": "Spiral, 14 treads, balusters with acanthus leaves.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Estate gates in Kibray",
+          "category": "Gates",
+          "year": "2025",
+          "text": "Sliding, 6 metres, with gilded spears.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Balconies in Mirabad",
+          "category": "Balconies",
+          "year": "2024",
+          "text": "Eight Juliet balconies for a façade restoration.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restaurant terrace railing",
+          "category": "Railing",
+          "year": "2024",
+          "text": "42 metres with a grapevine motif.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Clinic entrance canopy",
+          "category": "Canopy",
+          "year": "2023",
+          "text": "Forged frame and toughened glass.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Fireplace set and screen",
+          "category": "Décor",
+          "year": "2023",
+          "text": "An “old bronze” patina.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "13",
+          "suffix": " years",
+          "label": "at the forge"
+        },
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "pieces delivered"
+        },
+        {
+          "value": "5",
+          "suffix": " years",
+          "label": "guarantee on welds and paint"
+        },
+        {
+          "value": "0",
+          "suffix": " sum",
+          "label": "for measuring and the sketch"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From measuring to installation",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "A master visits with metal and patina samples, takes measurements and we talk through the style."
+        },
+        {
+          "title": "Sketch and estimate",
+          "text": "We draw two or three options to scale and work out an exact price. You only pay if you like it."
+        },
+        {
+          "title": "Forging",
+          "text": "We forge the parts by hand, assemble the piece on the bench and send you photos and video."
+        },
+        {
+          "title": "Finishing",
+          "text": "Blasting, primer, powder coat and patina, so the iron stays rust-free for years."
+        },
+        {
+          "title": "Installation",
+          "text": "We install in a day, leave the site clean and hand over the guarantee."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "The railing came out exactly as sketched. The master suggested an oak handrail himself, and now it is the highlight of the house.",
+          "author": "Dilnoza",
+          "role": "private house, Yunusabad"
+        },
+        {
+          "quote": "We ordered gates and 40 metres of fence. They delivered and installed in two days, all level and with no weld marks.",
+          "author": "Sherzod",
+          "role": "cottage, Kibray"
+        },
+        {
+          "quote": "They restored the balconies of an old building from photographs and matched the pattern down to the last scroll.",
+          "author": "Anna",
+          "role": "architect"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much do wrought iron railings cost?",
+          "a": "From 1,200,000 sum per metre including paint. The price rises with the density of the ornament and the thickness of the bar; we give the exact figure after the sketch."
+        },
+        {
+          "q": "Is the measurement really free?",
+          "a": "Yes, measuring and the sketch are free within Tashkent. Outside the city it is 150,000 sum, deducted from the order."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "Railings and balconies take 3–4 weeks, gates 4–6 and staircases 5–7 weeks from sketch approval."
+        },
+        {
+          "q": "Will the iron rust?",
+          "a": "Before painting we blast and prime the metal, then apply powder coat. The finish carries a 5-year guarantee."
+        },
+        {
+          "q": "Can I order from my own picture?",
+          "a": "Of course. Send a photo or drawing on Telegram and we will turn it into a drawing and suggest how to adapt it to your dimensions."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Let’s talk about your sketch",
+      "text": "Call us or leave a request and a measurer will come on a day that suits you, with metal samples.",
+      "cta": {
+        "label": "Book a measurement",
+        "href": "#order"
+      }
+    }
+  ]
+}

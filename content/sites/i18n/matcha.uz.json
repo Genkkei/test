@@ -1,0 +1,259 @@
+{
+  "name": "Midori Matcha Bar",
+  "tagline": "Shota Rustaveli ko‘chasidagi matcha-bar: marosim matchasi, xojicha va muqobil qahva",
+  "niche": "Matcha-bar va qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Matcha buyurtma qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Matcha-bar, choyxona yoki muqobil qahvaxona uchun sayt: to‘q yashil mavzu, yorliqli bankalar, ko‘pirtirish marosimi bosqichma-bosqich.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Midori — Toshkentda matcha-bar va muqobil qahva",
+    "description": "Udzidan marosim matchasi, suli sutida matcha-latte, xojicha va voronka. Shota Rustaveli, 41 dagi matcha-bar, uy uchun matcha va ko‘pirtirgichlar sotamiz.",
+    "keywords": [
+      "Toshkent matcha",
+      "matcha latte",
+      "matcha-bar",
+      "xojicha",
+      "Toshkent muqobil qahva"
+    ],
+    "answer": "Midori — Shota Rustaveli ko‘chasi, 41 dagi (Yakkasaroy) matcha-bar, ish kunlari 9:00 dan 22:00 gacha, dam olish kunlari 10:00 dan 23:00 gacha ochiq. Matcha-latte — 42 000 so‘m, marosim matchasi — 48 000 so‘m, voronka — 34 000 so‘m. Uy uchun 30 g matcha — 165 000 so‘mdan."
+  },
+  "business": {
+    "legalName": "«Midori» YaTT",
+    "street": "Shota Rustaveli ko‘chasi, 41, Yakkasaroy",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Yakkasaroy",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Birinchi bargdek yashil",
+      "eyebrow": "Matcha-bar · Shota Rustaveli, 41",
+      "subtitle": "Matchani ko‘z oldingizda bambuk ko‘pirtirgich bilan ko‘pirtiramiz: quyuq usucha, yumshoq latte yoki muzli tonik. Qahva ichadiganlar uchun — voronka va aeropress.",
+      "words": [
+        "usucha",
+        "matcha-latte",
+        "xojicha",
+        "yudzu-tonik"
+      ],
+      "cta": {
+        "label": "Olib ketishga buyurtma",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Udzi, Kiotodan matcha",
+        "Suli suti qo‘shimcha haqsiz",
+        "Uy uchun ko‘pirtirgich va kosalar",
+        "Odatda shakarsiz"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Midori javoni",
+      "groups": [
+        {
+          "name": "Matcha",
+          "items": [
+            {
+              "name": "Usucha",
+              "text": "Marosim matchasi, suvda ko‘pirtirilgan",
+              "price": "48 000 so‘m"
+            },
+            {
+              "name": "Matcha-latte",
+              "text": "Suli yoki sigir sutida",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Yudzu-tonik",
+              "text": "Matcha, tonik, yudzu sitrusi, muz",
+              "price": "46 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Matcha emas",
+          "items": [
+            {
+              "name": "Xojicha-latte",
+              "text": "Qovurilgan yapon choyi, kofeini deyarli yo‘q",
+              "price": "40 000 so‘m"
+            },
+            {
+              "name": "V60 voronka",
+              "text": "Keniya, rezavor va sitrus",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Moti",
+              "text": "Matcha, qulupnay yoki kunjut",
+              "price": "22 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Marosim",
+      "title": "Matchani qanday ko‘pirtiramiz",
+      "items": [
+        {
+          "title": "Elash",
+          "text": "2 g matchani elakdan o‘tkazish — kesaksiz."
+        },
+        {
+          "title": "Quyish",
+          "text": "75° li 70 ml suv — issiqrog‘i matchani achchiq qiladi."
+        },
+        {
+          "title": "Ko‘pirtirish",
+          "text": "Ko‘pirtirgich bilan «M» harfi shaklida 15 soniya ko‘pik chiqquncha."
+        },
+        {
+          "title": "Ichish",
+          "text": "Darhol, ko‘pik yo‘qolmay turib."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "type": "services",
+      "label": "Uyga",
+      "title": "Uy uchun matcha to‘plami",
+      "intro": "",
+      "items": [
+        {
+          "title": "Marosim matchasi 30 g",
+          "text": "Birinchi hosil, Udzi.",
+          "price": "165 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Ko‘pirtirgich va kosa",
+          "text": "Bambuk chasen va sopol kosa.",
+          "price": "210 000 so‘m",
+          "tag": "sovg‘a"
+        },
+        {
+          "title": "Mahorat darsi",
+          "text": "Barista bilan bir soat: uyda ko‘pirtirishni o‘rganamiz.",
+          "price": "150 000 so‘m",
+          "tag": "shanba kunlari"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "75",
+          "suffix": "°",
+          "label": "matcha uchun suv harorati"
+        },
+        {
+          "value": "15",
+          "suffix": " son",
+          "label": "ko‘pikkacha ko‘pirtirish"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "zal va ayvondagi o‘rinlar"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlar nima deydi",
+      "items": [
+        {
+          "quote": "Nihoyat o‘tga o‘xshamaydigan matcha. Uyga to‘plam oldim va mahorat darsida o‘rgandim.",
+          "author": "Sevara B.",
+          "role": "mahorat darsi"
+        },
+        {
+          "quote": "Kechqurun qahva o‘rniga xojicha-latte — va yaxshi uxlayman.",
+          "author": "Jasur N.",
+          "role": "mehmon"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Matcha haqida",
+      "items": [
+        {
+          "q": "Matchada qancha kofein bor?",
+          "a": "Taxminan espressoning yarmicha, lekin yumshoqroq va uzoqroq tetiklashtiradi."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Suli suti — qo‘shimcha haqsiz, kokos va bodom suti — +6 000 so‘m."
+        },
+        {
+          "q": "Olib ketishga buyurtma qilsa bo‘ladimi?",
+          "a": "Ha, «Olib ketishga buyurtma» tugmasi yoki Telegram orqali — kelishingizga tayyorlaymiz."
+        },
+        {
+          "q": "Uyda matchani qayerda saqlash kerak?",
+          "a": "Muzlatgichda, yopiq bankada, ochilgandan keyin bir oy ichida ichish kerak."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Manzil",
+      "title": "Yashilga kiring",
+      "text": "Shota Rustaveli ko‘chasi, 41. Ish kunlari 9:00–22:00, dam olish kunlari 10:00–23:00.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/midorimatcha"
+      }
+    }
+  ]
+}

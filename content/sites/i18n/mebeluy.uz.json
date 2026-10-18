@@ -1,0 +1,253 @@
+{
+  "name": "Mebel Uy",
+  "tagline": "Yangi uydagi kvartira — 30 kunda mebel bilan",
+  "niche": "Yangi uylar uchun mebel to‘plamlari",
+  "nav": {
+    "cta": {
+      "label": "To‘plamni hisoblash",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Yangi uylar uchun mebel to‘plamlari sayti: to‘plam narxi bilan kvartira rejalari, shkalali buyurtma jarayoni, mini-rejali tariflar va Telegramga ariza.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Mebel Uy — yangi uy uchun mebel to‘plami 30 kunda",
+    "description": "Yangi uydagi kvartira uchun oshxona, shkaflar, karavotlar va divan bitta to‘plamda: bir xonali 38 mln so‘mdan, ikki xonali 56 mln so‘mdan. O‘lchash, loyiha va yig‘ish — 30 kunda.",
+    "keywords": [
+      "yangi uy uchun mebel",
+      "mebel to‘plami",
+      "kalit topshiriladigan kvartira mebeli",
+      "buyurtma oshxona va shkaflar",
+      "Sergeli mebel"
+    ],
+    "answer": "Mebel Uy — yangi uylardagi kvartiralar uchun mebel to‘plamlari (Toshkent, Yangi Sergeli ko‘chasi, 18). Bir xonali kvartira uchun to‘plam 38 000 000 so‘mdan, ikki xonali uchun 56 000 000 so‘mdan, uch xonali uchun 74 000 000 so‘mdan. O‘lchash, 3D-loyiha, tayyorlash va yig‘ish 30 kun oladi, 12 oygacha muddatli to‘lov."
+  },
+  "business": {
+    "legalName": "«Mebel Uy» MChJ",
+    "street": "Yangi Sergeli ko‘chasi, 18",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kalitni oldingiz — mebelni olib kelamiz",
+      "eyebrow": "Yangi uylar uchun mebel · to‘plamlarda · 30 kunda",
+      "subtitle": "Kvartirangiz rejasiga oshxona, kupe-shkaflar, karavotlar, divan va dahliz. Bitta shartnoma, bitta narx, bitta yig‘ish kuni.",
+      "words": [
+        "Sergeli",
+        "Yashnobod",
+        "Yunusobod"
+      ],
+      "cta": {
+        "label": "To‘plamni hisoblash",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Rejalar",
+        "href": "#layouts"
+      },
+      "image": ""
+    },
+    {
+      "id": "layouts",
+      "type": "works",
+      "label": "Rejalar",
+      "title": "Kvartirangizga to‘plam",
+      "items": [
+        {
+          "title": "1 xonali",
+          "category": "38–48 m²",
+          "year": "38 mln so‘mdan",
+          "text": "2,4 m oshxona, dahlizda kupe-shkaf, 160 × 200 karavot, divan-karavot va stol.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "2 xonali",
+          "category": "55–68 m²",
+          "year": "56 mln so‘mdan",
+          "text": "Burchak oshxona, kiyim shkafli yotoqxona, TV zonali mehmonxona, dahliz va hammom shkafi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "3 xonali",
+          "category": "78–96 m²",
+          "year": "74 mln so‘mdan",
+          "text": "Ikki xonalidagi hammasi va cherdak-karavot, ish stoli va javonli bolalar xonasi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "progress",
+      "type": "process",
+      "label": "Buyurtma jarayoni",
+      "title": "Buyurtmangiz 18-kunda shunday ko‘rinadi",
+      "items": [
+        {
+          "title": "O‘lchash va 3D-loyiha — 100%",
+          "text": "O‘lchovchi qo‘ng‘iroq kuni keldi, loyiha 3 kunda kelishildi."
+        },
+        {
+          "title": "Oshxona — 80%",
+          "text": "Korpuslar yig‘ilgan, fasadlar bo‘yalmoqda."
+        },
+        {
+          "title": "Shkaflar va dahliz — 60%",
+          "text": "Bichim tayyor, eshik oynalarini kutyapmiz."
+        },
+        {
+          "title": "Yetkazish va yig‘ish — 0%",
+          "text": "28-kunga rejalashtirilgan, bitta brigada bir kunda."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlar",
+      "title": "Mebel Uy raqamlarda",
+      "items": [
+        {
+          "value": "640",
+          "suffix": "",
+          "label": "jihozlangan kvartira"
+        },
+        {
+          "value": "30",
+          "suffix": " kun",
+          "label": "o‘lchashdan yig‘ishgacha"
+        },
+        {
+          "value": "12",
+          "suffix": " oy",
+          "label": "ortiqcha to‘lovsiz muddatli to‘lov"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "To‘plamlar",
+      "title": "To‘plamga nima kiradi",
+      "items": [
+        {
+          "name": "1 xona «Start»",
+          "price": "38 000 000 so‘m",
+          "period": "kalit topshiriladigan",
+          "features": [
+            "LDSP oshxona va rakovina",
+            "1,8 m kupe-shkaf",
+            "Karavot va matras",
+            "1 kunda yig‘ish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 xona «Oila»",
+          "price": "56 000 000 so‘m",
+          "period": "kalit topshiriladigan",
+          "features": [
+            "MDF burchak oshxona",
+            "Ikki kupe-shkaf",
+            "Divan va TV zona",
+            "Dahliz va hammom shkafi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3 xona «Katta oila»",
+          "price": "74 000 000 so‘m",
+          "period": "kalit topshiriladigan",
+          "features": [
+            "«Oila»dagi hammasi",
+            "Cherdak-karavotli bolalar xonasi",
+            "Ish joyi",
+            "Shkaflarda yoritish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Kvartiralar",
+      "title": "Mijozlarimiz kvartiralari",
+      "items": [
+        {
+          "caption": "Sergelidagi ikki xonali",
+          "image": ""
+        },
+        {
+          "caption": "Zaytun rangidagi oshxona",
+          "image": ""
+        },
+        {
+          "caption": "Oynali dahliz",
+          "image": ""
+        },
+        {
+          "caption": "Cherdakli bolalar xonasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "To‘plamdan biror narsani olib tashlasa bo‘ladimi?",
+          "a": "Ha, to‘plamni siz uchun qayta hisoblaymiz: istalgan pozitsiyani olib tashlaymiz yoki almashtiramiz."
+        },
+        {
+          "q": "O‘lchovchi qachon keladi?",
+          "a": "Qo‘ng‘iroq kuni yoki ertasiga; buyurtma bermasangiz ham o‘lchash bepul."
+        },
+        {
+          "q": "Muddatli to‘lov qanday ishlaydi?",
+          "a": "Hamkor banklar orqali ortiqcha to‘lovsiz 12 oygacha; birinchi to‘lov 20% dan."
+        },
+        {
+          "q": "30 kunda ulgurmasangiz-chi?",
+          "a": "Muddat shartnomada yozilgan: har bir kechikkan kun uchun summaning 0,5%."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Kvartira rejasini yuboring",
+      "text": "To‘plamni bir soatda hisoblaymiz. Shourum: Yangi Sergeli, 18, du–sha 09:00 dan 19:00 gacha.",
+      "cta": {
+        "label": "To‘plamni hisoblash",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "name": "Mebel Uy",
+  "tagline": "A new-build flat — furnished in 30 days",
+  "niche": "Furniture packages for new builds",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for new-build furniture packages: flat layouts with package prices, order progress with bars, plans with mini floor plans and requests sent to Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Mebel Uy — a furniture package for a new build in 30 days",
+    "description": "A kitchen, wardrobes, beds and a sofa for a new-build flat in one package: one-bedroom from 38 mln UZS, two-bedroom from 56 mln UZS. Measuring, design and assembly in 30 days.",
+    "keywords": [
+      "new-build furniture",
+      "furniture package",
+      "turnkey flat furniture",
+      "custom kitchen and wardrobes",
+      "Sergeli furniture"
+    ],
+    "answer": "Mebel Uy furnishes new-build flats with packages (Tashkent, 18 Yangi Sergeli St). A one-bedroom package from 38,000,000 UZS, two-bedroom from 56,000,000 UZS, three-bedroom from 74,000,000 UZS. Measuring, 3D design, production and assembly take 30 days; instalments up to 12 months."
+  },
+  "business": {
+    "legalName": "Mebel Uy LLC",
+    "street": "18 Yangi Sergeli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Got the keys? We bring the furniture",
+      "eyebrow": "Furniture for new builds · in packages · in 30 days",
+      "subtitle": "A kitchen, sliding wardrobes, beds, a sofa and a hallway to your flat’s layout. One contract, one price, one assembly day.",
+      "words": [
+        "Sergeli",
+        "Yashnabad",
+        "Yunusabad"
+      ],
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Layouts",
+        "href": "#layouts"
+      },
+      "image": ""
+    },
+    {
+      "id": "layouts",
+      "type": "works",
+      "label": "Layouts",
+      "title": "A package for your flat",
+      "items": [
+        {
+          "title": "1-bedroom",
+          "category": "38–48 m²",
+          "year": "from 38 mln UZS",
+          "text": "A 2.4 m kitchen, a sliding wardrobe in the hall, a 160 × 200 bed, a sofa bed and a table.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "2-bedroom",
+          "category": "55–68 m²",
+          "year": "from 56 mln UZS",
+          "text": "A corner kitchen, a bedroom with a wardrobe, a living room with a TV wall, a hallway and a bathroom cabinet.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "3-bedroom",
+          "category": "78–96 m²",
+          "year": "from 74 mln UZS",
+          "text": "Everything in the 2-bedroom plus a kids’ room with a loft bed, a desk and shelving.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "progress",
+      "type": "process",
+      "label": "Order progress",
+      "title": "This is your order on day 18",
+      "items": [
+        {
+          "title": "Measuring and 3D design — 100%",
+          "text": "The fitter came on the day you called; the design was agreed in 3 days."
+        },
+        {
+          "title": "Kitchen — 80%",
+          "text": "Carcasses assembled, fronts in the paint shop."
+        },
+        {
+          "title": "Wardrobes and hallway — 60%",
+          "text": "Panels cut; waiting for the door mirrors."
+        },
+        {
+          "title": "Delivery and assembly — 0%",
+          "text": "Scheduled for day 28 — one crew in one day."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Numbers",
+      "title": "Mebel Uy in numbers",
+      "items": [
+        {
+          "value": "640",
+          "suffix": "",
+          "label": "flats furnished"
+        },
+        {
+          "value": "30",
+          "suffix": " days",
+          "label": "from measuring to assembly"
+        },
+        {
+          "value": "12",
+          "suffix": " mo",
+          "label": "interest-free instalments"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Packages",
+      "title": "What a package includes",
+      "items": [
+        {
+          "name": "1 room “Start”",
+          "price": "38,000,000 UZS",
+          "period": "turnkey",
+          "features": [
+            "Chipboard kitchen with sink",
+            "1.8 m sliding wardrobe",
+            "Bed and mattress",
+            "Assembled in 1 day"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 rooms “Family”",
+          "price": "56,000,000 UZS",
+          "period": "turnkey",
+          "features": [
+            "MDF corner kitchen",
+            "Two sliding wardrobes",
+            "Sofa and TV wall",
+            "Hallway and bathroom cabinet"
+          ],
+          "featured": true
+        },
+        {
+          "name": "3 rooms “Big family”",
+          "price": "74,000,000 UZS",
+          "period": "turnkey",
+          "features": [
+            "Everything in Family",
+            "Kids’ room with a loft bed",
+            "A workstation",
+            "Lighting in wardrobes"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Flats",
+      "title": "Our clients’ flats",
+      "items": [
+        {
+          "caption": "A 2-bedroom in Sergeli",
+          "image": ""
+        },
+        {
+          "caption": "An olive kitchen",
+          "image": ""
+        },
+        {
+          "caption": "A hallway with a mirror",
+          "image": ""
+        },
+        {
+          "caption": "A kids’ room with a loft",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I remove items from a package?",
+          "a": "Yes, we recalculate the package for you — remove or swap any item."
+        },
+        {
+          "q": "When does the fitter come?",
+          "a": "The same or next day; measuring is free even if you don’t order."
+        },
+        {
+          "q": "How do instalments work?",
+          "a": "Up to 12 months interest-free through partner banks; first payment from 20%."
+        },
+        {
+          "q": "What if you miss the 30 days?",
+          "a": "The deadline is in the contract: 0.5% of the total for each day of delay."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us your flat layout",
+      "text": "We will price the package within an hour. Showroom: 18 Yangi Sergeli St, Mon–Sat 09:00–19:00.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      }
+    }
+  ]
+}

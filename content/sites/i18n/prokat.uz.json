@@ -1,0 +1,290 @@
+{
+  "name": "Metall Ombor",
+  "tagline": "Toshkent bo‘ylab kesish va yetkazib berish bilan metall prokat",
+  "niche": "Metall baza: profil quvur, list, armatura, burchak",
+  "nav": {
+    "cta": {
+      "label": "Metall buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall baza yoki metall prokat do‘koni uchun sayt: bo‘limlar bo‘yicha jadval-narxlar, kesish va yetkazish xizmatlari, Telegramga hisob arizasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "Metall buyurtma qilish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Metall Ombor — Toshkentda metall prokat, yetkazib berish bilan",
+    "description": "Sergelidagi ombordan profil quvur, list, armatura, burchak va shveller. O‘lchamga kesish, bukish va buyurtma kuni manipulyator bilan yetkazish. Bitta quvurdan sotamiz.",
+    "keywords": [
+      "metall prokat Toshkent",
+      "profil quvur narxi",
+      "Sergeli metall baza",
+      "metall kesish",
+      "metall list sotib olish"
+    ],
+    "answer": "Metall Ombor — Sergelidagi (Toshkent) metall baza: profil quvur metri 26 000 so‘mdan, 2 mm list 520 000 so‘mdan, armatura tonnasi 11 900 000 so‘mdan. O‘lchamga kesamiz, bukamiz va buyurtma kuni manipulyator bilan olib boramiz. Du–Sh 8:00–18:00, telefon +998 71 200-07-01."
+  },
+  "business": {
+    "legalName": "MChJ «Metall Ombor»",
+    "street": "Sergeli, Yangi Sergeli ko‘chasi, 14",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram-narxlar"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metallni olib boramiz",
+      "eyebrow": "Metall baza · Sergeli · yetkazib berish bilan",
+      "subtitle": "O‘z omborimizdan profil quvur, list, armatura va burchak. Ro‘yxatingiz bo‘yicha o‘lchamga kesamiz, yuklaymiz va manipulyatorda olib boramiz — buyurtma 13:00 gacha bo‘lsa, o‘sha kuni.",
+      "words": [
+        "bugun",
+        "o‘lchamda",
+        "bitta quvurdan"
+      ],
+      "cta": {
+        "label": "Buyurtmani hisoblash",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#price"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Baza haqida",
+      "title": "Ochiq ombor va kesish sexi bir joyda",
+      "text": "Sergelidagi maydonda yuradigan prokat doim bor: 15×15 dan 120×120 gacha quvurlar, 0,5 dan 10 mm gacha list, armatura va sortli metall. Yonida lentali arra, gilyotina va list bukuvchi — buyurtma kesilgan holda jo‘natiladi. Bitta ayvon uchun xususiy mijozlarga ham, obyektga brigadalarga ham sotamiz.",
+      "image": ""
+    },
+    {
+      "id": "price",
+      "type": "menu",
+      "label": "Narxlar",
+      "title": "Metall prokat narxlari",
+      "groups": [
+        {
+          "name": "Profil quvur (metri)",
+          "items": [
+            {
+              "name": "20×20×1,5",
+              "text": "To‘siqlar, mebel karkaslari",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "40×20×2",
+              "text": "Panjara, ayvonlar",
+              "price": "41 000 so‘m"
+            },
+            {
+              "name": "60×60×3",
+              "text": "Darvoza va ayvon ustunlari",
+              "price": "98 000 so‘m"
+            },
+            {
+              "name": "100×100×4",
+              "text": "Ko‘taruvchi ustunlar",
+              "price": "212 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "List (1,25×2,5 m list)",
+          "items": [
+            {
+              "name": "Ruxlangan 0,5 mm",
+              "text": "Tom, suv oqizgichlar",
+              "price": "185 000 so‘m"
+            },
+            {
+              "name": "Issiq prokat 2 mm",
+              "text": "Darvoza, eshikchalar",
+              "price": "520 000 so‘m"
+            },
+            {
+              "name": "Issiq prokat 4 mm",
+              "text": "Qo‘yilma detallar, asoslar",
+              "price": "1 040 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Armatura va sortli metall",
+          "items": [
+            {
+              "name": "Armatura A500, 12 mm",
+              "text": "Tonnasi, kesish bepul",
+              "price": "11 900 000 so‘m"
+            },
+            {
+              "name": "Burchak 50×50×5",
+              "text": "Metri",
+              "price": "48 000 so‘m"
+            },
+            {
+              "name": "Shveller 10",
+              "text": "Metri",
+              "price": "112 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Kesamiz, bukamiz, olib boramiz",
+      "intro": "Metall payvandlashga tayyor holda kelishi uchun hammasi.",
+      "items": [
+        {
+          "title": "O‘lchamga kesish",
+          "text": "Lentali arra, aniqlik ±2 mm. Har pozitsiyaga 10 tagacha kesish — bepul.",
+          "price": "kesish 3 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "List bukish",
+          "text": "Eskizingiz bo‘yicha 3 m gacha uzunlikdagi suv oqizgich, quti, burchaklar.",
+          "price": "bukish 15 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Manipulyator bilan yetkazish",
+          "text": "Toshkent bo‘ylab buyurtma kuni, uchastkaga kran bilan tushirish.",
+          "price": "250 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Grunt bilan bo‘yash",
+          "text": "Quvur va burchakka GF-021 grunti, bir kunda quriydi.",
+          "price": "metri 4 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " t",
+          "label": "omborda metall"
+        },
+        {
+          "value": "180",
+          "suffix": "",
+          "label": "narxlar ro‘yxatida pozitsiya"
+        },
+        {
+          "value": "4",
+          "suffix": " soat",
+          "label": "arizadan yetkazishgacha"
+        },
+        {
+          "value": "1",
+          "suffix": " quvur",
+          "label": "minimal buyurtma"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "Uchastkadagi metallgacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Ro‘yxat",
+          "text": "Ro‘yxat yoki chizmani Telegramga yuboring — daftar varag‘ining surati ham bo‘ladi."
+        },
+        {
+          "title": "Hisob",
+          "text": "30 daqiqada og‘irlik, kesish va yetkazishni bitta summada hisoblaymiz."
+        },
+        {
+          "title": "To‘lov",
+          "text": "Naqd, karta yoki yuridik shaxslar uchun QQS bilan o‘tkazma."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "Kesamiz, yuklaymiz, olib boramiz. Qulay joyga tushiramiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar fikri",
+      "items": [
+        {
+          "quote": "Ertalab ayvon uchun quvur buyurtma qildim, tushgacha hammasi ro‘yxatim bo‘yicha kesilgan holda uchastkada edi.",
+          "author": "Botir",
+          "role": "xususiy uy, Sergeli"
+        },
+        {
+          "quote": "Obyektlarga armatura olamiz. Og‘irlik to‘g‘ri chiqadi, buxgalteriya hujjatlari o‘sha kuni.",
+          "author": "Dilshod",
+          "role": "prorab"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Bitta quvur sotib olsa bo‘ladimi?",
+          "a": "Ha, bitta quvurdan va hatto bo‘lagini ham metr narxida sotamiz."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab manipulyatorda — 250 000 so‘mdan, yakuni tuman va og‘irlikka bog‘liq."
+        },
+        {
+          "q": "Yuridik shaxslar bilan ishlaysizmi?",
+          "a": "Ha, QQS bilan hisob beramiz, ishonchnoma bo‘yicha jo‘natamiz, solishtirma dalolatnoma beramiz."
+        },
+        {
+          "q": "Narxlar yakuniymi?",
+          "a": "Narxlar metall bozori bilan o‘zgaradi; aniq summani buyurtmani hisoblaganda aytamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Ro‘yxatni yuboring — 30 daqiqada hisoblaymiz",
+      "text": "Sergeli, Yangi Sergeli ko‘chasi, 14. Du–Sh 8:00–18:00. Yuk mashinalari uchun kirish bazaning orqa tomonidan.",
+      "cta": {
+        "label": "Metall buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "name": "Zarhal Atelier",
+  "tagline": "Fine wrought iron with gilding, patina and bronze",
+  "niche": "Fine ornamental ironwork with gilding",
+  "nav": {
+    "cta": {
+      "label": "Visit the showroom",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a fine ironwork atelier: dark velvet with a golden sheen, collections in a showcase, the workshop and showroom bookings.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a showroom visit",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Zarhal Atelier — gilded fine ironwork in Tashkent",
+    "description": "Staircase balustrades, gates, fire screens and furniture in wrought iron with gold leaf, patina and bronze detail. Bespoke design, handmade, 10-year guarantee.",
+    "keywords": [
+      "fine wrought iron",
+      "metal gilding",
+      "gilded iron balustrade",
+      "luxury wrought-iron gates"
+    ],
+    "answer": "Zarhal Atelier is a fine ironwork atelier in Tashkent: balustrades, gates, fire screens and furniture with gold leaf, patina and bronze. Staircase balustrade from 6,800,000 UZS per linear metre, fire screens from 14,000,000 UZS. Design in 7 days, made in 6–10 weeks, 10-year guarantee. Showroom in Mirabad, phone +998 71 200-07-06."
+  },
+  "business": {
+    "legalName": "Zarhal Atelier LLC",
+    "street": "34 Taras Shevchenko St, Mirabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Samarkand, Bukhara",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ironwork touched by gold",
+      "eyebrow": "Fine ironwork atelier · Mirabad",
+      "subtitle": "Balustrades, gates, fire screens and furniture forged by hand and finished in gold leaf. Each piece exists only once — to your design or ours.",
+      "words": [
+        "Gold leaf",
+        "Patina",
+        "Bronze",
+        "Hand chasing"
+      ],
+      "cta": {
+        "label": "Visit the showroom",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Collections",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Staircases",
+        "Gates",
+        "Fire screens",
+        "Consoles and tables",
+        "Lighting"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The atelier",
+      "title": "Metal made to be handed down",
+      "text": "Zarhal is Uzbek for gilding. The atelier has three smiths, a chaser and a gilder who lays 23.75-carat gold leaf by hand onto an oil size. We never use “gold” paint: the gold on our pieces is real and does not darken with time.",
+      "image": ""
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Collections",
+      "title": "Atelier collections",
+      "items": [
+        {
+          "title": "Samarkand",
+          "category": "Balustrades",
+          "year": "from UZS 6.8 m/m",
+          "text": "A tile-inspired ornament of forged scrolls with gilded rosettes.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Versailles",
+          "category": "Gates",
+          "year": "from UZS 85 m",
+          "text": "Grand gates with the owner’s monogram and gilded finials.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hearth",
+          "category": "Fire screens",
+          "year": "from UZS 14 m",
+          "text": "A three-panel screen with brass mesh and an antique-bronze patina.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mirage",
+          "category": "Furniture",
+          "year": "from UZS 22 m",
+          "text": "Consoles and tables with marble tops on forged bases.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Commissions",
+      "title": "What the atelier makes",
+      "items": [
+        {
+          "title": "Design and model",
+          "text": "Drawing, 3D render and a full-size sample section.",
+          "price": "from 3,500,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Gilding",
+          "text": "23.75-carat gold leaf with an exterior lacquer.",
+          "price": "from 1,900,000 UZS per dm²",
+          "tag": ""
+        },
+        {
+          "title": "Restoration",
+          "text": "Restoring old ironwork, missing elements and gilding.",
+          "price": "on assessment",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "23",
+          "suffix": " carat",
+          "label": "gold leaf"
+        },
+        {
+          "value": "7",
+          "suffix": " days",
+          "label": "design and render"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "craftsmen in the atelier"
+        },
+        {
+          "value": "10",
+          "suffix": " yrs",
+          "label": "guarantee"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Details",
+      "title": "Up close",
+      "items": [
+        {
+          "caption": "“Samarkand” rosette, gold",
+          "image": ""
+        },
+        {
+          "caption": "“Versailles” gate finial",
+          "image": ""
+        },
+        {
+          "caption": "“Antique bronze” patina",
+          "image": ""
+        },
+        {
+          "caption": "“Mirage” console, marble",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How a piece is made",
+      "title": "From sketch to gold",
+      "items": [
+        {
+          "title": "Showroom meeting",
+          "text": "We look at patina and gold samples and talk through the interior."
+        },
+        {
+          "title": "Design",
+          "text": "A drawing and render in your interior within 7 days."
+        },
+        {
+          "title": "Forging and chasing",
+          "text": "6–10 weeks of handwork, with progress photos every week."
+        },
+        {
+          "title": "Gilding and fitting",
+          "text": "We gild, lacquer and install wearing white gloves."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Letters from clients",
+      "items": [
+        {
+          "quote": "The balustrade became the centrepiece of the house. In the sun the gold does not shout — it glows.",
+          "author": "Gulnora",
+          "role": "private residence"
+        },
+        {
+          "quote": "They restored my great-grandfather’s gates, recreating the lost rosettes from an old photograph.",
+          "author": "Farrukh",
+          "role": "Samarkand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the gold real?",
+          "a": "Yes, 23.75-carat gold leaf. We never use “gold effect” paints."
+        },
+        {
+          "q": "Will gilding survive outdoors?",
+          "a": "Yes — it is sealed with protective lacquer, and we offer a free inspection every few years."
+        },
+        {
+          "q": "Do you work in other cities?",
+          "a": "Yes, in Samarkand and Bukhara; our own crew does the installation."
+        },
+        {
+          "q": "Can I see samples?",
+          "a": "In the Mirabad showroom, by appointment, with patina and gold samples and collection pieces."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Showroom",
+      "title": "Come and see the gold up close",
+      "text": "34 Taras Shevchenko St, Mirabad. Mon–Fri 10:00–19:00, Sat 11:00–17:00, by appointment.",
+      "cta": {
+        "label": "Visit the showroom",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "name": "Sofa.uz",
+  "tagline": "Siz tanlagan rangdagi divan — 7 kunda",
+  "niche": "O‘z ishlab chiqarishimizdagi divanlar va yumshoq mebel internet-do‘koni",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Divan va yumshoq mebel ishlab chiqaruvchisi uchun do‘kon-sayt. Birinchi ekranda divanni mato namunalariga bo‘yab ko‘rish mumkin, modellar — siluetli kartochkalar, yetkazishgacha bo‘lgan hafta — furgonli yo‘lak.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Sofa.uz — Toshkentda 7 kunda buyurtma divanlar",
+    "description": "O‘z ishlab chiqarishimizdagi to‘g‘ri, burchakli va modulli divanlar, kreslolar va puflar. Tanlash uchun olti mato, yechiladigan g‘iloflar, Toshkent bo‘ylab 7 kunda yetkazish, kafolat 3 yil.",
+    "keywords": [
+      "divan sotib olish Toshkent",
+      "burchakli divan",
+      "buyurtma divan",
+      "modulli divan",
+      "yumshoq mebel Toshkent",
+      "yechiladigan g‘ilofli divan"
+    ],
+    "answer": "Sofa.uz — o‘z ishlab chiqarishimizdagi divanlar do‘koni, shou-rum Toshkentdagi Muqimiy ko‘chasi, 7 da. Uch o‘rinli divan — 7 900 000 so‘mdan, burchakli — 11 400 000 so‘mdan, kreslo — 3 200 000 so‘mdan. Tanlash uchun olti mato, yechiladigan g‘iloflar, Toshkent bo‘ylab 7 kunda yetkazish va ko‘tarish, kafolat 3 yil. Shou-rum har kuni 10:00 dan 20:00 gacha ochiq."
+  },
+  "business": {
+    "legalName": "Sofa Uz MChJ",
+    "street": "Muqimiy ko‘chasi, 7",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Aynan sizga mos divan",
+      "eyebrow": "Toshkent bo‘ylab 7 kunda yetkazish",
+      "subtitle": "Model va qoplamani tanlang — divanni o‘z ishlab chiqarishimizda tikamiz va bir haftada olib kelamiz. Matolarni Muqimiydagi shou-rumda ushlab ko‘rish mumkin.",
+      "cta": {
+        "label": "Divan buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Barcha modellar",
+        "href": "#models"
+      },
+      "image": "",
+      "words": [
+        "Tanlash uchun 6 mato",
+        "Yechiladigan g‘iloflar",
+        "Kafolat 3 yil",
+        "Yetkazish va ko‘tarish"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Velyur",
+        "Bukle",
+        "Rogojka",
+        "Velvet",
+        "Yechiladigan g‘iloflar",
+        "Ortopedik asos",
+        "7 kun"
+      ]
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Modellar",
+      "title": "Yetti model — olti matodan istalgani",
+      "intro": "Narx — asosiy matodagi model uchun. Rang qo‘shimcha to‘lovsiz o‘zgaradi, bukle va velvet — plyus 10%.",
+      "items": [
+        {
+          "title": "Uch o‘rinli «Toshkent»",
+          "text": "Chuqur o‘tirish, mustaqil prujinalar, yechiladigan g‘iloflar.",
+          "price": "7 900 000 so‘mdan",
+          "tag": "230 × 95 sm"
+        },
+        {
+          "title": "Burchakli «Chorsu»",
+          "text": "Burchak yig‘ish paytida chap yoki o‘ngga almashtiriladi.",
+          "price": "11 400 000 so‘mdan",
+          "tag": "280 × 170 sm"
+        },
+        {
+          "title": "Ikki o‘rinli «Mini»",
+          "text": "Kichik mehmonxona, studiya yoki kabinet uchun.",
+          "price": "5 600 000 so‘mdan",
+          "tag": "170 × 90 sm"
+        },
+        {
+          "title": "«Bulut» kreslosi",
+          "text": "Yumshoq tirsaklar va suyanchiq yostiqlarida par.",
+          "price": "3 200 000 so‘mdan",
+          "tag": "90 × 90 sm"
+        },
+        {
+          "title": "Modulli «Konstruktor»",
+          "text": "Seksiyalardan yig‘iladi: to‘g‘ri, burchakli yoki orol.",
+          "price": "9 900 000 so‘mdan",
+          "tag": "3 moduldan"
+        },
+        {
+          "title": "«Tabletka» pufi",
+          "text": "Oyoq qo‘yish joyi, mehmon uchun qo‘shimcha o‘rin va patnisli stolcha.",
+          "price": "1 300 000 so‘mdan",
+          "tag": "60 × 60 sm"
+        },
+        {
+          "title": "«Mehmon» divan-karavoti",
+          "text": "«Yevroknijka» mexanizmi, uxlash joyi 160 × 200 sm.",
+          "price": "8 600 000 so‘mdan",
+          "tag": "200 × 100 sm"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "type": "process",
+      "label": "Yetkazish",
+      "title": "Buyurtmadan divangacha bir hafta",
+      "items": [
+        {
+          "title": "1-kun — buyurtma",
+          "text": "Model va matoni tanlaysiz, oldindan to‘lov qilasiz."
+        },
+        {
+          "title": "2-kun — bichish",
+          "text": "Matoni bichamiz va karkasni tayyorlaymiz."
+        },
+        {
+          "title": "3–5-kunlar — tikish",
+          "text": "Karkasni yig‘amiz, prujinalarni o‘rnatamiz, g‘iloflarni tikamiz."
+        },
+        {
+          "title": "6-kun — tekshiruv",
+          "text": "Choklar va mexanizmlarni tekshiramiz, tayyor divan suratini yuboramiz."
+        },
+        {
+          "title": "7-kun — yetkazish",
+          "text": "Olib kelamiz, qavatga ko‘taramiz va plyonkani olib tashlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "7",
+          "suffix": "kun",
+          "label": "buyurtmadan yetkazishgacha"
+        },
+        {
+          "value": "6",
+          "suffix": "mato",
+          "label": "shou-rumda tanlash uchun"
+        },
+        {
+          "value": "3",
+          "suffix": "yil",
+          "label": "karkasga kafolat"
+        },
+        {
+          "value": "2500",
+          "suffix": "+",
+          "label": "divan yetkazildi"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Interyerlarda",
+      "title": "Ular xaridorlarda qanday turadi",
+      "items": [
+        {
+          "caption": "Zumraddagi «Toshkent»",
+          "image": ""
+        },
+        {
+          "caption": "Qumdagi «Chorsu»",
+          "image": ""
+        },
+        {
+          "caption": "«Bulut» kreslosi",
+          "image": ""
+        },
+        {
+          "caption": "Orol ko‘rinishidagi «Konstruktor»",
+          "image": ""
+        },
+        {
+          "caption": "Terrakotadagi puflar",
+          "image": ""
+        },
+        {
+          "caption": "Kabinetdagi «Mehmon»",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "O‘tirishadi va maqtashadi",
+      "items": [
+        {
+          "quote": "Matoni shou-rumda tanladik, bir haftadan keyin divan uyda turardi. G‘iloflarni mashinada yuvamiz — bolalar bilan bu najot.",
+          "author": "Malika",
+          "role": "«Toshkent», zumrad"
+        },
+        {
+          "quote": "Burchakli divanni 20 daqiqada yig‘ishdi va burchakni darhol boshqa tomonga o‘tkazishdi — va’da qilganidek.",
+          "author": "Bobur",
+          "role": "«Chorsu», grafit"
+        },
+        {
+          "quote": "Kabinetga ikkita kreslo oldik. O‘tirish yumshoq, bel esa charchamaydi.",
+          "author": "Nargiza",
+          "role": "«Bulut», qum"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Divan haqiqatan 7 kunda keladimi?",
+          "a": "Ha, katalogdagi barcha modellar uchun oltita asosiy matoda. Muddat shartnomada yoziladi; beshtadan ortiq seksiyali modulli to‘plamlar — 10 kungacha."
+        },
+        {
+          "q": "Matolarni jonli ko‘rish mumkinmi?",
+          "a": "Ha, barcha namunalar Muqimiy ko‘chasi, 7 dagi shou-rumda. Namunalarni uyga bepul olib kelishimiz mumkin."
+        },
+        {
+          "q": "G‘iloflar haqiqatan yechiladimi?",
+          "a": "Ha, «Mehmon»dan tashqari barcha modellarda. Ularni 30 °C da yuvish yoki kimyoviy tozalashga berish mumkin."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab yetkazish va qavatga ko‘tarish — bepul. Viloyatga — tashuvchi tarifi bo‘yicha."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, hamkor muddatli to‘lov xizmatlari orqali 6 yoki 12 oyga. Shartlarni menejer aytib beradi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "10 daqiqada divan tanlaymiz",
+      "text": "Ariza qoldiring yoki shou-rumga keling: barcha modellar va matolarni ko‘rsatamiz, yetkazishni hisoblaymiz.",
+      "cta": {
+        "label": "Ariza qoldirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

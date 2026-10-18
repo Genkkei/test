@@ -1,0 +1,242 @@
+{
+  "name": "Konstruktsiya",
+  "tagline": "Metall konstruksiyalarni loyihalaymiz va o‘rnatamiz",
+  "niche": "Metall konstruksiyalarni loyihalash va o‘rnatish: zinapoyalar, antresollar, karkaslar",
+  "seo": {
+    "title": "Konstruktsiya — Toshkentda kalit topshiriladigan metall konstruksiyalar",
+    "description": "Hisob-kitob, KM/KMD chizmalari, tayyorlash va o‘rnatish: zinapoyalar, antresollar, qo‘shimcha binolar va mansardalar karkaslari. Xususiy uylar va tijorat obyektlari bilan ishlaymiz.",
+    "keywords": [
+      "metall konstruksiyalar Toshkent",
+      "metall antresol",
+      "metall karkasli zinapoya",
+      "KMD chizmalari"
+    ],
+    "answer": "Konstruktsiya — Chilonzordagi muhandislik kompaniyasi: metall konstruksiyalarni loyihalash va o‘rnatish. Metall karkasli zinapoya 14 000 000 so‘mdan, antresol m² uchun 950 000 so‘mdan, qo‘shimcha bino karkasi m² uchun 1 200 000 so‘mdan, KMD chizmalari 2 500 000 so‘mdan. 5 yil kafolat, telefon +998 71 200-04-04."
+  },
+  "nav": {
+    "cta": {
+      "label": "Muhandis",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall konstruksiyalar muhandislik kompaniyasi uchun sayt: chizma grafikasi, xususiyatli loyihalar, narxli xizmatlar va o‘rnatish bosqichlari.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Konstruktsiya Injiniring» MChJ",
+    "street": "Bunyodkor shoh ko‘chasi, 15, Chilonzor",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Hisoblaymiz, chizamiz, payvandlaymiz, o‘rnatamiz",
+      "eyebrow": "Metall konstruksiyalar · Toshkent",
+      "subtitle": "Kalit topshiriladigan zinapoyalar, antresollar va qo‘shimcha bino karkaslari. Har bir konstruksiyani avval yukka hisoblaymiz, so‘ng KMD chizmalarini chiqaramiz — shundan keyingina metall kesamiz.",
+      "words": [
+        "Zinapoyalar",
+        "Antresollar",
+        "Karkaslar",
+        "Mansardalar"
+      ],
+      "cta": {
+        "label": "Muhandisni chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Obyektlar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nima qilamiz",
+      "items": [
+        {
+          "title": "Metall karkasli zinapoya",
+          "text": "To‘g‘ri, G- yoki P-shaklidagi, yog‘och yoki beton qoplama uchun.",
+          "price": "14 000 000 so‘mdan",
+          "tag": "3 hafta"
+        },
+        {
+          "title": "Antresol",
+          "text": "Ombor, do‘kon yoki baland shiftli kvartirada ikkinchi qavat.",
+          "price": "950 000 so‘mdan m² uchun",
+          "tag": "2–4 hafta"
+        },
+        {
+          "title": "Qo‘shimcha bino karkasi",
+          "text": "Xususiy uyga terrasa, qishki bog‘ va qo‘shimcha binolar.",
+          "price": "1 200 000 so‘mdan m² uchun",
+          "tag": "4 hafta"
+        },
+        {
+          "title": "KM va KMD chizmalari",
+          "text": "Agar boshqa pudratchi payvandlasa — hisob va chizmalarni beramiz.",
+          "price": "2 500 000 so‘mdan",
+          "tag": "5–10 kun"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Obyektlar",
+      "title": "Topshirilgan obyektlar",
+      "items": [
+        {
+          "title": "Ombor antresoli",
+          "category": "Tijorat",
+          "year": "2026",
+          "text": "Internet-do‘kon javonlari uchun ikkinchi qavat · Maydon: 320 m² · Yuk: 500 kg/m² · Muddat: 4 hafta",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chilonzordagi uyda zinapoya",
+          "category": "Xususiy uy",
+          "year": "2025",
+          "text": "Eman qoplama uchun kosourli P-shakl · Qavatlar: 3 · Muddat: 3 hafta",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Garaj ustidagi mansarda",
+          "category": "Qo‘shimcha bino",
+          "year": "2025",
+          "text": "Mavjud devorlarga yengil po‘lat karkas · Maydon: 64 m² · Muddat: 5 hafta",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kafe terrasasi",
+          "category": "Umumiy ovqatlanish",
+          "year": "2024",
+          "text": "Suriladigan tomli yozgi terrasa karkasi · Maydon: 140 m² · Muddat: 6 hafta",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kompaniya",
+      "title": "O‘rnatishda o‘zi turadigan muhandislar",
+      "text": "Jamoada ikki muhandis-konstruktor, 600 m² li o‘z sexi va ikki o‘rnatish brigadasi bor. Hisobni ShNQ me’yorlari bo‘yicha qilamiz, har bir obyektga chizmalar va yashirin ishlar dalolatnomasi bilan pasport beramiz — qabul va uyni sotishda asqotadi.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Ish qanday boradi",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "o‘z sexi"
+        },
+        {
+          "value": "180",
+          "suffix": "+",
+          "label": "topshirilgan obyekt"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "o‘rnatish brigadasi"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "konstruksiyaga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Antresol uchun loyiha kerakmi?",
+          "a": "Ha: yuk hisobisiz antresol xavfli. Agar biz o‘rnatsak, hisob va chizmalar narxga kiradi."
+        },
+        {
+          "q": "Muhandisning chiqishi qancha turadi?",
+          "a": "Toshkent bo‘ylab bepul. Muhandis o‘lchamlarni oladi, poydevorni ko‘radi va joyida taxminiy narxni aytadi."
+        },
+        {
+          "q": "Qishda o‘rnatish mumkinmi?",
+          "a": "Ha, metall yil bo‘yi o‘rnatiladi. Ko‘chada bo‘yashni +5 °C dan yuqori kunlarga ko‘chiramiz."
+        },
+        {
+          "q": "Hujjat berasizmi?",
+          "a": "Shartnoma, smeta, KMD chizmalari, yashirin ishlar dalolatnomasi va 5 yillik kafolat pasporti."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Obyektga muhandis yuboramiz",
+      "text": "Chilonzor, Bunyodkor shoh ko‘chasi, 15. Du–Ju 9:00–18:00, Sha 10:00–14:00.",
+      "cta": {
+        "label": "Muhandisga qo‘ng‘iroq",
+        "href": "tel:+998712000404"
+      }
+    }
+  ]
+}

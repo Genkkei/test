@@ -1,0 +1,233 @@
+{
+  "name": "Forma Studio",
+  "tagline": "Arxitektorlar loyihalaydigan mebel",
+  "niche": "Dizaynerlik mebeli va interyer yechimlari",
+  "nav": {
+    "cta": {
+      "label": "Loyihani muhokama qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Dizaynerlik mebeli byurosi uchun sayt: katta raqamli loyihalar indeksi, narx ostida o‘lcham chizig‘i bilan xizmatlar, sath belgilaridagi bosqichlar, chizma to‘ri.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Forma Studio — Toshkentda buyurtma dizaynerlik mebeli",
+    "description": "Arxitektorlar interyeringizga mebel loyihalaydi: o‘rnatilgan saqlash tizimlari, oshxonalar, stollar va javonlar. Chizma 5 kunda, ishlab chiqarish 30 kundan.",
+    "keywords": [
+      "dizaynerlik mebeli Toshkent",
+      "individual loyiha bo‘yicha mebel",
+      "o‘rnatilgan mebel",
+      "buyurtma oshxona",
+      "buyurtma javon"
+    ],
+    "answer": "Forma Studio — Toshkentdagi mebel arxitektura byurosi (Shahrisabz ko‘chasi, 16). O‘rnatilgan va korpus mebelni individual loyiha bo‘yicha loyihalaymiz va tayyorlaymiz: chizma 5 ish kunida 1 500 000 so‘mdan, ishlab chiqarish 30 kundan, montaj — 1–3 kun."
+  },
+  "business": {
+    "legalName": "«Forma Studio» MChJ",
+    "street": "Shahrisabz ko‘chasi, 16",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mebel — arxitekturaning bir qismi",
+      "eyebrow": "Mebel byurosi · Toshkent · Shahrisabz, 16",
+      "subtitle": "Shkaflar, oshxonalar, kutubxonalar va stollarni binolar kabi aniq loyihalaymiz: chizmalar, tugunlar va millimetrlik aniqlik bilan.",
+      "words": [
+        "tokcha",
+        "javon",
+        "oshxona"
+      ],
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Loyihalar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Byuro",
+      "title": "Avval chizma, keyin yog‘och",
+      "text": "Biz sakkiz kishimiz: uch arxitektor, konstruktor va Sergelidagi o‘z sexidagi to‘rt usta. Har bir buyum kvartiraning o‘lchov rejasidan boshlanadi va o‘sha arxitektor olib boradigan montaj bilan tugaydi. Eman, shumtol, shpon va HPL-plastik bilan ishlaymiz, furnitura — Blum va Hettich.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimani loyihalaymiz",
+      "intro": "",
+      "items": [
+        {
+          "title": "O‘rnatilgan saqlash tizimlari",
+          "text": "Shiftgacha shkaflar, kiyim xonalari, texnika uchun tokchalar — tirqishlarsiz va ko‘rinadigan choklarsiz.",
+          "price": "3 800 000 so‘mdan / m²",
+          "tag": "30–40 kun"
+        },
+        {
+          "title": "Oshxonalar",
+          "text": "«Ish uchburchagi» ergonomikasidan fartukdagi rozetkalargacha. Eman shponi yoki mat plastik fasadlar.",
+          "price": "4 500 000 so‘mdan / pog. m",
+          "tag": "35–45 kun"
+        },
+        {
+          "title": "Stollar va kutubxonalar",
+          "text": "Yaxlit yog‘och ovqat stollari, kitob devorlari, kabel kanalli ish joylari.",
+          "price": "6 200 000 so‘mdan",
+          "tag": "25–30 kun"
+        },
+        {
+          "title": "Ishlab chiqarishsiz loyiha",
+          "text": "Har qanday sex yig‘a oladigan chizmalar va spetsifikatsiya.",
+          "price": "1 500 000 so‘mdan",
+          "tag": "5 kun"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "Tanlanganlar",
+      "items": [
+        {
+          "title": "Mirobodagi kutubxona",
+          "category": "Kvartira",
+          "year": "2025",
+          "text": "Relsli narvonli 1 400 jildlik shumtol kitob devori · Uzunlik: 7,2 m · Muddat: 38 kun · Material: shumtol",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yunusoboddagi orol-oshxona",
+          "category": "Uy",
+          "year": "2025",
+          "text": "Pishirish yuzasi va yashirin mo‘rili 3,4 m orol · Uzunlik: 6,8 m · Muddat: 44 kun · Material: eman shponi",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "IT kompaniya ofisi",
+          "category": "Ofis",
+          "year": "2024",
+          "text": "Yigirma ish joyi, muzokaralar xonasi va kofe-point bitta tizimda · Maydon: 240 m² · Muddat: 52 kun · Material: HPL",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Byuro raqamlarda",
+      "items": [
+        {
+          "value": "180",
+          "suffix": "+",
+          "label": "mebel loyihalari"
+        },
+        {
+          "value": "1",
+          "suffix": " mm",
+          "label": "montajdagi aniqlik"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "jamoadagi odamlar"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "O‘lchashdan montajgacha",
+      "items": [
+        {
+          "title": "O‘lchash",
+          "text": "Xonani lazer bilan o‘lchash va tugunlarni suratga olish."
+        },
+        {
+          "title": "Eskiz va smeta",
+          "text": "Narxi bilan ikki variant — 3 kunda."
+        },
+        {
+          "title": "Ishchi chizmalar",
+          "text": "Tugunlar, bichim, furnitura — har bir varaqni kelishamiz."
+        },
+        {
+          "title": "Ishlab chiqarish",
+          "text": "O‘z sexmizda, har hafta fotohisobot bilan."
+        },
+        {
+          "title": "Montaj",
+          "text": "O‘rnatamiz, sozlaymiz, ortimizdan tozalaymiz."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Faqat loyihani buyurtma qilsa bo‘ladimi?",
+          "a": "Ha, chizmalar va spetsifikatsiya — 1 500 000 so‘mdan, ular bo‘yicha istalgan sex yig‘adi."
+        },
+        {
+          "q": "Ishlab chiqarish qanday to‘lanadi?",
+          "a": "Chizmalar tasdiqlangach 50%, yetkazishdan oldin 40%, montajdan keyin 10%."
+        },
+        {
+          "q": "Toshkentdan tashqarida ishlaysizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab; yetkazish va montajchilar safari — hisob bo‘yicha."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Buyumlarga ikki yil va Blum furniturasiga umrbod."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Kvartira rejasini yuboring",
+      "text": "Bir kun ichida javob beramiz va muddatlarni aytamiz. Byuro: Shahrisabz ko‘chasi, 16, du–ju 10:00 dan 19:00 gacha.",
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

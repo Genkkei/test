@@ -1,0 +1,258 @@
+{
+  "name": "Plastinka",
+  "tagline": "33 aylanishda yangraydigan qahva",
+  "niche": "Vinil kechalari bilan qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Stol buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Musiqali qahvaxona, DJ bar yoki plastinka do‘koni uchun sayt. Birinchi ekranda aylanayotgan plastinka, treklist ko‘rinishidagi menyu, kecha boshlovchilari — albom muqovalari.",
+    "features": []
+  },
+  "seo": {
+    "title": "Plastinka — Toshkentda vinil kechalari bilan qahvaxona",
+    "description": "Navoiy, 30 da qahva, desertlar va bir yarim ming plastinka. Juma va shanba kunlari — taklif etilgan kolleksionerlar bilan vinil kechalari, o‘z plastinkangizni olib kelishingiz mumkin.",
+    "keywords": [
+      "vinilli qahvaxona Toshkent",
+      "vinil kechalari",
+      "Navoiy ko‘chasida qahva",
+      "plastinkalar Toshkent",
+      "musiqali kafe"
+    ],
+    "answer": "Plastinka — Toshkent, Alisher Navoiy ko‘chasi, 30 dagi 1 500 ta vinil plastinka to‘plamiga ega qahvaxona. 11:00 dan yarim tungacha, juma va shanbada — 1:00 gacha ochiq. Kapuchino 27 000 so‘m, vinil kechasiga kirish — ichimlik bilan 50 000 so‘m."
+  },
+  "business": {
+    "legalName": "«Plastinka» MChJ",
+    "street": "Shayxontohur, Alisher Navoiy ko‘chasi, 30",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Plastinkani qo‘y",
+      "eyebrow": "Qahvaxona va vinil · Navoiy 30",
+      "subtitle": "Sovet jazidan 70-yillar o‘zbek estradasigacha bir yarim ming plastinka. Javondan konvertni tanlang — barista qahvangizni damlayotganda uni qo‘yib beradi.",
+      "words": [
+        "jaz",
+        "soul",
+        "estrada",
+        "fank",
+        "klassika"
+      ],
+      "cta": {
+        "label": "Ichimliklar treklisti",
+        "href": "#drinks"
+      },
+      "ctaSecondary": {
+        "label": "Stol buyurtma",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "A tomon",
+        "Qahva",
+        "Vinil kechalari",
+        "1 500 plastinka",
+        "B tomon",
+        "Desertlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Tarix",
+      "title": "Bitta pleyerdan boshlangan kolleksiya",
+      "text": "Plastinka asoschisi o‘ttiz yil davomida Toshkent va Buxoro bozorlaridan vinil yig‘gan. Plastinkalar uyga sig‘may qolganda, u Navoiydagi eski uyda qahvaxona ochdi. Bu yerda faqat vinil yangraydi: hech qanday pleylist yo‘q, faqat igna, shitirlash va B tomon.",
+      "image": ""
+    },
+    {
+      "id": "drinks",
+      "type": "services",
+      "label": "A tomon",
+      "title": "Ichimliklar treklisti",
+      "intro": "",
+      "items": [
+        {
+          "title": "«Solo» espresso",
+          "text": "Qisqa, quyuq, jo‘rsiz.",
+          "price": "20 000 so‘m",
+          "tag": "30 ml"
+        },
+        {
+          "title": "Kapuchino",
+          "text": "Birinchi qo‘yiladigan klassika.",
+          "price": "27 000 so‘m",
+          "tag": "300 ml"
+        },
+        {
+          "title": "«B-sayd» raf",
+          "text": "Qaymoq, sho‘r karamel, bir chimdim dolchin.",
+          "price": "35 000 so‘m",
+          "tag": "350 ml"
+        },
+        {
+          "title": "Jaz filtri",
+          "text": "Efiopiya, voronka, barista improvizatsiyasi.",
+          "price": "32 000 so‘m",
+          "tag": "250 ml"
+        },
+        {
+          "title": "«Alla» kakao",
+          "text": "Achchiq shokolad va vanil — so‘nggi trek uchun.",
+          "price": "28 000 so‘m",
+          "tag": "300 ml"
+        },
+        {
+          "title": "«B tomon» chizkeyki",
+          "text": "Bask uslubida, kerakli darajada kuygan.",
+          "price": "36 000 so‘m",
+          "tag": "desert"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "1500",
+          "suffix": "",
+          "label": "javondagi plastinka"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "pleyer"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "haftada vinil kechasi"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "zaldagi o‘rin"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Kechalar",
+      "title": "Vinil kechalari",
+      "items": [
+        {
+          "name": "Juma: jaz",
+          "price": "50 000 so‘m",
+          "period": "kirish",
+          "features": [
+            "Ichimlik kiradi",
+            "Kolleksioner noyob plastinkalarni qo‘yadi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Shanba: o‘zingnikini olib kel",
+          "price": "50 000 so‘m",
+          "period": "kirish",
+          "features": [
+            "Plastinkangizni qo‘yamiz",
+            "Vinil almashish va sotish",
+            "Ichimlik kiradi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Yopiq kecha",
+          "price": "2 500 000 so‘mdan",
+          "period": "40 mehmongacha",
+          "features": [
+            "Vinildagi pleylistingiz",
+            "Qahva bari va desertlar"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Boshlovchilar",
+      "title": "Plastinkalarni kim qo‘yadi",
+      "items": [
+        {
+          "name": "Rahim aka",
+          "role": "asoschi, jaz va estrada",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "soul va fank",
+          "image": ""
+        },
+        {
+          "name": "Davron",
+          "role": "barista, klassika",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kechadan oldin",
+      "items": [
+        {
+          "q": "O‘z plastinkamni olib kelsam bo‘ladimi?",
+          "a": "Ha, shanba kunlari. Holatini tekshirib, navbatga qo‘yamiz."
+        },
+        {
+          "q": "Plastinkalar sotiladimi?",
+          "a": "Asosiy kolleksiya — yo‘q, lekin «sotuvda» javonida doim 50–100 ta konvert bor."
+        },
+        {
+          "q": "Kechaga band qilish kerakmi?",
+          "a": "Ma’qul: zalda 40 o‘rin, juma kunlari ular 20:00 gacha tugaydi."
+        },
+        {
+          "q": "Kunduzi ham vinil yangraydimi?",
+          "a": "Ha, doim. Kunduzi sokinroq va javondan plastinkani o‘zingiz tanlashingiz mumkin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Igna allaqachon yo‘lakda",
+      "text": "Navoiy, 30, kirish hovli tomondan. 11:00 dan yarim tungacha, juma va shanbada — soat birgacha. Vinil kechasiga stol band qiling.",
+      "cta": {
+        "label": "Stol buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -14,9 +14,9 @@ export const meta: TemplateMeta = {
     "bg": "#f4e6cf",
     "fg": "#3a1f12",
     "accent": "#e0662d",
-    "muted": "#7a7a7a",
-    "surface": "#f4e6cf",
-    "line": "#cccccc",
+    "muted": "#8a5a3c",
+    "surface": "#ecd7b4",
+    "line": "#d9bf98",
     "display": "Yeseva One",
     "body": "Nunito",
     "motion": 1

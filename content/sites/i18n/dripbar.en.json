@@ -1,0 +1,276 @@
+{
+  "name": "Drip Bar",
+  "tagline": "A retro coffee house on Afrosiyob: filter coffee, syrniki and seventies music",
+  "niche": "Coffee house with breakfasts and pastries",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a seventies-style breakfast café: a rainbow of warm stripes, steam over the mug, a menu board with prices and a cup that fills as you scroll.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Drip Bar — retro coffee house with breakfasts in Tashkent",
+    "description": "Filter coffee, espresso and breakfast until 3 pm at 12 Afrosiyob St. Syrniki, granola, croissants from our own bakery. Mon–Fri 8:00–22:00, Sat–Sun 9:00–23:00.",
+    "keywords": [
+      "Tashkent coffee shop",
+      "breakfast Tashkent",
+      "filter coffee",
+      "syrniki",
+      "Mirabad cafe",
+      "retro cafe"
+    ],
+    "answer": "Drip Bar is a coffee house at 12 Afrosiyob St in the Mirabad district of Tashkent. Breakfast is served until 3 pm: syrniki — 42,000 UZS, granola — 38,000 UZS; filter coffee from 24,000 UZS, cappuccino — 28,000 UZS. Open 8:00–22:00 on weekdays and 9:00–23:00 at weekends."
+  },
+  "business": {
+    "legalName": "Drip Bar LLC",
+    "street": "12 Afrosiyob St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mornings start with a drop",
+      "eyebrow": "Drip Bar · 12 Afrosiyob · from 8:00",
+      "subtitle": "Pour-over filter coffee, syrniki fried in ghee and records spinning from morning till night. Breakfast until three in the afternoon, Saturdays included.",
+      "words": [],
+      "cta": {
+        "label": "See the menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "How we brew",
+        "href": "#brew"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Filter coffee",
+        "Syrniki",
+        "Granola",
+        "Croissants",
+        "Halva raf",
+        "Vinyl records"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The café",
+      "title": "We opened a place where nobody has to rush",
+      "text": "The room has twenty-eight seats, a record player, a shelf of vinyl and a window onto the old plane trees of Afrosiyob. In the morning people have breakfast before work, in the afternoon they work on laptops, in the evening they come for dessert. Our beans are roasted for us once a week, and we bake the croissants ourselves from six in the morning.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Today’s board",
+      "groups": [
+        {
+          "name": "Coffee",
+          "items": [
+            {
+              "name": "V60 filter",
+              "text": "Ethiopia or Colombia, your choice",
+              "price": "24 000 UZS"
+            },
+            {
+              "name": "Cappuccino",
+              "text": "Double espresso, 3.2% milk",
+              "price": "28 000 UZS"
+            },
+            {
+              "name": "Halva raf",
+              "text": "Cream, sesame halva, vanilla",
+              "price": "34 000 UZS"
+            },
+            {
+              "name": "Cold brew",
+              "text": "Steeped for 18 hours",
+              "price": "30 000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Breakfast until 3 pm",
+          "items": [
+            {
+              "name": "Syrniki",
+              "text": "Sour cream, berry sauce",
+              "price": "42 000 UZS"
+            },
+            {
+              "name": "Granola",
+              "text": "Yoghurt, honey, seasonal fruit",
+              "price": "38 000 UZS"
+            },
+            {
+              "name": "Scramble on toast",
+              "text": "Three eggs, avocado, herbs",
+              "price": "48 000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Bakery",
+          "items": [
+            {
+              "name": "Croissant",
+              "text": "Baked from six in the morning",
+              "price": "22 000 UZS"
+            },
+            {
+              "name": "Cinnamon roll",
+              "text": "Cinnamon, cream cheese frosting",
+              "price": "26 000 UZS"
+            },
+            {
+              "name": "Carrot cake",
+              "text": "A slice with walnuts",
+              "price": "32 000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brew",
+      "type": "process",
+      "label": "How we brew",
+      "title": "Four minutes to a cup",
+      "items": [
+        {
+          "title": "Grind",
+          "text": "We grind right before brewing — medium, like sea salt."
+        },
+        {
+          "title": "Bloom",
+          "text": "For the first 30 seconds the coffee breathes out its gas."
+        },
+        {
+          "title": "Pour",
+          "text": "We pour 93 °C water in a thin spiral stream, three times."
+        },
+        {
+          "title": "Cup",
+          "text": "Four minutes later — 250 ml of clean coffee with no bitterness."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "seats inside"
+        },
+        {
+          "value": "93",
+          "suffix": "°C",
+          "label": "water for filter"
+        },
+        {
+          "value": "6",
+          "suffix": "am",
+          "label": "we start baking"
+        },
+        {
+          "value": "15",
+          "suffix": ":00",
+          "label": "breakfast until"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "Written after breakfast",
+      "items": [
+        {
+          "quote": "Syrniki just like grandma’s, and the filter is better than in plenty of places downtown.",
+          "author": "Nigora",
+          "role": "Saturday breakfast regular"
+        },
+        {
+          "quote": "I work here with my laptop: sockets at every table and nobody hurries you.",
+          "author": "Timur",
+          "role": "designer"
+        },
+        {
+          "quote": "We had the halva raf and carrot cake — and had to come back the next day.",
+          "author": "Alina and Said",
+          "role": "café guests"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "The short version",
+      "items": [
+        {
+          "q": "Until when is breakfast served?",
+          "a": "Every day until 3 pm, weekends included."
+        },
+        {
+          "q": "Can I take coffee to go?",
+          "a": "Yes, any drink comes in a cup with a lid. Leave an order on the site and pick it up without queuing."
+        },
+        {
+          "q": "Do you have plant milk?",
+          "a": "Oat and almond, +6,000 UZS per drink."
+        },
+        {
+          "q": "Can I buy beans to take home?",
+          "a": "Yes, 250 g bags from 110,000 UZS. We’ll grind them for your brewer."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come for breakfast",
+      "text": "12 Afrosiyob — a five-minute walk from Kosmonavtlar metro. Parking in the courtyard.",
+      "cta": {
+        "label": "Order to go",
+        "href": "#order"
+      }
+    }
+  ]
+}

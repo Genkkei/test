@@ -1,0 +1,286 @@
+{
+  "name": "Kofe Go",
+  "tagline": "Coffee to go in two minutes — six kiosks by the metro and in business centres",
+  "niche": "Chain of take-away coffee kiosks",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for coffee to go, a kiosk chain or a food corner: huge grotesque type, a cup that tilts as you scroll, a menu with an S·M·L size switch and a map of spots.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Kofe Go — coffee to go in 2 minutes, 6 spots in Tashkent",
+    "description": "Cappuccino, latte, raf and iced coffee to go: six kiosks by the metro and in business centres of Tashkent, 7:30–22:00. Order ahead and skip the queue.",
+    "keywords": [
+      "coffee to go Tashkent",
+      "takeaway coffee",
+      "coffee by the metro",
+      "cappuccino Tashkent",
+      "iced latte",
+      "coffee kiosk"
+    ],
+    "answer": "Kofe Go is a chain of six coffee kiosks in Tashkent: by Oybek, Buyuk Ipak Yo‘li and Chilonzor metro stations, at IT Park and in two business centres. Open 7:30–22:00. A cappuccino costs 16,000, 20,000 or 24,000 UZS for 250, 350 or 450 ml and is ready in about two minutes."
+  },
+  "business": {
+    "legalName": "Kofe Go LLC",
+    "street": "60 Amir Temur St (by Oybek metro)",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee in two minutes",
+      "eyebrow": "● 6 kiosks open now",
+      "subtitle": "Kiosks by the metro and in business centres. Order on the site on your way and your cup will be waiting with your name on it.",
+      "words": [],
+      "cta": {
+        "label": "Order now",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Find us",
+        "href": "#spots"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Cappuccino",
+        "Latte",
+        "Raf",
+        "Iced latte",
+        "Matcha",
+        "Cocoa"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Pick a size",
+      "groups": [
+        {
+          "name": "Hot",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "Espresso and foam",
+              "price": "16 000 / 20 000 / 24 000 UZS"
+            },
+            {
+              "name": "Latte",
+              "text": "More milk, softer taste",
+              "price": "17 000 / 21 000 / 25 000 UZS"
+            },
+            {
+              "name": "Vanilla raf",
+              "text": "Cream and vanilla",
+              "price": "20 000 / 25 000 / 29 000 UZS"
+            },
+            {
+              "name": "Americano",
+              "text": "Espresso and hot water",
+              "price": "12 000 / 15 000 / 18 000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Cold",
+          "items": [
+            {
+              "name": "Iced latte",
+              "text": "Ice, milk, double shot",
+              "price": "19 000 / 23 000 / 27 000 UZS"
+            },
+            {
+              "name": "Bumble",
+              "text": "Orange juice and espresso",
+              "price": "22 000 / 26 000 / 30 000 UZS"
+            },
+            {
+              "name": "Iced matcha",
+              "text": "Japanese matcha with milk",
+              "price": "24 000 / 28 000 / 32 000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spots",
+      "type": "services",
+      "label": "Spots",
+      "title": "Six kiosks",
+      "intro": "All spots are open 7:30–22:00; the IT Park one closes at 20:00.",
+      "items": [
+        {
+          "title": "Oybek metro",
+          "text": "60 Amir Temur, Oybek exit",
+          "price": "",
+          "tag": "flagship"
+        },
+        {
+          "title": "Buyuk Ipak Yo‘li metro",
+          "text": "Exit towards Parkent bazaar",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Chilonzor metro",
+          "text": "Chilonzor, block 9",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "IT Park",
+          "text": "2 Mirzo Ulugbek, ground floor",
+          "price": "",
+          "tag": "until 20:00"
+        },
+        {
+          "title": "Business centre on Shota Rustaveli",
+          "text": "Lobby, by the lifts",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Business centre in Yunusabad",
+          "text": "Yunusabad, block 4",
+          "price": "",
+          "tag": "new"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "type": "process",
+      "label": "How to order",
+      "title": "Three steps to your cup",
+      "items": [
+        {
+          "title": "Choose",
+          "text": "A drink, a size and the spot where you’ll pick it up."
+        },
+        {
+          "title": "Send",
+          "text": "Your name and phone — the barista sees the order at once."
+        },
+        {
+          "title": "Pick up",
+          "text": "Two minutes later a cup with your name is waiting at the window."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "kiosks in the city"
+        },
+        {
+          "value": "2",
+          "suffix": "min",
+          "label": "per drink"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "cup sizes"
+        },
+        {
+          "value": "7",
+          "suffix": ":30",
+          "label": "we open at"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From the coffee queue",
+      "items": [
+        {
+          "quote": "I order from the metro, step out and the cup is already there. Morning saved.",
+          "author": "Bekzod",
+          "role": "Oybek, every weekday"
+        },
+        {
+          "quote": "A 450 ml iced latte is exactly what you need in July heat.",
+          "author": "Dilnoza",
+          "role": "IT Park"
+        },
+        {
+          "quote": "Fair prices, and the cappuccino is as good as at a sit-down café.",
+          "author": "Ruslan",
+          "role": "Chilonzor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "About ordering",
+      "items": [
+        {
+          "q": "How fast is a drink ready?",
+          "a": "Usually in two minutes; up to five at rush hour."
+        },
+        {
+          "q": "Can I pay by card?",
+          "a": "Yes: Uzcard, Humo, Visa, plus Click and Payme via the QR code at the window."
+        },
+        {
+          "q": "Do you have plant milk?",
+          "a": "Oat and coconut, +5,000 UZS."
+        },
+        {
+          "q": "Do you cater coffee for offices?",
+          "a": "Yes, from 20 cups we deliver to offices near any spot — message us in advance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Order ahead",
+      "text": "Leave an order on the site or call us, then pick up your coffee without queuing at any spot.",
+      "cta": {
+        "label": "Order now",
+        "href": "#order"
+      }
+    }
+  ]
+}

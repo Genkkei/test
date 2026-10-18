@@ -1,0 +1,247 @@
+{
+  "name": "Frost Brew",
+  "tagline": "18 soat damlanadigan kold-bryu",
+  "niche": "Shishadagi kold-bryu brendi",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Shishadagi ichimliklar, limonad yoki olib ketiladigan qahva brendi uchun sayt. Birinchi ekranda ulkan banka, teglar bilan ta’mlar kartochkalari, obuna tariflari va yetkazib berish.",
+    "features": []
+  },
+  "seo": {
+    "title": "Frost Brew — Toshkent bo‘ylab yetkaziladigan shishadagi kold-bryu",
+    "description": "Shishadagi 330 ml li 18 soat damlangan sovuq qahva: klassika, vanil, apelsin va kofeinsiz. Toshkent bo‘ylab yetkazish, haftalik obuna, 40 ta savdo nuqtasi.",
+    "keywords": [
+      "kold-bryu Toshkent",
+      "shishadagi sovuq qahva",
+      "Toshkentda qahva yetkazib berish",
+      "ofis uchun qahva",
+      "qahvaga obuna"
+    ],
+    "answer": "Frost Brew — Sergelida tayyorlanadigan va Toshkentning 40 ta nuqtasida sotiladigan 330 ml li shishadagi kold-bryu. Bir shisha 26 000 so‘m, oltitalik to‘plam — 145 000 so‘m, ofis uchun haftalik obuna — 420 000 so‘mdan. Toshkent bo‘ylab dushanbadan shanbagacha 9:00 dan 20:00 gacha yetkazib beriladi."
+  },
+  "business": {
+    "legalName": "«Frost Brew» MChJ",
+    "street": "Sergeli, Yangi Sergeli ko‘chasi, 7",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Sovuq. Kuchli. Halol.",
+      "eyebrow": "Classic Black",
+      "subtitle": "Kolumbiya doni 18 soat sovuq suvda damlanadi, keyin filtrlanib, darhol shishalarga quyiladi. Shakarsiz, konservantsiz, muzlatkichda 21 kun saqlanadi.",
+      "words": [
+        "Frost",
+        "18 soat",
+        "0 shakar",
+        "Frost",
+        "sovuq"
+      ],
+      "cta": {
+        "label": "To‘plam buyurtma",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ta’mlar",
+        "href": "#flavors"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "18 soat damlash",
+        "Shakarsiz",
+        "330 ml",
+        "Yetkazib berish",
+        "40 nuqta",
+        "Ofis uchun"
+      ]
+    },
+    {
+      "id": "flavors",
+      "type": "services",
+      "label": "Ta’mlar",
+      "title": "Liniyada to‘rtta shisha",
+      "intro": "",
+      "items": [
+        {
+          "title": "Classic Black",
+          "text": "Toza kold-bryu: shokolad, yong‘oq, yumshoq nordonlik.",
+          "price": "26 000 so‘m",
+          "tag": "Xit"
+        },
+        {
+          "title": "Vanilla Milk",
+          "text": "Suli suti va Madagaskar vanili bilan.",
+          "price": "29 000 so‘m",
+          "tag": "Yumshoq"
+        },
+        {
+          "title": "Orange Fizz",
+          "text": "Gazli suv va apelsin po‘chog‘i bilan kold-bryu.",
+          "price": "28 000 so‘m",
+          "tag": "Yangi"
+        },
+        {
+          "title": "Night Decaf",
+          "text": "Kofeinsiz, ta’mi o‘sha — kechqurun ham bo‘ladi.",
+          "price": "28 000 so‘m",
+          "tag": "Kofeinsiz"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Qanday tayyorlaymiz",
+      "title": "Harorat o‘rniga vaqt",
+      "text": "Issiq suv qahvadan achchiqlikni daqiqalarda, sovuq suv shirinlikni soatlarda tortib oladi. Biz donni Sergelidagi sexda +4 °C da 18 soat damlaymiz, qog‘oz orqali filtrlaymiz va o‘sha kuni quyamiz. Shishalar shishadan — bo‘shlarini chegirma bilan qaytarib olamiz.",
+      "image": ""
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "To‘plamlar",
+      "title": "Uy va ofis uchun",
+      "items": [
+        {
+          "name": "Sinov",
+          "price": "100 000 so‘m",
+          "period": "4 shisha",
+          "features": [
+            "To‘rttala ta’m",
+            "Buyurtma kuni yetkazish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oltitalik",
+          "price": "145 000 so‘m",
+          "period": "6 shisha",
+          "features": [
+            "Bir yoki turli ta’mlar",
+            "Bepul yetkazish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ofis",
+          "price": "420 000 so‘mdan",
+          "period": "hafta",
+          "features": [
+            "Dushanba kuni 20 shisha",
+            "Muzlatkich ijaraga",
+            "Buxgalteriya uchun hisob"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Yetkazib berish",
+      "title": "Sexdan muzlatkichgacha",
+      "items": [
+        {
+          "title": "Buyurtma",
+          "text": "Ariza qoldiring — menejer 15 daqiqada qo‘ng‘iroq qiladi."
+        },
+        {
+          "title": "Sovuq sumka",
+          "text": "Shishalar sovutgich elementli izotermik sumkada boradi."
+        },
+        {
+          "title": "O‘sha kuni",
+          "text": "15:00 gacha buyurtmani bugun, keyin — ertaga ertalab olib kelamiz."
+        },
+        {
+          "title": "Bo‘sh shishalar",
+          "text": "Kuryerga bering — har biri uchun 2 000 so‘m chegirma."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "soat",
+          "label": "damlash"
+        },
+        {
+          "value": "21",
+          "suffix": "kun",
+          "label": "sovuqda saqlanadi"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "savdo nuqtasi"
+        },
+        {
+          "value": "0",
+          "suffix": "g",
+          "label": "shakar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kold-bryu haqida",
+      "items": [
+        {
+          "q": "Shishada qancha kofein bor?",
+          "a": "Taxminan 150 mg — ikki espresso kabi. Night Decafda — 10 mg dan kam."
+        },
+        {
+          "q": "Qancha saqlanadi?",
+          "a": "Yopiq holda muzlatkichda 21 kun, ochilgandan keyin 3 kun."
+        },
+        {
+          "q": "Yetkazishsiz qayerdan olish mumkin?",
+          "a": "Toshkentning 40 ta qahvaxona va do‘konida — nuqtalar ro‘yxatini Telegramda yuboramiz."
+        },
+        {
+          "q": "Savdo nuqtasi bo‘lsa bo‘ladimi?",
+          "a": "Ha, 24 shishadan jo‘natamiz, oyiga 100 tadan ortiq bo‘lsa logotipli muzlatkich bepul."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Ertalabga sovuq qahva",
+      "text": "Sex Sergelida, Yangi Sergeli, 7. Toshkent bo‘ylab dushanbadan shanbagacha, 9:00–20:00 yetkazib beramiz.",
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      }
+    }
+  ]
+}

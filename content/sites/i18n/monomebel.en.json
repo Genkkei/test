@@ -1,0 +1,230 @@
+{
+  "name": "MONO",
+  "tagline": "Minimalism: black, white, concrete",
+  "niche": "Minimalist furniture",
+  "nav": {
+    "cta": {
+      "label": "Buy",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a minimalist furniture store: monochrome styling, products in large parallax frames, ready-made sets with prices and ordering via Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "MONO — minimalist furniture in Tashkent",
+    "description": "Tables with concrete tops, black metal shelving, white handleless wardrobes. Ready-made sets for a flat, delivery across Tashkent in 1 day.",
+    "keywords": [
+      "minimalist furniture",
+      "concrete top table",
+      "black shelving",
+      "handleless wardrobe",
+      "furniture Tashkent"
+    ],
+    "answer": "MONO is a minimalist furniture store in Tashkent (Samarkand Darvoza mall, 3rd floor), open daily 10:00–22:00. A concrete-top table from 4,200,000 UZS, black metal shelving from 2,600,000 UZS, a studio set from 14,900,000 UZS. Delivery across Tashkent the next day."
+  },
+  "business": {
+    "legalName": "Mono Mebel LLC",
+    "street": "2 Chilanzar St, Samarkand Darvoza mall, 3rd floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Fewer things. More air.",
+      "eyebrow": "MONO · furniture without excess",
+      "subtitle": "Black metal, white fronts, concrete and oak. Pieces that go with each other and with any flat.",
+      "words": [
+        "black",
+        "white",
+        "concrete",
+        "oak"
+      ],
+      "cta": {
+        "label": "Buy",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Pieces",
+        "href": "#items"
+      },
+      "image": ""
+    },
+    {
+      "id": "items",
+      "type": "works",
+      "label": "Pieces",
+      "title": "Five pieces everything rests on",
+      "items": [
+        {
+          "title": "SLAB table",
+          "category": "",
+          "year": "",
+          "text": "An architectural concrete top, 180 × 90 cm, on black steel legs. Stain-proof sealing. 4,200,000 UZS, in stock.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "GRID shelving",
+          "category": "",
+          "year": "",
+          "text": "Black powder-coated metal with oak shelves; builds to any width in 80 cm modules. From 2,600,000 UZS.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "WHITE wardrobe",
+          "category": "",
+          "year": "",
+          "text": "White matt handleless fronts with push-to-open. Up to 280 cm tall, made in 12 days. From 3,900,000 UZS per running metre.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "FRAME bed",
+          "category": "",
+          "year": "",
+          "text": "A low solid-oak bed with a black edge, 160 × 200 cm. 5,600,000 UZS, in stock.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "BLOCK sofa",
+          "category": "",
+          "year": "",
+          "text": "A modular sofa of three cubes in grey bouclé — rearrange it any way you like. From 7,800,000 UZS.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "marquee",
+      "type": "marquee",
+      "label": "",
+      "title": "Materials",
+      "items": [
+        "Concrete",
+        "Black metal",
+        "White matt",
+        "Oak",
+        "Bouclé",
+        "Handleless"
+      ]
+    },
+    {
+      "id": "sets",
+      "type": "pricing",
+      "label": "Sets",
+      "title": "A whole flat",
+      "items": [
+        {
+          "name": "Studio",
+          "price": "14,900,000 UZS",
+          "period": "set",
+          "features": [
+            "FRAME bed",
+            "SLAB table and two chairs",
+            "GRID shelving 160 cm",
+            "Delivery and assembly"
+          ],
+          "featured": false
+        },
+        {
+          "name": "One-bedroom",
+          "price": "24,500,000 UZS",
+          "period": "set",
+          "features": [
+            "Everything in Studio",
+            "BLOCK sofa",
+            "WHITE wardrobe 2 m",
+            "8% off the separate prices"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Office",
+          "price": "from 3,100,000 UZS",
+          "period": "per workstation",
+          "features": [
+            "SLAB desk 140 cm",
+            "Rolling pedestal",
+            "Cable channel"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Buyers on MONO",
+      "items": [
+        {
+          "quote": "We took the whole One-bedroom set: delivered in the morning, by evening we were eating at the concrete table.",
+          "author": "Aziz",
+          "role": "Yakkasaray"
+        },
+        {
+          "quote": "The handleless wardrobe took the whole wall and looks like a wall. Exactly what I wanted.",
+          "author": "Sevara",
+          "role": "Sergeli"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Does the concrete top crack?",
+          "a": "No, it is 3 cm reinforced architectural concrete with a protective seal; 2-year warranty."
+        },
+        {
+          "q": "How fast is delivery?",
+          "a": "In-stock pieces the next day; made-to-size wardrobes in 12 days."
+        },
+        {
+          "q": "Can I return it?",
+          "a": "In-stock pieces within 14 days in the original packaging."
+        },
+        {
+          "q": "Is assembly extra?",
+          "a": "Sets are assembled for free; single pieces cost 150,000 UZS."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "The MONO showroom",
+      "text": "Samarkand Darvoza mall, 3rd floor. Daily 10:00–22:00.",
+      "cta": {
+        "label": "Buy",
+        "href": "#order"
+      }
+    }
+  ]
+}

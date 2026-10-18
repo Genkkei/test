@@ -1,0 +1,265 @@
+{
+  "name": "Kofemania",
+  "tagline": "Waffles, cocoa and coffee for the whole family",
+  "niche": "Family coffee shop with waffles",
+  "nav": {
+    "cta": {
+      "label": "Order waffles",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a family café, waffle house or kids-friendly coffee shop. Bright stickers, a spinning plate on the first screen, a card menu and a delivery tracker.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kofemania — family coffee shop with waffles in Yunusabad",
+    "description": "Belgian waffles, cocoa, coffee and a kids’ corner at 12 Bogishamol St. Kids’ parties at weekends and waffle delivery across Yunusabad from 8 am to 10 pm.",
+    "keywords": [
+      "family café Tashkent",
+      "waffles Yunusabad",
+      "café with kids’ corner",
+      "cocoa Tashkent",
+      "kids’ party at a café"
+    ],
+    "answer": "Kofemania is a family coffee shop at 12 Bogishamol St in Yunusabad, open daily from 8 am to 10 pm. A Belgian waffle costs from 32,000 UZS, cocoa 24,000 UZS and a cappuccino 25,000 UZS. There is a kids’ corner, weekend parties and delivery across Yunusabad."
+  },
+  "business": {
+    "legalName": "Kofemania Tashkent LLC",
+    "street": "12 Bogishamol St, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Grown-up waffles, kid-style cocoa",
+      "eyebrow": "Kofemania · Bogishamol 12 · 8 am–10 pm",
+      "subtitle": "Crisp Belgian waffles from fresh dough, hot cocoa with marshmallows and proper coffee for the parents. While the grown-ups talk, the kids draw in our corner.",
+      "words": [],
+      "cta": {
+        "label": "See the menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Order home",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Waffles",
+        "Cocoa",
+        "Kids’ corner",
+        "Parties",
+        "Cappuccino",
+        "Delivery"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "What people order most",
+      "groups": [
+        {
+          "name": "Waffles",
+          "items": [
+            {
+              "name": "Strawberry classic",
+              "text": "Strawberries, whipped cream, icing sugar",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Nutella and banana",
+              "text": "The kids’ favourite",
+              "price": "36,000 UZS"
+            },
+            {
+              "name": "Cheese and ham",
+              "text": "Savoury, for breakfast",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Mini waffles",
+              "text": "Five with honey, a toddler portion",
+              "price": "22,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "For kids",
+          "items": [
+            {
+              "name": "Cocoa with marshmallows",
+              "text": "Warm, not hot",
+              "price": "24,000 UZS"
+            },
+            {
+              "name": "Milkshake",
+              "text": "Vanilla, strawberry or chocolate",
+              "price": "27,000 UZS"
+            },
+            {
+              "name": "Fresh juice",
+              "text": "Apple or orange",
+              "price": "22,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "For parents",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "300 ml",
+              "price": "25,000 UZS"
+            },
+            {
+              "name": "Halva latte",
+              "text": "Our signature",
+              "price": "31,000 UZS"
+            },
+            {
+              "name": "Americano",
+              "text": "Available to go",
+              "price": "19,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A café you can walk into with a pram",
+      "text": "Kofemania was started by two parents tired of choosing between good coffee and a place where a child is not bored. We have a wide step-free entrance, a changing table, high chairs and a corner with building blocks and colouring books. Waffle batter is made fresh every morning.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Delivery",
+      "title": "Waffles on their way",
+      "items": [
+        {
+          "title": "Order",
+          "text": "Tap “Order waffles” and list what you want."
+        },
+        {
+          "title": "We bake",
+          "text": "We bake after your call, not in advance, so it stays crisp."
+        },
+        {
+          "title": "Packing",
+          "text": "Toppings in a separate cup, the waffle in a vented box."
+        },
+        {
+          "title": "At your door",
+          "text": "About 35 minutes across Yunusabad."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Kofemania in numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "kinds of waffles"
+        },
+        {
+          "value": "60",
+          "suffix": "",
+          "label": "seats inside"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "high chairs"
+        },
+        {
+          "value": "35",
+          "suffix": "min",
+          "label": "delivery"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Parents say",
+      "items": [
+        {
+          "quote": "While I drink my halva latte, my son builds a castle in the corner. Best forty minutes of my week.",
+          "author": "Dilnoza",
+          "role": "mum of two"
+        },
+        {
+          "quote": "We had our daughter’s sixth birthday here: an entertainer, waffles with candles, nobody cried.",
+          "author": "Rustam",
+          "role": "dad"
+        },
+        {
+          "quote": "The waffle arrived crisp. I didn’t think delivery could do that.",
+          "author": "Aziz",
+          "role": "neighbour"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Can we hold a kids’ party?",
+          "a": "Yes, on Saturdays and Sundays. Room for 15 children, an entertainer and waffles with candles from 1,200,000 UZS."
+        },
+        {
+          "q": "Are there gluten-free waffles?",
+          "a": "We have rice-flour waffles; tell us when ordering and we bake them in a separate iron."
+        },
+        {
+          "q": "Is there a changing table?",
+          "a": "Yes, in the ground-floor restroom, with step-free access."
+        },
+        {
+          "q": "Where do you deliver?",
+          "a": "Across Yunusabad from 8 am to 9:30 pm, minimum order 50,000 UZS."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come with the whole family",
+      "text": "12 Bogishamol St, Yunusabad, next to the park. Every day 8 am to 10 pm. Want waffles at home? Leave an order and we will call back.",
+      "cta": {
+        "label": "Order waffles",
+        "href": "#order"
+      }
+    }
+  ]
+}

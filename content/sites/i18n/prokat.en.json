@@ -1,0 +1,290 @@
+{
+  "name": "Metall Ombor",
+  "tagline": "Steel products cut to size and delivered across Tashkent",
+  "niche": "Steel yard: box section, sheet, rebar, angle",
+  "nav": {
+    "cta": {
+      "label": "Order steel",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a steel yard or steel stockist: a price table by section, cutting and delivery services, and quote requests to Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "Order steel",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Metall Ombor — steel products in Tashkent with delivery",
+    "description": "Box section, sheet, rebar, angle and channel from our yard in Sergeli. Cutting to size, bending and same-day crane-truck delivery. We sell from a single length.",
+    "keywords": [
+      "steel products Tashkent",
+      "box section price",
+      "steel yard Sergeli",
+      "steel cutting service",
+      "buy steel sheet"
+    ],
+    "answer": "Metall Ombor is a steel yard in Sergeli, Tashkent: box section from 26,000 UZS per metre, 2 mm sheet from 520,000 UZS, rebar from 11,900,000 UZS per tonne. We cut to size, bend and deliver by crane truck the same day. Open Mon–Sat 8:00–18:00, phone +998 71 200-07-01."
+  },
+  "business": {
+    "legalName": "Metall Ombor LLC",
+    "street": "14 Yangi Sergeli St, Sergeli",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Telegram price list"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "We deliver steel",
+      "eyebrow": "Steel yard · Sergeli · with delivery",
+      "subtitle": "Box section, sheet, rebar and angle from our own yard. We cut to your list, load it and bring it by crane truck — the same day if you order before 1 pm.",
+      "words": [
+        "today",
+        "cut to size",
+        "from one length"
+      ],
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Price list",
+        "href": "#price"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About the yard",
+      "title": "An open yard and a cutting shop on one site",
+      "text": "Our yard in Sergeli keeps the common stock on hand: box section from 15×15 to 120×120, sheet from 0.5 to 10 mm, rebar and merchant bar. A band saw, guillotine and press brake stand next to it, so your order leaves already cut. We sell to homeowners building one canopy and to crews supplying a site.",
+      "image": ""
+    },
+    {
+      "id": "price",
+      "type": "menu",
+      "label": "Prices",
+      "title": "Steel prices",
+      "groups": [
+        {
+          "name": "Box section (per metre)",
+          "items": [
+            {
+              "name": "20×20×1,5",
+              "text": "Railings, furniture frames",
+              "price": "26,000 UZS"
+            },
+            {
+              "name": "40×20×2",
+              "text": "Purlins, canopies",
+              "price": "41,000 UZS"
+            },
+            {
+              "name": "60×60×3",
+              "text": "Gate and canopy posts",
+              "price": "98,000 UZS"
+            },
+            {
+              "name": "100×100×4",
+              "text": "Load-bearing columns",
+              "price": "212,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Sheet (per 1.25×2.5 m sheet)",
+          "items": [
+            {
+              "name": "Galvanised 0.5 mm",
+              "text": "Roofing, flashing",
+              "price": "185,000 UZS"
+            },
+            {
+              "name": "Hot-rolled 2 mm",
+              "text": "Gates, wickets",
+              "price": "520,000 UZS"
+            },
+            {
+              "name": "Hot-rolled 4 mm",
+              "text": "Base plates, embeds",
+              "price": "1,040,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Rebar and merchant bar",
+          "items": [
+            {
+              "name": "Rebar A500, 12 mm",
+              "text": "Per tonne, cutting free",
+              "price": "11,900,000 UZS"
+            },
+            {
+              "name": "Angle 50×50×5",
+              "text": "Per metre",
+              "price": "48,000 UZS"
+            },
+            {
+              "name": "Channel 10",
+              "text": "Per metre",
+              "price": "112,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "Cut, bent, delivered",
+      "intro": "Everything needed for the steel to arrive ready to weld.",
+      "items": [
+        {
+          "title": "Cutting to size",
+          "text": "Band saw, ±2 mm accuracy. Up to 10 cuts per item free.",
+          "price": "from 3,000 UZS per cut",
+          "tag": ""
+        },
+        {
+          "title": "Sheet bending",
+          "text": "Flashings, boxes and angles to your sketch, up to 3 m long.",
+          "price": "from 15,000 UZS per bend",
+          "tag": ""
+        },
+        {
+          "title": "Crane-truck delivery",
+          "text": "Same-day within Tashkent, crane unloading onto your plot.",
+          "price": "from 250,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Primer coating",
+          "text": "GF-021 primer on box section and angle, dry within a day.",
+          "price": "from 4,000 UZS per metre",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": " t",
+          "label": "of steel in stock"
+        },
+        {
+          "value": "180",
+          "suffix": "",
+          "label": "price-list items"
+        },
+        {
+          "value": "4",
+          "suffix": " h",
+          "label": "from order to delivery"
+        },
+        {
+          "value": "1",
+          "suffix": " length",
+          "label": "minimum order"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "Four steps to steel on site",
+      "items": [
+        {
+          "title": "Send a list",
+          "text": "Send a list or drawing on Telegram — even a photo of a notebook page works."
+        },
+        {
+          "title": "Quote",
+          "text": "Within 30 minutes we price weight, cutting and delivery as one sum."
+        },
+        {
+          "title": "Payment",
+          "text": "Cash, card or bank transfer with VAT for companies."
+        },
+        {
+          "title": "Delivery",
+          "text": "We cut, load and deliver, unloading wherever suits you."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Ordered box section for a canopy in the morning; by lunch it was on my plot, cut to my list.",
+          "author": "Botir",
+          "role": "private house, Sergeli"
+        },
+        {
+          "quote": "We buy rebar for our sites. The weight checks out and the paperwork arrives the same day.",
+          "author": "Dilshod",
+          "role": "site foreman"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I buy just one length?",
+          "a": "Yes, we sell single lengths and even offcuts at the per-metre price."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "By crane truck within Tashkent from 250,000 UZS; the total depends on district and weight."
+        },
+        {
+          "q": "Do you work with companies?",
+          "a": "Yes — VAT invoices, shipment on power of attorney and reconciliation statements."
+        },
+        {
+          "q": "Are the listed prices final?",
+          "a": "Prices move with the steel market; we confirm the exact total when we quote your order."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send your list — quote in 30 minutes",
+      "text": "14 Yangi Sergeli St, Sergeli. Mon–Sat 8:00–18:00. Lorries enter from the back of the yard.",
+      "cta": {
+        "label": "Order steel",
+        "href": "#order"
+      }
+    }
+  ]
+}

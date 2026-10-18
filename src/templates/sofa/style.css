@@ -1,1 +1,163 @@
-/* заготовка */
+/* ДИВАН — DTC-магазин мягкой мебели: молочный фон, скругления, диван-герой с примеркой ткани. */
+
+.tpl-sofa {
+  --pad: clamp(16px, 3.4vw, 52px);
+  --sofa-fabric: var(--accent);
+  --sofa-r: 28px;
+  font-size: clamp(15px, 1.04vw, 17.5px);
+}
+.tpl-sofa .s { padding-block: clamp(80px, 10vw, 150px); }
+.tpl-sofa .s__label { display: inline-flex; width: fit-content; padding: 7px 14px; border-radius: 99px; background: var(--surface); color: var(--accent); font-weight: 700; letter-spacing: .08em; font-size: 12px; }
+.tpl-sofa .s__title { font-family: var(--font-display); font-weight: 600; font-size: clamp(34px, 5.4vw, 88px); line-height: 1; letter-spacing: -.035em; }
+.tpl-sofa .s__intro { color: var(--muted); }
+
+.sofa-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 30px; border-radius: 99px; font-weight: 800; font-size: 16px; background: var(--accent); color: #fff; transition: transform .35s var(--ease), background .3s; }
+.sofa-btn:hover { transform: translateY(-2px) scale(1.02); background: color-mix(in srgb, var(--accent) 85%, #000); }
+.sofa-btn--ghost { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 2px var(--fg); }
+.sofa-btn--ghost:hover { background: var(--fg); color: var(--bg); }
+.sofa-btn--sm { min-height: 44px; padding: 0 20px; font-size: 14px; }
+.tpl-sofa .btn--primary { background: var(--accent); color: #fff; font-weight: 800; }
+
+.sofa-in { animation: sofaIn 1s var(--ease) both; animation-delay: var(--d, 0s); }
+@keyframes sofaIn { from { opacity: 0; transform: translateY(26px) scale(.98); } }
+.reduce-motion .sofa-in { animation: none; }
+
+/* шапка */
+.sofa-header { position: fixed; z-index: 50; top: 12px; left: var(--pad); right: var(--pad); display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 20px; padding: 8px 8px 8px 20px; border-radius: 99px; background: color-mix(in srgb, var(--bg) 86%, transparent); box-shadow: 0 6px 30px rgb(40 30 20 / .08); backdrop-filter: blur(10px); }
+.sofa-logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 20px; letter-spacing: -.03em; }
+.sofa-logo__mark { width: 26px; height: 16px; border-radius: 8px 8px 5px 5px; background: var(--accent); box-shadow: inset 0 -6px 0 rgb(0 0 0 / .18); }
+.sofa-nav { display: flex; justify-content: center; gap: 4px; }
+.sofa-nav a { padding: 9px 14px; border-radius: 99px; font-weight: 600; font-size: 15px; transition: background .25s; }
+.sofa-nav a:hover { background: var(--surface); }
+.sofa-header__side { display: flex; align-items: center; gap: 8px; }
+.tpl-sofa .mmenu__btn { color: var(--fg); }
+@media (max-width: 1000px) { .sofa-nav { display: none; } .sofa-header { grid-template-columns: 1fr auto; } }
+@media (max-width: 520px) { .sofa-header .sofa-btn--sm { display: none; } .sofa-header { top: 8px; padding-left: 16px; } }
+
+/* первый экран */
+.sofa-hero { padding: 120px var(--pad) 70px; display: grid; justify-items: center; text-align: center; gap: clamp(18px, 2.4vw, 30px); overflow: hidden; }
+.sofa-hero > * { min-width: 0; max-width: 100%; }
+.sofa-hero__head { display: grid; justify-items: center; gap: 18px; }
+.sofa-sticker { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 99px; background: var(--fg); color: var(--bg); font-weight: 700; font-size: 14px; transform: rotate(-2deg); }
+.sofa-sticker::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #7ee2a8; box-shadow: 0 0 0 4px rgb(126 226 168 / .25); }
+.sofa-hero__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(42px, 8vw, 132px); line-height: .94; letter-spacing: -.05em; max-width: 14ch; text-wrap: balance; }
+.sofa-hero__sub { max-width: 52ch; color: var(--muted); font-size: 1.1em; }
+.sofa-hero__conf { width: min(100%, 980px); }
+.sofa-hero__foot { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.sofa-perks { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: center; color: var(--muted); font-weight: 600; }
+.sofa-perks li::before { content: '✓'; color: var(--accent); margin-right: 8px; font-weight: 800; }
+
+.sofa-conf { display: grid; gap: 18px; justify-items: center; }
+.sofa-conf__stage { position: relative; width: 100%; display: grid; place-items: center; }
+.sofa-conf__halo { position: absolute; inset: 8% 10% 0; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--sofa-fabric) 28%, transparent), transparent); transition: background .6s ease; filter: blur(10px); }
+.sofa-conf__couch { position: relative; width: min(100%, 860px); height: auto; animation: sofaPlop 1.2s cubic-bezier(.2, 1.4, .4, 1) .4s both; }
+.sofa-couch rect, .sofa-couch path { transition: fill .55s ease; }
+.sofa-legs rect { fill: color-mix(in srgb, var(--fg) 80%, #6b4a2e); }
+@keyframes sofaPlop { from { transform: translateY(-40px) scale(.94); opacity: 0; } 70% { transform: translateY(4px) scale(1.01, .985); opacity: 1; } }
+.reduce-motion .sofa-conf__couch { animation: none; }
+.sofa-conf__bar { display: grid; gap: 12px; justify-items: center; }
+.sofa-conf__name { font-size: 15px; color: var(--muted); }
+.sofa-conf__name b { color: var(--fg); }
+.sofa-conf__swatches { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.sofa-swatch { width: 42px; height: 42px; border-radius: 50%; background: var(--sw); border: 3px solid var(--bg); box-shadow: 0 0 0 1.5px var(--line), inset 0 -8px 12px rgb(0 0 0 / .18); cursor: pointer; transition: transform .3s var(--ease), box-shadow .3s; }
+.sofa-swatch:hover { transform: scale(1.1); }
+.sofa-swatch.is-on { box-shadow: 0 0 0 2.5px var(--fg), inset 0 -8px 12px rgb(0 0 0 / .18); transform: scale(1.12); }
+
+/* лента */
+.sofa-band { padding-block: 0; }
+.sofa-band .marquee { padding-block: 18px; background: var(--accent); color: #fff; font-family: var(--font-display); font-size: clamp(20px, 2.6vw, 34px); letter-spacing: -.02em; transform: rotate(-1.2deg); margin-inline: -20px; }
+.sofa-band .marquee__sep { font-size: .5em; opacity: .6; }
+
+/* модели */
+.sofa-models__grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 18px; }
+.sofa-model { border-radius: var(--sofa-r); background: var(--surface); overflow: hidden; display: grid; transition: transform .5s var(--ease), box-shadow .5s var(--ease); }
+.sofa-model:hover { transform: translateY(-8px); box-shadow: 0 24px 50px rgb(50 35 20 / .12); }
+.sofa-model__stage { position: relative; display: grid; place-items: center; padding: 34px 18px 18px; background: radial-gradient(70% 60% at 50% 70%, color-mix(in srgb, var(--sofa-fabric) 18%, var(--surface)), var(--surface)); }
+.sofa-model__art { width: 100%; height: auto; transition: transform .6s var(--ease); }
+.sofa-model:hover .sofa-model__art { transform: scale(1.04) translateY(-4px); }
+.sofa-model__tag { position: absolute; left: 16px; top: 16px; padding: 6px 12px; border-radius: 99px; background: var(--bg); font-weight: 700; font-size: 13px; }
+.sofa-model__body { display: grid; gap: 8px; padding: 22px 24px 24px; background: var(--bg); margin: 0 8px 8px; border-radius: calc(var(--sofa-r) - 8px); }
+.sofa-model__body h3 { font-family: var(--font-display); font-weight: 600; font-size: 22px; letter-spacing: -.03em; }
+.sofa-model__body p { color: var(--muted); font-size: .95em; }
+.sofa-model__foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 6px; }
+.sofa-model__price { font-family: var(--font-display); font-weight: 700; font-size: 20px; letter-spacing: -.02em; }
+.sofa-model__dots { display: flex; }
+.sofa-model__dots i { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--bg); margin-left: -6px; }
+
+/* неделя до дивана */
+.sofa-road { display: grid; gap: 28px; }
+.sofa-road__track { position: relative; height: 46px; }
+.sofa-road__track::before { content: ''; position: absolute; left: 0; right: 0; top: 34px; height: 4px; border-radius: 4px; background: repeating-linear-gradient(90deg, var(--line) 0 14px, transparent 14px 22px); }
+.sofa-road__fill { position: absolute; left: 0; top: 34px; height: 4px; border-radius: 4px; width: 100%; background: var(--accent); transform-origin: left; transition: transform 2.4s var(--ease) .2s; }
+.sofa-van { position: absolute; top: 0; left: calc(100% - 64px); width: 64px; height: 36px; transition: left 2.4s var(--ease) .2s; }
+.motion .sofa-road:not(.is-in) .sofa-road__fill { transform: scaleX(0); }
+.motion .sofa-road:not(.is-in) .sofa-van { left: 0; }
+.sofa-road__steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 16px; }
+.sofa-road__steps li { display: grid; gap: 8px; align-content: start; padding: 22px; border-radius: 22px; background: var(--surface); transition: opacity .7s ease, transform .7s var(--ease); transition-delay: calc(.3s + var(--i) * .2s); }
+.motion .sofa-road:not(.is-in) .sofa-road__steps li { opacity: 0; transform: translateY(18px); }
+.sofa-road__pin { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: #fff; font-weight: 800; }
+.sofa-road__steps h3 { font-family: var(--font-display); font-weight: 600; font-size: 19px; letter-spacing: -.02em; }
+.sofa-road__steps p { color: var(--muted); font-size: .94em; }
+
+/* цифры */
+.sofa-stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 14px; margin: 0; }
+.sofa-stat { padding: 30px 26px; border-radius: var(--sofa-r); background: var(--fg); color: var(--bg); display: flex; flex-direction: column-reverse; gap: 6px; }
+.sofa-stat:nth-child(2n) { background: var(--accent); color: #fff; }
+.sofa-stat dd { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(46px, 5vw, 76px); line-height: 1; letter-spacing: -.05em; }
+.sofa-stat dd small { font-size: .38em; margin-left: 6px; letter-spacing: -.01em; }
+.sofa-stat dt { font-weight: 600; opacity: .85; }
+
+/* отзывы */
+.sofa-reviews__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.sofa-review { margin: 0; display: grid; gap: 18px; }
+.sofa-review blockquote { margin: 0; padding: 24px 26px; border-radius: 26px 26px 26px 6px; background: var(--surface); font-size: 1.05em; line-height: 1.55; }
+.sofa-review figcaption { display: flex; gap: 12px; align-items: center; padding-left: 8px; }
+.sofa-review figcaption i { width: 40px; height: 40px; border-radius: 50%; box-shadow: inset 0 -8px 12px rgb(0 0 0 / .2); flex: none; }
+.sofa-review figcaption span { display: grid; }
+.sofa-review figcaption small { color: var(--muted); }
+
+/* базовые секции */
+.tpl-sofa .s-about__body { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 64px); align-items: center; }
+.tpl-sofa .s-about__text { font-size: clamp(19px, 1.7vw, 26px); line-height: 1.5; letter-spacing: -.01em; }
+.tpl-sofa .s-about__media { margin: 0; aspect-ratio: 1; border-radius: 40px; overflow: hidden; }
+@media (max-width: 860px) { .tpl-sofa .s-about__body { grid-template-columns: 1fr; } }
+.tpl-sofa .s-gallery__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 14px; }
+.tpl-sofa .s-gallery__item { margin: 0; aspect-ratio: 4 / 5; border-radius: var(--sofa-r); overflow: hidden; position: relative; }
+.tpl-sofa .s-gallery__item:nth-child(3n + 2) { aspect-ratio: 1; align-self: end; }
+.tpl-sofa .s-gallery__item figcaption { position: absolute; left: 12px; bottom: 12px; padding: 6px 12px; border-radius: 99px; background: var(--bg); font-size: 13px; font-weight: 600; }
+.tpl-sofa .s-faq__list { display: grid; gap: 10px; max-width: 900px; }
+.tpl-sofa .s-faq__item { border-radius: 22px; background: var(--surface); padding: 0 24px; }
+.tpl-sofa .s-faq__q { display: flex; justify-content: space-between; gap: 18px; padding: 20px 0; font-weight: 700; font-size: 1.08em; }
+.tpl-sofa .s-faq__q i { width: 30px; height: 30px; flex: none; border-radius: 50%; background: var(--bg); position: relative; transition: transform .35s var(--ease); }
+.tpl-sofa .s-faq__q i::before { content: '+'; position: absolute; inset: 0; display: grid; place-items: center; font-style: normal; font-weight: 700; }
+.tpl-sofa .s-faq__item[open] .s-faq__q i { transform: rotate(45deg); background: var(--accent); color: #fff; }
+.tpl-sofa .s-faq__a { padding-bottom: 22px; color: var(--muted); }
+.tpl-sofa .s-contact .s__inner { padding: clamp(30px, 5vw, 70px); border-radius: 40px; background: var(--accent); color: #fff; }
+.tpl-sofa .s-contact .s__label { background: rgb(255 255 255 / .18); color: #fff; }
+.tpl-sofa .s-contact .s__intro { color: rgb(255 255 255 / .85); }
+.tpl-sofa .s-contact__body { display: grid; gap: 30px; }
+.tpl-sofa .s-contact .btn--primary { background: #fff; color: var(--accent); width: fit-content; }
+.tpl-sofa .s-contact__facts { font-style: normal; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+.tpl-sofa .s-contact__facts > * { display: grid; gap: 4px; padding: 18px; border-radius: 20px; background: rgb(255 255 255 / .12); }
+.tpl-sofa .s-contact__facts small { opacity: .75; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+.tpl-sofa .s-pricing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 14px; }
+.tpl-sofa .s-pricing__item { padding: 28px; border-radius: var(--sofa-r); background: var(--surface); display: grid; gap: 12px; align-content: start; }
+.tpl-sofa .s-pricing__item.is-featured { background: var(--fg); color: var(--bg); }
+.tpl-sofa .s-pricing__name { font-family: var(--font-display); font-size: 22px; }
+.tpl-sofa .s-pricing__price { font-family: var(--font-display); font-size: 28px; font-weight: 700; }
+.tpl-sofa .s-pricing__features { padding-left: 18px; display: grid; gap: 6px; opacity: .85; }
+.tpl-sofa .s-answer { padding-block: 0 30px; }
+.tpl-sofa .s-answer__text { max-width: 76ch; margin-inline: auto; text-align: center; color: var(--muted); }
+
+/* подвал */
+.sofa-footer { margin: 0 var(--pad) var(--pad); padding: clamp(36px, 5vw, 70px); border-radius: 40px; background: var(--fg); color: var(--bg); display: grid; gap: 36px; }
+.sofa-footer__top { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: end; }
+.sofa-footer__name { font-family: var(--font-display); font-weight: 700; font-size: clamp(44px, 9vw, 150px); line-height: .9; letter-spacing: -.06em; overflow-wrap: anywhere; }
+.sofa-footer__tag { margin-top: 12px; opacity: .7; max-width: 46ch; }
+.sofa-footer__dots { display: flex; gap: 8px; }
+.sofa-footer__dots i { width: 28px; height: 28px; border-radius: 50%; box-shadow: inset 0 -6px 10px rgb(0 0 0 / .25); }
+.sofa-footer__facts { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 22px; }
+.sofa-footer__facts dt { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; opacity: .6; margin-bottom: 6px; }
+.sofa-footer__facts dd { margin: 0; font-weight: 600; }
+.sofa-footer__social { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.sofa-footer__bottom { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-top: 20px; border-top: 1px solid rgb(255 255 255 / .14); font-size: 13px; opacity: .7; padding-bottom: 40px; }

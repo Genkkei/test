@@ -1,0 +1,314 @@
+{
+  "name": "Laser Metall",
+  "tagline": "Metallni millimetrning o‘ndan biri aniqligida kesamiz",
+  "niche": "Metallni lazer bilan kesish va korten bezaklari: panno, gultuvaklar, peshlavhalar, to‘siqlar",
+  "nav": {
+    "cta": {
+      "label": "Buyurtmani hisoblash",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Lazer kesish sexi va metall bezak ustaxonasi uchun sayt. Birinchi ekranda lazer real vaqtda sakkiz qirrali yulduzni kesadi, narxlar — qalinliklar bilan spetsifikatsiya, ishlar — yoritilgan teshikli panellar.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Laser Metall — Toshkentda metallni lazer bilan kesish",
+    "description": "Chizmalaringiz bo‘yicha po‘lat, zanglamas po‘lat va kortenni lazer bilan kesish. Dekorativ panno, gultuvak, peshlavha va to‘siqlar. Hisob bir soatda, tayyorlash 1 kundan.",
+    "keywords": [
+      "metallni lazer bilan kesish Toshkent",
+      "korten",
+      "metall dekorativ panellar",
+      "metall peshlavhalar",
+      "korten gultuvaklar"
+    ],
+    "answer": "Laser Metall — Toshkentdagi Kichik Xalqa yo‘li, 7 da joylashgan lazer kesish sexi. DXF chizmalar bo‘yicha 20 mm gacha po‘lat, 10 mm gacha zanglamas po‘lat va kortenni kesamiz: kesish metri 8 000 so‘mdan, korten panno har m² 1 800 000 so‘mdan, gultuvaklar 650 000 so‘mdan. Hisobni bir soat ichida yuboramiz, oddiy detallar ertasi kuni tayyor."
+  },
+  "business": {
+    "legalName": "«Laser Metall» MChJ",
+    "street": "Kichik Xalqa yo‘li, 7",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va butun O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metallni chizmaga aynan mos kesamiz",
+      "eyebrow": "Lazer stanogi 3 kVt · ish maydoni 3000 × 1500 mm",
+      "subtitle": "Po‘lat, zanglamas po‘lat va korten — bitta detaldan seriyagacha. DXF yoki eskiz yuboring: hisob bir soatda, ertaga tayyor.",
+      "cta": {
+        "label": "Buyurtmani hisoblash",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#prices"
+      },
+      "image": "",
+      "words": [
+        "aniqlik ±0,1 mm",
+        "po‘lat 20 mm gacha",
+        "korten",
+        "1 kundan"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "DXF bo‘yicha kesish",
+        "egish",
+        "kukunli bo‘yoq",
+        "kortenni patinalash",
+        "payvandlash",
+        "O‘zbekiston bo‘ylab yetkazish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Sex",
+      "title": "Chizmadan metallga bir sutkada",
+      "text": "Bizda 3 kVt tolali lazer, list egish stanogi va kukunli bo‘yoq kamerasi bor — detal pudratchilarga ketmaydi. Dizaynerlar va arxitektorlar fayl yuboradi, biz tekshiramiz, metallni qayerda tejash mumkinligini aytamiz va kesamiz. Xususiy mijozlar uchun naqshni o‘zimiz chizamiz.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Narxlar",
+      "title": "Spetsifikatsiya",
+      "intro": "Kesish narxi qalinlik va kontur uzunligiga bog‘liq; buyumlar — bo‘yoq bilan, yetkazishsiz.",
+      "items": [
+        {
+          "title": "Po‘latni lazer bilan kesish",
+          "text": "Sizning yoki bizning metall, DXF/DWG bo‘yicha.",
+          "price": "8 000 so‘mdan / metr",
+          "tag": "1–20 mm"
+        },
+        {
+          "title": "Zanglamas po‘latni kesish",
+          "text": "Oshxona, fasad va peshlavhalar uchun.",
+          "price": "14 000 so‘mdan / metr",
+          "tag": "0,8–10 mm"
+        },
+        {
+          "title": "Korten panno",
+          "text": "Fasad, panjara va yoritilgan interyerlar uchun teshikli ekranlar.",
+          "price": "1 800 000 so‘mdan / m²",
+          "tag": "2–3 mm"
+        },
+        {
+          "title": "Gultuvak va gulzorlar",
+          "text": "Korten va kukunli bo‘yoqli po‘lat, istalgan o‘lchamda.",
+          "price": "650 000 so‘mdan",
+          "tag": "2 mm, payvandlangan"
+        },
+        {
+          "title": "Peshlavha va hajmli harflar",
+          "text": "Lavhalar, uy raqamlari, kontrajurli logotiplar.",
+          "price": "450 000 so‘mdan",
+          "tag": "1,5–3 mm"
+        },
+        {
+          "title": "To‘siq va pardalar",
+          "text": "Restoran, ofis va terassalarni zonalash.",
+          "price": "2 400 000 so‘mdan / m²",
+          "tag": "3 mm + RAL"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Bizda kesilgan",
+      "intro": "",
+      "items": [
+        {
+          "title": "Restoran fasad ekrani",
+          "category": "Korten",
+          "year": "2025",
+          "text": "24 m² yoritilgan girih naqsh.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Biznes-markaz uchun gultuvaklar",
+          "category": "Gultuvak",
+          "year": "2025",
+          "text": "Perimetri teshikli 36 ta gultuvak.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qahvaxonadagi to‘siq",
+          "category": "Interyer",
+          "year": "2025",
+          "text": "RAL 9005 kukunli bo‘yoqli rombchalar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Xususiy uy panjarasi",
+          "category": "To‘siq",
+          "year": "2024",
+          "text": "To‘lqinlar, har biri 2 metrlik 18 seksiya.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mehmonxona lobbisi uchun chiroqlar",
+          "category": "Yorug‘lik",
+          "year": "2024",
+          "text": "Asalari ini naqshli 12 abajur.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Barbershop peshlavhasi",
+          "category": "Peshlavha",
+          "year": "2024",
+          "text": "Kontrajur yoritilgan hajmli harflar.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Uskunalar",
+      "title": "",
+      "items": [
+        {
+          "value": "0.1",
+          "suffix": " mm",
+          "label": "kesish aniqligi"
+        },
+        {
+          "value": "20",
+          "suffix": " mm",
+          "label": "po‘latning maksimal qalinligi"
+        },
+        {
+          "value": "3",
+          "suffix": " m",
+          "label": "bir o‘tishda list uzunligi"
+        },
+        {
+          "value": "24",
+          "suffix": " soat",
+          "label": "oddiy buyurtmaga"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Buyurtma qanday bajariladi",
+      "items": [
+        {
+          "title": "Fayl yoki eskiz",
+          "text": "DXF, PDF yoki rasm suratini Telegramga yuborasiz."
+        },
+        {
+          "title": "Hisob",
+          "text": "Bir soatda — narx, material va muddat; qayerda tejash mumkinligini aytamiz."
+        },
+        {
+          "title": "Kesish",
+          "text": "Kesamiz, qirrasini tozalaymiz va kerak bo‘lsa egamiz."
+        },
+        {
+          "title": "Pardozlash",
+          "text": "Istalgan RAL kukunli bo‘yoq yoki kortenning tezlashtirilgan patinasi."
+        },
+        {
+          "title": "Topshirish",
+          "text": "Sexdan olib ketish yoki yetkazib berish, o‘rnatish so‘rov bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bizga chizmalarni ishonishadi",
+      "items": [
+        {
+          "quote": "Juma kuni kechqurun fayl yubordik — shanba kuni 40 ta detalni oldik, barcha o‘lchamlar mos keldi.",
+          "author": "Baxtiyor",
+          "role": "mebel ustaxonasi"
+        },
+        {
+          "quote": "Panno qiyshaymasligi uchun naqshni korten qalinligiga moslashga yordam berishdi. Fasad narxidan qimmatroq ko‘rinadi.",
+          "author": "Madina",
+          "role": "arxitektor"
+        },
+        {
+          "quote": "Terassa uchun gultuvak buyurtma qildik: choklar tekis, zang chiroyli va bo‘yamaydi.",
+          "author": "Oleg",
+          "role": "restoran egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Metallni lazer bilan kesish qancha turadi?",
+          "a": "1–2 mm po‘lat uchun kesish metri 8 000 so‘mdan. Aniq narx qalinlik, kontur uzunligi va teshiklar soniga bog‘liq — fayl yuboring, bir soatda hisoblaymiz."
+        },
+        {
+          "q": "Qanday fayllar kerak?",
+          "a": "1:1 masshtabdagi DXF yoki DWG yaxshiroq. PDF, SVG va hatto eskiz surati ham bo‘ladi — chizmani o‘zimiz tayyorlaymiz."
+        },
+        {
+          "q": "Korten nima va nega u zanglagan?",
+          "a": "Bu atmosferaga chidamli po‘lat: yupqa zang qatlami uni keyingi korroziyadan himoya qiladi, shuning uchun bo‘yash shart emas. Rang darhol bir xil bo‘lishi uchun patinani tezlashtiramiz."
+        },
+        {
+          "q": "Mening metallim bilan ishlaysizmi?",
+          "a": "Ha, mijozning listini kesamiz — unda narx faqat kesish uchun. List tekis, kuyindi va moysiz bo‘lishi kerak."
+        },
+        {
+          "q": "Boshqa shaharlarga yetkazasizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab transport kompaniyalari orqali yuboramiz; Toshkent bo‘ylab yetkazish 100 000 so‘mdan."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Chizmani yuboring",
+      "text": "Ariza qoldiring yoki Telegramga yozing — ish vaqtida bir soat ichida narx va muddat bilan javob beramiz.",
+      "cta": {
+        "label": "Buyurtmani hisoblash",
+        "href": "#order"
+      }
+    }
+  ]
+}

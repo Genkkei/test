@@ -1,0 +1,309 @@
+{
+  "name": "Loft Factory",
+  "tagline": "Po‘lat va massivdan mebel: uy, kafe, ofis",
+  "niche": "Loft uslubidagi mebel: stollar, stullar, javonlar, kafe va ofislar uchun mebel",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Loft uslubidagi mebel ishlab chiqaruvchisi, metall buyumlar ustaxonasi yoki kafe mebeli do‘koni uchun sayt. Qorong‘i sex, birinchi ekranda chizilib boradigan stol chizmasi, po‘lat plastinalar ko‘rinishidagi katalog va ish bosqichlarining payvand chizig‘i.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Loft Factory — Toshkentda loft uslubidagi mebel",
+    "description": "Po‘lat va eman massividan buyurtma asosida stollar, stullar, javonlar va bar peshtaxtalari. Sergelida o‘z sexi, tayyorlash 14 kundan, Toshkent bo‘ylab yetkazish va yig‘ish.",
+    "keywords": [
+      "loft mebel Toshkent",
+      "buyurtma loft stol",
+      "kafe uchun mebel",
+      "bar stullari",
+      "metall va yog‘och javon",
+      "metall va yog‘ochdan mebel"
+    ],
+    "answer": "Loft Factory — Toshkentdagi Yangi Sergeli ko‘chasi, 22 manzilidagi loft uslubidagi mebel sexi. Po‘lat karkaslarni payvandlaymiz, stol usti eman va qayrag‘och massividan: ovqat stoli — 6 900 000 so‘mdan, bar stuli — 1 150 000 so‘mdan, javon — 3 400 000 so‘mdan. Tayyorlash 14 kundan, kafolat 2 yil, Toshkent bo‘ylab yetkazish va yig‘ish. Du–sh 9:00 dan 19:00 gacha ishlaymiz."
+  },
+  "business": {
+    "legalName": "Loft Factory MChJ",
+    "street": "Yangi Sergeli ko‘chasi, 22",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va viloyat",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Po‘lat va yog‘ochdan mebel",
+      "eyebrow": "Sex · Toshkent · payvand va massiv",
+      "subtitle": "Uy, kafe va ofis uchun loft uslubidagi stollar, stullar, javonlar va bar peshtaxtalari. Karkaslarni o‘zimiz payvandlaymiz, stol ustini eman va qayrag‘och massividan yasaymiz. Tayyorlash 14 kundan.",
+      "cta": {
+        "label": "Hisob-kitob so‘rash",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Katalog",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "Po‘lat 40×40 mm",
+        "Eman va qayrag‘och massivi",
+        "14 kundan",
+        "Kafolat 2 yil"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Stollar",
+        "Stullar",
+        "Javonlar",
+        "Bar peshtaxtalari",
+        "Kafe mebeli",
+        "Ofislar",
+        "Kukunli bo‘yoq",
+        "Massiv"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Sex haqida",
+      "title": "Bu yerda mebel qutidan yig‘ilmaydi, payvandlanadi",
+      "text": "Sergelida o‘z sexmiz bor: payvandlash postlari, bo‘yash kamerasi va duradgorlik bo‘limi. 40×40 mm profil quvurdan karkas to‘liq payvandlanadi va kukunli bo‘yoq bilan qoplanadi, stol usti — moy bilan ishlangan 40 mm qalinlikdagi eman yoki qayrag‘och massivi. Shuning uchun stol bir yildan keyin chayqalmaydi, stul esa kafeda ertalabdan kechgacha chidaydi.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Kursidan bar peshtaxtasigacha",
+      "intro": "Narxlar — qora muar bo‘yoqli asosiy o‘lcham uchun. Boshqa o‘lcham, karkas rangi yoki yog‘och turi — bir kunda hisoblab beramiz.",
+      "items": [
+        {
+          "title": "«Industrial» ovqat stoli",
+          "text": "1800 × 900 mm, eman 40 mm, diagonal tayanchli karkas. 6–8 kishiga.",
+          "price": "6 900 000 so‘mdan",
+          "tag": "14 kun"
+        },
+        {
+          "title": "«Reyka» bar stuli",
+          "text": "O‘rindiq balandligi 75 sm, oyoq tayanchi, eman o‘rindiq. Peshtaxta va orollar uchun.",
+          "price": "1 150 000 so‘mdan",
+          "tag": "mavjud"
+        },
+        {
+          "title": "«Karkas» javoni",
+          "text": "2000 × 1000 × 350 mm, massivdan to‘rtta tokcha, xochsimon bog‘lamlar. Kitob va texnikani ko‘taradi.",
+          "price": "3 400 000 so‘mdan",
+          "tag": "10 kun"
+        },
+        {
+          "title": "«Ustaxona» ish stoli",
+          "text": "1400 × 700 mm, tokchali tumba, stol usti ostida kabel kanali.",
+          "price": "4 200 000 so‘mdan",
+          "tag": "14 kun"
+        },
+        {
+          "title": "«Vokzal» skameykasi",
+          "text": "1600 mm, dahliz, kafe va ayvon uchun. Namlikdan himoyalangan bo‘yoq.",
+          "price": "2 300 000 so‘mdan",
+          "tag": "10 kun"
+        },
+        {
+          "title": "Kafe uchun bar peshtaxtasi",
+          "text": "Rejangiz bo‘yicha: massivdan stol usti, idish tokchalari, yoritish. Joyida o‘lchash.",
+          "price": "9 800 000 so‘mdan",
+          "tag": "21 kun"
+        },
+        {
+          "title": "«Ko‘prik» konsoli",
+          "text": "1200 × 350 mm, ikki tokcha, kesishgan bog‘lamli karkas. Dahliz yoki televizor uchun.",
+          "price": "2 900 000 so‘mdan",
+          "tag": "10 kun"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "Kafelar, ofislar, kvartiralar",
+      "items": [
+        {
+          "title": "Shota Rustaveli ko‘chasidagi qahvaxona",
+          "category": "Kafe",
+          "year": "40 o‘rin",
+          "text": "Bar peshtaxtasi, 12 ta stol va 40 ta stul — besh haftada.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "IT kompaniya ofisi",
+          "category": "Ofis",
+          "year": "60 ish o‘rni",
+          "text": "Kabel kanalli ish stollari, to‘siq-javonlar, muzokara xonasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tashkent Sitidagi kvartira",
+          "category": "Uy",
+          "year": "120 m²",
+          "text": "Ovqatlanish zonasi, oshxona oroli va butun devor bo‘ylab kutubxona.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chilonzordagi burgerxona",
+          "category": "Kafe",
+          "year": "28 o‘rin",
+          "text": "Devor bo‘ylab skameykalar, bar stullari va buyurtma berish peshtaxtasi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Eskizdan yig‘ishgacha",
+      "items": [
+        {
+          "title": "O‘lchash va eskiz",
+          "text": "Kelamiz, o‘lchaymiz, karkas variantlari bilan eskiz chizamiz."
+        },
+        {
+          "title": "Hisob va shartnoma",
+          "text": "Narx shartnomada qat’iy belgilanadi, oldindan to‘lov 50%."
+        },
+        {
+          "title": "Karkasni payvandlash",
+          "text": "Profilni kesamiz, payvandlaymiz, choklarni tozalaymiz va kukun bilan bo‘yaymiz."
+        },
+        {
+          "title": "Stol usti",
+          "text": "Massivdan shit yelimlaymiz, silliqlaymiz va ikki qavat moy bilan qoplaymiz."
+        },
+        {
+          "title": "Yetkazish va yig‘ish",
+          "text": "Olib kelamiz va joyida yig‘amiz, sath bo‘yicha tekislaymiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "1200",
+          "suffix": "+",
+          "label": "sexdan chiqqan buyum"
+        },
+        {
+          "value": "14",
+          "suffix": "kun",
+          "label": "o‘rtacha tayyorlash muddati"
+        },
+        {
+          "value": "35",
+          "suffix": "+",
+          "label": "kafe va ofis jihozlandi"
+        },
+        {
+          "value": "2",
+          "suffix": "yil",
+          "label": "payvand choklariga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Butun qahvaxona uchun mebel buyurtma qildik. Hammasi o‘z vaqtida keldi, mehmonlar chayqalsa ham stullar bir yilda bo‘shab qolmadi.",
+          "author": "Dilnoza",
+          "role": "qahvaxona egasi"
+        },
+        {
+          "quote": "Qayrag‘och stol — kvartiramizning markazi. Aynan bizning tokcha o‘lchamimizga yasashdi.",
+          "author": "Temur",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Eskizni uch marta qayta chizishdi, hech kim shoshtirmadi. Javonlar to‘siq bo‘lib turibdi va butun arxivni ko‘taradi.",
+          "author": "Sardor",
+          "role": "ofis menejeri"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Buyurtma stol qancha vaqtda tayyor bo‘ladi?",
+          "a": "Odatda oldindan to‘lovdan keyin 14 kun. Bar peshtaxtalari va kafe buyurtmalari — 21 kundan, muddat shartnomada yoziladi."
+        },
+        {
+          "q": "Boshqa o‘lcham yoki karkas rangi mumkinmi?",
+          "a": "Ha. O‘lchamingizga payvandlaymiz, RAL katalogidagi istalgan rangga bo‘yaymiz. Narx smeta bo‘yicha qayta hisoblanadi."
+        },
+        {
+          "q": "Qanday yog‘och ishlatasiz?",
+          "a": "Eman va mahalliy qayrag‘och massivi, kamroq yong‘oq. Stol ustlarida DSP va shpon ishlatmaymiz."
+        },
+        {
+          "q": "Yetkazib berasizmi va yig‘asizmi?",
+          "a": "Ha, Toshkent bo‘ylab 5 000 000 so‘mdan ortiq buyurtmada yetkazish va yig‘ish narxga kiradi. Viloyatga — kelishuv asosida."
+        },
+        {
+          "q": "Kafe va ofislar bilan naqd pulsiz ishlaysizmi?",
+          "a": "Ha, yuridik shaxslar bilan ishlaymiz: shartnoma, hisob va dalolatnoma."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Vazifani yozing — bir kunda hisoblaymiz",
+      "text": "O‘lchamlar, xona surati yoki internetdagi rasmni yuboring. Shou-rum va sex mehmonlar uchun ochiq — kelib stullarda o‘tirib ko‘rishingiz mumkin.",
+      "cta": {
+        "label": "Ariza qoldirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

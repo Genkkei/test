@@ -1,0 +1,275 @@
+{
+  "name": "Svarka 60",
+  "tagline": "Butun Toshkent bo‘ylab bir soatda payvandchi chiqadi",
+  "niche": "Ko‘chma payvandlash ishlari",
+  "nav": {
+    "cta": {
+      "label": "Payvandchini chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Ko‘chma payvandlash va mayda metall ta’miri uchun sayt: birinchi ekranda ariza trekeri, ikonkali «...dan» narxlar, chaqirish tugmasi doim yonida.",
+    "features": []
+  },
+  "leads": {
+    "title": "Payvandchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Svarka 60 — Toshkentda bir soatda ko‘chma payvandchi",
+    "description": "Generatorli payvandchi 60 daqiqada keladi: darvozani tuzatadi, quvurni payvandlaydi, ayvon yoki zinapoya yasaydi. Narx ish boshlanguncha, choklarga kafolat 1 yil.",
+    "keywords": [
+      "ko‘chma payvandchi Toshkent",
+      "darvoza payvandlash",
+      "payvandlash ishlari narxi",
+      "quvurlarni favqulodda payvandlash"
+    ],
+    "answer": "Svarka 60 — Toshkentda ko‘chma payvandlash: generator va apparatli payvandchi taxminan 60 daqiqada keladi, har kuni 7:00 dan 23:00 gacha. Chiqish — 80 000 so‘m, darvozani ta’mirlash — 250 000 so‘mdan, quvur payvandlash — 150 000 so‘mdan. Narxni ish boshlanguncha aytamiz, choklarga kafolat 1 yil. Telefon +998 71 200-07-03."
+  },
+  "business": {
+    "legalName": "MChJ «Svarka 60»",
+    "street": "Uchtepa, Lutfiy ko‘chasi, 22",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Butun Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Payvandchi bir soatda sizda",
+      "eyebrow": "Har kuni 7:00–23:00 · butun Toshkent",
+      "subtitle": "Darvoza ilmog‘i tushdi, quvur oqyapti, yomg‘irgacha ayvon kerak — payvandchi o‘z generatori va elektrodlari bilan keladi. Narxni chiqishdan oldin surat bo‘yicha aytamiz.",
+      "words": [
+        "Ariza qabul qilindi",
+        "Payvandchi yo‘lga chiqdi",
+        "Payvandchi joyida",
+        "Chok tayyor"
+      ],
+      "cta": {
+        "label": "Payvandchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Darvozalar",
+        "Quvurlar",
+        "Ayvonlar",
+        "Zinapoyalar",
+        "Panjaralar",
+        "O‘z generatorimiz"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Narxlar",
+      "title": "Bugun nimani payvandlaymiz",
+      "intro": "«...dan» narxlar — aniq summani chiqishdan oldin surat bo‘yicha aytamiz.",
+      "items": [
+        {
+          "title": "Darvoza va eshikchalarni ta’mirlash",
+          "text": "Ilmoqlar, zulfinlar, osilib qolgan tavaqalar, ramadagi yoriqlar.",
+          "price": "250 000 so‘mdan",
+          "tag": "Darvozalar"
+        },
+        {
+          "title": "Quvurlarni payvandlash",
+          "text": "Isitish, suv, gaz quvurlari — faqat ruxsatnoma va bosim sinovi bilan.",
+          "price": "150 000 so‘mdan",
+          "tag": "Quvurlar"
+        },
+        {
+          "title": "Mashina uchun ayvon",
+          "text": "Bir-ikki kunda profil quvurdan karkas va polikarbonat.",
+          "price": "3 900 000 so‘mdan",
+          "tag": "Konstruksiyalar"
+        },
+        {
+          "title": "Ikkinchi qavatga zinapoya",
+          "text": "Yog‘och yoki plitka uchun metall karkas.",
+          "price": "4 500 000 so‘mdan",
+          "tag": "Konstruksiyalar"
+        },
+        {
+          "title": "Kechasi favqulodda chiqish",
+          "text": "23:00 dan keyin quvur yorilishi yoki darvoza qulfi buzilishi.",
+          "price": "300 000 so‘mdan",
+          "tag": "Shoshilinch"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "o‘rtacha yetib kelish vaqti"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "liniyadagi payvandchilar"
+        },
+        {
+          "value": "16",
+          "suffix": " soat",
+          "label": "har kuni ishlaymiz"
+        },
+        {
+          "value": "1",
+          "suffix": " yil",
+          "label": "choklarga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bu qanday ishlaydi",
+      "title": "Qo‘ng‘iroqdan tayyor chokkacha",
+      "items": [
+        {
+          "title": "Surat",
+          "text": "Buzilish suratini Telegramga yuboring yoki telefonda tushuntiring."
+        },
+        {
+          "title": "Narx",
+          "text": "Summani chiqishdan oldin aytamiz — «joyida ko‘ramiz»siz."
+        },
+        {
+          "title": "Chiqish",
+          "text": "Eng yaqin payvandchi generator va metall bilan yo‘lga chiqadi."
+        },
+        {
+          "title": "Ish va to‘lov",
+          "text": "Payvandlaymiz, tozalaymiz, chokni bo‘yaymiz. To‘lov tekshiruvdan keyin."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Chiqish",
+      "title": "Kelish qancha turadi",
+      "items": [
+        {
+          "name": "Kunduzi",
+          "price": "80 000 so‘m",
+          "period": "7:00–19:00",
+          "features": [
+            "Chiqish va tashxis",
+            "500 000 so‘mdan ortiq ishlarga kiradi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Kechqurun",
+          "price": "120 000 so‘m",
+          "period": "19:00–23:00",
+          "features": [
+            "Navbatda ustunlik",
+            "O‘z generatorimiz"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Tunda",
+          "price": "300 000 so‘m",
+          "period": "23:00 dan keyin",
+          "features": [
+            "Faqat avariyalar",
+            "90 daqiqagacha kelish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "O‘z vaqtida keladigan payvandchilar",
+      "text": "Svarka 60 — Toshkent bo‘ylab generatorli o‘z mashinalaridagi o‘n ikki payvandchi. Dispetcher eng yaqinini yuboradi, shuning uchun bir soat — va’da emas, oddiy muddat. Har bir usta maxsus kiyimda ishlaydi va o‘zidan keyin qasmoqni tozalaydi.",
+      "image": ""
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Fikrlar",
+      "items": [
+        {
+          "quote": "Darvoza kechki sakkizda yopilmay qoldi. To‘qqizda payvandchi keldi, o‘ngacha hammasi ishladi.",
+          "author": "Aziz",
+          "role": "Yakkasaroy"
+        },
+        {
+          "quote": "Narxni surat bo‘yicha aytishdi va joyida oshirishmadi. Bu kamdan-kam.",
+          "author": "Lola",
+          "role": "Mirzo Ulug‘bek"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Joyida elektr kerakmi?",
+          "a": "Yo‘q, har bir payvandchining o‘z benzin generatori bor."
+        },
+        {
+          "q": "Metallni o‘zingiz olib kelasizmi?",
+          "a": "Ha, yuradigan quvur, burchak va list mashinada bor; qolganini yo‘lda baza narxida olamiz."
+        },
+        {
+          "q": "Gaz quvurlarini payvandlaysizmi?",
+          "a": "Faqat ruxsatnomali payvandchilar va ishdan keyin bosim sinovi bilan; bunday arizalarga kunduzi chiqamiz."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Payvand choklarga 1 yil: chok ochilsa, bepul qayta payvandlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Chaqirish",
+      "title": "Buzilishni tushuntiring — narx va kelish vaqtini aytamiz",
+      "text": "Har kuni 7:00–23:00, tunda — faqat avariyalar. Baza Uchtepada, Lutfiy ko‘chasi, 22.",
+      "cta": {
+        "label": "Payvandchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

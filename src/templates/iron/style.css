@@ -1,1 +1,248 @@
-/* заготовка */
+/* ВОРОТА — инженерный каталог: миллиметровка, чертёж, размерные линии. Всё под .tpl-iron и префиксом iron-. */
+
+.tpl-iron {
+  --pad: clamp(16px, 3.6vw, 56px);
+  --iron-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+  --iron-grid: color-mix(in srgb, var(--fg) 6%, transparent);
+  --iron-grid2: color-mix(in srgb, var(--fg) 11%, transparent);
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--iron-grid2) 1px, transparent 1px),
+    linear-gradient(90deg, var(--iron-grid2) 1px, transparent 1px),
+    linear-gradient(var(--iron-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--iron-grid) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  font-size: clamp(15px, 1vw, 17px);
+}
+.tpl-iron .s { padding-block: clamp(76px, 10vw, 150px); }
+.tpl-iron .s__label { font-family: var(--iron-mono); font-size: 12px; letter-spacing: .14em; color: var(--accent); }
+.tpl-iron .s__label::before { content: '[ '; }
+.tpl-iron .s__label::after { content: ' ]'; }
+.tpl-iron .s__title { font-family: var(--font-display); font-weight: 800; font-size: clamp(34px, 5vw, 78px); line-height: 1; letter-spacing: -.03em; }
+.tpl-iron .s__intro { color: var(--muted); max-width: 62ch; }
+
+.iron-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 26px; font-family: var(--font-display); font-weight: 700; font-size: 15px; background: var(--accent); color: #fff; border: 1.5px solid var(--accent); transition: background .3s, color .3s, transform .3s var(--ease); }
+.iron-btn::after { content: '→'; transition: transform .3s var(--ease); }
+.iron-btn:hover { background: var(--fg); border-color: var(--fg); }
+.iron-btn:hover::after { transform: translateX(4px); }
+.iron-btn--ghost { background: transparent; color: var(--fg); border-color: var(--fg); }
+.iron-btn--ghost:hover { background: var(--fg); color: var(--bg); }
+.iron-btn--sm { min-height: 40px; padding: 0 16px; font-size: 13px; }
+.tpl-iron .btn { border-radius: 0; font-family: var(--font-display); font-weight: 700; }
+.tpl-iron .btn--primary { background: var(--accent); color: #fff; }
+.tpl-iron .btn--primary:hover { background: var(--fg); color: var(--bg); }
+
+/* шапка */
+.iron-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 12px var(--pad); background: color-mix(in srgb, var(--surface) 92%, transparent); border-bottom: 1.5px solid var(--fg); backdrop-filter: blur(6px); }
+.iron-logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 800; font-size: 21px; letter-spacing: -.02em; }
+.iron-logo svg { width: 28px; height: 28px; fill: none; stroke: var(--accent); stroke-width: 2; }
+.iron-nav { display: flex; justify-content: center; gap: 22px; font-size: 14px; font-weight: 500; }
+.iron-nav a { display: inline-flex; gap: 6px; align-items: baseline; padding: 6px 0; border-bottom: 1.5px solid transparent; transition: border-color .25s, color .25s; }
+.iron-nav small { font-family: var(--iron-mono); font-size: 10px; color: var(--accent); }
+.iron-nav a:hover { border-color: var(--accent); }
+.iron-header__side { display: flex; align-items: center; gap: 16px; }
+.iron-phone { font-family: var(--iron-mono); font-size: 14px; font-weight: 600; }
+@media (max-width: 1140px) { .iron-nav { display: none; } .iron-header { grid-template-columns: 1fr auto; } }
+@media (max-width: 640px) { .iron-phone, .iron-header .iron-btn--sm { display: none; } }
+.tpl-iron .mmenu__panel { background: var(--surface); }
+.tpl-iron .mmenu__panel a { font-family: var(--font-display); font-weight: 800; letter-spacing: -.02em; }
+.tpl-iron .mmenu__panel .mmenu__cta { border-radius: 0; background: var(--accent); color: #fff; }
+
+/* первый экран */
+.iron-hero { min-height: 100svh; padding: 0; display: grid; align-items: center; }
+.iron-hero__inner { width: min(100% - 2 * var(--pad), 1480px); margin-inline: auto; padding-block: clamp(110px, 15vh, 160px) clamp(40px, 7vh, 80px); display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 4vw, 64px); align-items: center; }
+.iron-hero__text { min-width: 0; }
+.iron-hero__eyebrow { display: inline-flex; gap: 10px; align-items: center; margin: 0; font-family: var(--iron-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.iron-hero__eyebrow span { padding: 3px 7px; background: var(--fg); color: var(--bg); }
+.iron-hero__title { margin: 20px 0 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(40px, 5.2vw, 84px); line-height: .95; letter-spacing: -.045em; overflow-wrap: break-word; hyphens: auto; text-wrap: balance; }
+.iron-hero__sub { margin: 26px 0 0; max-width: 46ch; font-size: clamp(16px, 1.2vw, 19px); line-height: 1.6; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+.iron-hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.iron-hero__spec { list-style: none; padding: 0; margin: 34px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1.5px solid var(--fg); }
+.iron-hero__spec li { display: flex; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.iron-hero__spec li:nth-child(odd) { border-right: 1px solid var(--line); padding-right: 12px; }
+.iron-hero__spec li:nth-child(even) { padding-left: 12px; }
+.iron-hero__spec span { font-family: var(--iron-mono); font-size: 11px; color: var(--accent); }
+.iron-in { animation: ironIn .9s var(--ease) both; animation-delay: var(--d, 0s); }
+@keyframes ironIn { from { opacity: 0; transform: translateY(18px); } }
+.reduce-motion .iron-in { animation: none; }
+
+/* чертёж ворот */
+.iron-gate { --iron-open: 0; position: relative; min-width: 0; padding: clamp(16px, 2vw, 28px); background: color-mix(in srgb, var(--surface) 80%, transparent); border: 1.5px solid var(--fg); box-shadow: 10px 10px 0 color-mix(in srgb, var(--fg) 10%, transparent); }
+.iron-gate::before, .iron-gate::after { content: ''; position: absolute; width: 14px; height: 14px; border: 1.5px solid var(--accent); }
+.iron-gate::before { top: -8px; left: -8px; border-right: 0; border-bottom: 0; }
+.iron-gate::after { bottom: -8px; right: -8px; border-left: 0; border-top: 0; }
+.iron-gate__svg { display: block; width: 100%; height: auto; overflow: visible; fill: none; stroke: var(--fg); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.iron-draw { stroke-dasharray: 1; stroke-dashoffset: 0; animation: ironDraw 1.6s var(--ease) both; animation-delay: calc(.2s + var(--i, 0) * .05s); }
+.iron-draw--thin { stroke-width: 1.4; }
+.iron-draw--bar { stroke: color-mix(in srgb, var(--fg) 88%, var(--accent)); }
+@keyframes ironDraw { from { stroke-dashoffset: 1; } }
+.reduce-motion .iron-draw { animation: none; }
+.iron-post { fill: var(--surface); }
+.iron-dash { stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: 6 6; opacity: .6; }
+/* створка уезжает влево за столб, вдоль забора: всё, что вышло за лист чертежа, обрезано */
+.iron-gate__leaf { transform: translateX(calc(var(--iron-open) * -330px)); transition: transform .6s cubic-bezier(.2, .8, .2, 1); }
+.iron-gate__svg { clip-path: inset(-20px -30px -20px 0); }
+.iron-dim path { stroke: var(--accent); stroke-width: 1; }
+.iron-dim text { font-family: var(--iron-mono); font-size: 11px; fill: var(--accent); stroke: none; text-anchor: middle; }
+.iron-gate__cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; margin: 18px 0 0; padding-top: 12px; border-top: 1px solid var(--line); font-family: var(--iron-mono); font-size: 11.5px; letter-spacing: .04em; color: var(--muted); text-transform: uppercase; }
+.iron-gate__hint { color: var(--accent); }
+@media (max-width: 960px) {
+  .iron-hero__inner { grid-template-columns: 1fr; }
+  .iron-hero { min-height: 0; }
+}
+
+/* сводка */
+.tpl-iron .s-answer { padding-block: clamp(48px, 6vw, 90px); }
+.tpl-iron .s-answer__text { max-width: 68ch; padding: 22px 26px; font-size: clamp(16px, 1.3vw, 20px); line-height: 1.6; background: var(--surface); border-left: 4px solid var(--accent); }
+
+/* бегущая строка */
+.tpl-iron .s-marquee { padding-block: 16px; background: var(--fg); color: var(--bg); }
+.tpl-iron .s-marquee .marquee__item { font-family: var(--font-display); font-weight: 800; font-size: clamp(20px, 2.2vw, 32px); letter-spacing: -.02em; }
+.tpl-iron .s-marquee .marquee__sep { color: var(--accent); opacity: 1; }
+
+/* о компании */
+.tpl-iron .s-about__body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(26px, 4vw, 70px); margin-top: 36px; align-items: start; }
+.tpl-iron .s-about__text { font-size: clamp(16px, 1.25vw, 20px); line-height: 1.7; }
+.tpl-iron .s-about__media { margin: 0; aspect-ratio: 4 / 3; border: 1.5px solid var(--fg); overflow: hidden; }
+
+/* каталог */
+.iron-cat { list-style: none; padding: 0; margin: 44px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); border-top: 1.5px solid var(--fg); border-left: 1.5px solid var(--fg); }
+.iron-card { display: grid; grid-template-rows: auto 1fr auto; background: var(--surface); border-right: 1.5px solid var(--fg); border-bottom: 1.5px solid var(--fg); transition: background .3s; }
+.iron-card:hover { background: #fff; }
+.iron-card__sample { position: relative; padding: 26px 22px 34px; border-bottom: 1px dashed var(--line); background-image: linear-gradient(var(--iron-grid) 1px, transparent 1px), linear-gradient(90deg, var(--iron-grid) 1px, transparent 1px); background-size: 12px 12px; }
+.iron-sample { display: block; width: 100%; height: auto; fill: none; stroke: var(--fg); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; transition: stroke .3s; }
+.iron-sample__post { stroke-width: 4; }
+.iron-card:hover .iron-sample { stroke: var(--accent); }
+.iron-card__code { position: absolute; right: 10px; bottom: 8px; font-family: var(--iron-mono); font-size: 10.5px; color: var(--muted); }
+.iron-card__body { padding: 20px 22px 8px; }
+.iron-card__body h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(19px, 1.5vw, 23px); letter-spacing: -.02em; }
+.iron-card__body p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; font-size: 14.5px; }
+.iron-card__foot { display: flex; justify-content: space-between; align-items: end; gap: 10px; padding: 14px 22px 20px; }
+.iron-card__foot b { font-family: var(--iron-mono); font-size: 15px; color: var(--fg); white-space: nowrap; }
+.iron-card__tag { font-family: var(--iron-mono); font-size: 11px; text-transform: uppercase; padding: 3px 7px; background: var(--accent); color: #fff; }
+
+/* калькулятор */
+.iron-calc { margin-top: 40px; background: var(--fg); color: var(--bg); padding: clamp(22px, 3vw, 40px); }
+.iron-calc__head { display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; }
+.iron-calc__no { font-family: var(--iron-mono); font-size: 11px; color: var(--accent); border: 1px solid var(--accent); padding: 2px 6px; }
+.iron-calc__head h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(24px, 2.4vw, 36px); letter-spacing: -.02em; }
+.iron-calc__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 3vw, 48px); margin-top: 26px; }
+.iron-calc__models { border: 0; padding: 0; margin: 0; display: grid; gap: 6px; min-width: 0; }
+.iron-calc__models legend { font-family: var(--iron-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: color-mix(in srgb, var(--bg) 60%, transparent); margin-bottom: 8px; }
+.iron-calc__models button { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; text-align: left; padding: 12px 14px; font: inherit; color: var(--bg); background: transparent; border: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); cursor: pointer; transition: border-color .2s, background .2s; }
+.iron-calc__models button small { font-family: var(--iron-mono); font-size: 12px; white-space: nowrap; color: color-mix(in srgb, var(--bg) 65%, transparent); }
+.iron-calc__models button:hover { border-color: var(--bg); }
+.iron-calc__models button.is-on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.iron-calc__models button.is-on small { color: #fff; }
+.iron-calc__right { display: grid; gap: 18px; align-content: start; min-width: 0; }
+.iron-calc__len { display: grid; gap: 10px; font-size: 15px; }
+.iron-calc__len b { font-family: var(--iron-mono); color: var(--accent); }
+.iron-calc__len input { width: 100%; accent-color: var(--accent); }
+.iron-calc__scale { display: flex; justify-content: space-between; font-family: var(--iron-mono); font-size: 10.5px; color: color-mix(in srgb, var(--bg) 55%, transparent); }
+.iron-calc__scale i { font-style: normal; }
+.iron-calc__auto { display: flex; gap: 10px; align-items: center; font-size: 15px; cursor: pointer; }
+.iron-calc__auto input { width: 18px; height: 18px; accent-color: var(--accent); }
+.iron-calc__auto small { font-family: var(--iron-mono); color: color-mix(in srgb, var(--bg) 60%, transparent); }
+.iron-calc__total { margin: 0; display: grid; gap: 4px; padding: 18px 0; border-top: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); border-bottom: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); }
+.iron-calc__total small { font-family: var(--iron-mono); font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: color-mix(in srgb, var(--bg) 60%, transparent); }
+.iron-calc__total b { font-family: var(--font-display); font-weight: 800; font-size: clamp(32px, 3.6vw, 56px); letter-spacing: -.03em; }
+.iron-calc__total b span { font-size: .4em; color: var(--accent); }
+.iron-calc__note { margin: 0; font-size: 13.5px; line-height: 1.55; color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.iron-calc .iron-btn { justify-self: start; }
+.iron-calc .iron-btn:hover { background: var(--bg); color: var(--fg); border-color: var(--bg); }
+@media (max-width: 860px) { .iron-calc__grid { grid-template-columns: 1fr; } }
+
+/* этапы — размерная цепочка */
+.iron-chain { list-style: none; padding: 0; margin: 50px 0 0; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); }
+.iron-chain li { padding-right: 18px; }
+.iron-chain__dim { position: relative; display: block; height: 30px; margin-bottom: 18px; }
+.iron-chain__dim i { position: absolute; left: 0; right: 0; top: 14px; height: 1.5px; background: var(--accent); transform-origin: left; }
+.iron-chain__dim::before, .iron-chain__dim::after { content: ''; position: absolute; top: 4px; width: 1.5px; height: 22px; background: var(--fg); }
+.iron-chain__dim::before { left: 0; }
+.iron-chain__dim::after { right: 0; }
+.iron-chain__dim b { position: absolute; left: 50%; top: -2px; transform: translateX(-50%); padding: 0 6px; background: var(--bg); font-family: var(--iron-mono); font-size: 12px; color: var(--accent); }
+.motion .iron-chain:not(.is-in) .iron-chain__dim i { transform: scaleX(0); }
+.motion .iron-chain .iron-chain__dim i { transition: transform 1s var(--ease); transition-delay: calc(var(--i) * .22s); }
+.iron-chain h3 { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(18px, 1.5vw, 22px); letter-spacing: -.02em; }
+.iron-chain p { margin: 8px 0 0; color: var(--muted); font-size: 14.5px; line-height: 1.55; }
+@media (max-width: 860px) {
+  .iron-chain { grid-template-columns: 1fr; gap: 22px; }
+  .iron-chain li { display: grid; grid-template-columns: 48px minmax(0, 1fr); column-gap: 14px; padding: 0; }
+  .iron-chain__dim { grid-row: span 2; height: 100%; margin: 0; }
+  .iron-chain__dim i { left: 23px; right: auto; top: 0; bottom: 0; width: 1.5px; height: auto; transform-origin: top; }
+  .motion .iron-chain:not(.is-in) .iron-chain__dim i { transform: scaleY(0); }
+  .iron-chain__dim::before, .iron-chain__dim::after { display: none; }
+  .iron-chain__dim b { left: 23px; top: 0; }
+}
+
+/* цифры */
+.iron-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin: 40px 0 0; border-top: 1.5px solid var(--fg); }
+.iron-stats > div { padding: 22px 18px 26px 0; border-bottom: 1px solid var(--line); }
+.iron-stats dt { font-family: var(--iron-mono); font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.iron-stats dd { margin: 10px 0 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(46px, 5.2vw, 82px); letter-spacing: -.04em; line-height: 1; }
+.iron-stats dd small { font-size: .36em; margin-left: .2em; color: var(--accent); letter-spacing: 0; }
+
+/* тарифы (автоматика) */
+.tpl-iron .s-pricing__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 0; margin-top: 40px; border-left: 1.5px solid var(--fg); border-top: 1.5px solid var(--fg); }
+.tpl-iron .s-pricing__item { padding: 26px 24px; background: var(--surface); border-right: 1.5px solid var(--fg); border-bottom: 1.5px solid var(--fg); }
+.tpl-iron .s-pricing__item.is-featured { background: var(--fg); color: var(--bg); }
+.tpl-iron .s-pricing__name { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 21px; }
+.tpl-iron .s-pricing__price { margin: 12px 0 18px; font-family: var(--iron-mono); font-size: clamp(22px, 2vw, 30px); font-weight: 700; color: var(--accent); }
+.tpl-iron .s-pricing__price span { font-size: 13px; color: var(--muted); }
+.tpl-iron .s-pricing__features { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 14.5px; }
+.tpl-iron .s-pricing__features li::before { content: '— '; color: var(--accent); }
+
+/* работы */
+.tpl-iron .s-works__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 18px; margin-top: 40px; }
+.tpl-iron .s-works__item { display: block; background: var(--surface); border: 1.5px solid var(--fg); }
+.tpl-iron .s-works__media { margin: 0; aspect-ratio: 4 / 3; overflow: hidden; border-bottom: 1.5px solid var(--fg); }
+.tpl-iron .s-works__cap { padding: 16px 18px 20px; }
+.tpl-iron .s-works__name { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 20px; letter-spacing: -.02em; }
+.tpl-iron .s-works__meta { margin: 4px 0 0; font-family: var(--iron-mono); font-size: 11.5px; color: var(--accent); text-transform: uppercase; }
+.tpl-iron .s-works__text { margin: 8px 0 0; font-size: 14.5px; color: var(--muted); line-height: 1.55; }
+
+/* отзывы */
+.tpl-iron .s-testimonials__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 18px; margin-top: 40px; }
+.tpl-iron .s-testimonials__item { margin: 0; padding: 24px; background: var(--surface); border: 1.5px solid var(--fg); position: relative; }
+.tpl-iron .s-testimonials__item::before { content: '«'; position: absolute; top: -14px; left: 16px; padding: 0 6px; font-family: var(--font-display); font-weight: 800; font-size: 34px; line-height: 1; color: var(--accent); background: var(--bg); }
+.tpl-iron .s-testimonials__quote { margin: 0; line-height: 1.6; }
+.tpl-iron .s-testimonials__who { display: flex; flex-direction: column; margin-top: 14px; font-size: 14px; }
+.tpl-iron .s-testimonials__who span { font-family: var(--iron-mono); font-size: 11.5px; color: var(--muted); }
+
+/* вопросы */
+.tpl-iron .s-faq__list { margin-top: 36px; border-top: 1.5px solid var(--fg); }
+.tpl-iron .s-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-iron .s-faq__q { display: flex; justify-content: space-between; gap: 18px; padding: 20px 0; cursor: pointer; list-style: none; font-family: var(--font-display); font-weight: 700; font-size: clamp(17px, 1.35vw, 21px); letter-spacing: -.01em; }
+.tpl-iron .s-faq__q::-webkit-details-marker { display: none; }
+.tpl-iron .s-faq__q i { flex: none; width: 26px; height: 26px; border: 1.5px solid var(--fg); position: relative; }
+.tpl-iron .s-faq__q i::before, .tpl-iron .s-faq__q i::after { content: ''; position: absolute; left: 6px; right: 6px; top: 11px; height: 1.5px; background: var(--fg); transition: transform .3s; }
+.tpl-iron .s-faq__q i::after { transform: rotate(90deg); }
+.tpl-iron details[open] .s-faq__q i { background: var(--accent); border-color: var(--accent); }
+.tpl-iron details[open] .s-faq__q i::before, .tpl-iron details[open] .s-faq__q i::after { background: #fff; }
+.tpl-iron details[open] .s-faq__q i::after { transform: rotate(0); }
+.tpl-iron .s-faq__a p { margin: 0 0 20px; max-width: 72ch; color: color-mix(in srgb, var(--fg) 78%, transparent); line-height: 1.65; }
+
+/* контакты */
+.tpl-iron .s-contact__body { display: grid; gap: 26px; justify-items: start; margin-top: 30px; }
+.tpl-iron .s-contact__facts { justify-self: stretch; font-style: normal; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); border-top: 1.5px solid var(--fg); }
+.tpl-iron .s-contact__facts > * { display: grid; gap: 6px; margin: 0; padding: 16px 16px 16px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
+.tpl-iron .s-contact__facts small { font-family: var(--iron-mono); font-size: 11px; text-transform: uppercase; color: var(--accent); }
+
+/* подвал — штамп чертежа */
+.iron-footer { background: var(--fg); color: var(--bg); padding: clamp(50px, 7vw, 100px) var(--pad) 26px; }
+.iron-footer__inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: clamp(28px, 4vw, 70px); align-items: end; }
+.iron-footer__name { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: clamp(54px, 8vw, 130px); letter-spacing: -.05em; line-height: .9; overflow-wrap: anywhere; }
+.iron-footer__tag { margin: 16px 0 0; max-width: 40ch; color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.iron-footer__social { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; }
+.iron-footer__social a:hover { color: var(--accent); }
+.iron-stamp { width: 100%; border-collapse: collapse; font-size: 13px; }
+.iron-stamp th, .iron-stamp td { border: 1.5px solid color-mix(in srgb, var(--bg) 70%, transparent); padding: 9px 12px; text-align: left; vertical-align: top; }
+.iron-stamp th { width: 1%; white-space: nowrap; font-family: var(--iron-mono); font-weight: 400; font-size: 10.5px; text-transform: uppercase; color: var(--accent); }
+.iron-stamp a:hover { color: var(--accent); }
+.iron-footer__bottom { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 36px; padding-bottom: 46px; font-family: var(--iron-mono); font-size: 11.5px; color: color-mix(in srgb, var(--bg) 60%, transparent); }
+@media (max-width: 860px) {
+  .iron-footer__inner, .tpl-iron .s-about__body { grid-template-columns: 1fr; }
+  .iron-stamp th { white-space: normal; }
+  .iron-stamp tr { display: grid; grid-template-columns: 110px minmax(0, 1fr); }
+  .iron-stamp th, .iron-stamp td { display: block; width: auto; border-width: 1px; }
+}

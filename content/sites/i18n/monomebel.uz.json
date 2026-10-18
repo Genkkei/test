@@ -1,0 +1,230 @@
+{
+  "name": "MONO",
+  "tagline": "Minimalizm: qora, oq, beton",
+  "niche": "Minimalistik mebel",
+  "nav": {
+    "cta": {
+      "label": "Sotib olish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Minimalistik mebel do‘koni uchun sayt: monoxrom uslub, parallaksli katta kadrlardagi buyumlar, narxli tayyor to‘plamlar va Telegramga buyurtma.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "MONO — Toshkentda minimalistik mebel",
+    "description": "Beton stol usti bilan stollar, qora metall javonlar, tutqichsiz oq shkaflar. Kvartira uchun tayyor to‘plamlar, Toshkent bo‘ylab 1 kunda yetkazish.",
+    "keywords": [
+      "minimalistik mebel",
+      "beton stol usti bilan stol",
+      "qora javon",
+      "tutqichsiz shkaf",
+      "mebel Toshkent"
+    ],
+    "answer": "MONO — Toshkentdagi minimalistik mebel do‘koni («Samarqand Darvoza» SM, 3-qavat), har kuni 10:00 dan 22:00 gacha ochiq. Beton stol usti bilan stol 4 200 000 so‘mdan, qora metall javon 2 600 000 so‘mdan, studiya uchun to‘plam 14 900 000 so‘mdan. Toshkent bo‘ylab yetkazish — ertasi kuni."
+  },
+  "business": {
+    "legalName": "«Mono Mebel» MChJ",
+    "street": "Chilonzor ko‘chasi, 2, «Samarqand Darvoza» SM, 3-qavat",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kamroq buyum. Ko‘proq havo.",
+      "eyebrow": "MONO · ortiqchasiz mebel",
+      "subtitle": "Qora metall, oq fasadlar, beton va eman. Bir-biriga va har qanday kvartiraga mos buyumlar.",
+      "words": [
+        "qora",
+        "oq",
+        "beton",
+        "eman"
+      ],
+      "cta": {
+        "label": "Sotib olish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Buyumlar",
+        "href": "#items"
+      },
+      "image": ""
+    },
+    {
+      "id": "items",
+      "type": "works",
+      "label": "Buyumlar",
+      "title": "Hammasi tayanadigan beshta buyum",
+      "items": [
+        {
+          "title": "SLAB stoli",
+          "category": "",
+          "year": "",
+          "text": "Qora po‘lat oyoqlardagi 180 × 90 sm arxitektura betoni stol usti. Dog‘ga qarshi singdirilgan. 4 200 000 so‘m, mavjud.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "GRID javoni",
+          "category": "",
+          "year": "",
+          "text": "Qora kukun bo‘yoqli metall va eman javonlar, 80 sm modullar bilan istalgan kenglikda yig‘iladi. 2 600 000 so‘mdan.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "WHITE shkafi",
+          "category": "",
+          "year": "",
+          "text": "Tutqichsiz oq mat fasadlar, bosib ochiladi. Balandligi 280 sm gacha, tayyorlash 12 kun. Pogon metri 3 900 000 so‘mdan.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "FRAME karavoti",
+          "category": "",
+          "year": "",
+          "text": "Qora qirrali eman yaxlit yog‘ochidan past karavot, 160 × 200 sm. 5 600 000 so‘m, mavjud.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "BLOCK divani",
+          "category": "",
+          "year": "",
+          "text": "Kulrang bukledagi uch kubli modul divan — xohlagancha joylashtiriladi. 7 800 000 so‘mdan.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "marquee",
+      "type": "marquee",
+      "label": "",
+      "title": "Materiallar",
+      "items": [
+        "Beton",
+        "Qora metall",
+        "Oq mat",
+        "Eman",
+        "Bukle",
+        "Tutqichsiz"
+      ]
+    },
+    {
+      "id": "sets",
+      "type": "pricing",
+      "label": "To‘plamlar",
+      "title": "Butun kvartira",
+      "items": [
+        {
+          "name": "Studiya",
+          "price": "14 900 000 so‘m",
+          "period": "to‘plam",
+          "features": [
+            "FRAME karavoti",
+            "SLAB stoli va ikki stul",
+            "GRID javoni 160 sm",
+            "Yetkazish va yig‘ish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Ikki xonali",
+          "price": "24 500 000 so‘m",
+          "period": "to‘plam",
+          "features": [
+            "«Studiya»dagi hammasi",
+            "BLOCK divani",
+            "WHITE shkafi 2 m",
+            "Alohida narxlarga 8% chegirma"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ofis",
+          "price": "3 100 000 so‘mdan",
+          "period": "ish joyi uchun",
+          "features": [
+            "SLAB stoli 140 sm",
+            "G‘ildirakli tumba",
+            "Kabel kanali"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar MONO haqida",
+      "items": [
+        {
+          "quote": "«Ikki xonali»ni to‘liq oldik: ertalab olib kelishdi, kechqurun beton stolda ovqatlanayotgandik.",
+          "author": "Aziz",
+          "role": "Yakkasaroy"
+        },
+        {
+          "quote": "Tutqichsiz shkaf butun devorni egalladi va devorga o‘xshaydi. Shuni xohlagandim.",
+          "author": "Sevara",
+          "role": "Sergeli"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Beton stol usti yorilmaydimi?",
+          "a": "Yo‘q, bu 3 sm qalinlikdagi himoya singdirilgan armaturali arxitektura betoni; kafolat 2 yil."
+        },
+        {
+          "q": "Yetkazish qanchalik tez?",
+          "a": "Mavjud buyumlar — ertasi kuni, o‘lchamli shkaflar — 12 kundan keyin."
+        },
+        {
+          "q": "Qaytarsa bo‘ladimi?",
+          "a": "Mavjud buyumlar — 14 kun ichida zavod qadog‘ida."
+        },
+        {
+          "q": "Yig‘ish pullikmi?",
+          "a": "To‘plamlarni yig‘ish bepul, alohida buyumlar — 150 000 so‘m."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "MONO shourumi",
+      "text": "«Samarqand Darvoza» SM, 3-qavat. Har kuni 10:00 dan 22:00 gacha.",
+      "cta": {
+        "label": "Sotib olish",
+        "href": "#order"
+      }
+    }
+  ]
+}

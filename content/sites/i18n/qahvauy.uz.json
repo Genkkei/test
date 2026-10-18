@@ -1,0 +1,228 @@
+{
+  "name": "Qahva Uyi",
+  "tagline": "Chorsu yonidagi sharqona qahvaxona: qumda turkcha qahva, piyolada choy va shirinliklar",
+  "niche": "Sharqona qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Sharqona qahvaxona, choyxona yoki qandolatxona uchun sayt: naqsh, rasmli menyu, ravoqlar va otkritka-sharhlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Qahva Uyi — Chorsu yonida turkcha qahva va choy",
+    "description": "Issiq qumda kardamonli turkcha qahva, piyolada ko‘k choy, paxlava va holva. Chorsu bozori yonidagi qahvaxona, har kuni 8:00–23:00.",
+    "keywords": [
+      "Toshkent turkcha qahva",
+      "qumda qahva",
+      "Chorsu qahvaxona",
+      "sharqona qahvaxona",
+      "Toshkent paxlava"
+    ],
+    "answer": "Qahva Uyi — Chorsu bozori yonidagi Navoiy ko‘chasi, 2 da joylashgan sharqona qahvaxona, har kuni 8:00 dan 23:00 gacha ochiq. Qumda turkcha qahva — 26 000 so‘m, kardamonli — 29 000 so‘m, choynak ko‘k choy — 18 000 so‘m, paxlava — porsiyasi 24 000 so‘m."
+  },
+  "business": {
+    "legalName": "«Qahva Uyi» YaTT",
+    "street": "Navoiy ko‘chasi, 2, Chorsu bozori yonida",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Eski shahar",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qumda damlangan qahva",
+      "eyebrow": "Qahvaxona · Chorsu bozori yonida",
+      "subtitle": "Mis jazva, qizigan qum va bir chimdim kardamon. Qahva uch marta ko‘tarilguncha sizga suv va bir bo‘lak holva keltirishadi.",
+      "words": [
+        "kardamonli",
+        "tuzli",
+        "asalli",
+        "o‘zbekcha"
+      ],
+      "cta": {
+        "label": "Olib ketishga buyurtma",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Qumda qahva",
+        "Qo‘lda tayyorlangan paxlava",
+        "Piyolada choy",
+        "Hovlida ayvon"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Uy haqida",
+      "title": "Eski bozor yonidagi qahva uyi",
+      "text": "Biz qahvani karvonsaroylarda qanday qaynatishgan bo‘lsa, shunday qaynatamiz: issiq qumda mis jazvada, sekin, ko‘pik bilan. Zal — o‘ymakor ustunli va hovlisida ayvoni bor sobiq misgar ustaxonasi. Shirinliklarni qo‘shnimiz tayyorlaydi — paxlava, holva va parvarda.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Qahva, choy, shirinliklar",
+      "groups": [
+        {
+          "name": "Qumda qahva",
+          "items": [
+            {
+              "name": "Klassik",
+              "text": "Shakarsiz yoki shirin — baristaga ayting",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Kardamonli",
+              "text": "",
+              "price": "29 000 so‘m"
+            },
+            {
+              "name": "Asal va dolchinli",
+              "text": "",
+              "price": "31 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Choy",
+          "items": [
+            {
+              "name": "Ko‘k choy",
+              "text": "Ikki kishilik choynak",
+              "price": "18 000 so‘m"
+            },
+            {
+              "name": "Kakkuti choy",
+              "text": "Bo‘stonliqning tog‘ kakkuti",
+              "price": "22 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Shirinliklar",
+          "items": [
+            {
+              "name": "Paxlava",
+              "text": "Yong‘oq va asal, porsiya",
+              "price": "24 000 so‘m"
+            },
+            {
+              "name": "Kunjut holvasi",
+              "text": "",
+              "price": "16 000 so‘m"
+            },
+            {
+              "name": "Parvarda",
+              "text": "Cho‘zilgan karamel",
+              "price": "12 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Hovli",
+      "title": "Qahvaxonaga aylangan ustaxona",
+      "items": [
+        {
+          "caption": "Qum va mis jazvalar",
+          "image": ""
+        },
+        {
+          "caption": "Hovlidagi ayvon",
+          "image": ""
+        },
+        {
+          "caption": "Laganda paxlava",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlardan otkritkalar",
+      "items": [
+        {
+          "quote": "Bozordan keyin bir daqiqaga kirdik — ayvonda ikki soat o‘tirdik.",
+          "author": "Anna va Mark",
+          "role": "Yevropadan mehmonlar"
+        },
+        {
+          "quote": "Kardamonli qahva bolalikda bobomnikidagidek.",
+          "author": "Botir Sh.",
+          "role": "doimiy mehmon"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kelishdan oldin",
+      "items": [
+        {
+          "q": "Sizga qanday borish mumkin?",
+          "a": "«Chorsu» metrosi, bozorga chiqish, keyin Navoiy ko‘chasi bo‘ylab ikki daqiqa piyoda."
+        },
+        {
+          "q": "Qumda qahva qancha qaynaydi?",
+          "a": "Taxminan besh daqiqa — ko‘pik bo‘lishi uchun uch marta ko‘tariladi."
+        },
+        {
+          "q": "Shirinliklarni olib ketsa bo‘ladimi?",
+          "a": "Ha, paxlava va holvani qutiga joylaymiz — 250 g dan."
+        },
+        {
+          "q": "Turist guruhlarini qabul qilasizmi?",
+          "a": "Ayvonda 20 kishigacha, bir kun oldin xabar bering."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Manzil",
+      "title": "Bozordan keyin kiring",
+      "text": "Navoiy ko‘chasi, 2, Chorsu bozori yonida. Har kuni 8:00–23:00.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/qahvauyi"
+      }
+    }
+  ]
+}

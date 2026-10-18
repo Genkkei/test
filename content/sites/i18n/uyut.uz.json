@@ -1,0 +1,277 @@
+{
+  "name": "Uyut Home",
+  "tagline": "Iliq uy uchun mebel va to‘qimachilik",
+  "niche": "Mebel va uy to‘qimachiligi",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Mebel do‘koni va uy to‘qimachiligi saloni uchun sayt: o‘lcham va muddatlari bilan kolleksiyalar, matolar palitrasi, tikish narxlari va Telegramga buyurtma formasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Uyut Home — Toshkentda uy uchun mebel va to‘qimachilik",
+    "description": "Iliq ranglardagi divanlar, karavotlar, pledlar va pardalar. Muqimiydagi shourum, Toshkent bo‘ylab 2 kunda yetkazish, o‘lcham bo‘yicha pardalar 7 kundan.",
+    "keywords": [
+      "mebel Toshkent",
+      "divan sotib olish Toshkent",
+      "buyurtma pardalar",
+      "pledlar",
+      "uy to‘qimachiligi",
+      "yumshoq boshli karavot"
+    ],
+    "answer": "Uyut Home — Toshkentdagi mebel va uy to‘qimachiligi do‘koni (Muqimiy ko‘chasi, 7), har kuni 10:00 dan 20:00 gacha ochiq. Divanlar 6 900 000 so‘mdan, karavotlar 4 800 000 so‘mdan, o‘lcham bo‘yicha pardalar 7 kundan. Toshkent bo‘ylab yetkazish — 2 kun, ko‘tarish va yig‘ish kiritilgan."
+  },
+  "business": {
+    "legalName": "«Uyut Home» MChJ",
+    "street": "Muqimiy ko‘chasi, 7",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va viloyat",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qolgingiz keladigan uy",
+      "eyebrow": "Mebel va to‘qimachilik · Toshkent · Muqimiydagi shourum",
+      "subtitle": "Yumshoq divanlar, zig‘ir boshli karavotlar, jun pledlar va o‘lchamingiz bo‘yicha pardalar. Hammasini shourumda ushlab ko‘rish va ikki kunda uyga olish mumkin.",
+      "words": [
+        "mehmonxona",
+        "kechqurun",
+        "noyabr"
+      ],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Kolleksiyalar",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Vaqt o‘tib iliqroq bo‘ladigan buyumlar",
+      "text": "Mebelni ikki yildan keyin almashtirgingiz kelmaydigan qilib tanlaymiz: qoraqayin va qayin karkaslari, cho‘kmaydigan to‘ldirgichlar, chidamli matolar. Pardalar, yopinchiqlar va g‘iloflarni shu binodagi ustaxonamizda tikamiz, shuning uchun divan va parda rangi aynan mos keladi. Shourum dizayneri xonangizni buyumlarimizdan bepul yig‘ib beradi.",
+      "image": ""
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Kolleksiyalar",
+      "title": "Xonalarga yig‘ilgan",
+      "items": [
+        {
+          "title": "«Olma» mehmonxonasi",
+          "category": "Mehmonxona",
+          "year": "mavjud",
+          "text": "Dolchin rangli shenil burchak divan, eman jurnal stoli va jun pled · Divan: 280 × 180 sm · Muddat: 2 kun · Narx: 9 400 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Tong» yotoqxonasi",
+          "category": "Yotoqxona",
+          "year": "buyurtma asosida",
+          "text": "Baland zig‘ir boshli karavot, shumtol tumbalar va blackout pardalar · Karavot: 160 × 200 sm · Muddat: 14 kun · Narx: 7 200 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Bulut» bolalar xonasi",
+          "category": "Bolalar xonasi",
+          "year": "mavjud",
+          "text": "Qayin uycha-karavot, yumshoq puf va bulutli paxta pardalar · Karavot: 90 × 190 sm · Muddat: 3 kun · Narx: 3 900 000 so‘mdan",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Dasturxon» oshxonasi",
+          "category": "Ovqat xonasi",
+          "year": "buyurtma asosida",
+          "text": "Sakkiz kishilik qayrag‘och yig‘ma stol, mato o‘rindiqli stullar va dasturxon · Stol: 180–240 sm · Muddat: 21 kun · Narx: 8 600 000 so‘mdan",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "fabrics",
+      "type": "gallery",
+      "label": "Matolar",
+      "title": "Shourumdagi matolar palitrasi",
+      "items": [
+        {
+          "caption": "«Dolchin» shenil",
+          "image": ""
+        },
+        {
+          "caption": "«Suli» zig‘ir",
+          "image": ""
+        },
+        {
+          "caption": "Sutrang bukle",
+          "image": ""
+        },
+        {
+          "caption": "«Zaytun» velyur",
+          "image": ""
+        },
+        {
+          "caption": "Pledlar uchun jun",
+          "image": ""
+        },
+        {
+          "caption": "Pardalar uchun paxta",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tikish",
+      "title": "O‘lchamingiz bo‘yicha tikamiz",
+      "items": [
+        {
+          "name": "Pardalar",
+          "price": "180 000 so‘mdan",
+          "period": "pogon metr uchun",
+          "features": [
+            "Uyda o‘lchash bepul",
+            "Shourum matosi yoki o‘zingizniki",
+            "Tikish va tasma kiritilgan",
+            "7 kunda tayyor"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Kalit topshiriladigan xona",
+          "price": "2 400 000 so‘mdan",
+          "period": "xona uchun",
+          "features": [
+            "Pardalar, yopinchiq va yostiqlar bir rangda",
+            "Dizayner bilan tanlash",
+            "Karniz o‘rnatish",
+            "10 kunda tayyor"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Mebel g‘iloflari",
+          "price": "900 000 so‘mdan",
+          "period": "divan uchun",
+          "features": [
+            "Yechiladigan, yuvish mumkin",
+            "Divaningizga bichim",
+            "5 kunda tayyor"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "Yetkazishgacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Shourum yoki videoqo‘ng‘iroq",
+          "text": "Matolar va modellarni ko‘rsatamiz, namunalarni bir kunga uyga yuboramiz."
+        },
+        {
+          "title": "O‘lchash va hisob",
+          "text": "Usta bepul keladi, smeta shu kuni."
+        },
+        {
+          "title": "30% oldindan to‘lov",
+          "text": "Qolgani — yetkazish va yig‘ishdan keyin."
+        },
+        {
+          "title": "Yetkazish va yig‘ish",
+          "text": "Olib kelamiz, qavatga ko‘taramiz va yig‘amiz. Qadoqni olib ketamiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar nima deydi",
+      "items": [
+        {
+          "quote": "Pardalar va divan bir xil tusda chiqdi — xuddi namunadagidek. Uchinchi kuni olib kelishdi.",
+          "author": "Malika",
+          "role": "Chilonzor"
+        },
+        {
+          "quote": "Dizayner bir soatda yotoqxonani yig‘ib berdi, hammasini oldik va afsuslanmadik.",
+          "author": "Temur",
+          "role": "Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Eski divanga g‘iloflar — yangidek, bolalar izlari endi oson yuviladi.",
+          "author": "Dilnoza",
+          "role": "Yunusobod"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab 5 000 000 so‘mdan ortiq buyurtmada bepul, aks holda 150 000 so‘m. Viloyatga — hisob bo‘yicha."
+        },
+        {
+          "q": "Divanni boshqa matoda buyurtma qilsa bo‘ladimi?",
+          "a": "Ha, har bir model palitradagi istalgan matoda 14 kunda tikiladi."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, hamkor banklar orqali 6 yoki 12 oyga, boshlang‘ich to‘lovsiz."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Karkas va mexanizmlarga 18 oy, mato va choklarga 6 oy."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Divanlarda o‘tirib ko‘ring",
+      "text": "Muqimiy ko‘chasi, 7 dagi shourum — har kuni 10:00 dan 20:00 gacha. Hovlida avtoturargoh.",
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      }
+    }
+  ]
+}

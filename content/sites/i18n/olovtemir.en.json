@@ -1,0 +1,261 @@
+{
+  "name": "Olov Temir",
+  "tagline": "Hand-forged grills, cauldron stoves and fireplaces",
+  "niche": "Forge: grills, cauldron stoves, fireplaces and barbecue areas",
+  "seo": {
+    "title": "Olov Temir — forged grills and cauldron stoves in Tashkent",
+    "description": "A forge in Sergeli making 4–6 mm steel grills, cauldron stoves, fireplaces and turnkey barbecue areas. Hand forging, heat-proof paint and a 3-year warranty.",
+    "keywords": [
+      "custom grill Tashkent",
+      "cauldron stove",
+      "forged fireplace",
+      "barbecue area"
+    ],
+    "answer": "Olov Temir is a forge in Sergeli: hand-forged grills from 2,800,000 UZS, 12–22 litre cauldron stoves from 3,500,000 UZS, forged fireplaces from 9,000,000 UZS and turnkey barbecue areas from 24,000,000 UZS. 4–6 mm steel, heat-proof paint to 800 °C, 3-year warranty. Phone +998 71 200-04-03."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a forge or grill workshop: live fire on the first screen, a priced product catalogue, the master and crew, and a gallery of work.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Olov Temir sole trader",
+    "street": "27 Yangi Sergeli St, Sergeli",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Fire loves thick steel",
+      "eyebrow": "Olov Temir · forge · Sergeli",
+      "subtitle": "We forge grills, cauldron stoves and fireplaces from 4–6 mm steel. Metal this thick does not warp in the heat and outlasts the dacha it stands in.",
+      "words": [],
+      "cta": {
+        "label": "Order a grill",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Catalogue",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "4–6 mm steel",
+        "Hand forging",
+        "Paint rated to 800 °C",
+        "Cauldron stoves",
+        "Barbecue areas"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The forge",
+      "title": "Every piece goes through the forge",
+      "text": "We started with grills for neighbours in the mahalla and now make forty pieces a month. Legs, handles and grates are hand-forged on the anvil and the body is welded with a continuous seam, so smoke stays in and the coals hold their heat to the last skewer.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "What we forge",
+      "intro": "Prices are for standard sizes. We adapt any piece to your yard, cauldron or alcove.",
+      "items": [
+        {
+          "title": "10-skewer grill",
+          "text": "4 mm steel, forged legs, a log shelf and a rain cover.",
+          "price": "from 2,800,000 UZS",
+          "tag": "7 days"
+        },
+        {
+          "title": "Cauldron stove",
+          "text": "For a 12, 16 or 22 litre cauldron, with a draught door and chimney.",
+          "price": "from 3,500,000 UZS",
+          "tag": "10 days"
+        },
+        {
+          "title": "Grill with a roof",
+          "text": "A metal-sheet roof, worktop and hooks for tools.",
+          "price": "from 7,400,000 UZS",
+          "tag": "2 weeks"
+        },
+        {
+          "title": "Forged fireplace",
+          "text": "A 6 mm steel firebox with a forged screen and log store.",
+          "price": "from 9,000,000 UZS",
+          "tag": "3 weeks"
+        },
+        {
+          "title": "Turnkey barbecue area",
+          "text": "Grill, cauldron stove, sink and worktop in a single unit.",
+          "price": "from 24,000,000 UZS",
+          "tag": "4 weeks"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "From the forge",
+      "items": [
+        {
+          "caption": "Grill with a vine motif",
+          "image": ""
+        },
+        {
+          "caption": "Stove for a 22 litre cauldron",
+          "image": ""
+        },
+        {
+          "caption": "Barbecue area in Kibray",
+          "image": ""
+        },
+        {
+          "caption": "Fireplace with a forged screen",
+          "image": ""
+        },
+        {
+          "caption": "Forging legs on the anvil",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "The smith",
+      "title": "Forged by people who grill themselves",
+      "items": [
+        {
+          "name": "Rustam Akhmedov",
+          "role": "smith and founder",
+          "image": ""
+        },
+        {
+          "name": "Jamshid Karimov",
+          "role": "welder",
+          "image": ""
+        },
+        {
+          "name": "Otabek Yuldashev",
+          "role": "installation and finishing",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "How to order",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What owners say",
+      "items": [
+        {
+          "quote": "The 22 litre cauldron stove is in its third year: the paint holds and the door has not warped.",
+          "author": "Shukhrat",
+          "role": "dacha in Bostanlyk"
+        },
+        {
+          "quote": "They built a barbecue area with a sink to fit our yard and delivered and set it up in a day.",
+          "author": "Dilnoza",
+          "role": "house in Kibray"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Why 4–6 mm steel and not 2 mm?",
+          "a": "Thin metal burns through in two or three seasons and warps in the heat. Thick steel keeps its shape and heat, so coals burn more evenly."
+        },
+        {
+          "q": "Can you fit my cauldron?",
+          "a": "Yes. Bring the cauldron or give us its diameter and we will make the ring to fit it exactly."
+        },
+        {
+          "q": "How long does the paint last?",
+          "a": "Heat-proof paint withstands up to 800 °C. After 3–4 years a spray can refresh it; we sell one with each piece."
+        },
+        {
+          "q": "Do you deliver outside the city?",
+          "a": "Delivery in Tashkent is free, outside the city on quote. We carry in and install heavy stoves ourselves."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come to the forge",
+      "text": "27 Yangi Sergeli St, Sergeli. Mon–Sat 8:00–18:00 — come and see finished grills and the forge.",
+      "cta": {
+        "label": "Call the smith",
+        "href": "tel:+998712000403"
+      }
+    }
+  ]
+}

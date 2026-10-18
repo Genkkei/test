@@ -1,0 +1,288 @@
+{
+  "name": "Tun Kofe",
+  "tagline": "Coffee and desserts for the sleepless",
+  "niche": "Late-night coffee shop open till 3 am",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a late-night coffee shop, bar or café that comes alive after sunset. A neon sign, a ticket-machine menu and opening hours right on the first screen.",
+    "features": []
+  },
+  "seo": {
+    "title": "Tun Kofe — late-night coffee shop in Tashkent till 3 am",
+    "description": "Coffee, raf, matcha and desserts from 6 pm to 3 am at 21 Shevchenko St. A quiet room for night work, sockets everywhere, coffee and cake delivery across Mirabad.",
+    "keywords": [
+      "late night coffee Tashkent",
+      "coffee till 3 am",
+      "late-night desserts",
+      "where to work at night Tashkent",
+      "Mirabad coffee shop"
+    ],
+    "answer": "Tun Kofe is a late-night coffee shop at 21 Taras Shevchenko St in Tashkent, open daily from 6 pm to 3 am. A cappuccino costs 28,000 UZS, a raf 34,000 UZS and a cheesecake 36,000 UZS. There is a quiet room with sockets and delivery across Mirabad until 2:30 am."
+  },
+  "business": {
+    "legalName": "Tun Kofe LLC",
+    "street": "21 Taras Shevchenko St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Tun Kofe",
+      "eyebrow": "Night café · Shevchenko 21 · 6 pm–3 am",
+      "subtitle": "We open when everyone else closes. Fresh espresso, warm desserts and quiet for anyone writing a thesis, editing a video or simply not sleepy.",
+      "words": [
+        "espresso",
+        "raf",
+        "cheesecake"
+      ],
+      "cta": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Order home",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Espresso",
+        "Lavender raf",
+        "Matcha",
+        "Cheesecake",
+        "Quiet room",
+        "Till 3 am"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "The night menu",
+      "groups": [
+        {
+          "name": "Coffee",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Double, Brazilian roast",
+              "price": "18,000 UZS"
+            },
+            {
+              "name": "Cappuccino",
+              "text": "300 ml, oat milk on request",
+              "price": "28,000 UZS"
+            },
+            {
+              "name": "Lavender raf",
+              "text": "Cream, vanilla, lavender syrup",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Night decaf",
+              "text": "Decaf for those who do want to sleep",
+              "price": "26,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Not coffee",
+          "items": [
+            {
+              "name": "Matcha latte",
+              "text": "Ceremonial matcha, milk",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Cocoa with marshmallow",
+              "text": "Belgian chocolate",
+              "price": "29,000 UZS"
+            },
+            {
+              "name": "Sea buckthorn tea",
+              "text": "A pot for two",
+              "price": "30,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Desserts",
+          "items": [
+            {
+              "name": "New York cheesecake",
+              "text": "Classic with berry sauce",
+              "price": "36,000 UZS"
+            },
+            {
+              "name": "Warm brownie",
+              "text": "With a scoop of ice cream",
+              "price": "33,000 UZS"
+            },
+            {
+              "name": "Almond croissant",
+              "text": "Baked at 5:30 pm, ready for opening",
+              "price": "27,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A café for night owls",
+      "text": "We used to work nights ourselves and could never find a place to sit with a laptop after ten. So Tun Kofe opens at six in the evening: soft light, a socket at every table, fast Wi-Fi and music that does not get in the way of thinking.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Delivery",
+      "title": "Coffee home at night",
+      "items": [
+        {
+          "title": "Order",
+          "text": "Tap “Order” and write what to bring."
+        },
+        {
+          "title": "Call",
+          "text": "The barista calls back within five minutes to confirm the address."
+        },
+        {
+          "title": "Thermal box",
+          "text": "Drinks travel in a thermal box so the foam holds."
+        },
+        {
+          "title": "At your door",
+          "text": "About 30 minutes across Mirabad; last order at 2:30 am."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "The night in numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "9",
+          "suffix": "h",
+          "label": "open every night"
+        },
+        {
+          "value": "42",
+          "suffix": "",
+          "label": "seats with sockets"
+        },
+        {
+          "value": "30",
+          "suffix": "min",
+          "label": "delivery in the district"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "desserts in the case"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The room",
+      "title": "Light that does not get in the way",
+      "items": [
+        {
+          "caption": "The quiet room",
+          "image": ""
+        },
+        {
+          "caption": "Lavender raf",
+          "image": ""
+        },
+        {
+          "caption": "The dessert case",
+          "image": ""
+        },
+        {
+          "caption": "The sign at 2 am",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "Who is here at night",
+      "items": [
+        {
+          "quote": "I finished my thesis in four nights at the corner table. Lavender raf now smells like graduation.",
+          "author": "Malika",
+          "role": "student"
+        },
+        {
+          "quote": "After a night shift at the hospital it is the only place open with decent coffee.",
+          "author": "Otabek",
+          "role": "doctor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before you come",
+      "items": [
+        {
+          "q": "Are you really open till three?",
+          "a": "Yes, every day from 6 pm to 3 am, no days off. Last order at the counter is 2:45."
+        },
+        {
+          "q": "Can I stay all night with a laptop?",
+          "a": "Yes. Every table has a socket, Wi-Fi is 200 Mbit/s and there is no time limit."
+        },
+        {
+          "q": "Where do you deliver?",
+          "a": "Across Mirabad and the neighbouring parts of Yakkasaray. Minimum order 60,000 UZS."
+        },
+        {
+          "q": "Is there anything caffeine-free?",
+          "a": "Yes: decaf, cocoa, sea buckthorn tea and herbal blends."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Can’t sleep?",
+      "text": "21 Shevchenko St, entrance from the courtyard. Every day 6 pm to 3 am. Order coffee home and we bring it in half an hour.",
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      }
+    }
+  ]
+}

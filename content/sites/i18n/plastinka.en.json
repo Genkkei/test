@@ -1,0 +1,258 @@
+{
+  "name": "Plastinka",
+  "tagline": "Coffee that plays at 33 rpm",
+  "niche": "Coffee shop with vinyl nights",
+  "nav": {
+    "cta": {
+      "label": "Book a table",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a music café, DJ bar or record shop. A spinning record on the first screen, a menu laid out like a tracklist and hosts shown as album covers.",
+    "features": []
+  },
+  "seo": {
+    "title": "Plastinka — coffee shop with vinyl nights in Tashkent",
+    "description": "Coffee, desserts and fifteen hundred records at 30 Navoi St. Vinyl nights with guest collectors on Fridays and Saturdays, and you can bring your own record.",
+    "keywords": [
+      "vinyl café Tashkent",
+      "vinyl nights",
+      "coffee on Navoi Street",
+      "records Tashkent",
+      "music café"
+    ],
+    "answer": "Plastinka is a coffee shop at 30 Alisher Navoi St in Tashkent with a collection of 1,500 vinyl records. Open 11 am to midnight and till 1 am on Fridays and Saturdays. A cappuccino costs 27,000 UZS; entry to a vinyl night is 50,000 UZS with a drink."
+  },
+  "business": {
+    "legalName": "Plastinka LLC",
+    "street": "30 Alisher Navoi St, Shaykhantakhur",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Drop the needle",
+      "eyebrow": "Café and vinyl · Navoi 30",
+      "subtitle": "Fifteen hundred records, from Soviet jazz to 1970s Uzbek pop. Pick a sleeve from the shelf and the barista will put it on while your coffee brews.",
+      "words": [
+        "jazz",
+        "soul",
+        "estrada",
+        "funk",
+        "classical"
+      ],
+      "cta": {
+        "label": "Drinks tracklist",
+        "href": "#drinks"
+      },
+      "ctaSecondary": {
+        "label": "Book a table",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Side A",
+        "Coffee",
+        "Vinyl nights",
+        "1,500 records",
+        "Side B",
+        "Desserts"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Story",
+      "title": "A collection that began with one turntable",
+      "text": "Plastinka’s founder spent thirty years collecting vinyl at the flea markets of Tashkent and Bukhara. When the records no longer fit at home, he opened a café in an old house on Navoi Street. Only vinyl plays here: no playlists, just the needle, the crackle and side B.",
+      "image": ""
+    },
+    {
+      "id": "drinks",
+      "type": "services",
+      "label": "Side A",
+      "title": "The drinks tracklist",
+      "intro": "",
+      "items": [
+        {
+          "title": "Espresso “Solo”",
+          "text": "Short, dense, unaccompanied.",
+          "price": "20,000 UZS",
+          "tag": "30 ml"
+        },
+        {
+          "title": "Cappuccino",
+          "text": "The classic that always plays first.",
+          "price": "27,000 UZS",
+          "tag": "300 ml"
+        },
+        {
+          "title": "Raf “B-side”",
+          "text": "Cream, salted caramel, a pinch of cinnamon.",
+          "price": "35,000 UZS",
+          "tag": "350 ml"
+        },
+        {
+          "title": "Jazz filter",
+          "text": "Ethiopia, pour-over, barista improvisation.",
+          "price": "32,000 UZS",
+          "tag": "250 ml"
+        },
+        {
+          "title": "Cocoa “Lullaby”",
+          "text": "Dark chocolate and vanilla, for the last track.",
+          "price": "28,000 UZS",
+          "tag": "300 ml"
+        },
+        {
+          "title": "Cheesecake “Side B”",
+          "text": "Basque-style, burnt just right.",
+          "price": "36,000 UZS",
+          "tag": "dessert"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "1500",
+          "suffix": "",
+          "label": "records on the shelves"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "turntables"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "vinyl nights a week"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "seats inside"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Nights",
+      "title": "Vinyl nights",
+      "items": [
+        {
+          "name": "Friday: jazz",
+          "price": "50,000 UZS",
+          "period": "entry",
+          "features": [
+            "Drink included",
+            "A collector plays rare records"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Saturday: bring your own",
+          "price": "50,000 UZS",
+          "period": "entry",
+          "features": [
+            "We play your record",
+            "Vinyl swap and sale",
+            "Drink included"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Private night",
+          "price": "from 2,500,000 UZS",
+          "period": "up to 40 guests",
+          "features": [
+            "Your playlist on vinyl",
+            "Coffee bar and desserts"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Hosts",
+      "title": "Who spins the records",
+      "items": [
+        {
+          "name": "Rahim aka",
+          "role": "founder, jazz and estrada",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "soul and funk",
+          "image": ""
+        },
+        {
+          "name": "Davron",
+          "role": "barista, classical",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before the night",
+      "items": [
+        {
+          "q": "Can I bring my own record?",
+          "a": "Yes, on Saturdays. We check its condition and add it to the queue."
+        },
+        {
+          "q": "Are the records for sale?",
+          "a": "The main collection is not, but the “for sale” shelf always has 50–100 sleeves."
+        },
+        {
+          "q": "Do I need to book for a night?",
+          "a": "Best to: there are 40 seats, and on Fridays they are gone by 8 pm."
+        },
+        {
+          "q": "Does vinyl play in the daytime too?",
+          "a": "Yes, always. It is quieter by day and you can pick a record from the shelf yourself."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "The needle is in the groove",
+      "text": "30 Navoi St, courtyard entrance. 11 am to midnight, till 1 am on Fridays and Saturdays. Book a table for a vinyl night.",
+      "cta": {
+        "label": "Book a table",
+        "href": "#order"
+      }
+    }
+  ]
+}

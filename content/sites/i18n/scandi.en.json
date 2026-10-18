@@ -1,0 +1,299 @@
+{
+  "name": "Scandi Home",
+  "tagline": "Light furniture and things for the home in a Scandinavian spirit",
+  "niche": "Scandinavian furniture and home accessories store",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a Scandinavian-style furniture and homeware store: objects on coloured plinths with a switchable palette, a catalogue filtered by category, an interiors mosaic and soft pastel tiles.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Scandi Home — Scandinavian furniture in Tashkent",
+    "description": "Chairs, armchairs, sofas, tables and lamps in a light Scandinavian style. Showroom in Mirabad, delivery across Uzbekistan, assembly on the day of delivery.",
+    "keywords": [
+      "Scandinavian furniture Tashkent",
+      "Scandi style furniture",
+      "buy armchair Tashkent",
+      "designer chairs",
+      "home lamps",
+      "oak furniture"
+    ],
+    "answer": "Scandi Home is a Scandinavian furniture and homeware store in Tashkent with a showroom at 14 Mirabad St, open daily 10:00–20:00. An oak chair starts at 1,450,000 UZS, an armchair at 4,900,000 UZS, a sofa at 11,800,000 UZS. Delivery in Tashkent takes 1–2 days, across Uzbekistan up to 7 days, assembly is free."
+  },
+  "business": {
+    "legalName": "Scandi Home LLC",
+    "street": "14 Mirabad St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A home that feels light",
+      "eyebrow": "Scandinavian furniture · Tashkent",
+      "subtitle": "Oak and ash furniture, soft fabrics and light that never glares. Everything you see here can be touched in our Mirabad showroom.",
+      "cta": {
+        "label": "Browse the catalogue",
+        "href": "#catalog"
+      },
+      "ctaSecondary": {
+        "label": "How we deliver",
+        "href": "#delivery"
+      },
+      "image": "",
+      "words": [
+        "oak",
+        "linen",
+        "wool",
+        "light"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Chairs",
+        "Armchairs",
+        "Sofas",
+        "Tables",
+        "Shelving",
+        "Lamps",
+        "Textiles",
+        "Vases"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Fewer things, more air",
+      "text": "We gather furniture built to last: solid oak and ash, removable linen and wool covers, simple shapes with nothing extra. Some pieces we import, others we make to our own drawings in a workshop near Tashkent — that keeps the price below imports.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "Pieces you keep coming back to",
+      "intro": "Prices are for the piece in the base fabric or finish. Other colours and sizes in the showroom or by phone.",
+      "items": [
+        {
+          "title": "Ask chair",
+          "text": "Solid oak, bent plywood seat, seat height 45 cm.",
+          "price": "1,450,000 UZS",
+          "tag": "Chairs"
+        },
+        {
+          "title": "Hygge armchair",
+          "text": "Deep seat, bouclé, ash legs. The cover comes off and washes.",
+          "price": "4,900,000 UZS",
+          "tag": "Armchairs"
+        },
+        {
+          "title": "Fjord sofa",
+          "text": "Three-seater, 220 cm, linen or matting weave, foam and feather fill.",
+          "price": "11,800,000 UZS",
+          "tag": "Sofas"
+        },
+        {
+          "title": "Lund table",
+          "text": "Round oak dining table, Ø 120 cm, seats 4–6.",
+          "price": "6,700,000 UZS",
+          "tag": "Tables"
+        },
+        {
+          "title": "Lys floor lamp",
+          "text": "Rice-paper shade, warm 2700 K light, 150 cm tall.",
+          "price": "1,900,000 UZS",
+          "tag": "Lamps"
+        },
+        {
+          "title": "Bok shelving",
+          "text": "Five ash shelves, 90 cm wide, wall-fixed.",
+          "price": "3,600,000 UZS",
+          "tag": "Storage"
+        },
+        {
+          "title": "Ro dresser",
+          "text": "Three soft-close drawers, oak fronts, 100 cm wide.",
+          "price": "5,200,000 UZS",
+          "tag": "Storage"
+        },
+        {
+          "title": "Strå vase",
+          "text": "Handmade ceramic, matte glaze, 32 cm tall.",
+          "price": "420,000 UZS",
+          "tag": "Decor"
+        }
+      ]
+    },
+    {
+      "id": "rooms",
+      "type": "gallery",
+      "label": "Rooms",
+      "title": "How it looks at home",
+      "items": [
+        {
+          "caption": "Living room with the Fjord sofa",
+          "image": ""
+        },
+        {
+          "caption": "Dining room for six",
+          "image": ""
+        },
+        {
+          "caption": "A reading corner",
+          "image": ""
+        },
+        {
+          "caption": "A linen bedroom",
+          "image": ""
+        },
+        {
+          "caption": "Hallway with the Ro dresser",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "120",
+          "suffix": "+",
+          "label": "pieces in the showroom"
+        },
+        {
+          "value": "2",
+          "suffix": " days",
+          "label": "delivery in Tashkent"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "frame warranty"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "fabric colours to choose from"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "type": "process",
+      "label": "Delivery",
+      "title": "From order to your first evening at home",
+      "items": [
+        {
+          "title": "You choose",
+          "text": "Online or in the showroom: feel the fabric and sit down before you buy."
+        },
+        {
+          "title": "We confirm",
+          "text": "We call back within 15 minutes to confirm colour, size and delivery date."
+        },
+        {
+          "title": "We deliver",
+          "text": "In Tashkent 1–2 days, across Uzbekistan up to 7 days, in a two-hour window that suits you."
+        },
+        {
+          "title": "We assemble",
+          "text": "Free assembly on delivery day; we take the packaging away."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people say at home",
+      "items": [
+        {
+          "quote": "The Hygge armchair has stood by the window for a year — we have washed the cover three times and it looks new.",
+          "author": "Dilnoza",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "The table arrived the next day and was assembled on the spot. The oak smells of wood, not varnish.",
+          "author": "Timur",
+          "role": "Mirzo Ulugbek"
+        },
+        {
+          "quote": "We spent an hour choosing the sofa fabric in the showroom — nobody rushed us.",
+          "author": "Madina",
+          "role": "Chilanzar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "Can I see the furniture in person?",
+          "a": "Yes, the showroom at 14 Mirabad St is open daily 10:00–20:00."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Free in Tashkent for orders from 5,000,000 UZS, otherwise 150,000 UZS. To the regions at the carrier’s rate."
+        },
+        {
+          "q": "Can I pick another fabric?",
+          "a": "Yes, sofas and armchairs come in 12 fabrics. Making a piece in another fabric takes 14–21 days."
+        },
+        {
+          "q": "How can I pay?",
+          "a": "Cash, Uzcard or Humo card, or bank transfer. Instalments are available through a partner bank."
+        },
+        {
+          "q": "Is there a warranty?",
+          "a": "Five years on the frame, one year on mechanisms and fabric."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Showroom",
+      "title": "Come and sit on everything",
+      "text": "14 Mirabad — five minutes from Oybek metro. Parking in the courtyard.",
+      "cta": {
+        "label": "Call us",
+        "href": "tel:+998712000111"
+      }
+    }
+  ]
+}

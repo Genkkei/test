@@ -1,0 +1,247 @@
+{
+  "name": "Frost Brew",
+  "tagline": "Cold brew steeped for 18 hours",
+  "niche": "Bottled cold brew brand",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a bottled-drinks brand, lemonade or coffee to go. A giant can on the first screen, flavour cards with tags, subscription plans and delivery.",
+    "features": []
+  },
+  "seo": {
+    "title": "Frost Brew — bottled cold brew delivered in Tashkent",
+    "description": "Cold coffee steeped for 18 hours in 330 ml bottles: classic, vanilla, orange and decaf. Delivery across Tashkent, a weekly subscription and 40 points of sale.",
+    "keywords": [
+      "cold brew Tashkent",
+      "bottled cold coffee",
+      "coffee delivery Tashkent",
+      "coffee for the office",
+      "coffee subscription"
+    ],
+    "answer": "Frost Brew is cold brew in 330 ml bottles, made in Sergeli and sold at 40 points across Tashkent. A bottle costs 26,000 UZS, a six-pack 145,000 UZS and a weekly office subscription from 420,000 UZS. Delivery across Tashkent Monday to Saturday, 9 am to 8 pm."
+  },
+  "business": {
+    "legalName": "Frost Brew LLC",
+    "street": "7 Yangi Sergeli St, Sergeli",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Cold. Strong. Honest.",
+      "eyebrow": "Classic Black",
+      "subtitle": "Colombian beans steep for 18 hours in cold water, then get filtered and bottled straight away. No sugar, no preservatives, keeps 21 days in the fridge.",
+      "words": [
+        "Frost",
+        "18 hours",
+        "0 sugar",
+        "Frost",
+        "cold"
+      ],
+      "cta": {
+        "label": "Order a pack",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Flavours",
+        "href": "#flavors"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "18-hour steep",
+        "No sugar",
+        "330 ml",
+        "Delivery",
+        "40 shops",
+        "For offices"
+      ]
+    },
+    {
+      "id": "flavors",
+      "type": "services",
+      "label": "Flavours",
+      "title": "Four bottles in the range",
+      "intro": "",
+      "items": [
+        {
+          "title": "Classic Black",
+          "text": "Pure cold brew: chocolate, nuts, gentle acidity.",
+          "price": "26,000 UZS",
+          "tag": "Bestseller"
+        },
+        {
+          "title": "Vanilla Milk",
+          "text": "With oat milk and Madagascan vanilla.",
+          "price": "29,000 UZS",
+          "tag": "Smooth"
+        },
+        {
+          "title": "Orange Fizz",
+          "text": "Cold brew with sparkling water and orange zest.",
+          "price": "28,000 UZS",
+          "tag": "New"
+        },
+        {
+          "title": "Night Decaf",
+          "text": "Decaf, same taste — fine for the evening.",
+          "price": "28,000 UZS",
+          "tag": "Decaf"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "How we brew",
+      "title": "Time instead of heat",
+      "text": "Hot water pulls bitterness out of coffee in minutes, cold water pulls sweetness out in hours. We steep the beans for 18 hours at 4 °C in our Sergeli workshop, filter through paper and bottle the same day. The bottles are glass, and we take empties back for a discount.",
+      "image": ""
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Packs",
+      "title": "For home and for the office",
+      "items": [
+        {
+          "name": "Taster",
+          "price": "100,000 UZS",
+          "period": "4 bottles",
+          "features": [
+            "All four flavours",
+            "Same-day delivery"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Six-pack",
+          "price": "145,000 UZS",
+          "period": "6 bottles",
+          "features": [
+            "One or mixed flavours",
+            "Free delivery"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Office",
+          "price": "from 420,000 UZS",
+          "period": "week",
+          "features": [
+            "20 bottles every Monday",
+            "A fridge on loan",
+            "An invoice for accounting"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Delivery",
+      "title": "From workshop to fridge",
+      "items": [
+        {
+          "title": "Order",
+          "text": "Leave a request and a manager calls back within 15 minutes."
+        },
+        {
+          "title": "Cool bag",
+          "text": "Bottles travel in an insulated bag with ice packs."
+        },
+        {
+          "title": "Same day",
+          "text": "Orders before 3 pm arrive today, later ones tomorrow morning."
+        },
+        {
+          "title": "Empties",
+          "text": "Hand them to the courier for 2,000 UZS off each."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "18",
+          "suffix": "h",
+          "label": "of steeping"
+        },
+        {
+          "value": "21",
+          "suffix": "days",
+          "label": "shelf life chilled"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "points of sale"
+        },
+        {
+          "value": "0",
+          "suffix": "g",
+          "label": "sugar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "About cold brew",
+      "items": [
+        {
+          "q": "How much caffeine is in a bottle?",
+          "a": "About 150 mg, like two espressos. Night Decaf has under 10 mg."
+        },
+        {
+          "q": "How long does it keep?",
+          "a": "21 days unopened in the fridge, 3 days once opened."
+        },
+        {
+          "q": "Where can I buy without delivery?",
+          "a": "At 40 cafés and shops in Tashkent; we send the list on Telegram."
+        },
+        {
+          "q": "Can we become a stockist?",
+          "a": "Yes, from 24 bottles; a branded fridge is free above 100 bottles a month."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Order",
+      "title": "Cold coffee by morning",
+      "text": "Workshop at 7 Yangi Sergeli St, Sergeli. Delivery across Tashkent Monday to Saturday, 9 am–8 pm.",
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "name": "Darvoza Plus",
+  "tagline": "Kottej uchun darvoza, devor, eshikcha va ayvon — bitta buyurtmada",
+  "niche": "Xususiy uy uchun kompleks metall konstruksiyalar",
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchini chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Darvoza, devor va ayvonlar kompaniyasi uchun sayt: chizma va narxli tayyor paketlar, obyektdagi ish jarayoni foizlarda, o‘lchashga yozilish.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Darvoza Plus — Toshkentda kalit topshirish bilan darvoza, devor va ayvon",
+    "description": "Kottej uchun tayyor paketlar: eshikchali kirish darvozasi, proflist yoki jalyuzi devor, mashina uchun ayvon. Loyiha 2 kunda, o‘rnatish bir haftada, kafolat 3 yil, bo‘lib to‘lash.",
+    "keywords": [
+      "kalit topshirish bilan darvoza va devor",
+      "Toshkentda surma darvoza",
+      "mashina ayvoni narxi",
+      "jalyuzi devor"
+    ],
+    "answer": "Darvoza Plus Toshkent va viloyatdagi xususiy uylar uchun darvoza, devor, eshikcha va ayvonlarni tayyor paketlarda yasaydi: «Kirish» (eshikchali darvoza) — 18 000 000 so‘mdan, «Perimetr» (darvoza va 30 m devor) — 42 000 000 so‘mdan, ayvonli «Hovli kalit bilan» — 68 000 000 so‘mdan. Loyiha 2 kunda, o‘rnatish taxminan bir hafta, kafolat 3 yil, 6 oygacha bo‘lib to‘lash. Telefon +998 71 200-07-05."
+  },
+  "business": {
+    "legalName": "MChJ «Darvoza Plus»",
+    "street": "Qibray tumani, Ahmad Yassaviy ko‘chasi, 3",
+    "city": "Qibray",
+    "region": "Toshkent viloyati",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Darvoza, devor va ayvon — bitta buyurtmada",
+      "eyebrow": "Kottej uchun metall konstruksiyalar · Toshkent va viloyat",
+      "subtitle": "Uchta pudratchi qidirmang. Hovlini to‘liq loyihalaymiz: avtomatikali kirish darvozasi, eshikcha, bir uslubdagi devor va mashina uchun ayvon.",
+      "words": [
+        "Loyiha 2 kunda",
+        "Kalit topshirish bilan o‘rnatish",
+        "Kafolat 3 yil",
+        "6 oygacha bo‘lib to‘lash"
+      ],
+      "cta": {
+        "label": "Paket tanlash",
+        "href": "#packages"
+      },
+      "ctaSecondary": {
+        "label": "Ish jarayoni",
+        "href": "#object"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kompaniya haqida",
+      "title": "Hamma narsa bir uslubda qilingan hovli",
+      "text": "Darvoza Plus — Qibraydagi o‘z sexi va to‘rtta montaj brigadasi. Darvoza, devor, eshikcha va ayvonni bitta profil va bitta rangda yasaymiz, shuning uchun hovli yaxlit ko‘rinadi. Poydevor, ustunlar va avtomatikani o‘zimiz o‘rnatamiz — subpudratchilarsiz.",
+      "image": ""
+    },
+    {
+      "id": "packages",
+      "type": "works",
+      "label": "Paketlar",
+      "title": "Paketni tanlang",
+      "items": [
+        {
+          "title": "1-paket · Kirish",
+          "category": "darvoza 4 m + eshikcha",
+          "year": "18 mln so‘mdan",
+          "text": "Eshikcha va qulfli ochiladigan yoki surma darvoza, ustunlar betonda.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "2-paket · Perimetr",
+          "category": "darvoza + 30 m devor",
+          "year": "42 mln so‘mdan",
+          "text": "Lentali poydevordagi proflist yoki jalyuzi devor.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "3-paket · Hovli kalit bilan",
+          "category": "+ 2 mashinalik ayvon",
+          "year": "68 mln so‘mdan",
+          "text": "Ikkinchi paketdagi hammasi va polikarbonat yoki metall cherepitsali ayvon.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "4-paket · Avtomatika",
+          "category": "yuritma + pultlar + fotoelementlar",
+          "year": "9 mln so‘mdan",
+          "text": "Tayyor darvoza uchun yuritma, telefon va pultdan ochish.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "object",
+      "type": "process",
+      "label": "Obyekt",
+      "title": "Hozir quryapmiz: Qibraydagi uy",
+      "items": [
+        {
+          "title": "O‘lchash va loyiha — 100%",
+          "text": "5 m surma darvoza va grafit rangli jalyuzi devor tasdiqlandi."
+        },
+        {
+          "title": "Poydevor va ustunlar — 100%",
+          "text": "42 m lenta quyildi, beton mustahkamlik oldi."
+        },
+        {
+          "title": "Sexda tayyorlash — 80%",
+          "text": "Devor seksiyalari tayyor, darvoza bo‘yashda."
+        },
+        {
+          "title": "O‘rnatish — 35%",
+          "text": "Devorning 34 seksiyasidan 12 tasi o‘rnatildi."
+        },
+        {
+          "title": "Avtomatika — 0%",
+          "text": "Yuritmani darvoza o‘rnatilgandan keyin qo‘yamiz, reja bo‘yicha juma kuni."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": " kun",
+          "label": "loyiha va smeta"
+        },
+        {
+          "value": "7",
+          "suffix": " kun",
+          "label": "«Perimetr» paketini o‘rnatish"
+        },
+        {
+          "value": "3",
+          "suffix": " yil",
+          "label": "kafolat"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "montaj brigadalari"
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "type": "services",
+      "label": "Qo‘shimcha",
+      "title": "Nimani qo‘shish mumkin",
+      "items": [
+        {
+          "title": "Eshikcha ustidagi soyabon",
+          "text": "Xuddi shu profildan, suv oqizgich bilan.",
+          "price": "2 400 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Videodomofon",
+          "text": "Eshikchada chaqiruv paneli va uyda monitor.",
+          "price": "3 200 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Ustunlar yoritgichi",
+          "text": "Har bir ustunga chiroq, datchik bo‘yicha yonadi.",
+          "price": "ustuni 450 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Pochta qutisi va uy raqami",
+          "text": "Darvoza uslubida lazer bilan kesamiz.",
+          "price": "900 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Biz qilgan hovlilar",
+      "items": [
+        {
+          "caption": "Qibray, grafit jalyuzi",
+          "image": ""
+        },
+        {
+          "caption": "Zangiota, 6 m surma darvoza",
+          "image": ""
+        },
+        {
+          "caption": "Yunusobod, ikki mashinalik ayvon",
+          "image": ""
+        },
+        {
+          "caption": "Sergeli, soyabonli eshikcha",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Faqat darvoza olsa bo‘ladimi?",
+          "a": "Ha, «Kirish» paketi — eshikchali darvoza; qolganini keyin xuddi shu uslubda qo‘shish mumkin."
+        },
+        {
+          "q": "Bo‘lib to‘lash qanday?",
+          "a": "Buyurtmada 30%, qolgani 6 oygacha teng qismlarda ortiqcha to‘lovsiz."
+        },
+        {
+          "q": "Viloyatda ishlaysizmi?",
+          "a": "Ha, butun Toshkent viloyati bo‘ylab; 40 km radiusda o‘lchovchi chiqishi bepul."
+        },
+        {
+          "q": "Kafolatga nima kiradi?",
+          "a": "Konstruksiya, payvand va bo‘yoqqa 3 yil, avtomatikaga 1 yil."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Uchastka suratini yuboring — paketni hisoblaymiz",
+      "text": "Qibray, Ahmad Yassaviy ko‘chasi, 3. Du–Sh 9:00–18:00. Profil va rang namunalari — sex yonidagi shourumda.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

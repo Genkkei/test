@@ -1,0 +1,275 @@
+{
+  "name": "Svarka 60",
+  "tagline": "A mobile welder at your door within the hour, anywhere in Tashkent",
+  "niche": "Mobile welding service",
+  "nav": {
+    "cta": {
+      "label": "Call a welder",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a mobile welding and small metal-repair service: a job tracker on the first screen, a “from” price list with icons and a call button always to hand.",
+    "features": []
+  },
+  "leads": {
+    "title": "Call a welder",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Svarka 60 — mobile welder in Tashkent within an hour",
+    "description": "A welder with a generator arrives within 60 minutes to fix gates, weld pipes or build a canopy or stairs. Price agreed before work starts, 1-year guarantee on welds.",
+    "keywords": [
+      "mobile welder Tashkent",
+      "gate welding",
+      "welding prices",
+      "emergency pipe welding"
+    ],
+    "answer": "Svarka 60 is a mobile welding service in Tashkent: a welder with a generator arrives in about 60 minutes, daily from 7:00 to 23:00. Call-out 80,000 UZS, gate repair from 250,000 UZS, pipe welding from 150,000 UZS. The price is agreed before work starts, with a 1-year guarantee on welds. Phone +998 71 200-07-03."
+  },
+  "business": {
+    "legalName": "Svarka 60 LLC",
+    "street": "22 Lutfiy St, Uchtepa",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "All of Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A welder with you within the hour",
+      "eyebrow": "Daily 7:00–23:00 · all of Tashkent",
+      "subtitle": "A gate hinge broke, a pipe is leaking, you need a canopy before the rain — the welder comes with his own generator and rods. We price it from a photo before setting off.",
+      "words": [
+        "Request received",
+        "Welder on the way",
+        "Welder on site",
+        "Weld done"
+      ],
+      "cta": {
+        "label": "Call a welder",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Gates",
+        "Pipes",
+        "Canopies",
+        "Stairs",
+        "Grilles",
+        "Own generator"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Prices",
+      "title": "What we can weld today",
+      "intro": "Prices are “from”; we confirm the exact sum from a photo before setting off.",
+      "items": [
+        {
+          "title": "Gate and wicket repair",
+          "text": "Hinges, bolts, sagging leaves and cracked frames.",
+          "price": "from 250,000 UZS",
+          "tag": "Gates"
+        },
+        {
+          "title": "Pipe welding",
+          "text": "Heating, water and gas pipes — gas only with a licence and pressure test.",
+          "price": "from 150,000 UZS",
+          "tag": "Pipes"
+        },
+        {
+          "title": "Carport canopy",
+          "text": "A box-section frame with polycarbonate in one or two days.",
+          "price": "from 3,900,000 UZS",
+          "tag": "Structures"
+        },
+        {
+          "title": "Stairs to the first floor",
+          "text": "A steel frame ready for timber or tile treads.",
+          "price": "from 4,500,000 UZS",
+          "tag": "Structures"
+        },
+        {
+          "title": "Late-night emergency",
+          "text": "A burst pipe or broken gate lock after 23:00.",
+          "price": "from 300,000 UZS",
+          "tag": "Urgent"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "average arrival time"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "welders on call"
+        },
+        {
+          "value": "16",
+          "suffix": " h",
+          "label": "open every day"
+        },
+        {
+          "value": "1",
+          "suffix": " yr",
+          "label": "guarantee on welds"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "From call to finished weld",
+      "items": [
+        {
+          "title": "Photo",
+          "text": "Send a photo on Telegram or describe the problem by phone."
+        },
+        {
+          "title": "Price",
+          "text": "We name the price before setting off — no “we’ll see when we get there”."
+        },
+        {
+          "title": "Call-out",
+          "text": "The nearest welder sets off with a generator and steel."
+        },
+        {
+          "title": "Work and payment",
+          "text": "We weld, grind and paint the seam. You pay after checking it."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Call-out",
+      "title": "Call-out charges",
+      "items": [
+        {
+          "name": "Daytime",
+          "price": "80,000 UZS",
+          "period": "7:00–19:00",
+          "features": [
+            "Call-out and assessment",
+            "Waived on jobs over 500,000 UZS"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Evening",
+          "price": "120,000 UZS",
+          "period": "19:00–23:00",
+          "features": [
+            "Priority in the queue",
+            "Own generator"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Night",
+          "price": "300,000 UZS",
+          "period": "after 23:00",
+          "features": [
+            "Emergencies only",
+            "Arrival within 90 minutes"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "Welders who turn up on time",
+      "text": "Svarka 60 is twelve welders in their own vans with generators across Tashkent. The dispatcher sends the nearest one, so an hour is our normal time, not a promise. Every welder works in proper gear and clears away the slag afterwards.",
+      "image": ""
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Reviews",
+      "items": [
+        {
+          "quote": "The gates stopped closing at eight in the evening. The welder was here at nine; by ten it all worked.",
+          "author": "Aziz",
+          "role": "Yakkasaray"
+        },
+        {
+          "quote": "They priced it from a photo and did not raise it on site. That is rare.",
+          "author": "Lola",
+          "role": "Mirzo Ulugbek"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Do you need power on site?",
+          "a": "No, every welder carries a petrol generator."
+        },
+        {
+          "q": "Do you bring the steel?",
+          "a": "Yes, common box section, angle and sheet are in the van; anything else we buy on the way at yard prices."
+        },
+        {
+          "q": "Do you weld gas pipes?",
+          "a": "Only licensed welders, with a pressure test afterwards; those jobs are done in the daytime."
+        },
+        {
+          "q": "What is the guarantee?",
+          "a": "One year on welds: if a seam fails, we re-weld it free."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Call-out",
+      "title": "Describe the problem — we will give a price and arrival time",
+      "text": "Daily 7:00–23:00, emergencies only at night. Base at 22 Lutfiy St, Uchtepa.",
+      "cta": {
+        "label": "Call a welder",
+        "href": "#order"
+      }
+    }
+  ]
+}

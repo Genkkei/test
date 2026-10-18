@@ -1,0 +1,275 @@
+{
+  "name": "Atelye Mebel",
+  "tagline": "Furniture from your sketch — from a napkin drawing to the finished piece",
+  "niche": "Bespoke furniture atelier",
+  "seo": {
+    "title": "Atelye Mebel — bespoke furniture from your sketch in Tashkent",
+    "description": "A furniture atelier in Mirabad: tables, dressers, bookcases and beds made from your sketch. Free drawings and 3D, made in 21 days and up, 2-year warranty.",
+    "keywords": [
+      "custom furniture Tashkent",
+      "furniture from a sketch",
+      "furniture atelier",
+      "custom solid wood table",
+      "custom dresser"
+    ],
+    "answer": "Atelye Mebel is a furniture atelier in Tashkent (34 Shakhrisabz Street) that builds tables, dressers, wardrobes and beds from the client’s sketch. Drawings and 3D renders are free, production takes 21 days and up, a solid wood dining table starts at UZS 6,800,000, with a 2-year warranty."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order a sketch",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a bespoke furniture atelier or joinery studio: a dark showcase with brass accents, a catalogue with starting prices, the path from sketch to delivery and a gallery of work.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Atelye Mebel LLC",
+    "street": "34 Shakhrisabz Street",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "You draw it, we build it",
+      "eyebrow": "Furniture atelier · Mirabad · since 2019",
+      "subtitle": "Bring a sketch, a Pinterest photo or just the size of the niche. We turn the idea into a drawing, show it in 3D and make a piece nobody else has.",
+      "words": [
+        "Tables",
+        "Dressers",
+        "Bookcases",
+        "Beds"
+      ],
+      "cta": {
+        "label": "Order a sketch",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "What we make",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelier",
+      "title": "Furniture you won’t find in a showroom",
+      "text": "We don’t sell ready-made models — every piece starts with your drawing.\nOur designer turns the sketch into a technical drawing, chooses the wood, hardware and fabric, and you approve the 3D before the first board is cut. We work with oak, ash, walnut and veneer, finished with oil, wax or matte lacquer.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Oak",
+        "Walnut",
+        "Ash",
+        "Brass",
+        "Veneer",
+        "Bouclé"
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "menu",
+      "label": "What we make",
+      "title": "Starting prices — the final one comes with the drawing",
+      "groups": [
+        {
+          "name": "Tables",
+          "items": [
+            {
+              "name": "Solid wood dining table",
+              "text": "Oak or ash, 180×90 cm, seats 6–8",
+              "price": "from UZS 6,800,000"
+            },
+            {
+              "name": "Coffee table",
+              "text": "Walnut veneer, brass legs",
+              "price": "from UZS 2,400,000"
+            },
+            {
+              "name": "Writing desk",
+              "text": "With drawers and cable channel",
+              "price": "from UZS 3,900,000"
+            }
+          ]
+        },
+        {
+          "name": "Storage",
+          "items": [
+            {
+              "name": "Dresser",
+              "text": "Six soft-close drawers, 140 cm",
+              "price": "from UZS 5,200,000"
+            },
+            {
+              "name": "Wall-to-wall bookcase",
+              "text": "Price per running metre",
+              "price": "from UZS 3,600,000"
+            },
+            {
+              "name": "TV console",
+              "text": "Wall-hung, with lighting",
+              "price": "from UZS 2,900,000"
+            }
+          ]
+        },
+        {
+          "name": "Bedroom",
+          "items": [
+            {
+              "name": "Bed with upholstered headboard",
+              "text": "160×200, fabric from 40 samples",
+              "price": "from UZS 7,400,000"
+            },
+            {
+              "name": "Bedside tables",
+              "text": "A pair, matching the bed",
+              "price": "from UZS 2,200,000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From drawing to delivery",
+      "items": [
+        {
+          "title": "Meeting",
+          "text": "We discuss the sketch at the atelier or come to measure — free within Tashkent."
+        },
+        {
+          "title": "Drawing and 3D",
+          "text": "In 3–5 days we prepare the drawing, a 3D render and an exact quote."
+        },
+        {
+          "title": "Samples",
+          "text": "You choose wood, finish and fabric in person, on real samples."
+        },
+        {
+          "title": "Making",
+          "text": "From 21 working days, with photos from the workshop."
+        },
+        {
+          "title": "Delivery and assembly",
+          "text": "We deliver, assemble and take the packaging away. 2-year warranty."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "Made from clients’ sketches",
+      "items": [
+        {
+          "caption": "Oak table for eight",
+          "image": ""
+        },
+        {
+          "caption": "Dresser with brass handles",
+          "image": ""
+        },
+        {
+          "caption": "Study bookcase",
+          "image": ""
+        },
+        {
+          "caption": "Bouclé bed",
+          "image": ""
+        },
+        {
+          "caption": "Walnut TV wall",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "I brought a drawing on a notebook page and got a dresser exactly as I imagined it.",
+          "author": "Nigora",
+          "role": "dresser"
+        },
+        {
+          "quote": "They showed the 3D in advance, we changed the legs twice at no extra cost.",
+          "author": "Timur",
+          "role": "dining table"
+        },
+        {
+          "quote": "The bookcase fit the niche to the millimetre.",
+          "author": "Dilnoza",
+          "role": "bookcase"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Do I need to be able to draw?",
+          "a": "No. Photos from the internet, measurements and a few words are enough — our designer will draw it."
+        },
+        {
+          "q": "How much is the drawing?",
+          "a": "Drawings, 3D and the quote are free. You only pay for the piece."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "50% upfront after the 3D is approved, the rest after assembly. Cash, transfer or card."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Two years on the structure and hardware. We come back for free a year later to adjust the fronts."
+        },
+        {
+          "q": "Do you make furniture for restaurants and offices?",
+          "a": "Yes, from a single table to a fully furnished hall. Timing and price are calculated separately."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us your drawing",
+      "text": "Take a photo of your sketch and send it on Telegram — the same day we will tell you what to make it from and what it will cost.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/atelye_mebel"
+      }
+    }
+  ]
+}

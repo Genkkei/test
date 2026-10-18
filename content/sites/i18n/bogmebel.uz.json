@@ -1,0 +1,243 @@
+{
+  "name": "Bog‘ Mebel",
+  "tagline": "Dala hovli, hovli va ayvon uchun bog‘ va terrasa mebeli",
+  "niche": "Bog‘ va terrasa mebeli",
+  "seo": {
+    "title": "Bog‘ Mebel — dala hovli va terrasa uchun bog‘ mebeli",
+    "description": "Tik, akatsiya va rotangdan bog‘ mebeli: ovqatlanish to‘plamlari, shezlonglar, arg‘imchoqlar va ayvon uchun so‘ri. Qibraydagi shourum, viloyat bo‘ylab yetkazish, qishda saqlash.",
+    "keywords": [
+      "Toshkentda bog‘ mebeli",
+      "dala hovli uchun mebel",
+      "terrasa mebeli",
+      "shezlong sotib olish",
+      "ayvon uchun so‘ri"
+    ],
+    "answer": "Bog‘ Mebel — Qibraydagi bog‘ mebeli shourumi (Toshkent halqa yo‘li, 14). Akatsiyadan ovqatlanish to‘plamlari 7 200 000 so‘mdan, tikdan shezlonglar 2 900 000 so‘mdan, ayvon uchun so‘ri 5 500 000 so‘mdan. Toshkent viloyati bo‘ylab yetkazish, joyida yig‘ish va qishda mebelni saqlash."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma berish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Bog‘ mebeli, shiyponlar yoki dala hovli mollari do‘koni uchun sayt: tabiiy birinchi ekran, mehmonxona xonalari kabi to‘plamlar, afzalliklar, bosqichlar va savollar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Bog‘ Mebel» MChJ",
+    "street": "Toshkent halqa yo‘li, 14, Qibray",
+    "city": "Qibray",
+    "region": "Toshkent viloyati",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Hovlidagi oqshom yaxshi kresladan boshlanadi",
+      "eyebrow": "Qibraydagi shourum · Toshkentdan 15 daqiqa",
+      "subtitle": "Quyosh, yomg‘ir va o‘zbek yoziga chidaydigan tik, akatsiya va rotang. Olib kelamiz, yig‘amiz, qishda esa saqlashga olib ketamiz.",
+      "words": [],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "To‘plamlar",
+        "href": "#sets"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Ko‘chadan qo‘rqmaydigan mebel",
+      "text": "Biz sakkiz yildan beri dala hovli, hovli va restoran terrasalari uchun mebel yasaymiz va tanlaymiz. Yog‘ochni ikki qavat moy bilan shimdiramiz, metall — kukunli bo‘yoq, matolar — ko‘cha uchun, rangini yo‘qotmaydi va bir soatda quriydi.\nXariddan oldin ochiq osmon ostidagi shourumda hammasiga o‘tirib ko‘rish mumkin.",
+      "image": ""
+    },
+    {
+      "id": "sets",
+      "type": "works",
+      "label": "To‘plamlar",
+      "title": "Hovli uchun tayyor to‘plamlar",
+      "items": [
+        {
+          "title": "«Ayvon» ovqatlanish to‘plami",
+          "category": "Akatsiya · stol va 6 stul",
+          "year": "7 200 000 so‘m",
+          "text": "Uzaytiriladigan 160–220 sm stol, yechiladigan yostiqli stullar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Basseyn» launj",
+          "category": "Rotang · divan va 2 kreslo",
+          "year": "9 800 000 so‘m",
+          "text": "Ko‘cha yostiqlari va shishali jurnal stoli.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Choyxona» so‘risi",
+          "category": "Qayrag‘och · 2×2,5 m",
+          "year": "5 500 000 so‘m",
+          "text": "O‘ymakor klassik so‘ri va ko‘rpachalar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Soya» shezlongi",
+          "category": "Tik · g‘ildirakli",
+          "year": "2 900 000 so‘m",
+          "text": "Suyanchiqning besh holati, tortiladigan stolcha.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Servis",
+      "title": "Xaridga nima kiradi",
+      "intro": "",
+      "items": [
+        {
+          "title": "Viloyat bo‘ylab yetkazish",
+          "text": "5 000 000 so‘mdan bepul, aks holda hududlar bo‘yicha 150 000 so‘mdan.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Joyida yig‘ish",
+          "text": "O‘rnatamiz, tekislaymiz, parvarishni ko‘rsatamiz.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Qishda saqlash",
+          "text": "Oktyabrda olib ketamiz, tozalaymiz, shimdiramiz va aprelda olib kelamiz.",
+          "price": "600 000 so‘m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilish",
+      "title": "Hovlidagi oqshomgacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Hovli rasmi",
+          "text": "Rasm va o‘lchamlarni yuborasiz — to‘plam tanlaymiz."
+        },
+        {
+          "title": "Shourum",
+          "text": "O‘tirasiz, matolarni ushlaysiz, yostiq rangini tanlaysiz."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "2–4 kunda olib kelamiz, katta buyurtmalar — bir haftada."
+        },
+        {
+          "title": "Yig‘ish",
+          "text": "Yig‘amiz va yog‘och parvarishi uchun vosita qoldiramiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Mijozlar hovlilari",
+      "title": "Uyda shunday ko‘rinadi",
+      "items": [
+        {
+          "caption": "Bo‘stonliqdagi terrasa",
+          "image": ""
+        },
+        {
+          "caption": "Yunusoboddagi so‘rili hovli",
+          "image": ""
+        },
+        {
+          "caption": "Basseyn yonidagi launj",
+          "image": ""
+        },
+        {
+          "caption": "Yozgi kafe",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Dala hovli egalari yozadi",
+      "items": [
+        {
+          "quote": "Uchinchi mavsum ochiq osmon ostida turibdi — xuddi yangidek.",
+          "author": "Ulug‘bek",
+          "role": "«Ayvon» to‘plami"
+        },
+        {
+          "quote": "Kuzda saqlashga olib ketishdi, bahorda shimdirib qaytarishdi — juda qulay.",
+          "author": "Nargiza",
+          "role": "qishda saqlash"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Mebelni yomg‘ir ostida qoldirish mumkinmi?",
+          "a": "Ha, yog‘och moy bilan shimdirilgan, matolar esa ko‘cha uchun. Yostiqlarni kechasi yig‘ishtirgan ma’qul."
+        },
+        {
+          "q": "Tikni qanday parvarishlash kerak?",
+          "a": "Mavsumda bir marta to‘plamdagi moy bilan artish. Moysiz tik kulrang tusga kiradi — bu normal, mustahkamligiga ta’sir qilmaydi."
+        },
+        {
+          "q": "Kafe uchun mebel qilasizmi?",
+          "a": "Ha, yozgi terrasalar uchun 20 o‘rindan boshlab chegirma bilan to‘plam hisoblaymiz."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, Uzum Nasiya orqali 12 oygacha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Hovli rasmini yuboring",
+      "text": "Telegramda terrasa o‘lchamiga to‘plam tanlaymiz. Qibraydagi shourum har kuni 9 dan 19 gacha ochiq.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/bogmebel"
+      }
+    }
+  ]
+}

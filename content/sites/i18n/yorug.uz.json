@@ -1,0 +1,235 @@
+{
+  "name": "Yorug‘ Home",
+  "tagline": "Kechqurunlarni o‘tkazgingiz keladigan uy uchun yorug‘ mebel va chiroqlar",
+  "niche": "Yorug‘ mebel va yoritish",
+  "seo": {
+    "title": "Yorug‘ Home — Toshkentda yorug‘ mebel va chiroqlar",
+    "description": "Yunusobodda yorug‘ mebel va yoritish saloni: divanlar, stollar, javonlar, lampalar va torsherlar. Xona rasmi bo‘yicha yoritish tanlash, 3 kunda yetkazish, muddatli to‘lov.",
+    "keywords": [
+      "Toshkentda yorug‘ mebel",
+      "Toshkentda chiroqlar",
+      "torsher sotib olish",
+      "skandinav uslubidagi mebel",
+      "kvartira uchun yoritish"
+    ],
+    "answer": "Yorug‘ Home — Toshkentdagi yorug‘ mebel va chiroqlar saloni (Yunusobod, Amir Temur ko‘chasi, 107B). Divanlar 5 900 000 so‘mdan, chiroqlar 450 000 so‘mdan, xona rasmi bo‘yicha yoritishni bepul tanlash, Toshkent bo‘ylab 3 kunda yetkazish, 12 oygacha muddatli to‘lov."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma berish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Mebel va chiroqlar saloni uchun sayt: yo‘nalishlari bilan yorug‘ birinchi ekran, narxli katalog, raqamlar, yoritishni bosqichma-bosqich tanlash va xaridorlar savollari.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Yorug‘ Home» MChJ",
+    "street": "Amir Temur ko‘chasi, 107B, Yunusobod",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Yorug‘ uy",
+      "eyebrow": "Mebel va yorug‘lik · Yunusobod · har kuni 10–20",
+      "subtitle": "Och rang yog‘och, yumshoq matolar va iliq yorug‘lik. Xona rasmini yuboring — mebel va lampalarni kechqurun shinam, kunduzi esa keng bo‘ladigan qilib tanlaymiz.",
+      "words": [
+        "Divanlar",
+        "Stollar",
+        "Torsherlar",
+        "Osma lampalar"
+      ],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Katalogni ko‘rish",
+        "href": "#catalog"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Salon",
+      "title": "Yorug‘lik ham mebel",
+      "text": "Salonimizda har bir divan o‘z lampasi ostida turadi: mato iliq va sovuq yorug‘likda qanday ko‘rinishini ko‘rasiz va rang tanlashda adashmaysiz. O‘zbekiston, Turkiya va Polsha fabrikalari bilan ishlaymiz, hammasi Toshkentdagi omborda bor.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Salonda nima bor",
+      "intro": "Narxlar bazaviy komplektatsiya uchun. Boshqa mato va o‘lchamlar — so‘rov bo‘yicha.",
+      "items": [
+        {
+          "title": "«Bulut» divani, 3 o‘rinli",
+          "text": "Sut rangidagi bukle, yechiladigan g‘iloflar",
+          "price": "5 900 000 so‘m",
+          "tag": "xit"
+        },
+        {
+          "title": "Shumtoldan ovqat stoli",
+          "text": "160×90 sm, och rang moy",
+          "price": "4 200 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "«Narvon» javoni",
+          "text": "Qayin, 5 ta tokcha",
+          "price": "1 600 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "Zig‘ir torsher",
+          "text": "Iliq yorug‘lik 2700K, dimmer",
+          "price": "950 000 so‘m",
+          "tag": "yangi"
+        },
+        {
+          "title": "Rotangdan osma lampa",
+          "text": "Diametri 50 sm, stol ustiga",
+          "price": "780 000 so‘m",
+          "tag": ""
+        },
+        {
+          "title": "«Qo‘ziqorin» stol lampasi",
+          "text": "Mat shisha, uch rejim",
+          "price": "450 000 so‘m",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "600",
+          "suffix": "+",
+          "label": "salondagi buyumlar"
+        },
+        {
+          "value": "3",
+          "suffix": " kun",
+          "label": "Toshkent bo‘ylab yetkazish"
+        },
+        {
+          "value": "12",
+          "suffix": " oy",
+          "label": "muddatli to‘lov"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "mato namunalari"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Yoritish tanlash",
+      "title": "Xona rasmi bo‘yicha yoritish tanlaymiz",
+      "items": [
+        {
+          "title": "Rasm va o‘lchamlar",
+          "text": "Xonaning kunduzgi va kechki rasmi hamda taxminiy maydonini yuboring."
+        },
+        {
+          "title": "Yoritish sxemasi",
+          "text": "Dizayner yuqori, ish va yumshoq yorug‘lik qayerda kerakligini belgilaydi."
+        },
+        {
+          "title": "Tanlov",
+          "text": "Turli byudjet uchun uchta variant — narx va mavjudligi bilan."
+        },
+        {
+          "title": "Yetkazish va o‘rnatish",
+          "text": "3 kunda olib kelamiz va chiroqlarni o‘zimiz osamiz."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Xaridorlar yozadi",
+      "items": [
+        {
+          "quote": "Mehmonxona rasmini yubordim — bir kunda uchta tanlov oldim. O‘rtachasini oldik, endi kechqurun kafedagidek.",
+          "author": "Madina",
+          "role": "yoritish tanlash"
+        },
+        {
+          "quote": "Bukle divan bir yildan beri turibdi, g‘iloflarni yuvamiz — xuddi yangidek.",
+          "author": "Aziz",
+          "role": "«Bulut» divani"
+        },
+        {
+          "quote": "Stol ustidagi lampani va’da qilingan kuni olib kelib osishdi.",
+          "author": "Lola",
+          "role": "yoritish"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Yoritish tanlash pullikmi?",
+          "a": "Yo‘q, rasm bo‘yicha — bepul. Dizaynerning Toshkent bo‘ylab chiqishi — 200 000 so‘m, xaridga hisoblanadi."
+        },
+        {
+          "q": "Muddatli to‘lov bormi?",
+          "a": "Ha, hamkor banklar va Uzum Nasiya orqali 6 yoki 12 oyga ortiqcha to‘lovsiz."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab 3 000 000 so‘mdan bepul, aks holda 150 000 so‘m. Viloyatlarga — tashuvchi tarifi bo‘yicha."
+        },
+        {
+          "q": "Qaytarish mumkinmi?",
+          "a": "Chiroqlar va dekor — 14 kun ichida qadoqda. Mavjud mebel — kelishuv bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Xona rasmini yuboring",
+      "text": "Telegramda mebel va yoritish tanlovi bilan javob beramiz. Yunusoboddagi salon har kuni 10 dan 20 gacha ochiq.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/yorug_home"
+      }
+    }
+  ]
+}

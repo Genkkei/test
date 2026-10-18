@@ -1,0 +1,271 @@
+{
+  "name": "Karamel",
+  "tagline": "Yunusoboddagi qahvaxona-qandolatxona: vitrinadan desertlar va ularga qahva",
+  "niche": "Qahvaxona-qandolatxona",
+  "nav": {
+    "cta": {
+      "label": "Tort buyurtma qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Qandolatxona yoki desertli qahvaxona uchun sayt: narxli vitrina, qavatma-qavat buyurtma tortlar, xat-sharhlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Karamel — Yunusobodda qahvaxona-qandolatxona va tortlar",
+    "description": "Ekler, medovik, chizkeyk va 1 kg dan buyurtma tortlar, desertga kapuchino va raf. Amir Temur ko‘chasi, 107, har kuni 9:00–22:00, Toshkent bo‘ylab yetkazish.",
+    "keywords": [
+      "Toshkent qandolatxona",
+      "buyurtma tort Toshkent",
+      "ekler",
+      "Yunusobod qahvaxona",
+      "yetkazib beriladigan desertlar"
+    ],
+    "answer": "Karamel — Yunusoboddagi Amir Temur ko‘chasi, 107 dagi qahvaxona-qandolatxona, har kuni 9:00 dan 22:00 gacha ochiq. Ekler — 26 000 so‘m, bir bo‘lak medovik — 38 000 so‘m, kapuchino — 30 000 so‘m. Buyurtma tortlar — kg uchun 280 000 so‘mdan, ikki kun oldin buyurtma qilinadi."
+  },
+  "business": {
+    "legalName": "«Karamel Desert» MChJ",
+    "street": "Amir Temur ko‘chasi, 107, Yunusobod",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, shahar bo‘ylab yetkazish",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qahva — desert uchun bahona",
+      "eyebrow": "Qahvaxona-qandolatxona · Yunusobod",
+      "subtitle": "Har tong vitrinada — sexmizdan o‘n ikkita desert. Kapuchino, raf va filtr — ular bilan yeyishga.",
+      "words": [
+        "ekler",
+        "medovik",
+        "chizkeyk",
+        "makaron"
+      ],
+      "cta": {
+        "label": "Tort buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Vitrina",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "9:00 ga yangi vitrina",
+        "1 kg dan tortlar",
+        "2 soatda yetkazish",
+        "Margarinsiz"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Vitrina",
+      "title": "Bugun javonlarda",
+      "groups": [
+        {
+          "name": "Pirojniylar",
+          "items": [
+            {
+              "name": "Vanilli ekler",
+              "text": "Qaynatilgan krem, oq glazur",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Medovik",
+              "text": "Sakkiz qatlam, smetana kremi",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Sho‘r karamelli chizkeyk",
+              "text": "Bizning brend desertimiz",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Makaron",
+              "text": "Olti ta ta’m",
+              "price": "14 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qahva",
+          "items": [
+            {
+              "name": "Kapuchino",
+              "text": "",
+              "price": "30 000 so‘m"
+            },
+            {
+              "name": "Karamelli raf",
+              "text": "Uy karamelida",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Filtr",
+              "text": "Efiopiya, 300 ml",
+              "price": "28 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tortlar",
+      "title": "Buyurtma tortlar",
+      "items": [
+        {
+          "name": "Klassika",
+          "price": "280 000 so‘m",
+          "period": "/ kg",
+          "features": [
+            "Medovik, napoleon yoki «Praga»",
+            "1 kg dan",
+            "Krem bilan yozuv bepul"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Bayramona",
+          "price": "360 000 so‘m",
+          "period": "/ kg",
+          "features": [
+            "Vitrinadan istalgan ichki qism",
+            "Rezavor va bezak",
+            "Bayram kuni yetkazish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "To‘y torti",
+          "price": "420 000 so‘mdan",
+          "period": "/ kg",
+          "features": [
+            "Uch qavatdan",
+            "Ichki qismlarni tatib ko‘rish",
+            "Joyida yig‘ish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday buyurtma qilinadi",
+      "title": "Uch qadamda tort",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "Og‘irlik, ichki qism va sana — «Tort buyurtma qilish» tugmasi orqali."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Qandolatchi bir soat ichida eskiz va narxni yuboradi."
+        },
+        {
+          "title": "Tayyor",
+          "text": "O‘zingiz olib ketasiz yoki kerakli vaqtga olib boramiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Sex",
+      "title": "Desertlar qayerda tug‘iladi",
+      "items": [
+        {
+          "caption": "Ertalabki vitrina",
+          "image": ""
+        },
+        {
+          "caption": "Medovik kesimi",
+          "image": ""
+        },
+        {
+          "caption": "Yubiley torti",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Mehmonlardan xatlar",
+      "items": [
+        {
+          "quote": "Onamning yubileyiga ikki kun oldin tort buyurtma qildik — eskizni qirq daqiqada yuborishdi.",
+          "author": "Nigora K.",
+          "role": "buyurtma tort"
+        },
+        {
+          "quote": "Sho‘r karamelli chizkeyk — bu yerga kelishimga sabab. Qahvasi ham yaxshi.",
+          "author": "Aziz M.",
+          "role": "qahvaxona mehmoni"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Buyurtmalar haqida",
+      "items": [
+        {
+          "q": "Tortni qancha oldin buyurtma qilish kerak?",
+          "a": "Ikki kun oldin, to‘y tortini — bir hafta oldin."
+        },
+        {
+          "q": "Yetkazib berish bormi?",
+          "a": "Toshkent bo‘ylab 2 soatda, 25 000 so‘m. 2 kg dan ortiq tortlar — bepul."
+        },
+        {
+          "q": "Shakarsiz desertlar bormi?",
+          "a": "Ha, har kuni ikki xil va buyurtma bo‘yicha steviyali istalgan tort."
+        },
+        {
+          "q": "Qanday to‘lanadi?",
+          "a": "Naqd, karta yoki o‘tkazma orqali. Tort uchun — 50% oldindan to‘lov."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Desertga kiring",
+      "text": "Amir Temur ko‘chasi, 107, Yunusobod. Har kuni 9:00–22:00.",
+      "cta": {
+        "label": "Tort buyurtma qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

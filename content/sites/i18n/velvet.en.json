@@ -1,0 +1,284 @@
+{
+  "name": "Velvet Casa",
+  "tagline": "Italian upholstered furniture, tailored to your interior",
+  "niche": "Italian upholstered furniture showroom: sofas, armchairs, beds",
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a premium furniture showroom: a dark hall with a sofa under a spotlight and switchable upholstery, collections with Roman numerals, a wine-list price menu and a brass thread through the order path.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Velvet Casa — Italian sofas and armchairs in Tashkent",
+    "description": "An Italian upholstered furniture showroom on Amir Temur: sofas, armchairs and beds made to order in 300 fabrics. Fabric samples to your home, delivery and placement.",
+    "keywords": [
+      "Italian furniture Tashkent",
+      "Italian sofas",
+      "custom upholstered furniture",
+      "velvet sofa",
+      "Italian armchair",
+      "furniture showroom Tashkent"
+    ],
+    "answer": "Velvet Casa is an Italian upholstered furniture showroom in Tashkent at 107B Amir Temur Ave. Made-to-order sofas start at 38,000,000 UZS, armchairs at 14,500,000 UZS, beds at 29,000,000 UZS; over 300 fabrics, made in Italy in 8–12 weeks. We bring fabric samples to your home free of charge."
+  },
+  "business": {
+    "legalName": "Velvet Casa LLC",
+    "street": "107B Amir Temur Ave",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Softness you can see",
+      "eyebrow": "Italian furniture · Tashkent",
+      "subtitle": "Sofas, armchairs and beds from Brianza workshops, sewn to your size and your fabric. Pick a velvet colour and the sofa changes.",
+      "cta": {
+        "label": "Book a visit",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Collections",
+        "href": "#collections"
+      },
+      "image": "",
+      "words": []
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Showroom",
+      "title": "Furniture you choose once",
+      "text": "Velvet Casa is a 600 m² hall on Amir Temur where every model can be touched and every fabric held against a sample of your wall. We work with three family workshops in Brianza that sew each sofa by hand to your measurements. Our designer comes to measure and shows how the piece will sit in your room.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Velvet",
+        "Bouclé",
+        "Linen",
+        "Nappa leather",
+        "Brass",
+        "Walnut",
+        "Made in Italy"
+      ]
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Collections",
+      "title": "Four characters, one showroom",
+      "items": [
+        {
+          "title": "Lago",
+          "category": "Modular sofas",
+          "year": "Brianza",
+          "text": "Low modules that form a corner, an island or a straight run. Feather-filled cushions.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Duna",
+          "category": "Armchairs & poufs",
+          "year": "Meda",
+          "text": "Rounded, deep-seated armchairs in velvet and bouclé. Swivel base on request.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Notte",
+          "category": "Beds",
+          "year": "Cantù",
+          "text": "Soft headboards up to the ceiling, linen storage, sizes from 160 to 200 cm.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Terra",
+          "category": "Tables & consoles",
+          "year": "Brianza",
+          "text": "Walnut, travertine and brass — tables that hold the composition around the sofa.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Models & prices",
+      "title": "Showroom prices",
+      "intro": "“From” prices are for the model in a category A base fabric. The total depends on size, fabric and filling; we calculate it with you.",
+      "items": [
+        {
+          "title": "Lago sofa, 3 modules",
+          "text": "Feather and foam, removable covers.",
+          "price": "from 38,000,000 UZS",
+          "tag": "280 × 105"
+        },
+        {
+          "title": "Lago corner sofa",
+          "text": "Left or right corner, up to 5 modules.",
+          "price": "from 54,000,000 UZS",
+          "tag": "320 × 240"
+        },
+        {
+          "title": "Duna armchair",
+          "text": "Velvet or bouclé, swivel base.",
+          "price": "from 14,500,000 UZS",
+          "tag": "92 × 88"
+        },
+        {
+          "title": "Duna pouf",
+          "text": "To match the armchair or on its own.",
+          "price": "from 4,800,000 UZS",
+          "tag": "Ø 60"
+        },
+        {
+          "title": "Notte bed",
+          "text": "Soft headboard, linen storage.",
+          "price": "from 29,000,000 UZS",
+          "tag": "180 × 200"
+        },
+        {
+          "title": "Terra console",
+          "text": "Travertine and brass.",
+          "price": "from 11,200,000 UZS",
+          "tag": "160 × 40"
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "How to order",
+      "title": "From fabric to the first evening",
+      "items": [
+        {
+          "title": "Visit the showroom",
+          "text": "Try the models, choose the size and a fabric from 300 samples."
+        },
+        {
+          "title": "Measuring & plan",
+          "text": "A designer comes to your home and prepares a layout and a render."
+        },
+        {
+          "title": "Made in Italy",
+          "text": "The workshop sews to your measurements in 8–12 weeks; we send you photos from the floor."
+        },
+        {
+          "title": "Delivery & placement",
+          "text": "We deliver, unpack, place to plan and take the packaging away."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "fabrics and leathers"
+        },
+        {
+          "value": "600",
+          "suffix": " m²",
+          "label": "showroom floor"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "family workshops in Brianza"
+        },
+        {
+          "value": "10",
+          "suffix": " yrs",
+          "label": "frame warranty"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Those who already have one",
+      "items": [
+        {
+          "quote": "We waited ten weeks for the sofa and never regretted it: it is exactly the green we were looking for.",
+          "author": "Sevara and Otabek",
+          "role": "Tashkent City"
+        },
+        {
+          "quote": "The designer brought fabric samples to the flat and held them against the curtains. That settled it.",
+          "author": "Nargiza",
+          "role": "Yunusabad"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "How long does a made-to-order piece take?",
+          "a": "8–12 weeks from the deposit: the workshop sews to your measurements, then it ships to Tashkent."
+        },
+        {
+          "q": "Is anything in stock?",
+          "a": "Yes, floor models are sold at a discount and delivered in 2–3 days."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "A 50% deposit when ordering, the rest before delivery. Cash, card or bank transfer."
+        },
+        {
+          "q": "Can I get fabric samples at home?",
+          "a": "Yes, we bring up to 10 samples free of charge within Tashkent."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Showroom",
+      "title": "Come in for an espresso",
+      "text": "107B Amir Temur, second floor. Free parking at the entrance.",
+      "cta": {
+        "label": "Call the showroom",
+        "href": "tel:+998712000112"
+      }
+    }
+  ]
+}

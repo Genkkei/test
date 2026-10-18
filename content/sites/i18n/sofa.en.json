@@ -1,0 +1,292 @@
+{
+  "name": "Sofa.uz",
+  "tagline": "A sofa in your colour — in 7 days",
+  "niche": "Online store of sofas and upholstered furniture made in-house",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A store site for a sofa and upholstered furniture maker. On the first screen visitors recolour the sofa with fabric swatches, models are cards with silhouettes, and the week to delivery is a road with a van.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Sofa.uz — made-to-order sofas in Tashkent in 7 days",
+    "description": "Straight, corner and modular sofas, armchairs and poufs made in-house. Six fabrics to choose from, removable covers, delivery across Tashkent in 7 days, 3-year warranty.",
+    "keywords": [
+      "buy a sofa Tashkent",
+      "corner sofa",
+      "custom sofa",
+      "modular sofa",
+      "upholstered furniture Tashkent",
+      "sofa with removable covers"
+    ],
+    "answer": "Sofa.uz is a store of sofas made in-house, with a showroom at 7 Mukimi St in Tashkent. A three-seater starts at 7,900,000 UZS, a corner sofa at 11,400,000 UZS, an armchair at 3,200,000 UZS. Six fabrics, removable covers, delivery and carry-up across Tashkent in 7 days, 3-year warranty. The showroom is open daily, 10:00–20:00."
+  },
+  "business": {
+    "legalName": "Sofa Uz LLC",
+    "street": "7 Mukimi St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A sofa made just for you",
+      "eyebrow": "Delivery across Tashkent in 7 days",
+      "subtitle": "Pick a model and an upholstery — we will sew the sofa in our own workshop and bring it in a week. You can touch the fabrics at our Mukimi showroom.",
+      "cta": {
+        "label": "Order a sofa",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "All models",
+        "href": "#models"
+      },
+      "image": "",
+      "words": [
+        "6 fabrics to choose from",
+        "Removable covers",
+        "3-year warranty",
+        "Delivery and carry-up"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Velour",
+        "Bouclé",
+        "Basket weave",
+        "Corduroy",
+        "Removable covers",
+        "Orthopaedic base",
+        "7 days"
+      ]
+    },
+    {
+      "id": "models",
+      "type": "services",
+      "label": "Models",
+      "title": "Seven models — any of six fabrics",
+      "intro": "Prices are for the model in the base fabric. Colour changes are free; bouclé and corduroy add 10%.",
+      "items": [
+        {
+          "title": "Three-seater “Tashkent”",
+          "text": "Deep seat, pocket springs, removable covers.",
+          "price": "from 7,900,000 UZS",
+          "tag": "230 × 95 cm"
+        },
+        {
+          "title": "Corner sofa “Chorsu”",
+          "text": "The corner switches left or right during assembly.",
+          "price": "from 11,400,000 UZS",
+          "tag": "280 × 170 cm"
+        },
+        {
+          "title": "Two-seater “Mini”",
+          "text": "For a small living room, studio or study.",
+          "price": "from 5,600,000 UZS",
+          "tag": "170 × 90 cm"
+        },
+        {
+          "title": "Armchair “Cloud”",
+          "text": "Soft arms and down-filled back cushions.",
+          "price": "from 3,200,000 UZS",
+          "tag": "90 × 90 cm"
+        },
+        {
+          "title": "Modular “Constructor”",
+          "text": "Built from sections: straight, corner or island.",
+          "price": "from 9,900,000 UZS",
+          "tag": "from 3 modules"
+        },
+        {
+          "title": "Pouf “Tablet”",
+          "text": "A footrest, an extra seat for a guest and a table with a tray.",
+          "price": "from 1,300,000 UZS",
+          "tag": "60 × 60 cm"
+        },
+        {
+          "title": "Sofa bed “Guest”",
+          "text": "Click-clack mechanism, sleeping area 160 × 200 cm.",
+          "price": "from 8,600,000 UZS",
+          "tag": "200 × 100 cm"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "type": "process",
+      "label": "Delivery",
+      "title": "One week from order to sofa",
+      "items": [
+        {
+          "title": "Day 1 — order",
+          "text": "You choose the model and fabric and pay a deposit."
+        },
+        {
+          "title": "Day 2 — cutting",
+          "text": "We cut the fabric and prepare the frame."
+        },
+        {
+          "title": "Days 3–5 — sewing",
+          "text": "We assemble the frame, fit the springs and sew the covers."
+        },
+        {
+          "title": "Day 6 — inspection",
+          "text": "We check the seams and mechanisms and send you a photo."
+        },
+        {
+          "title": "Day 7 — delivery",
+          "text": "We deliver, carry it up and remove the wrapping."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "7",
+          "suffix": "days",
+          "label": "from order to delivery"
+        },
+        {
+          "value": "6",
+          "suffix": "fabrics",
+          "label": "to choose from"
+        },
+        {
+          "value": "3",
+          "suffix": "years",
+          "label": "warranty on the frame"
+        },
+        {
+          "value": "2500",
+          "suffix": "+",
+          "label": "sofas delivered"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "At home",
+      "title": "How they live with our customers",
+      "items": [
+        {
+          "caption": "“Tashkent” in emerald",
+          "image": ""
+        },
+        {
+          "caption": "“Chorsu” in sand",
+          "image": ""
+        },
+        {
+          "caption": "The “Cloud” armchair",
+          "image": ""
+        },
+        {
+          "caption": "“Constructor” as an island",
+          "image": ""
+        },
+        {
+          "caption": "Poufs in terracotta",
+          "image": ""
+        },
+        {
+          "caption": "“Guest” in a study",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Sitting and smiling",
+      "items": [
+        {
+          "quote": "We picked the fabric at the showroom and a week later the sofa was at home. We wash the covers in the machine — a lifesaver with kids.",
+          "author": "Malika",
+          "role": "“Tashkent”, emerald"
+        },
+        {
+          "quote": "They assembled the corner sofa in 20 minutes and moved the corner to the other side straight away — just as promised.",
+          "author": "Bobur",
+          "role": "“Chorsu”, graphite"
+        },
+        {
+          "quote": "We bought two armchairs for the study. Soft to sit on, and your back never tires.",
+          "author": "Nargiza",
+          "role": "“Cloud”, sand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Will the sofa really arrive in 7 days?",
+          "a": "Yes, for every catalogue model in the six main fabrics. The date goes into the contract; modular sets of more than five sections take up to 10 days."
+        },
+        {
+          "q": "Can I see the fabrics in person?",
+          "a": "Yes, all swatches are at the showroom at 7 Mukimi St. We can also bring swatches to your home for free."
+        },
+        {
+          "q": "Do the covers really come off?",
+          "a": "Yes, on every model except “Guest”. Wash them at 30 °C or have them dry-cleaned."
+        },
+        {
+          "q": "How much is delivery?",
+          "a": "Delivery and carry-up are free within Tashkent. Outside the city at the carrier’s rate."
+        },
+        {
+          "q": "Can I pay in instalments?",
+          "a": "Yes, through partner instalment services for 6 or 12 months. A manager will explain the terms."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "We will find your sofa in 10 minutes",
+      "text": "Send a request or visit the showroom: we will show every model and fabric and work out delivery.",
+      "cta": {
+        "label": "Send a request",
+        "href": "#order"
+      }
+    }
+  ]
+}

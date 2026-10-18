@@ -1,0 +1,277 @@
+{
+  "name": "Uyut Home",
+  "tagline": "Furniture and textiles for a warm home",
+  "niche": "Furniture and home textiles",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a furniture store or home textiles salon: collection spreads with sizes and lead times, a fabric palette, sewing rates and an order form sent to Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Uyut Home — furniture and home textiles in Tashkent",
+    "description": "Sofas, beds, throws and curtains in warm tones. Showroom on Muqimiy St, delivery across Tashkent in 2 days, made-to-measure curtains from 7 days.",
+    "keywords": [
+      "furniture Tashkent",
+      "buy a sofa Tashkent",
+      "made-to-measure curtains",
+      "throws",
+      "home textiles",
+      "upholstered bed"
+    ],
+    "answer": "Uyut Home is a furniture and home textiles store in Tashkent (7 Muqimiy St), open daily 10:00–20:00. Sofas from 6,900,000 UZS, beds from 4,800,000 UZS, made-to-measure curtains from 7 days. Delivery across Tashkent takes 2 days, carrying and assembly included."
+  },
+  "business": {
+    "legalName": "Uyut Home LLC",
+    "street": "7 Muqimiy St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and the region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A home you want to stay in",
+      "eyebrow": "Furniture & textiles · Tashkent · showroom on Muqimiy",
+      "subtitle": "Soft sofas, beds with linen headboards, wool throws and curtains made to your measurements. Touch everything in the showroom and have it at home in two days.",
+      "words": [
+        "living room",
+        "evening",
+        "November"
+      ],
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "See collections",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Things that grow warmer with time",
+      "text": "We choose furniture you will not want to replace in two years: beech and birch frames, fillings that do not sag, durable fabrics. Curtains, bedspreads and covers are sewn in our own workshop in the same building, so the sofa and curtain colours match exactly. The showroom designer will put together a room from our pieces for free.",
+      "image": ""
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Collections",
+      "title": "Put together as rooms",
+      "items": [
+        {
+          "title": "The Olma living room",
+          "category": "Living room",
+          "year": "in stock",
+          "text": "A cinnamon chenille corner sofa, an oak coffee table and a wool throw · Sofa: 280 × 180 cm · Lead time: 2 days · Price: from 9,400,000 UZS",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Tong bedroom",
+          "category": "Bedroom",
+          "year": "made to order",
+          "text": "A bed with a tall linen headboard, ash nightstands and blackout curtains · Bed: 160 × 200 cm · Lead time: 14 days · Price: from 7,200,000 UZS",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Bulut kids’ room",
+          "category": "Kids’ room",
+          "year": "in stock",
+          "text": "A birch house bed, a soft pouf and cotton curtains with clouds · Bed: 90 × 190 cm · Lead time: 3 days · Price: from 3,900,000 UZS",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Dasturxon dining room",
+          "category": "Dining room",
+          "year": "made to order",
+          "text": "An extendable elm table for eight, chairs with fabric seats and a tablecloth · Table: 180–240 cm · Lead time: 21 days · Price: from 8,600,000 UZS",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "fabrics",
+      "type": "gallery",
+      "label": "Fabrics",
+      "title": "The fabric palette in the showroom",
+      "items": [
+        {
+          "caption": "Cinnamon chenille",
+          "image": ""
+        },
+        {
+          "caption": "Oat linen",
+          "image": ""
+        },
+        {
+          "caption": "Milky bouclé",
+          "image": ""
+        },
+        {
+          "caption": "Olive velour",
+          "image": ""
+        },
+        {
+          "caption": "Wool for throws",
+          "image": ""
+        },
+        {
+          "caption": "Cotton for curtains",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Sewing",
+      "title": "Sewn to your measurements",
+      "items": [
+        {
+          "name": "Curtains",
+          "price": "from 180,000 UZS",
+          "period": "per running metre",
+          "features": [
+            "Free measuring at home",
+            "Showroom fabric or yours",
+            "Hemming and tape included",
+            "Ready in 7 days"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Turnkey room",
+          "price": "from 2,400,000 UZS",
+          "period": "per room",
+          "features": [
+            "Curtains, bedspread and cushions in one colour",
+            "Chosen with a designer",
+            "Curtain rods installed",
+            "Ready in 10 days"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Furniture covers",
+          "price": "from 900,000 UZS",
+          "period": "per sofa",
+          "features": [
+            "Removable and washable",
+            "Pattern cut to your sofa",
+            "Ready in 5 days"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "Four steps to delivery",
+      "items": [
+        {
+          "title": "Showroom or video call",
+          "text": "We show fabrics and models and can send samples home for a day."
+        },
+        {
+          "title": "Measuring and quote",
+          "text": "A fitter visits for free, the quote comes the same day."
+        },
+        {
+          "title": "30% deposit",
+          "text": "The rest after delivery and assembly."
+        },
+        {
+          "title": "Delivery and assembly",
+          "text": "We bring it, carry it upstairs and assemble it. We take the packaging away."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What buyers say",
+      "items": [
+        {
+          "quote": "The curtains and the sofa came out the same shade — exactly like the sample. Delivered on day three.",
+          "author": "Malika",
+          "role": "Chilanzar"
+        },
+        {
+          "quote": "The designer put the bedroom together in an hour; we bought it all and have no regrets.",
+          "author": "Timur",
+          "role": "Mirzo Ulugbek"
+        },
+        {
+          "quote": "Covers made the old sofa look new, and the kids’ marks simply wash out now.",
+          "author": "Dilnoza",
+          "role": "Yunusabad"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much is delivery?",
+          "a": "Free across Tashkent for orders over 5,000,000 UZS, otherwise 150,000 UZS. To the region — on quote."
+        },
+        {
+          "q": "Can I order a sofa in a different fabric?",
+          "a": "Yes, any model can be made in any fabric from the palette in 14 days."
+        },
+        {
+          "q": "Do you offer instalments?",
+          "a": "Yes, through partner banks for 6 or 12 months with no down payment."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "18 months on frames and mechanisms, 6 months on fabric and seams."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come and sit on the sofas",
+      "text": "Showroom at 7 Muqimiy St — daily 10:00–20:00. Parking in the courtyard.",
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      }
+    }
+  ]
+}

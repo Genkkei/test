@@ -1,0 +1,303 @@
+{
+  "name": "Sandon",
+  "tagline": "We hand-forge things that stay in a home for decades",
+  "niche": "Artistic forge: grills, fireplaces, railings and décor",
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a blacksmith, an artistic forging workshop or a maker of grills and fireplaces. A glowing forge with sparks on the first screen, a product catalogue with “from” prices, steps shown as a scale of heat colours and a form to book a measurer.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurer",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Sandon — artistic forging in Tashkent: grills and fireplaces",
+    "description": "Sandon forge hand-makes grills, fireplace sets, railings, beds and décor to your sketch. Free measuring, from 10 days, 5-year warranty on welds.",
+    "keywords": [
+      "artistic forging Tashkent",
+      "forged grill",
+      "blacksmith Tashkent",
+      "wrought iron railings",
+      "fireplace set",
+      "forged décor"
+    ],
+    "answer": "Sandon is an artistic forge at 24 Beshyogoch St. in Tashkent, open Monday to Saturday, 9:00–19:00. A hand-forged grill starts at 3,900,000 UZS, a fireplace set at 1,800,000 UZS, railings at 950,000 UZS per running metre. Measuring and sketch are free, making takes from 10 days, welds carry a 5-year warranty."
+  },
+  "business": {
+    "legalName": "Sandon Temir LLC",
+    "street": "24 Beshyogoch St. (workshop in the courtyard)",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sandon",
+      "eyebrow": "Artistic forge · Tashkent",
+      "subtitle": "Hand-forged grills, fireplaces, railings and décor. We draw the sketch with you, forge it in the fire and install it at your home — no catalogue templates.",
+      "cta": {
+        "label": "Book a visit",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Our pieces",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "grills",
+        "fireplaces",
+        "railings",
+        "beds",
+        "lanterns",
+        "décor"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Hand-forged",
+        "Free sketch",
+        "Steel 3 mm and thicker",
+        "Powder coating",
+        "Turnkey installation",
+        "5-year warranty"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The workshop",
+      "title": "Metal that remembers the hammer",
+      "text": "Sandon is one forge, two anvils and four smiths in a courtyard on Beshyogoch. We don’t weld pieces from ready-made stamped parts: every scroll, leaf and spike is drawn out of the bar by hand. That is why we never make two identical grills — and that is exactly why people come to us. Before we start, we visit, measure, draw a full-size sketch and agree on every detail.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Catalogue",
+      "title": "What we forge",
+      "intro": "Prices are for a typical size. We give the final figure after measuring and sketching: it depends on length, metal thickness and the number of hand-forged elements.",
+      "items": [
+        {
+          "title": "Hand-forged grill",
+          "text": "Steel 4 mm, removable grate, log shelf, optional rain roof.",
+          "price": "from 3,900,000 UZS",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Kazan stove & grill set",
+          "text": "Grill, kazan stove and worktop in one frame for the yard.",
+          "price": "from 7,500,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Fireplace set and screen",
+          "text": "Poker, shovel, tongs, stand and spark screen in one design.",
+          "price": "from 1,800,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Stair railings",
+          "text": "For stairs, balconies and terraces, with a wooden or metal handrail.",
+          "price": "from 950,000 UZS/m",
+          "tag": ""
+        },
+        {
+          "title": "Forged bed",
+          "text": "A headboard in your pattern, reinforced slats for any mattress.",
+          "price": "from 4,200,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Lanterns and outdoor lights",
+          "text": "Wall-mounted and post lanterns for LED bulbs, with frosted glass.",
+          "price": "from 850,000 UZS",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "pieces forged"
+        },
+        {
+          "value": "10",
+          "suffix": " years",
+          "label": "at the forge"
+        },
+        {
+          "value": "5",
+          "suffix": " years",
+          "label": "warranty on welds"
+        },
+        {
+          "value": "10",
+          "suffix": " days",
+          "label": "shortest lead time"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Work",
+      "title": "Fresh from the forge",
+      "items": [
+        {
+          "title": "“Grapevine” grill",
+          "category": "Private house, Yunusabad",
+          "year": "2026",
+          "text": "Vines and leaves on the sides, a canopy roof and a kazan shelf.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Three-storey railing",
+          "category": "Townhouse, Mirzo-Ulugbek",
+          "year": "2026",
+          "text": "18 running metres, a walnut handrail, scrolls set to the architect’s sketch.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Peacock” fire screen",
+          "category": "Apartment, Tashkent City",
+          "year": "2025",
+          "text": "A tail of 42 forged feathers with a bronze-like patina.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Lanterns for a teahouse",
+          "category": "Restaurant, Chilanzar",
+          "year": "2025",
+          "text": "Twelve lanterns with an islimi pattern and warm light.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From measuring to fire",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "We come on a day that suits you, measure and check how the piece will fit. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw it full size, show sample elements and fix the price."
+        },
+        {
+          "title": "Forging",
+          "text": "Every element is made in the fire and on the anvil. You are welcome to come and watch."
+        },
+        {
+          "title": "Finishing",
+          "text": "Sandblasting, primer and powder coat or an antique patina."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver, install and clean up after ourselves. Welds carry a 5-year warranty."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "The grill is in its third season with not a spot of rust. The neighbours have already asked for the forge’s number.",
+          "author": "Sherzod",
+          "role": "private house, Yunusabad"
+        },
+        {
+          "quote": "We brought a photo of European railings — they made them better than the photo and fitted them to our crooked stairs.",
+          "author": "Nargiza",
+          "role": "townhouse"
+        },
+        {
+          "quote": "They were honest about timing: 14 days. They finished in 13 and installed everything themselves.",
+          "author": "Bakhtiyor",
+          "role": "restaurateur"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How much is a forged grill?",
+          "a": "A hand-forged grill starts at 3,900,000 UZS for a typical 8-skewer size. The price grows with length, steel thickness and the number of hand-made elements; we quote the exact sum after the sketch."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "From 10 days for a grill or fireplace set, 3–5 weeks for railings and large orders. We fix the deadline in the contract."
+        },
+        {
+          "q": "Can you make it to my drawing?",
+          "a": "Yes, most orders start that way: with a photo, a drawing or an idea. We develop the sketch into a drawing and show sample elements."
+        },
+        {
+          "q": "Will it rust outdoors?",
+          "a": "Before painting we sandblast and prime the metal, then apply powder coat. Welds carry a 5-year warranty."
+        },
+        {
+          "q": "Do you work outside Tashkent?",
+          "a": "Yes, across Tashkent region. Measuring and delivery outside the city are charged separately; we tell you the amount in advance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come to the forge",
+      "text": "Leave a request — a smith will call back within an hour to arrange a free measuring visit.",
+      "cta": {
+        "label": "Book a measurer",
+        "href": "#order"
+      }
+    }
+  ]
+}

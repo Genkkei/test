@@ -1,0 +1,270 @@
+{
+  "name": "Origin Roasters",
+  "tagline": "Roasted on Tuesday, shipped on Wednesday. Beans with a farm passport",
+  "niche": "Coffee roastery and whole-bean shop",
+  "nav": {
+    "cta": {
+      "label": "Order beans",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a roastery, a whole-bean shop or a tea brand. A dark, data-rich theme: a live roast profile, lots with a flavour wheel and a subscription shown as coffee bags.",
+    "features": []
+  },
+  "seo": {
+    "title": "Origin Roasters — fresh-roasted coffee in Tashkent",
+    "description": "A roastery in Chilanzar: specialty beans from Ethiopia, Colombia, Kenya and Brazil, roasted every Tuesday, with a subscription delivered across Uzbekistan and wholesale for cafés.",
+    "keywords": [
+      "whole bean coffee Tashkent",
+      "coffee roasting",
+      "specialty beans",
+      "coffee subscription",
+      "wholesale coffee for cafés",
+      "fresh roast"
+    ],
+    "answer": "Origin Roasters is a roastery at 28 Qatortol St in Tashkent. We roast every Tuesday and the shop is open Tuesday to Saturday, 10:00–19:00. A 250 g bag starts at 145,000 UZS and the Two Bags a Month subscription costs 270,000 UZS with delivery across Uzbekistan. Wholesale for cafés starts at 5 kg."
+  },
+  "business": {
+    "legalName": "Origin Roasters LLC",
+    "street": "28 Qatortol St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Fresh roast every Tuesday",
+      "eyebrow": "Roastery · Chilanzar · with delivery",
+      "subtitle": "We buy green coffee directly from farms, roast it in small 12 kg batches and ship within a day. Every bag carries the farm, altitude, process and roast date.",
+      "words": [
+        "Ethiopia Guji",
+        "Colombia Huila",
+        "Kenya Nyeri"
+      ],
+      "cta": {
+        "label": "Choose beans",
+        "href": "#lots"
+      },
+      "ctaSecondary": {
+        "label": "Subscription",
+        "href": "#subscription"
+      },
+      "image": ""
+    },
+    {
+      "id": "lots",
+      "type": "works",
+      "label": "Lots",
+      "title": "On the roaster now",
+      "items": [
+        {
+          "title": "Ethiopia Guji",
+          "category": "natural · 2100 m",
+          "year": "current harvest",
+          "text": "strawberry, jasmine, dark chocolate",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Colombia Huila",
+          "category": "washed · 1750 m",
+          "year": "current harvest",
+          "text": "caramel, red apple, cocoa",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kenya Nyeri AA",
+          "category": "washed · 1800 m",
+          "year": "current harvest",
+          "text": "blackcurrant, grapefruit, tomato",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Brazil Cerrado",
+          "category": "pulped natural · 1100 m",
+          "year": "for espresso",
+          "text": "nuts, milk chocolate, honey",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Rwanda Huye",
+          "category": "washed · 1900 m",
+          "year": "micro-lot",
+          "text": "bergamot, peach, honey tea",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "type": "process",
+      "label": "The journey",
+      "title": "From farm to your cup",
+      "items": [
+        {
+          "title": "Farm",
+          "text": "We choose lots from samples and cupping and buy without middlemen."
+        },
+        {
+          "title": "Roast",
+          "text": "Every Tuesday, 12 kg batches, a profile for each lot."
+        },
+        {
+          "title": "Cupping",
+          "text": "We cup every batch: what does not pass never reaches a bag."
+        },
+        {
+          "title": "Delivery",
+          "text": "Next day in Tashkent, 2–4 days across Uzbekistan."
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "pricing",
+      "label": "Subscription",
+      "title": "Fresh beans without reminders",
+      "items": [
+        {
+          "name": "One bag",
+          "price": "140,000 UZS",
+          "period": "/ month",
+          "features": [
+            "250 g of the lot of the month",
+            "free delivery in Tashkent",
+            "ground for your brewer"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Two bags",
+          "price": "270,000 UZS",
+          "period": "/ month",
+          "features": [
+            "two different lots",
+            "free delivery across Uzbekistan",
+            "a brew-recipe card"
+          ],
+          "featured": true
+        },
+        {
+          "name": "For cafés",
+          "price": "from 5 kg",
+          "period": "/ week",
+          "features": [
+            "espresso blend or single origin",
+            "barista training",
+            "on-site grinder setup"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Passport",
+      "title": "The roastery in numbers",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "kg",
+          "label": "roast batch"
+        },
+        {
+          "value": "5",
+          "suffix": "lots",
+          "label": "roasting now"
+        },
+        {
+          "value": "24",
+          "suffix": "h",
+          "label": "from roast to dispatch"
+        },
+        {
+          "value": "40",
+          "suffix": "cafés",
+          "label": "brew our beans"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Who drinks our coffee",
+      "items": [
+        {
+          "quote": "We switched our café to their espresso blend and guests started ordering doubles.",
+          "author": "Jasur",
+          "role": "café owner"
+        },
+        {
+          "quote": "The subscription arrives on Wednesday with a Tuesday roast date. You cannot buy fresher.",
+          "author": "Olga",
+          "role": "subscriber"
+        },
+        {
+          "quote": "Their Kenya really does smell of blackcurrant. It is all I buy now.",
+          "author": "Bakhtiyor",
+          "role": "home barista"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "About beans and delivery",
+      "items": [
+        {
+          "q": "How long do the beans keep?",
+          "a": "It tastes best from day 5 to day 30 after roasting. Keep the bag closed and out of the fridge."
+        },
+        {
+          "q": "Can you grind for a cezve?",
+          "a": "Yes — for a cezve, pour-over, French press, moka pot or espresso. Just mark it when ordering."
+        },
+        {
+          "q": "Do you deliver to the regions?",
+          "a": "Across Uzbekistan in 2–4 days, free on the Two Bags subscription."
+        },
+        {
+          "q": "Can I come to a cupping?",
+          "a": "Open cupping every Saturday at 12:00, free, booking required."
+        },
+        {
+          "q": "Do you work with cafés?",
+          "a": "Yes: wholesale from 5 kg a week, barista training and equipment setup."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Pick up or order delivery",
+      "text": "28 Qatortol, entrance from the courtyard. On Tuesdays the whole block smells of roasting.",
+      "cta": {
+        "label": "Order beans",
+        "href": "#order"
+      }
+    }
+  ]
+}

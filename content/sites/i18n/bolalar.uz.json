@@ -1,0 +1,240 @@
+{
+  "name": "Bolalar Mebel",
+  "tagline": "Bola bilan birga o‘sadigan bolalar mebeli",
+  "niche": "Bolalar mebeli",
+  "seo": {
+    "title": "Bolalar Mebel — Toshkentda bolalar mebeli",
+    "description": "Uycha-karavotlar, o‘sadigan partalar va qayindan o‘yinchoq saqlash tizimlari. Xavfsiz bo‘yoqlar, yumaloq burchaklar, bir soatda yig‘ish, Toshkent bo‘ylab bepul yetkazish.",
+    "keywords": [
+      "Toshkentda bolalar mebeli",
+      "uycha karavot",
+      "o‘sadigan parta",
+      "o‘yinchoqlarni saqlash",
+      "ikki qavatli karavot"
+    ],
+    "answer": "Bolalar Mebel — Toshkentdagi bolalar mebeli do‘koni (Chilonzor, Bunyodkor ko‘chasi, 21). Qayindan uycha-karavotlar 3 400 000 so‘mdan, o‘sadigan partalar 2 100 000 so‘mdan, o‘yinchoq javonlari 950 000 so‘mdan. Suv asosidagi bo‘yoqlar, Toshkent bo‘ylab bepul yetkazish, bir soatda yig‘ish."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma berish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Bolalar mebeli yoki o‘yinchoqlar do‘koni uchun sayt: birinchi ekranda yumshoq tomchilar, guruhlar bo‘yicha narx kartasi, bolalar xonasi oldin/keyin, jamoa va ota-onalarga javoblar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Bolalar Mebel» MChJ",
+    "street": "Bunyodkor ko‘chasi, 21, Chilonzor",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "O‘sgisi keladigan xona",
+      "eyebrow": "Bolalar mebeli · Chilonzor · har kuni 10–20",
+      "subtitle": "Uycha-karavotlar, bo‘y bilan birga ko‘tariladigan partalar va bola o‘yinchoqlarini o‘zi yig‘adigan tokchalar. Qayin, xavfsiz bo‘yoqlar va yumaloq burchaklar.",
+      "words": [
+        "Karavotlar",
+        "Partalar",
+        "Javonlar",
+        "Shkaflar"
+      ],
+      "cta": {
+        "label": "Buyurtma berish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#prices"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Qayin",
+        "Suv asosidagi bo‘yoqlar",
+        "Yumaloq burchaklar",
+        "Bir soatda yig‘ish",
+        "Bola bilan o‘sadi"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Bolalar tekshiradigan mebel",
+      "text": "Duradgorlarimiz o‘zlari ota-ona, shuning uchun har bir model avval jamoadagi kimningdir bolalar xonasida yashaydi. Qayin faneri va massividan yasaymiz, suv asosida bo‘yaymiz, barmoq qisilmasligi uchun tortmalar yopgichli.",
+      "image": ""
+    },
+    {
+      "id": "prices",
+      "type": "services",
+      "label": "Narxlar",
+      "title": "Bolalar xonasi uchun nima qilamiz",
+      "intro": "Rang — 12 ta pastel rangdan istalgani. O‘lcham 80×160 yoki 90×190 matras uchun.",
+      "items": [
+        {
+          "title": "Uycha-karavot",
+          "text": "Bortikli, ko‘rpa uchun tortma",
+          "price": "3 400 000 so‘m",
+          "tag": "Karavotlar"
+        },
+        {
+          "title": "Ikki qavatli karavot",
+          "text": "Komod-narvon, yuk 120 kg gacha",
+          "price": "6 900 000 so‘m",
+          "tag": "Karavotlar"
+        },
+        {
+          "title": "Chaqaloq karavotchasi",
+          "text": "Divanchaga aylanadi",
+          "price": "2 600 000 so‘m",
+          "tag": "Karavotlar"
+        },
+        {
+          "title": "O‘sadigan parta",
+          "text": "Balandlik va qiyalik, 5 yoshdan 15 yoshgacha",
+          "price": "2 100 000 so‘m",
+          "tag": "O‘qish"
+        },
+        {
+          "title": "Parta uchun stul",
+          "text": "Parta bilan birga sozlanadi",
+          "price": "890 000 so‘m",
+          "tag": "O‘qish"
+        },
+        {
+          "title": "O‘yinchoqlar javoni",
+          "text": "Qiya tokchalar va 6 ta savat",
+          "price": "950 000 so‘m",
+          "tag": "Saqlash"
+        },
+        {
+          "title": "Bo‘y o‘lchagichli shkaf",
+          "text": "Ikki darajali osgich",
+          "price": "3 800 000 so‘m",
+          "tag": "Saqlash"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Bolalar xonasi oldin va keyin",
+      "title": "Slayderni suring",
+      "items": [
+        {
+          "caption": "Ikki bola uchun 9 m² xona",
+          "image": ""
+        },
+        {
+          "caption": "O‘quvchi burchagi",
+          "image": ""
+        },
+        {
+          "caption": "Uychali o‘yin xonasi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Jamoa",
+      "title": "O‘z bolalarimiz uchun ham mebel yasaymiz",
+      "items": [
+        {
+          "name": "Jasur",
+          "role": "duradgor, ikki bolaning otasi",
+          "image": ""
+        },
+        {
+          "name": "Malika",
+          "role": "bolalar xonasi dizayneri",
+          "image": ""
+        },
+        {
+          "name": "Oybek",
+          "role": "yig‘ish va yetkazish",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Ota-onalar yozadi",
+      "items": [
+        {
+          "quote": "O‘g‘lim uychada uxlashni o‘zi so‘radi — birinchi marta ko‘ndirishsiz.",
+          "author": "Feruza",
+          "role": "uycha-karavot"
+        },
+        {
+          "quote": "Parta allaqachon ikki marta ko‘tarildi, qizim tekis o‘tiradi.",
+          "author": "Bahrom",
+          "role": "o‘sadigan parta"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ota-onalar savollari",
+      "items": [
+        {
+          "q": "Mebelni nima bilan bo‘yaysiz?",
+          "a": "Hidsiz suv asosidagi akril bo‘yoqlar bilan; sertifikatlarni do‘konda ko‘rsatamiz."
+        },
+        {
+          "q": "Buyurtmani qancha kutish kerak?",
+          "a": "Mavjud modellar — 1–2 kun, sizning rangingizda — 14 ish kuni."
+        },
+        {
+          "q": "Yig‘ish pullikmi?",
+          "a": "Toshkent bo‘ylab yetkazish va yig‘ish bepul, taxminan bir soat oladi."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Konstruksiya va furnituraga 18 oy."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Bolalar xonasi o‘lchamlarini yuboring",
+      "text": "Telegramga xona o‘lchami va bola yoshini yozing — mebel joylashuvi va narxini yuboramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/bolalar_mebel"
+      }
+    }
+  ]
+}

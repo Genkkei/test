@@ -1,0 +1,258 @@
+{
+  "name": "Noir",
+  "tagline": "A coffee bar of signature drinks",
+  "niche": "Premium coffee bar",
+  "nav": {
+    "cta": {
+      "label": "Reserve",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a premium coffee bar, cocktail lounge or chef-driven restaurant. Living silk on the first screen, a drinks list with photos that follow the cursor, a dark elegant palette.",
+    "features": []
+  },
+  "seo": {
+    "title": "Noir — signature coffee bar in Tashkent",
+    "description": "Signature alcohol-free coffee cocktails, espresso tonics and cold brew at 45 Babur St. A dark room, a 12-seat bar and a five-drink tasting flight.",
+    "keywords": [
+      "coffee bar Tashkent",
+      "signature coffee",
+      "espresso tonic",
+      "coffee on Babur Street",
+      "coffee tasting Tashkent"
+    ],
+    "answer": "Noir is a coffee bar at 45 Babur St in Tashkent, open from 10 am to midnight and till 1 am on Fridays and weekends. Signature drinks cost 42,000–58,000 UZS, an espresso tonic 39,000 UZS and a five-drink tasting flight 160,000 UZS. No alcohol is served."
+  },
+  "business": {
+    "legalName": "Noir Coffee LLC",
+    "street": "45 Babur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Coffee that tastes",
+      "eyebrow": "Coffee bar · Babur 45 · till 1 am",
+      "subtitle": "Twelve seats at the bar, low light and drinks you won’t find on other menus. The barista builds you an evening of five cups — no alcohol, all aftertaste.",
+      "words": [
+        "like evening",
+        "slow",
+        "unforgettable"
+      ],
+      "cta": {
+        "label": "Reserve the bar",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Drinks",
+        "href": "#drinks"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "title": "What we do",
+      "items": [
+        "Espresso tonic",
+        "Cold brew",
+        "Tastings",
+        "Alcohol-free",
+        "A bar for 12"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The bar",
+      "title": "Coffee as a cocktail: precise, cold, with character",
+      "text": "Noir was opened by baristas who had won city championships and grew tired of syrup lattes. Every drink is built in front of you, ice is cracked by hand, and we make our own syrups and infusions. No laptops, no loud music — just the bar, conversation and taste.",
+      "image": ""
+    },
+    {
+      "id": "drinks",
+      "type": "works",
+      "label": "Drinks",
+      "title": "The signature list",
+      "items": [
+        {
+          "title": "Black Pearl",
+          "category": "espresso, tonic, rosemary",
+          "year": "42,000 UZS",
+          "text": "Bitter, fresh, with a piney nose.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Velvet",
+          "category": "cold brew, cream, Tahitian vanilla",
+          "year": "48,000 UZS",
+          "text": "Soft and dense, like a sugar-free dessert.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Pomegranate Garden",
+          "category": "filter, pomegranate, black tea",
+          "year": "52,000 UZS",
+          "text": "Uzbek pomegranate and Ethiopian coffee in one glass.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Smoke",
+          "category": "espresso, smoked maple syrup",
+          "year": "58,000 UZS",
+          "text": "Served under a cloche of cherry-wood smoke.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Night flight",
+          "category": "five drinks, barista’s choice",
+          "year": "160,000 UZS",
+          "text": "An hour-long tasting with the story of each bean.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Classics",
+      "title": "If you just want coffee",
+      "groups": [
+        {
+          "name": "Espresso bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Seasonal blend",
+              "price": "24,000 UZS"
+            },
+            {
+              "name": "Cortado",
+              "text": "Espresso with a little milk",
+              "price": "30,000 UZS"
+            },
+            {
+              "name": "Flat white",
+              "text": "Double ristretto",
+              "price": "34,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Cold",
+          "items": [
+            {
+              "name": "Cold brew",
+              "text": "Steeped 18 hours",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Espresso tonic",
+              "text": "Tonic, orange zest",
+              "price": "39,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Noir in numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "bar seats"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "signature drinks"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "beans per season"
+        },
+        {
+          "value": "18",
+          "suffix": "h",
+          "label": "cold brew steeps"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "After an evening at Noir",
+      "items": [
+        {
+          "quote": "We came on a date and left with a notebook of coffee notes. “Smoke” is pure theatre.",
+          "author": "Sevara and Timur",
+          "role": "Saturday guests"
+        },
+        {
+          "quote": "I don’t drink and finally found a bar where I have something to order.",
+          "author": "Jahongir",
+          "role": "architect"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before your visit",
+      "items": [
+        {
+          "q": "Do I need to book?",
+          "a": "Usually not on weekdays. On Fridays and weekends it is best to book — there are only twelve seats."
+        },
+        {
+          "q": "Do you serve alcohol?",
+          "a": "No. Every drink is alcohol-free; the complexity comes from coffee, tea and infusions."
+        },
+        {
+          "q": "How long is the tasting?",
+          "a": "About an hour. Five drinks and the barista’s story; for two it is 300,000 UZS."
+        },
+        {
+          "q": "Is there a dress code?",
+          "a": "No, come as you like. We only ask that you don’t work on a laptop at the bar in the evening."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Take a seat at the bar",
+      "text": "45 Babur St, side entrance, a black door with no sign. Until midnight, till 1 am on Fridays and weekends.",
+      "cta": {
+        "label": "Reserve",
+        "href": "#order"
+      }
+    }
+  ]
+}

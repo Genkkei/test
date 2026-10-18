@@ -1,0 +1,265 @@
+{
+  "name": "Dizayn",
+  "tagline": "Dizaynerlik mebeli va kolleksiya buyumlari galereyasi",
+  "niche": "Dizaynerlik mebeli galereyasi",
+  "seo": {
+    "title": "Dizayn — Toshkentda dizaynerlik mebeli galereyasi",
+    "description": "O‘zbekiston va Yevropa mualliflaridan dizaynerlik mebeli, chiroqlar va kolleksiya buyumlari. Har ikki oyda ko‘rgazmalar, vitrinadan va buyurtma asosida xarid, mamlakat bo‘ylab yetkazish.",
+    "keywords": [
+      "Toshkentda dizaynerlik mebeli",
+      "mebel galereyasi",
+      "mualliflik mebeli",
+      "kolleksiya dizayni",
+      "dizaynerlik kreslosini sotib olish"
+    ],
+    "answer": "Dizayn — Toshkentdagi dizaynerlik mebeli galereyasi (Shota Rustaveli ko‘chasi, 52). O‘zbekiston va Yevropa mualliflarining mebeli, chiroqlari va kolleksiya buyumlarini ko‘rsatadi va sotadi: kreslolar 9 500 000 so‘mdan, chiroqlar 2 800 000 so‘mdan. Ko‘rgazmalar har ikki oyda almashadi, seshanbadan yakshanbagacha 11–20 da ochiq."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyum sotib olish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Dizayn galereyasi yoki mualliflik mebeli shourumi uchun sayt: butun kenglikdagi nom, muzey yorlig‘i bilan buyum, ko‘rgazmalar indeksi, ishlar vitrinasi va kolleksionerlar uchun bo‘lim.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Dizayn Galereya» MChJ",
+    "street": "Shota Rustaveli ko‘chasi, 52, Yakkasaroy",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kolleksiya qilinadigan mebel",
+      "eyebrow": "«Chinor» kreslosi · Baxtiyor Karimov, 2026 · yong‘oq, charm · yagona nusxada",
+      "subtitle": "«Iliq yog‘och» ko‘rgazmasida sakkiz muallifdan yigirmata buyum. Hammasini ushlab, o‘tirib ko‘rish va sotib olish mumkin — vitrinadan yoki o‘z rangingizda buyurtma bilan.",
+      "words": [
+        "Kreslolar",
+        "Yorug‘lik",
+        "Stollar",
+        "Keramika"
+      ],
+      "cta": {
+        "label": "Buyum sotib olish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ko‘rgazmalar",
+        "href": "#shows"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Iliq yog‘och",
+        "Mualliflik mebeli",
+        "Yorug‘lik",
+        "Keramika",
+        "Buyurtma bilan"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Galereya",
+      "title": "Mebel san’at kabi ko‘rsatiladigan shourum",
+      "text": "Biz mebel va chiroqlarni kichik ustaxonalar va mualliflardan tanlaymiz: har bir buyum qo‘lda, 20 donagacha nusxada yoki yagona nusxada yasalgan. Har ikki oyda ekspozitsiyani almashtiramiz, muallif tarixini aytib beramiz va buyumni interyeringizga moslashga yordam beramiz.",
+      "image": ""
+    },
+    {
+      "id": "shows",
+      "type": "works",
+      "label": "Ko‘rgazmalar",
+      "title": "Mavsum dasturi",
+      "items": [
+        {
+          "title": "Iliq yog‘och",
+          "category": "8 muallif, yong‘oq va eman mebeli",
+          "year": "01.10 — 30.11.2026",
+          "text": "Toshkent va Samarqand ustaxonalaridan kreslolar, stollar va skameykalar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yorug‘lik va loy",
+          "category": "Keramik chiroqlar",
+          "year": "05.12.2026 — 31.01.2027",
+          "text": "Zamonaviy shakldagi Rishton loyidan lampalar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yumshoq shakl",
+          "category": "Yevropa kreslo va divanlari",
+          "year": "07.02 — 31.03.2027",
+          "text": "Milan va Kopengagen ko‘rgazmalaridan yumshoq mebel.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Zalda",
+      "title": "Hozir sotib olish mumkin",
+      "items": [
+        {
+          "caption": "«Chinor» kreslosi, yong‘oq",
+          "image": ""
+        },
+        {
+          "caption": "«Ariq» stoli, eman",
+          "image": ""
+        },
+        {
+          "caption": "«Ko‘rpacha» skameykasi",
+          "image": ""
+        },
+        {
+          "caption": "«Lagan» lampasi, keramika",
+          "image": ""
+        },
+        {
+          "caption": "«Piyola» taburetkasi",
+          "image": ""
+        },
+        {
+          "caption": "«Madrasa» konsoli",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "kolleksiyadagi mualliflar"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "yiliga ko‘rgazmalar"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "buyumning eng katta nusxasi"
+        },
+        {
+          "value": "45",
+          "suffix": " kun",
+          "label": "buyurtma bo‘yicha tayyorlash"
+        }
+      ]
+    },
+    {
+      "id": "collectors",
+      "type": "services",
+      "label": "Kolleksionerlarga",
+      "title": "Qanday sotib olish",
+      "intro": "",
+      "items": [
+        {
+          "title": "Vitrinadan",
+          "text": "Buyumni ko‘rgazma tugagach yoki undan oldin — namunaga almashtirib olasiz.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Buyurtma bilan",
+          "text": "Sizning o‘lchamingiz, yog‘och turingiz va matongizda. Muddat — 30–60 kun.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Interyer uchun tanlash",
+          "text": "Galereya dizayneri kelib, loyihangizga buyumlar tanlaydi.",
+          "price": "500 000 so‘m",
+          "tag": "xaridga hisoblanadi"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mehmonlar yozadi",
+      "items": [
+        {
+          "quote": "Ko‘rgazmaga keldik, kreslo bilan qaytdik. Endi u mehmonxonadagi asosiy buyum.",
+          "author": "Shahnoza",
+          "role": "«Chinor» kreslosi"
+        },
+        {
+          "quote": "Restoran uchun yoritish va konsol tanlashga yordam berishdi, hammasini o‘z vaqtida qilishdi.",
+          "author": "Rustam",
+          "role": "restorator"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Kirish pullikmi?",
+          "a": "Yo‘q, galereya seshanbadan yakshanbagacha 11–20 da hamma uchun ochiq."
+        },
+        {
+          "q": "Buyumni ko‘rgazma tugashidan oldin olish mumkinmi?",
+          "a": "Ha, sizga band qilamiz, ko‘rgazmadan keyin yoki darhol olasiz — agar muallif o‘rniga boshqasini qo‘ysa."
+        },
+        {
+          "q": "Viloyatlarga yetkazish bormi?",
+          "a": "Ha, yog‘och qadoqda, sug‘urta bilan. Narxi — og‘irlik va masofaga qarab."
+        },
+        {
+          "q": "Galereya muallifi qanday bo‘lish mumkin?",
+          "a": "Portfolioni Telegramga yuboring — kurator bir hafta ichida javob beradi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Tashrif",
+      "title": "O‘tirib ko‘rishga keling",
+      "text": "Shota Rustaveli, 52, se–ya 11–20. Ish vaqtidan tashqari xususiy ko‘rsatuv kerak bo‘lsa, Telegramga yozing.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/dizayn_gallery"
+      }
+    }
+  ]
+}

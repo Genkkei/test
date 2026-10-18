@@ -1,0 +1,276 @@
+{
+  "name": "Drip Bar",
+  "tagline": "Afrosiyobdagi retro-qahvaxona: filtr-qahva, sirniki va yetmishinchi yillar musiqasi",
+  "niche": "Nonushta va pishiriqli qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Yetmishinchi yillar uslubidagi nonushtali qahvaxona uchun sayt: iliq chiziqlardan kamalak, chashka ustida bug‘, narxli menyu-doska va aylantirganda to‘ladigan chashka.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Drip Bar — Toshkentdagi nonushtali retro-qahvaxona",
+    "description": "Afrosiyob ko‘chasi, 12 da filtr-qahva, espresso va soat 15:00 gacha nonushta. Sirniki, granola, o‘z novvoyxonamizdan kruassanlar. Du–ju 8:00–22:00, sh–ya 9:00–23:00.",
+    "keywords": [
+      "Toshkent qahvaxona",
+      "Toshkent nonushta",
+      "filtr-qahva",
+      "sirniki",
+      "Mirobod qahvaxona",
+      "retro-kafe"
+    ],
+    "answer": "Drip Bar — Toshkentning Mirobod tumanidagi Afrosiyob ko‘chasi, 12 da joylashgan qahvaxona. Nonushta soat 15:00 gacha: sirniki — 42 000 so‘m, granola — 38 000 so‘m; filtr-qahva — 24 000 so‘mdan, kapuchino — 28 000 so‘m. Ish kunlari 8:00 dan 22:00 gacha, dam olish kunlari 9:00 dan 23:00 gacha ochiq."
+  },
+  "business": {
+    "legalName": "«Drip Bar» MChJ",
+    "street": "Afrosiyob ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tong bir tomchidan boshlanadi",
+      "eyebrow": "Drip Bar · Afrosiyob 12 · 8:00 dan",
+      "subtitle": "Voronkadan filtr-qahva, eritilgan sariyog‘da sirniki va ertalabdan kechgacha aylanadigan plastinkalar. Nonushta kunduzi soat uchgacha, shanba kuni ham.",
+      "words": [],
+      "cta": {
+        "label": "Menyuni ko‘rish",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Qanday damlaymiz",
+        "href": "#brew"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Filtr-qahva",
+        "Sirniki",
+        "Granola",
+        "Kruassanlar",
+        "Holvali raf",
+        "Plastinkalar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Qahvaxona",
+      "title": "Shoshilmasa bo‘ladigan joy ochdik",
+      "text": "Zalda yigirma sakkiz o‘rin, patefon, plastinkalar javoni va Afrosiyobning keksa chinorlariga qaragan deraza bor. Ertalab bu yerda ishdan oldin nonushta qilishadi, kunduzi noutbuk bilan ishlashadi, kechqurun desertga kelishadi. Donni biz uchun haftada bir marta qovurishadi, kruassanlarni esa o‘zimiz ertalab oltidan pishiramiz.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Bugungi doska",
+      "groups": [
+        {
+          "name": "Qahva",
+          "items": [
+            {
+              "name": "V60 filtr",
+              "text": "Tanlov bo‘yicha Efiopiya yoki Kolumbiya",
+              "price": "24 000 so‘m"
+            },
+            {
+              "name": "Kapuchino",
+              "text": "Ikki hissa espresso, 3,2% sut",
+              "price": "28 000 so‘m"
+            },
+            {
+              "name": "Holvali raf",
+              "text": "Qaymoq, kunjutli holva, vanil",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Kold-bryu",
+              "text": "18 soat damlaymiz",
+              "price": "30 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Nonushta 15:00 gacha",
+          "items": [
+            {
+              "name": "Sirniki",
+              "text": "Smetana, rezavor sousi",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Granola",
+              "text": "Yogurt, asal, mavsumiy mevalar",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Tostdagi skrembl",
+              "text": "Uchta tuxum, avokado, ko‘kat",
+              "price": "48 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Pishiriqlar",
+          "items": [
+            {
+              "name": "Kruassan",
+              "text": "Ertalab oltidan pishiramiz",
+              "price": "22 000 so‘m"
+            },
+            {
+              "name": "Sinnabon",
+              "text": "Dolchin, qaymoqli krem",
+              "price": "26 000 so‘m"
+            },
+            {
+              "name": "Sabzili tort",
+              "text": "Yong‘oqli bir bo‘lak",
+              "price": "32 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brew",
+      "type": "process",
+      "label": "Qanday damlaymiz",
+      "title": "Chashkagacha to‘rt daqiqa",
+      "items": [
+        {
+          "title": "Maydalash",
+          "text": "Donni damlashdan oldin maydalaymiz — dengiz tuzidek o‘rtacha."
+        },
+        {
+          "title": "Gullash",
+          "text": "Dastlabki 30 soniyada qahva «nafas oladi» va gazni chiqaradi."
+        },
+        {
+          "title": "Quyish",
+          "text": "93 °C li suvni ingichka oqim bilan spiral bo‘ylab uch marta quyamiz."
+        },
+        {
+          "title": "Chashka",
+          "text": "To‘rt daqiqadan so‘ng — achchiqsiz 250 ml toza qahva."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "28",
+          "suffix": "",
+          "label": "zaldagi o‘rin"
+        },
+        {
+          "value": "93",
+          "suffix": "°C",
+          "label": "filtr uchun suv"
+        },
+        {
+          "value": "6",
+          "suffix": "tong",
+          "label": "pishirishni boshlaymiz"
+        },
+        {
+          "value": "15",
+          "suffix": ":00",
+          "label": "nonushta gacha"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Nonushtadan keyin yozishadi",
+      "items": [
+        {
+          "quote": "Sirniki xuddi buvimnikidek, filtr esa markazdagi ko‘p joylardan yaxshiroq.",
+          "author": "Nigora",
+          "role": "shanba kunlari nonushta qiladi"
+        },
+        {
+          "quote": "Bu yerda noutbuk bilan ishlayman: har stolda rozetka bor, hech kim shoshiltirmaydi.",
+          "author": "Temur",
+          "role": "dizayner"
+        },
+        {
+          "quote": "Holvali raf va sabzili tort oldik — ertasiga yana kelishga to‘g‘ri keldi.",
+          "author": "Alina va Said",
+          "role": "qahvaxona mehmonlari"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Qisqasi",
+      "items": [
+        {
+          "q": "Nonushta soat nechagacha beriladi?",
+          "a": "Har kuni soat 15:00 gacha, dam olish kunlari ham."
+        },
+        {
+          "q": "Qahvani olib ketish mumkinmi?",
+          "a": "Ha, istalgan ichimlikni qopqoqli stakanga quyamiz. Buyurtmani saytda qoldirib, navbatsiz olib ketish mumkin."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Suli va bodom suti, ichimlikka +6 000 so‘m."
+        },
+        {
+          "q": "Uyga don sotib olsa bo‘ladimi?",
+          "a": "Ha, 250 g lik paketlar — 110 000 so‘mdan. Qahvaqaynatgichingizga moslab maydalab beramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Nonushtaga kiring",
+      "text": "Afrosiyob, 12 — «Kosmonavtlar» metrosidan besh daqiqa piyoda. Hovlida avtoturargoh bor.",
+      "cta": {
+        "label": "Olib ketishga buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

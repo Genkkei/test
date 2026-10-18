@@ -1,0 +1,313 @@
+{
+  "name": "Bodrost",
+  "tagline": "A roastery by the metro: coffee to go in two minutes and fresh beans every day",
+  "niche": "Coffee shop and roastery",
+  "nav": {
+    "cta": {
+      "label": "Order coffee",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a coffee-to-go spot or roastery: dark theme, big menu, pre-orders and a bean subscription.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Bodrost — coffee to go and roastery at Chilonzor metro",
+    "description": "Coffee to go from 7 am at the Chilonzor metro exit: espresso from 18,000 UZS, pre-order in Telegram, our own roasted beans from 95,000 UZS per 250 g.",
+    "keywords": [
+      "coffee to go Chilonzor",
+      "coffee by the metro",
+      "coffee roastery Tashkent",
+      "coffee beans Tashkent",
+      "morning coffee Tashkent"
+    ],
+    "answer": "Bodrost is a coffee shop and roastery at the Chilonzor metro exit (15 Bunyodkor St), open 7:00–21:00 on weekdays and from 8:00 on weekends. Espresso is 18,000 UZS, cappuccino 28,000 UZS, and a Telegram order is ready when you arrive. Our own roasted beans start at 95,000 UZS per 250 g."
+  },
+  "business": {
+    "legalName": "Bodrost Coffee LLC",
+    "street": "15 Bunyodkor St, Chilonzor metro exit",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Chilonzor",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee before work — in two minutes",
+      "eyebrow": "Roastery · Chilonzor metro",
+      "subtitle": "We roast right here, behind the glass. Send your order on Telegram on the way — the cup will be waiting at the counter.",
+      "words": [
+        "flat white",
+        "raf",
+        "cold brew",
+        "espresso tonic"
+      ],
+      "cta": {
+        "label": "Order ahead",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "tape",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Open from 7:00",
+        "Roasting every day",
+        "Bring your cup — 3,000 UZS off",
+        "Pre-order on Telegram"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "The morning starts at the metro exit",
+      "text": "We opened where thousands of people pass every morning — and made coffee worth drinking on the run. A 5 kg roaster stands right in the hall: we roast in small batches three times a week, so the espresso is always fresh. Our baristas remember regulars and their “the usual”.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "What people grab in the morning",
+      "groups": [
+        {
+          "name": "Black coffee",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "“Morning” blend: chocolate and nuts",
+              "price": "18,000 UZS"
+            },
+            {
+              "name": "Americano",
+              "text": "300 ml",
+              "price": "22,000 UZS"
+            },
+            {
+              "name": "Filter of the day",
+              "text": "Bean of the week from our roast",
+              "price": "26,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "With milk",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "250 / 350 ml",
+              "price": "28,000 / 33,000 UZS"
+            },
+            {
+              "name": "Flat white",
+              "text": "Double ristretto",
+              "price": "32,000 UZS"
+            },
+            {
+              "name": "Vanilla raf",
+              "text": "Cream and vanilla",
+              "price": "36,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Cold",
+          "items": [
+            {
+              "name": "Cold brew",
+              "text": "Steeped for 16 hours",
+              "price": "30,000 UZS"
+            },
+            {
+              "name": "Espresso tonic",
+              "text": "Tonic, ice, zest",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Croissant",
+              "text": "Fresh by 7 am",
+              "price": "22,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beans",
+      "type": "services",
+      "label": "Beans",
+      "title": "Our roast to take home",
+      "intro": "",
+      "items": [
+        {
+          "title": "“Morning” blend",
+          "text": "Brazil and Colombia. For espresso and cezve.",
+          "price": "95,000 UZS / 250 g",
+          "tag": "bestseller"
+        },
+        {
+          "title": "Ethiopia Sidamo",
+          "text": "Berries and bergamot, for filter.",
+          "price": "135,000 UZS / 250 g",
+          "tag": "filter"
+        },
+        {
+          "title": "Ground for your brewer",
+          "text": "Tell us how you brew at home — we grind for free.",
+          "price": "free",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "Pre-order",
+      "title": "How to order without queuing",
+      "items": [
+        {
+          "title": "Message us",
+          "text": "Your drink and time on Telegram or via the button on the site."
+        },
+        {
+          "title": "We make it",
+          "text": "We start brewing three minutes before you arrive."
+        },
+        {
+          "title": "Pick it up",
+          "text": "A cup with your name waits on the shelf by the till."
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "type": "pricing",
+      "label": "Pass",
+      "title": "Coffee every day — for less",
+      "items": [
+        {
+          "name": "10 coffees",
+          "price": "250,000 UZS",
+          "period": "",
+          "features": [
+            "Any drink up to 33,000 UZS",
+            "Valid 30 days",
+            "Share with a colleague"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Month",
+          "price": "590,000 UZS",
+          "period": "/ month",
+          "features": [
+            "One drink every day",
+            "Croissant on Fridays",
+            "A bag of beans as a gift"
+          ],
+          "featured": true
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": " min",
+          "label": "from order to cup"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "roasts a week"
+        },
+        {
+          "value": "7",
+          "suffix": ":00",
+          "label": "we open every weekday"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What people say in the morning",
+      "items": [
+        {
+          "quote": "I order on the escalator, walk out — the flat white is waiting. The best thing that happened to my mornings.",
+          "author": "Diyora S.",
+          "role": "every morning"
+        },
+        {
+          "quote": "Bought the “Morning” beans for the office — they set the grind for our machine.",
+          "author": "Rustam A.",
+          "role": "for the office"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "The essentials",
+      "items": [
+        {
+          "q": "Where are you?",
+          "a": "15 Bunyodkor St — to the right of the Chilonzor metro exit, a glass front with the roaster."
+        },
+        {
+          "q": "How do I pre-order?",
+          "a": "Tap “Order ahead” or message @bodrostcoffee on Telegram with your drink and time. Pay on pickup."
+        },
+        {
+          "q": "Do you have plant milk?",
+          "a": "Yes: oat and almond, +5,000 UZS per drink."
+        },
+        {
+          "q": "Can I buy beans wholesale?",
+          "a": "For offices and cafés — from 3 kg with a discount and machine setup. Message us."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Drop in on your way",
+      "text": "Weekdays 7:00–21:00, weekends 8:00–21:00. 15 Bunyodkor St, Chilonzor metro exit.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/bodrostcoffee"
+      }
+    }
+  ]
+}

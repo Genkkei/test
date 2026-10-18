@@ -1,0 +1,299 @@
+{
+  "slug": "crema",
+  "template": "crema",
+  "name": "Crema",
+  "tagline": "Одна чашка за раз. Белое окно, хороший эспрессо и никакой суеты",
+  "niche": "Кофейня навынос в японском стиле",
+  "domains": [
+    "crema.genkai.workers.dev"
+  ],
+  "theme": {
+    "bg": "#ffffff",
+    "fg": "#111111",
+    "accent": "#c8a27a",
+    "muted": "#8a8a8a",
+    "surface": "#f4f1ec",
+    "line": "#e4e0d9",
+    "display": "Montserrat",
+    "body": "Golos Text",
+    "motion": 1
+  },
+  "business": {
+    "type": "CafeOrCoffeeShop",
+    "legalName": "ООО «Крема»",
+    "phone": "+998 71 200-01-02",
+    "email": "cup@crema.uz",
+    "street": "Tashkent City, ул. Фуркат, 1",
+    "city": "Ташкент",
+    "region": "Ташкент",
+    "country": "UZ",
+    "postalCode": "100027",
+    "lat": "41.3159",
+    "lng": "69.2484",
+    "hours": [
+      "Mo-Su 07:30-22:00"
+    ],
+    "priceRange": "$$",
+    "founded": "2023",
+    "areaServed": "Ташкент",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/crema.tashkent"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/crematashkent"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Crema — кофе навынос в Tashkent City",
+    "description": "Минималистичная кофейня-окно в Tashkent City: эспрессо, латте, моти и сезонные напитки навынос. Открыто с 7:30 каждый день, заказ заранее через сайт.",
+    "keywords": [
+      "кофе с собой Ташкент",
+      "кофейня Tashkent City",
+      "латте",
+      "эспрессо",
+      "японская кофейня",
+      "матча латте"
+    ],
+    "answer": "Crema — кофейня навынос в Tashkent City, ул. Фуркат, 1. Открыта каждый день с 7:30 до 22:00. Эспрессо — 22 000 сум, латте — 32 000 сум, матча-латте — 38 000 сум. Заказ можно оставить на сайте и забрать без очереди."
+  },
+  "nav": {
+    "cta": {
+      "label": "Заказать",
+      "href": "#order"
+    }
+  },
+  "leads": {
+    "enabled": false,
+    "kind": "order",
+    "title": "",
+    "thanks": ""
+  },
+  "listing": {
+    "price": "",
+    "description": "Сайт для кофейни навынос или кофе-окна в японском минимализме. Белый куб, латте-арт рисуется линией на чашке, меню — талоны с номерами, заказ одной круглой кнопкой.",
+    "features": [],
+    "forSale": true
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Crema",
+      "eyebrow": "Кофе навынос · Tashkent City",
+      "subtitle": "Окно на первом этаже, одна кофемашина и три бариста. Утром — эспрессо за минуту, днём — латте и моти, вечером — тишина и белый свет.",
+      "words": [],
+      "cta": {
+        "label": "Меню",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Заказать заранее",
+        "href": "#order"
+      },
+      "image": "",
+      "enabled": true,
+      "anchor": "",
+      "label": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Espresso",
+        "Latte",
+        "Matcha",
+        "Hojicha",
+        "Mochi",
+        "Tashkent City"
+      ],
+      "enabled": true,
+      "anchor": "",
+      "label": "",
+      "title": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Окно",
+      "title": "Мы сделали всё лишнее невидимым",
+      "text": "Нет вывески, нет меню на доске, нет сиропов. Белая стена, окно и кофе, который делают одинаково хорошо в 7:30 и в 21:30. Зерно — светлая обжарка из Ташкента, молоко — местное, стаканы — из переработанной бумаги. Пока вы ждёте, можно посмотреть, как рисуют розетту.",
+      "image": "",
+      "enabled": true
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "anchor": "menu",
+      "label": "Меню",
+      "title": "Что в окне",
+      "groups": [
+        {
+          "name": "Эспрессо-бар",
+          "items": [
+            {
+              "name": "Эспрессо",
+              "text": "Светлая обжарка, 30 мл",
+              "price": "22 000 сум"
+            },
+            {
+              "name": "Американо",
+              "text": "Эспрессо и горячая вода",
+              "price": "24 000 сум"
+            },
+            {
+              "name": "Латте",
+              "text": "С розеттой, 300 мл",
+              "price": "32 000 сум"
+            },
+            {
+              "name": "Флэт уайт",
+              "text": "Двойной шот, 180 мл",
+              "price": "32 000 сум"
+            }
+          ]
+        },
+        {
+          "name": "Не кофе",
+          "items": [
+            {
+              "name": "Матча-латте",
+              "text": "Церемониальная матча из Удзи",
+              "price": "38 000 сум"
+            },
+            {
+              "name": "Ходзича",
+              "text": "Обжаренный зелёный чай с молоком",
+              "price": "34 000 сум"
+            },
+            {
+              "name": "Юдзу-тоник",
+              "text": "Тоник, юдзу, лёд",
+              "price": "30 000 сум"
+            }
+          ]
+        },
+        {
+          "name": "К чашке",
+          "items": [
+            {
+              "name": "Моти",
+              "text": "Клубника, манго или матча",
+              "price": "18 000 сум"
+            },
+            {
+              "name": "Мадлен",
+              "text": "Лимон и сливочное масло",
+              "price": "14 000 сум"
+            }
+          ]
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Окно",
+      "title": "Один день",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "сек",
+          "label": "на эспрессо"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "бариста в смене"
+        },
+        {
+          "value": "14",
+          "suffix": "ч",
+          "label": "открыто каждый день"
+        }
+      ],
+      "enabled": true,
+      "anchor": ""
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "anchor": "gallery",
+      "label": "Свет",
+      "title": "Белое окно",
+      "items": [
+        {
+          "caption": "latte",
+          "image": ""
+        },
+        {
+          "caption": "window",
+          "image": ""
+        },
+        {
+          "caption": "matcha",
+          "image": ""
+        },
+        {
+          "caption": "mochi",
+          "image": ""
+        },
+        {
+          "caption": "morning",
+          "image": ""
+        },
+        {
+          "caption": "cup",
+          "image": ""
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Вопросы",
+      "title": "Коротко",
+      "items": [
+        {
+          "q": "Есть где посидеть?",
+          "a": "Шесть мест у стойки вдоль окна. Мы задуманы как кофе навынос, но торопить не будем."
+        },
+        {
+          "q": "Можно заказать заранее?",
+          "a": "Да. Нажмите «Заказать», укажите напиток и время — заберёте без очереди."
+        },
+        {
+          "q": "Есть растительное молоко?",
+          "a": "Овсяное и кокосовое, без доплаты."
+        },
+        {
+          "q": "Принимаете карты?",
+          "a": "Uzcard, Humo, Visa, Click и Payme."
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Где",
+      "title": "Первый этаж, белое окно",
+      "text": "Tashkent City, со стороны парка. Ищите белый свет и очередь из трёх человек.",
+      "cta": {
+        "label": "Заказать",
+        "href": "#order"
+      },
+      "enabled": true
+    }
+  ],
+  "lang": "ru",
+  "updatedAt": ""
+}

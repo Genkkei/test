@@ -1,0 +1,299 @@
+{
+  "name": "Scandi Home",
+  "tagline": "Skandinaviya ruhidagi yorug‘ mebel va uy buyumlari",
+  "niche": "Skandinaviya mebeli va interyer buyumlari do‘koni",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Skandinaviya uslubidagi mebel va interyer buyumlari do‘koni uchun sayt: palitrasi almashadigan rangli poydevorlardagi buyumlar, toifalar bo‘yicha filtrli katalog, interyerlar mozaikasi va yumshoq pastel plitkalar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Scandi Home — Toshkentda skandinaviya mebeli",
+    "description": "Yorug‘ skandinaviya uslubidagi stullar, kreslolar, divanlar, stollar va chiroqlar. Mirobodda shou-rum, O‘zbekiston bo‘ylab yetkazib berish, yig‘ish shu kuni.",
+    "keywords": [
+      "skandinaviya mebeli Toshkent",
+      "skandinaviya uslubidagi mebel",
+      "Toshkentda kreslo sotib olish",
+      "dizayner stullar",
+      "uy uchun chiroqlar",
+      "eman mebel"
+    ],
+    "answer": "Scandi Home — Toshkentdagi skandinaviya mebeli va uy buyumlari do‘koni, shou-rum Mirobod ko‘chasi, 14 da, har kuni 10:00 dan 20:00 gacha ochiq. Eman stul — 1 450 000 so‘mdan, kreslo — 4 900 000 so‘mdan, divan — 11 800 000 so‘mdan. Toshkent bo‘ylab yetkazish — 1–2 kun, O‘zbekiston bo‘ylab — 7 kungacha, yig‘ish bepul."
+  },
+  "business": {
+    "legalName": "«Skandik Xoum» MChJ",
+    "street": "Mirobod ko‘chasi, 14",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Yengil nafas oladigan uy",
+      "eyebrow": "Skandinaviya mebeli · Toshkent",
+      "subtitle": "Eman va shumtol mebeli, yumshoq matolar va ko‘zni qamashtirmaydigan yorug‘lik. Saytdagi hamma narsani Mirobodagi shou-rumda ushlab ko‘rish mumkin.",
+      "cta": {
+        "label": "Katalogni ko‘rish",
+        "href": "#catalog"
+      },
+      "ctaSecondary": {
+        "label": "Qanday yetkazamiz",
+        "href": "#delivery"
+      },
+      "image": "",
+      "words": [
+        "eman",
+        "zig‘ir",
+        "jun",
+        "yorug‘lik"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Stullar",
+        "Kreslolar",
+        "Divanlar",
+        "Stollar",
+        "Javonlar",
+        "Chiroqlar",
+        "To‘qimachilik",
+        "Guldonlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Kamroq buyum — ko‘proq havo",
+      "text": "Biz uzoq yashaydigan mebel to‘playmiz: eman va shumtol massivi, zig‘ir va jundan yechiladigan g‘iloflar, ortiqcha bezaksiz oddiy shakllar. Ayrim modellarni olib kelamiz, ayrimlarini Toshkent yaqinidagi ustaxonada o‘z chizmalarimiz bo‘yicha yasaymiz — shu tufayli narx importdan arzonroq.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Qayta-qayta qaytadigan buyumlar",
+      "intro": "Narxlar — asosiy mato yoki pardozdagi buyum uchun. Boshqa ranglar va o‘lchamlar — shou-rumda va telefon orqali.",
+      "items": [
+        {
+          "title": "Ask stuli",
+          "text": "Eman massivi, egilgan faneradan o‘rindiq, o‘rindiq balandligi 45 sm.",
+          "price": "1 450 000 so‘m",
+          "tag": "Stullar"
+        },
+        {
+          "title": "Hygge kreslosi",
+          "text": "Chuqur o‘tirish, bukle, shumtol oyoqlar. G‘ilof yechiladi va yuviladi.",
+          "price": "4 900 000 so‘m",
+          "tag": "Kreslolar"
+        },
+        {
+          "title": "Fjord divani",
+          "text": "Uch o‘rinli, 220 sm, zig‘ir yoki rogojka, to‘ldirgich — ko‘pik va pat.",
+          "price": "11 800 000 so‘m",
+          "tag": "Divanlar"
+        },
+        {
+          "title": "Lund stoli",
+          "text": "Emandan dumaloq ovqat stoli, Ø 120 sm, 4–6 kishiga.",
+          "price": "6 700 000 so‘m",
+          "tag": "Stollar"
+        },
+        {
+          "title": "Lys torsheri",
+          "text": "Guruch qog‘ozidan abajur, iliq yorug‘lik 2700 K, balandligi 150 sm.",
+          "price": "1 900 000 so‘m",
+          "tag": "Chiroqlar"
+        },
+        {
+          "title": "Bok javoni",
+          "text": "Shumtoldan beshta tokcha, kengligi 90 sm, devorga mahkamlanadi.",
+          "price": "3 600 000 so‘m",
+          "tag": "Saqlash"
+        },
+        {
+          "title": "Ro komodi",
+          "text": "Yopilish moslamali uchta tortma, eman fasad, kengligi 100 sm.",
+          "price": "5 200 000 so‘m",
+          "tag": "Saqlash"
+        },
+        {
+          "title": "Strå guldoni",
+          "text": "Qo‘lda yasalgan keramika, mat sir, balandligi 32 sm.",
+          "price": "420 000 so‘m",
+          "tag": "Bezak"
+        }
+      ]
+    },
+    {
+      "id": "rooms",
+      "type": "gallery",
+      "label": "Interyerlar",
+      "title": "Uyda qanday ko‘rinadi",
+      "items": [
+        {
+          "caption": "Fjord divanli mehmonxona",
+          "image": ""
+        },
+        {
+          "caption": "Olti kishilik oshxona",
+          "image": ""
+        },
+        {
+          "caption": "Kitob o‘qish burchagi",
+          "image": ""
+        },
+        {
+          "caption": "Zig‘irdagi yotoqxona",
+          "image": ""
+        },
+        {
+          "caption": "Ro komodli dahliz",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "120",
+          "suffix": "+",
+          "label": "shou-rumdagi buyumlar"
+        },
+        {
+          "value": "2",
+          "suffix": " kun",
+          "label": "Toshkent bo‘ylab yetkazish"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "karkasga kafolat"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "tanlash uchun mato ranglari"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "type": "process",
+      "label": "Yetkazish",
+      "title": "Buyurtmadan uydagi birinchi oqshomgacha",
+      "items": [
+        {
+          "title": "Tanlaysiz",
+          "text": "Saytda yoki shou-rumda: sotib olishdan oldin matoni ushlab, o‘tirib ko‘rish mumkin."
+        },
+        {
+          "title": "Tasdiqlaymiz",
+          "text": "15 daqiqada qo‘ng‘iroq qilamiz, rang, o‘lcham va yetkazish sanasini tekshiramiz."
+        },
+        {
+          "title": "Olib kelamiz",
+          "text": "Toshkent bo‘ylab — 1–2 kun, O‘zbekiston bo‘ylab — 7 kungacha, qulay ikki soatlik vaqt oralig‘ida."
+        },
+        {
+          "title": "Yig‘amiz",
+          "text": "Yetkazish kuni bepul yig‘ish, qadoqni o‘zimiz bilan olib ketamiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Uyda nima deyishadi",
+      "items": [
+        {
+          "quote": "Hygge kreslosi bir yildan beri deraza yonida turibdi — g‘ilofni uch marta yuvdik, yangiday.",
+          "author": "Dilnoza",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Stolni ertasiga olib kelib, darhol yig‘ib berishdi. Eman lak emas, yog‘och hidini beradi.",
+          "author": "Temur",
+          "role": "Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Shou-rumda divan uchun matoni bir soat tanladik — hech kim shoshirmadi.",
+          "author": "Madina",
+          "role": "Chilonzor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Mebelni jonli ko‘rish mumkinmi?",
+          "a": "Ha, Mirobod ko‘chasi, 14 dagi shou-rum har kuni 10:00 dan 20:00 gacha ochiq."
+        },
+        {
+          "q": "Yetkazish qancha turadi?",
+          "a": "Toshkent bo‘ylab 5 000 000 so‘mdan ortiq buyurtmada bepul, aks holda 150 000 so‘m. Viloyatlarga — tashuvchi tarifi bo‘yicha."
+        },
+        {
+          "q": "Boshqa mato tanlash mumkinmi?",
+          "a": "Ha, divan va kreslolarda 12 xil mato bor. Boshqa matoda tayyorlash — 14–21 kun."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Naqd, Uzcard yoki Humo kartasi, hisob raqamiga o‘tkazma. Hamkor bank orqali muddatli to‘lov mumkin."
+        },
+        {
+          "q": "Kafolat bormi?",
+          "a": "Karkasga besh yil, mexanizm va matoga bir yil."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Shou-rum",
+      "title": "Hammasida o‘tirib ko‘ring",
+      "text": "Mirobod, 14 — «Oybek» metrosidan besh daqiqa. Hovlida avtoturargoh.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilish",
+        "href": "tel:+998712000111"
+      }
+    }
+  ]
+}

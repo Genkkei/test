@@ -1,0 +1,227 @@
+{
+  "name": "Nur Coffee & Work",
+  "tagline": "A bright café-coworking with panoramic windows: coffee, sockets at every table and a quiet room",
+  "niche": "Café and coworking",
+  "nav": {
+    "cta": {
+      "label": "Book a seat",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a café-coworking, learning centre or studio: bright and clean, priced services, team and steps.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Nur — café-coworking with panoramic windows in Tashkent",
+    "description": "Coffee and a workspace in one: sockets at every table, fast Wi-Fi, a quiet room and a meeting room. A day pass with coffee is 90,000 UZS. 59 Mustaqillik St.",
+    "keywords": [
+      "laptop-friendly café Tashkent",
+      "coworking café",
+      "café with sockets",
+      "day pass coworking Tashkent",
+      "meeting room by the hour"
+    ],
+    "answer": "Nur is a café-coworking on the 3rd floor of 59 Mustaqillik St, open 8:00–22:00 on weekdays and from 9:00 at weekends. Cappuccino is 30,000 UZS, a day pass with two drinks 90,000 UZS, and a 6-person meeting room 120,000 UZS an hour. Every table has sockets, Wi-Fi runs at 300 Mbps."
+  },
+  "business": {
+    "legalName": "Nur Coffee LLC",
+    "street": "59 Mustaqillik St, 3rd floor, Mirzo-Ulugbek",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Mirzo-Ulugbek",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee with daylight and a socket",
+      "eyebrow": "Café-coworking · 59 Mustaqillik",
+      "subtitle": "Third floor, floor-to-ceiling windows and forty seats: a socket at every table, no calls in the quiet room. Coffee is brought to your table.",
+      "words": [],
+      "cta": {
+        "label": "Book a seat",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A café that’s good to work in",
+      "text": "We built a place where you don’t have to choose between good coffee and a proper desk. A main room for those who like the sound of the espresso machine, a quiet room with library rules and a glass meeting room. Baristas brew with beans from Tashkent roasters.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Prices",
+      "title": "Coffee and seats",
+      "intro": "",
+      "items": [
+        {
+          "title": "Cappuccino",
+          "text": "And everything from the espresso bar.",
+          "price": "30,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Day pass",
+          "text": "A seat until closing and any two drinks.",
+          "price": "90,000 UZS",
+          "tag": "popular"
+        },
+        {
+          "title": "Monthly pass",
+          "text": "A fixed desk in the quiet room and coffee every day.",
+          "price": "1,290,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Meeting room",
+          "text": "Up to 6 people, screen and whiteboard.",
+          "price": "120,000 UZS / hour",
+          "tag": "booking only"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "seats in two rooms"
+        },
+        {
+          "value": "300",
+          "suffix": " Mbps",
+          "label": "Wi-Fi"
+        },
+        {
+          "value": "1",
+          "suffix": "",
+          "label": "socket at every table"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Baristas",
+      "title": "Who makes your coffee",
+      "items": [
+        {
+          "name": "Islom",
+          "role": "Head barista",
+          "image": ""
+        },
+        {
+          "name": "Mohira",
+          "role": "Barista, latte art",
+          "image": ""
+        },
+        {
+          "name": "Daniel",
+          "role": "Floor manager",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "A seat in a minute",
+      "items": [
+        {
+          "title": "Book",
+          "text": "Via the button on the site, or just come — on weekdays before 10:00 there’s always room."
+        },
+        {
+          "title": "Pick a room",
+          "text": "Main for talking, quiet for focus."
+        },
+        {
+          "title": "Work",
+          "text": "Coffee comes to your table; pay when you leave."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What freelancers say",
+      "items": [
+        {
+          "quote": "Finally a café where you don’t have to hunt for a socket. I work here three days a week.",
+          "author": "Laziz T.",
+          "role": "designer"
+        },
+        {
+          "quote": "We held a client meeting in the meeting room — screen, whiteboard and cappuccinos for everyone.",
+          "author": "Gulnora Sh.",
+          "role": "marketer"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before you come",
+      "items": [
+        {
+          "q": "Can I sit with a laptop without a pass?",
+          "a": "Yes, in the main room with any order, up to two hours. Longer needs a day pass."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, the business centre’s underground car park, first two hours free."
+        },
+        {
+          "q": "Can I take calls?",
+          "a": "In the main room with headphones; not in the quiet room. There are two phone booths."
+        },
+        {
+          "q": "Is there food?",
+          "a": "Sandwiches, salads and pastries all day."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Address",
+      "title": "Come and work",
+      "text": "59 Mustaqillik St, 3rd floor. Weekdays 8:00–22:00, weekends 9:00–22:00.",
+      "cta": {
+        "label": "Book a seat",
+        "href": "#order"
+      }
+    }
+  ]
+}

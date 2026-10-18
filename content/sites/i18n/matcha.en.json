@@ -1,0 +1,259 @@
+{
+  "name": "Midori Matcha Bar",
+  "tagline": "A matcha bar on Shota Rustaveli: ceremonial matcha, hojicha and alternative coffee",
+  "niche": "Matcha bar and café",
+  "nav": {
+    "cta": {
+      "label": "Order matcha",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a matcha bar, tea room or alternative café: dark green theme, labelled tins and a step-by-step whisking ritual.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Midori — matcha bar and alternative coffee in Tashkent",
+    "description": "Ceremonial matcha from Uji, oat-milk matcha latte, hojicha and pour-over. A matcha bar at 41 Shota Rustaveli St; we also sell matcha and whisks for home.",
+    "keywords": [
+      "matcha Tashkent",
+      "matcha latte Tashkent",
+      "matcha bar",
+      "hojicha",
+      "alternative coffee Tashkent"
+    ],
+    "answer": "Midori is a matcha bar at 41 Shota Rustaveli St (Yakkasaray), open 9:00–22:00 on weekdays and 10:00–23:00 at weekends. Matcha latte is 42,000 UZS, ceremonial matcha 48,000 UZS, pour-over 34,000 UZS. Matcha for home (30 g) starts at 165,000 UZS."
+  },
+  "business": {
+    "legalName": "Midori sole proprietorship",
+    "street": "41 Shota Rustaveli St, Yakkasaray",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Yakkasaray",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Green as the first leaf",
+      "eyebrow": "Matcha bar · 41 Shota Rustaveli",
+      "subtitle": "We whisk matcha with a bamboo chasen in front of you: thick usucha, a soft latte or an iced tonic. For coffee people — pour-over and AeroPress.",
+      "words": [
+        "usucha",
+        "matcha latte",
+        "hojicha",
+        "yuzu tonic"
+      ],
+      "cta": {
+        "label": "Order to go",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Matcha from Uji, Kyoto",
+        "Oat milk at no extra cost",
+        "Whisks and bowls for home",
+        "Unsweetened by default"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "The Midori shelf",
+      "groups": [
+        {
+          "name": "Matcha",
+          "items": [
+            {
+              "name": "Usucha",
+              "text": "Ceremonial, whisked with water",
+              "price": "48,000 UZS"
+            },
+            {
+              "name": "Matcha latte",
+              "text": "Oat or dairy milk",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Yuzu tonic",
+              "text": "Matcha, tonic, yuzu citrus, ice",
+              "price": "46,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Not matcha",
+          "items": [
+            {
+              "name": "Hojicha latte",
+              "text": "Roasted Japanese tea, nearly caffeine-free",
+              "price": "40,000 UZS"
+            },
+            {
+              "name": "V60 pour-over",
+              "text": "Kenya, berries and citrus",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Mochi",
+              "text": "Matcha, strawberry or sesame",
+              "price": "22,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ritual",
+      "type": "process",
+      "label": "Ritual",
+      "title": "How we whisk matcha",
+      "items": [
+        {
+          "title": "Sift",
+          "text": "2 g of matcha through a sieve — no lumps."
+        },
+        {
+          "title": "Pour",
+          "text": "70 ml of water at 75° — hotter makes matcha bitter."
+        },
+        {
+          "title": "Whisk",
+          "text": "An “M”-shaped whisk for 15 seconds until frothy."
+        },
+        {
+          "title": "Drink",
+          "text": "Right away, while the foam is alive."
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "type": "services",
+      "label": "For home",
+      "title": "A matcha kit for home",
+      "intro": "",
+      "items": [
+        {
+          "title": "Ceremonial matcha 30 g",
+          "text": "First harvest, Uji.",
+          "price": "165,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Whisk and bowl",
+          "text": "A bamboo chasen and a ceramic bowl.",
+          "price": "210,000 UZS",
+          "tag": "gift"
+        },
+        {
+          "title": "Workshop",
+          "text": "An hour with a barista: learn to whisk at home.",
+          "price": "150,000 UZS",
+          "tag": "Saturdays"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "75",
+          "suffix": "°",
+          "label": "water temperature for matcha"
+        },
+        {
+          "value": "15",
+          "suffix": " sec",
+          "label": "whisking to foam"
+        },
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "seats inside and on the terrace"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests say",
+      "items": [
+        {
+          "quote": "Finally matcha that doesn’t taste like grass. I took the kit home and learned at the workshop.",
+          "author": "Sevara B.",
+          "role": "workshop"
+        },
+        {
+          "quote": "Hojicha latte in the evening instead of coffee — and I sleep fine.",
+          "author": "Jasur N.",
+          "role": "guest"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "About matcha",
+      "items": [
+        {
+          "q": "How much caffeine is in matcha?",
+          "a": "About half an espresso’s worth, but the lift is gentler and longer."
+        },
+        {
+          "q": "Do you have plant milk?",
+          "a": "Oat milk at no charge; coconut and almond +6,000 UZS."
+        },
+        {
+          "q": "Can I order to go?",
+          "a": "Yes, via “Order to go” or Telegram — ready when you arrive."
+        },
+        {
+          "q": "How do I store matcha at home?",
+          "a": "In the fridge in a sealed tin, and finish it within a month of opening."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Address",
+      "title": "Come in for something green",
+      "text": "41 Shota Rustaveli St. Weekdays 9:00–22:00, weekends 10:00–23:00.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/midorimatcha"
+      }
+    }
+  ]
+}

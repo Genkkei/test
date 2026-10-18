@@ -1,0 +1,246 @@
+{
+  "name": "Royal Mebel",
+  "tagline": "Classic furniture for bedrooms and living rooms",
+  "niche": "Classic furniture",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a classic furniture salon: suite cards with a spec sheet, a price list of separate pieces, slow frames and an order form sent to Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Royal Mebel — classic bedroom and living room furniture",
+    "description": "Classic bedrooms and living rooms in solid walnut and beech: suites from 24,000,000 UZS, separate pieces, wedding sets. Salon on Amir Temur Ave.",
+    "keywords": [
+      "classic furniture Tashkent",
+      "bedroom suite",
+      "living room furniture",
+      "wedding furniture",
+      "solid wood furniture"
+    ],
+    "answer": "Royal Mebel is a classic furniture salon in Tashkent (107 Amir Temur Ave). Solid-wood bedroom suites from 24,000,000 UZS, living rooms from 31,000,000 UZS, made to order in 30–45 days. Delivery and assembly across Tashkent are free; 3-year warranty on solid wood."
+  },
+  "business": {
+    "legalName": "Royal Mebel LLC",
+    "street": "107 Amir Temur Ave",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and regions of Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Furniture you pass on to your children",
+      "eyebrow": "Classic furniture salon · since 2011",
+      "subtitle": "Bedrooms and living rooms in solid walnut and beech with hand carving and patina. We assemble a set for your room and deliver in 30–45 days.",
+      "words": [],
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Suites",
+        "href": "#sets"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The salon",
+      "title": "Hand carving, assembly with not a single nail in sight",
+      "text": "Our factory in Chirchik has worked since 2011: we dry the timber ourselves, carve by hand and finish with six coats of lacquer. Six complete suites stand in the Amir Temur salon — you can lie on a bed and open every drawer.",
+      "image": ""
+    },
+    {
+      "id": "sets",
+      "type": "services",
+      "label": "Suites",
+      "title": "Six suites in the salon",
+      "intro": "",
+      "items": [
+        {
+          "title": "The Venezia bedroom",
+          "text": "A bed with a carved headboard, two nightstands, a chest with a mirror and a six-door wardrobe.",
+          "price": "from 38,000,000 UZS",
+          "tag": "Walnut · 6 pieces"
+        },
+        {
+          "title": "The Shirin bedroom",
+          "text": "Light patina, an upholstered headboard and a dressing table for the bride.",
+          "price": "from 24,000,000 UZS",
+          "tag": "Beech · 5 pieces"
+        },
+        {
+          "title": "The Registan living room",
+          "text": "A sofa and two armchairs in jacquard, a china cabinet and a coffee table.",
+          "price": "from 31,000,000 UZS",
+          "tag": "Walnut · 5 pieces"
+        },
+        {
+          "title": "The Dastarkhan dining room",
+          "text": "An extendable table for 12 and chairs with carved backs.",
+          "price": "from 27,000,000 UZS",
+          "tag": "Beech · 13 pieces"
+        }
+      ]
+    },
+    {
+      "id": "prices",
+      "type": "menu",
+      "label": "Prices",
+      "title": "Separate pieces",
+      "groups": [
+        {
+          "name": "Bedroom",
+          "items": [
+            {
+              "name": "Bed 180 × 200",
+              "text": "Carved headboard, orthopaedic base",
+              "price": "from 9,800,000 UZS"
+            },
+            {
+              "name": "Chest with mirror",
+              "text": "Five soft-close drawers",
+              "price": "from 5,400,000 UZS"
+            },
+            {
+              "name": "Nightstand",
+              "text": "A drawer and a shelf",
+              "price": "from 1,900,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Living room",
+          "items": [
+            {
+              "name": "Three-seat sofa",
+              "text": "Jacquard or velour",
+              "price": "from 12,500,000 UZS"
+            },
+            {
+              "name": "China cabinet",
+              "text": "Bevelled glass, lighting",
+              "price": "from 8,200,000 UZS"
+            },
+            {
+              "name": "Armchair",
+              "text": "Beech frame, carved arms",
+              "price": "from 4,300,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moments",
+      "type": "gallery",
+      "label": "The salon",
+      "title": "What it looks like in real life",
+      "items": [
+        {
+          "caption": "Walnut carving",
+          "image": ""
+        },
+        {
+          "caption": "Ivory patina",
+          "image": ""
+        },
+        {
+          "caption": "Living room jacquard",
+          "image": ""
+        },
+        {
+          "caption": "Brass hardware",
+          "image": ""
+        },
+        {
+          "caption": "The drying kiln in Chirchik",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Ordering",
+      "title": "How to order a suite",
+      "items": [
+        {
+          "title": "Choose in the salon",
+          "text": "We choose the patina colour and fabric from samples."
+        },
+        {
+          "title": "Room measuring",
+          "text": "We check the wardrobe fits through the door and into the niche."
+        },
+        {
+          "title": "Production",
+          "text": "30–45 days at the factory with photos at every stage."
+        },
+        {
+          "title": "Delivery and assembly",
+          "text": "Free in Tashkent; to the regions at the carrier’s rate."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I buy a single piece from a suite?",
+          "a": "Yes, every piece is sold separately at the list price."
+        },
+        {
+          "q": "Do you make wedding sets?",
+          "a": "Yes, a bedroom and living room for newlyweds with 7% off, packed for the date."
+        },
+        {
+          "q": "Is there an instalment plan?",
+          "a": "Yes, up to 12 months through partner banks."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "3 years on solid wood and 1 year on fabrics and mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Visit the salon",
+      "text": "107 Amir Temur Ave. Mon–Sat 10:00–20:00, Sun 11:00–18:00. Coffee and advice are free.",
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      }
+    }
+  ]
+}

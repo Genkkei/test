@@ -1,0 +1,309 @@
+{
+  "name": "Xrom Steel",
+  "tagline": "Zanglamas po‘lat va shishadan panjaralar",
+  "niche": "Zanglamas po‘latdan to‘siqlar, panjaralar va konstruksiyalar",
+  "seo": {
+    "title": "Xrom Steel — Toshkentda zanglamas po‘lat va shisha panjaralar",
+    "description": "Panjaralar, zinapoya va balkon to‘siqlari, zanglamas ustunlardagi shisha to‘siqlar. O‘z sexi, oynadek sayqal, bir kunda o‘rnatish, 5 yil kafolat.",
+    "keywords": [
+      "zanglamas panjaralar Toshkent",
+      "shisha to‘siqlar",
+      "zinapoya to‘siqlari",
+      "zanglamas tutqichlar"
+    ],
+    "answer": "Xrom Steel — Mirobodagi sex, AISI 304 zanglamas po‘lat va shishadan panjaralar yasaydi: zinapoya panjarasi metriga 650 000 so‘mdan, shisha to‘siqlar metriga 1 450 000 so‘mdan. O‘lchov bepul, bir kunda o‘rnatish, 5 yil kafolat. Telefon +998 71 200-04-01."
+  },
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchi",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall konstruksiyalar, panjaralar va to‘siqlar ishlab chiqaruvchisi uchun sayt: birinchi ekranda xrom yaltirog‘i, xususiyatlar, ishlar katalogi, paketlar va bosqichlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Xrom Steel» MChJ",
+    "street": "Mirobod ko‘chasi, 41",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Uy aks etadigan metall",
+      "eyebrow": "Zanglamas po‘lat · Toshkent · 2016 yildan",
+      "subtitle": "AISI 304 zanglamas po‘lat va toblangan shishadan panjaralar, to‘siqlar va tutqichlar. O‘z sexi, oynadek sayqal, bir kunda o‘rnatish.",
+      "words": [
+        "304|po‘lat markasi",
+        "10 mm|toblangan shisha",
+        "5 yil|kafolat",
+        "1 kun|o‘rnatish"
+      ],
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ishlar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "Nima qilamiz",
+      "items": [
+        "Panjaralar",
+        "Shisha to‘siqlar",
+        "Tutqichlar",
+        "Balkonlar",
+        "Soyabonlar",
+        "Sayqallash"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Sex haqida",
+      "title": "Har kuni ushlanadigan narsalarni yasaymiz",
+      "text": "Tutqich — interyerda qo‘lda ushlanadigan yagona detal. Shu sabab payvand choklarini ko‘rinmas holgacha jilolaymiz, uchlarini yumaloqlaymiz, tiqinlar qo‘yamiz, ustunlarni kimyoviy ankerlar bilan mahkamlaymiz. Mirobod va butun Toshkentdagi xususiy uylar, TJM va restoranlar bilan ishlaymiz.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Narxlar — metriga",
+      "intro": "Aniq narxni o‘lchovdan keyin aytamiz: u balandlik, burilishlar soni va mahkamlash turiga bog‘liq.",
+      "items": [
+        {
+          "title": "Zinapoya panjarasi",
+          "text": "Ustunlar va Ø50 mm tutqich, rigellar yoki torlar. Mat yoki oynadek sayqal.",
+          "price": "650 000 so‘mdan metriga",
+          "tag": "5–7 kun"
+        },
+        {
+          "title": "Shisha to‘siq",
+          "text": "Nuqtali tutqichlarda yoki profilda 10 mm toblangan shisha.",
+          "price": "1 450 000 so‘mdan metriga",
+          "tag": "7–10 kun"
+        },
+        {
+          "title": "Balkon to‘sig‘i",
+          "text": "Shisha, perforatsiyalangan list yoki sterjen bilan to‘ldirilgan zanglamas po‘lat.",
+          "price": "900 000 so‘mdan metriga",
+          "tag": "7 kun"
+        },
+        {
+          "title": "Devorga tutqich",
+          "text": "Tor zinapoya va podyezdlar uchun, har 80 sm da kronshteyn.",
+          "price": "280 000 so‘mdan metriga",
+          "tag": "3 kun"
+        },
+        {
+          "title": "Kirish soyaboni",
+          "text": "Zanglamas karkas va tripleks — yomg‘irdan himoya.",
+          "price": "4 800 000 so‘mdan",
+          "tag": "10 kun"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Sexda yasalgan",
+      "items": [
+        {
+          "title": "Mirobodagi uy",
+          "category": "Zinapoya, 3 qavat",
+          "year": "6 kun",
+          "text": "Butun balandlik bo‘ylab nuqtali tutqichlarda shisha va oynadek tutqich.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Shota Rustaveli TJM",
+          "category": "Balkonlar, 48 ta",
+          "year": "3 hafta",
+          "text": "Fasadning barcha qavatlarida bir xil perfolistli to‘siqlar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tashkent City restorani",
+          "category": "Antresol",
+          "year": "8 kun",
+          "text": "Zal interyeriga mos jez qo‘shimchali mat zanglamas po‘lat.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yunusoboddagi klinika",
+          "category": "Tutqichlar, 120 m",
+          "year": "5 kun",
+          "text": "Bemorlar uchun yo‘laklar bo‘ylab ikki darajali tutqichlar.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Xususiyatlar",
+      "items": [
+        {
+          "value": "1400",
+          "suffix": "+",
+          "label": "yiliga to‘siq metrlari"
+        },
+        {
+          "value": "304",
+          "suffix": "",
+          "label": "zanglamas po‘lat markasi"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "payvand va mahkamlagichlarga kafolat"
+        },
+        {
+          "value": "1",
+          "suffix": " kun",
+          "label": "kvartira yoki uyga o‘rnatish"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "O‘lchovdan o‘rnatishgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "packages",
+      "type": "pricing",
+      "label": "Paketlar",
+      "title": "Odatiy buyurtmalar",
+      "items": [
+        {
+          "name": "Kvartira",
+          "price": "3 900 000 so‘mdan",
+          "period": "zinapoya 6 m gacha",
+          "features": [
+            "304 ustun va tutqich",
+            "Rigellar yoki torlar",
+            "Bir kunda o‘rnatish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Uy",
+          "price": "12 500 000 so‘mdan",
+          "period": "2–3 qavat zinapoya",
+          "features": [
+            "10 mm shisha",
+            "Oynadek sayqal",
+            "3D eskiz",
+            "5 yil kafolat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Obyekt",
+          "price": "hisob bo‘yicha",
+          "period": "TJM, ofislar, restoranlar",
+          "features": [
+            "Loyiha va smeta",
+            "Qavatlar bo‘yicha jadval",
+            "Qabul hujjatlari"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Zanglamas po‘lat ko‘chada zanglamaydimi?",
+          "a": "Ko‘cha uchun AISI 304 olamiz va payvanddan keyin choklarni passivlaymiz. Zang dog‘lari bo‘lmaydi; yiliga bir marta maxsus vosita bilan artish kifoya."
+        },
+        {
+          "q": "O‘lchov qancha turadi?",
+          "a": "Toshkent bo‘ylab bepul. Viloyatga — yo‘l haqi, u buyurtmadan chegiriladi."
+        },
+        {
+          "q": "Qanday shisha qo‘yasiz?",
+          "a": "Toblangan 10 mm yoki 8+8 tripleks. Sinsa, toblangan shisha o‘tkir bo‘lmagan bo‘laklarga sochiladi."
+        },
+        {
+          "q": "Qanday to‘lanadi?",
+          "a": "Eskiz kelishilgach 50% oldindan, qolgani — o‘rnatishdan keyin. Naqd, karta yoki o‘tkazma."
+        },
+        {
+          "q": "Kafolatga nima kiradi?",
+          "a": "Payvand choklari, mahkamlagichlar va geometriya — 5 yil. Ustun bo‘shasa, kelib bepul qayta mahkamlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Ertaga o‘lchovchi yuboramiz",
+      "text": "Mirobod, Mirobod ko‘chasi, 41. Du–Ju 9:00–19:00, Sha 16:00 gacha.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilish",
+        "href": "tel:+998712000401"
+      }
+    }
+  ]
+}

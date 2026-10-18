@@ -1,0 +1,258 @@
+{
+  "name": "Noir",
+  "tagline": "Mualliflik ichimliklari qahva bari",
+  "niche": "Premium qahva bari",
+  "nav": {
+    "cta": {
+      "label": "Band qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Premium qahva bari, kokteyl bari yoki mualliflik oshxonali restoran uchun sayt. Birinchi ekranda jonli ipak, kursor ortidan suzuvchi rasmli ichimliklar ro‘yxati, to‘q nafis palitra.",
+    "features": []
+  },
+  "seo": {
+    "title": "Noir — Toshkentda mualliflik ichimliklari qahva bari",
+    "description": "Bobur, 45 da alkogolsiz mualliflik qahva kokteyllari, espresso-tonik va kold-bryu. Qorong‘i zal, 12 o‘rinli peshtaxta, besh ichimlikdan iborat degustatsiya seti.",
+    "keywords": [
+      "qahva bari Toshkent",
+      "mualliflik qahvasi",
+      "espresso-tonik",
+      "Bobur ko‘chasida qahva",
+      "qahva degustatsiyasi Toshkent"
+    ],
+    "answer": "Noir — Toshkent, Bobur ko‘chasi, 45 dagi qahva bari. 10:00 dan yarim tungacha, juma va dam olish kunlari — 1:00 gacha ochiq. Mualliflik ichimliklari 42 000 dan 58 000 so‘mgacha, espresso-tonik — 39 000 so‘m, besh ichimlikli degustatsiya seti — 160 000 so‘m. Alkogol bermaymiz."
+  },
+  "business": {
+    "legalName": "«Noir Kofe» MChJ",
+    "street": "Bobur ko‘chasi, 45",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Qahva, u",
+      "eyebrow": "Qahva bari · Bobur 45 · 01:00 gacha",
+      "subtitle": "Peshtaxtada o‘n ikki o‘rin, xira yorug‘lik va boshqa menyularda yo‘q ichimliklar. Barista sizga besh piyoladan kecha tuzib beradi — alkogolsiz, lekin ta’mi qoladi.",
+      "words": [
+        "oqshom hidi",
+        "sekin yangraydi",
+        "esda qoladi"
+      ],
+      "cta": {
+        "label": "Peshtaxtani band qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ichimliklar",
+        "href": "#drinks"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "title": "Nima qilamiz",
+      "items": [
+        "Espresso-tonik",
+        "Kold-bryu",
+        "Degustatsiyalar",
+        "Alkogolsiz",
+        "12 o‘rinli peshtaxta"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Bar",
+      "title": "Qahva kokteyl kabi: aniq, sovuq, xarakterli",
+      "text": "Noirni shahar chempionatlarida g‘olib bo‘lgan va siropli lattedan charchagan baristalar ochgan. Har bir ichimlik ko‘z oldingizda tayyorlanadi, muzni qo‘lda maydalaymiz, sirop va damlamalarni o‘zimiz qaynatamiz. Bu yerda noutbuk va baland musiqa yo‘q — faqat peshtaxta, suhbat va ta’m.",
+      "image": ""
+    },
+    {
+      "id": "drinks",
+      "type": "works",
+      "label": "Ichimliklar",
+      "title": "Mualliflik kartasi",
+      "items": [
+        {
+          "title": "Qora marvarid",
+          "category": "espresso, tonik, rozmarin",
+          "year": "42 000 so‘m",
+          "text": "Biroz achchiq, tetik, ignabarg hidli.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Baxmal",
+          "category": "kold-bryu, qaymoq, Taiti vanili",
+          "year": "48 000 so‘m",
+          "text": "Shakarsiz desert kabi yumshoq va quyuq.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Anor bog‘i",
+          "category": "filtr, anor, qora choy",
+          "year": "52 000 so‘m",
+          "text": "Bir qadahda O‘zbekiston anori va Efiopiya qahvasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tutun",
+          "category": "espresso, dudlangan zarang siropi",
+          "year": "58 000 so‘m",
+          "text": "Olcha qipig‘i tutuni ostida qopqoqda tortiladi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Tungi set",
+          "category": "barista tanlagan besh ichimlik",
+          "year": "160 000 so‘m",
+          "text": "Har bir don haqida hikoya bilan bir soatlik degustatsiya.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Klassika",
+      "title": "Shunchaki qahva xohlasangiz",
+      "groups": [
+        {
+          "name": "Espresso-bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Mavsumiy blend",
+              "price": "24 000 so‘m"
+            },
+            {
+              "name": "Kortado",
+              "text": "Espresso va ozgina sut",
+              "price": "30 000 so‘m"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "Ikkilik ristretto",
+              "price": "34 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Sovuq",
+          "items": [
+            {
+              "name": "Kold-bryu",
+              "text": "18 soat damlanadi",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Espresso-tonik",
+              "text": "Tonik, apelsin po‘chog‘i",
+              "price": "39 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Noir raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "peshtaxtadagi o‘rin"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "mualliflik ichimligi"
+        },
+        {
+          "value": "4",
+          "suffix": "",
+          "label": "mavsumdagi don navi"
+        },
+        {
+          "value": "18",
+          "suffix": "soat",
+          "label": "kold-bryu damlanadi"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Noirdagi kechadan keyin",
+      "items": [
+        {
+          "quote": "Uchrashuvga keldik, qahva haqidagi qaydlar daftari bilan ketdik. «Tutun» — bu teatr.",
+          "author": "Sevara va Temur",
+          "role": "shanba mehmonlari"
+        },
+        {
+          "quote": "Alkogol ichmayman va nihoyat buyurtma beradigan narsa bor bar topdim.",
+          "author": "Jahongir",
+          "role": "arxitektor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Band qilish kerakmi?",
+          "a": "Ish kunlari odatda shart emas. Juma va dam olish kunlari peshtaxtani band qilgan ma’qul — o‘rinlar atigi o‘n ikkita."
+        },
+        {
+          "q": "Alkogol berasizmi?",
+          "a": "Yo‘q. Barcha ichimliklar alkogolsiz — ta’m murakkabligini qahva, choy va damlamalar beradi."
+        },
+        {
+          "q": "Degustatsiya qancha davom etadi?",
+          "a": "Taxminan bir soat. Besh ichimlik, barista hikoyasi, ikki kishiga — 300 000 so‘m."
+        },
+        {
+          "q": "Kiyinish qoidasi bormi?",
+          "a": "Yo‘q, qulay kiyimda keling. Faqat kechqurun peshtaxtada noutbukda ishlamaslikni so‘raymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Peshtaxtadan joy oling",
+      "text": "Bobur, 45, kirish yon tomondan, peshlavhasiz qora eshik. Yarim tungacha, juma va dam olish kunlari — soat birgacha.",
+      "cta": {
+        "label": "Band qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

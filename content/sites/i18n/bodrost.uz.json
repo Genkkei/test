@@ -1,0 +1,313 @@
+{
+  "name": "Bodrost",
+  "tagline": "Metro yonidagi qovurish ustaxonasi: ikki daqiqada olib ketish uchun qahva va har kuni yangi don",
+  "niche": "Qahvaxona va qovurish ustaxonasi",
+  "nav": {
+    "cta": {
+      "label": "Qahva buyurtma qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Olib ketish qahvaxonasi yoki qovurish ustaxonasi uchun sayt: to‘q mavzu, katta menyu, oldindan buyurtma va don obunasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Bodrost — Chilonzor metrosi yonida olib ketish uchun qahva",
+    "description": "Ertalab 7 dan «Chilonzor» metrosi chiqishida olib ketish uchun qahva: espresso 18 000 so‘mdan, Telegramda oldindan buyurtma, o‘zimiz qovurgan don 250 g — 95 000 so‘mdan.",
+    "keywords": [
+      "Chilonzor olib ketish qahva",
+      "metro yonidagi qahvaxona",
+      "Toshkent qahva qovurish",
+      "qahva doni Toshkent",
+      "ertalabki qahva"
+    ],
+    "answer": "Bodrost — «Chilonzor» metrosi chiqishidagi qahvaxona va qovurish ustaxonasi (Bunyodkor ko‘chasi, 15), ish kunlari 7:00 dan 21:00 gacha, dam olish kunlari 8:00 dan ochiq. Espresso — 18 000 so‘m, kapuchino — 28 000 so‘m, Telegramdagi buyurtma kelishingizgacha tayyor bo‘ladi. O‘zimiz qovurgan don — 250 g uchun 95 000 so‘mdan."
+  },
+  "business": {
+    "legalName": "«Bodrost Kofe» MChJ",
+    "street": "Bunyodkor ko‘chasi, 15, «Chilonzor» metro chiqishi",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Chilonzor",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ishdan oldin qahva — ikki daqiqada",
+      "eyebrow": "Qovurish ustaxonasi · «Chilonzor» metrosi",
+      "subtitle": "Donni shu yerning o‘zida, oyna ortida qovuramiz. Yo‘lda Telegramga buyurtma yozing — stakan peshtaxtada kutib turadi.",
+      "words": [
+        "flet uayt",
+        "raf",
+        "kold bryu",
+        "espresso tonik"
+      ],
+      "cta": {
+        "label": "Oldindan buyurtma",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "tape",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "7:00 dan ochiqmiz",
+        "Har kuni qovuramiz",
+        "O‘z stakaningiz — 3 000 so‘m chegirma",
+        "Telegramda oldindan buyurtma"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Tong metrodan chiqishda boshlanadi",
+      "text": "Biz har tong minglab odam o‘tadigan joyda ochildik — va yugurib ketayotganda ichsa uyalmaydigan qahva qildik. 5 kg lik roster to‘g‘ri zalda turadi: donni haftada uch marta kichik partiyalarda qovuramiz, shuning uchun espresso doim yangi. Baristalar doimiy mehmonlarni va ularning «odatdagidek»ini eslab qolishadi.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Ertalab nima olishadi",
+      "groups": [
+        {
+          "name": "Qora qahva",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "«Tong» aralashmasi: shokolad va yong‘oq",
+              "price": "18 000 so‘m"
+            },
+            {
+              "name": "Amerikano",
+              "text": "300 ml",
+              "price": "22 000 so‘m"
+            },
+            {
+              "name": "Kun filtri",
+              "text": "Haftaning navi, o‘zimiz qovurgan",
+              "price": "26 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Sutli",
+          "items": [
+            {
+              "name": "Kapuchino",
+              "text": "250 / 350 ml",
+              "price": "28 000 / 33 000 so‘m"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "Qo‘sh ristretto",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Vanilli raf",
+              "text": "Qaymoq va vanil",
+              "price": "36 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Sovuq",
+          "items": [
+            {
+              "name": "Kold bryu",
+              "text": "16 soat damlaymiz",
+              "price": "30 000 so‘m"
+            },
+            {
+              "name": "Espresso-tonik",
+              "text": "Tonik, muz, po‘stloq",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Kruassan",
+              "text": "Ertalab 7 ga yangi",
+              "price": "22 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beans",
+      "type": "services",
+      "label": "Don",
+      "title": "O‘zimiz qovurgan don",
+      "intro": "",
+      "items": [
+        {
+          "title": "«Tong» aralashmasi",
+          "text": "Braziliya va Kolumbiya. Espresso va turka uchun.",
+          "price": "95 000 so‘m / 250 g",
+          "tag": "xit"
+        },
+        {
+          "title": "Efiopiya Sidamo",
+          "text": "Rezavor va bergamot, filtr uchun.",
+          "price": "135 000 so‘m / 250 g",
+          "tag": "filtr"
+        },
+        {
+          "title": "Qahva qaynatgichingizga moslab maydalash",
+          "text": "Uyda nima bilan qaynatishingizni ayting — tekin maydalab beramiz.",
+          "price": "bepul",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "route",
+      "type": "process",
+      "label": "Oldindan buyurtma",
+      "title": "Navbatsiz qanday buyurtma qilish",
+      "items": [
+        {
+          "title": "Yozing",
+          "text": "Telegramda yoki saytdagi tugma orqali ichimlik va vaqtni yozing."
+        },
+        {
+          "title": "Tayyorlaymiz",
+          "text": "Kelishingizdan uch daqiqa oldin tayyorlashni boshlaymiz."
+        },
+        {
+          "title": "Olib keting",
+          "text": "Ismingiz yozilgan stakan kassa yonidagi javonda kutadi."
+        }
+      ]
+    },
+    {
+      "id": "sub",
+      "type": "pricing",
+      "label": "Abonement",
+      "title": "Har kuni qahva — arzonroq",
+      "items": [
+        {
+          "name": "10 ta qahva",
+          "price": "250 000 so‘m",
+          "period": "",
+          "features": [
+            "33 000 so‘mgacha istalgan ichimlik",
+            "Muddat — 30 kun",
+            "Hamkasb bilan bo‘lishsa bo‘ladi"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oy",
+          "price": "590 000 so‘m",
+          "period": "/ oy",
+          "features": [
+            "Har kuni bitta ichimlik",
+            "Juma kunlari kruassan",
+            "Sovg‘aga bir paket don"
+          ],
+          "featured": true
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": " daq",
+          "label": "buyurtmadan stakangacha"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "haftada qovurish"
+        },
+        {
+          "value": "7",
+          "suffix": ":00",
+          "label": "har ish kuni ochilamiz"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Ertalab nima deyishadi",
+      "items": [
+        {
+          "quote": "Eskalatorda buyurtma yozaman, chiqaman — flet uayt tayyor turibdi. Tonglarimga bo‘lgan eng yaxshi narsa.",
+          "author": "Diyora S.",
+          "role": "har tong"
+        },
+        {
+          "quote": "Ofis uchun «Tong» donini oldim — yigitlar qahva mashinamizga moslab maydalashni sozlab berishdi.",
+          "author": "Rustam A.",
+          "role": "ofis uchun"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Asosiysi qisqacha",
+      "items": [
+        {
+          "q": "Qayerdasiz?",
+          "a": "Bunyodkor ko‘chasi, 15 — «Chilonzor» metrosidan chiqishda o‘ngda, rosterli oynavand vitrina."
+        },
+        {
+          "q": "Qanday qilib oldindan buyurtma beriladi?",
+          "a": "«Oldindan buyurtma»ni bosing yoki Telegramda @bodrostcoffee ga ichimlik va vaqtni yozing. To‘lov olganda."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Ha: suli va bodom suti, ichimlikka +5 000 so‘m."
+        },
+        {
+          "q": "Donni ulgurji olsa bo‘ladimi?",
+          "a": "Ofis va kafelar uchun — 3 kg dan chegirma va qahva mashinasini sozlash bilan. Bizga yozing."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Yo‘l-yo‘lakay kiring",
+      "text": "Ish kunlari 7:00–21:00, dam olish kunlari 8:00–21:00. Bunyodkor ko‘chasi, 15, «Chilonzor» metrosi chiqishi.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/bodrostcoffee"
+      }
+    }
+  ]
+}

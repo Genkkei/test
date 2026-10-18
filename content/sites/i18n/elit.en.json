@@ -1,0 +1,277 @@
+{
+  "name": "Elit Atelier",
+  "tagline": "Bespoke furniture with brass and marble",
+  "niche": "Premium bespoke furniture",
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a premium furniture atelier: dark velvet with a golden glint, services and a finishes price list, order stages and booking via Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Elit Atelier — premium bespoke furniture in Tashkent",
+    "description": "Tables with marble tops, chests and studies with brass hardware made to your sketches. Meetings at the atelier by appointment, production from 45 days.",
+    "keywords": [
+      "premium furniture Tashkent",
+      "bespoke furniture",
+      "marble top table",
+      "brass hardware",
+      "bespoke study"
+    ],
+    "answer": "Elit Atelier is a premium bespoke furniture atelier in Tashkent (12 Afrosiyob St), by appointment Mon–Sat 11:00–19:00. A dining table with a marble top from 42,000,000 UZS, a turnkey study from 120,000,000 UZS, production in 45–90 days, 5-year warranty."
+  },
+  "business": {
+    "legalName": "Elit Atelier LLC",
+    "street": "12 Afrosiyob St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Samarkand, Bukhara",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "One-of-a-kind furniture",
+      "eyebrow": "Furniture atelier · Tashkent · by appointment",
+      "subtitle": "Marble, brass, walnut and leather. We design and make pieces to your sketch — and never repeat them for anyone.",
+      "words": [
+        "marble",
+        "brass",
+        "walnut"
+      ],
+      "cta": {
+        "label": "Book a visit",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Services",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "marquee",
+      "type": "marquee",
+      "label": "",
+      "title": "Materials",
+      "items": [
+        "Carrara marble",
+        "Hand-polished brass",
+        "American walnut",
+        "Italian leather",
+        "Travertine"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The atelier",
+      "title": "Twelve craftsmen and no assembly line",
+      "text": "One craftsman leads each order from the first sketch to installation. We polish brass by hand, choose marble slab by slab with you at the supplier’s yard and use only Italian leather. We take no more than forty orders a year.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we make",
+      "intro": "",
+      "items": [
+        {
+          "title": "Dining tables",
+          "text": "A marble or travertine top on a brass or walnut base.",
+          "price": "from 42,000,000 UZS",
+          "tag": "45–60 days"
+        },
+        {
+          "title": "Studies and libraries",
+          "text": "Wall panelling, a desk and lit cabinets — turnkey.",
+          "price": "from 120,000,000 UZS",
+          "tag": "75–90 days"
+        },
+        {
+          "title": "Chests and consoles",
+          "text": "Walnut with brass hardware and a marble top.",
+          "price": "from 18,000,000 UZS",
+          "tag": "45 days"
+        },
+        {
+          "title": "Leather upholstered furniture",
+          "text": "Sofas and armchairs to your dimensions in Italian leather.",
+          "price": "from 36,000,000 UZS",
+          "tag": "60 days"
+        }
+      ]
+    },
+    {
+      "id": "finishes",
+      "type": "menu",
+      "label": "Finishes",
+      "title": "Materials and surcharges",
+      "groups": [
+        {
+          "name": "Stone",
+          "items": [
+            {
+              "name": "Carrara marble",
+              "text": "White with grey veins, 2 cm",
+              "price": "from 3,800,000 UZS / m²"
+            },
+            {
+              "name": "Nero Marquina",
+              "text": "Black with white veins",
+              "price": "from 4,600,000 UZS / m²"
+            },
+            {
+              "name": "Travertine",
+              "text": "Warm beige, filled pores",
+              "price": "from 2,900,000 UZS / m²"
+            }
+          ]
+        },
+        {
+          "name": "Metal and leather",
+          "items": [
+            {
+              "name": "Polished brass",
+              "text": "Handles, legs, edging",
+              "price": "from 450,000 UZS / pc"
+            },
+            {
+              "name": "Aged brass",
+              "text": "Matt patina",
+              "price": "from 520,000 UZS / pc"
+            },
+            {
+              "name": "Nappa leather",
+              "text": "Italy, 24 colours",
+              "price": "from 1,900,000 UZS / m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "The atelier in numbers",
+      "title": "The atelier in numbers",
+      "items": [
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "craftsmen"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "orders a year, no more"
+        },
+        {
+          "value": "5",
+          "suffix": " years",
+          "label": "warranty"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From sketch to installation",
+      "items": [
+        {
+          "title": "Meeting at the atelier",
+          "text": "Stone, metal and leather samples on one table."
+        },
+        {
+          "title": "Sketch and 3D",
+          "text": "Two rounds at no extra charge."
+        },
+        {
+          "title": "Choosing the slab",
+          "text": "We go to the yard and pick your piece of marble."
+        },
+        {
+          "title": "Making",
+          "text": "45–90 days with a mid-way fitting."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver in gloves, place it and polish it on site."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Atelier clients",
+      "items": [
+        {
+          "quote": "We picked the slab for the table ourselves — now it is the centrepiece of the house.",
+          "author": "The Karimov family",
+          "role": "Tashkent"
+        },
+        {
+          "quote": "The study was done in 82 days, as promised. The brass still looks like day one.",
+          "author": "Bakhtiyor",
+          "role": "Samarkand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I come without an appointment?",
+          "a": "Better to book: the meeting takes an hour and the craftsman prepares samples for your request."
+        },
+        {
+          "q": "How is an order paid?",
+          "a": "60% after the 3D is approved, 40% before installation."
+        },
+        {
+          "q": "Does marble stain?",
+          "a": "We seal it and give you a year’s supply of care product."
+        },
+        {
+          "q": "Do you work in other cities?",
+          "a": "Yes, installation in Samarkand and Bukhara is included in the price."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Book a meeting",
+      "text": "The atelier at 12 Afrosiyob St. Mon–Sat 11:00–19:00, by appointment.",
+      "cta": {
+        "label": "Book",
+        "href": "#order"
+      }
+    }
+  ]
+}

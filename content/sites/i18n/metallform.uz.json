@@ -1,0 +1,264 @@
+{
+  "name": "Metallform",
+  "tagline": "Minimalizm uslubida metall mebel va konstruksiyalar",
+  "niche": "Metall mebel va zamonaviy metall konstruksiyalar",
+  "seo": {
+    "title": "Metallform — Toshkentda metall mebel va konstruksiyalar",
+    "description": "Qora va bo‘yalgan po‘latdan stollar, javonlar, kosourli zinapoyalar va to‘siqlar. O‘z chizmalarimiz yoki dizayner loyihasi bo‘yicha yasaymiz. Yakkasaroy, Toshkent.",
+    "keywords": [
+      "metall mebel Toshkent",
+      "kosourli zinapoya",
+      "metall javonlar",
+      "metall to‘siqlar"
+    ],
+    "answer": "Metallform — Yakkasaroydagi ustaxona, minimalistik uslubda po‘latdan mebel va konstruksiyalar yasaydi: stollar 3 200 000 so‘mdan, javonlar 2 600 000 so‘mdan, bitta kosourli zinapoyalar 18 000 000 so‘mdan. Muddat 2–4 hafta, kafolat 3 yil, telefon +998 71 200-04-02."
+  },
+  "nav": {
+    "cta": {
+      "label": "Muhokama",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall mebel va konstruksiyalar ustaxonasi uchun sayt: qat’iy setka, yirik tipografiya, xususiyatli loyihalar va ish bosqichlari.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Metallform» MChJ",
+    "street": "Shota Rustaveli ko‘chasi, 112, Yakkasaroy",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ortiqchasiz po‘lat",
+      "eyebrow": "Ustaxona · Yakkasaroy · Toshkent",
+      "subtitle": "Qora va bo‘yalgan po‘latdan stollar, javonlar, zinapoyalar va to‘siqlar. Ingichka profillar, aniq burchaklar, birorta ko‘rinadigan chok yo‘q.",
+      "words": [
+        "Stollar",
+        "Javonlar",
+        "Zinapoyalar",
+        "To‘siqlar"
+      ],
+      "cta": {
+        "label": "Loyihani muhokama qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Loyihalar",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Ta’mirdan uzoqroq yashaydigan buyumlar yasaymiz",
+      "text": "Biz olti kishimiz: konstruktor, uchta payvandchi va ikkita bo‘yoqchi. Har bir buyumni avval masshtabda chizamiz, so‘ng 20×20 profil yoki 3 mm listdan yig‘amiz. Interyer dizaynerlari bilan ham, kvartira, kafe va ofis egalari bilan ham bevosita ishlaymiz.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "So‘nggi obyektlar",
+      "items": [
+        {
+          "title": "Bitta kosourli zinapoya",
+          "category": "Taunxaus, Mirzo Ulug‘bek",
+          "year": "mart 2026",
+          "text": "10 mm listdan kosour, eman zinalar, ustunsiz — devorga tayanadi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Butun devorga javon",
+          "category": "Kvartira, Yakkasaroy",
+          "year": "yanvar 2026",
+          "text": "Qora matda 20×20 rama, 42 ta javon, ichki yoritish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Armaturali shishali to‘siq",
+          "category": "Ofis, Tashkent City",
+          "year": "noyabr 2025",
+          "text": "14 metr loft uslubidagi to‘siq, yashirin oshiq-moshiqli eshiklar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qahvaxona mebeli",
+          "category": "Kafe, Chilonzor",
+          "year": "sentyabr 2025",
+          "text": "Bar peshtaxtasi, 12 ta stol va terrakota rangidagi baland stullar.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Nima qilamiz",
+      "title": "Narxlar «...dan»",
+      "intro": "Yakuniy narx — chizma bo‘yicha: metall, bo‘yash va o‘rnatishni alohida qatorlarda hisoblaymiz.",
+      "items": [
+        {
+          "title": "Ovqat stoli",
+          "text": "Po‘lat oyoqlar, massiv yoki keramika stol usti.",
+          "price": "3 200 000 so‘mdan",
+          "tag": "2 hafta"
+        },
+        {
+          "title": "Javon",
+          "text": "Ochiq yoki orqa devorli, istalgan balandlikda.",
+          "price": "2 600 000 so‘mdan",
+          "tag": "2 hafta"
+        },
+        {
+          "title": "Kosourli zinapoya",
+          "text": "Bir yoki ikki kosour, yog‘och yoki metall zinalar.",
+          "price": "18 000 000 so‘mdan",
+          "tag": "3–4 hafta"
+        },
+        {
+          "title": "To‘siq",
+          "text": "Po‘lat ramadagi shisha, eshikli yoki eshiksiz.",
+          "price": "1 900 000 so‘mdan m² uchun",
+          "tag": "3 hafta"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Qanday ishlaymiz",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "sexda usta"
+        },
+        {
+          "value": "240",
+          "suffix": "+",
+          "label": "yasalgan buyum"
+        },
+        {
+          "value": "3",
+          "suffix": " yil",
+          "label": "payvandga kafolat"
+        },
+        {
+          "value": "2",
+          "suffix": " hafta",
+          "label": "o‘rtacha muddat"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar aytadi",
+      "items": [
+        {
+          "quote": "Javonni tokchaga aniq santimetrgacha yig‘ishdi. Chizmani oldindan to‘lovdan oldin yuborishdi.",
+          "author": "Nigora",
+          "role": "Yakkasaroydagi kvartira"
+        },
+        {
+          "quote": "Qahvaxona uchun mebelni kalit topshirish bilan yasashdi: peshtaxta, stollar, stullar. Ochilishga uch haftada ulgurishdi.",
+          "author": "Baxtiyor",
+          "role": "kafe egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Dizayner eskizi bo‘yicha mumkinmi?",
+          "a": "Ha. Eskizni ishchi chizmaga aylantiramiz, tugunlarni kelishamiz va shundan keyingina metall kesamiz."
+        },
+        {
+          "q": "Qanday bo‘yoq ranglari bor?",
+          "a": "RAL katalogidagi istalgan rang, mat yoki shagren. Qora metallni mum ostida qoldirish ham mumkin."
+        },
+        {
+          "q": "Qancha kutish kerak?",
+          "a": "Mebel — 2 hafta, zinapoyalar — chizma tasdiqlangandan 3–4 hafta."
+        },
+        {
+          "q": "Yetkazib berasizmi?",
+          "a": "Toshkent bo‘ylab yetkazish va yig‘ish narxga kiradi. Viloyatga — hisob bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "O‘lcham yoki joy suratini yuboring",
+      "text": "Yakkasaroy, Shota Rustaveli ko‘chasi, 112. Du–Ju 10:00–19:00, Sha 11:00–17:00.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilish",
+        "href": "tel:+998712000402"
+      }
+    }
+  ]
+}

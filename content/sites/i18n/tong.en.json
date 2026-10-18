@@ -1,0 +1,233 @@
+{
+  "name": "Tong",
+  "tagline": "A quiet morning café in Mirabad: all-day breakfast and unhurried coffee",
+  "niche": "Breakfast café",
+  "nav": {
+    "cta": {
+      "label": "Book a table",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a breakfast café or bakery: warm paper tones, lots of air, a dish menu and a room album.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Tong — all-day breakfast café in Mirabad, Tashkent",
+    "description": "Breakfast until 17:00: syrniki, shakshuka and sourdough toast, filter coffee and cappuccino. The café at 22 Shahrisabz St is open daily from 8 am.",
+    "keywords": [
+      "breakfast Tashkent",
+      "café Mirabad",
+      "all-day breakfast",
+      "syrniki Tashkent",
+      "quiet café Tashkent"
+    ],
+    "answer": "Tong is a breakfast café at 22 Shahrisabz St in Mirabad, open daily 8:00–17:00. Breakfast is served all day: syrniki 48,000 UZS, shakshuka 56,000 UZS, cappuccino 30,000 UZS. Weekend tables are booked on Telegram."
+  },
+  "business": {
+    "legalName": "Tong Coffee sole proprietorship",
+    "street": "22 Shahrisabz St, Mirabad district",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Mirabad",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A morning that doesn’t rush you",
+      "eyebrow": "Café · Mirabad",
+      "subtitle": "Breakfast until five, filter coffee in ceramics and a big table by the window. Come and stay — nobody will ask you to leave.",
+      "words": [],
+      "cta": {
+        "label": "Book a table",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Breakfasts",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "“Tong” means “morning”",
+      "text": "We are a small café on a quiet Mirabad street: twelve tables, light walls and windows onto a yard with an elm tree. Breakfasts are made with produce from Mirabad bazaar, we bake our own sourdough, and our coffee is roasted by friends in Tashkent.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Breakfast",
+      "title": "Served until 17:00",
+      "groups": [
+        {
+          "name": "Breakfast",
+          "items": [
+            {
+              "name": "Syrniki",
+              "text": "With sour cream and berry jam",
+              "price": "48,000 UZS"
+            },
+            {
+              "name": "Shakshuka",
+              "text": "Tomatoes, peppers, two eggs, sourdough",
+              "price": "56,000 UZS"
+            },
+            {
+              "name": "Avocado toast",
+              "text": "Poached egg, sesame",
+              "price": "62,000 UZS"
+            },
+            {
+              "name": "Porridge",
+              "text": "With milk, banana and honey",
+              "price": "38,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Coffee",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "",
+              "price": "30,000 UZS"
+            },
+            {
+              "name": "Filter in ceramics",
+              "text": "For two, 500 ml",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Cocoa",
+              "text": "With marshmallows",
+              "price": "32,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "type": "works",
+      "label": "Season",
+      "title": "This autumn’s dishes",
+      "items": [
+        {
+          "title": "Pumpkin porridge",
+          "category": "Breakfast",
+          "year": "October",
+          "text": "Millet porridge with roasted pumpkin, walnuts and butter · 44,000 UZS",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Persimmon and ricotta",
+          "category": "Toast",
+          "year": "November",
+          "text": "Sourdough toast with ricotta, persimmon and honey · 54,000 UZS",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Spiced latte",
+          "category": "Coffee",
+          "year": "until spring",
+          "text": "Latte with cinnamon, cardamom and quince syrup · 38,000 UZS",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "room",
+      "type": "gallery",
+      "label": "The room",
+      "title": "Windows onto the elm-tree yard",
+      "items": [
+        {
+          "caption": "The big table by the window",
+          "image": ""
+        },
+        {
+          "caption": "Sourdough bread",
+          "image": ""
+        },
+        {
+          "caption": "Morning in the yard",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests say",
+      "items": [
+        {
+          "quote": "The only place where you can have breakfast at two on a Saturday and not feel late.",
+          "author": "Madina R.",
+          "role": "weekend guest"
+        },
+        {
+          "quote": "Syrniki like grandma’s, and coffee better than grandma’s.",
+          "author": "Timur Kh.",
+          "role": "lives nearby"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before you come",
+      "items": [
+        {
+          "q": "Until when is breakfast served?",
+          "a": "All day — until we close at 17:00."
+        },
+        {
+          "q": "Do I need to book?",
+          "a": "On weekdays, no. On Saturday and Sunday before 13:00 it’s best to book via the button on the site."
+        },
+        {
+          "q": "Is there a kids’ menu?",
+          "a": "Yes: small syrniki, porridge and cocoa, plus high chairs."
+        },
+        {
+          "q": "Can I come with a laptop?",
+          "a": "Of course — Wi-Fi and sockets at the big table. On weekends please keep it to two hours."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Address",
+      "title": "Come for breakfast",
+      "text": "22 Shahrisabz St, Mirabad. Daily 8:00–17:00.",
+      "cta": {
+        "label": "Book a table",
+        "href": "#order"
+      }
+    }
+  ]
+}

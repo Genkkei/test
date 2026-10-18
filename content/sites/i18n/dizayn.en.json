@@ -1,0 +1,265 @@
+{
+  "name": "Dizayn",
+  "tagline": "A gallery of design furniture and collectible objects",
+  "niche": "Design furniture gallery",
+  "seo": {
+    "title": "Dizayn — design furniture gallery in Tashkent",
+    "description": "Design furniture, lighting and collectible objects by makers from Uzbekistan and Europe. A new show every two months, buy from the floor or to order, delivery nationwide.",
+    "keywords": [
+      "design furniture Tashkent",
+      "furniture gallery",
+      "designer-made furniture",
+      "collectible design",
+      "buy a designer armchair"
+    ],
+    "answer": "Dizayn is a design furniture gallery in Tashkent (52 Shota Rustaveli Street). It shows and sells furniture, lighting and collectible objects by makers from Uzbekistan and Europe: armchairs from UZS 9,500,000, lamps from UZS 2,800,000. Shows change every two months; open Tuesday to Sunday, 11–20."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buy a piece",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a design gallery or a showroom of designer-made furniture: a full-width name, a piece with a museum label, an index of shows, a showcase of works and a section for collectors.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Dizayn Gallery LLC",
+    "street": "52 Shota Rustaveli Street, Yakkasaray",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Furniture people collect",
+      "eyebrow": "“Chinar” armchair · Bakhtiyor Karimov, 2026 · walnut, leather · one of a kind",
+      "subtitle": "Twenty pieces by eight makers in the “Warm Wood” show. Touch them, sit on them and buy them — from the floor or made to order in your colour.",
+      "words": [
+        "Armchairs",
+        "Lighting",
+        "Tables",
+        "Ceramics"
+      ],
+      "cta": {
+        "label": "Buy a piece",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Shows",
+        "href": "#shows"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Warm Wood",
+        "Designer-made furniture",
+        "Lighting",
+        "Ceramics",
+        "Made to order"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Gallery",
+      "title": "A showroom that shows furniture as art",
+      "text": "We select furniture and lighting from small workshops and makers: every piece is handmade, in editions of up to 20 or as one-offs. Every two months we change the display, tell the maker’s story and help you fit the piece into your interior.",
+      "image": ""
+    },
+    {
+      "id": "shows",
+      "type": "works",
+      "label": "Shows",
+      "title": "This season",
+      "items": [
+        {
+          "title": "Warm Wood",
+          "category": "8 makers, walnut and oak furniture",
+          "year": "01.10 — 30.11.2026",
+          "text": "Armchairs, tables and benches from workshops in Tashkent and Samarkand.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Light and Clay",
+          "category": "Ceramic lamps",
+          "year": "05.12.2026 — 31.01.2027",
+          "text": "Lamps of Rishtan clay in contemporary shapes.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Soft Form",
+          "category": "European armchairs and sofas",
+          "year": "07.02 — 31.03.2027",
+          "text": "Upholstered pieces from shows in Milan and Copenhagen.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "On the floor",
+      "title": "Available now",
+      "items": [
+        {
+          "caption": "“Chinar” armchair, walnut",
+          "image": ""
+        },
+        {
+          "caption": "“Aryk” table, oak",
+          "image": ""
+        },
+        {
+          "caption": "“Kurpacha” bench",
+          "image": ""
+        },
+        {
+          "caption": "“Lagan” lamp, ceramic",
+          "image": ""
+        },
+        {
+          "caption": "“Piyola” stool",
+          "image": ""
+        },
+        {
+          "caption": "“Madrasa” console",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "24",
+          "suffix": "",
+          "label": "makers in the collection"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "shows a year"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "maximum edition size"
+        },
+        {
+          "value": "45",
+          "suffix": " days",
+          "label": "made-to-order lead time"
+        }
+      ]
+    },
+    {
+      "id": "collectors",
+      "type": "services",
+      "label": "For collectors",
+      "title": "How to buy",
+      "intro": "",
+      "items": [
+        {
+          "title": "From the floor",
+          "text": "Take the piece after the show closes, or earlier with a sample in its place.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Made to order",
+          "text": "In your size, wood and fabric. 30–60 days.",
+          "price": "",
+          "tag": ""
+        },
+        {
+          "title": "Interior advice",
+          "text": "The gallery’s designer visits and selects pieces for your project.",
+          "price": "UZS 500,000",
+          "tag": "credited to the purchase"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From our visitors",
+      "items": [
+        {
+          "quote": "We came to see the show and left with an armchair. It is now the centrepiece of our living room.",
+          "author": "Shakhnoza",
+          "role": "“Chinar” armchair"
+        },
+        {
+          "quote": "They helped choose lighting and a console for our restaurant and delivered on time.",
+          "author": "Rustam",
+          "role": "restaurateur"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is entry paid?",
+          "a": "No, the gallery is open to everyone Tuesday to Sunday, 11–20."
+        },
+        {
+          "q": "Can I buy a piece before the show ends?",
+          "a": "Yes, we reserve it for you; collect it after the show, or straight away if the maker provides a replacement."
+        },
+        {
+          "q": "Do you deliver to the regions?",
+          "a": "Yes, crated in wood and insured. The cost depends on weight and distance."
+        },
+        {
+          "q": "How can I show my work here?",
+          "a": "Send your portfolio on Telegram; the curator replies within a week."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Visit",
+      "title": "Come and sit",
+      "text": "52 Shota Rustaveli, Tue–Sun 11–20. Message us on Telegram for a private viewing outside opening hours.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/dizayn_gallery"
+      }
+    }
+  ]
+}

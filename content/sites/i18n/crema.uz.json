@@ -1,0 +1,241 @@
+{
+  "name": "Crema",
+  "tagline": "Bir vaqtda bitta finjon. Oq deraza, yaxshi espresso va hech qanday shovqin yo‘q",
+  "niche": "Yapon uslubidagi olib ketish qahvaxonasi",
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Yapon minimalizmidagi olib ketish qahvaxonasi yoki qahva-deraza uchun sayt. Oq kub, latte-art finjonda chiziq bilan chiziladi, menyu — raqamli talonlar, buyurtma bitta dumaloq tugma bilan.",
+    "features": []
+  },
+  "seo": {
+    "title": "Crema — Tashkent Cityda olib ketish uchun qahva",
+    "description": "Tashkent Citydagi minimalistik qahvaxona-deraza: espresso, latte, moti va mavsumiy ichimliklar olib ketish uchun. Har kuni 7:30 dan ochiq, sayt orqali oldindan buyurtma.",
+    "keywords": [
+      "olib ketish qahva Toshkent",
+      "Tashkent City qahvaxona",
+      "latte",
+      "espresso",
+      "yapon qahvaxonasi",
+      "matcha latte"
+    ],
+    "answer": "Crema — Tashkent City, Furqat ko‘chasi, 1 dagi olib ketish qahvaxonasi. Har kuni 7:30 dan 22:00 gacha ochiq. Espresso — 22 000 so‘m, latte — 32 000 so‘m, matcha-latte — 38 000 so‘m. Buyurtmani saytda qoldirib, navbatsiz olib ketish mumkin."
+  },
+  "business": {
+    "legalName": "«Crema» MChJ",
+    "street": "Tashkent City, Furqat ko‘chasi, 1",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Crema",
+      "eyebrow": "Olib ketish uchun qahva · Tashkent City",
+      "subtitle": "Birinchi qavatda deraza, bitta qahva mashinasi va uchta barista. Ertalab — bir daqiqada espresso, kunduzi — latte va moti, kechqurun — sukunat va oq yorug‘lik.",
+      "words": [],
+      "cta": {
+        "label": "Menyu",
+        "href": "#menu"
+      },
+      "ctaSecondary": {
+        "label": "Oldindan buyurtma",
+        "href": "#order"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "items": [
+        "Espresso",
+        "Latte",
+        "Matcha",
+        "Hojicha",
+        "Mochi",
+        "Tashkent City"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Deraza",
+      "title": "Ortiqcha hamma narsani ko‘rinmas qildik",
+      "text": "Peshlavha yo‘q, taxtada menyu yo‘q, siroplar yo‘q. Oq devor, deraza va soat 7:30 da ham, 21:30 da ham bir xil yaxshi tayyorlanadigan qahva. Don — Toshkentda och qovurilgan, sut — mahalliy, stakanlar — qayta ishlangan qog‘ozdan. Kutayotganingizda rozetta qanday chizilishini kuzatishingiz mumkin.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Derazada nima bor",
+      "groups": [
+        {
+          "name": "Espresso-bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Och qovurilgan, 30 ml",
+              "price": "22 000 so‘m"
+            },
+            {
+              "name": "Amerikano",
+              "text": "Espresso va issiq suv",
+              "price": "24 000 so‘m"
+            },
+            {
+              "name": "Latte",
+              "text": "Rozetta bilan, 300 ml",
+              "price": "32 000 so‘m"
+            },
+            {
+              "name": "Flet uayt",
+              "text": "Ikki shot, 180 ml",
+              "price": "32 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qahva emas",
+          "items": [
+            {
+              "name": "Matcha-latte",
+              "text": "Udjidan marosim matchasi",
+              "price": "38 000 so‘m"
+            },
+            {
+              "name": "Xodzicha",
+              "text": "Sut bilan qovurilgan yashil choy",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Yudzu-tonik",
+              "text": "Tonik, yudzu, muz",
+              "price": "30 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Finjonga",
+          "items": [
+            {
+              "name": "Moti",
+              "text": "Qulupnay, mango yoki matcha",
+              "price": "18 000 so‘m"
+            },
+            {
+              "name": "Madlen",
+              "text": "Limon va sariyog‘",
+              "price": "14 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Deraza",
+      "title": "Bir kun",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "son",
+          "label": "espressoga"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "smenada barista"
+        },
+        {
+          "value": "14",
+          "suffix": "soat",
+          "label": "har kuni ochiq"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Yorug‘lik",
+      "title": "Oq deraza",
+      "items": [
+        {
+          "caption": "latte",
+          "image": ""
+        },
+        {
+          "caption": "window",
+          "image": ""
+        },
+        {
+          "caption": "matcha",
+          "image": ""
+        },
+        {
+          "caption": "mochi",
+          "image": ""
+        },
+        {
+          "caption": "morning",
+          "image": ""
+        },
+        {
+          "caption": "cup",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Qisqacha",
+      "items": [
+        {
+          "q": "O‘tiradigan joy bormi?",
+          "a": "Deraza bo‘ylab peshtaxtada oltita o‘rin. Biz olib ketish uchun qilinganmiz, lekin shoshiltirmaymiz."
+        },
+        {
+          "q": "Oldindan buyurtma bersa bo‘ladimi?",
+          "a": "Ha. «Buyurtma»ni bosing, ichimlik va vaqtni kiriting — navbatsiz olib ketasiz."
+        },
+        {
+          "q": "O‘simlik suti bormi?",
+          "a": "Suli va kokos suti, qo‘shimcha to‘lovsiz."
+        },
+        {
+          "q": "Kartalarni qabul qilasizmi?",
+          "a": "Uzcard, Humo, Visa, Click va Payme."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Qayerda",
+      "title": "Birinchi qavat, oq deraza",
+      "text": "Tashkent City, park tomonidan. Oq yorug‘lik va uch kishilik navbatni qidiring.",
+      "cta": {
+        "label": "Buyurtma",
+        "href": "#order"
+      }
+    }
+  ]
+}

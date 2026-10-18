@@ -1,0 +1,232 @@
+{
+  "name": "Arabica Atelier",
+  "tagline": "A specialty café for aesthetes: tasting flights, rare lots and a brew bar",
+  "niche": "Specialty coffee bar",
+  "nav": {
+    "cta": {
+      "label": "Book a tasting",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a specialty café, wine or tea bar: a restrained serif, a lot-by-lot menu card, gallery and reviews.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Arabica Atelier — specialty coffee and tastings in Tashkent",
+    "description": "Three-lot tasting flights, pour-over, siphon and AeroPress, rare Geshas and anaerobic processes. A café at 158 Buyuk Ipak Yuli St, Tuesday to Sunday.",
+    "keywords": [
+      "specialty coffee Tashkent",
+      "coffee tasting Tashkent",
+      "Gesha coffee",
+      "siphon coffee",
+      "café Mirzo-Ulugbek"
+    ],
+    "answer": "Arabica Atelier is a specialty café at 158 Buyuk Ipak Yuli St (Mirzo-Ulugbek), open Tuesday to Sunday 10:00–21:00. Pour-over starts at 36,000 UZS, a three-lot tasting flight is 95,000 UZS, Gesha 85,000 UZS a cup. Barista-led tastings run on Saturdays by booking."
+  },
+  "business": {
+    "legalName": "Arabica Atelier LLC",
+    "street": "158 Buyuk Ipak Yuli St, Mirzo-Ulugbek",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Mirzo-Ulugbek",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee to taste, not just to drink",
+      "eyebrow": "Coffee atelier · Buyuk Ipak Yuli",
+      "subtitle": "Twelve lots from farmers in Ethiopia, Colombia and Panama, a brew bar and three-cup flights — to feel how the same coffee changes with the method.",
+      "words": [],
+      "cta": {
+        "label": "Book a tasting",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "The lot list",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelier",
+      "title": "Slow coffee",
+      "text": "There are no syrups or big cups at the atelier. There are scales accurate to a tenth of a gram, water with tuned mineral content and a barista who will tell you why an Ethiopian lot smells of jasmine. We’re open to people who want to understand coffee — and to those who just want a very good cup.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "12 lots",
+        "Pour-over · siphon · AeroPress",
+        "Saturday tastings",
+        "No syrups"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "The list",
+      "title": "This month’s lots",
+      "groups": [
+        {
+          "name": "Filter",
+          "items": [
+            {
+              "name": "Ethiopia Guji, natural",
+              "text": "Strawberry, jasmine, milk chocolate",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Colombia Huila, anaerobic",
+              "text": "Tropical fruit, rum",
+              "price": "48,000 UZS"
+            },
+            {
+              "name": "Panama Gesha",
+              "text": "Bergamot, peach, tea",
+              "price": "85,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Espresso bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Lot of the week",
+              "price": "28,000 UZS"
+            },
+            {
+              "name": "Cortado",
+              "text": "",
+              "price": "34,000 UZS"
+            },
+            {
+              "name": "Tasting flight",
+              "text": "Three lots, three methods",
+              "price": "95,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The bar",
+      "title": "The brew bar",
+      "items": [
+        {
+          "caption": "Siphon on a halogen burner",
+          "image": ""
+        },
+        {
+          "caption": "Scales and drippers",
+          "image": ""
+        },
+        {
+          "caption": "Saturday cupping",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Tasting",
+      "title": "How the Saturday cupping works",
+      "items": [
+        {
+          "title": "Fragrance",
+          "text": "Smell six dry grounds and guess the origins."
+        },
+        {
+          "title": "The crust",
+          "text": "Pour, wait four minutes, break the crust."
+        },
+        {
+          "title": "Spoons",
+          "text": "Taste each lot as it cools — the flavour opens up."
+        },
+        {
+          "title": "Choice",
+          "text": "Take home your favourite lot in beans at 15% off."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What guests say",
+      "items": [
+        {
+          "quote": "For the first time I realised coffee can smell of strawberries. Now I go to every cupping.",
+          "author": "Dilnoza A.",
+          "role": "cupping"
+        },
+        {
+          "quote": "The Gesha is pricey, but it’s the best coffee I’ve had in Tashkent.",
+          "author": "Otabek R.",
+          "role": "guest"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before the tasting",
+      "items": [
+        {
+          "q": "How much is the cupping?",
+          "a": "120,000 UZS, about an hour and a half, up to 8 people. Book via the button on the site."
+        },
+        {
+          "q": "Do I need to know about coffee?",
+          "a": "No, the barista explains everything from scratch."
+        },
+        {
+          "q": "Do you serve milk drinks?",
+          "a": "Yes, cappuccino and cortado, but no syrups."
+        },
+        {
+          "q": "Do you sell beans?",
+          "a": "Every lot on the list, in 200 g bags, from 150,000 UZS."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Address",
+      "title": "Come and taste",
+      "text": "158 Buyuk Ipak Yuli St. Tuesday–Sunday 10:00–21:00, closed Mondays.",
+      "cta": {
+        "label": "Book a tasting",
+        "href": "#order"
+      }
+    }
+  ]
+}

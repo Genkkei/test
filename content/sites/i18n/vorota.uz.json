@@ -1,0 +1,331 @@
+{
+  "name": "Vorota Pro",
+  "tagline": "Bitta tugma bilan ochiladigan va o‘nlab yillar turadigan darvoza va devorlar",
+  "niche": "Xususiy uylar uchun temir darvozalar, devorlar va avtomatika",
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchini chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Darvoza, devor va avtomatika ishlab chiqaruvchisi uchun sayt. Pastga surganda ochiladigan surma darvoza chizmasi, pogon metr narxi ko‘rsatilgan seksiyalar katalogi va sahifaning o‘zida «model × uzunlik» kalkulyatori.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Vorota Pro — Toshkentda avtomatik darvoza va devorlar",
+    "description": "Temir va surma darvozalar, jalyuzi, profnastil va 3D to‘rdan devorlar, kalit topshirib avtomatika. Pogon metri 290 000 so‘mdan, bepul o‘lchov, o‘rnatish 7 kundan.",
+    "keywords": [
+      "darvoza Toshkent",
+      "surma darvoza",
+      "temir devor",
+      "jalyuzi devor",
+      "darvoza avtomatikasi",
+      "devor narxi metr"
+    ],
+    "answer": "Vorota Pro — Toshkentdagi darvoza va devor ishlab chiqaruvchisi, sex va shourum Farg‘ona yo‘li ko‘chasi, 38 da; dush–jum 9:00–19:00 va shanba 10:00–16:00 ishlaymiz. 3D to‘rli devor — 290 000 so‘mdan, nayzali temir devor — 650 000 so‘mdan, jalyuzi — pogon metri 780 000 so‘mdan; surma darvoza avtomatikasi — 4 800 000 so‘mdan. O‘lchov bepul, o‘rnatish 7 kundan, kafolat 3 yil."
+  },
+  "business": {
+    "legalName": "«Vorota Pro» MChJ",
+    "street": "Farg‘ona yo‘li ko‘chasi, 38 (sex va shourum)",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "O‘zi ochiladigan darvozalar",
+      "eyebrow": "Darvozalar · devorlar · avtomatika",
+      "subtitle": "Xususiy uylar uchun darvoza va devorlarni loyihalaymiz, payvandlaymiz va o‘rnatamiz. Farg‘ona yo‘lida o‘z ishlab chiqarishimiz — vositachilarsiz pogon metr narxi.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Katalog va narxlar",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "O‘lchov bepul",
+        "O‘rnatish 7 kundan",
+        "Kafolat 3 yil",
+        "Nice va BFT avtomatikasi"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Surma darvozalar",
+        "Ochiladigan darvozalar",
+        "Temir devorlar",
+        "Jalyuzi",
+        "3D to‘r",
+        "Kichik eshiklar",
+        "Avtomatika"
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Seksiyalar va pogon metr narxlari",
+      "intro": "Narxlar — ustunlar va bo‘yoq bilan 1,8 m balandlik uchun. Quyidagi kalkulyatorda model va uzunlikni tanlang: summani darhol ko‘rasiz.",
+      "items": [
+        {
+          "title": "Nayzali temir devor",
+          "text": "14 mm kvadrat, nayzalar va ko‘ndalang tayanchlar, kukunli bo‘yoq.",
+          "price": "pogon metri 650 000 so‘mdan",
+          "tag": "xit"
+        },
+        {
+          "title": "Jalyuzi",
+          "text": "Qiya lamellar: hovli ko‘rinmaydi, havo o‘tadi.",
+          "price": "pogon metri 780 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Karkasdagi profnastil",
+          "text": "Polimer qoplamali 0,5 mm list, istalgan RAL rang.",
+          "price": "pogon metri 420 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "3D to‘r",
+          "text": "Qattiqlik qirrali ruxlangan panellar — dala hovli va ombor uchun.",
+          "price": "pogon metri 290 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Rancho",
+          "text": "Yog‘ochga o‘xshash gorizontal metall taxtalar.",
+          "price": "pogon metri 520 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Badiiy naqsh",
+          "text": "Qo‘lda temirchilik: jingalaklar, barglar, familiyali monogramma.",
+          "price": "pogon metri 1 200 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "type": "pricing",
+      "label": "Avtomatika",
+      "title": "Tugmali darvozalar",
+      "items": [
+        {
+          "name": "Surma: start",
+          "price": "4 800 000 so‘m",
+          "period": "to‘plam uchun",
+          "features": [
+            "600 kg gacha yuritma",
+            "2 ta pult",
+            "Xavfsizlik fotoelementlari",
+            "O‘rnatish va sozlash"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Surma: kalit topshirib",
+          "price": "9 500 000 so‘m",
+          "period": "to‘plam uchun",
+          "features": [
+            "1000 kg gacha yuritma",
+            "Telefondan ochish",
+            "Signal chirog‘i",
+            "Elektr qulfli kichik eshik",
+            "1 yil servis"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ochiladigan",
+          "price": "6 900 000 so‘m",
+          "period": "to‘plam uchun",
+          "features": [
+            "Ikkita chiziqli yuritma",
+            "2 ta pult",
+            "Qo‘lda ochish",
+            "O‘rnatish va sozlash"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlar",
+      "title": "",
+      "items": [
+        {
+          "value": "1350",
+          "suffix": "+",
+          "label": "darvoza va devor"
+        },
+        {
+          "value": "42",
+          "suffix": " km",
+          "label": "devor o‘rnatilgan"
+        },
+        {
+          "value": "7",
+          "suffix": " kun",
+          "label": "o‘lchovdan o‘rnatishgacha"
+        },
+        {
+          "value": "3",
+          "suffix": " yil",
+          "label": "kafolat"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "«Ochish» tugmasigacha besh qadam",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘tish joyi, relyef va yuritma joyini o‘lchaydi."
+        },
+        {
+          "title": "Eskiz",
+          "text": "1 kunda o‘lchamlar va smeta bilan chizma. Narx shartnomada belgilanadi."
+        },
+        {
+          "title": "Temirchilik va payvand",
+          "text": "O‘z seximizda kesamiz, yasaymiz va payvandlaymiz — muddat yetkazib beruvchilarga bog‘liq emas."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Qum bilan tozalash, rux-grunt va kamerada kukunli bo‘yoq."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Ustunlarni betonlaymiz, seksiyalar va yuritmani o‘rnatamiz, pultdan foydalanishni o‘rgatamiz."
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Obyektlar",
+      "title": "So‘nggi obyektlar",
+      "items": [
+        {
+          "title": "Naqshli 5 m surma darvoza",
+          "category": "Yunusobod, xususiy uy",
+          "year": "2026",
+          "text": "Kalit topshirib yuritma, elektr qulfli kichik eshik, telefondan ochish.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "46 m jalyuzi devor",
+          "category": "Qibray, kottej",
+          "year": "2026",
+          "text": "Grafit RAL 7024, 80×80 ustunlar, muddat — 9 kun.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Maktabning temir to‘sig‘i",
+          "category": "Chilonzor, xususiy maktab",
+          "year": "2025",
+          "text": "O‘tkir qirralarsiz nayzali 120 m, ikkita ochiladigan darvoza.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Mijozlar nima yozadi",
+      "items": [
+        {
+          "quote": "Devorni saytning o‘zida hisobladik, o‘lchovchi ertasiga keldi — natija 4% farq qildi.",
+          "author": "Farrux",
+          "role": "Qibray"
+        },
+        {
+          "quote": "Ishda bo‘lsam ham darvoza telefondan ochiladi — kuryerlarni hovliga kiritaman.",
+          "author": "Dilnoza",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Ta’til paytida maktab atrofiga 120 metr o‘rnatishdi, ikki haftada ulgurishdi.",
+          "author": "Maktab ma’muriyati",
+          "role": "Chilonzor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Devorning metri qancha turadi?",
+          "a": "3D to‘r pogon metri 290 000 so‘mdan badiiy temirchilik uchun 1 200 000 so‘mgacha. Narxga 1,8 m balandlikda ustunlar, bo‘yash va o‘rnatish kiradi."
+        },
+        {
+          "q": "Tayyorlash qancha vaqt oladi?",
+          "a": "Devor va surma darvoza — o‘lchovdan keyin 7 kundan, badiiy temirchilik — 3 haftadan."
+        },
+        {
+          "q": "Qanday avtomatika o‘rnatasiz?",
+          "a": "Ishlab chiqaruvchi kafolati bilan Nice va BFT yuritmalari. Surma darvoza to‘plami — o‘rnatish va sozlash bilan 4 800 000 so‘mdan."
+        },
+        {
+          "q": "O‘lchov haqiqatan ham bepulmi?",
+          "a": "Ha, Toshkent bo‘ylab o‘lchov bepul va hech narsaga majbur qilmaydi. Viloyatda — 30 pogon metrdan buyurtma qilinsa bepul."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Konstruksiya va bo‘yoqqa 3 yil, avtomatikaga — ishlab chiqaruvchi kafolati va bir yillik servisimiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Shourumga keling",
+      "text": "Barcha seksiyalar namunalari va ishlayotgan yuritmalar Farg‘ona yo‘lidagi shourumda turibdi. Yoki ariza qoldiring — o‘lchovchi qulay kuni keladi.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

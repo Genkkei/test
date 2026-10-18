@@ -1,0 +1,346 @@
+{
+  "name": "Duradgor",
+  "tagline": "Qo‘lda yasalgan massiv mebel",
+  "niche": "Duradgorlik ustaxonasi: buyurtma asosida yog‘och massivi va slebdan mebel",
+  "nav": {
+    "cta": {
+      "label": "Buyurtmani muhokama qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Duradgorlik ustaxonasi, massiv yoki sleb mebel ishlab chiqaruvchisi uchun sayt. Birinchi ekranda chizilib boradigan yillik halqali kesim, ish daftari qatorlari ko‘rinishidagi buyumlar, tolali namunalar ko‘rinishidagi yog‘och turlari va ruletka bo‘yicha bosqichlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Duradgor — Toshkentda massiv va slebdan buyurtma mebel",
+    "description": "Yunusoboddagi duradgorlik ustaxonasi: slebdan ovqat stollari, eman, yong‘oq va qayrag‘ochdan karavotlar, shkaflar va oshxona orollari. DSPsiz, moy va mum, muddat 3 haftadan.",
+    "keywords": [
+      "massiv mebel Toshkent",
+      "slebdan stol",
+      "duradgorlik ustaxonasi",
+      "yog‘ochdan buyurtma mebel",
+      "qayrag‘och stol",
+      "eman karavot"
+    ],
+    "answer": "Duradgor — Toshkentdagi Bog‘ishamol ko‘chasi, 210 dagi duradgorlik ustaxonasi. Eman, yong‘oq, shumtol va mahalliy qayrag‘och massividan DSPsiz mebel yasaymiz: slebdan stol — 9 500 000 so‘mdan, eman karavot — 12 000 000 so‘mdan, jurnal stoli — 3 800 000 so‘mdan. Muddat 3 haftadan, moy va mum bilan qoplash, stolingiz uchun taxtani ustaxonada tanlash mumkin. Du–sh 9:00 dan 18:00 gacha ishlaymiz."
+  },
+  "business": {
+    "legalName": "Duradgor YaTT",
+    "street": "Bog‘ishamol ko‘chasi, 210",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bizdan ham uzoq yashaydigan massiv mebel",
+      "eyebrow": "Duradgorlik ustaxonasi · Toshkent",
+      "subtitle": "Eman, yong‘oq va mahalliy qayrag‘ochdan buyurtma asosida stollar, karavotlar, shkaflar va sleblar yasaymiz. Har bir buyumni bitta usta olib boradi — taxtadan oxirgi moy qatlamigacha.",
+      "cta": {
+        "label": "Buyurtmani muhokama qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Nima yasaymiz",
+        "href": "#works"
+      },
+      "image": "",
+      "words": [
+        "DSPsiz massiv",
+        "moy va mum",
+        "muddat 3 haftadan"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "eman",
+        "yong‘oq",
+        "qayrag‘och",
+        "shumtol",
+        "sleb",
+        "ship-paz",
+        "moy",
+        "mum"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Besh duradgor va to‘qqiz metrli dastgoh",
+      "text": "Yog‘ochni shuruplar bilan emas, shiplar va ponalar bilan biriktiramiz, taxtani 8% namlikkacha quritamiz va uni lak ostiga yashirmaymiz. Shuning uchun stolni yigirma yildan keyin silliqlash mumkin — va u yana yangidek bo‘ladi.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "services",
+      "label": "Buyumlar",
+      "title": "Qo‘lda nima yasaymiz",
+      "intro": "«dan» narx — asosiy o‘lcham uchun. Aniq summani eskizdan keyin aytamiz: u siz tanlagan taxtaga bog‘liq.",
+      "items": [
+        {
+          "title": "Slebdan ovqat stoli",
+          "text": "Tirik qirrali butun kesim, po‘lat yoki massiv oyoqlar. 4–6 hafta.",
+          "price": "9 500 000 so‘mdan",
+          "tag": "qayrag‘och · sleb"
+        },
+        {
+          "title": "Massiv karavot",
+          "text": "Metallsiz shipli karkas, butun lamellardan bosh tomoni. 4 hafta.",
+          "price": "12 000 000 so‘mdan",
+          "tag": "eman"
+        },
+        {
+          "title": "Ochiladigan eshikli shkaf",
+          "text": "Filyonkali fasadlar, sxemangiz bo‘yicha tokcha va shtanga. 5–6 hafta.",
+          "price": "14 000 000 so‘mdan",
+          "tag": "shumtol"
+        },
+        {
+          "title": "Jurnal stoli",
+          "text": "Dumaloq yoki to‘rtburchak, pastida tokcha bilan. 3 hafta.",
+          "price": "3 800 000 so‘mdan",
+          "tag": "yong‘oq"
+        },
+        {
+          "title": "Kitob javoni",
+          "text": "Butun devor bo‘ylab, tokchalar 40 kg dan ko‘taradi. 4 hafta.",
+          "price": "6 200 000 so‘mdan",
+          "tag": "eman"
+        },
+        {
+          "title": "Oshxona oroli",
+          "text": "Massiv stol usti, yashirin yo‘naltiruvchili tortmalar. 6 hafta.",
+          "price": "18 000 000 so‘mdan",
+          "tag": "eman va yong‘oq"
+        }
+      ]
+    },
+    {
+      "id": "woods",
+      "type": "pricing",
+      "label": "Yog‘och turlari",
+      "title": "Nimadan yasaymiz",
+      "items": [
+        {
+          "name": "Eman",
+          "price": "4 800 000 so‘mdan",
+          "period": "stol ustining 1 m² uchun",
+          "features": [
+            "Qattiq va zich",
+            "Och rangli, aniq tekstura",
+            "Oshxona va stollar uchun"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Yong‘oq",
+          "price": "7 200 000 so‘mdan",
+          "period": "stol ustining 1 m² uchun",
+          "features": [
+            "To‘q shokolad rang",
+            "Ushlaganda ipakdek",
+            "Urg‘u beruvchi mebel uchun"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Qayrag‘och",
+          "price": "4 200 000 so‘mdan",
+          "period": "stol ustining 1 m² uchun",
+          "features": [
+            "Toshkentning mahalliy yog‘ochi",
+            "Jonli naqsh va shoxchalar",
+            "Sleblar uchun eng yaxshi tanlov"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Shumtol",
+          "price": "4 500 000 so‘mdan",
+          "period": "stol ustining 1 m² uchun",
+          "features": [
+            "Deyarli oq",
+            "Elastik, yaxshi egiladi",
+            "Shkaflar va stullar uchun"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Taxtadan stolgacha",
+      "items": [
+        {
+          "title": "Eskiz va o‘lchash",
+          "text": "Buyum qanday ishlatilishini muhokama qilamiz, o‘lchamli eskiz chizamiz."
+        },
+        {
+          "title": "Taxtani tanlash",
+          "text": "Ustaxonaga kelasiz va o‘z slebingiz yoki taxtangizni tanlaysiz."
+        },
+        {
+          "title": "Arralash va quritish",
+          "text": "Taxta 8% namlikkacha quriydi, shundan keyingina ishga tushadi."
+        },
+        {
+          "title": "Duradgorlik va silliqlash",
+          "text": "Shipli birikmalar, 240 donagacha silliqlash."
+        },
+        {
+          "title": "Moy va yetkazish",
+          "text": "Uch qavat mumli moy, olib kelamiz va o‘rnatamiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "usta",
+          "label": "ustaxonada"
+        },
+        {
+          "value": "600",
+          "suffix": "+",
+          "label": "buyum yasaldi"
+        },
+        {
+          "value": "8",
+          "suffix": "%",
+          "label": "ishdan oldin taxta namligi"
+        },
+        {
+          "value": "3",
+          "suffix": "hafta",
+          "label": "buyurtmaning eng qisqa muddati"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Ustaxonadan",
+      "items": [
+        {
+          "caption": "Qayrag‘och slebi, 2,4 m",
+          "image": ""
+        },
+        {
+          "caption": "Eman karavot",
+          "image": ""
+        },
+        {
+          "caption": "Yong‘oq jurnal stoli",
+          "image": ""
+        },
+        {
+          "caption": "Shumtol shkaf",
+          "image": ""
+        },
+        {
+          "caption": "«Qaldirg‘och dumi» birikmasi",
+          "image": ""
+        },
+        {
+          "caption": "Oshxonadagi orol",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Stollar va odamlar haqida",
+      "items": [
+        {
+          "quote": "Slebni ustaxonada o‘zimiz tanladik va uni har bir bosqichda ko‘rdik. Stol har juma butun oilani yig‘adi.",
+          "author": "Aziz",
+          "role": "qayrag‘och stol"
+        },
+        {
+          "quote": "Bitta ham vintsiz karavot — va hech narsa g‘ichirlamaydi. Yog‘ochni sevadigan odam yasagani ko‘rinib turibdi.",
+          "author": "Shahnoza",
+          "role": "eman karavot"
+        },
+        {
+          "quote": "Uch yildan keyin ikkinchi kvartira uchun stolni takrorlashni so‘radik — xuddi shu tusdagi taxtani topishdi.",
+          "author": "Rustam",
+          "role": "ikkita yong‘oq stol"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Slebdan stol qancha vaqtda yasaladi?",
+          "a": "4 dan 6 haftagacha: o‘lcham va taxtani quritish kerakligiga bog‘liq. Muddat shartnomada yoziladi."
+        },
+        {
+          "q": "Taxtani o‘zim tanlay olamanmi?",
+          "a": "Ha, bu bizning eng sevimli qismimiz. Ustaxonaga keling: omborda doim turli xil 30–40 ta sleb bor."
+        },
+        {
+          "q": "Mebelni nima bilan qoplaysiz?",
+          "a": "Uch qavat qattiq mumli moy bilan. U suv va issiq piyoladan qo‘rqmaydi, tirnalishni esa uyda tuzatish mumkin."
+        },
+        {
+          "q": "Boshqa birovning chizmalari bo‘yicha yasaysizmi?",
+          "a": "Ha, dizaynerlar va arxitektorlar bilan ularning loyihalari bo‘yicha ishlaymiz."
+        },
+        {
+          "q": "Qanday kafolat bor?",
+          "a": "Duradgorlik birikmalariga besh yil kafolat va bir yildan keyin qoplamani bepul yangilash."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Taxta tanlashga keling",
+      "text": "Yoqqan g‘oya yoki suratni yuboring — eskiz va narx bilan javob beramiz. Ustaxonaga ish vaqtida yozilmasdan kelish mumkin.",
+      "cta": {
+        "label": "Buyurtmani muhokama qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "name": "Tong",
+  "tagline": "Mirobodda sokin ertalabki qahvaxona: kun bo‘yi nonushta va shoshilmasdan qahva",
+  "niche": "Nonushtali qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Stol band qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Nonushtali qahvaxona yoki novvoyxona uchun sayt: iliq qog‘oz, ko‘p havo, taomlar menyusi va zal albomi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Tong — Mirobodda kun bo‘yi nonushtali qahvaxona",
+    "description": "Soat 17:00 gacha nonushta, sirniki, shakshuka va xamirturushli tostlar, filtr-qahva va kapuchino. Shahrisabz ko‘chasi, 22 dagi qahvaxona har kuni ertalab 8 dan ochiq.",
+    "keywords": [
+      "Toshkent nonushta",
+      "Mirobod qahvaxona",
+      "kun bo‘yi nonushta",
+      "sirniki Toshkent",
+      "sokin qahvaxona"
+    ],
+    "answer": "Tong — Mirobodda, Shahrisabz ko‘chasi, 22 dagi nonushtali qahvaxona, har kuni 8:00 dan 17:00 gacha ochiq. Nonushta kun bo‘yi beriladi: sirniki — 48 000 so‘m, shakshuka — 56 000 so‘m, kapuchino — 30 000 so‘m. Dam olish kunlariga stolni Telegramda band qilishadi."
+  },
+  "business": {
+    "legalName": "«Tong Kofe» YaTT",
+    "street": "Shahrisabz ko‘chasi, 22, Mirobod tumani",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Mirobod",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Shoshirmaydigan tong",
+      "eyebrow": "Qahvaxona · Mirobod",
+      "subtitle": "Kechki beshgacha nonushta, sopol idishda filtr-qahva va deraza yonida katta stol. O‘tirgani keling — hech kim joyni bo‘shatishni so‘ramaydi.",
+      "words": [],
+      "cta": {
+        "label": "Stol band qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Nonushtalar",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "«Tong» — «ertalab» degani",
+      "text": "Biz Mirobodning sokin ko‘chasidagi kichik qahvaxonamiz: o‘n ikki stol, yorug‘ devorlar va qayrag‘ochli hovliga qaragan derazalar. Nonushtalarni Mirobod bozori mahsulotlaridan tayyorlaymiz, nonni xamirturushda o‘zimiz yopamiz, qahvani esa Toshkentdagi qovuruvchi do‘stlarimiz qovuradi.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Nonushtalar",
+      "title": "17:00 gacha beramiz",
+      "groups": [
+        {
+          "name": "Nonushtalar",
+          "items": [
+            {
+              "name": "Sirniki",
+              "text": "Smetana va rezavor murabbo bilan",
+              "price": "48 000 so‘m"
+            },
+            {
+              "name": "Shakshuka",
+              "text": "Pomidor, qalampir, ikki tuxum, xamirturushli non",
+              "price": "56 000 so‘m"
+            },
+            {
+              "name": "Avokadoli tost",
+              "text": "Pashot tuxum, kunjut",
+              "price": "62 000 so‘m"
+            },
+            {
+              "name": "Suli bo‘tqasi",
+              "text": "Sutda, banan va asal bilan",
+              "price": "38 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Qahva",
+          "items": [
+            {
+              "name": "Kapuchino",
+              "text": "",
+              "price": "30 000 so‘m"
+            },
+            {
+              "name": "Sopol idishda filtr",
+              "text": "Ikki kishilik, 500 ml",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Kakao",
+              "text": "Marshmellou bilan",
+              "price": "32 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "type": "works",
+      "label": "Mavsum",
+      "title": "Shu kuzning taomlari",
+      "items": [
+        {
+          "title": "Qovoqli bo‘tqa",
+          "category": "Nonushta",
+          "year": "oktabr",
+          "text": "Pishirilgan qovoq, yong‘oq va sariyog‘li tariq bo‘tqasi · 44 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Xurmo va rikotta",
+          "category": "Tost",
+          "year": "noyabr",
+          "text": "Rikotta, xurmo va asalli xamirturushli tost · 54 000 so‘m",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ziravorli latte",
+          "category": "Qahva",
+          "year": "bahorgacha",
+          "text": "Dolchin, kardamon va behi sharbatli latte · 38 000 so‘m",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "room",
+      "type": "gallery",
+      "label": "Zal",
+      "title": "Qayrag‘ochli hovliga qaragan derazalar",
+      "items": [
+        {
+          "caption": "Deraza yonidagi katta stol",
+          "image": ""
+        },
+        {
+          "caption": "Xamirturushli non",
+          "image": ""
+        },
+        {
+          "caption": "Hovlidagi tong",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlar nima deydi",
+      "items": [
+        {
+          "quote": "Shanba kuni soat ikkida nonushta qilib, kechikkandek his qilmaydigan yagona joy.",
+          "author": "Madina R.",
+          "role": "dam olish kunlari mehmoni"
+        },
+        {
+          "quote": "Sirniki buvimnikidek, qahva esa buvimnikidan ham yaxshi.",
+          "author": "Temur X.",
+          "role": "yaqinda yashaydi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Kelishdan oldin",
+      "items": [
+        {
+          "q": "Nonushta soat nechagacha?",
+          "a": "Kun bo‘yi — 17:00 dagi yopilishgacha."
+        },
+        {
+          "q": "Band qilish kerakmi?",
+          "a": "Ish kunlari — yo‘q. Shanba va yakshanba 13:00 gacha saytdagi tugma orqali stol band qilgan ma’qul."
+        },
+        {
+          "q": "Bolalar menyusi bormi?",
+          "a": "Ha: kichik sirniki, bo‘tqa va kakao, bolalar stullari ham bor."
+        },
+        {
+          "q": "Noutbuk bilan kelsa bo‘ladimi?",
+          "a": "Albatta, Wi-Fi va katta stol yonida rozetkalar bor. Dam olish kunlari stolni ikki soatdan ortiq band qilmaslikni so‘raymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Manzil",
+      "title": "Nonushtaga keling",
+      "text": "Shahrisabz ko‘chasi, 22, Mirobod. Har kuni 8:00 dan 17:00 gacha.",
+      "cta": {
+        "label": "Stol band qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "name": "Arabica Atelier",
+  "tagline": "Estetlar uchun speshelti qahvaxona: degustatsiya to‘plamlari, noyob lotlar va damlash bari",
+  "niche": "Speshelti qahvaxona",
+  "nav": {
+    "cta": {
+      "label": "Degustatsiyaga yozilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Speshelti qahvaxona, vino yoki choy bari uchun sayt: qat’iy antikva, lotlar menyu-kartasi, galereya va sharhlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Arabica Atelier — Toshkentda speshelti qahva va degustatsiyalar",
+    "description": "Uch lotdan degustatsiya to‘plamlari, voronka, sifon va aeropress, noyob geysha va anaerob ishlov berilgan donlar. Buyuk Ipak Yo‘li, 158 dagi qahvaxona, seshanbadan yakshanbagacha.",
+    "keywords": [
+      "Toshkent speshelti qahva",
+      "qahva degustatsiyasi",
+      "geysha qahva",
+      "sifon qahva",
+      "Mirzo Ulug‘bek qahvaxona"
+    ],
+    "answer": "Arabica Atelier — Buyuk Ipak Yo‘li ko‘chasi, 158 dagi (Mirzo Ulug‘bek) speshelti qahvaxona, seshanbadan yakshanbagacha 10:00 dan 21:00 gacha ochiq. Voronka — 36 000 so‘mdan, uch lotli degustatsiya to‘plami — 95 000 so‘m, geysha — chashkasi 85 000 so‘m. Barista bilan degustatsiyalar — shanba kunlari, oldindan yozilib."
+  },
+  "business": {
+    "legalName": "«Arabica Atelye» MChJ",
+    "street": "Buyuk Ipak Yo‘li ko‘chasi, 158, Mirzo Ulug‘bek",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Mirzo Ulug‘bek",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Ichiladigan emas, tatib ko‘riladigan qahva",
+      "eyebrow": "Qahva atelyesi · Buyuk Ipak Yo‘li",
+      "subtitle": "Efiopiya, Kolumbiya va Panama fermerlaridan o‘n ikki lot, damlash bari va uch chashkali to‘plamlar — bitta qahva usulga qarab qanday o‘zgarishini his qilish uchun.",
+      "words": [],
+      "cta": {
+        "label": "Degustatsiyaga yozilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Lotlar kartasi",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelye",
+      "title": "Sekin qahva",
+      "text": "Atelyeda sirop va katta stakanlar yo‘q. Grammning o‘ndan biriga aniq tarozilar, minerallashuvi tanlangan suv va efiop loti nega yasmin hidini berishini aytib beradigan barista bor. Biz qahvani tushunishni istaganlar uchun ham, shunchaki juda yaxshi chashka istaganlar uchun ham ochiqmiz.",
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "12 lot",
+        "Voronka · sifon · aeropress",
+        "Shanba kunlari degustatsiya",
+        "Siropsiz"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Karta",
+      "title": "Shu oyning lotlari",
+      "groups": [
+        {
+          "name": "Filtr",
+          "items": [
+            {
+              "name": "Efiopiya Gudji, tabiiy",
+              "text": "Qulupnay, yasmin, sutli shokolad",
+              "price": "42 000 so‘m"
+            },
+            {
+              "name": "Kolumbiya Uila, anaerob",
+              "text": "Tropik mevalar, rom",
+              "price": "48 000 so‘m"
+            },
+            {
+              "name": "Panama Geysha",
+              "text": "Bergamot, shaftoli, choy",
+              "price": "85 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Espresso-bar",
+          "items": [
+            {
+              "name": "Espresso",
+              "text": "Haftaning loti",
+              "price": "28 000 so‘m"
+            },
+            {
+              "name": "Kortado",
+              "text": "",
+              "price": "34 000 so‘m"
+            },
+            {
+              "name": "Degustatsiya to‘plami",
+              "text": "Uch lot uch usulda",
+              "price": "95 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Bar",
+      "title": "Damlash bari",
+      "items": [
+        {
+          "caption": "Galogen gorelkada sifon",
+          "image": ""
+        },
+        {
+          "caption": "Tarozilar va voronkalar",
+          "image": ""
+        },
+        {
+          "caption": "Shanba kunlari kapping",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Degustatsiya",
+      "title": "Shanbalik kapping qanday o‘tadi",
+      "items": [
+        {
+          "title": "Aromat",
+          "text": "Olti lotning quruq maydalanganini hidlab, mamlakatlarni topamiz."
+        },
+        {
+          "title": "Qobiq",
+          "text": "Quyamiz, to‘rt daqiqa kutamiz, qobiqni sindiramiz."
+        },
+        {
+          "title": "Qoshiqlar",
+          "text": "Har bir lotni sovigan sari tatib ko‘ramiz — ta’m ochiladi."
+        },
+        {
+          "title": "Tanlov",
+          "text": "Sevimli lotni 15% chegirma bilan don holida olib ketasiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Mehmonlar",
+      "title": "Mehmonlar nima deydi",
+      "items": [
+        {
+          "quote": "Birinchi marta qahva qulupnay hidini berishi mumkinligini tushundim. Endi har bir kappingga boraman.",
+          "author": "Dilnoza A.",
+          "role": "kapping"
+        },
+        {
+          "quote": "Geysha qimmat, lekin Toshkentda ichgan eng yaxshi qahvam.",
+          "author": "Otabek R.",
+          "role": "mehmon"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Degustatsiyadan oldin",
+      "items": [
+        {
+          "q": "Kapping qancha turadi?",
+          "a": "120 000 so‘m, taxminan bir yarim soat, 8 kishigacha. Saytdagi tugma orqali yoziling."
+        },
+        {
+          "q": "Qahvani tushunish kerakmi?",
+          "a": "Yo‘q, barista hammasini noldan tushuntiradi."
+        },
+        {
+          "q": "Sutli ichimliklar bormi?",
+          "a": "Ha, kapuchino va kortado, lekin siropsiz."
+        },
+        {
+          "q": "Don sotasizmi?",
+          "a": "Kartadagi barcha lotlar — 200 g dan, 150 000 so‘mdan."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Manzil",
+      "title": "Tatib ko‘rgani keling",
+      "text": "Buyuk Ipak Yo‘li ko‘chasi, 158. Seshanba–yakshanba, 10:00–21:00, dushanba — dam olish kuni.",
+      "cta": {
+        "label": "Degustatsiyaga yozilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "name": "Sandon",
+  "tagline": "Uyda o‘nlab yillar qoladigan narsalarni qo‘lda yasaymiz",
+  "niche": "Badiiy temirchilik ustaxonasi: mangallar, kaminlar, panjaralar, dekor",
+  "nav": {
+    "cta": {
+      "label": "Ustani chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Temirchilik, badiiy temirchilik ustaxonasi yoki mangal va kamin ishlab chiqaruvchisi uchun sayt. Birinchi ekranda uchqunli qizigan o‘choq, «...dan» narxli buyumlar katalogi, qizish ranglari shkalasidagi bosqichlar va o‘lchovchini chaqirish formasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Sandon — Toshkentda badiiy temirchilik: mangal va kaminlar",
+    "description": "Sandon temirchiligi mangallar, kamin to‘plamlari, panjaralar, karavotlar va dekorni eskizingiz bo‘yicha qo‘lda yasaydi. O‘lchov bepul, muddat 10 kundan, payvand choklariga 5 yil kafolat.",
+    "keywords": [
+      "badiiy temirchilik Toshkent",
+      "temir mangal",
+      "temirchi Toshkent",
+      "temir panjara",
+      "kamin to‘plami",
+      "temir dekor"
+    ],
+    "answer": "Sandon — Toshkent, Beshyog‘och ko‘chasi, 24 dagi badiiy temirchilik ustaxonasi, dushanbadan shanbagacha 9:00 dan 19:00 gacha ishlaydi. Qo‘lda yasalgan mangal — 3 900 000 so‘mdan, kamin to‘plami — 1 800 000 so‘mdan, panjara — bir pogon metr uchun 950 000 so‘mdan. O‘lchov va eskiz bepul, tayyorlash 10 kundan, payvand choklariga 5 yil kafolat."
+  },
+  "business": {
+    "legalName": "«Sandon Temir» MChJ",
+    "street": "Beshyog‘och ko‘chasi, 24 (ustaxona hovlida)",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sandon",
+      "eyebrow": "Badiiy temirchilik · Toshkent",
+      "subtitle": "Qo‘lda yasalgan mangallar, kaminlar, panjaralar va dekor. Eskizni siz bilan birga chizamiz, olovda yasaymiz va uyingizga o‘rnatamiz — katalogdagi andozalarsiz.",
+      "cta": {
+        "label": "Ustani chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Buyumlar katalogi",
+        "href": "#catalog"
+      },
+      "image": "",
+      "words": [
+        "mangallar",
+        "kaminlar",
+        "panjaralar",
+        "karavotlar",
+        "chiroqlar",
+        "dekor"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Qo‘l mehnati",
+        "Eskiz bepul",
+        "3 mm va qalinroq po‘lat",
+        "Kukunli bo‘yoq",
+        "Kalit topshirib o‘rnatish",
+        "5 yil kafolat"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona haqida",
+      "title": "Bolg‘a zarbini eslab qoladigan metall",
+      "text": "Sandon — Beshyog‘ochdagi hovlida bitta o‘choq, ikkita sandon va to‘rtta temirchi. Biz buyumlarni tayyor shtamplangan detallardan payvandlamaymiz: har bir jingalak, barg va nayza chiviqdan qo‘lda cho‘ziladi. Shuning uchun bizda ikkita bir xil mangal chiqmaydi — odamlar aynan shuning uchun keladi. Ishdan oldin kelamiz, o‘lchaymiz, eskizni asl o‘lchamda chizamiz va har bir detalni kelishamiz.",
+      "image": ""
+    },
+    {
+      "id": "catalog",
+      "type": "services",
+      "label": "Katalog",
+      "title": "Nimalar yasaymiz",
+      "intro": "Narxlar — odatiy o‘lcham uchun. Yakuniy summani o‘lchov va eskizdan keyin aytamiz: u uzunlik, metall qalinligi va qo‘l elementlari soniga bog‘liq.",
+      "items": [
+        {
+          "title": "Qo‘lda yasalgan mangal",
+          "text": "Po‘lat 4 mm, olinadigan panjara, o‘tin uchun javon, istasangiz yomg‘irdan tom.",
+          "price": "3 900 000 so‘mdan",
+          "tag": "xit"
+        },
+        {
+          "title": "Qozon-pech va mangal-majmua",
+          "text": "Hovli uchun bitta karkasda mangal, qozon pechi va stol usti.",
+          "price": "7 500 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Kamin to‘plami va panjarasi",
+          "text": "Bitta naqshdagi kosov, kurakcha, qisqich, taglik va himoya ekrani.",
+          "price": "1 800 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Zina panjaralari va to‘siqlari",
+          "text": "Zinalar, balkonlar va ayvonlar uchun: yog‘och yoki metall tutqich bilan.",
+          "price": "pogon metri 950 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Temir karavot",
+          "text": "Siz tanlagan naqshli bosh qismi, har qanday matras uchun mustahkam lamellar.",
+          "price": "4 200 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Chiroqlar va ko‘cha yoritgichlari",
+          "text": "Devorga va ustunga, svetodiodli lampalar uchun, xira oynali.",
+          "price": "850 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "640",
+          "suffix": "+",
+          "label": "buyum yasalgan"
+        },
+        {
+          "value": "10",
+          "suffix": " yil",
+          "label": "o‘choq yonida"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "choklarga kafolat"
+        },
+        {
+          "value": "10",
+          "suffix": " kun",
+          "label": "eng qisqa muddat"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Yaqinda o‘choqdan chiqdi",
+      "items": [
+        {
+          "title": "«Tok novdasi» mangali",
+          "category": "Xususiy uy, Yunusobod",
+          "year": "2026",
+          "text": "Yon tomonlarda tok va barglar, ayvon-tom va qozon uchun javon.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Uch qavatli panjara",
+          "category": "Taunxaus, Mirzo Ulug‘bek",
+          "year": "2026",
+          "text": "18 pogon metr, yong‘oq daraxtidan tutqich, me’mor eskizi bo‘yicha jingalaklar.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Tovus» kamin ekrani",
+          "category": "Kvartira, Tashkent City",
+          "year": "2025",
+          "text": "42 ta temir patdan iborat dum, bronzaga o‘xshash patina.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Choyxona uchun chiroqlar",
+          "category": "Restoran, Chilonzor",
+          "year": "2025",
+          "text": "Islimiy naqshli va iliq yorug‘likli o‘n ikkita chiroq.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "O‘lchovdan olovgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Qulay kuni kelamiz, o‘lchaymiz va buyum joyiga qanday tushishini ko‘ramiz. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Asl o‘lchamda chizamiz, elementlar namunalarini ko‘rsatamiz, narxni belgilaymiz."
+        },
+        {
+          "title": "Temirchilik",
+          "text": "Har bir element — olovda va sandonda. Kelib ko‘rishingiz mumkin."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Qum bilan tozalash, grunt va kukunli bo‘yoq yoki eski uslubdagi patina."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "O‘zimiz olib kelamiz va o‘rnatamiz, ortimizdan tozalaymiz. Choklarga kafolat — 5 yil."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Buyurtmachilar fikri",
+      "items": [
+        {
+          "quote": "Mangal uchinchi mavsum turibdi, bitta ham zang dog‘i yo‘q. Qo‘shnilar allaqachon temirchining raqamini so‘rashdi.",
+          "author": "Sherzod",
+          "role": "xususiy uy, Yunusobod"
+        },
+        {
+          "quote": "Yevropadagi panjara rasmini olib keldik — rasmdagidan yaxshiroq qilishdi va egri zinamizga moslashtirishdi.",
+          "author": "Nargiza",
+          "role": "taunxaus"
+        },
+        {
+          "quote": "Muddatni halol aytishdi: 14 kun. 13 kunda qilishdi va hammasini o‘zlari o‘rnatishdi.",
+          "author": "Baxtiyor",
+          "role": "restoran egasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Temir mangal qancha turadi?",
+          "a": "Qo‘lda yasalgan mangal — 8 ta six uchun odatiy o‘lchamda 3 900 000 so‘mdan. Narx uzunlik, po‘lat qalinligi va qo‘l elementlari soniga qarab oshadi; aniq summani eskizdan keyin aytamiz."
+        },
+        {
+          "q": "Tayyorlash qancha vaqt oladi?",
+          "a": "Mangal yoki kamin to‘plami uchun 10 kundan, panjaralar va katta buyurtmalar uchun 3–5 hafta. Muddatni shartnomada belgilaymiz."
+        },
+        {
+          "q": "Mening chizmam bo‘yicha qilish mumkinmi?",
+          "a": "Ha, ko‘p buyurtmalar aynan shunday boshlanadi: rasm, chizma yoki g‘oyadan. Biz eskizni chizmagacha yetkazamiz va elementlar namunalarini ko‘rsatamiz."
+        },
+        {
+          "q": "Buyum ko‘chada zanglamaydimi?",
+          "a": "Bo‘yashdan oldin metallni qum bilan tozalab, gruntlaymiz, so‘ng kukunli bo‘yoq surtamiz. Payvand choklariga 5 yil kafolat beramiz."
+        },
+        {
+          "q": "Toshkentdan tashqarida ishlaysizmi?",
+          "a": "Ha, Toshkent viloyati bo‘ylab. Shahar tashqarisida o‘lchov va yetkazib berish alohida hisoblanadi, summani oldindan aytamiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "O‘choq yoniga keling",
+      "text": "Ariza qoldiring — usta bir soat ichida qo‘ng‘iroq qilib, bepul o‘lchovni kelishib oladi.",
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

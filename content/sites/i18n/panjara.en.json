@@ -1,0 +1,292 @@
+{
+  "name": "Panjara",
+  "tagline": "Wrought-iron grilles for windows, balconies and doors",
+  "niche": "Wrought-iron grilles and balcony railings",
+  "nav": {
+    "cta": {
+      "label": "Book a measure",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a grille workshop: a pattern catalogue laid out like a playbill, three price levels styled as stalls, circle and box tickets, and measuring bookings.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measure",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Panjara — wrought-iron window and balcony grilles, Tashkent",
+    "description": "Grilles for windows, balconies and doors, from plain square bar to ornate scrollwork. Free measuring, made in 10 days, powder-coated, 5-year guarantee.",
+    "keywords": [
+      "wrought iron grilles Tashkent",
+      "window grilles",
+      "balcony railing",
+      "door grille"
+    ],
+    "answer": "Panjara makes wrought-iron grilles for windows, balconies and doors in Tashkent: a plain 12 mm square-bar grille from 650,000 UZS per m², with forged details from 950,000 UZS, fully ornamental from 1,600,000 UZS. Free measuring, 10 working days, 5-year guarantee. Phone +998 71 200-07-02."
+  },
+  "business": {
+    "legalName": "Panjara (sole trader)",
+    "street": "4 Block 11, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Panjara",
+      "eyebrow": "Wrought-iron grilles · Tashkent · now taking orders",
+      "subtitle": "Grilles for windows, balconies and doors that protect the house without hiding its facade. We draw a pattern for your windows, forge it, powder-coat it and fit it in one day.",
+      "words": [
+        "Windows",
+        "Balconies",
+        "Doors"
+      ],
+      "cta": {
+        "label": "Book a measure",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Patterns",
+        "href": "#patterns"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "The workshop",
+      "title": "A grille is the first thing guests see",
+      "text": "We are in Yunusabad: four smiths and an artist. Every pattern is first drawn over a photo of your facade so the grille suits your windows, not a catalogue. Ground-floor grilles come with an opening leaf for fire safety.",
+      "image": ""
+    },
+    {
+      "id": "patterns",
+      "type": "works",
+      "label": "Patterns",
+      "title": "Our repertoire of patterns",
+      "items": [
+        {
+          "title": "“Strict grid”",
+          "category": "Window · 12 mm square bar",
+          "year": "Act I",
+          "text": "A plain grid with no ornament, for modern facades and offices.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Sunrise”",
+          "category": "Window · rays from a corner",
+          "year": "Act II",
+          "text": "Bars fan out from the lower corner around a forged sun.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Vine”",
+          "category": "Balcony · ornamental forging",
+          "year": "Act III",
+          "text": "Leaves and bunches cut from sheet and hand-chased.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Girih”",
+          "category": "Door · eastern ornament",
+          "year": "Act IV",
+          "text": "Stars and polygons, as on old madrasa doors.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "Choose your seat",
+      "items": [
+        {
+          "name": "Stalls",
+          "price": "from 650,000 UZS",
+          "period": "per m²",
+          "features": [
+            "12 mm square bar",
+            "Welded, no ornament",
+            "Powder coating"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Dress circle",
+          "price": "from 950,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Spears, rings, baskets",
+            "Sketch over a facade photo",
+            "Opening leaf"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Box",
+          "price": "from 1,600,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Ornamental forging",
+            "Hand chasing",
+            "Bronze patina"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "10",
+          "suffix": " days",
+          "label": "to make"
+        },
+        {
+          "value": "1",
+          "suffix": " day",
+          "label": "to fit"
+        },
+        {
+          "value": "5",
+          "suffix": " years",
+          "label": "guarantee on welds and coating"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "patterns in the catalogue"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "Five acts to opening night",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "We come free of charge, measure the openings and photograph the facade."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw the pattern on the photo and revise it until you approve."
+        },
+        {
+          "title": "Forging",
+          "text": "We bend, forge and weld in the workshop in 7–10 days."
+        },
+        {
+          "title": "Coating",
+          "text": "Blasting, primer and oven-cured powder coat."
+        },
+        {
+          "title": "Fitting",
+          "text": "Anchored in one day, and we clean up after ourselves."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "Grilles on real facades",
+      "items": [
+        {
+          "caption": "Yunusabad, ground-floor windows",
+          "image": ""
+        },
+        {
+          "caption": "Mirabad, French balcony",
+          "image": ""
+        },
+        {
+          "caption": "Chilanzar, entrance door",
+          "image": ""
+        },
+        {
+          "caption": "Kibray, veranda",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "After opening night",
+      "items": [
+        {
+          "quote": "We asked for a grille that would not turn the window into a cage. They drew “Sunrise” — the neighbours keep asking where we got it.",
+          "author": "Nodira",
+          "role": "ground-floor flat"
+        },
+        {
+          "quote": "Measured on a Saturday, fitted a week and a half later. The paint has survived the winter.",
+          "author": "Rustam",
+          "role": "private house"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Do you charge for measuring?",
+          "a": "No, measuring in Tashkent is free even if you decide not to order."
+        },
+        {
+          "q": "Can the grille be opened from inside?",
+          "a": "Yes, ground-floor grilles get a lockable opening leaf, as fire safety requires."
+        },
+        {
+          "q": "How is the price worked out?",
+          "a": "By grille area in m² and pattern complexity; we give the exact figure after the sketch."
+        },
+        {
+          "q": "What is the guarantee?",
+          "a": "Five years on welds and powder coating."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Book a free measure",
+      "text": "4 Block 11, Yunusabad. Mon–Sat 9:00–19:00. Send a photo of the window on Telegram for an instant price guide.",
+      "cta": {
+        "label": "Book a measure",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "name": "Temirsanat",
+  "tagline": "Metal sculpture and art objects for parks, restaurants and offices",
+  "niche": "Metal art and sculpture studio",
+  "nav": {
+    "cta": {
+      "label": "Discuss a project",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a metal-art studio: the name spread across the whole screen, a dated project index and works hung in frames as in a gallery.",
+    "features": []
+  },
+  "leads": {
+    "title": "Discuss a project",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Temirsanat — metal art objects and sculpture in Tashkent",
+    "description": "We design and build sculptures, monoliths, photo spots and wayfinding in Corten and stainless steel for parks, malls, restaurants and offices. Concept in 5 days, installation included.",
+    "keywords": [
+      "metal art objects",
+      "Corten steel sculpture",
+      "metal photo spot Tashkent",
+      "business monolith sign"
+    ],
+    "answer": "Temirsanat is a Tashkent studio making sculptures, monoliths, photo spots and wayfinding in metal (Corten, stainless steel, brass) for parks and businesses. A small art object starts at 18,000,000 UZS, a photo spot at 32,000,000 UZS; concepts take 5 working days and fabrication 4–8 weeks. Phone +998 71 200-07-04."
+  },
+  "business": {
+    "legalName": "Temirsanat LLC",
+    "street": "Workshop 3, 87 Shota Rustaveli St, Yakkasaray",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metal in the city: art objects for public spaces",
+      "eyebrow": "“Rust garden” · Corten, 3.2 m · Babur Park, 2026",
+      "subtitle": "Sculptures, monoliths and photo spots in Corten, stainless steel and brass. We shape the piece for its site, engineer the structure and install something built to last decades.",
+      "words": [
+        "Sculpture",
+        "Monoliths and wayfinding",
+        "Photo spots",
+        "Interior panels"
+      ],
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Corten",
+        "Stainless steel",
+        "Brass",
+        "Laser cutting",
+        "Structural engineering",
+        "Full installation"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studio",
+      "title": "We make metal that people stop to look at",
+      "text": "The studio is a sculptor, a structural engineer and six craftsmen. We start with the site: where the piece will stand, where it will be seen from, how the evening light will fall on it. Then we build a scale model, calculate wind loads and only then cut steel.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Projects",
+      "title": "Selected projects",
+      "items": [
+        {
+          "title": "“Rust garden”",
+          "category": "Park · Corten",
+          "year": "2026",
+          "text": "Five leaf sculptures up to 3.2 m tall along a promenade.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Business-centre monolith",
+          "category": "Wayfinding · stainless",
+          "year": "2025",
+          "text": "A six-metre illuminated monolith with replaceable tenant panels.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "“Heart of the city” photo spot",
+          "category": "Mall · brass and steel",
+          "year": "2025",
+          "text": "A heart of 480 plates that draws a queue of people waiting for photos.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restaurant wall panel",
+          "category": "Interior · brass",
+          "year": "2024",
+          "text": "A twelve-metre wall with a laser-cut suzani ornament.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Workshop",
+      "title": "From the workshop",
+      "items": [
+        {
+          "caption": "“Rust garden” model, 1:20",
+          "image": ""
+        },
+        {
+          "caption": "Welding the monolith frame",
+          "image": ""
+        },
+        {
+          "caption": "Patinating Corten",
+          "image": ""
+        },
+        {
+          "caption": "Night installation at the mall",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "+",
+          "label": "pieces around the city"
+        },
+        {
+          "value": "5",
+          "suffix": " days",
+          "label": "for concept and model"
+        },
+        {
+          "value": "6",
+          "suffix": " m",
+          "label": "tallest monolith"
+        },
+        {
+          "value": "10",
+          "suffix": " yrs",
+          "label": "structural guarantee"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "What we make",
+      "title": "Formats and prices",
+      "items": [
+        {
+          "title": "Small art object",
+          "text": "Up to 2 m, for an entrance or interior.",
+          "price": "from 18,000,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Photo spot",
+          "text": "Illuminated and built for crowds.",
+          "price": "from 32,000,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Monolith and wayfinding",
+          "text": "Signs, monoliths and address plates in one style.",
+          "price": "from 24,000,000 UZS",
+          "tag": ""
+        },
+        {
+          "title": "Park sculpture",
+          "text": "Large-scale work with foundations and load calculations.",
+          "price": "from 90,000,000 UZS",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Clients",
+      "items": [
+        {
+          "quote": "The photo spot paid for itself in attention — people tag it in stories every day.",
+          "author": "Madina",
+          "role": "mall marketing manager"
+        },
+        {
+          "quote": "They built a monolith we are proud to have at the entrance, and finished before the opening.",
+          "author": "Timur",
+          "role": "business-centre manager"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How long does a piece take?",
+          "a": "Concept and model take 5 working days; fabrication 4 to 8 weeks depending on size."
+        },
+        {
+          "q": "Will Corten stain the paving with rust?",
+          "a": "We pre-patinate the steel and set the piece on a drained base so run-off does not reach the paving."
+        },
+        {
+          "q": "Can you work from our sketch?",
+          "a": "Yes, we develop your sketch into working drawings and engineer the structure."
+        },
+        {
+          "q": "Do you work outside Tashkent?",
+          "a": "Yes, across Uzbekistan; delivery and installation are priced separately."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Tell us about the site — we will propose a form",
+      "text": "Workshop 3, 87 Shota Rustaveli St, Yakkasaray. Mon–Fri 10:00–19:00, Sat 11:00–16:00. The showroom of models is open by appointment.",
+      "cta": {
+        "label": "Discuss a project",
+        "href": "#order"
+      }
+    }
+  ]
+}

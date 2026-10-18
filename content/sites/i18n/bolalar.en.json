@@ -1,0 +1,240 @@
+{
+  "name": "Bolalar Mebel",
+  "tagline": "Kids’ furniture that grows with your child",
+  "niche": "Children’s furniture",
+  "seo": {
+    "title": "Bolalar Mebel — children’s furniture in Tashkent",
+    "description": "House beds, adjustable desks and toy storage in birch. Safe paints, rounded corners, assembly in an hour and free delivery across Tashkent.",
+    "keywords": [
+      "kids furniture Tashkent",
+      "house bed",
+      "adjustable kids desk",
+      "toy storage",
+      "bunk bed"
+    ],
+    "answer": "Bolalar Mebel is a children’s furniture shop in Tashkent (Chilanzar, 21 Bunyodkor Street). Birch house beds from UZS 3,400,000, adjustable desks from UZS 2,100,000, toy shelving from UZS 950,000. Water-based paints, free delivery across Tashkent, assembly in an hour."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a children’s furniture or toy shop: soft drops on the first screen, a price card grouped by category, kids’ room before/after, the team and answers for parents.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Bolalar Mebel LLC",
+    "street": "21 Bunyodkor Street, Chilanzar",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A room to grow up in",
+      "eyebrow": "Kids’ furniture · Chilanzar · daily 10–20",
+      "subtitle": "House beds, desks that rise as your child grows and shelves where kids tidy away their own toys. Birch, safe paints and rounded corners.",
+      "words": [
+        "Beds",
+        "Desks",
+        "Shelving",
+        "Wardrobes"
+      ],
+      "cta": {
+        "label": "Order",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#prices"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Birch",
+        "Water-based paints",
+        "Rounded corners",
+        "Assembly in an hour",
+        "Grows with your child"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About us",
+      "title": "Furniture tested by children",
+      "text": "Our joiners are parents themselves, so every model first lives in a team member’s nursery. We build from birch plywood and solid wood, paint with water-based finishes and fit soft-close drawers so little fingers never get pinched.",
+      "image": ""
+    },
+    {
+      "id": "prices",
+      "type": "services",
+      "label": "Prices",
+      "title": "What we make for the nursery",
+      "intro": "Any of 12 pastel colours. Sized for an 80×160 or 90×190 mattress.",
+      "items": [
+        {
+          "title": "House bed",
+          "text": "With rails and a linen drawer",
+          "price": "from UZS 3,400,000",
+          "tag": "Beds"
+        },
+        {
+          "title": "Bunk bed",
+          "text": "Dresser stairs, up to 120 kg",
+          "price": "from UZS 6,900,000",
+          "tag": "Beds"
+        },
+        {
+          "title": "Baby cot",
+          "text": "Converts into a toddler sofa",
+          "price": "from UZS 2,600,000",
+          "tag": "Beds"
+        },
+        {
+          "title": "Adjustable desk",
+          "text": "Adjustable height and tilt, ages 5 to 15",
+          "price": "from UZS 2,100,000",
+          "tag": "Study"
+        },
+        {
+          "title": "Desk chair",
+          "text": "Adjusts along with the desk",
+          "price": "from UZS 890,000",
+          "tag": "Study"
+        },
+        {
+          "title": "Toy shelving",
+          "text": "Angled shelves and six baskets",
+          "price": "from UZS 950,000",
+          "tag": "Storage"
+        },
+        {
+          "title": "Wardrobe with height chart",
+          "text": "Two-level hanging rail",
+          "price": "from UZS 3,800,000",
+          "tag": "Storage"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Kids’ rooms before and after",
+      "title": "Drag the slider",
+      "items": [
+        {
+          "caption": "A 9 m² room for two",
+          "image": ""
+        },
+        {
+          "caption": "A schoolchild’s corner",
+          "image": ""
+        },
+        {
+          "caption": "Playroom with a house bed",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Team",
+      "title": "We make furniture for our own kids too",
+      "items": [
+        {
+          "name": "Jasur",
+          "role": "joiner, father of two",
+          "image": ""
+        },
+        {
+          "name": "Malika",
+          "role": "nursery designer",
+          "image": ""
+        },
+        {
+          "name": "Oybek",
+          "role": "assembly and delivery",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "From parents",
+      "items": [
+        {
+          "quote": "Our son asked to sleep in the house bed himself — the first time without persuading.",
+          "author": "Feruza",
+          "role": "house bed"
+        },
+        {
+          "quote": "The desk has already been raised twice and our daughter sits up straight.",
+          "author": "Bakhrom",
+          "role": "adjustable desk"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Questions",
+      "title": "Questions from parents",
+      "items": [
+        {
+          "q": "What paint do you use?",
+          "a": "Odourless water-based acrylic paints; we show the certificates in the shop."
+        },
+        {
+          "q": "How long does an order take?",
+          "a": "In-stock models take 1–2 days; your own colour takes 14 working days."
+        },
+        {
+          "q": "Is assembly paid?",
+          "a": "Delivery and assembly in Tashkent are free and take about an hour."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "18 months on the structure and hardware."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us the room size",
+      "text": "Message us the room size and your child’s age on Telegram and we will send a layout and a price.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/bolalar_mebel"
+      }
+    }
+  ]
+}

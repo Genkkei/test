@@ -1,0 +1,270 @@
+{
+  "name": "Temirsanat",
+  "tagline": "Bog‘lar, restoranlar va ofislar uchun metalldan haykal va art-obyektlar",
+  "niche": "Metall art-obyektlar va haykaltaroshlik studiyasi",
+  "nav": {
+    "cta": {
+      "label": "Obyektni muhokama qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall art-obyektlar studiyasi uchun sayt: butun ekranga katta nom, yillari ko‘rsatilgan loyihalar indeksi, galereyadagidek ramkalardagi ishlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "Obyektni muhokama qilish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Temirsanat — Toshkentda metalldan art-obyekt va haykallar",
+    "description": "Bog‘lar, savdo markazlari, restoran va ofislar uchun korten va zanglamas po‘latdan haykal, stela, fotozona va navigatsiya loyihalaymiz va yasaymiz. Eskiz 5 kunda, kalit topshirish bilan o‘rnatish.",
+    "keywords": [
+      "metall art-obyektlar",
+      "korten haykal",
+      "Toshkentda metall fotozona",
+      "biznes uchun stela"
+    ],
+    "answer": "Temirsanat — Toshkentdagi studiya: bog‘lar va biznes uchun metalldan (korten, zanglamas po‘lat, latun) haykal, stela, fotozona va navigatsiya yasaydi. Kichik art-obyekt — 18 000 000 so‘mdan, fotozona — 32 000 000 so‘mdan, eskiz — 5 ish kunida, tayyorlash — 4–8 hafta. Telefon +998 71 200-07-04."
+  },
+  "business": {
+    "legalName": "MChJ «Temirsanat»",
+    "street": "Yakkasaroy, Shota Rustaveli ko‘chasi, 87, 3-sex",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Behance"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Shahardagi metall: jamoat joylari uchun art-obyektlar",
+      "eyebrow": "«Zang bog‘i» · korten, 3,2 m · Bobur bog‘i, 2026",
+      "subtitle": "Korten, zanglamas po‘lat va latundan haykal, stela va fotozonalar. Joyga mos shakl o‘ylab topamiz, konstruksiyani hisoblaymiz va o‘nlab yillar turadigan obyektni o‘rnatamiz.",
+      "words": [
+        "Haykal",
+        "Stela va navigatsiya",
+        "Fotozonalar",
+        "Interyer panno"
+      ],
+      "cta": {
+        "label": "Obyektni muhokama qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Loyihalar",
+        "href": "#projects"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Korten",
+        "Zanglamas po‘lat",
+        "Latun",
+        "Lazer kesish",
+        "Konstruksiya hisobi",
+        "Kalit topshirish bilan o‘rnatish"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Studiya",
+      "title": "Biz qaraladigan metall yasaymiz",
+      "text": "Studiyada haykaltarosh, konstruktor va olti usta ishlaydi. Biz joydan boshlaymiz: obyekt qayerda turadi, unga qayerdan qarashadi, kechki yorug‘lik qanday tushadi. Keyin masshtabli maket qilamiz, shamol yukini hisoblaymiz va shundan keyingina metallni kesamiz.",
+      "image": ""
+    },
+    {
+      "id": "projects",
+      "type": "works",
+      "label": "Loyihalar",
+      "title": "Tanlangan obyektlar",
+      "items": [
+        {
+          "title": "«Zang bog‘i»",
+          "category": "Bog‘ · korten",
+          "year": "2026",
+          "text": "Sayr xiyoboni bo‘ylab balandligi 3,2 m gacha bo‘lgan beshta barg-haykal.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Biznes markaz stelasi",
+          "category": "Navigatsiya · zanglamas po‘lat",
+          "year": "2025",
+          "text": "Ijarachilar almashinadigan lavhalari va yoritgichli olti metrli stela.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Shahar yuragi» fotozonasi",
+          "category": "SEM · latun va po‘lat",
+          "year": "2025",
+          "text": "Suratga tushmoqchilar navbat tuzadigan 480 plastinadan iborat hajmli yurak.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restoran uchun panno",
+          "category": "Interyer · latun",
+          "year": "2024",
+          "text": "Lazer bilan kesilgan suzana naqshli 12 metrli devor.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ustaxona",
+      "title": "Ustaxonadan",
+      "items": [
+        {
+          "caption": "«Zang bog‘i» maketi, 1:20",
+          "image": ""
+        },
+        {
+          "caption": "Stela karkasini payvandlash",
+          "image": ""
+        },
+        {
+          "caption": "Kortenni patinalash",
+          "image": ""
+        },
+        {
+          "caption": "SEMda kechasi o‘rnatish",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": "+",
+          "label": "shahardagi obyektlar"
+        },
+        {
+          "value": "5",
+          "suffix": " kun",
+          "label": "eskiz va maket"
+        },
+        {
+          "value": "6",
+          "suffix": " m",
+          "label": "eng baland stela"
+        },
+        {
+          "value": "10",
+          "suffix": " yil",
+          "label": "konstruksiyaga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Nima qilamiz",
+      "title": "Formatlar va narxlar",
+      "items": [
+        {
+          "title": "Kichik shakldagi art-obyekt",
+          "text": "2 metrgacha, kirish guruhi yoki interyer uchun.",
+          "price": "18 000 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Fotozona",
+          "text": "Yoritgichli, tashrif buyuruvchilar oqimiga mo‘ljallangan.",
+          "price": "32 000 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Stela va navigatsiya",
+          "text": "Yagona uslubdagi ko‘rsatkichlar, stelalar, manzil lavhalari.",
+          "price": "24 000 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Bog‘ haykali",
+          "text": "Poydevor va yuk hisobi bilan katta shakl.",
+          "price": "90 000 000 so‘mdan",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Buyurtmachilar",
+      "items": [
+        {
+          "quote": "Fotozona e’tibor bilan o‘zini oqladi: har kuni uni storislarda belgilashadi.",
+          "author": "Madina",
+          "role": "SEM marketologi"
+        },
+        {
+          "quote": "Kirish oldiga qo‘yishdan uyalmaydigan stela yasashdi. Ochilishgacha muddatda ulgurishdi.",
+          "author": "Temur",
+          "role": "biznes markaz boshqaruvchisi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Obyekt qancha vaqtda tayyorlanadi?",
+          "a": "Eskiz va maket — 5 ish kuni, tayyorlash — o‘lchamga qarab 4 dan 8 haftagacha."
+        },
+        {
+          "q": "Korten plitkani zang bilan bo‘yamaydimi?",
+          "a": "Metallni oldindan patinalaymiz va obyektni drenajli asosga qo‘yamiz, oqindilar qoplamaga tushmasin."
+        },
+        {
+          "q": "Bizning eskizimiz bo‘yicha bo‘ladimi?",
+          "a": "Ha, eskizingizni ishchi chizmalargacha yetkazamiz va konstruksiyani hisoblaymiz."
+        },
+        {
+          "q": "Toshkentdan tashqarida ishlaysizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab; yetkazish va o‘rnatishni alohida hisoblaymiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Joy haqida aytib bering — shakl taklif qilamiz",
+      "text": "Yakkasaroy, Shota Rustaveli ko‘chasi, 87, 3-sex. Du–Ju 10:00–19:00, Sh 11:00–16:00. Maketli shourum yozilish bo‘yicha ochiq.",
+      "cta": {
+        "label": "Obyektni muhokama qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

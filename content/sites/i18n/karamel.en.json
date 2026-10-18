@@ -1,0 +1,271 @@
+{
+  "name": "Karamel",
+  "tagline": "A café-patisserie in Yunusabad: desserts from the counter and coffee to match",
+  "niche": "Café and patisserie",
+  "nav": {
+    "cta": {
+      "label": "Order a cake",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a patisserie or dessert café: a priced display case, tiered custom cakes and note-style reviews.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Karamel — café, patisserie and cakes in Yunusabad",
+    "description": "Éclairs, honey cake, cheesecakes and custom cakes from 1 kg, with cappuccino and raf. 107 Amir Temur St, daily 9:00–22:00, delivery across Tashkent.",
+    "keywords": [
+      "patisserie Tashkent",
+      "custom cake Tashkent",
+      "eclairs",
+      "café Yunusabad",
+      "dessert delivery Tashkent"
+    ],
+    "answer": "Karamel is a café-patisserie at 107 Amir Temur St in Yunusabad, open daily 9:00–22:00. An éclair is 26,000 UZS, a slice of honey cake 38,000 UZS, cappuccino 30,000 UZS. Custom cakes start at 280,000 UZS per kg and need two days’ notice."
+  },
+  "business": {
+    "legalName": "Karamel Dessert LLC",
+    "street": "107 Amir Temur St, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, city-wide delivery",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee is an excuse for dessert",
+      "eyebrow": "Café-patisserie · Yunusabad",
+      "subtitle": "Every morning the case holds twelve desserts from our kitchen. Cappuccino, raf and filter — something to eat them with.",
+      "words": [
+        "éclairs",
+        "honey cake",
+        "cheesecake",
+        "macarons"
+      ],
+      "cta": {
+        "label": "Order a cake",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "The case",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Fresh case by 9:00",
+        "Cakes from 1 kg",
+        "Delivery in 2 hours",
+        "No margarine"
+      ]
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "The case",
+      "title": "On the shelves today",
+      "groups": [
+        {
+          "name": "Pastries",
+          "items": [
+            {
+              "name": "Vanilla éclair",
+              "text": "Custard, white glaze",
+              "price": "26,000 UZS"
+            },
+            {
+              "name": "Honey cake",
+              "text": "Eight layers, sour-cream frosting",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Salted caramel cheesecake",
+              "text": "Our signature",
+              "price": "42,000 UZS"
+            },
+            {
+              "name": "Macaron",
+              "text": "Six flavours",
+              "price": "14,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Coffee",
+          "items": [
+            {
+              "name": "Cappuccino",
+              "text": "",
+              "price": "30,000 UZS"
+            },
+            {
+              "name": "Caramel raf",
+              "text": "Made with house caramel",
+              "price": "38,000 UZS"
+            },
+            {
+              "name": "Filter",
+              "text": "Ethiopia, 300 ml",
+              "price": "28,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Cakes",
+      "title": "Custom cakes",
+      "items": [
+        {
+          "name": "Classic",
+          "price": "280,000 UZS",
+          "period": "/ kg",
+          "features": [
+            "Honey cake, napoleon or “Prague”",
+            "From 1 kg",
+            "Free cream lettering"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Celebration",
+          "price": "360,000 UZS",
+          "period": "/ kg",
+          "features": [
+            "Any filling from the case",
+            "Berries and decoration",
+            "Delivery on the day"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Wedding",
+          "price": "from 420,000 UZS",
+          "period": "/ kg",
+          "features": [
+            "Three tiers and up",
+            "Filling tasting",
+            "Assembly on site"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How to order",
+      "title": "A cake in three steps",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Weight, filling and date via “Order a cake”."
+        },
+        {
+          "title": "Sketch",
+          "text": "Our pastry chef sends a sketch and price within an hour."
+        },
+        {
+          "title": "Done",
+          "text": "Pick it up or we deliver at the time you need."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Kitchen",
+      "title": "Where desserts are born",
+      "items": [
+        {
+          "caption": "The morning case",
+          "image": ""
+        },
+        {
+          "caption": "Honey cake cross-section",
+          "image": ""
+        },
+        {
+          "caption": "Anniversary cake",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Notes from guests",
+      "items": [
+        {
+          "quote": "Ordered a cake for mum’s birthday two days ahead — the sketch came in forty minutes.",
+          "author": "Nigora K.",
+          "role": "custom cake"
+        },
+        {
+          "quote": "The salted caramel cheesecake is why I come here. The coffee is good too.",
+          "author": "Aziz M.",
+          "role": "café guest"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "About orders",
+      "items": [
+        {
+          "q": "How far ahead should I order a cake?",
+          "a": "Two days ahead; a wedding cake a week ahead."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Across Tashkent in 2 hours, 25,000 UZS. Cakes from 2 kg — free."
+        },
+        {
+          "q": "Do you have sugar-free desserts?",
+          "a": "Yes, two kinds every day, and any cake can be made with stevia to order."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "Cash, card or transfer. Cakes need a 50% deposit."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Drop in for dessert",
+      "text": "107 Amir Temur St, Yunusabad. Daily 9:00–22:00.",
+      "cta": {
+        "label": "Order a cake",
+        "href": "#order"
+      }
+    }
+  ]
+}

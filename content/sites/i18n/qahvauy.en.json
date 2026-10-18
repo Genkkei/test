@@ -1,0 +1,228 @@
+{
+  "name": "Qahva Uyi",
+  "tagline": "An Eastern coffee house by Chorsu: Turkish coffee on hot sand, tea in piyolas and sweets",
+  "niche": "Eastern coffee house",
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an Eastern coffee house, chaikhana or sweet shop: ornament, an illustrated menu, arches and postcard reviews.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Qahva Uyi — Turkish coffee and tea by Chorsu",
+    "description": "Turkish coffee brewed on hot sand with cardamom, green tea in piyolas, baklava and halva. A coffee house by Chorsu bazaar, daily 8:00–23:00.",
+    "keywords": [
+      "Turkish coffee Tashkent",
+      "sand coffee",
+      "café Chorsu",
+      "eastern coffee house",
+      "baklava Tashkent"
+    ],
+    "answer": "Qahva Uyi is an Eastern coffee house at 2 Navoi St by Chorsu bazaar, open daily 8:00–23:00. Turkish coffee on sand is 26,000 UZS, with cardamom 29,000 UZS, a pot of green tea 18,000 UZS and baklava 24,000 UZS a portion."
+  },
+  "business": {
+    "legalName": "Qahva Uyi sole proprietorship",
+    "street": "2 Navoi St, by Chorsu bazaar",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent, Old City",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Coffee brewed on sand",
+      "eyebrow": "Coffee house · by Chorsu bazaar",
+      "subtitle": "A copper cezve, hot sand and a pinch of cardamom. While the coffee rises three times, you get water and a piece of halva.",
+      "words": [
+        "with cardamom",
+        "with salt",
+        "with honey",
+        "Uzbek-style"
+      ],
+      "cta": {
+        "label": "Order to go",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Coffee on sand",
+        "Handmade baklava",
+        "Tea in piyolas",
+        "A courtyard terrace"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About the house",
+      "title": "A coffee house by the old bazaar",
+      "text": "We brew coffee the way it was brewed in caravanserais: in a copper cezve on hot sand, slowly, with foam. The room is a former coppersmith’s workshop with carved columns and a courtyard terrace. Our neighbours make the sweets — baklava, halva and parvarda.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Coffee, tea, sweets",
+      "groups": [
+        {
+          "name": "Coffee on sand",
+          "items": [
+            {
+              "name": "Classic",
+              "text": "Unsweetened or sweet — tell the barista",
+              "price": "26,000 UZS"
+            },
+            {
+              "name": "With cardamom",
+              "text": "",
+              "price": "29,000 UZS"
+            },
+            {
+              "name": "With honey and cinnamon",
+              "text": "",
+              "price": "31,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Tea",
+          "items": [
+            {
+              "name": "Green tea",
+              "text": "A pot for two",
+              "price": "18,000 UZS"
+            },
+            {
+              "name": "Thyme tea",
+              "text": "Mountain thyme from Bostanliq",
+              "price": "22,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Sweets",
+          "items": [
+            {
+              "name": "Baklava",
+              "text": "Walnut and honey, a portion",
+              "price": "24,000 UZS"
+            },
+            {
+              "name": "Sesame halva",
+              "text": "",
+              "price": "16,000 UZS"
+            },
+            {
+              "name": "Parvarda",
+              "text": "Pulled caramel",
+              "price": "12,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The courtyard",
+      "title": "A workshop turned coffee house",
+      "items": [
+        {
+          "caption": "Sand and copper cezves",
+          "image": ""
+        },
+        {
+          "caption": "The courtyard terrace",
+          "image": ""
+        },
+        {
+          "caption": "Baklava on a tray",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "Postcards from guests",
+      "items": [
+        {
+          "quote": "Popped in after the bazaar for a minute — stayed two hours on the terrace.",
+          "author": "Anna and Mark",
+          "role": "visitors from Europe"
+        },
+        {
+          "quote": "Cardamom coffee like at my grandfather’s when I was a kid.",
+          "author": "Botir Sh.",
+          "role": "regular"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before you visit",
+      "items": [
+        {
+          "q": "How do I get there?",
+          "a": "Chorsu metro, exit to the bazaar, then a two-minute walk along Navoi St."
+        },
+        {
+          "q": "How long does sand coffee take?",
+          "a": "About five minutes — it’s raised three times for the foam."
+        },
+        {
+          "q": "Can I take sweets to go?",
+          "a": "Yes, we box baklava and halva from 250 g."
+        },
+        {
+          "q": "Do you host tour groups?",
+          "a": "Up to 20 people on the terrace — let us know a day ahead."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Address",
+      "title": "Come by after the bazaar",
+      "text": "2 Navoi St, by Chorsu bazaar. Daily 8:00–23:00.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/qahvauyi"
+      }
+    }
+  ]
+}

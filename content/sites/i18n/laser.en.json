@@ -1,0 +1,314 @@
+{
+  "name": "Laser Metall",
+  "tagline": "We cut metal to a tenth of a millimetre",
+  "niche": "Laser cutting and Corten décor: panels, planters, signs and screens",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a laser-cutting shop or metal-décor studio. On the first screen a laser cuts an eight-point star in real time, prices sit in a spec sheet with thicknesses, and projects appear as backlit perforated panels.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurement",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Laser Metall — laser metal cutting in Tashkent",
+    "description": "Laser cutting of steel, stainless and Corten to your drawings. Decorative panels, planters, signs and screens. A quote within an hour, production from one day.",
+    "keywords": [
+      "laser cutting Tashkent",
+      "Corten steel",
+      "decorative metal panels",
+      "metal signs",
+      "Corten planters"
+    ],
+    "answer": "Laser Metall is a laser-cutting shop at 7 Kichik Khalka Yuli Street, Tashkent. We cut steel up to 20 mm, stainless up to 10 mm and Corten from DXF drawings: cutting from 8,000 sum per metre, Corten panels from 1,800,000 sum per m², planters from 650,000 sum. Quotes arrive within an hour and simple parts are ready the next day."
+  },
+  "business": {
+    "legalName": "Laser Metall LLC",
+    "street": "7 Kichik Khalka Yuli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and all of Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metal cut exactly to drawing",
+      "eyebrow": "3 kW fibre laser · 3000 × 1500 mm bed",
+      "subtitle": "Steel, stainless and Corten, from a single part to a batch. Send a DXF or a sketch: a quote within the hour, ready tomorrow.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#prices"
+      },
+      "image": "",
+      "words": [
+        "±0.1 mm accuracy",
+        "steel up to 20 mm",
+        "Corten",
+        "from 1 day"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "cutting from DXF",
+        "bending",
+        "powder coating",
+        "Corten patination",
+        "welding",
+        "delivery across Uzbekistan"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "From drawing to metal in a day",
+      "text": "We run a 3 kW fibre laser, a press brake and a powder-coating booth, so parts never leave the shop. Designers and architects send files; we check them, suggest where to save metal and cut. For private clients we draw the pattern ourselves.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Prices",
+      "title": "Specification",
+      "intro": "Cutting price depends on thickness and contour length; finished pieces include paint, delivery extra.",
+      "items": [
+        {
+          "title": "Laser cutting, mild steel",
+          "text": "Your sheet or ours, from DXF/DWG.",
+          "price": "from 8,000 sum / m",
+          "tag": "1–20 mm"
+        },
+        {
+          "title": "Stainless steel cutting",
+          "text": "For kitchens, façades and signage.",
+          "price": "from 14,000 sum / m",
+          "tag": "0,8–10 mm"
+        },
+        {
+          "title": "Corten panels",
+          "text": "Perforated screens for façades, fences and backlit interiors.",
+          "price": "from 1,800,000 sum / m²",
+          "tag": "2–3 mm"
+        },
+        {
+          "title": "Planters and beds",
+          "text": "Corten or powder-coated steel, any size.",
+          "price": "from 650,000 sum",
+          "tag": "2 mm, welded"
+        },
+        {
+          "title": "Signs and 3D letters",
+          "text": "Plaques, house numbers and halo-lit logos.",
+          "price": "from 450,000 sum",
+          "tag": "1,5–3 mm"
+        },
+        {
+          "title": "Partitions and screens",
+          "text": "Zoning for restaurants, offices and terraces.",
+          "price": "from 2,400,000 sum / m²",
+          "tag": "3 mm + RAL"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Work",
+      "title": "Cut in our shop",
+      "intro": "",
+      "items": [
+        {
+          "title": "Restaurant façade screen",
+          "category": "Corten",
+          "year": "2025",
+          "text": "24 m² of backlit girih pattern.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Planters for an office centre",
+          "category": "Planters",
+          "year": "2025",
+          "text": "36 planters perforated around the rim.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Coffee shop partition",
+          "category": "Interior",
+          "year": "2025",
+          "text": "Diamonds in RAL 9005 powder coat.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Private house fence",
+          "category": "Fencing",
+          "year": "2024",
+          "text": "Waves, 18 sections of 2 metres.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Hotel lobby lamps",
+          "category": "Lighting",
+          "year": "2024",
+          "text": "Twelve shades with a honeycomb pattern.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Barbershop sign",
+          "category": "Signage",
+          "year": "2024",
+          "text": "Halo-lit 3D letters.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Equipment",
+      "title": "",
+      "items": [
+        {
+          "value": "0.1",
+          "suffix": " mm",
+          "label": "cutting accuracy"
+        },
+        {
+          "value": "20",
+          "suffix": " mm",
+          "label": "maximum steel thickness"
+        },
+        {
+          "value": "3",
+          "suffix": " m",
+          "label": "sheet length in one pass"
+        },
+        {
+          "value": "24",
+          "suffix": " h",
+          "label": "for a simple order"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Process",
+      "title": "How an order runs",
+      "items": [
+        {
+          "title": "File or sketch",
+          "text": "Send a DXF, PDF or a photo of a drawing on Telegram."
+        },
+        {
+          "title": "Quote",
+          "text": "Within the hour: price, material and lead time, plus where to save."
+        },
+        {
+          "title": "Cutting",
+          "text": "We cut, deburr the edges and bend where needed."
+        },
+        {
+          "title": "Finishing",
+          "text": "Powder coat in any RAL, or accelerated Corten patina."
+        },
+        {
+          "title": "Delivery",
+          "text": "Collect from the shop or have it delivered; installation on request."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Trusted with the drawings",
+      "items": [
+        {
+          "quote": "We sent the file on Friday evening and collected 40 parts on Saturday, every dimension spot on.",
+          "author": "Bakhtiyor",
+          "role": "furniture workshop"
+        },
+        {
+          "quote": "They helped adapt the pattern to the Corten thickness so the panel would not warp. The façade looks pricier than it was.",
+          "author": "Madina",
+          "role": "architect"
+        },
+        {
+          "quote": "We ordered planters for the terrace: clean welds, a handsome rust that does not stain.",
+          "author": "Oleg",
+          "role": "restaurateur"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much does laser cutting cost?",
+          "a": "From 8,000 sum per metre of cut for 1–2 mm steel. The exact price depends on thickness, contour length and pierce count; send the file and we will price it within the hour."
+        },
+        {
+          "q": "What files do you need?",
+          "a": "DXF or DWG at 1:1 is best. PDF, SVG or even a photo of a sketch will do; we will draw it up ourselves."
+        },
+        {
+          "q": "What is Corten and why is it rusty?",
+          "a": "It is weathering steel: a thin rust layer protects it from further corrosion, so it needs no paint. We accelerate the patina so the colour is even from day one."
+        },
+        {
+          "q": "Will you cut my own metal?",
+          "a": "Yes, we cut customer-supplied sheet and charge only for the cutting. It must be flat and free of scale and oil."
+        },
+        {
+          "q": "Do you deliver to other cities?",
+          "a": "Yes, we ship across Uzbekistan by courier companies; delivery within Tashkent starts at 100,000 sum."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Send us a drawing",
+      "text": "Leave a request or message us on Telegram; during working hours we reply with a price and lead time within the hour.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      }
+    }
+  ]
+}

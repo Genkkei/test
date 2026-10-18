@@ -1,0 +1,287 @@
+{
+  "name": "Zarhal Atelier",
+  "tagline": "Zarhallash, patina va bronza bilan elita temirchilik",
+  "niche": "Zarhal bilan elita badiiy temirchilik",
+  "nav": {
+    "cta": {
+      "label": "Shourumga yozilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Elita temirchilik atelyesi uchun sayt: oltin yaltiroqli to‘q baxmal, vitrina ko‘rinishidagi kolleksiyalar, ustaxona va shourumga yozilish.",
+    "features": []
+  },
+  "leads": {
+    "title": "Shourumga yozilish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Zarhal Atelier — Toshkentda zarhalli elita temirchilik",
+    "description": "Zarhal varaq, patina va bronza detallar bilan zina to‘siqlari, darvozalar, kamin ekranlari va temir mebel. Individual eskiz, qo‘l mehnati, kafolat 10 yil.",
+    "keywords": [
+      "elita temirchilik",
+      "metallni zarhallash",
+      "zarhalli temir panjara",
+      "premium temir darvoza"
+    ],
+    "answer": "Zarhal Atelier — Toshkentdagi elita temirchilik atelyesi: zarhal varaq, patina va bronza bilan panjara, darvoza, kamin ekranlari va metall mebel. Zina to‘sig‘ining pogon metri — 6 800 000 so‘mdan, kamin ekrani — 14 000 000 so‘mdan. Eskiz 7 kun, tayyorlash 6–10 hafta, kafolat 10 yil. Shourum Mirobodda, telefon +998 71 200-07-06."
+  },
+  "business": {
+    "legalName": "MChJ «Zarhal Atelier»",
+    "street": "Mirobod, Taras Shevchenko ko‘chasi, 34",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent, Samarqand, Buxoro",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Oltin tegadigan temirchilik",
+      "eyebrow": "Elita temirchilik atelyesi · Mirobod",
+      "subtitle": "Qo‘lda yasaladigan va zarhal varaq bilan qoplanadigan panjara, darvoza, kamin ekranlari va mebel. Har bir buyum yagona nusxada — sizning yoki bizning eskizimiz bo‘yicha.",
+      "words": [
+        "Zarhal varaq",
+        "Patina",
+        "Bronza",
+        "Qo‘lda zarb"
+      ],
+      "cta": {
+        "label": "Shourumga yozilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Kolleksiyalar",
+        "href": "#collections"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Zinapoyalar",
+        "Darvozalar",
+        "Kamin ekranlari",
+        "Konsol va stollar",
+        "Chiroqlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelye",
+      "title": "Meros qilib qoldiriladigan metall",
+      "text": "Zarhal — oltin qoplash degani. Atelyeda uchta temirchi usta, zarbchi va moyli mordanga 23,75 karatli zarhal varaqni qo‘lda yopishtiradigan zarhalchi ishlaydi. Biz «oltin» bo‘yoqdan foydalanmaymiz: buyumlarimizdagi oltin — haqiqiy va vaqt o‘tishi bilan qoraymaydi.",
+      "image": ""
+    },
+    {
+      "id": "collections",
+      "type": "works",
+      "label": "Kolleksiyalar",
+      "title": "Atelye kolleksiyalari",
+      "items": [
+        {
+          "title": "Samarqand",
+          "category": "Panjaralar",
+          "year": "metri 6,8 mln so‘mdan",
+          "text": "Zarhal rozetkali temir jingalaklardan koshin naqshi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Versal",
+          "category": "Darvozalar",
+          "year": "85 mln so‘mdan",
+          "text": "Egasining monogrammasi va zarhal nayzali tantanali darvoza.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "O‘choq",
+          "category": "Kamin ekranlari",
+          "year": "14 mln so‘mdan",
+          "text": "Latun to‘rli va eski bronza patinali uch tavaqali ekran.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Sarob",
+          "category": "Mebel",
+          "year": "22 mln so‘mdan",
+          "text": "Temir asosdagi marmar ustli konsol va stollar.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Buyurtma ishlari",
+      "title": "Atelye nima yaratadi",
+      "items": [
+        {
+          "title": "Eskiz va maket",
+          "text": "Rasm, 3D-vizualizatsiya va tabiiy o‘lchamdagi bo‘lak.",
+          "price": "3 500 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Zarhallash",
+          "text": "23,75 karatli zarhal varaq, ko‘cha uchun lak.",
+          "price": "dm² uchun 1 900 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Restavratsiya",
+          "text": "Eski temirchilik, yo‘qolgan elementlar va zarhalni tiklash.",
+          "price": "baholash bo‘yicha",
+          "tag": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "23",
+          "suffix": " karat",
+          "label": "zarhal varaq"
+        },
+        {
+          "value": "7",
+          "suffix": " kun",
+          "label": "eskiz va vizualizatsiya"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "atelyedagi usta"
+        },
+        {
+          "value": "10",
+          "suffix": " yil",
+          "label": "kafolat"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Detallar",
+      "title": "Yaqin rejada",
+      "items": [
+        {
+          "caption": "«Samarqand» rozetkasi, oltin",
+          "image": ""
+        },
+        {
+          "caption": "«Versal» darvozasi nayzasi",
+          "image": ""
+        },
+        {
+          "caption": "«Eski bronza» patinasi",
+          "image": ""
+        },
+        {
+          "caption": "«Sarob» konsoli, marmar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Buyum yo‘li",
+      "title": "Eskizdan oltingacha",
+      "items": [
+        {
+          "title": "Shourumda uchrashuv",
+          "text": "Patina va oltin namunalarini ko‘ramiz, interyerni muhokama qilamiz."
+        },
+        {
+          "title": "Eskiz",
+          "text": "7 kunda interyeringizdagi rasm va vizualizatsiya."
+        },
+        {
+          "title": "Temirchilik va zarb",
+          "text": "6–10 hafta qo‘l mehnati, har hafta oraliq suratlar."
+        },
+        {
+          "title": "Zarhallash va o‘rnatish",
+          "text": "Oltin qoplaymiz, laklaymiz va oq qo‘lqopda o‘rnatamiz."
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Buyurtmachilar maktublari",
+      "items": [
+        {
+          "quote": "Panjara uyning asosiy bezagiga aylandi. Oltin quyoshda baqirmaydi, nur sochadi.",
+          "author": "Gulnora",
+          "role": "xususiy qarorgoh"
+        },
+        {
+          "quote": "Bobokalonimning darvozasini tiklashdi — yo‘qolgan rozetkalarni eski surat bo‘yicha qayta yaratishdi.",
+          "author": "Farrux",
+          "role": "Samarqand"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Oltin haqiqiymi?",
+          "a": "Ha, 23,75 karatli zarhal varaq. «Oltin effektli» bo‘yoqlardan foydalanmaymiz."
+        },
+        {
+          "q": "Zarhal ko‘chaga chidaydimi?",
+          "a": "Ha, oltin ustida himoya laki bor; bir necha yilda bir bepul ko‘rikni tavsiya qilamiz."
+        },
+        {
+          "q": "Boshqa shaharlarda ishlaysizmi?",
+          "a": "Ha, Samarqand va Buxoroda; o‘rnatishni o‘z brigadamiz bajaradi."
+        },
+        {
+          "q": "Namunalarni ko‘rsa bo‘ladimi?",
+          "a": "Mirobod shourumida — yozilish bo‘yicha, patina, oltin namunalari va kolleksiya bo‘laklari bilan."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Shourum",
+      "title": "Oltinni yaqindan ko‘rgani keling",
+      "text": "Mirobod, Taras Shevchenko ko‘chasi, 34. Du–Ju 10:00–19:00, Sh 11:00–17:00, yozilish bo‘yicha.",
+      "cta": {
+        "label": "Shourumga yozilish",
+        "href": "#order"
+      }
+    }
+  ]
+}
