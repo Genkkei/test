@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { redirect } from 'next/navigation'
 import { requireAdmin } from '@/lib/auth'
 import { listSites } from '@/lib/store'
 import { auditSite, siteUrl } from '@/lib/seo'
@@ -8,7 +9,9 @@ import { createSiteAction, duplicateSiteAction, logout } from './actions'
 export const dynamic = 'force-dynamic'
 
 export default async function AdminHome() {
-  await requireAdmin()
+  const scope = await requireAdmin()
+  // владелец сайта видит только свой сайт
+  if (scope !== '*') redirect(`/admin/sites/${scope}`)
   const sites = await listSites()
   return (
     <div className="adm-shell">

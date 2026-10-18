@@ -152,3 +152,20 @@
 .adm-json { width: 100%; min-height: 60vh; }
 .adm-danger { margin-top: 40px; border: 1px solid color-mix(in srgb, var(--bad) 35%, transparent); border-radius: 12px; padding: 18px; display: grid; gap: 10px; }
 .adm-danger h3 { font-size: 15px; color: var(--bad); }
+
+/* Пошаговые инструкции для владельца сайта */
+.adm-steps { counter-reset: step; list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 12px; }
+.adm-steps > li { counter-increment: step; position: relative; padding: 14px 16px 14px 56px; border: 1px solid var(--line); background: var(--panel); border-radius: 12px; line-height: 1.5; }
+.adm-steps > li::before { content: counter(step); position: absolute; left: 14px; top: 12px; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--panel2); color: var(--fg); }
+.adm-steps > li.is-now { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent); }
+.adm-steps > li.is-now::before { background: var(--accent); color: #fff; }
+.adm-steps > li.is-done::before { content: '✓'; background: var(--ok); color: #111; }
+.adm-steps .adm-pair { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
+.adm-steps .adm-pair input { flex: 1 1 260px; }
+.adm-steps .adm-link { margin-left: 6px; }
+.adm-chats { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 4px; }
+.adm-check { display: flex; gap: 10px; align-items: center; cursor: pointer; }
+.adm-langs a { text-decoration: none; }
+.adm-help code, .adm-steps code { background: var(--panel2); padding: 1px 5px; border-radius: 4px; }
+.adm-seg a { padding: 4px 10px; border-radius: 6px; font-size: 12px; color: var(--muted); }
+.adm-seg a.is-on { background: var(--panel2); color: var(--fg); }

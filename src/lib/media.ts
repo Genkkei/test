@@ -21,3 +21,38 @@ export function mimeOf(file: string): string | null {
   const ext = file.split('.').pop()?.toLowerCase()
   return TYPES.find((t) => t.ext === ext)?.mime ?? null
 }
+
+type R2 = {
+  put(k: string, v: Uint8Array, o?: { httpMetadata?: { contentType?: string } }): Promise<unknown>
+  get(k: string): Promise<{ arrayBuffer(): Promise<ArrayBuffer> } | null>
+}
+
+async function bucket(): Promise<R2> {
+  const { getCloudflareContext } = await import('@opennextjs/cloudflare')
+  const { env } = await getCloudflareContext({ async: true })
+  return (env as unknown as { MEDIA: R2 }).MEDIA
+}
+
+/** Фото: на Cloudflare — бакет R2 (binding MEDIA), локально — папка DATA_DIR/media. */
+export async function mediaPut(name: string, bytes: Uint8Array, mime: string): Promise<void> {
+  if (process.env.ATLAS_STORE === 'd1') {
+    await (await bucket()).put(name, bytes, { httpMetadata: { contentType: mime } })
+    return
+  }
+  const { mkdir, writeFile } = await import('node:fs/promises')
+  await mkdir(MEDIA_DIR, { recursive: true })
+  await writeFile(path.join(/*turbopackIgnore: true*/ MEDIA_DIR, name), bytes)
+}
+
+export async function mediaGet(name: string): Promise<Uint8Array | null> {
+  try {
+    if (process.env.ATLAS_STORE === 'd1') {
+      const obj = await (await bucket()).get(name)
+      return obj ? new Uint8Array(await obj.arrayBuffer()) : null
+    }
+    const { readFile } = await import('node:fs/promises')
+    return new Uint8Array(await readFile(path.join(/*turbopackIgnore: true*/ MEDIA_DIR, name)))
+  } catch {
+    return null
+  }
+}

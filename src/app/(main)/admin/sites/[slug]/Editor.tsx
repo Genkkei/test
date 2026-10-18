@@ -8,16 +8,24 @@ import { SECTION_META, type Field } from '@/lib/fields'
 import { auditSite, buildJsonLd, seoDescription, seoTitle } from '@/lib/seo'
 import type { TemplateMeta } from '@/templates/types'
 import { saveSiteAction, deleteSiteAction } from '../../actions'
+import { AccessTab, BotTab, HelpTab, type BotInfo } from './extra'
 
-type Tab = 'sections' | 'design' | 'seo' | 'business' | 'general' | 'json'
-const TABS: { id: Tab; label: string }[] = [
-  { id: 'sections', label: 'Секции' },
-  { id: 'design', label: 'Дизайн' },
-  { id: 'seo', label: 'SEO · AEO · GEO' },
-  { id: 'business', label: 'Бизнес' },
-  { id: 'general', label: 'Основное' },
-  { id: 'json', label: 'JSON' },
+type Tab = 'help' | 'sections' | 'design' | 'seo' | 'business' | 'general' | 'bot' | 'access' | 'json'
+// Подписи — простыми словами: админкой пользуется владелец бизнеса, а не разработчик.
+const TABS: { id: Tab; label: string; master?: boolean; baseOnly?: boolean }[] = [
+  { id: 'help', label: 'С чего начать' },
+  { id: 'sections', label: 'Тексты и блоки' },
+  { id: 'business', label: 'Контакты и часы' },
+  { id: 'design', label: 'Цвета и шрифты', baseOnly: true },
+  { id: 'bot', label: 'Заявки в Telegram', baseOnly: true },
+  { id: 'seo', label: 'Поиск Google и ИИ' },
+  { id: 'general', label: 'Название и кнопка' },
+  { id: 'access', label: 'Пароль', baseOnly: true },
+  { id: 'json', label: 'JSON', master: true, baseOnly: true },
 ]
+
+export type EditorMode = { lang: string; baseLang: string; langs: string[]; master: boolean; hasPassword: boolean; bot: BotInfo | null }
+const LANG_LABEL: Record<string, string> = { ru: 'Русский', uz: 'O‘zbekcha', en: 'English' }
 
 type Path = (string | number)[]
 
@@ -29,11 +37,13 @@ function setIn<T>(obj: T, path: Path, value: unknown): T {
   return copy
 }
 
-export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site; templates: TemplateMeta[]; fonts: string[]; publicUrl: string }) {
+export function Editor({ initial, templates, fonts, publicUrl, mode }: { initial: Site; templates: TemplateMeta[]; fonts: string[]; publicUrl: string; mode: EditorMode }) {
+  const translating = mode.lang !== mode.baseLang
+  const tabs = TABS.filter((t) => (!t.master || mode.master) && (!t.baseOnly || !translating))
   const router = useRouter()
   const [site, setSite] = useState<Site>(initial)
   const [saved, setSaved] = useState(JSON.stringify(initial))
-  const [tab, setTab] = useState<Tab>('sections')
+  const [tab, setTab] = useState<Tab>(mode.master ? 'sections' : 'help')
   const [msg, setMsg] = useState<{ ok: boolean; text: string; issues?: string[] } | null>(null)
   const [pending, start] = useTransition()
   const [previewKey, setPreviewKey] = useState(0)
@@ -45,7 +55,7 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
 
   const save = useCallback(() => {
     start(async () => {
-      const res = await saveSiteAction(JSON.stringify(site), initial.slug)
+      const res = await saveSiteAction(JSON.stringify(site), initial.slug, mode.lang)
       setMsg({ ok: res.ok, text: res.message, issues: res.issues })
       if (res.ok) {
         setSaved(JSON.stringify(site))
@@ -53,7 +63,7 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
         if (site.slug !== initial.slug) router.replace(`/admin/sites/${site.slug}`)
       }
     })
-  }, [site, initial.slug, router])
+  }, [site, initial.slug, router, mode.lang])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -79,12 +89,27 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
   return (
     <div className="adm-editor">
       <header className="adm-bar">
-        <Link href="/admin" className="adm-logo">
-          Atlas
-        </Link>
-        <span className="adm-bar__crumb">
-          <Link href="/admin">Сайты</Link> / {site.name}
-        </span>
+        {mode.master ? (
+          <>
+            <Link href="/admin" className="adm-logo">
+              Atlas
+            </Link>
+            <span className="adm-bar__crumb">
+              <Link href="/admin">Сайты</Link> / {site.name}
+            </span>
+          </>
+        ) : (
+          <span className="adm-logo">{site.name}</span>
+        )}
+        <div className="adm-seg adm-langs" title="Язык, который вы сейчас правите">
+          {[mode.baseLang, ...['ru', 'uz', 'en'].filter((l) => l !== mode.baseLang)].map((l) =>
+            mode.langs.includes(l) ? (
+              <a key={l} href={`/admin/sites/${initial.slug}${l === mode.baseLang ? '' : `?lang=${l}`}`} className={l === mode.lang ? 'is-on' : ''}>
+                {LANG_LABEL[l] ?? l}
+              </a>
+            ) : null,
+          )}
+        </div>
         <div className="adm-bar__side">
           {msg ? <span className={msg.ok ? 'adm-ok' : 'adm-error'}>{msg.text}</span> : null}
           {dirty ? <span className="adm-dirty">Есть изменения</span> : null}
@@ -106,7 +131,7 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
 
       <div className="adm-editor__body">
         <nav className="adm-tabs">
-          {TABS.map((t) => (
+          {tabs.map((t) => (
             <button key={t.id} className={tab === t.id ? 'is-on' : ''} onClick={() => setTab(t.id)}>
               {t.label}
               {t.id === 'seo' ? <span className={`adm-score adm-score--sm${score >= 85 ? ' is-good' : score >= 60 ? ' is-mid' : ''}`}>{score}</span> : null}
@@ -115,11 +140,19 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
         </nav>
 
         <div className="adm-pane">
+          {translating ? (
+            <p className="adm-note">
+              Вы правите версию на языке «{LANG_LABEL[mode.lang] ?? mode.lang}». Меняются только тексты. Порядок блоков, фото, цвета и цены в цифрах — в основной версии ({LANG_LABEL[mode.baseLang]}).
+            </p>
+          ) : null}
+          {tab === 'help' && <HelpTab site={site} master={mode.master} publicUrl={publicUrl} go={(t: string) => setTab(t as Tab)} />}
+          {tab === 'bot' && <BotTab slug={initial.slug} bot={mode.bot} site={site} update={update} />}
+          {tab === 'access' && <AccessTab slug={initial.slug} master={mode.master} hasPassword={mode.hasPassword} />}
           {tab === 'sections' && <SectionsTab site={site} update={update} setSite={setSite} open={open} setOpen={setOpen} />}
           {tab === 'design' && <DesignTab site={site} update={update} templates={templates} fonts={fonts} />}
           {tab === 'seo' && <SeoTab site={site} update={update} checks={checks} publicUrl={publicUrl} />}
           {tab === 'business' && <BusinessTab site={site} update={update} />}
-          {tab === 'general' && <GeneralTab site={site} update={update} initialSlug={initial.slug} />}
+          {tab === 'general' && <GeneralTab site={site} update={update} initialSlug={initial.slug} master={mode.master && !translating} />}
           {tab === 'json' && <JsonTab site={site} setSite={setSite} />}
         </div>
 
@@ -135,7 +168,7 @@ export function Editor({ initial, templates, fonts, publicUrl }: { initial: Site
               </button>
             </div>
           </div>
-          <PreviewFrame src={`/${initial.slug}`} device={device} reloadKey={previewKey} />
+          <PreviewFrame src={`/${initial.slug}${translating ? `/${mode.lang}` : ''}`} device={device} reloadKey={previewKey} />
         </aside>
       </div>
     </div>
@@ -602,7 +635,7 @@ function BusinessTab({ site, update }: TabProps) {
   )
 }
 
-function GeneralTab({ site, update, initialSlug }: TabProps & { initialSlug: string }) {
+function GeneralTab({ site, update, initialSlug, master }: TabProps & { initialSlug: string; master: boolean }) {
   const [confirmText, setConfirmText] = useState('')
   return (
     <div>
@@ -613,11 +646,15 @@ function GeneralTab({ site, update, initialSlug }: TabProps & { initialSlug: str
         <Text label="Название" value={site.name} onChange={(v) => update(['name'], v)} />
         <Text label="Слоган" value={site.tagline} onChange={(v) => update(['tagline'], v)} />
         <Text label="Сфера" value={site.niche} onChange={(v) => update(['niche'], v)} />
+        {master ? (<>
         <Text label="Адрес в конструкторе" value={site.slug} onChange={(v) => update(['slug'], v.toLowerCase())} mono hint="Латиница, цифры и дефис. Смена адреса переносит сайт." />
         <Strings label="Свои домены (по строке)" value={site.domains} onChange={(v) => update(['domains'], v)} hint="Направьте домен на сервер конструктора — первый станет canonical." />
         <Text label="Язык (код)" value={site.lang} onChange={(v) => update(['lang'], v)} />
+        </>) : null}
         <FieldInput field={{ key: 'cta', label: 'Кнопка в шапке', kind: 'link' }} value={site.nav.cta} onChange={(v) => update(['nav', 'cta'], v)} />
+        <p className="adm-muted">Чтобы кнопка открывала форму заявки, впишите в её ссылку <code>#order</code> (форма заработает после подключения Telegram).</p>
       </div>
+      {master ? (<>
       <div className="adm-pane__head">
         <h2>Карточка в каталоге готовых сайтов</h2>
         <p className="adm-muted">Что видит покупатель: цена, описание и функционал. Пустой функционал собирается из блоков сайта.</p>
@@ -639,6 +676,7 @@ function GeneralTab({ site, update, initialSlug }: TabProps & { initialSlug: str
           </button>
         </form>
       </div>
+      </>) : null}
     </div>
   )
 }

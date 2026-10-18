@@ -156,3 +156,23 @@ html.menu-open { overflow: hidden; }
 .lang-switch a:hover { color: var(--fg); }
 .lang-switch a[aria-current] { background: var(--fg); color: var(--bg); }
 @media print { .lang-switch { display: none; } }
+
+/* Форма заявки (#order) — цвета и шрифты темы сайта */
+.lead { border: 0; padding: 0; width: min(440px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); background: var(--bg); color: var(--fg); font-family: var(--font-body); border-radius: 18px; box-shadow: 0 30px 80px rgb(0 0 0 / .35); }
+.lead::backdrop { background: rgb(0 0 0 / .55); backdrop-filter: blur(3px); }
+.lead[open] { animation: lead-in .35s cubic-bezier(.2, .8, .2, 1); }
+@keyframes lead-in { from { opacity: 0; transform: translateY(16px) scale(.98); } }
+.lead__form, .lead__done { display: grid; gap: 14px; padding: 28px 24px 24px; }
+.lead__title { font-family: var(--font-display); font-size: 28px; line-height: 1.1; margin: 0 0 4px; padding-right: 32px; }
+.lead label { display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+.lead input, .lead textarea { font: inherit; font-size: 16px; color: var(--fg); background: color-mix(in srgb, var(--fg) 5%, var(--bg)); border: 1px solid color-mix(in srgb, var(--fg) 18%, transparent); border-radius: 10px; padding: 12px 14px; width: 100%; box-sizing: border-box; }
+.lead input:focus, .lead textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.lead__row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.lead__btn { font: inherit; font-weight: 600; font-size: 16px; min-height: 52px; border: 0; border-radius: 999px; background: var(--accent); color: var(--bg); cursor: pointer; }
+.lead__btn:disabled { opacity: .6; }
+.lead__x { position: absolute; top: 12px; right: 14px; width: 40px; height: 40px; border: 0; background: none; color: var(--fg); font-size: 28px; cursor: pointer; }
+.lead__err { color: #d33; margin: 0; font-size: 14px; }
+.lead__alt { margin: 0; font-size: 14px; color: var(--muted); text-align: center; }
+.lead__alt a { color: var(--fg); }
+.lead__trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .lead[open] { animation: none; } }
