@@ -111,7 +111,7 @@
 
 /* отзывы-чеки */
 .kiosk-receipts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; margin-top: clamp(24px, 3vw, 40px); }
-.kiosk-receipt { margin: 0; padding: 22px 22px 40px; background: #fff; font-family: 'JetBrains Mono Variable', monospace; font-size: 14px; position: relative; -webkit-mask: conic-gradient(from 135deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 16px 51% repeat-x, linear-gradient(#000 0 0) top / 100% 50% no-repeat; mask: conic-gradient(from 135deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 16px 51% repeat-x, linear-gradient(#000 0 0) top / 100% 50% no-repeat; box-shadow: 0 10px 30px rgb(0 0 0 / .08); }
+.kiosk-receipt { margin: 0; padding: 22px 22px 40px; background: #fff; font-family: 'JetBrains Mono Variable', monospace; font-size: 14px; position: relative; -webkit-mask: conic-gradient(from 135deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 16px 10px repeat-x, linear-gradient(#000 0 0) top / 100% calc(100% - 9px) no-repeat; mask: conic-gradient(from 135deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / 16px 10px repeat-x, linear-gradient(#000 0 0) top / 100% calc(100% - 9px) no-repeat; box-shadow: 0 10px 30px rgb(0 0 0 / .08); }
 .kiosk-receipt__head { display: flex; justify-content: space-between; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px dashed var(--kiosk-ink); font-weight: 700; text-transform: uppercase; }
 .kiosk-receipt blockquote { margin: 0 0 14px; font-family: var(--font-body); font-size: 16px; line-height: 1.45; }
 .kiosk-receipt figcaption { font-weight: 700; }

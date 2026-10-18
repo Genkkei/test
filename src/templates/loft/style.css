@@ -48,7 +48,7 @@
 .loft-hero__inner { position: relative; width: min(100% - 2 * var(--pad), 1480px); margin-inline: auto; display: grid; grid-template-columns: 1.02fr 1fr; gap: clamp(28px, 4vw, 72px); align-items: center; }
 .loft-hero__inner > * { min-width: 0; }
 .loft-hero__text { display: grid; gap: 22px; justify-items: start; }
-.loft-hero__title { font-family: var(--font-display); text-transform: uppercase; font-weight: 700; font-size: clamp(52px, 8.2vw, 146px); line-height: .86; letter-spacing: -.01em; }
+.loft-hero__title { margin-bottom: .12em; font-family: var(--font-display); text-transform: uppercase; font-weight: 700; font-size: clamp(52px, 8.2vw, 146px); line-height: .9; letter-spacing: -.01em; }
 .loft-hero__sub { max-width: 48ch; color: color-mix(in srgb, var(--fg) 78%, transparent); font-size: 1.08em; }
 .loft-hero__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 .loft-hero__specs { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 6px 0 0; }
@@ -76,7 +76,7 @@
 }
 
 /* лента */
-.loft-tape { padding-block: 0; background: var(--accent); color: #fff; }
+.tpl-loft .loft-tape { padding-block: 0; background: var(--accent); color: #fff; }
 .loft-tape .marquee { padding-block: 16px; font-family: var(--font-display); text-transform: uppercase; font-size: clamp(22px, 3vw, 40px); letter-spacing: .06em; }
 .loft-tape .marquee__sep { opacity: .7; }
 

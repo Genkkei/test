@@ -1,0 +1,260 @@
+{
+  "name": "Obivka Master",
+  "tagline": "A second life for your favourite sofa",
+  "niche": "Reupholstery and furniture restoration",
+  "nav": {
+    "cta": {
+      "label": "Call a master",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a reupholstery workshop: services as pattern pieces, stages on a tape measure, figures on tags, prices and call-out requests sent to Telegram.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Obivka Master — furniture reupholstery in Tashkent",
+    "description": "Reupholstering sofas, armchairs and chairs, replacing foam and springs, restoring wooden parts. Free pickup and delivery, from 5 days, 1-year warranty.",
+    "keywords": [
+      "sofa reupholstery Tashkent",
+      "furniture reupholstery",
+      "furniture restoration",
+      "foam replacement",
+      "chair reupholstery"
+    ],
+    "answer": "Obivka Master is a reupholstery and restoration workshop in Tashkent (60 Katartal St), Mon–Sat 09:00–18:00. Sofa reupholstery from 1,600,000 UZS, armchair from 750,000 UZS, chair from 180,000 UZS including fabric. Free pickup and delivery, 5–10 days, 1-year warranty."
+  },
+  "business": {
+    "legalName": "Obivka Master (sole trader)",
+    "street": "60 Katartal St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and suburbs",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Don’t throw it out — we’ll reupholster it",
+      "eyebrow": "Reupholstery workshop · 60 Katartal",
+      "subtitle": "New fabric, fresh foam and strong springs in the old reliable frame. We pick it up ourselves and bring it back in 5–10 days.",
+      "words": [
+        "sofa",
+        "armchair",
+        "chairs"
+      ],
+      "cta": {
+        "label": "Call a master",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we do",
+      "intro": "",
+      "items": [
+        {
+          "title": "Sofa reupholstery",
+          "text": "New fabric, foam and wadding; we check and reinforce the frame.",
+          "price": "from 1,600,000 UZS",
+          "tag": "7–10 days"
+        },
+        {
+          "title": "Armchair reupholstery",
+          "text": "Including button tufting and decorative nails.",
+          "price": "from 750,000 UZS",
+          "tag": "5–7 days"
+        },
+        {
+          "title": "Chairs as a set",
+          "text": "Seats and backs; six chairs in a week.",
+          "price": "from 180,000 UZS / pc",
+          "tag": "5 days"
+        },
+        {
+          "title": "Wood restoration",
+          "text": "Sanding, toning and lacquering arms and legs.",
+          "price": "from 400,000 UZS",
+          "tag": "3–5 days"
+        },
+        {
+          "title": "Springs and mechanism replacement",
+          "text": "Spring units, fold-out mechanisms, supports.",
+          "price": "from 600,000 UZS",
+          "tag": "2–4 days"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A beech frame outlives three upholsteries",
+      "text": "Old Soviet and Turkish sofas are often sturdier than new ones: solid wood instead of chipboard. We strip the upholstery to the frame, replace everything soft and sew a new cover from a pattern. Over 300 fabric samples: velour, matting, jacquard and scratch-resistant cloth for homes with cats. The master brings samples to your home and quotes on the spot.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "From call to finished sofa",
+      "items": [
+        {
+          "title": "Master’s visit",
+          "text": "Free, with fabric samples; price on the spot."
+        },
+        {
+          "title": "Pickup",
+          "text": "Movers collect the furniture on a day that suits you."
+        },
+        {
+          "title": "Workshop",
+          "text": "Stripping, frame repair, new foam, sewing."
+        },
+        {
+          "title": "Delivery",
+          "text": "We deliver and place it; you pay after inspection."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "Prices including fabric",
+      "items": [
+        {
+          "name": "Chair",
+          "price": "180,000 UZS",
+          "period": "each",
+          "features": [
+            "Seat and back",
+            "Velour fabric",
+            "Ready in 5 days"
+          ],
+          "featured": false
+        },
+        {
+          "name": "3-seat sofa",
+          "price": "1,600,000 UZS",
+          "period": "turnkey",
+          "features": [
+            "New foam",
+            "Fabric from 300 samples",
+            "Pickup and delivery",
+            "1-year warranty"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Corner sofa",
+          "price": "2,400,000 UZS",
+          "period": "turnkey",
+          "features": [
+            "Mechanism replacement",
+            "Scratch-resistant",
+            "Pickup and delivery"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Numbers",
+      "title": "The workshop in numbers",
+      "items": [
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "fabric samples"
+        },
+        {
+          "value": "2400",
+          "suffix": "",
+          "label": "sofas reupholstered"
+        },
+        {
+          "value": "5",
+          "suffix": " days",
+          "label": "shortest lead time"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Receipts from happy clients",
+      "items": [
+        {
+          "quote": "Grandma’s sofa from the eighties now looks better than a shop one and sits just like before.",
+          "author": "Nargiza",
+          "role": "Chilanzar"
+        },
+        {
+          "quote": "Six chairs in a week, and the cat no longer shreds the upholstery.",
+          "author": "Rustam",
+          "role": "Almazar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the master’s visit paid?",
+          "a": "No, it is free across Tashkent even if you don’t order."
+        },
+        {
+          "q": "Can I bring my own fabric?",
+          "a": "Yes, we price the labour separately — 25% less than the price with fabric."
+        },
+        {
+          "q": "How much without replacing the foam?",
+          "a": "About 20% cheaper, but we recommend replacing foam older than 10 years."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "1 year on seams, foam and mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Call a master with samples",
+      "text": "Workshop: 60 Katartal St. Mon–Sat 09:00–18:00.",
+      "cta": {
+        "label": "Call a master",
+        "href": "#order"
+      }
+    }
+  ]
+}

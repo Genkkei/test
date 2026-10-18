@@ -120,7 +120,6 @@
 .rivet-gantt__weeks::before { content: ''; }
 .rivet-gantt__weeks span { padding: 10px 12px; border-left: 1px solid var(--line); }
 .rivet-gantt ol { list-style: none; padding: 0; margin: 0; }
-.rivet-gantt li { display: grid; grid-template-columns: minmax(220px, 1.2fr) calc((100% - minmax(220px, 1.2fr)) * 1); border-bottom: 1px solid var(--line); }
 .rivet-gantt li { grid-template-columns: minmax(220px, 1.2fr) 1fr; }
 .rivet-gantt li:last-child { border-bottom: 0; }
 .rivet-gantt__label { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; padding: 16px; border-right: 1px solid var(--line); }

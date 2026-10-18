@@ -76,12 +76,16 @@
 .velvet-coll__media { margin: 0; aspect-ratio: 16 / 10; position: relative; overflow: hidden; }
 .velvet-coll__media .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 1.6s var(--ease); }
 .velvet-coll__item:hover .velvet-coll__media .media { transform: scale(1.05); }
-.velvet-coll__item:nth-child(even) .velvet-coll__media { order: -1; grid-column: 2; }
-.velvet-coll__item:nth-child(even) .velvet-coll__cap { grid-column: 3; grid-row: 1; }
+.velvet-coll__item:nth-child(even) > * { grid-row: 1; }
+.velvet-coll__item:nth-child(even) .velvet-coll__no { grid-column: 1; }
+.velvet-coll__item:nth-child(even) .velvet-coll__media { grid-column: 2; }
+.velvet-coll__item:nth-child(even) .velvet-coll__cap { grid-column: 3; }
 @media (max-width: 860px) {
   .velvet-coll__item, .velvet-coll__item:nth-child(even) { grid-template-columns: 52px minmax(0, 1fr); }
-  .velvet-coll__media, .velvet-coll__item:nth-child(even) .velvet-coll__media { grid-column: 1 / -1; order: 2; }
-  .velvet-coll__item:nth-child(even) .velvet-coll__cap { grid-column: 2; }
+  .velvet-coll__item > *, .velvet-coll__item:nth-child(even) > * { grid-row: auto; }
+  .velvet-coll__no, .velvet-coll__item:nth-child(even) .velvet-coll__no { grid-column: 1; grid-row: 1; }
+  .velvet-coll__cap, .velvet-coll__item:nth-child(even) .velvet-coll__cap { grid-column: 2; grid-row: 1; }
+  .velvet-coll__media, .velvet-coll__item:nth-child(even) .velvet-coll__media { grid-column: 1 / -1; grid-row: 2; }
 }
 
 /* модели и цены */

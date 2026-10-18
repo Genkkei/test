@@ -1,0 +1,346 @@
+{
+  "name": "Karkas",
+  "tagline": "Canopies, hangars and frames — engineered, not eyeballed",
+  "niche": "Turnkey steel structures: canopies, hangars, warehouses and building frames",
+  "nav": {
+    "cta": {
+      "label": "Book an engineer",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a steel-structure, canopy or hangar builder. The truss on the first screen draws itself bar by bar with dimensions, a canopy calculator prices by area, stages appear as a Gantt chart and projects as drawing sheets.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurement",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Karkas — canopies and steel structures in Tashkent",
+    "description": "Turnkey car and terrace canopies, hangars, warehouses and building frames: load calculations, KM drawings, fabrication and erection. Online cost calculator.",
+    "keywords": [
+      "canopies Tashkent",
+      "steel structures",
+      "turnkey hangar",
+      "polycarbonate canopy",
+      "steel warehouse"
+    ],
+    "answer": "Karkas is an engineering company at 31 Fargona Yuli Street, Tashkent, that designs, fabricates and erects canopies, hangars and building frames. A tube canopy with polycarbonate starts at 450,000 sum per m², with metal sheeting at 520,000 sum and a hangar at 900,000 sum per m². The site visit and calculation are free and structures carry a 10-year guarantee."
+  },
+  "business": {
+    "legalName": "Karkas Engineering LLC",
+    "street": "31 Fargona Yuli St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and the regions of Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Canopies and frames, engineered",
+      "eyebrow": "Design · fabrication · erection",
+      "subtitle": "We account for snow, wind and soil before cutting any steel. Our own 1,200 m² shop, erection crews and a 10-year structural guarantee.",
+      "cta": {
+        "label": "Book an engineer",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Calculator",
+        "href": "#calc"
+      },
+      "image": "",
+      "words": [
+        "spans up to 36 m",
+        "snow load 80 kg/m²",
+        "S345 steel",
+        "KM / KMD drawings"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "carports",
+        "terraces",
+        "hangars",
+        "warehouses",
+        "car washes",
+        "building frames"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Structures",
+      "title": "What we build",
+      "intro": "Prices are turnkey guides including erection in Tashkent; the engineer gives an exact estimate after a visit.",
+      "items": [
+        {
+          "title": "Carport",
+          "text": "For 1–4 cars, mono-pitch or arched, polycarbonate or metal sheet.",
+          "price": "from 450,000 sum / m²",
+          "tag": "7–10 days"
+        },
+        {
+          "title": "Terrace canopy",
+          "text": "A light frame with polycarbonate or glass, louvres optional.",
+          "price": "from 520,000 sum / m²",
+          "tag": "10–14 days"
+        },
+        {
+          "title": "Hangar",
+          "text": "For machinery, produce and workshops, spans up to 36 m.",
+          "price": "from 900,000 sum / m²",
+          "tag": "4–6 weeks"
+        },
+        {
+          "title": "Insulated warehouse",
+          "text": "Sandwich panels, doors and an overhead crane to spec.",
+          "price": "from 1,400,000 sum / m²",
+          "tag": "6–10 weeks"
+        },
+        {
+          "title": "Car wash and fuel station",
+          "text": "Frames for equipment, drainage and lighting.",
+          "price": "from 700,000 sum / m²",
+          "tag": "3–5 weeks"
+        },
+        {
+          "title": "Building frame",
+          "text": "Shops, cafés and offices: columns, beams and floors to design.",
+          "price": "by design",
+          "tag": "from 6 weeks"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Calculator",
+      "title": "What a canopy costs",
+      "intro": "",
+      "items": [
+        {
+          "name": "Polycarbonate",
+          "price": "450 000",
+          "period": "sum / m²",
+          "features": [
+            "80×80 box section",
+            "8 mm polycarbonate",
+            "powder coating"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Metal sheeting",
+          "price": "520 000",
+          "period": "sum / m²",
+          "features": [
+            "box-section truss",
+            "C21 profiled sheet",
+            "gutters"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Glass",
+          "price": "1 100 000",
+          "period": "sum / m²",
+          "features": [
+            "10 mm laminated glass",
+            "concealed drainage",
+            "stainless fixings"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Hangar",
+          "price": "900 000",
+          "period": "sum / m²",
+          "features": [
+            "spans up to 36 m",
+            "foundations and doors",
+            "KM drawings"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Completed projects",
+      "intro": "",
+      "items": [
+        {
+          "title": "Mall car-park canopy",
+          "category": "Canopy",
+          "year": "2025",
+          "text": "1,800 m², 120 spaces, metal sheeting.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Machinery hangar in Chirchik",
+          "category": "Hangar",
+          "year": "2025",
+          "text": "24 m span, 6×5 m doors.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restaurant terrace",
+          "category": "Terrace",
+          "year": "2024",
+          "text": "Glass and louvres, 140 m².",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Cold store",
+          "category": "Warehouse",
+          "year": "2024",
+          "text": "2,400 m², 150 mm panels, 5 t crane.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "310",
+          "suffix": "+",
+          "label": "projects handed over"
+        },
+        {
+          "value": "36",
+          "suffix": " m",
+          "label": "maximum span"
+        },
+        {
+          "value": "10",
+          "suffix": " yrs",
+          "label": "structural guarantee"
+        },
+        {
+          "value": "1200",
+          "suffix": " m²",
+          "label": "own workshop"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Timeline",
+      "title": "Work schedule",
+      "items": [
+        {
+          "title": "Site visit",
+          "text": "The engineer checks the site and soil."
+        },
+        {
+          "title": "Design",
+          "text": "Loads, KM drawings, estimate."
+        },
+        {
+          "title": "Fabrication",
+          "text": "Cutting, welding and painting in the shop."
+        },
+        {
+          "title": "Foundations",
+          "text": "Piles or pad footings for the columns."
+        },
+        {
+          "title": "Erection and handover",
+          "text": "Assembly, roofing, sign-off and guarantee."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Client feedback",
+      "items": [
+        {
+          "quote": "The engineer told us right away that our sketch would not carry the snow and recalculated the truss. The price went up 8%, but we sleep easy.",
+          "author": "Rustam",
+          "role": "logistics company"
+        },
+        {
+          "quote": "A six-car canopy went up in a week with no dust in the yard; everything was welded in the shop.",
+          "author": "Gulnora",
+          "role": "residents’ association, Mirzo Ulugbek"
+        },
+        {
+          "quote": "They built the hangar to drawings that later passed the state review without comments.",
+          "author": "Farrukh",
+          "role": "agricultural group"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "How much is a carport?",
+          "a": "A tube canopy with polycarbonate starts at 450,000 sum per m² turnkey; one car needs about 18 m², so from 8,100,000 sum. The engineer gives the exact price after a visit."
+        },
+        {
+          "q": "Why calculate a simple canopy?",
+          "a": "Snow and wind loads in Tashkent can be higher than they look: without a calculation a truss is either overbuilt or it sags. We do the calculation for free."
+        },
+        {
+          "q": "Do I need a building permit?",
+          "a": "Usually not for a canopy in a private yard. For hangars and warehouses we prepare KM drawings and help with the approval paperwork."
+        },
+        {
+          "q": "Do you work outside Tashkent?",
+          "a": "Yes, across Uzbekistan. Structures ship from the plant and crews work on rotation; an engineer’s regional visit is 300,000 sum, deducted from the contract."
+        },
+        {
+          "q": "What is the guarantee?",
+          "a": "Ten years on load-bearing structures and three years on paint and roofing, written into the contract."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Free engineer visit",
+      "text": "Leave a request and an engineer will call, clarify the brief and visit the site on a day that suits you.",
+      "cta": {
+        "label": "Book an engineer",
+        "href": "#order"
+      }
+    }
+  ]
+}

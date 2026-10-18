@@ -1,0 +1,346 @@
+{
+  "name": "Karkas",
+  "tagline": "Ayvon, angar va karkaslar — chamalab emas, hisob bilan",
+  "niche": "Kalit topshiriladigan metall konstruksiyalar: ayvonlar, angarlar, omborlar, bino karkaslari",
+  "nav": {
+    "cta": {
+      "label": "Muhandisni chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall konstruksiya, ayvon va angar ishlab chiqaruvchisi uchun sayt. Birinchi ekrandagi ferma o‘lchamlari bilan chiziladi, ayvon kalkulyatori narxni maydon bo‘yicha hisoblaydi, bosqichlar — Gant diagrammasi, ishlar — chizma varaqlari.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Karkas — Toshkentda ayvon va metall konstruksiyalar",
+    "description": "Avtomobil va terassa uchun ayvonlar, angarlar, omborlar va bino karkaslari kalit topshirish bilan: yuk hisobi, KM loyiha, tayyorlash va montaj. Onlayn narx kalkulyatori.",
+    "keywords": [
+      "ayvon Toshkent",
+      "metall konstruksiyalar",
+      "kalit topshiriladigan angar",
+      "polikarbonat ayvon",
+      "metall konstruksiyali ombor"
+    ],
+    "answer": "Karkas — Toshkentdagi Farg‘ona yo‘li, 31 da joylashgan muhandislik kompaniyasi: ayvon, angar va bino karkaslarini loyihalaydi, tayyorlaydi va o‘rnatadi. Polikarbonatli profil quvur ayvon — m² uchun 450 000 so‘mdan, profnastilli — 520 000 so‘mdan, angar — m² uchun 900 000 so‘mdan. Muhandis chaqiruvi va hisob bepul, konstruksiyalarga 10 yil kafolat."
+  },
+  "business": {
+    "legalName": "«Karkas Engineering» MChJ",
+    "street": "Farg‘ona yo‘li, 31",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va O‘zbekiston viloyatlari",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Hisob-kitobli ayvon va karkaslar",
+      "eyebrow": "Loyiha · ishlab chiqarish · montaj",
+      "subtitle": "Metallni kesishdan oldin qor, shamol va gruntni hisoblaymiz. 1 200 m² o‘z sexi, montajchilar brigadalari va konstruksiyalarga 10 yil kafolat.",
+      "cta": {
+        "label": "Muhandisni chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Kalkulyator",
+        "href": "#calc"
+      },
+      "image": "",
+      "words": [
+        "oraliq 36 m gacha",
+        "qor 80 kg/m²",
+        "C345 po‘lat",
+        "KM / KMD loyiha"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "avtomobil ayvonlari",
+        "terassalar",
+        "angarlar",
+        "omborlar",
+        "avtoyuvish shoxobchalari",
+        "bino karkaslari"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Konstruksiyalar",
+      "title": "Nima quramiz",
+      "intro": "Narxlar — Toshkentda montaj bilan kalit topshirish uchun taxminiy; aniq smetani muhandis joyga borgandan keyin beradi.",
+      "items": [
+        {
+          "title": "Avtomobil ayvoni",
+          "text": "1–4 mashina uchun, bir qiyalikli yoki arkali, polikarbonat yoki profnastil.",
+          "price": "450 000 so‘mdan / m²",
+          "tag": "7–10 kun"
+        },
+        {
+          "title": "Terassa ayvoni",
+          "text": "Polikarbonat yoki shishali yengil karkas, lamellar bilan ham bo‘ladi.",
+          "price": "520 000 so‘mdan / m²",
+          "tag": "10–14 kun"
+        },
+        {
+          "title": "Angar",
+          "text": "Texnika, qishloq xo‘jaligi mahsulotlari va ustaxonalar uchun, oraliq 36 m gacha.",
+          "price": "900 000 so‘mdan / m²",
+          "tag": "4–6 hafta"
+        },
+        {
+          "title": "Isitilgan ombor",
+          "text": "Sendvich panellar, darvozalar, topshiriq bo‘yicha kran-balka.",
+          "price": "1 400 000 so‘mdan / m²",
+          "tag": "6–10 hafta"
+        },
+        {
+          "title": "Avtoyuvish va YoQSh",
+          "text": "Uskunalar uchun karkas, suv chiqarish va yoritish.",
+          "price": "700 000 so‘mdan / m²",
+          "tag": "3–5 hafta"
+        },
+        {
+          "title": "Bino karkasi",
+          "text": "Do‘kon, kafe va ofislar: loyiha bo‘yicha ustunlar, to‘sinlar, oraliq yopmalar.",
+          "price": "loyiha bo‘yicha",
+          "tag": "6 haftadan"
+        }
+      ]
+    },
+    {
+      "id": "calc",
+      "type": "pricing",
+      "label": "Kalkulyator",
+      "title": "Ayvon qancha turadi",
+      "intro": "",
+      "items": [
+        {
+          "name": "Polikarbonat",
+          "price": "450 000",
+          "period": "so‘m / m²",
+          "features": [
+            "profil quvur 80×80",
+            "8 mm polikarbonat",
+            "kukunli bo‘yoq"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Profnastil",
+          "price": "520 000",
+          "period": "so‘m / m²",
+          "features": [
+            "profil quvurdan ferma",
+            "C21 profnastil",
+            "suv oqizgich"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Shisha",
+          "price": "1 100 000",
+          "period": "so‘m / m²",
+          "features": [
+            "10 mm tripleks",
+            "yashirin suv chiqarish",
+            "zanglamas mahkamlagichlar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Angar",
+          "price": "900 000",
+          "period": "so‘m / m²",
+          "features": [
+            "oraliq 36 m gacha",
+            "poydevor va darvoza",
+            "KM loyiha"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Obyektlar",
+      "title": "Topshirilgan obyektlar",
+      "intro": "",
+      "items": [
+        {
+          "title": "Savdo markazi avtoturargoh ayvoni",
+          "category": "Ayvon",
+          "year": "2025",
+          "text": "1 800 m², 120 mashina o‘rni, profnastil.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Chirchiqdagi texnika angari",
+          "category": "Angar",
+          "year": "2025",
+          "text": "Oraliq 24 m, darvoza 6×5 m.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Restoran terassasi",
+          "category": "Terassa",
+          "year": "2024",
+          "text": "Shisha va lamellar, 140 m².",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Muzlatkichli ombor",
+          "category": "Ombor",
+          "year": "2024",
+          "text": "2 400 m², sendvich 150 mm, kran-balka 5 t.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "310",
+          "suffix": "+",
+          "label": "topshirilgan obyekt"
+        },
+        {
+          "value": "36",
+          "suffix": " m",
+          "label": "maksimal oraliq"
+        },
+        {
+          "value": "10",
+          "suffix": " yil",
+          "label": "konstruksiyalarga kafolat"
+        },
+        {
+          "value": "1200",
+          "suffix": " m²",
+          "label": "o‘z sexi"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Muddatlar",
+      "title": "Ish jadvali",
+      "items": [
+        {
+          "title": "Joyga chiqish va o‘lchov",
+          "text": "Muhandis maydon va gruntni ko‘radi."
+        },
+        {
+          "title": "Hisob va loyiha",
+          "text": "Yuklar, KM chizmalari, smeta."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "Sexda kesish, payvandlash, bo‘yash."
+        },
+        {
+          "title": "Poydevor",
+          "text": "Ustunlar uchun qoziq yoki ustunsimon."
+        },
+        {
+          "title": "Montaj va topshirish",
+          "text": "Yig‘ish, tom, dalolatnoma va kafolat."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar fikri",
+      "items": [
+        {
+          "quote": "Muhandis eskizimiz qorga chidamasligini darhol aytdi va fermani qayta hisobladi. Narx 8% oshdi, lekin xotirjammiz.",
+          "author": "Rustam",
+          "role": "logistika kompaniyasi"
+        },
+        {
+          "quote": "6 mashinalik ayvonni bir haftada o‘rnatishdi, hovlida chang bo‘lmadi: hammasini sexda payvandlashdi.",
+          "author": "Gulnora",
+          "role": "XUJMSH, Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Angarni ekspertiza izohsiz qabul qilgan chizmalar bo‘yicha qurishdi.",
+          "author": "Farrux",
+          "role": "agroxolding"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Avtomobil ayvoni qancha turadi?",
+          "a": "Polikarbonatli profil quvur ayvon — kalit topshirish bilan m² uchun 450 000 so‘mdan; bitta mashina uchun bu taxminan 18 m², ya’ni 8 100 000 so‘mdan. Aniq narxni muhandis joyga borgandan keyin aytadi."
+        },
+        {
+          "q": "Ayvon oddiy bo‘lsa, hisob nima uchun?",
+          "a": "Toshkentda qor va shamol yuki ko‘ringandan yuqori bo‘ladi: hisobsiz ferma ortiqcha metall bilan og‘irlashadi yoki egiladi. Hisobni bepul qilamiz."
+        },
+        {
+          "q": "Qurilish ruxsatnomasi kerakmi?",
+          "a": "Xususiy uy hovlisidagi ayvon uchun — odatda yo‘q. Angar va omborlar uchun KM loyihasini tayyorlaymiz va kelishuv hujjatlarida yordam beramiz."
+        },
+        {
+          "q": "Viloyatlarda ishlaysizmi?",
+          "a": "Ha, butun O‘zbekiston bo‘ylab. Konstruksiyalarni zavoddan olib boramiz, brigada vaxta usulida ishlaydi; muhandisning viloyatga chiqishi — 300 000 so‘m, shartnomadan chegiriladi."
+        },
+        {
+          "q": "Qanday kafolat?",
+          "a": "Yuk ko‘taruvchi konstruksiyalarga 10 yil, bo‘yoq va tomga 3 yil — shartnomada yoziladi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Muhandis chaqiruvi bepul",
+      "text": "Ariza qoldiring — muhandis qo‘ng‘iroq qilib, vazifani aniqlaydi va qulay kuni joyga keladi.",
+      "cta": {
+        "label": "Muhandisni chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}

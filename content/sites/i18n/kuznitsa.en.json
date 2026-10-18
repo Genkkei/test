@@ -1,0 +1,289 @@
+{
+  "name": "Kuznitsa №1",
+  "tagline": "Canopies, stairs and frames for private homes — calculated, not guessed",
+  "niche": "Blacksmith workshop: steel structures, stairs and canopies",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a steelwork shop or a maker of canopies, stairs and frames. An industrial poster in black and safety yellow: words slide in as steel beams, the catalogue is a spec sheet with lead times and prices, and the steps are joined by a weld seam.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a measurer",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Kuznitsa №1 — canopies, stairs and steelwork in Tashkent",
+    "description": "A blacksmith workshop in Sergeli: car and terrace canopies, steel-frame stairs, porch canopies, gazebo and attic frames. Load calculations, in-house painting and installation by our own crew.",
+    "keywords": [
+      "carport Tashkent",
+      "steel structures Tashkent",
+      "steel-frame staircase",
+      "porch canopy",
+      "gazebo frame",
+      "blacksmith workshop"
+    ],
+    "answer": "Kuznitsa №1 is a blacksmith workshop in Sergeli (12 Yangi Sergeli St.), open Mon–Sat 8:00–18:00. A polycarbonate canopy starts at 650,000 UZS per m², a porch canopy at 2,400,000 UZS and a steel-frame staircase at 14,000,000 UZS. We calculate snow and wind loads before building; lead time is from 10 working days with a 5-year warranty on the structure."
+  },
+  "business": {
+    "legalName": "Kuznitsa Nomer Odin LLC",
+    "street": "12 Yangi Sergeli St., Sergeli district (industrial zone)",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kuznitsa №1",
+      "eyebrow": "Blacksmith workshop · Sergeli · since 2012",
+      "subtitle": "We weld and install canopies, stairs and frames for private homes. We calculate the load before we cut any metal, and we stand behind the structure for five years.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Specs & prices",
+        "href": "#spec"
+      },
+      "image": "",
+      "words": [
+        "Canopies",
+        "Stairs",
+        "Porch roofs",
+        "Frames"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Load calculation",
+        "Box-section steel",
+        "Gas-shielded welding",
+        "Primer & powder coat",
+        "Our own crew",
+        "5-year warranty"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "Calculation first, welding second",
+      "text": "Our Sergeli workshop is 900 m² with plasma cutting, a bending machine and a paint booth. We don’t sell “a canopy in three days from whatever is in stock”: for every job an engineer calculates snow and wind loads and chooses the tube section. That is why our canopies don’t sag after winter and our stairs don’t hum underfoot.",
+      "image": ""
+    },
+    {
+      "id": "spec",
+      "type": "services",
+      "label": "Specification",
+      "title": "What we build and what it costs",
+      "intro": "Prices are a guide for a typical size including painting and installation. We send a quote with load calculations within a day of measuring.",
+      "items": [
+        {
+          "title": "Carport",
+          "text": "80×80 box section, 8 mm polycarbonate or metal roofing.",
+          "price": "from 650,000 UZS/m²",
+          "tag": "from 10 days"
+        },
+        {
+          "title": "Terrace canopy",
+          "text": "Arched or mono-pitch, with gutters and lighting.",
+          "price": "from 720,000 UZS/m²",
+          "tag": "from 12 days"
+        },
+        {
+          "title": "Porch canopy",
+          "text": "Forged brackets with laminated glass or polycarbonate.",
+          "price": "from 2,400,000 UZS",
+          "tag": "from 7 days"
+        },
+        {
+          "title": "Steel-frame staircase",
+          "text": "Stringer or mono-stringer, oak or concrete treads, railings.",
+          "price": "from 14,000,000 UZS",
+          "tag": "from 3 weeks"
+        },
+        {
+          "title": "Gazebo frame",
+          "text": "A steel frame for the roof and grill area, with a foundation to spec.",
+          "price": "from 9,800,000 UZS",
+          "tag": "from 2 weeks"
+        },
+        {
+          "title": "Mezzanine & attic frame",
+          "text": "Beams, columns and decking rated from 300 kg/m².",
+          "price": "from 1,100,000 UZS/m²",
+          "tag": "from 3 weeks"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "The workshop in numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "900",
+          "suffix": " m²",
+          "label": "workshop floor"
+        },
+        {
+          "value": "2100",
+          "suffix": "+",
+          "label": "jobs handed over"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "welders and fitters"
+        },
+        {
+          "value": "5",
+          "suffix": " years",
+          "label": "structural warranty"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Projects",
+      "title": "Delivered this season",
+      "items": [
+        {
+          "title": "Three-car carport",
+          "category": "Private house, Kibray",
+          "year": "2026",
+          "text": "54 m², metal roofing, gutters into the storm drain, installed in 2 days.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mono-stringer staircase",
+          "category": "Townhouse, Yunusabad",
+          "year": "2026",
+          "text": "Oak treads and a glass balustrade, with no vibration at all.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Gazebo frame with a grill",
+          "category": "Dacha, Bostanlyk",
+          "year": "2025",
+          "text": "6×4 m with a tiled roof and a separate kazan area.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Steps",
+      "title": "From measuring to installation",
+      "items": [
+        {
+          "title": "Measuring",
+          "text": "An engineer visits the site, takes dimensions and checks the base."
+        },
+        {
+          "title": "Sketch & calculation",
+          "text": "A drawing, load calculation and quote within one working day."
+        },
+        {
+          "title": "Cutting & welding",
+          "text": "Plasma cutting and gas-shielded welding — clean seams without scale."
+        },
+        {
+          "title": "Painting",
+          "text": "Sandblasting, zinc primer and powder coat in our own booth."
+        },
+        {
+          "title": "Installation",
+          "text": "Our crew installs the structure and hands it over with a signed 5-year warranty."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Feedback",
+      "items": [
+        {
+          "quote": "They sent a calculation with tube sections — the first time I’ve seen a canopy calculated rather than built “the usual way”.",
+          "author": "Ulugbek",
+          "role": "Kibray"
+        },
+        {
+          "quote": "The staircase has stood for a year without a creak or a hum. The fitters cleaned up down to the last shaving.",
+          "author": "Madina",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "They finished the gazebo by the start of the season, exactly as the contract said.",
+          "author": "Aziz",
+          "role": "Bostanlyk"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How much is a carport?",
+          "a": "From 650,000 UZS per m² including painting and installation. A single-car carport (about 18 m²) usually starts at 11,700,000 UZS; we give the exact price after the load calculation."
+        },
+        {
+          "q": "Why calculate the load?",
+          "a": "So the canopy carries snow and wind without sagging, and you don’t overpay for extra steel. The calculation is included in the price."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "A porch canopy takes from 7 days, a carport from 10 working days, stairs and mezzanines from 3 weeks. The deadline is fixed in the contract."
+        },
+        {
+          "q": "Do you work outside the city?",
+          "a": "Yes, across the whole Tashkent region. Travel outside the city is priced separately and shown in the quote in advance."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Visit the workshop",
+      "text": "We’ll show you finished structures and how we weld. Or leave a request and an engineer will come to measure and send you a calculation.",
+      "cta": {
+        "label": "Get a quote",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -35,12 +35,12 @@
 @media (max-width: 520px) { .sofa-header .sofa-btn--sm { display: none; } .sofa-header { top: 8px; padding-left: 16px; } }
 
 /* первый экран */
-.sofa-hero { padding: 120px var(--pad) 70px; display: grid; justify-items: center; text-align: center; gap: clamp(18px, 2.4vw, 30px); overflow: hidden; }
+.sofa-hero { padding: 104px var(--pad) 70px; display: grid; justify-items: center; text-align: center; gap: clamp(18px, 2.4vw, 30px); overflow: hidden; }
 .sofa-hero > * { min-width: 0; max-width: 100%; }
 .sofa-hero__head { display: grid; justify-items: center; gap: 18px; }
 .sofa-sticker { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 99px; background: var(--fg); color: var(--bg); font-weight: 700; font-size: 14px; transform: rotate(-2deg); }
 .sofa-sticker::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #7ee2a8; box-shadow: 0 0 0 4px rgb(126 226 168 / .25); }
-.sofa-hero__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(42px, 8vw, 132px); line-height: .94; letter-spacing: -.05em; max-width: 14ch; text-wrap: balance; }
+.sofa-hero__title { font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 6.4vw, 108px); line-height: .94; letter-spacing: -.05em; max-width: 14ch; text-wrap: balance; }
 .sofa-hero__sub { max-width: 52ch; color: var(--muted); font-size: 1.1em; }
 .sofa-hero__conf { width: min(100%, 980px); }
 .sofa-hero__foot { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
@@ -50,7 +50,7 @@
 .sofa-conf { display: grid; gap: 18px; justify-items: center; }
 .sofa-conf__stage { position: relative; width: 100%; display: grid; place-items: center; }
 .sofa-conf__halo { position: absolute; inset: 8% 10% 0; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--sofa-fabric) 28%, transparent), transparent); transition: background .6s ease; filter: blur(10px); }
-.sofa-conf__couch { position: relative; width: min(100%, 860px); height: auto; animation: sofaPlop 1.2s cubic-bezier(.2, 1.4, .4, 1) .4s both; }
+.sofa-conf__couch { position: relative; width: min(100%, 760px); height: auto; animation: sofaPlop 1.2s cubic-bezier(.2, 1.4, .4, 1) .4s both; }
 .sofa-couch rect, .sofa-couch path { transition: fill .55s ease; }
 .sofa-legs rect { fill: color-mix(in srgb, var(--fg) 80%, #6b4a2e); }
 @keyframes sofaPlop { from { transform: translateY(-40px) scale(.94); opacity: 0; } 70% { transform: translateY(4px) scale(1.01, .985); opacity: 1; } }

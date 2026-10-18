@@ -151,3 +151,10 @@
 .tpl-oak .s-contact__facts { font-style: normal; }
 .tpl-oak .s-contact__facts > * { display: grid; gap: 4px; }
 .tpl-oak .s-contact__facts small { font-size: 12px; opacity: .65; letter-spacing: .04em; }
+@media (max-width: 600px) {
+  .oak-grid { grid-template-columns: 1fr 1fr; gap: 18px 12px; }
+  .oak-card__info { flex-direction: column; gap: 2px; }
+  .oak-card__info h3 { font-size: 16px; }
+  .oak-card__text { display: none; }
+  .oak-card__tag { left: 8px; top: 8px; font-size: 11px; padding: 3px 9px; }
+}

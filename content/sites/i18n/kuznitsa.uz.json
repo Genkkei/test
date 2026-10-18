@@ -1,0 +1,289 @@
+{
+  "name": "Kuznitsa №1",
+  "tagline": "Xususiy uy uchun ayvonlar, zinalar va karkaslar — taxminan emas, hisob bo‘yicha",
+  "niche": "Temirchilik sexi: metall konstruksiyalar, zinalar va ayvonlar",
+  "nav": {
+    "cta": {
+      "label": "Hisob-kitob buyurtma qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Metall konstruksiyalar sexi, soyabon, zina va karkas ishlab chiqaruvchisi uchun sayt. Qora va signal-sariq rangdagi sanoat afishasi: so‘zlar to‘sinlar bo‘lib kirib keladi, katalog — muddat va narxli spetsifikatsiya, bosqichlar payvand chok bilan bog‘langan.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Kuznitsa №1 — ayvonlar, zinalar va metall konstruksiyalar, Toshkent",
+    "description": "Sergelidagi temirchilik sexi: mashina va ayvon uchun soyabonlar, metall karkasli zinalar, kozirkalar, shiyponlar va mansardalar karkaslari. Yuk hisobi, o‘z bo‘yoqxonamiz, sex brigadasi o‘rnatadi.",
+    "keywords": [
+      "mashina uchun soyabon Toshkent",
+      "metall konstruksiyalar Toshkent",
+      "metall karkasli zina",
+      "kirish kozirkasi",
+      "shiypon karkasi",
+      "temirchilik sexi"
+    ],
+    "answer": "Kuznitsa №1 — Sergelidagi temirchilik sexi (Yangi Sergeli ko‘chasi, 12), dush–shan 8:00 dan 18:00 gacha ishlaydi. Polikarbonatli soyabon — m² uchun 650 000 so‘mdan, kirish kozirkasi — 2 400 000 so‘mdan, metall karkasli zina — 14 000 000 so‘mdan. Tayyorlashdan oldin qor va shamol yukini hisoblaymiz, muddat — 10 ish kunidan, konstruksiyaga kafolat — 5 yil."
+  },
+  "business": {
+    "legalName": "«Kuznitsa Nomer Odin» MChJ",
+    "street": "Sergeli tumani, Yangi Sergeli ko‘chasi, 12 (sanoat zonasi)",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Kuznitsa №1",
+      "eyebrow": "Temirchilik sexi · Sergeli · 2012-yildan",
+      "subtitle": "Xususiy uylar uchun soyabonlar, zinalar va karkaslarni payvandlaymiz va o‘rnatamiz. Metallni kesishdan oldin yukni hisoblaymiz va konstruksiya uchun besh yil javob beramiz.",
+      "cta": {
+        "label": "Hisob-kitob buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Spetsifikatsiya va narxlar",
+        "href": "#spec"
+      },
+      "image": "",
+      "words": [
+        "Soyabonlar",
+        "Zinalar",
+        "Kozirkalar",
+        "Karkaslar"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Yuk hisobi",
+        "Profil quvur",
+        "Gaz muhitida payvandlash",
+        "Grunt va kukunli bo‘yoq",
+        "Sex brigadasi",
+        "5 yil kafolat"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Sex",
+      "title": "Avval hisob, keyin payvand",
+      "text": "Sergelidagi seximiz — 900 m², plazma kesish, egish stanogi va bo‘yash kamerasi. Biz «ombordagi narsadan uch kunda soyabon» sotmaymiz: har bir obyekt uchun muhandis qor va shamol yukini hisoblab, quvur kesimini tanlaydi. Shuning uchun soyabonlarimiz qishdan keyin egilmaydi, zinalarimiz esa qadam ostida guvillamaydi.",
+      "image": ""
+    },
+    {
+      "id": "spec",
+      "type": "services",
+      "label": "Spetsifikatsiya",
+      "title": "Nimani payvandlaymiz va narxi qancha",
+      "intro": "Narxlar — bo‘yash va o‘rnatish bilan odatiy o‘lcham uchun mo‘ljal. Yuk hisobi bilan smetani o‘lchovdan keyin bir kun ichida yuboramiz.",
+      "items": [
+        {
+          "title": "Mashina uchun soyabon",
+          "text": "Profil quvur 80×80, 8 mm polikarbonat yoki metall cherepitsa.",
+          "price": "m² uchun 650 000 so‘mdan",
+          "tag": "10 kundan"
+        },
+        {
+          "title": "Ayvon uchun soyabon",
+          "text": "Arkali yoki bir nishabli, suv oqizgich va yoritish bilan.",
+          "price": "m² uchun 720 000 so‘mdan",
+          "tag": "12 kundan"
+        },
+        {
+          "title": "Kirish kozirkasi",
+          "text": "Temir kronshteynlar, tripleks oyna yoki polikarbonat.",
+          "price": "2 400 000 so‘mdan",
+          "tag": "7 kundan"
+        },
+        {
+          "title": "Metall karkasli zina",
+          "text": "Kosour yoki monokosour, eman yoki beton pog‘onalar, panjaralar.",
+          "price": "14 000 000 so‘mdan",
+          "tag": "3 haftadan"
+        },
+        {
+          "title": "Shiypon karkasi",
+          "text": "Tom va mangal zonasi uchun metall karkas, hisob bo‘yicha poydevor.",
+          "price": "9 800 000 so‘mdan",
+          "tag": "2 haftadan"
+        },
+        {
+          "title": "Antresol va mansarda karkasi",
+          "text": "300 kg/m² dan yukka mo‘ljallangan to‘sinlar, ustunlar va qavatlararo yopma.",
+          "price": "m² uchun 1 100 000 so‘mdan",
+          "tag": "3 haftadan"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Sex raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "900",
+          "suffix": " m²",
+          "label": "sex maydoni"
+        },
+        {
+          "value": "2100",
+          "suffix": "+",
+          "label": "obyekt topshirilgan"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "payvandchi va montajchi"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "konstruksiyaga kafolat"
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Obyektlar",
+      "title": "Mavsumda topshirildi",
+      "items": [
+        {
+          "title": "3 mashinalik soyabon",
+          "category": "Xususiy uy, Qibray",
+          "year": "2026",
+          "text": "54 m², metall cherepitsa, yomg‘ir kanaliga suv oqizgich, 2 kunda o‘rnatildi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Monokosourli zina",
+          "category": "Taunxaus, Yunusobod",
+          "year": "2026",
+          "text": "Eman pog‘onalar, shisha to‘siq, birorta ham tebranishsiz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Mangalli shiypon karkasi",
+          "category": "Dala hovli, Bo‘stonliq",
+          "year": "2025",
+          "text": "6×4 m, cherepitsa uchun tom, qozon uchun alohida zona.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "O‘lchovdan o‘rnatishgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Muhandis obyektga kelib, o‘lchamlarni oladi va asosni ko‘radi."
+        },
+        {
+          "title": "Eskiz va hisob",
+          "text": "Chizma, yuk hisobi va smeta — bir ish kunida."
+        },
+        {
+          "title": "Kesish va payvand",
+          "text": "Plazma bilan kesamiz, gaz muhitida payvandlaymiz — kuyindisiz tekis choklar."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Qum bilan tozalash, rux grunt va sex kamerasida kukunli bo‘yoq."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Sex brigadasi konstruksiyani o‘rnatadi va 5 yillik kafolat bilan dalolatnoma asosida topshiradi."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Sharhlar",
+      "title": "Bizga yozishadi",
+      "items": [
+        {
+          "quote": "Quvur kesimlari bilan hisob yuborishdi — soyabonni «odatdagidek» emas, hisoblab qilishganini birinchi marta ko‘rdim.",
+          "author": "Ulug‘bek",
+          "role": "Qibray"
+        },
+        {
+          "quote": "Zina bir yildan beri turibdi, na g‘ijirlash, na guvillash bor. Montajchilar ortidan oxirgi qirindigacha tozalashdi.",
+          "author": "Madina",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Shartnomada va’da qilganidek, shiyponni mavsum boshiga tayyorlashdi.",
+          "author": "Aziz",
+          "role": "Bo‘stonliq"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Mashina uchun soyabon qancha turadi?",
+          "a": "Bo‘yash va o‘rnatish bilan m² uchun 650 000 so‘mdan. Bir mashinalik soyabon (taxminan 18 m²) odatda 11 700 000 so‘mdan chiqadi, aniq summani yuk hisobidan keyin beramiz."
+        },
+        {
+          "q": "Yukni nega hisoblash kerak?",
+          "a": "Soyabon qor va shamolga egilmasdan chidashi va siz ortiqcha metall uchun ortiqcha to‘lamasligingiz uchun. Hisob narxga kiradi."
+        },
+        {
+          "q": "Tayyorlash qancha davom etadi?",
+          "a": "Kozirka — 7 kundan, soyabon — 10 ish kunidan, zina va antresol — 3 haftadan. Muddatni shartnomada belgilaymiz."
+        },
+        {
+          "q": "Shahar tashqarisida ishlaysizmi?",
+          "a": "Ha, butun Toshkent viloyati bo‘ylab. Shahar tashqarisiga chiqish alohida hisoblanadi va smetada oldindan ko‘rsatiladi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Sexga keling",
+      "text": "Tayyor konstruksiyalarni va qanday payvandlashimizni ko‘rsatamiz. Yoki ariza qoldiring — muhandis o‘lchovga kelib, hisobni yuboradi.",
+      "cta": {
+        "label": "Hisob-kitob buyurtma qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

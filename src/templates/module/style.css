@@ -16,7 +16,7 @@
 
 /* шапка */
 .module-header { position: sticky; top: 0; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 12px var(--pad); background: var(--bg); border-bottom: 2px solid var(--fg); }
-.module-logo { font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: -.02em; text-transform: uppercase; background: var(--accent); border: 2px solid var(--fg); padding: 4px 12px; }
+.module-logo { justify-self: start; font-family: var(--font-display); font-weight: 900; font-size: 22px; letter-spacing: -.02em; text-transform: uppercase; background: var(--accent); border: 2px solid var(--fg); padding: 4px 12px; }
 .module-nav { display: flex; gap: 22px; justify-content: center; font-weight: 500; font-size: 14px; }
 .module-nav a { display: inline-flex; gap: 6px; align-items: baseline; }
 .module-nav i { font-style: normal; font-size: 11px; color: var(--muted); }

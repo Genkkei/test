@@ -1,0 +1,299 @@
+{
+  "name": "Brew & Desk",
+  "tagline": "A coffee shop built for working",
+  "niche": "Café-coworking with meeting rooms",
+  "nav": {
+    "cta": {
+      "label": "Book",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A site for a café-coworking, anti-café or business lounge. A bento grid with a live clock, day and month plans, and meeting rooms priced by the hour.",
+    "features": []
+  },
+  "seo": {
+    "title": "Brew & Desk — café-coworking in Tashkent City",
+    "description": "Coffee, lunches and workspace at 5 Furqat St: fast Wi-Fi, sockets at every table, meeting rooms for 4 and 8 by the hour and a day pass with unlimited filter coffee.",
+    "keywords": [
+      "coffee coworking Tashkent",
+      "meeting room by the hour",
+      "where to work Tashkent",
+      "Tashkent City coffee",
+      "coworking day pass"
+    ],
+    "answer": "Brew & Desk is a café-coworking at 5 Furqat St in Tashkent City, open daily from 8 am to 11 pm. A cappuccino costs 28,000 UZS, a day pass with unlimited filter coffee 110,000 UZS and a four-person meeting room 90,000 UZS an hour."
+  },
+  "business": {
+    "legalName": "Brew & Desk LLC",
+    "street": "5 Furqat St, Tashkent City",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Coffee on the desk, deadline under control",
+      "eyebrow": "Café-coworking · Furqat 5 · 8 am–11 pm",
+      "subtitle": "Specialty coffee, lunches and desks with a socket at every table. Meeting rooms by the hour, a call-free quiet zone and 500 Mbit/s Wi-Fi.",
+      "words": [
+        "filter coffee",
+        "quiet zone",
+        "meeting rooms",
+        "lunches"
+      ],
+      "cta": {
+        "label": "Book a desk",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Plans",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "spaces",
+      "type": "services",
+      "label": "The space",
+      "title": "Where to work",
+      "intro": "",
+      "items": [
+        {
+          "title": "Main hall",
+          "text": "Long tables by the windows, a socket and lamp at every seat. Talking allowed.",
+          "price": "free with a coffee",
+          "tag": "40 seats"
+        },
+        {
+          "title": "Quiet zone",
+          "text": "No calls or chatter, soft armchairs, shelves of books.",
+          "price": "with a pass",
+          "tag": "16 seats"
+        },
+        {
+          "title": "Meeting room “Mini”",
+          "text": "A table for four, a screen and a whiteboard.",
+          "price": "90,000 UZS / hour",
+          "tag": "4 seats"
+        },
+        {
+          "title": "Meeting room “Maxi”",
+          "text": "For presentations and calls: camera, sound, coffee break on request.",
+          "price": "160,000 UZS / hour",
+          "tag": "8 seats"
+        },
+        {
+          "title": "Phone booths",
+          "text": "Two soundproof booths for calls, free for up to 30 minutes.",
+          "price": "free",
+          "tag": "2 booths"
+        },
+        {
+          "title": "Terrace",
+          "text": "In summer, outdoor tables overlooking the boulevard.",
+          "price": "free with a coffee",
+          "tag": "seasonal"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "",
+      "items": [
+        {
+          "value": "500",
+          "suffix": " Mbit/s",
+          "label": "Wi-Fi"
+        },
+        {
+          "value": "56",
+          "suffix": "",
+          "label": "desks"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "meeting rooms"
+        },
+        {
+          "value": "15",
+          "suffix": "h",
+          "label": "open every day"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A café first, an office second",
+      "text": "Brew & Desk is not a coworking space with a coffee machine but a real café with specialty beans and a kitchen, where everything is designed for work: light, sockets, quiet and chairs you can sit on for eight hours. Bring your laptop or hold meetings in the rooms.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menu",
+      "title": "Fuel for work",
+      "groups": [
+        {
+          "name": "Coffee",
+          "items": [
+            {
+              "name": "Filter coffee",
+              "text": "Unlimited with a day pass",
+              "price": "22,000 UZS"
+            },
+            {
+              "name": "Cappuccino",
+              "text": "300 ml",
+              "price": "28,000 UZS"
+            },
+            {
+              "name": "Cold brew",
+              "text": "330 ml bottle",
+              "price": "30,000 UZS"
+            }
+          ]
+        },
+        {
+          "name": "Lunch",
+          "items": [
+            {
+              "name": "Business lunch",
+              "text": "Soup, main, salad, 12–3 pm",
+              "price": "65,000 UZS"
+            },
+            {
+              "name": "Chicken bowl",
+              "text": "Rice, vegetables, sesame dressing",
+              "price": "52,000 UZS"
+            },
+            {
+              "name": "Turkey sandwich",
+              "text": "On ciabatta",
+              "price": "39,000 UZS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Plans",
+      "title": "What it costs to work here",
+      "items": [
+        {
+          "name": "Guest",
+          "price": "free",
+          "period": "with any order",
+          "features": [
+            "A seat in the main hall",
+            "Wi-Fi and a socket"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Day",
+          "price": "110,000 UZS",
+          "period": "day",
+          "features": [
+            "Quiet zone",
+            "Unlimited filter coffee",
+            "One hour in the “Mini” room"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Month",
+          "price": "1,900,000 UZS",
+          "period": "month",
+          "features": [
+            "A fixed desk",
+            "A locker",
+            "10 hours of meeting rooms"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Inside",
+      "title": "What a workday looks like",
+      "items": [
+        {
+          "caption": "The coffee bar",
+          "image": ""
+        },
+        {
+          "caption": "The quiet zone",
+          "image": ""
+        },
+        {
+          "caption": "The “Maxi” room",
+          "image": ""
+        },
+        {
+          "caption": "Terrace on the boulevard",
+          "image": ""
+        },
+        {
+          "caption": "Business lunch",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Can I stay all day with one coffee?",
+          "a": "In the main hall, yes. The quiet zone and unlimited filter come with the 110,000 UZS day pass."
+        },
+        {
+          "q": "How do I book a meeting room?",
+          "a": "Leave a request with the date and time and we confirm within 15 minutes."
+        },
+        {
+          "q": "Is there a printer?",
+          "a": "Yes, black-and-white and colour printing at the bar; the first 10 pages are free."
+        },
+        {
+          "q": "Do you issue documents for companies?",
+          "a": "Yes, for the monthly plan and meeting rooms we issue a contract and invoice."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Save a desk for tomorrow",
+      "text": "5 Furqat St, Tashkent City, ground floor. Every day 8 am to 11 pm. Book desks and meeting rooms through the form.",
+      "cta": {
+        "label": "Book",
+        "href": "#order"
+      }
+    }
+  ]
+}

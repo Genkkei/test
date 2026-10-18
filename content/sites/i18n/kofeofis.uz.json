@@ -1,0 +1,299 @@
+{
+  "name": "Brew & Desk",
+  "tagline": "Ishlash qulay bo‘lgan qahvaxona",
+  "niche": "Muzokara xonali qahvaxona-kovorking",
+  "nav": {
+    "cta": {
+      "label": "Band qilish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Qahvaxona-kovorking, antikafe yoki biznes-launj uchun sayt. Jonli soatli bento plitkalar to‘ri, kunlik va oylik tariflar, soatlik narxli muzokara xonalari.",
+    "features": []
+  },
+  "seo": {
+    "title": "Brew & Desk — Tashkent Citydagi qahvaxona-kovorking",
+    "description": "Furqat, 5 da qahva, tushliklar va ish joylari: tez Wi-Fi, har stolda rozetka, soatbay 4 va 8 kishilik muzokara xonalari, cheksiz filtr qahvali kunlik abonement.",
+    "keywords": [
+      "qahvaxona kovorking Toshkent",
+      "soatbay muzokara xonasi",
+      "Toshkentda qayerda ishlash",
+      "Tashkent City qahva",
+      "kovorking kunlik abonementi"
+    ],
+    "answer": "Brew & Desk — Tashkent City, Furqat ko‘chasi, 5 dagi qahvaxona-kovorking. Har kuni 8:00 dan 23:00 gacha ishlaydi. Kapuchino 28 000 so‘m, cheksiz filtr qahvali kunlik abonement — 110 000 so‘m, 4 kishilik muzokara xonasi — soatiga 90 000 so‘m."
+  },
+  "business": {
+    "legalName": "«Brew & Desk» MChJ",
+    "street": "Furqat ko‘chasi, 5, Tashkent City",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Stolda qahva, dedlayn nazoratda",
+      "eyebrow": "Qahvaxona-kovorking · Furqat 5 · 8:00–23:00",
+      "subtitle": "Spesheltii qahva, tushliklar va har stolda rozetkali ish joylari. Soatbay muzokara xonalari, qo‘ng‘iroqsiz sokin zona, 500 Mbit/s Wi-Fi.",
+      "words": [
+        "filtr qahva",
+        "sokin zona",
+        "muzokara xonalari",
+        "tushliklar"
+      ],
+      "cta": {
+        "label": "Joy band qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Tariflar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "spaces",
+      "type": "services",
+      "label": "Makon",
+      "title": "Qayerda ishlash",
+      "intro": "",
+      "items": [
+        {
+          "title": "Umumiy zal",
+          "text": "Deraza yonida uzun stollar, har bir joyda rozetka va chiroq. Gaplashish mumkin.",
+          "price": "qahva bilan — bepul",
+          "tag": "40 o‘rin"
+        },
+        {
+          "title": "Sokin zona",
+          "text": "Qo‘ng‘iroq va suhbatlarsiz, yumshoq kreslolar, kitob javonlari.",
+          "price": "abonement bilan",
+          "tag": "16 o‘rin"
+        },
+        {
+          "title": "«Mini» muzokara xonasi",
+          "text": "To‘rt kishilik stol, ekran, marker doska.",
+          "price": "soatiga 90 000 so‘m",
+          "tag": "4 o‘rin"
+        },
+        {
+          "title": "«Maksi» muzokara xonasi",
+          "text": "Taqdimot va qo‘ng‘iroqlar uchun: kamera, ovoz, buyurtma bo‘yicha kofe-breyk.",
+          "price": "soatiga 160 000 so‘m",
+          "tag": "8 o‘rin"
+        },
+        {
+          "title": "Telefon kabinalari",
+          "text": "Qo‘ng‘iroqlar uchun ikkita ovoz o‘tkazmaydigan kabina, 30 daqiqagacha bepul.",
+          "price": "bepul",
+          "tag": "2 kabina"
+        },
+        {
+          "title": "Terassa",
+          "text": "Yozda — bulvarga qaragan tashqi stollar.",
+          "price": "qahva bilan — bepul",
+          "tag": "mavsum"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "",
+      "items": [
+        {
+          "value": "500",
+          "suffix": " Mbit/s",
+          "label": "Wi-Fi"
+        },
+        {
+          "value": "56",
+          "suffix": "",
+          "label": "ish joyi"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "muzokara xonasi"
+        },
+        {
+          "value": "15",
+          "suffix": "soat",
+          "label": "har kuni ochiqmiz"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Avval qahvaxona, keyin ofis",
+      "text": "Brew & Desk — kofe mashinali kovorking emas, balki spesheltii donli va oshxonali haqiqiy qahvaxona bo‘lib, unda ish uchun hamma narsa o‘ylangan: yorug‘lik, rozetkalar, sokinlik va sakkiz soat o‘tirsa bo‘ladigan stullar. Noutbuk bilan keling yoki muzokara xonalarida uchrashuv o‘tkazing.",
+      "image": ""
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "label": "Menyu",
+      "title": "Ish uchun yoqilg‘i",
+      "groups": [
+        {
+          "name": "Qahva",
+          "items": [
+            {
+              "name": "Filtr qahva",
+              "text": "Kunlik abonement bilan cheksiz",
+              "price": "22 000 so‘m"
+            },
+            {
+              "name": "Kapuchino",
+              "text": "300 ml",
+              "price": "28 000 so‘m"
+            },
+            {
+              "name": "Kold-bryu",
+              "text": "330 ml shisha",
+              "price": "30 000 so‘m"
+            }
+          ]
+        },
+        {
+          "name": "Tushliklar",
+          "items": [
+            {
+              "name": "Biznes-lanch",
+              "text": "Sho‘rva, issiq taom, salat, 12:00–15:00",
+              "price": "65 000 so‘m"
+            },
+            {
+              "name": "Tovuqli boul",
+              "text": "Guruch, sabzavotlar, kunjut sousi",
+              "price": "52 000 so‘m"
+            },
+            {
+              "name": "Kurka go‘shtli sendvich",
+              "text": "Chiabattada",
+              "price": "39 000 so‘m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "Ishlash qancha turadi",
+      "items": [
+        {
+          "name": "Mehmon",
+          "price": "bepul",
+          "period": "istalgan buyurtma bilan",
+          "features": [
+            "Umumiy zalda joy",
+            "Wi-Fi va rozetka"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Kun",
+          "price": "110 000 so‘m",
+          "period": "kun",
+          "features": [
+            "Sokin zona",
+            "Cheksiz filtr qahva",
+            "«Mini» xonasida bir soat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Oy",
+          "price": "1 900 000 so‘m",
+          "period": "oy",
+          "features": [
+            "Biriktirilgan joy",
+            "Shkafcha",
+            "10 soat muzokara xonasi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ichkarida",
+      "title": "Ish kuni qanday ko‘rinadi",
+      "items": [
+        {
+          "caption": "Barista peshtaxtasi",
+          "image": ""
+        },
+        {
+          "caption": "Sokin zona",
+          "image": ""
+        },
+        {
+          "caption": "«Maksi» xonasi",
+          "image": ""
+        },
+        {
+          "caption": "Bulvarga qaragan terassa",
+          "image": ""
+        },
+        {
+          "caption": "Biznes-lanch",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Bitta qahva bilan kun bo‘yi o‘tirsa bo‘ladimi?",
+          "a": "Umumiy zalda — ha. Sokin zona va cheksiz filtr — 110 000 so‘mlik kunlik abonement bilan."
+        },
+        {
+          "q": "Muzokara xonasini qanday band qilish mumkin?",
+          "a": "Sana va vaqt bilan ariza qoldiring — 15 daqiqa ichida tasdiqlaymiz."
+        },
+        {
+          "q": "Printer bormi?",
+          "a": "Ha, baristada oq-qora va rangli bosma, dastlabki 10 varaq — bepul."
+        },
+        {
+          "q": "Kompaniya uchun hujjat berasizmi?",
+          "a": "Ha, oylik tarif va muzokara xonalari uchun — shartnoma va hisob-faktura."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Ertaga stol band qiling",
+      "text": "Furqat, 5, Tashkent City, birinchi qavat. Har kuni 8:00 dan 23:00 gacha. Joy va muzokara xonalarini band qilish — ariza orqali.",
+      "cta": {
+        "label": "Band qilish",
+        "href": "#order"
+      }
+    }
+  ]
+}

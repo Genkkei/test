@@ -7,8 +7,9 @@
 export type ObjKind = 'chair' | 'armchair' | 'sofa' | 'table' | 'lamp' | 'shelf' | 'vase' | 'bed' | 'stool' | 'sideboard' | 'wardrobe' | 'mirror'
 
 const WORDS: [ObjKind, RegExp][] = [
-  ['wardrobe', /шкаф|гардероб|купе|kiyim javon|shkaf|wardrobe|closet/i],
-  ['sideboard', /комод|тумб|буфет|sideboard|dresser|komod|tumba/i],
+  ['wardrobe', /шкаф|гардероб|купе|прихож|kiyim javon|shkaf|dahliz|hallway|wardrobe|closet/i],
+  ['sideboard', /комод|тумб|буфет|кухн|sideboard|dresser|komod|tumba|oshxona|kitchen/i],
+  ['bed', /детск|bolalar|kids|кроват|bed|karavot/i],
   ['armchair', /кресл|armchair|kreslo|lounge/i],
   ['sofa', /диван|софа|sofa|divan|couch/i],
   ['bed', /кроват|bed|karavot/i],

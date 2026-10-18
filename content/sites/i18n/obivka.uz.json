@@ -1,0 +1,260 @@
+{
+  "name": "Obivka Master",
+  "tagline": "Sevimli divaningizga ikkinchi hayot beramiz",
+  "niche": "Yumshoq mebelni qayta qoplash va restavratsiya",
+  "nav": {
+    "cta": {
+      "label": "Ustani chaqirish",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Mebel qoplash ustaxonasi uchun sayt: bichim detallari ko‘rinishidagi xizmatlar, santimetr lentadagi bosqichlar, yorliqlardagi raqamlar, tariflar va Telegramga chiqish arizasi.",
+    "features": []
+  },
+  "leads": {
+    "title": "",
+    "thanks": ""
+  },
+  "seo": {
+    "title": "Obivka Master — Toshkentda mebelni qayta qoplash",
+    "description": "Divan, kreslo va stullarni qayta qoplash, porolon va prujinalarni almashtirish, yog‘och qismlarni restavratsiya qilish. Olib ketish va yetkazish bepul, muddat 5 kundan, kafolat 1 yil.",
+    "keywords": [
+      "divanni qayta qoplash Toshkent",
+      "mebelni qayta qoplash",
+      "mebel restavratsiyasi",
+      "porolon almashtirish",
+      "stullarni qayta qoplash"
+    ],
+    "answer": "Obivka Master — Toshkentdagi yumshoq mebelni qayta qoplash va restavratsiya ustaxonasi (Qatortol ko‘chasi, 60), du–sha 09:00 dan 18:00 gacha. Divanni qayta qoplash 1 600 000 so‘mdan, kreslo 750 000 so‘mdan, stul 180 000 so‘mdan mato bilan. Olib ketish va yetkazish bepul, muddat 5–10 kun, kafolat 1 yil."
+  },
+  "business": {
+    "legalName": "«Obivka Master» YaTT",
+    "street": "Qatortol ko‘chasi, 60",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va atrofi",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tashlamang — qayta qoplaymiz",
+      "eyebrow": "Qayta qoplash ustaxonasi · Qatortol, 60",
+      "subtitle": "Eski ishonchli karkasda yangi mato, yangi porolon va mustahkam prujinalar. Mebelni o‘zimiz olib ketamiz va 5–10 kunda qaytaramiz.",
+      "words": [
+        "divan",
+        "kreslo",
+        "stullar"
+      ],
+      "cta": {
+        "label": "Ustani chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nima qilamiz",
+      "intro": "",
+      "items": [
+        {
+          "title": "Divanni qayta qoplash",
+          "text": "Yangi mato, porolon va sintepon; karkasni tekshiramiz va mustahkamlaymiz.",
+          "price": "1 600 000 so‘mdan",
+          "tag": "7–10 kun"
+        },
+        {
+          "title": "Kresloni qayta qoplash",
+          "text": "Karetka tikuvi va dekorativ mixlar bilan.",
+          "price": "750 000 so‘mdan",
+          "tag": "5–7 kun"
+        },
+        {
+          "title": "Stullar to‘plami",
+          "text": "O‘rindiq va suyanchiqlar, olti stul — bir haftada.",
+          "price": "180 000 so‘mdan / dona",
+          "tag": "5 kun"
+        },
+        {
+          "title": "Yog‘ochni restavratsiya qilish",
+          "text": "Qo‘l suyanchiqlari va oyoqlarni silliqlash, tonlash va laklash.",
+          "price": "400 000 so‘mdan",
+          "tag": "3–5 kun"
+        },
+        {
+          "title": "Prujina va mexanizmni almashtirish",
+          "text": "Prujina bloki, yoyish mexanizmi, tayanchlar.",
+          "price": "600 000 so‘mdan",
+          "tag": "2–4 kun"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona haqida",
+      "title": "Qoraqayin karkas uchta qoplamadan uzoq yashaydi",
+      "text": "Eski sovet va turk divanlari ko‘pincha yangilaridan mustahkam: DSP o‘rniga yaxlit yog‘och. Qoplamani karkasgacha olib tashlaymiz, barcha yumshoq qismlarni almashtiramiz va g‘ilofni bichim bo‘yicha qaytadan tikamiz. Matolar — 300 dan ortiq namuna: velyur, rogojka, jakkard, mushukli uylar uchun tirnoqqa chidamli mato. Usta namunalarni uyga olib keladi va darhol narxni aytadi.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bu qanday ishlaydi",
+      "title": "Qo‘ng‘iroqdan tayyor divangacha",
+      "items": [
+        {
+          "title": "Ustaning chiqishi",
+          "text": "Bepul, mato namunalari bilan; narx — joyida."
+        },
+        {
+          "title": "Olib ketish",
+          "text": "Yuk tashuvchilar mebelni qulay kunda olib ketadi."
+        },
+        {
+          "title": "Sexda ish",
+          "text": "Qismlarga ajratish, karkasni ta’mirlash, yangi porolon, tikish."
+        },
+        {
+          "title": "Yetkazish",
+          "text": "Olib kelamiz, joylashtiramiz, ko‘rikdan keyin to‘lov."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Mato bilan narxlar",
+      "items": [
+        {
+          "name": "Stul",
+          "price": "180 000 so‘m",
+          "period": "donasi",
+          "features": [
+            "O‘rindiq va suyanchiq",
+            "Velyur mato",
+            "5 kunda tayyor"
+          ],
+          "featured": false
+        },
+        {
+          "name": "3 o‘rinli divan",
+          "price": "1 600 000 so‘m",
+          "period": "kalit topshiriladigan",
+          "features": [
+            "Yangi porolon",
+            "300 dan tanlov mato",
+            "Olib ketish va yetkazish",
+            "Kafolat 1 yil"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Burchak divan",
+          "price": "2 400 000 so‘m",
+          "period": "kalit topshiriladigan",
+          "features": [
+            "Mexanizm almashtirish",
+            "Tirnoqqa chidamli",
+            "Olib ketish va yetkazish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlar",
+      "title": "Ustaxona raqamlarda",
+      "items": [
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "mato namunalari"
+        },
+        {
+          "value": "2400",
+          "suffix": "",
+          "label": "qayta qoplangan divanlar"
+        },
+        {
+          "value": "5",
+          "suffix": " kun",
+          "label": "eng qisqa muddat"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mamnunlar kvitansiyalari",
+      "items": [
+        {
+          "quote": "Buvimning 80-yillardagi divani endi do‘kondagidan yaxshiroq ko‘rinadi, o‘tirish esa avvalgidek.",
+          "author": "Nargiza",
+          "role": "Chilonzor"
+        },
+        {
+          "quote": "Bir haftada olti stul, mushuk endi qoplamani tirnamaydi.",
+          "author": "Rustam",
+          "role": "Olmazor"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Ustaning chiqishi pullikmi?",
+          "a": "Yo‘q, Toshkent bo‘ylab bepul, buyurtma bermasangiz ham."
+        },
+        {
+          "q": "O‘z matom bilan bo‘ladimi?",
+          "a": "Ha, ishni alohida hisoblaymiz, mato bilan narxdan 25% chegirma."
+        },
+        {
+          "q": "Porolonni almashtirmasdan qayta qoplash qancha?",
+          "a": "Taxminan 20% arzonroq, lekin 10 yildan eski porolonni almashtirishni maslahat beramiz."
+        },
+        {
+          "q": "Kafolat qanday?",
+          "a": "Choklar, porolon va mexanizmga 1 yil."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Namunalar bilan ustani chaqirish",
+      "text": "Ustaxona: Qatortol, 60. Du–sha 09:00 dan 18:00 gacha.",
+      "cta": {
+        "label": "Ustani chaqirish",
+        "href": "#order"
+      }
+    }
+  ]
+}
