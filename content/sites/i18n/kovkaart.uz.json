@@ -1,0 +1,277 @@
+{
+  "name": "Kovka Art",
+  "tagline": "Tomosha qilgingiz keladigan badiiy temirchilik",
+  "niche": "Badiiy temirchilik: buyurtma asosida darvozalar, panjaralar, to‘rlar va dekor",
+  "seo": {
+    "title": "Kovka Art — Toshkentda buyurtma asosida badiiy temirchilik",
+    "description": "Individual eskizlar bo‘yicha bolg‘alangan darvozalar, panjaralar, deraza to‘rlari, shiyponlar va dekor. Mirzo Ulug‘bekdagi ustaxona, ishlar portfoliosi, Toshkent bo‘ylab o‘rnatish.",
+    "keywords": [
+      "badiiy temirchilik Toshkent",
+      "bolg‘alangan darvozalar",
+      "bolg‘alangan panjaralar",
+      "bolg‘alangan shiypon"
+    ],
+    "answer": "Kovka Art — Mirzo Ulug‘bekdagi badiiy temirchilik ustaxonasi: bolg‘alangan darvozalar m² uchun 2 400 000 so‘mdan, panjaralar metriga 1 300 000 so‘mdan, deraza to‘rlari m² uchun 750 000 so‘mdan, shiyponlar 38 000 000 so‘mdan. Eskiz bepul, muddat 3–6 hafta, 5 yil kafolat, telefon +998 71 200-04-07."
+  },
+  "nav": {
+    "cta": {
+      "label": "Eskiz",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Badiiy temirchilik ustaxonasi uchun sayt: fotoplyonka kabi portfolio, ishlarning kontakt varag‘i, paketlar va buyurtma bosqichlari.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Kovka Art» MChJ",
+    "street": "Mustaqillik shoh ko‘chasi, 88, Mirzo Ulug‘bek",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Chizadigan metall",
+      "eyebrow": "Badiiy temirchilik · Toshkent · 2009 yildan",
+      "subtitle": "Uyingizga moslab chizadigan eskizlar bo‘yicha darvozalar, panjaralar, to‘rlar va shiyponlar. Har bir jingalak qo‘lda bolg‘alanadi — bizda ikkita bir xil ish yo‘q.",
+      "words": [
+        "Darvozalar",
+        "Panjaralar",
+        "To‘rlar",
+        "Shiyponlar"
+      ],
+      "cta": {
+        "label": "Eskiz buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Portfolio",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Portfolio",
+      "title": "Kontakt varag‘i",
+      "items": [
+        {
+          "title": "«Uzumzor» darvozasi",
+          "category": "Xususiy uy",
+          "year": "2026",
+          "text": "Novda va boshlari bilan 4 m li ochiladigan darvoza, oltin patina.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«To‘lqin» panjarasi",
+          "category": "Zinapoya",
+          "year": "2025",
+          "text": "Uch qavatli vintli zinapoya, yong‘oq tutqich.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Bog‘dagi shiypon",
+          "category": "Bog‘",
+          "year": "2025",
+          "text": "Bolg‘alangan gumbaz va chiroqli sakkiz qirrali shiypon.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Girih» to‘rlari",
+          "category": "Fasad",
+          "year": "2024",
+          "text": "Mahalladagi eski uyning 12 ta derazasiga sharqona naqsh.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "type": "gallery",
+      "label": "Plyonka",
+      "title": "Ustaxonadan",
+      "items": [
+        {
+          "caption": "Bolg‘a ostidagi jingalak",
+          "image": ""
+        },
+        {
+          "caption": "Bo‘yashdan oldingi darvoza",
+          "image": ""
+        },
+        {
+          "caption": "Oltin patina",
+          "image": ""
+        },
+        {
+          "caption": "Panjaralarni o‘rnatish",
+          "image": ""
+        },
+        {
+          "caption": "Naqshli list",
+          "image": ""
+        },
+        {
+          "caption": "Shiypon gumbazi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Bolg‘alashdan oldin chizamiz",
+      "text": "Ustaxonada rassom va to‘rt temirchi ishlaydi. Eskizni uyingiz fasadiga bog‘lab 1:10 masshtabda qilamiz, murakkab elementlarni esa plazada tabiiy kattalikda. Girih naqshi, o‘simlik motivlari va klassik jingalaklar bilan ishlaymiz.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "O‘lchovdan o‘rnatishgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Temirchilik qancha turadi",
+      "items": [
+        {
+          "name": "To‘rlar",
+          "price": "750 000 so‘mdan",
+          "period": "m² uchun",
+          "features": [
+            "Deraza va eshik uchun",
+            "Eskiz bepul",
+            "Muddat 3 hafta"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Darvoza va eshikcha",
+          "price": "2 400 000 so‘mdan",
+          "period": "m² uchun",
+          "features": [
+            "Individual naqsh",
+            "Patina yoki zarhal",
+            "Avtomatika uchun",
+            "5 yil kafolat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Panjaralar",
+          "price": "1 300 000 so‘mdan",
+          "period": "metriga",
+          "features": [
+            "Zinapoya va balkonlar",
+            "Yog‘och tutqich",
+            "O‘rnatish kiritilgan"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar aytadi",
+      "items": [
+        {
+          "quote": "Darvoza eskizini eshigimizdagi naqshga mos kelguncha uch marta qayta chizishdi. Endi qo‘shnilar qayerda buyurtma qilganimizni so‘rashadi.",
+          "author": "Oybek",
+          "role": "xususiy uy, Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Shiyponni ikki kunda yig‘ishdi, gumbazni xuddi rasmdagidek qilishdi.",
+          "author": "Gulnora",
+          "role": "Parkentdagi dacha"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Eskiz pullikmi?",
+          "a": "Yo‘q, eskiz va tuzatishlar bepul. Buyurtma qilsangiz, eskiz sizniki bo‘lib qoladi."
+        },
+        {
+          "q": "Temirchilik qancha vaqt oladi?",
+          "a": "To‘rlar — taxminan 3 hafta, darvoza va panjaralar — 4–5 hafta, shiyponlar — 6 haftagacha."
+        },
+        {
+          "q": "Suratdagi naqshni takrorlash mumkinmi?",
+          "a": "Suratni asos qilib olib, o‘yig‘ingiz o‘lchamlariga mos o‘z variantimizni chizishimiz mumkin."
+        },
+        {
+          "q": "Metallni nima bilan qoplaysiz?",
+          "a": "Ruxli grunt, temirchilik bo‘yog‘i va xohishga ko‘ra patina yoki oltin varaq."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Ishlarni jonli ko‘rsatamiz",
+      "text": "Mirzo Ulug‘bek, Mustaqillik shoh ko‘chasi, 88. Du–Sha 9:00–18:00 — ustaxonada darvoza va panjara namunalari bor.",
+      "cta": {
+        "label": "Ustaxonaga qo‘ng‘iroq",
+        "href": "tel:+998712000407"
+      }
+    }
+  ]
+}

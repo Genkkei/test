@@ -1,0 +1,292 @@
+{
+  "name": "Qora Metall",
+  "tagline": "Qora metalldan bolg‘alangan dekor, chiroqlar va javonlar",
+  "niche": "Qora metalldan bolg‘alangan dekor va loft aksessuarlari",
+  "seo": {
+    "title": "Qora Metall — Toshkentda bolg‘alangan dekor va loft chiroqlar",
+    "description": "Mum ostidagi qora metalldan bolg‘alangan ilgaklar, shamdonlar, devor panolari, chiroqlar va loft javonlar. Yunusoboddagi ustaxona va shourum, buyurtma asosida.",
+    "keywords": [
+      "bolg‘alangan dekor Toshkent",
+      "loft chiroqlar",
+      "metall javonlar",
+      "metalldan sovg‘a"
+    ],
+    "answer": "Qora Metall — Yunusoboddagi ustaxona va shourum: qora metalldan bolg‘alangan dekor va loft aksessuarlari. Ilgaklar 120 000 so‘mdan, shamdonlar 260 000 so‘mdan, devor panolari 900 000 so‘mdan, loft chiroqlar 1 100 000 so‘mdan. Buyurtma buyum — 5–10 kun, telefon +998 71 200-04-05."
+  },
+  "nav": {
+    "cta": {
+      "label": "Buyurtma",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Bolg‘alangan dekor va loft aksessuarlari ustaxonasi uchun sayt: grafik eskizlar chiziq bilan chiziladi, ishlar katalogi, ustalar va narxlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Qora Metall» YaTT",
+    "street": "Amir Temur shoh ko‘chasi, 107, Yunusobod",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qora",
+      "eyebrow": "Qora metall · Yunusobod",
+      "subtitle": "Qo‘lda bolg‘alanib, bo‘yoq emas, mum bilan qoplanadigan ilgaklar, shamdonlar, panolar va chiroqlar. Metall jonli qoladi: har bir bolg‘a zarbasi ko‘rinadi.",
+      "words": [
+        "dekor",
+        "chiroqlar",
+        "javonlar",
+        "sovg‘alar"
+      ],
+      "cta": {
+        "label": "Buyum buyurtma qilish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Ishlar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Qo‘lda bolg‘alash",
+        "Bo‘yoq o‘rniga mum",
+        "Loft",
+        "Chiroqlar",
+        "Sovg‘alar",
+        "Gravyura"
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Ishlar",
+      "title": "Ustaxonadan",
+      "items": [
+        {
+          "title": "Xanjar-ilgak",
+          "category": "Dahliz",
+          "year": "2 kun",
+          "text": "Kalit va sumkalar uchun bolg‘alangan tig‘ shaklidagi ilgak.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Qaldirg‘och» flyugeri",
+          "category": "Hovli",
+          "year": "5 kun",
+          "text": "Po‘lat o‘qdagi 3 mm listdan qaldirg‘och.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Ko‘z» bra",
+          "category": "Chiroq",
+          "year": "6 kun",
+          "text": "Bolg‘alangan halqa ichida iliq lampali devor chirog‘i.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Oy va yulduz» panosi",
+          "category": "Mehmonxona",
+          "year": "7 kun",
+          "text": "Jez yulduzli diametri 80 sm devor panosi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Ilon» kochergasi",
+          "category": "Kamin",
+          "year": "3 kun",
+          "text": "Dastasida ilon boshi bo‘lgan buralgan kocherga.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Langar» ilgaklari",
+          "category": "Hammom",
+          "year": "2 kun",
+          "text": "Sochiq uchun uchta ilgak to‘plami.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "«Yurak» shamdoni",
+          "category": "Sovg‘a",
+          "year": "2 kun",
+          "text": "Ismlar o‘yib yozilgan uch shamli shamdon.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Metall atirgul",
+          "category": "Sovg‘a",
+          "year": "1 kun",
+          "text": "Tabiiy kattalikdagi bolg‘alangan atirgul — so‘lmaydi.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Ustaxona",
+      "title": "Ushlagingiz keladigan metall",
+      "text": "Biz hovlida o‘chog‘i va birinchi qavatda shourumi bor kichik ustaxonamiz. Buyumlarni bo‘yamaymiz — qizdiramiz, issiq mum surtamiz va cho‘tka bilan jilolaymiz. Natijada ko‘chmaydigan, vaqt o‘tib yanada chiroyli bo‘ladigan jigarrang tovlanishli iliq qora rang chiqadi.",
+      "image": ""
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Qancha turadi",
+      "items": [
+        {
+          "name": "Mayda buyumlar",
+          "price": "120 000 so‘mdan",
+          "period": "ilgaklar, tutqichlar",
+          "features": [
+            "Mavjudidan yoki 2 kunda",
+            "Mum va jilo",
+            "Mahkamlagich bilan"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Chiroq",
+          "price": "1 100 000 so‘mdan",
+          "period": "bra yoki osma",
+          "features": [
+            "Sizning o‘lcham va shaklingiz",
+            "Iliq nur, E27 patron",
+            "Simlarga 2 yil kafolat"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Panolar va javonlar",
+          "price": "900 000 so‘mdan",
+          "period": "buyurtma asosida",
+          "features": [
+            "Devorga mos eskiz",
+            "Jez qo‘shimchalar",
+            "Toshkent bo‘ylab o‘rnatish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Ustalar",
+      "title": "Kim bolg‘alaydi",
+      "items": [
+        {
+          "name": "Aziz",
+          "role": "temirchi, asoschi",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "eskizlar va gravyura",
+          "image": ""
+        },
+        {
+          "name": "Sanjar",
+          "role": "chiroqlar va elektrika",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Buyum qanday tug‘iladi",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Devor suratini yuborasiz yoki shourumga kelasiz — o‘lchamni tanlaymiz."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Lola tabiiy kattalikda eskiz chizadi. Bepul tuzatamiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘choqda bolg‘alaymiz va yig‘amiz — jarayon videosini yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Bo‘yoq o‘rniga issiq mum — tovlanuvchi iliq qora."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Toshkent bo‘ylab o‘zimiz osamiz yoki sovg‘a qutisiga qadoqlaymiz."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Metall zanglamaydimi?",
+          "a": "Uyda — yo‘q: mum metallni yopadi. Hammom va ko‘cha uchun shaffof lak qatlami qo‘shamiz."
+        },
+        {
+          "q": "Mening rasmim bo‘yicha qilish mumkinmi?",
+          "a": "Ha, rasm yoki surat yuboring — eskizga aylantirib narxini hisoblaymiz."
+        },
+        {
+          "q": "Gravyura qilasizmi?",
+          "a": "Ha, ismlar, sanalar va qisqa yozuvlar — shamdon, ilgak va panolarda."
+        },
+        {
+          "q": "Viloyatlarga yuborasizmi?",
+          "a": "Ha, yumshoq qistirmali qutiga qadoqlab kuryerlik xizmati orqali yuboramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Shourum",
+      "title": "Metallni ushlab ko‘ring",
+      "text": "Yunusobod, Amir Temur shoh ko‘chasi, 107. Se–Ya 11:00–20:00. G‘oyani Telegram’da yozing — eskiz yuboramiz.",
+      "cta": {
+        "label": "Telegram’da yozish",
+        "href": "https://t.me/qorametall"
+      }
+    }
+  ]
+}

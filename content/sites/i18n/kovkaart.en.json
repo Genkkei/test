@@ -1,0 +1,277 @@
+{
+  "name": "Kovka Art",
+  "tagline": "Art forging worth a closer look",
+  "niche": "Art forging: bespoke gates, railings, grilles and decor",
+  "seo": {
+    "title": "Kovka Art — bespoke art forging in Tashkent",
+    "description": "Forged gates, railings, window grilles, gazebos and decor from bespoke sketches. Workshop in Mirzo Ulugbek, a portfolio of work, installation across Tashkent.",
+    "keywords": [
+      "art forging Tashkent",
+      "forged gates",
+      "forged railings",
+      "forged gazebo"
+    ],
+    "answer": "Kovka Art is an art forging workshop in Mirzo Ulugbek: forged gates from 2,400,000 UZS per m², railings from 1,300,000 UZS per metre, window grilles from 750,000 UZS per m² and gazebos from 38,000,000 UZS. Free sketch, 3–6 weeks lead time, 5-year warranty; phone +998 71 200-04-07."
+  },
+  "nav": {
+    "cta": {
+      "label": "Sketch",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an art forging workshop: a portfolio laid out like film, a contact sheet of work, packages and order stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Kovka Art LLC",
+    "street": "88 Mustakillik Ave, Mirzo Ulugbek",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Pinterest"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Metal that draws",
+      "eyebrow": "Art forging · Tashkent · since 2009",
+      "subtitle": "Gates, railings, grilles and gazebos from sketches drawn for your house. Every scroll is forged by hand — no two of our pieces are alike.",
+      "words": [
+        "Gates",
+        "Railings",
+        "Grilles",
+        "Gazebos"
+      ],
+      "cta": {
+        "label": "Order a sketch",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Portfolio",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Portfolio",
+      "title": "Contact sheet",
+      "items": [
+        {
+          "title": "Vineyard gates",
+          "category": "Private house",
+          "year": "2026",
+          "text": "Four-metre swing gates with vines and grapes and a gold patina.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Wave railing",
+          "category": "Staircase",
+          "year": "2025",
+          "text": "A three-storey spiral stair with a walnut handrail.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Garden gazebo",
+          "category": "Garden",
+          "year": "2025",
+          "text": "An octagonal gazebo with a forged dome and lantern.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Girih grilles",
+          "category": "Facade",
+          "year": "2024",
+          "text": "An oriental pattern for twelve windows of an old house in the mahalla.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "type": "gallery",
+      "label": "Film",
+      "title": "From the workshop",
+      "items": [
+        {
+          "caption": "A scroll under the hammer",
+          "image": ""
+        },
+        {
+          "caption": "Gates before painting",
+          "image": ""
+        },
+        {
+          "caption": "Gold patina",
+          "image": ""
+        },
+        {
+          "caption": "Fitting a railing",
+          "image": ""
+        },
+        {
+          "caption": "An ornament sheet",
+          "image": ""
+        },
+        {
+          "caption": "Gazebo dome",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "We draw before we forge",
+      "text": "An artist and four smiths work in the shop. We draw sketches at 1:10 against your house’s facade, and complex elements full size on the layout floor. We work with girih patterns, plant motifs and classic scrolls.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "From measurement to installation",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "packs",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "What forging costs",
+      "items": [
+        {
+          "name": "Grilles",
+          "price": "from 750,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Windows and doors",
+            "Free sketch",
+            "3-week lead time"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Gates and wicket",
+          "price": "from 2,400,000 UZS",
+          "period": "per m²",
+          "features": [
+            "Bespoke ornament",
+            "Patina or gilding",
+            "Ready for automation",
+            "5-year warranty"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Railings",
+          "price": "from 1,300,000 UZS",
+          "period": "per metre",
+          "features": [
+            "Stairs and balconies",
+            "Timber handrail",
+            "Installation included"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "They redrew the gate sketch three times until it matched the pattern on our door. Now the neighbours ask where we ordered it.",
+          "author": "Oybek",
+          "role": "house in Mirzo Ulugbek"
+        },
+        {
+          "quote": "The gazebo went up in two days and the dome matches the drawing exactly.",
+          "author": "Gulnora",
+          "role": "dacha in Parkent"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is the sketch paid?",
+          "a": "No, the sketch and revisions are free. If you order, the sketch is yours to keep."
+        },
+        {
+          "q": "How long does forging take?",
+          "a": "Grilles take about 3 weeks, gates and railings 4–5 weeks, gazebos up to 6 weeks."
+        },
+        {
+          "q": "Can you copy a pattern from a photo?",
+          "a": "We can use a photo as a starting point and draw our own version to fit your opening."
+        },
+        {
+          "q": "How is the metal finished?",
+          "a": "Zinc-rich primer, forge paint and, if you like, patina or gold leaf."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come and see the work in person",
+      "text": "88 Mustakillik Ave, Mirzo Ulugbek. Mon–Sat 9:00–18:00 — sample gates and railings are on show in the workshop.",
+      "cta": {
+        "label": "Call the workshop",
+        "href": "tel:+998712000407"
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "name": "Uchqun",
+  "tagline": "Welding, canopies and solar carports",
+  "niche": "Welding work and solar-panel canopies",
+  "seo": {
+    "title": "Uchqun — canopies and welding work in Tashkent",
+    "description": "Car and terrace canopies, including ones with solar panels on the roof, mobile welding, and repair of gates and frames. Yangihayot, Tashkent.",
+    "keywords": [
+      "carport Tashkent",
+      "solar carport",
+      "mobile welding",
+      "polycarbonate canopy"
+    ],
+    "answer": "Uchqun is a welding shop in Yangihayot: single carports from 9,500,000 UZS, a two-car solar carport with 5 kW of panels from 62,000,000 UZS, and mobile welding from 350,000 UZS per call-out. Canopies go up in 2–3 days with a 5-year frame warranty; phone +998 71 200-04-06."
+  },
+  "nav": {
+    "cta": {
+      "label": "Book a visit",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a welding shop and canopy installer: the sun over a roof on the first screen, a power calculator, services, packages and stages.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Uchqun Payvand LLC",
+    "street": "54 Yangihayot St, Yangihayot district",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Shade for the car, power for the house",
+      "eyebrow": "Welding and canopies · Yangihayot",
+      "subtitle": "We build carports and terrace canopies — with solar panels on the roof if you like, so the canopy gives shade in summer and electricity all year.",
+      "words": [
+        "80×80 frame",
+        "Mobile welding",
+        "550 W panels"
+      ],
+      "cta": {
+        "label": "Book a measurement",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Estimate power",
+        "href": "#solar"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Canopies",
+        "Solar roofs",
+        "Mobile welding",
+        "Gate repair",
+        "Polycarbonate",
+        "Metal sheet"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Welding since 2015 — and now catching the sun too",
+      "text": "We started with mobile welding of gates and fences. Clients kept asking for canopies, then for solar panels on top. Now we calculate panel and wind loads, weld frames from 80×80 tube and install the system with partner electricians.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we weld and install",
+      "items": [
+        {
+          "title": "Single carport",
+          "text": "An 80×80 frame with a polycarbonate or metal-sheet roof.",
+          "price": "from 9,500,000 UZS",
+          "tag": "2 days"
+        },
+        {
+          "title": "Terrace canopy",
+          "text": "Wall-mounted or free-standing, with guttering.",
+          "price": "from 1,100,000 UZS per m²",
+          "tag": "3 days"
+        },
+        {
+          "title": "Solar carport",
+          "text": "A frame for the panels, an inverter and connection to the house.",
+          "price": "from 62,000,000 UZS",
+          "tag": "5 days"
+        },
+        {
+          "title": "Mobile welding",
+          "text": "Gates, wickets, fences and grilles — we bring our own generator.",
+          "price": "from 350,000 UZS per call-out",
+          "tag": "same day"
+        }
+      ]
+    },
+    {
+      "id": "solar",
+      "type": "pricing",
+      "label": "Solar carports",
+      "title": "Estimate your power and pick a carport",
+      "items": [
+        {
+          "name": "1 car · 3 kW",
+          "price": "from 38,000,000 UZS",
+          "period": "installed",
+          "features": [
+            "6 × 550 W panels",
+            "Grid inverter",
+            "80×80 frame"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 cars · 5 kW",
+          "price": "from 62,000,000 UZS",
+          "period": "installed",
+          "features": [
+            "10 × 550 W panels",
+            "Hybrid inverter",
+            "Canopy lighting",
+            "Phone monitoring"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business parking",
+          "price": "on quote",
+          "period": "6+ spaces",
+          "features": [
+            "Design and load calculations",
+            "Three-phase inverter",
+            "EV charging"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "frame warranty"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "canopies built"
+        },
+        {
+          "value": "80",
+          "suffix": " mm",
+          "label": "post profile"
+        },
+        {
+          "value": "2",
+          "suffix": " days",
+          "label": "to install a standard canopy"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "From measurement to the first kilowatt",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "A craftsman visits with samples, takes measurements and talks through the job. Free within Tashkent."
+        },
+        {
+          "title": "Sketch",
+          "text": "We draw a sketch and price the job. We revise it until you like it, at no extra charge."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We cut, bend, forge and weld in our own workshop, sending photos at every stage."
+        },
+        {
+          "title": "Finishing",
+          "text": "Metal primer plus powder or forge paint, so the finish does not peel after one season."
+        },
+        {
+          "title": "Installation",
+          "text": "We deliver and install in a day, clean up after ourselves and sign the warranty."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Work",
+      "title": "Canopies already at work",
+      "items": [
+        {
+          "caption": "Two-car solar carport, Yangihayot",
+          "image": ""
+        },
+        {
+          "caption": "Polycarbonate terrace canopy",
+          "image": ""
+        },
+        {
+          "caption": "Eight-space shop car park",
+          "image": ""
+        },
+        {
+          "caption": "Gate welding on site",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "They put a solar canopy over our two cars. The cars stay in the shade in summer and the electricity bill is noticeably lower.",
+          "author": "Farrukh",
+          "role": "private house"
+        },
+        {
+          "quote": "The welder came the same day and fixed the gate in an hour.",
+          "author": "Malika",
+          "role": "Sergeli"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Will the canopy carry panels and snow?",
+          "a": "Yes. We calculate panel, wind and snow loads for Tashkent and use 80×80 tube with a margin."
+        },
+        {
+          "q": "Can panels go on an existing canopy?",
+          "a": "Sometimes, after an inspection. More often we reinforce the frame, which is cheaper than starting over."
+        },
+        {
+          "q": "Is the calculator exact?",
+          "a": "It is a guide based on Tashkent’s average sunshine. We calculate exactly after a site visit."
+        },
+        {
+          "q": "How much is a welder call-out?",
+          "a": "From 350,000 UZS per call-out with a generator, then by the scope of work."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "We measure across Tashkent and the region",
+      "text": "54 Yangihayot St. Mon–Sat 8:00–19:00.",
+      "cta": {
+        "label": "Call us",
+        "href": "tel:+998712000406"
+      }
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "name": "Qora Metall",
+  "tagline": "Forged decor, lamps and shelves in black steel",
+  "niche": "Forged decor and loft accessories in black steel",
+  "seo": {
+    "title": "Qora Metall — forged decor and loft lamps in Tashkent",
+    "description": "Forged hooks, candle holders, wall panels, lamps and loft shelves in waxed black steel. Workshop and showroom in Yunusabad, made to order.",
+    "keywords": [
+      "forged decor Tashkent",
+      "loft lamps",
+      "steel shelves",
+      "steel gift"
+    ],
+    "answer": "Qora Metall is a workshop and showroom in Yunusabad making forged decor and loft accessories in black steel. Hooks from 120,000 UZS, candle holders from 260,000 UZS, wall panels from 900,000 UZS, loft lamps from 1,100,000 UZS. Custom pieces take 5–10 days; phone +998 71 200-04-05."
+  },
+  "nav": {
+    "cta": {
+      "label": "Order",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a forged decor and loft accessories workshop: graphic sketches drawn line by line, a work catalogue, makers and prices.",
+    "features": []
+  },
+  "leads": {
+    "title": "Book a site visit",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "Qora Metall sole trader",
+    "street": "107 Amir Temur Ave, Yunusabad",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent Region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Qora",
+      "eyebrow": "Black steel · Yunusabad",
+      "subtitle": "Hooks, candle holders, panels and lamps forged by hand and finished with wax, not paint. The metal stays alive: you can see every hammer blow.",
+      "words": [
+        "decor",
+        "lamps",
+        "shelves",
+        "gifts"
+      ],
+      "cta": {
+        "label": "Order a piece",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Work",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Hand forged",
+        "Wax, not paint",
+        "Loft",
+        "Lamps",
+        "Gifts",
+        "Engraving"
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "label": "Work",
+      "title": "From the workshop",
+      "items": [
+        {
+          "title": "Dagger coat hook",
+          "category": "Hallway",
+          "year": "2 days",
+          "text": "A hook for keys and bags shaped like a forged blade.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Swallow weather vane",
+          "category": "Yard",
+          "year": "5 days",
+          "text": "A swallow cut from 3 mm sheet on a steel spindle.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Eye wall light",
+          "category": "Lamp",
+          "year": "6 days",
+          "text": "A wall light with a warm bulb inside a forged ring.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Moon and star panel",
+          "category": "Living room",
+          "year": "7 days",
+          "text": "An 80 cm wall panel with a brass star.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Serpent poker",
+          "category": "Fireplace",
+          "year": "3 days",
+          "text": "A twisted poker with a serpent head on the handle.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Anchor hooks",
+          "category": "Bathroom",
+          "year": "2 days",
+          "text": "A set of three towel hooks.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Heart candle holder",
+          "category": "Gift",
+          "year": "2 days",
+          "text": "A three-candle holder engraved with names.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Steel rose",
+          "category": "Gift",
+          "year": "1 day",
+          "text": "A life-size forged rose that never wilts.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Workshop",
+      "title": "Metal you want to touch",
+      "text": "We are a small workshop with a forge in the yard and a showroom on the ground floor. We do not paint: we heat each piece, rub in hot wax and polish it with a brush. The result is a warm black with a brown sheen that will not chip and only gets better with age.",
+      "image": ""
+    },
+    {
+      "id": "prices",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "What it costs",
+      "items": [
+        {
+          "name": "Small pieces",
+          "price": "from 120,000 UZS",
+          "period": "hooks, handles",
+          "features": [
+            "In stock or in 2 days",
+            "Wax and polish",
+            "Fixings included"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Lamp",
+          "price": "from 1,100,000 UZS",
+          "period": "wall or pendant",
+          "features": [
+            "Your size and shape",
+            "Warm light, E27 socket",
+            "2-year wiring warranty"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Panels and shelves",
+          "price": "from 900,000 UZS",
+          "period": "made to order",
+          "features": [
+            "Sketch to fit your wall",
+            "Brass inlays",
+            "Installation in Tashkent"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Makers",
+      "title": "Who forges",
+      "items": [
+        {
+          "name": "Aziz",
+          "role": "smith, founder",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "sketches and engraving",
+          "image": ""
+        },
+        {
+          "name": "Sanjar",
+          "role": "lamps and wiring",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Stages",
+      "title": "How a piece is made",
+      "items": [
+        {
+          "title": "Measurement",
+          "text": "Send a photo of the wall or visit the showroom and we pick the size."
+        },
+        {
+          "title": "Sketch",
+          "text": "Lola draws a life-size sketch. Revisions are free."
+        },
+        {
+          "title": "Fabrication",
+          "text": "We forge and assemble and send you a video of the process."
+        },
+        {
+          "title": "Finishing",
+          "text": "Hot wax instead of paint for a warm, glowing black."
+        },
+        {
+          "title": "Installation",
+          "text": "We hang it anywhere in Tashkent or pack it in a gift box."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Will it rust?",
+          "a": "Not indoors — the wax seals it. For bathrooms and outdoors we add a clear lacquer coat."
+        },
+        {
+          "q": "Can you make my design?",
+          "a": "Yes. Send a drawing or photo and we will turn it into a sketch and price it."
+        },
+        {
+          "q": "Do you engrave?",
+          "a": "Yes — names, dates and short inscriptions on candle holders, hooks and panels."
+        },
+        {
+          "q": "Do you ship to the regions?",
+          "a": "Yes, we pack in a padded box and ship by courier."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Showroom",
+      "title": "Come and touch the metal",
+      "text": "107 Amir Temur Ave, Yunusabad. Tue–Sun 11:00–20:00. Message your idea on Telegram and we will send a sketch.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/qorametall"
+      }
+    }
+  ]
+}

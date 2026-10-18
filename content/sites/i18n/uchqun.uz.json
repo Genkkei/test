@@ -1,0 +1,299 @@
+{
+  "name": "Uchqun",
+  "tagline": "Payvandlash, soyabonlar va avtoturargoh ustidagi quyosh tomlari",
+  "niche": "Payvandlash ishlari va quyosh panelli soyabonlar",
+  "seo": {
+    "title": "Uchqun — Toshkentda soyabonlar va payvandlash ishlari",
+    "description": "Mashina va terrasalar uchun soyabonlar, jumladan tomida quyosh panellari bilan, joyga chiqib payvandlash, darvoza va karkaslarni ta’mirlash. Yangihayot, Toshkent.",
+    "keywords": [
+      "mashina soyaboni Toshkent",
+      "quyosh soyaboni",
+      "joyga chiqib payvandlash",
+      "polikarbonat soyabon"
+    ],
+    "answer": "Uchqun — Yangihayotdagi payvandlash ustaxonasi: bitta mashina uchun soyabon 9 500 000 so‘mdan, 5 kVt panelli 2 mashinalik quyosh soyaboni 62 000 000 so‘mdan, joyga chiqib payvandlash bir chiqish uchun 350 000 so‘mdan. Soyabonni o‘rnatish 2–3 kun, karkasga 5 yil kafolat, telefon +998 71 200-04-06."
+  },
+  "nav": {
+    "cta": {
+      "label": "O‘lchovchi",
+      "href": "#order"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Payvandlash ustaxonasi va soyabon o‘rnatish uchun sayt: birinchi ekranda tom ustidagi quyosh, quvvat kalkulyatori, xizmatlar, paketlar va bosqichlar.",
+    "features": []
+  },
+  "leads": {
+    "title": "O‘lchovchini chaqirish",
+    "thanks": ""
+  },
+  "business": {
+    "legalName": "«Uchqun Payvand» MChJ",
+    "street": "Yangihayot ko‘chasi, 54, Yangihayot tumani",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mashinaga soya, uyga yorug‘lik",
+      "eyebrow": "Payvandlash va soyabonlar · Yangihayot",
+      "subtitle": "Mashina va terrasalar uchun soyabonlar quramiz. Darhol tomida quyosh panellari bilan ham mumkin — soyabon yozda soya, yil bo‘yi esa elektr beradi.",
+      "words": [
+        "Karkas 80×80",
+        "Joyga chiqib payvandlash",
+        "Panellar 550 Vt"
+      ],
+      "cta": {
+        "label": "O‘lchovchini chaqirish",
+        "href": "#order"
+      },
+      "ctaSecondary": {
+        "label": "Quvvatni hisoblash",
+        "href": "#solar"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Soyabonlar",
+        "Quyosh tomlari",
+        "Joyga chiqib payvandlash",
+        "Darvoza ta’miri",
+        "Polikarbonat",
+        "Profnastil"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "2015 yildan payvandlaymiz, endi quyoshni ham tutamiz",
+      "text": "Joyga chiqib darvoza va panjaralarni payvandlashdan boshlagandik. Mijozlar tobora ko‘proq soyabon, keyin esa ularga quyosh panellarini o‘rnatishni so‘rashdi. Endi panellar va shamol yukini hisoblaymiz, 80×80 quvurdan karkas payvandlaymiz va hamkor elektriklar bilan stansiyani o‘rnatamiz.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimani payvandlaymiz va o‘rnatamiz",
+      "items": [
+        {
+          "title": "Bitta mashina uchun soyabon",
+          "text": "80×80 karkas, polikarbonat yoki profnastil tom.",
+          "price": "9 500 000 so‘mdan",
+          "tag": "2 kun"
+        },
+        {
+          "title": "Terrasa soyaboni",
+          "text": "Devorga yoki alohida turuvchi, suv oqizgich bilan.",
+          "price": "1 100 000 so‘mdan m² uchun",
+          "tag": "3 kun"
+        },
+        {
+          "title": "Quyosh soyaboni",
+          "text": "Panellar uchun karkas, invertor va uyga ulash.",
+          "price": "62 000 000 so‘mdan",
+          "tag": "5 kun"
+        },
+        {
+          "title": "Joyga chiqib payvandlash",
+          "text": "Darvozalar, eshikchalar, panjaralar — generator bilan kelamiz.",
+          "price": "350 000 so‘mdan chiqish uchun",
+          "tag": "qo‘ng‘iroq kuni"
+        }
+      ]
+    },
+    {
+      "id": "solar",
+      "type": "pricing",
+      "label": "Quyosh soyabonlari",
+      "title": "Quvvatni hisoblang va soyabon tanlang",
+      "items": [
+        {
+          "name": "1 mashina · 3 kVt",
+          "price": "38 000 000 so‘mdan",
+          "period": "o‘rnatish bilan",
+          "features": [
+            "550 Vt li 6 panel",
+            "Tarmoq invertori",
+            "80×80 karkas"
+          ],
+          "featured": false
+        },
+        {
+          "name": "2 mashina · 5 kVt",
+          "price": "62 000 000 so‘mdan",
+          "period": "o‘rnatish bilan",
+          "features": [
+            "550 Vt li 10 panel",
+            "Gibrid invertor",
+            "Soyabon yoritgichi",
+            "Telefonda monitoring"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Biznes avtoturargohi",
+          "price": "hisob bo‘yicha",
+          "period": "6 joydan",
+          "features": [
+            "Loyiha va yuk hisobi",
+            "Uch fazali invertor",
+            "Elektromobil zaryadi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "karkasga kafolat"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "soyabon qurilgan"
+        },
+        {
+          "value": "80",
+          "suffix": " mm",
+          "label": "ustun profili"
+        },
+        {
+          "value": "2",
+          "suffix": " kun",
+          "label": "oddiy soyabonni o‘rnatish"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "O‘lchovdan birinchi kilovattgacha",
+      "items": [
+        {
+          "title": "O‘lchov",
+          "text": "Usta namunalar bilan keladi, o‘lchamlarni oladi va vazifani muhokama qiladi. Toshkent bo‘ylab bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Eskiz chizamiz va smetani hisoblaymiz. Yoqmaguncha o‘zgartiramiz — qo‘shimcha to‘lovsiz."
+        },
+        {
+          "title": "Tayyorlash",
+          "text": "O‘z sexsimizda kesamiz, egamiz, bolg‘alaymiz va payvandlaymiz. Har bir bosqichda surat yuboramiz."
+        },
+        {
+          "title": "Bo‘yash",
+          "text": "Metall uchun grunt va kukunli yoki temirchilik bo‘yog‘i — bir mavsumda ko‘chib ketmaydi."
+        },
+        {
+          "title": "O‘rnatish",
+          "text": "Olib kelamiz va bir kunda o‘rnatamiz, ortimizdan tozalaymiz. Kafolatni imzolaymiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ishlar",
+      "title": "Allaqachon ishlayotgan soyabonlar",
+      "items": [
+        {
+          "caption": "2 mashinalik quyosh soyaboni, Yangihayot",
+          "image": ""
+        },
+        {
+          "caption": "Polikarbonatli terrasa soyaboni",
+          "image": ""
+        },
+        {
+          "caption": "Do‘konning 8 joylik avtoturargohi",
+          "image": ""
+        },
+        {
+          "caption": "Joyga chiqib darvoza payvandlash",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar aytadi",
+      "items": [
+        {
+          "quote": "Ikki mashina ustiga panelli soyabon qo‘yishdi. Yozda mashinalar soyada, elektr hisobi esa sezilarli kamaydi.",
+          "author": "Farrux",
+          "role": "xususiy uy"
+        },
+        {
+          "quote": "Payvandchi o‘sha kuni kelib, darvozani bir soatda tuzatdi.",
+          "author": "Malika",
+          "role": "Sergeli"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Soyabon panellar va qorga chidaydimi?",
+          "a": "Ha: Toshkent uchun panellar, shamol va qor yukini hisoblaymiz va zaxira bilan 80×80 quvur olamiz."
+        },
+        {
+          "q": "Eski soyabonga panel qo‘yish mumkinmi?",
+          "a": "Ba’zan — ko‘rikdan keyin. Ko‘pincha karkasni kuchaytiramiz: bu hammasini qayta qilishdan arzonroq."
+        },
+        {
+          "q": "Kalkulyator aniq quvvatni ko‘rsatadimi?",
+          "a": "Bu Toshkentning o‘rtacha quyoshi bo‘yicha mo‘ljal. Aniq hisobni chiqish va o‘lchovdan keyin qilamiz."
+        },
+        {
+          "q": "Payvandchi chiqishi qancha turadi?",
+          "a": "Generator bilan chiqish 350 000 so‘mdan; keyin — ish hajmi bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Toshkent va viloyatda o‘lchovga kelamiz",
+      "text": "Yangihayot, Yangihayot ko‘chasi, 54. Du–Sha 8:00–19:00.",
+      "cta": {
+        "label": "Qo‘ng‘iroq qilish",
+        "href": "tel:+998712000406"
+      }
+    }
+  ]
+}
