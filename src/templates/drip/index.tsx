@@ -274,7 +274,11 @@ function Testimonials({ section: s, site }: SectionProps<'testimonials'>) {
             <span className="drip-card__stamp" aria-hidden="true">
               {pick(site.lang, { ru: 'гость', uz: 'mehmon', en: 'guest' })} №{String(i + 1).padStart(2, '0')}
             </span>
-            <blockquote>«{it.quote}»</blockquote>
+            <blockquote>
+              {pick(site.lang, { ru: '«', uz: '«', en: '“' })}
+              {it.quote}
+              {pick(site.lang, { ru: '»', uz: '»', en: '”' })}
+            </blockquote>
             <figcaption>
               {it.author}
               {it.role ? <small>{it.role}</small> : null}
