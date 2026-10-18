@@ -1,0 +1,359 @@
+{
+  "name": "Siyoh",
+  "tagline": "Tattoos you will still be proud of in twenty years",
+  "niche": "Tattoo studio: custom designs, blackwork, fine line and cover-ups",
+  "nav": {
+    "cta": {
+      "label": "Discuss a design",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a tattoo studio, piercer or illustrator. Black ink with an acid accent: a flash sheet whose drawings ink themselves line by line, ink drops trailing the cursor and a portfolio where each design floods with colour on hover.",
+    "features": []
+  },
+  "seo": {
+    "title": "Siyoh — tattoo studio in Tashkent: custom designs",
+    "description": "Custom tattoos in Tashkent: blackwork, fine line, ornament and cover-ups. Single-use needles, a sterile room, free consultation and sketch.",
+    "keywords": [
+      "tattoo Tashkent",
+      "tattoo studio",
+      "tattoo design",
+      "tattoo cover-up",
+      "fine line tattoo",
+      "blackwork tattoo"
+    ],
+    "answer": "Siyoh is a tattoo studio at 7 Muqimiy Street in Tashkent, open Tuesday to Sunday from 12:00 to 21:00. Mini tattoos start at 400,000 sum, an hour of tattooing is 600,000 sum, a full day 3,500,000 sum. Consultation and sketch are free, needles are single-use; book on Telegram. We tattoo clients aged 18 and over."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Siyoh",
+      "eyebrow": "Tattoo studio · Tashkent",
+      "subtitle": "We draw your design from scratch instead of copying the internet. Blackwork, fine line, ornament and cover-ups — in lines that will not blur over the years.",
+      "words": [
+        "blackwork",
+        "fine line",
+        "ornament",
+        "cover-ups"
+      ],
+      "cta": {
+        "label": "Discuss a design",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Work",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Blackwork",
+        "Fine line",
+        "Suzani ornament",
+        "Old school",
+        "Lettering",
+        "Cover-ups",
+        "Piercing"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Studio",
+      "title": "Every design is drawn once",
+      "text": "Three artists and one sterile room in an old house on Muqimiy. We do not repeat other people’s work: at the consultation we listen to your story, draw a design and revise it until you say yes. Needles and caps are single-use and every surface is cleaned after each guest.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "works",
+      "label": "Work",
+      "title": "Flash and finished pieces",
+      "items": [
+        {
+          "title": "Dagger and rose",
+          "category": "Blackwork",
+          "year": "forearm",
+          "text": "A classic motif in fine line, 3 hours.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Swallow",
+          "category": "Old school",
+          "year": "collarbone",
+          "text": "A matching piece for two sisters.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Eye",
+          "category": "Fine line",
+          "year": "wrist",
+          "text": "Minimal, 40 minutes.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Moon and star",
+          "category": "Ornament",
+          "year": "shoulder blade",
+          "text": "A star with a suzani pattern.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Snake",
+          "category": "Blackwork",
+          "year": "shin",
+          "text": "A cover-up of an old script, two sessions.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Anchor",
+          "category": "Old school",
+          "year": "upper arm",
+          "text": "A gift for a sailor father.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Heart and banner",
+          "category": "Lettering",
+          "year": "ribs",
+          "text": "A daughter’s name in the banner.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Rose",
+          "category": "Flash",
+          "year": "available",
+          "text": "A ready design — yours if you want it.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "anchor": "artists",
+      "label": "Artists",
+      "title": "Who will tattoo you",
+      "items": [
+        {
+          "name": "Nigora",
+          "role": "blackwork and ornament, founder",
+          "image": ""
+        },
+        {
+          "name": "Timur",
+          "role": "old school and lettering",
+          "image": ""
+        },
+        {
+          "name": "Madina",
+          "role": "fine line and mini tattoos",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "anchor": "process",
+      "label": "How it works",
+      "title": "Four steps to a tattoo",
+      "items": [
+        {
+          "title": "Consultation",
+          "text": "We meet or call, talk through the idea, placement and size. Free."
+        },
+        {
+          "title": "Design",
+          "text": "The artist draws your design within a week and refines it with you."
+        },
+        {
+          "title": "Session",
+          "text": "We transfer the stencil, check the fit and tattoo. Breaks whenever you need."
+        },
+        {
+          "title": "Healing",
+          "text": "You leave with a healing film and aftercare notes. A touch-up after a month is free."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "prices",
+      "label": "Prices",
+      "title": "What it costs",
+      "items": [
+        {
+          "name": "Mini",
+          "price": "from 400,000 sum",
+          "period": "up to 5 cm",
+          "features": [
+            "Design included",
+            "About an hour",
+            "Free touch-up"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Session",
+          "price": "600,000 sum",
+          "period": "per hour",
+          "features": [
+            "For mid-size pieces",
+            "Custom design",
+            "Healing film"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Full day",
+          "price": "3,500,000 sum",
+          "period": "up to 7 hours",
+          "features": [
+            "Sleeves and large pieces",
+            "Lunch and breaks",
+            "Priority booking"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "artists"
+        },
+        {
+          "value": "1",
+          "suffix": "",
+          "label": "design, one piece"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "single-use needles"
+        },
+        {
+          "value": "30",
+          "suffix": " days",
+          "label": "to a free touch-up"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Reviews",
+      "title": "Guests say",
+      "items": [
+        {
+          "quote": "I came with a Pinterest picture and left with a design nobody else wears. Thanks to Nigora for her patience.",
+          "author": "Sevara",
+          "role": "blackwork, forearm"
+        },
+        {
+          "quote": "They covered the script I got at nineteen. Now there is a snake and I love it.",
+          "author": "Behzod",
+          "role": "cover-up"
+        },
+        {
+          "quote": "My first tattoo and I was scared. Madina explained everything, we took a break and forty minutes later it was done.",
+          "author": "Lola",
+          "role": "mini, wrist"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "FAQ",
+      "title": "Before your first tattoo",
+      "items": [
+        {
+          "q": "Does it hurt?",
+          "a": "It depends on placement: the wrist and forearm barely register, the ribs more so. We pause whenever you ask."
+        },
+        {
+          "q": "What is the minimum age?",
+          "a": "Eighteen, with ID. We make no exceptions."
+        },
+        {
+          "q": "How long does a design take?",
+          "a": "Usually a week. Minis and flash from our sheet can be done on the day of the consultation."
+        },
+        {
+          "q": "Is there a deposit?",
+          "a": "Yes, 200,000 sum when you book a session — it counts towards the price."
+        },
+        {
+          "q": "How do I look after it?",
+          "a": "Peel the film after 3–5 days, then use cream and avoid sun and pools for two weeks. We give you written notes."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Booking",
+      "title": "Tell us your idea",
+      "text": "Write on Telegram: what you want, where and roughly how big. Send references if you like — we will draw our own.",
+      "cta": {
+        "label": "Write on Telegram",
+        "href": "https://t.me/siyohtattoo"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Siyoh Tattoo (sole trader)",
+    "street": "7 Muqimiy St, second floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/siyoh.tattoo"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/siyohtattoo"
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://pinterest.com/siyohtattoo"
+      }
+    ]
+  }
+}

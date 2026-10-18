@@ -1,0 +1,278 @@
+{
+  "name": "Sahna",
+  "tagline": "Har kecha parda ko‘tariladigan teatr",
+  "niche": "Teatr va konsert maydoni: spektakllar, kamer musiqasi, bolalar ertaliklari",
+  "nav": {
+    "cta": {
+      "label": "Chiptalar",
+      "href": "#tickets"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Teatr, filarmoniya yoki konsert zali uchun sayt. Kirishda baxmal parda ochiladi, projektor kursorga ergashadi, katta sanali mavsum afishasi va qatorlar bo‘yicha narxli zal sxemasi.",
+    "features": []
+  },
+  "seo": {
+    "title": "Sahna — Toshkentdagi teatr va konsert zali: afisha",
+    "description": "Toshkentdagi Sahna teatri afishasi: drama spektakllari, kamer konsertlari, bolalar ertaliklari. 320 o‘rinli zal, chiptalar 80 000 so‘mdan, kassa va onlayn bron.",
+    "keywords": [
+      "teatr Toshkent",
+      "teatr afishasi",
+      "spektakl Toshkent",
+      "kamer konsert",
+      "teatrga chiptalar",
+      "bolalar spektakli"
+    ],
+    "answer": "Sahna — Toshkent, Mustaqillik ko‘chasi, 12 dagi teatr va konsert maydoni. 320 o‘rinli zal, spektakllar seshanbadan yakshanbagacha 19:00 da, dam olish kunlari 11:00 da ertaliklar. Chiptalar — balkonga 80 000 so‘mdan parterga 250 000 so‘mgacha, kassa 11:00 dan 21:00 gacha ishlaydi, bron — telefon yoki Telegram orqali."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Sahna",
+      "eyebrow": "Teatr · 2026/27 mavsumi",
+      "subtitle": "Drama, kamer musiqasi va bolalar uchun ertaklar — sahnadan har bir yuz ko‘rinadigan 320 o‘rinli zalda.",
+      "words": [
+        "Premyera",
+        "«Hamlet»",
+        "24-oktyabr"
+      ],
+      "cta": {
+        "label": "Chipta olish",
+        "href": "#tickets"
+      },
+      "ctaSecondary": {
+        "label": "Afisha",
+        "href": "#season"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Teatr haqida",
+      "title": "To‘rtinchi devorsiz sahna",
+      "text": "2016-yilda tiklangan sobiq Madaniyat uyida o‘ynaymiz: yog‘och zal, jonli akustika, kamer ansambl uchun orkestr chuquri. Truppa — yigirma aktyor, dam olish kunlari ertalab esa sahna bolalarga beriladi.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "season",
+      "label": "Afisha",
+      "title": "2026/27 mavsumi",
+      "items": [
+        {
+          "title": "Hamlet",
+          "category": "Tragediya · Shekspir",
+          "year": "24-oktyabr",
+          "text": "Mavsum premyerasi: uch soat, bitta antrakt, Pasternak tarjimasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Olchazor",
+          "category": "Komediya · Chexov",
+          "year": "8-noyabr",
+          "text": "Spektakl repertuarda beshinchi yil, tarkib yangilangan.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Shashmaqom oqshomi",
+          "category": "Konsert",
+          "year": "15-noyabr",
+          "text": "Kamer ansambl, Buxoro va Xorazm mumtoz musiqasi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kichkina shahzoda",
+          "category": "6 yoshdan bolalarga · Ekzyuperi",
+          "year": "dam olish kunlari, 11:00",
+          "text": "Qo‘g‘irchoqlar va jonli musiqali ertalik, 60 daqiqa.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Revizor",
+          "category": "Komediya · Gogol",
+          "year": "29-noyabr",
+          "text": "Zamonaviy shaharga ko‘chirilgan Gogol.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "tickets",
+      "label": "Chiptalar",
+      "title": "Joylar va narxlar",
+      "items": [
+        {
+          "name": "Balkon",
+          "price": "80 000 so‘m",
+          "period": "1–6 qatorlar",
+          "features": [
+            "Butun sahna yuqoridan ko‘rinadi",
+            "Talabalarga 30% chegirma"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Amfiteatr",
+          "price": "150 000 so‘m",
+          "period": "10–16 qatorlar",
+          "features": [
+            "Zaldagi eng yaxshi tovush",
+            "Sovg‘a dasturcha"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Parter",
+          "price": "250 000 so‘m",
+          "period": "1–9 qatorlar",
+          "features": [
+            "Aktyorlar mimikasi ko‘rinadi",
+            "Navbatsiz kiyim xonasi"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "320",
+          "suffix": "",
+          "label": "zaldagi o‘rin"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "truppadagi aktyor"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "repertuardagi spektakl"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "haftada oqshom"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "anchor": "",
+      "label": "Zal",
+      "title": "Parda ortida",
+      "items": [
+        {
+          "caption": "Tomosha zali",
+          "image": ""
+        },
+        {
+          "caption": "«Hamlet» repetitsiyasi",
+          "image": ""
+        },
+        {
+          "caption": "Foye",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Tomoshabinlar",
+      "title": "Spektakldan keyin",
+      "items": [
+        {
+          "quote": "Amfiteatrda o‘tirib, har bir shivirni eshitdik. «Olchazor»ni ikkinchi marta ko‘ryapman.",
+          "author": "Gulnora",
+          "role": "tomoshabin"
+        },
+        {
+          "quote": "O‘g‘limizni «Kichkina shahzoda»ga olib bordik — keyin bir hafta qutidagi qo‘zichoqni chizdi.",
+          "author": "Anvar",
+          "role": "ota"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Savollar",
+      "title": "Tashrifdan oldin",
+      "items": [
+        {
+          "q": "Spektakllar soat nechada boshlanadi?",
+          "a": "Kechki — 19:00 da, ertaliklar — dam olish kunlari 11:00 da. Eshiklar 45 daqiqa oldin ochiladi."
+        },
+        {
+          "q": "Kechikish mumkinmi?",
+          "a": "Uchinchi qo‘ng‘iroqdan keyin zalga faqat antraktda kiritamiz — bu aktyorlarning iltimosi."
+        },
+        {
+          "q": "Kiyinish qoidasi bormi?",
+          "a": "Yo‘q. O‘zingizga qulay kiyimda keling."
+        },
+        {
+          "q": "Bolalarga necha yoshdan?",
+          "a": "Ertaliklarga — 4 yoshdan, kechki spektakllarga — 12 yoshdan, boshqacha ko‘rsatilmagan bo‘lsa."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Kassa",
+      "title": "Zalda ko‘rishguncha",
+      "text": "Kassa seshanbadan yakshanbagacha 11:00 dan 21:00 gacha ishlaydi. Bronni bir sutka ushlab turamiz, karta yoki naqd bilan sotib olish mumkin.",
+      "cta": {
+        "label": "Telegramda band qilish",
+        "href": "https://t.me/sahnatheatre"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Sahna Teatr MChJ",
+    "street": "Mustaqillik ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/sahna.theatre"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/sahnatheatre"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtube.com/@sahnatheatre"
+      }
+    ]
+  }
+}

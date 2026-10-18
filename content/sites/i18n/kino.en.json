@@ -1,0 +1,320 @@
+{
+  "name": "Ekran",
+  "tagline": "Films worth switching your phone off for",
+  "niche": "Arthouse cinema: premieres, retrospectives and a film club",
+  "nav": {
+    "cta": {
+      "label": "Tickets",
+      "href": "#tickets"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a cinema, film festival or film club. Celluloid and projector light: a flickering, sprocket-holed frame, day-by-day showtimes, programme posters and tickets with a tear-off stub.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ekran — arthouse cinema in Tashkent",
+    "description": "Arthouse listings in Tashkent: festival premieres, retrospectives, subtitled screenings and film club discussions. Two screens, tickets from 45,000 sum.",
+    "keywords": [
+      "cinema Tashkent",
+      "arthouse cinema",
+      "film listings Tashkent",
+      "subtitled films",
+      "film club",
+      "retrospective"
+    ],
+    "answer": "Ekran is an arthouse cinema at 30 Navoi Street in Tashkent with two screens of 120 and 48 seats and shows daily from 11:00 to midnight. Tickets are 45,000 sum in the daytime and 65,000 sum in the evening; a 10-film pass is 500,000 sum. Films play in the original language with subtitles, and the film club meets on Thursdays."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Ekran",
+      "eyebrow": "Arthouse cinema · Tashkent",
+      "subtitle": "Two screens, a projector that loves celluloid and films you will not find at the mall. In the original language, with subtitles.",
+      "words": [
+        "Tonight",
+        "Stalker",
+        "Tarkovsky, 1979",
+        "20:00 · hall 1"
+      ],
+      "cta": {
+        "label": "Buy a ticket",
+        "href": "#tickets"
+      },
+      "ctaSecondary": {
+        "label": "Showtimes",
+        "href": "#schedule"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Festival premieres",
+        "Retrospectives",
+        "Thursday film club",
+        "Subtitles",
+        "35 mm",
+        "Morning shows"
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "anchor": "schedule",
+      "label": "Showtimes",
+      "title": "This week",
+      "groups": [
+        {
+          "name": "Friday",
+          "items": [
+            {
+              "name": "Stalker",
+              "text": "Andrei Tarkovsky · USSR · 1979 · 161 min",
+              "price": "20:00 · hall 1"
+            },
+            {
+              "name": "In the Mood for Love",
+              "text": "Wong Kar-wai · Hong Kong · 2000 · 98 min",
+              "price": "18:30 · hall 2"
+            },
+            {
+              "name": "Parasite",
+              "text": "Bong Joon-ho · Korea · 2019 · 132 min",
+              "price": "22:10 · hall 2"
+            }
+          ]
+        },
+        {
+          "name": "Saturday",
+          "items": [
+            {
+              "name": "Seven Samurai",
+              "text": "Akira Kurosawa · Japan · 1954 · 207 min",
+              "price": "13:00 · hall 1"
+            },
+            {
+              "name": "Amélie",
+              "text": "Jean-Pierre Jeunet · France · 2001 · 122 min",
+              "price": "17:40 · hall 2"
+            },
+            {
+              "name": "The Grand Budapest Hotel",
+              "text": "Wes Anderson · USA · 2014 · 99 min",
+              "price": "20:30 · hall 1"
+            }
+          ]
+        },
+        {
+          "name": "Sunday",
+          "items": [
+            {
+              "name": "My Neighbour Totoro",
+              "text": "Hayao Miyazaki · Japan · 1988 · 86 min",
+              "price": "11:00 · hall 1"
+            },
+            {
+              "name": "8½",
+              "text": "Federico Fellini · Italy · 1963 · 138 min",
+              "price": "16:00 · hall 2"
+            },
+            {
+              "name": "Stalker",
+              "text": "Andrei Tarkovsky · USSR · 1979 · 161 min",
+              "price": "19:30 · hall 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "programs",
+      "label": "Programmes",
+      "title": "This season’s series",
+      "items": [
+        {
+          "title": "Tarkovsky: seven films",
+          "category": "Retrospective",
+          "year": "October",
+          "text": "Every feature on the big screen, each introduced by a film critic.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "New Asia",
+          "category": "Festival programme",
+          "year": "November",
+          "text": "Films from Korea, Japan and Taiwan from the last two years.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Cinema of Uzbekistan",
+          "category": "Archive",
+          "year": "December",
+          "text": "Restored prints of Uzbekfilm classics.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Cartoon mornings",
+          "category": "Family screening",
+          "year": "Sundays",
+          "text": "Animation for children aged six and up and their parents.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "tickets",
+      "label": "Tickets",
+      "title": "Ticket prices",
+      "items": [
+        {
+          "name": "Daytime",
+          "price": "45,000 sum",
+          "period": "before 17:00",
+          "features": [
+            "Either screen",
+            "Students 30,000 sum"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Evening",
+          "price": "65,000 sum",
+          "period": "after 17:00",
+          "features": [
+            "Either screen",
+            "Tea or coffee in the foyer"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Film pass",
+          "price": "500,000 sum",
+          "period": "10 films",
+          "features": [
+            "Never expires",
+            "Share it with a friend",
+            "Best-seat booking"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "About",
+      "title": "A hall where you can hear the silence",
+      "text": "We opened in a former club on Navoi Street: we kept the wooden seats and installed a digital projector plus a 35 mm one for special screenings. One minute of ads before the film, then the lights go down. No food in the hall, and we ask you to switch your phone off.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "screens of 120 and 48 seats"
+        },
+        {
+          "value": "35",
+          "suffix": " mm",
+          "label": "film projector"
+        },
+        {
+          "value": "1",
+          "suffix": " min",
+          "label": "of ads before the film"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "shows a day"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "FAQ",
+      "title": "Before the film",
+      "items": [
+        {
+          "q": "Are films dubbed?",
+          "a": "No, they play in the original language with Russian subtitles. Sunday morning cartoons are dubbed."
+        },
+        {
+          "q": "Can I return a ticket?",
+          "a": "Yes, up to two hours before the show, at the box office or via Telegram."
+        },
+        {
+          "q": "Is there popcorn?",
+          "a": "No. The foyer serves coffee, tea and pastries before and after the film."
+        },
+        {
+          "q": "What is the film club?",
+          "a": "On Thursdays we stay after the evening show and spend half an hour discussing the film with a critic. Your ticket gets you in."
+        },
+        {
+          "q": "Can I hire a screen?",
+          "a": "Yes, the 48-seat screen is available for private screenings and presentations from 1,500,000 sum for two hours."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Find us",
+      "title": "See you in the dark",
+      "text": "30 Navoi Street, next to Alisher Navoi metro station. The box office opens an hour before the first show.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/ekrankino"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Ekran Cinema LLC",
+    "street": "30 Navoi St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/ekrankino"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/ekran.kino"
+      },
+      {
+        "name": "Letterboxd",
+        "url": "https://letterboxd.com/ekrankino"
+      }
+    ]
+  }
+}

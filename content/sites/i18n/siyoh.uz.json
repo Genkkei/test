@@ -1,0 +1,359 @@
+{
+  "name": "Siyoh",
+  "tagline": "Yigirma yildan keyin ham ko‘rsatishdan uyalmaydigan tatuirovkalar",
+  "niche": "Tatu-studiya: mualliflik eskizlari, grafika, laynvork, eski tatuni yopish",
+  "nav": {
+    "cta": {
+      "label": "Eskizni muhokama qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Tatu-studiya, pirsing yoki illyustrator uchun sayt. Qora tush va kislotali urg‘u: rasmlari chiziq bilan chiziladigan fleş-varaq, kursor ortidan tush tomchilari va har bir eskiz ustiga kelganda rangga to‘ladigan portfolio.",
+    "features": []
+  },
+  "seo": {
+    "title": "Siyoh — Toshkentdagi tatu-studiya: eskiz va grafika",
+    "description": "Toshkentda mualliflik tatuirovkalari: grafika, laynvork, naqshlar, eski tatuni yopish. Bir martalik ignalar, steril xona, maslahat va eskiz bepul.",
+    "keywords": [
+      "tatu Toshkent",
+      "tatu-studiya",
+      "tatuirovka eskizi",
+      "tatuni yopish",
+      "laynvork",
+      "grafika tatu"
+    ],
+    "answer": "Siyoh — Toshkent, Muqimiy ko‘chasi, 7 dagi tatu-studiya, seshanbadan yakshanbagacha 12:00 dan 21:00 gacha ishlaydi. Mini tatu — 400 000 so‘mdan, bir soatlik seans — 600 000 so‘m, to‘liq kun — 3 500 000 so‘m. Maslahat va eskiz bepul, ignalar bir martalik, Telegram orqali yoziling. 18 yoshdan tatu qilamiz."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Siyoh",
+      "eyebrow": "Tatu-studiya · Toshkent",
+      "subtitle": "Eskizni internetdan olmaymiz, siz uchun chizamiz. Grafika, laynvork, naqsh va yopishlar — yillar o‘tib ham yoyilmaydigan ingichka chiziqlar bilan.",
+      "words": [
+        "grafika",
+        "laynvork",
+        "naqsh",
+        "yopishlar"
+      ],
+      "cta": {
+        "label": "Eskizni muhokama qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Ishlar",
+        "href": "#works"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Grafika",
+        "Laynvork",
+        "Suzani naqshi",
+        "Oldskul",
+        "Lettering",
+        "Yopishlar",
+        "Pirsing"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Studiya",
+      "title": "Har bir eskizni bir marta chizamiz",
+      "text": "Uch usta va Muqimiydagi eski uyda bitta steril xona. Boshqalarning ishini takrorlamaymiz: maslahatda hikoyangizni tinglaymiz, eskiz chizamiz va siz «ha» demaguningizcha tuzatamiz. Ignalar va qalpoqchalar bir martalik, yuzalarni har bir mehmondan keyin tozalaymiz.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "works",
+      "label": "Ishlar",
+      "title": "Fleş va bajarilgan eskizlar",
+      "items": [
+        {
+          "title": "Xanjar va atirgul",
+          "category": "Grafika",
+          "year": "bilak",
+          "text": "Ingichka chiziqda klassik syujet, 3 soat.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Qaldirg‘och",
+          "category": "Oldskul",
+          "year": "o‘mrov",
+          "text": "Ikki opa-singil uchun juft tatu.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ko‘z",
+          "category": "Laynvork",
+          "year": "bilak bo‘g‘imi",
+          "text": "Minimalizm, 40 daqiqa.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Oy va yulduz",
+          "category": "Naqsh",
+          "year": "kurak",
+          "text": "Suzani naqshli yulduz.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Ilon",
+          "category": "Grafika",
+          "year": "boldir",
+          "text": "Eski yozuvni yopish, ikki seans.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Langar",
+          "category": "Oldskul",
+          "year": "yelka",
+          "text": "Dengizchi otaga sovg‘a.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Lentali yurak",
+          "category": "Lettering",
+          "year": "qovurg‘a",
+          "text": "Lentada qizining ismi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Atirgul",
+          "category": "Fleş",
+          "year": "bo‘sh",
+          "text": "Tayyor eskiz — olish mumkin.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "anchor": "artists",
+      "label": "Ustalar",
+      "title": "Kim chizadi",
+      "items": [
+        {
+          "name": "Nigora",
+          "role": "grafika va naqsh, asoschi",
+          "image": ""
+        },
+        {
+          "name": "Temur",
+          "role": "oldskul va lettering",
+          "image": ""
+        },
+        {
+          "name": "Madina",
+          "role": "laynvork va mini tatu",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "anchor": "process",
+      "label": "Qanday o‘tadi",
+      "title": "Tatugacha to‘rt qadam",
+      "items": [
+        {
+          "title": "Maslahat",
+          "text": "Uchrashamiz yoki qo‘ng‘iroqlashamiz, g‘oya, joy va o‘lchamni muhokama qilamiz. Bepul."
+        },
+        {
+          "title": "Eskiz",
+          "text": "Usta bir hafta ichida eskiz chizadi va siz bilan birga tuzatadi."
+        },
+        {
+          "title": "Seans",
+          "text": "Eskizni teriga o‘tkazamiz, moslab ko‘ramiz, chizamiz. Tanaffus — xohlaganingizda."
+        },
+        {
+          "title": "Bitish",
+          "text": "Plyonka va parvarish yo‘riqnomasini beramiz. Bir oydan keyin tuzatish — bepul."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "prices",
+      "label": "Narxlar",
+      "title": "Qancha turadi",
+      "items": [
+        {
+          "name": "Mini",
+          "price": "400 000 so‘mdan",
+          "period": "5 sm gacha",
+          "features": [
+            "Eskiz kiradi",
+            "Taxminan bir soat",
+            "Tuzatish bepul"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Seans",
+          "price": "600 000 so‘m",
+          "period": "soatiga",
+          "features": [
+            "O‘rtacha ishlar uchun",
+            "Shaxsiy eskiz",
+            "Bitish uchun plyonka"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Kun",
+          "price": "3 500 000 so‘m",
+          "period": "7 soatgacha",
+          "features": [
+            "Yenglar va katta syujetlar",
+            "Tushlik va tanaffuslar",
+            "Yozilishda ustuvorlik"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "usta"
+        },
+        {
+          "value": "1",
+          "suffix": "",
+          "label": "eskiz — bitta ish"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "bir martalik ignalar"
+        },
+        {
+          "value": "30",
+          "suffix": " kun",
+          "label": "bepul tuzatishgacha"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Fikrlar",
+      "title": "Mehmonlar aytadi",
+      "items": [
+        {
+          "quote": "Pinterestdan rasm bilan keldim, boshqa hech kim taqmaydigan eskiz bilan ketdim. Sabri uchun Nigoraga rahmat.",
+          "author": "Sevara",
+          "role": "grafika, bilak"
+        },
+        {
+          "quote": "19 yoshimda qilgan yozuvni yopishdi. Endi u yerda ilon, men uni juda yaxshi ko‘raman.",
+          "author": "Behzod",
+          "role": "yopish"
+        },
+        {
+          "quote": "Birinchi tatu, juda qo‘rqardim. Madina hammasini tushuntirdi, tanaffus qildik — qirq daqiqada tayyor bo‘ldi.",
+          "author": "Lola",
+          "role": "mini, bilak"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Savollar",
+      "title": "Birinchi tatudan oldin",
+      "items": [
+        {
+          "q": "Og‘riydimi?",
+          "a": "Joyga bog‘liq: bilak deyarli sezilmaydi, qovurg‘a — sezilarliroq. Tanaffusni aytganingizda qilamiz."
+        },
+        {
+          "q": "Necha yoshdan?",
+          "a": "18 yoshdan, hujjat bilan. Istisno qilmaymiz."
+        },
+        {
+          "q": "Eskizni qancha kutish kerak?",
+          "a": "Odatda bir hafta. Mini tatu va varaqdagi fleşni maslahat kuni qilish mumkin."
+        },
+        {
+          "q": "Oldindan to‘lov kerakmi?",
+          "a": "Ha, seansga yozilishda 200 000 so‘m — u ish narxiga kiradi."
+        },
+        {
+          "q": "Keyin qanday parvarish qilish kerak?",
+          "a": "Plyonkani 3–5 kundan keyin olasiz, keyin krem, ikki hafta quyosh va basseynsiz. Yo‘riqnomani beramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Yozilish",
+      "title": "G‘oyangizni aytib bering",
+      "text": "Telegramga yozing: nima xohlaysiz, qayerga va taxminiy o‘lcham. Namunalarni yuborishingiz mumkin — o‘zimiznikini chizamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/siyohtattoo"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Siyoh Tattoo YaTT",
+    "street": "Muqimiy ko‘chasi, 7, ikkinchi qavat",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/siyoh.tattoo"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/siyohtattoo"
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://pinterest.com/siyohtattoo"
+      }
+    ]
+  }
+}

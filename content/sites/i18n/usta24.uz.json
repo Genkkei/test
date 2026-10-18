@@ -1,0 +1,321 @@
+{
+  "name": "Usta 24",
+  "tagline": "Santexnik va elektrik bir soatda uyingizda",
+  "niche": "Bir soatlik usta: santexnika, elektrika, Toshkent bo‘ylab mayda ta’mir",
+  "nav": {
+    "cta": {
+      "label": "Usta chaqirish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Bir soatlik usta, santexnik, elektrik va texnika ta’miri xizmati uchun sayt. Sariq servis uslubi: birinchi ekranda jonli buyurtma trekeri, belgilar bilan «dan» narxnoma va doim qo‘l ostidagi chaqirish tugmasi.",
+    "features": []
+  },
+  "seo": {
+    "title": "Usta 24 — Toshkentda santexnik va elektrik bir soatda",
+    "description": "Toshkentda kecha-kunduz ustani uyga chaqirish: oqish, tiqilish, rozetka, avtomat, aralashtirgich, qandil. Narx ish boshlanishidan oldin, 6 oy kafolat.",
+    "keywords": [
+      "santexnik Toshkent",
+      "elektrik uyga",
+      "bir soatlik usta Toshkent",
+      "tiqilishni bartaraf etish",
+      "aralashtirgichni almashtirish",
+      "avariya chaqiruvi"
+    ],
+    "answer": "Usta 24 — Toshkentda uyga usta xizmati: santexnik va elektrik o‘rtacha 60 daqiqada, kecha-kunduz yetib keladi. Chaqiruv — 50 000 so‘m, aralashtirgichni almashtirish — 120 000 so‘mdan, rozetka o‘rnatish — 60 000 so‘mdan. Usta narxni ish boshlanishidan oldin aytadi, ishga 6 oy kafolat. Chaqirish: +998 71 200-00-81 yoki Telegram."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Usta bir soatda uyingizda",
+      "eyebrow": "Kecha-kunduz · butun Toshkent",
+      "subtitle": "Jo‘mrak oqyapti, avtomat o‘chdi, rozetka ishlamayapti — buyurtma qoldiring, tekshirilgan usta asbob va ehtiyot qismlar bilan keladi. Narxni ish boshlanishidan oldin aytamiz.",
+      "words": [
+        "Buyurtma qabul qilindi",
+        "Usta yo‘lga chiqdi",
+        "Usta yetib keldi",
+        "Ish topshirildi"
+      ],
+      "cta": {
+        "label": "Usta chaqirish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Oqishlar",
+        "Tiqilishlar",
+        "Aralashtirgichlar",
+        "Boylerlar",
+        "Rozetkalar",
+        "Avtomatlar",
+        "Qandillar",
+        "Kir yuvish mashinalari"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "anchor": "services",
+      "label": "Narxlar",
+      "title": "Nimani tuzatamiz va qancha turadi",
+      "intro": "Narxlar — usta ishi uchun. Ehtiyot qismlar do‘kon cheki bo‘yicha yoki sizniki. Chaqiruv 50 000 so‘m, 200 000 so‘mdan ortiq ish buyurtma qilinsa — bepul.",
+      "items": [
+        {
+          "title": "Oqishni bartaraf etish",
+          "text": "Sababini topamiz, qistirma, fitting yoki quvur qismini almashtiramiz.",
+          "price": "80 000 so‘mdan",
+          "tag": "Santexnika"
+        },
+        {
+          "title": "Tiqilishni tozalash",
+          "text": "Rakovina, vanna, unitaz — tros yoki suv bosimi bilan.",
+          "price": "100 000 so‘mdan",
+          "tag": "Santexnika"
+        },
+        {
+          "title": "Aralashtirgichni almashtirish",
+          "text": "Eskisini olamiz, yangisini o‘rnatamiz, ulanishni tekshiramiz.",
+          "price": "120 000 so‘mdan",
+          "tag": "Santexnika"
+        },
+        {
+          "title": "Boyler o‘rnatish",
+          "text": "Mahkamlash, suv va tarmoqqa ulash, birinchi ishga tushirish.",
+          "price": "250 000 so‘mdan",
+          "tag": "Santexnika"
+        },
+        {
+          "title": "Rozetka yoki o‘chirgich",
+          "text": "O‘rnatish, almashtirish yoki joyini o‘zgartirish.",
+          "price": "60 000 so‘mdan",
+          "tag": "Elektrika"
+        },
+        {
+          "title": "Avtomat o‘chib qolyapti",
+          "text": "Qisqa tutashuv yoki ortiqcha yukni topamiz, avtomatni almashtiramiz.",
+          "price": "150 000 so‘mdan",
+          "tag": "Elektrika"
+        },
+        {
+          "title": "Qandil yoki chiroq",
+          "text": "Yig‘ish, shiftga o‘rnatish, ulash.",
+          "price": "90 000 so‘mdan",
+          "tag": "Elektrika"
+        },
+        {
+          "title": "Kir yuvish mashinasi",
+          "text": "Suv va oqovaga ulash, oqishga tekshirish.",
+          "price": "120 000 so‘mdan",
+          "tag": "Texnika"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " daq",
+          "label": "o‘rtacha yetib kelish vaqti"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "buyurtmalarni qabul qilamiz"
+        },
+        {
+          "value": "6",
+          "suffix": " oy",
+          "label": "ishga kafolat"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "shahar bo‘ylab usta"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "anchor": "how",
+      "label": "Qanday ishlaydi",
+      "title": "Buyurtmadan tayyorgacha",
+      "items": [
+        {
+          "title": "Buyurtma",
+          "text": "Qo‘ng‘iroq yoki Telegramda xabar. Rasm yuboring — narxni aniqroq aytamiz."
+        },
+        {
+          "title": "Usta yo‘lda",
+          "text": "Eng yaqin bo‘sh usta yo‘lga chiqadi, siz uning ismi va kelish vaqtini ko‘rasiz."
+        },
+        {
+          "title": "Narx ishdan oldin",
+          "text": "Usta joyida ko‘rib, yakuniy narxni aytadi. Rozi bo‘lsangiz — boshlaymiz."
+        },
+        {
+          "title": "Topshirish va kafolat",
+          "text": "Siz bilan birga tekshiramiz, o‘zimizdan keyin tozalaymiz, 6 oylik kafolat taloni beramiz."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "plans",
+      "label": "Abonement",
+      "title": "Kvartira va ofislar uchun",
+      "items": [
+        {
+          "name": "Bir martalik chaqiruv",
+          "price": "50 000 so‘m",
+          "period": "chaqiruv",
+          "features": [
+            "Har qanday vazifa",
+            "Narx ishdan oldin",
+            "6 oy kafolat"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Uy nazoratda",
+          "price": "190 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "Bepul chaqiruvlar",
+            "Har chorakda santexnika va shitni ko‘rik",
+            "Navbatsiz kelish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ofis",
+          "price": "900 000 so‘mdan",
+          "period": "oyiga",
+          "features": [
+            "Biriktirilgan usta",
+            "Jadval bo‘yicha ishlar",
+            "Buxgalteriya uchun hujjatlar"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Biz haqimizda",
+      "title": "Uyga kiritishdan uyalmaydigan ustalar",
+      "text": "Har bir usta suhbat, hujjat tekshiruvi va kattasi bilan sinov chaqiruvidan o‘tadi. Formada, oyoq kiyim g‘ilofi va changyutgich bilan keladi. Ta’mirdan keyin yarim yil ichida yana buzilsa — bepul tuzatamiz.",
+      "image": ""
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Kechasi rakovina ostidagi shlang yorildi. Usta 40 daqiqada keldi, yopdi, almashtirdi, polni ham artib qo‘ydi.",
+          "author": "Dilnoza",
+          "role": "Yunusobod"
+        },
+        {
+          "quote": "Narxni oldindan aytishdi va u oshmadi. Biz uchun bu asosiysi.",
+          "author": "Sardor",
+          "role": "Mirzo Ulug‘bek"
+        },
+        {
+          "quote": "Ofis uchun abonement oldik — elektrik jadval bo‘yicha keladi, o‘chgan avtomatlarni unutdik.",
+          "author": "Kamola",
+          "role": "ofis menejeri"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Usta qanchalik tez keladi?",
+          "a": "Toshkent bo‘ylab o‘rtacha 60 daqiqada. Kechasi va bayramlarda ham — shoshilinchlik uchun qo‘shimcha to‘lovsiz."
+        },
+        {
+          "q": "Chaqiruv qancha turadi?",
+          "a": "50 000 so‘m. 200 000 so‘mdan ortiq ish buyurtma qilsangiz — chaqiruv bepul."
+        },
+        {
+          "q": "Joyida narx o‘zgarsa-chi?",
+          "a": "Usta yakuniy narxni ish boshlanishidan oldin aytadi. Roziligingizsiz narx o‘zgarmaydi."
+        },
+        {
+          "q": "Ehtiyot qismlarni qayerdan olish kerak?",
+          "a": "Usta ko‘p ishlatiladigan qismlarni o‘zi bilan olib keladi va chekini beradi. Siznikini ham ishlatish mumkin."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Naqd, Uzcard yoki Humo kartasi, o‘tkazma orqali. Kompaniyalar uchun — hisob bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Chaqiruv",
+      "title": "Nima bo‘lganini yozing",
+      "text": "Qo‘ng‘iroq qiling yoki Telegramga yozing: manzil, nima buzilgani, bo‘lsa rasm. Besh daqiqada qayta qo‘ng‘iroq qilib, usta qachon kelishini aytamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/usta24uz"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Usta 24 Servis MChJ",
+    "street": "Bobur ko‘chasi, 17",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/usta24uz"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/usta24.uz"
+      },
+      {
+        "name": "Yandex Xaritalar",
+        "url": "https://yandex.uz/maps/-/usta24"
+      }
+    ]
+  }
+}

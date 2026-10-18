@@ -1,0 +1,320 @@
+{
+  "name": "Ekran",
+  "tagline": "Telefonni o‘chirib qo‘yishga arziydigan kino",
+  "niche": "Mualliflik kinosi kinoteatri: premyeralar, retrospektivalar, kinoklub",
+  "nav": {
+    "cta": {
+      "label": "Chiptalar",
+      "href": "#tickets"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kinoteatr, kinofestival yoki kinoklub uchun sayt. Plyonka va proyektor: miltillovchi va perforatsiyali kadr, kunlar bo‘yicha seanslar afishasi, dastur posterlari va yirtiladigan qismli chiptalar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Ekran — Toshkentdagi mualliflik kinosi kinoteatri",
+    "description": "Toshkentda mualliflik kinosi afishasi: festival premyeralari, retrospektivalar, subtitrli namoyishlar va kinoklubda muhokamalar. Ikki zal, chiptalar 45 000 so‘mdan.",
+    "keywords": [
+      "kinoteatr Toshkent",
+      "mualliflik kinosi",
+      "kino afishasi Toshkent",
+      "subtitrli kino",
+      "kinoklub",
+      "retrospektiva"
+    ],
+    "answer": "Ekran — Toshkent, Navoiy ko‘chasi, 30 dagi mualliflik kinosi kinoteatri: 120 va 48 o‘rinli ikki zal, seanslar har kuni 11:00 dan yarim tungacha. Chipta kunduzi 45 000 so‘m, kechqurun 65 000 so‘m, 10 seanslik abonement — 500 000 so‘m. Filmlar asl tilda subtitrlar bilan, payshanba kunlari muhokamali kinoklub."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Ekran",
+      "eyebrow": "Mualliflik kinosi kinoteatri · Toshkent",
+      "subtitle": "Ikki zal, plyonkani yaxshi ko‘radigan proyektor va savdo markazlarida ko‘rsatilmaydigan filmlar. Asl tilda, subtitrlar bilan.",
+      "words": [
+        "Bugun",
+        "Stalker",
+        "Tarkovskiy, 1979",
+        "20:00 · 1-zal"
+      ],
+      "cta": {
+        "label": "Chipta olish",
+        "href": "#tickets"
+      },
+      "ctaSecondary": {
+        "label": "Afisha",
+        "href": "#schedule"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Festival premyeralari",
+        "Retrospektivalar",
+        "Payshanba kinoklubi",
+        "Subtitrlar",
+        "35 mm",
+        "Ertalabki seanslar"
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "anchor": "schedule",
+      "label": "Afisha",
+      "title": "Shu hafta",
+      "groups": [
+        {
+          "name": "Juma",
+          "items": [
+            {
+              "name": "Stalker",
+              "text": "Andrey Tarkovskiy · SSSR · 1979 · 161 daq",
+              "price": "20:00 · 1-zal"
+            },
+            {
+              "name": "Muhabbat kayfiyati",
+              "text": "Vong Kar-vay · Gonkong · 2000 · 98 daq",
+              "price": "18:30 · 2-zal"
+            },
+            {
+              "name": "Parazitlar",
+              "text": "Pon Chjun-xo · Koreya · 2019 · 132 daq",
+              "price": "22:10 · 2-zal"
+            }
+          ]
+        },
+        {
+          "name": "Shanba",
+          "items": [
+            {
+              "name": "Yetti samuray",
+              "text": "Akira Kurosava · Yaponiya · 1954 · 207 daq",
+              "price": "13:00 · 1-zal"
+            },
+            {
+              "name": "Ameli",
+              "text": "Jan-Per Jone · Fransiya · 2001 · 122 daq",
+              "price": "17:40 · 2-zal"
+            },
+            {
+              "name": "«Grand Budapesht» mehmonxonasi",
+              "text": "Ues Anderson · AQSh · 2014 · 99 daq",
+              "price": "20:30 · 1-zal"
+            }
+          ]
+        },
+        {
+          "name": "Yakshanba",
+          "items": [
+            {
+              "name": "Qo‘shnim Totoro",
+              "text": "Xayao Miyadzaki · Yaponiya · 1988 · 86 daq",
+              "price": "11:00 · 1-zal"
+            },
+            {
+              "name": "Sakkiz yarim",
+              "text": "Federiko Fellini · Italiya · 1963 · 138 daq",
+              "price": "16:00 · 2-zal"
+            },
+            {
+              "name": "Stalker",
+              "text": "Andrey Tarkovskiy · SSSR · 1979 · 161 daq",
+              "price": "19:30 · 1-zal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "programs",
+      "label": "Dasturlar",
+      "title": "Mavsum sikllari",
+      "items": [
+        {
+          "title": "Tarkovskiy: yetti film",
+          "category": "Retrospektiva",
+          "year": "oktyabr",
+          "text": "Barcha to‘liq metrajli filmlar katta ekranda, har biridan oldin kinoshunos so‘zi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Yangi Osiyo",
+          "category": "Festival dasturi",
+          "year": "noyabr",
+          "text": "Koreya, Yaponiya va Tayvanning so‘nggi ikki yildagi filmlari.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "O‘zbekiston kinosi",
+          "category": "Arxiv",
+          "year": "dekabr",
+          "text": "«O‘zbekfilm» klassikasining tiklangan nusxalari.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Multfilmli tong",
+          "category": "Oilaviy namoyish",
+          "year": "yakshanba kunlari",
+          "text": "Olti yoshdan katta bolalar va ota-onalar uchun animatsiya.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "tickets",
+      "label": "Chiptalar",
+      "title": "Seans qancha turadi",
+      "items": [
+        {
+          "name": "Kunduzgi",
+          "price": "45 000 so‘m",
+          "period": "17:00 gacha",
+          "features": [
+            "Istalgan zal",
+            "Talabalarga — 30 000 so‘m"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Kechki",
+          "price": "65 000 so‘m",
+          "period": "17:00 dan keyin",
+          "features": [
+            "Istalgan zal",
+            "Foyeda choy yoki qahva"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Abonement",
+          "price": "500 000 so‘m",
+          "period": "10 seans",
+          "features": [
+            "Muddatsiz",
+            "Do‘st bilan bo‘lishish mumkin",
+            "Eng yaxshi joylarni band qilish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "Kinoteatr haqida",
+      "title": "Sukunat eshitiladigan zal",
+      "text": "Navoiydagi sobiq klubda ochildik: yog‘och kreslolarni qoldirdik, raqamli proyektor va maxsus namoyishlar uchun 35 millimetrlisini qo‘ydik. Filmdan oldin reklama — bir daqiqa, keyin chiroq o‘chadi. Zalga ovqat olib kirmaymiz, telefonlarni o‘chirishni so‘raymiz.",
+      "image": ""
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "zal — 120 va 48 o‘rinli"
+        },
+        {
+          "value": "35",
+          "suffix": " mm",
+          "label": "plyonkali proyektor"
+        },
+        {
+          "value": "1",
+          "suffix": " daq",
+          "label": "filmdan oldin reklama"
+        },
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "kunlik seans"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Savollar",
+      "title": "Seansdan oldin",
+      "items": [
+        {
+          "q": "Filmlar tarjima bilan ko‘rsatiladimi?",
+          "a": "Yo‘q, asl tilda rus tilidagi subtitrlar bilan. Yakshanba ertalab — dublyajli multfilmlar."
+        },
+        {
+          "q": "Chiptani qaytarish mumkinmi?",
+          "a": "Ha, seansdan ikki soat oldin — kassada yoki Telegram orqali."
+        },
+        {
+          "q": "Popkorn bormi?",
+          "a": "Yo‘q. Foyeda qahva, choy va pishiriqlar bor — seansdan oldin va keyin."
+        },
+        {
+          "q": "Kinoklub nima?",
+          "a": "Payshanba kunlari kechki seansdan keyin zalda qolib, yarim soat kinoshunos bilan filmni muhokama qilamiz. Kirish seans chiptasi bilan."
+        },
+        {
+          "q": "Zalni ijaraga olish mumkinmi?",
+          "a": "Ha, 48 o‘rinli kichik zal — xususiy namoyish va taqdimotlar uchun, ikki soatga 1 500 000 so‘mdan."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Qanday borish mumkin",
+      "title": "Qorong‘ida ko‘rishguncha",
+      "text": "Navoiy ko‘chasi, 30, «Alisher Navoiy» metro bekati yonida. Kassa birinchi seansdan bir soat oldin ochiladi.",
+      "cta": {
+        "label": "Telegramda bron",
+        "href": "https://t.me/ekrankino"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Ekran Sinema MChJ",
+    "street": "Navoiy ko‘chasi, 30",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/ekrankino"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/ekran.kino"
+      },
+      {
+        "name": "Letterboxd",
+        "url": "https://letterboxd.com/ekrankino"
+      }
+    ]
+  }
+}

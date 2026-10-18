@@ -1,0 +1,278 @@
+{
+  "name": "Sahna",
+  "tagline": "A theatre where the curtain rises every night",
+  "niche": "Theatre and concert venue: plays, chamber music and children’s matinees",
+  "nav": {
+    "cta": {
+      "label": "Tickets",
+      "href": "#tickets"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a theatre, philharmonic or concert hall. A velvet curtain parts as you arrive, a spotlight follows the cursor, the season’s playbill shows big dates, and a seating plan shows prices by row.",
+    "features": []
+  },
+  "seo": {
+    "title": "Sahna — theatre and concert hall in Tashkent",
+    "description": "What’s on at Sahna theatre in Tashkent: drama, chamber concerts and children’s matinees. A 320-seat hall, tickets from 80,000 sum, box office and online booking.",
+    "keywords": [
+      "theatre Tashkent",
+      "theatre listings",
+      "play Tashkent",
+      "chamber concert",
+      "theatre tickets",
+      "children’s play"
+    ],
+    "answer": "Sahna is a theatre and concert venue at 12 Mustaqillik Street in Tashkent. A 320-seat hall with performances Tuesday to Sunday at 19:00 and weekend matinees at 11:00. Tickets run from 80,000 sum in the balcony to 250,000 sum in the stalls; the box office is open 11:00–21:00 and you can book by phone or Telegram."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Sahna",
+      "eyebrow": "Theatre · 2026/27 season",
+      "subtitle": "Drama, chamber music and fairy tales for children in a 320-seat hall where the stage can see every face.",
+      "words": [
+        "Premiere",
+        "Hamlet",
+        "24 October"
+      ],
+      "cta": {
+        "label": "Buy tickets",
+        "href": "#tickets"
+      },
+      "ctaSecondary": {
+        "label": "What’s on",
+        "href": "#season"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "About",
+      "title": "A stage without a fourth wall",
+      "text": "We perform in a former House of Culture restored in 2016: a wooden hall, living acoustics and an orchestra pit for a chamber ensemble. The company has twenty actors, and on weekend mornings the stage belongs to children.",
+      "image": ""
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "season",
+      "label": "What’s on",
+      "title": "Season 2026/27",
+      "items": [
+        {
+          "title": "Hamlet",
+          "category": "Tragedy · Shakespeare",
+          "year": "24 October",
+          "text": "The season premiere: three hours, one interval, in Pasternak’s translation.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Cherry Orchard",
+          "category": "Comedy · Chekhov",
+          "year": "8 November",
+          "text": "In the repertoire for five years, now with a new cast.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "An evening of Shashmaqom",
+          "category": "Concert",
+          "year": "15 November",
+          "text": "A chamber ensemble performing the classical music of Bukhara and Khorezm.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Little Prince",
+          "category": "Ages 6+ · Saint-Exupéry",
+          "year": "weekends, 11:00",
+          "text": "A matinee with puppets and live music, 60 minutes.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Government Inspector",
+          "category": "Comedy · Gogol",
+          "year": "29 November",
+          "text": "Gogol transposed into a modern city.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "tickets",
+      "label": "Tickets",
+      "title": "Seats and prices",
+      "items": [
+        {
+          "name": "Balcony",
+          "price": "80,000 sum",
+          "period": "rows 1–6",
+          "features": [
+            "A full view of the stage from above",
+            "30% off for students"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Dress circle",
+          "price": "150,000 sum",
+          "period": "rows 10–16",
+          "features": [
+            "The best sound in the house",
+            "A free programme"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Stalls",
+          "price": "250,000 sum",
+          "period": "rows 1–9",
+          "features": [
+            "See every expression",
+            "Priority cloakroom"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "320",
+          "suffix": "",
+          "label": "seats in the hall"
+        },
+        {
+          "value": "20",
+          "suffix": "",
+          "label": "actors in the company"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "productions in repertoire"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "evenings a week"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "anchor": "",
+      "label": "The house",
+      "title": "Behind the curtain",
+      "items": [
+        {
+          "caption": "The auditorium",
+          "image": ""
+        },
+        {
+          "caption": "Hamlet in rehearsal",
+          "image": ""
+        },
+        {
+          "caption": "The foyer",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Audience",
+      "title": "After the show",
+      "items": [
+        {
+          "quote": "We sat in the dress circle and heard every whisper. I have seen The Cherry Orchard twice now.",
+          "author": "Gulnora",
+          "role": "audience member"
+        },
+        {
+          "quote": "We took our son to The Little Prince and he drew the sheep in the box for a week afterwards.",
+          "author": "Anvar",
+          "role": "father"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "FAQ",
+      "title": "Before your visit",
+      "items": [
+        {
+          "q": "When do performances start?",
+          "a": "Evening shows at 19:00, matinees at 11:00 on weekends. Doors open 45 minutes before."
+        },
+        {
+          "q": "What if I am late?",
+          "a": "After the third bell latecomers are seated at the interval — the actors ask us to."
+        },
+        {
+          "q": "Is there a dress code?",
+          "a": "No. Come as you are comfortable."
+        },
+        {
+          "q": "From what age can children come?",
+          "a": "Matinees from age 4, evening shows from 12 unless stated otherwise."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Box office",
+      "title": "See you in the hall",
+      "text": "The box office is open Tuesday to Sunday, 11:00–21:00. We hold bookings for 24 hours; pay by card or cash.",
+      "cta": {
+        "label": "Book on Telegram",
+        "href": "https://t.me/sahnatheatre"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Sahna Theatre LLC",
+    "street": "12 Mustaqillik St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/sahna.theatre"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/sahnatheatre"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtube.com/@sahnatheatre"
+      }
+    ]
+  }
+}

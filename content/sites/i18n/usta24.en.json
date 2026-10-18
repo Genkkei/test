@@ -1,0 +1,321 @@
+{
+  "name": "Usta 24",
+  "tagline": "A plumber or electrician at your door within the hour",
+  "niche": "Handyman service: plumbing, electrics and small repairs across Tashkent",
+  "nav": {
+    "cta": {
+      "label": "Call a pro",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for handyman, plumbing, electrical and appliance repair services. A bold yellow service look: a live job tracker on the first screen, a “from” price list with icons and a call button always within reach.",
+    "features": []
+  },
+  "seo": {
+    "title": "Usta 24 — plumber and electrician in Tashkent within an hour",
+    "description": "Call a handyman to your home in Tashkent around the clock: leaks, blockages, sockets, breakers, taps and light fittings. Price agreed before work starts, 6-month guarantee.",
+    "keywords": [
+      "plumber Tashkent",
+      "electrician home visit",
+      "handyman Tashkent",
+      "drain unblocking",
+      "tap replacement",
+      "emergency call-out"
+    ],
+    "answer": "Usta 24 is a home repair service in Tashkent: a plumber or electrician arrives in about 60 minutes, day or night. A call-out is 50,000 sum, replacing a tap starts at 120,000 sum, fitting a socket at 60,000 sum. The price is agreed before work starts and every job carries a 6-month guarantee. Call +998 71 200-00-81 or write on Telegram."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "A pro at your door in an hour",
+      "eyebrow": "Day and night · all of Tashkent",
+      "subtitle": "A dripping tap, a tripped breaker, a dead socket — leave a request and a vetted pro arrives with tools and parts. We quote the price before any work starts.",
+      "words": [
+        "Request received",
+        "Pro on the way",
+        "Pro has arrived",
+        "Job done"
+      ],
+      "cta": {
+        "label": "Call a pro",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "Leaks",
+        "Blockages",
+        "Taps",
+        "Boilers",
+        "Sockets",
+        "Breakers",
+        "Light fittings",
+        "Washing machines"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "anchor": "services",
+      "label": "Prices",
+      "title": "What we fix and what it costs",
+      "intro": "Prices cover the pro’s labour. Parts at shop receipt or your own. Call-out is 50,000 sum, free for jobs over 200,000 sum.",
+      "items": [
+        {
+          "title": "Fixing a leak",
+          "text": "We find the cause and replace the gasket, fitting or section of pipe.",
+          "price": "from 80,000 sum",
+          "tag": "Plumbing"
+        },
+        {
+          "title": "Unblocking a drain",
+          "text": "Sink, bath or toilet — by cable or water jetting.",
+          "price": "from 100,000 sum",
+          "tag": "Plumbing"
+        },
+        {
+          "title": "Replacing a tap",
+          "text": "We remove the old one, fit the new one and check the supply lines.",
+          "price": "from 120,000 sum",
+          "tag": "Plumbing"
+        },
+        {
+          "title": "Installing a water heater",
+          "text": "Mounting, connecting to water and power, first start-up.",
+          "price": "from 250,000 sum",
+          "tag": "Plumbing"
+        },
+        {
+          "title": "Socket or switch",
+          "text": "Fitting, replacing or moving a point.",
+          "price": "from 60,000 sum",
+          "tag": "Electrics"
+        },
+        {
+          "title": "Breaker keeps tripping",
+          "text": "We trace the short or overload and replace the breaker.",
+          "price": "from 150,000 sum",
+          "tag": "Electrics"
+        },
+        {
+          "title": "Light fitting",
+          "text": "Assembly, ceiling mounting and wiring.",
+          "price": "from 90,000 sum",
+          "tag": "Electrics"
+        },
+        {
+          "title": "Washing machine",
+          "text": "Connecting to water and drain, leak check.",
+          "price": "from 120,000 sum",
+          "tag": "Appliances"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " min",
+          "label": "average arrival time"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "we take requests"
+        },
+        {
+          "value": "6",
+          "suffix": " months",
+          "label": "guarantee on work"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "pros across the city"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "anchor": "how",
+      "label": "How it works",
+      "title": "From request to done",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Call or message on Telegram. Send a photo and we will quote more precisely."
+        },
+        {
+          "title": "Pro on the way",
+          "text": "The nearest free pro sets off; you see their name and arrival time."
+        },
+        {
+          "title": "Price up front",
+          "text": "On site the pro inspects and names the total. You agree — we start."
+        },
+        {
+          "title": "Hand-over and guarantee",
+          "text": "We test it with you, clean up after ourselves and issue a 6-month guarantee slip."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "plans",
+      "label": "Plans",
+      "title": "For flats and offices",
+      "items": [
+        {
+          "name": "One-off call",
+          "price": "50,000 sum",
+          "period": "call-out",
+          "features": [
+            "Any job",
+            "Price before work",
+            "6-month guarantee"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Home cover",
+          "price": "190,000 sum",
+          "period": "per month",
+          "features": [
+            "Free call-outs",
+            "Quarterly plumbing and panel check",
+            "Priority arrival"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Office",
+          "price": "from 900,000 sum",
+          "period": "per month",
+          "features": [
+            "A dedicated pro",
+            "Scheduled maintenance",
+            "Paperwork for accounting"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "anchor": "about",
+      "label": "About",
+      "title": "Pros you are happy to let into your home",
+      "text": "Every pro goes through an interview, a document check and a trial job with a senior. They arrive in uniform with shoe covers and a vacuum. If something breaks again within six months of the repair, we fix it free of charge.",
+      "image": ""
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "anchor": "",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "A hose burst under the sink at night. The pro was there in 40 minutes, shut it off, replaced it and even mopped the floor.",
+          "author": "Dilnoza",
+          "role": "Yunusabad"
+        },
+        {
+          "quote": "They told us the price up front and it did not go up. That is what matters to us.",
+          "author": "Sardor",
+          "role": "Mirzo Ulugbek"
+        },
+        {
+          "quote": "We took the office plan — the electrician comes on schedule and we have forgotten about tripped breakers.",
+          "author": "Kamola",
+          "role": "office manager"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "FAQ",
+      "title": "Frequently asked",
+      "items": [
+        {
+          "q": "How fast will a pro arrive?",
+          "a": "About 60 minutes anywhere in Tashkent. Nights and holidays too, with no rush surcharge."
+        },
+        {
+          "q": "How much is a call-out?",
+          "a": "50,000 sum. If you order work over 200,000 sum, the call-out is free."
+        },
+        {
+          "q": "What if the price changes on site?",
+          "a": "The pro names the total before starting. The price does not change without your agreement."
+        },
+        {
+          "q": "Who supplies the parts?",
+          "a": "The pro carries common parts and gives you the receipt. Your own parts are fine too."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "Cash, Uzcard or Humo card, or bank transfer. Companies can pay by invoice."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Call",
+      "title": "Tell us what happened",
+      "text": "Call or write on Telegram: your address, what broke and a photo if you have one. We call back within five minutes with the pro’s arrival time.",
+      "cta": {
+        "label": "Write on Telegram",
+        "href": "https://t.me/usta24uz"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Usta 24 Service LLC",
+    "street": "17 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/usta24uz"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/usta24.uz"
+      },
+      {
+        "name": "Yandex Maps",
+        "url": "https://yandex.uz/maps/-/usta24"
+      }
+    ]
+  }
+}

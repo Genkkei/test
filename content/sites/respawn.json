@@ -1,0 +1,348 @@
+{
+  "slug": "respawn",
+  "template": "arcade",
+  "name": "Respawn",
+  "tagline": "Компьютерный клуб, где играют всерьёз",
+  "niche": "Компьютерный клуб и киберспорт-арена: PC 240 Гц, PlayStation, VR, турниры",
+  "domains": [
+    "respawn.genkai.workers.dev"
+  ],
+  "theme": {
+    "bg": "#07080d",
+    "fg": "#e9f0ff",
+    "accent": "#ff2a5f",
+    "muted": "#7d86a3",
+    "surface": "#0f121c",
+    "line": "#1f2436",
+    "display": "Russo One",
+    "body": "Exo 2",
+    "motion": 1
+  },
+  "business": {
+    "type": "EntertainmentBusiness",
+    "legalName": "ООО «Респаун Арена»",
+    "phone": "+998 71 200-00-84",
+    "email": "gg@respawn.uz",
+    "street": "ул. Амира Темура, 60, цокольный этаж",
+    "city": "Ташкент",
+    "region": "Ташкент",
+    "country": "UZ",
+    "postalCode": "100000",
+    "lat": "41.3305",
+    "lng": "69.2851",
+    "hours": [
+      "Mo-Su 00:00-23:59"
+    ],
+    "priceRange": "$",
+    "founded": "2022",
+    "areaServed": "Ташкент",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/respawnuz"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/respawn.uz"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://twitch.tv/respawnuz"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/respawnuz"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Respawn — компьютерный клуб и киберспорт в Ташкенте",
+    "description": "Компьютерный клуб в Ташкенте: 60 игровых ПК с RTX и мониторами 240 Гц, буткемп на пятерых, PlayStation 5 и VR. Круглосуточно, турниры каждые выходные.",
+    "keywords": [
+      "компьютерный клуб Ташкент",
+      "киберспорт Ташкент",
+      "буткемп",
+      "PS5 аренда",
+      "VR клуб",
+      "турнир CS2"
+    ],
+    "ogImage": "",
+    "index": true,
+    "answer": "Respawn — компьютерный клуб на ул. Амира Темура, 60 в Ташкенте, открыт круглосуточно. Час в общем зале — 15 000 сум, в VIP — 25 000 сум, буткемп на пятерых — 120 000 сум в час, ночной пакет с 22:00 до 8:00 — 70 000 сум. 60 ПК с RTX 4070 и мониторами 240 Гц, четыре PlayStation 5 и VR-зона. Турниры по CS2 и Dota 2 — каждые выходные."
+  },
+  "nav": {
+    "cta": {
+      "label": "Забронировать место",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Сайт для компьютерного клуба, киберспорт-арены или VR-парка. HUD-интерфейс в духе Riot Games: глитч-заголовок, онлайн-счётчики, зоны карточками, тарифы как снаряжение со шкалами и сетка турниров.",
+    "features": [],
+    "forSale": true
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "enabled": true,
+      "anchor": "",
+      "label": "",
+      "title": "Respawn",
+      "eyebrow": "Компьютерный клуб · 24/7 · Ташкент",
+      "subtitle": "60 игровых ПК на 240 Гц, буткемп для команды, PlayStation 5 и VR. Приходите поиграть после пар или готовиться к турниру всей пятёркой.",
+      "words": [
+        "CS2",
+        "Dota 2",
+        "Valorant",
+        "EA FC",
+        "PUBG"
+      ],
+      "cta": {
+        "label": "Забронировать место",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Тарифы",
+        "href": "#plans"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "enabled": true,
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "RTX 4070",
+        "240 Гц",
+        "HyperX",
+        "Буткемп 5v5",
+        "PS5",
+        "VR",
+        "Турниры"
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "enabled": true,
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " ПК",
+          "label": "в трёх залах"
+        },
+        {
+          "value": "240",
+          "suffix": " Гц",
+          "label": "мониторы"
+        },
+        {
+          "value": "1",
+          "suffix": " Гбит/с",
+          "label": "интернет, пинг до 5 мс"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "без выходных"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "enabled": true,
+      "anchor": "zones",
+      "label": "Зоны",
+      "title": "Где играть",
+      "intro": "Все места с одинаковой периферией: мышь Logitech G Pro, клавиатура HyperX, наушники с микрофоном.",
+      "items": [
+        {
+          "title": "Общий зал",
+          "text": "40 ПК с RTX 4070 и мониторами 240 Гц, кресла DXRacer.",
+          "price": "15 000 сум/ч",
+          "tag": "Standard"
+        },
+        {
+          "title": "VIP",
+          "text": "15 ПК с RTX 4080 и мониторами 360 Гц, отдельный зал, тишина.",
+          "price": "25 000 сум/ч",
+          "tag": "Pro"
+        },
+        {
+          "title": "Буткемп",
+          "text": "Комната на пятерых: стол для тренера, экран для разбора демок.",
+          "price": "120 000 сум/ч",
+          "tag": "Team"
+        },
+        {
+          "title": "PlayStation 5",
+          "text": "Четыре диванных места с телевизорами 65″: EA FC, Mortal Kombat, Tekken.",
+          "price": "40 000 сум/ч",
+          "tag": "Console"
+        },
+        {
+          "title": "VR-зона",
+          "text": "Meta Quest 3 и 9 м² свободного пространства для двоих.",
+          "price": "60 000 сум/30 мин",
+          "tag": "VR"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "enabled": true,
+      "anchor": "plans",
+      "label": "Тарифы",
+      "title": "Выберите сетап",
+      "items": [
+        {
+          "name": "Час",
+          "price": "15 000 сум",
+          "period": "в час",
+          "features": [
+            "Общий зал",
+            "Любые игры из библиотеки",
+            "Без брони"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Ночь",
+          "price": "70 000 сум",
+          "period": "22:00–08:00",
+          "features": [
+            "Десять часов по цене пяти",
+            "Энергетик в подарок",
+            "Место закрепляется за вами"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Команда",
+          "price": "120 000 сум",
+          "period": "в час, на пятерых",
+          "features": [
+            "Отдельный буткемп",
+            "Экран для разбора",
+            "Бронь на месяц вперёд"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "enabled": true,
+      "anchor": "tournaments",
+      "label": "Турниры",
+      "title": "Ближайшие турниры",
+      "items": [
+        {
+          "title": "Respawn Cup: CS2",
+          "category": "5v5 · 16 команд",
+          "year": "суббота, 12:00",
+          "text": "Взнос 250 000 сум с команды, призовой фонд — 5 000 000 сум.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Dota 2: ночная лига",
+          "category": "5v5 · 8 команд",
+          "year": "пятница, 22:00",
+          "text": "Каждую пятницу, очки складываются за месяц.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "EA FC 1v1",
+          "category": "32 игрока",
+          "year": "воскресенье, 15:00",
+          "text": "На PlayStation 5, олимпийская система.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Valorant: открытый кубок",
+          "category": "5v5 · 12 команд",
+          "year": "в конце месяца",
+          "text": "Трансляция на Twitch с комментаторами.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "enabled": true,
+      "anchor": "",
+      "label": "Как прийти",
+      "title": "Три шага до катки",
+      "items": [
+        {
+          "title": "Бронь",
+          "text": "Напишите в Telegram: зона, время, сколько вас. Ответим за пару минут."
+        },
+        {
+          "title": "Аккаунт",
+          "text": "На стойке заводим карту гостя — время и бонусы копятся на ней."
+        },
+        {
+          "title": "Игра",
+          "text": "Садитесь, входите в свой Steam или Battle.net — всё уже установлено и обновлено."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "enabled": true,
+      "anchor": "faq",
+      "label": "Вопросы",
+      "title": "Часто спрашивают",
+      "items": [
+        {
+          "q": "С какого возраста можно?",
+          "a": "Днём — с 12 лет, после 22:00 — только с 18 лет и с документом."
+        },
+        {
+          "q": "Можно со своей мышкой?",
+          "a": "Да, любую периферию — подключим и настроим."
+        },
+        {
+          "q": "Есть еда?",
+          "a": "Бар с напитками, снеками и горячими сэндвичами, принесём прямо к месту."
+        },
+        {
+          "q": "Как записаться на турнир?",
+          "a": "Капитан пишет в Telegram название команды и состав, взнос оплачивается на стойке до старта."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "enabled": true,
+      "anchor": "contact",
+      "label": "Бронь",
+      "title": "Займите место",
+      "text": "Бронь держим 15 минут. Для буткемпа и ночи лучше писать заранее.",
+      "cta": {
+        "label": "Написать в Telegram",
+        "href": "https://t.me/respawnuz"
+      }
+    }
+  ],
+  "lang": "ru"
+}

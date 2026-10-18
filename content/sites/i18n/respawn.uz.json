@@ -1,0 +1,307 @@
+{
+  "name": "Respawn",
+  "tagline": "Jiddiy o‘ynaladigan kompyuter klubi",
+  "niche": "Kompyuter klubi va kibersport arenasi: 240 Hz PC, PlayStation, VR, turnirlar",
+  "nav": {
+    "cta": {
+      "label": "Joy band qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kompyuter klubi, kibersport arenasi yoki VR park uchun sayt. Riot Games ruhidagi HUD interfeys: glitch sarlavha, onlayn hisoblagichlar, kartochka ko‘rinishidagi zonalar, shkalali jihoz kabi tariflar va turnirlar to‘ri.",
+    "features": []
+  },
+  "seo": {
+    "title": "Respawn — Toshkentda kompyuter klubi va kibersport",
+    "description": "Toshkentda kompyuter klubi: RTX va 240 Hz monitorli 60 ta o‘yin kompyuteri, besh kishilik butkemp, PlayStation 5 va VR. Kecha-kunduz, har dam olish kuni turnirlar.",
+    "keywords": [
+      "kompyuter klubi Toshkent",
+      "kibersport Toshkent",
+      "butkemp",
+      "PS5 ijarasi",
+      "VR klub",
+      "CS2 turniri"
+    ],
+    "answer": "Respawn — Toshkent, Amir Temur ko‘chasi, 60 dagi kompyuter klubi, kecha-kunduz ochiq. Umumiy zalda bir soat — 15 000 so‘m, VIPda — 25 000 so‘m, besh kishilik butkemp — soatiga 120 000 so‘m, 22:00 dan 8:00 gacha tungi paket — 70 000 so‘m. RTX 4070 va 240 Hz monitorli 60 ta kompyuter, to‘rtta PlayStation 5 va VR zona. CS2 va Dota 2 turnirlari — har dam olish kuni."
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "anchor": "",
+      "label": "",
+      "title": "Respawn",
+      "eyebrow": "Kompyuter klubi · 24/7 · Toshkent",
+      "subtitle": "240 Hz li 60 ta o‘yin kompyuteri, jamoa uchun butkemp, PlayStation 5 va VR. Darsdan keyin o‘ynagani yoki butun beshlik bilan turnirga tayyorlangani keling.",
+      "words": [
+        "CS2",
+        "Dota 2",
+        "Valorant",
+        "EA FC",
+        "PUBG"
+      ],
+      "cta": {
+        "label": "Joy band qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Tariflar",
+        "href": "#plans"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        "RTX 4070",
+        "240 Hz",
+        "HyperX",
+        "Butkemp 5v5",
+        "PS5",
+        "VR",
+        "Turnirlar"
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "anchor": "",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "60",
+          "suffix": " PC",
+          "label": "uchta zalda"
+        },
+        {
+          "value": "240",
+          "suffix": " Hz",
+          "label": "monitorlar"
+        },
+        {
+          "value": "1",
+          "suffix": " Gbit/s",
+          "label": "internet, ping 5 ms gacha"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "dam olishsiz"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "anchor": "zones",
+      "label": "Zonalar",
+      "title": "Qayerda o‘ynash",
+      "intro": "Barcha joylarda bir xil periferiya: Logitech G Pro sichqoncha, HyperX klaviatura, mikrofonli quloqchin.",
+      "items": [
+        {
+          "title": "Umumiy zal",
+          "text": "RTX 4070 va 240 Hz monitorli 40 ta kompyuter, DXRacer kreslolari.",
+          "price": "15 000 so‘m/soat",
+          "tag": "Standard"
+        },
+        {
+          "title": "VIP",
+          "text": "RTX 4080 va 360 Hz monitorli 15 ta kompyuter, alohida zal, sokinlik.",
+          "price": "25 000 so‘m/soat",
+          "tag": "Pro"
+        },
+        {
+          "title": "Butkemp",
+          "text": "Besh kishilik xona: murabbiy stoli, demolarni tahlil qilish uchun ekran.",
+          "price": "120 000 so‘m/soat",
+          "tag": "Team"
+        },
+        {
+          "title": "PlayStation 5",
+          "text": "65″ televizorli to‘rtta divan joy: EA FC, Mortal Kombat, Tekken.",
+          "price": "40 000 so‘m/soat",
+          "tag": "Console"
+        },
+        {
+          "title": "VR zona",
+          "text": "Meta Quest 3 va ikki kishi uchun 9 m² bo‘sh joy.",
+          "price": "60 000 so‘m/30 daq",
+          "tag": "VR"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "anchor": "plans",
+      "label": "Tariflar",
+      "title": "Setapni tanlang",
+      "items": [
+        {
+          "name": "Soat",
+          "price": "15 000 so‘m",
+          "period": "soatiga",
+          "features": [
+            "Umumiy zal",
+            "Kutubxonadagi istalgan o‘yin",
+            "Bronsiz"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Tun",
+          "price": "70 000 so‘m",
+          "period": "22:00–08:00",
+          "features": [
+            "Beshta narxiga o‘n soat",
+            "Sovg‘a energetik",
+            "Joy sizga biriktiriladi"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Jamoa",
+          "price": "120 000 so‘m",
+          "period": "soatiga, besh kishi",
+          "features": [
+            "Alohida butkemp",
+            "Tahlil uchun ekran",
+            "Bir oy oldin bron"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "works",
+      "type": "works",
+      "anchor": "tournaments",
+      "label": "Turnirlar",
+      "title": "Yaqin turnirlar",
+      "items": [
+        {
+          "title": "Respawn Cup: CS2",
+          "category": "5v5 · 16 jamoa",
+          "year": "shanba, 12:00",
+          "text": "Jamoadan 250 000 so‘m badal, sovrin jamg‘armasi — 5 000 000 so‘m.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Dota 2: tungi liga",
+          "category": "5v5 · 8 jamoa",
+          "year": "juma, 22:00",
+          "text": "Har juma, ochkolar bir oy davomida yig‘iladi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "EA FC 1v1",
+          "category": "32 o‘yinchi",
+          "year": "yakshanba, 15:00",
+          "text": "PlayStation 5 da, olimpiya tizimi.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Valorant: ochiq kubok",
+          "category": "5v5 · 12 jamoa",
+          "year": "oy oxirida",
+          "text": "Kommentatorlar bilan Twitchda translyatsiya.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "anchor": "",
+      "label": "Qanday kelish",
+      "title": "O‘yingacha uch qadam",
+      "items": [
+        {
+          "title": "Bron",
+          "text": "Telegramga yozing: zona, vaqt, necha kishisiz. Bir necha daqiqada javob beramiz."
+        },
+        {
+          "title": "Akkaunt",
+          "text": "Peshtaxtada mehmon kartasini ochamiz — vaqt va bonuslar unda yig‘iladi."
+        },
+        {
+          "title": "O‘yin",
+          "text": "O‘tiring, Steam yoki Battle.netga kiring — hammasi o‘rnatilgan va yangilangan."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "anchor": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘rashadi",
+      "items": [
+        {
+          "q": "Necha yoshdan mumkin?",
+          "a": "Kunduzi — 12 yoshdan, 22:00 dan keyin — faqat 18 yoshdan va hujjat bilan."
+        },
+        {
+          "q": "O‘z sichqonchamni olib kelsam bo‘ladimi?",
+          "a": "Ha, istalgan periferiyani — ulab, sozlab beramiz."
+        },
+        {
+          "q": "Ovqat bormi?",
+          "a": "Ichimliklar, sneklar va issiq sendvichlar bari, joyingizga olib kelamiz."
+        },
+        {
+          "q": "Turnirga qanday yozilish mumkin?",
+          "a": "Kapitan Telegramga jamoa nomi va tarkibini yozadi, badal start oldidan peshtaxtada to‘lanadi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "anchor": "contact",
+      "label": "Bron",
+      "title": "Joyingizni egallang",
+      "text": "Bronni 15 daqiqa ushlab turamiz. Butkemp va tun uchun oldindan yozgan ma’qul.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/respawnuz"
+      }
+    }
+  ],
+  "business": {
+    "legalName": "Respawn Arena MChJ",
+    "street": "Amir Temur ko‘chasi, 60, yerto‘la qavati",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram",
+        "url": "https://t.me/respawnuz"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/respawn.uz"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://twitch.tv/respawnuz"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/respawnuz"
+      }
+    ]
+  }
+}
