@@ -9,12 +9,12 @@
     "olov.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#140d0a",
-    "fg": "#f2e6d6",
-    "accent": "#e2652b",
-    "muted": "#a08c78",
-    "surface": "#24170f",
-    "line": "#3a2a1e",
+    "bg": "#f7efe6",
+    "fg": "#2a1712",
+    "accent": "#d9481f",
+    "muted": "#7d665b",
+    "surface": "#efe2d4",
+    "line": "#e3d2c2",
     "display": "Prata",
     "body": "Manrope",
     "motion": 1

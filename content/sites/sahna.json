@@ -8,12 +8,12 @@
     "sahna.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#140b0d",
-    "fg": "#f2e9de",
-    "accent": "#c8102e",
-    "muted": "#a89389",
-    "surface": "#1f1214",
-    "line": "#3a2427",
+    "bg": "#0c1424",
+    "fg": "#f2ece0",
+    "accent": "#d4af37",
+    "muted": "#9aa3b5",
+    "surface": "#141f35",
+    "line": "#26324c",
     "display": "Cormorant Garamond",
     "body": "Manrope",
     "motion": 1

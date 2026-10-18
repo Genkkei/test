@@ -27,7 +27,7 @@
 /* шапка */
 .dark-header { position: fixed; inset: 0 0 auto; z-index: 50; display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; padding: 16px var(--pad); font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; mix-blend-mode: difference; color: #fff; }
 .dark-logo { display: inline-flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 700; letter-spacing: .1em; }
-.dark-logo i { width: 10px; height: 10px; border-radius: 50%; background: #ff3b2f; box-shadow: 0 0 12px #ff3b2f; animation: darkPulse 2.4s infinite; }
+.dark-logo i { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); animation: darkPulse 2.4s infinite; }
 @keyframes darkPulse { 50% { opacity: .35; } }
 .dark-nav { display: flex; justify-content: center; gap: 22px; }
 .dark-nav a { display: inline-flex; gap: 6px; opacity: .8; transition: opacity .2s; }
@@ -43,7 +43,7 @@
 .dark-hero > .dark-perf { position: absolute; left: 0; right: 0; top: 0; }
 .dark-hero > .dark-perf:last-child { top: auto; bottom: 0; }
 .dark-canvas { position: absolute; inset: 22px 0; width: 100%; height: calc(100% - 44px); z-index: -1; background: radial-gradient(70% 60% at 50% 55%, color-mix(in srgb, var(--accent) 28%, #000), #000); }
-.dark-hero__edge { position: absolute; left: 0; right: 0; display: flex; justify-content: space-between; padding: 30px var(--pad) 0; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: color-mix(in srgb, #ffb08a 70%, transparent); pointer-events: none; }
+.dark-hero__edge { position: absolute; left: 0; right: 0; display: flex; justify-content: space-between; padding: 30px var(--pad) 0; font-family: var(--mono); font-size: 11px; letter-spacing: .14em; color: color-mix(in srgb, var(--accent) 55%, var(--fg)); pointer-events: none; }
 .dark-hero__edge--top { top: 22px; padding-top: 58px; }
 .dark-hero__inner { padding: 120px var(--pad) clamp(30px, 5vw, 60px); display: grid; gap: 22px; }
 .dark-hero__eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, var(--fg) 80%, transparent); display: inline-flex; align-items: center; gap: 10px; }

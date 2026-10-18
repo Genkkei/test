@@ -9,12 +9,12 @@
     "sandon.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#0e0b09",
-    "fg": "#f0e6d8",
-    "accent": "#ff6a1a",
-    "muted": "#a39385",
-    "surface": "#1a1410",
-    "line": "#2e241d",
+    "bg": "#0d1522",
+    "fg": "#eef2f8",
+    "accent": "#5fb4ff",
+    "muted": "#8a99ad",
+    "surface": "#152033",
+    "line": "#24324a",
     "display": "Oswald",
     "body": "Golos Text",
     "motion": 1

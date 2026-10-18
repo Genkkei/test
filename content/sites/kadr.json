@@ -9,12 +9,12 @@
     "kadr.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#0a0909",
-    "fg": "#ebe6df",
-    "accent": "#d6372b",
-    "muted": "#857e76",
-    "surface": "#161413",
-    "line": "#2a2624",
+    "bg": "#0b1019",
+    "fg": "#e9edf3",
+    "accent": "#4f9dff",
+    "muted": "#7f8a99",
+    "surface": "#141b27",
+    "line": "#232d3d",
     "display": "JetBrains Mono",
     "body": "Inter Tight",
     "motion": 1

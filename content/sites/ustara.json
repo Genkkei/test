@@ -9,12 +9,12 @@
     "ustara.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#161412",
-    "fg": "#efe6d2",
-    "accent": "#c2372b",
-    "muted": "#a89a80",
-    "surface": "#221f1b",
-    "line": "#3a342c",
+    "bg": "#f3ede2",
+    "fg": "#1d2433",
+    "accent": "#2b4fa8",
+    "muted": "#6b6f78",
+    "surface": "#e8dfcf",
+    "line": "#d8cdb9",
     "display": "Oswald",
     "body": "Golos Text",
     "motion": 1

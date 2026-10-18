@@ -9,12 +9,12 @@
     "torque.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#0d0e10",
-    "fg": "#ecedef",
-    "accent": "#e03a2f",
-    "muted": "#80848c",
-    "surface": "#1a1c20",
-    "line": "#2a2d33",
+    "bg": "#0d1116",
+    "fg": "#ecf0f4",
+    "accent": "#22b8f0",
+    "muted": "#7f8892",
+    "surface": "#161c24",
+    "line": "#262f3a",
     "display": "Exo 2",
     "body": "Inter Tight",
     "motion": 1

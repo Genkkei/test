@@ -10,7 +10,7 @@ import { ShaderCanvas } from '@/motion/shader'
 const FORGE = `
 vec3 heat(float k){
   // цвета каления: тёмно-вишнёвый → оранжевый (акцент темы) → соломенный → белый
-  vec3 a=vec3(.35,.03,.01), b=uC2, c=vec3(1.,.82,.45), d=vec3(1.,.97,.9);
+  vec3 a=vec3(.02,.08,.2), b=uC2, c=vec3(.62,.86,1.), d=vec3(.93,.97,1.);
   return k<.4?mix(a,b,k/.4):k<.8?mix(b,c,(k-.4)/.4):mix(c,d,(k-.8)/.2);
 }
 float spark(vec2 uv,float t,float sc,float sp,float seed){
