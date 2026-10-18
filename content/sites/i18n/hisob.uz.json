@@ -1,0 +1,281 @@
+{
+  "name": "Hisob",
+  "tagline": "Buxgalteriya, soliqlar va hisobot — siz deklaratsiya bilan emas, biznes bilan shug‘ullanishingiz uchun",
+  "niche": "Buxgalteriya xizmati, soliq maslahati va audit",
+  "nav": {
+    "cta": {
+      "label": "Hisob-kitob olish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Buxgalteriya, audit yoki yuridik firma uchun sayt. Xotirjam ishbilarmon uslub, belgilari bilan oyni yopish kartasi, xizmatlar vedomost ko‘rinishida va sparklaynli ko‘rsatkichlar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Hisob — Toshkentda YaTT va MChJ uchun buxgalteriya xizmatlari",
+    "description": "YaTT va MChJ buxgalteriyasi va soliq hisobini yuritamiz, hisobotni o‘z vaqtida topshiramiz, ish haqini hisoblaymiz, tekshiruvlarga tayyorlaymiz. Oylik qat’iy narx va shaxsiy buxgalter.",
+    "keywords": [
+      "buxgalteriya xizmatlari Toshkent",
+      "MChJ uchun buxgalter",
+      "buxgalteriya autsorsingi",
+      "soliq hisoboti O‘zbekiston",
+      "soliq maslahatchisi",
+      "ish haqi hisob-kitobi"
+    ],
+    "answer": "Hisob Toshkentda va butun O‘zbekiston bo‘ylab masofadan YaTT va MChJ buxgalteriyasini yuritadi. YaTT xizmati — oyiga 800 000 so‘mdan, soddalashtirilgan rejimdagi MChJ — 2 500 000 so‘mdan, bir martalik soliq maslahati — soatiga 500 000 so‘m. Har bir mijozning o‘z buxgalteri bor, hisobotni elektron kabinet orqali topshiramiz, shartnoma va dalolatnoma — har oy."
+  },
+  "business": {
+    "legalName": "«Hisob Konsalting» MChJ",
+    "street": "Amir Temur ko‘chasi, 107B, biznes markaz, 5-qavat",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mos keladigan buxgalteriya",
+      "eyebrow": "YaTT va MChJ uchun · butun O‘zbekiston bo‘ylab",
+      "subtitle": "Hisobni yuritamiz, soliq va ish haqini hisoblaymiz, hisobotni o‘z vaqtida topshiramiz. Siz hujjat yuborasiz — biz yopilgan oy va tushunarli hisobot yuboramiz.",
+      "words": [
+        "Ko‘chirmalar bank bilan solishtirildi",
+        "Birlamchi hujjatlar kiritildi",
+        "Ish haqi va soliqlar hisoblandi",
+        "Hisobotlar soliq idorasiga topshirildi"
+      ],
+      "cta": {
+        "label": "Hisob-kitob olish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Tariflar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "Shaxsiy buxgalter va uning ortidagi jamoa",
+      "text": "Har bir mijozning biznesingizni biladigan o‘z buxgalteri va har bir hisobotni topshirishdan oldin tekshiradigan bosh buxgalteri bor. 1C va soliq to‘lovchining elektron kabinetida ishlaymiz, hujjatlarni Telegram va pochta orqali qabul qilamiz.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimalarni o‘z zimmamizga olamiz",
+      "intro": "Narx soliq rejimi va operatsiyalar soniga bog‘liq. Aniq hisob — qisqa suhbatdan keyin.",
+      "items": [
+        {
+          "title": "YaTT buxgalteriyasi",
+          "text": "Daromad hisobi, aylanmadan soliq, choraklik hisobot.",
+          "tag": "har oy",
+          "price": "800 000 so‘mdan"
+        },
+        {
+          "title": "MChJ buxgalteriyasi",
+          "text": "To‘liq hisob, QQS, foyda solig‘i, balans va hisobot.",
+          "tag": "har oy",
+          "price": "2 500 000 so‘mdan"
+        },
+        {
+          "title": "Ish haqi va kadrlar",
+          "text": "Ish haqi, JShDS va ijtimoiy soliq, buyruqlar va mehnat shartnomalari.",
+          "tag": "xodim uchun",
+          "price": "120 000 so‘m"
+        },
+        {
+          "title": "Soliq maslahati",
+          "text": "Rejim tanlash, bitimni tahlil qilish, soliq talabiga javob.",
+          "tag": "soat",
+          "price": "500 000 so‘m"
+        },
+        {
+          "title": "Hisobni tiklash",
+          "text": "O‘tgan davrlar hisobini tartibga keltiramiz va aniqlashtirilgan hisobotlarni topshiramiz.",
+          "tag": "loyiha",
+          "price": "baholash bo‘yicha"
+        },
+        {
+          "title": "Biznesni ro‘yxatdan o‘tkazish",
+          "text": "YaTT yoki MChJ ochish, rejim tanlash va kabinetga ulash.",
+          "tag": "bir martalik",
+          "price": "1 200 000 so‘m"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "xizmatdagi kompaniyalar"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "jamoadagi buxgalterlar"
+        },
+        {
+          "value": "24",
+          "suffix": " soat",
+          "label": "ish kunlarida javob berish"
+        },
+        {
+          "value": "0",
+          "suffix": "",
+          "label": "o‘tgan yildagi kechiktirilgan hisobotlar"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "Biz bilan bir oy",
+      "items": [
+        {
+          "title": "Siz hujjat yuborasiz",
+          "text": "Surat, PDF yoki eksport — Telegram yoki pochtaga."
+        },
+        {
+          "title": "Kiritamiz va solishtiramiz",
+          "text": "Ko‘chirma, birlamchi hujjat va o‘zaro hisob-kitoblarni solishtiramiz."
+        },
+        {
+          "title": "Soliqlarni hisoblaymiz",
+          "text": "To‘lov summalari va muddatlarini oldindan aytamiz."
+        },
+        {
+          "title": "Topshiramiz va hisobot beramiz",
+          "text": "Soliq idorasiga hisobotlar va siz uchun oyning qisqa yakuni."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Tariflar",
+      "title": "Oylik qat’iy narx",
+      "items": [
+        {
+          "name": "YaTT",
+          "price": "800 000 so‘mdan",
+          "period": "oyiga",
+          "features": [
+            "Aylanmadan soliq",
+            "Choraklik hisobot",
+            "Telegramda javoblar"
+          ],
+          "featured": false
+        },
+        {
+          "name": "MChJ Start",
+          "price": "2 500 000 so‘mdan",
+          "period": "oyiga, 50 tagacha operatsiya",
+          "features": [
+            "To‘liq hisob",
+            "5 tagacha xodim ish haqi",
+            "Shaxsiy buxgalter",
+            "Oy hisoboti"
+          ],
+          "featured": true
+        },
+        {
+          "name": "MChJ Biznes",
+          "price": "5 000 000 so‘mdan",
+          "period": "oyiga, QQS",
+          "features": [
+            "QQS va foyda solig‘i",
+            "20 tagacha xodim ish haqi",
+            "Tekshiruvlarda hamrohlik"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Hisobot muddatlarini o‘ylashni to‘xtatdim: to‘lovdan bir hafta oldin summa bilan xabar keladi.",
+          "author": "Farrux",
+          "role": "YaTT, internet-do‘kon"
+        },
+        {
+          "quote": "Oldingi buxgalterdan keyin ikki yillik hisobni tiklashdi va tekshiruvdan xotirjam o‘tkazishdi.",
+          "author": "Dilnoza",
+          "role": "MChJ, distributsiya"
+        },
+        {
+          "quote": "Bir sahifalik oy hisoboti — birinchi marta pul qayerga ketayotganini tushunyapman.",
+          "author": "Igor",
+          "role": "MChJ, kafe"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Masofadan ishlash mumkinmi?",
+          "a": "Ha, ko‘pchilik mijozlar ofisga kelmaydi: hujjatlar — Telegramda, imzo — ERI."
+        },
+        {
+          "q": "Xatolar uchun kim javob beradi?",
+          "a": "Biz. Javobgarlik shartnomada yozilgan: agar jarima bizning xatoimiz tufayli bo‘lsa, uni qoplaymiz."
+        },
+        {
+          "q": "Qanchalik tez ulanasiz?",
+          "a": "Odatda 3–5 ish kunida: shartnoma, kirish huquqlari, oldingi buxgalterdan hujjatlarni qabul qilish."
+        },
+        {
+          "q": "QQS bilan ishlaysizmi?",
+          "a": "Ha, QQS to‘lovchilarini, jumladan elektron hisob-fakturalarni yuritamiz."
+        },
+        {
+          "q": "Operatsiyalar ko‘paysa-chi?",
+          "a": "Tarifni chorakda bir marta haqiqatga qarab ko‘rib chiqamiz, yashirin to‘lovlarsiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Biznesingiz haqida aytib bering — narxni hisoblaymiz",
+      "text": "O‘n besh daqiqalik suhbat: soliq rejimi, xodimlar va operatsiyalar soni. Hisobni o‘sha kuni yuboramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/hisobuz"
+      }
+    }
+  ]
+}

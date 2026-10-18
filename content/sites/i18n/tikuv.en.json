@@ -1,0 +1,322 @@
+{
+  "name": "Tikuv",
+  "tagline": "Clothes cut to your measurements, and garments we bring back to life",
+  "niche": "Atelier: bespoke tailoring, alterations and clothing repair",
+  "nav": {
+    "cta": {
+      "label": "Book a fitting",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an atelier, tailor or sewing workshop. A pattern that draws itself on the first screen, a tape measure, services as pattern pieces and figures as tags on a thread.",
+    "features": []
+  },
+  "seo": {
+    "title": "Tikuv — atelier in Tashkent: tailoring and repairs",
+    "description": "Bespoke suits, dresses and shirts cut to measure, fitting alterations, repairs and zip replacement. Fittings with the tailor, same-day express repairs.",
+    "keywords": [
+      "atelier Tashkent",
+      "bespoke suit Tashkent",
+      "clothing repair Tashkent",
+      "alterations",
+      "made to measure",
+      "zip replacement"
+    ],
+    "answer": "Tikuv is an atelier at 12 Abdulla Qodiriy Street in Tashkent, open Monday to Saturday from 10:00 to 20:00. A made-to-measure men’s suit starts at 3,500,000 UZS and takes 3–4 weeks, trouser alterations from 60,000 UZS, zip replacement from 50,000 UZS. Express repairs are done in a day; book a measuring session on Telegram or by phone."
+  },
+  "business": {
+    "legalName": "Tikuv Atelier LLC",
+    "street": "12 Abdulla Qodiriy St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Cut for you",
+      "eyebrow": "Atelier · Tashkent · tailoring & repairs",
+      "subtitle": "Suits, dresses and shirts made to your measurements, alterations of ready-to-wear and careful repairs. We take 30 measurements, hold two fittings and don’t hand anything over until it fits.",
+      "words": [],
+      "cta": {
+        "label": "Book a measuring",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Services & prices",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Suits",
+        "Dresses",
+        "Shirts",
+        "Alterations",
+        "Repairs",
+        "Wedding wear",
+        "School uniform"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelier",
+      "title": "A workshop that fits the garment, not the customer",
+      "text": "Five tailors and a cutter experienced in menswear and womenswear. We work with your fabric or help you choose ours: wool, linen, cotton, silk. One tailor leads each garment from measurements to the last button, so you never have to explain twice.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we make and mend",
+      "intro": "Prices cover the tailor’s work; fabric is extra. We confirm the exact cost after the fitting.",
+      "items": [
+        {
+          "title": "Men’s suit",
+          "text": "Two- or three-piece to measure, two fittings, hand-finished lapels.",
+          "price": "from 3,500,000 UZS",
+          "tag": "3–4 weeks"
+        },
+        {
+          "title": "Made-to-order dress",
+          "text": "Evening, cocktail or everyday — from sketch to final fitting.",
+          "price": "1,800,000 UZS",
+          "tag": "2–3 weeks"
+        },
+        {
+          "title": "Made-to-measure shirt",
+          "text": "Choose the collar, cuffs and cloth; we keep your pattern for next time.",
+          "price": "650,000 UZS",
+          "tag": "10 days"
+        },
+        {
+          "title": "Fitting alterations",
+          "text": "Take in, shorten, rework a jacket at the shoulders or waist.",
+          "price": "60,000 UZS",
+          "tag": "from 1 day"
+        },
+        {
+          "title": "Repairs & zips",
+          "text": "Zip replacement, darning, patches, lining restoration.",
+          "price": "50,000 UZS",
+          "tag": "Same-day express"
+        },
+        {
+          "title": "Wedding outfit",
+          "text": "Dress alterations, the groom’s suit and outfits for the parents.",
+          "price": "900,000 UZS",
+          "tag": "by appointment"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "From measurements to a finished garment",
+      "items": [
+        {
+          "title": "Measurements & fabric",
+          "text": "We take 30 measurements, discuss the cut and choose the cloth."
+        },
+        {
+          "title": "Pattern",
+          "text": "Our cutter drafts a pattern for your body, not a size."
+        },
+        {
+          "title": "First fitting",
+          "text": "The garment is basted: we adjust the fit and length."
+        },
+        {
+          "title": "Final fitting",
+          "text": "We check every detail and steam it before handover."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "30",
+          "suffix": "",
+          "label": "measurements for a suit"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "fittings per garment"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "craftspeople in the atelier"
+        },
+        {
+          "value": "1",
+          "suffix": " day",
+          "label": "for express repairs"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Membership",
+      "title": "For regular customers",
+      "items": [
+        {
+          "name": "One-off repair",
+          "price": "50,000 UZS",
+          "period": "per job",
+          "features": [
+            "Quote in 5 minutes",
+            "Ready in 1–3 days",
+            "Seam guarantee"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Seasonal wardrobe",
+          "price": "450,000 UZS",
+          "period": "per season",
+          "features": [
+            "Up to 8 alterations or repairs",
+            "Express at no extra cost",
+            "Your patterns kept on file"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Corporate",
+          "price": "on request",
+          "period": "",
+          "features": [
+            "Uniforms for your team",
+            "On-site measuring",
+            "Contract and invoice"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Workshop",
+      "title": "Inside the atelier",
+      "items": [
+        {
+          "caption": "Cutting table",
+          "image": ""
+        },
+        {
+          "caption": "Fabrics",
+          "image": ""
+        },
+        {
+          "caption": "Fitting room",
+          "image": ""
+        },
+        {
+          "caption": "Buttons & trims",
+          "image": ""
+        },
+        {
+          "caption": "Hand stitching",
+          "image": ""
+        },
+        {
+          "caption": "Finished pieces",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "For the first time a suit doesn’t pull at the shoulders. Two fittings, and it fits as if I was born in it.",
+          "author": "Jasur",
+          "role": "suit for his brother’s wedding"
+        },
+        {
+          "quote": "They remade my mother’s dress for me and kept the embroidery. I cried at the fitting.",
+          "author": "Nigora",
+          "role": "dress alteration"
+        },
+        {
+          "quote": "They replaced the zip on my jacket in two hours while I had lunch nearby.",
+          "author": "Artyom",
+          "role": "express repair"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How long does a suit take?",
+          "a": "Three to four weeks with two fittings. If you need it by a date, tell us when booking and we’ll plan the fittings around it."
+        },
+        {
+          "q": "Can I bring my own fabric?",
+          "a": "Yes. We’ll look at it during measuring and tell you whether there’s enough for the chosen cut."
+        },
+        {
+          "q": "Do you do express repairs?",
+          "a": "Zip replacements, trouser hems and small repairs are done in a day, often within a couple of hours."
+        },
+        {
+          "q": "Is a deposit required?",
+          "a": "For tailoring, 50% after the first meeting and the rest on collection. Repairs are paid on pickup."
+        },
+        {
+          "q": "Do you tailor for men and women?",
+          "a": "Yes, and for teenagers too, including school uniforms and prom suits."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Book",
+      "title": "Come in for a measuring",
+      "text": "Measuring and consultation are free and take about 40 minutes. Message us on Telegram and we’ll suggest a time.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/tikuvatelier"
+      }
+    }
+  ]
+}

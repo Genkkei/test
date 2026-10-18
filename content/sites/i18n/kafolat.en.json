@@ -1,0 +1,229 @@
+{
+  "name": "Kafolat",
+  "tagline": "An insurance broker: we find the right policy, explain the terms and help when you need to claim",
+  "niche": "Insurance: motor liability, comprehensive car, property, health and travel",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an insurer, broker or financial service. A friendly look, a shield that fills with colour, a tabbed policy picker and steps shown as a chat.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kafolat — insurance broker in Tashkent: car, home, travel",
+    "description": "We compare insurers’ offers and arrange motor liability, comprehensive car, home, health and travel cover. Online in 10 minutes, with help when you claim.",
+    "keywords": [
+      "insurance Tashkent",
+      "car insurance online",
+      "comprehensive car insurance",
+      "home insurance",
+      "travel insurance",
+      "insurance broker Uzbekistan"
+    ],
+    "answer": "Kafolat is an insurance broker in Tashkent: we compare terms from several insurers and arrange the policy online or at our office at 22 Bobur Street. Motor liability is at the insurer’s tariff, comprehensive car cover from 2,400,000 UZS a year, home insurance from 300,000 UZS and a travel policy from 90,000 UZS. When you claim, we help gather the documents and follow the payout through."
+  },
+  "business": {
+    "legalName": "Kafolat Broker LLC",
+    "street": "22 Bobur St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Insurance without the small print",
+      "eyebrow": "Insurance broker · Tashkent",
+      "subtitle": "We compare insurers’ offers, explain the terms in plain words and arrange your policy in 10 minutes. And if something happens, we stay with you until the payout.",
+      "words": [
+        "Car",
+        "Home",
+        "Health",
+        "Travel",
+        "Business",
+        "Family"
+      ],
+      "cta": {
+        "label": "Get a quote",
+        "href": "#services"
+      },
+      "ctaSecondary": {
+        "label": "How it works",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Policies",
+      "title": "What would you like to protect?",
+      "intro": "Prices are a guide. We calculate the exact cost with several insurers based on your details.",
+      "items": [
+        {
+          "title": "Car",
+          "text": "Motor liability online and comprehensive cover against theft, accidents and natural events. We’ll help you choose the excess.",
+          "price": "from 2,400,000 UZS",
+          "tag": "comprehensive per year"
+        },
+        {
+          "title": "Home",
+          "text": "Your renovation, belongings and liability to neighbours — whether you flood them or they flood you.",
+          "price": "from 300,000 UZS",
+          "tag": "per year"
+        },
+        {
+          "title": "Health",
+          "text": "Private medical cover: appointments, tests and inpatient care.",
+          "price": "from 1,800,000 UZS",
+          "tag": "per year"
+        },
+        {
+          "title": "Travel",
+          "text": "A policy for your visa and trip: medical, baggage and cancellation.",
+          "price": "from 90,000 UZS",
+          "tag": "per trip"
+        },
+        {
+          "title": "Business",
+          "text": "Property, warehouse stock and company liability.",
+          "price": "by quote",
+          "tag": "for companies"
+        },
+        {
+          "title": "Life & family",
+          "text": "Accident cover for adults and children.",
+          "price": "from 150,000 UZS",
+          "tag": "per year"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "Four messages to a policy",
+      "items": [
+        {
+          "title": "Tell us what to insure",
+          "text": "A car, a flat or a trip — plus a couple of details."
+        },
+        {
+          "title": "Here are three options",
+          "text": "We compare insurers and explain the difference like a human."
+        },
+        {
+          "title": "I’ll take the second",
+          "text": "Pay by card, Payme or Click."
+        },
+        {
+          "title": "Your policy is in Telegram",
+          "text": "The e-policy arrives at once; a paper original on request."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "10",
+          "suffix": " min",
+          "label": "to arrange a policy online"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "partner insurers"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "claims helpline"
+        },
+        {
+          "value": "0",
+          "suffix": " UZS",
+          "label": "our fee to you"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What people write",
+      "items": [
+        {
+          "quote": "Our upstairs neighbours flooded our new renovation. Kafolat gathered the paperwork for me and I was paid in three weeks.",
+          "author": "Malika",
+          "role": "home insurance"
+        },
+        {
+          "quote": "They explained three comprehensive policies so clearly that for the first time I understood what I was paying for.",
+          "author": "Timur",
+          "role": "car cover"
+        },
+        {
+          "quote": "They sorted my visa policy in one evening on Telegram — I didn’t have to go anywhere.",
+          "author": "Sevara",
+          "role": "travel insurance"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Why isn’t a broker more expensive?",
+          "a": "The insurer pays us, so your price is the same as going direct, but you get a wider choice."
+        },
+        {
+          "q": "What do I do when something happens?",
+          "a": "Call or message the helpline: we’ll tell you which documents to gather and stay with you until the payout."
+        },
+        {
+          "q": "Is an e-policy valid?",
+          "a": "Yes, electronic motor and other policies are verified against the insurer’s database."
+        },
+        {
+          "q": "Can I get a refund on a policy?",
+          "a": "Yes, on early cancellation part of the premium is returned under the insurer’s rules — we’ll help you apply."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Message us — we’ll find a policy today",
+      "text": "We reply on Telegram within 15 minutes during working hours.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/kafolatuz"
+      }
+    }
+  ]
+}

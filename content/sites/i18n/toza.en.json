@@ -1,0 +1,294 @@
+{
+  "name": "Toza Uy",
+  "tagline": "Cleaning for flats, houses and offices — we bring our own supplies and don’t leave until it shines",
+  "niche": "Cleaning: deep cleans, post-renovation, windows and upholstery",
+  "nav": {
+    "cta": {
+      "label": "Book a clean",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a cleaning company, dry cleaner or home service. Soap bubbles that pop under the cursor, a before-and-after slider and plans that shine.",
+    "features": []
+  },
+  "seo": {
+    "title": "Toza Uy — cleaning in Tashkent: flats and offices",
+    "description": "Deep and regular cleaning, post-renovation cleaning, window washing and upholstery cleaning. Our own supplies and equipment, fixed prices, same-day visits.",
+    "keywords": [
+      "cleaning Tashkent",
+      "flat cleaning Tashkent",
+      "deep cleaning",
+      "post-renovation cleaning",
+      "window cleaning",
+      "sofa cleaning"
+    ],
+    "answer": "Toza Uy cleans flats, houses and offices in Tashkent every day from 8:00 to 21:00. A regular clean of a flat up to 60 m² is 450,000 UZS, a deep clean from 900,000 UZS, a post-renovation clean from 1,500,000 UZS and window washing from 40,000 UZS per pane. We bring our own supplies and equipment and fix the price before we come."
+  },
+  "business": {
+    "legalName": "Toza Uy Service LLC",
+    "street": "45 Chilanzar St, block 1",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Clean as day one",
+      "eyebrow": "Cleaning across Tashkent · every day",
+      "subtitle": "We clean your flat, house or office with our own supplies and equipment. You get the price before we come, and if anything isn’t right, we redo it for free.",
+      "words": [
+        "Our own supplies",
+        "Price upfront",
+        "Free redo"
+      ],
+      "cta": {
+        "label": "Book a clean",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Prices",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Flats",
+        "Houses",
+        "Offices",
+        "Windows",
+        "Sofas",
+        "Carpets",
+        "Post-renovation"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we clean",
+      "intro": "Prices are for flats up to 60 m². Larger spaces are priced by area.",
+      "items": [
+        {
+          "title": "Regular clean",
+          "text": "Dust, floors, kitchen and bathroom — fresh every week.",
+          "price": "450,000 UZS",
+          "tag": "2–3 hours"
+        },
+        {
+          "title": "Deep clean",
+          "text": "Everything, including inside cupboards, tiles, appliances and skirting.",
+          "price": "from 900,000 UZS",
+          "tag": "5–7 hours"
+        },
+        {
+          "title": "Post-renovation",
+          "text": "Construction dust, paint and grout marks, window washing.",
+          "price": "from 1,500,000 UZS",
+          "tag": "full crew"
+        },
+        {
+          "title": "Window washing",
+          "text": "Glass, frames and sills on both sides.",
+          "price": "from 40,000 UZS",
+          "tag": "per pane"
+        },
+        {
+          "title": "Upholstery cleaning",
+          "text": "Sofas, armchairs and mattresses with an extractor; dry in 4–6 hours.",
+          "price": "from 350,000 UZS",
+          "tag": "per sofa"
+        },
+        {
+          "title": "Offices",
+          "text": "Daily or evening cleaning under contract.",
+          "price": "by contract",
+          "tag": "from 100 m²"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Our own people, our own supplies",
+      "text": "Our cleaners are on staff, trained and vetted. We use professional products that are safe for children and pets, and keep separate cloths for the kitchen and bathroom so dirt never travels.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How it works",
+      "title": "Four steps to clean",
+      "items": [
+        {
+          "title": "Request",
+          "text": "Tell us the size and what you need — we quote a price."
+        },
+        {
+          "title": "Arrival",
+          "text": "We arrive at your chosen time with everything needed."
+        },
+        {
+          "title": "Cleaning",
+          "text": "We follow a checklist room by room."
+        },
+        {
+          "title": "Walk-through",
+          "text": "We walk through together and fix anything on the spot."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "35",
+          "suffix": "",
+          "label": "cleaners on staff"
+        },
+        {
+          "value": "13",
+          "suffix": " h",
+          "label": "open for bookings daily"
+        },
+        {
+          "value": "2",
+          "suffix": " h",
+          "label": "to reach you same day"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "free redo if you’re not happy"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "A cleaning subscription",
+      "items": [
+        {
+          "name": "One-off clean",
+          "price": "450,000 UZS",
+          "period": "flat up to 60 m²",
+          "features": [
+            "Kitchen, bathroom, rooms",
+            "Our supplies",
+            "Walk-through with you"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Weekly",
+          "price": "1,560,000 UZS",
+          "period": "per month, 4 cleans",
+          "features": [
+            "The same cleaner every time",
+            "13% off",
+            "Windows once a month free"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Fortnightly",
+          "price": "820,000 UZS",
+          "period": "per month, 2 cleans",
+          "features": [
+            "A day of your choice",
+            "9% off",
+            "Reschedule without a fee"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "After the renovation I thought the dust would stay forever. The crew handled it in a day.",
+          "author": "Gulnora",
+          "role": "post-renovation clean"
+        },
+        {
+          "quote": "The same cleaner comes every time and knows where everything goes. You get home and it just feels good.",
+          "author": "Rustam",
+          "role": "weekly subscription"
+        },
+        {
+          "quote": "They cleaned the sofa after our cat — no stains and no smell.",
+          "author": "Anna",
+          "role": "sofa cleaning"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Do I need to be home?",
+          "a": "No. Leave the keys with the concierge or let the cleaner in and head out — we’ll do the walk-through by photo."
+        },
+        {
+          "q": "Are the products safe for children?",
+          "a": "Yes, we use professional products without harsh smells. If anyone has allergies, tell us and we’ll bring hypoallergenic ones."
+        },
+        {
+          "q": "What does a deep clean include?",
+          "a": "Everything in a regular clean plus inside cupboards, appliances, tiles, doors, skirting and radiators."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "Cash or transfer after the walk-through. Offices pay by invoice."
+        },
+        {
+          "q": "Can I reschedule?",
+          "a": "Yes, free of charge with 12 hours’ notice."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Booking",
+      "title": "Book a clean today",
+      "text": "Send the size and address and we’ll reply with a price and the next free slot.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/tozauy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "name": "Kafolat",
+  "tagline": "Sug‘urta brokeri: polis tanlaymiz, shartlarni tushuntiramiz va sug‘urta hodisasida yordam beramiz",
+  "niche": "Sug‘urta: OSAGO, KASKO, mulk, sog‘liq va sayohat",
+  "nav": {
+    "cta": {
+      "label": "Polis tanlash",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Sug‘urta kompaniyasi, broker yoki moliyaviy servis uchun sayt. Do‘stona uslub, rang bilan to‘ladigan qalqon, polisni bo‘limlar orqali tanlash va bosqichlar yozishma ko‘rinishida.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kafolat — Toshkentdagi sug‘urta brokeri: OSAGO, KASKO, uy",
+    "description": "Sug‘urta kompaniyalari takliflarini solishtiramiz va OSAGO, KASKO, kvartira, sog‘liq va sayohat sug‘urtasini rasmiylashtiramiz. Onlayn 10 daqiqada, sug‘urta hodisasida yordam.",
+    "keywords": [
+      "sug‘urta Toshkent",
+      "OSAGO onlayn",
+      "KASKO Toshkent",
+      "kvartira sug‘urtasi",
+      "sayohat sug‘urtasi",
+      "sug‘urta brokeri O‘zbekiston"
+    ],
+    "answer": "Kafolat — Toshkentdagi sug‘urta brokeri: bir nechta sug‘urta kompaniyalari shartlarini solishtiramiz va polisni onlayn yoki Bobur ko‘chasi, 22 dagi ofisda rasmiylashtiramiz. OSAGO — sug‘urtachi tarifi bo‘yicha, KASKO — yiliga 2 400 000 so‘mdan, kvartira sug‘urtasi — 300 000 so‘mdan, safar polisi — 90 000 so‘mdan. Sug‘urta hodisasida hujjat yig‘ishga yordam beramiz va to‘lovni kuzatib boramiz."
+  },
+  "business": {
+    "legalName": "«Kafolat Broker» MChJ",
+    "street": "Bobur ko‘chasi, 22",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "O‘zbekiston",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Mayda harflarsiz sug‘urta",
+      "eyebrow": "Sug‘urta brokeri · Toshkent",
+      "subtitle": "Sug‘urta kompaniyalari takliflarini solishtiramiz, shartlarni oddiy so‘zlar bilan tushuntiramiz va polisni 10 daqiqada rasmiylashtiramiz. Biror narsa yuz bersa — to‘lovgacha yoningizda bo‘lamiz.",
+      "words": [
+        "Avto",
+        "Kvartira",
+        "Sog‘liq",
+        "Safarlar",
+        "Biznes",
+        "Oila"
+      ],
+      "cta": {
+        "label": "Polis tanlash",
+        "href": "#services"
+      },
+      "ctaSecondary": {
+        "label": "Bu qanday ishlaydi",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Polislar",
+      "title": "Nimani himoya qilmoqchisiz?",
+      "intro": "Narxlar — taxminiy. Aniq narxni ma’lumotlaringiz bo‘yicha bir nechta sug‘urtachida hisoblaymiz.",
+      "items": [
+        {
+          "title": "Avtomobil",
+          "text": "OSAGO onlayn va o‘g‘irlik, YTH va tabiiy ofatdan KASKO. Qaysi franshizani tanlashni maslahat beramiz.",
+          "price": "2 400 000 so‘mdan",
+          "tag": "yillik KASKO"
+        },
+        {
+          "title": "Kvartira va uy",
+          "text": "Ta’mir, buyumlar va qo‘shnilar oldidagi javobgarlik — ularni suv bossangiz yoki ular sizni.",
+          "price": "300 000 so‘mdan",
+          "tag": "yiliga"
+        },
+        {
+          "title": "Sog‘liq",
+          "text": "Xususiy klinikalarda ixtiyoriy tibbiy sug‘urta: qabullar, tahlillar, statsionar.",
+          "price": "1 800 000 so‘mdan",
+          "tag": "yiliga"
+        },
+        {
+          "title": "Sayohatlar",
+          "text": "Viza va safar uchun polis: tibbiyot, bagaj, reys bekor qilinishi.",
+          "price": "90 000 so‘mdan",
+          "tag": "safar uchun"
+        },
+        {
+          "title": "Biznes",
+          "text": "Mulk, ombordagi tovarlar va kompaniya javobgarligi.",
+          "price": "hisob bo‘yicha",
+          "tag": "MChJ va YaTT uchun"
+        },
+        {
+          "title": "Hayot va oila",
+          "text": "Kattalar va bolalar uchun baxtsiz hodisadan sug‘urta.",
+          "price": "150 000 so‘mdan",
+          "tag": "yiliga"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bu qanday ishlaydi",
+      "title": "Polisgacha to‘rt xabar",
+      "items": [
+        {
+          "title": "Nimani sug‘urtalayotganimizni ayting",
+          "text": "Mashina, kvartira yoki safar — va bir-ikki tafsilot."
+        },
+        {
+          "title": "Mana uchta variant",
+          "text": "Sug‘urtachilarni solishtiramiz va farqni odamcha tushuntiramiz."
+        },
+        {
+          "title": "Ikkinchisini olaman",
+          "text": "Karta, Payme yoki Click orqali to‘lov."
+        },
+        {
+          "title": "Polis Telegramingizda",
+          "text": "Elektron polis darhol keladi, asl nusxasi — so‘rov bo‘yicha."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "10",
+          "suffix": " daq",
+          "label": "polisni onlayn rasmiylashtirish uchun"
+        },
+        {
+          "value": "8",
+          "suffix": "",
+          "label": "hamkor sug‘urta kompaniyalari"
+        },
+        {
+          "value": "24",
+          "suffix": "/7",
+          "label": "sug‘urta hodisasida yordam liniyasi"
+        },
+        {
+          "value": "0",
+          "suffix": " so‘m",
+          "label": "mijoz uchun komissiyamiz"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Bizga yozishadi",
+      "items": [
+        {
+          "quote": "Yuqoridagi qo‘shnilar ta’mirni suv bosdi. Kafolat hujjatlarni men uchun yig‘di, to‘lovni uch haftada oldim.",
+          "author": "Malika",
+          "role": "kvartira sug‘urtasi"
+        },
+        {
+          "quote": "Uchta KASKO o‘rtasidagi farqni shunday tushuntirishdiki, birinchi marta nima uchun to‘layotganimni tushundim.",
+          "author": "Temur",
+          "role": "KASKO"
+        },
+        {
+          "quote": "Viza uchun polisni bir kechada Telegramda rasmiylashtirishdi, hech qayerga borish shart bo‘lmadi.",
+          "author": "Sevara",
+          "role": "sayohat sug‘urtasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Nega broker orqali qimmatroq emas?",
+          "a": "Bizga sug‘urta kompaniyasi to‘laydi, shuning uchun siz uchun narx to‘g‘ridan-to‘g‘ri bilan bir xil, tanlov esa kengroq."
+        },
+        {
+          "q": "Sug‘urta hodisasida nima qilish kerak?",
+          "a": "Yordam liniyasiga qo‘ng‘iroq qiling yoki yozing: qanday hujjatlar yig‘ish kerakligini aytamiz va to‘lovgacha kuzatib boramiz."
+        },
+        {
+          "q": "Elektron polis haqiqiymi?",
+          "a": "Ha, OSAGO va boshqa turdagi elektron polislar sug‘urtachi bazasi bo‘yicha tekshiriladi."
+        },
+        {
+          "q": "Polis uchun pulni qaytarish mumkinmi?",
+          "a": "Ha, muddatidan oldin bekor qilinganda mukofotning bir qismi sug‘urtachi qoidalari bo‘yicha qaytariladi — ariza topshirishga yordam beramiz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Yozing — bugun polis tanlaymiz",
+      "text": "Ish vaqtida Telegramda 15 daqiqa ichida javob beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/kafolatuz"
+      }
+    }
+  ]
+}

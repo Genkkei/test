@@ -1,0 +1,281 @@
+{
+  "name": "Hisob",
+  "tagline": "Bookkeeping, taxes and reporting — so you run the business, not the paperwork",
+  "niche": "Outsourced accounting, tax advisory and audit",
+  "nav": {
+    "cta": {
+      "label": "Get a quote",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an accounting, audit or law firm. A calm business look, a month-end card that ticks itself off, services as a ledger and figures with sparklines.",
+    "features": []
+  },
+  "seo": {
+    "title": "Hisob — accounting services in Tashkent for sole traders and LLCs",
+    "description": "We keep the books and tax records for sole traders and LLCs, file on time, run payroll and prepare you for inspections. A fixed monthly price and a dedicated accountant.",
+    "keywords": [
+      "accounting services Tashkent",
+      "accountant for LLC",
+      "outsourced bookkeeping",
+      "tax reporting Uzbekistan",
+      "tax consultant",
+      "payroll services"
+    ],
+    "answer": "Hisob keeps the books for sole traders and LLCs in Tashkent and remotely across Uzbekistan. Support for a sole trader starts at 800,000 UZS a month, an LLC on the simplified regime from 2,500,000 UZS, and a one-off tax consultation is 500,000 UZS per hour. Every client has a dedicated accountant; we file through the e-cabinet and issue a contract and an act every month."
+  },
+  "business": {
+    "legalName": "Hisob Consulting LLC",
+    "street": "107B Amir Temur St, business centre, 5th floor",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Instagram"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Books that balance",
+      "eyebrow": "For sole traders and LLCs · across Uzbekistan",
+      "subtitle": "We keep the books, calculate taxes and payroll and file on time. You send the documents; we send back a closed month and a clear report.",
+      "words": [
+        "Statements reconciled",
+        "Source documents posted",
+        "Payroll and taxes calculated",
+        "Returns filed with the tax office"
+      ],
+      "cta": {
+        "label": "Get a quote",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Plans",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A dedicated accountant with a team behind them",
+      "text": "Every client has an accountant who knows their business and a chief accountant who reviews every return before it is filed. We work in 1C and the taxpayer e-cabinet, and accept documents via Telegram and email.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we take off your hands",
+      "intro": "Pricing depends on your tax regime and transaction volume. You get an exact quote after a short call.",
+      "items": [
+        {
+          "title": "Sole trader bookkeeping",
+          "text": "Income records, turnover tax, quarterly returns.",
+          "tag": "monthly",
+          "price": "from 800,000 UZS"
+        },
+        {
+          "title": "LLC accounting",
+          "text": "Full accounting, VAT, profit tax, balance sheet and returns.",
+          "tag": "monthly",
+          "price": "from 2,500,000 UZS"
+        },
+        {
+          "title": "Payroll & HR",
+          "text": "Payroll, income tax and social tax, orders and employment contracts.",
+          "tag": "per employee",
+          "price": "120,000 UZS"
+        },
+        {
+          "title": "Tax consultation",
+          "text": "Choosing a regime, reviewing a deal, answering a tax office request.",
+          "tag": "per hour",
+          "price": "500,000 UZS"
+        },
+        {
+          "title": "Catch-up bookkeeping",
+          "text": "We clean up past periods and file corrected returns.",
+          "tag": "project",
+          "price": "quoted"
+        },
+        {
+          "title": "Company registration",
+          "text": "Setting up a sole tradership or LLC, choosing a regime, e-cabinet access.",
+          "tag": "one-off",
+          "price": "1,200,000 UZS"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "40",
+          "suffix": "+",
+          "label": "companies we support"
+        },
+        {
+          "value": "9",
+          "suffix": "",
+          "label": "accountants on the team"
+        },
+        {
+          "value": "24",
+          "suffix": " h",
+          "label": "to reply on working days"
+        },
+        {
+          "value": "0",
+          "suffix": "",
+          "label": "late returns last year"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How we work",
+      "title": "A month with us",
+      "items": [
+        {
+          "title": "You send documents",
+          "text": "Photos, PDFs or exports — via Telegram or email."
+        },
+        {
+          "title": "We post and reconcile",
+          "text": "We reconcile statements, documents and balances."
+        },
+        {
+          "title": "We calculate taxes",
+          "text": "You get the amounts and due dates in advance."
+        },
+        {
+          "title": "We file and report",
+          "text": "Returns to the tax office and a short month summary for you."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Plans",
+      "title": "A fixed monthly price",
+      "items": [
+        {
+          "name": "Sole trader",
+          "price": "from 800,000 UZS",
+          "period": "per month",
+          "features": [
+            "Turnover tax",
+            "Quarterly returns",
+            "Answers on Telegram"
+          ],
+          "featured": false
+        },
+        {
+          "name": "LLC Start",
+          "price": "from 2,500,000 UZS",
+          "period": "per month, up to 50 transactions",
+          "features": [
+            "Full accounting",
+            "Payroll for up to 5 staff",
+            "Dedicated accountant",
+            "Monthly summary"
+          ],
+          "featured": true
+        },
+        {
+          "name": "LLC Business",
+          "price": "from 5,000,000 UZS",
+          "period": "per month, VAT payer",
+          "features": [
+            "VAT and profit tax",
+            "Payroll for up to 20 staff",
+            "Inspection support"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {
+          "quote": "I stopped worrying about deadlines: a week before each payment I get a message with the amount.",
+          "author": "Farrukh",
+          "role": "sole trader, online shop"
+        },
+        {
+          "quote": "They rebuilt two years of books after our previous accountant and calmly took us through an inspection.",
+          "author": "Dilnoza",
+          "role": "LLC, distribution"
+        },
+        {
+          "quote": "A one-page monthly summary — for the first time I understand where the money goes.",
+          "author": "Igor",
+          "role": "LLC, café"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Can we work remotely?",
+          "a": "Yes, most clients never visit the office: documents via Telegram, signatures via digital key."
+        },
+        {
+          "q": "Who is liable for mistakes?",
+          "a": "We are. It is written into the contract: if a fine results from our error, we cover it."
+        },
+        {
+          "q": "How fast can you start?",
+          "a": "Usually within 3–5 working days: contract, access and handover from your previous accountant."
+        },
+        {
+          "q": "Do you handle VAT?",
+          "a": "Yes, we support VAT payers, including e-invoices."
+        },
+        {
+          "q": "What if our volume grows?",
+          "a": "We review the plan quarterly based on actual volume, with no hidden extras."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Tell us about your business — we’ll price it",
+      "text": "A fifteen-minute call about your tax regime, headcount and transactions. You get a quote the same day.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/hisobuz"
+      }
+    }
+  ]
+}

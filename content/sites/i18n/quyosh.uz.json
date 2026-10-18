@@ -1,0 +1,322 @@
+{
+  "name": "Quyosh Energy",
+  "tagline": "Uy va biznes uchun quyosh stansiyalari — kalit topshirish, montaj va servis bilan",
+  "niche": "Quyosh panellari: loyiha, montaj va stansiyalarga xizmat ko‘rsatish",
+  "nav": {
+    "cta": {
+      "label": "Stansiyani hisoblash",
+      "href": "#pricing"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Quyosh panellari o‘rnatuvchisi, energetika yoki muhandislik kompaniyasi uchun sayt. Yoydagi quyosh real vaqt bo‘yicha yuradi, quvvat kalkulyatori, xizmatlar panel kataklari ko‘rinishida.",
+    "features": []
+  },
+  "seo": {
+    "title": "Quyosh Energy — Toshkentda kalit topshiriladigan quyosh panellari",
+    "description": "Uylar, do‘konlar va ishlab chiqarish uchun quyosh stansiyalarini loyihalaymiz va o‘rnatamiz: quvvat hisobi, panel va invertorlar, tarmoqqa ulash va servis. Muhandis tashrifi bepul.",
+    "keywords": [
+      "quyosh panellari Toshkent",
+      "uy uchun quyosh stansiyasi",
+      "quyosh panellarini o‘rnatish",
+      "invertor",
+      "kalit topshiriladigan quyosh elektr stansiyasi",
+      "yashil energiya O‘zbekiston"
+    ],
+    "answer": "Quyosh Energy Toshkent va viloyatda kalit topshiriladigan quyosh stansiyalarini loyihalaydi va o‘rnatadi. Xususiy uy uchun 5 kVt stansiya — montaj bilan 38 000 000 so‘mdan, 10 kVt — 69 000 000 so‘mdan; montaj 2–4 kun davom etadi. Muhandis tashrifi va quvvat hisobi bepul, ishlarga 5 yil kafolat beramiz."
+  },
+  "business": {
+    "legalName": "«Quyosh Energy» MChJ",
+    "street": "Muqimiy ko‘chasi, 166",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent va Toshkent viloyati",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Tomingiz ishlashi mumkin",
+      "eyebrow": "Toshkent va viloyat bo‘ylab o‘rnatamiz",
+      "subtitle": "Uy va biznes uchun quyosh stansiyalari: quvvatni hisoblaymiz, panel va invertor o‘rnatamiz, tarmoqqa ulaymiz va xizmat ko‘rsatamiz. Kunduzgi elektr — quyoshdan.",
+      "words": [
+        "550 Vt panellar",
+        "Gibrid invertorlar",
+        "Telefonda monitoring"
+      ],
+      "cta": {
+        "label": "Stansiyani hisoblash",
+        "href": "#pricing"
+      },
+      "ctaSecondary": {
+        "label": "Qanday ishlaymiz",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Xususiy uylar",
+        "Do‘konlar",
+        "Omborlar",
+        "Fermalar",
+        "Ishlab chiqarish",
+        "Zaxira quvvat"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Kompaniya haqida",
+      "title": "Panel sotuvchilari emas, muhandislar",
+      "text": "Har bir stansiyani tashrifdan boshlaymiz: tomni, daraxtlar soyasini, hisoblagich va shitni ko‘ramiz. Quvvatni «maksimal» emas, real iste’molingiz bo‘yicha hisoblaymiz. Montaj brigadasi — o‘z xodimlarimiz; ishga tushirgandan keyin stansiya ilovada ko‘rinadi, servis esa yiliga bir marta keladi.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nima qilamiz",
+      "intro": "Narxlar — tipik yechimlar uchun taxminiy. Aniq smetani tashrifdan keyin beramiz.",
+      "items": [
+        {
+          "title": "Uy uchun stansiya",
+          "text": "Tomdagi panellar, tarmoq yoki gibrid invertor, tarmoqqa ulash.",
+          "price": "38 000 000 so‘mdan",
+          "tag": "3–15 kVt"
+        },
+        {
+          "title": "Biznes uchun",
+          "text": "Do‘kon, ombor, sexlar: tarmoqdan kunduzgi iste’molni kamaytiramiz.",
+          "price": "hisob bo‘yicha",
+          "tag": "20–500 kVt"
+        },
+        {
+          "title": "Zaxira quvvat",
+          "text": "O‘chirilishlarda chiroq, muzlatgich va qozonni ushlab turadigan akkumulyatorlar.",
+          "price": "18 000 000 so‘mdan",
+          "tag": "5–20 kVt·soat"
+        },
+        {
+          "title": "Quyosh suv isitgichi",
+          "text": "Yozda issiq suv deyarli bepul, qishda — qozonga yordam.",
+          "price": "6 500 000 so‘mdan",
+          "tag": "200–300 l"
+        },
+        {
+          "title": "Xizmat ko‘rsatish",
+          "text": "Panellarni yuvish, ulanish va invertorni tekshirish, ishlab chiqarish hisoboti.",
+          "price": "900 000 so‘mdan",
+          "tag": "yiliga bir marta"
+        },
+        {
+          "title": "Energiya iste’moli auditi",
+          "text": "Hisob va yuklamani tahlil qilamiz, elektr qayerda yo‘qolishini ko‘rsatamiz.",
+          "price": "buyurtmada bepul",
+          "tag": "1 kun"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "25",
+          "suffix": " yil",
+          "label": "panellarga ishlab chiqaruvchi kafolati"
+        },
+        {
+          "value": "5",
+          "suffix": " yil",
+          "label": "montajga bizning kafolatimiz"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "Toshkentda yiliga quyoshli kunlar"
+        },
+        {
+          "value": "3",
+          "suffix": " kun",
+          "label": "uy stansiyasini o‘rnatishning o‘rtacha muddati"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Stansiyalar",
+      "title": "Quvvatni hisoblang va paketni tanlang",
+      "items": [
+        {
+          "name": "Uy 5 kVt",
+          "price": "38 000 000 so‘mdan",
+          "period": "montaj bilan",
+          "features": [
+            "550 Vt li 10 ta panel",
+            "Tarmoq invertori",
+            "Ilovada monitoring"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Uy 10 kVt",
+          "price": "69 000 000 so‘mdan",
+          "period": "montaj bilan",
+          "features": [
+            "550 Vt li 19 ta panel",
+            "Gibrid invertor",
+            "Akkumulyatorga tayyor",
+            "Birinchi yil servis"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Biznes 30 kVt",
+          "price": "hisob bo‘yicha",
+          "period": "obyektingiz uchun",
+          "features": [
+            "Loyiha va kelishuvlar",
+            "Uch fazali invertor",
+            "Har oy ishlab chiqarish hisoboti"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bosqichlar",
+      "title": "Tashrifdan birinchi kilovattgacha",
+      "items": [
+        {
+          "title": "Muhandis tashrifi",
+          "text": "Tom va elektrni bepul ko‘rib chiqamiz."
+        },
+        {
+          "title": "Loyiha va smeta",
+          "text": "Ishlab chiqarish hisobi, sxema, qat’iy narx."
+        },
+        {
+          "title": "Montaj",
+          "text": "O‘z brigadamiz stansiyani 2–4 kunda o‘rnatadi."
+        },
+        {
+          "title": "Ishga tushirish",
+          "text": "Tarmoqqa ulaymiz, ilovani sozlaymiz."
+        },
+        {
+          "title": "Servis",
+          "text": "Yiliga bir marta panellarni yuvamiz va hammasini tekshiramiz."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Obyektlar",
+      "title": "Quyosh allaqachon ishlayotgan joylar",
+      "items": [
+        {
+          "caption": "Yunusoboddagi uy · 8 kVt",
+          "image": ""
+        },
+        {
+          "caption": "Sergelidagi ombor · 60 kVt",
+          "image": ""
+        },
+        {
+          "caption": "Parkentdagi ferma · 20 kVt",
+          "image": ""
+        },
+        {
+          "caption": "Chilonzordagi do‘kon · 15 kVt",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Stansiya egalari nima deydi",
+      "items": [
+        {
+          "quote": "Yozda elektr hisobi deyarli nolga tushdi, ilovada esa har bir panel qancha berganini ko‘rish mumkin.",
+          "author": "Bahrom",
+          "role": "uy 8 kVt"
+        },
+        {
+          "quote": "Ombor uchun loyiha qilishdi, tomning yarmi soyada ekanini ochiq aytishdi va kamroq panel qo‘yishni taklif qilishdi.",
+          "author": "Olga",
+          "role": "logistika kompaniyasi"
+        },
+        {
+          "quote": "O‘chirilishlarda uyda chiroq va qozon ishlaydi — akkumulyatorlar butun kechqurun yetadi.",
+          "author": "Sanjar",
+          "role": "zaxira quvvat"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Stansiya qancha vaqtda o‘zini oqlaydi?",
+          "a": "Tarif, iste’mol va kunduzi qancha energiya sarflashingizga bog‘liq. Muddatni o‘rtacha raqamlar emas, sizning hisoblaringiz bo‘yicha smetada hisoblaymiz."
+        },
+        {
+          "q": "Panellar qishda ishlaydimi?",
+          "a": "Ha, lekin kun qisqa bo‘lgani uchun ishlab chiqarish pastroq. Yillik hisob barcha fasllarni hisobga oladi."
+        },
+        {
+          "q": "Elektr o‘chsa nima bo‘ladi?",
+          "a": "Xavfsizlik uchun tarmoq invertori o‘chadi. Uy o‘chirilishlarda ishlashi uchun gibrid invertor va akkumulyatorlar kerak."
+        },
+        {
+          "q": "Ruxsat kerakmi?",
+          "a": "Tarmoqqa ulash uchun hujjatlar kerak — ularni o‘zimiz tayyorlaymiz va topshiramiz."
+        },
+        {
+          "q": "Mening tomim mos keladimi?",
+          "a": "Qiya va tekis tomlar mos keladi; yo‘nalish va soya muhim. Muhandis tashrifda tekshiradi."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Muhandisni tashrifga taklif qiling",
+      "text": "Tashrif, ko‘rik va quvvat hisobi — bepul. Elektr hisobining suratini Telegramga yuboring — oldindan tayyorlanamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/quyoshenergy"
+      }
+    }
+  ]
+}

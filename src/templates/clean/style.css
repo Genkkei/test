@@ -50,7 +50,7 @@
 .clean-room-svg { display: block; width: 100%; height: 100%; }
 .clean-ba__before { clip-path: inset(0 calc(100% - var(--p)) 0 0); }
 .clean-ba__handle { position: absolute; top: 0; bottom: 0; left: var(--p); width: 4px; margin-left: -2px; background: #fff; cursor: ew-resize; }
-.clean-ba__handle span { position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; margin: -26px 0 0 -26px; display: grid; place-items: center; border-radius: 50%; background: #fff; color: var(--fg); font-weight: 800; letter-spacing: -.1em; box-shadow: 0 8px 20px -6px rgb(0 0 0 / .3); }
+.clean-ba__handle span { position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; margin: -26px 0 0 -26px; display: grid; place-items: center; border-radius: 50%; background: #fff; color: var(--fg); font-weight: 800; letter-spacing: -.1em; box-shadow: 0 8px 20px -6px rgb(0 0 0 / .3); font-size: 20px; }
 .clean-ba__tag { position: absolute; top: 16px; padding: 6px 14px; border-radius: 999px; background: #fff; font-weight: 800; font-size: 13px; pointer-events: none; }
 .clean-ba__tag--l { left: 16px; color: #8a6a3a; }
 .clean-ba__tag--r { right: 16px; color: var(--accent); }

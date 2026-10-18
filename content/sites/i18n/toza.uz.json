@@ -1,0 +1,294 @@
+{
+  "name": "Toza Uy",
+  "tagline": "Kvartira, uy va ofislarni tozalash — o‘z vositalarimiz bilan kelamiz va yaltiramaguncha ketmaymiz",
+  "niche": "Kliring: umumiy tozalash, ta’mirdan keyin, deraza yuvish va mebelni kimyoviy tozalash",
+  "nav": {
+    "cta": {
+      "label": "Tozalash buyurtma qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kliring kompaniyasi, kimyoviy tozalash yoki maishiy servis uchun sayt. Kursordan yoriladigan sovun pufakchalari, «oldin va keyin»ni tutqich bilan solishtirish va yaltiroq tariflar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Toza Uy — Toshkentda kliring: kvartira va ofislarni tozalash",
+    "description": "Umumiy va doimiy tozalash, ta’mirdan keyingi tozalash, deraza yuvish va yumshoq mebelni kimyoviy tozalash. O‘z vositalari va texnikasi, qat’iy narx, murojaat kunida chiqish.",
+    "keywords": [
+      "kliring Toshkent",
+      "kvartira tozalash Toshkent",
+      "umumiy tozalash",
+      "ta’mirdan keyin tozalash",
+      "deraza yuvish",
+      "divanni kimyoviy tozalash"
+    ],
+    "answer": "Toza Uy Toshkentda kvartira, uy va ofislarni har kuni 8:00 dan 21:00 gacha tozalaydi. 60 m² gacha bo‘lgan kvartirani doimiy tozalash — 450 000 so‘m, umumiy tozalash — 900 000 so‘mdan, ta’mirdan keyin — 1 500 000 so‘mdan, deraza yuvish — tabaqasi 40 000 so‘mdan. O‘z vosita va texnikamiz bilan kelamiz, narxni chiqishdan oldin belgilaymiz."
+  },
+  "business": {
+    "legalName": "«Toza Uy Servis» MChJ",
+    "street": "Chilonzor ko‘chasi, 1-kvartal, 45",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Birinchi kundagidek toza",
+      "eyebrow": "Toshkent bo‘ylab kliring · har kuni",
+      "subtitle": "Kvartira, uy yoki ofisni o‘z vosita va texnikamiz bilan tozalaymiz. Narxni chiqishdan oldin aytamiz, biror narsa yoqmasa — bepul qayta qilamiz.",
+      "words": [
+        "O‘z vositalarimiz",
+        "Narx chiqishdan oldin",
+        "Bepul qayta qilamiz"
+      ],
+      "cta": {
+        "label": "Tozalash buyurtma qilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Narxlar",
+        "href": "#pricing"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Kvartiralar",
+        "Uylar",
+        "Ofislar",
+        "Derazalar",
+        "Divanlar",
+        "Gilamlar",
+        "Ta’mirdan keyin"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimalarni tozalaymiz",
+      "intro": "60 m² gacha kvartira uchun narxlar. Katta maydonlar uchun metr bo‘yicha hisoblaymiz.",
+      "items": [
+        {
+          "title": "Doimiy tozalash",
+          "text": "Chang, pollar, oshxona, sanuzel — uyda har hafta toza bo‘lishi uchun.",
+          "price": "450 000 so‘m",
+          "tag": "2–3 soat"
+        },
+        {
+          "title": "Umumiy tozalash",
+          "text": "Hammasi, shkaflar ichi, kafel, texnika va plintuslar ham.",
+          "price": "900 000 so‘mdan",
+          "tag": "5–7 soat"
+        },
+        {
+          "title": "Ta’mirdan keyin",
+          "text": "Qurilish changi, bo‘yoq va zatirka izlari, deraza yuvish.",
+          "price": "1 500 000 so‘mdan",
+          "tag": "brigada"
+        },
+        {
+          "title": "Deraza yuvish",
+          "text": "Ikki tomondan oyna, rom va deraza tokchalari.",
+          "price": "40 000 so‘mdan",
+          "tag": "tabaqa uchun"
+        },
+        {
+          "title": "Mebelni kimyoviy tozalash",
+          "text": "Divan, kreslo, matraslar — ekstraktor bilan, 4–6 soatda quriydi.",
+          "price": "350 000 so‘mdan",
+          "tag": "divan uchun"
+        },
+        {
+          "title": "Ofislar",
+          "text": "Shartnoma bo‘yicha kundalik yoki kechki tozalash.",
+          "price": "shartnoma bo‘yicha",
+          "tag": "100 m² dan"
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Biz haqimizda",
+      "title": "O‘z odamlarimiz, o‘z vositalarimiz",
+      "text": "Klinerlar shtatimizda ishlaydi, o‘qitiladi va tekshiriladi. Bolalar va hayvonlar uchun xavfsiz professional vositalardan foydalanamiz, kirni o‘tkazmaslik uchun oshxona va sanuzel salfetkalarini alohida ishlatamiz.",
+      "image": ""
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Bu qanday ishlaydi",
+      "title": "Tozalikka to‘rt qadam",
+      "items": [
+        {
+          "title": "Ariza",
+          "text": "Maydon va nima kerakligini yozasiz — narxni aytamiz."
+        },
+        {
+          "title": "Chiqish",
+          "text": "Tanlangan vaqtda hamma narsa bilan kelamiz."
+        },
+        {
+          "title": "Tozalash",
+          "text": "Chek-list bo‘yicha xonama-xona ishlaymiz."
+        },
+        {
+          "title": "Qabul qilish",
+          "text": "Birga ko‘rib chiqamiz va biror narsa noto‘g‘ri bo‘lsa, darhol tuzatamiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "35",
+          "suffix": "",
+          "label": "shtatdagi klinerlar"
+        },
+        {
+          "value": "13",
+          "suffix": " soat",
+          "label": "har kuni buyurtma qabul qilamiz"
+        },
+        {
+          "value": "2",
+          "suffix": " soat",
+          "label": "murojaat kunida chiqish uchun"
+        },
+        {
+          "value": "100",
+          "suffix": "%",
+          "label": "yoqmasa bepul qayta qilamiz"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Narxlar",
+      "title": "Tozalikka obuna",
+      "items": [
+        {
+          "name": "Bir martalik tozalash",
+          "price": "450 000 so‘m",
+          "period": "60 m² gacha kvartira",
+          "features": [
+            "Oshxona, sanuzel, xonalar",
+            "O‘z vositalarimiz",
+            "Siz bilan qabul qilish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Har hafta",
+          "price": "1 560 000 so‘m",
+          "period": "oyiga, 4 ta tozalash",
+          "features": [
+            "Har doim bitta klinerning o‘zi",
+            "13% chegirma",
+            "Oyiga bir marta deraza sovg‘a"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Ikki haftada bir",
+          "price": "820 000 so‘m",
+          "period": "oyiga, 2 ta tozalash",
+          "features": [
+            "Qulay hafta kuni",
+            "9% chegirma",
+            "Jarimasiz ko‘chirish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Ta’mirdan keyin qurilish changi abadiy qoladi deb o‘ylagandim. Brigada bir kunda uddaladi.",
+          "author": "Gulnora",
+          "role": "ta’mirdan keyin tozalash"
+        },
+        {
+          "quote": "Har doim bitta klinerning o‘zi keladi, nima qayerdaligini biladi. Uyga kelasan — shunchaki yaxshi.",
+          "author": "Rustam",
+          "role": "haftalik obuna"
+        },
+        {
+          "quote": "Mushukdan keyin divanni tozalashdi — dog‘ ham, hid ham yo‘q.",
+          "author": "Anna",
+          "role": "divanni kimyoviy tozalash"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Tozalash vaqtida uyda bo‘lish kerakmi?",
+          "a": "Yo‘q. Kalitni konsyerjga qoldirishingiz yoki klinerni kutib olib ketishingiz mumkin — qabulni suratlar orqali qilamiz."
+        },
+        {
+          "q": "Vositalar bolalar uchun xavfsizmi?",
+          "a": "Ha, o‘tkir hidsiz professional vositalardan foydalanamiz. Allergiya bo‘lsa, oldindan ayting — gipoallergen vositalar olamiz."
+        },
+        {
+          "q": "Umumiy tozalashga nimalar kiradi?",
+          "a": "Doimiy tozalashdagi hamma narsa va shkaflar ichi, texnika, kafel, eshiklar, plintuslar va batareyalar."
+        },
+        {
+          "q": "Qanday to‘lash mumkin?",
+          "a": "Ish qabul qilingandan keyin naqd yoki o‘tkazma orqali. Ofislar uchun — hisob bo‘yicha."
+        },
+        {
+          "q": "Tozalashni ko‘chirish mumkinmi?",
+          "a": "Ha, 12 soat oldin ogohlantirsangiz bepul."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Bugun tozalash buyurtma qiling",
+      "text": "Maydon va manzilni yozing — narx va eng yaqin bo‘sh vaqtni yuboramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/tozauy"
+      }
+    }
+  ]
+}

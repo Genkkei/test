@@ -1,0 +1,322 @@
+{
+  "name": "Quyosh Energy",
+  "tagline": "Solar systems for homes and businesses — turnkey, with installation and service",
+  "niche": "Solar panels: design, installation and maintenance",
+  "nav": {
+    "cta": {
+      "label": "Size my system",
+      "href": "#pricing"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a solar installer, energy or engineering company. A sun that moves along its arc in real time, a system-size calculator and services as solar cells.",
+    "features": []
+  },
+  "seo": {
+    "title": "Quyosh Energy — turnkey solar panels in Tashkent",
+    "description": "We design and install solar systems for homes, shops and factories: sizing, panels and inverters, grid connection and service. Engineer visits are free.",
+    "keywords": [
+      "solar panels Tashkent",
+      "home solar system",
+      "solar installation",
+      "inverter",
+      "turnkey solar plant",
+      "green energy Uzbekistan"
+    ],
+    "answer": "Quyosh Energy designs and installs turnkey solar systems in Tashkent and the region. A 5 kW home system starts at 38,000,000 UZS installed, a 10 kW system at 69,000,000 UZS; installation takes 2–4 days. The engineer visit and sizing are free, and our workmanship carries a 5-year warranty."
+  },
+  "business": {
+    "legalName": "Quyosh Energy LLC",
+    "street": "166 Muqimiy St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent and Tashkent region",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Facebook"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Your roof can do the work",
+      "eyebrow": "Installing across Tashkent and the region",
+      "subtitle": "Solar systems for homes and businesses: we size the system, mount the panels and inverter, connect to the grid and service it. Daytime power, from the sun.",
+      "words": [
+        "550 W panels",
+        "Hybrid inverters",
+        "Monitoring on your phone"
+      ],
+      "cta": {
+        "label": "Size my system",
+        "href": "#pricing"
+      },
+      "ctaSecondary": {
+        "label": "How it works",
+        "href": "#process"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Private homes",
+        "Shops",
+        "Warehouses",
+        "Farms",
+        "Factories",
+        "Backup power"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Engineers, not panel sellers",
+      "text": "Every system starts with a site visit: we check the roof, tree shade, the meter and the panel board. We size it to your real consumption, not to the maximum. The installation crew is our own staff; once running, the system shows up in an app and service visits once a year.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Services",
+      "title": "What we do",
+      "intro": "Prices are a guide for standard setups. You get an exact quote after the visit.",
+      "items": [
+        {
+          "title": "Home system",
+          "text": "Rooftop panels, grid-tied or hybrid inverter, grid connection.",
+          "price": "from 38,000,000 UZS",
+          "tag": "3–15 kW"
+        },
+        {
+          "title": "For business",
+          "text": "Shops, warehouses, workshops: we cut daytime draw from the grid.",
+          "price": "by quote",
+          "tag": "20–500 kW"
+        },
+        {
+          "title": "Backup power",
+          "text": "Batteries that keep the lights, fridge and boiler on during outages.",
+          "price": "from 18,000,000 UZS",
+          "tag": "5–20 kWh"
+        },
+        {
+          "title": "Solar water heater",
+          "text": "Nearly free hot water in summer, support for the boiler in winter.",
+          "price": "from 6,500,000 UZS",
+          "tag": "200–300 L"
+        },
+        {
+          "title": "Maintenance",
+          "text": "Panel cleaning, connection and inverter checks, an output report.",
+          "price": "from 900,000 UZS",
+          "tag": "once a year"
+        },
+        {
+          "title": "Energy audit",
+          "text": "We go through bills and loads and show where power is being lost.",
+          "price": "free with an order",
+          "tag": "1 day"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "25",
+          "suffix": " yrs",
+          "label": "manufacturer warranty on panels"
+        },
+        {
+          "value": "5",
+          "suffix": " yrs",
+          "label": "our warranty on installation"
+        },
+        {
+          "value": "300",
+          "suffix": "+",
+          "label": "sunny days a year in Tashkent"
+        },
+        {
+          "value": "3",
+          "suffix": " days",
+          "label": "typical install time for a home"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Systems",
+      "title": "Estimate your size and pick a package",
+      "items": [
+        {
+          "name": "Home 5 kW",
+          "price": "from 38,000,000 UZS",
+          "period": "installed",
+          "features": [
+            "10 × 550 W panels",
+            "Grid-tied inverter",
+            "App monitoring"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Home 10 kW",
+          "price": "from 69,000,000 UZS",
+          "period": "installed",
+          "features": [
+            "19 × 550 W panels",
+            "Hybrid inverter",
+            "Battery-ready",
+            "First-year service"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Business 30 kW",
+          "price": "by quote",
+          "period": "for your site",
+          "features": [
+            "Design and approvals",
+            "Three-phase inverter",
+            "Monthly output report"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Process",
+      "title": "From site visit to the first kilowatt",
+      "items": [
+        {
+          "title": "Engineer visit",
+          "text": "We inspect the roof and wiring, free of charge."
+        },
+        {
+          "title": "Design & quote",
+          "text": "Output estimate, layout and a fixed price."
+        },
+        {
+          "title": "Installation",
+          "text": "Our crew installs the system in 2–4 days."
+        },
+        {
+          "title": "Go-live",
+          "text": "We connect to the grid and set up the app."
+        },
+        {
+          "title": "Service",
+          "text": "Once a year we clean the panels and check everything."
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Projects",
+      "title": "Where the sun already works",
+      "items": [
+        {
+          "caption": "House in Yunusabad · 8 kW",
+          "image": ""
+        },
+        {
+          "caption": "Warehouse in Sergeli · 60 kW",
+          "image": ""
+        },
+        {
+          "caption": "Farm in Parkent · 20 kW",
+          "image": ""
+        },
+        {
+          "caption": "Shop in Chilanzar · 15 kW",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "What owners say",
+      "items": [
+        {
+          "quote": "In summer the power bill dropped almost to zero, and the app shows what each panel produced.",
+          "author": "Bahrom",
+          "role": "8 kW home"
+        },
+        {
+          "quote": "They designed our warehouse system, told us honestly half the roof was shaded and suggested fewer panels.",
+          "author": "Olga",
+          "role": "logistics company"
+        },
+        {
+          "quote": "During outages our lights and boiler keep running — the batteries last the whole evening.",
+          "author": "Sanjar",
+          "role": "backup power"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How long does a system take to pay off?",
+          "a": "It depends on your tariff, consumption and how much power you use in the daytime. We calculate it in the quote from your actual bills, not from averages."
+        },
+        {
+          "q": "Do panels work in winter?",
+          "a": "Yes, though output is lower because the days are short. The annual estimate accounts for every season."
+        },
+        {
+          "q": "What happens during a power cut?",
+          "a": "A grid-tied inverter shuts off for safety. To keep the house running during outages you need a hybrid inverter and batteries."
+        },
+        {
+          "q": "Do I need a permit?",
+          "a": "Grid connection needs paperwork — we prepare and file it for you."
+        },
+        {
+          "q": "Will my roof work?",
+          "a": "Pitched and flat roofs both work; orientation and shade matter. The engineer checks on the visit."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Book an engineer visit",
+      "text": "The visit, inspection and sizing are free. Send a photo of your power bill on Telegram and we’ll come prepared.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/quyoshenergy"
+      }
+    }
+  ]
+}

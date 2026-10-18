@@ -1,0 +1,322 @@
+{
+  "name": "Tikuv",
+  "tagline": "O‘lchamingizga tikilgan kiyim va qayta hayot baxsh etadigan buyumlar",
+  "niche": "Atelye: buyurtma asosida tikish, moslashtirish va kiyim ta’miri",
+  "nav": {
+    "cta": {
+      "label": "O‘lcham olish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Atelye, tikuvchi yoki tikuv ustaxonasi uchun sayt. Birinchi ekranda chiziladigan andoza, santimetr lenta, xizmatlar andoza bo‘laklari va raqamlar ipdagi yorliqlar ko‘rinishida.",
+    "features": []
+  },
+  "seo": {
+    "title": "Tikuv — Toshkentdagi atelye: kiyim tikish va ta’mirlash",
+    "description": "Kostyum, ko‘ylak va ko‘ylaklarni o‘lcham bo‘yicha tikish, qomatga moslashtirish, ta’mir va zamok almashtirish. Usta bilan kiyib ko‘rish, bir kunda shoshilinch ta’mir.",
+    "keywords": [
+      "atelye Toshkent",
+      "buyurtma bilan kostyum tikish",
+      "kiyim ta’miri Toshkent",
+      "kiyimni moslashtirish",
+      "individual tikish",
+      "zamok almashtirish"
+    ],
+    "answer": "Tikuv — Toshkentdagi Abdulla Qodiriy ko‘chasi, 12 manzilidagi atelye, dushanbadan shanbagacha 10:00 dan 20:00 gacha ishlaydi. Erkaklar kostyumini o‘lcham bo‘yicha tikish — 3 500 000 so‘mdan, 3–4 hafta; shimni moslashtirish — 60 000 so‘mdan; zamok almashtirish — 50 000 so‘mdan. Shoshilinch ta’mirni bir kunda bajaramiz; o‘lcham olishga Telegram yoki telefon orqali yoziling."
+  },
+  "business": {
+    "legalName": "«Tikuv Atelye» MChJ",
+    "street": "Abdulla Qodiriy ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Sizga moslab tikilgan",
+      "eyebrow": "Atelye · Toshkent · tikish va ta’mir",
+      "subtitle": "O‘lchamingiz bo‘yicha kostyum, ko‘ylak va ko‘ylaklar, tayyor kiyimni moslashtirish va puxta ta’mir. 30 ta o‘lcham olamiz, ikki marta kiyib ko‘rasiz va kiyim mos tushmaguncha topshirmaymiz.",
+      "words": [],
+      "cta": {
+        "label": "O‘lchamga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Xizmatlar va narxlar",
+        "href": "#services"
+      },
+      "image": ""
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Kostyumlar",
+        "Ko‘ylaklar",
+        "Ko‘ylaklar erkaklar uchun",
+        "Moslashtirish",
+        "Ta’mir",
+        "To‘y liboslari",
+        "Maktab formasi"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Atelye",
+      "title": "Kiyimni ko‘ndirmaydigan, balki moslaydigan ustaxona",
+      "text": "Erkaklar va ayollar kiyimini tikishda tajribali besh tikuvchi va bichuvchi. Mijozning matosi bilan ishlaymiz va o‘zimiz ham tanlab beramiz: jun, zig‘ir, paxta, ipak. Har bir kiyimni bitta usta olib boradi — o‘lchamdan oxirgi tugmagacha, shuning uchun qaytadan tushuntirishga hojat yo‘q.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Xizmatlar",
+      "title": "Nimalarni tikamiz va tuzatamiz",
+      "intro": "Narxlar — usta ishi uchun, mato alohida hisoblanadi. Aniq narxni kiyib ko‘rgandan keyin aytamiz.",
+      "items": [
+        {
+          "title": "Erkaklar kostyumi",
+          "text": "O‘lcham bo‘yicha ikkilik yoki uchlik, ikki marta kiyib ko‘rish, latskanlar qo‘lda ishlanadi.",
+          "price": "3 500 000 so‘mdan",
+          "tag": "3–4 hafta"
+        },
+        {
+          "title": "Buyurtma ko‘ylak",
+          "text": "Kechki, kokteyl yoki kundalik — eskizdan oxirgi kiyib ko‘rishgacha.",
+          "price": "1 800 000 so‘m",
+          "tag": "2–3 hafta"
+        },
+        {
+          "title": "O‘lcham bo‘yicha ko‘ylak",
+          "text": "Yoqa, manjet va mato tanlovi; andozani keyingi buyurtmalar uchun saqlaymiz.",
+          "price": "650 000 so‘m",
+          "tag": "10 kun"
+        },
+        {
+          "title": "Qomatga moslashtirish",
+          "text": "Torayitish, qisqartirish, pidjakni yelka yoki belda qayta tikish.",
+          "price": "60 000 so‘m",
+          "tag": "1 kundan"
+        },
+        {
+          "title": "Ta’mir va zamoklar",
+          "text": "Zamokni almashtirish, yamash, astarni tiklash.",
+          "price": "50 000 so‘m",
+          "tag": "Bir kunda shoshilinch"
+        },
+        {
+          "title": "To‘y libosi",
+          "text": "Ko‘ylakni moslashtirish, kuyov kostyumi va ota-onalar liboslarini tikish.",
+          "price": "900 000 so‘m",
+          "tag": "yozilish bo‘yicha"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Qanday ishlaymiz",
+      "title": "O‘lchamdan tayyor kiyimgacha",
+      "items": [
+        {
+          "title": "O‘lcham va mato",
+          "text": "30 ta o‘lcham olamiz, fason va matoni tanlaymiz."
+        },
+        {
+          "title": "Andoza",
+          "text": "Bichuvchi andozani o‘lchamga emas, qomatingizga qarab chizadi."
+        },
+        {
+          "title": "Birinchi kiyib ko‘rish",
+          "text": "Kiyim vaqtinchalik choklarda: o‘tirishi va uzunligini to‘g‘rilaymiz."
+        },
+        {
+          "title": "Yakuniy kiyib ko‘rish",
+          "text": "Har bir detalni tekshiramiz va topshirishdan oldin bug‘laymiz."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "",
+      "title": "",
+      "items": [
+        {
+          "value": "30",
+          "suffix": "",
+          "label": "kostyum uchun o‘lcham"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "har bir kiyimda kiyib ko‘rish"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "atelyedagi ustalar"
+        },
+        {
+          "value": "1",
+          "suffix": " kun",
+          "label": "shoshilinch ta’mir uchun"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Abonement",
+      "title": "Bizga tez-tez keladiganlar uchun",
+      "items": [
+        {
+          "name": "Bir martalik ta’mir",
+          "price": "50 000 so‘m",
+          "period": "ish uchun",
+          "features": [
+            "5 daqiqada baholash",
+            "1–3 kunda tayyor",
+            "Chokka kafolat"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Mavsumiy garderob",
+          "price": "450 000 so‘m",
+          "period": "mavsumga",
+          "features": [
+            "8 tagacha moslashtirish yoki ta’mir",
+            "Qo‘shimcha to‘lovsiz shoshilinch",
+            "Andozalarni saqlash"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Korporativ",
+          "price": "so‘rov bo‘yicha",
+          "period": "",
+          "features": [
+            "Jamoa uchun forma",
+            "O‘lcham olish uchun chiqish",
+            "Shartnoma va hisob-faktura"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ustaxona",
+      "title": "Bizda qanday",
+      "items": [
+        {
+          "caption": "Bichish stoli",
+          "image": ""
+        },
+        {
+          "caption": "Matolar",
+          "image": ""
+        },
+        {
+          "caption": "Kiyib ko‘rish xonasi",
+          "image": ""
+        },
+        {
+          "caption": "Tugma va furnitura",
+          "image": ""
+        },
+        {
+          "caption": "Qo‘lda chok",
+          "image": ""
+        },
+        {
+          "caption": "Tayyor kiyimlar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Mijozlar nima deydi",
+      "items": [
+        {
+          "quote": "Birinchi marta kostyum yelkadan tortmayapti. Ikki marta kiyib ko‘rdim — xuddi u bilan tug‘ilgandek o‘tiribdi.",
+          "author": "Jasur",
+          "role": "akasining to‘yi uchun kostyum"
+        },
+        {
+          "quote": "Onamning ko‘ylagini menga moslab qayta tikishdi, kashtasini saqlab qolishdi. Kiyib ko‘rishda yig‘lab yubordim.",
+          "author": "Nigora",
+          "role": "ko‘ylakni moslashtirish"
+        },
+        {
+          "quote": "Kurtkadagi zamokni men yonida tushlik qilgunimcha ikki soatda almashtirishdi.",
+          "author": "Artyom",
+          "role": "shoshilinch ta’mir"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p beriladigan savollar",
+      "items": [
+        {
+          "q": "Kostyum qancha vaqtda tikiladi?",
+          "a": "Ikki marta kiyib ko‘rish bilan uch-to‘rt hafta. Agar kostyum ma’lum sanaga kerak bo‘lsa, yozilishda ayting — kiyib ko‘rishlarni shunga moslab rejalashtiramiz."
+        },
+        {
+          "q": "O‘z matom bilan kelsam bo‘ladimi?",
+          "a": "Ha. O‘lcham olishda matoni ko‘ramiz va tanlangan fasonga yetarlimi, aytamiz."
+        },
+        {
+          "q": "Shoshilinch ta’mir qilasizmi?",
+          "a": "Zamok almashtirish, shim etagini tikish va mayda ta’mirni bir kunda, ko‘pincha bir-ikki soatda bajaramiz."
+        },
+        {
+          "q": "Oldindan to‘lov kerakmi?",
+          "a": "Tikish uchun — birinchi uchrashuvdan keyin 50%, qolgani topshirishda. Ta’mir olishda to‘lanadi."
+        },
+        {
+          "q": "Erkaklar va ayollar uchun tikasizmi?",
+          "a": "Ha, o‘smirlar uchun ham: maktab formasi va bitiruv kostyumlari ham."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "O‘lcham olishga keling",
+      "text": "O‘lcham olish va maslahat — bepul, taxminan 40 daqiqa. Telegramga yozing, qulay vaqtni taklif qilamiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/tikuvatelier"
+      }
+    }
+  ]
+}
