@@ -8,7 +8,10 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "predev": "node scripts/seeds.mjs",
-    "prebuild": "node scripts/seeds.mjs"
+    "prebuild": "node scripts/seeds.mjs",
+    "deploy": "SITE_URL=https://atlas.genkai.workers.dev opennextjs-cloudflare build && wrangler deploy && node scripts/deploy-routers.mjs",
+    "deploy:atlas": "SITE_URL=https://atlas.genkai.workers.dev opennextjs-cloudflare build && wrangler deploy",
+    "deploy:routers": "node scripts/deploy-routers.mjs"
   },
   "dependencies": {
     "@fontsource-variable/caveat": "^5.3.0",

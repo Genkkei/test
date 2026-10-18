@@ -92,3 +92,18 @@ npm run typecheck
 npm run build
 node scripts/shots.mjs http://localhost:3000 /tmp/shots nord kvant zing   # скриншоты компьютер + телефон с WebGL
 ```
+
+## Живые сайты на Cloudflare (с 18.10.2026)
+
+- **Конструктор** — воркер `atlas` (OpenNext): https://atlas.genkai.workers.dev, админка владельца конструктора —
+  `/admin` с паролем `ADMIN_PASSWORD` (секрет воркера). Правки — D1 `atlas` (таблица `docs`), фото — R2 `atlas-media`.
+  Исходные сайты — `content/sites` (в воркер попадают модулем `src/lib/seeds.generated.ts`, `scripts/seeds.mjs`).
+- **Сайты** — воркеры-маршрутизаторы `<slug>` (`workers/router/index.js`): адрес `<slug>.genkai.workers.dev`
+  или домен заказчика, запросы уходят в `atlas` по service binding, ссылки переписываются на чистые (`/`, `/uz/`).
+- **Админка владельца сайта** — `<адрес сайта>/admin`, свой пароль (выдаёт владелец конструктора во вкладке
+  «Пароль»; хранится только хэш). Видит только свой сайт, правит тексты на трёх языках, фото, контакты, бота.
+- **Заявки в Telegram** — вкладка «Заявки в Telegram»: токен от @BotFather → «Подключить» (сервер ставит вебхук
+  `/api/tg/<slug>`) → «Start» у бота по ссылке → пробная заявка. Форма на сайте открывается любой ссылкой `#order`.
+- Выкладка: `npm run deploy` (конструктор + все маршрутизаторы), `npm run deploy:routers -- slug1 slug2` — новые сайты.
+- Свой домен заказчика: в Cloudflare → воркер `<slug>` → Domains & Routes → добавить домен; в админке сайта
+  первым в «Свои домены» поставить этот домен (станет canonical).
