@@ -252,3 +252,10 @@ html.menu-open { overflow: hidden; }
 .cart__back { margin: 0 20px 20px; border: 0; background: none; color: var(--fg); font: 500 14px/1 var(--font-body); min-height: 44px; cursor: pointer; }
 @media (max-width: 640px) { .cart-fab { left: 8px; bottom: 8px; min-height: 40px; font-size: 13px; } .cart { width: 100vw; } }
 @media (prefers-reduced-motion: reduce) { .cart[open], .cart-fab { animation: none; } }
+
+/* Герой первого экрана (NicheActor, anime.js): предмет ниши рядом с заголовком, нажатия проходят насквозь */
+.na-actor { position: absolute; z-index: 4; pointer-events: none; opacity: 0; color: var(--na-f); }
+.na-actor svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.na-actor .na-body { transform-origin: 60px 90px; }
+.na-actor :is(.na-spark, .na-bubble, .na-stack, .na-step) { transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: reduce) { .na-actor { opacity: 1; } }

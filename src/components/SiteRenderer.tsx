@@ -1,4 +1,6 @@
 import { LeadDialog } from './LeadDialog'
+import { NicheActor } from './niche/NicheActor'
+import { actorFor } from './niche/actors'
 import { SiteChrome } from './SiteChrome'
 import { CartDrawer, type Product } from './shop/CartDrawer'
 import type { CSSProperties } from 'react'
@@ -67,6 +69,9 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
       <script dangerouslySetInnerHTML={{ __html: PHONE_SCALE }} />
       {site.theme.motion > 0 ? <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} /> : null}
       <SiteChrome />
+      {site.theme.motion > 0 && site.theme.actor !== 'none' ? (
+        <NicheActor kind={actorFor(site.slug, site.business.type, site.theme.actor)} colors={{ a: site.theme.accent, f: site.theme.fg, b: site.theme.bg }} />
+      ) : null}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <MotionRuntime level={site.theme.motion} />
       <Shell site={site}>

@@ -214,3 +214,10 @@
   .tpl-ember .s-contact__body { justify-items: stretch; }
   .tpl-ember .s-contact__facts { grid-template-columns: 1fr; }
 }
+
+/* светлая тема: тёплый жар вместо пламени в темноте */
+.em-hero--light .em-hero__title, .em-hero--light .em-hero__sub { text-shadow: none; }
+.em-hero--light .em-btn--fire { color: #fff; box-shadow: 0 14px 40px -12px color-mix(in srgb, var(--accent) 60%, transparent); }
+.em-hero--light .em-btn--fire:hover { background: color-mix(in srgb, var(--accent) 85%, #000); border-color: color-mix(in srgb, var(--accent) 85%, #000); }
+.em-hero--light .em-canvas { background: radial-gradient(80% 60% at 50% 100%, color-mix(in srgb, var(--accent) 22%, var(--bg)), var(--bg) 70%); }
+.tpl-ember:has(.em-hero--light) .em-gallery__item figcaption { color: #fff; }

@@ -9,12 +9,12 @@
     "olovtemir.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#0f0c0c",
-    "fg": "#f3ebe2",
-    "accent": "#ff3b1f",
-    "muted": "#9c8f86",
-    "surface": "#1d1716",
-    "line": "#332827",
+    "bg": "#f7efe6",
+    "fg": "#2a1712",
+    "accent": "#d9481f",
+    "muted": "#7d665b",
+    "surface": "#efe2d4",
+    "line": "#e3d2c2",
     "display": "Oswald",
     "body": "Golos Text",
     "motion": 1

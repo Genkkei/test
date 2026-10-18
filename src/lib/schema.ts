@@ -156,6 +156,8 @@ export const themeSchema = z.object({
   body: z.string(),
   /** 0 — без движения, 1 — как задумано шаблоном, 2 — смелее */
   motion: z.number().min(0).max(2).default(1),
+  /** «герой» первого экрана (components/niche/actors.ts); пусто — по нише сайта, «none» — без него */
+  actor: z.string().regex(/^[a-z]*$/).optional(),
 })
 export type Theme = z.infer<typeof themeSchema>
 

@@ -35,6 +35,13 @@ void main(){
   float s=spark(p,10.,1.2,1.)+spark(p,16.,1.9,9.)*.8+spark(p,26.,2.6,17.)*.6;
   col+=s*vec3(1.,.62,.28)*1.6*smoothstep(1.05,.1,uv.y);
   col*=1.-.45*pow(length((uv-vec2(.5,.35))*vec2(1.,.9)),1.6);
+  // светлая тема: не пламя в темноте, а тёплый жар у очага — мягкое свечение снизу и тёмные искры
+  float light=step(.55,dot(uC1,vec3(.2126,.7152,.0722)));
+  vec3 glow=mix(uC2,vec3(1.,.82,.58),.55);
+  vec3 soft=mix(uC1,glow,smoothstep(.1,1.05,heat)*.62);
+  soft=mix(soft,uC2,smoothstep(.85,1.25,heat)*.35);
+  soft-=s*(vec3(1.)-uC2)*.55*smoothstep(1.05,.1,uv.y);
+  col=mix(col,soft,light);
   col+=(hash(gl_FragCoord.xy+fract(t))-.5)*.04;
   gl_FragColor=vec4(col,1.);
 }`

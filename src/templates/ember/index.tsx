@@ -84,11 +84,17 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   )
 }
 
+/** Светлая тема (яркость фона > 0.55): огонь — тёплым свечением, тексту не нужна тёмная тень. */
+function isLight(hex: string): boolean {
+  const n = parseInt(hex.slice(1), 16)
+  return (0.2126 * ((n >> 16) & 255) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255)) / 255 > 0.55
+}
+
 function Hero({ section: s, site }: SectionProps<'hero'>) {
   const t = site.theme
   const b = site.business
   return (
-    <section id={s.anchor || undefined} className="s s-hero em-hero">
+    <section id={s.anchor || undefined} className={`s s-hero em-hero${isLight(t.bg) ? ' em-hero--light' : ''}`}>
       <FireCanvas colors={[t.bg, t.accent, t.fg, t.surface]} />
       <div className="em-hero__inner">
         {s.eyebrow ? (
