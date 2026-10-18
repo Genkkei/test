@@ -1,16 +1,12 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getSite, listSites, siteLangs } from '@/lib/store'
+import { getSite, siteLangs } from '@/lib/store'
 import { buildMetadata } from '@/lib/seo'
 import { SiteRenderer } from '@/components/SiteRenderer'
 
-export const dynamicParams = true
-// правки из админки сбрасывают кэш страницы через revalidatePath; час — страховка
-export const revalidate = 3600
+// Рендер на каждый запрос: правка из админки видна сразу, без пересборки и сброса кэша.
+export const dynamic = 'force-dynamic'
 
-export async function generateStaticParams() {
-  return (await listSites()).map((s) => ({ site: s.slug }))
-}
 
 export async function generateMetadata({ params }: { params: Promise<{ site: string }> }): Promise<Metadata> {
   const slug = (await params).site

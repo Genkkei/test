@@ -3,8 +3,10 @@
 import { headers } from 'next/headers'
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
-import { checkPassword, endSession, isAdmin, loginFailed, loginLimited, startSession } from '@/lib/auth'
-import { deleteSite, getSite, listSites, saveSite } from '@/lib/store'
+import { adminScope, canEdit, checkLogin, endSession, isMaster, loginFailed, loginLimited, makePassword, setSitePassword, startSession } from '@/lib/auth'
+import { deleteSite, getSite, listSites, saveSite, saveTranslation } from '@/lib/store'
+import { translatableOf } from '@/lib/i18n'
+import { botInfo, connectBot, disconnectBot, removeChat, sendLead, type BotInfo } from '@/lib/bot'
 import { siteSchema, type Site } from '@/lib/schema'
 import { getTemplateMeta, TEMPLATE_METAS } from '@/templates/meta'
 
@@ -12,8 +14,9 @@ const RESERVED = new Set(['admin', 'api', 'llms', 'sitemap', 'robots', '_next', 
 
 export type ActionState = { ok: boolean; message: string; issues?: string[] }
 
+/** Только владелец конструктора: создание, копии, удаление, пароли. */
 async function guard() {
-  if (!(await isAdmin())) throw new Error('Нужен вход в админку')
+  if (!(await isMaster())) throw new Error('Нужен вход владельца конструктора')
 }
 
 function refresh(slug: string) {
@@ -24,13 +27,14 @@ function refresh(slug: string) {
 
 export async function login(_: ActionState, form: FormData): Promise<ActionState> {
   const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() || 'local'
-  if (loginLimited(ip)) return { ok: false, message: 'Слишком много попыток. Подождите 10 минут.' }
-  if (!checkPassword(String(form.get('password') || ''))) {
-    loginFailed(ip)
+  if (await loginLimited(ip)) return { ok: false, message: 'Слишком много попыток. Подождите 10 минут.' }
+  const scope = await checkLogin(String(form.get('password') || '').trim())
+  if (!scope) {
+    await loginFailed(ip)
     return { ok: false, message: 'Неверный пароль' }
   }
-  await startSession()
-  redirect('/admin')
+  await startSession(scope)
+  redirect(scope === '*' ? '/admin' : `/admin/sites/${scope}`)
 }
 
 export async function logout() {
@@ -39,8 +43,9 @@ export async function logout() {
 }
 
 /** Сохранение из редактора: JSON целиком, сверка по схеме, затем запись. */
-export async function saveSiteAction(json: string, originalSlug: string): Promise<ActionState> {
-  await guard()
+export async function saveSiteAction(json: string, originalSlug: string, lang?: string): Promise<ActionState> {
+  if (!(await canEdit(originalSlug))) return { ok: false, message: 'Нет доступа к этому сайту' }
+  const master = await isMaster()
   let raw: unknown
   try {
     raw = JSON.parse(json)
@@ -51,7 +56,16 @@ export async function saveSiteAction(json: string, originalSlug: string): Promis
   if (!parsed.success) {
     return { ok: false, message: 'Данные не прошли проверку', issues: parsed.error.issues.slice(0, 8).map((i) => `${i.path.join('.')}: ${i.message}`) }
   }
-  const site = parsed.data
+  let site = parsed.data
+  const base = await getSite(originalSlug)
+  // перевод: сохраняются только тексты, структура и оформление остаются от основной версии
+  if (base && lang && lang !== base.lang) {
+    await saveTranslation(originalSlug, lang, translatableOf(site) as Record<string, unknown>)
+    refresh(originalSlug)
+    return { ok: true, message: `Перевод сохранён в ${new Date().toLocaleTimeString('ru-RU', { timeZone: 'Asia/Tashkent' })}` }
+  }
+  // владелец сайта не меняет адрес, домены и карточку каталога — это делаем мы
+  if (!master && base) site = { ...site, slug: base.slug, domains: base.domains, listing: base.listing }
   if (RESERVED.has(site.slug)) return { ok: false, message: `Адрес «${site.slug}» занят системой` }
   if (!TEMPLATE_METAS.some((t) => t.id === site.template)) return { ok: false, message: 'Нет такого шаблона' }
   if (site.slug !== originalSlug) {
@@ -63,7 +77,7 @@ export async function saveSiteAction(json: string, originalSlug: string): Promis
     refresh(originalSlug)
   }
   refresh(saved.slug)
-  return { ok: true, message: `Сохранено в ${new Date(saved.updatedAt).toLocaleTimeString('ru-RU')}` }
+  return { ok: true, message: `Сохранено в ${new Date(saved.updatedAt).toLocaleTimeString('ru-RU', { timeZone: 'Asia/Tashkent' })}` }
 }
 
 function uniqueSlug(base: string, taken: Set<string>): string {
@@ -120,4 +134,60 @@ export async function deleteSiteAction(form: FormData) {
 const MAP: Record<string, string> = { а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh', з: 'z', и: 'i', й: 'y', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f', х: 'h', ц: 'ts', ч: 'ch', ш: 'sh', щ: 'sch', ъ: '', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya', ў: 'o', қ: 'q', ғ: 'g', ҳ: 'h' }
 function translit(s: string): string {
   return s.toLowerCase().replace(/./g, (c) => MAP[c] ?? c)
+}
+
+/** Новый пароль владельца сайта. Показывается один раз — в хранилище только хэш. */
+export async function resetSitePasswordAction(slug: string): Promise<{ ok: boolean; password?: string; message?: string }> {
+  await guard()
+  if (!(await getSite(slug))) return { ok: false, message: 'Нет такого сайта' }
+  const password = makePassword()
+  await setSitePassword(slug, password)
+  return { ok: true, password }
+}
+
+/** Владелец сайта меняет свой пароль сам. */
+export async function changeOwnPasswordAction(slug: string, password: string): Promise<ActionState> {
+  if (!(await canEdit(slug))) return { ok: false, message: 'Нет доступа' }
+  if (password.trim().length < 8) return { ok: false, message: 'Пароль — не короче 8 символов' }
+  await setSitePassword(slug, password.trim())
+  return { ok: true, message: 'Пароль изменён' }
+}
+
+export async function currentScope() {
+  return adminScope()
+}
+
+// --- Telegram-бот заявок ---
+
+export async function connectBotAction(slug: string, token: string): Promise<{ ok: boolean; message?: string; bot?: BotInfo }> {
+  if (!(await canEdit(slug))) return { ok: false, message: 'Нет доступа' }
+  try {
+    return { ok: true, bot: await connectBot(slug, token) }
+  } catch (e) {
+    return { ok: false, message: e instanceof Error ? e.message : 'Не получилось подключить бота' }
+  }
+}
+
+export async function botStatusAction(slug: string): Promise<BotInfo | null> {
+  if (!(await canEdit(slug))) return null
+  return botInfo(slug)
+}
+
+export async function disconnectBotAction(slug: string): Promise<{ ok: boolean }> {
+  if (!(await canEdit(slug))) return { ok: false }
+  await disconnectBot(slug)
+  return { ok: true }
+}
+
+export async function removeChatAction(slug: string, id: number): Promise<BotInfo | null> {
+  if (!(await canEdit(slug))) return null
+  return removeChat(slug, id)
+}
+
+export async function testLeadAction(slug: string): Promise<ActionState> {
+  if (!(await canEdit(slug))) return { ok: false, message: 'Нет доступа' }
+  const site = await getSite(slug)
+  if (!site) return { ok: false, message: 'Нет сайта' }
+  const n = await sendLead(slug, site.name, site.leads.kind, { name: 'Пробный Клиент', phone: '+998 90 000-00-00', date: site.leads.kind === 'booking' ? 'завтра' : '', time: site.leads.kind === 'booking' ? '15:00' : '', items: '', comment: 'Это проверка: так будут выглядеть заявки с сайта.' }, 'Отправлено из админки', true)
+  return n ? { ok: true, message: `Отправлено в ${n} чат(а). Проверьте Telegram.` } : { ok: false, message: 'Некуда отправлять: сначала нажмите Start у бота (шаг 3).' }
 }

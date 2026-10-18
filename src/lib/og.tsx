@@ -4,8 +4,18 @@ import { join } from 'node:path'
 import { ImageResponse } from 'next/og'
 import type { Site } from './schema'
 
-const dir = join(process.cwd(), 'node_modules/@fontsource/manrope/files')
-const load = (f: string) => readFile(join(dir, f))
+// Шрифты карточки лежат в public/og-fonts. На Cloudflare файловой системы нет, а свой же публичный
+// адрес воркер запросить не может — берём файл через binding ASSETS.
+async function load(f: string): Promise<ArrayBuffer> {
+  if (process.env.ATLAS_STORE === 'd1') {
+    const { getCloudflareContext } = await import('@opennextjs/cloudflare')
+    const { env } = await getCloudflareContext({ async: true })
+    const res = await (env as unknown as { ASSETS: { fetch(r: Request): Promise<Response> } }).ASSETS.fetch(new Request(`https://assets.local/og-fonts/${f}`))
+    return res.arrayBuffer()
+  }
+  const buf = await readFile(join(process.cwd(), 'public/og-fonts', f))
+  return buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength) as ArrayBuffer
+}
 
 export async function ogFonts() {
   const [l5, c5, l7, c7] = await Promise.all([

@@ -30,6 +30,10 @@ export function mergeTranslation(base: Site, tr: Json, lang: string): Site {
   pickStr('name')
   if (tr.seo && typeof tr.seo === 'object') out.seo = { ...base.seo, ...(tr.seo as Json), index: base.seo.index, ogImage: base.seo.ogImage } as Site['seo']
   if (tr.nav && typeof tr.nav === 'object') out.nav = { ...base.nav, ...(tr.nav as Json) } as Site['nav']
+  if (tr.leads && typeof tr.leads === 'object') {
+    const l = tr.leads as Json
+    out.leads = { ...base.leads, title: typeof l.title === 'string' ? l.title : base.leads.title, thanks: typeof l.thanks === 'string' ? l.thanks : base.leads.thanks }
+  }
   if (tr.listing && typeof tr.listing === 'object') out.listing = { ...base.listing, ...(tr.listing as Json), forSale: base.listing.forSale } as Site['listing']
   if (tr.business && typeof tr.business === 'object') {
     const b = tr.business as Json
@@ -47,9 +51,22 @@ export function mergeTranslation(base: Site, tr: Json, lang: string): Site {
       const t = byId.get(s.id)
       if (!t) return s
       // тип, включённость и якорь — из основного файла: перевод не меняет устройство страницы
-      return { ...s, ...t, id: s.id, type: s.type, enabled: s.enabled, anchor: s.anchor } as typeof s
+      return keepFormLinks({ ...s, ...t, id: s.id, type: s.type, enabled: s.enabled, anchor: s.anchor }, s) as typeof s
     })
   }
+  out.nav = keepFormLinks(out.nav, base.nav) as Site['nav']
+  return out
+}
+
+/** Кнопка, которую владелец направил на форму заявки (#order) в основной версии, ведёт на неё и в переводе:
+ *  ссылки в старых переводах сняты до подключения формы. Обход идёт по одинаковым путям двух деревьев. */
+function keepFormLinks(tr: unknown, base: unknown): unknown {
+  if (!tr || !base || typeof tr !== 'object' || typeof base !== 'object') return tr
+  if (Array.isArray(tr)) return Array.isArray(base) ? tr.map((x, i) => keepFormLinks(x, base[i])) : tr
+  const b = base as Json
+  const out: Json = { ...(tr as Json) }
+  if (typeof b.href === 'string' && b.href.startsWith('#order')) out.href = b.href
+  for (const k of Object.keys(out)) if (k !== 'href') out[k] = keepFormLinks(out[k], b[k])
   return out
 }
 
@@ -62,6 +79,7 @@ export function translatableOf(site: Site): Json {
     seo: { title: site.seo.title, description: site.seo.description, keywords: site.seo.keywords, answer: site.seo.answer },
     nav: site.nav,
     listing: { price: site.listing.price, description: site.listing.description, features: site.listing.features },
+    leads: { title: site.leads.title, thanks: site.leads.thanks },
     business: { legalName: site.business.legalName, street: site.business.street, city: site.business.city, region: site.business.region, areaServed: site.business.areaServed, socials: site.business.socials.map((s) => ({ name: s.name })) },
     sections: site.sections.map(({ enabled: _e, anchor: _a, ...rest }) => rest),
   }

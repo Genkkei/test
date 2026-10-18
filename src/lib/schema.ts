@@ -222,6 +222,18 @@ export const listingSchema = z.object({
 })
 export type Listing = z.infer<typeof listingSchema>
 
+/** Форма заявки на сайте. Токен бота здесь не хранится — он в хранилище (bot:<slug>) и в браузер не уходит. */
+export const leadsSchema = z.object({
+  enabled: z.boolean().default(false),
+  /** заказ (еда, товар) или запись (услуга по времени) — меняет поля формы и тексты */
+  kind: z.enum(['order', 'booking']).default('booking'),
+  /** заголовок формы; пусто — «Оставить заявку» / «Записаться» */
+  title: text,
+  /** что увидит человек после отправки; пусто — стандартный текст */
+  thanks: text,
+})
+export type Leads = z.infer<typeof leadsSchema>
+
 export const siteSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/, 'только латиница, цифры и дефис'),
   template: z.string(),
@@ -235,6 +247,7 @@ export const siteSchema = z.object({
   seo: seoSchema,
   nav: z.object({ cta: link }).default({ cta: { label: '', href: '' } }),
   listing: listingSchema.default({ price: '', description: '', features: [], forSale: true }),
+  leads: leadsSchema.default({ enabled: false, kind: 'booking', title: '', thanks: '' }),
   sections: z.array(sectionSchema),
   updatedAt: z.string().default(''),
   /** основной язык сайта; заполняется только у языковой версии (перевод поверх основного) */

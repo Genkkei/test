@@ -14,3 +14,6 @@ export async function GET(request: Request) {
   }
   return Response.json(out, { headers: { 'cache-control': 'public, max-age=300', 'access-control-allow-origin': '*' } })
 }
+
+// данные из хранилища правок — на каждый запрос
+export const dynamic = 'force-dynamic'

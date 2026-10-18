@@ -1,3 +1,4 @@
+import { LeadDialog } from './LeadDialog'
 import type { CSSProperties } from 'react'
 import type { Site } from '@/lib/schema'
 import { buildJsonLd } from '@/lib/seo'
@@ -70,6 +71,7 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
         })}
       </Shell>
       <LangSwitch site={site} langs={langs} />
+      {site.leads.enabled ? <LeadDialog slug={site.slug} lang={site.lang} leads={site.leads} phone={site.business.phone} /> : null}
     </div>
   )
 }

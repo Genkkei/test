@@ -1,18 +1,13 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getSite, listSites, siteLangs } from '@/lib/store'
+import { getSite, siteLangs } from '@/lib/store'
 import { buildMetadata } from '@/lib/seo'
 import { EXTRA_LANGS } from '@/lib/i18n'
 import { SiteRenderer } from '@/components/SiteRenderer'
 
-export const dynamicParams = true
-export const revalidate = 3600
+// Рендер на каждый запрос: правка из админки видна сразу, без пересборки и сброса кэша.
+export const dynamic = 'force-dynamic'
 
-export async function generateStaticParams() {
-  const out: { site: string; lang: string }[] = []
-  for (const s of await listSites()) for (const lang of await siteLangs(s.slug)) if (lang !== s.lang) out.push({ site: s.slug, lang })
-  return out
-}
 
 async function load(params: Promise<{ site: string; lang: string }>) {
   const { site: slug, lang } = await params

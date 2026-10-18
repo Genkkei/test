@@ -15,3 +15,6 @@ export async function GET() {
   ].join('\n')
   return new Response(body, { headers: { 'content-type': 'text/plain; charset=utf-8' } })
 }
+
+// данные из хранилища правок — на каждый запрос
+export const dynamic = 'force-dynamic'

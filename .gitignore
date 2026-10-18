@@ -5,3 +5,6 @@ next-env.d.ts
 /data
 .env*.local
 /out
+/src/lib/seeds.generated.ts
+.open-next
+.wrangler
