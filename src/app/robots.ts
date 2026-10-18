@@ -14,3 +14,6 @@ export default function robots(): MetadataRoute.Robots {
     host: PLATFORM_URL,
   }
 }
+
+// данные из хранилища правок — на каждый запрос
+export const dynamic = 'force-dynamic'

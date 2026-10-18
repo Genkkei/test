@@ -15,7 +15,8 @@ type D1 = {
   prepare(sql: string): { bind(...v: unknown[]): { first<T>(): Promise<T | null>; all<T>(): Promise<{ results: T[] }>; run(): Promise<unknown> } }
 }
 
-export const onCloudflare = process.env.ATLAS_STORE === 'd1'
+// функция, а не константа: на Workers process.env наполняется уже внутри запроса
+export const onCloudflare = () => process.env.ATLAS_STORE === 'd1'
 
 async function db(): Promise<D1> {
   const { getCloudflareContext } = await import('@opennextjs/cloudflare')
@@ -27,7 +28,7 @@ const DIR = path.join(/*turbopackIgnore: true*/ process.env.DATA_DIR || path.joi
 const file = (k: string) => path.join(/*turbopackIgnore: true*/ DIR, `${encodeURIComponent(k)}.json`)
 
 export async function kvGet(k: string): Promise<string | null> {
-  if (onCloudflare) {
+  if (onCloudflare()) {
     const row = await (await db()).prepare('SELECT v FROM docs WHERE k = ?').bind(k).first<{ v: string }>()
     return row?.v ?? null
   }
@@ -39,7 +40,7 @@ export async function kvGet(k: string): Promise<string | null> {
 }
 
 export async function kvPut(k: string, v: string): Promise<void> {
-  if (onCloudflare) {
+  if (onCloudflare()) {
     await (await db())
       .prepare('INSERT INTO docs (k, v, at) VALUES (?, ?, ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v, at = excluded.at')
       .bind(k, v, new Date().toISOString())
@@ -53,7 +54,7 @@ export async function kvPut(k: string, v: string): Promise<void> {
 }
 
 export async function kvDel(k: string): Promise<void> {
-  if (onCloudflare) {
+  if (onCloudflare()) {
     await (await db()).prepare('DELETE FROM docs WHERE k = ?').bind(k).run()
     return
   }
@@ -63,7 +64,7 @@ export async function kvDel(k: string): Promise<void> {
 /** Все записи с префиксом — одним запросом. */
 export async function kvList(prefix: string): Promise<Map<string, string>> {
   const out = new Map<string, string>()
-  if (onCloudflare) {
+  if (onCloudflare()) {
     const { results } = await (await db()).prepare('SELECT k, v FROM docs WHERE k >= ? AND k < ?').bind(prefix, `${prefix}￿`).all<{ k: string; v: string }>()
     for (const r of results) out.set(r.k, r.v)
     return out

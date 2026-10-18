@@ -15,3 +15,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   ]
 }
+
+// данные из хранилища правок — на каждый запрос
+export const dynamic = 'force-dynamic'

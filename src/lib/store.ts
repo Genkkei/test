@@ -18,7 +18,7 @@ const CONTENT_DIR = path.join(process.cwd(), 'content', 'sites')
  * на Cloudflare — модуль seeds.generated.ts (scripts/seeds.mjs), файлов там нет.
  */
 async function seedSites(): Promise<Map<string, unknown>> {
-  if (onCloudflare) return new Map(Object.entries((await import('./seeds.generated')).SITES))
+  if (onCloudflare()) return new Map(Object.entries((await import('./seeds.generated')).SITES))
   const out = new Map<string, unknown>()
   let files: string[] = []
   try {
@@ -38,7 +38,7 @@ async function seedSites(): Promise<Map<string, unknown>> {
 }
 
 async function seedTranslation(slug: string, lang: string): Promise<Record<string, unknown> | null> {
-  if (onCloudflare) return (await import('./seeds.generated')).TRANSLATIONS[`${slug}.${lang}`] ?? null
+  if (onCloudflare()) return (await import('./seeds.generated')).TRANSLATIONS[`${slug}.${lang}`] ?? null
   try {
     return JSON.parse(await fs.readFile(path.join(CONTENT_DIR, 'i18n', `${slug}.${lang}.json`), 'utf8'))
   } catch {
