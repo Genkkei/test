@@ -1,3 +1,4 @@
+import { formRefusal } from '@/lib/guard'
 import { sendLead } from '@/lib/bot'
 import { kvGet, kvPut } from '@/lib/kv'
 import { getSite } from '@/lib/store'
@@ -10,6 +11,8 @@ const str = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice
  * названия и цены сервер находит сам в данных сайта, итог считает сам.
  */
 export async function POST(request: Request) {
+  const refused = formRefusal(request)
+  if (refused) return refused
   const body = (await request.json().catch(() => null)) as Record<string, unknown> | null
   if (!body) return Response.json({ ok: false, error: 'bad' }, { status: 400 })
   if (str(body.website, 100)) return Response.json({ ok: true })

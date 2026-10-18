@@ -1,3 +1,4 @@
+import { formRefusal } from '@/lib/guard'
 import { sendLead } from '@/lib/bot'
 import { kvGet, kvPut } from '@/lib/kv'
 import { getSite } from '@/lib/store'
@@ -6,6 +7,8 @@ const str = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice
 
 /** Заявка с формы сайта → Telegram владельца. */
 export async function POST(request: Request) {
+  const refused = formRefusal(request)
+  if (refused) return refused
   const body = (await request.json().catch(() => null)) as Record<string, unknown> | null
   if (!body) return Response.json({ ok: false, error: 'bad' }, { status: 400 })
   // ловушка для ботов: поле невидимо человеку

@@ -3,7 +3,7 @@
 import { headers } from 'next/headers'
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
-import { adminScope, canEdit, checkLogin, endSession, isMaster, loginFailed, loginLimited, makePassword, setSitePassword, startSession } from '@/lib/auth'
+import { adminScope, canEdit, checkLogin, clientIp, endSession, isMaster, loginFailed, loginLimited, makePassword, setSitePassword, startSession } from '@/lib/auth'
 import { copyTranslations, deleteSite, getSite, listSites, saveSite, saveTranslation } from '@/lib/store'
 import { attachDomain, publishRouter, workersSubdomain, type DomainState } from '@/lib/cloudflare'
 import { translatableOf } from '@/lib/i18n'
@@ -27,7 +27,7 @@ function refresh(slug: string) {
 }
 
 export async function login(_: ActionState, form: FormData): Promise<ActionState> {
-  const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() || 'local'
+  const ip = await clientIp()
   if (await loginLimited(ip)) return { ok: false, message: 'Слишком много попыток. Подождите 10 минут.' }
   const scope = await checkLogin(String(form.get('password') || '').trim())
   if (!scope) {

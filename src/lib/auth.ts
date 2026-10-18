@@ -39,8 +39,20 @@ function safeEqual(a: string, b: string): boolean {
 
 /** Сайт, на адресе которого открыта админка (заголовок маршрутизатора), или null — адрес конструктора. */
 export async function hostSite(): Promise<string | null> {
-  const s = (await headers()).get('x-atlas-site')
-  return s && /^[a-z0-9-]+$/.test(s) ? s : null
+  const h = await headers()
+  const s = h.get('x-atlas-site')
+  if (!s || !/^[a-z0-9-]+$/.test(s)) return null
+  // Заголовок ставит маршрутизатор сайта, но его может прислать и кто угодно, обратившись к
+  // конструктору напрямую. На собственном адресе конструктора заголовку не верим.
+  const own = process.env.ATLAS_URL ? new URL(process.env.ATLAS_URL).host : null
+  if (own && h.get('host') === own) return null
+  return s
+}
+
+/** Адрес посетителя: Cloudflare ставит cf-connecting-ip сам, подделать его снаружи нельзя (x-forwarded-for — можно). */
+export async function clientIp(): Promise<string> {
+  const h = await headers()
+  return h.get('cf-connecting-ip') || h.get('x-real-ip') || h.get('x-forwarded-for')?.split(',')[0]?.trim() || 'local'
 }
 
 // --- пароли сайтов: PBKDF2 через WebCrypto, 100 000 итераций (потолок Workers) ---
@@ -143,11 +155,14 @@ export async function requireSite(slug: string): Promise<string> {
 }
 
 // Неудачные попытки входа по адресу: 8 за 10 минут, в хранилище — общий счёт для всех изолятов.
+// Плюс общий счёт на адрес сайта (60 за 10 минут): перебор с тысячи адресов упрётся в него.
+async function fails(key: string): Promise<number[]> {
+  return (JSON.parse((await kvGet(key)) || '[]') as number[]).filter((t) => Date.now() - t < 600_000)
+}
 export async function loginLimited(ip: string): Promise<boolean> {
-  const list: number[] = JSON.parse((await kvGet(`fail:${ip}`)) || '[]')
-  return list.filter((t) => Date.now() - t < 600_000).length >= 8
+  if ((await fails(`fail:${ip}`)).length >= 8) return true
+  return (await fails(`fail:site:${(await hostSite()) || '*'}`)).length >= 60
 }
 export async function loginFailed(ip: string) {
-  const list: number[] = JSON.parse((await kvGet(`fail:${ip}`)) || '[]')
-  await kvPut(`fail:${ip}`, JSON.stringify([...list.filter((t) => Date.now() - t < 600_000), Date.now()]))
+  for (const key of [`fail:${ip}`, `fail:site:${(await hostSite()) || '*'}`]) await kvPut(key, JSON.stringify([...(await fails(key)).slice(-80), Date.now()]))
 }

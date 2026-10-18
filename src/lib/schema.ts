@@ -6,7 +6,14 @@ import { z } from 'zod'
  */
 
 const text = z.string().default('')
-const link = z.object({ label: text, href: text }).default({ label: '', href: '' })
+/** Ссылка из админки: только http(s), почта, телефон, мессенджеры, якорь или путь сайта. «javascript:» и
+ *  прочие схемы молча становятся пустыми — иначе владелец одного сайта мог бы подложить скрипт тому,
+ *  кто откроет его страницу в админке конструктора (у сайтов и админки общий адрес). */
+const SAFE_HREF = /^(https?:\/\/|mailto:|tel:|sms:|tg:|whatsapp:|#|\/(?!\/)|\?)/i
+const href = z.string().default('').transform((v) => { const t = v.trim(); return t === '' || SAFE_HREF.test(t) ? t : '' })
+const SAFE_IMG = /^(https?:\/\/|\/(?!\/)|data:image\/(png|jpe?g|webp|gif|avif);)/i
+const image = z.string().default('').transform((v) => { const t = v.trim(); return t === '' || SAFE_IMG.test(t) ? t : '' })
+const link = z.object({ label: text, href }).default({ label: '', href: '' })
 
 const base = {
   id: z.string(),
@@ -25,11 +32,11 @@ export const sectionSchemas = {
     subtitle: text,
     cta: link,
     ctaSecondary: link,
-    image: text,
+    image: image,
     words: z.array(z.string()).default([]),
   }),
   marquee: z.object({ ...base, type: z.literal('marquee'), items: z.array(z.string()).default([]) }),
-  about: z.object({ ...base, type: z.literal('about'), text, image: text }),
+  about: z.object({ ...base, type: z.literal('about'), text, image: image }),
   services: z.object({
     ...base,
     type: z.literal('services'),
@@ -39,7 +46,7 @@ export const sectionSchemas = {
   works: z.object({
     ...base,
     type: z.literal('works'),
-    items: z.array(z.object({ title: text, category: text, year: text, text, image: text, href: text })).default([]),
+    items: z.array(z.object({ title: text, category: text, year: text, text, image, href })).default([]),
   }),
   stats: z.object({
     ...base,
@@ -59,7 +66,7 @@ export const sectionSchemas = {
   team: z.object({
     ...base,
     type: z.literal('team'),
-    items: z.array(z.object({ name: text, role: text, image: text })).default([]),
+    items: z.array(z.object({ name: text, role: text, image: image })).default([]),
   }),
   pricing: z.object({
     ...base,
@@ -80,7 +87,7 @@ export const sectionSchemas = {
   gallery: z.object({
     ...base,
     type: z.literal('gallery'),
-    items: z.array(z.object({ caption: text, image: text })).default([]),
+    items: z.array(z.object({ caption: text, image: image })).default([]),
   }),
   faq: z.object({
     ...base,
@@ -101,7 +108,7 @@ export const sectionSchemas = {
           /** цена в сумах целым числом; 0 — «цена по запросу», в корзину не кладётся */
           price: z.number().int().min(0).default(0),
           oldPrice: z.number().int().min(0).default(0),
-          image: text,
+          image: image,
           category: text,
           badge: text,
           /** «шт», «кг», «м²», «250 г» — пусто, если очевидно */
@@ -220,7 +227,7 @@ export const businessSchema = z.object({
   priceRange: text,
   founded: text,
   areaServed: text,
-  socials: z.array(z.object({ name: text, url: text })).default([]),
+  socials: z.array(z.object({ name: text, url: href })).default([]),
 })
 export type Business = z.infer<typeof businessSchema>
 
@@ -228,7 +235,7 @@ export const seoSchema = z.object({
   title: text,
   description: text,
   keywords: z.array(z.string()).default([]),
-  ogImage: text,
+  ogImage: image,
   /** AEO: короткий фактический ответ «что это и для кого». Показывается вверху страницы и в llms.txt. */
   answer: text,
   index: z.boolean().default(true),
