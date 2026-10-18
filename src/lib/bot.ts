@@ -31,9 +31,34 @@ export function webhookSecret(token: string): string {
   return createHmac('sha256', `atlas-tg:${process.env.ADMIN_SECRET || ''}`).update(token).digest('hex').slice(0, 48)
 }
 
+// Токен бота в базе зашифрован (AES-GCM, ключ из ADMIN_SECRET): выгрузка или копия базы не даёт
+// управлять ботами клиентов. Записи старого образца (токен открытым текстом) читаются как раньше и
+// шифруются при следующем сохранении.
+async function key(): Promise<CryptoKey> {
+  const raw = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`atlas-bot-token:${process.env.ADMIN_SECRET || ''}`))
+  return crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['encrypt', 'decrypt'])
+}
+export async function sealToken(token: string): Promise<string> {
+  const iv = crypto.getRandomValues(new Uint8Array(12))
+  const ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, await key(), new TextEncoder().encode(token)))
+  return `v1.${Buffer.from(iv).toString('base64url')}.${Buffer.from(ct).toString('base64url')}`
+}
+export async function openToken(stored: string): Promise<string> {
+  if (!stored.startsWith('v1.')) return stored
+  const [, iv, ct] = stored.split('.')
+  const pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: Buffer.from(iv, 'base64url') }, await key(), Buffer.from(ct, 'base64url'))
+  return new TextDecoder().decode(pt)
+}
+
 async function read(slug: string): Promise<BotRecord | null> {
   const raw = await kvGet(`bot:${slug}`)
-  return raw ? (JSON.parse(raw) as BotRecord) : null
+  if (!raw) return null
+  const r = JSON.parse(raw) as BotRecord
+  return { ...r, token: await openToken(r.token) }
+}
+
+async function write(slug: string, r: BotRecord): Promise<void> {
+  await kvPut(`bot:${slug}`, JSON.stringify({ ...r, token: await sealToken(r.token) }))
 }
 
 function info(r: BotRecord): BotInfo {
@@ -72,7 +97,7 @@ export async function connectBot(slug: string, rawToken: string): Promise<BotInf
     code: prev?.code || crypto.randomUUID().replace(/-/g, '').slice(0, 16),
     at: new Date().toISOString(),
   }
-  await kvPut(`bot:${slug}`, JSON.stringify(rec))
+  await write(slug, rec)
   return info(rec)
 }
 
@@ -86,7 +111,7 @@ export async function removeChat(slug: string, id: number): Promise<BotInfo | nu
   const r = await read(slug)
   if (!r) return null
   r.chats = r.chats.filter((c) => c.id !== id)
-  await kvPut(`bot:${slug}`, JSON.stringify(r))
+  await write(slug, r)
   return info(r)
 }
 
@@ -105,7 +130,7 @@ export async function handleUpdate(slug: string, secret: string | null, update: 
   const who = chat.title || [chat.first_name, chat.last_name].filter(Boolean).join(' ') || (chat.username ? `@${chat.username}` : String(chat.id))
   if (text === `/start ${r.code}`) {
     if (!r.chats.some((c) => c.id === chat.id)) r.chats.push({ id: chat.id, name: who })
-    await kvPut(`bot:${slug}`, JSON.stringify(r))
+    await write(slug, r)
     await tg(r.token, 'sendMessage', { chat_id: chat.id, text: `Готово! Сюда будут приходить заявки с сайта «${siteName}».\n\nЧтобы проверить, нажмите «Отправить пробную заявку» в админке.` })
     return true
   }

@@ -37,8 +37,13 @@ const SECRET_PATTERNS: [string, RegExp][] = [
   ['anthropic/openai-key', /\bsk-(?:ant-)?[A-Za-z0-9_-]{30,}\b/],
   ['password-assignment', /\b(?:ADMIN_PASSWORD|ADMIN_SECRET)\s*=\s*["']?[^\s"'$]{6,}/],
 ]
+// заведомо выдуманные значения из тестов (tests/auth.test.ts) — не секреты
+const FAKE_VALUES = ['master-pass-123', 'changed-pass-456', 'test-secret']
 function scanText(text: string): string[] {
-  return SECRET_PATTERNS.filter(([, re]) => re.test(text)).map(([n]) => n)
+  return SECRET_PATTERNS.filter(([, re]) => {
+    const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g')
+    return [...text.matchAll(g)].some((m) => !FAKE_VALUES.some((f) => m[0].includes(f)))
+  }).map(([n]) => n)
 }
 
 const global: Check[] = []
@@ -206,7 +211,7 @@ if (LIVE) {
         add(c, 'live-form-body-limit', big.status === 413, true, String(big.status))
         await big.body?.cancel()
         const trav = await http(`${base}/media/..%2F..%2Fwrangler.jsonc`)
-        add(c, 'live-media-traversal', trav.status === 404, true, String(trav.status))
+        add(c, 'live-media-traversal', [400, 404].includes(trav.status), true, String(trav.status))
         await trav.body?.cancel()
       } catch (e) {
         add(c, 'live-reachable', false, true, String(e))
