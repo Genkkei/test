@@ -22,3 +22,4 @@ docs/deck/out/counts.json
 security/results/
 !.env.example
 /src/lib/export-snapshot.generated.ts
+.claude/worktrees/
