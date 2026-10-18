@@ -49,7 +49,7 @@
 .wave-hero__lanes .wave-rope:nth-child(2n) { animation-delay: -2.5s; }
 @keyframes wave-bob { 50% { transform: translateY(6px); } }
 .wave-hero__inner { position: relative; display: grid; gap: 22px; max-width: 1100px; }
-.wave-hero__title { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: clamp(64px, 13vw, 220px); line-height: .86; letter-spacing: -.05em; color: #fff; text-shadow: 0 6px 40px color-mix(in srgb, var(--fg) 25%, transparent); }
+.wave-hero__title { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: clamp(64px, 13vw, 220px); line-height: .86; letter-spacing: -.05em; color: #fff; text-shadow: 0 2px 2px color-mix(in srgb, var(--fg) 35%, transparent), 0 8px 40px color-mix(in srgb, var(--fg) 45%, transparent); }
 .wave-hero__title .split-char { animation: wave-float 4s ease-in-out infinite; animation-delay: calc(var(--char-index, 0) * -.18s); }
 @keyframes wave-float { 50% { translate: 0 -.04em; } }
 .wave-hero__sub { max-width: 54ch; font-size: clamp(16px, 1.3vw, 20px); color: var(--fg); background: color-mix(in srgb, #fff 55%, transparent); padding: 14px 18px; border-radius: 18px; backdrop-filter: blur(8px); }

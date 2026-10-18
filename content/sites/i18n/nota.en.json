@@ -1,0 +1,297 @@
+{
+  "name": "Nota",
+  "tagline": "A music school and studio that teaches you to play what you want to listen to",
+  "niche": "Music school: guitar, piano, vocals, drums, dutar; recording studio",
+  "nav": {
+    "cta": {
+      "label": "Trial lesson",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a music school, recording studio or rehearsal space. A spinning record on the first screen, instruments as playlist tracks and a live equaliser.",
+    "features": []
+  },
+  "seo": {
+    "title": "Nota — music school and recording studio in Tashkent",
+    "description": "Guitar, piano, vocal, drum and dutar lessons for kids from 6 and adults. One-to-one and in groups, student concerts and our own recording studio.",
+    "keywords": [
+      "music school Tashkent",
+      "guitar lessons Tashkent",
+      "singing lessons Tashkent",
+      "piano lessons",
+      "recording studio Tashkent",
+      "drum lessons"
+    ],
+    "answer": "Nota is a music school and studio at 12 Afrosiyob Street in Tashkent. We teach guitar, piano, vocals, drums and dutar to kids from 6 and adults from scratch. A 45-minute one-to-one lesson is 150,000 sum, an 8-lesson pass 1,040,000 sum, a trial lesson 50,000 sum. An hour in the recording studio with an engineer is 250,000 sum."
+  },
+  "business": {
+    "legalName": "Nota Music LLC",
+    "street": "12 Afrosiyob St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Play your own song",
+      "eyebrow": "Music school and studio · since 2017",
+      "subtitle": "You’ll play your first song on guitar or piano within a month — teachers start with the music you love and pick up the notation along the way.",
+      "cta": {
+        "label": "Book a trial",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Instruments",
+        "href": "#lessons"
+      },
+      "image": "",
+      "words": [
+        "guitar",
+        "piano",
+        "vocals",
+        "drums",
+        "dutar"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Rock",
+        "Jazz",
+        "Pop",
+        "Classical",
+        "Maqom",
+        "Indie",
+        "Funk",
+        "Blues"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A school for playing, not passing exams",
+      "text": "Nota was founded by session musicians in 2017. We don’t prepare you for conservatory exams — we teach you to play: in a band, on stage, for yourself. Five soundproofed classrooms, a rehearsal room with drums and amps, and a studio where students record their first track.",
+      "image": ""
+    },
+    {
+      "id": "lessons",
+      "type": "services",
+      "label": "Instruments",
+      "title": "The lesson playlist",
+      "intro": "Lessons are 45 minutes one-to-one or 60 minutes in a group of up to four.",
+      "items": [
+        {
+          "title": "Guitar",
+          "text": "Acoustic and electric: chords, strumming, solos. Your first song by the third lesson.",
+          "price": "150,000 sum",
+          "tag": "3:45"
+        },
+        {
+          "title": "Piano",
+          "text": "Classical and modern arrangements, playing from chords and sight-reading.",
+          "price": "160,000 sum",
+          "tag": "4:12"
+        },
+        {
+          "title": "Vocals",
+          "text": "Breathing, support, range and mic technique. Pop, jazz and variety.",
+          "price": "160,000 sum",
+          "tag": "3:58"
+        },
+        {
+          "title": "Drums",
+          "text": "Rhythm, grooves and fills on a real kit in a soundproofed room.",
+          "price": "170,000 sum",
+          "tag": "5:01"
+        },
+        {
+          "title": "Dutar",
+          "text": "Uzbek traditional music with a teacher who performs maqom.",
+          "price": "140,000 sum",
+          "tag": "4:30"
+        },
+        {
+          "title": "Recording studio",
+          "text": "Recording vocals and instruments, mixing and mastering with an engineer.",
+          "price": "250,000 sum/hour",
+          "tag": "∞"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "What the school sounds like",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "instruments"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "soundproofed rooms"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "student concerts a year"
+        },
+        {
+          "value": "6",
+          "suffix": "+",
+          "label": "years — the youngest student age"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Passes",
+      "title": "Prices",
+      "items": [
+        {
+          "name": "Trial",
+          "price": "50,000 sum",
+          "period": "one lesson",
+          "features": [
+            "Meet your teacher",
+            "Choose an instrument",
+            "A plan for the first month"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8 lessons",
+          "price": "1,040,000 sum",
+          "period": "for a month",
+          "features": [
+            "Two lessons a week",
+            "Reschedule with 24 hours’ notice",
+            "Rehearsal room free"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Group",
+          "price": "600,000 sum",
+          "period": "per month",
+          "features": [
+            "8 sessions of 60 minutes",
+            "Up to 4 people",
+            "A spot in the student concert"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Teachers",
+      "title": "Who you’ll be playing with",
+      "items": [
+        {
+          "name": "Sardor",
+          "role": "guitar, bass",
+          "image": ""
+        },
+        {
+          "name": "Nilufar",
+          "role": "vocals",
+          "image": ""
+        },
+        {
+          "name": "Dmitry",
+          "role": "drums",
+          "image": ""
+        },
+        {
+          "name": "Ziyoda",
+          "role": "piano",
+          "image": ""
+        },
+        {
+          "name": "Shavkat",
+          "role": "dutar, maqom",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Students",
+      "title": "What they say",
+      "items": [
+        {
+          "quote": "At 32 I thought it was too late — it wasn’t. Six months later I sang at the student concert; my hands only shook for the first ten seconds.",
+          "author": "Kamola",
+          "role": "vocals"
+        },
+        {
+          "quote": "My son recorded his first track in the school studio and now sends it to every relative.",
+          "author": "Ulugbek",
+          "role": "student’s father, guitar"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Do I need my own instrument?",
+          "a": "Not for lessons — every room has instruments. For practising at home we’ll help you pick an affordable one."
+        },
+        {
+          "q": "From what age do you teach?",
+          "a": "Piano and vocals from 6, guitar and drums from 8. Adults at any age."
+        },
+        {
+          "q": "Do I need to read music?",
+          "a": "No. We start with songs by ear and tabs and add notation gradually."
+        },
+        {
+          "q": "Can I rent the studio without lessons?",
+          "a": "Yes, the studio and rehearsal room can be booked by the hour on Telegram."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Book",
+      "title": "Let’s start with a trial lesson",
+      "text": "Tell us the instrument, age and a time that suits you — we’ll match you with a teacher and send free slots.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/notaschool"
+      }
+    }
+  ]
+}

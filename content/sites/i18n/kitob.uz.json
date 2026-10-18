@@ -1,0 +1,292 @@
+{
+  "name": "Kitob Uyi",
+  "tagline": "Sotuvchi tavsiya qilganini o‘qigan kitob do‘koni",
+  "niche": "Kitob do‘koni: badiiy adabiyot, nonfikshn, bolalar kitoblari, kitob klubi",
+  "nav": {
+    "cta": {
+      "label": "Kitob buyurtma qilish",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Kitob do‘koni, nashriyot yoki kutubxona uchun sayt. Javondagi kitob umurtqalari, yangiliklar muqovalari, katta kursivdagi iqtiboslar va kitob klubi jadvali.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kitob Uyi — Toshkentdagi Brodveydagi kitob do‘koni",
+    "description": "Rus, o‘zbek va ingliz tillarida kitoblar: nasr, nonfikshn, bolalar kitoblari. Payshanba kunlari kitob klubi, istalgan kitobni 7–14 kunda buyurtma qilish, sovg‘a kartalari va Toshkent bo‘ylab yetkazib berish.",
+    "keywords": [
+      "kitob do‘koni Toshkent",
+      "Toshkentda kitob sotib olish",
+      "ingliz tilidagi kitoblar Toshkent",
+      "kitob klubi Toshkent",
+      "bolalar kitoblari Toshkent",
+      "o‘zbek tilidagi kitoblar"
+    ],
+    "answer": "Kitob Uyi — Toshkentdagi Sayilgoh ko‘chasi, 9 (Brodvey) dagi mustaqil kitob do‘koni, har kuni 10:00 dan 21:00 gacha ochiq. Rus, o‘zbek va ingliz tillarida 12 000 ga yaqin kitob; javonda yo‘q kitobni 7–14 kunda buyurtma asosida olib kelamiz. Payshanba kunlari 19:00 da — kitob klubi, ishtirok choy bilan 50 000 so‘m. Toshkent bo‘ylab yetkazib berish — 25 000 so‘m, 300 000 so‘mdan bepul."
+  },
+  "business": {
+    "legalName": "“Kitob Uyi” MChJ",
+    "street": "Sayilgoh ko‘chasi, 9",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Goodreads"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Yaxshi kitob o‘quvchisini topadi",
+      "eyebrow": "Mustaqil kitob do‘koni · Brodvey, Sayilgoh, 9",
+      "subtitle": "Uch tilda o‘n ikki ming kitob, deraza yonida kreslo va reytingga emas, kayfiyatingizga qarab tanlashga yordam beradigan sotuvchilar.",
+      "cta": {
+        "label": "Oyning yangiliklari",
+        "href": "#new"
+      },
+      "ctaSecondary": {
+        "label": "Kitob klubi",
+        "href": "#club"
+      },
+      "image": "",
+      "words": [
+        "Nasr",
+        "Nonfikshn",
+        "She’riyat",
+        "Bolalar uchun",
+        "Komikslar",
+        "Ingliz tilida",
+        "O‘zbek adabiyoti"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Tolstoy",
+        "Abdulla Qodiriy",
+        "Murakami",
+        "Cho‘lpon",
+        "Agota Kristof",
+        "Pelevin",
+        "Dostoyevskiy",
+        "Ishiguro"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Do‘kon haqida",
+      "title": "Uzoqroq qolish mumkin bo‘lgan do‘kon",
+      "text": "Kitob Uyi 2018 yilda Brodveydagi eski uyda ochilgan: shiftgacha yog‘och javonlar, narvon va sotib olmasdan o‘qish mumkin bo‘lgan katta stol. Javonlardagi har bir kitobni o‘zimiz tanlaymiz va ularga qo‘lda kartochkalar yozamiz. Kerakli kitob bo‘lmasa — buyurtma asosida olib kelamiz.",
+      "image": ""
+    },
+    {
+      "id": "new",
+      "type": "works",
+      "label": "Yangiliklar",
+      "title": "Shu oy nima keldi",
+      "items": [
+        {
+          "title": "Tinch Don",
+          "category": "Mixail Sholoxov",
+          "year": "220 000 so‘m",
+          "text": "Ikki jildli izohli yangi nashr.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "O‘tkan kunlar",
+          "category": "Abdulla Qodiriy",
+          "year": "95 000 so‘m",
+          "text": "Birinchi o‘zbek romani yangi bezakda.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Klara va Quyosh",
+          "category": "Kadzuo Isiguro",
+          "year": "140 000 so‘m",
+          "text": "Mashina ko‘zi bilan sevgi haqida sokin roman.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Sapiens",
+          "category": "Yuval Noy Harari",
+          "year": "165 000 so‘m",
+          "text": "Insoniyatning qisqacha tarixi — o‘n yillikning asosiy nonfikshni.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Kichkina shahzoda",
+          "category": "Antuan de Sent-Ekzyuperi",
+          "year": "80 000 so‘m",
+          "text": "Muallif akvarellari bilan sovg‘a nashri.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Norvegiya o‘rmoni",
+          "category": "Xaruki Murakami",
+          "year": "125 000 so‘m",
+          "text": "Murakamining eng shaxsiy romani.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "club",
+      "type": "services",
+      "label": "Kitoblardan tashqari",
+      "title": "Bizda yana nima bor",
+      "items": [
+        {
+          "title": "Kitob klubi",
+          "text": "Har payshanba 19:00 da choy ustida oy kitobini muhokama qilamiz. Mavsum ro‘yxati — Telegram kanalda.",
+          "price": "50 000 so‘m",
+          "tag": "payshanba"
+        },
+        {
+          "title": "Istalgan kitobni buyurtma qilish",
+          "text": "Javonda yo‘q kitobni Rossiya, Yevropa yoki Turkiyadan olib kelamiz.",
+          "price": "oldindan to‘lovsiz",
+          "tag": "7–14 kun"
+        },
+        {
+          "title": "Sovg‘a kartalari",
+          "text": "Nominal 100 000 so‘mdan, bir yil amal qiladi. Kraftga o‘rab, otkritkaga yozib beramiz.",
+          "price": "100 000 so‘mdan",
+          "tag": ""
+        },
+        {
+          "title": "Bolalar o‘qishlari",
+          "text": "Shanba kunlari 11:00 da 4–8 yoshli bolalarga ovoz chiqarib o‘qiymiz va shunga qarab rasm chizamiz.",
+          "price": "bepul",
+          "tag": "shanba"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Javonlar haqida ozgina",
+      "items": [
+        {
+          "value": "12000",
+          "suffix": "",
+          "label": "javonlardagi kitob"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "til"
+        },
+        {
+          "value": "14",
+          "suffix": "kun",
+          "label": "eng uzoq buyurtma"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "kitob klubidagi o‘rin"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Do‘kon",
+      "title": "Varaqlashga kiring",
+      "items": [
+        {
+          "caption": "Nasr zali",
+          "image": ""
+        },
+        {
+          "caption": "O‘qish stoli",
+          "image": ""
+        },
+        {
+          "caption": "Bolalar burchagi",
+          "image": ""
+        },
+        {
+          "caption": "Kitob klubi",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "O‘quvchilar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "“Chexovga o‘xshash, lekin hozirgi zamon haqida biror narsa” deb so‘radim — ikki daqiqada uchta kitob topib berishdi. Uchalasini ham o‘qidim.",
+          "author": "Malika",
+          "role": "o‘quvchi"
+        },
+        {
+          "quote": "Klubga ikkinchi yil qatnayman. Bu yana oyiga bitta kitob o‘qiydigan yagona joyim.",
+          "author": "Farhod",
+          "role": "kitob klubi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Do‘konda yo‘q kitobni buyurtma qilish mumkinmi?",
+          "a": "Ha, nomi yoki havolasini yuboring — narx va muddatni aytamiz, odatda 7–14 kun. Oldindan to‘lov kerak emas."
+        },
+        {
+          "q": "Yetkazib berish bormi?",
+          "a": "Toshkent bo‘ylab — buyurtma kuni kuryer orqali 25 000 so‘m, 300 000 so‘mdan bepul. Viloyatlarga — pochta orqali."
+        },
+        {
+          "q": "Kitob klubiga qanday kiraman?",
+          "a": "Joy band qilish uchun Telegramga yozing — 40 ta joy bor. Oy kitobini bizdan 10% chegirma bilan sotib olish mumkin."
+        },
+        {
+          "q": "Kitob sotib olasizmi?",
+          "a": "Bukinist bo‘limi yaxshi holatdagi kitoblarni juma kunlari qabul qiladi, baholash joyida."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Buyurtma",
+      "title": "Kitob qidiryapsizmi?",
+      "text": "Nomini yozing yoki shunchaki nima o‘qigingiz kelishini tasvirlang — bir soat ichida javob berib, kitobni kassada qoldiramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/kitobuyi"
+      }
+    }
+  ]
+}

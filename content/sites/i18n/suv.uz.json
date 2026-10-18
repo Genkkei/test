@@ -1,0 +1,394 @@
+{
+  "name": "Suv",
+  "tagline": "Xotirjam va to‘g‘ri suzishni o‘rgatadigan basseyn",
+  "niche": "Basseyn va suzish maktabi: 4 yoshdan bolalar, kattalar, akvafitnes",
+  "nav": {
+    "cta": {
+      "label": "Sinov darsi",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Basseyn, suzish maktabi yoki akvapark uchun sayt. Birinchi ekranda jonli suv, dasturlar yo‘lakchalar ko‘rinishida, kunlar bo‘yicha jadval va abonementlar.",
+    "features": []
+  },
+  "seo": {
+    "title": "Suv — Toshkentdagi basseyn va suzish maktabi",
+    "description": "Ulug‘bek ko‘chasidagi 25 metrli basseyn: 4 yoshdan bolalar va kattalarga suzish, erkin suzish, akvafitnes. Sinov darsi, abonementlar, tibbiy ruxsatli murabbiylar.",
+    "keywords": [
+      "basseyn Toshkent",
+      "suzish maktabi Toshkent",
+      "bolalar uchun suzish",
+      "kattalarga suzishni o‘rgatish",
+      "akvafitnes Toshkent",
+      "basseynga abonement"
+    ],
+    "answer": "Suv — Toshkentdagi Mirzo Ulug‘bek ko‘chasi, 56 da joylashgan 25 metrli basseyn. 4 yoshdan bolalarga va noldan kattalarga suzishni o‘rgatamiz, erkin suzish va akvafitnes ham bor. Ish kunlari 07:00–22:00, dam olish kunlari 08:00–20:00. Bir martalik tashrif — 80 000 so‘m, oylik abonement — 600 000 so‘mdan, bola uchun sinov darsi — 50 000 so‘m."
+  },
+  "business": {
+    "legalName": "“Suv Sport” MChJ",
+    "street": "Mirzo Ulug‘bek ko‘chasi, 56",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Xaritalar"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Suzish — oson",
+      "eyebrow": "Basseyn 25 m · Ulug‘bek, 56 · 07:00 dan",
+      "subtitle": "Oltita yo‘lak, suv +28 °C va baqirmasdan o‘rgatadigan murabbiylar. 4 yoshdan bolalar, noldan kattalar, ertalabki erkin suzish.",
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Jadval",
+        "href": "#schedule"
+      },
+      "image": "",
+      "words": [
+        "bolalar",
+        "kattalar",
+        "akvafitnes",
+        "erkin suzish"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Krol",
+        "Brass",
+        "Chalqancha",
+        "Batterflyay",
+        "Sho‘ng‘ish",
+        "Start va burilishlar"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Basseyn haqida",
+      "title": "Qolging keladigan suv",
+      "text": "Suv 2016 yilda bolalar suzish maktabi sifatida ochilib, to‘laqonli basseynga aylandi: 25 metr, oltita yo‘lak, kichkintoylar uchun alohida iliq hovuz. Suv ozon va ultrabinafsha nur bilan tozalanadi, shuning uchun xlor hidi deyarli yo‘q. Suv tahlilini har kuni qilamiz, natijalar kirishda osilgan.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Dasturlar",
+      "title": "Har kimga — o‘z yo‘lagi",
+      "intro": "Guruhlar 6 kishigacha, dars 45 daqiqa. Birinchi dars — chegirmali sinov darsi.",
+      "items": [
+        {
+          "title": "Kichkintoylar 4–6 yosh",
+          "text": "Iliq hovuz, suvdagi o‘yinlar, nafas olish va ilk eshkak harakatlari. Ota-ona tribunadan kuzatishi mumkin.",
+          "price": "oyiga 450 000 so‘mdan",
+          "tag": "1-yo‘lak"
+        },
+        {
+          "title": "Bolalar 7–14 yosh",
+          "text": "To‘rt usul, start va burilishlar. Sportga intilganlar uchun — seksiyaga saralash.",
+          "price": "oyiga 500 000 so‘mdan",
+          "tag": "2–3-yo‘laklar"
+        },
+        {
+          "title": "Kattalar noldan",
+          "text": "Suvdan qo‘rqadigan yoki hali o‘rganmaganlar uchun. 12 darsda — krol usulida ishonch bilan 25 metr.",
+          "price": "oyiga 650 000 so‘mdan",
+          "tag": "4-yo‘lak"
+        },
+        {
+          "title": "Akvafitnes",
+          "text": "Sayoz suvda musiqa ostida mashg‘ulot: bo‘g‘imlar uchun yumshoq, mushaklar uchun sezilarli.",
+          "price": "oyiga 400 000 so‘mdan",
+          "tag": "5-yo‘lak"
+        },
+        {
+          "title": "Erkin suzish",
+          "text": "Sur’at bo‘yicha o‘z yo‘lagi: sekin, o‘rta, tez. Ertalab 07:00 dan.",
+          "price": "80 000 so‘m/tashrif",
+          "tag": "6-yo‘lak"
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Jadval",
+      "title": "Basseyndagi hafta",
+      "groups": [
+        {
+          "name": "Dushanba · chorshanba · juma",
+          "items": [
+            {
+              "name": "Erkin suzish",
+              "text": "barcha yo‘laklar",
+              "price": "07:00"
+            },
+            {
+              "name": "Akvafitnes",
+              "text": "sayoz suv",
+              "price": "10:00"
+            },
+            {
+              "name": "Kichkintoylar 4–6",
+              "text": "iliq hovuz",
+              "price": "16:00"
+            },
+            {
+              "name": "Bolalar 7–14",
+              "text": "2–3-yo‘laklar",
+              "price": "17:00"
+            },
+            {
+              "name": "Kattalar noldan",
+              "text": "4-yo‘lak",
+              "price": "20:00"
+            }
+          ]
+        },
+        {
+          "name": "Seshanba · payshanba",
+          "items": [
+            {
+              "name": "Erkin suzish",
+              "text": "barcha yo‘laklar",
+              "price": "07:00"
+            },
+            {
+              "name": "Kichkintoylar 4–6",
+              "text": "iliq hovuz",
+              "price": "15:00"
+            },
+            {
+              "name": "Seksiya (saralash bo‘yicha)",
+              "text": "1–3-yo‘laklar",
+              "price": "17:30"
+            },
+            {
+              "name": "Akvafitnes",
+              "text": "sayoz suv",
+              "price": "19:00"
+            }
+          ]
+        },
+        {
+          "name": "Shanba · yakshanba",
+          "items": [
+            {
+              "name": "Oilaviy suzish",
+              "text": "butun hovuz",
+              "price": "09:00"
+            },
+            {
+              "name": "Bolalar 7–14",
+              "text": "2–3-yo‘laklar",
+              "price": "11:00"
+            },
+            {
+              "name": "Erkin suzish",
+              "text": "barcha yo‘laklar",
+              "price": "14:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Suv haqida ozgina",
+      "items": [
+        {
+          "value": "25",
+          "suffix": "m",
+          "label": "hovuz uzunligi"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "yo‘lak"
+        },
+        {
+          "value": "28",
+          "suffix": " °C",
+          "label": "suv harorati"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "guruhda ko‘pi bilan kishi"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Narxlari",
+      "items": [
+        {
+          "name": "Bir martalik",
+          "price": "80 000 so‘m",
+          "period": "tashrif",
+          "features": [
+            "60 daqiqa erkin suzish",
+            "Shkafcha va sochiq",
+            "Basseyndan so‘ng sauna"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Oy",
+          "price": "600 000 so‘m",
+          "period": "oy",
+          "features": [
+            "Cheksiz erkin suzish",
+            "Haftasiga 2 marta akvafitnes",
+            "7 kungacha muzlatish"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Bolalar maktabi",
+          "price": "500 000 so‘m",
+          "period": "oy",
+          "features": [
+            "Guruhda 12 dars",
+            "Har oy murabbiy hisoboti",
+            "Sinov darsi — 50 000 so‘m"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Murabbiylar",
+      "title": "Suvda yoningizda kim bo‘ladi",
+      "items": [
+        {
+          "name": "Dilnoza",
+          "role": "katta murabbiy, 4–6 yosh",
+          "image": ""
+        },
+        {
+          "name": "Ruslan",
+          "role": "sport seksiyasi",
+          "image": ""
+        },
+        {
+          "name": "Madina",
+          "role": "akvafitnes",
+          "image": ""
+        },
+        {
+          "name": "Jasur",
+          "role": "noldan kattalar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Ichkarida",
+      "title": "Bizda qanday",
+      "items": [
+        {
+          "caption": "Katta hovuz, 6 yo‘lak",
+          "image": ""
+        },
+        {
+          "caption": "Kichkintoylar uchun iliq hovuz",
+          "image": ""
+        },
+        {
+          "caption": "Kiyinish xonalari va dushlar",
+          "image": ""
+        },
+        {
+          "caption": "Sauna",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Fikrlar",
+      "title": "Ota-onalar va suzuvchilar aytadi",
+      "items": [
+        {
+          "quote": "O‘g‘lim yuvinishdan ham qo‘rqardi, ikki oydan keyin o‘zi chetidan sakraydi. Murabbiy bir marta ham ovozini ko‘tarmadi.",
+          "author": "Nigora",
+          "role": "Samirning onasi, 5 yosh"
+        },
+        {
+          "quote": "38 yoshda suzishni o‘rgandim. O‘n ikki dars — va basseynni to‘xtamasdan suzib o‘taman.",
+          "author": "Otabek",
+          "role": "“Noldan kattalar” guruhi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Tibbiy ma’lumotnoma kerakmi?",
+          "a": "Ha, terapevt yoki pediatrdan basseynga ruxsat haqida ma’lumotnoma, 6 oy amal qiladi. Uni istalgan poliklinikada olish mumkin."
+        },
+        {
+          "q": "Bolalarni necha yoshdan olasiz?",
+          "a": "4 yoshdan “Kichkintoylar” guruhiga. Kichikroq bolalar uchun — iliq hovuzda ota-ona bilan yakka darslar."
+        },
+        {
+          "q": "O‘zim bilan nima olay?",
+          "a": "Cho‘milish kiyimi, shapka, shippak va ma’lumotnoma. Sochiq va shkafcha beramiz."
+        },
+        {
+          "q": "Abonementni muzlatish mumkinmi?",
+          "a": "Oylik abonementni — ariza bo‘yicha 7 kungacha, kasallikda ma’lumotnoma bilan — kasallik muddatiga."
+        },
+        {
+          "q": "Avtoturargoh bormi?",
+          "a": "Ha, hovlida 30 ta mashina uchun bepul avtoturargoh."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Aloqa",
+      "title": "Sinov darsiga keling",
+      "text": "Telegramga yosh va qulay vaqtni yozing — guruh tanlab, jadval yuboramiz. Bola uchun sinov darsi — 50 000 so‘m, kattalar uchun — 80 000 so‘m.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/suvpool"
+      }
+    }
+  ]
+}

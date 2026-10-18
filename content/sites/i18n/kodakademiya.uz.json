@@ -1,0 +1,315 @@
+{
+  "name": "Kod Akademiya",
+  "tagline": "Bir yildan keyin IT’da ishlashingiz uchun dasturlashni o‘rgatamiz",
+  "niche": "IT kurslar: veb-dasturlash, Python, mobil ilovalar, o‘smirlar uchun kurslar",
+  "nav": {
+    "cta": {
+      "label": "Sinov darsi",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "IT maktab, kurslar yoki onlayn akademiya uchun sayt. Birinchi ekranda yozadigan terminal, kod ko‘rinishidagi kurslar, oylar bo‘yicha o‘qish trayektoriyasi.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kod Akademiya — IT kurslar va dasturlash maktabi",
+    "description": "Toshkentda veb-dasturlash, Python va mobil ilovalar kurslari: 14 kishigacha jonli guruhlar, portfolio uchun loyihalar, IT Park hamkorlarida amaliyot.",
+    "keywords": [
+      "IT kurslar Toshkent",
+      "dasturlash kurslari Toshkent",
+      "veb-dasturlashni o‘rganish",
+      "Python kurslari Toshkent",
+      "o‘smirlar uchun dasturlash",
+      "Flutter kurslari"
+    ],
+    "answer": "Kod Akademiya — IT Parkdagi dasturlash maktabi (Mirzo Ulug‘bek ko‘chasi, 2, Toshkent). Kurslar: frontend va backend dasturlash (9 oy), Python va ma’lumotlar tahlili (6 oy), Flutter’da mobil ilovalar (6 oy), 12–16 yoshli o‘smirlar uchun dasturlash. Guruhlar 14 kishigacha, darslar haftasiga uch marta kechqurun, narxi — oyiga 1 200 000 so‘mdan, birinchi dars bepul."
+  },
+  "business": {
+    "legalName": "“Kod Akademiya” MChJ",
+    "street": "IT Park, Mirzo Ulug‘bek ko‘chasi, 2",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "GitHub"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Bugun kodning birinchi qatorini yozing",
+      "eyebrow": "IT Parkdagi dasturlash maktabi",
+      "subtitle": "Jonli guruhlar, har bir loyihada mentor va hamkorlarda amaliyot. Noldan boshlash mumkin — faqat noutbuk va haftasiga uch kech kerak.",
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Kurslarni ko‘rish",
+        "href": "#courses"
+      },
+      "image": "",
+      "words": [
+        "npm create app",
+        "python3 main.py",
+        "flutter run",
+        "git push origin main"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Django",
+        "SQL",
+        "Flutter",
+        "Git",
+        "Docker"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Maktab haqida",
+      "title": "Jamoalarda qanday ishlashsa, shunday o‘rgatamiz",
+      "text": "Kod Akademiya 2020 yilda IT Parkda ochilgan. Amaliyotchi dasturchilar dars beradi: kunduzi ular mahsulot kompaniyalarida kod yozadi, kechqurun guruhlarni olib boradi. Har bir modul kod-review bilan loyiha bilan yakunlanadi, kurs oxirida bitiruvchining GitHub’da 4–6 ishi va vazifalar bo‘yicha jamoaviy ishlash tajribasi bo‘ladi.",
+      "image": ""
+    },
+    {
+      "id": "courses",
+      "type": "services",
+      "label": "Kurslar",
+      "title": "Yo‘nalishni tanlang",
+      "intro": "Barcha kurslar — auditoriyada yoki onlayn jonli darslar, uy vazifalari va kod tekshiruvi bilan.",
+      "items": [
+        {
+          "title": "Frontend dasturchi",
+          "text": "HTML, CSS, JavaScript, React va TypeScript. Natija — portfolioda o‘z internet-do‘koni va lendingi.",
+          "price": "oyiga 1 400 000 so‘m",
+          "tag": "9 oy"
+        },
+        {
+          "title": "Node.js’da backend",
+          "text": "API, PostgreSQL ma’lumotlar bazalari, avtorizatsiya, serverga joylash. Natija — haqiqiy ilova uchun backend.",
+          "price": "oyiga 1 500 000 so‘m",
+          "tag": "9 oy"
+        },
+        {
+          "title": "Python va ma’lumotlar tahlili",
+          "text": "Python, pandas, SQL, vizualizatsiya va haqiqiy datasetlarda mashinaviy o‘qitish asoslari.",
+          "price": "oyiga 1 300 000 so‘m",
+          "tag": "6 oy"
+        },
+        {
+          "title": "Flutter’da mobil ilovalar",
+          "text": "Bitta ilova bir vaqtda iOS va Android uchun: interfeys, tarmoq bilan ishlash, do‘konlarga joylash.",
+          "price": "oyiga 1 400 000 so‘m",
+          "tag": "6 oy"
+        },
+        {
+          "title": "O‘smirlar uchun kod 12–16",
+          "text": "Python va Scratch hamda Godot’da o‘yinlar. Shunchaki takrorlamay, dasturchi kabi fikrlashni o‘rganamiz.",
+          "price": "oyiga 900 000 so‘m",
+          "tag": "o‘quv yili"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Trayektoriya",
+      "title": "O‘qish qanday o‘tadi",
+      "items": [
+        {
+          "title": "Asoslar",
+          "text": "Sintaksis, mantiq, Git. Ikkinchi haftadayoq ilk kichik dasturlar."
+        },
+        {
+          "title": "Loyihalar",
+          "text": "Har bir modul — mentordan kod-review bilan yakunlangan loyiha."
+        },
+        {
+          "title": "Jamoa",
+          "text": "4–5 kishilik jamoada vazifalar bo‘yicha yakuniy loyiha, kompaniyadagidek."
+        },
+        {
+          "title": "Amaliyot",
+          "text": "Eng yaxshi bitiruvchilar IT Parkdagi hamkorlarga haq to‘lanadigan amaliyotga boradi."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Bitiruvchilar nima oladi",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "guruhda ko‘pi bilan kishi"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "portfoliodagi loyiha"
+        },
+        {
+          "value": "3",
+          "suffix": "marta",
+          "label": "haftasiga dars"
+        },
+        {
+          "value": "9",
+          "suffix": "oy",
+          "label": "eng uzun kurs"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "To‘lov",
+      "title": "Qanday to‘lash",
+      "items": [
+        {
+          "name": "Oyma-oy",
+          "price": "1 200 000 so‘mdan",
+          "period": "oyiga",
+          "features": [
+            "Istalgan oyda to‘xtatish mumkin",
+            "Birinchi dars bepul",
+            "Dars yozuvlariga kirish"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Butun kurs",
+          "price": "15% chegirma",
+          "period": "birdaniga to‘laganda",
+          "features": [
+            "Butun muddatga qat’iy narx",
+            "Shaxsiy mentor",
+            "Rezyume va suhbatda yordam"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Muddatli to‘lov",
+          "price": "0%",
+          "period": "12 oyga",
+          "features": [
+            "Hamkor bank orqali",
+            "Ortiqcha to‘lovsiz",
+            "15 daqiqada rasmiylashtirish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Mentorlar",
+      "title": "Kim o‘rgatadi",
+      "items": [
+        {
+          "name": "Aziz",
+          "role": "frontend, React",
+          "image": ""
+        },
+        {
+          "name": "Kamila",
+          "role": "Python va ma’lumotlar",
+          "image": ""
+        },
+        {
+          "name": "Sherzod",
+          "role": "backend, Node.js",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "Flutter",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Bitiruvchilar",
+      "title": "Kursdan keyin nima deyishadi",
+      "items": [
+        {
+          "quote": "Buxgalteriyadan keldim, o‘n oydan keyin frontendga junior qilib olishdi. Asosiysi — GitHub’dagi loyihalar, suhbatda faqat ularni ko‘rishdi.",
+          "author": "Dilfuza",
+          "role": "frontend dasturchi"
+        },
+        {
+          "quote": "O‘g‘lim o‘smirlar kursiga ikkinchi yil qatnayapti. O‘zi o‘yin yaratib, butun maktabga ko‘rsatdi.",
+          "author": "Bahrom",
+          "role": "o‘quvchining otasi"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "Dasturlash tajribasi kerakmi?",
+          "a": "Yo‘q, barcha kurslar noldan boshlanadi. Noutbuk va darslar hamda uy vazifalari uchun haftasiga 8–10 soat kerak."
+        },
+        {
+          "q": "Ish topishda yordam berasizmi?",
+          "a": "Rezyume va portfolio tayyorlaymiz, sinov suhbatlari o‘tkazamiz, eng yaxshilarini hamkorlarga tavsiya qilamiz. Ishga joylashishni kafolatlamaymiz — bu sizga bog‘liq."
+        },
+        {
+          "q": "Onlayn o‘qish mumkinmi?",
+          "a": "Ha, har bir guruh auditoriyada ham, jonli efirda ham o‘tadi. Dars yozuvlari shaxsiy kabinetda qoladi."
+        },
+        {
+          "q": "Sertifikat berasizmi?",
+          "a": "Ha, yakuniy loyihani himoya qilgandan keyin maktab sertifikati."
+        },
+        {
+          "q": "O‘smirlar kursi necha yoshdan?",
+          "a": "12 dan 16 yoshgacha, yosh bo‘yicha guruhlar, darslar shanba va yakshanba kunlari."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Sinov darsi",
+      "title": "Bepul darsdan boshlang",
+      "text": "Qaysi yo‘nalish qiziq ekanini yozing — eng yaqin ochiq darsga taklif qilamiz va kurs tanlashga yordam beramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/kodakademiya"
+      }
+    }
+  ]
+}

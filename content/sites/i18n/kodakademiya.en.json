@@ -1,0 +1,315 @@
+{
+  "name": "Kod Akademiya",
+  "tagline": "We teach programming so that in a year you’re working in IT",
+  "niche": "IT courses: web development, Python, mobile apps, courses for teenagers",
+  "nav": {
+    "cta": {
+      "label": "Free class",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for an IT school, courses or an online academy. A terminal that types on the first screen, courses shown as code and a month-by-month learning path.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kod Akademiya — IT courses and coding school",
+    "description": "Web development, Python and mobile app courses in Tashkent: live groups of up to 14, portfolio projects and internships with partners at IT Park.",
+    "keywords": [
+      "IT courses Tashkent",
+      "coding courses Tashkent",
+      "learn web development",
+      "Python courses Tashkent",
+      "programming for teenagers",
+      "Flutter course"
+    ],
+    "answer": "Kod Akademiya is a coding school at IT Park (2 Mirzo Ulugbek Street, Tashkent). Courses: front-end and back-end development (9 months), Python and data analysis (6 months), Flutter mobile apps (6 months), and coding for teenagers aged 12–16. Groups of up to 14, classes three evenings a week, from 1,200,000 sum a month; the first class is free."
+  },
+  "business": {
+    "legalName": "Kod Akademiya LLC",
+    "street": "IT Park, 2 Mirzo Ulugbek St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "GitHub"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Write your first line of code today",
+      "eyebrow": "Coding school at IT Park",
+      "subtitle": "Live groups, a mentor on every project and an internship with partners. You can start from zero — all you need is a laptop and three evenings a week.",
+      "cta": {
+        "label": "Book a free class",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See courses",
+        "href": "#courses"
+      },
+      "image": "",
+      "words": [
+        "npm create app",
+        "python3 main.py",
+        "flutter run",
+        "git push origin main"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Django",
+        "SQL",
+        "Flutter",
+        "Git",
+        "Docker"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "We teach the way teams actually work",
+      "text": "Kod Akademiya opened at IT Park in 2020. Our teachers are working developers: by day they write code at product companies, in the evenings they lead groups. Every module ends with a code-reviewed project, so graduates leave with 4–6 pieces of work on GitHub and experience of team development with real tasks.",
+      "image": ""
+    },
+    {
+      "id": "courses",
+      "type": "services",
+      "label": "Courses",
+      "title": "Pick a track",
+      "intro": "All courses are live classes in person or online, with homework and code review.",
+      "items": [
+        {
+          "title": "Front-end developer",
+          "text": "HTML, CSS, JavaScript, React and TypeScript. You finish with your own online store and landing page in your portfolio.",
+          "price": "1,400,000 sum/mo",
+          "tag": "9 months"
+        },
+        {
+          "title": "Back-end with Node.js",
+          "text": "APIs, PostgreSQL databases, auth and deployment. You finish with a back end for a real app.",
+          "price": "1,500,000 sum/mo",
+          "tag": "9 months"
+        },
+        {
+          "title": "Python and data analysis",
+          "text": "Python, pandas, SQL, visualisation and machine-learning basics on real datasets.",
+          "price": "1,300,000 sum/mo",
+          "tag": "6 months"
+        },
+        {
+          "title": "Mobile apps with Flutter",
+          "text": "One app for both iOS and Android: UI, networking and publishing to the stores.",
+          "price": "1,400,000 sum/mo",
+          "tag": "6 months"
+        },
+        {
+          "title": "Code for teens 12–16",
+          "text": "Python and games in Scratch and Godot. We learn to think like a programmer, not just copy.",
+          "price": "900,000 sum/mo",
+          "tag": "school year"
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "Learning path",
+      "title": "How the course goes",
+      "items": [
+        {
+          "title": "Basics",
+          "text": "Syntax, logic and Git. Your first small programs in week two."
+        },
+        {
+          "title": "Projects",
+          "text": "Every module is a finished project, reviewed by a mentor."
+        },
+        {
+          "title": "Team",
+          "text": "A final project in a team of 4–5 working through tasks, like at a company."
+        },
+        {
+          "title": "Internship",
+          "text": "Top graduates go on a paid internship with partners at IT Park."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "What graduates get",
+      "items": [
+        {
+          "value": "14",
+          "suffix": "",
+          "label": "students per group, max"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "portfolio projects"
+        },
+        {
+          "value": "3",
+          "suffix": " times",
+          "label": "classes a week"
+        },
+        {
+          "value": "9",
+          "suffix": " mo",
+          "label": "longest course"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Pricing",
+      "title": "How to pay",
+      "items": [
+        {
+          "name": "Monthly",
+          "price": "from 1,200,000 sum",
+          "period": "per month",
+          "features": [
+            "Stop at any month",
+            "First class free",
+            "Access to class recordings"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Whole course",
+          "price": "15% off",
+          "period": "paid upfront",
+          "features": [
+            "Fixed price for the whole course",
+            "Personal mentor",
+            "Help with your CV and interviews"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Instalments",
+          "price": "0%",
+          "period": "over 12 months",
+          "features": [
+            "Through a partner bank",
+            "No extra cost",
+            "Set up in 15 minutes"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Mentors",
+      "title": "Who teaches",
+      "items": [
+        {
+          "name": "Aziz",
+          "role": "front-end, React",
+          "image": ""
+        },
+        {
+          "name": "Kamila",
+          "role": "Python and data",
+          "image": ""
+        },
+        {
+          "name": "Sherzod",
+          "role": "back-end, Node.js",
+          "image": ""
+        },
+        {
+          "name": "Lola",
+          "role": "Flutter",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Graduates",
+      "title": "What they say afterwards",
+      "items": [
+        {
+          "quote": "I came from accounting and ten months later was hired as a junior front-end developer. What mattered was the projects on GitHub — that’s all they looked at in the interview.",
+          "author": "Dilfuza",
+          "role": "front-end developer"
+        },
+        {
+          "quote": "My son is in his second year of the teen course. He built a game himself and showed it to the whole school.",
+          "author": "Bahrom",
+          "role": "student’s father"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Do I need coding experience?",
+          "a": "No, every course starts from zero. You need a laptop and 8–10 hours a week for classes and homework."
+        },
+        {
+          "q": "Do you help with jobs?",
+          "a": "We prepare your CV and portfolio, run mock interviews and recommend the best students to partners. We don’t guarantee a job — that depends on you."
+        },
+        {
+          "q": "Can I study online?",
+          "a": "Yes, every group runs both in class and live online. Recordings stay in your account."
+        },
+        {
+          "q": "Do you give a certificate?",
+          "a": "Yes, a school certificate after you defend your final project."
+        },
+        {
+          "q": "What age is the teen course for?",
+          "a": "Ages 12 to 16, grouped by age, with classes on Saturdays and Sundays."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Free class",
+      "title": "Start with a free class",
+      "text": "Tell us which track interests you — we’ll invite you to the next open class and help you choose a course.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/kodakademiya"
+      }
+    }
+  ]
+}

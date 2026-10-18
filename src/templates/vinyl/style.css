@@ -112,7 +112,7 @@
 .vinyl-album__disc { position: absolute; inset: 4%; border-radius: 50%; background: radial-gradient(circle, var(--accent) 0 16%, #0b090c 17%), repeating-radial-gradient(circle, #0f0c10 0 2px, #1b161c 2px 3px); transition: translate .7s var(--ease); }
 .vinyl-album:hover .vinyl-album__disc { translate: 28% 0; }
 .vinyl-album__cover { position: relative; height: 100%; overflow: hidden; border-radius: 6px; box-shadow: 0 20px 40px -20px rgb(0 0 0 / .8); }
-.vinyl-album__cover figcaption { position: absolute; left: 12px; bottom: 10px; font-family: var(--font-display); font-weight: 800; font-size: clamp(18px, 1.8vw, 26px); text-transform: uppercase; letter-spacing: -.04em; color: #fff; mix-blend-mode: difference; }
+.vinyl-album__cover figcaption { position: absolute; left: 10px; top: 10px; padding: 4px 9px; border-radius: 99px; background: var(--bg); font-family: var(--font-display); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: .02em; color: var(--fg); }
 .vinyl-album h3 { font-weight: 700; font-size: 17px; }
 .vinyl-album p { color: var(--muted); font-size: 14px; }
 

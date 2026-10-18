@@ -1,0 +1,394 @@
+{
+  "name": "Suv",
+  "tagline": "A pool where swimming is taught calmly and properly",
+  "niche": "Pool and swim school: kids from 4, adults, aqua fitness",
+  "nav": {
+    "cta": {
+      "label": "Trial lesson",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a pool, swim school or water park. Living water on the first screen, programmes as swim lanes, a day-by-day timetable and memberships.",
+    "features": []
+  },
+  "seo": {
+    "title": "Suv — pool and swim school in Tashkent",
+    "description": "A 25-metre pool on Ulugbek Street: swimming lessons for kids from 4 and adults, lap swimming, aqua fitness. Trial lesson, memberships, coaches with medical clearance.",
+    "keywords": [
+      "pool Tashkent",
+      "swim school Tashkent",
+      "swimming for kids",
+      "adult swimming lessons",
+      "aqua fitness Tashkent",
+      "pool membership"
+    ],
+    "answer": "Suv is a 25-metre pool at 56 Mirzo Ulugbek Street in Tashkent. We teach kids from age 4 and adults from scratch, and offer lap swimming and aqua fitness. Weekdays 07:00–22:00, weekends 08:00–20:00. A single visit is 80,000 sum, a monthly membership from 600,000 sum, a kid’s trial lesson 50,000 sum."
+  },
+  "business": {
+    "legalName": "Suv Sport LLC",
+    "street": "56 Mirzo Ulugbek St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Yandex Maps"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Swimming made easy",
+      "eyebrow": "25 m pool · 56 Ulugbek · from 07:00",
+      "subtitle": "Six lanes, water at +28 °C and coaches who teach without shouting. Kids from 4, adults from scratch, early-morning lap swimming.",
+      "cta": {
+        "label": "Book a trial",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Timetable",
+        "href": "#schedule"
+      },
+      "image": "",
+      "words": [
+        "kids",
+        "adults",
+        "aqua fitness",
+        "lap swimming"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Freestyle",
+        "Breaststroke",
+        "Backstroke",
+        "Butterfly",
+        "Diving",
+        "Starts and turns"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "Water you want to stay in",
+      "text": "Suv opened in 2016 as a kids’ swim school and grew into a full pool: 25 metres, six lanes and a separate warm pool for little ones. The water is cleaned with ozone and UV, so it hardly smells of chlorine. We test the water every day, and the results hang by the entrance.",
+      "image": ""
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Programmes",
+      "title": "A lane for everyone",
+      "intro": "Groups of up to 6, lessons are 45 minutes. The first lesson is a discounted trial.",
+      "items": [
+        {
+          "title": "Little ones 4–6",
+          "text": "Warm pool, water games, breathing and first strokes. Parents can watch from the stands.",
+          "price": "from 450,000 sum/mo",
+          "tag": "Lane 1"
+        },
+        {
+          "title": "Kids 7–14",
+          "text": "Four strokes, starts and turns. For those aiming at sport, there’s a squad trial.",
+          "price": "from 500,000 sum/mo",
+          "tag": "Lanes 2–3"
+        },
+        {
+          "title": "Adults from scratch",
+          "text": "For those afraid of water or who never learned. In 12 lessons — a confident 25 metres of freestyle.",
+          "price": "from 650,000 sum/mo",
+          "tag": "Lane 4"
+        },
+        {
+          "title": "Aqua fitness",
+          "text": "A workout to music in shallow water: gentle on joints, noticeable for muscles.",
+          "price": "from 400,000 sum/mo",
+          "tag": "Lane 5"
+        },
+        {
+          "title": "Lap swimming",
+          "text": "Lanes by pace: slow, medium, fast. Mornings from 07:00.",
+          "price": "80,000 sum/visit",
+          "tag": "Lane 6"
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "menu",
+      "label": "Timetable",
+      "title": "A week at the pool",
+      "groups": [
+        {
+          "name": "Monday · Wednesday · Friday",
+          "items": [
+            {
+              "name": "Lap swimming",
+              "text": "all lanes",
+              "price": "07:00"
+            },
+            {
+              "name": "Aqua fitness",
+              "text": "shallow water",
+              "price": "10:00"
+            },
+            {
+              "name": "Little ones 4–6",
+              "text": "warm pool",
+              "price": "16:00"
+            },
+            {
+              "name": "Kids 7–14",
+              "text": "lanes 2–3",
+              "price": "17:00"
+            },
+            {
+              "name": "Adults from scratch",
+              "text": "lane 4",
+              "price": "20:00"
+            }
+          ]
+        },
+        {
+          "name": "Tuesday · Thursday",
+          "items": [
+            {
+              "name": "Lap swimming",
+              "text": "all lanes",
+              "price": "07:00"
+            },
+            {
+              "name": "Little ones 4–6",
+              "text": "warm pool",
+              "price": "15:00"
+            },
+            {
+              "name": "Squad (by trial)",
+              "text": "lanes 1–3",
+              "price": "17:30"
+            },
+            {
+              "name": "Aqua fitness",
+              "text": "shallow water",
+              "price": "19:00"
+            }
+          ]
+        },
+        {
+          "name": "Saturday · Sunday",
+          "items": [
+            {
+              "name": "Family swim",
+              "text": "whole pool",
+              "price": "09:00"
+            },
+            {
+              "name": "Kids 7–14",
+              "text": "lanes 2–3",
+              "price": "11:00"
+            },
+            {
+              "name": "Lap swimming",
+              "text": "all lanes",
+              "price": "14:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "A little about the water",
+      "items": [
+        {
+          "value": "25",
+          "suffix": " m",
+          "label": "pool length"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "lanes"
+        },
+        {
+          "value": "28",
+          "suffix": " °C",
+          "label": "water temperature"
+        },
+        {
+          "value": "6",
+          "suffix": "",
+          "label": "people per group, max"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Memberships",
+      "title": "Prices",
+      "items": [
+        {
+          "name": "Single visit",
+          "price": "80,000 sum",
+          "period": "visit",
+          "features": [
+            "60 minutes of lap swimming",
+            "Locker and towel",
+            "Sauna after the pool"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Month",
+          "price": "600,000 sum",
+          "period": "month",
+          "features": [
+            "Unlimited lap swimming",
+            "Aqua fitness twice a week",
+            "Freeze for up to 7 days"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Kids’ school",
+          "price": "500,000 sum",
+          "period": "month",
+          "features": [
+            "12 group lessons",
+            "Monthly coach’s report",
+            "Trial lesson — 50,000 sum"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Coaches",
+      "title": "Who will be in the water with you",
+      "items": [
+        {
+          "name": "Dilnoza",
+          "role": "head coach, ages 4–6",
+          "image": ""
+        },
+        {
+          "name": "Ruslan",
+          "role": "competitive squad",
+          "image": ""
+        },
+        {
+          "name": "Madina",
+          "role": "aqua fitness",
+          "image": ""
+        },
+        {
+          "name": "Jasur",
+          "role": "adults from scratch",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "Inside",
+      "title": "What it looks like",
+      "items": [
+        {
+          "caption": "Main pool, 6 lanes",
+          "image": ""
+        },
+        {
+          "caption": "Warm pool for little ones",
+          "image": ""
+        },
+        {
+          "caption": "Changing rooms and showers",
+          "image": ""
+        },
+        {
+          "caption": "Sauna",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Parents and swimmers say",
+      "items": [
+        {
+          "quote": "My son was scared even to wash his face; two months later he jumps in off the side himself. The coach never once raised her voice.",
+          "author": "Nigora",
+          "role": "mother of Samir, 5"
+        },
+        {
+          "quote": "Learned to swim at 38. Twelve lessons and I swim the length without stopping.",
+          "author": "Otabek",
+          "role": "“Adults from scratch” group"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Do I need a medical certificate?",
+          "a": "Yes, a certificate from a GP or paediatrician clearing you for the pool, valid for 6 months. Any clinic can issue it."
+        },
+        {
+          "q": "From what age do you take kids?",
+          "a": "From age 4 in the “Little ones” group. Younger children can have one-to-one lessons with a parent in the warm pool."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Swimwear, a cap, flip-flops and your certificate. We provide a towel and locker."
+        },
+        {
+          "q": "Can I freeze my membership?",
+          "a": "The monthly membership can be frozen for up to 7 days on request, or for the length of an illness with a doctor’s note."
+        },
+        {
+          "q": "Is there parking?",
+          "a": "Yes, free courtyard parking for 30 cars."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come for a trial lesson",
+      "text": "Send us the age and a convenient time on Telegram — we’ll pick a group and send the timetable. A kid’s trial lesson is 50,000 sum, an adult’s 80,000 sum.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/suvpool"
+      }
+    }
+  ]
+}

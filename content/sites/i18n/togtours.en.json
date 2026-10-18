@@ -1,0 +1,326 @@
+{
+  "name": "Tog‘ Tours",
+  "tagline": "Uzbekistan’s mountains on foot: from day hikes to a week in the Fann range",
+  "niche": "Mountain tours and trekking: Chimgan, Beldersay, Fann Mountains, Nuratau",
+  "nav": {
+    "cta": {
+      "label": "Choose a tour",
+      "href": "#routes"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a travel agency, guides or an outdoor club. A mountain ridge with altitudes on the first screen, routes as cards with an elevation profile, and the trip itinerary point by point.",
+    "features": []
+  },
+  "seo": {
+    "title": "Tog‘ Tours — mountain tours and trekking from Tashkent",
+    "description": "Weekend hikes to Chimgan and Beldersay, multi-day treks in the Fann Mountains and Nuratau. Certified guides, gear rental, transfer from Tashkent.",
+    "keywords": [
+      "mountain tours Uzbekistan",
+      "Fann Mountains trekking",
+      "Chimgan hike",
+      "Beldersay hike",
+      "mountain tour from Tashkent",
+      "Nuratau tour"
+    ],
+    "answer": "Tog‘ Tours organises mountain hikes from Tashkent. A day hike to Chimgan or Beldersay is from 450,000 sum with transfer and guide, two days with an overnight from 1,200,000 sum, and seven days trekking in the Fann Mountains from 6,900,000 sum. Groups of up to 12, gear available to rent. Office at 16 Shakhrisabz Street."
+  },
+  "business": {
+    "legalName": "Tog‘ Tours LLC",
+    "street": "16 Shakhrisabz St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Uzbekistan",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Higher than it looks",
+      "eyebrow": "Mountain tours from Tashkent · since 2015",
+      "subtitle": "We take people who have never hiked and people who go every weekend. The route, the guide, the tent and plov at the rest stop are on us; the views are yours.",
+      "cta": {
+        "label": "See the routes",
+        "href": "#routes"
+      },
+      "ctaSecondary": {
+        "label": "Message a guide",
+        "href": "#contact"
+      },
+      "image": "",
+      "words": [
+        "Chimgan · 3309 m",
+        "Beldersay · 2400 m",
+        "Fann · 5489 m",
+        "Nuratau · 2169 m"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Chimgan",
+        "Beldersay",
+        "Big Almalyk",
+        "Pulatkhan",
+        "Fann Mountains",
+        "Iskanderkul",
+        "Nuratau",
+        "Ugam-Chatkal Park"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "We hike where we guide",
+      "text": "Tog‘ Tours was founded by alpine club instructors in 2015. We walk every route ourselves first, so we know the springs, campsites and fallback descents. Our guides hold instructor certificates and a mountain first-aid course, and every group carries a satellite tracker and a first-aid kit.",
+      "image": ""
+    },
+    {
+      "id": "routes",
+      "type": "works",
+      "label": "Routes",
+      "title": "Where we’re going",
+      "items": [
+        {
+          "title": "Little Chimgan",
+          "category": "Easy · 1 day",
+          "year": "2100",
+          "text": "A first mountain outing: a trail through juniper woods to a lookout over the Charvak reservoir.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Beldersay waterfall",
+          "category": "Moderate · 1 day",
+          "year": "2400",
+          "text": "A gorge, three river crossings and a waterfall. Tulips in spring, red slopes in autumn.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Big Chimgan",
+          "category": "Hard · 2 days",
+          "year": "3309",
+          "text": "A climb to the main peak of the Western Tien Shan near Tashkent, with a night in tents.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Fann Mountains: Seven Lakes and Alauddin",
+          "category": "Moderate · 7 days",
+          "year": "3860",
+          "text": "Turquoise lakes, the Alauddin pass and nights by the water. The drive goes via Samarkand.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Nuratau: mountains and yurts",
+          "category": "Easy · 3 days",
+          "year": "2169",
+          "text": "Walks between villages, nights in yurts and guesthouses, and the Sarmishsay petroglyphs.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "type": "process",
+      "label": "How a trip goes",
+      "title": "From meet-up to summit",
+      "items": [
+        {
+          "title": "Meet at 06:30",
+          "text": "We meet at Buyuk Ipak Yuli metro; the guide checks boots and backpacks."
+        },
+        {
+          "title": "Transfer",
+          "text": "Ninety minutes by minibus to the trailhead, with a briefing on the way."
+        },
+        {
+          "title": "The climb",
+          "text": "We move at the slowest person’s pace, with a break every 50 minutes."
+        },
+        {
+          "title": "Summit and lunch",
+          "text": "Photos, hot tea from a flask and lunch on the stove."
+        },
+        {
+          "title": "Descent and home",
+          "text": "You’re back in Tashkent by 19:00, with the photos in the group chat."
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "A little altitude",
+      "items": [
+        {
+          "value": "5489",
+          "suffix": " m",
+          "label": "highest point of the Fann Mountains"
+        },
+        {
+          "value": "12",
+          "suffix": "",
+          "label": "people per group, max"
+        },
+        {
+          "value": "18",
+          "suffix": "",
+          "label": "routes on offer"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "guides per group"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Prices",
+      "title": "What it costs",
+      "items": [
+        {
+          "name": "One day",
+          "price": "450,000 sum",
+          "period": "per person",
+          "features": [
+            "Transfer from Tashkent",
+            "Guide and insurance",
+            "Lunch on the trail"
+          ],
+          "featured": false
+        },
+        {
+          "name": "Weekend in the mountains",
+          "price": "1,200,000 sum",
+          "period": "per person",
+          "features": [
+            "Two days and a night",
+            "Tent, mat and sleeping bag",
+            "Dinner, breakfast and plov"
+          ],
+          "featured": true
+        },
+        {
+          "name": "A week in the Fann",
+          "price": "6,900,000 sum",
+          "period": "per person",
+          "features": [
+            "Seven days of trekking",
+            "Donkeys for luggage",
+            "A night in Samarkand"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "From the trail",
+      "title": "What it looks like",
+      "items": [
+        {
+          "caption": "Alauddin pass",
+          "image": ""
+        },
+        {
+          "caption": "Camp at Kulikalon",
+          "image": ""
+        },
+        {
+          "caption": "Trail up Big Chimgan",
+          "image": ""
+        },
+        {
+          "caption": "Yurts in Nuratau",
+          "image": ""
+        },
+        {
+          "caption": "Beldersay waterfall",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Reviews",
+      "title": "Who’s been",
+      "items": [
+        {
+          "quote": "My first time in the mountains at 45. The guide walked beside me the whole climb and never hurried me — I made it to the top of Little Chimgan.",
+          "author": "Gulnora",
+          "role": "Little Chimgan"
+        },
+        {
+          "quote": "The Fann trip was the best week of the year. Everything was thought through: donkeys, food, a spare day for bad weather.",
+          "author": "Timur",
+          "role": "Seven Lakes"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before you go",
+      "items": [
+        {
+          "q": "Do I need to be fit?",
+          "a": "Not for easy routes — walking around town is enough. For hard ones we ask you to do a couple of easy hikes first."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Hiking boots, a warm layer, a windbreaker, 1.5 litres of water and a hat. We’ll send the full list after you book."
+        },
+        {
+          "q": "Can I rent gear?",
+          "a": "Yes: tents, sleeping bags, mats, trekking poles and backpacks. Weekend rental from 50,000 sum."
+        },
+        {
+          "q": "What if the weather turns?",
+          "a": "The guide decides. If we cancel, we move the date or give a full refund."
+        },
+        {
+          "q": "Do you take children?",
+          "a": "On easy day routes — from age 8 with an adult."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Book",
+      "title": "Heading for the hills?",
+      "text": "Tell us which route you like and how many of you there are — a guide will reply within an hour with the next group dates.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/togtours"
+      }
+    }
+  ]
+}

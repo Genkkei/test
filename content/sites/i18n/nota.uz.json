@@ -1,0 +1,297 @@
+{
+  "name": "Nota",
+  "tagline": "Tinglagingiz kelgan narsani chalishni o‘rgatadigan musiqa maktabi va studiya",
+  "niche": "Musiqa maktabi: gitara, fortepiano, vokal, barabanlar, dutor; ovoz yozish studiyasi",
+  "nav": {
+    "cta": {
+      "label": "Sinov darsi",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "Musiqa maktabi, ovoz yozish studiyasi yoki repetitsiya bazasi uchun sayt. Birinchi ekranda aylanayotgan plastinka, pleylist treklari ko‘rinishidagi cholg‘ular va jonli ekvalayzer.",
+    "features": []
+  },
+  "seo": {
+    "title": "Nota — Toshkentdagi musiqa maktabi va ovoz yozish studiyasi",
+    "description": "6 yoshdan bolalar va kattalar uchun gitara, fortepiano, vokal, barabanlar va dutor darslari. Yakka va guruhda, hisobot konsertlari, o‘z ovoz yozish studiyasi.",
+    "keywords": [
+      "musiqa maktabi Toshkent",
+      "gitara darslari Toshkent",
+      "vokal darslari Toshkent",
+      "fortepiano darslari",
+      "ovoz yozish studiyasi Toshkent",
+      "baraban darslari"
+    ],
+    "answer": "Nota — Toshkentdagi Afrosiyob ko‘chasi, 12 dagi musiqa maktabi va studiya. 6 yoshdan bolalarga va noldan kattalarga gitara, fortepiano, vokal, barabanlar va dutor o‘rgatamiz. 45 daqiqalik yakka dars — 150 000 so‘m, 8 darslik abonement — 1 040 000 so‘m, sinov darsi — 50 000 so‘m. Ovoz rejissyori bilan studiyada bir soat — 250 000 so‘m."
+  },
+  "business": {
+    "legalName": "“Nota Music” MChJ",
+    "street": "Afrosiyob ko‘chasi, 12",
+    "city": "Toshkent",
+    "region": "Toshkent",
+    "areaServed": "Toshkent",
+    "socials": [
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "YouTube"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "O‘z qo‘shig‘ingni chal",
+      "eyebrow": "Musiqa maktabi va studiya · 2017 dan",
+      "subtitle": "Gitara yoki fortepianoda birinchi qo‘shiqni bir oyda chalasiz — pedagoglar siz yaxshi ko‘rgan musiqadan boshlaydi, notalar esa yo‘l-yo‘lakay o‘rganiladi.",
+      "cta": {
+        "label": "Sinov darsiga yozilish",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Cholg‘ular",
+        "href": "#lessons"
+      },
+      "image": "",
+      "words": [
+        "gitara",
+        "fortepiano",
+        "vokal",
+        "barabanlar",
+        "dutor"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Rok",
+        "Jaz",
+        "Pop",
+        "Klassika",
+        "Maqomlar",
+        "Indi",
+        "Fank",
+        "Blyuz"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "Maktab haqida",
+      "title": "Topshirmaydigan, chaladigan maktab",
+      "text": "Nota’ni 2017 yilda sessiya musiqachilari ochgan. Biz konservatoriya imtihonlariga tayyorlamaymiz — chalishni o‘rgatamiz: guruhda, sahnada, o‘zingiz uchun. Ovoz o‘tkazmaydigan beshta sinf, barabanlar va kuchaytirgichlar bilan repetitsiya xonasi hamda o‘quvchilar ilk trekini yozadigan studiya.",
+      "image": ""
+    },
+    {
+      "id": "lessons",
+      "type": "services",
+      "label": "Cholg‘ular",
+      "title": "Darslar pleylisti",
+      "intro": "Dars yakkama-yakka 45 daqiqa yoki to‘rt kishigacha guruhda 60 daqiqa.",
+      "items": [
+        {
+          "title": "Gitara",
+          "text": "Akustika va elektro: akkordlar, urish, solo. Birinchi qo‘shiq — uchinchi darsda.",
+          "price": "150 000 so‘m",
+          "tag": "3:45"
+        },
+        {
+          "title": "Fortepiano",
+          "text": "Klassika va zamonaviy aranjirovkalar, akkordlar bo‘yicha va varaqdan chalish.",
+          "price": "160 000 so‘m",
+          "tag": "4:12"
+        },
+        {
+          "title": "Vokal",
+          "text": "Nafas, tayanch, diapazon va mikrofon bilan ishlash. Pop, jaz, estrada.",
+          "price": "160 000 so‘m",
+          "tag": "3:58"
+        },
+        {
+          "title": "Barabanlar",
+          "text": "Ovoz o‘tkazmaydigan xonada haqiqiy ustanovkada ritm, gruvlar va o‘tishlar.",
+          "price": "170 000 so‘m",
+          "tag": "5:01"
+        },
+        {
+          "title": "Dutor",
+          "text": "Maqom ijrochisi pedagog bilan o‘zbek an’anaviy musiqasi.",
+          "price": "140 000 so‘m",
+          "tag": "4:30"
+        },
+        {
+          "title": "Ovoz yozish studiyasi",
+          "text": "Ovoz va cholg‘ularni yozish, ovoz rejissyori bilan aralashtirish va mastering.",
+          "price": "250 000 so‘m/soat",
+          "tag": "∞"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "Raqamlarda",
+      "title": "Maktab qanday yangraydi",
+      "items": [
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "cholg‘u"
+        },
+        {
+          "value": "5",
+          "suffix": "",
+          "label": "ovoz o‘tkazmaydigan sinf"
+        },
+        {
+          "value": "2",
+          "suffix": "",
+          "label": "yiliga hisobot konserti"
+        },
+        {
+          "value": "6",
+          "suffix": "+",
+          "label": "yosh — o‘quvchining eng kichik yoshi"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "label": "Abonementlar",
+      "title": "Narxlari",
+      "items": [
+        {
+          "name": "Sinov",
+          "price": "50 000 so‘m",
+          "period": "bitta dars",
+          "features": [
+            "Pedagog bilan tanishuv",
+            "Cholg‘u tanlash",
+            "Birinchi oy uchun reja"
+          ],
+          "featured": false
+        },
+        {
+          "name": "8 dars",
+          "price": "1 040 000 so‘m",
+          "period": "bir oyga",
+          "features": [
+            "Haftasiga ikki dars",
+            "Darsni 24 soat oldin ko‘chirish",
+            "Repetitsiya xonasi bepul"
+          ],
+          "featured": true
+        },
+        {
+          "name": "Guruh",
+          "price": "600 000 so‘m",
+          "period": "oyiga",
+          "features": [
+            "60 daqiqalik 8 mashg‘ulot",
+            "4 kishigacha",
+            "Hisobot konsertida chiqish"
+          ],
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "label": "Pedagoglar",
+      "title": "Kim bilan chalasiz",
+      "items": [
+        {
+          "name": "Sardor",
+          "role": "gitara, bas",
+          "image": ""
+        },
+        {
+          "name": "Nilufar",
+          "role": "vokal",
+          "image": ""
+        },
+        {
+          "name": "Dmitriy",
+          "role": "barabanlar",
+          "image": ""
+        },
+        {
+          "name": "Ziyoda",
+          "role": "fortepiano",
+          "image": ""
+        },
+        {
+          "name": "Shavkat",
+          "role": "dutor, maqomlar",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "O‘quvchilar",
+      "title": "Nima deyishadi",
+      "items": [
+        {
+          "quote": "32 yoshda kech deb o‘yladim — kech emas ekan. Yarim yildan keyin hisobot konsertida kuyladim, qo‘llarim faqat dastlabki o‘n soniya titradi.",
+          "author": "Kamola",
+          "role": "vokal"
+        },
+        {
+          "quote": "O‘g‘lim maktab studiyasida birinchi trekini yozdi va endi uni barcha qarindoshlarga yuboryapti.",
+          "author": "Ulug‘bek",
+          "role": "o‘quvchining otasi, gitara"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "Savollar",
+      "title": "Ko‘p so‘raladigan savollar",
+      "items": [
+        {
+          "q": "O‘z cholg‘um kerakmi?",
+          "a": "Darslarda — yo‘q, barcha cholg‘ular sinflarda bor. Uyda mashq qilish uchun arzon cholg‘u tanlashga yordam beramiz."
+        },
+        {
+          "q": "Necha yoshdan olasiz?",
+          "a": "Fortepiano va vokal — 6 yoshdan, gitara va barabanlar — 8 yoshdan. Kattalarni — istalgan yoshda."
+        },
+        {
+          "q": "Notalarni bilish kerakmi?",
+          "a": "Yo‘q. Eshitish va tabulaturalar bo‘yicha qo‘shiqlardan boshlaymiz, nota savodini asta-sekin qo‘shamiz."
+        },
+        {
+          "q": "Darssiz studiyani ijaraga olish mumkinmi?",
+          "a": "Ha, studiya va repetitsiya xonasini Telegram orqali soatbay band qilish mumkin."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Yozilish",
+      "title": "Sinov darsidan boshlaymiz",
+      "text": "Cholg‘u, yosh va qulay vaqtni yozing — pedagog tanlab, bo‘sh soatlarni yuboramiz.",
+      "cta": {
+        "label": "Telegramga yozish",
+        "href": "https://t.me/notaschool"
+      }
+    }
+  ]
+}

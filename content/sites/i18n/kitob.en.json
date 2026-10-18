@@ -1,0 +1,292 @@
+{
+  "name": "Kitob Uyi",
+  "tagline": "A bookshop where the bookseller has read what they recommend",
+  "niche": "Bookshop: fiction, non-fiction, children’s books, a book club",
+  "nav": {
+    "cta": {
+      "label": "Order a book",
+      "href": "#contact"
+    }
+  },
+  "listing": {
+    "price": "",
+    "description": "A website for a bookshop, publisher or library. Book spines on a shelf, covers of new arrivals, quotes in large italics and a book club schedule.",
+    "features": []
+  },
+  "seo": {
+    "title": "Kitob Uyi — bookshop on Tashkent’s Broadway",
+    "description": "Books in Russian, Uzbek and English: fiction, non-fiction and children’s. Thursday book club, any book ordered in 7–14 days, gift cards and delivery across Tashkent.",
+    "keywords": [
+      "bookshop Tashkent",
+      "buy books Tashkent",
+      "English books Tashkent",
+      "book club Tashkent",
+      "children’s books Tashkent",
+      "Uzbek books"
+    ],
+    "answer": "Kitob Uyi is an independent bookshop at 9 Sayilgoh Street (Broadway) in Tashkent, open daily 10:00–21:00. About 12,000 books in Russian, Uzbek and English; anything not on the shelf can be ordered in 7–14 days. The book club meets Thursdays at 19:00 — 50,000 sum including tea. Delivery in Tashkent is 25,000 sum, free over 300,000 sum."
+  },
+  "business": {
+    "legalName": "Kitob Uyi LLC",
+    "street": "9 Sayilgoh St",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent",
+    "socials": [
+      {
+        "name": "Telegram"
+      },
+      {
+        "name": "Instagram"
+      },
+      {
+        "name": "Goodreads"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "A good book finds its reader",
+      "eyebrow": "Independent bookshop · Broadway, 9 Sayilgoh",
+      "subtitle": "Twelve thousand books in three languages, an armchair by the window and booksellers who’ll help you choose — by your mood, not by ratings.",
+      "cta": {
+        "label": "New this month",
+        "href": "#new"
+      },
+      "ctaSecondary": {
+        "label": "Book club",
+        "href": "#club"
+      },
+      "image": "",
+      "words": [
+        "Fiction",
+        "Non-fiction",
+        "Poetry",
+        "Children’s",
+        "Comics",
+        "In English",
+        "Uzbek literature"
+      ]
+    },
+    {
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "",
+      "items": [
+        "Tolstoy",
+        "Abdulla Qodiriy",
+        "Murakami",
+        "Cholpon",
+        "Agota Kristof",
+        "Pelevin",
+        "Dostoevsky",
+        "Ishiguro"
+      ]
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About",
+      "title": "A shop to linger in",
+      "text": "Kitob Uyi opened in 2018 in an old house on Broadway: wooden shelves up to the ceiling, a library ladder and a big table where you can read without buying. We choose every book on the shelves ourselves and write handwritten cards for them. If the book you want isn’t here, we’ll order it in.",
+      "image": ""
+    },
+    {
+      "id": "new",
+      "type": "works",
+      "label": "New arrivals",
+      "title": "What came in this month",
+      "items": [
+        {
+          "title": "And Quiet Flows the Don",
+          "category": "Mikhail Sholokhov",
+          "year": "220,000 sum",
+          "text": "A new two-volume annotated edition.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Bygone Days",
+          "category": "Abdulla Qodiriy",
+          "year": "95,000 sum",
+          "text": "The first Uzbek novel in a new design.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Klara and the Sun",
+          "category": "Kazuo Ishiguro",
+          "year": "140,000 sum",
+          "text": "A quiet novel about love through a machine’s eyes.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Sapiens",
+          "category": "Yuval Noah Harari",
+          "year": "165,000 sum",
+          "text": "A brief history of humankind — the non-fiction book of the decade.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "The Little Prince",
+          "category": "Antoine de Saint-Exupéry",
+          "year": "80,000 sum",
+          "text": "A gift edition with the author’s watercolours.",
+          "image": "",
+          "href": ""
+        },
+        {
+          "title": "Norwegian Wood",
+          "category": "Haruki Murakami",
+          "year": "125,000 sum",
+          "text": "Murakami’s most personal novel.",
+          "image": "",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "club",
+      "type": "services",
+      "label": "Beyond books",
+      "title": "What else we do",
+      "items": [
+        {
+          "title": "Book club",
+          "text": "Every Thursday at 19:00 we discuss the book of the month over tea. The season’s list is on our Telegram channel.",
+          "price": "50,000 sum",
+          "tag": "Thursdays"
+        },
+        {
+          "title": "Order any book",
+          "text": "We’ll bring in a book we don’t stock from Russia, Europe or Turkey.",
+          "price": "no prepayment",
+          "tag": "7–14 days"
+        },
+        {
+          "title": "Gift cards",
+          "text": "From 100,000 sum, valid for a year. We’ll wrap it in kraft paper and write the card.",
+          "price": "from 100,000 sum",
+          "tag": ""
+        },
+        {
+          "title": "Children’s readings",
+          "text": "Saturdays at 11:00 we read aloud to kids aged 4–8 and draw what we’ve read.",
+          "price": "free",
+          "tag": "Saturdays"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "label": "In numbers",
+      "title": "A little about the shelves",
+      "items": [
+        {
+          "value": "12000",
+          "suffix": "",
+          "label": "books on the shelves"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "languages"
+        },
+        {
+          "value": "14",
+          "suffix": " days",
+          "label": "longest order time"
+        },
+        {
+          "value": "40",
+          "suffix": "",
+          "label": "seats at the book club"
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "type": "gallery",
+      "label": "The shop",
+      "title": "Come in and browse",
+      "items": [
+        {
+          "caption": "Fiction room",
+          "image": ""
+        },
+        {
+          "caption": "Reading table",
+          "image": ""
+        },
+        {
+          "caption": "Children’s corner",
+          "image": ""
+        },
+        {
+          "caption": "Book club",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "label": "Readers",
+      "title": "What they say",
+      "items": [
+        {
+          "quote": "I asked for “something like Chekhov but about now” and in two minutes they found me three books. I read all three.",
+          "author": "Malika",
+          "role": "reader"
+        },
+        {
+          "quote": "I’ve been coming to the club for two years. It’s the only thing that gets me reading a book a month again.",
+          "author": "Farkhod",
+          "role": "book club"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "Can I order a book you don’t have?",
+          "a": "Yes — send us the title or a link and we’ll quote a price and timing, usually 7–14 days. No prepayment needed."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "In Tashkent, 25,000 sum by courier on the day you order, free over 300,000 sum. To the regions by post."
+        },
+        {
+          "q": "How do I join the book club?",
+          "a": "Message us on Telegram to book a seat — there are 40. The book of the month is 10% off in the shop."
+        },
+        {
+          "q": "Do you buy books?",
+          "a": "Our second-hand section takes books in good condition on Fridays, valued on the spot."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Order",
+      "title": "Looking for a book?",
+      "text": "Send us a title, or just describe what you’d like to read — we’ll reply within the hour and put the book aside at the till.",
+      "cta": {
+        "label": "Message on Telegram",
+        "href": "https://t.me/kitobuyi"
+      }
+    }
+  ]
+}
