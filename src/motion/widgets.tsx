@@ -1,7 +1,9 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { ui } from '@/lib/i18n'
+import { getLenis } from './runtime'
 
 /** Курсор-кружок, раздувается над ссылками и элементами с data-cursor="текст". */
 export function Cursor({ className = 'cursor' }: { className?: string }) {
@@ -91,32 +93,79 @@ export function Clock({ tz = 'Asia/Tashkent', className, lang = 'ru' }: { tz?: s
   return <span className={className} suppressHydrationWarning>{t || '—:—'}</span>
 }
 
-/** Мобильное меню: кнопка + полноэкранная панель. */
+/**
+ * Мобильное меню: кнопка + полноэкранная панель.
+ * Панель живёт в корне сайта (.site), а не в шапке: у прилипающей шапки есть transform (прячется при
+ * прокрутке), а у многих шаблонов ещё и backdrop-filter — для position: fixed это становится рамкой, и
+ * панель «во весь экран» получалась высотой с шапку: пункты уезжали за верх экрана, страница под меню
+ * оставалась видна. В корне сайта стили шаблона (.tpl-<id> .mmenu__panel) и цвета темы сохраняются.
+ * Кнопка закрытия — и в самой панели, на месте кнопки шапки: шапка с её кнопкой оказывается под панелью.
+ */
 export function MobileMenu({ links, cta, className = 'mmenu', lang = 'ru' }: { links: { href: string; label: string }[]; cta?: { href: string; label: string }; className?: string; lang?: string }) {
   const [open, setOpen] = useState(false)
-  useEffect(() => {
-    document.documentElement.classList.toggle('menu-open', open)
+  const [host, setHost] = useState<HTMLElement | null>(null)
+  const [spot, setSpot] = useState<{ top: number; left: number } | null>(null)
+  const btn = useRef<HTMLButtonElement>(null)
+  useEffect(() => setHost(btn.current?.closest<HTMLElement>('.site') ?? document.body), [])
+  useLayoutEffect(() => {
+    const root = document.documentElement
+    root.classList.toggle('menu-open', open)
+    if (open) getLenis()?.stop()
+    else getLenis()?.start()
+    if (!open) return
+    // крестик — на месте кнопки шапки; шапка в этот миг за экраном — в правый верхний угол (CSS)
+    const r = btn.current?.getBoundingClientRect()
+    setSpot(r && r.top >= 0 && r.bottom <= innerHeight && r.width > 0 ? { top: r.top, left: r.left } : null)
+    const esc = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false)
+    addEventListener('keydown', esc)
+    return () => removeEventListener('keydown', esc)
   }, [open])
+  useEffect(() => () => {
+    document.documentElement.classList.remove('menu-open')
+    getLenis()?.start()
+  }, [])
+  // Пункт меню: сначала вернуть прокрутку, потом переход к разделу (его делает среда движения).
+  const go = () => {
+    document.documentElement.classList.remove('menu-open')
+    getLenis()?.start()
+    setOpen(false)
+  }
+  const panel = (
+    <div className={`${className}__panel`} data-open={open || undefined} hidden={!open}>
+      {host ? (
+        <button
+          type="button"
+          className={`${className}__btn ${className}__close`}
+          aria-expanded="true"
+          aria-label={ui(lang, 'menuClose')}
+          onClick={() => setOpen(false)}
+          style={spot ? { top: spot.top, left: spot.left } : undefined}
+        >
+          <span />
+          <span />
+        </button>
+      ) : null}
+      <nav>
+        {links.map((l, i) => (
+          <a key={l.href} href={l.href} onClick={go} style={{ ['--i' as string]: i }}>
+            {l.label}
+          </a>
+        ))}
+        {cta?.label ? (
+          <a className={`${className}__cta`} href={cta.href} onClick={go}>
+            {cta.label}
+          </a>
+        ) : null}
+      </nav>
+    </div>
+  )
   return (
     <>
-      <button type="button" className={`${className}__btn`} aria-expanded={open} aria-label={ui(lang, open ? 'menuClose' : 'menuOpen')} onClick={() => setOpen(!open)}>
+      <button ref={btn} type="button" className={`${className}__btn`} aria-expanded={open} aria-label={ui(lang, open ? 'menuClose' : 'menuOpen')} onClick={() => setOpen(!open)}>
         <span />
         <span />
       </button>
-      <div className={`${className}__panel`} data-open={open || undefined} hidden={!open}>
-        <nav>
-          {links.map((l, i) => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)} style={{ ['--i' as string]: i }}>
-              {l.label}
-            </a>
-          ))}
-          {cta?.label ? (
-            <a className={`${className}__cta`} href={cta.href} onClick={() => setOpen(false)}>
-              {cta.label}
-            </a>
-          ) : null}
-        </nav>
-      </div>
+      {host ? createPortal(panel, host) : panel}
     </>
   )
 }

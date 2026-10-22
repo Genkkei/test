@@ -43,16 +43,20 @@ export function themeStyle(site: Site): CSSProperties {
   }
 }
 
-/** Инлайн-скрипт до отрисовки: включает скрытие для появления, только если JS жив.
- *  Если среда движения не запустилась за 4 с — снимает скрытие, текст не теряется. */
 // Телефон: страница раскладывается на ширину экрана / 0.76 и вписывается в экран — все объекты
 // шаблона (шрифты, отступы, картинки) становятся мельче одинаково, без правки каждого шаблона.
-// Срабатывает до первой отрисовки; планшеты и компьютеры не трогает.
-// На телефоне вся страница уменьшается: слой раскладки шире экрана в 1/0.76 раза. Next ставит свою метку
-// viewport (иногда две, React добавляет их позже), поэтому правим все и следим за новыми.
-const PHONE_SCALE = `(function(){try{var w=Math.min(screen.width,innerWidth||screen.width);if(w>=600)return;var c='width='+Math.round(w/0.76)+', viewport-fit=cover';var a=function(){var l=document.querySelectorAll('meta[name=viewport]');for(var i=0;i<l.length;i++)if(l[i].content!==c)l[i].setAttribute('content',c)};a();new MutationObserver(a).observe(document.head,{childList:true,subtree:true})}catch(e){}})()`
+// Планшеты и компьютеры не трогает. Метку Next не правим — добавляем свою последней (браузер берёт
+// последнюю): правленую метку React при загрузке считал чужой и вставлял свою, ширина страницы скакала
+// 513 → 390 → 513 px прямо во время запуска анимаций, на iPhone вместе с масштабом. Если React всё же
+// добавит метку, наша снова встаёт последней.
+const PHONE_SCALE = `(function(){try{var w=Math.min(screen.width,innerWidth||screen.width);if(w>=600)return;var h=document.head,m=document.createElement('meta');m.name='viewport';m.content='width='+Math.round(w/0.76)+', viewport-fit=cover';m.setAttribute('data-atlas','');var put=function(){var l=h.querySelectorAll('meta[name=viewport]');if(l[l.length-1]!==m)h.appendChild(m)};put();new MutationObserver(put).observe(h,{childList:true})}catch(e){}})()`
 
-const MOTION_BOOT = `(function(){try{var d=document.documentElement;if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;d.classList.add('motion');setTimeout(function(){if(!d.classList.contains('motion-live'))d.classList.remove('motion')},4000)}catch(e){}})()`
+// Появление блоков — с первой отрисовки и без React: прячет html.motion, показывает свой наблюдатель
+// (и проверка по прокрутке — на случай, если наблюдатель в WebKit промолчит), новые блоки подхватываются
+// сами. Раньше блоки прятались сразу, а показывал их только запустившийся React; если запуск шёл дольше
+// 4 с, скрытие снималось и потом включалось снова — страница мигала, анимации пропадали. Заголовки по
+// строкам (data-split) режет GSAP после запуска; не успел за 2,5 с — заголовки показываются как есть.
+const MOTION_BOOT = `(function(){try{var d=document.documentElement;if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;d.classList.add('motion');var wait=[],show=function(t){(t.__rv||[t]).forEach(function(el){el.classList.add('is-in')});var k=wait.indexOf(t);if(k>=0)wait.splice(k,1);io.unobserve(t)};var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)show(e.target)})},{rootMargin:'0px 0px 56px 0px'});var seen=new WeakSet(),scan=function(){var l=document.querySelectorAll('[data-reveal]');for(var i=0;i<l.length;i++){var el=l[i];if(seen.has(el))continue;seen.add(el);var dl=el.getAttribute('data-delay');if(dl)el.style.setProperty('--reveal-delay',dl+'s');var t=el.getAttribute('data-reveal')==='clip'&&el.parentElement?el.parentElement:el;if(!t.__rv){t.__rv=[];wait.push(t);io.observe(t)}t.__rv.push(el)}};var raf=0,sweep=function(){raf=0;var H=innerHeight+56;wait.slice().forEach(function(t){var r=t.getBoundingClientRect();if(r.top<H&&r.bottom>-56)show(t)})};addEventListener('scroll',function(){if(!raf)raf=requestAnimationFrame(sweep)},{passive:true});var go=function(){scan();sweep();new MutationObserver(function(){scan()}).observe(document.body,{childList:true,subtree:true})};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();setTimeout(function(){if(!d.classList.contains('motion-live'))d.classList.add('split-late')},2500)}catch(e){}})()`
 
 export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?: string[] }) {
   const tpl = getTemplate(site.template)

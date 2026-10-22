@@ -100,6 +100,8 @@ html.menu-open { overflow: hidden; }
 .motion [data-reveal='clip'] > * { transition: transform 1.8s var(--ease, ease); transition-delay: var(--reveal-delay, 0s); }
 .motion [data-reveal='clip']:not(.is-in) > * { transform: scale(1.25); }
 .motion [data-split]:not(.is-split) { opacity: 0; }
+/* среда движения не успела за 2,5 с — заголовки видны как есть (runtime их потом не перепрячет) */
+.motion.split-late [data-split]:not(.is-split) { opacity: 1; }
 .split-line { padding-bottom: .08em; margin-bottom: -.08em; }
 /* маска строки режет всё, что выходит за её высоту: краткая у «Й», «Ё» и курсивные хвосты.
    Запас сверху и снизу внутри маски, компенсированный отрицательным отступом, сохраняет раскладку. */
@@ -137,6 +139,8 @@ html.menu-open { overflow: hidden; }
 .mmenu__btn[aria-expanded='true'] span:first-child { transform: translateY(4.5px) rotate(45deg); }
 .mmenu__btn[aria-expanded='true'] span:last-child { transform: translateY(-4.5px) rotate(-45deg); }
 .mmenu__panel[hidden] { display: none; }
+.mmenu__panel > .mmenu__close { position: fixed !important; display: block !important; z-index: 2; margin: 0 !important; top: 12px; right: 12px; }
+html.menu-open { overflow: hidden; }
 .mmenu__panel { position: fixed; inset: 0; z-index: 55; background: var(--bg); color: var(--fg); display: grid; align-content: center; padding: var(--pad); }
 .mmenu__panel nav { display: grid; gap: 6px; }
 .mmenu__panel a { font-family: var(--font-display); font-size: clamp(34px, 9vw, 56px); line-height: 1.15; animation: menuIn .8s var(--ease) both; animation-delay: calc(var(--i, 0) * 60ms + 80ms); }
@@ -178,7 +182,8 @@ html.menu-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) { .lead[open] { animation: none; } }
 
 /* Шапка, которая прячется при прокрутке вниз (SiteChrome) */
-.atlas-hdr { transition: transform .4s cubic-bezier(.2, .8, .2, 1), background-color .4s, padding .4s; will-change: transform; }
+/* без will-change: он делал шапку рамкой для position: fixed, и меню внутри неё не раскрывалось во весь экран */
+.atlas-hdr { transition: transform .4s cubic-bezier(.2, .8, .2, 1), background-color .4s, padding .4s; }
 .atlas-hdr.atlas-hdr-hide { transform: translateY(-115%) !important; }
 @media (prefers-reduced-motion: reduce) { .atlas-hdr { transition: none; } }
 /* на телефоне переключатель языка компактнее и не закрывает текст */

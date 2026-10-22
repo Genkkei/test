@@ -52,7 +52,7 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
       const target = document.querySelector(a.getAttribute('href')!)
       if (!target) return
       e.preventDefault()
-      lenis?.scrollTo(target as HTMLElement, { offset: -40, duration: 1.4 })
+      lenis?.scrollTo(target as HTMLElement, { offset: -40, duration: 1.4, force: true })
     }
     document.addEventListener('click', onClick)
 
@@ -101,6 +101,8 @@ export function MotionRuntime({ level = 1 }: { level?: number }) {
           linesClass: 'split-line',
           autoSplit: true,
           onSplit(self) {
+            // заголовок уже показан запасным путём (split-late) и стоит на экране — второй раз не прячем
+            if (document.documentElement.classList.contains('split-late') && el.getBoundingClientRect().top < innerHeight) return
             const targets = kind === 'chars' ? self.chars : kind === 'words' ? self.words : self.lines
             return gsap.from(targets, {
               yPercent: 110,
