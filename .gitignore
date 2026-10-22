@@ -9,6 +9,8 @@ next-env.d.ts
 .open-next
 .wrangler
 /src/lib/router-script.generated.ts
+/src/templates/styles.generated.ts
+/public/tpl
 docs/deck/out/*.png
 docs/deck/out/deck.html
 docs/deck/out/counts.json

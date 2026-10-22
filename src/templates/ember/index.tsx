@@ -1,4 +1,3 @@
-import './style.css'
 import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'

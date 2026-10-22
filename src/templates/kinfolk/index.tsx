@@ -1,4 +1,3 @@
-import './style.css'
 import type { Site } from '@/lib/schema'
 import { Art, Media, type ArtKind } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'

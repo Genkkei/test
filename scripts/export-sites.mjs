@@ -68,6 +68,7 @@ for (const slug of slugs) {
       .join('\n')}\n</urlset>\n`,
   )
   cpSync('.next/static', path.join(dir, '_next/static'), { recursive: true })
+  cpSync('public/tpl', path.join(dir, 'tpl'), { recursive: true })
   console.log(`✓ ${slug} → ${dir}`)
   if (deploy) {
     execFileSync('npx', ['wrangler', 'deploy', '--name', slug, '--assets', dir, '--compatibility-date', '2026-10-01'], { stdio: 'inherit' })

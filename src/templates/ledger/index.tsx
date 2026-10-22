@@ -1,4 +1,3 @@
-import './style.css'
 import type { Site } from '@/lib/schema'
 import { Clock, MobileMenu } from '@/motion/widgets'
 import { humanHours, pick, ui } from '@/lib/i18n'

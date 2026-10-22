@@ -1,4 +1,3 @@
-import './style.css'
 import type { TemplateDef } from '../types'
 import { meta } from './meta'
 

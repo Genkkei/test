@@ -1,4 +1,3 @@
-import './style.css'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'

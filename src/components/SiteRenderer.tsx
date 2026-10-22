@@ -8,6 +8,7 @@ import type { Site } from '@/lib/schema'
 import { buildJsonLd } from '@/lib/seo'
 import { fontStack } from '@/lib/fonts'
 import { getTemplate } from '@/templates/registry'
+import { TPL_CSS } from '@/templates/styles.generated'
 import { Answer, BASE } from './sections'
 import { MotionRuntime } from '@/motion/runtime'
 import { LANG_LABEL, LANG_NAME, ui } from '@/lib/i18n'
@@ -70,6 +71,8 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
 
   return (
     <div className={`site tpl-${tpl.id}`} style={themeStyle(site)} data-template={tpl.id}>
+      {/* стили только этого шаблона (scripts/seeds.mjs); React поднимает ссылку в <head> */}
+      {TPL_CSS[tpl.id] ? <link rel="stylesheet" href={TPL_CSS[tpl.id]} precedence="tpl" /> : null}
       <script dangerouslySetInnerHTML={{ __html: PHONE_SCALE }} />
       {site.theme.motion > 0 ? <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} /> : null}
       <SiteChrome />

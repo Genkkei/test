@@ -1,4 +1,3 @@
-import './style.css'
 import { pick } from '@/lib/i18n'
 import type { Site } from '@/lib/schema'
 import { Badge, Marquee, MobileMenu } from '@/motion/widgets'

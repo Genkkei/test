@@ -1,5 +1,6 @@
 import 'server-only'
 import { ROUTER_SCRIPT } from './router-script.generated'
+import { PAGES_KV_ID } from './pages-cache'
 
 /*
  * Публикация сайта из админки, без командной строки: воркер-маршрутизатор <slug> (тот же код,
@@ -41,6 +42,7 @@ export async function publishRouter(slug: string): Promise<string> {
       bindings: [
         { type: 'service', name: 'ATLAS', service: process.env.ATLAS_SERVICE || 'atlas' },
         { type: 'plain_text', name: 'SITE', text: slug },
+        { type: 'kv_namespace', name: 'PAGES', namespace_id: PAGES_KV_ID },
       ],
     }),
   )

@@ -39,6 +39,11 @@ const common = [
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   devIndicators: false,
+  // стили шаблона лежат в /tpl/ (scripts/seeds.mjs); маршрутизатор прежней версии присылает их как
+  // /<slug>/tpl/… — отдаём тот же файл, чтобы выкладка конструктора не ждала выкладки маршрутизаторов
+  async rewrites() {
+    return [{ source: '/:site/tpl/:file', destination: '/tpl/:file' }]
+  },
   async headers() {
     return [
       { source: '/:path*', headers: common },

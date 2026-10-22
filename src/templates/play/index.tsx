@@ -1,4 +1,3 @@
-import './style.css'
 import type { Site } from '@/lib/schema'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'

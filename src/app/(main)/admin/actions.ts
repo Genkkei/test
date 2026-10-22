@@ -9,6 +9,7 @@ import { attachDomain, publishRouter, workersSubdomain, type DomainState } from 
 import { translatableOf } from '@/lib/i18n'
 import { botInfo, connectBot, disconnectBot, removeChat, sendLead, type BotInfo } from '@/lib/bot'
 import { siteSchema, type Site } from '@/lib/schema'
+import { purgePages } from '@/lib/pages-cache'
 import { getTemplateMeta, TEMPLATE_METAS } from '@/templates/meta'
 
 const RESERVED = new Set(['admin', 'api', 'llms', 'sitemap', 'robots', '_next', 'favicon', 'transfer', 'media', 'catalog'])
@@ -21,6 +22,7 @@ async function guard() {
 }
 
 function refresh(slug: string) {
+  void purgePages(slug)
   revalidatePath(`/${slug}`)
   revalidatePath('/')
   revalidatePath('/sitemap.xml')
