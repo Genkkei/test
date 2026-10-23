@@ -3,6 +3,7 @@ import { NicheActor } from './niche/NicheActor'
 import { actorFor } from './niche/actors'
 import { SiteChrome } from './SiteChrome'
 import { FitLogos } from './brand/FitLogos'
+import { LogoIntro } from './brand/LogoIntro'
 import { CartDrawer, type Product } from './shop/CartDrawer'
 import type { CSSProperties } from 'react'
 import type { Site } from '@/lib/schema'
@@ -80,6 +81,7 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
       {site.theme.motion > 0 ? <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} /> : null}
       <SiteChrome />
       {site.brand?.logo ? <FitLogos /> : null}
+      {site.brand?.logo ? <LogoIntro /> : null}
       {site.theme.motion > 0 && site.theme.actor !== 'none' ? (
         <NicheActor kind={actorFor(site.slug, site.business.type, site.theme.actor)} colors={{ a: site.theme.accent, f: site.theme.fg, b: site.theme.bg }} />
       ) : null}

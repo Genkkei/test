@@ -1,4 +1,3 @@
-// Нужен playwright-core и Chromium в /opt/pw-browsers/chromium; сайт — на локальном сервере (npm run build && npx next start -p 3100).
 // Проверка одного сайта перед выкладкой: node check-site.mjs <slug> <out-dir> [base]
 // Телефон и компьютер: ошибки, ширина, разорванные слова, перекрытые кнопки, якоря, меню, логотип;
 // маршруты: языки, бренд-бук, иконка, карточка. Снимки — во всю страницу.
@@ -16,6 +15,7 @@ async function stitch(p, file) {
     const buf = await p.screenshot()
     parts.push({ y: Math.min(y, H - h), buf })
   }
+  fs.rmSync(file + '.parts', { recursive: true, force: true })
   fs.mkdirSync(file + '.parts', { recursive: true })
   parts.forEach((x, i) => fs.writeFileSync(`${file}.parts/${String(i).padStart(2, '0')}_${x.y}.png`, x.buf))
   await p.evaluate(() => scrollTo(0, 0))
@@ -198,7 +198,21 @@ for (const [w, h, tag, mob] of [[390, 844, 'телефон', true], [1280, 800, 
           }
         }
       }
-      for (const s of document.querySelectorAll('.bb-block')) if (!s.querySelector('.bb-block__body')?.textContent.trim() && !s.querySelector('svg, iframe')) out.push(`пустой раздел «${s.querySelector('h2')?.textContent}»`)
+      for (const s of document.querySelectorAll('.bb-sheet')) {
+        const art = s.querySelector('.bb-sheet__art')
+        const name = s.querySelector('h3')?.textContent
+        if (!art?.textContent.trim() && !art?.querySelector('svg, iframe')) out.push(`пустой лист «${name}»`)
+        const box = art.getBoundingClientRect()
+        for (const t of art.querySelectorAll('*')) {
+          const r = t.getBoundingClientRect()
+          if (!r.width || t.ownerSVGElement || t.closest('[aria-hidden=true]') || getComputedStyle(t).position === 'absolute') continue
+          if (r.right > box.right + 2 || r.left < box.left - 2) { out.push(`лист «${name}»: ${t.tagName.toLowerCase()}.${t.className?.baseVal ?? t.className} шире листа`); break }
+        }
+      }
+      for (const [sel, inner] of [['.bn-wide', 'p, span, .brand-logo'], ['.bc-card', 'b, span'], ['.bd-face', 'p, .brand-logo']]) for (const st of document.querySelectorAll(sel)) {
+        const box = st.getBoundingClientRect()
+        for (const t of st.querySelectorAll(inner)) { const r = t.getBoundingClientRect(); if (r.width && (r.right > box.right + 1 || r.bottom > box.bottom + 1)) { out.push(`${sel}: «${t.textContent.trim().slice(0, 24)}» вылезает`); break } }
+      }
       return out
     })
     report.problems.push(...bi.map((x) => `бренд-бук, ${tag}: ${x}`))

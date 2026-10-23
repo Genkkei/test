@@ -274,6 +274,7 @@ html.menu-open { overflow: hidden; }
 .brand-logo__mark { width: 1.55em; height: 1.55em; flex: none; display: block; overflow: visible; }
 .brand-logo__text { display: inline-flex; flex-direction: column; gap: .32em; width: min-content; max-width: 100%; }
 .brand-logo__word { white-space: nowrap; line-height: 1; }
+.brand-logo__mark > * { transform-box: fill-box; }
 .brand-logo__sub { font-size: max(9px, .2em); letter-spacing: .14em; text-transform: uppercase; opacity: .7; font-weight: 500; line-height: 1.3; font-family: var(--font-body); }
 .brand-logo--mark .brand-logo__mark { width: 1.9em; height: 1.9em; }
 .brand-logo--stack { flex-direction: column; text-align: center; gap: .55em; }

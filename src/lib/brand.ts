@@ -46,10 +46,35 @@ export const logoSchema = z.object({
   layout: z.enum(['row', 'stack', 'mark', 'word']).default('row'),
   /** зачем такой знак — для бренд-бука */
   idea: text,
+  /** поиск знака: варианты, которые рисовали до выбранного, и почему выбран этот */
+  variants: z.array(z.object({ shapes: z.array(shapeSchema).max(40), note: text })).max(4).default([]),
+  why: text,
 })
 export type Logo = z.infer<typeof logoSchema>
 
 const item = z.object({ title: text, text })
+/** десять принципов маркетинга (образец владельца) — ответ бренда на каждый */
+export const PRINCIPLES = [
+  ['problem', 'Сначала проблема — потом продукт'],
+  ['offer', 'Сильный оффер важнее красивой рекламы'],
+  ['client', 'Не продавай всем — найди своего клиента'],
+  ['pain', 'Продавай решение дорогой проблемы, а не продукт'],
+  ['position', 'Позиционирование решает, с кем тебя сравнивают'],
+  ['budget', 'Выигрывает тот, кто может больше заплатить за клиента'],
+  ['test', 'Не угадывай, что сработает, — тестируй'],
+  ['value', 'Не продавай дешевле — увеличь ценность'],
+  ['ltv', 'Считай не цену привлечения, а ценность клиента за всё время'],
+  ['channels', 'Маркетинг — это не охват, а предсказуемый поток клиентов'],
+] as const
+type PKey = (typeof PRINCIPLES)[number][0]
+const principles = z.object(Object.fromEntries(PRINCIPLES.map(([k]) => [k, text])) as Record<PKey, typeof text>)
+/** модель бренда — четыре круга и их пересечения (Audience, Product, Story, Personality → Connect, Position, Emote, Apply) */
+export const VENN = { audience: 'Аудитория', product: 'Продукт', story: 'История', personality: 'Характер' } as const
+export const VENN_X = { connect: 'Связь', position: 'Позиция', emote: 'Эмоция', apply: 'Польза' } as const
+const venn = z
+  .object({ audience: text, product: text, story: text, personality: text, connect: text, position: text, emote: text, apply: text })
+  .partial()
+  .default({})
 export const MOCKUPS = ['cup', 'box', 'bag', 'bottle', 'jar', 'tag', 'card', 'sticker', 'tube', 'menu', 'billboard', 'poster', 'sign', 'apparel', 'vehicle', 'ticket'] as const
 const mockup = z.object({ kind: z.enum(MOCKUPS), title: text, text })
 export const POSTS = ['quote', 'offer', 'product', 'fact'] as const
@@ -70,6 +95,10 @@ export const brandSchema = z.object({
     .object({ traits: z.array(z.string()).default([]), do: z.array(z.string()).default([]), dont: z.array(z.string()).default([]), sample: text })
     .default({ traits: [], do: [], dont: [], sample: '' }),
   look: z.object({ keywords: z.array(z.string()).default([]), text }).default({ keywords: [], text: '' }),
+  venn,
+  /** архетип бренда: имя (Мудрец, Творец…), черты, почему */
+  archetype: z.object({ name: text, traits: z.array(z.string()).default([]), text }).default({ name: '', traits: [], text: '' }),
+  principles: principles.partial().default({}),
   // ── над водой: айдентика ──
   logo: logoSchema.optional(),
   palette: z.array(z.object({ name: text, hex: z.string().regex(/^#[0-9a-fA-F]{6}$/), role: text })).default([]),
@@ -79,6 +108,11 @@ export const brandSchema = z.object({
   social: z
     .object({ handle: text, bio: text, posts: z.array(z.object({ kind: z.enum(POSTS), title: text, text })).default([]) })
     .default({ handle: '', bio: '', posts: [] }),
+  /** обложка страницы в соцсетях и правила снимков */
+  cover: text,
+  imagery: text,
+  /** визитка: должность и имя (имя можно не указывать) */
+  card: z.object({ name: text, role: text }).default({ name: '', role: '' }),
 })
 export type Brand = z.infer<typeof brandSchema>
 
