@@ -138,3 +138,25 @@ node scripts/shots.mjs http://localhost:3000 /tmp/shots nord kvant zing   # ск
   anime.js удалён из зависимостей.
 - Проверка: 80 шаблонов (по сайту на шаблон), телефон и компьютер — меню, переходы к разделам, ошибки; снимки
   до/после совпали по раскладке.
+
+## Бренд сайта — айсберг (23.10.2026)
+
+Образец владельца — «Brand Strategy 80%»: над водой айдентика, под водой стратегия. Поле `brand` в JSON сайта
+(`src/lib/brand.ts`):
+
+- **под водой**: `research`, `offering`, `competitors[]`, `differentiation`, `customers[]`, `story`, `promise`, `mission`,
+  `vision`, `values[]`, `voice` (черты, «говорим / не говорим», образец), `look` (ключевые слова, описание);
+- **над водой**: `logo` (знак — фигуры в поле 100×100 с ролями цвета `fg/bg/accent/…`, надпись — шрифт, вес, разрядка,
+  регистр, подпись; раскладка `row/stack/mark/word`; `idea`), `palette[]`, `type`, `packaging[]` и `marketing[]`
+  (макеты: `cup box bag bottle jar tag card sticker tube menu billboard poster sign apparel vehicle ticket`),
+  `social` (ник, био, посты `quote offer product fact`).
+
+Где виден: логотип в шапке и подвале всех шаблонов (`components/brand/Logo.tsx`, подвал ужимается под место —
+`FitLogos`), иконка и карточка соцсетей — из знака (`lib/og.tsx`), фирменная графика вместо заглушек фото
+(`motion/art.tsx → BrandArt`), бренд-бук — `/<slug>/brand` (на домене сайта `/brand`). Без `brand.logo` сайт
+выглядит как раньше.
+
+Порядок работы с сайтом: бренд в JSON → `npm run build && npx next start -p 3100` →
+`node scripts/check-site.mjs <slug> <папка>` (ошибки, ширина, разорванные слова, перекрытые кнопки, якоря, меню,
+логотип, маршруты; снимки кадрами) → просмотр снимков → коммит → `npm run deploy:atlas` (стирает кэш страниц).
+Сайт, переопределённый в D1 (сейчас только `olov`), берёт бренд из базы — его нужно записать и туда.
