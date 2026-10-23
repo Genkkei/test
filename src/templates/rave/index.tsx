@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { pick, ui } from '@/lib/i18n'
@@ -19,7 +20,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="rv-header">
         <a href="#top" className="rv-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name.toUpperCase()}://{(b.city || 'tashkent').toUpperCase()}
+            </>
+          )}
         </a>
         <Live open={o} close={c} />
         <nav className="rv-nav" aria-label={ui(site.lang, 'sections')}>

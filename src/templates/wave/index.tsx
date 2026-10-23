@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -25,10 +26,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <Header>
         <a href="#top" className="wave-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="0 0 40 16" aria-hidden="true">
             <path d="M1 10c4-6 8-6 12 0s8 6 12 0 8-6 12 0" />
           </svg>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="wave-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

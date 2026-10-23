@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -19,7 +20,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <Curtain word={site.name} />
       <FizzHeader>
         <a href="#top" className="fizz-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="fizz-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (

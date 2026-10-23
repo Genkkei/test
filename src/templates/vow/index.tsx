@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -24,7 +25,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <a href="#top" className="vw-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="vw-nav vw-nav--r" aria-label={ui(site.lang, 'sections')}>
           {links.slice(half).map((l) => (

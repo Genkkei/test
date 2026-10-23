@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -30,10 +31,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="arcade-header">
         <a href="#top" className="arcade-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="arcade-logo__mark" aria-hidden="true">
             R
           </span>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="arcade-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
@@ -59,7 +66,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </p>
         <div className="arcade-footer__grid">
           <div>
-            <p className="arcade-footer__name">{site.name}</p>
+            <p className="arcade-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="arcade-footer__tag">{site.tagline}</p>
           </div>
           <ul>

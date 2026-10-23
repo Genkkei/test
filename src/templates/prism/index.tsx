@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Clock, Cursor, MobileMenu } from '@/motion/widgets'
@@ -26,8 +27,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <Cursor className="cursor prism-cursor" />
       <PrismHeader>
         <a href="#top" className="prism-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="prism-logo__mark" aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <span className="prism-header__meta">
           [ {site.business.city || 'Tashkent'} · <Clock lang={site.lang} /> ]

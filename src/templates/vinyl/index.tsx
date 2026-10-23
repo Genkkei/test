@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -22,8 +23,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="vinyl-header">
         <a href="#top" className="vinyl-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="vinyl-logo__disc" aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="vinyl-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

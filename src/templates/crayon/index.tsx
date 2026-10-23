@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo as BrandLogo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu, Marquee } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -39,7 +40,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="cr-header">
         <a href="#top" className="cr-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <BrandLogo site={site} />
+          ) : (
+            <>
           <Logo name={site.name} />
+            </>
+          )}
         </a>
         <nav className="cr-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

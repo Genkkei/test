@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -27,12 +28,18 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="forge-header">
         <a href="#top" className="forge-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="forge-logo__mark" aria-hidden="true">
             <svg viewBox="0 0 24 24">
               <path d="M2 4h20v4h-8v12h-4V8H2z" />
             </svg>
           </span>
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="forge-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -59,7 +66,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="forge-footer">
         <div className="forge-hazard" aria-hidden="true" />
         <div className="forge-footer__inner">
-          <p className="forge-footer__name">{site.name}</p>
+          <p className="forge-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
           <div className="forge-footer__cols">
             <p className="forge-footer__tag">{site.tagline}</p>
             <dl>

@@ -3,6 +3,7 @@
  * и в браузере), собрана из цветов темы. Это честная заглушка — не стоковое фото,
  * которое выдаёт себя за работу клиента. В админке её заменяет адрес настоящего снимка.
  */
+import { roleColor, type Colors, type Shape } from '@/lib/brand'
 
 function rng(seed: string) {
   let h = 2166136261
@@ -84,6 +85,63 @@ export function Art({
   )
 }
 
+/*
+ * Фирменная графика вместо фото у сайта с брендом (brand.logo): крупный знак крупным планом, узор из знаков
+ * или знак на цвете бренда — вместо размытых пятен, которые выглядели как не загрузившаяся картинка.
+ * SiteRenderer регистрирует знак сайта (registerBrandArt), Media находит его по seed: у всех шаблонов он
+ * начинается с адреса сайта. Данные одинаковы для всех запросов одного сайта, поэтому общий словарь безопасен.
+ */
+type BrandArtData = { shapes: Shape[]; c: Colors }
+const BRAND_ART = new Map<string, BrandArtData>()
+export function registerBrandArt(slug: string, shapes: Shape[], c: Colors) {
+  if (shapes.length) BRAND_ART.set(slug, { shapes, c })
+  else BRAND_ART.delete(slug)
+}
+function brandFor(seed: string): BrandArtData | null {
+  let best = ''
+  for (const k of BRAND_ART.keys()) if ((seed === k || seed.startsWith(k + '-') || seed.startsWith(k)) && k.length > best.length) best = k
+  return best ? BRAND_ART.get(best)! : null
+}
+
+function BrandArt({ seed, data, className, label }: { seed: string; data: BrandArtData; className?: string; label?: string }) {
+  const r = rng(seed)
+  const { c } = data
+  const v = Math.floor(r() * 3)
+  // на цвете акцента знак выворачивается: тело — цвет фона, «огонь» (роль bg) — акцент
+  const pal = v === 1 ? { ...c, fg: c.bg, accent: c.bg, bg: c.accent } : v === 2 ? { ...c, fg: c.bg, bg: c.fg } : c
+  const ground = v === 0 ? c.surface : v === 1 ? c.accent : c.fg
+  const mark = (x: number, y: number, s: number, rot = 0, op = 1) => (
+    <g transform={`translate(${x} ${y}) rotate(${rot} ${s / 2} ${s / 2}) scale(${s / 100})`} opacity={op}>
+      {data.shapes.map((sh, i) => {
+        const p = { fill: roleColor(sh.fill, pal), stroke: roleColor(sh.stroke, pal), strokeWidth: sh.sw, opacity: sh.op }
+        if (sh.t === 'path') return <path key={i} d={sh.d} {...p} strokeLinecap={sh.cap} strokeLinejoin="round" />
+        if (sh.t === 'circle') return <circle key={i} cx={sh.cx} cy={sh.cy} r={sh.r} {...p} />
+        if (sh.t === 'ellipse') return <ellipse key={i} cx={sh.cx} cy={sh.cy} rx={sh.rx} ry={sh.ry} {...p} />
+        return <rect key={i} x={sh.x} y={sh.y} width={sh.w} height={sh.h} rx={sh.rx} transform={sh.rot ? `rotate(${sh.rot} ${sh.x + sh.w / 2} ${sh.y + sh.h / 2})` : undefined} {...p} />
+      })}
+    </g>
+  )
+  const kids: React.ReactNode[] = []
+  if (v === 0) {
+    // крупный план: знак больше кадра, срезан краем, рядом круг акцента
+    kids.push(<circle key="c" cx={18 + r() * 20} cy={70 + r() * 15} r={26} fill={c.accent} opacity={0.9} />)
+    kids.push(<g key="m">{mark(18 + r() * 14, 8 + r() * 10, 104, 0)}</g>)
+  } else if (v === 1) {
+    // узор: знаки сеткой, через один повёрнуты
+    for (let y = 0; y < 4; y++) for (let x = 0; x < 4; x++) kids.push(<g key={`${x}${y}`}>{mark(x * 26 - 2 + (y % 2) * 13, y * 26 - 2, 18, (x + y) % 2 ? 12 : -12, 0.95)}</g>)
+  } else {
+    // знак по центру на тёмном, тонкие кольца
+    for (let i = 0; i < 3; i++) kids.push(<circle key={i} cx={50} cy={50} r={30 + i * 9} fill="none" stroke={c.accent} strokeWidth={0.5} opacity={0.6 - i * 0.15} />)
+    kids.push(<g key="m">{mark(26, 26, 48)}</g>)
+  }
+  return (
+    <svg className={className} viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : true}>
+      <rect width="100" height="100" fill={ground} />
+      {kids}
+    </svg>
+  )
+}
+
 /** Фото, если задано, иначе генеративная иллюстрация. */
 export function Media({
   src,
@@ -104,5 +162,7 @@ export function Media({
     // eslint-disable-next-line @next/next/no-img-element
     return <img className={className} src={src} alt={alt} loading="lazy" decoding="async" />
   }
+  const brand = brandFor(seed)
+  if (brand) return <BrandArt className={className} seed={seed} data={brand} label={alt} />
   return <Art className={className} seed={seed} colors={colors} kind={kind} label={alt} />
 }

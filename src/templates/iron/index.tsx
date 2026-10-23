@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -84,10 +85,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="iron-header">
         <a href="#top" className="iron-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="0 0 28 28" aria-hidden="true">
             <path d="M3 25V8l11-5 11 5v17M8 25V11M14 25V9M20 25V11M3 16h22" />
           </svg>
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="iron-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
@@ -115,7 +122,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="iron-footer">
         <div className="iron-footer__inner">
           <div className="iron-footer__brand">
-            <p className="iron-footer__name">{site.name}</p>
+            <p className="iron-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="iron-footer__tag">{site.tagline}</p>
             <ul className="iron-footer__social">
               {b.socials.map((s) => (

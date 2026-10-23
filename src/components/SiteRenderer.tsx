@@ -2,6 +2,7 @@ import { LeadDialog } from './LeadDialog'
 import { NicheActor } from './niche/NicheActor'
 import { actorFor } from './niche/actors'
 import { SiteChrome } from './SiteChrome'
+import { FitLogos } from './brand/FitLogos'
 import { CartDrawer, type Product } from './shop/CartDrawer'
 import type { CSSProperties } from 'react'
 import type { Site } from '@/lib/schema'
@@ -11,6 +12,7 @@ import { getTemplate } from '@/templates/registry'
 import { TPL_CSS } from '@/templates/styles.generated'
 import { Answer, BASE } from './sections'
 import { MotionRuntime } from '@/motion/runtime'
+import { registerBrandArt } from '@/motion/art'
 import { LANG_LABEL, LANG_NAME, ui } from '@/lib/i18n'
 import { primaryLang } from '@/lib/seo'
 
@@ -61,6 +63,7 @@ const MOTION_BOOT = `(function(){try{var d=document.documentElement;if(matchMedi
 
 export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?: string[] }) {
   const tpl = getTemplate(site.template)
+  registerBrandArt(site.slug, site.brand?.logo?.shapes ?? [], site.theme)
   const { Shell } = tpl
   const sections = site.sections.filter((s) => s.enabled)
   const jsonLd = JSON.stringify(buildJsonLd(site)).replace(/</g, '\\u003c')
@@ -76,6 +79,7 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
       <script dangerouslySetInnerHTML={{ __html: PHONE_SCALE }} />
       {site.theme.motion > 0 ? <script dangerouslySetInnerHTML={{ __html: MOTION_BOOT }} /> : null}
       <SiteChrome />
+      {site.brand?.logo ? <FitLogos /> : null}
       {site.theme.motion > 0 && site.theme.actor !== 'none' ? (
         <NicheActor kind={actorFor(site.slug, site.business.type, site.theme.actor)} colors={{ a: site.theme.accent, f: site.theme.fg, b: site.theme.bg }} />
       ) : null}

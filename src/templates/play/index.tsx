@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { humanHours, pick, ui } from '@/lib/i18n'
@@ -20,11 +21,17 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <PlayHeader>
         <a href="#top" className="pl-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="pl-logo__dot" aria-hidden="true">
             <i />
             <i />
           </span>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="pl-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (
@@ -47,7 +54,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="pl-footer__card">
           <Mascot className="pl-mascot pl-mascot--footer" label={pick(site.lang, { ru: 'Поли — маскот школы', uz: 'Poli — maktab maskoti', en: 'Poly, the school mascot' })} />
           <div className="pl-footer__main">
-            <p className="pl-footer__name">{site.name}</p>
+            <p className="pl-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="pl-footer__tag">{site.tagline}</p>
             <div className="pl-footer__cols">
               <div>

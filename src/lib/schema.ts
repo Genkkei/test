@@ -1,4 +1,5 @@
 import { z } from 'zod'
+import { brandSchema } from './brand'
 
 /*
  * Один сайт = один JSON. Шаблон решает, КАК выглядит секция, данные решают, ЧТО в ней.
@@ -283,6 +284,8 @@ export const siteSchema = z.object({
   listing: listingSchema.default({ price: '', description: '', features: [], forSale: true }),
   leads: leadsSchema.default({ enabled: false, kind: 'booking', title: '', thanks: '' }),
   sections: z.array(sectionSchema),
+  /** бренд и айдентика (lib/brand.ts); пусто — у шаблона его собственная надпись */
+  brand: brandSchema.optional(),
   updatedAt: z.string().default(''),
   /** основной язык сайта; заполняется только у языковой версии (перевод поверх основного) */
   baseLang: z.string().optional(),

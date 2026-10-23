@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -120,11 +121,17 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="scroll-header">
         <a href="#top" className="scroll-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="-24 -24 48 48" aria-hidden="true">
             <path transform="translate(-2 2) scale(-.55 .55)" d={VOLUTE} />
             <path transform="translate(2 2) scale(.55 .55)" d={VOLUTE} />
           </svg>
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="scroll-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -152,7 +159,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <Railing panels={12} className="scroll-footer__rail" />
         <div className="scroll-footer__grid">
           <div>
-            <p className="scroll-footer__name">{site.name}</p>
+            <p className="scroll-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="scroll-footer__tag">{site.tagline}</p>
           </div>
           <dl className="scroll-footer__facts">

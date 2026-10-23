@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -66,10 +67,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="rivet-header">
         <a href="#top" className="rivet-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="0 0 36 28" aria-hidden="true">
             <path d="M2 24 L18 4 L34 24 Z M10 24 L18 14 L26 24 M18 4 V24" />
           </svg>
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="rivet-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -123,7 +130,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
               </tr>
             </tbody>
           </table>
-          <p className="rivet-footer__name">{site.name}</p>
+          <p className="rivet-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
         </div>
         <div className="rivet-footer__bottom">
           <span>

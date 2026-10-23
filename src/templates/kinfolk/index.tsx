@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Art, Media, type ArtKind } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -16,7 +17,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="kin-header">
         <a href="#top" className="kin-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="kin-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (

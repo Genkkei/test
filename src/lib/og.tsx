@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { ImageResponse } from 'next/og'
 import type { Site } from './schema'
+import { markSvg } from './brand'
 
 // Шрифты карточки лежат в public/og-fonts. На Cloudflare файловой системы нет, а свой же публичный
 // адрес воркер запросить не может — берём файл через binding ASSETS.
@@ -37,12 +38,17 @@ export async function siteOg(site: Site) {
   const t = site.theme
   const hero = site.sections.find((s) => s.type === 'hero')
   const title = (hero?.title || site.name).slice(0, 90)
+  const shapes = site.brand?.logo?.shapes ?? []
+  const mark = shapes.length ? `data:image/svg+xml;base64,${Buffer.from(markSvg(shapes, t, 256)).toString('base64')}` : null
   return new ImageResponse(
     (
       <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', background: t.bg, color: t.fg, padding: 72, fontFamily: 'Manrope', position: 'relative' }}>
         <div style={{ position: 'absolute', right: -160, top: -160, width: 640, height: 640, borderRadius: 640, background: t.accent, opacity: 0.9, display: 'flex' }} />
         <div style={{ position: 'absolute', right: 120, top: 260, width: 360, height: 360, borderRadius: 360, background: t.surface, opacity: 0.85, display: 'flex' }} />
-        <div style={{ display: 'flex', fontSize: 28, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase' }}>{site.name}</div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20, fontSize: 28, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase' }}>
+          {mark ? <img src={mark} width={64} height={64} alt="" /> : null}
+          {site.name}
+        </div>
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 860 }}>
           <div style={{ display: 'flex', fontSize: 66, fontWeight: 700, lineHeight: 1.04, letterSpacing: -2 }}>{title}</div>
           <div style={{ display: 'flex', marginTop: 28, fontSize: 28, fontWeight: 500, color: t.muted }}>{[site.tagline, site.business.city].filter(Boolean).join(' · ')}</div>
@@ -55,6 +61,19 @@ export async function siteOg(site: Site) {
 
 export async function siteIcon(site: Site, size: number) {
   const t = site.theme
+  const shapes = site.brand?.logo?.shapes ?? []
+  if (shapes.length) {
+    // знак бренда на фоне сайта, с полем: иконка — тот же знак, что в шапке
+    const svg = markSvg(shapes, t, size)
+    return new ImageResponse(
+      (
+        <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: t.bg, borderRadius: size * 0.22 }}>
+          <img src={`data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`} width={size * 0.74} height={size * 0.74} alt="" />
+        </div>
+      ),
+      { width: size, height: size },
+    )
+  }
   return new ImageResponse(
     (
       <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: t.fg, color: t.bg, borderRadius: size * 0.22, fontFamily: 'Manrope', fontWeight: 700, fontSize: size * 0.56 }}>

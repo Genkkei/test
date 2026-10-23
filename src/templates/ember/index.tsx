@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
@@ -28,7 +29,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <EmberHeader>
         <a href="#top" className="em-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="em-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (
@@ -50,7 +57,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <main id="top">{children}</main>
       <footer className="em-footer">
         <Ornament />
-        <p className="em-footer__name">{site.name}</p>
+        <p className="em-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
         <p className="em-footer__tag">{site.tagline}</p>
         <div className="em-footer__grid">
           <div>

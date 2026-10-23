@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Media } from '@/motion/art'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -52,8 +53,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="drip-header">
         <a href="#top" className="drip-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="drip-logo__drop" aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="drip-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -75,7 +82,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="drip-footer">
         <div className="drip-stripes" aria-hidden="true" />
         <div className="drip-footer__inner">
-          <p className="drip-footer__name">{site.name}</p>
+          <p className="drip-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
           <p className="drip-footer__tag">{site.tagline}</p>
           <div className="drip-footer__cols">
             <p>

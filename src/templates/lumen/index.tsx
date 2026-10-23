@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -15,8 +16,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <LumenHeader>
         <div className="lumen-header__pill">
           <a href="#top" className="lumen-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
+            {site.brand?.logo ? (
+              <Logo site={site} />
+            ) : (
+              <>
             <i aria-hidden="true" />
             {site.name}
+              </>
+            )}
           </a>
           <nav className="lumen-nav" aria-label={ui(site.lang, 'sections')}>
             {links.map((l) => (

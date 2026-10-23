@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Cursor, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -27,8 +28,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <Cursor className="cursor dark-cursor" />
       <header className="dark-header">
         <a href="#top" className="dark-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <i aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="dark-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (

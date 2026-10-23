@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -64,8 +65,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="plx-header">
         <a href="#top" className="plx-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <i aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <span className="plx-header__coords">{coords}</span>
         <nav className="plx-nav" aria-label={ui(site.lang, 'sections')}>

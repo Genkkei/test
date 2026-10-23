@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -40,6 +41,10 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="bento-header">
         <a href="#top" className="bento-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="bento-logo__mark" aria-hidden="true">
             <i />
             <i />
@@ -47,6 +52,8 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             <i />
           </span>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="bento-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

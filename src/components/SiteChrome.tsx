@@ -23,6 +23,20 @@ export function SiteChrome() {
     return () => document.removeEventListener('click', onClick)
   }, [])
 
+  // цвет полосы под подвалом (globals.css, .site::after) — тот же, что у подвала
+  useEffect(() => {
+    const site = document.querySelector<HTMLElement>('.site')
+    const foot = site ? [...site.querySelectorAll('footer')].pop() : null
+    if (!site || !foot) return
+    for (let n: HTMLElement | null = foot; n && n !== document.body; n = n.parentElement) {
+      const c = getComputedStyle(n).backgroundColor
+      if (c && c !== 'transparent' && !/rgba\(.*,\s*0\)$/.test(c)) {
+        site.style.setProperty('--foot-bg', c)
+        break
+      }
+    }
+  }, [])
+
   useEffect(() => {
     const site = document.querySelector('.site')
     if (!site) return

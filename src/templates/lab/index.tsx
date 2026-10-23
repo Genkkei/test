@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { humanHours, pick, ui } from '@/lib/i18n'
@@ -21,8 +22,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       </div>
       <header className="lb-header">
         <a href="#top" className="lb-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="lb-logo__dot" aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="lb-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -67,8 +68,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <a href="#top" className="bazaar-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <Rosette className="bazaar-logo__mark" />
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="bazaar-nav bazaar-nav--r" aria-label={ui(site.lang, 'sections')}>
           {links.slice(half).map((l) => (
@@ -90,7 +97,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="bazaar-footer__inner">
           <div className="bazaar-footer__brand">
             <Rosette className="bazaar-footer__mark" />
-            <p className="bazaar-footer__name">{site.name}</p>
+            <p className="bazaar-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="bazaar-footer__tag">{site.tagline}</p>
           </div>
           <dl className="bazaar-footer__facts">

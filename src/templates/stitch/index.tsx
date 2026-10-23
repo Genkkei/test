@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -23,12 +24,18 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="stitch-header">
         <a href="#top" className="stitch-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="0 0 40 40" aria-hidden="true">
             <circle cx="20" cy="20" r="17" />
             <path d="M9 31 31 9" />
             <circle cx="28" cy="12" r="1.6" />
           </svg>
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <nav className="stitch-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -56,7 +63,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <Tape className="stitch-tape stitch-tape--foot" />
         <div className="stitch-footer__grid">
           <div>
-            <p className="stitch-footer__name">{site.name}</p>
+            <p className="stitch-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="stitch-footer__tag">{site.tagline}</p>
           </div>
           <dl className="stitch-footer__facts">

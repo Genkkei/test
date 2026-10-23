@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -19,8 +20,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       </div>
       <header className="mono-header">
         <a href="#top" className="mono-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <b aria-hidden="true">▲</b>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="mono-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (

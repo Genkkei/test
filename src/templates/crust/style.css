@@ -42,7 +42,7 @@
 /* первый экран */
 .crust-hero { min-height: 100svh; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(20px, 4vw, 70px); padding: 130px var(--pad) 60px; overflow: hidden; }
 .crust-hero__eyebrow { display: inline-block; padding: 8px 14px; border: 2px solid var(--ink); border-radius: 999px; background: #fff; font-weight: 600; font-size: 14px; box-shadow: 3px 3px 0 var(--ink); }
-.crust-hero__title { margin: 24px 0 22px; font-family: var(--font-display); font-weight: 400; font-size: clamp(54px, 8.4vw, 148px); line-height: .9; text-transform: uppercase; letter-spacing: -.02em; color: var(--accent); -webkit-text-stroke: 3px var(--ink); paint-order: stroke fill; text-shadow: 6px 6px 0 var(--ink); }
+.crust-hero__title { margin: 24px 0 22px; font-family: var(--font-display); font-weight: 400; font-size: clamp(54px, 6.6vw, 128px); line-height: .9; text-transform: uppercase; letter-spacing: -.02em; color: var(--accent); -webkit-text-stroke: 3px var(--ink); paint-order: stroke fill; text-shadow: 6px 6px 0 var(--ink); }
 .crust-hero__sub { max-width: 48ch; font-size: clamp(16px, 1.25vw, 19px); }
 .crust-hero__ctas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 30px; }
 .crust-hero__plate { position: relative; display: grid; place-items: center; aspect-ratio: 1; }

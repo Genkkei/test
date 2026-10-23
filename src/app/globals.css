@@ -160,6 +160,10 @@ html.menu-open { overflow: hidden; }
 .lang-switch a:hover { color: var(--fg); }
 .lang-switch a[aria-current] { background: var(--fg); color: var(--bg); }
 @media print { .lang-switch { display: none; } }
+/* под подвалом — полоса цвета подвала высотой с переключатель языка: в конце страницы переключатель лежит
+   на ней и не закрывает ссылки подвала («Наверх», соцсети); цвет подвала ставит SiteChrome (--foot-bg) */
+.site:has(> .lang-switch)::after { content: ""; display: block; height: 58px; background: var(--foot-bg, var(--bg)); }
+@media (max-width: 640px) { .site:has(> .lang-switch)::after { height: 46px; } }
 
 /* Форма заявки (#order) — цвета и шрифты темы сайта */
 .lead { border: 0; padding: 0; width: min(440px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); background: var(--bg); color: var(--fg); font-family: var(--font-body); border-radius: 18px; box-shadow: 0 30px 80px rgb(0 0 0 / .35); }
@@ -264,3 +268,19 @@ html.menu-open { overflow: hidden; }
 .na-actor .na-body { transform-origin: 60px 90px; }
 .na-actor :is(.na-spark, .na-bubble, .na-stack, .na-step) { transform-box: fill-box; transform-origin: center; }
 @media (prefers-reduced-motion: reduce) { .na-actor { opacity: 1; } }
+
+/* Логотип бренда (components/brand/Logo.tsx): размер от font-size места, где стоит */
+.brand-logo { display: inline-flex; align-items: center; gap: .42em; line-height: 1; color: inherit; vertical-align: middle; max-width: 100%; }
+.brand-logo__mark { width: 1.55em; height: 1.55em; flex: none; display: block; overflow: visible; }
+.brand-logo__text { display: inline-flex; flex-direction: column; gap: .32em; width: min-content; max-width: 100%; }
+.brand-logo__word { white-space: nowrap; line-height: 1; }
+.brand-logo__sub { font-size: max(9px, .2em); letter-spacing: .14em; text-transform: uppercase; opacity: .7; font-weight: 500; line-height: 1.3; font-family: var(--font-body); }
+.brand-logo--mark .brand-logo__mark { width: 1.9em; height: 1.9em; }
+.brand-logo--stack { flex-direction: column; text-align: center; gap: .55em; }
+.brand-logo--stack .brand-logo__mark { width: 2.4em; height: 2.4em; }
+.brand-logo--stack .brand-logo__text { align-items: center; }
+/* подвал: предельный кегль — ширина места / (длина надписи × ~0.82em + знак) */
+.brand-fit { display: block; container-type: inline-size; width: 100%; }
+.brand-fit > .brand-logo { font-size: min(1em, calc(100cqi / (var(--n) * 0.95 + var(--m) + 0.2))); }
+/* в шапке шаблона знак самого шаблона не нужен — логотип сайта его заменяет */
+.has-brand-logo > :not(.brand-logo):not(.sr-only) { display: none !important; }

@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -28,9 +29,15 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="orbit-header">
         <a href="#top" className="orbit-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span aria-hidden="true">{'{'}</span>
           {site.name}
           <span aria-hidden="true">{'}'}</span>
+            </>
+          )}
         </a>
         <nav className="orbit-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l, i) => (

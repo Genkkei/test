@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -18,8 +19,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <ChromeHeader>
         <a href="#top" className="ch-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <i aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="ch-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

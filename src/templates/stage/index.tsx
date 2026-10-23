@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -26,7 +27,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <a href="#top" className="stage-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <div className="stage-header__side">
           <nav className="stage-nav" aria-label={ui(site.lang, 'sections')}>
@@ -48,7 +55,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="stage-footer">
         <div className="stage-footer__drape" aria-hidden="true" />
         <div className="stage-footer__inner">
-          <p className="stage-footer__name">{site.name}</p>
+          <p className="stage-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
           <p className="stage-footer__tag">{site.tagline}</p>
           <dl className="stage-footer__facts">
             {b.street ? (

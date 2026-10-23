@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Badge, Clock, Cursor, Marquee, MobileMenu } from '@/motion/widgets'
@@ -15,7 +16,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <Cursor />
       <StickyHeader>
         <a href="#top" className="silk-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="silk-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
           {links.map((l) => (

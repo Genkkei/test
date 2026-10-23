@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Clock, Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -53,10 +54,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="neon-header">
         <a href="#top" className="neon-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="neon-logo__jp" aria-hidden="true">
             ラ
           </span>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="neon-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { MobileMenu } from '@/motion/widgets'
@@ -25,7 +26,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <a href="#top" className="at-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="at-nav at-nav--r" aria-label={pick(site.lang, { ru: 'Ещё разделы', uz: 'Boshqa bo‘limlar', en: 'More sections' })}>
           {links.slice(half).map((l) => (

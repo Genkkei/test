@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -57,12 +58,18 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="spine-header">
         <a href="#top" className="spine-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <span className="spine-logo__mark" aria-hidden="true">
             <i />
             <i />
             <i />
           </span>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="spine-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -89,7 +96,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <footer className="spine-footer">
         <div className="spine-footer__inner">
           <div>
-            <p className="spine-footer__name">{site.name}</p>
+            <p className="spine-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="spine-footer__tag">{site.tagline}</p>
           </div>
           <dl className="spine-footer__facts">

@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Clock, MobileMenu } from '@/motion/widgets'
 import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -20,7 +21,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         </div>
         <div className="ledger-header__main">
           <a href="#top" className="ledger-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
+            {site.brand?.logo ? (
+              <Logo site={site} />
+            ) : (
+              <>
             {site.name}
+              </>
+            )}
           </a>
           <nav className="ledger-nav" aria-label={ui(site.lang, 'sections')}>
             {links.map((l, i) => (
@@ -44,7 +51,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       </main>
       <footer className="ledger-footer">
         <div className="ledger-footer__grid">
-          <p className="ledger-footer__brand">{site.name}</p>
+          <p className="ledger-footer__brand">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
           <div>
             <small>{pick(site.lang, { ru: 'Офис', uz: 'Ofis', en: 'Office' })}</small>
             <p>{[b.street, b.city].filter(Boolean).join(', ')}</p>

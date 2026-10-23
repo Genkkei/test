@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -24,7 +25,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="inkwell-header__top">
           <span className="inkwell-header__meta">{b.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })}</span>
           <a href="#top" className="inkwell-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+            {site.brand?.logo ? (
+              <Logo site={site} />
+            ) : (
+              <>
             {site.name}
+              </>
+            )}
           </a>
           <span className="inkwell-header__side">
             {site.nav.cta.label ? (

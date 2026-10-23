@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu, Marquee } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { humanHours, pick, ui } from '@/lib/i18n'
@@ -47,8 +48,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <div className="pw-root" style={{ ['--hand' as string]: fontStack('Caveat') }}>
       <PawsHeader>
         <a href="#top" className="pw-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop')}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <Paw className="pw-logo__paw" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="pw-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

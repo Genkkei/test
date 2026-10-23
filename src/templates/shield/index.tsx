@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -22,10 +23,16 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <header className="shield-header">
         <a href="#top" className="shield-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 2.5 20 5.5v6c0 5-3.4 8.7-8 10-4.6-1.3-8-5-8-10v-6l8-3Z" />
           </svg>
           {site.name}
+            </>
+          )}
         </a>
         <nav className="shield-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (
@@ -46,7 +53,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <main id="top">{children}</main>
       <footer className="shield-footer">
         <div className="shield-footer__card">
-          <p className="shield-footer__name">{site.name}</p>
+          <p className="shield-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
           <p className="shield-footer__tag">{site.tagline}</p>
           <ul className="shield-footer__facts">
             {b.phone ? (

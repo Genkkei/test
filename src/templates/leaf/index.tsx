@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
 import { Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec, humanHours } from '@/components/sections'
@@ -65,8 +66,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           ))}
         </nav>
         <a href="#top" className="leaf-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <Leaf />
           <span>{site.name}</span>
+            </>
+          )}
         </a>
         <div className="leaf-header__side">
           <nav className="leaf-nav" aria-label={ui(site.lang, 'sections')}>
@@ -89,7 +96,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
         <div className="leaf-footer__inner">
           <div className="leaf-footer__brand">
             <Leaf />
-            <p className="leaf-footer__name">{site.name}</p>
+            <p className="leaf-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
             <p className="leaf-footer__tag">{site.tagline}</p>
           </div>
           <dl className="leaf-footer__facts">

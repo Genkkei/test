@@ -1,4 +1,5 @@
 import type { Site } from '@/lib/schema'
+import { Logo } from '@/components/brand/Logo'
 import { MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
 import { navLinks, type SectionProps, type TemplateDef } from '../types'
@@ -18,8 +19,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
     <>
       <AuroraHeader>
         <a href="#top" className="aurora-logo" aria-label={`${site.name} — ${ui(site.lang, 'toTop').toLowerCase()}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           <i aria-hidden="true" />
           {site.name}
+            </>
+          )}
         </a>
         <nav className="aurora-nav" aria-label={ui(site.lang, 'sections')}>
           {links.map((l) => (

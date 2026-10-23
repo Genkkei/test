@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Media } from '@/motion/art'
 import { Clock, MobileMenu } from '@/motion/widgets'
@@ -18,7 +19,13 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <HorizonHeader>
         <MobileMenu links={links} cta={site.nav.cta} lang={site.lang} />
         <a href="#top" className="hz-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
+            </>
+          )}
         </a>
         <div className="hz-header__side">
           <span className="hz-time">
@@ -37,7 +44,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <circle cx="200" cy="120" r="70" />
           <path d="M0 119.5h400" />
         </svg>
-        <p className="hz-footer__name">{site.name}</p>
+        <p className="hz-footer__name">{site.brand?.logo ? <Logo site={site} variant="footer" /> : site.name}</p>
         <div className="hz-footer__grid">
           <div>
             <h3>{pick(site.lang, { ru: 'Адрес', uz: 'Manzil', en: 'Address' })}</h3>

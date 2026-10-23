@@ -1,4 +1,5 @@
 import { pick } from '@/lib/i18n'
+import { Logo } from '@/components/brand/Logo'
 import type { Site } from '@/lib/schema'
 import { Badge, Marquee, MobileMenu } from '@/motion/widgets'
 import { Head, Shell as Sec } from '@/components/sections'
@@ -19,8 +20,14 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <SkewDriver />
       <header className="v-header">
         <a href="#top" className="v-logo" aria-label={`${site.name} — ${pick(site.lang, { ru: 'наверх', uz: 'yuqoriga', en: 'back to top' })}`}>
+          {site.brand?.logo ? (
+            <Logo site={site} />
+          ) : (
+            <>
           {site.name}
           <sup>®</sup>
+            </>
+          )}
         </a>
         <OpenStatus open={o} close={c} labels={[pick(site.lang, { ru: 'Часы работы', uz: 'Ish vaqti', en: 'Opening hours' }), pick(site.lang, { ru: 'Клуб открыт', uz: 'Klub ochiq', en: 'Club open' }), pick(site.lang, { ru: 'Сейчас закрыто', uz: 'Hozir yopiq', en: 'Closed now' })]} />
         <nav className="v-nav" aria-label={pick(site.lang, { ru: 'Разделы', uz: 'Bo‘limlar', en: 'Sections' })}>
