@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Midori — Toshkentda matcha-bar va muqobil qahva",
+    "title": "«Sizning kompaniyangiz» — Toshkentda matcha-bar va muqobil qahva",
     "description": "Udzidan marosim matchasi, suli sutida matcha-latte, xojicha va voronka. Shota Rustaveli, 41 dagi matcha-bar, uy uchun matcha va ko‘pirtirgichlar sotamiz.",
     "keywords": [
       "Toshkent matcha",
@@ -27,7 +27,7 @@
       "xojicha",
       "Toshkent muqobil qahva"
     ],
-    "answer": "Midori — Shota Rustaveli ko‘chasi, 41 dagi (Yakkasaroy) matcha-bar, ish kunlari 9:00 dan 22:00 gacha, dam olish kunlari 10:00 dan 23:00 gacha ochiq. Matcha-latte — 42 000 so‘m, marosim matchasi — 48 000 so‘m, voronka — 34 000 so‘m. Uy uchun 30 g matcha — 165 000 so‘mdan."
+    "answer": "«Sizning kompaniyangiz» — Shota Rustaveli ko‘chasi, 41 dagi (Yakkasaroy) matcha-bar, ish kunlari 9:00 dan 22:00 gacha, dam olish kunlari 10:00 dan 23:00 gacha ochiq. Matcha-latte — 42 000 so‘m, marosim matchasi — 48 000 so‘m, voronka — 34 000 so‘m. Uy uchun 30 g matcha — 165 000 so‘mdan."
   },
   "business": {
     "legalName": "«Sizning kompaniyangiz» MChJ",
@@ -84,7 +84,7 @@
       "id": "menu",
       "type": "menu",
       "label": "Menyu",
-      "title": "Midori javoni",
+      "title": "Bar javoni",
       "groups": [
         {
           "name": "Matcha",

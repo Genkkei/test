@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'whisk',
-  name: 'whisk',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'whisk' },
+  name: 'Венчик',
+  inspiredBy: 'чайная церемония (чаша сверху, венчик буквой «М»), вертикальные меню японских чайных, apple.com (тишина и один предмет)',
+  mood: 'Бумага васи, светлое дерево, яркая зелень пены',
+  niches: ['Матча-бар', 'чайная', 'японская кондитерская'],
+  defaultTheme: { bg: '#f3f0e6', fg: '#1d2a1f', accent: '#5f8f2c', muted: '#6f7a68', surface: '#e8e4d6', line: '#d4cfbe', display: 'Mulish', body: 'Noto Sans', motion: 1 },
+  art: 'rings',
+  preview: { bg: '#f3f0e6', fg: '#1d2a1f', accent: '#5f8f2c', word: 'Матча' },
 }

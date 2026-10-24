@@ -5,7 +5,7 @@
  */
 import { roleColor, type Colors, type Shape } from '@/lib/brand'
 
-function rng(seed: string) {
+export function rng(seed: string) {
   let h = 2166136261
   for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 16777619)
   return () => {
