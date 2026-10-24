@@ -1,6 +1,6 @@
 {
   "slug": "kofeofis",
-  "template": "bento",
+  "template": "desk",
   "name": "Ваша компания",
   "tagline": "Кофейня, в которой удобно работать",
   "niche": "Кофейня-коворкинг с переговорными",
@@ -14,9 +14,10 @@
     "muted": "#8aa197",
     "surface": "#161f1b",
     "line": "#24302a",
-    "display": "Montserrat",
+    "display": "Wix Madefor Display",
     "body": "Onest",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -62,7 +63,7 @@
   "nav": {
     "cta": {
       "label": "Забронировать",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -92,7 +93,7 @@
       ],
       "cta": {
         "label": "Забронировать место",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Тарифы",
@@ -117,7 +118,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 183000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-32e100cc51c22506ba2b.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -127,7 +128,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 160000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-6035a654b1d65a1d22b6.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -137,7 +138,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 135000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-f00df4ab96219362330d.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -147,7 +148,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 407000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-f56dc41071391d4fe383.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -157,7 +158,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 209000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-87df0412405fcbc12ea1.webp",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -167,7 +168,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 170000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-e3c49d963ff79d31f5d3.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -177,7 +178,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 154000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-0b277e3402217714ce11.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -187,7 +188,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 92000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofeofis-1c1a1de396c1ecbf9ff1.webp",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -278,7 +279,7 @@
       "label": "О нас",
       "title": "Сначала кофейня, потом офис",
       "text": "«Ваша компания» — это не коворкинг с кофемашиной, а настоящая кофейня со спешелти-зерном и кухней, в которой продумали всё для работы: свет, розетки, тишину и стулья, на которых можно просидеть восемь часов. Приходите с ноутбуком или проводите встречи в переговорных.",
-      "image": "",
+      "image": "/media/kofeofis-f5ad8ada395ad8fb962a.webp",
       "enabled": true
     },
     {
@@ -382,23 +383,23 @@
       "items": [
         {
           "caption": "Стойка бариста",
-          "image": ""
+          "image": "/media/kofeofis-63a8020bec3f0a3c38e9.webp"
         },
         {
           "caption": "Тихая зона",
-          "image": ""
+          "image": "/media/kofeofis-fcdf5c14d1a25818bdb8.webp"
         },
         {
           "caption": "Переговорная «Макси»",
-          "image": ""
+          "image": "/media/kofeofis-543059882ba3b242b6c2.webp"
         },
         {
           "caption": "Терраса на бульвар",
-          "image": ""
+          "image": "/media/kofeofis-ca71343d07b4a858d709.webp"
         },
         {
           "caption": "Бизнес-ланч",
-          "image": ""
+          "image": "/media/kofeofis-95a8066866544986b9eb.webp"
         }
       ],
       "enabled": true
@@ -438,11 +439,27 @@
       "text": "Фурката, 5, Tashkent City, первый этаж. Каждый день с 8:00 до 23:00. Бронь мест и переговорных — через заявку.",
       "cta": {
         "label": "Забронировать",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Схема зала сверху: часы идут с 8:00, места занимаются одно за другим, одно остаётся свободным и пульсирует, всплывает «Место 14»; тарифы — бейджи на шнурке, меню — экран у стойки",
+    "label": "Roboto Mono",
+    "skeleton": "floor-map-booking",
+    "signature": "seats-fill-free",
+    "sequence": [
+      "room",
+      "clock",
+      "seats-taken",
+      "free-seat",
+      "ticket",
+      "title"
+    ],
+    "ease": "0.2,0.8,0.2,1",
+    "surface": "lanyard-badge"
+  }
 }

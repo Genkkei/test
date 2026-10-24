@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -55,7 +55,7 @@
       ],
       "cta": {
         "label": "Book a desk",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Plans",
@@ -292,7 +292,7 @@
       "text": "5 Furqat St, Tashkent City, ground floor. Every day 8 am to 11 pm. Book desks and meeting rooms through the form.",
       "cta": {
         "label": "Book",
-        "href": "#order"
+        "href": ""
       }
     },
     {

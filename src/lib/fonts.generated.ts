@@ -43,6 +43,7 @@ export const FONT_CSS: Record<string, string> = {
   "Tektur": "/fonts/tektur.992b44faf8.css",
   "Ubuntu Mono": "/fonts/ubuntu-mono.ce334645b7.css",
   "Vollkorn": "/fonts/vollkorn.081ed5df14.css",
+  "Wix Madefor Display": "/fonts/wix-madefor-display.28f7864556.css",
   "Wix Madefor Text": "/fonts/wix-madefor-text.89b4bc3b79.css",
   "Ysabeau": "/fonts/ysabeau.0055b5715e.css"
 }
@@ -90,6 +91,7 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Tektur": "display",
   "Ubuntu Mono": "monospace",
   "Vollkorn": "serif",
+  "Wix Madefor Display": "sans-serif",
   "Wix Madefor Text": "sans-serif",
   "Ysabeau": "sans-serif"
 }
