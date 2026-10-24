@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Join the club",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -61,7 +61,7 @@
       },
       "ctaSecondary": {
         "label": "Join the club",
-        "href": "#order"
+        "href": "#contact"
       },
       "image": ""
     },
@@ -82,7 +82,7 @@
       "type": "about",
       "label": "About",
       "title": "A library where you can whisper",
-      "text": "Your Company means “page” in Uzbek. Our books came from the home libraries of friends and readers: classics, contemporary fiction, books in three languages. Take any of them to your table, and leave one of yours on the swap shelf. There are sockets, but please take loud calls out to the terrace.",
+      "text": "Our books came from the home libraries of friends and readers: classics, contemporary fiction, books in three languages. Take any of them to your table, and leave one of yours on the swap shelf. There are sockets, but please take loud calls out to the terrace.",
       "image": ""
     },
     {
@@ -256,7 +256,7 @@
       "text": "31 Buyuk Ipak Yuli St, first floor up. Every day 9 am to 11 pm. Join the club and we will send the book of the week.",
       "cta": {
         "label": "Sign up",
-        "href": "#order"
+        "href": ""
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "slug": "kitobkofe",
-  "template": "inkwell",
+  "template": "chapter",
   "name": "Ваша компания",
   "tagline": "Кофейня, где читают",
   "niche": "Кофейня и книжный клуб",
@@ -14,9 +14,10 @@
     "muted": "#7a6a5c",
     "surface": "#ece2d2",
     "line": "#d6c8b4",
-    "display": "Prata",
+    "display": "EB Garamond",
     "body": "Lora",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -62,7 +63,7 @@
   "nav": {
     "cta": {
       "label": "Записаться в клуб",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -98,7 +99,7 @@
       },
       "ctaSecondary": {
         "label": "Записаться в клуб",
-        "href": "#order"
+        "href": "#contact"
       },
       "image": "",
       "enabled": true,
@@ -135,7 +136,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 232000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-1f7eea949dd3aac5d5c5.webp",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -145,7 +146,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-fd4df48eb4fdd3be821a.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -155,7 +156,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 172000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-cc88a32da265c8323abe.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -165,7 +166,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 103000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-411a17ff9ab072a8611d.webp",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -175,7 +176,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 85000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-f1a81e816409b08eb646.webp",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -185,7 +186,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 259000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-9993b65d4e81085526fe.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -195,7 +196,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 227000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-04423f93c498c059023f.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -205,7 +206,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 745000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kitobkofe-5de7f0f382f353301fc4.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -218,8 +219,8 @@
       "anchor": "about",
       "label": "О нас",
       "title": "Библиотека, где можно шуметь шёпотом",
-      "text": "«Ваша компания» по-узбекски — страница. Мы собрали книги из домашних библиотек друзей и читателей: классика, современная проза, книги на трёх языках. Любую можно взять к столику, а свою — оставить на полке обмена. Розетки есть, но громкие звонки просим выносить на террасу.",
-      "image": "",
+      "text": "Мы собрали книги из домашних библиотек друзей и читателей: классика, современная проза, книги на трёх языках. Любую можно взять к столику, а свою — оставить на полке обмена. Розетки есть, но громкие звонки просим выносить на террасу.",
+      "image": "/media/kitobkofe-1d1c4092d16c0ea9dcd7.webp",
       "enabled": true
     },
     {
@@ -404,11 +405,28 @@
       "text": "Буюк Ипак Йули, 31, второй этаж. Каждый день с 9:00 до 23:00. Запишитесь в клуб — пришлём книгу недели.",
       "cta": {
         "label": "Записаться",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Книга на столике: обложка открывается, две страницы перелистываются, разворот с буквицей и оглавлением жанров; книги сезона — серийные обложки, форматы — формуляры со штампом",
+    "label": "Playfair Display SC",
+    "skeleton": "book-spread",
+    "signature": "cover-open-pages",
+    "sequence": [
+      "closed-book",
+      "cover-open",
+      "leaf-1",
+      "leaf-2",
+      "drop-cap",
+      "title",
+      "toc"
+    ],
+    "ease": "0.645,0.045,0.355,1",
+    "surface": "library-card"
+  }
 }

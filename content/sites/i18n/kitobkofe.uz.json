@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Klubga yozilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -61,7 +61,7 @@
       },
       "ctaSecondary": {
         "label": "Klubga yozilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "image": ""
     },
@@ -82,7 +82,7 @@
       "type": "about",
       "label": "Biz haqimizda",
       "title": "Shivirlab gaplashsa bo‘ladigan kutubxona",
-      "text": "«Sizning kompaniyangiz» — o‘zbekcha bet degani. Kitoblarni do‘stlar va o‘quvchilarning uy kutubxonalaridan to‘pladik: klassika, zamonaviy nasr, uch tildagi kitoblar. Istalganini stolga olib borish, o‘zingiznikini esa almashinuv javoniga qoldirish mumkin. Rozetkalar bor, lekin baland qo‘ng‘iroqlarni terassaga olib chiqishni so‘raymiz.",
+      "text": "Kitoblarni do‘stlar va o‘quvchilarning uy kutubxonalaridan to‘pladik: klassika, zamonaviy nasr, uch tildagi kitoblar. Istalganini stolga olib borish, o‘zingiznikini esa almashinuv javoniga qoldirish mumkin. Rozetkalar bor, lekin baland qo‘ng‘iroqlarni terassaga olib chiqishni so‘raymiz.",
       "image": ""
     },
     {
@@ -256,7 +256,7 @@
       "text": "Buyuk Ipak Yo‘li, 31, ikkinchi qavat. Har kuni 9:00 dan 23:00 gacha. Klubga yoziling — hafta kitobini yuboramiz.",
       "cta": {
         "label": "Yozilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {

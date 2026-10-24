@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'chapter',
-  name: 'chapter',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'chapter' },
+  name: 'Глава',
+  inspiredBy: 'книга на столике: обложка открывается, страницы перелистываются, разворот с буквицей и оглавлением; серийные обложки классики, библиотечный формуляр со штампом; howtotalktowhitekids (книга-объект раскрывается)',
+  mood: 'Бумага, чернила, корешки, тихий свет',
+  niches: ['Книжная кофейня', 'литературный клуб', 'небольшой книжный'],
+  defaultTheme: { bg: '#f6efe4', fg: '#2a1d17', accent: '#8a2c1f', muted: '#7a6a5c', surface: '#ece2d2', line: '#d6c8b4', display: 'EB Garamond', body: 'Lora', motion: 1 },
+  art: 'stripes',
+  preview: { bg: '#f6efe4', fg: '#2a1d17', accent: '#8a2c1f', word: 'Глава I' },
 }
