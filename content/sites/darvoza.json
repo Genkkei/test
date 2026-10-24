@@ -1,6 +1,6 @@
 {
   "slug": "darvoza",
-  "template": "nest",
+  "template": "gate",
   "lang": "ru",
   "name": "Ваша компания",
   "tagline": "Ворота, забор, калитка и навес для коттеджа одним заказом",
@@ -15,9 +15,10 @@
     "muted": "#5c675f",
     "surface": "#dbe1d9",
     "line": "#c2cac0",
-    "display": "Unbounded",
+    "display": "Tektur",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -102,7 +103,7 @@
         "label": "Ход работ",
         "href": "#object"
       },
-      "image": "",
+      "image": "/media/darvoza-79ae1ee9335a70d50f2b.webp",
       "enabled": true
     },
     {
@@ -112,7 +113,7 @@
       "label": "О компании",
       "title": "Двор, где всё сделано в одном стиле",
       "text": "«Ваша компания» — свой цех в Кибрае и четыре монтажные бригады. Мы делаем ворота, забор, калитку и навес из одного профиля и одного цвета, поэтому двор выглядит цельным. Фундамент, столбы и автоматику ставим сами — без субподрядчиков.",
-      "image": "",
+      "image": "/media/darvoza-e2e8c4d7d5992ba7ce6c.webp",
       "enabled": true
     },
     {
@@ -260,19 +261,19 @@
       "items": [
         {
           "caption": "Кибрай, жалюзи графит",
-          "image": ""
+          "image": "/media/darvoza-08cd76b69f83011a9a49.webp"
         },
         {
           "caption": "Зангиата, откатные ворота 6 м",
-          "image": ""
+          "image": "/media/darvoza-ba5f5ed87f9c7c2b3634.webp"
         },
         {
           "caption": "Юнусабад, навес на две машины",
-          "image": ""
+          "image": "/media/darvoza-271db9dbf44f0b237a33.webp"
         },
         {
           "caption": "Сергели, калитка с козырьком",
-          "image": ""
+          "image": "/media/darvoza-e1ddd8a0713f0f0e089b.webp"
         }
       ],
       "enabled": true
@@ -312,9 +313,27 @@
       "text": "Кибрай, ул. Ахмада Яссави, 3. Пн–Сб 9:00–18:00. Образцы профилей и цветов — в нашем шоуруме при цехе.",
       "cta": {
         "label": "Вызвать замерщика",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Откатные ворота во весь экран: рельс, столбы, ламели, лампа привода — ворота уезжают и открывают двор; пакеты — генплан участка, ход работ — паспорт объекта",
+    "label": "Roboto Mono",
+    "skeleton": "gate-reveal",
+    "signature": "slide-gate-open",
+    "sequence": [
+      "rail",
+      "posts",
+      "slats",
+      "lamp",
+      "gate-slide",
+      "yard",
+      "title",
+      "plates"
+    ],
+    "ease": "0.55,0,0.25,1",
+    "surface": "site-passport"
+  }
 }

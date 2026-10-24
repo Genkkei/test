@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'gate',
-  name: 'gate',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'gate' },
+  name: 'Ворота',
+  inspiredBy: 'откатные ворота с автоматикой (ламели, рельс, лампа привода), строительный паспорт объекта, генплан участка; shopify editions (линии чертятся, потом раскрывается картина)',
+  mood: 'Графит, зелёная краска по металлу, чертёж двора',
+  niches: ['Ворота и заборы', 'металлоконструкции для дома', 'навесы'],
+  defaultTheme: { bg: '#e8ece6', fg: '#1a201c', accent: '#2f6b4f', muted: '#5c675f', surface: '#dbe1d9', line: '#c2cac0', display: 'Tektur', body: 'Manrope', motion: 1 },
+  art: 'grid',
+  preview: { bg: '#2b302d', fg: '#e8ece6', accent: '#2f6b4f', word: 'Въезд' },
 }

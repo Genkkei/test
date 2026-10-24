@@ -1,1 +1,216 @@
-/* заготовка */
+/* ВОРОТА — металлоконструкции для частного дома. Графит, зелёная краска по металлу, чертёж двора.
+   Tektur — заголовки (техничный, как шильдик), Manrope — текст, Roboto Mono — метки, размеры, проценты.
+   Ведущий приём — откатные ворота: рельс, столбы, ламели сверху вниз, лампа привода, ворота уезжают — двор. */
+
+.tpl-gate {
+  --ease: cubic-bezier(.55, 0, .25, 1);
+  --soft: cubic-bezier(.16, 1, .3, 1);
+  --pad: max(16px, min(5vw, 80px));
+  --mono: 'Roboto Mono', ui-monospace, monospace;
+  --steel: #262b28;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: clamp(15px, 1.05vw, 17px);
+  line-height: 1.6;
+}
+.tpl-gate ::selection { background: var(--accent); color: #fff; }
+.tpl-gate .gate-label { margin: 0; font: 500 12px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.tpl-gate .gate-h2 { margin: 0; font: 600 clamp(30px, 3.8vw, 58px)/1.02 var(--font-display); letter-spacing: -.01em; text-wrap: balance; }
+.tpl-gate .gate-head { display: grid; gap: 12px; max-width: 880px; margin-bottom: clamp(28px, 4vw, 56px); }
+.tpl-gate .gate-head__intro { margin: 0; color: var(--muted); }
+
+.tpl-gate .gate-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 28px; background: var(--accent); color: #fff; font: 700 15px/1 var(--font-body); text-decoration: none; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); transition: transform 140ms ease-out, background-color .2s ease; }
+.tpl-gate .gate-btn:active { transform: scale(.97); }
+.tpl-gate .gate-btn--light { background: #e8ece6; color: var(--steel); }
+.tpl-gate .gate-link { display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+@media (hover: hover) and (pointer: fine) { .tpl-gate .gate-btn:hover { background: #245740; } .tpl-gate .gate-btn--light:hover { background: #fff; } }
+
+/* ───────── шапка ───────── */
+.tpl-gate .gate-bar { position: sticky; top: 0; z-index: 30; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 14px var(--pad); background: var(--steel); color: #e8ece6; }
+.tpl-gate .gate-bar__logo { font: 600 19px/1 var(--font-display); color: inherit; text-decoration: none; }
+.tpl-gate .gate-bar__nav { display: flex; justify-content: center; gap: 26px; }
+.tpl-gate .gate-bar__nav a { font-size: 14px; color: #b7c0b9; text-decoration: none; transition: color .2s ease; }
+.tpl-gate .gate-bar__nav a:hover { color: #fff; }
+.tpl-gate .gate-bar__side { display: flex; align-items: center; gap: 14px; }
+.tpl-gate .gate-bar__phone { font: 500 14px/1 var(--mono); color: inherit; text-decoration: none; }
+.tpl-gate .mmenu__btn { display: none; color: #e8ece6; }
+@media (max-width: 1020px) { .tpl-gate .gate-bar__nav { display: none; } .tpl-gate .gate-bar { grid-template-columns: 1fr auto; } .tpl-gate .mmenu__btn { display: inline-flex; } }
+@media (max-width: 520px) { .tpl-gate .gate-bar__phone { display: none; } }
+
+/* ───────── первый экран: откатные ворота ───────── */
+.tpl-gate .gate-hero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); align-content: end; min-height: min(calc(100svh - 64px), 880px); padding: clamp(28px, 4vw, 56px) var(--pad) calc(clamp(18px, 4vh, 40px) + 34px); background: #1b201d; color: #fff; overflow: hidden; isolation: isolate; }
+.tpl-gate .gate-hero__yard { position: absolute; inset: 0; z-index: -3; animation: gateYard 1.8s var(--soft) 2.1s both; }
+.tpl-gate .gate-hero__yard .media { width: 100%; height: 100%; object-fit: cover; }
+@keyframes gateYard { from { transform: scale(1.1); filter: brightness(.55); } }
+.tpl-gate .gate-hero__shade { position: absolute; inset: 0; z-index: -2; background: linear-gradient(90deg, rgba(12, 16, 14, .86), rgba(12, 16, 14, .55) 42%, rgba(12, 16, 14, 0) 72%), linear-gradient(0deg, rgba(12, 16, 14, .7), rgba(12, 16, 14, 0) 45%); animation: gateOn .8s ease 2.2s both; }
+@keyframes gateOn { from { opacity: 0; } }
+
+.tpl-gate .gate-rig { position: absolute; inset: 0; z-index: -1; pointer-events: none; --base: clamp(18px, 4vh, 40px); --post: clamp(12px, 1.3vw, 20px); }
+.tpl-gate .gate-rig__rail { position: absolute; left: 0; right: 0; bottom: var(--base); height: 6px; background: linear-gradient(#a9b2ab, #5c645f); transform-origin: 0 50%; animation: gateRail .6s var(--soft) .05s both; }
+@keyframes gateRail { from { transform: scaleX(0); } }
+.tpl-gate .gate-rig__post { position: absolute; bottom: var(--base); width: var(--post); height: 80%; background: linear-gradient(90deg, #1c201e, #59605b 40%, #2a2f2c); transform-origin: 50% 100%; animation: gatePost .55s var(--soft) both; }
+.tpl-gate .gate-rig__post--l { left: 3vw; animation-delay: .3s; }
+.tpl-gate .gate-rig__post--r { right: 3vw; animation-delay: .38s; }
+@keyframes gatePost { from { transform: scaleY(0); } }
+.tpl-gate .gate-rig__lamp { position: absolute; left: 50%; top: -14px; width: 16px; height: 12px; margin-left: -8px; border-radius: 8px 8px 2px 2px; background: #6b5a2a; animation: gateBlink .36s steps(1) 1.45s 5 both; }
+@keyframes gateBlink { 0% { background: #ffb21e; box-shadow: 0 0 18px 6px rgba(255, 178, 30, .55); } 50% { background: #6b5a2a; box-shadow: none; } }
+.tpl-gate .gate-rig__leaf { position: absolute; left: calc(3vw + var(--post)); right: calc(3vw + var(--post)); bottom: calc(var(--base) + 10px); height: calc(80% - 14px); display: grid; grid-template-rows: repeat(13, minmax(0, 1fr)); gap: 5px; padding: 6px; border: 5px solid var(--steel); background: #20251f; animation: gateSlide 1.6s var(--ease) 1.5s both; }
+@keyframes gateSlide { to { transform: translateX(88%); } }
+.tpl-gate .gate-rig__leaf span { background: linear-gradient(#69716b, #2e3431 55%, #444b47); box-shadow: 0 2px 2px rgba(0, 0, 0, .35); animation: gateSlat .38s var(--soft) both; animation-delay: calc(.5s + var(--i) * 55ms); }
+@keyframes gateSlat { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+.tpl-gate .gate-rig__roller { position: absolute; bottom: -16px; width: 14px; height: 14px; border-radius: 50%; background: #9aa39c; box-shadow: inset 0 0 0 3px #3a403c; }
+.tpl-gate .gate-rig__roller--a { left: 12%; }
+.tpl-gate .gate-rig__roller--b { left: 32%; }
+
+.tpl-gate .gate-hero__text { display: grid; gap: 18px; max-width: min(680px, 64vw); }
+.tpl-gate .gate-title { margin: 0; font: 600 clamp(40px, 5.6vw, 92px)/.98 var(--font-display); letter-spacing: -.02em; text-wrap: balance; }
+.tpl-gate .gate-hero__sub { margin: 0; max-width: 36em; color: #d3dad5; }
+.tpl-gate .gate-hero .gate-label { color: #9fd3b8; }
+.tpl-gate .gate-ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; }
+.tpl-gate .gate-plates { list-style: none; margin: 26px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; max-width: min(760px, 70vw); }
+.tpl-gate .gate-plates li { padding: 8px 22px; font: 500 12px/1.2 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: #e8ece6; border: 1px solid rgba(232, 236, 230, .4); background: radial-gradient(circle at 8px 50%, #c9d0cb 0 1.6px, transparent 2.2px), radial-gradient(circle at calc(100% - 8px) 50%, #c9d0cb 0 1.6px, transparent 2.2px), rgba(255, 255, 255, .07); }
+.tpl-gate .gate-in { animation: gateIn .8s var(--soft) both; animation-delay: calc(2.35s + var(--i) * 90ms); }
+@keyframes gateIn { from { opacity: 0; transform: translateY(14px); } }
+@media (max-width: 760px) {
+  .tpl-gate .gate-hero { min-height: min(calc(100svh - 60px), 760px); }
+  .tpl-gate .gate-hero__text, .tpl-gate .gate-plates { max-width: none; }
+  .tpl-gate .gate-hero__shade { background: linear-gradient(0deg, rgba(12, 16, 14, .9), rgba(12, 16, 14, .55) 60%, rgba(12, 16, 14, .2)); }
+  .tpl-gate .gate-rig__leaf { gap: 3px; }
+}
+
+.tpl-gate .s-answer { padding: clamp(40px, 5vw, 72px) var(--pad) 0; }
+.tpl-gate .s-answer .s__inner { max-width: 840px; margin: 0; padding: 0; }
+.tpl-gate .s-answer__text { margin: 0; font-size: clamp(16px, 1.25vw, 19px); }
+
+/* ───────── появление ───────── */
+html.motion .tpl-gate [data-gt='rise'] { transition: opacity .7s ease, transform .9s var(--soft); transition-delay: calc(var(--i, 0) * 90ms); }
+html.motion .tpl-gate [data-gt='rise']:not(.is-in) { opacity: 0; transform: translateY(18px); }
+html.motion .tpl-gate [data-gt='draw'] svg { transition: clip-path 1.6s var(--ease) .2s; }
+html.motion .tpl-gate [data-gt='draw']:not(.is-in) svg { clip-path: inset(0 100% 0 0); }
+html.motion .tpl-gate [data-gt='bars'] .gate-passport__bar i { transition: transform 1.2s var(--soft); transition-delay: calc(.3s + var(--i) * 150ms); }
+html.motion .tpl-gate [data-gt='bars']:not(.is-in) .gate-passport__bar i { transform: scaleX(0); }
+
+/* ───────── о компании ───────── */
+.tpl-gate .gate-about { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 80px); align-items: center; padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-gate .gate-about__text { display: grid; gap: 18px; }
+.tpl-gate .gate-about__text > p:last-child { margin: 0; max-width: 34em; }
+.tpl-gate .gate-about__photo { margin: 0; aspect-ratio: 3 / 2; overflow: hidden; clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%); }
+.tpl-gate .gate-about__photo .media { width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 820px) { .tpl-gate .gate-about { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── генплан ───────── */
+.tpl-gate .gate-plan { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-gate .gate-plan__body { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
+.tpl-gate .gate-plan__list { list-style: none; margin: 0; padding: 0; display: grid; border-top: 2px solid var(--fg); }
+.tpl-gate .gate-plan__list button { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 18px 16px; border: 0; border-bottom: 1px solid var(--line); background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; transition: background-color .25s ease, color .25s ease; }
+.tpl-gate .gate-plan__list button[aria-pressed='true'] { background: var(--steel); color: #e8ece6; }
+.tpl-gate .gate-plan__list button:active { transform: scale(.99); }
+.tpl-gate .gate-plan__name { font: 600 clamp(18px, 1.5vw, 22px)/1.15 var(--font-display); }
+.tpl-gate .gate-plan__price { grid-row: 1; grid-column: 2; font: 700 14px/1.6 var(--mono); white-space: nowrap; }
+.tpl-gate .gate-plan__spec { grid-column: 1 / -1; font: 500 12px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .04em; color: var(--accent); }
+.tpl-gate .gate-plan__list button[aria-pressed='true'] .gate-plan__spec { color: #9fd3b8; }
+.tpl-gate .gate-plan__text { grid-column: 1 / -1; font-size: 14px; opacity: .8; }
+.tpl-gate .gate-plan__sheet { position: sticky; top: 90px; margin: 0; padding: clamp(12px, 2vw, 24px); background: #f3f5f1; border: 1px solid var(--line); color: var(--fg); }
+.tpl-gate .gate-plan__sheet svg { display: block; width: 100%; height: auto; }
+.tpl-gate .gate-plan__grid line { stroke: var(--line); stroke-width: 1; }
+.tpl-gate .gate-plan__t { font: 500 13px var(--mono); fill: var(--muted); letter-spacing: .06em; }
+.tpl-gate .gate-plan__drive { fill: rgba(26, 32, 28, .06); stroke: var(--line); stroke-dasharray: 4 6; }
+.tpl-gate .p-fence, .tpl-gate .p-gate, .tpl-gate .p-wicket { fill: none; stroke: #a7b0a9; stroke-width: 5; transition: stroke .4s ease, stroke-width .4s ease; }
+.tpl-gate .p-fence { stroke-dasharray: 14 4; }
+.tpl-gate .p-gate { stroke-width: 9; }
+.tpl-gate .p-track { stroke-width: 2; stroke-dasharray: 6 6; }
+.tpl-gate .p-wicket:last-of-type { stroke-width: 1.5; stroke-dasharray: 3 4; }
+.tpl-gate .p-canopy rect, .tpl-gate .p-canopy path { fill: none; stroke: #a7b0a9; stroke-width: 2; stroke-dasharray: 8 6; transition: stroke .4s ease, fill .4s ease; }
+.tpl-gate .p-motor rect, .tpl-gate .p-motor path { fill: none; stroke: #a7b0a9; stroke-width: 2.5; transition: stroke .4s ease, fill .4s ease; }
+.tpl-gate .gate-plan__sheet figcaption { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; font: 500 12px/1 var(--mono); text-transform: uppercase; color: #9aa39c; }
+.tpl-gate .gate-plan__sheet figcaption span::before { content: ''; display: inline-block; width: 18px; height: 4px; margin-right: 8px; vertical-align: middle; background: currentColor; }
+.tpl-gate .gate-plan[data-pk='0'] :is(.p-gate, .p-wicket), .tpl-gate .gate-plan[data-pk='1'] :is(.p-gate, .p-wicket, .p-fence), .tpl-gate .gate-plan[data-pk='2'] :is(.p-gate, .p-wicket, .p-fence) { stroke: var(--accent); }
+.tpl-gate .gate-plan[data-pk='2'] .p-canopy :is(rect, path), .tpl-gate .gate-plan[data-pk='3'] .p-motor :is(rect, path) { stroke: var(--accent); }
+.tpl-gate .gate-plan[data-pk='2'] .p-canopy rect, .tpl-gate .gate-plan[data-pk='3'] .p-motor rect { fill: color-mix(in srgb, var(--accent) 22%, transparent); }
+.tpl-gate .gate-plan[data-pk='0'] :is(.k-gate, .k-wicket), .tpl-gate .gate-plan[data-pk='1'] :is(.k-gate, .k-wicket, .k-fence), .tpl-gate .gate-plan[data-pk='2'] :is(.k-gate, .k-wicket, .k-fence, .k-canopy), .tpl-gate .gate-plan[data-pk='3'] .k-motor { color: var(--accent); }
+@media (max-width: 860px) { .tpl-gate .gate-plan__body { grid-template-columns: minmax(0, 1fr); } .tpl-gate .gate-plan__sheet { position: static; order: -1; } }
+
+/* ───────── паспорт объекта ───────── */
+.tpl-gate .gate-passport { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-gate .gate-passport__board { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 4vw, 64px); padding: clamp(24px, 4vw, 56px); background: var(--accent); color: #fff; outline: 2px solid rgba(255, 255, 255, .7); outline-offset: -12px; }
+.tpl-gate .gate-passport .gate-label { color: #bfe6cf; }
+.tpl-gate .gate-passport__head { display: grid; gap: 14px; align-content: start; }
+.tpl-gate .gate-passport__total { margin: 18px 0 0; display: grid; gap: 4px; }
+.tpl-gate .gate-passport__total b { font: 600 clamp(64px, 8vw, 128px)/.9 var(--font-display); }
+.tpl-gate .gate-passport__total span { font: 500 12px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: #bfe6cf; }
+.tpl-gate .gate-passport__rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+.tpl-gate .gate-passport__line { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.tpl-gate .gate-passport__line h3 { margin: 0; font: 600 clamp(17px, 1.4vw, 21px)/1.2 var(--font-display); }
+.tpl-gate .gate-passport__line span { font: 700 15px/1 var(--mono); }
+.tpl-gate .gate-passport__bar { height: 8px; margin: 10px 0 8px; background: rgba(255, 255, 255, .18); }
+.tpl-gate .gate-passport__bar i { display: block; width: var(--p); height: 100%; background: #fff; transform-origin: 0 50%; }
+.tpl-gate .gate-passport__rows li.is-done .gate-passport__bar i { background: #bfe6cf; }
+.tpl-gate .gate-passport__rows li.is-next { opacity: .72; }
+.tpl-gate .gate-passport__rows p { margin: 0; font-size: 14px; color: #d8eee1; }
+@media (max-width: 860px) { .tpl-gate .gate-passport__board { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── цифры между столбами ───────── */
+.tpl-gate .gate-stats { padding: 0 var(--pad) clamp(56px, 8vw, 120px); }
+.tpl-gate .gate-stats dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px 0; }
+.tpl-gate .gate-stats dl > div { display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 8px; padding: 6px 22px; border-left: 6px solid var(--steel); }
+.tpl-gate .gate-stats dd { margin: 0; font: 600 clamp(48px, 5vw, 80px)/.95 var(--font-display); }
+.tpl-gate .gate-stats dd small { margin-left: 6px; font: 600 14px/1 var(--mono); color: var(--accent); }
+.tpl-gate .gate-stats dt { font-size: 15px; color: var(--muted); }
+
+/* ───────── дополнительно ───────── */
+.tpl-gate .gate-extras { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-gate .gate-extras__list { list-style: none; margin: 0; padding: 0; max-width: 1080px; border-top: 2px solid var(--fg); }
+.tpl-gate .gate-extras__list li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 18px; align-items: start; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.tpl-gate .gate-extras__list i { position: relative; width: 22px; height: 22px; margin-top: 3px; border: 2px solid var(--accent); }
+.tpl-gate .gate-extras__list i::before, .tpl-gate .gate-extras__list i::after { content: ''; position: absolute; left: 4px; right: 4px; top: 8px; height: 2px; background: var(--accent); }
+.tpl-gate .gate-extras__list i::after { rotate: 90deg; }
+.tpl-gate .gate-extras__list h3 { margin: 0; font: 600 clamp(18px, 1.4vw, 22px)/1.2 var(--font-display); }
+.tpl-gate .gate-extras__list p { margin: 4px 0 0; color: var(--muted); }
+.tpl-gate .gate-extras__list b { font: 700 14px/1.6 var(--mono); white-space: nowrap; text-align: right; }
+@media (max-width: 620px) { .tpl-gate .gate-extras__list li { grid-template-columns: 22px minmax(0, 1fr); } .tpl-gate .gate-extras__list b { grid-column: 2; text-align: left; } }
+
+/* ───────── работы с табличками ───────── */
+.tpl-gate .gate-gallery { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-gate .gate-gallery__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(12px, 1.6vw, 22px); }
+.tpl-gate .gate-gallery__grid figure { position: relative; margin: 0; aspect-ratio: 4 / 5; overflow: hidden; }
+.tpl-gate .gate-gallery__grid .media { width: 100%; height: 100%; object-fit: cover; }
+.tpl-gate .gate-gallery__grid figcaption { position: absolute; left: 12px; right: 12px; bottom: 12px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: center; padding: 10px 12px; background: var(--accent); color: #fff; outline: 1.5px solid #fff; outline-offset: -5px; font-size: 13px; line-height: 1.3; font-weight: 600; }
+.tpl-gate .gate-gallery__grid figcaption span { font: 600 24px/1 var(--font-display); }
+@media (max-width: 900px) { .tpl-gate .gate-gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ───────── вопросы ───────── */
+.tpl-gate .gate-faq { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(24px, 4vw, 64px); padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-gate .gate-faq__list { border-top: 2px solid var(--fg); }
+.tpl-gate .gate-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-gate .gate-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 64px; cursor: pointer; list-style: none; font: 600 clamp(17px, 1.3vw, 20px)/1.3 var(--font-display); }
+.tpl-gate .gate-faq__item summary::-webkit-details-marker { display: none; }
+.tpl-gate .gate-faq__item summary i { flex: none; width: 26px; height: 26px; background: linear-gradient(var(--fg), var(--fg)) center / 12px 2px no-repeat, linear-gradient(var(--fg), var(--fg)) center / 2px 12px no-repeat; border: 2px solid var(--fg); transition: rotate .35s var(--soft), background-color .2s ease; }
+.tpl-gate .gate-faq__item[open] summary i { rotate: 45deg; }
+.tpl-gate .gate-faq__item p { margin: 0; padding: 0 0 22px; max-width: 60ch; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+@media (max-width: 820px) { .tpl-gate .gate-faq { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── связь ───────── */
+.tpl-gate .gate-contact { position: relative; padding: clamp(64px, 9vw, 140px) var(--pad); background: var(--steel); color: #e8ece6; overflow: hidden; }
+.tpl-gate .gate-contact__slats { position: absolute; top: 0; bottom: 0; right: 0; width: 38%; background: repeating-linear-gradient(180deg, #3d4440 0 22px, #1d211f 22px 28px); -webkit-mask: linear-gradient(90deg, transparent, #000 40%); mask: linear-gradient(90deg, transparent, #000 40%); }
+.tpl-gate .gate-contact__inner { position: relative; display: grid; gap: 22px; max-width: 860px; }
+.tpl-gate .gate-contact .gate-label { color: #9fd3b8; }
+.tpl-gate .gate-contact__title { margin: 0; font: 600 clamp(36px, 5.4vw, 86px)/1 var(--font-display); letter-spacing: -.02em; }
+.tpl-gate .gate-contact__text { margin: 0; max-width: 36em; color: #c3ccc5; }
+@media (max-width: 760px) { .tpl-gate .gate-contact__slats { width: 100%; opacity: .25; } }
+
+/* ───────── подвал ───────── */
+.tpl-gate .gate-foot { padding: clamp(40px, 5vw, 72px) var(--pad) 28px; }
+.tpl-gate .gate-foot__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px 40px; }
+.tpl-gate .gate-foot__head p { margin: 0; color: var(--muted); max-width: 32em; }
+.tpl-gate .gate-foot__head .gate-foot__logo { font: 600 clamp(36px, 5vw, 72px)/1 var(--font-display); color: var(--fg); }
+.tpl-gate .gate-foot__facts { margin: 28px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 0; border-top: 2px solid var(--fg); }
+.tpl-gate .gate-foot__facts > div { padding: 16px 16px 16px 0; }
+.tpl-gate .gate-foot__facts dt { font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+.tpl-gate .gate-foot__facts dd { margin: 8px 0 0; display: grid; gap: 4px; }
+.tpl-gate .gate-foot a { color: inherit; }
+.tpl-gate .gate-foot__legal { margin: 24px 0 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font: 400 12px/1.3 var(--mono); color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .tpl-gate *, .tpl-gate *::before, .tpl-gate *::after { animation-duration: .01ms !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
