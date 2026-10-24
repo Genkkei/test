@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'hearth',
-  name: 'hearth',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'hearth' },
+  name: 'Устье',
+  inspiredBy: 'howtotalktowhitekidsaboutracism.com (один предмет в темноте), unbelievablycrap.com (метки моно, плотный HUD)',
+  mood: 'Тёмный зал, свет только от печи',
+  niches: ['Пиццерия', 'пекарня с печью', 'гриль'],
+  defaultTheme: { bg: '#130f0c', fg: '#f6ead8', accent: '#e63b1e', muted: '#a8927c', surface: '#1f1813', line: '#3a2c22', display: 'Dela Gothic One', body: 'Rubik', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#130f0c', fg: '#f6ead8', accent: '#e63b1e', word: 'Устье' },
 }

@@ -67,7 +67,7 @@
   "nav": {
     "cta": {
       "label": "Telegram дропов",
-      "href": "https://t.me/krossovka_drops"
+      "href": "https://t.me/yourcompany"
     }
   },
   "listing": {
@@ -86,7 +86,7 @@
       "words": [],
       "cta": {
         "label": "Участвовать в розыгрыше",
-        "href": "https://t.me/krossovka_drops"
+        "href": "https://t.me/yourcompany"
       },
       "ctaSecondary": {
         "label": "Релизы",
@@ -459,7 +459,7 @@
       "text": "Magic City, второй этаж, у фонтана. Подпишитесь на Telegram, чтобы не пропустить субботний дроп.",
       "cta": {
         "label": "Telegram дропов",
-        "href": "https://t.me/krossovka_drops"
+        "href": "https://t.me/yourcompany"
       },
       "enabled": true
     }

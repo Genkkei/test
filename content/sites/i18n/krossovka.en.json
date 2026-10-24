@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Drops on Telegram",
-      "href": "https://t.me/krossovka_drops"
+      "href": "https://t.me/yourcompany"
     }
   },
   "listing": {
@@ -54,7 +54,7 @@
       "words": [],
       "cta": {
         "label": "Enter the raffle",
-        "href": "https://t.me/krossovka_drops"
+        "href": "https://t.me/yourcompany"
       },
       "ctaSecondary": {
         "label": "Releases",
@@ -312,7 +312,7 @@
       "text": "Magic City, second floor, by the fountain. Follow us on Telegram so you never miss a Saturday drop.",
       "cta": {
         "label": "Drops on Telegram",
-        "href": "https://t.me/krossovka_drops"
+        "href": "https://t.me/yourcompany"
       }
     },
     {

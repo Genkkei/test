@@ -1,6 +1,6 @@
 {
   "slug": "forno",
-  "template": "crust",
+  "template": "hearth",
   "name": "Ваша компания",
   "tagline": "Неаполитанская пицца из печи на 450 градусов — горячей до двери за 35 минут",
   "niche": "Пиццерия с доставкой по Ташкенту",
@@ -8,15 +8,16 @@
     "forno.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#fff3e2",
-    "fg": "#1d1a16",
+    "bg": "#130f0c",
+    "fg": "#f6ead8",
     "accent": "#e63b1e",
-    "muted": "#76685a",
-    "surface": "#ffe1b8",
-    "line": "#1d1a16",
+    "muted": "#a8927c",
+    "surface": "#1f1813",
+    "line": "#3a2c22",
     "display": "Dela Gothic One",
     "body": "Rubik",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "Restaurant",
@@ -92,10 +93,11 @@
         "label": "Как доставляем",
         "href": "#process"
       },
-      "image": "",
+      "image": "/media/forno-613c2cdc448a9ba3b64b.webp",
       "enabled": true,
       "anchor": "",
-      "label": ""
+      "label": "",
+      "video": "/media/forno-760b22bcb608950436ba.mp4"
     },
     {
       "id": "mq",
@@ -120,7 +122,7 @@
       "label": "Пиццерия",
       "title": "Одна печь, три пиццайоло и никакой спешки в тесте",
       "text": "Мы привезли печь из Неаполя в 2020 году и с тех пор не меняли рецепт: мука 00, вода, соль и закваска. Края пиццы раздуваются пузырями и чуть подгорают — так и должно быть. Всё, что не помещается в печь, мы не готовим: нет роллов, нет бургеров, только пицца, салат и тирамису.",
-      "image": "",
+      "image": "/media/forno-a208951da40e8e7e37a6.webp",
       "enabled": true
     },
     {
@@ -136,22 +138,26 @@
             {
               "name": "Маргарита",
               "text": "Томаты San Marzano, моцарелла, базилик",
-              "price": "79 000 сум"
+              "price": "79 000 сум",
+              "image": "/media/forno-cf38d49cc4161c1e0554.webp"
             },
             {
               "name": "Пепперони",
               "text": "Говяжья пепперони, моцарелла, орегано",
-              "price": "95 000 сум"
+              "price": "95 000 сум",
+              "image": "/media/forno-9df39ade3faed54e7fa7.webp"
             },
             {
               "name": "Четыре сыра",
               "text": "Моцарелла, горгонзола, пармезан, сулугуни",
-              "price": "105 000 сум"
+              "price": "105 000 сум",
+              "image": "/media/forno-8b926041cfaf6c00c958.webp"
             },
             {
               "name": "Дьявола",
               "text": "Острая колбаса, чили, мёд",
-              "price": "99 000 сум"
+              "price": "99 000 сум",
+              "image": "/media/forno-86d141ad5284be6f2a53.webp"
             }
           ]
         },
@@ -161,12 +167,14 @@
             {
               "name": "Тыква и шалфей",
               "text": "Печёная тыква, рикотта, жареный шалфей",
-              "price": "92 000 сум"
+              "price": "92 000 сум",
+              "image": "/media/forno-7f04546c6e500e5953e7.webp"
             },
             {
               "name": "Трюфельная",
               "text": "Грибы, трюфельный крем, яйцо",
-              "price": "118 000 сум"
+              "price": "118 000 сум",
+              "image": "/media/forno-5c5e0443710f0ac48e9f.webp"
             }
           ]
         },
@@ -176,12 +184,14 @@
             {
               "name": "Цезарь",
               "text": "Ромэн, курица, пармезан",
-              "price": "58 000 сум"
+              "price": "58 000 сум",
+              "image": "/media/forno-898ea5b1dfc771ade354.webp"
             },
             {
               "name": "Тирамису",
               "text": "В баночке, с собой",
-              "price": "36 000 сум"
+              "price": "36 000 сум",
+              "image": "/media/forno-d15b2dd91cec5b36f7ea.webp"
             }
           ]
         }
@@ -304,7 +314,7 @@
       "text": "Закажите в Telegram-боте — он покажет, где курьер. Или заходите на Бабура, 77: пицца с собой через десять минут.",
       "cta": {
         "label": "Заказать в Telegram",
-        "href": "https://t.me/forno_uz_bot"
+        "href": "https://t.me/yourcompany"
       },
       "enabled": true
     }
@@ -708,5 +718,21 @@
       "name": "",
       "role": "Заказы для офисов"
     }
+  },
+  "craft": {
+    "concept": "Печь как сцена: тёмный зал, всё проявляется жаром устья",
+    "label": "Martian Mono",
+    "skeleton": "oven-mouth",
+    "signature": "ember-reveal",
+    "sequence": [
+      "heat",
+      "rim-draw",
+      "fire",
+      "title-cool",
+      "gauges",
+      "ticket"
+    ],
+    "ease": "0.625,0.05,0,1",
+    "surface": "order-ticket"
   }
 }

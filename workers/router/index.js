@@ -15,7 +15,7 @@ const FILES = {
   '/sitemap.xml': '/sitemap.xml',
   '/robots.txt': '/robots.txt',
 }
-const PASS = ['/_next/', '/tpl/', '/admin', '/api/', '/media/', '/favicon.ico']
+const PASS = ['/_next/', '/tpl/', '/fonts/', '/admin', '/api/', '/media/', '/favicon.ico']
 
 // Кэш страниц (KV PAGES, если привязан). Конструктор собирает страницу на каждый запрос — 0,5–2 с до
 // первого байта; маршрутизатор отдаёт готовую из KV сразу, а не старше FRESH — обновляет в фоне
@@ -78,7 +78,7 @@ async function render(request, env, url, slug) {
     if (fixed != null) out.headers.set('location', fixed)
   }
   // файлы сборки с хэшем в имени не меняются никогда — браузер не переспрашивает их на каждом заходе
-  if ((url.pathname.startsWith('/_next/static/') || url.pathname.startsWith('/tpl/')) && out.status === 200) out.headers.set('cache-control', 'public, max-age=31536000, immutable')
+  if ((url.pathname.startsWith('/_next/static/') || url.pathname.startsWith('/tpl/') || url.pathname.startsWith('/fonts/')) && out.status === 200) out.headers.set('cache-control', 'public, max-age=31536000, immutable')
   if (!(out.headers.get('content-type') || '').includes('text/html')) return out
   return new HTMLRewriter()
     .on('a[href]', new Links(slug, 'href'))

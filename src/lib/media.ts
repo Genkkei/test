@@ -17,14 +17,19 @@ export function sniffImage(bytes: Uint8Array) {
   return TYPES.find((t) => t.test(bytes)) ?? null
 }
 
+// видео и превью к нему кладёт только scripts/media.mjs (стоки и генерация), через админку их не загрузить
+const SERVE_ONLY: Record<string, string> = { mp4: 'video/mp4', webm: 'video/webm' }
+
 export function mimeOf(file: string): string | null {
   const ext = file.split('.').pop()?.toLowerCase()
-  return TYPES.find((t) => t.ext === ext)?.mime ?? null
+  return TYPES.find((t) => t.ext === ext)?.mime ?? (ext ? SERVE_ONLY[ext] ?? null : null)
 }
 
+type R2Body = { arrayBuffer(): Promise<ArrayBuffer>; body: ReadableStream; size: number; range?: { offset: number; length: number } }
 type R2 = {
   put(k: string, v: Uint8Array, o?: { httpMetadata?: { contentType?: string } }): Promise<unknown>
-  get(k: string): Promise<{ arrayBuffer(): Promise<ArrayBuffer> } | null>
+  get(k: string, o?: { range?: { offset: number; length?: number } | { suffix: number } }): Promise<R2Body | null>
+  head(k: string): Promise<{ size: number } | null>
 }
 
 async function bucket(): Promise<R2> {
@@ -52,6 +57,43 @@ export async function mediaGet(name: string): Promise<Uint8Array | null> {
     }
     const { readFile } = await import('node:fs/promises')
     return new Uint8Array(await readFile(path.join(/*turbopackIgnore: true*/ MEDIA_DIR, name)))
+  } catch {
+    return null
+  }
+}
+
+/** Файл частями (заголовок Range): без этого Safari не играет видео. На Cloudflare — поток из R2. */
+export async function mediaRange(name: string, range: string | null): Promise<{ body: BodyInit; size: number; start: number; end: number } | null> {
+  const m = range?.match(/^bytes=(\d*)-(\d*)$/)
+  try {
+    if (process.env.ATLAS_STORE === 'd1') {
+      const b = await bucket()
+      const head = await b.head(name)
+      if (!head) return null
+      const size = head.size
+      let start = 0
+      let end = size - 1
+      if (m) {
+        if (m[1]) start = Number(m[1])
+        if (m[2]) end = Math.min(Number(m[2]), size - 1)
+        if (!m[1] && m[2]) { start = Math.max(0, size - Number(m[2])); end = size - 1 }
+      }
+      if (start > end || start >= size) return null
+      const obj = await b.get(name, { range: { offset: start, length: end - start + 1 } })
+      return obj ? { body: obj.body, size, start, end } : null
+    }
+    const bytes = await mediaGet(name)
+    if (!bytes) return null
+    const size = bytes.length
+    let start = 0
+    let end = size - 1
+    if (m) {
+      if (m[1]) start = Number(m[1])
+      if (m[2]) end = Math.min(Number(m[2]), size - 1)
+      if (!m[1] && m[2]) { start = Math.max(0, size - Number(m[2])); end = size - 1 }
+    }
+    if (start > end || start >= size) return null
+    return { body: bytes.slice(start, end + 1) as unknown as BodyInit, size, start, end }
   } catch {
     return null
   }

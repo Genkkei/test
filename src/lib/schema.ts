@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { brandSchema } from './brand'
+import { craftSchema } from './craft'
 
 /*
  * Один сайт = один JSON. Шаблон решает, КАК выглядит секция, данные решают, ЧТО в ней.
@@ -15,6 +16,8 @@ const href = z.string().default('').transform((v) => { const t = v.trim(); retur
 const SAFE_IMG = /^(https?:\/\/|\/(?!\/)|data:image\/(png|jpe?g|webp|gif|avif);)/i
 const image = z.string().default('').transform((v) => { const t = v.trim(); return t === '' || SAFE_IMG.test(t) ? t : '' })
 const link = z.object({ label: text, href }).default({ label: '', href: '' })
+/** видео — только свои файлы /media/… (scripts/media.py: стоки и генерация), чужие адреса не принимаются */
+const video = z.string().default('').transform((v) => { const t = v.trim(); return /^\/media\/[a-z0-9-]+\.(mp4|webm)$/.test(t) ? t : '' })
 
 const base = {
   id: z.string(),
@@ -34,6 +37,8 @@ export const sectionSchemas = {
     cta: link,
     ctaSecondary: link,
     image: image,
+    /** фоновое видео первого экрана (без звука, по кругу); постер — image */
+    video,
     words: z.array(z.string()).default([]),
   }),
   marquee: z.object({ ...base, type: z.literal('marquee'), items: z.array(z.string()).default([]) }),
@@ -82,7 +87,7 @@ export const sectionSchemas = {
     ...base,
     type: z.literal('menu'),
     groups: z
-      .array(z.object({ name: text, items: z.array(z.object({ name: text, text, price: text })).default([]) }))
+      .array(z.object({ name: text, items: z.array(z.object({ name: text, text, price: text, image: image })).default([]) }))
       .default([]),
   }),
   gallery: z.object({
@@ -286,6 +291,7 @@ export const siteSchema = z.object({
   sections: z.array(sectionSchema),
   /** бренд и айдентика (lib/brand.ts); пусто — у шаблона его собственная надпись */
   brand: brandSchema.optional(),
+  craft: craftSchema.optional(),
   updatedAt: z.string().default(''),
   /** основной язык сайта; заполняется только у языковой версии (перевод поверх основного) */
   baseLang: z.string().optional(),

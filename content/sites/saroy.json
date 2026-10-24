@@ -86,7 +86,7 @@
       "words": [],
       "cta": {
         "label": "Проверить даты",
-        "href": "https://t.me/saroysuites"
+        "href": "https://t.me/yourcompany"
       },
       "ctaSecondary": {
         "label": "",
@@ -324,7 +324,7 @@
       "text": "Напишите даты и число гостей — ответим в течение часа и подтвердим номер.",
       "cta": {
         "label": "Написать в Telegram",
-        "href": "https://t.me/saroysuites"
+        "href": "https://t.me/yourcompany"
       }
     }
   ],

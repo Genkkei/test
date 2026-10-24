@@ -1,3 +1,4 @@
+import { FONT_CATEGORY, FONT_CSS } from './fonts.generated'
 /*
  * Шрифты лежат локально (@fontsource), из сети при сборке не скачиваются.
  * Все — с кириллицей: сайты русскоязычные, и латинская гарнитура без кириллицы
@@ -33,6 +34,14 @@ export const FONTS = {
 export type FontName = keyof typeof FONTS
 export const FONT_NAMES = Object.keys(FONTS) as FontName[]
 
+// запасной шрифт — того же рода, пока грузится свой (у засечек — засечки, у моно — моно)
+const FALLBACK: Record<string, string> = { serif: 'Georgia, serif', monospace: 'ui-monospace, monospace', handwriting: 'cursive', display: 'system-ui, sans-serif', 'sans-serif': 'system-ui, sans-serif' }
+
 export function fontStack(name: string): string {
-  return FONTS[name as FontName] ?? `'${name}', sans-serif`
+  return FONTS[name as FontName] ?? `'${name}', ${FALLBACK[FONT_CATEGORY[name]] ?? 'sans-serif'}`
+}
+
+/** Таблицы стилей шрифтов сайта, которых нет в общем наборе (scripts/fonts.mjs → public/fonts). */
+export function fontLinks(names: (string | undefined)[]): string[] {
+  return [...new Set(names.filter((n): n is string => !!n && !(n in FONTS) && !!FONT_CSS[n]).map((n) => FONT_CSS[n]))]
 }

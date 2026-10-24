@@ -56,7 +56,7 @@
       "words": [],
       "cta": {
         "label": "Check dates",
-        "href": "https://t.me/saroysuites"
+        "href": "https://t.me/yourcompany"
       },
       "ctaSecondary": {
         "label": "",
@@ -276,7 +276,7 @@
       "text": "Send your dates and number of guests — we reply within an hour and confirm the room.",
       "cta": {
         "label": "Message on Telegram",
-        "href": "https://t.me/saroysuites"
+        "href": "https://t.me/yourcompany"
       }
     }
   ]
