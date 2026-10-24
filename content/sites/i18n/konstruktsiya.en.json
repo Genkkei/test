@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Book",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Book an engineer",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Projects",

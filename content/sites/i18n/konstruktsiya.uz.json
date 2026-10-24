@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Muhandis",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Muhandisni chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Obyektlar",

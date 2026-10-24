@@ -1,6 +1,6 @@
 {
   "slug": "konstruktsiya",
-  "template": "plinth",
+  "template": "blueprint",
   "name": "Ваша компания",
   "tagline": "Проектируем и монтируем металлоконструкции",
   "niche": "Проектирование и монтаж металлоконструкций: лестницы, антресоли, каркасы",
@@ -15,9 +15,10 @@
     "muted": "#8aa1b8",
     "surface": "#16304a",
     "line": "#2d4a66",
-    "display": "Exo 2",
-    "body": "JetBrains Mono",
-    "motion": 1
+    "display": "IBM Plex Mono",
+    "body": "Sofia Sans",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Вызвать инженера",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -99,7 +100,7 @@
       ],
       "cta": {
         "label": "Вызвать инженера",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Объекты",
@@ -154,7 +155,7 @@
           "category": "Коммерция",
           "year": "2026",
           "text": "Второй уровень для стеллажей интернет-магазина · Площадь: 320 м² · Нагрузка: 500 кг/м² · Срок: 4 недели",
-          "image": "",
+          "image": "/media/konstruktsiya-cef14ecb6cc655d5a50e.webp",
           "href": ""
         },
         {
@@ -162,7 +163,7 @@
           "category": "Частный дом",
           "year": "2025",
           "text": "П-образная на косоурах под облицовку дубом · Этажей: 3 · Срок: 3 недели",
-          "image": "",
+          "image": "/media/konstruktsiya-7fcc5a524ca733db1fd9.webp",
           "href": ""
         },
         {
@@ -170,7 +171,7 @@
           "category": "Пристройка",
           "year": "2025",
           "text": "Лёгкий стальной каркас на существующие стены · Площадь: 64 м² · Срок: 5 недель",
-          "image": "",
+          "image": "/media/konstruktsiya-293f45ed67f5e90c4c26.webp",
           "href": ""
         },
         {
@@ -178,7 +179,7 @@
           "category": "Общепит",
           "year": "2024",
           "text": "Каркас летней террасы с раздвижной кровлей · Площадь: 140 м² · Срок: 6 недель",
-          "image": "",
+          "image": "/media/konstruktsiya-6186f5addeba5fbfb720.webp",
           "href": ""
         }
       ]
@@ -191,7 +192,7 @@
       "label": "Компания",
       "title": "Инженеры, которые сами стоят на монтаже",
       "text": "В команде два инженера-конструктора, свой цех на 600 м² и две монтажные бригады. Расчёт делаем по нормам КМК, на каждый объект выдаём паспорт с чертежами и актом скрытых работ — пригодится для приёмки и продажи дома.",
-      "image": ""
+      "image": "/media/konstruktsiya-d42407c68e1cf4647dec.webp"
     },
     {
       "id": "process",
@@ -292,5 +293,23 @@
         "href": "tel:+998712000404"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Расчётная схема антресоли: оси, каркас, нагрузка падает на балку, балка прогибается, эпюра, штамп проверки; слова заголовка подчёркиваются по стадиям; этапы — диаграмма Ганта, услуги — спецификация",
+    "label": "JetBrains Mono",
+    "skeleton": "calc-sheet-split",
+    "signature": "load-deflect-check",
+    "sequence": [
+      "axes",
+      "frame",
+      "dims",
+      "load-arrows",
+      "beam-bend",
+      "epure",
+      "check-stamp",
+      "tabs"
+    ],
+    "ease": "0.65,0,0.35,1",
+    "surface": "spec-table"
+  }
 }
