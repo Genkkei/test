@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'axis',
-  name: 'axis',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'axis' },
+  name: 'Ось',
+  inspiredBy: 'стойка бара на двенадцать мест как ось всей страницы; фраза, которую договаривает барабан (как табло на вокзале); бокалы-разрезы с слоями напитка; чёрная дверь без вывески; haoqi.design (кривая .66,0,.01,1)',
+  mood: 'Полумрак, медь, медленный вечер',
+  niches: ['Премиальный кофейный бар', 'безалкогольный бар', 'авторская кухня'],
+  defaultTheme: { bg: '#120d0b', fg: '#f3e9de', accent: '#d0603a', muted: '#9c8b7e', surface: '#1c1512', line: '#2e2420', display: 'Poiret One', body: 'Jost', motion: 1 },
+  art: 'orbit',
+  preview: { bg: '#120d0b', fg: '#f3e9de', accent: '#d0603a', word: 'Стойка' },
 }

@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Reserve",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -54,7 +54,7 @@
       ],
       "cta": {
         "label": "Reserve the bar",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Drinks",
@@ -251,7 +251,7 @@
       "text": "45 Babur St, side entrance, a black door with no sign. Until midnight, till 1 am on Fridays and weekends.",
       "cta": {
         "label": "Reserve",
-        "href": "#order"
+        "href": ""
       }
     },
     {

@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Band qilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -54,7 +54,7 @@
       ],
       "cta": {
         "label": "Peshtaxtani band qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Ichimliklar",
@@ -251,7 +251,7 @@
       "text": "Bobur, 45, kirish yon tomondan, peshlavhasiz qora eshik. Yarim tungacha, juma va dam olish kunlari — soat birgacha.",
       "cta": {
         "label": "Band qilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
