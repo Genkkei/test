@@ -1,6 +1,6 @@
 {
   "slug": "atelye",
-  "template": "atelier",
+  "template": "sketch",
   "name": "Ваша компания",
   "tagline": "Мебель по вашему эскизу — от салфетки с рисунком до готового предмета",
   "niche": "Мебельное ателье на заказ",
@@ -9,15 +9,16 @@
     "atelye.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#1d211d",
-    "fg": "#efe9dd",
-    "accent": "#c9a15b",
-    "muted": "#a39d8f",
-    "surface": "#262b26",
-    "line": "#3a403a",
-    "display": "Prata",
-    "body": "Jost",
-    "motion": 1
+    "bg": "#f4f1ea",
+    "fg": "#22201c",
+    "accent": "#3a5bd9",
+    "muted": "#7b766c",
+    "surface": "#ebe6dc",
+    "line": "#d9d2c5",
+    "display": "Brygada 1918",
+    "body": "Ysabeau",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -105,7 +106,8 @@
         "label": "Что мы делаем",
         "href": "#catalog"
       },
-      "image": ""
+      "image": "/media/atelye-89b10d84d4126ad3f57a.webp",
+      "sketch": "/media/atelye-52ea3b56459d153fced8.webp"
     },
     {
       "id": "shop",
@@ -121,7 +123,7 @@
           "text": "Шпон ореха, 80 см.",
           "price": 1938000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-93ad844e75c9d4edce7a.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -131,7 +133,7 @@
           "text": "Доводчики, ЛДСП + дуб.",
           "price": 2754000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-e9848f1ab1a75023ea52.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -141,7 +143,7 @@
           "text": "Пять полок, металл и дерево.",
           "price": 1632000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-8b788e3c9845e4a42821.webp",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
@@ -151,7 +153,7 @@
           "text": "Массив сосны, ортопедическое основание.",
           "price": 4896000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-ee4a01978665b42815ea.webp",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
@@ -161,7 +163,7 @@
           "text": "Ящик и ниша.",
           "price": 806000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-b423f0e868113cafb7fc.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -171,7 +173,7 @@
           "text": "Фасады с рифлением, скрытый кабель-канал.",
           "price": 3162000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-0addd9b40127e27cc8be.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -181,7 +183,7 @@
           "text": "120×60, ящик для мелочей.",
           "price": 1734000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/atelye-ff73b03b709ce69393ae.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -191,7 +193,7 @@
           "text": "Рама из дуба, 170 см.",
           "price": 1275000,
           "oldPrice": 1530000,
-          "image": "",
+          "image": "/media/atelye-043fbd66b9de6cddd29c.webp",
           "category": "Декор",
           "badge": "Скидка",
           "unit": "шт"
@@ -206,7 +208,7 @@
       "label": "Ателье",
       "title": "Мебель, которую не найти в салоне",
       "text": "Мы не продаём готовые модели — каждый предмет начинается с вашего рисунка.\nКонструктор переводит эскиз в чертёж, подбирает породу дерева, фурнитуру и ткань, а вы утверждаете 3D до того, как мы распилим первую доску. Работаем с дубом, ясенем, орехом и шпоном, отделка — масло, воск или матовый лак.",
-      "image": ""
+      "image": "/media/atelye-a0e5bd26217bcf00386b.webp"
     },
     {
       "id": "mq",
@@ -329,23 +331,23 @@
       "items": [
         {
           "caption": "Стол из дуба на 8 персон",
-          "image": ""
+          "image": "/media/atelye-4fb4cb050fea459765aa.webp"
         },
         {
           "caption": "Комод с латунными ручками",
-          "image": ""
+          "image": "/media/atelye-39e56beb3d11843c8cc4.webp"
         },
         {
           "caption": "Библиотека в кабинете",
-          "image": ""
+          "image": "/media/atelye-914d09b22dea8f1512ac.webp"
         },
         {
           "caption": "Кровать в букле",
-          "image": ""
+          "image": "/media/atelye-681731f24ab71bd0a0d7.webp"
         },
         {
           "caption": "ТВ-зона из ореха",
-          "image": ""
+          "image": "/media/atelye-9f47dddab65e3c2ee8bc.webp"
         }
       ]
     },
@@ -417,5 +419,21 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Чертёжный лист ателье: карандашный эскиз проявляется в фото готовой вещи, под курсором вещь снова становится эскизом",
+    "label": "Roboto Mono",
+    "skeleton": "drawing-sheet",
+    "signature": "pencil-to-photo",
+    "sequence": [
+      "paper",
+      "frame-draw",
+      "pencil-hatch",
+      "dimension",
+      "photo-develop",
+      "stamp"
+    ],
+    "ease": "0.23,1,0.32,1",
+    "surface": "title-block"
+  }
 }

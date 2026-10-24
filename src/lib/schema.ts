@@ -39,6 +39,8 @@ export const sectionSchemas = {
     image: image,
     /** фоновое видео первого экрана (без звука, по кругу); постер — image */
     video,
+    /** второй слой того же предмета — карандашный эскиз (шаблон «Эскиз» проявляет из него фото) */
+    sketch: image,
     words: z.array(z.string()).default([]),
   }),
   marquee: z.object({ ...base, type: z.literal('marquee'), items: z.array(z.string()).default([]) }),

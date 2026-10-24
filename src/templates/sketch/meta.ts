@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'sketch',
-  name: 'sketch',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'sketch' },
+  name: 'Эскиз',
+  inspiredBy: 'shopify editions (рамки, которые чертятся), чертёжный лист с размерами и штампом, apple.com (один предмет крупно)',
+  mood: 'Чертёжный стол ателье: карандаш, калька, образцы шпона',
+  niches: ['Мебель на заказ', 'столярное ателье', 'дизайн интерьера'],
+  defaultTheme: { bg: '#f4f1ea', fg: '#22201c', accent: '#3a5bd9', muted: '#7b766c', surface: '#ebe6dc', line: '#d9d2c5', display: 'Brygada 1918', body: 'Ysabeau', motion: 1 },
+  art: 'grid',
+  preview: { bg: '#f4f1ea', fg: '#22201c', accent: '#3a5bd9', word: 'Эскиз' },
 }
