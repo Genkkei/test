@@ -42,7 +42,7 @@ export const sectionSchemas = {
     words: z.array(z.string()).default([]),
   }),
   marquee: z.object({ ...base, type: z.literal('marquee'), items: z.array(z.string()).default([]) }),
-  about: z.object({ ...base, type: z.literal('about'), text, image: image }),
+  about: z.object({ ...base, type: z.literal('about'), text, image: image, video }),
   services: z.object({
     ...base,
     type: z.literal('services'),

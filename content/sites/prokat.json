@@ -1,6 +1,6 @@
 {
   "slug": "prokat",
-  "template": "ledger",
+  "template": "stock",
   "lang": "ru",
   "name": "Ваша компания",
   "tagline": "Металлопрокат с порезкой и доставкой по Ташкенту",
@@ -9,15 +9,16 @@
     "prokat.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#eef1f4",
-    "fg": "#0f1720",
-    "accent": "#d9541a",
-    "muted": "#56616e",
-    "surface": "#e0e5ea",
-    "line": "#c6ced7",
-    "display": "Exo 2",
-    "body": "Inter Tight",
-    "motion": 1
+    "bg": "#111417",
+    "fg": "#e8ebee",
+    "accent": "#ff6b1a",
+    "muted": "#8b949d",
+    "surface": "#1a1e22",
+    "line": "#2b3138",
+    "display": "Alumni Sans",
+    "body": "PT Sans Narrow",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "Store",
@@ -102,8 +103,9 @@
         "label": "Прайс",
         "href": "#price"
       },
-      "image": "",
-      "enabled": true
+      "image": "/media/prokat-40efb76fbcd90f696eed.webp",
+      "enabled": true,
+      "video": "/media/prokat-f87aad54d46136e05156.mp4"
     },
     {
       "id": "shop",
@@ -119,7 +121,7 @@
           "text": "Пачка 5 кг.",
           "price": 209000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-aeda8e4a62f61b68dee1.webp",
           "category": "Арматура и уголок",
           "badge": "",
           "unit": "шт"
@@ -129,7 +131,7 @@
           "text": "Чёрная сталь, хлыст 6 м.",
           "price": 25000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-d4b9b8c40f9307ce4d2c.webp",
           "category": "Труба",
           "badge": "Хит",
           "unit": "м"
@@ -139,7 +141,7 @@
           "text": "Для навесов и ворот.",
           "price": 42000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-12b9bcf13cb23e10ed24.webp",
           "category": "Труба",
           "badge": "",
           "unit": "м"
@@ -149,7 +151,7 @@
           "text": "Столбы и несущие конструкции.",
           "price": 87000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-7b6aaf6a3d6fe06fde9c.webp",
           "category": "Труба",
           "badge": "",
           "unit": "м"
@@ -159,7 +161,7 @@
           "text": "1250×2500 мм.",
           "price": 759000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-903012d556fc96edd492.webp",
           "category": "Лист",
           "badge": "",
           "unit": "лист"
@@ -169,7 +171,7 @@
           "text": "1250×2500 мм, для кровли.",
           "price": 341000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-2fd74e3cc1762dba6f8a.webp",
           "category": "Лист",
           "badge": "",
           "unit": "лист"
@@ -179,7 +181,7 @@
           "text": "Рифлёная, хлыст 11,7 м.",
           "price": 10800,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-28018137347948ec0810.webp",
           "category": "Арматура и уголок",
           "badge": "Хит",
           "unit": "м"
@@ -189,7 +191,7 @@
           "text": "Равнополочный, 6 м.",
           "price": 37000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/prokat-bb1c181989f0472f7ff0.webp",
           "category": "Арматура и уголок",
           "badge": "",
           "unit": "м"
@@ -203,8 +205,9 @@
       "label": "О базе",
       "title": "Склад под открытым небом и цех порезки в одном месте",
       "text": "На площадке в Сергели держим ходовой прокат в наличии: трубы от 15×15 до 120×120, лист от 0,5 до 10 мм, арматуру и сортовой металл. Рядом — ленточная пила, гильотина и листогиб, поэтому заказ уходит уже нарезанным. Продаём и частникам на один навес, и бригадам на объект.",
-      "image": "",
-      "enabled": true
+      "image": "/media/prokat-f9deddf1013531642645.webp",
+      "enabled": true,
+      "video": "/media/prokat-e6efabcaa372c7a96c26.mp4"
     },
     {
       "id": "price",
@@ -431,5 +434,21 @@
       },
       "enabled": true
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Металлобаза как вокзал: табло цен на флажках, камера площадки, счётчики склада, рулетка вместо шагов",
+    "label": "Fira Mono",
+    "skeleton": "price-board",
+    "signature": "split-flap",
+    "sequence": [
+      "strip-line",
+      "blank-flaps",
+      "letters-drop",
+      "camera-on",
+      "counters",
+      "text"
+    ],
+    "ease": "0.66,0,0.01,1",
+    "surface": "departure-board"
+  }
 }

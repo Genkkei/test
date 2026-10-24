@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'stock',
-  name: 'stock',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'stock' },
+  name: 'Табло',
+  inspiredBy: 'вокзальное табло Solari (буквы на флажках), experience2026.funtech.inc (прибор: часы, камера, счётчики)',
+  mood: 'Металлобаза в 8 утра: табло цен, камера площадки, манипулятор под погрузкой',
+  niches: ['Металлобаза', 'стройматериалы', 'оптовый склад'],
+  defaultTheme: { bg: '#111417', fg: '#e8ebee', accent: '#ff6b1a', muted: '#8b949d', surface: '#1a1e22', line: '#2b3138', display: 'Alumni Sans', body: 'PT Sans Narrow', motion: 1 },
+  art: 'stripes',
+  preview: { bg: '#111417', fg: '#ffb238', accent: '#ff6b1a', word: 'ТАБЛО' },
 }
