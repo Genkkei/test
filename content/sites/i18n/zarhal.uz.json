@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Shourumga yozilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Shourumga yozilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Kolleksiyalar",
@@ -85,7 +85,7 @@
       "type": "about",
       "label": "Atelye",
       "title": "Meros qilib qoldiriladigan metall",
-      "text": "«Sizning kompaniyangiz» — oltin qoplash degani. Atelyeda uchta temirchi usta, zarbchi va moyli mordanga 23,75 karatli zarhal varaqni qo‘lda yopishtiradigan zarhalchi ishlaydi. Biz «oltin» bo‘yoqdan foydalanmaymiz: buyumlarimizdagi oltin — haqiqiy va vaqt o‘tishi bilan qoraymaydi.",
+      "text": "Atelyeda uchta temirchi usta, zarbchi va moyli mordanga 23,75 karatli zarhal varaqni qo‘lda yopishtiradigan zarhalchi ishlaydi. Biz «oltin» bo‘yoqdan foydalanmaymiz: buyumlarimizdagi oltin — haqiqiy va vaqt o‘tishi bilan qoraymaydi.",
       "image": ""
     },
     {
@@ -280,7 +280,7 @@
       "text": "Mirobod, Taras Shevchenko ko‘chasi, 34. Du–Ju 10:00–19:00, Sh 11:00–17:00, yozilish bo‘yicha.",
       "cta": {
         "label": "Shourumga yozilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -290,19 +290,19 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Panjara bo‘lagi, metr",
-          "text": "«Klassika» naqshi, o‘rnatish alohida.",
-          "price": 1177000,
+          "name": "«Samarqand» panjara qismi, p. m",
+          "text": "Bolg‘alangan jingalaklar, zarhal rozetkalar.",
+          "price": 6800000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Panjaralar",
           "badge": "",
           "unit": "m"
         },
         {
-          "name": "Bolg‘alangan shamdon",
-          "text": "Uchta sham uchun, qo‘lda bolg‘alangan.",
-          "price": 417000,
+          "name": "«Miraj» shamdoni",
+          "text": "Uch sham, patina ustidan zarhal.",
+          "price": 2400000,
           "oldPrice": 0,
           "image": "",
           "category": "Dekor",
@@ -310,39 +310,39 @@
           "unit": "dona"
         },
         {
-          "name": "Taqa kalitdon",
-          "text": "Besh ilmoq, omad uchun.",
-          "price": 193000,
+          "name": "«O‘choq» kamin to‘sig‘i",
+          "text": "Uch tavaqa, latun to‘r, eski bronza.",
+          "price": 14000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Kamin",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Kronshteynli tokcha",
-          "text": "Eman va qora metall, 80 sm.",
-          "price": 556000,
+          "name": "«Miraj» konsoli",
+          "text": "Zarhal bolg‘alangan asos, marmar ustki qism.",
+          "price": 22000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Mebel",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Loft devor ilgichi",
-          "text": "Olti ilmoq, kukun bo‘yoq.",
-          "price": 364000,
+          "name": "«Rozetka» bra",
+          "text": "Bolg‘alangan jingalak, 23,75 karat oltin.",
+          "price": 3900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Yoritish",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Vino tokchasi",
-          "text": "Olti shisha uchun.",
-          "price": 482000,
+          "name": "Bolg‘alangan ramkadagi oyna",
+          "text": "Oval 120 sm, zarhal barglar.",
+          "price": 9600000,
           "oldPrice": 0,
           "image": "",
           "category": "Dekor",
@@ -350,9 +350,9 @@
           "unit": "dona"
         },
         {
-          "name": "Osma gultuvak",
-          "text": "Bolg‘alangan halqa va zanjir.",
-          "price": 310000,
+          "name": "«Bog‘» gulton",
+          "text": "Bolg‘alangan halqa, zanjir, patina.",
+          "price": 1800000,
           "oldPrice": 0,
           "image": "",
           "category": "Bog‘ uchun",
@@ -361,8 +361,8 @@
         },
         {
           "name": "Uy raqami lavhasi",
-          "text": "Lazer kesish, sizning raqamingiz.",
-          "price": 374000,
+          "text": "Latunga zarb, oltin.",
+          "price": 2200000,
           "oldPrice": 0,
           "image": "",
           "category": "Dekor",

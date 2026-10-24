@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Visit the showroom",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Visit the showroom",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Collections",
@@ -85,7 +85,7 @@
       "type": "about",
       "label": "The atelier",
       "title": "Metal made to be handed down",
-      "text": "Your Company is Uzbek for gilding. The atelier has three smiths, a chaser and a gilder who lays 23.75-carat gold leaf by hand onto an oil size. We never use “gold” paint: the gold on our pieces is real and does not darken with time.",
+      "text": "The atelier has three smiths, a chaser and a gilder who lays 23.75-carat gold leaf by hand onto an oil size. We never use “gold” paint: the gold on our pieces is real and does not darken with time.",
       "image": ""
     },
     {
@@ -280,7 +280,7 @@
       "text": "34 Taras Shevchenko St, Mirabad. Mon–Fri 10:00–19:00, Sat 11:00–17:00, by appointment.",
       "cta": {
         "label": "Visit the showroom",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -290,19 +290,19 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Railing section, per metre",
-          "text": "“Classic” pattern, fitting extra.",
-          "price": 1177000,
+          "name": "“Samarkand” railing section, per m",
+          "text": "Forged scrolls, gilded rosettes.",
+          "price": 6800000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Railings",
           "badge": "",
           "unit": "m"
         },
         {
-          "name": "Forged candlestick",
-          "text": "Three candles, hand forged.",
-          "price": 417000,
+          "name": "“Mirage” candelabra",
+          "text": "Three candles, gold leaf over patina.",
+          "price": 2400000,
           "oldPrice": 0,
           "image": "",
           "category": "Decor",
@@ -310,39 +310,39 @@
           "unit": "pc"
         },
         {
-          "name": "Horseshoe key rack",
-          "text": "Five hooks, for luck.",
-          "price": 193000,
+          "name": "“Hearth” fireplace screen",
+          "text": "Three panels, brass mesh, antique bronze.",
+          "price": 14000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Fireplace",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Bracket shelf",
-          "text": "Oak and black steel, 80 cm.",
-          "price": 556000,
+          "name": "“Mirage” console",
+          "text": "Gilded forged base, marble top.",
+          "price": 22000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Furniture",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Loft wall hanger",
-          "text": "Six hooks, powder coat.",
-          "price": 364000,
+          "name": "“Rosette” sconce",
+          "text": "Forged scroll, 23.75-carat gold.",
+          "price": 3900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Lighting",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Wine rack",
-          "text": "Holds six bottles.",
-          "price": 482000,
+          "name": "Mirror in a forged frame",
+          "text": "Oval 120 cm, gilded leaves.",
+          "price": 9600000,
           "oldPrice": 0,
           "image": "",
           "category": "Decor",
@@ -350,9 +350,9 @@
           "unit": "pc"
         },
         {
-          "name": "Hanging planter",
-          "text": "Forged ring and chain.",
-          "price": 310000,
+          "name": "“Garden” planter",
+          "text": "Forged ring, chain, patina.",
+          "price": 1800000,
           "oldPrice": 0,
           "image": "",
           "category": "Garden",
@@ -360,9 +360,9 @@
           "unit": "pc"
         },
         {
-          "name": "House number plate",
-          "text": "Laser cut, your number.",
-          "price": 374000,
+          "name": "House number plaque",
+          "text": "Chased brass, gold.",
+          "price": 2200000,
           "oldPrice": 0,
           "image": "",
           "category": "Decor",
