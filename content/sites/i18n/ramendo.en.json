@@ -1,5 +1,5 @@
 {
-  "name": "Ramen Do",
+  "name": "Your Company",
   "tagline": "The broth simmers for eighteen hours, the noodles are made every morning",
   "niche": "Ramen bar and Japanese street food",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ramen Do — ramen bar in Tashkent open till 2 am",
+    "title": "Your Company — ramen bar in Tashkent open till 2 am",
     "description": "Tonkotsu, shoyu and miso ramen on an eighteen-hour broth, gyoza and takoyaki. Order at the ticket machine, open till 2:00 on weekends. Delivery across Tashkent.",
     "keywords": [
       "ramen Tashkent",
@@ -24,10 +24,10 @@
       "late-night food Tashkent",
       "ramen delivery"
     ],
-    "answer": "Ramen Do is a ramen bar at 59A Mustaqillik St in Tashkent, open from 12:00 to midnight and till 2:00 on Fridays and weekends. Tonkotsu ramen costs 79,000 UZS, shoyu 72,000 UZS, miso 74,000 UZS and gyoza 39,000 UZS. Order at the ticket machine by the door; delivery is available."
+    "answer": "Your Company is a ramen bar at 59A Mustaqillik St in Tashkent, open from 12:00 to midnight and till 2:00 on Fridays and weekends. Tonkotsu ramen costs 79,000 UZS, shoyu 72,000 UZS, miso 74,000 UZS and gyoza 39,000 UZS. Order at the ticket machine by the door; delivery is available."
   },
   "business": {
-    "legalName": "Ramen Do LLC",
+    "legalName": "Your Company LLC",
     "street": "59A Mustaqillik St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -48,7 +48,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Ramen Do",
+      "title": "Your Company",
       "eyebrow": "Ramen bar · Mustaqillik 59A · till 02:00",
       "subtitle": "The bone broth simmers for eighteen hours, noodles are pulled every morning and eggs marinate for a day. Grab a ticket at the machine and take a seat at the counter.",
       "words": [

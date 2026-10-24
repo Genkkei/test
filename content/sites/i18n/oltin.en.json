@@ -1,9 +1,9 @@
 {
-  "name": "Oltin Uy",
+  "name": "Your Company",
   "tagline": "Jewellery made to be handed down",
   "niche": "Jewellery house: engagement rings, gold collections and bespoke pieces",
   "seo": {
-    "title": "Oltin Uy — jewellery house in Tashkent: rings and bespoke gold",
+    "title": "Your Company — jewellery house in Tashkent: rings and bespoke gold",
     "description": "Engagement and wedding rings, earrings and necklaces in 14k and 18k gold with diamonds. Our own workshop: bespoke pieces, engraving, repairs.",
     "keywords": [
       "jewellery store Tashkent",
@@ -13,7 +13,7 @@
       "bespoke jeweller",
       "diamonds Tashkent"
     ],
-    "answer": "Oltin Uy is a jewellery house with its own workshop in Tashkent: 14k gold wedding rings from 2,900,000 UZS a pair, diamond engagement rings from 9,500,000 UZS, a piece to your own sketch from 3 weeks. Every diamond piece comes with a stone certificate."
+    "answer": "Your Company is a jewellery house with its own workshop in Tashkent: 14k gold wedding rings from 2,900,000 UZS a pair, diamond engagement rings from 9,500,000 UZS, a piece to your own sketch from 3 weeks. Every diamond piece comes with a stone certificate."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Oltin Uy Jewellery LLC",
+    "legalName": "Your Company LLC",
     "street": "107B Amir Temur Ave, ground-floor boutique",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -86,7 +86,7 @@
       "type": "about",
       "label": "The house",
       "title": "A family workshop that became a house",
-      "text": "Oltin Uy began with one workbench and two jeweller brothers in the old city. Today we have a boutique on Amir Temur and a six-bench workshop where every piece goes from wax model to final polish. We choose stones ourselves and show them under a loupe before you buy, and every piece gets free cleaning for life.",
+      "text": "Your Company began with one workbench and two jeweller brothers in the old city. Today we have a boutique on Amir Temur and a six-bench workshop where every piece goes from wax model to final polish. We choose stones ourselves and show them under a loupe before you buy, and every piece gets free cleaning for life.",
       "image": ""
     },
     {
@@ -178,7 +178,7 @@
         },
         {
           "title": "Cleaning and polishing",
-          "text": "Ultrasonic cleaning and polishing for Oltin Uy jewellery — free, for life.",
+          "text": "Ultrasonic cleaning and polishing for Your Company jewellery — free, for life.",
           "price": "free",
           "tag": "while you wait"
         }

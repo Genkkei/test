@@ -1,5 +1,5 @@
 {
-  "name": "Nord Studio",
+  "name": "Your Company",
   "tagline": "Brands you want to touch",
   "niche": "Creative agency: branding, websites, production",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Nord Studio — branding and digital agency in Tashkent",
+    "title": "Your Company — branding and digital agency in Tashkent",
     "description": "Identity, WebGL-animated websites and ad production for brands in Uzbekistan and Central Asia. Strategy, design and development — one team.",
     "keywords": [
       "branding Tashkent",
@@ -19,7 +19,7 @@
       "WebGL websites",
       "production"
     ],
-    "answer": "Nord Studio is a creative agency in Tashkent: brand strategy, identity, WebGL-animated websites and commercials. A branding project takes from 6 weeks and starts at $9,000; a website takes from 6 weeks and starts at $7,000."
+    "answer": "Your Company is a creative agency in Tashkent: brand strategy, identity, WebGL-animated websites and commercials. A branding project takes from 6 weeks and starts at $9,000; a website takes from 6 weeks and starts at $7,000."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Nord Studio LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Shota Rustaveli St.",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -219,7 +219,7 @@
       "title": "They trust us",
       "items": [
         {
-          "quote": "Nord turned scattered restaurants into one recognisable family. Guests now know us by the menu before they see the sign.",
+          "quote": "Your Company turned scattered restaurants into one recognisable family. Guests now know us by the menu before they see the sign.",
           "author": "Aziz Karimov",
           "role": "founder of Saffron Hall"
         },
@@ -265,8 +265,8 @@
       "title": "Let’s make something loud",
       "text": "Tell us about the task — we will reply within one working day.",
       "cta": {
-        "label": "hello@nord.studio",
-        "href": "mailto:hello@nord.studio"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Choyxona Bahor",
+  "name": "Your Company",
   "tagline": "Plov from the kazan, samsa from the tandoor and tea poured back three times",
   "niche": "Teahouse and national Uzbek cuisine",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Choyxona Bahor — plov and teahouse in Tashkent",
+    "title": "Your Company — plov and teahouse in Tashkent",
     "description": "Morning plov from the kazan, tandoor samsa, shurpa and green tea on topchans by the fountain. Banquets for up to 120 guests, delivery across Tashkent.",
     "keywords": [
       "plov Tashkent",
@@ -24,10 +24,10 @@
       "tandoor samsa",
       "banquet Tashkent"
     ],
-    "answer": "Choyxona Bahor is a teahouse at 18 Beshyogoch St in Tashkent, open daily from 8:00 to 23:00. Morning plov is served from 8:00 to 11:00 at 55,000 UZS a portion, tandoor samsa costs 14,000 UZS and a pot of green tea 12,000 UZS. A banquet hall for 120 guests and delivery across the city."
+    "answer": "Your Company is a teahouse at 18 Beshyogoch St in Tashkent, open daily from 8:00 to 23:00. Morning plov is served from 8:00 to 11:00 at 55,000 UZS a portion, tandoor samsa costs 14,000 UZS and a pot of green tea 12,000 UZS. A banquet hall for 120 guests and delivery across the city."
   },
   "business": {
-    "legalName": "Bahor Choyxona LLC",
+    "legalName": "Your Company LLC",
     "street": "18 Beshyogoch St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -48,7 +48,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Bahor",
+      "title": "Your Company",
       "eyebrow": "Teahouse · Beshyogoch · from 8 am",
       "subtitle": "Morning plov from a forty-kilo kazan, samsa straight from the tandoor and tea poured and returned three times so it brews.",
       "words": [

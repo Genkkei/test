@@ -1,5 +1,5 @@
 {
-  "name": "Reserve Coffee",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Maxtumquli ko‘chasidagi qahvaxona-qovurish ustaxonasi: noyob lotlar, degustatsiyalar va ko‘z oldida qovurish",
   "niche": "Premium qahvaxona-qovurish ustaxonasi",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Reserve Coffee — Toshkentda qahva qovurish va degustatsiya",
+    "title": "«Sizning kompaniyangiz» — Toshkentda qahva qovurish va degustatsiya",
     "description": "Maxtumquli, 3 dagi o‘z rosteriga ega qahvaxona: Efiopiya, Panama va Kolumbiyadan noyob lotlar, degustatsiya to‘plamlari va damlash bo‘yicha master-klasslar. Har kuni 9:00 dan 23:00 gacha.",
     "keywords": [
       "Toshkent qahva qovurish",
@@ -28,10 +28,10 @@
       "geysha",
       "qahva master-klassi"
     ],
-    "answer": "Reserve Coffee — Toshkentdagi Maxtumquli ko‘chasi, 3 dagi qahvaxona-qovurish ustaxonasi, har kuni 9:00 dan 23:00 gacha ochiq. Don shu yerning o‘zida kichik partiyalarda qovuriladi. Uch lotdan iborat degustatsiya to‘plami 95 000 so‘m, muqobil damlash bo‘yicha master-klass — 290 000 so‘m, 8 kishigacha kompaniya uchun xususiy degustatsiya — 1 400 000 so‘m."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Maxtumquli ko‘chasi, 3 dagi qahvaxona-qovurish ustaxonasi, har kuni 9:00 dan 23:00 gacha ochiq. Don shu yerning o‘zida kichik partiyalarda qovuriladi. Uch lotdan iborat degustatsiya to‘plami 95 000 so‘m, muqobil damlash bo‘yicha master-klass — 290 000 so‘m, 8 kishigacha kompaniya uchun xususiy degustatsiya — 1 400 000 so‘m."
   },
   "business": {
-    "legalName": "«Reserve Coffee» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Maxtumquli ko‘chasi, 3",
     "city": "Toshkent",
     "region": "Toshkent",

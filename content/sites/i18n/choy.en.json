@@ -1,5 +1,5 @@
 {
-  "name": "Choy Uyi",
+  "name": "Your Company",
   "tagline": "A tea house: loose-leaf tea, teaware and a quiet tea room in the old town",
   "niche": "Tea shop and tea room",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Choy Uyi — tea shop and tea room in Tashkent",
+    "title": "Your Company — tea shop and tea room in Tashkent",
     "description": "Loose-leaf green, black, oolong and pu-erh, teaware and tastings. A tea room on Sebzor, tea delivery across Uzbekistan, loose tea from 50 g.",
     "keywords": [
       "tea shop Tashkent",
@@ -25,10 +25,10 @@
       "tea room Tashkent",
       "tea ceremony Tashkent"
     ],
-    "answer": "Choy Uyi is a tea shop and tea room at 14 Sebzor Street in Tashkent, open daily from 10:00 to 22:00. Loose tea is sold from 50 g: Sencha green tea is 65,000 UZS and Tie Guan Yin oolong 95,000 UZS per 50 g. A pot of tea in the tea room starts at 45,000 UZS, a five-tea tasting is 180,000 UZS, and delivery in Tashkent takes one day."
+    "answer": "Your Company is a tea shop and tea room at 14 Sebzor Street in Tashkent, open daily from 10:00 to 22:00. Loose tea is sold from 50 g: Sencha green tea is 65,000 UZS and Tie Guan Yin oolong 95,000 UZS per 50 g. A pot of tea in the tea room starts at 45,000 UZS, a five-tea tasting is 180,000 UZS, and delivery in Tashkent takes one day."
   },
   "business": {
-    "legalName": "Choy Uyi sole proprietorship",
+    "legalName": "Your Company LLC",
     "street": "14 Sebzor St",
     "city": "Tashkent",
     "region": "Tashkent",

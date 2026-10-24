@@ -1,9 +1,9 @@
 {
-  "name": "Jang",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Birinchi marta keladiganlar va ringga chiqadiganlar uchun boks va yakkakurash",
   "niche": "Boks, kikboksing va funksional mashg‘ulotlar klubi",
   "seo": {
-    "title": "Jang — Toshkentda boks va kikboksing klubi",
+    "title": "«Sizning kompaniyangiz» — Toshkentda boks va kikboksing klubi",
     "description": "Kattalar va o‘smirlar uchun boks, kikboksing va funksional mashg‘ulotlar. Yangi boshlovchilar guruhlari, shaxsiy mashg‘ulotlar, birinchi mashg‘ulot bepul.",
     "keywords": [
       "Toshkent boks",
@@ -13,7 +13,7 @@
       "boks shaxsiy murabbiy",
       "yakkakurash"
     ],
-    "answer": "Jang — Toshkentdagi Bobur ko‘chasi, 54 dagi boks va kikboksing klubi. 8 ta guruh mashg‘uloti abonementi — 550 000 so‘m, cheksiz — oyiga 890 000 so‘m, shaxsiy mashg‘ulot — 250 000 so‘m. Birinchi mashg‘ulot bepul, qo‘lqoplarni beramiz. Du–sh 7:00 dan 22:00 gacha, ya — 9:00 dan 15:00 gacha ishlaymiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Bobur ko‘chasi, 54 dagi boks va kikboksing klubi. 8 ta guruh mashg‘uloti abonementi — 550 000 so‘m, cheksiz — oyiga 890 000 so‘m, shaxsiy mashg‘ulot — 250 000 so‘m. Birinchi mashg‘ulot bepul, qo‘lqoplarni beramiz. Du–sh 7:00 dan 22:00 gacha, ya — 9:00 dan 15:00 gacha ishlaymiz."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Jang Fight Club» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 54",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -87,7 +87,7 @@
       "type": "about",
       "label": "Klub",
       "title": "Ring, yigirmata qop va tushuntiradigan murabbiylar",
-      "text": "Jang — Bobur ko‘chasidagi yerto‘ladagi 600 m²: to‘liq o‘lchamli ring, yigirmata qop, funksional zona va dushli kiyinish xonalari. Murabbiylarimiz terma jamoada chiqishgan va o‘zlari noldan boshlashgan, shuning uchun baqirishmaydi, ko‘rsatib berishadi. Bu yerda talabalar, IT mutaxassislar, dekretdan keyingi onalar va turnirga tayyorlanayotganlar shug‘ullanadi.",
+      "text": "«Sizning kompaniyangiz» — Bobur ko‘chasidagi yerto‘ladagi 600 m²: to‘liq o‘lchamli ring, yigirmata qop, funksional zona va dushli kiyinish xonalari. Murabbiylarimiz terma jamoada chiqishgan va o‘zlari noldan boshlashgan, shuning uchun baqirishmaydi, ko‘rsatib berishadi. Bu yerda talabalar, IT mutaxassislar, dekretdan keyingi onalar va turnirga tayyorlanayotganlar shug‘ullanadi.",
       "image": ""
     },
     {

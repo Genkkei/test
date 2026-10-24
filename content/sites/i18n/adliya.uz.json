@@ -1,5 +1,5 @@
 {
-  "name": "Adliya Partners",
+  "name": "Sizning kompaniyangiz",
   "tagline": "O‘zbekistondagi biznes uchun yuridik firma",
   "niche": "Yuridik firma: korporativ huquq, soliqlar, nizolar, M&A",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Adliya Partners — Toshkentdagi biznes uchun yuridik firma",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi biznes uchun yuridik firma",
     "description": "Korporativ huquq, soliq nizolari, M&A, ma’lumotlarni himoya qilish va O‘zbekistondagi xorijiy investorlarni kuzatish. Bosqich narxi qat’iy, javob bir kun ichida.",
     "keywords": [
       "yuridik firma Toshkent",
@@ -19,7 +19,7 @@
       "xorijliklar uchun kompaniya ro‘yxatdan o‘tkazish",
       "shaxsiy ma’lumotlar O‘zbekiston"
     ],
-    "answer": "Adliya Partners — Toshkentdagi yuridik firma, 2012 yildan beri O‘zbekistondagi kompaniyalar ishlarini yuritadi: korporativ huquq, soliqlar, sud nizolari, M&A bitimlari, IT va shaxsiy ma’lumotlar, xorijiy investorlarni kuzatish. Xorijiy ishtirokdagi kompaniyani ro‘yxatdan o‘tkazish — 10 ish kunida 12 000 000 so‘mdan, birlamchi konsultatsiya — 1 soat, 1 500 000 so‘mdan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi yuridik firma, 2012 yildan beri O‘zbekistondagi kompaniyalar ishlarini yuritadi: korporativ huquq, soliqlar, sud nizolari, M&A bitimlari, IT va shaxsiy ma’lumotlar, xorijiy investorlarni kuzatish. Xorijiy ishtirokdagi kompaniyani ro‘yxatdan o‘tkazish — 10 ish kunida 12 000 000 so‘mdan, birlamchi konsultatsiya — 1 soat, 1 500 000 so‘mdan."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Adliya Partners» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Afrosiyob ko‘chasi, 4B, biznes-markaz, 7-qavat",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -286,8 +286,8 @@
       "title": "Vazifangizni muhokama qilamiz",
       "text": "Ish kuni davomida javob beramiz va hamkor bilan uchrashuv vaqtini taklif qilamiz.",
       "cta": {
-        "label": "office@adliya.partners",
-        "href": "mailto:office@adliya.partners"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

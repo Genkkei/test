@@ -1,5 +1,5 @@
 {
-  "name": "Bolajon",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Bola o‘zi borishni so‘raydigan joy",
   "niche": "Bolalar rivojlanish markazi va mini-bog‘cha",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Bolajon — Yunusoboddagi bolalar rivojlanish markazi",
+    "title": "«Sizning kompaniyangiz» — Yunusoboddagi bolalar rivojlanish markazi",
     "description": "2 yoshdan mini-bog‘cha, maktabga tayyorlov, ingliz tili, robototexnika va rasm. 8 bolagacha guruhlar, sinov darsi bepul.",
     "keywords": [
       "bolalar markazi Toshkent",
@@ -25,10 +25,10 @@
       "bolalar uchun ingliz tili",
       "bolalar robototexnikasi"
     ],
-    "answer": "Bolajon — Toshkent, Yunusoboddagi bolalar rivojlanish markazi: 2–6 yoshli bolalar uchun 8:00 dan 19:00 gacha mini-bog‘cha, maktabga tayyorlov, ingliz tili, robototexnika va rasm. Guruhda 8 tadan ortiq bola bo‘lmaydi, to‘garak abonementi oyiga 480 000 so‘mdan, mini-bog‘cha oyiga 2 900 000 so‘m, sinov darsi bepul."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Yunusoboddagi bolalar rivojlanish markazi: 2–6 yoshli bolalar uchun 8:00 dan 19:00 gacha mini-bog‘cha, maktabga tayyorlov, ingliz tili, robototexnika va rasm. Guruhda 8 tadan ortiq bola bo‘lmaydi, to‘garak abonementi oyiga 480 000 so‘mdan, mini-bog‘cha oyiga 2 900 000 so‘m, sinov darsi bepul."
   },
   "business": {
-    "legalName": "«Bolajon Kids» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yunusobod massivi, 4-mavze, 17",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -81,7 +81,7 @@
       "type": "about",
       "label": "Markaz haqida",
       "title": "O‘yin o‘rniga emas, o‘yin orqali o‘rganamiz",
-      "text": "Bolajon 2019-yilda ochildi — o‘z farzandlarimiz uchun joy qidirib topa olmaganimizda. Bu yerda qator partalar va baholar yo‘q: bolalar quradi, chizadi, qarag‘ay g‘uddalarini sanaydi, tushlikda inglizcha gaplashadi. Guruhda sakkiz kishidan ko‘p emas, shuning uchun pedagog har birini sezadi. Ota-onalar har kuni Telegramda rasmli qisqa hisobot oladi.",
+      "text": "«Sizning kompaniyangiz» 2019-yilda ochildi — o‘z farzandlarimiz uchun joy qidirib topa olmaganimizda. Bu yerda qator partalar va baholar yo‘q: bolalar quradi, chizadi, qarag‘ay g‘uddalarini sanaydi, tushlikda inglizcha gaplashadi. Guruhda sakkiz kishidan ko‘p emas, shuning uchun pedagog har birini sezadi. Ota-onalar har kuni Telegramda rasmli qisqa hisobot oladi.",
       "image": ""
     },
     {

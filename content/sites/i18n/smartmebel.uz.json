@@ -1,9 +1,9 @@
 {
-  "name": "Smart Mebel",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Kichik kvartiralar uchun transformer mebel: bitta xona — uchta ssenariy",
   "niche": "Transformer mebel",
   "seo": {
-    "title": "Smart Mebel — kichik kvartiralar uchun transformer mebel",
+    "title": "«Sizning kompaniyangiz» — kichik kvartiralar uchun transformer mebel",
     "description": "Studiya va bir xonali kvartiralar uchun shkaf-karavotlar, yig‘ma stollar va ko‘tarish mexanizmli divanlar. Nemis mexanizmlari, Chilonzordagi shourumda ko‘rsatish, bir kunda o‘rnatish.",
     "keywords": [
       "Toshkentda shkaf-karavot",
@@ -12,7 +12,7 @@
       "yig‘ma stol",
       "kichik kvartira uchun mebel"
     ],
-    "answer": "Smart Mebel — Toshkentdagi transformer mebel shourumi (Chilonzor, Muqimiy ko‘chasi, 166). Nemis mexanizmli shkaf-karavotlar 11 900 000 so‘mdan, divanli shkaf-karavot 16 500 000 so‘mdan, yig‘ma stollar 2 400 000 so‘mdan. O‘lchash va 3D bepul, tayyorlash 21 kun, bir kunda o‘rnatish."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi transformer mebel shourumi (Chilonzor, Muqimiy ko‘chasi, 166). Nemis mexanizmli shkaf-karavotlar 11 900 000 so‘mdan, divanli shkaf-karavot 16 500 000 so‘mdan, yig‘ma stollar 2 400 000 so‘mdan. O‘lchash va 3D bepul, tayyorlash 21 kun, bir kunda o‘rnatish."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Smart Mebel» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Muqimiy ko‘chasi, 166, Chilonzor",
     "city": "Toshkent",
     "region": "Toshkent",

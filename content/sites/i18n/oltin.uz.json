@@ -1,9 +1,9 @@
 {
-  "name": "Oltin Uy",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Avloddan avlodga o‘tadigan taqinchoqlar",
   "niche": "Zargarlik uyi: unashtiruv uzuklari, oltin kolleksiyalar va buyurtma asosidagi buyumlar",
   "seo": {
-    "title": "Oltin Uy — Toshkentdagi zargarlik uyi: uzuklar va buyurtma oltin",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi zargarlik uyi: uzuklar va buyurtma oltin",
     "description": "585 va 750 probali oltindan brilliantli unashtiruv va nikoh uzuklari, sirg‘alar va marjonlar. O‘z ustaxonamiz: buyurtma buyumlar, gravyura, ta’mirlash.",
     "keywords": [
       "zargarlik do‘koni Toshkent",
@@ -13,7 +13,7 @@
       "buyurtma zargar",
       "brilliantlar Toshkent"
     ],
-    "answer": "Oltin Uy — Toshkentdagi o‘z ustaxonasiga ega zargarlik uyi: 585 probali oltindan nikoh uzuklari jufti 2 900 000 so‘mdan, brilliantli unashtiruv uzuklari 9 500 000 so‘mdan, sizning eskizingiz bo‘yicha buyum — 3 haftadan. Brilliantli har bir buyum tosh sertifikati bilan sotiladi."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi o‘z ustaxonasiga ega zargarlik uyi: 585 probali oltindan nikoh uzuklari jufti 2 900 000 so‘mdan, brilliantli unashtiruv uzuklari 9 500 000 so‘mdan, sizning eskizingiz bo‘yicha buyum — 3 haftadan. Brilliantli har bir buyum tosh sertifikati bilan sotiladi."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Oltin Uy Jewellery» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur shoh ko‘chasi, 107B, 1-qavatdagi butik",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -86,7 +86,7 @@
       "type": "about",
       "label": "Uy",
       "title": "Uyga aylangan oilaviy ustaxona",
-      "text": "Oltin Uy eski shahardagi bitta dastgoh va ikki aka-uka zargardan boshlangan. Bugun Amir Temurda butikimiz va olti ish o‘rinli ustaxonamiz bor: u yerda buyum mum modeldan yakuniy sayqalgacha yo‘l bosadi. Toshlarni o‘zimiz tanlaymiz va xariddan oldin lupa ostida ko‘rsatamiz, har bir buyumga umrbod bepul tozalash beramiz.",
+      "text": "«Sizning kompaniyangiz» eski shahardagi bitta dastgoh va ikki aka-uka zargardan boshlangan. Bugun Amir Temurda butikimiz va olti ish o‘rinli ustaxonamiz bor: u yerda buyum mum modeldan yakuniy sayqalgacha yo‘l bosadi. Toshlarni o‘zimiz tanlaymiz va xariddan oldin lupa ostida ko‘rsatamiz, har bir buyumga umrbod bepul tozalash beramiz.",
       "image": ""
     },
     {
@@ -178,7 +178,7 @@
         },
         {
           "title": "Tozalash va sayqallash",
-          "text": "Oltin Uy taqinchoqlarini ultratovushli tozalash va sayqallash — bepul va umrbod.",
+          "text": "«Sizning kompaniyangiz» taqinchoqlarini ultratovushli tozalash va sayqallash — bepul va umrbod.",
           "price": "bepul",
           "tag": "ko‘z oldingizda"
         }

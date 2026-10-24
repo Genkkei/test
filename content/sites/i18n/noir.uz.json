@@ -1,5 +1,5 @@
 {
-  "name": "Noir",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Mualliflik ichimliklari qahva bari",
   "niche": "Premium qahva bari",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Noir — Toshkentda mualliflik ichimliklari qahva bari",
+    "title": "«Sizning kompaniyangiz» — Toshkentda mualliflik ichimliklari qahva bari",
     "description": "Bobur, 45 da alkogolsiz mualliflik qahva kokteyllari, espresso-tonik va kold-bryu. Qorong‘i zal, 12 o‘rinli peshtaxta, besh ichimlikdan iborat degustatsiya seti.",
     "keywords": [
       "qahva bari Toshkent",
@@ -23,10 +23,10 @@
       "Bobur ko‘chasida qahva",
       "qahva degustatsiyasi Toshkent"
     ],
-    "answer": "Noir — Toshkent, Bobur ko‘chasi, 45 dagi qahva bari. 10:00 dan yarim tungacha, juma va dam olish kunlari — 1:00 gacha ochiq. Mualliflik ichimliklari 42 000 dan 58 000 so‘mgacha, espresso-tonik — 39 000 so‘m, besh ichimlikli degustatsiya seti — 160 000 so‘m. Alkogol bermaymiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Bobur ko‘chasi, 45 dagi qahva bari. 10:00 dan yarim tungacha, juma va dam olish kunlari — 1:00 gacha ochiq. Mualliflik ichimliklari 42 000 dan 58 000 so‘mgacha, espresso-tonik — 39 000 so‘m, besh ichimlikli degustatsiya seti — 160 000 so‘m. Alkogol bermaymiz."
   },
   "business": {
-    "legalName": "«Noir Kofe» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 45",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -176,7 +176,7 @@
     {
       "id": "stats",
       "type": "stats",
-      "label": "Noir raqamlarda",
+      "label": "«Sizning kompaniyangiz» raqamlarda",
       "title": "",
       "items": [
         {

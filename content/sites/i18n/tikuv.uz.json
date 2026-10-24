@@ -1,5 +1,5 @@
 {
-  "name": "Tikuv",
+  "name": "Sizning kompaniyangiz",
   "tagline": "O‘lchamingizga tikilgan kiyim va qayta hayot baxsh etadigan buyumlar",
   "niche": "Atelye: buyurtma asosida tikish, moslashtirish va kiyim ta’miri",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Tikuv — Toshkentdagi atelye: kiyim tikish va ta’mirlash",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi atelye: kiyim tikish va ta’mirlash",
     "description": "Kostyum, ko‘ylak va ko‘ylaklarni o‘lcham bo‘yicha tikish, qomatga moslashtirish, ta’mir va zamok almashtirish. Usta bilan kiyib ko‘rish, bir kunda shoshilinch ta’mir.",
     "keywords": [
       "atelye Toshkent",
@@ -24,10 +24,10 @@
       "individual tikish",
       "zamok almashtirish"
     ],
-    "answer": "Tikuv — Toshkentdagi Abdulla Qodiriy ko‘chasi, 12 manzilidagi atelye, dushanbadan shanbagacha 10:00 dan 20:00 gacha ishlaydi. Erkaklar kostyumini o‘lcham bo‘yicha tikish — 3 500 000 so‘mdan, 3–4 hafta; shimni moslashtirish — 60 000 so‘mdan; zamok almashtirish — 50 000 so‘mdan. Shoshilinch ta’mirni bir kunda bajaramiz; o‘lcham olishga Telegram yoki telefon orqali yoziling."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Abdulla Qodiriy ko‘chasi, 12 manzilidagi atelye, dushanbadan shanbagacha 10:00 dan 20:00 gacha ishlaydi. Erkaklar kostyumini o‘lcham bo‘yicha tikish — 3 500 000 so‘mdan, 3–4 hafta; shimni moslashtirish — 60 000 so‘mdan; zamok almashtirish — 50 000 so‘mdan. Shoshilinch ta’mirni bir kunda bajaramiz; o‘lcham olishga Telegram yoki telefon orqali yoziling."
   },
   "business": {
-    "legalName": "«Tikuv Atelye» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Abdulla Qodiriy ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",

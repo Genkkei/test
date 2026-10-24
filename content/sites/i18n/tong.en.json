@@ -1,5 +1,5 @@
 {
-  "name": "Tong",
+  "name": "Your Company",
   "tagline": "A quiet morning café in Mirabad: all-day breakfast and unhurried coffee",
   "niche": "Breakfast café",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Tong — all-day breakfast café in Mirabad, Tashkent",
+    "title": "Your Company — all-day breakfast café in Mirabad, Tashkent",
     "description": "Breakfast until 17:00: syrniki, shakshuka and sourdough toast, filter coffee and cappuccino. The café at 22 Shahrisabz St is open daily from 8 am.",
     "keywords": [
       "breakfast Tashkent",
@@ -27,10 +27,10 @@
       "syrniki Tashkent",
       "quiet café Tashkent"
     ],
-    "answer": "Tong is a breakfast café at 22 Shahrisabz St in Mirabad, open daily 8:00–17:00. Breakfast is served all day: syrniki 48,000 UZS, shakshuka 56,000 UZS, cappuccino 30,000 UZS. Weekend tables are booked on Telegram."
+    "answer": "Your Company is a breakfast café at 22 Shahrisabz St in Mirabad, open daily 8:00–17:00. Breakfast is served all day: syrniki 48,000 UZS, shakshuka 56,000 UZS, cappuccino 30,000 UZS. Weekend tables are booked on Telegram."
   },
   "business": {
-    "legalName": "Tong Coffee sole proprietorship",
+    "legalName": "Your Company LLC",
     "street": "22 Shahrisabz St, Mirabad district",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -67,7 +67,7 @@
       "id": "about",
       "type": "about",
       "label": "About",
-      "title": "“Tong” means “morning”",
+      "title": "“Your Company” means “morning”",
       "text": "We are a small café on a quiet Mirabad street: twelve tables, light walls and windows onto a yard with an elm tree. Breakfasts are made with produce from Mirabad bazaar, we bake our own sourdough, and our coffee is roasted by friends in Tashkent.",
       "image": ""
     },

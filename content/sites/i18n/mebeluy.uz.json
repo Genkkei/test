@@ -1,5 +1,5 @@
 {
-  "name": "Mebel Uy",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Yangi uydagi kvartira — 30 kunda mebel bilan",
   "niche": "Yangi uylar uchun mebel to‘plamlari",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Mebel Uy — yangi uy uchun mebel to‘plami 30 kunda",
+    "title": "«Sizning kompaniyangiz» — yangi uy uchun mebel to‘plami 30 kunda",
     "description": "Yangi uydagi kvartira uchun oshxona, shkaflar, karavotlar va divan bitta to‘plamda: bir xonali 38 mln so‘mdan, ikki xonali 56 mln so‘mdan. O‘lchash, loyiha va yig‘ish — 30 kunda.",
     "keywords": [
       "yangi uy uchun mebel",
@@ -27,10 +27,10 @@
       "buyurtma oshxona va shkaflar",
       "Sergeli mebel"
     ],
-    "answer": "Mebel Uy — yangi uylardagi kvartiralar uchun mebel to‘plamlari (Toshkent, Yangi Sergeli ko‘chasi, 18). Bir xonali kvartira uchun to‘plam 38 000 000 so‘mdan, ikki xonali uchun 56 000 000 so‘mdan, uch xonali uchun 74 000 000 so‘mdan. O‘lchash, 3D-loyiha, tayyorlash va yig‘ish 30 kun oladi, 12 oygacha muddatli to‘lov."
+    "answer": "«Sizning kompaniyangiz» — yangi uylardagi kvartiralar uchun mebel to‘plamlari (Toshkent, Yangi Sergeli ko‘chasi, 18). Bir xonali kvartira uchun to‘plam 38 000 000 so‘mdan, ikki xonali uchun 56 000 000 so‘mdan, uch xonali uchun 74 000 000 so‘mdan. O‘lchash, 3D-loyiha, tayyorlash va yig‘ish 30 kun oladi, 12 oygacha muddatli to‘lov."
   },
   "business": {
-    "legalName": "«Mebel Uy» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yangi Sergeli ko‘chasi, 18",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -127,7 +127,7 @@
       "id": "stats",
       "type": "stats",
       "label": "Raqamlar",
-      "title": "Mebel Uy raqamlarda",
+      "title": "«Sizning kompaniyangiz» raqamlarda",
       "items": [
         {
           "value": "640",

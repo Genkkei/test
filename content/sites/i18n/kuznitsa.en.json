@@ -1,5 +1,5 @@
 {
-  "name": "Kuznitsa №1",
+  "name": "Your Company",
   "tagline": "Canopies, stairs and frames for private homes — calculated, not guessed",
   "niche": "Blacksmith workshop: steel structures, stairs and canopies",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Kuznitsa №1 — canopies, stairs and steelwork in Tashkent",
+    "title": "Your Company — canopies, stairs and steelwork in Tashkent",
     "description": "A blacksmith workshop in Sergeli: car and terrace canopies, steel-frame stairs, porch canopies, gazebo and attic frames. Load calculations, in-house painting and installation by our own crew.",
     "keywords": [
       "carport Tashkent",
@@ -28,10 +28,10 @@
       "gazebo frame",
       "blacksmith workshop"
     ],
-    "answer": "Kuznitsa №1 is a blacksmith workshop in Sergeli (12 Yangi Sergeli St.), open Mon–Sat 8:00–18:00. A polycarbonate canopy starts at 650,000 UZS per m², a porch canopy at 2,400,000 UZS and a steel-frame staircase at 14,000,000 UZS. We calculate snow and wind loads before building; lead time is from 10 working days with a 5-year warranty on the structure."
+    "answer": "Your Company is a blacksmith workshop in Sergeli (12 Yangi Sergeli St.), open Mon–Sat 8:00–18:00. A polycarbonate canopy starts at 650,000 UZS per m², a porch canopy at 2,400,000 UZS and a steel-frame staircase at 14,000,000 UZS. We calculate snow and wind loads before building; lead time is from 10 working days with a 5-year warranty on the structure."
   },
   "business": {
-    "legalName": "Kuznitsa Nomer Odin LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Yangi Sergeli St., Sergeli district (industrial zone)",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -53,7 +53,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Kuznitsa №1",
+      "title": "Your Company",
       "eyebrow": "Blacksmith workshop · Sergeli · since 2012",
       "subtitle": "We weld and install canopies, stairs and frames for private homes. We calculate the load before we cut any metal, and we stand behind the structure for five years.",
       "cta": {

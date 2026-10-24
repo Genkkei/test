@@ -1,5 +1,5 @@
 {
-  "name": "Brew & Desk",
+  "name": "Your Company",
   "tagline": "A coffee shop built for working",
   "niche": "Café-coworking with meeting rooms",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Brew & Desk — café-coworking in Tashkent City",
+    "title": "Your Company — café-coworking in Tashkent City",
     "description": "Coffee, lunches and workspace at 5 Furqat St: fast Wi-Fi, sockets at every table, meeting rooms for 4 and 8 by the hour and a day pass with unlimited filter coffee.",
     "keywords": [
       "coffee coworking Tashkent",
@@ -23,10 +23,10 @@
       "Tashkent City coffee",
       "coworking day pass"
     ],
-    "answer": "Brew & Desk is a café-coworking at 5 Furqat St in Tashkent City, open daily from 8 am to 11 pm. A cappuccino costs 28,000 UZS, a day pass with unlimited filter coffee 110,000 UZS and a four-person meeting room 90,000 UZS an hour."
+    "answer": "Your Company is a café-coworking at 5 Furqat St in Tashkent City, open daily from 8 am to 11 pm. A cappuccino costs 28,000 UZS, a day pass with unlimited filter coffee 110,000 UZS and a four-person meeting room 90,000 UZS an hour."
   },
   "business": {
-    "legalName": "Brew & Desk LLC",
+    "legalName": "Your Company LLC",
     "street": "5 Furqat St, Tashkent City",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -141,7 +141,7 @@
       "type": "about",
       "label": "About",
       "title": "A café first, an office second",
-      "text": "Brew & Desk is not a coworking space with a coffee machine but a real café with specialty beans and a kitchen, where everything is designed for work: light, sockets, quiet and chairs you can sit on for eight hours. Bring your laptop or hold meetings in the rooms.",
+      "text": "Your Company is not a coworking space with a coffee machine but a real café with specialty beans and a kitchen, where everything is designed for work: light, sockets, quiet and chairs you can sit on for eight hours. Bring your laptop or hold meetings in the rooms.",
       "image": ""
     },
     {

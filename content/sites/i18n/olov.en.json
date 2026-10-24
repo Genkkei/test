@@ -1,5 +1,5 @@
 {
-  "name": "Olov",
+  "name": "Your Company",
   "tagline": "An open-fire restaurant",
   "niche": "Restaurant: modern Uzbek cooking over live fire",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Olov — open-fire restaurant in Tashkent, table booking",
+    "title": "Your Company — open-fire restaurant in Tashkent, table booking",
     "description": "Modern Uzbek cooking over wood, embers and tandoor in central Tashkent. Marbled beef shashlik, oven-baked samsa, regional wines. Open for bookings until 02:00.",
     "keywords": [
       "restaurant Tashkent",
@@ -19,7 +19,7 @@
       "table booking",
       "banquet Tashkent"
     ],
-    "answer": "Olov is an open-fire restaurant at 41 Amir Temur St., Tashkent: modern Uzbek dishes from the oven, the grill and the tandoor. The average bill is 250–350 thousand UZS per guest; open daily from 12:00, until 02:00 on Fridays and weekends. Book a table on +998 71 200-00-12."
+    "answer": "Your Company is an open-fire restaurant at 41 Amir Temur St., Tashkent: modern Uzbek dishes from the oven, the grill and the tandoor. The average bill is 250–350 thousand UZS per guest; open daily from 12:00, until 02:00 on Fridays and weekends. Book a table on +998 71 200-00-12."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Olov Grill LLC",
+    "legalName": "Your Company LLC",
     "street": "41 Amir Temur St.",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -39,7 +39,7 @@
       "type": "hero",
       "label": "",
       "title": "Everything delicious starts with fire",
-      "eyebrow": "Olov · open-fire restaurant · Tashkent",
+      "eyebrow": "Your Company · open-fire restaurant · Tashkent",
       "subtitle": "Uzbek food cooked the way it has been for centuries — over apricot wood, saxaul embers and in a clay tandoor. We just look at it with fresh eyes.",
       "words": [],
       "cta": {
@@ -188,7 +188,7 @@
       "id": "gallery",
       "type": "gallery",
       "label": "The room",
-      "title": "An evening at Olov",
+      "title": "An evening at Your Company",
       "items": [
         {
           "caption": "Open kitchen and oven",

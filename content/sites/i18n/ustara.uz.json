@@ -1,5 +1,5 @@
 {
-  "name": "Ustara",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Soch olish, soqol olish va suhbat — burchakdagi eski sartaroshxonadagidek",
   "niche": "Barbershop: erkaklar soch turmagi, ustara bilan soqol olish, soqol parvarishi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ustara — Toshkentdagi barbershop: soch va soqol",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi barbershop: soch va soqol",
     "description": "Shota Rustaveli ko‘chasida erkaklar soch turmagi, ustara bilan qirollik soqol olish va soqol parvarishi. Onlayn yozilish, jonli navbat, kutayotganingizda qahva.",
     "keywords": [
       "barbershop Toshkent",
@@ -24,10 +24,10 @@
       "barber Toshkent",
       "qirollik soqol olish"
     ],
-    "answer": "Ustara — Toshkentdagi Shota Rustaveli ko‘chasi, 41-uydagi barbershop, har kuni 10:00 dan 22:00 gacha ishlaydi. Erkaklar soch turmagi — 150 000 so‘m, issiq sochiqli qirollik soqol olish — 120 000 so‘m, soch va soqol — 220 000 so‘m. Telegram yoki telefon orqali yoziling; jonli navbatda ham qabul qilamiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Shota Rustaveli ko‘chasi, 41-uydagi barbershop, har kuni 10:00 dan 22:00 gacha ishlaydi. Erkaklar soch turmagi — 150 000 so‘m, issiq sochiqli qirollik soqol olish — 120 000 so‘m, soch va soqol — 220 000 so‘m. Telegram yoki telefon orqali yoziling; jonli navbatda ham qabul qilamiz."
   },
   "business": {
-    "legalName": "«Ustara Barber» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shota Rustaveli ko‘chasi, 41",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -49,7 +49,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Ustara",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Barbershop · Shota Rustaveli, 41 · har kuni",
       "subtitle": "Klassik erkaklar soch turmagi, issiq sochiq bilan ustarada soqol olish va tartibli soqol. Shoshilmasdan: har bir mehmonga bir soat va bir piyola qahva.",
       "words": [
@@ -76,7 +76,7 @@
       "items": [
         "Klassika",
         "Feyd",
-        "Ustara",
+        "«Sizning kompaniyangiz»",
         "Issiq sochiqlar",
         "Soqol",
         "Oq sochni bo‘yash",

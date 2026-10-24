@@ -1,5 +1,5 @@
 {
-  "name": "Respawn",
+  "name": "Your Company",
   "tagline": "A gaming club for people who play for real",
   "niche": "Gaming club and esports arena: 240 Hz PCs, PlayStation, VR and tournaments",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Respawn — gaming club and esports in Tashkent",
+    "title": "Your Company — gaming club and esports in Tashkent",
     "description": "A gaming club in Tashkent: 60 gaming PCs with RTX cards and 240 Hz monitors, a five-seat bootcamp, PlayStation 5 and VR. Open 24/7 with tournaments every weekend.",
     "keywords": [
       "gaming club Tashkent",
@@ -24,7 +24,7 @@
       "VR club",
       "CS2 tournament"
     ],
-    "answer": "Respawn is a gaming club at 60 Amir Temur Street in Tashkent, open around the clock. An hour in the main hall is 15,000 sum, VIP 25,000 sum, the five-seat bootcamp 120,000 sum an hour, and the night pass from 22:00 to 8:00 is 70,000 sum. 60 PCs with RTX 4070 and 240 Hz monitors, four PlayStation 5 consoles and a VR zone. CS2 and Dota 2 tournaments every weekend."
+    "answer": "Your Company is a gaming club at 60 Amir Temur Street in Tashkent, open around the clock. An hour in the main hall is 15,000 sum, VIP 25,000 sum, the five-seat bootcamp 120,000 sum an hour, and the night pass from 22:00 to 8:00 is 70,000 sum. 60 PCs with RTX 4070 and 240 Hz monitors, four PlayStation 5 consoles and a VR zone. CS2 and Dota 2 tournaments every weekend."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Respawn",
+      "title": "Your Company",
       "eyebrow": "Gaming club · 24/7 · Tashkent",
       "subtitle": "60 gaming PCs at 240 Hz, a team bootcamp, PlayStation 5 and VR. Drop in after class or prepare for a tournament with your whole five.",
       "words": [
@@ -187,7 +187,7 @@
       "title": "Upcoming tournaments",
       "items": [
         {
-          "title": "Respawn Cup: CS2",
+          "title": "Your Company Cup: CS2",
           "category": "5v5 · 16 teams",
           "year": "Saturday, 12:00",
           "text": "Entry 250,000 sum per team; prize pool 5,000,000 sum.",
@@ -280,7 +280,7 @@
     }
   ],
   "business": {
-    "legalName": "Respawn Arena LLC",
+    "legalName": "Your Company LLC",
     "street": "60 Amir Temur St, lower ground floor",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -288,11 +288,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/respawnuz"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/respawn.uz"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Twitch",

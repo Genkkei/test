@@ -1,5 +1,5 @@
 {
-  "name": "Crema",
+  "name": "Your Company",
   "tagline": "One cup at a time. A white window, good espresso and no fuss",
   "niche": "Japanese-style coffee to go",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Crema — coffee to go in Tashkent City",
+    "title": "Your Company — coffee to go in Tashkent City",
     "description": "A minimalist coffee window in Tashkent City: espresso, latte, mochi and seasonal drinks to go. Open daily from 7:30, order ahead on the site.",
     "keywords": [
       "coffee to go Tashkent",
@@ -24,10 +24,10 @@
       "Japanese coffee",
       "matcha latte"
     ],
-    "answer": "Crema is a coffee-to-go window in Tashkent City at 1 Furqat St, open daily from 7:30 to 22:00. An espresso costs 22,000 UZS, a latte 32,000 UZS and a matcha latte 38,000 UZS. You can order on the site and collect without queueing."
+    "answer": "Your Company is a coffee-to-go window in Tashkent City at 1 Furqat St, open daily from 7:30 to 22:00. An espresso costs 22,000 UZS, a latte 32,000 UZS and a matcha latte 38,000 UZS. You can order on the site and collect without queueing."
   },
   "business": {
-    "legalName": "Crema LLC",
+    "legalName": "Your Company LLC",
     "street": "Tashkent City, 1 Furqat St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -45,7 +45,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Crema",
+      "title": "Your Company",
       "eyebrow": "Coffee to go · Tashkent City",
       "subtitle": "A ground-floor window, one espresso machine and three baristas. Espresso in a minute in the morning, latte and mochi by day, quiet white light in the evening.",
       "words": [],

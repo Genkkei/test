@@ -1,5 +1,5 @@
 {
-  "name": "Brew Lab",
+  "name": "Your Company",
   "tagline": "Coffee brewed in front of you: a dripper, a scale and four quiet minutes",
   "niche": "Specialty coffee shop and manual brew bar",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Brew Lab — specialty coffee and pour-over in Tashkent",
+    "title": "Your Company — specialty coffee and pour-over in Tashkent",
     "description": "A coffee shop in Mirobod: V60, Chemex and AeroPress brewed by weight, espresso on freshly roasted beans and home-brewing workshops. Open from 8 am.",
     "keywords": [
       "specialty coffee Tashkent",
@@ -24,10 +24,10 @@
       "barista workshop",
       "whole bean coffee"
     ],
-    "answer": "Brew Lab is a specialty coffee shop at 12 Mirobod St in Tashkent, open 8:00–21:00 on weekdays and 9:00–22:00 at weekends. A V60 filter costs 38,000 UZS, a cappuccino 32,000 UZS and a two-hour home-brewing workshop 250,000 UZS. The beans are roasted in Tashkent at least once a week."
+    "answer": "Your Company is a specialty coffee shop at 12 Mirobod St in Tashkent, open 8:00–21:00 on weekdays and 9:00–22:00 at weekends. A V60 filter costs 38,000 UZS, a cappuccino 32,000 UZS and a two-hour home-brewing workshop 250,000 UZS. The beans are roasted in Tashkent at least once a week."
   },
   "business": {
-    "legalName": "Brew Lab LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Mirobod St",
     "city": "Tashkent",
     "region": "Tashkent",

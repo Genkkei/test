@@ -1,9 +1,9 @@
 {
-  "name": "Bolalar Mebel",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Bola bilan birga o‘sadigan bolalar mebeli",
   "niche": "Bolalar mebeli",
   "seo": {
-    "title": "Bolalar Mebel — Toshkentda bolalar mebeli",
+    "title": "«Sizning kompaniyangiz» — Toshkentda bolalar mebeli",
     "description": "Uycha-karavotlar, o‘sadigan partalar va qayindan o‘yinchoq saqlash tizimlari. Xavfsiz bo‘yoqlar, yumaloq burchaklar, bir soatda yig‘ish, Toshkent bo‘ylab bepul yetkazish.",
     "keywords": [
       "Toshkentda bolalar mebeli",
@@ -12,7 +12,7 @@
       "o‘yinchoqlarni saqlash",
       "ikki qavatli karavot"
     ],
-    "answer": "Bolalar Mebel — Toshkentdagi bolalar mebeli do‘koni (Chilonzor, Bunyodkor ko‘chasi, 21). Qayindan uycha-karavotlar 3 400 000 so‘mdan, o‘sadigan partalar 2 100 000 so‘mdan, o‘yinchoq javonlari 950 000 so‘mdan. Suv asosidagi bo‘yoqlar, Toshkent bo‘ylab bepul yetkazish, bir soatda yig‘ish."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi bolalar mebeli do‘koni (Chilonzor, Bunyodkor ko‘chasi, 21). Qayindan uycha-karavotlar 3 400 000 so‘mdan, o‘sadigan partalar 2 100 000 so‘mdan, o‘yinchoq javonlari 950 000 so‘mdan. Suv asosidagi bo‘yoqlar, Toshkent bo‘ylab bepul yetkazish, bir soatda yig‘ish."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Bolalar Mebel» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bunyodkor ko‘chasi, 21, Chilonzor",
     "city": "Toshkent",
     "region": "Toshkent",

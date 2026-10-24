@@ -1,9 +1,9 @@
 {
-  "name": "Yo‘l Rent",
+  "name": "Your Company",
   "tagline": "A car at your door within an hour — from a day to a month",
   "niche": "Car rental in Tashkent with delivery",
   "seo": {
-    "title": "Yo‘l Rent — car rental in Tashkent with delivery",
+    "title": "Your Company — car rental in Tashkent with delivery",
     "description": "Rent a car from a day to a month: Cobalt, Malibu, K5, Tucson, Camry, Carnival minivan. Delivery to your door and the airport, insurance included, paperwork in 15 minutes.",
     "keywords": [
       "car hire Tashkent",
@@ -13,7 +13,7 @@
       "minivan rental",
       "monthly car rental"
     ],
-    "answer": "Yo‘l Rent is a car rental company in Tashkent: Chevrolet Cobalt from 350,000 UZS a day, Toyota Camry from 900,000 UZS, Kia Carnival minivan from 1,200,000 UZS. You need a passport and a licence held for at least 2 years, minimum age 21; delivery in the city is free for rentals of 3 days or more, to the airport 100,000 UZS."
+    "answer": "Your Company is a car rental company in Tashkent: Chevrolet Cobalt from 350,000 UZS a day, Toyota Camry from 900,000 UZS, Kia Carnival minivan from 1,200,000 UZS. You need a passport and a licence held for at least 2 years, minimum age 21; delivery in the city is free for rentals of 3 days or more, to the airport 100,000 UZS."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Yo‘l Rent LLC",
+    "legalName": "Your Company LLC",
     "street": "45 Babur St, pick-up office",
     "city": "Tashkent",
     "region": "Tashkent",

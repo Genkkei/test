@@ -1,5 +1,5 @@
 {
-  "name": "Sandon",
+  "name": "Your Company",
   "tagline": "We hand-forge things that stay in a home for decades",
   "niche": "Artistic forge: grills, fireplaces, railings and décor",
   "nav": {
@@ -18,8 +18,8 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Sandon — artistic forging in Tashkent: grills and fireplaces",
-    "description": "Sandon forge hand-makes grills, fireplace sets, railings, beds and décor to your sketch. Free measuring, from 10 days, 5-year warranty on welds.",
+    "title": "Your Company — artistic forging in Tashkent: grills and fireplaces",
+    "description": "Your Company forge hand-makes grills, fireplace sets, railings, beds and décor to your sketch. Free measuring, from 10 days, 5-year warranty on welds.",
     "keywords": [
       "artistic forging Tashkent",
       "forged grill",
@@ -28,10 +28,10 @@
       "fireplace set",
       "forged décor"
     ],
-    "answer": "Sandon is an artistic forge at 24 Beshyogoch St. in Tashkent, open Monday to Saturday, 9:00–19:00. A hand-forged grill starts at 3,900,000 UZS, a fireplace set at 1,800,000 UZS, railings at 950,000 UZS per running metre. Measuring and sketch are free, making takes from 10 days, welds carry a 5-year warranty."
+    "answer": "Your Company is an artistic forge at 24 Beshyogoch St. in Tashkent, open Monday to Saturday, 9:00–19:00. A hand-forged grill starts at 3,900,000 UZS, a fireplace set at 1,800,000 UZS, railings at 950,000 UZS per running metre. Measuring and sketch are free, making takes from 10 days, welds carry a 5-year warranty."
   },
   "business": {
-    "legalName": "Sandon Temir LLC",
+    "legalName": "Your Company LLC",
     "street": "24 Beshyogoch St. (workshop in the courtyard)",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -53,7 +53,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Sandon",
+      "title": "Your Company",
       "eyebrow": "Artistic forge · Tashkent",
       "subtitle": "Hand-forged grills, fireplaces, railings and décor. We draw the sketch with you, forge it in the fire and install it at your home — no catalogue templates.",
       "cta": {
@@ -93,7 +93,7 @@
       "type": "about",
       "label": "The workshop",
       "title": "Metal that remembers the hammer",
-      "text": "Sandon is one forge, two anvils and four smiths in a courtyard on Beshyogoch. We don’t weld pieces from ready-made stamped parts: every scroll, leaf and spike is drawn out of the bar by hand. That is why we never make two identical grills — and that is exactly why people come to us. Before we start, we visit, measure, draw a full-size sketch and agree on every detail.",
+      "text": "Your Company is one forge, two anvils and four smiths in a courtyard on Beshyogoch. We don’t weld pieces from ready-made stamped parts: every scroll, leaf and spike is drawn out of the bar by hand. That is why we never make two identical grills — and that is exactly why people come to us. Before we start, we visit, measure, draw a full-size sketch and agree on every detail.",
       "image": ""
     },
     {

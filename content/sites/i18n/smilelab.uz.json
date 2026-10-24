@@ -1,5 +1,5 @@
 {
-  "name": "Smile Lab",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Qo‘rqmasdan boriladigan stomatologiya",
   "niche": "Stomatologiya klinikasi: implantatsiya, vinirlar, elaynerlar, davolash",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Smile Lab — Toshkentdagi stomatologiya: implant, vinir, elayner",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi stomatologiya: implant, vinir, elayner",
     "description": "Mikroskop ostida og‘riqsiz davolash, implant, vinir va elaynerlar. Raqamli diagnostika, ish boshlanishidan oldin narxli reja, 0% muddatli to‘lov.",
     "keywords": [
       "stomatologiya Toshkent",
@@ -19,7 +19,7 @@
       "og‘riqsiz tish davolash",
       "bolalar stomatologi Toshkent"
     ],
-    "answer": "Smile Lab — Toshkentdagi stomatologiya klinikasi (Mirzo Ulug‘bek tumani), har kuni ishlaydi. Implantatsiya — tayyor holda bitta implant uchun 4 900 000 so‘mdan, vinirlar — bir tish uchun 2 800 000 so‘mdan, kariesni davolash — 450 000 so‘mdan. 3D-rentgen bilan birinchi konsultatsiya — 150 000 so‘m, 12 oygacha 0% muddatli to‘lov bor."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi stomatologiya klinikasi (Mirzo Ulug‘bek tumani), har kuni ishlaydi. Implantatsiya — tayyor holda bitta implant uchun 4 900 000 so‘mdan, vinirlar — bir tish uchun 2 800 000 so‘mdan, kariesni davolash — 450 000 so‘mdan. 3D-rentgen bilan birinchi konsultatsiya — 150 000 so‘m, 12 oygacha 0% muddatli to‘lov bor."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Smile Lab Clinic» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirzo Ulug‘bek ko‘chasi, 56",
     "city": "Toshkent",
     "region": "Toshkent",

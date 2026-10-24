@@ -1,5 +1,5 @@
 {
-  "name": "Olov",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Ochiq olov restorani",
   "niche": "Restoran: jonli olovdagi zamonaviy o‘zbek oshxonasi",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Olov — Toshkentdagi ochiq olov restorani, stol bron qilish",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi ochiq olov restorani, stol bron qilish",
     "description": "Toshkent markazida o‘tin, ko‘mir va tandirda zamonaviy o‘zbek oshxonasi. Marmar mol go‘shtidan kabob, tandir somsa, mintaqa vinolari. Bron 02:00 gacha.",
     "keywords": [
       "restoran Toshkent",
@@ -19,7 +19,7 @@
       "stol bron qilish",
       "banket Toshkent"
     ],
-    "answer": "Olov — Toshkent, Amir Temur ko‘chasi, 41 dagi ochiq olov restorani: pech, mangal va tandirdan zamonaviy o‘zbek taomlari. O‘rtacha chek — bir mehmonga 250–350 ming so‘m, har kuni 12:00 dan ochiq, juma va dam olish kunlari — 02:00 gacha. Stollar +998 71 200-00-12 telefoni orqali bron qilinadi."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Amir Temur ko‘chasi, 41 dagi ochiq olov restorani: pech, mangal va tandirdan zamonaviy o‘zbek taomlari. O‘rtacha chek — bir mehmonga 250–350 ming so‘m, har kuni 12:00 dan ochiq, juma va dam olish kunlari — 02:00 gacha. Stollar +998 71 200-00-12 telefoni orqali bron qilinadi."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Olov Grill» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur ko‘chasi, 41",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -39,7 +39,7 @@
       "type": "hero",
       "label": "",
       "title": "Mazali narsa olovdan boshlanadi",
-      "eyebrow": "Olov · ochiq olov restorani · Toshkent",
+      "eyebrow": "«Sizning kompaniyangiz» · ochiq olov restorani · Toshkent",
       "subtitle": "O‘zbek oshxonasini asrlar davomida qanday tayyorlangan bo‘lsa, shunday pishiramiz — o‘rik o‘tinida, saksovul cho‘g‘ida va loy tandirda. Faqat unga yangicha nigoh bilan qaraymiz.",
       "words": [],
       "cta": {

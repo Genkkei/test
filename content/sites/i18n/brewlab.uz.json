@@ -1,5 +1,5 @@
 {
-  "name": "Brew Lab",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Ko‘z oldingizda damlanadigan qahva: voronka, tarozi va to‘rt daqiqa sukunat",
   "niche": "Speshelti qahvaxona va muqobil damlash bari",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Brew Lab — Toshkentda speshelti qahva va voronkalar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda speshelti qahva va voronkalar",
     "description": "Mirobodda qahvaxona: tarozida V60, Chemex va aeropress, yangi qovurilgan donadan espresso, uyda damlash bo‘yicha master-klasslar. Ertalab 8 dan ishlaymiz.",
     "keywords": [
       "speshelti qahva Toshkent",
@@ -24,10 +24,10 @@
       "barista master-klass",
       "donali qahva"
     ],
-    "answer": "Brew Lab — Toshkent, Mirobod ko‘chasi, 12 dagi speshelti qahvaxona. Ish kunlari 8:00–21:00, dam olish kunlari 9:00–22:00. V60 filtr-qahva — 38 000 so‘m, kapuchino — 32 000 so‘m, uyda damlash master-klassi — ikki soat uchun 250 000 so‘m. Don Toshkentda kamida haftada bir marta qovuriladi."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Mirobod ko‘chasi, 12 dagi speshelti qahvaxona. Ish kunlari 8:00–21:00, dam olish kunlari 9:00–22:00. V60 filtr-qahva — 38 000 so‘m, kapuchino — 32 000 so‘m, uyda damlash master-klassi — ikki soat uchun 250 000 so‘m. Don Toshkentda kamida haftada bir marta qovuriladi."
   },
   "business": {
-    "legalName": "«Brew Lab» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirobod ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",

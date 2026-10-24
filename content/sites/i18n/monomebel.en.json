@@ -1,5 +1,5 @@
 {
-  "name": "MONO",
+  "name": "Your Company",
   "tagline": "Minimalism: black, white, concrete",
   "niche": "Minimalist furniture",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "MONO — minimalist furniture in Tashkent",
+    "title": "Your Company — minimalist furniture in Tashkent",
     "description": "Tables with concrete tops, black metal shelving, white handleless wardrobes. Ready-made sets for a flat, delivery across Tashkent in 1 day.",
     "keywords": [
       "minimalist furniture",
@@ -27,10 +27,10 @@
       "handleless wardrobe",
       "furniture Tashkent"
     ],
-    "answer": "MONO is a minimalist furniture store in Tashkent (Samarkand Darvoza mall, 3rd floor), open daily 10:00–22:00. A concrete-top table from 4,200,000 UZS, black metal shelving from 2,600,000 UZS, a studio set from 14,900,000 UZS. Delivery across Tashkent the next day."
+    "answer": "Your Company is a minimalist furniture store in Tashkent (Samarkand Darvoza mall, 3rd floor), open daily 10:00–22:00. A concrete-top table from 4,200,000 UZS, black metal shelving from 2,600,000 UZS, a studio set from 14,900,000 UZS. Delivery across Tashkent the next day."
   },
   "business": {
-    "legalName": "Mono Mebel LLC",
+    "legalName": "Your Company LLC",
     "street": "2 Chilanzar St, Samarkand Darvoza mall, 3rd floor",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -50,7 +50,7 @@
       "type": "hero",
       "label": "",
       "title": "Fewer things. More air.",
-      "eyebrow": "MONO · furniture without excess",
+      "eyebrow": "Your Company · furniture without excess",
       "subtitle": "Black metal, white fronts, concrete and oak. Pieces that go with each other and with any flat.",
       "words": [
         "black",
@@ -177,7 +177,7 @@
       "id": "reviews",
       "type": "testimonials",
       "label": "Reviews",
-      "title": "Buyers on MONO",
+      "title": "Buyers on Your Company",
       "items": [
         {
           "quote": "We took the whole One-bedroom set: delivered in the morning, by evening we were eating at the concrete table.",
@@ -219,7 +219,7 @@
       "id": "contact",
       "type": "contact",
       "label": "Contact",
-      "title": "The MONO showroom",
+      "title": "The Your Company showroom",
       "text": "Samarkand Darvoza mall, 3rd floor. Daily 10:00–22:00.",
       "cta": {
         "label": "Buy",

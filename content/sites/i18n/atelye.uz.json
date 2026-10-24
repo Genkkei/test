@@ -1,9 +1,9 @@
 {
-  "name": "Atelye Mebel",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Sizning eskizingiz bo‘yicha mebel — salfetkadagi rasmdan tayyor buyumgacha",
   "niche": "Buyurtma asosidagi mebel ateleyesi",
   "seo": {
-    "title": "Atelye Mebel — Toshkentda eskiz bo‘yicha buyurtma mebel",
+    "title": "«Sizning kompaniyangiz» — Toshkentda eskiz bo‘yicha buyurtma mebel",
     "description": "Mirobod tumanidagi mebel ateleyesi: stol, komod, kutubxona va karavotlar sizning eskizingiz bo‘yicha. Chizma va 3D bepul, tayyorlash 21 kundan, kafolat 2 yil.",
     "keywords": [
       "Toshkentda buyurtma mebel",
@@ -12,7 +12,7 @@
       "buyurtma bo‘yicha massiv stol",
       "buyurtma komod"
     ],
-    "answer": "Atelye Mebel — Toshkentdagi mebel ateleyesi (Shahrisabz ko‘chasi, 34), mijoz eskizi bo‘yicha stol, komod, shkaf va karavotlar yasaydi. Chizma va 3D-vizualizatsiya bepul, tayyorlash 21 kundan, massivdan ovqat stoli — 6 800 000 so‘mdan, kafolat 2 yil."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi mebel ateleyesi (Shahrisabz ko‘chasi, 34), mijoz eskizi bo‘yicha stol, komod, shkaf va karavotlar yasaydi. Chizma va 3D-vizualizatsiya bepul, tayyorlash 21 kundan, massivdan ovqat stoli — 6 800 000 so‘mdan, kafolat 2 yil."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Atelye Mebel» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shahrisabz ko‘chasi, 34",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -71,7 +71,7 @@
     {
       "id": "about",
       "type": "about",
-      "label": "Atelye",
+      "label": "«Sizning kompaniyangiz»",
       "title": "Salonda topib bo‘lmaydigan mebel",
       "text": "Biz tayyor modellarni sotmaymiz — har bir buyum sizning rasmingizdan boshlanadi.\nKonstruktor eskizni chizmaga aylantiradi, yog‘och turi, furnitura va matoni tanlaydi, siz esa birinchi taxta kesilishidan oldin 3D ni tasdiqlaysiz. Eman, shumtol, yong‘oq va shpon bilan ishlaymiz, pardoz — moy, mum yoki mat lak.",
       "image": ""

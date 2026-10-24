@@ -1,3 +1,4 @@
+import type React from 'react'
 import type { Site } from '@/lib/schema'
 import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
@@ -59,7 +60,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
           <path d="M0 40c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0V80H0z" />
         </svg>
         <div className="wave-footer__inner">
-          <p className="wave-footer__word" aria-hidden="true">
+          <p className="wave-footer__word" aria-hidden="true" style={{ ['--n' as string]: Math.max(...site.name.split(' ').map((w) => w.length)) } as React.CSSProperties}>
             {site.name}
           </p>
           <div className="wave-footer__cols">

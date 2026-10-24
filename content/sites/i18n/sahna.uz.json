@@ -1,5 +1,5 @@
 {
-  "name": "Sahna",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Har kecha parda ko‘tariladigan teatr",
   "niche": "Teatr va konsert maydoni: spektakllar, kamer musiqasi, bolalar ertaliklari",
   "nav": {
@@ -14,8 +14,8 @@
     "features": []
   },
   "seo": {
-    "title": "Sahna — Toshkentdagi teatr va konsert zali: afisha",
-    "description": "Toshkentdagi Sahna teatri afishasi: drama spektakllari, kamer konsertlari, bolalar ertaliklari. 320 o‘rinli zal, chiptalar 80 000 so‘mdan, kassa va onlayn bron.",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi teatr va konsert zali: afisha",
+    "description": "Toshkentdagi «Sizning kompaniyangiz» teatri afishasi: drama spektakllari, kamer konsertlari, bolalar ertaliklari. 320 o‘rinli zal, chiptalar 80 000 so‘mdan, kassa va onlayn bron.",
     "keywords": [
       "teatr Toshkent",
       "teatr afishasi",
@@ -24,7 +24,7 @@
       "teatrga chiptalar",
       "bolalar spektakli"
     ],
-    "answer": "Sahna — Toshkent, Mustaqillik ko‘chasi, 12 dagi teatr va konsert maydoni. 320 o‘rinli zal, spektakllar seshanbadan yakshanbagacha 19:00 da, dam olish kunlari 11:00 da ertaliklar. Chiptalar — balkonga 80 000 so‘mdan parterga 250 000 so‘mgacha, kassa 11:00 dan 21:00 gacha ishlaydi, bron — telefon yoki Telegram orqali."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Mustaqillik ko‘chasi, 12 dagi teatr va konsert maydoni. 320 o‘rinli zal, spektakllar seshanbadan yakshanbagacha 19:00 da, dam olish kunlari 11:00 da ertaliklar. Chiptalar — balkonga 80 000 so‘mdan parterga 250 000 so‘mgacha, kassa 11:00 dan 21:00 gacha ishlaydi, bron — telefon yoki Telegram orqali."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Sahna",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Teatr · 2026/27 mavsumi",
       "subtitle": "Drama, kamer musiqasi va bolalar uchun ertaklar — sahnadan har bir yuz ko‘rinadigan 320 o‘rinli zalda.",
       "words": [
@@ -255,7 +255,7 @@
     }
   ],
   "business": {
-    "legalName": "Sahna Teatr MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mustaqillik ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -263,11 +263,11 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com/sahna.theatre"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Telegram",
-        "url": "https://t.me/sahnatheatre"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "YouTube",

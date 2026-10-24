@@ -1,5 +1,5 @@
 {
-  "name": "Som Pay",
+  "name": "Your Company",
   "tagline": "Money that moves as fast as you do",
   "niche": "Fintech: a multi-currency card, transfers and a business account in one app",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Som Pay — a multi-currency card and transfers in one app",
+    "title": "Your Company — a multi-currency card and transfers in one app",
     "description": "A card in UZS, USD and EUR, transfers by phone number in seconds, up to 5% cashback and a business account for sole traders. Open online in 5 minutes.",
     "keywords": [
       "multi-currency card Uzbekistan",
@@ -24,10 +24,10 @@
       "fintech app",
       "virtual card"
     ],
-    "answer": "Som Pay is an app with a multi-currency card (UZS, USD, EUR), transfers by phone number and up to 5% cashback. The basic plan is free, Plus is 29,000 UZS a month, a business account for sole traders is 99,000 UZS a month; you can open it online in 5 minutes with your passport. Exact limits and fees are shown in the app."
+    "answer": "Your Company is an app with a multi-currency card (UZS, USD, EUR), transfers by phone number and up to 5% cashback. The basic plan is free, Plus is 29,000 UZS a month, a business account for sole traders is 99,000 UZS a month; you can open it online in 5 minutes with your passport. Exact limits and fees are shown in the app."
   },
   "business": {
-    "legalName": "Som Pay LLC",
+    "legalName": "Your Company LLC",
     "street": "Tashkent City, 3 Islam Karimov Boulevard, office 1204",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -201,7 +201,7 @@
       "id": "reviews",
       "type": "testimonials",
       "label": "Reviews",
-      "title": "What users say about Som Pay",
+      "title": "What users say about Your Company",
       "items": [
         {
           "quote": "I opened the card over lunch and by evening I was paying in dollars on my trip. The rate is shown before the exchange — no surprises.",

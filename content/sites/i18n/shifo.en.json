@@ -1,5 +1,5 @@
 {
-  "name": "Shifo Lab",
+  "name": "Your Company",
   "tagline": "Know your body by the numbers, not by guesswork",
   "niche": "Medical laboratory and check-ups",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Shifo Lab — lab tests and check-ups in Tashkent",
+    "title": "Your Company — lab tests and check-ups in Tashkent",
     "description": "Blood tests, hormones, vitamins and infections. Results on Telegram within 1 day, a review with a GP, home visits. Walk-in blood draws from 7:00.",
     "keywords": [
       "lab tests Tashkent",
@@ -25,10 +25,10 @@
       "vitamin D test",
       "thyroid hormones test"
     ],
-    "answer": "Shifo Lab is a medical laboratory on Mirabad Street in Tashkent: a complete blood count costs 60,000 UZS, vitamin D 190,000 UZS and a basic 24-marker check-up 690,000 UZS. Blood is drawn from 7:00 without an appointment, most results arrive on Telegram within a day, and a home visit costs 100,000 UZS."
+    "answer": "Your Company is a medical laboratory on Mirabad Street in Tashkent: a complete blood count costs 60,000 UZS, vitamin D 190,000 UZS and a basic 24-marker check-up 690,000 UZS. Blood is drawn from 7:00 without an appointment, most results arrive on Telegram within a day, and a home visit costs 100,000 UZS."
   },
   "business": {
-    "legalName": "Shifo Diagnostics LLC",
+    "legalName": "Your Company LLC",
     "street": "41 Mirabad St",
     "city": "Tashkent",
     "region": "Tashkent",

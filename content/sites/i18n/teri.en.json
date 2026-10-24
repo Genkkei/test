@@ -1,5 +1,5 @@
 {
-  "name": "Teri Clinic",
+  "name": "Your Company",
   "tagline": "Cosmetology and dermatology with a medical approach",
   "niche": "Cosmetology and dermatology clinic",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Teri Clinic — cosmetology and dermatology in Tashkent",
+    "title": "Your Company — cosmetology and dermatology in Tashkent",
     "description": "Dermatologist consultations, facial cleansing, peels, biorevitalisation and acne treatment. Doctors who specialise in dermatocosmetology, treatments only after an assessment, on Shakhrisabz Street.",
     "keywords": [
       "cosmetologist Tashkent",
@@ -25,10 +25,10 @@
       "biorevitalisation",
       "acne treatment Tashkent"
     ],
-    "answer": "Teri Clinic is a cosmetology and dermatology clinic at 16 Shakhrisabz Street in Tashkent, open Monday to Saturday from 10:00 to 20:00. A dermatologist consultation with a skin assessment is 200,000 UZS, a combined facial cleanse 350,000 UZS and a medium-depth peel from 450,000 UZS. Every treatment is prescribed only after a doctor’s consultation."
+    "answer": "Your Company is a cosmetology and dermatology clinic at 16 Shakhrisabz Street in Tashkent, open Monday to Saturday from 10:00 to 20:00. A dermatologist consultation with a skin assessment is 200,000 UZS, a combined facial cleanse 350,000 UZS and a medium-depth peel from 450,000 UZS. Every treatment is prescribed only after a doctor’s consultation."
   },
   "business": {
-    "legalName": "Teri Clinic LLC",
+    "legalName": "Your Company LLC",
     "street": "16 Shakhrisabz St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -70,7 +70,7 @@
       "type": "about",
       "label": "About",
       "title": "A conversation first, then a treatment",
-      "text": "Teri Clinic was founded by dermatologists who were tired of seeing the after-effects of ‘just in case’ treatments. The first visit is a 40-minute assessment and a conversation about your skincare, lifestyle and expectations. If home care is enough, we’ll tell you. If a treatment makes sense, we’ll explain what it does, how many sessions it takes and what to expect in the first few days.",
+      "text": "Your Company was founded by dermatologists who were tired of seeing the after-effects of ‘just in case’ treatments. The first visit is a 40-minute assessment and a conversation about your skincare, lifestyle and expectations. If home care is enough, we’ll tell you. If a treatment makes sense, we’ll explain what it does, how many sessions it takes and what to expect in the first few days.",
       "image": ""
     },
     {

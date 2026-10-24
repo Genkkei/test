@@ -1,5 +1,5 @@
 {
-  "name": "Kafolat",
+  "name": "Your Company",
   "tagline": "An insurance broker: we find the right policy, explain the terms and help when you need to claim",
   "niche": "Insurance: motor liability, comprehensive car, property, health and travel",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kafolat — insurance broker in Tashkent: car, home, travel",
+    "title": "Your Company — insurance broker in Tashkent: car, home, travel",
     "description": "We compare insurers’ offers and arrange motor liability, comprehensive car, home, health and travel cover. Online in 10 minutes, with help when you claim.",
     "keywords": [
       "insurance Tashkent",
@@ -24,10 +24,10 @@
       "travel insurance",
       "insurance broker Uzbekistan"
     ],
-    "answer": "Kafolat is an insurance broker in Tashkent: we compare terms from several insurers and arrange the policy online or at our office at 22 Bobur Street. Motor liability is at the insurer’s tariff, comprehensive car cover from 2,400,000 UZS a year, home insurance from 300,000 UZS and a travel policy from 90,000 UZS. When you claim, we help gather the documents and follow the payout through."
+    "answer": "Your Company is an insurance broker in Tashkent: we compare terms from several insurers and arrange the policy online or at our office at 22 Bobur Street. Motor liability is at the insurer’s tariff, comprehensive car cover from 2,400,000 UZS a year, home insurance from 300,000 UZS and a travel policy from 90,000 UZS. When you claim, we help gather the documents and follow the payout through."
   },
   "business": {
-    "legalName": "Kafolat Broker LLC",
+    "legalName": "Your Company LLC",
     "street": "22 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -174,7 +174,7 @@
       "title": "What people write",
       "items": [
         {
-          "quote": "Our upstairs neighbours flooded our new renovation. Kafolat gathered the paperwork for me and I was paid in three weeks.",
+          "quote": "Our upstairs neighbours flooded our new renovation. Your Company gathered the paperwork for me and I was paid in three weeks.",
           "author": "Malika",
           "role": "home insurance"
         },

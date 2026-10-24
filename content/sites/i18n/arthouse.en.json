@@ -1,5 +1,5 @@
 {
-  "name": "Arthouse",
+  "name": "Your Company",
   "tagline": "A contemporary art gallery in Tashkent: new names, big exhibitions, open to everyone",
   "niche": "Contemporary art gallery: exhibitions, talks, artwork sales",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Arthouse — contemporary art gallery in Tashkent",
+    "title": "Your Company — contemporary art gallery in Tashkent",
     "description": "Exhibitions of artists from Uzbekistan and Central Asia, talks, tours and artwork sales. Tue–Sun 11:00–20:00, 74 Yahyo Gulyamov St.",
     "keywords": [
       "contemporary art gallery Tashkent",
@@ -24,10 +24,10 @@
       "artists of Uzbekistan",
       "exhibition tour"
     ],
-    "answer": "Arthouse is a contemporary art gallery at 74 Yahyo Gulyamov Street in Tashkent, open Tuesday to Sunday from 11:00 to 20:00. Exhibition entry is 50,000 sum, free for students and children under 12; a curator-led tour is 150,000 sum. Works from the exhibitions are for sale: prices on request from the gallery manager."
+    "answer": "Your Company is a contemporary art gallery at 74 Yahyo Gulyamov Street in Tashkent, open Tuesday to Sunday from 11:00 to 20:00. Exhibition entry is 50,000 sum, free for students and children under 12; a curator-led tour is 150,000 sum. Works from the exhibitions are for sale: prices on request from the gallery manager."
   },
   "business": {
-    "legalName": "Arthouse Gallery LLC",
+    "legalName": "Your Company LLC",
     "street": "74 Yahyo Gulyamov St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -87,7 +87,7 @@
       "type": "about",
       "label": "Gallery",
       "title": "A place where art happens now",
-      "text": "Arthouse opened in 2018 in a former sewing workshop on Yahyo Gulyamov Street. 600 square metres of white walls, high ceilings and light from the roof. We show artists from Uzbekistan and Central Asia — from first solo shows to large retrospectives — host talks and help collectors find works.",
+      "text": "Your Company opened in 2018 in a former sewing workshop on Yahyo Gulyamov Street. 600 square metres of white walls, high ceilings and light from the roof. We show artists from Uzbekistan and Central Asia — from first solo shows to large retrospectives — host talks and help collectors find works.",
       "image": ""
     },
     {

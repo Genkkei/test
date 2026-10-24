@@ -1,5 +1,5 @@
 {
-  "name": "Ekran",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Telefonni o‘chirib qo‘yishga arziydigan kino",
   "niche": "Mualliflik kinosi kinoteatri: premyeralar, retrospektivalar, kinoklub",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ekran — Toshkentdagi mualliflik kinosi kinoteatri",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi mualliflik kinosi kinoteatri",
     "description": "Toshkentda mualliflik kinosi afishasi: festival premyeralari, retrospektivalar, subtitrli namoyishlar va kinoklubda muhokamalar. Ikki zal, chiptalar 45 000 so‘mdan.",
     "keywords": [
       "kinoteatr Toshkent",
@@ -24,7 +24,7 @@
       "kinoklub",
       "retrospektiva"
     ],
-    "answer": "Ekran — Toshkent, Navoiy ko‘chasi, 30 dagi mualliflik kinosi kinoteatri: 120 va 48 o‘rinli ikki zal, seanslar har kuni 11:00 dan yarim tungacha. Chipta kunduzi 45 000 so‘m, kechqurun 65 000 so‘m, 10 seanslik abonement — 500 000 so‘m. Filmlar asl tilda subtitrlar bilan, payshanba kunlari muhokamali kinoklub."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Navoiy ko‘chasi, 30 dagi mualliflik kinosi kinoteatri: 120 va 48 o‘rinli ikki zal, seanslar har kuni 11:00 dan yarim tungacha. Chipta kunduzi 45 000 so‘m, kechqurun 65 000 so‘m, 10 seanslik abonement — 500 000 so‘m. Filmlar asl tilda subtitrlar bilan, payshanba kunlari muhokamali kinoklub."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Ekran",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Mualliflik kinosi kinoteatri · Toshkent",
       "subtitle": "Ikki zal, plyonkani yaxshi ko‘radigan proyektor va savdo markazlarida ko‘rsatilmaydigan filmlar. Asl tilda, subtitrlar bilan.",
       "words": [
@@ -297,7 +297,7 @@
     }
   ],
   "business": {
-    "legalName": "Ekran Sinema MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Navoiy ko‘chasi, 30",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -305,11 +305,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/ekrankino"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/ekran.kino"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Letterboxd",

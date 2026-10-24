@@ -1,5 +1,5 @@
 {
-  "name": "Kod Akademiya",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Bir yildan keyin IT’da ishlashingiz uchun dasturlashni o‘rgatamiz",
   "niche": "IT kurslar: veb-dasturlash, Python, mobil ilovalar, o‘smirlar uchun kurslar",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kod Akademiya — IT kurslar va dasturlash maktabi",
+    "title": "«Sizning kompaniyangiz» — IT kurslar va dasturlash maktabi",
     "description": "Toshkentda veb-dasturlash, Python va mobil ilovalar kurslari: 14 kishigacha jonli guruhlar, portfolio uchun loyihalar, IT Park hamkorlarida amaliyot.",
     "keywords": [
       "IT kurslar Toshkent",
@@ -24,10 +24,10 @@
       "o‘smirlar uchun dasturlash",
       "Flutter kurslari"
     ],
-    "answer": "Kod Akademiya — IT Parkdagi dasturlash maktabi (Mirzo Ulug‘bek ko‘chasi, 2, Toshkent). Kurslar: frontend va backend dasturlash (9 oy), Python va ma’lumotlar tahlili (6 oy), Flutter’da mobil ilovalar (6 oy), 12–16 yoshli o‘smirlar uchun dasturlash. Guruhlar 14 kishigacha, darslar haftasiga uch marta kechqurun, narxi — oyiga 1 200 000 so‘mdan, birinchi dars bepul."
+    "answer": "«Sizning kompaniyangiz» — IT Parkdagi dasturlash maktabi (Mirzo Ulug‘bek ko‘chasi, 2, Toshkent). Kurslar: frontend va backend dasturlash (9 oy), Python va ma’lumotlar tahlili (6 oy), Flutter’da mobil ilovalar (6 oy), 12–16 yoshli o‘smirlar uchun dasturlash. Guruhlar 14 kishigacha, darslar haftasiga uch marta kechqurun, narxi — oyiga 1 200 000 so‘mdan, birinchi dars bepul."
   },
   "business": {
-    "legalName": "“Kod Akademiya” MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "IT Park, Mirzo Ulug‘bek ko‘chasi, 2",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -91,7 +91,7 @@
       "type": "about",
       "label": "Maktab haqida",
       "title": "Jamoalarda qanday ishlashsa, shunday o‘rgatamiz",
-      "text": "Kod Akademiya 2020 yilda IT Parkda ochilgan. Amaliyotchi dasturchilar dars beradi: kunduzi ular mahsulot kompaniyalarida kod yozadi, kechqurun guruhlarni olib boradi. Har bir modul kod-review bilan loyiha bilan yakunlanadi, kurs oxirida bitiruvchining GitHub’da 4–6 ishi va vazifalar bo‘yicha jamoaviy ishlash tajribasi bo‘ladi.",
+      "text": "«Sizning kompaniyangiz» 2020 yilda IT Parkda ochilgan. Amaliyotchi dasturchilar dars beradi: kunduzi ular mahsulot kompaniyalarida kod yozadi, kechqurun guruhlarni olib boradi. Har bir modul kod-review bilan loyiha bilan yakunlanadi, kurs oxirida bitiruvchining GitHub’da 4–6 ishi va vazifalar bo‘yicha jamoaviy ishlash tajribasi bo‘ladi.",
       "image": ""
     },
     {

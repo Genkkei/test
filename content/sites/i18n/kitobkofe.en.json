@@ -1,5 +1,5 @@
 {
-  "name": "Sahifa",
+  "name": "Your Company",
   "tagline": "A coffee shop where people read",
   "niche": "Coffee shop and book club",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Sahifa — coffee shop and book club in Tashkent",
+    "title": "Your Company — coffee shop and book club in Tashkent",
     "description": "Coffee, pastries and a thousand books on the shelves at 31 Buyuk Ipak Yuli St. A book club on Wednesdays, a book swap and quiet reading tables. Open 9 am to 11 pm.",
     "keywords": [
       "book café Tashkent",
@@ -23,10 +23,10 @@
       "book swap",
       "café Mirzo Ulugbek"
     ],
-    "answer": "Sahifa is a coffee shop with a library at 31 Buyuk Ipak Yuli St in Tashkent, open daily from 9 am to 11 pm. A cappuccino costs 26,000 UZS; the Wednesday book club at 7 pm is 60,000 UZS with coffee and dessert. Books on the shelves are free to read and swap."
+    "answer": "Your Company is a coffee shop with a library at 31 Buyuk Ipak Yuli St in Tashkent, open daily from 9 am to 11 pm. A cappuccino costs 26,000 UZS; the Wednesday book club at 7 pm is 60,000 UZS with coffee and dessert. Books on the shelves are free to read and swap."
   },
   "business": {
-    "legalName": "Sahifa LLC",
+    "legalName": "Your Company LLC",
     "street": "31 Buyuk Ipak Yuli St, Mirzo Ulugbek",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -82,7 +82,7 @@
       "type": "about",
       "label": "About",
       "title": "A library where you can whisper",
-      "text": "Sahifa means “page” in Uzbek. Our books came from the home libraries of friends and readers: classics, contemporary fiction, books in three languages. Take any of them to your table, and leave one of yours on the swap shelf. There are sockets, but please take loud calls out to the terrace.",
+      "text": "Your Company means “page” in Uzbek. Our books came from the home libraries of friends and readers: classics, contemporary fiction, books in three languages. Take any of them to your table, and leave one of yours on the swap shelf. There are sockets, but please take loud calls out to the terrace.",
       "image": ""
     },
     {

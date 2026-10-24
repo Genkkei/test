@@ -1,5 +1,5 @@
 {
-  "name": "Chimgan Lodge",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Chimyon tog‘laridagi butik-mehmonxona",
   "niche": "Butik-mehmonxona va tog‘larda shahar tashqarisida dam olish",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Chimgan Lodge — Chimyon tog‘larida, Toshkentdan 90 daqiqa",
+    "title": "«Sizning kompaniyangiz» — Chimyon tog‘larida, Toshkentdan 90 daqiqa",
     "description": "Katta Chimyonga qaragan o‘n ikki xona, hammom, restoran va ostonadan boshlanadigan so‘qmoqlar. Toshkentdan transfer, xonalar nonushta bilan kechasi 1 400 000 so‘mdan.",
     "keywords": [
       "Chimyon mehmonxonasi",
@@ -19,7 +19,7 @@
       "shahar tashqarisidagi mehmonxona",
       "tog‘dagi hammom"
     ],
-    "answer": "Chimgan Lodge — Chimyon qishlog‘idagi 12 xonali butik-mehmonxona, Toshkentdan 90 daqiqalik yo‘l. Xonalar — nonushta bilan kechasi 1 400 000 so‘mdan, joylashish 14:00 dan, chiqish 12:00 gacha; Toshkentdan transfer, hammom, restoran va mehmonxonadan boshlanadigan tog‘ so‘qmoqlari bor."
+    "answer": "«Sizning kompaniyangiz» — Chimyon qishlog‘idagi 12 xonali butik-mehmonxona, Toshkentdan 90 daqiqalik yo‘l. Xonalar — nonushta bilan kechasi 1 400 000 so‘mdan, joylashish 14:00 dan, chiqish 12:00 gacha; Toshkentdan transfer, hammom, restoran va mehmonxonadan boshlanadigan tog‘ so‘qmoqlari bor."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Chimgan Lodge» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bo‘stonliq tumani, Chimyon qishlog‘i, Tog‘ ko‘chasi, 7",
     "city": "Chimyon",
     "region": "Toshkent viloyati",

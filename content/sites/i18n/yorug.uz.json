@@ -1,9 +1,9 @@
 {
-  "name": "Yorug‘ Home",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Kechqurunlarni o‘tkazgingiz keladigan uy uchun yorug‘ mebel va chiroqlar",
   "niche": "Yorug‘ mebel va yoritish",
   "seo": {
-    "title": "Yorug‘ Home — Toshkentda yorug‘ mebel va chiroqlar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda yorug‘ mebel va chiroqlar",
     "description": "Yunusobodda yorug‘ mebel va yoritish saloni: divanlar, stollar, javonlar, lampalar va torsherlar. Xona rasmi bo‘yicha yoritish tanlash, 3 kunda yetkazish, muddatli to‘lov.",
     "keywords": [
       "Toshkentda yorug‘ mebel",
@@ -12,7 +12,7 @@
       "skandinav uslubidagi mebel",
       "kvartira uchun yoritish"
     ],
-    "answer": "Yorug‘ Home — Toshkentdagi yorug‘ mebel va chiroqlar saloni (Yunusobod, Amir Temur ko‘chasi, 107B). Divanlar 5 900 000 so‘mdan, chiroqlar 450 000 so‘mdan, xona rasmi bo‘yicha yoritishni bepul tanlash, Toshkent bo‘ylab 3 kunda yetkazish, 12 oygacha muddatli to‘lov."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi yorug‘ mebel va chiroqlar saloni (Yunusobod, Amir Temur ko‘chasi, 107B). Divanlar 5 900 000 so‘mdan, chiroqlar 450 000 so‘mdan, xona rasmi bo‘yicha yoritishni bepul tanlash, Toshkent bo‘ylab 3 kunda yetkazish, 12 oygacha muddatli to‘lov."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Yorug‘ Home» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur ko‘chasi, 107B, Yunusobod",
     "city": "Toshkent",
     "region": "Toshkent",

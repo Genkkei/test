@@ -1,5 +1,5 @@
 {
-  "name": "Polyglot",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Faqat dastlabki besh daqiqasi qo‘rqinchli bo‘lgan til maktabi",
   "niche": "Til maktabi: bolalar va kattalar uchun ingliz, koreys, nemis tillari",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Polyglot — Toshkentdagi til maktabi: ingliz, koreys tillari",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi til maktabi: ingliz, koreys tillari",
     "description": "6 yoshdan bolalar va kattalar uchun ingliz, koreys va nemis tillari. 8 kishigacha guruhlar, IELTS va TOPIK’ga tayyorlov, bepul sinov darsi.",
     "keywords": [
       "ingliz tili kurslari Toshkent",
@@ -19,7 +19,7 @@
       "bolalar uchun ingliz tili",
       "nemis tili kurslari"
     ],
-    "answer": "Polyglot — Toshkentdagi til maktabi, Nukus ko‘chasi, 54. 6 yoshdan bolalar va kattalarga 8 kishigacha guruhlarda ingliz, koreys va nemis tillarini o‘rgatamiz. Bir oylik darslar — 690 000 so‘mdan (haftasiga 3 dars), IELTS’ga tayyorlov — 4 oy. Birinchi dars va daraja testi bepul."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi til maktabi, Nukus ko‘chasi, 54. 6 yoshdan bolalar va kattalarga 8 kishigacha guruhlarda ingliz, koreys va nemis tillarini o‘rgatamiz. Bir oylik darslar — 690 000 so‘mdan (haftasiga 3 dars), IELTS’ga tayyorlov — 4 oy. Birinchi dars va daraja testi bepul."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Polyglot Education» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Nukus ko‘chasi, 54",
     "city": "Toshkent",
     "region": "Toshkent",

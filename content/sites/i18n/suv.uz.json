@@ -1,5 +1,5 @@
 {
-  "name": "Suv",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Xotirjam va to‘g‘ri suzishni o‘rgatadigan basseyn",
   "niche": "Basseyn va suzish maktabi: 4 yoshdan bolalar, kattalar, akvafitnes",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Suv — Toshkentdagi basseyn va suzish maktabi",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi basseyn va suzish maktabi",
     "description": "Ulug‘bek ko‘chasidagi 25 metrli basseyn: 4 yoshdan bolalar va kattalarga suzish, erkin suzish, akvafitnes. Sinov darsi, abonementlar, tibbiy ruxsatli murabbiylar.",
     "keywords": [
       "basseyn Toshkent",
@@ -24,10 +24,10 @@
       "akvafitnes Toshkent",
       "basseynga abonement"
     ],
-    "answer": "Suv — Toshkentdagi Mirzo Ulug‘bek ko‘chasi, 56 da joylashgan 25 metrli basseyn. 4 yoshdan bolalarga va noldan kattalarga suzishni o‘rgatamiz, erkin suzish va akvafitnes ham bor. Ish kunlari 07:00–22:00, dam olish kunlari 08:00–20:00. Bir martalik tashrif — 80 000 so‘m, oylik abonement — 600 000 so‘mdan, bola uchun sinov darsi — 50 000 so‘m."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Mirzo Ulug‘bek ko‘chasi, 56 da joylashgan 25 metrli basseyn. 4 yoshdan bolalarga va noldan kattalarga suzishni o‘rgatamiz, erkin suzish va akvafitnes ham bor. Ish kunlari 07:00–22:00, dam olish kunlari 08:00–20:00. Bir martalik tashrif — 80 000 so‘m, oylik abonement — 600 000 so‘mdan, bola uchun sinov darsi — 50 000 so‘m."
   },
   "business": {
-    "legalName": "“Suv Sport” MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirzo Ulug‘bek ko‘chasi, 56",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -87,7 +87,7 @@
       "type": "about",
       "label": "Basseyn haqida",
       "title": "Qolging keladigan suv",
-      "text": "Suv 2016 yilda bolalar suzish maktabi sifatida ochilib, to‘laqonli basseynga aylandi: 25 metr, oltita yo‘lak, kichkintoylar uchun alohida iliq hovuz. Suv ozon va ultrabinafsha nur bilan tozalanadi, shuning uchun xlor hidi deyarli yo‘q. Suv tahlilini har kuni qilamiz, natijalar kirishda osilgan.",
+      "text": "«Sizning kompaniyangiz» 2016 yilda bolalar suzish maktabi sifatida ochilib, to‘laqonli basseynga aylandi: 25 metr, oltita yo‘lak, kichkintoylar uchun alohida iliq hovuz. Suv ozon va ultrabinafsha nur bilan tozalanadi, shuning uchun xlor hidi deyarli yo‘q. Suv tahlilini har kuni qilamiz, natijalar kirishda osilgan.",
       "image": ""
     },
     {

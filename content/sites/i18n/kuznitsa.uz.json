@@ -1,5 +1,5 @@
 {
-  "name": "Kuznitsa №1",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Xususiy uy uchun ayvonlar, zinalar va karkaslar — taxminan emas, hisob bo‘yicha",
   "niche": "Temirchilik sexi: metall konstruksiyalar, zinalar va ayvonlar",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Kuznitsa №1 — ayvonlar, zinalar va metall konstruksiyalar, Toshkent",
+    "title": "«Sizning kompaniyangiz» — ayvonlar, zinalar va metall konstruksiyalar, Toshkent",
     "description": "Sergelidagi temirchilik sexi: mashina va ayvon uchun soyabonlar, metall karkasli zinalar, kozirkalar, shiyponlar va mansardalar karkaslari. Yuk hisobi, o‘z bo‘yoqxonamiz, sex brigadasi o‘rnatadi.",
     "keywords": [
       "mashina uchun soyabon Toshkent",
@@ -28,10 +28,10 @@
       "shiypon karkasi",
       "temirchilik sexi"
     ],
-    "answer": "Kuznitsa №1 — Sergelidagi temirchilik sexi (Yangi Sergeli ko‘chasi, 12), dush–shan 8:00 dan 18:00 gacha ishlaydi. Polikarbonatli soyabon — m² uchun 650 000 so‘mdan, kirish kozirkasi — 2 400 000 so‘mdan, metall karkasli zina — 14 000 000 so‘mdan. Tayyorlashdan oldin qor va shamol yukini hisoblaymiz, muddat — 10 ish kunidan, konstruksiyaga kafolat — 5 yil."
+    "answer": "«Sizning kompaniyangiz» — Sergelidagi temirchilik sexi (Yangi Sergeli ko‘chasi, 12), dush–shan 8:00 dan 18:00 gacha ishlaydi. Polikarbonatli soyabon — m² uchun 650 000 so‘mdan, kirish kozirkasi — 2 400 000 so‘mdan, metall karkasli zina — 14 000 000 so‘mdan. Tayyorlashdan oldin qor va shamol yukini hisoblaymiz, muddat — 10 ish kunidan, konstruksiyaga kafolat — 5 yil."
   },
   "business": {
-    "legalName": "«Kuznitsa Nomer Odin» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Sergeli tumani, Yangi Sergeli ko‘chasi, 12 (sanoat zonasi)",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -53,7 +53,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Kuznitsa №1",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Temirchilik sexi · Sergeli · 2012-yildan",
       "subtitle": "Xususiy uylar uchun soyabonlar, zinalar va karkaslarni payvandlaymiz va o‘rnatamiz. Metallni kesishdan oldin yukni hisoblaymiz va konstruksiya uchun besh yil javob beramiz.",
       "cta": {

@@ -1,5 +1,5 @@
 {
-  "name": "Temirchi",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Yosh temirxona: temirchilik master-klasslari va temir sovg‘alar",
   "niche": "Master-klass va qo‘lda yasalgan sovg‘alar temirxonasi",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Temirchi — Toshkentda temirchilik master-klasslari",
+    "title": "«Sizning kompaniyangiz» — Toshkentda temirchilik master-klasslari",
     "description": "Temirchi nazoratida 3 soatda o‘z qo‘lingiz bilan pichoq, taqa yoki shamdon yasang. Juftliklar va kompaniyalar uchun master-klasslar, sovg‘a sertifikatlari va buyurtma asosida temir sovg‘alar.",
     "keywords": [
       "temirchilik master-klassi",
@@ -26,10 +26,10 @@
       "taassurot sovg‘a sertifikati",
       "temir sovg‘alar"
     ],
-    "answer": "Temirchi — Chilonzordagi (Toshkent) temirchilik master-klasslari bo‘lgan temirxona: 3 soatda temirchi nazoratida o‘zingiz taqa, shamdon yoki pichoq yasaysiz. Master-klass — kishi boshiga 450 000 so‘mdan, juftlik uchun — 800 000 so‘m, sovg‘a sertifikatlari bor. Yosh — 14 dan, fartuk va qo‘lqop beramiz. Telefon +998 71 200-07-07."
+    "answer": "«Sizning kompaniyangiz» — Chilonzordagi (Toshkent) temirchilik master-klasslari bo‘lgan temirxona: 3 soatda temirchi nazoratida o‘zingiz taqa, shamdon yoki pichoq yasaysiz. Master-klass — kishi boshiga 450 000 so‘mdan, juftlik uchun — 800 000 so‘m, sovg‘a sertifikatlari bor. Yosh — 14 dan, fartuk va qo‘lqop beramiz. Telefon +998 71 200-07-07."
   },
   "business": {
-    "legalName": "YaTT «Temirchi»",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Chilonzor, 19-mavze, sanoat zonasi, 5-boks",
     "city": "Toshkent",
     "region": "Toshkent",

@@ -1,5 +1,5 @@
 {
-  "name": "Nota",
+  "name": "Your Company",
   "tagline": "A music school and studio that teaches you to play what you want to listen to",
   "niche": "Music school: guitar, piano, vocals, drums, dutar; recording studio",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Nota — music school and recording studio in Tashkent",
+    "title": "Your Company — music school and recording studio in Tashkent",
     "description": "Guitar, piano, vocal, drum and dutar lessons for kids from 6 and adults. One-to-one and in groups, student concerts and our own recording studio.",
     "keywords": [
       "music school Tashkent",
@@ -24,10 +24,10 @@
       "recording studio Tashkent",
       "drum lessons"
     ],
-    "answer": "Nota is a music school and studio at 12 Afrosiyob Street in Tashkent. We teach guitar, piano, vocals, drums and dutar to kids from 6 and adults from scratch. A 45-minute one-to-one lesson is 150,000 sum, an 8-lesson pass 1,040,000 sum, a trial lesson 50,000 sum. An hour in the recording studio with an engineer is 250,000 sum."
+    "answer": "Your Company is a music school and studio at 12 Afrosiyob Street in Tashkent. We teach guitar, piano, vocals, drums and dutar to kids from 6 and adults from scratch. A 45-minute one-to-one lesson is 150,000 sum, an 8-lesson pass 1,040,000 sum, a trial lesson 50,000 sum. An hour in the recording studio with an engineer is 250,000 sum."
   },
   "business": {
-    "legalName": "Nota Music LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Afrosiyob St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -90,7 +90,7 @@
       "type": "about",
       "label": "About",
       "title": "A school for playing, not passing exams",
-      "text": "Nota was founded by session musicians in 2017. We don’t prepare you for conservatory exams — we teach you to play: in a band, on stage, for yourself. Five soundproofed classrooms, a rehearsal room with drums and amps, and a studio where students record their first track.",
+      "text": "Your Company was founded by session musicians in 2017. We don’t prepare you for conservatory exams — we teach you to play: in a band, on stage, for yourself. Five soundproofed classrooms, a rehearsal room with drums and amps, and a studio where students record their first track.",
       "image": ""
     },
     {

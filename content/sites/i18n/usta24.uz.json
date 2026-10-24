@@ -1,5 +1,5 @@
 {
-  "name": "Usta 24",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Santexnik va elektrik bir soatda uyingizda",
   "niche": "Bir soatlik usta: santexnika, elektrika, Toshkent bo‘ylab mayda ta’mir",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Usta 24 — Toshkentda santexnik va elektrik bir soatda",
+    "title": "«Sizning kompaniyangiz» — Toshkentda santexnik va elektrik bir soatda",
     "description": "Toshkentda kecha-kunduz ustani uyga chaqirish: oqish, tiqilish, rozetka, avtomat, aralashtirgich, qandil. Narx ish boshlanishidan oldin, 6 oy kafolat.",
     "keywords": [
       "santexnik Toshkent",
@@ -24,7 +24,7 @@
       "aralashtirgichni almashtirish",
       "avariya chaqiruvi"
     ],
-    "answer": "Usta 24 — Toshkentda uyga usta xizmati: santexnik va elektrik o‘rtacha 60 daqiqada, kecha-kunduz yetib keladi. Chaqiruv — 50 000 so‘m, aralashtirgichni almashtirish — 120 000 so‘mdan, rozetka o‘rnatish — 60 000 so‘mdan. Usta narxni ish boshlanishidan oldin aytadi, ishga 6 oy kafolat. Chaqirish: +998 71 200-00-81 yoki Telegram."
+    "answer": "«Sizning kompaniyangiz» — Toshkentda uyga usta xizmati: santexnik va elektrik o‘rtacha 60 daqiqada, kecha-kunduz yetib keladi. Chaqiruv — 50 000 so‘m, aralashtirgichni almashtirish — 120 000 so‘mdan, rozetka o‘rnatish — 60 000 so‘mdan. Usta narxni ish boshlanishidan oldin aytadi, ishga 6 oy kafolat. Chaqirish: +998 71 200-00-81 yoki Telegram."
   },
   "sections": [
     {
@@ -298,7 +298,7 @@
     }
   ],
   "business": {
-    "legalName": "Usta 24 Servis MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 17",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -306,11 +306,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/usta24uz"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/usta24.uz"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Yandex Xaritalar",

@@ -1,5 +1,5 @@
 {
-  "name": "Kvant",
+  "name": "Your Company",
   "tagline": "Engineering that thinks",
   "niche": "IT company: AI products, SaaS and mobile apps",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Kvant — AI product, SaaS and app development in Tashkent",
+    "title": "Your Company — AI product, SaaS and app development in Tashkent",
     "description": "We design and build AI assistants, SaaS platforms and mobile apps. An IT Park resident: a team of 40 engineers, an MVP in 10–12 weeks.",
     "keywords": [
       "AI development Tashkent",
@@ -19,7 +19,7 @@
       "IT Park",
       "software outsourcing"
     ],
-    "answer": "Kvant is an IT company in Tashkent and an IT Park resident. We build LLM-based AI assistants, SaaS platforms and iOS and Android apps. An MVP launches in 10–12 weeks from $25,000; a dedicated team starts at $9,000 a month."
+    "answer": "Your Company is an IT company in Tashkent and an IT Park resident. We build LLM-based AI assistants, SaaS platforms and iOS and Android apps. An MVP launches in 10–12 weeks from $25,000; a dedicated team starts at $9,000 a month."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Kvant Labs LLC",
+    "legalName": "Your Company LLC",
     "street": "IT Park, 49 Mirzo Ulugbek St.",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -39,7 +39,7 @@
       "type": "hero",
       "label": "",
       "title": "We build products that learn faster than the market",
-      "eyebrow": "Kvant Labs · AI / SaaS / Mobile",
+      "eyebrow": "Your Company Labs · AI / SaaS / Mobile",
       "subtitle": "We design, build and scale digital products with AI inside — from a two-week prototype to a platform for a million users.",
       "words": [
         "Machine Learning",
@@ -224,7 +224,7 @@
       "title": "What clients say",
       "items": [
         {
-          "quote": "In three months Kvant built an assistant that took more than half the routine off our operators. More importantly, they were honest about what AI should not do.",
+          "quote": "In three months Your Company built an assistant that took more than half the routine off our operators. More importantly, they were honest about what AI should not do.",
           "author": "Timur Abdullaev",
           "role": "head of customer service, telecom"
         },
@@ -274,8 +274,8 @@
       "title": "Tell us what we are building",
       "text": "Send the idea in two paragraphs — within a day we will come back with questions and a first estimate.",
       "cta": {
-        "label": "hello@kvant.dev",
-        "href": "mailto:hello@kvant.dev"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

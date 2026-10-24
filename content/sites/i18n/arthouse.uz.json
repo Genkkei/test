@@ -1,5 +1,5 @@
 {
-  "name": "Arthouse",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Toshkentdagi zamonaviy san’at galereyasi: yangi ismlar, katta ko‘rgazmalar, hamma uchun ochiq",
   "niche": "Zamonaviy san’at galereyasi: ko‘rgazmalar, ma’ruzalar, asarlar savdosi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Arthouse — Toshkentdagi zamonaviy san’at galereyasi",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi zamonaviy san’at galereyasi",
     "description": "O‘zbekiston va Markaziy Osiyo rassomlari ko‘rgazmalari, ma’ruzalar, ekskursiyalar va asarlar savdosi. Se–ya 11:00–20:00, Yahyo G‘ulomov ko‘chasi, 74.",
     "keywords": [
       "zamonaviy san’at galereyasi Toshkent",
@@ -24,10 +24,10 @@
       "O‘zbekiston rassomlari",
       "ko‘rgazma bo‘ylab ekskursiya"
     ],
-    "answer": "Arthouse — Toshkentdagi Yahyo G‘ulomov ko‘chasi, 74-uydagi zamonaviy san’at galereyasi, seshanbadan yakshanbagacha 11:00 dan 20:00 gacha ochiq. Ko‘rgazmaga kirish — 50 000 so‘m, talabalar va 12 yoshgacha bolalar uchun bepul, kurator bilan ekskursiya — 150 000 so‘m. Ko‘rgazmalardagi asarlarni sotib olish mumkin: narxlar galereya menejeridan so‘rov bo‘yicha."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Yahyo G‘ulomov ko‘chasi, 74-uydagi zamonaviy san’at galereyasi, seshanbadan yakshanbagacha 11:00 dan 20:00 gacha ochiq. Ko‘rgazmaga kirish — 50 000 so‘m, talabalar va 12 yoshgacha bolalar uchun bepul, kurator bilan ekskursiya — 150 000 so‘m. Ko‘rgazmalardagi asarlarni sotib olish mumkin: narxlar galereya menejeridan so‘rov bo‘yicha."
   },
   "business": {
-    "legalName": "«Artxaus Galereya» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yahyo G‘ulomov ko‘chasi, 74",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -87,7 +87,7 @@
       "type": "about",
       "label": "Galereya",
       "title": "San’at aynan hozir sodir bo‘ladigan joy",
-      "text": "Arthouse 2018-yilda Yahyo G‘ulomov ko‘chasidagi sobiq tikuv sexida ochildi. 600 kvadrat metr oq devorlar, baland shiftlar va tomdan tushadigan yorug‘lik. Biz O‘zbekiston va Markaziy Osiyo rassomlarini ko‘rsatamiz — birinchi shaxsiy ko‘rgazmalardan katta retrospektivalargacha, — ma’ruzalar o‘tkazamiz va kolleksionerlarga asar topishda yordam beramiz.",
+      "text": "«Sizning kompaniyangiz» 2018-yilda Yahyo G‘ulomov ko‘chasidagi sobiq tikuv sexida ochildi. 600 kvadrat metr oq devorlar, baland shiftlar va tomdan tushadigan yorug‘lik. Biz O‘zbekiston va Markaziy Osiyo rassomlarini ko‘rsatamiz — birinchi shaxsiy ko‘rgazmalardan katta retrospektivalargacha, — ma’ruzalar o‘tkazamiz va kolleksionerlarga asar topishda yordam beramiz.",
       "image": ""
     },
     {

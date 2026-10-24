@@ -1,5 +1,5 @@
 {
-  "name": "Drip Bar",
+  "name": "Your Company",
   "tagline": "A retro coffee house on Afrosiyob: filter coffee, syrniki and seventies music",
   "niche": "Coffee house with breakfasts and pastries",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Drip Bar — retro coffee house with breakfasts in Tashkent",
+    "title": "Your Company — retro coffee house with breakfasts in Tashkent",
     "description": "Filter coffee, espresso and breakfast until 3 pm at 12 Afrosiyob St. Syrniki, granola, croissants from our own bakery. Mon–Fri 8:00–22:00, Sat–Sun 9:00–23:00.",
     "keywords": [
       "Tashkent coffee shop",
@@ -28,10 +28,10 @@
       "Mirabad cafe",
       "retro cafe"
     ],
-    "answer": "Drip Bar is a coffee house at 12 Afrosiyob St in the Mirabad district of Tashkent. Breakfast is served until 3 pm: syrniki — 42,000 UZS, granola — 38,000 UZS; filter coffee from 24,000 UZS, cappuccino — 28,000 UZS. Open 8:00–22:00 on weekdays and 9:00–23:00 at weekends."
+    "answer": "Your Company is a coffee house at 12 Afrosiyob St in the Mirabad district of Tashkent. Breakfast is served until 3 pm: syrniki — 42,000 UZS, granola — 38,000 UZS; filter coffee from 24,000 UZS, cappuccino — 28,000 UZS. Open 8:00–22:00 on weekdays and 9:00–23:00 at weekends."
   },
   "business": {
-    "legalName": "Drip Bar LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Afrosiyob St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -54,7 +54,7 @@
       "type": "hero",
       "label": "",
       "title": "Mornings start with a drop",
-      "eyebrow": "Drip Bar · 12 Afrosiyob · from 8:00",
+      "eyebrow": "Your Company · 12 Afrosiyob · from 8:00",
       "subtitle": "Pour-over filter coffee, syrniki fried in ghee and records spinning from morning till night. Breakfast until three in the afternoon, Saturdays included.",
       "words": [],
       "cta": {

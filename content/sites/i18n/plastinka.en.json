@@ -1,5 +1,5 @@
 {
-  "name": "Plastinka",
+  "name": "Your Company",
   "tagline": "Coffee that plays at 33 rpm",
   "niche": "Coffee shop with vinyl nights",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Plastinka — coffee shop with vinyl nights in Tashkent",
+    "title": "Your Company — coffee shop with vinyl nights in Tashkent",
     "description": "Coffee, desserts and fifteen hundred records at 30 Navoi St. Vinyl nights with guest collectors on Fridays and Saturdays, and you can bring your own record.",
     "keywords": [
       "vinyl café Tashkent",
@@ -23,10 +23,10 @@
       "records Tashkent",
       "music café"
     ],
-    "answer": "Plastinka is a coffee shop at 30 Alisher Navoi St in Tashkent with a collection of 1,500 vinyl records. Open 11 am to midnight and till 1 am on Fridays and Saturdays. A cappuccino costs 27,000 UZS; entry to a vinyl night is 50,000 UZS with a drink."
+    "answer": "Your Company is a coffee shop at 30 Alisher Navoi St in Tashkent with a collection of 1,500 vinyl records. Open 11 am to midnight and till 1 am on Fridays and Saturdays. A cappuccino costs 27,000 UZS; entry to a vinyl night is 50,000 UZS with a drink."
   },
   "business": {
-    "legalName": "Plastinka LLC",
+    "legalName": "Your Company LLC",
     "street": "30 Alisher Navoi St, Shaykhantakhur",
     "city": "Tashkent",
     "region": "Tashkent",

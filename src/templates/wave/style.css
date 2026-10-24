@@ -164,7 +164,7 @@
 .tpl-wave .s-wrap:last-of-type .s-contact { margin-bottom: 0; }
 .wave-footer__edge { display: none; }
 .wave-footer__inner { padding: 40px var(--pad) 32px; display: grid; gap: 40px; }
-.wave-footer__word { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: clamp(90px, 22vw, 360px); line-height: .8; letter-spacing: -.06em; background: linear-gradient(180deg, #7fd6f2, transparent 90%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.wave-footer__word { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: min(clamp(90px, 22vw, 360px), calc(92vw / (var(--n, 6) * .78))); line-height: .8; letter-spacing: -.06em; background: linear-gradient(180deg, #7fd6f2, transparent 90%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .wave-footer__cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; font-size: 15px; }
 .wave-footer__cols a, .wave-footer__cols p { display: block; line-height: 1.7; }
 .wave-footer .wave-k { color: #7fd6f2; }

@@ -1,9 +1,9 @@
 {
-  "name": "Ko‘zgu",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Vitrina emas, ko‘zlaringizga qarab tanlangan ko‘zoynaklar",
   "niche": "Optika saloni: ko‘rishni tekshirish, gardishlar, linzalar va quyoshdan saqlovchi ko‘zoynaklar",
   "seo": {
-    "title": "Ko‘zgu — Toshkentda optika: ko‘rish tekshiruvi va ko‘zoynak",
+    "title": "«Sizning kompaniyangiz» — Toshkentda optika: ko‘rish tekshiruvi va ko‘zoynak",
     "description": "20 daqiqada kompyuter ko‘rish tekshiruvi, salonda 400 gardish, linzalar 1–3 kunda tayyorlanadi. Toshkent, Shahrisabz ko‘chasi, 9.",
     "keywords": [
       "Toshkent optika",
@@ -13,7 +13,7 @@
       "kontakt linzalar",
       "quyoshdan saqlovchi ko‘zoynak"
     ],
-    "answer": "Ko‘zgu — Toshkentdagi Shahrisabz ko‘chasi, 9 dagi optika saloni. Ko‘rishni tekshirish — 80 000 so‘m, ko‘zoynak buyurtma qilinsa bepul, gardishlar — 290 000 so‘mdan, linzali tayyor ko‘zoynak — 550 000 so‘mdan, tayyorlash — 1–3 kun. Du–sh 9:00 dan 20:00 gacha, ya — 10:00 dan 17:00 gacha ishlaymiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Shahrisabz ko‘chasi, 9 dagi optika saloni. Ko‘rishni tekshirish — 80 000 so‘m, ko‘zoynak buyurtma qilinsa bepul, gardishlar — 290 000 so‘mdan, linzali tayyor ko‘zoynak — 550 000 so‘mdan, tayyorlash — 1–3 kun. Du–sh 9:00 dan 20:00 gacha, ya — 10:00 dan 17:00 gacha ishlaymiz."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Ko‘zgu Optika» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shahrisabz ko‘chasi, 9",
     "city": "Toshkent",
     "region": "Toshkent",

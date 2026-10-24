@@ -1,5 +1,5 @@
 {
-  "name": "Siyoh",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Yigirma yildan keyin ham ko‘rsatishdan uyalmaydigan tatuirovkalar",
   "niche": "Tatu-studiya: mualliflik eskizlari, grafika, laynvork, eski tatuni yopish",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Siyoh — Toshkentdagi tatu-studiya: eskiz va grafika",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi tatu-studiya: eskiz va grafika",
     "description": "Toshkentda mualliflik tatuirovkalari: grafika, laynvork, naqshlar, eski tatuni yopish. Bir martalik ignalar, steril xona, maslahat va eskiz bepul.",
     "keywords": [
       "tatu Toshkent",
@@ -24,7 +24,7 @@
       "laynvork",
       "grafika tatu"
     ],
-    "answer": "Siyoh — Toshkent, Muqimiy ko‘chasi, 7 dagi tatu-studiya, seshanbadan yakshanbagacha 12:00 dan 21:00 gacha ishlaydi. Mini tatu — 400 000 so‘mdan, bir soatlik seans — 600 000 so‘m, to‘liq kun — 3 500 000 so‘m. Maslahat va eskiz bepul, ignalar bir martalik, Telegram orqali yoziling. 18 yoshdan tatu qilamiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Muqimiy ko‘chasi, 7 dagi tatu-studiya, seshanbadan yakshanbagacha 12:00 dan 21:00 gacha ishlaydi. Mini tatu — 400 000 so‘mdan, bir soatlik seans — 600 000 so‘m, to‘liq kun — 3 500 000 so‘m. Maslahat va eskiz bepul, ignalar bir martalik, Telegram orqali yoziling. 18 yoshdan tatu qilamiz."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Siyoh",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Tatu-studiya · Toshkent",
       "subtitle": "Eskizni internetdan olmaymiz, siz uchun chizamiz. Grafika, laynvork, naqsh va yopishlar — yillar o‘tib ham yoyilmaydigan ingichka chiziqlar bilan.",
       "words": [
@@ -336,7 +336,7 @@
     }
   ],
   "business": {
-    "legalName": "Siyoh Tattoo YaTT",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Muqimiy ko‘chasi, 7, ikkinchi qavat",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -344,11 +344,11 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com/siyoh.tattoo"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Telegram",
-        "url": "https://t.me/siyohtattoo"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Pinterest",

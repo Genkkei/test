@@ -1,5 +1,5 @@
 {
-  "name": "Kofemania",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Butun oila uchun vafli, kakao va qahva",
   "niche": "Vafli bilan oilaviy qahvaxona",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kofemania — Yunusoboddagi vafli bilan oilaviy qahvaxona",
+    "title": "«Sizning kompaniyangiz» — Yunusoboddagi vafli bilan oilaviy qahvaxona",
     "description": "Bog‘ishamol, 12 da belgiya vaflisi, kakao, qahva va bolalar burchagi. Dam olish kunlari bolalar bayramlari, Yunusobod bo‘ylab 8:00 dan 22:00 gacha vafli yetkazib berish.",
     "keywords": [
       "oilaviy qahvaxona Toshkent",
@@ -23,10 +23,10 @@
       "kakao Toshkent",
       "kafeda bolalar bayrami"
     ],
-    "answer": "Kofemania — Yunusobod, Bog‘ishamol ko‘chasi, 12 dagi oilaviy qahvaxona. Har kuni 8:00 dan 22:00 gacha ishlaydi. Belgiya vaflisi 32 000 so‘mdan, kakao — 24 000 so‘m, kapuchino — 25 000 so‘m. Bolalar burchagi, dam olish kunlari bayramlar va Yunusobod bo‘ylab yetkazib berish bor."
+    "answer": "«Sizning kompaniyangiz» — Yunusobod, Bog‘ishamol ko‘chasi, 12 dagi oilaviy qahvaxona. Har kuni 8:00 dan 22:00 gacha ishlaydi. Belgiya vaflisi 32 000 so‘mdan, kakao — 24 000 so‘m, kapuchino — 25 000 so‘m. Bolalar burchagi, dam olish kunlari bayramlar va Yunusobod bo‘ylab yetkazib berish bor."
   },
   "business": {
-    "legalName": "«Kofemania Toshkent» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yunusobod, Bog‘ishamol ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -45,7 +45,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Vafli kattalarcha, kakao bolalarcha",
-      "eyebrow": "Kofemania · Bog‘ishamol 12 · 8:00–22:00",
+      "eyebrow": "«Sizning kompaniyangiz» · Bog‘ishamol 12 · 8:00–22:00",
       "subtitle": "Tirik xamirdan qarsildoq belgiya vaflisi, marshmellouli issiq kakao va ota-onalar uchun yaxshi qahva. Kattalar suhbatlashayotganda bolalar burchagimizda rasm chizadi.",
       "words": [],
       "cta": {
@@ -178,7 +178,7 @@
     {
       "id": "stats",
       "type": "stats",
-      "label": "Kofemania raqamlarda",
+      "label": "«Sizning kompaniyangiz» raqamlarda",
       "title": "",
       "items": [
         {

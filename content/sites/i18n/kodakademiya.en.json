@@ -1,5 +1,5 @@
 {
-  "name": "Kod Akademiya",
+  "name": "Your Company",
   "tagline": "We teach programming so that in a year you’re working in IT",
   "niche": "IT courses: web development, Python, mobile apps, courses for teenagers",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kod Akademiya — IT courses and coding school",
+    "title": "Your Company — IT courses and coding school",
     "description": "Web development, Python and mobile app courses in Tashkent: live groups of up to 14, portfolio projects and internships with partners at IT Park.",
     "keywords": [
       "IT courses Tashkent",
@@ -24,10 +24,10 @@
       "programming for teenagers",
       "Flutter course"
     ],
-    "answer": "Kod Akademiya is a coding school at IT Park (2 Mirzo Ulugbek Street, Tashkent). Courses: front-end and back-end development (9 months), Python and data analysis (6 months), Flutter mobile apps (6 months), and coding for teenagers aged 12–16. Groups of up to 14, classes three evenings a week, from 1,200,000 sum a month; the first class is free."
+    "answer": "Your Company is a coding school at IT Park (2 Mirzo Ulugbek Street, Tashkent). Courses: front-end and back-end development (9 months), Python and data analysis (6 months), Flutter mobile apps (6 months), and coding for teenagers aged 12–16. Groups of up to 14, classes three evenings a week, from 1,200,000 sum a month; the first class is free."
   },
   "business": {
-    "legalName": "Kod Akademiya LLC",
+    "legalName": "Your Company LLC",
     "street": "IT Park, 2 Mirzo Ulugbek St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -91,7 +91,7 @@
       "type": "about",
       "label": "About",
       "title": "We teach the way teams actually work",
-      "text": "Kod Akademiya opened at IT Park in 2020. Our teachers are working developers: by day they write code at product companies, in the evenings they lead groups. Every module ends with a code-reviewed project, so graduates leave with 4–6 pieces of work on GitHub and experience of team development with real tasks.",
+      "text": "Your Company opened at IT Park in 2020. Our teachers are working developers: by day they write code at product companies, in the evenings they lead groups. Every module ends with a code-reviewed project, so graduates leave with 4–6 pieces of work on GitHub and experience of team development with real tasks.",
       "image": ""
     },
     {

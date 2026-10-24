@@ -1,5 +1,5 @@
 {
-  "name": "Choy Uyi",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Choy uyi: bargli choy, idish-tovoq va eski shahardagi sokin choyxona",
   "niche": "Choy do‘koni va choyxona",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Choy Uyi — Toshkentdagi choy do‘koni va choyxona",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi choy do‘koni va choyxona",
     "description": "Bargli ko‘k, qora choy, ulun va puer, choy idishlari va degustatsiyalar. Sebzordagi choyxona, O‘zbekiston bo‘ylab choy yetkazib berish, 50 g dan tortib olish.",
     "keywords": [
       "choy do‘koni Toshkent",
@@ -25,10 +25,10 @@
       "choyxona Toshkent",
       "choy marosimi"
     ],
-    "answer": "Choy Uyi — Toshkentdagi Sebzor ko‘chasi, 14 dagi choy do‘koni va choyxona, har kuni 10:00 dan 22:00 gacha ochiq. Bargli choyni 50 g dan tortib sotamiz: ko‘k «Sencha» — 65 000 so‘m, «Te Guan In» uluni — 50 g uchun 95 000 so‘m. Choyxonada bir choynak choy — 45 000 so‘mdan, beshta choy degustatsiyasi — 180 000 so‘m, Toshkent bo‘ylab ertasi kuni yetkazib beramiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Sebzor ko‘chasi, 14 dagi choy do‘koni va choyxona, har kuni 10:00 dan 22:00 gacha ochiq. Bargli choyni 50 g dan tortib sotamiz: ko‘k «Sencha» — 65 000 so‘m, «Te Guan In» uluni — 50 g uchun 95 000 so‘m. Choyxonada bir choynak choy — 45 000 so‘mdan, beshta choy degustatsiyasi — 180 000 so‘m, Toshkent bo‘ylab ertasi kuni yetkazib beramiz."
   },
   "business": {
-    "legalName": "«Choy Uyi» YaTT",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Sebzor ko‘chasi, 14",
     "city": "Toshkent",
     "region": "Toshkent",

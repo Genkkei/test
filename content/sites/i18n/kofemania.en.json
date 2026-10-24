@@ -1,5 +1,5 @@
 {
-  "name": "Kofemania",
+  "name": "Your Company",
   "tagline": "Waffles, cocoa and coffee for the whole family",
   "niche": "Family coffee shop with waffles",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kofemania — family coffee shop with waffles in Yunusabad",
+    "title": "Your Company — family coffee shop with waffles in Yunusabad",
     "description": "Belgian waffles, cocoa, coffee and a kids’ corner at 12 Bogishamol St. Kids’ parties at weekends and waffle delivery across Yunusabad from 8 am to 10 pm.",
     "keywords": [
       "family café Tashkent",
@@ -23,10 +23,10 @@
       "cocoa Tashkent",
       "kids’ party at a café"
     ],
-    "answer": "Kofemania is a family coffee shop at 12 Bogishamol St in Yunusabad, open daily from 8 am to 10 pm. A Belgian waffle costs from 32,000 UZS, cocoa 24,000 UZS and a cappuccino 25,000 UZS. There is a kids’ corner, weekend parties and delivery across Yunusabad."
+    "answer": "Your Company is a family coffee shop at 12 Bogishamol St in Yunusabad, open daily from 8 am to 10 pm. A Belgian waffle costs from 32,000 UZS, cocoa 24,000 UZS and a cappuccino 25,000 UZS. There is a kids’ corner, weekend parties and delivery across Yunusabad."
   },
   "business": {
-    "legalName": "Kofemania Tashkent LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Bogishamol St, Yunusabad",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -45,7 +45,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Grown-up waffles, kid-style cocoa",
-      "eyebrow": "Kofemania · Bogishamol 12 · 8 am–10 pm",
+      "eyebrow": "Your Company · Bogishamol 12 · 8 am–10 pm",
       "subtitle": "Crisp Belgian waffles from fresh dough, hot cocoa with marshmallows and proper coffee for the parents. While the grown-ups talk, the kids draw in our corner.",
       "words": [],
       "cta": {
@@ -148,7 +148,7 @@
       "type": "about",
       "label": "About",
       "title": "A café you can walk into with a pram",
-      "text": "Kofemania was started by two parents tired of choosing between good coffee and a place where a child is not bored. We have a wide step-free entrance, a changing table, high chairs and a corner with building blocks and colouring books. Waffle batter is made fresh every morning.",
+      "text": "Your Company was started by two parents tired of choosing between good coffee and a place where a child is not bored. We have a wide step-free entrance, a changing table, high chairs and a corner with building blocks and colouring books. Waffle batter is made fresh every morning.",
       "image": ""
     },
     {
@@ -178,7 +178,7 @@
     {
       "id": "stats",
       "type": "stats",
-      "label": "Kofemania in numbers",
+      "label": "Your Company in numbers",
       "title": "",
       "items": [
         {

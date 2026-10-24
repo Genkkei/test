@@ -1,5 +1,5 @@
 {
-  "name": "Nord Studio",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Qo‘l tekkizgingiz keladigan brendlar",
   "niche": "Kreativ agentlik: brending, saytlar, prodakshn",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Nord Studio — Toshkentdagi brending va digital-agentlik",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi brending va digital-agentlik",
     "description": "O‘zbekiston va Markaziy Osiyo brendlari uchun aydentika, WebGL animatsiyali saytlar va reklama prodakshni yaratamiz. Strategiya, dizayn, ishlab chiqish — bitta jamoa.",
     "keywords": [
       "brending Toshkent",
@@ -19,7 +19,7 @@
       "WebGL saytlar",
       "prodakshn"
     ],
-    "answer": "Nord Studio — Toshkentdagi kreativ agentlik: brend strategiyasi, aydentika, WebGL animatsiyali saytlar va reklama roliklarini yaratamiz. Brending loyihasi 6 haftadan boshlanadi va narxi 9 000 $ dan, sayt — 6 haftadan va 7 000 $ dan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi kreativ agentlik: brend strategiyasi, aydentika, WebGL animatsiyali saytlar va reklama roliklarini yaratamiz. Brending loyihasi 6 haftadan boshlanadi va narxi 9 000 $ dan, sayt — 6 haftadan va 7 000 $ dan."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Nord Studio» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shota Rustaveli ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -219,7 +219,7 @@
       "title": "Bizga ishonishadi",
       "items": [
         {
-          "quote": "Nord tarqoq restoranlardan bitta taniladigan oilani yig‘di. Mehmonlar bizni peshlavhadan oldin menyudan taniy boshladi.",
+          "quote": "«Sizning kompaniyangiz» tarqoq restoranlardan bitta taniladigan oilani yig‘di. Mehmonlar bizni peshlavhadan oldin menyudan taniy boshladi.",
           "author": "Aziz Karimov",
           "role": "Saffron Hall asoschisi"
         },
@@ -265,8 +265,8 @@
       "title": "Keling, shov-shuvli narsa qilamiz",
       "text": "Vazifangiz haqida aytib bering — bir ish kuni ichida javob beramiz.",
       "cta": {
-        "label": "hello@nord.studio",
-        "href": "mailto:hello@nord.studio"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

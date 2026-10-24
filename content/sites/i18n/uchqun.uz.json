@@ -1,9 +1,9 @@
 {
-  "name": "Uchqun",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Payvandlash, soyabonlar va avtoturargoh ustidagi quyosh tomlari",
   "niche": "Payvandlash ishlari va quyosh panelli soyabonlar",
   "seo": {
-    "title": "Uchqun — Toshkentda soyabonlar va payvandlash ishlari",
+    "title": "«Sizning kompaniyangiz» — Toshkentda soyabonlar va payvandlash ishlari",
     "description": "Mashina va terrasalar uchun soyabonlar, jumladan tomida quyosh panellari bilan, joyga chiqib payvandlash, darvoza va karkaslarni ta’mirlash. Yangihayot, Toshkent.",
     "keywords": [
       "mashina soyaboni Toshkent",
@@ -11,7 +11,7 @@
       "joyga chiqib payvandlash",
       "polikarbonat soyabon"
     ],
-    "answer": "Uchqun — Yangihayotdagi payvandlash ustaxonasi: bitta mashina uchun soyabon 9 500 000 so‘mdan, 5 kVt panelli 2 mashinalik quyosh soyaboni 62 000 000 so‘mdan, joyga chiqib payvandlash bir chiqish uchun 350 000 so‘mdan. Soyabonni o‘rnatish 2–3 kun, karkasga 5 yil kafolat, telefon +998 71 200-04-06."
+    "answer": "«Sizning kompaniyangiz» — Yangihayotdagi payvandlash ustaxonasi: bitta mashina uchun soyabon 9 500 000 so‘mdan, 5 kVt panelli 2 mashinalik quyosh soyaboni 62 000 000 so‘mdan, joyga chiqib payvandlash bir chiqish uchun 350 000 so‘mdan. Soyabonni o‘rnatish 2–3 kun, karkasga 5 yil kafolat, telefon +998 71 200-04-06."
   },
   "nav": {
     "cta": {
@@ -29,7 +29,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Uchqun Payvand» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yangihayot ko‘chasi, 54, Yangihayot tumani",
     "city": "Toshkent",
     "region": "Toshkent",

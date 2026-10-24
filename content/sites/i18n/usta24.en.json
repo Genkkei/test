@@ -1,5 +1,5 @@
 {
-  "name": "Usta 24",
+  "name": "Your Company",
   "tagline": "A plumber or electrician at your door within the hour",
   "niche": "Handyman service: plumbing, electrics and small repairs across Tashkent",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Usta 24 — plumber and electrician in Tashkent within an hour",
+    "title": "Your Company — plumber and electrician in Tashkent within an hour",
     "description": "Call a handyman to your home in Tashkent around the clock: leaks, blockages, sockets, breakers, taps and light fittings. Price agreed before work starts, 6-month guarantee.",
     "keywords": [
       "plumber Tashkent",
@@ -24,7 +24,7 @@
       "tap replacement",
       "emergency call-out"
     ],
-    "answer": "Usta 24 is a home repair service in Tashkent: a plumber or electrician arrives in about 60 minutes, day or night. A call-out is 50,000 sum, replacing a tap starts at 120,000 sum, fitting a socket at 60,000 sum. The price is agreed before work starts and every job carries a 6-month guarantee. Call +998 71 200-00-81 or write on Telegram."
+    "answer": "Your Company is a home repair service in Tashkent: a plumber or electrician arrives in about 60 minutes, day or night. A call-out is 50,000 sum, replacing a tap starts at 120,000 sum, fitting a socket at 60,000 sum. The price is agreed before work starts and every job carries a 6-month guarantee. Call +998 71 200-00-81 or write on Telegram."
   },
   "sections": [
     {
@@ -298,7 +298,7 @@
     }
   ],
   "business": {
-    "legalName": "Usta 24 Service LLC",
+    "legalName": "Your Company LLC",
     "street": "17 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -306,11 +306,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/usta24uz"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/usta24.uz"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Yandex Maps",

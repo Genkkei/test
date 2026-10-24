@@ -1,5 +1,5 @@
 {
-  "name": "Chimgan Lodge",
+  "name": "Your Company",
   "tagline": "A boutique hotel in the Chimgan mountains",
   "niche": "Boutique hotel and mountain retreat",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Chimgan Lodge — boutique mountain hotel 90 min from Tashkent",
+    "title": "Your Company — boutique mountain hotel 90 min from Tashkent",
     "description": "Twelve rooms facing Big Chimgan, a banya, a restaurant and trails from the doorstep. Transfers from Tashkent; rooms from 1,400,000 UZS a night with breakfast.",
     "keywords": [
       "Chimgan hotel",
@@ -19,7 +19,7 @@
       "country hotel",
       "mountain banya"
     ],
-    "answer": "Chimgan Lodge is a 12-room boutique hotel in Chimgan village, a 90-minute drive from Tashkent. Rooms start at 1,400,000 UZS a night with breakfast; check-in from 14:00, check-out by 12:00. There are transfers from Tashkent, a banya, a restaurant and mountain trails from the door."
+    "answer": "Your Company is a 12-room boutique hotel in Chimgan village, a 90-minute drive from Tashkent. Rooms start at 1,400,000 UZS a night with breakfast; check-in from 14:00, check-out by 12:00. There are transfers from Tashkent, a banya, a restaurant and mountain trails from the door."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Chimgan Lodge LLC",
+    "legalName": "Your Company LLC",
     "street": "7 Gornaya St., Chimgan village, Bostanlyk District",
     "city": "Chimgan",
     "region": "Tashkent Region",

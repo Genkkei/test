@@ -1,5 +1,5 @@
 {
-  "name": "Saroy Suites",
+  "name": "Your Company",
   "tagline": "Twelve rooms in an old house with a carved-plaster courtyard",
   "niche": "Boutique hotel in central Tashkent",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Saroy Suites — boutique hotel in central Tashkent",
+    "title": "Your Company — boutique hotel in central Tashkent",
     "description": "Twelve rooms in a restored 1912 house: carved-plaster courtyard, breakfast by the fountain, hammam and terrace. A 10-minute walk to the Old City.",
     "keywords": [
       "boutique hotel Tashkent",
@@ -25,10 +25,10 @@
       "hammam Tashkent",
       "Tashkent accommodation"
     ],
-    "answer": "Saroy Suites is a 12-room boutique hotel in a restored 1912 house in central Tashkent. Rooms from 1,400,000 UZS per night with breakfast, check-in from 14:00, check-out by 12:00, airport transfer 250,000 UZS. Reception is open 24 hours."
+    "answer": "Your Company is a 12-room boutique hotel in a restored 1912 house in central Tashkent. Rooms from 1,400,000 UZS per night with breakfast, check-in from 14:00, check-out by 12:00, airport transfer 250,000 UZS. Reception is open 24 hours."
   },
   "business": {
-    "legalName": "Saroy Suites LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Abdulla Qodiriy St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -151,7 +151,7 @@
       "id": "moments",
       "type": "gallery",
       "label": "Moments",
-      "title": "A day at Saroy",
+      "title": "A day at Your Company",
       "items": [
         {
           "caption": "Morning in the courtyard",

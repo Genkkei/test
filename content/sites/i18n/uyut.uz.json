@@ -1,5 +1,5 @@
 {
-  "name": "Uyut Home",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Iliq uy uchun mebel va to‘qimachilik",
   "niche": "Mebel va uy to‘qimachiligi",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Uyut Home — Toshkentda uy uchun mebel va to‘qimachilik",
+    "title": "«Sizning kompaniyangiz» — Toshkentda uy uchun mebel va to‘qimachilik",
     "description": "Iliq ranglardagi divanlar, karavotlar, pledlar va pardalar. Muqimiydagi shourum, Toshkent bo‘ylab 2 kunda yetkazish, o‘lcham bo‘yicha pardalar 7 kundan.",
     "keywords": [
       "mebel Toshkent",
@@ -28,10 +28,10 @@
       "uy to‘qimachiligi",
       "yumshoq boshli karavot"
     ],
-    "answer": "Uyut Home — Toshkentdagi mebel va uy to‘qimachiligi do‘koni (Muqimiy ko‘chasi, 7), har kuni 10:00 dan 20:00 gacha ochiq. Divanlar 6 900 000 so‘mdan, karavotlar 4 800 000 so‘mdan, o‘lcham bo‘yicha pardalar 7 kundan. Toshkent bo‘ylab yetkazish — 2 kun, ko‘tarish va yig‘ish kiritilgan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi mebel va uy to‘qimachiligi do‘koni (Muqimiy ko‘chasi, 7), har kuni 10:00 dan 20:00 gacha ochiq. Divanlar 6 900 000 so‘mdan, karavotlar 4 800 000 so‘mdan, o‘lcham bo‘yicha pardalar 7 kundan. Toshkent bo‘ylab yetkazish — 2 kun, ko‘tarish va yig‘ish kiritilgan."
   },
   "business": {
-    "legalName": "«Uyut Home» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Muqimiy ko‘chasi, 7",
     "city": "Toshkent",
     "region": "Toshkent",

@@ -1,5 +1,5 @@
 {
-  "name": "Kitob Uyi",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Sotuvchi tavsiya qilganini o‘qigan kitob do‘koni",
   "niche": "Kitob do‘koni: badiiy adabiyot, nonfikshn, bolalar kitoblari, kitob klubi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kitob Uyi — Toshkentdagi Brodveydagi kitob do‘koni",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi Brodveydagi kitob do‘koni",
     "description": "Rus, o‘zbek va ingliz tillarida kitoblar: nasr, nonfikshn, bolalar kitoblari. Payshanba kunlari kitob klubi, istalgan kitobni 7–14 kunda buyurtma qilish, sovg‘a kartalari va Toshkent bo‘ylab yetkazib berish.",
     "keywords": [
       "kitob do‘koni Toshkent",
@@ -24,10 +24,10 @@
       "bolalar kitoblari Toshkent",
       "o‘zbek tilidagi kitoblar"
     ],
-    "answer": "Kitob Uyi — Toshkentdagi Sayilgoh ko‘chasi, 9 (Brodvey) dagi mustaqil kitob do‘koni, har kuni 10:00 dan 21:00 gacha ochiq. Rus, o‘zbek va ingliz tillarida 12 000 ga yaqin kitob; javonda yo‘q kitobni 7–14 kunda buyurtma asosida olib kelamiz. Payshanba kunlari 19:00 da — kitob klubi, ishtirok choy bilan 50 000 so‘m. Toshkent bo‘ylab yetkazib berish — 25 000 so‘m, 300 000 so‘mdan bepul."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Sayilgoh ko‘chasi, 9 (Brodvey) dagi mustaqil kitob do‘koni, har kuni 10:00 dan 21:00 gacha ochiq. Rus, o‘zbek va ingliz tillarida 12 000 ga yaqin kitob; javonda yo‘q kitobni 7–14 kunda buyurtma asosida olib kelamiz. Payshanba kunlari 19:00 da — kitob klubi, ishtirok choy bilan 50 000 so‘m. Toshkent bo‘ylab yetkazib berish — 25 000 so‘m, 300 000 so‘mdan bepul."
   },
   "business": {
-    "legalName": "“Kitob Uyi” MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Sayilgoh ko‘chasi, 9",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -92,7 +92,7 @@
       "type": "about",
       "label": "Do‘kon haqida",
       "title": "Uzoqroq qolish mumkin bo‘lgan do‘kon",
-      "text": "Kitob Uyi 2018 yilda Brodveydagi eski uyda ochilgan: shiftgacha yog‘och javonlar, narvon va sotib olmasdan o‘qish mumkin bo‘lgan katta stol. Javonlardagi har bir kitobni o‘zimiz tanlaymiz va ularga qo‘lda kartochkalar yozamiz. Kerakli kitob bo‘lmasa — buyurtma asosida olib kelamiz.",
+      "text": "«Sizning kompaniyangiz» 2018 yilda Brodveydagi eski uyda ochilgan: shiftgacha yog‘och javonlar, narvon va sotib olmasdan o‘qish mumkin bo‘lgan katta stol. Javonlardagi har bir kitobni o‘zimiz tanlaymiz va ularga qo‘lda kartochkalar yozamiz. Kerakli kitob bo‘lmasa — buyurtma asosida olib kelamiz.",
       "image": ""
     },
     {

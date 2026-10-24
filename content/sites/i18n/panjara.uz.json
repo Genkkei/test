@@ -1,5 +1,5 @@
 {
-  "name": "Panjara",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Deraza, balkon va eshiklar uchun temir panjaralar",
   "niche": "Temir panjaralar va balkon to‘siqlari",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Panjara — Toshkentda deraza va balkonlar uchun panjaralar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda deraza va balkonlar uchun panjaralar",
     "description": "Deraza, balkon va eshiklar uchun panjaralar: oddiy kvadrat profildan jingalakli badiiy temirchilikkacha. O‘lchash bepul, tayyorlash 10 kun, kukunli bo‘yoq, kafolat 5 yil.",
     "keywords": [
       "temir panjara Toshkent",
@@ -26,10 +26,10 @@
       "balkon to‘sig‘i",
       "eshik panjarasi"
     ],
-    "answer": "Panjara Toshkentda deraza, balkon va eshiklar uchun temir panjaralar yasaydi: 12 mm kvadratdan oddiy panjara — m² uchun 650 000 so‘mdan, temirchilik elementlari bilan — 950 000 so‘mdan, badiiy — 1 600 000 so‘mdan. O‘lchash bepul, muddat 10 ish kuni, kafolat 5 yil. Telefon +998 71 200-07-02."
+    "answer": "«Sizning kompaniyangiz» Toshkentda deraza, balkon va eshiklar uchun temir panjaralar yasaydi: 12 mm kvadratdan oddiy panjara — m² uchun 650 000 so‘mdan, temirchilik elementlari bilan — 950 000 so‘mdan, badiiy — 1 600 000 so‘mdan. O‘lchash bepul, muddat 10 ish kuni, kafolat 5 yil. Telefon +998 71 200-07-02."
   },
   "business": {
-    "legalName": "YaTT «Panjara»",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Yunusobod, 11-mavze, 4",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -48,7 +48,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Panjara",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Temir panjaralar · Toshkent · buyurtmalar mavsumi ochiq",
       "subtitle": "Uyni himoya qiladigan va fasadni yashirmaydigan deraza, balkon va eshik panjaralari. Derazangizga naqsh chizamiz, yasaymiz, kukun bilan bo‘yaymiz va bir kunda o‘rnatamiz.",
       "words": [
@@ -70,7 +70,7 @@
       "id": "about",
       "type": "about",
       "label": "Ustaxona haqida",
-      "title": "Panjara — uy mehmonlari ko‘radigan birinchi narsa",
+      "title": "«Sizning kompaniyangiz» — uy mehmonlari ko‘radigan birinchi narsa",
       "text": "Ustaxonamiz Yunusobodda, unda to‘rt temirchi va rassom ishlaydi. Har bir naqshni avval fasadingiz suratiga chizamiz — panjara katalogga emas, derazangizga mos bo‘lsin. Birinchi qavat panjaralarini yong‘in xavfsizligi uchun ochiladigan tavaqa bilan yasaymiz.",
       "image": ""
     },

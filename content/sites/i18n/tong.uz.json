@@ -1,5 +1,5 @@
 {
-  "name": "Tong",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Mirobodda sokin ertalabki qahvaxona: kun bo‘yi nonushta va shoshilmasdan qahva",
   "niche": "Nonushtali qahvaxona",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Tong — Mirobodda kun bo‘yi nonushtali qahvaxona",
+    "title": "«Sizning kompaniyangiz» — Mirobodda kun bo‘yi nonushtali qahvaxona",
     "description": "Soat 17:00 gacha nonushta, sirniki, shakshuka va xamirturushli tostlar, filtr-qahva va kapuchino. Shahrisabz ko‘chasi, 22 dagi qahvaxona har kuni ertalab 8 dan ochiq.",
     "keywords": [
       "Toshkent nonushta",
@@ -27,10 +27,10 @@
       "sirniki Toshkent",
       "sokin qahvaxona"
     ],
-    "answer": "Tong — Mirobodda, Shahrisabz ko‘chasi, 22 dagi nonushtali qahvaxona, har kuni 8:00 dan 17:00 gacha ochiq. Nonushta kun bo‘yi beriladi: sirniki — 48 000 so‘m, shakshuka — 56 000 so‘m, kapuchino — 30 000 so‘m. Dam olish kunlariga stolni Telegramda band qilishadi."
+    "answer": "«Sizning kompaniyangiz» — Mirobodda, Shahrisabz ko‘chasi, 22 dagi nonushtali qahvaxona, har kuni 8:00 dan 17:00 gacha ochiq. Nonushta kun bo‘yi beriladi: sirniki — 48 000 so‘m, shakshuka — 56 000 so‘m, kapuchino — 30 000 so‘m. Dam olish kunlariga stolni Telegramda band qilishadi."
   },
   "business": {
-    "legalName": "«Tong Kofe» YaTT",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shahrisabz ko‘chasi, 22, Mirobod tumani",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -67,7 +67,7 @@
       "id": "about",
       "type": "about",
       "label": "Biz haqimizda",
-      "title": "«Tong» — «ertalab» degani",
+      "title": "«Sizning kompaniyangiz» — «ertalab» degani",
       "text": "Biz Mirobodning sokin ko‘chasidagi kichik qahvaxonamiz: o‘n ikki stol, yorug‘ devorlar va qayrag‘ochli hovliga qaragan derazalar. Nonushtalarni Mirobod bozori mahsulotlaridan tayyorlaymiz, nonni xamirturushda o‘zimiz yopamiz, qahvani esa Toshkentdagi qovuruvchi do‘stlarimiz qovuradi.",
       "image": ""
     },

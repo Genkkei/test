@@ -1,5 +1,5 @@
 {
-  "name": "Grain",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Toshkentda har seshanba spesialti qahva qovuramiz",
   "niche": "Spesialti qahva qovuruvchi va qahvaxona",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Grain — Toshkentda spesialti qahva va don qovurish",
+    "title": "«Sizning kompaniyangiz» — Toshkentda spesialti qahva va don qovurish",
     "description": "Spesialti donni har seshanba qovuramiz va Toshkent bo‘ylab bir kunda yetkazamiz. Mirobodda qahvaxona, donga obuna, barista kurslari.",
     "keywords": [
       "spesialti qahva Toshkent",
@@ -19,7 +19,7 @@
       "qahvaga obuna",
       "barista kurslari"
     ],
-    "answer": "Grain — Toshkentdagi qovurish sexi va qahvaxona, Mirobod ko‘chasi, 22. Spesialti donni har seshanba qovuramiz: 250 g lik paket 145 000 so‘mdan, Toshkent bo‘ylab yetkazish ertasi kuni, 300 000 so‘mdan bepul. Qahvaxona har kuni soat 8:00 dan ochiq."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi qovurish sexi va qahvaxona, Mirobod ko‘chasi, 22. Spesialti donni har seshanba qovuramiz: 250 g lik paket 145 000 so‘mdan, Toshkent bo‘ylab yetkazish ertasi kuni, 300 000 so‘mdan bepul. Qahvaxona har kuni soat 8:00 dan ochiq."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Grain Coffee» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirobod ko‘chasi, 22",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -116,7 +116,7 @@
           "tag": "Ruanda · yuvilgan"
         },
         {
-          "title": "Grain espresso aralashmasi",
+          "title": "«Sizning kompaniyangiz» espresso aralashmasi",
           "text": "kakao, olcha, uzoq ta’m",
           "price": "150 000 so‘m",
           "tag": "Braziliya + Efiopiya · aralashma"
@@ -134,7 +134,7 @@
           "items": [
             {
               "name": "Espresso",
-              "text": "Grain aralashmasi yoki hafta navi",
+              "text": "«Sizning kompaniyangiz» aralashmasi yoki hafta navi",
               "price": "22 000"
             },
             {

@@ -1,5 +1,5 @@
 {
-  "name": "Forma Studio",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Arxitektorlar loyihalaydigan mebel",
   "niche": "Dizaynerlik mebeli va interyer yechimlari",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Forma Studio — Toshkentda buyurtma dizaynerlik mebeli",
+    "title": "«Sizning kompaniyangiz» — Toshkentda buyurtma dizaynerlik mebeli",
     "description": "Arxitektorlar interyeringizga mebel loyihalaydi: o‘rnatilgan saqlash tizimlari, oshxonalar, stollar va javonlar. Chizma 5 kunda, ishlab chiqarish 30 kundan.",
     "keywords": [
       "dizaynerlik mebeli Toshkent",
@@ -27,10 +27,10 @@
       "buyurtma oshxona",
       "buyurtma javon"
     ],
-    "answer": "Forma Studio — Toshkentdagi mebel arxitektura byurosi (Shahrisabz ko‘chasi, 16). O‘rnatilgan va korpus mebelni individual loyiha bo‘yicha loyihalaymiz va tayyorlaymiz: chizma 5 ish kunida 1 500 000 so‘mdan, ishlab chiqarish 30 kundan, montaj — 1–3 kun."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi mebel arxitektura byurosi (Shahrisabz ko‘chasi, 16). O‘rnatilgan va korpus mebelni individual loyiha bo‘yicha loyihalaymiz va tayyorlaymiz: chizma 5 ish kunida 1 500 000 so‘mdan, ishlab chiqarish 30 kundan, montaj — 1–3 kun."
   },
   "business": {
-    "legalName": "«Forma Studio» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shahrisabz ko‘chasi, 16",
     "city": "Toshkent",
     "region": "Toshkent",

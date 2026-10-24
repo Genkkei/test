@@ -1,5 +1,5 @@
 {
-  "name": "Respawn",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Jiddiy o‘ynaladigan kompyuter klubi",
   "niche": "Kompyuter klubi va kibersport arenasi: 240 Hz PC, PlayStation, VR, turnirlar",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Respawn — Toshkentda kompyuter klubi va kibersport",
+    "title": "«Sizning kompaniyangiz» — Toshkentda kompyuter klubi va kibersport",
     "description": "Toshkentda kompyuter klubi: RTX va 240 Hz monitorli 60 ta o‘yin kompyuteri, besh kishilik butkemp, PlayStation 5 va VR. Kecha-kunduz, har dam olish kuni turnirlar.",
     "keywords": [
       "kompyuter klubi Toshkent",
@@ -24,7 +24,7 @@
       "VR klub",
       "CS2 turniri"
     ],
-    "answer": "Respawn — Toshkent, Amir Temur ko‘chasi, 60 dagi kompyuter klubi, kecha-kunduz ochiq. Umumiy zalda bir soat — 15 000 so‘m, VIPda — 25 000 so‘m, besh kishilik butkemp — soatiga 120 000 so‘m, 22:00 dan 8:00 gacha tungi paket — 70 000 so‘m. RTX 4070 va 240 Hz monitorli 60 ta kompyuter, to‘rtta PlayStation 5 va VR zona. CS2 va Dota 2 turnirlari — har dam olish kuni."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Amir Temur ko‘chasi, 60 dagi kompyuter klubi, kecha-kunduz ochiq. Umumiy zalda bir soat — 15 000 so‘m, VIPda — 25 000 so‘m, besh kishilik butkemp — soatiga 120 000 so‘m, 22:00 dan 8:00 gacha tungi paket — 70 000 so‘m. RTX 4070 va 240 Hz monitorli 60 ta kompyuter, to‘rtta PlayStation 5 va VR zona. CS2 va Dota 2 turnirlari — har dam olish kuni."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Respawn",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Kompyuter klubi · 24/7 · Toshkent",
       "subtitle": "240 Hz li 60 ta o‘yin kompyuteri, jamoa uchun butkemp, PlayStation 5 va VR. Darsdan keyin o‘ynagani yoki butun beshlik bilan turnirga tayyorlangani keling.",
       "words": [
@@ -187,7 +187,7 @@
       "title": "Yaqin turnirlar",
       "items": [
         {
-          "title": "Respawn Cup: CS2",
+          "title": "«Sizning kompaniyangiz» Cup: CS2",
           "category": "5v5 · 16 jamoa",
           "year": "shanba, 12:00",
           "text": "Jamoadan 250 000 so‘m badal, sovrin jamg‘armasi — 5 000 000 so‘m.",
@@ -280,7 +280,7 @@
     }
   ],
   "business": {
-    "legalName": "Respawn Arena MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur ko‘chasi, 60, yerto‘la qavati",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -288,11 +288,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/respawnuz"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/respawn.uz"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Twitch",

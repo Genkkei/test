@@ -1,5 +1,5 @@
 {
-  "name": "Sandon",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Uyda o‘nlab yillar qoladigan narsalarni qo‘lda yasaymiz",
   "niche": "Badiiy temirchilik ustaxonasi: mangallar, kaminlar, panjaralar, dekor",
   "nav": {
@@ -18,8 +18,8 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Sandon — Toshkentda badiiy temirchilik: mangal va kaminlar",
-    "description": "Sandon temirchiligi mangallar, kamin to‘plamlari, panjaralar, karavotlar va dekorni eskizingiz bo‘yicha qo‘lda yasaydi. O‘lchov bepul, muddat 10 kundan, payvand choklariga 5 yil kafolat.",
+    "title": "«Sizning kompaniyangiz» — Toshkentda badiiy temirchilik: mangal va kaminlar",
+    "description": "«Sizning kompaniyangiz» temirchiligi mangallar, kamin to‘plamlari, panjaralar, karavotlar va dekorni eskizingiz bo‘yicha qo‘lda yasaydi. O‘lchov bepul, muddat 10 kundan, payvand choklariga 5 yil kafolat.",
     "keywords": [
       "badiiy temirchilik Toshkent",
       "temir mangal",
@@ -28,10 +28,10 @@
       "kamin to‘plami",
       "temir dekor"
     ],
-    "answer": "Sandon — Toshkent, Beshyog‘och ko‘chasi, 24 dagi badiiy temirchilik ustaxonasi, dushanbadan shanbagacha 9:00 dan 19:00 gacha ishlaydi. Qo‘lda yasalgan mangal — 3 900 000 so‘mdan, kamin to‘plami — 1 800 000 so‘mdan, panjara — bir pogon metr uchun 950 000 so‘mdan. O‘lchov va eskiz bepul, tayyorlash 10 kundan, payvand choklariga 5 yil kafolat."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Beshyog‘och ko‘chasi, 24 dagi badiiy temirchilik ustaxonasi, dushanbadan shanbagacha 9:00 dan 19:00 gacha ishlaydi. Qo‘lda yasalgan mangal — 3 900 000 so‘mdan, kamin to‘plami — 1 800 000 so‘mdan, panjara — bir pogon metr uchun 950 000 so‘mdan. O‘lchov va eskiz bepul, tayyorlash 10 kundan, payvand choklariga 5 yil kafolat."
   },
   "business": {
-    "legalName": "«Sandon Temir» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Beshyog‘och ko‘chasi, 24 (ustaxona hovlida)",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -53,7 +53,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Sandon",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Badiiy temirchilik · Toshkent",
       "subtitle": "Qo‘lda yasalgan mangallar, kaminlar, panjaralar va dekor. Eskizni siz bilan birga chizamiz, olovda yasaymiz va uyingizga o‘rnatamiz — katalogdagi andozalarsiz.",
       "cta": {
@@ -93,7 +93,7 @@
       "type": "about",
       "label": "Ustaxona haqida",
       "title": "Bolg‘a zarbini eslab qoladigan metall",
-      "text": "Sandon — Beshyog‘ochdagi hovlida bitta o‘choq, ikkita sandon va to‘rtta temirchi. Biz buyumlarni tayyor shtamplangan detallardan payvandlamaymiz: har bir jingalak, barg va nayza chiviqdan qo‘lda cho‘ziladi. Shuning uchun bizda ikkita bir xil mangal chiqmaydi — odamlar aynan shuning uchun keladi. Ishdan oldin kelamiz, o‘lchaymiz, eskizni asl o‘lchamda chizamiz va har bir detalni kelishamiz.",
+      "text": "«Sizning kompaniyangiz» — Beshyog‘ochdagi hovlida bitta o‘choq, ikkita sandon va to‘rtta temirchi. Biz buyumlarni tayyor shtamplangan detallardan payvandlamaymiz: har bir jingalak, barg va nayza chiviqdan qo‘lda cho‘ziladi. Shuning uchun bizda ikkita bir xil mangal chiqmaydi — odamlar aynan shuning uchun keladi. Ishdan oldin kelamiz, o‘lchaymiz, eskizni asl o‘lchamda chizamiz va har bir detalni kelishamiz.",
       "image": ""
     },
     {

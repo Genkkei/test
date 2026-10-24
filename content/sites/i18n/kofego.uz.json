@@ -1,5 +1,5 @@
 {
-  "name": "Kofe Go",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Ikki daqiqada olib ketiladigan qahva — metro yonida va biznes-markazlarda oltita orolcha",
   "niche": "Olib ketiladigan qahva orolchalari tarmog‘i",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Kofe Go — 2 daqiqada olib ketiladigan qahva, Toshkentda 6 nuqta",
+    "title": "«Sizning kompaniyangiz» — 2 daqiqada olib ketiladigan qahva, Toshkentda 6 nuqta",
     "description": "Kapuchino, latte, raf va ays-qahva olib ketish uchun: Toshkentdagi metro yonida va biznes-markazlardagi oltita orolcha, 7:30 dan 22:00 gacha. Oldindan buyurtma bering — navbatsiz olasiz.",
     "keywords": [
       "Toshkent olib ketiladigan qahva",
@@ -28,10 +28,10 @@
       "ays-latte",
       "qahva orolchasi"
     ],
-    "answer": "Kofe Go — Toshkentdagi oltita qahva orolchasidan iborat tarmoq: «Oybek», «Buyuk Ipak Yo‘li», «Chilonzor» metrolari yonida, IT Parkda va ikkita biznes-markazda. 7:30 dan 22:00 gacha ishlaydi. Kapuchino — 250, 350 yoki 450 ml uchun 16 000, 20 000 yoki 24 000 so‘m; ichimlik taxminan ikki daqiqada tayyor bo‘ladi."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi oltita qahva orolchasidan iborat tarmoq: «Oybek», «Buyuk Ipak Yo‘li», «Chilonzor» metrolari yonida, IT Parkda va ikkita biznes-markazda. 7:30 dan 22:00 gacha ishlaydi. Kapuchino — 250, 350 yoki 450 ml uchun 16 000, 20 000 yoki 24 000 so‘m; ichimlik taxminan ikki daqiqada tayyor bo‘ladi."
   },
   "business": {
-    "legalName": "«Kofe Go» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur ko‘chasi, 60 («Oybek» metrosi yonida)",
     "city": "Toshkent",
     "region": "Toshkent",

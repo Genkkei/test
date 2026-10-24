@@ -1,5 +1,5 @@
 {
-  "name": "Kvant",
+  "name": "Sizning kompaniyangiz",
   "tagline": "O‘ylaydigan muhandislik",
   "niche": "IT-kompaniya: SI-mahsulotlar, SaaS va mobil ilovalar",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Kvant — Toshkentda SI-mahsulotlar, SaaS va ilovalar yaratish",
+    "title": "«Sizning kompaniyangiz» — Toshkentda SI-mahsulotlar, SaaS va ilovalar yaratish",
     "description": "SI-assistentlar, SaaS-platformalar va mobil ilovalarni loyihalaymiz va ishlab chiqamiz. IT Park rezidenti: 40 muhandisli jamoa, MVP 10–12 haftada.",
     "keywords": [
       "SI ishlab chiqish Toshkent",
@@ -19,7 +19,7 @@
       "IT Park",
       "dasturlash autsorsingi"
     ],
-    "answer": "Kvant — Toshkentdagi IT-kompaniya, IT Park rezidenti. LLM asosidagi SI-assistentlar, SaaS-platformalar hamda iOS va Android uchun mobil ilovalar yaratamiz. MVP 10–12 haftada ishga tushadi, narxi 25 000 $ dan; ajratilgan jamoa — oyiga 9 000 $ dan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi IT-kompaniya, IT Park rezidenti. LLM asosidagi SI-assistentlar, SaaS-platformalar hamda iOS va Android uchun mobil ilovalar yaratamiz. MVP 10–12 haftada ishga tushadi, narxi 25 000 $ dan; ajratilgan jamoa — oyiga 9 000 $ dan."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Kvant Labs» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "IT Park, Mirzo Ulug‘bek ko‘chasi, 49",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -39,7 +39,7 @@
       "type": "hero",
       "label": "",
       "title": "Bozordan tezroq o‘rganadigan mahsulotlar quramiz",
-      "eyebrow": "Kvant Labs · SI / SaaS / Mobile",
+      "eyebrow": "«Sizning kompaniyangiz» Labs · SI / SaaS / Mobile",
       "subtitle": "Ichida SI bo‘lgan raqamli mahsulotlarni loyihalaymiz, yaratamiz va kengaytiramiz — ikki haftalik prototipdan million foydalanuvchili platformagacha.",
       "words": [
         "Machine Learning",
@@ -224,7 +224,7 @@
       "title": "Mijozlar fikri",
       "items": [
         {
-          "quote": "Kvant uch oyda operatorlarning yarmidan ko‘p ish-yumushini o‘z zimmasiga olgan assistentni yaratdi. Eng muhimi — ular SI nima qilmasligi kerakligini ochiq aytishdi.",
+          "quote": "«Sizning kompaniyangiz» uch oyda operatorlarning yarmidan ko‘p ish-yumushini o‘z zimmasiga olgan assistentni yaratdi. Eng muhimi — ular SI nima qilmasligi kerakligini ochiq aytishdi.",
           "author": "Temur Abdullayev",
           "role": "mijozlarga xizmat ko‘rsatish direktori, telekom"
         },
@@ -274,8 +274,8 @@
       "title": "Nima qurishimizni aytib bering",
       "text": "G‘oyani ikki xatboshida yuboring — bir sutka ichida savollar va dastlabki baho bilan qaytamiz.",
       "cta": {
-        "label": "hello@kvant.dev",
-        "href": "mailto:hello@kvant.dev"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

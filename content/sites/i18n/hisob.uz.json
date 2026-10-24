@@ -1,5 +1,5 @@
 {
-  "name": "Hisob",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Buxgalteriya, soliqlar va hisobot — siz deklaratsiya bilan emas, biznes bilan shug‘ullanishingiz uchun",
   "niche": "Buxgalteriya xizmati, soliq maslahati va audit",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Hisob — Toshkentda YaTT va MChJ uchun buxgalteriya xizmatlari",
+    "title": "«Sizning kompaniyangiz» — Toshkentda YaTT va MChJ uchun buxgalteriya xizmatlari",
     "description": "YaTT va MChJ buxgalteriyasi va soliq hisobini yuritamiz, hisobotni o‘z vaqtida topshiramiz, ish haqini hisoblaymiz, tekshiruvlarga tayyorlaymiz. Oylik qat’iy narx va shaxsiy buxgalter.",
     "keywords": [
       "buxgalteriya xizmatlari Toshkent",
@@ -24,10 +24,10 @@
       "soliq maslahatchisi",
       "ish haqi hisob-kitobi"
     ],
-    "answer": "Hisob Toshkentda va butun O‘zbekiston bo‘ylab masofadan YaTT va MChJ buxgalteriyasini yuritadi. YaTT xizmati — oyiga 800 000 so‘mdan, soddalashtirilgan rejimdagi MChJ — 2 500 000 so‘mdan, bir martalik soliq maslahati — soatiga 500 000 so‘m. Har bir mijozning o‘z buxgalteri bor, hisobotni elektron kabinet orqali topshiramiz, shartnoma va dalolatnoma — har oy."
+    "answer": "«Sizning kompaniyangiz» Toshkentda va butun O‘zbekiston bo‘ylab masofadan YaTT va MChJ buxgalteriyasini yuritadi. YaTT xizmati — oyiga 800 000 so‘mdan, soddalashtirilgan rejimdagi MChJ — 2 500 000 so‘mdan, bir martalik soliq maslahati — soatiga 500 000 so‘m. Har bir mijozning o‘z buxgalteri bor, hisobotni elektron kabinet orqali topshiramiz, shartnoma va dalolatnoma — har oy."
   },
   "business": {
-    "legalName": "«Hisob Konsalting» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur ko‘chasi, 107B, biznes markaz, 5-qavat",
     "city": "Toshkent",
     "region": "Toshkent",

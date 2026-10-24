@@ -1,5 +1,5 @@
 {
-  "name": "Siyoh",
+  "name": "Your Company",
   "tagline": "Tattoos you will still be proud of in twenty years",
   "niche": "Tattoo studio: custom designs, blackwork, fine line and cover-ups",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Siyoh — tattoo studio in Tashkent: custom designs",
+    "title": "Your Company — tattoo studio in Tashkent: custom designs",
     "description": "Custom tattoos in Tashkent: blackwork, fine line, ornament and cover-ups. Single-use needles, a sterile room, free consultation and sketch.",
     "keywords": [
       "tattoo Tashkent",
@@ -24,7 +24,7 @@
       "fine line tattoo",
       "blackwork tattoo"
     ],
-    "answer": "Siyoh is a tattoo studio at 7 Muqimiy Street in Tashkent, open Tuesday to Sunday from 12:00 to 21:00. Mini tattoos start at 400,000 sum, an hour of tattooing is 600,000 sum, a full day 3,500,000 sum. Consultation and sketch are free, needles are single-use; book on Telegram. We tattoo clients aged 18 and over."
+    "answer": "Your Company is a tattoo studio at 7 Muqimiy Street in Tashkent, open Tuesday to Sunday from 12:00 to 21:00. Mini tattoos start at 400,000 sum, an hour of tattooing is 600,000 sum, a full day 3,500,000 sum. Consultation and sketch are free, needles are single-use; book on Telegram. We tattoo clients aged 18 and over."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Siyoh",
+      "title": "Your Company",
       "eyebrow": "Tattoo studio · Tashkent",
       "subtitle": "We draw your design from scratch instead of copying the internet. Blackwork, fine line, ornament and cover-ups — in lines that will not blur over the years.",
       "words": [
@@ -336,7 +336,7 @@
     }
   ],
   "business": {
-    "legalName": "Siyoh Tattoo (sole trader)",
+    "legalName": "Your Company LLC",
     "street": "7 Muqimiy St, second floor",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -344,11 +344,11 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com/siyoh.tattoo"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Telegram",
-        "url": "https://t.me/siyohtattoo"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Pinterest",

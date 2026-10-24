@@ -1,5 +1,5 @@
 {
-  "name": "Pulse",
+  "name": "Your Company",
   "tagline": "A club for people who train seriously",
   "niche": "Fitness club: strength, functional and combat training",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Pulse — fitness club in Tashkent: gym and boxing",
+    "title": "Your Company — fitness club in Tashkent: gym and boxing",
     "description": "An 1,800 m² gym, functional training, boxing and group programmes. Open 6:00 to 23:00, memberships from 590,000 UZS a month.",
     "keywords": [
       "fitness club Tashkent",
@@ -19,7 +19,7 @@
       "functional training",
       "gym membership"
     ],
-    "answer": "Pulse is a fitness club on Amir Temur in Tashkent: an 1,800 m² gym, a functional training zone, a ring and group programmes. Open daily from 6:00 to 23:00. Memberships from 590,000 UZS a month, a personal session is 250,000 UZS, and your first session with a coach is free."
+    "answer": "Your Company is a fitness club on Amir Temur in Tashkent: an 1,800 m² gym, a functional training zone, a ring and group programmes. Open daily from 6:00 to 23:00. Memberships from 590,000 UZS a month, a personal session is 250,000 UZS, and your first session with a coach is free."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Pulse Club LLC",
+    "legalName": "Your Company LLC",
     "street": "107B Amir Temur St.",
     "city": "Tashkent",
     "region": "Tashkent",

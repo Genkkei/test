@@ -1,9 +1,9 @@
 {
-  "name": "Konstruktsiya",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Metall konstruksiyalarni loyihalaymiz va o‘rnatamiz",
   "niche": "Metall konstruksiyalarni loyihalash va o‘rnatish: zinapoyalar, antresollar, karkaslar",
   "seo": {
-    "title": "Konstruktsiya — Toshkentda metall konstruksiyalar loyihasi va montaji",
+    "title": "«Sizning kompaniyangiz» — Toshkentda metall konstruksiyalar loyihasi va montaji",
     "description": "Hisob-kitob, KM/KMD chizmalari, tayyorlash va o‘rnatish: zinapoyalar, antresollar, qo‘shimcha binolar va mansardalar karkaslari. Xususiy uylar va tijorat obyektlari bilan ishlaymiz.",
     "keywords": [
       "metall konstruksiyalar Toshkent",
@@ -11,7 +11,7 @@
       "metall karkasli zinapoya",
       "KMD chizmalari"
     ],
-    "answer": "Konstruktsiya — Chilonzordagi muhandislik kompaniyasi: metall konstruksiyalarni loyihalash va o‘rnatish. Metall karkasli zinapoya 14 000 000 so‘mdan, antresol m² uchun 950 000 so‘mdan, qo‘shimcha bino karkasi m² uchun 1 200 000 so‘mdan, KMD chizmalari 2 500 000 so‘mdan. 5 yil kafolat, telefon +998 71 200-04-04."
+    "answer": "«Sizning kompaniyangiz» — Chilonzordagi muhandislik kompaniyasi: metall konstruksiyalarni loyihalash va o‘rnatish. Metall karkasli zinapoya 14 000 000 so‘mdan, antresol m² uchun 950 000 so‘mdan, qo‘shimcha bino karkasi m² uchun 1 200 000 so‘mdan, KMD chizmalari 2 500 000 so‘mdan. 5 yil kafolat, telefon +998 71 200-04-04."
   },
   "nav": {
     "cta": {
@@ -29,7 +29,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Konstruktsiya Injiniring» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bunyodkor shoh ko‘chasi, 15, Chilonzor",
     "city": "Toshkent",
     "region": "Toshkent",

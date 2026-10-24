@@ -1,5 +1,5 @@
 {
-  "name": "Ekran",
+  "name": "Your Company",
   "tagline": "Films worth switching your phone off for",
   "niche": "Arthouse cinema: premieres, retrospectives and a film club",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ekran — arthouse cinema in Tashkent",
+    "title": "Your Company — arthouse cinema in Tashkent",
     "description": "Arthouse listings in Tashkent: festival premieres, retrospectives, subtitled screenings and film club discussions. Two screens, tickets from 45,000 sum.",
     "keywords": [
       "cinema Tashkent",
@@ -24,7 +24,7 @@
       "film club",
       "retrospective"
     ],
-    "answer": "Ekran is an arthouse cinema at 30 Navoi Street in Tashkent with two screens of 120 and 48 seats and shows daily from 11:00 to midnight. Tickets are 45,000 sum in the daytime and 65,000 sum in the evening; a 10-film pass is 500,000 sum. Films play in the original language with subtitles, and the film club meets on Thursdays."
+    "answer": "Your Company is an arthouse cinema at 30 Navoi Street in Tashkent with two screens of 120 and 48 seats and shows daily from 11:00 to midnight. Tickets are 45,000 sum in the daytime and 65,000 sum in the evening; a 10-film pass is 500,000 sum. Films play in the original language with subtitles, and the film club meets on Thursdays."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Ekran",
+      "title": "Your Company",
       "eyebrow": "Arthouse cinema · Tashkent",
       "subtitle": "Two screens, a projector that loves celluloid and films you will not find at the mall. In the original language, with subtitles.",
       "words": [
@@ -297,7 +297,7 @@
     }
   ],
   "business": {
-    "legalName": "Ekran Cinema LLC",
+    "legalName": "Your Company LLC",
     "street": "30 Navoi St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -305,11 +305,11 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/ekrankino"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/ekran.kino"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Letterboxd",

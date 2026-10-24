@@ -1,5 +1,5 @@
 {
-  "name": "Zing",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Shakarsiz va zerikishsiz quvvat",
   "niche": "Kraft energetiklar va limonadlar brendi",
   "nav": {
@@ -9,16 +9,16 @@
     }
   },
   "seo": {
-    "title": "Zing — Toshkentda shakarsiz kraft energetiklar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda shakarsiz kraft energetiklar",
     "description": "Tabiiy energetikning olti ta’mi: yashil choy, guarana, shakarsiz sharbat. 250 ml — 14 000 so‘m, Toshkent bo‘ylab 60 daqiqada yetkazib berish.",
     "keywords": [
       "shakarsiz energetik",
       "kraft limonad Toshkent",
       "tabiiy energetik",
       "ichimliklar yetkazib berish",
-      "Zing"
+      "«Sizning kompaniyangiz»"
     ],
-    "answer": "Zing — shakarsiz kraft energetiklarning toshkentlik brendi: yashil choy va guaranadan kofein, tabiiy sharbat, bir bankada 15 kkal. 250 ml banka 14 000 so‘m, 12 talik qadoq — 150 000 so‘m; Toshkent bo‘ylab yetkazib berish 60 daqiqada, 150 000 so‘mdan bepul."
+    "answer": "«Sizning kompaniyangiz» — shakarsiz kraft energetiklarning toshkentlik brendi: yashil choy va guaranadan kofein, tabiiy sharbat, bir bankada 15 kkal. 250 ml banka 14 000 so‘m, 12 talik qadoq — 150 000 so‘m; Toshkent bo‘ylab yetkazib berish 60 daqiqada, 150 000 so‘mdan bepul."
   },
   "listing": {
     "price": "",
@@ -26,7 +26,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Zing Beverage» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Nukus ko‘chasi, 78, firma do‘koni",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -41,10 +41,10 @@
       "eyebrow": "Grapefruit Kick",
       "subtitle": "Yashil choy va guaranali kraft energetik. Nol shakar, haqiqiy sharbat va qo‘sh espressodagidek kofein.",
       "words": [
-        "Zing",
+        "«Sizning kompaniyangiz»",
         "Tetiklashtiradi",
         "0 shakar",
-        "Zing",
+        "«Sizning kompaniyangiz»",
         "Shipillaydi"
       ],
       "cta": {
@@ -119,9 +119,9 @@
     {
       "id": "about",
       "type": "about",
-      "label": "Nega Zing",
+      "label": "Nega «Sizning kompaniyangiz»",
       "title": "Tarkibini qo‘rquv bilan o‘qimasdan ichsa bo‘ladigan energetik",
-      "text": "Zing ni Toshkentdagi kichik ishlab chiqarishda tayyorlaymiz: haqiqiy sharbat, o‘simlik kofeini, taurin uchun taurin yo‘q. Partiyalar kichik — shuning uchun ta’m har safar bir xil.",
+      "text": "«Sizning kompaniyangiz» ni Toshkentdagi kichik ishlab chiqarishda tayyorlaymiz: haqiqiy sharbat, o‘simlik kofeini, taurin uchun taurin yo‘q. Partiyalar kichik — shuning uchun ta’m har safar bir xil.",
       "image": ""
     },
     {
@@ -186,7 +186,7 @@
           "a": "250 ml da 80 mg — taxminan qo‘sh espressodagidek. Kofein yashil choy ekstrakti va guaranadan. Kuniga uch bankadan ko‘p tavsiya etmaymiz."
         },
         {
-          "q": "Zing nima bilan shirinlashtirilgan?",
+          "q": "«Sizning kompaniyangiz» nima bilan shirinlashtirilgan?",
           "a": "Steviya va eritrit bilan. Shakar — 0 g, kaloriyasi sharbat hisobiga bankada 15 kkal."
         },
         {
@@ -199,11 +199,11 @@
         },
         {
           "q": "Bolalarga mumkinmi?",
-          "a": "Yo‘q. Zing — kofeinli tetiklashtiruvchi ichimlik: bolalar, homilador va emizikli ayollarga tavsiya etmaymiz."
+          "a": "Yo‘q. «Sizning kompaniyangiz» — kofeinli tetiklashtiruvchi ichimlik: bolalar, homilador va emizikli ayollarga tavsiya etmaymiz."
         },
         {
           "q": "Kafe va do‘konlar bilan ishlaysizmi?",
-          "a": "Ha, ulgurji narx — 5 qadoqdan. hi@zing.uz ga yozing, bir kun ichida prays va shartlarni yuboramiz."
+          "a": "Ha, ulgurji narx — 5 qadoqdan. info@company.uz ga yozing, bir kun ichida prays va shartlarni yuboramiz."
         }
       ]
     },

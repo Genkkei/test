@@ -1,5 +1,5 @@
 {
-  "name": "Grain",
+  "name": "Your Company",
   "tagline": "Specialty coffee roasted in Tashkent every Tuesday",
   "niche": "Specialty coffee roaster and café",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Grain — specialty coffee and roastery in Tashkent",
+    "title": "Your Company — specialty coffee and roastery in Tashkent",
     "description": "We roast specialty beans every Tuesday and deliver across Tashkent within a day. Café in Mirabad, bean subscriptions, barista courses.",
     "keywords": [
       "specialty coffee Tashkent",
@@ -19,7 +19,7 @@
       "coffee subscription",
       "barista courses"
     ],
-    "answer": "Grain is a roastery and café in Tashkent at 22 Mirabad St. We roast specialty beans every Tuesday: a 250 g bag costs from 145,000 UZS, delivery across Tashkent is next day and free over 300,000 UZS. The café is open daily from 8:00."
+    "answer": "Your Company is a roastery and café in Tashkent at 22 Mirabad St. We roast specialty beans every Tuesday: a 250 g bag costs from 145,000 UZS, delivery across Tashkent is next day and free over 300,000 UZS. The café is open daily from 8:00."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Grain Coffee LLC",
+    "legalName": "Your Company LLC",
     "street": "22 Mirabad St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -116,7 +116,7 @@
           "tag": "Rwanda · washed"
         },
         {
-          "title": "Grain espresso blend",
+          "title": "Your Company espresso blend",
           "text": "cocoa, cherry, long finish",
           "price": "150 000 UZS",
           "tag": "Brazil + Ethiopia · blend"
@@ -134,7 +134,7 @@
           "items": [
             {
               "name": "Espresso",
-              "text": "Grain blend or bean of the week",
+              "text": "Your Company blend or bean of the week",
               "price": "22 000"
             },
             {

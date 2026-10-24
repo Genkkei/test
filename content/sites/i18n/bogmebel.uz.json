@@ -1,9 +1,9 @@
 {
-  "name": "Bog‘ Mebel",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Dala hovli, hovli va ayvon uchun bog‘ va terrasa mebeli",
   "niche": "Bog‘ va terrasa mebeli",
   "seo": {
-    "title": "Bog‘ Mebel — dala hovli va terrasa uchun bog‘ mebeli",
+    "title": "«Sizning kompaniyangiz» — dala hovli va terrasa uchun bog‘ mebeli",
     "description": "Tik, akatsiya va rotangdan bog‘ mebeli: ovqatlanish to‘plamlari, shezlonglar, arg‘imchoqlar va ayvon uchun so‘ri. Qibraydagi shourum, viloyat bo‘ylab yetkazish, qishda saqlash.",
     "keywords": [
       "Toshkentda bog‘ mebeli",
@@ -12,7 +12,7 @@
       "shezlong sotib olish",
       "ayvon uchun so‘ri"
     ],
-    "answer": "Bog‘ Mebel — Qibraydagi bog‘ mebeli shourumi (Toshkent halqa yo‘li, 14). Akatsiyadan ovqatlanish to‘plamlari 7 200 000 so‘mdan, tikdan shezlonglar 2 900 000 so‘mdan, ayvon uchun so‘ri 5 500 000 so‘mdan. Toshkent viloyati bo‘ylab yetkazish, joyida yig‘ish va qishda mebelni saqlash."
+    "answer": "«Sizning kompaniyangiz» — Qibraydagi bog‘ mebeli shourumi (Toshkent halqa yo‘li, 14). Akatsiyadan ovqatlanish to‘plamlari 7 200 000 so‘mdan, tikdan shezlonglar 2 900 000 so‘mdan, ayvon uchun so‘ri 5 500 000 so‘mdan. Toshkent viloyati bo‘ylab yetkazish, joyida yig‘ish va qishda mebelni saqlash."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Bog‘ Mebel» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Toshkent halqa yo‘li, 14, Qibray",
     "city": "Qibray",
     "region": "Toshkent viloyati",

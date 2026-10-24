@@ -1,5 +1,5 @@
 {
-  "name": "Smile Lab",
+  "name": "Your Company",
   "tagline": "Dentistry you don’t have to fear",
   "niche": "Dental clinic: implants, veneers, aligners, treatment",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Smile Lab — dental clinic in Tashkent: implants, veneers",
+    "title": "Your Company — dental clinic in Tashkent: implants, veneers",
     "description": "Pain-free treatment under a microscope, implants, veneers and aligners. Digital diagnostics, a priced treatment plan before we start, 0% instalments.",
     "keywords": [
       "dentist Tashkent",
@@ -19,7 +19,7 @@
       "pain-free dental treatment",
       "pediatric dentist Tashkent"
     ],
-    "answer": "Smile Lab is a dental clinic in Tashkent (Mirzo Ulugbek district), open daily. Implants from 4,900,000 UZS per turnkey implant, veneers from 2,800,000 UZS per tooth, caries treatment from 450,000 UZS. First consultation with a 3D scan is 150,000 UZS, and 0% instalments for up to 12 months are available."
+    "answer": "Your Company is a dental clinic in Tashkent (Mirzo Ulugbek district), open daily. Implants from 4,900,000 UZS per turnkey implant, veneers from 2,800,000 UZS per tooth, caries treatment from 450,000 UZS. First consultation with a 3D scan is 150,000 UZS, and 0% instalments for up to 12 months are available."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Smile Lab Clinic LLC",
+    "legalName": "Your Company LLC",
     "street": "56 Mirzo Ulugbek St",
     "city": "Tashkent",
     "region": "Tashkent",

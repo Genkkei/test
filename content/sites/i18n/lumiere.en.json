@@ -1,5 +1,5 @@
 {
-  "name": "Maison Lumière",
+  "name": "Your Company",
   "tagline": "A French pâtisserie in the heart of Tashkent",
   "niche": "Pâtisserie: custom cakes, pastries, macarons, bakes and coffee",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Maison Lumière — French pâtisserie and custom cakes",
+    "title": "Your Company — French pâtisserie and custom cakes",
     "description": "Custom cakes, macarons, croissants and pastries from French recipes in Tashkent. 82% butter, Belgian chocolate, same-day delivery across the city.",
     "keywords": [
       "custom cakes Tashkent",
@@ -19,7 +19,7 @@
       "pastries",
       "pâtisserie in Mirabad"
     ],
-    "answer": "Maison Lumière is a French pâtisserie at 18 Mirabad St., Tashkent. Custom cakes from 420,000 UZS per kilogram with 48 hours’ notice; macarons 18,000 UZS each, croissants 28,000 UZS. Open daily from 8:00, with delivery across Tashkent."
+    "answer": "Your Company is a French pâtisserie at 18 Mirabad St., Tashkent. Custom cakes from 420,000 UZS per kilogram with 48 hours’ notice; macarons 18,000 UZS each, croissants 28,000 UZS. Open daily from 8:00, with delivery across Tashkent."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Maison Lumière LLC",
+    "legalName": "Your Company LLC",
     "street": "18 Mirabad St.",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -61,7 +61,7 @@
       "type": "about",
       "label": "The house",
       "title": "We don’t rush: croissant dough rests for three days, and tart cream cooks over a low flame.",
-      "text": "Maison Lumière opened in 2021 on quiet Mirabad Street. Our head pastry chef trained in Paris and brought back the main rule: a dessert shouldn’t just be sweet — it needs character, texture and a finish.\nWe bake in small batches, so the counter empties by evening. Cakes are made to order only — for your occasion, your taste and your guest count. Seasonal berries come from farmers in Tashkent Region, nuts from suppliers in Samarkand.",
+      "text": "Your Company opened in 2021 on quiet Mirabad Street. Our head pastry chef trained in Paris and brought back the main rule: a dessert shouldn’t just be sweet — it needs character, texture and a finish.\nWe bake in small batches, so the counter empties by evening. Cakes are made to order only — for your occasion, your taste and your guest count. Seasonal berries come from farmers in Tashkent Region, nuts from suppliers in Samarkand.",
       "image": ""
     },
     {
@@ -200,7 +200,7 @@
           "image": ""
         },
         {
-          "caption": "The Lumière cake",
+          "caption": "The Your Company cake",
           "image": ""
         },
         {

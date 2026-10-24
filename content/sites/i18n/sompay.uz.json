@@ -1,5 +1,5 @@
 {
-  "name": "Som Pay",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Siz kabi tez harakatlanadigan pullar",
   "niche": "Fintex: ilovada multivalyuta karta, o‘tkazmalar va biznes hisob",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Som Pay — bitta ilovada multivalyuta karta va o‘tkazmalar",
+    "title": "«Sizning kompaniyangiz» — bitta ilovada multivalyuta karta va o‘tkazmalar",
     "description": "So‘m, dollar va yevrodagi karta, telefon raqami orqali soniyalarda o‘tkazmalar, 5% gacha keshbek va YaTT uchun biznes hisob. Onlayn 5 daqiqada oching.",
     "keywords": [
       "multivalyuta karta O‘zbekiston",
@@ -24,10 +24,10 @@
       "fintex ilova",
       "virtual karta"
     ],
-    "answer": "Som Pay — multivalyuta karta (UZS, USD, EUR), telefon raqami orqali o‘tkazmalar va 5% gacha keshbekli ilova. Bazaviy tarif bepul, Plus — oyiga 29 000 so‘m, YaTT uchun biznes hisob — oyiga 99 000 so‘m; pasport bilan 5 daqiqada onlayn ochish mumkin. Aniq limit va komissiyalar ilovada ko‘rsatilgan."
+    "answer": "«Sizning kompaniyangiz» — multivalyuta karta (UZS, USD, EUR), telefon raqami orqali o‘tkazmalar va 5% gacha keshbekli ilova. Bazaviy tarif bepul, Plus — oyiga 29 000 so‘m, YaTT uchun biznes hisob — oyiga 99 000 so‘m; pasport bilan 5 daqiqada onlayn ochish mumkin. Aniq limit va komissiyalar ilovada ko‘rsatilgan."
   },
   "business": {
-    "legalName": "«Som Pay» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Tashkent City, Islom Karimov xiyoboni, 3, 1204-ofis",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -201,7 +201,7 @@
       "id": "reviews",
       "type": "testimonials",
       "label": "Sharhlar",
-      "title": "Foydalanuvchilar Som Pay haqida",
+      "title": "Foydalanuvchilar «Sizning kompaniyangiz» haqida",
       "items": [
         {
           "quote": "Kartani tushlik paytida ochdim, kechqurun esa sayohatda dollarda to‘layotgan edim. Kurs almashtirishdan oldin ko‘rinadi — hech qanday kutilmagan holat yo‘q.",

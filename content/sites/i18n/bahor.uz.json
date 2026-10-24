@@ -1,5 +1,5 @@
 {
-  "name": "Choyxona Bahor",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Qozondan palov, tandirdan somsa va uch marta qaytariladigan choy",
   "niche": "Choyxona va milliy o‘zbek taomlari",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Choyxona Bahor — Toshkentda palov va choyxona",
+    "title": "«Sizning kompaniyangiz» — Toshkentda palov va choyxona",
     "description": "Qozondan ertalabki palov, tandir somsa, sho‘rva va favvora yonidagi so‘rida ko‘k choy. 120 mehmongacha ziyofatlar, Toshkent bo‘ylab yetkazib berish.",
     "keywords": [
       "palov Toshkent",
@@ -24,10 +24,10 @@
       "tandir somsa",
       "ziyofat Toshkent"
     ],
-    "answer": "Choyxona Bahor — Toshkent, Beshyog‘och ko‘chasi, 18 dagi choyxona, har kuni 8:00 dan 23:00 gacha ochiq. Ertalabki palov 8:00 dan 11:00 gacha beriladi — porsiyasi 55 000 so‘m, tandir somsa — 14 000 so‘m, choynak ko‘k choy — 12 000 so‘m. 120 mehmonlik ziyofat zali, shahar bo‘ylab yetkazib berish."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Beshyog‘och ko‘chasi, 18 dagi choyxona, har kuni 8:00 dan 23:00 gacha ochiq. Ertalabki palov 8:00 dan 11:00 gacha beriladi — porsiyasi 55 000 so‘m, tandir somsa — 14 000 so‘m, choynak ko‘k choy — 12 000 so‘m. 120 mehmonlik ziyofat zali, shahar bo‘ylab yetkazib berish."
   },
   "business": {
-    "legalName": "«Bahor Choyxona» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Beshyog‘och ko‘chasi, 18",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -48,8 +48,8 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Bahor",
-      "eyebrow": "Choyxona · Beshyog‘och · ertalab 8 dan",
+      "title": "«Sizning kompaniyangiz»",
+      "eyebrow": "«Sizning kompaniyangiz» · Beshyog‘och · ertalab 8 dan",
       "subtitle": "Qirq kilolik qozondan ertalabki palov, tandirdan uzilgan somsa va damlanishi uchun uch marta qaytariladigan choy.",
       "words": [
         "palov",

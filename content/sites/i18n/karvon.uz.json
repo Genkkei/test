@@ -1,5 +1,5 @@
 {
-  "name": "Karvon Cargo",
+  "name": "Sizning kompaniyangiz",
   "tagline": "O‘zbekistonga yuklar — va’da bo‘yicha emas, jadval bo‘yicha",
   "niche": "Logistika: Xitoy, Turkiya va Yevropadan O‘zbekistonga yuk tashish",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Karvon Cargo — Xitoy va Turkiyadan Toshkentga yuk tashish",
+    "title": "«Sizning kompaniyangiz» — Xitoy va Turkiyadan Toshkentga yuk tashish",
     "description": "Xitoy, Turkiya va Yevropadan O‘zbekistonga yig‘ma va to‘liq yuklar: avto, temir yo‘l va avia, bojxona rasmiylashtiruvi, Toshkentda ombor. Narx bir soatda.",
     "keywords": [
       "Xitoydan Toshkentga yetkazib berish",
@@ -24,10 +24,10 @@
       "yig‘ma yuklar",
       "Toshkentda ombor"
     ],
-    "answer": "Karvon Cargo Toshkentga yuklarni Xitoydan (avto 18–22 kun, 1,9 $/kg dan; temir yo‘l 25–30 kun, 120 $/m³ dan), Turkiyadan (10–14 kun, 2,4 $/kg dan) va Yevropadan (14–20 kun, 2,9 $/kg dan) olib keladi, bojxonani deklaratsiya uchun 150 $ dan rasmiylashtiradi va yukni Sergelidagi o‘z omborida saqlaydi."
+    "answer": "«Sizning kompaniyangiz» Toshkentga yuklarni Xitoydan (avto 18–22 kun, 1,9 $/kg dan; temir yo‘l 25–30 kun, 120 $/m³ dan), Turkiyadan (10–14 kun, 2,4 $/kg dan) va Yevropadan (14–20 kun, 2,9 $/kg dan) olib keladi, bojxonani deklaratsiya uchun 150 $ dan rasmiylashtiradi va yukni Sergelidagi o‘z omborida saqlaydi."
   },
   "business": {
-    "legalName": "«Karvon Cargo» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Sergeli tumani, Yangi Sergeli ko‘chasi, 22, 4-ombor",
     "city": "Toshkent",
     "region": "Toshkent",

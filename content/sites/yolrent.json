@@ -1,7 +1,7 @@
 {
   "slug": "yolrent",
   "template": "drive",
-  "name": "Yo‘l Rent",
+  "name": "Ваша компания",
   "tagline": "Машина у подъезда через час — от суток до месяца",
   "niche": "Прокат автомобилей в Ташкенте с доставкой",
   "lang": "ru",
@@ -21,9 +21,9 @@
   },
   "business": {
     "type": "AutoRental",
-    "legalName": "ООО «Yo‘l Rent»",
+    "legalName": "ООО «Ваша компания»",
     "phone": "+998 78 113-25-25",
-    "email": "book@yolrent.uz",
+    "email": "info@company.uz",
     "street": "ул. Бабура, 45, офис выдачи",
     "city": "Ташкент",
     "region": "Ташкент",
@@ -40,16 +40,16 @@
     "socials": [
       {
         "name": "Telegram",
-        "url": "https://t.me/yolrent"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/yolrent.uz"
+        "url": "https://instagram.com/yourcompany"
       }
     ]
   },
   "seo": {
-    "title": "Yo‘l Rent — прокат автомобилей в Ташкенте с доставкой",
+    "title": "«Ваша компания» — прокат автомобилей в Ташкенте с доставкой",
     "description": "Аренда авто от суток до месяца: Cobalt, Malibu, K5, Tucson, Camry, минивэн Carnival. Доставка к дому и в аэропорт, страховка включена, оформление за 15 минут.",
     "keywords": [
       "прокат авто Ташкент",
@@ -60,7 +60,7 @@
       "аренда авто на месяц"
     ],
     "ogImage": "",
-    "answer": "Yo‘l Rent — прокат автомобилей в Ташкенте: Chevrolet Cobalt от 350 000 сум в сутки, Toyota Camry от 900 000 сум, минивэн Kia Carnival от 1 200 000 сум. Нужны паспорт и права со стажем от 2 лет, возраст от 21 года; доставка по городу — бесплатно при аренде от 3 суток, в аэропорт — 100 000 сум.",
+    "answer": "«Ваша компания» — прокат автомобилей в Ташкенте: Chevrolet Cobalt от 350 000 сум в сутки, Toyota Camry от 900 000 сум, минивэн Kia Carnival от 1 200 000 сум. Нужны паспорт и права со стажем от 2 лет, возраст от 21 года; доставка по городу — бесплатно при аренде от 3 суток, в аэропорт — 100 000 сум.",
     "index": true
   },
   "nav": {

@@ -1,5 +1,5 @@
 {
-  "name": "Nota",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Tinglagingiz kelgan narsani chalishni o‘rgatadigan musiqa maktabi va studiya",
   "niche": "Musiqa maktabi: gitara, fortepiano, vokal, barabanlar, dutor; ovoz yozish studiyasi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Nota — Toshkentdagi musiqa maktabi va ovoz yozish studiyasi",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi musiqa maktabi va ovoz yozish studiyasi",
     "description": "6 yoshdan bolalar va kattalar uchun gitara, fortepiano, vokal, barabanlar va dutor darslari. Yakka va guruhda, hisobot konsertlari, o‘z ovoz yozish studiyasi.",
     "keywords": [
       "musiqa maktabi Toshkent",
@@ -24,10 +24,10 @@
       "ovoz yozish studiyasi Toshkent",
       "baraban darslari"
     ],
-    "answer": "Nota — Toshkentdagi Afrosiyob ko‘chasi, 12 dagi musiqa maktabi va studiya. 6 yoshdan bolalarga va noldan kattalarga gitara, fortepiano, vokal, barabanlar va dutor o‘rgatamiz. 45 daqiqalik yakka dars — 150 000 so‘m, 8 darslik abonement — 1 040 000 so‘m, sinov darsi — 50 000 so‘m. Ovoz rejissyori bilan studiyada bir soat — 250 000 so‘m."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Afrosiyob ko‘chasi, 12 dagi musiqa maktabi va studiya. 6 yoshdan bolalarga va noldan kattalarga gitara, fortepiano, vokal, barabanlar va dutor o‘rgatamiz. 45 daqiqalik yakka dars — 150 000 so‘m, 8 darslik abonement — 1 040 000 so‘m, sinov darsi — 50 000 so‘m. Ovoz rejissyori bilan studiyada bir soat — 250 000 so‘m."
   },
   "business": {
-    "legalName": "“Nota Music” MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Afrosiyob ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",

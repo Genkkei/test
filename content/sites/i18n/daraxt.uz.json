@@ -1,9 +1,9 @@
 {
-  "name": "Daraxt",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Laksiz, formaldegidli yelimsiz va plastiksiz yaxlit yog‘ochdan eko-mebel",
   "niche": "Tabiiy yog‘ochdan eko-mebel",
   "seo": {
-    "title": "Daraxt — Toshkentda yog‘och massividan eko-mebel",
+    "title": "«Sizning kompaniyangiz» — Toshkentda yog‘och massividan eko-mebel",
     "description": "Yaxlit qayrag‘och, yong‘oq va qarag‘aydan karavotlar, stollar va tokchalar. Laksiz — faqat moy va mum, DSP va formaldegidli yelimsiz. Tayyorlash 14 kundan.",
     "keywords": [
       "Toshkentda eko-mebel",
@@ -12,7 +12,7 @@
       "massivdan karavot",
       "tabiiy mebel"
     ],
-    "answer": "Daraxt — Toshkentdagi eko-mebel ustaxonasi (Shayxontohur, Labzak ko‘chasi, 8). Yaxlit qayrag‘och, yong‘oq va qarag‘aydan moy va mum pardozli, DSP va laksiz karavot, stol va javonlar yasaydi. Qarag‘ay karavot 4 200 000 so‘mdan, qayrag‘och stol 5 600 000 so‘mdan, tayyorlash 14 kundan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi eko-mebel ustaxonasi (Shayxontohur, Labzak ko‘chasi, 8). Yaxlit qayrag‘och, yong‘oq va qarag‘aydan moy va mum pardozli, DSP va laksiz karavot, stol va javonlar yasaydi. Qarag‘ay karavot 4 200 000 so‘mdan, qayrag‘och stol 5 600 000 so‘mdan, tayyorlash 14 kundan."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Daraxt» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Labzak ko‘chasi, 8, Shayxontohur",
     "city": "Toshkent",
     "region": "Toshkent",

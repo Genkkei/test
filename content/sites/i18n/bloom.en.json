@@ -1,5 +1,5 @@
 {
-  "name": "Bloom",
+  "name": "Your Company",
   "tagline": "A beauty bar where care is a pleasure",
   "niche": "Beauty salon and cosmetology",
   "nav": {
@@ -14,8 +14,8 @@
     "features": []
   },
   "seo": {
-    "title": "Bloom — beauty salon and cosmetology in Tashkent",
-    "description": "Facials, cleansing and peels, manicure, brows and lashes, massage at Bloom on Mirabad. Sterile tools, online booking, open daily 9:00–21:00.",
+    "title": "Your Company — beauty salon and cosmetology in Tashkent",
+    "description": "Facials, cleansing and peels, manicure, brows and lashes, massage at Your Company on Mirabad. Sterile tools, online booking, open daily 9:00–21:00.",
     "keywords": [
       "beauty salon Tashkent",
       "cosmetologist Tashkent",
@@ -24,10 +24,10 @@
       "brow lamination",
       "facial massage"
     ],
-    "answer": "Bloom is a beauty salon at 18 Mirabad St in Tashkent: facials and cleansing from 350,000 UZS, manicure with polish from 180,000 UZS, brows and lashes from 150,000 UZS, massage from 300,000 UZS. Open daily 9:00–21:00, book by phone +998 71 200-00-41 or on Telegram."
+    "answer": "Your Company is a beauty salon at 18 Mirabad St in Tashkent: facials and cleansing from 350,000 UZS, manicure with polish from 180,000 UZS, brows and lashes from 150,000 UZS, massage from 300,000 UZS. Open daily 9:00–21:00, book by phone +998 71 200-00-41 or on Telegram."
   },
   "business": {
-    "legalName": "Bloom Beauty LLC",
+    "legalName": "Your Company LLC",
     "street": "18 Mirabad St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -77,7 +77,7 @@
       "type": "about",
       "label": "The salon",
       "title": "Beauty without the rush",
-      "text": "Bloom is a small six-chair salon. We never book back to back: there are twenty minutes between guests for cleaning and sterilisation. We use professional skincare; before a treatment the cosmetologist looks at your skin and chooses the right care rather than selling a course. Tea, quiet and soft light come as standard.",
+      "text": "Your Company is a small six-chair salon. We never book back to back: there are twenty minutes between guests for cleaning and sterilisation. We use professional skincare; before a treatment the cosmetologist looks at your skin and chooses the right care rather than selling a course. Tea, quiet and soft light come as standard.",
       "image": ""
     },
     {

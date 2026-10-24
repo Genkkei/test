@@ -1,5 +1,5 @@
 {
-  "name": "Oq Saroy",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Har bir dasturxonda eslanadigan to‘y",
   "niche": "Toshkentdagi to‘y va banket zali",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Oq Saroy — Toshkentdagi to‘y va banket zali",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi to‘y va banket zali",
     "description": "80 dan 600 mehmongacha uchta zal, o‘z oshxonasi, bezak va to‘y koordinatori. Banket bir mehmon uchun 290 000 so‘mdan, menyu tatib ko‘rish bepul.",
     "keywords": [
       "to‘yxona Toshkent",
@@ -25,10 +25,10 @@
       "Toshkentda to‘y",
       "to‘y zali narxi"
     ],
-    "answer": "Oq Saroy — Toshkentdagi uchta zalli to‘yxona: «Guliston» 80–150 mehmon, «Nur» 300 gacha va «Katta» 600 gacha. Banket bir mehmon uchun 290 000 so‘mdan, oshxona, dasturxon va ofitsiantlar bilan; bezak va koordinator «Klassika» paketidan boshlab kiradi. Sana 20% oldindan to‘lov bilan band qilinadi."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi uchta zalli to‘yxona: «Guliston» 80–150 mehmon, «Nur» 300 gacha va «Katta» 600 gacha. Banket bir mehmon uchun 290 000 so‘mdan, oshxona, dasturxon va ofitsiantlar bilan; bezak va koordinator «Klassika» paketidan boshlab kiradi. Sana 20% oldindan to‘lov bilan band qilinadi."
   },
   "business": {
-    "legalName": "«Oq Saroy Events» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 81",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -50,7 +50,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Oq Saroy",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "To‘y uyi · Toshkent",
       "subtitle": "Uchta zal, o‘z oshxonasi va kuningizni birinchi raqsdan oxirgi mehmongacha olib boradigan jamoa. Siz faqat quvonasiz.",
       "words": [

@@ -151,6 +151,6 @@
 .glow-footer__facts dd { margin: 0; }
 .glow-footer__social { display: flex; flex-wrap: wrap; gap: 6px 16px; }
 .glow-footer__social a { border-bottom: 1px solid currentColor; }
-.glow-footer__word { font-family: var(--font-display); font-size: clamp(64px, 17vw, 300px); line-height: .9; text-transform: uppercase; letter-spacing: .04em; text-align: center; color: var(--accent); margin: clamp(40px, 6vw, 80px) 0 20px; white-space: nowrap; overflow: hidden; }
+.glow-footer__word { font-family: var(--font-display); font-size: min(clamp(64px, 17vw, 300px), calc(92vw / (var(--n, 6) * .78))); line-height: .9; text-transform: uppercase; letter-spacing: .04em; text-align: center; color: var(--accent); margin: clamp(40px, 6vw, 80px) 0 20px; overflow-wrap: anywhere; }
 .glow-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
 @media (max-width: 760px) { .glow-footer__grid, .glow-footer__facts { grid-template-columns: 1fr; } }

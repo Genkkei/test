@@ -1,7 +1,7 @@
 {
   "slug": "matcha",
   "template": "leaf",
-  "name": "Midori Matcha Bar",
+  "name": "Ваша компания",
   "tagline": "Матча-бар на Шота Руставели: церемониальная матча, хоуджича и альтернативный кофе",
   "niche": "Матча-бар и кофейня",
   "lang": "ru",
@@ -21,9 +21,9 @@
   },
   "business": {
     "type": "CafeOrCoffeeShop",
-    "legalName": "ИП «Мидори»",
+    "legalName": "ООО «Ваша компания»",
     "phone": "+998 71 200-02-14",
-    "email": "hi@midori.uz",
+    "email": "info@company.uz",
     "street": "ул. Шота Руставели, 41, Яккасарай",
     "city": "Ташкент",
     "region": "Ташкент",
@@ -41,11 +41,11 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com/midori.matcha"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Telegram",
-        "url": "https://t.me/midorimatcha"
+        "url": "https://t.me/yourcompany"
       }
     ]
   },

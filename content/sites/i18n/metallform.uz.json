@@ -1,9 +1,9 @@
 {
-  "name": "Metallform",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Minimalizm uslubida metall mebel va konstruksiyalar",
   "niche": "Metall mebel va zamonaviy metall konstruksiyalar",
   "seo": {
-    "title": "Metallform — Toshkentda metall mebel va konstruksiyalar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda metall mebel va konstruksiyalar",
     "description": "Qora va bo‘yalgan po‘latdan stollar, javonlar, kosourli zinapoyalar va to‘siqlar. O‘z chizmalarimiz yoki dizayner loyihasi bo‘yicha yasaymiz. Yakkasaroy, Toshkent.",
     "keywords": [
       "metall mebel Toshkent",
@@ -11,7 +11,7 @@
       "metall javonlar",
       "metall to‘siqlar"
     ],
-    "answer": "Metallform — Yakkasaroydagi ustaxona, minimalistik uslubda po‘latdan mebel va konstruksiyalar yasaydi: stollar 3 200 000 so‘mdan, javonlar 2 600 000 so‘mdan, bitta kosourli zinapoyalar 18 000 000 so‘mdan. Muddat 2–4 hafta, kafolat 3 yil, telefon +998 71 200-04-02."
+    "answer": "«Sizning kompaniyangiz» — Yakkasaroydagi ustaxona, minimalistik uslubda po‘latdan mebel va konstruksiyalar yasaydi: stollar 3 200 000 so‘mdan, javonlar 2 600 000 so‘mdan, bitta kosourli zinapoyalar 18 000 000 so‘mdan. Muddat 2–4 hafta, kafolat 3 yil, telefon +998 71 200-04-02."
   },
   "nav": {
     "cta": {
@@ -29,7 +29,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Metallform» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shota Rustaveli ko‘chasi, 112, Yakkasaroy",
     "city": "Toshkent",
     "region": "Toshkent",

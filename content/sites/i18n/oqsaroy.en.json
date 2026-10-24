@@ -1,5 +1,5 @@
 {
-  "name": "Oq Saroy",
+  "name": "Your Company",
   "tagline": "A wedding they’ll remember at every family table",
   "niche": "Wedding and banquet hall in Tashkent",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Oq Saroy — wedding and banquet hall in Tashkent",
+    "title": "Your Company — wedding and banquet hall in Tashkent",
     "description": "Three halls for 80 to 600 guests, our own kitchen, décor and a wedding coordinator. Banquets from 290,000 UZS per guest, free menu tasting.",
     "keywords": [
       "wedding hall Tashkent",
@@ -25,10 +25,10 @@
       "wedding in Tashkent",
       "Uzbek wedding venue"
     ],
-    "answer": "Oq Saroy is a wedding and banquet venue in Tashkent with three halls: Guliston for 80–150 guests, Nur for up to 300 and the Grand Hall for up to 600. Banquets start at 290,000 UZS per guest including food, table setting and waiters; décor and a coordinator are included from the Classic package. A date is held with a 20% deposit."
+    "answer": "Your Company is a wedding and banquet venue in Tashkent with three halls: Guliston for 80–150 guests, Nur for up to 300 and the Grand Hall for up to 600. Banquets start at 290,000 UZS per guest including food, table setting and waiters; décor and a coordinator are included from the Classic package. A date is held with a 20% deposit."
   },
   "business": {
-    "legalName": "Oq Saroy Events LLC",
+    "legalName": "Your Company LLC",
     "street": "81 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -50,7 +50,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Oq Saroy",
+      "title": "Your Company",
       "eyebrow": "Wedding house · Tashkent",
       "subtitle": "Three halls, our own kitchen and a team that runs your day from the first dance to the last guest. You just celebrate.",
       "words": [

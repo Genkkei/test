@@ -1,5 +1,5 @@
 {
-  "name": "Sahna",
+  "name": "Your Company",
   "tagline": "A theatre where the curtain rises every night",
   "niche": "Theatre and concert venue: plays, chamber music and children’s matinees",
   "nav": {
@@ -14,8 +14,8 @@
     "features": []
   },
   "seo": {
-    "title": "Sahna — theatre and concert hall in Tashkent",
-    "description": "What’s on at Sahna theatre in Tashkent: drama, chamber concerts and children’s matinees. A 320-seat hall, tickets from 80,000 sum, box office and online booking.",
+    "title": "Your Company — theatre and concert hall in Tashkent",
+    "description": "What’s on at Your Company theatre in Tashkent: drama, chamber concerts and children’s matinees. A 320-seat hall, tickets from 80,000 sum, box office and online booking.",
     "keywords": [
       "theatre Tashkent",
       "theatre listings",
@@ -24,7 +24,7 @@
       "theatre tickets",
       "children’s play"
     ],
-    "answer": "Sahna is a theatre and concert venue at 12 Mustaqillik Street in Tashkent. A 320-seat hall with performances Tuesday to Sunday at 19:00 and weekend matinees at 11:00. Tickets run from 80,000 sum in the balcony to 250,000 sum in the stalls; the box office is open 11:00–21:00 and you can book by phone or Telegram."
+    "answer": "Your Company is a theatre and concert venue at 12 Mustaqillik Street in Tashkent. A 320-seat hall with performances Tuesday to Sunday at 19:00 and weekend matinees at 11:00. Tickets run from 80,000 sum in the balcony to 250,000 sum in the stalls; the box office is open 11:00–21:00 and you can book by phone or Telegram."
   },
   "sections": [
     {
@@ -32,7 +32,7 @@
       "type": "hero",
       "anchor": "",
       "label": "",
-      "title": "Sahna",
+      "title": "Your Company",
       "eyebrow": "Theatre · 2026/27 season",
       "subtitle": "Drama, chamber music and fairy tales for children in a 320-seat hall where the stage can see every face.",
       "words": [
@@ -255,7 +255,7 @@
     }
   ],
   "business": {
-    "legalName": "Sahna Theatre LLC",
+    "legalName": "Your Company LLC",
     "street": "12 Mustaqillik St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -263,11 +263,11 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://instagram.com/sahna.theatre"
+        "url": "https://instagram.com/yourcompany"
       },
       {
         "name": "Telegram",
-        "url": "https://t.me/sahnatheatre"
+        "url": "https://t.me/yourcompany"
       },
       {
         "name": "YouTube",

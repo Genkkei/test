@@ -1,5 +1,5 @@
 {
-  "name": "Forno",
+  "name": "Your Company",
   "tagline": "Neapolitan pizza from a 450-degree oven, hot at your door in 35 minutes",
   "niche": "Pizzeria with delivery across Tashkent",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Forno — Neapolitan pizza delivered in Tashkent",
+    "title": "Your Company — Neapolitan pizza delivered in Tashkent",
     "description": "Pizza on a 48-hour fermented dough from a wood-fired oven: margherita, pepperoni, four cheese. Delivery across Tashkent in 35 minutes, pickup at 77 Bobur St.",
     "keywords": [
       "pizza Tashkent",
@@ -24,10 +24,10 @@
       "pepperoni",
       "pizzeria"
     ],
-    "answer": "Forno is a pizzeria at 77 Bobur St in Tashkent, open from 11:00 to 23:30. Our 32 cm pizzas bake for 90 seconds in a 450 °C oven: margherita costs 79,000 UZS, pepperoni 95,000 UZS and four cheese 105,000 UZS. Delivery across the city takes about 35 minutes and is free from 150,000 UZS."
+    "answer": "Your Company is a pizzeria at 77 Bobur St in Tashkent, open from 11:00 to 23:30. Our 32 cm pizzas bake for 90 seconds in a 450 °C oven: margherita costs 79,000 UZS, pepperoni 95,000 UZS and four cheese 105,000 UZS. Delivery across the city takes about 35 minutes and is free from 150,000 UZS."
   },
   "business": {
-    "legalName": "Forno Pizza LLC",
+    "legalName": "Your Company LLC",
     "street": "77 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -49,7 +49,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Pizza like in Naples",
-      "eyebrow": "Forno · 77 Bobur · delivery in 35 min",
+      "eyebrow": "Your Company · 77 Bobur · delivery in 35 min",
       "subtitle": "The dough ferments for 48 hours, the tomatoes are San Marzano, the mozzarella local and made yesterday. The oven runs at 450 degrees: a pizza is ready in 90 seconds.",
       "words": [],
       "cta": {

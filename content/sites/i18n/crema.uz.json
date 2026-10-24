@@ -1,5 +1,5 @@
 {
-  "name": "Crema",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Bir vaqtda bitta finjon. Oq deraza, yaxshi espresso va hech qanday shovqin yo‘q",
   "niche": "Yapon uslubidagi olib ketish qahvaxonasi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Crema — Tashkent Cityda olib ketish uchun qahva",
+    "title": "«Sizning kompaniyangiz» — Tashkent Cityda olib ketish uchun qahva",
     "description": "Tashkent Citydagi minimalistik qahvaxona-deraza: espresso, latte, moti va mavsumiy ichimliklar olib ketish uchun. Har kuni 7:30 dan ochiq, sayt orqali oldindan buyurtma.",
     "keywords": [
       "olib ketish qahva Toshkent",
@@ -24,10 +24,10 @@
       "yapon qahvaxonasi",
       "matcha latte"
     ],
-    "answer": "Crema — Tashkent City, Furqat ko‘chasi, 1 dagi olib ketish qahvaxonasi. Har kuni 7:30 dan 22:00 gacha ochiq. Espresso — 22 000 so‘m, latte — 32 000 so‘m, matcha-latte — 38 000 so‘m. Buyurtmani saytda qoldirib, navbatsiz olib ketish mumkin."
+    "answer": "«Sizning kompaniyangiz» — Tashkent City, Furqat ko‘chasi, 1 dagi olib ketish qahvaxonasi. Har kuni 7:30 dan 22:00 gacha ochiq. Espresso — 22 000 so‘m, latte — 32 000 so‘m, matcha-latte — 38 000 so‘m. Buyurtmani saytda qoldirib, navbatsiz olib ketish mumkin."
   },
   "business": {
-    "legalName": "«Crema» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Tashkent City, Furqat ko‘chasi, 1",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -45,7 +45,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Crema",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Olib ketish uchun qahva · Tashkent City",
       "subtitle": "Birinchi qavatda deraza, bitta qahva mashinasi va uchta barista. Ertalab — bir daqiqada espresso, kunduzi — latte va moti, kechqurun — sukunat va oq yorug‘lik.",
       "words": [],

@@ -1,9 +1,9 @@
 {
-  "name": "Dizayn",
+  "name": "Your Company",
   "tagline": "A gallery of design furniture and collectible objects",
   "niche": "Design furniture gallery",
   "seo": {
-    "title": "Dizayn — design furniture gallery in Tashkent",
+    "title": "Your Company — design furniture gallery in Tashkent",
     "description": "Design furniture, lighting and collectible objects by makers from Uzbekistan and Europe. A new show every two months, buy from the floor or to order, delivery nationwide.",
     "keywords": [
       "design furniture Tashkent",
@@ -12,7 +12,7 @@
       "collectible design",
       "buy a designer armchair"
     ],
-    "answer": "Dizayn is a design furniture gallery in Tashkent (52 Shota Rustaveli Street). It shows and sells furniture, lighting and collectible objects by makers from Uzbekistan and Europe: armchairs from UZS 9,500,000, lamps from UZS 2,800,000. Shows change every two months; open Tuesday to Sunday, 11–20."
+    "answer": "Your Company is a design furniture gallery in Tashkent (52 Shota Rustaveli Street). It shows and sells furniture, lighting and collectible objects by makers from Uzbekistan and Europe: armchairs from UZS 9,500,000, lamps from UZS 2,800,000. Shows change every two months; open Tuesday to Sunday, 11–20."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "Dizayn Gallery LLC",
+    "legalName": "Your Company LLC",
     "street": "52 Shota Rustaveli Street, Yakkasaray",
     "city": "Tashkent",
     "region": "Tashkent",

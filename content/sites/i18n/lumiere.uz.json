@@ -1,5 +1,5 @@
 {
-  "name": "Maison Lumière",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Toshkent qalbidagi fransuz qandolatxonasi",
   "niche": "Qandolatxona: buyurtma tortlar, pirojniylar, makaron, pishiriqlar va qahva",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Maison Lumière — fransuz qandolatxonasi va buyurtma tortlar",
+    "title": "«Sizning kompaniyangiz» — fransuz qandolatxonasi va buyurtma tortlar",
     "description": "Toshkentda fransuz retseptlari bo‘yicha buyurtma tortlar, makaron, kruassanlar va pirojniylar. 82% sariyog‘, Belgiya shokoladi, buyurtma kuni shahar bo‘ylab yetkazib berish.",
     "keywords": [
       "buyurtma tortlar Toshkent",
@@ -19,7 +19,7 @@
       "pirojniylar",
       "Mirobodda qandolatxona"
     ],
-    "answer": "Maison Lumière — Toshkent, Mirobod ko‘chasi, 18 dagi fransuz qandolatxonasi. Buyurtma tortlar — kilogrammi 420 000 so‘mdan, 48 soat oldin qabul qilamiz; makaron — donasi 18 000 so‘m, kruassan — 28 000 so‘m. Har kuni 8:00 dan ochiqmiz, Toshkent bo‘ylab yetkazamiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Mirobod ko‘chasi, 18 dagi fransuz qandolatxonasi. Buyurtma tortlar — kilogrammi 420 000 so‘mdan, 48 soat oldin qabul qilamiz; makaron — donasi 18 000 so‘m, kruassan — 28 000 so‘m. Har kuni 8:00 dan ochiqmiz, Toshkent bo‘ylab yetkazamiz."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Maison Lumière» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirobod ko‘chasi, 18",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -61,7 +61,7 @@
       "type": "about",
       "label": "Uy",
       "title": "Biz shoshilmaymiz: kruassan xamiri uch kun dam oladi, tart kremi esa past olovda pishadi.",
-      "text": "Maison Lumière 2021 yilda sokin Mirobod ko‘chasida ochildi. Bosh qandolatchimiz Parijda o‘qigan va u yerdan asosiy qoidani olib kelgan: desert shunchaki shirin bo‘lmasligi kerak — unda xarakter, tekstura va ta’m izi bo‘lishi lozim.\nBiz kichik partiyalarda pishiramiz, shuning uchun vitrina kechga borib bo‘shab qoladi. Tortlarni faqat buyurtma bo‘yicha — bayramingiz, ta’mingiz va mehmonlar soniga qarab yig‘amiz. Mavsumiy rezavorlarni Toshkent viloyati fermerlaridan, yong‘oqlarni samarqandlik yetkazib beruvchilardan olamiz.",
+      "text": "«Sizning kompaniyangiz» 2021 yilda sokin Mirobod ko‘chasida ochildi. Bosh qandolatchimiz Parijda o‘qigan va u yerdan asosiy qoidani olib kelgan: desert shunchaki shirin bo‘lmasligi kerak — unda xarakter, tekstura va ta’m izi bo‘lishi lozim.\nBiz kichik partiyalarda pishiramiz, shuning uchun vitrina kechga borib bo‘shab qoladi. Tortlarni faqat buyurtma bo‘yicha — bayramingiz, ta’mingiz va mehmonlar soniga qarab yig‘amiz. Mavsumiy rezavorlarni Toshkent viloyati fermerlaridan, yong‘oqlarni samarqandlik yetkazib beruvchilardan olamiz.",
       "image": ""
     },
     {
@@ -200,7 +200,7 @@
           "image": ""
         },
         {
-          "caption": "«Lumière» torti",
+          "caption": "«Sizning kompaniyangiz» torti",
           "image": ""
         },
         {

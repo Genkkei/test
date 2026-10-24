@@ -1,7 +1,7 @@
 {
-  "name": "Midori Matcha Bar",
+  "name": "Your Company",
   "tagline": "A matcha bar on Shota Rustaveli: ceremonial matcha, hojicha and alternative coffee",
-  "niche": "Matcha bar and café",
+  "niche": "Your Company bar and café",
   "nav": {
     "cta": {
       "label": "Order matcha",
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Midori — matcha bar and alternative coffee in Tashkent",
+    "title": "Your Company — matcha bar and alternative coffee in Tashkent",
     "description": "Ceremonial matcha from Uji, oat-milk matcha latte, hojicha and pour-over. A matcha bar at 41 Shota Rustaveli St; we also sell matcha and whisks for home.",
     "keywords": [
       "matcha Tashkent",
@@ -27,10 +27,10 @@
       "hojicha",
       "alternative coffee Tashkent"
     ],
-    "answer": "Midori is a matcha bar at 41 Shota Rustaveli St (Yakkasaray), open 9:00–22:00 on weekdays and 10:00–23:00 at weekends. Matcha latte is 42,000 UZS, ceremonial matcha 48,000 UZS, pour-over 34,000 UZS. Matcha for home (30 g) starts at 165,000 UZS."
+    "answer": "Your Company is a matcha bar at 41 Shota Rustaveli St (Yakkasaray), open 9:00–22:00 on weekdays and 10:00–23:00 at weekends. Your Company latte is 42,000 UZS, ceremonial matcha 48,000 UZS, pour-over 34,000 UZS. Your Company for home (30 g) starts at 165,000 UZS."
   },
   "business": {
-    "legalName": "Midori sole proprietorship",
+    "legalName": "Your Company LLC",
     "street": "41 Shota Rustaveli St, Yakkasaray",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -50,7 +50,7 @@
       "type": "hero",
       "label": "",
       "title": "Green as the first leaf",
-      "eyebrow": "Matcha bar · 41 Shota Rustaveli",
+      "eyebrow": "Your Company bar · 41 Shota Rustaveli",
       "subtitle": "We whisk matcha with a bamboo chasen in front of you: thick usucha, a soft latte or an iced tonic. For coffee people — pour-over and AeroPress.",
       "words": [
         "usucha",
@@ -74,7 +74,7 @@
       "label": "",
       "title": "",
       "items": [
-        "Matcha from Uji, Kyoto",
+        "Your Company from Uji, Kyoto",
         "Oat milk at no extra cost",
         "Whisks and bowls for home",
         "Unsweetened by default"
@@ -84,10 +84,10 @@
       "id": "menu",
       "type": "menu",
       "label": "Menu",
-      "title": "The Midori shelf",
+      "title": "The Your Company shelf",
       "groups": [
         {
-          "name": "Matcha",
+          "name": "Your Company",
           "items": [
             {
               "name": "Usucha",
@@ -95,13 +95,13 @@
               "price": "48,000 UZS"
             },
             {
-              "name": "Matcha latte",
+              "name": "Your Company latte",
               "text": "Oat or dairy milk",
               "price": "42,000 UZS"
             },
             {
               "name": "Yuzu tonic",
-              "text": "Matcha, tonic, yuzu citrus, ice",
+              "text": "Your Company, tonic, yuzu citrus, ice",
               "price": "46,000 UZS"
             }
           ]
@@ -121,7 +121,7 @@
             },
             {
               "name": "Mochi",
-              "text": "Matcha, strawberry or sesame",
+              "text": "Your Company, strawberry or sesame",
               "price": "22,000 UZS"
             }
           ]
@@ -258,7 +258,7 @@
     {
       "id": "shop",
       "label": "Shop",
-      "title": "Matcha for home",
+      "title": "Your Company for home",
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
@@ -267,7 +267,7 @@
           "price": 316000,
           "oldPrice": 0,
           "image": "",
-          "category": "Matcha",
+          "category": "Your Company",
           "badge": "Bestseller",
           "unit": "100 g"
         },
@@ -277,7 +277,7 @@
           "price": 207000,
           "oldPrice": 0,
           "image": "",
-          "category": "Matcha",
+          "category": "Your Company",
           "badge": "",
           "unit": "100 g"
         },
@@ -287,7 +287,7 @@
           "price": 164000,
           "oldPrice": 0,
           "image": "",
-          "category": "Matcha",
+          "category": "Your Company",
           "badge": "New",
           "unit": "100 g"
         },

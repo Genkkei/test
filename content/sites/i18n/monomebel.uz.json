@@ -1,5 +1,5 @@
 {
-  "name": "MONO",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Minimalizm: qora, oq, beton",
   "niche": "Minimalistik mebel",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "MONO — Toshkentda minimalistik mebel",
+    "title": "«Sizning kompaniyangiz» — Toshkentda minimalistik mebel",
     "description": "Beton stol usti bilan stollar, qora metall javonlar, tutqichsiz oq shkaflar. Kvartira uchun tayyor to‘plamlar, Toshkent bo‘ylab 1 kunda yetkazish.",
     "keywords": [
       "minimalistik mebel",
@@ -27,10 +27,10 @@
       "tutqichsiz shkaf",
       "mebel Toshkent"
     ],
-    "answer": "MONO — Toshkentdagi minimalistik mebel do‘koni («Samarqand Darvoza» SM, 3-qavat), har kuni 10:00 dan 22:00 gacha ochiq. Beton stol usti bilan stol 4 200 000 so‘mdan, qora metall javon 2 600 000 so‘mdan, studiya uchun to‘plam 14 900 000 so‘mdan. Toshkent bo‘ylab yetkazish — ertasi kuni."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi minimalistik mebel do‘koni («Samarqand Darvoza» SM, 3-qavat), har kuni 10:00 dan 22:00 gacha ochiq. Beton stol usti bilan stol 4 200 000 so‘mdan, qora metall javon 2 600 000 so‘mdan, studiya uchun to‘plam 14 900 000 so‘mdan. Toshkent bo‘ylab yetkazish — ertasi kuni."
   },
   "business": {
-    "legalName": "«Mono Mebel» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Chilonzor ko‘chasi, 2, «Samarqand Darvoza» SM, 3-qavat",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -50,7 +50,7 @@
       "type": "hero",
       "label": "",
       "title": "Kamroq buyum. Ko‘proq havo.",
-      "eyebrow": "MONO · ortiqchasiz mebel",
+      "eyebrow": "«Sizning kompaniyangiz» · ortiqchasiz mebel",
       "subtitle": "Qora metall, oq fasadlar, beton va eman. Bir-biriga va har qanday kvartiraga mos buyumlar.",
       "words": [
         "qora",
@@ -177,7 +177,7 @@
       "id": "reviews",
       "type": "testimonials",
       "label": "Fikrlar",
-      "title": "Xaridorlar MONO haqida",
+      "title": "Xaridorlar «Sizning kompaniyangiz» haqida",
       "items": [
         {
           "quote": "«Ikki xonali»ni to‘liq oldik: ertalab olib kelishdi, kechqurun beton stolda ovqatlanayotgandik.",
@@ -219,7 +219,7 @@
       "id": "contact",
       "type": "contact",
       "label": "Aloqa",
-      "title": "MONO shourumi",
+      "title": "«Sizning kompaniyangiz» shourumi",
       "text": "«Samarqand Darvoza» SM, 3-qavat. Har kuni 10:00 dan 22:00 gacha.",
       "cta": {
         "label": "Sotib olish",

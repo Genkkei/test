@@ -1,5 +1,5 @@
 {
-  "name": "Adliya Partners",
+  "name": "Your Company",
   "tagline": "A law firm for business in Uzbekistan",
   "niche": "Law firm: corporate law, tax, disputes, M&A",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Adliya Partners — business law firm in Tashkent",
+    "title": "Your Company — business law firm in Tashkent",
     "description": "Corporate law, tax disputes, M&A, data protection and support for foreign investors in Uzbekistan. A fixed price per stage and a reply within a day.",
     "keywords": [
       "law firm Tashkent",
@@ -19,7 +19,7 @@
       "company registration for foreigners",
       "personal data Uzbekistan"
     ],
-    "answer": "Adliya Partners is a law firm in Tashkent, founded in 2012, handling company matters in Uzbekistan: corporate law, tax, litigation, M&A deals, IT and personal data, and support for foreign investors. Registering a company with foreign participation starts from 12,000,000 UZS in 10 working days; an initial one-hour consultation starts from 1,500,000 UZS."
+    "answer": "Your Company is a law firm in Tashkent, founded in 2012, handling company matters in Uzbekistan: corporate law, tax, litigation, M&A deals, IT and personal data, and support for foreign investors. Registering a company with foreign participation starts from 12,000,000 UZS in 10 working days; an initial one-hour consultation starts from 1,500,000 UZS."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Adliya Partners LLC",
+    "legalName": "Your Company LLC",
     "street": "4B Afrosiyob St, business centre, 7th floor",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -286,8 +286,8 @@
       "title": "Let’s discuss your matter",
       "text": "We’ll reply within a working day and suggest a time to meet a partner.",
       "cta": {
-        "label": "office@adliya.partners",
-        "href": "mailto:office@adliya.partners"
+        "label": "info@company.uz",
+        "href": "mailto:info@company.uz"
       }
     }
   ]

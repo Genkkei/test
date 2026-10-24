@@ -1,5 +1,5 @@
 {
-  "name": "Ramen Do",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Sho‘rva o‘n sakkiz soat qaynaydi, lag‘monni har tong cho‘zamiz",
   "niche": "Ramen-bar va yapon ko‘cha taomlari",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ramen Do — Toshkentda tungi soat ikkigacha ramen-bar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda tungi soat ikkigacha ramen-bar",
     "description": "O‘n sakkiz soatlik sho‘rvadagi tonkotsu, shoyu va miso ramen, gyoza va takoyaki. Chipta avtomati orqali buyurtma, dam olish kunlari 2:00 gacha. Toshkent bo‘ylab yetkazib berish.",
     "keywords": [
       "ramen Toshkent",
@@ -24,10 +24,10 @@
       "Toshkentda tunda ovqatlanish",
       "ramen yetkazib berish"
     ],
-    "answer": "Ramen Do — Toshkent, Mustaqillik ko‘chasi, 59A dagi ramen-bar. 12:00 dan yarim tungacha, juma va dam olish kunlari — 2:00 gacha ishlaydi. Tonkotsu ramen 79 000 so‘m, shoyu — 72 000 so‘m, miso — 74 000 so‘m, gyoza — 39 000 so‘m. Buyurtma kirishdagi chipta avtomati orqali, yetkazib berish bor."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Mustaqillik ko‘chasi, 59A dagi ramen-bar. 12:00 dan yarim tungacha, juma va dam olish kunlari — 2:00 gacha ishlaydi. Tonkotsu ramen 79 000 so‘m, shoyu — 72 000 so‘m, miso — 74 000 so‘m, gyoza — 39 000 so‘m. Buyurtma kirishdagi chipta avtomati orqali, yetkazib berish bor."
   },
   "business": {
-    "legalName": "«Ramen Do» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mustaqillik ko‘chasi, 59A",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -48,7 +48,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Ramen Do",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Ramen-bar · Mustaqillik 59A · 02:00 gacha",
       "subtitle": "Mol suyagidan sho‘rva o‘n sakkiz soat qaynaydi, lag‘monni har tong cho‘zamiz, tuxumni bir kecha-kunduz marinadlaymiz. Avtomatdan chipta oling va peshtaxtaga o‘tiring.",
       "words": [

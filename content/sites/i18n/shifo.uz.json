@@ -1,5 +1,5 @@
 {
-  "name": "Shifo Lab",
+  "name": "Sizning kompaniyangiz",
   "tagline": "O‘z tanangizni taxmin bilan emas, raqamlar bilan biling",
   "niche": "Tibbiy laboratoriya va chekaplar",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Shifo Lab — Toshkentda 1 kunda tahlillar va chekaplar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda 1 kunda tahlillar va chekaplar",
     "description": "Qon tahlillari, gormonlar, vitaminlar va infeksiyalar. Natijalar 1 kunda Telegramda, terapevt bilan tahlil, uyga chiqish. Qon topshirish 7:00 dan navbatsiz.",
     "keywords": [
       "tahlillar Toshkent",
@@ -25,10 +25,10 @@
       "D vitamini tahlili",
       "qalqonsimon bez gormonlari"
     ],
-    "answer": "Shifo Lab — Toshkent, Mirobod ko‘chasidagi tibbiy laboratoriya: umumiy qon tahlili — 60 000 so‘m, D vitamini — 190 000 so‘m, 24 ko‘rsatkichli asosiy chekap — 690 000 so‘m. Qon 7:00 dan navbatsiz topshiriladi, ko‘pchilik natijalar bir kun ichida Telegramga keladi, uyga chiqish — 100 000 so‘m."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Mirobod ko‘chasidagi tibbiy laboratoriya: umumiy qon tahlili — 60 000 so‘m, D vitamini — 190 000 so‘m, 24 ko‘rsatkichli asosiy chekap — 690 000 so‘m. Qon 7:00 dan navbatsiz topshiriladi, ko‘pchilik natijalar bir kun ichida Telegramga keladi, uyga chiqish — 100 000 so‘m."
   },
   "business": {
-    "legalName": "«Shifo Diagnostics» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirobod ko‘chasi, 41",
     "city": "Toshkent",
     "region": "Toshkent",

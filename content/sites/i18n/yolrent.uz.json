@@ -1,9 +1,9 @@
 {
-  "name": "Yo‘l Rent",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Bir soatda mashina eshigingiz oldida — bir kundan bir oygacha",
   "niche": "Toshkentda yetkazib berish bilan avtomobil ijarasi",
   "seo": {
-    "title": "Yo‘l Rent — Toshkentda yetkazib berish bilan avtomobil ijarasi",
+    "title": "«Sizning kompaniyangiz» — Toshkentda yetkazib berish bilan avtomobil ijarasi",
     "description": "Bir kundan bir oygacha avto ijarasi: Cobalt, Malibu, K5, Tucson, Camry, Carnival miniveni. Uyga va aeroportga yetkazish, sug‘urta narxga kiritilgan, rasmiylashtirish 15 daqiqada.",
     "keywords": [
       "avto ijarasi Toshkent",
@@ -13,7 +13,7 @@
       "miniven ijarasi",
       "bir oylik avto ijarasi"
     ],
-    "answer": "Yo‘l Rent — Toshkentdagi avtomobil ijarasi: Chevrolet Cobalt kuniga 350 000 so‘mdan, Toyota Camry 900 000 so‘mdan, Kia Carnival miniveni 1 200 000 so‘mdan. Pasport va kamida 2 yillik stajli guvohnoma kerak, yosh 21 dan; 3 kundan ortiq ijarada shahar bo‘ylab yetkazish bepul, aeroportga — 100 000 so‘m."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi avtomobil ijarasi: Chevrolet Cobalt kuniga 350 000 so‘mdan, Toyota Camry 900 000 so‘mdan, Kia Carnival miniveni 1 200 000 so‘mdan. Pasport va kamida 2 yillik stajli guvohnoma kerak, yosh 21 dan; 3 kundan ortiq ijarada shahar bo‘ylab yetkazish bepul, aeroportga — 100 000 so‘m."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Yo‘l Rent» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 45, berish ofisi",
     "city": "Toshkent",
     "region": "Toshkent",

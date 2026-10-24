@@ -1,9 +1,9 @@
 {
-  "name": "Gadget",
+  "name": "Your Company",
   "tagline": "Tech you can try before you buy and get fixed after",
   "niche": "Electronics store and repair centre: phones, laptops, audio, repairs",
   "seo": {
-    "title": "Gadget — electronics store and repairs in Tashkent",
+    "title": "Your Company — electronics store and repairs in Tashkent",
     "description": "Phones, laptops, headphones and smartwatches with an official warranty. Trade-in, instalments and a repair centre with a 15-minute diagnosis.",
     "keywords": [
       "electronics store Tashkent",
@@ -13,7 +13,7 @@
       "laptop on instalments",
       "headphones"
     ],
-    "answer": "Gadget is an electronics store and repair centre at 15 Amir Temur Ave, Tashkent, open daily 10:00–21:00. Phones from 2,900,000 UZS, laptops from 7,400,000 UZS, 6–12 month instalments and trade-in for your old device. Diagnosis is free; screen replacement starts at 450,000 UZS."
+    "answer": "Your Company is an electronics store and repair centre at 15 Amir Temur Ave, Tashkent, open daily 10:00–21:00. Phones from 2,900,000 UZS, laptops from 7,400,000 UZS, 6–12 month instalments and trade-in for your old device. Diagnosis is free; screen replacement starts at 450,000 UZS."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Gadget Store LLC",
+    "legalName": "Your Company LLC",
     "street": "15 Amir Temur Ave",
     "city": "Tashkent",
     "region": "Tashkent",

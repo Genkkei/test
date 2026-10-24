@@ -1,5 +1,5 @@
 {
-  "name": "Kafolat",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Sug‘urta brokeri: polis tanlaymiz, shartlarni tushuntiramiz va sug‘urta hodisasida yordam beramiz",
   "niche": "Sug‘urta: OSAGO, KASKO, mulk, sog‘liq va sayohat",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kafolat — Toshkentdagi sug‘urta brokeri: OSAGO, KASKO, uy",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi sug‘urta brokeri: OSAGO, KASKO, uy",
     "description": "Sug‘urta kompaniyalari takliflarini solishtiramiz va OSAGO, KASKO, kvartira, sog‘liq va sayohat sug‘urtasini rasmiylashtiramiz. Onlayn 10 daqiqada, sug‘urta hodisasida yordam.",
     "keywords": [
       "sug‘urta Toshkent",
@@ -24,10 +24,10 @@
       "sayohat sug‘urtasi",
       "sug‘urta brokeri O‘zbekiston"
     ],
-    "answer": "Kafolat — Toshkentdagi sug‘urta brokeri: bir nechta sug‘urta kompaniyalari shartlarini solishtiramiz va polisni onlayn yoki Bobur ko‘chasi, 22 dagi ofisda rasmiylashtiramiz. OSAGO — sug‘urtachi tarifi bo‘yicha, KASKO — yiliga 2 400 000 so‘mdan, kvartira sug‘urtasi — 300 000 so‘mdan, safar polisi — 90 000 so‘mdan. Sug‘urta hodisasida hujjat yig‘ishga yordam beramiz va to‘lovni kuzatib boramiz."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi sug‘urta brokeri: bir nechta sug‘urta kompaniyalari shartlarini solishtiramiz va polisni onlayn yoki Bobur ko‘chasi, 22 dagi ofisda rasmiylashtiramiz. OSAGO — sug‘urtachi tarifi bo‘yicha, KASKO — yiliga 2 400 000 so‘mdan, kvartira sug‘urtasi — 300 000 so‘mdan, safar polisi — 90 000 so‘mdan. Sug‘urta hodisasida hujjat yig‘ishga yordam beramiz va to‘lovni kuzatib boramiz."
   },
   "business": {
-    "legalName": "«Kafolat Broker» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 22",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -174,7 +174,7 @@
       "title": "Bizga yozishadi",
       "items": [
         {
-          "quote": "Yuqoridagi qo‘shnilar ta’mirni suv bosdi. Kafolat hujjatlarni men uchun yig‘di, to‘lovni uch haftada oldim.",
+          "quote": "Yuqoridagi qo‘shnilar ta’mirni suv bosdi. «Sizning kompaniyangiz» hujjatlarni men uchun yig‘di, to‘lovni uch haftada oldim.",
           "author": "Malika",
           "role": "kvartira sug‘urtasi"
         },

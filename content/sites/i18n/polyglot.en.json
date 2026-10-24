@@ -1,5 +1,5 @@
 {
-  "name": "Polyglot",
+  "name": "Your Company",
   "tagline": "A language school where only the first five minutes are scary",
   "niche": "Language school: English, Korean and German for kids and adults",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Polyglot — language school in Tashkent: English, Korean",
+    "title": "Your Company — language school in Tashkent: English, Korean",
     "description": "English, Korean and German for children from 6 and adults. Groups of up to 8, IELTS and TOPIK preparation, and a free trial lesson.",
     "keywords": [
       "English courses Tashkent",
@@ -19,7 +19,7 @@
       "English for kids",
       "German language courses"
     ],
-    "answer": "Polyglot is a language school in Tashkent at 54 Nukus St. We teach English, Korean and German to children from age 6 and adults in groups of up to 8. A month of classes starts from 690,000 UZS (3 lessons a week); IELTS preparation takes 4 months. The first lesson and level test are free."
+    "answer": "Your Company is a language school in Tashkent at 54 Nukus St. We teach English, Korean and German to children from age 6 and adults in groups of up to 8. A month of classes starts from 690,000 UZS (3 lessons a week); IELTS preparation takes 4 months. The first lesson and level test are free."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Polyglot Education LLC",
+    "legalName": "Your Company LLC",
     "street": "54 Nukus St",
     "city": "Tashkent",
     "region": "Tashkent",

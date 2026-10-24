@@ -1,5 +1,5 @@
 {
-  "name": "Metall Ombor",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Toshkent bo‘ylab kesish va yetkazib berish bilan metall prokat",
   "niche": "Metall baza: profil quvur, list, armatura, burchak",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Metall Ombor — Toshkentda metall prokat, yetkazib berish bilan",
+    "title": "«Sizning kompaniyangiz» — Toshkentda metall prokat, yetkazib berish bilan",
     "description": "Sergelidagi ombordan profil quvur, list, armatura, burchak va shveller. O‘lchamga kesish, bukish va buyurtma kuni manipulyator bilan yetkazish. Bitta quvurdan sotamiz.",
     "keywords": [
       "metall prokat Toshkent",
@@ -27,10 +27,10 @@
       "metall kesish",
       "metall list sotib olish"
     ],
-    "answer": "Metall Ombor — Sergelidagi (Toshkent) metall baza: profil quvur metri 26 000 so‘mdan, 2 mm list 520 000 so‘mdan, armatura tonnasi 11 900 000 so‘mdan. O‘lchamga kesamiz, bukamiz va buyurtma kuni manipulyator bilan olib boramiz. Du–Sh 8:00–18:00, telefon +998 71 200-07-01."
+    "answer": "«Sizning kompaniyangiz» — Sergelidagi (Toshkent) metall baza: profil quvur metri 26 000 so‘mdan, 2 mm list 520 000 so‘mdan, armatura tonnasi 11 900 000 so‘mdan. O‘lchamga kesamiz, bukamiz va buyurtma kuni manipulyator bilan olib boramiz. Du–Sh 8:00–18:00, telefon +998 71 200-07-01."
   },
   "business": {
-    "legalName": "MChJ «Metall Ombor»",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Sergeli, Yangi Sergeli ko‘chasi, 14",
     "city": "Toshkent",
     "region": "Toshkent",

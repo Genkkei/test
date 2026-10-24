@@ -1,5 +1,5 @@
 {
-  "name": "Zing",
+  "name": "Your Company",
   "tagline": "Energy without sugar or boredom",
   "niche": "A craft energy drink and lemonade brand",
   "nav": {
@@ -9,16 +9,16 @@
     }
   },
   "seo": {
-    "title": "Zing — sugar-free craft energy drinks in Tashkent",
+    "title": "Your Company — sugar-free craft energy drinks in Tashkent",
     "description": "Six flavours of natural energy: green tea, guarana, juice, no sugar. 250 ml for 14,000 UZS, delivered across Tashkent in 60 minutes.",
     "keywords": [
       "sugar-free energy drink",
       "craft lemonade Tashkent",
       "natural energy drink",
       "drinks delivery",
-      "Zing"
+      "Your Company"
     ],
-    "answer": "Zing is a Tashkent brand of sugar-free craft energy drinks: caffeine from green tea and guarana, real juice, 15 kcal per can. A 250 ml can costs 14,000 UZS, a 12-pack 150,000 UZS; delivery across Tashkent takes 60 minutes and is free from 150,000 UZS."
+    "answer": "Your Company is a Tashkent brand of sugar-free craft energy drinks: caffeine from green tea and guarana, real juice, 15 kcal per can. A 250 ml can costs 14,000 UZS, a 12-pack 150,000 UZS; delivery across Tashkent takes 60 minutes and is free from 150,000 UZS."
   },
   "listing": {
     "price": "",
@@ -26,7 +26,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Zing Beverage LLC",
+    "legalName": "Your Company LLC",
     "street": "78 Nukus St., flagship store",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -41,10 +41,10 @@
       "eyebrow": "Grapefruit Kick",
       "subtitle": "A craft energy drink made with green tea and guarana. Zero sugar, real juice and exactly as much caffeine as a double espresso.",
       "words": [
-        "Zing",
+        "Your Company",
         "Energises",
         "0 sugar",
-        "Zing",
+        "Your Company",
         "Fizzes"
       ],
       "cta": {
@@ -119,9 +119,9 @@
     {
       "id": "about",
       "type": "about",
-      "label": "Why Zing",
+      "label": "Why Your Company",
       "title": "An energy drink you can drink without reading the label in horror",
-      "text": "We brew Zing in a small facility in Tashkent: real juice, plant-based caffeine, no taurine for the sake of taurine. Batches are small, so the taste is the same every time.",
+      "text": "We brew Your Company in a small facility in Tashkent: real juice, plant-based caffeine, no taurine for the sake of taurine. Batches are small, so the taste is the same every time.",
       "image": ""
     },
     {
@@ -186,7 +186,7 @@
           "a": "80 mg per 250 ml — roughly a double espresso. The caffeine comes from green tea extract and guarana. We don’t recommend more than three cans a day."
         },
         {
-          "q": "What sweetens Zing?",
+          "q": "What sweetens Your Company?",
           "a": "Stevia and erythritol. Sugar is 0 g; the 15 kcal per can come from the juice."
         },
         {
@@ -199,11 +199,11 @@
         },
         {
           "q": "Is it OK for children?",
-          "a": "No. Zing is a caffeinated energy drink: not recommended for children or pregnant or breastfeeding women."
+          "a": "No. Your Company is a caffeinated energy drink: not recommended for children or pregnant or breastfeeding women."
         },
         {
           "q": "Do you supply cafés and shops?",
-          "a": "Yes, wholesale pricing starts at 5 packs. Write to hi@zing.uz and we’ll send the price list and terms within a day."
+          "a": "Yes, wholesale pricing starts at 5 packs. Write to info@company.uz and we’ll send the price list and terms within a day."
         }
       ]
     },

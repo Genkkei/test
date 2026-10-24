@@ -1,5 +1,5 @@
 {
-  "name": "Uy Interiors",
+  "name": "Your Company",
   "tagline": "Homes you want to come back to",
   "niche": "Interior design studio",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Uy Interiors — interior design for flats and houses in Tashkent",
+    "title": "Your Company — interior design for flats and houses in Tashkent",
     "description": "A design project from 180,000 UZS per m², design supervision and furnishing. Calm interiors in natural materials for flats and houses in Tashkent.",
     "keywords": [
       "interior design Tashkent",
@@ -24,10 +24,10 @@
       "furnishing",
       "house interior"
     ],
-    "answer": "Uy Interiors is an interior design studio in Tashkent (41 Bobur St). A design project for a flat costs from 180,000 UZS per m² and takes 6–10 weeks, design supervision from 4,000,000 UZS a month, furnishing from 8% of the purchasing budget. The site visit for measurements is free."
+    "answer": "Your Company is an interior design studio in Tashkent (41 Bobur St). A design project for a flat costs from 180,000 UZS per m² and takes 6–10 weeks, design supervision from 4,000,000 UZS a month, furnishing from 8% of the purchasing budget. The site visit for measurements is free."
   },
   "business": {
-    "legalName": "Uy Interiors LLC",
+    "legalName": "Your Company LLC",
     "street": "41 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -267,7 +267,7 @@
       "text": "Send a floor plan or a couple of photos — we’ll reply within a working day and suggest a time to meet at the studio or on site.",
       "cta": {
         "label": "Write to the studio",
-        "href": "mailto:studio@uy-interiors.uz"
+        "href": "mailto:info@company.uz"
       }
     }
   ]

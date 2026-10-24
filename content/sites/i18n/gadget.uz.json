@@ -1,9 +1,9 @@
 {
-  "name": "Gadget",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Sotib olishdan oldin ushlab ko‘rish, keyin esa ta’mirlash mumkin bo‘lgan texnika",
   "niche": "Elektronika do‘koni va servis markazi: smartfonlar, noutbuklar, audio, ta’mirlash",
   "seo": {
-    "title": "Gadget — Toshkentda elektronika do‘koni va servis",
+    "title": "«Sizning kompaniyangiz» — Toshkentda elektronika do‘koni va servis",
     "description": "Rasmiy kafolatli smartfonlar, noutbuklar, quloqchinlar va aqlli soatlar. Trade-in, muddatli to‘lov va 15 daqiqada diagnostika qiladigan servis markazi.",
     "keywords": [
       "Toshkent elektronika do‘koni",
@@ -13,7 +13,7 @@
       "muddatli to‘lovga noutbuk",
       "quloqchinlar"
     ],
-    "answer": "Gadget — Toshkentdagi Amir Temur shoh ko‘chasi, 15 dagi elektronika do‘koni va servis markazi, har kuni 10:00 dan 21:00 gacha ochiq. Smartfonlar — 2 900 000 so‘mdan, noutbuklar — 7 400 000 so‘mdan, 6–12 oyga muddatli to‘lov, eski qurilmani trade-in. Servisda diagnostika bepul, ekranni almashtirish — 450 000 so‘mdan."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Amir Temur shoh ko‘chasi, 15 dagi elektronika do‘koni va servis markazi, har kuni 10:00 dan 21:00 gacha ochiq. Smartfonlar — 2 900 000 so‘mdan, noutbuklar — 7 400 000 so‘mdan, 6–12 oyga muddatli to‘lov, eski qurilmani trade-in. Servisda diagnostika bepul, ekranni almashtirish — 450 000 so‘mdan."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Gadget Store» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur shoh ko‘chasi, 15",
     "city": "Toshkent",
     "region": "Toshkent",

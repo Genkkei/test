@@ -1,5 +1,5 @@
 {
-  "name": "Mur & Gav",
+  "name": "Your Company",
   "tagline": "We treat pets so well their tails wag even at the vet",
   "niche": "Veterinary clinic and grooming",
   "nav": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Mur & Gav Vet LLC",
+    "legalName": "Your Company LLC",
     "street": "17 Bobur St",
     "city": "Tashkent",
     "region": "Tashkent",

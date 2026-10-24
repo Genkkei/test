@@ -1,5 +1,5 @@
 {
-  "name": "Dala",
+  "name": "Your Company",
   "tagline": "Vegetables, fruit and dairy from farms near Tashkent, at your door within a day",
   "niche": "Farm produce delivery",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Dala — farm produce delivery in Tashkent",
+    "title": "Your Company — farm produce delivery in Tashkent",
     "description": "Seasonal vegetables, fruit, dairy and eggs straight from farms in Tashkent region. The weekly box starts at 290,000 UZS, next-day delivery, pay on receipt.",
     "keywords": [
       "farm produce Tashkent",
@@ -25,10 +25,10 @@
       "veg box delivery",
       "organic food Tashkent"
     ],
-    "answer": "Dala delivers farm produce across Tashkent. The Small weekly box for one or two people costs 290,000 UZS, the Family box 490,000 UZS and the Large box 690,000 UZS. Orders placed before 18:00 arrive the next day between 9:00 and 21:00; delivery in Tashkent is free from 300,000 UZS, and you pay by cash or card on receipt."
+    "answer": "Your Company delivers farm produce across Tashkent. The Small weekly box for one or two people costs 290,000 UZS, the Family box 490,000 UZS and the Large box 690,000 UZS. Orders placed before 18:00 arrive the next day between 9:00 and 21:00; delivery in Tashkent is free from 300,000 UZS, and you pay by cash or card on receipt."
   },
   "business": {
-    "legalName": "Dala Food LLC",
+    "legalName": "Your Company LLC",
     "street": "27 Fargona Yuli St",
     "city": "Tashkent",
     "region": "Tashkent",

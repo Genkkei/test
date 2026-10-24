@@ -1,101 +1,281 @@
 {
-  "name": "Basement",
+  "name": "Your Company",
   "tagline": "Underground beneath the city",
   "niche": "Electronic music club and festival",
   "seo": {
-    "title": "Basement — electronic music club in Tashkent",
+    "title": "Your Company — electronic music club in Tashkent",
     "description": "Techno, house and electro in a basement on Shakhrisabz St: parties Thursday to Saturday until 06:00, residents and guests, a Funktion-One sound system. Tickets online.",
-    "keywords": ["club Tashkent", "techno party Tashkent", "electronic music", "nightclub", "house music", "Tashkent events"],
-    "answer": "Basement is an electronic music club in Tashkent at 5 Shakhrisabz St: techno, house and electro from Thursday to Saturday, 22:00 to 06:00. Entry is 18+, online tickets cost 120,000–200,000 UZS and 50,000 UZS more on the door; photos and video are not allowed on the dancefloor."
+    "keywords": [
+      "club Tashkent",
+      "techno party Tashkent",
+      "electronic music",
+      "nightclub",
+      "house music",
+      "Tashkent events"
+    ],
+    "answer": "Your Company is an electronic music club in Tashkent at 5 Shakhrisabz St: techno, house and electro from Thursday to Saturday, 22:00 to 06:00. Entry is 18+, online tickets cost 120,000–200,000 UZS and 50,000 UZS more on the door; photos and video are not allowed on the dancefloor."
   },
-  "nav": { "cta": { "label": "Tickets", "href": "#lineup" } },
+  "nav": {
+    "cta": {
+      "label": "Tickets",
+      "href": "#lineup"
+    }
+  },
   "listing": {
     "price": "",
     "description": "A website for a club, festival, bar or events agency. Acid dithering and glitch in WebGL, a party line-up with artists and prices, club rules and an FAQ styled like a terminal.",
     "features": []
   },
-  "business": { "legalName": "Basement Club LLC", "street": "5 Shakhrisabz St, entrance from the courtyard", "city": "Tashkent", "region": "Tashkent", "areaServed": "Tashkent" },
+  "business": {
+    "legalName": "Your Company LLC",
+    "street": "5 Shakhrisabz St, entrance from the courtyard",
+    "city": "Tashkent",
+    "region": "Tashkent",
+    "areaServed": "Tashkent"
+  },
   "sections": [
     {
-      "id": "hero", "type": "hero", "label": "", "title": "Music louder than the city",
+      "id": "hero",
+      "type": "hero",
+      "label": "",
+      "title": "Music louder than the city",
       "eyebrow": "Club · Tashkent · Thu—Sat 22:00—06:00",
       "subtitle": "A basement on Shakhrisabz, a Funktion-One rig, a dark dancefloor and strict rules: no phones, no VIP, no random crowd.",
-      "words": ["Techno", "House", "Electro", "Breaks"],
-      "cta": { "label": "Buy a ticket", "href": "#lineup" },
-      "ctaSecondary": { "label": "House rules", "href": "#rules" },
+      "words": [
+        "Techno",
+        "House",
+        "Electro",
+        "Breaks"
+      ],
+      "cta": {
+        "label": "Buy a ticket",
+        "href": "#lineup"
+      },
+      "ctaSecondary": {
+        "label": "House rules",
+        "href": "#rules"
+      },
       "image": ""
     },
-    { "id": "mq", "type": "marquee", "label": "", "title": "Rules in brief", "items": ["No photo on the dancefloor", "18+", "Respect the space", "Dance till 06:00"] },
     {
-      "id": "lineup", "type": "menu", "label": "Line-up", "title": "Upcoming nights",
+      "id": "mq",
+      "type": "marquee",
+      "label": "",
+      "title": "Rules in brief",
+      "items": [
+        "No photo on the dancefloor",
+        "18+",
+        "Respect the space",
+        "Dance till 06:00"
+      ]
+    },
+    {
+      "id": "lineup",
+      "type": "menu",
+      "label": "Line-up",
+      "title": "Upcoming nights",
       "groups": [
-        { "name": "THU 22.10 — Warm Up", "items": [
-          { "name": "Nodir Kh", "text": "residency · 23:00–02:00", "price": "120,000 UZS" },
-          { "name": "Lola Static", "text": "electro · 02:00–05:00", "price": "" }
-        ] },
-        { "name": "FRI 23.10 — Acid Friday", "items": [
-          { "name": "Kosmo Bek", "text": "acid techno · 00:00–03:00", "price": "180,000 UZS" },
-          { "name": "Rina Volt", "text": "live · 03:00–04:30", "price": "" },
-          { "name": "Tashkent Tape Club", "text": "b2b · 04:30–06:00", "price": "" }
-        ] },
-        { "name": "SAT 24.10 — Basement Session 31", "items": [
-          { "name": "Marten Oy", "text": "Berlin · 01:00–03:30", "price": "200,000 UZS" },
-          { "name": "Sabina D", "text": "house · 23:00–01:00", "price": "" },
-          { "name": "Nodir Kh", "text": "closing · 03:30–06:00", "price": "" }
-        ] },
-        { "name": "SAT 31.10 — Halloween Bunker", "items": [
-          { "name": "Secret guest", "text": "announced a week before", "price": "200,000 UZS" },
-          { "name": "Kosmo Bek b2b Lola Static", "text": "all night long", "price": "" }
-        ] }
+        {
+          "name": "THU 22.10 — Warm Up",
+          "items": [
+            {
+              "name": "Nodir Kh",
+              "text": "residency · 23:00–02:00",
+              "price": "120,000 UZS"
+            },
+            {
+              "name": "Lola Static",
+              "text": "electro · 02:00–05:00",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "name": "FRI 23.10 — Acid Friday",
+          "items": [
+            {
+              "name": "Kosmo Bek",
+              "text": "acid techno · 00:00–03:00",
+              "price": "180,000 UZS"
+            },
+            {
+              "name": "Rina Volt",
+              "text": "live · 03:00–04:30",
+              "price": ""
+            },
+            {
+              "name": "Tashkent Tape Club",
+              "text": "b2b · 04:30–06:00",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "name": "SAT 24.10 — Your Company Session 31",
+          "items": [
+            {
+              "name": "Marten Oy",
+              "text": "Berlin · 01:00–03:30",
+              "price": "200,000 UZS"
+            },
+            {
+              "name": "Sabina D",
+              "text": "house · 23:00–01:00",
+              "price": ""
+            },
+            {
+              "name": "Nodir Kh",
+              "text": "closing · 03:30–06:00",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "name": "SAT 31.10 — Halloween Bunker",
+          "items": [
+            {
+              "name": "Secret guest",
+              "text": "announced a week before",
+              "price": "200,000 UZS"
+            },
+            {
+              "name": "Kosmo Bek b2b Lola Static",
+              "text": "all night long",
+              "price": ""
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "about", "type": "about", "label": "The club", "title": "A 400-capacity basement where you hear every note",
-      "text": "Basement opened in 2022 in a former storeroom under a residential block. The sound was tuned by engineers who have installed systems in European clubs: Funktion-One, acoustic panelling and twenty minutes of silence before every night to check it. There’s no VIP area and no tables — just the dancefloor, the bar and a chill-out zone in the courtyard.",
+      "id": "about",
+      "type": "about",
+      "label": "The club",
+      "title": "A 400-capacity basement where you hear every note",
+      "text": "Your Company opened in 2022 in a former storeroom under a residential block. The sound was tuned by engineers who have installed systems in European clubs: Funktion-One, acoustic panelling and twenty minutes of silence before every night to check it. There’s no VIP area and no tables — just the dancefloor, the bar and a chill-out zone in the courtyard.",
       "image": ""
     },
     {
-      "id": "rules", "type": "process", "label": "Rules", "title": "House rules",
+      "id": "rules",
+      "type": "process",
+      "label": "Rules",
+      "title": "House rules",
       "items": [
-        { "title": "No photos or video", "text": "We cover phone cameras with a sticker at the door. The dancefloor is not a place for stories." },
-        { "title": "18+ only", "text": "We check ID for everyone at the door, no exceptions." },
-        { "title": "Respect", "text": "No harassment, discrimination or aggression. Anyone breaking this is shown out with no refund." },
-        { "title": "Door policy", "text": "We look at your mood, not your outfit. No one drunk gets in." },
-        { "title": "Look after yourself", "text": "Water at the bar is free and a medic is on duty in the chill-out zone." }
+        {
+          "title": "No photos or video",
+          "text": "We cover phone cameras with a sticker at the door. The dancefloor is not a place for stories."
+        },
+        {
+          "title": "18+ only",
+          "text": "We check ID for everyone at the door, no exceptions."
+        },
+        {
+          "title": "Respect",
+          "text": "No harassment, discrimination or aggression. Anyone breaking this is shown out with no refund."
+        },
+        {
+          "title": "Door policy",
+          "text": "We look at your mood, not your outfit. No one drunk gets in."
+        },
+        {
+          "title": "Look after yourself",
+          "text": "Water at the bar is free and a medic is on duty in the chill-out zone."
+        }
       ]
     },
     {
-      "id": "stats", "type": "stats", "label": "Numbers", "title": "The basement in data",
+      "id": "stats",
+      "type": "stats",
+      "label": "Numbers",
+      "title": "The basement in data",
       "items": [
-        { "value": "400", "suffix": "ppl", "label": "dancefloor capacity" },
-        { "value": "31", "suffix": "", "label": "Basement Sessions since 2022" },
-        { "value": "8", "suffix": "h", "label": "of music every night" },
-        { "value": "0", "suffix": "VIP", "label": "tables and VIP areas" }
+        {
+          "value": "400",
+          "suffix": "ppl",
+          "label": "dancefloor capacity"
+        },
+        {
+          "value": "31",
+          "suffix": "",
+          "label": "Your Company Sessions since 2022"
+        },
+        {
+          "value": "8",
+          "suffix": "h",
+          "label": "of music every night"
+        },
+        {
+          "value": "0",
+          "suffix": "VIP",
+          "label": "tables and VIP areas"
+        }
       ]
     },
     {
-      "id": "reviews", "type": "testimonials", "label": "Guests", "title": "What people write",
+      "id": "reviews",
+      "type": "testimonials",
+      "label": "Guests",
+      "title": "What people write",
       "items": [
-        { "quote": "The first club in Tashkent where the sound doesn’t hurt even right by the speakers. Walked out at six in the morning with no ringing in my ears.", "author": "timur.wav", "role": "Acid Friday guest" },
-        { "quote": "The camera sticker annoyed me at first, then I realised I’d just danced for the first time in a year.", "author": "malika", "role": "Session 28 guest" },
-        { "quote": "I’ve played plenty of basements, but here the crowd actually listens. I’ll be back with a live set.", "author": "Marten Oy", "role": "guest artist" }
+        {
+          "quote": "The first club in Tashkent where the sound doesn’t hurt even right by the speakers. Walked out at six in the morning with no ringing in my ears.",
+          "author": "timur.wav",
+          "role": "Acid Friday guest"
+        },
+        {
+          "quote": "The camera sticker annoyed me at first, then I realised I’d just danced for the first time in a year.",
+          "author": "malika",
+          "role": "Session 28 guest"
+        },
+        {
+          "quote": "I’ve played plenty of basements, but here the crowd actually listens. I’ll be back with a live set.",
+          "author": "Marten Oy",
+          "role": "guest artist"
+        }
       ]
     },
     {
-      "id": "faq", "type": "faq", "label": "FAQ", "title": "Before the night",
+      "id": "faq",
+      "type": "faq",
+      "label": "FAQ",
+      "title": "Before the night",
       "items": [
-        { "q": "How much is entry?", "a": "Online tickets cost from 120,000 to 200,000 UZS depending on the night. If places are left, tickets on the door are 50,000 UZS more." },
-        { "q": "What is the minimum age?", "a": "18 and over only. We check ID for everyone at the door." },
-        { "q": "Is there a dress code?", "a": "Nothing strict: come in whatever you can dance in. We look at the mood, not the brands." },
-        { "q": "Can I film on my phone?", "a": "Not on the dancefloor — we cover the camera with a sticker at the door. In the courtyard chill-out zone, yes." },
-        { "q": "Can I return a ticket?", "a": "Yes, at least 48 hours before the night starts — via the link in your ticket email." },
-        { "q": "How do I get there at night?", "a": "The entrance is through the courtyard of 5 Shakhrisabz St. After closing a partner taxi waits at the door, and the metro opens at 05:00." }
+        {
+          "q": "How much is entry?",
+          "a": "Online tickets cost from 120,000 to 200,000 UZS depending on the night. If places are left, tickets on the door are 50,000 UZS more."
+        },
+        {
+          "q": "What is the minimum age?",
+          "a": "18 and over only. We check ID for everyone at the door."
+        },
+        {
+          "q": "Is there a dress code?",
+          "a": "Nothing strict: come in whatever you can dance in. We look at the mood, not the brands."
+        },
+        {
+          "q": "Can I film on my phone?",
+          "a": "Not on the dancefloor — we cover the camera with a sticker at the door. In the courtyard chill-out zone, yes."
+        },
+        {
+          "q": "Can I return a ticket?",
+          "a": "Yes, at least 48 hours before the night starts — via the link in your ticket email."
+        },
+        {
+          "q": "How do I get there at night?",
+          "a": "The entrance is through the courtyard of 5 Shakhrisabz St. After closing a partner taxi waits at the door, and the metro opens at 05:00."
+        }
       ]
     },
     {
-      "id": "contact", "type": "contact", "label": "Contact", "title": "Come on down",
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "title": "Come on down",
       "text": "5 Shakhrisabz, entrance from the courtyard. Artists and promoters — the email is below.",
-      "cta": { "label": "Telegram channel", "href": "https://t.me/basementtas" }
+      "cta": {
+        "label": "Telegram channel",
+        "href": "https://t.me/basementtas"
+      }
     }
   ]
 }

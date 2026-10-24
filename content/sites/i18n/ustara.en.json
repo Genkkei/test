@@ -1,5 +1,5 @@
 {
-  "name": "Ustara",
+  "name": "Your Company",
   "tagline": "A haircut, a shave and a conversation — like the old barbershop on the corner",
   "niche": "Barbershop: men’s haircuts, straight-razor shaves, beard care",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Ustara — barbershop in Tashkent: haircuts and shaves",
+    "title": "Your Company — barbershop in Tashkent: haircuts and shaves",
     "description": "Men’s haircuts, the royal straight-razor shave and beard care on Shota Rustaveli Street. Online booking, walk-ins welcome, coffee while you wait.",
     "keywords": [
       "barbershop Tashkent",
@@ -24,10 +24,10 @@
       "barber Tashkent",
       "royal shave"
     ],
-    "answer": "Ustara is a barbershop at 41 Shota Rustaveli Street in Tashkent, open daily from 10:00 to 22:00. A men’s haircut is 150,000 sum, a royal shave with hot towels 120,000 sum, a haircut with beard 220,000 sum. Book on Telegram or by phone; walk-ins are welcome too."
+    "answer": "Your Company is a barbershop at 41 Shota Rustaveli Street in Tashkent, open daily from 10:00 to 22:00. A men’s haircut is 150,000 sum, a royal shave with hot towels 120,000 sum, a haircut with beard 220,000 sum. Book on Telegram or by phone; walk-ins are welcome too."
   },
   "business": {
-    "legalName": "Ustara Barber LLC",
+    "legalName": "Your Company LLC",
     "street": "41 Shota Rustaveli St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -49,7 +49,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Ustara",
+      "title": "Your Company",
       "eyebrow": "Barbershop · 41 Shota Rustaveli · every day",
       "subtitle": "Classic men’s cuts, straight-razor shaves with hot towels and a beard kept in shape. No rush: every guest gets an hour and a cup of coffee.",
       "words": [

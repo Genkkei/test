@@ -1,5 +1,5 @@
 {
-  "name": "Forno",
+  "name": "Sizning kompaniyangiz",
   "tagline": "450 darajali pechdan neapol pitsasi — eshigingizgacha 35 daqiqada issiq",
   "niche": "Toshkent bo‘ylab yetkazib beriladigan pitseriya",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Forno — Toshkentda yetkazib beriladigan neapol pitsasi",
+    "title": "«Sizning kompaniyangiz» — Toshkentda yetkazib beriladigan neapol pitsasi",
     "description": "48 soat achitilgan xamirdan o‘tin pechida pitsa: margarita, pepperoni, to‘rt pishloq. Toshkent bo‘ylab 35 daqiqada yetkazish, Bobur 77 dan olib ketish.",
     "keywords": [
       "pitsa Toshkent",
@@ -24,10 +24,10 @@
       "pepperoni",
       "pitseriya"
     ],
-    "answer": "Forno — Toshkent, Bobur ko‘chasi, 77 dagi pitseriya, 11:00 dan 23:30 gacha ishlaydi. 32 sm pitsani 450 °C pechda 90 soniyada pishiramiz: margarita — 79 000 so‘m, pepperoni — 95 000 so‘m, to‘rt pishloq — 105 000 so‘m. Shahar bo‘ylab yetkazish — taxminan 35 daqiqa, 150 000 so‘mdan bepul."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Bobur ko‘chasi, 77 dagi pitseriya, 11:00 dan 23:30 gacha ishlaydi. 32 sm pitsani 450 °C pechda 90 soniyada pishiramiz: margarita — 79 000 so‘m, pepperoni — 95 000 so‘m, to‘rt pishloq — 105 000 so‘m. Shahar bo‘ylab yetkazish — taxminan 35 daqiqa, 150 000 so‘mdan bepul."
   },
   "business": {
-    "legalName": "«Forno Pizza» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 77",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -49,7 +49,7 @@
       "id": "hero",
       "type": "hero",
       "title": "Neapolcha pitsa",
-      "eyebrow": "Forno · Bobur 77 · 35 daqiqada yetkazish",
+      "eyebrow": "«Sizning kompaniyangiz» · Bobur 77 · 35 daqiqada yetkazish",
       "subtitle": "Xamir 48 soat achiydi, pomidorlar — San Marzano, motsarella — mahalliy, kechagi. Pech 450 darajagacha qizdirilgan: pitsa 90 soniyada tayyor.",
       "words": [],
       "cta": {

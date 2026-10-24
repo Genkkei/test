@@ -51,7 +51,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
       <main id="top">{children}</main>
       <footer className="bout-footer">
         <div className="bout-footer__poster" aria-hidden="true">
-          <span>{site.name}</span>
+          <span style={{ ['--n' as string]: Math.max(...site.name.split(' ').map((w) => w.length)) } as React.CSSProperties}>{site.name}</span>
           <span>{site.business.city || pick(site.lang, { ru: 'Ташкент', uz: 'Toshkent', en: 'Tashkent' })}</span>
         </div>
         <div className="bout-footer__grid">

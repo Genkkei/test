@@ -1,9 +1,9 @@
 {
-  "name": "Qora Metall",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Qora metalldan bolg‘alangan dekor, chiroqlar va javonlar",
   "niche": "Qora metalldan bolg‘alangan dekor va loft aksessuarlari",
   "seo": {
-    "title": "Qora Metall — Toshkentda bolg‘alangan dekor va loft chiroqlar",
+    "title": "«Sizning kompaniyangiz» — Toshkentda bolg‘alangan dekor va loft chiroqlar",
     "description": "Mum ostidagi qora metalldan bolg‘alangan ilgaklar, shamdonlar, devor panolari, chiroqlar va loft javonlar. Yunusoboddagi ustaxona va shourum, buyurtma asosida.",
     "keywords": [
       "bolg‘alangan dekor Toshkent",
@@ -11,7 +11,7 @@
       "metall javonlar",
       "metalldan sovg‘a"
     ],
-    "answer": "Qora Metall — Yunusoboddagi ustaxona va shourum: qora metalldan bolg‘alangan dekor va loft aksessuarlari. Ilgaklar 120 000 so‘mdan, shamdonlar 260 000 so‘mdan, devor panolari 900 000 so‘mdan, loft chiroqlar 1 100 000 so‘mdan. Buyurtma buyum — 5–10 kun, telefon +998 71 200-04-05."
+    "answer": "«Sizning kompaniyangiz» — Yunusoboddagi ustaxona va shourum: qora metalldan bolg‘alangan dekor va loft aksessuarlari. Ilgaklar 120 000 so‘mdan, shamdonlar 260 000 so‘mdan, devor panolari 900 000 so‘mdan, loft chiroqlar 1 100 000 so‘mdan. Buyurtma buyum — 5–10 kun, telefon +998 71 200-04-05."
   },
   "nav": {
     "cta": {
@@ -29,7 +29,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Qora Metall» YaTT",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Amir Temur shoh ko‘chasi, 107, Yunusobod",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -48,7 +48,7 @@
       "id": "hero",
       "type": "hero",
       "label": "",
-      "title": "Qora",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Qora metall · Yunusobod",
       "subtitle": "Qo‘lda bolg‘alanib, bo‘yoq emas, mum bilan qoplanadigan ilgaklar, shamdonlar, panolar va chiroqlar. Metall jonli qoladi: har bir bolg‘a zarbasi ko‘rinadi.",
       "words": [

@@ -1,5 +1,5 @@
 {
-  "name": "Dala",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Toshkent atrofidagi fermalardan sabzavot, meva va sut mahsulotlari — bir kunda eshigingizgacha",
   "niche": "Fermer mahsulotlarini yetkazib berish",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Dala — Toshkent bo‘ylab fermer mahsulotlari yetkazib berish",
+    "title": "«Sizning kompaniyangiz» — Toshkent bo‘ylab fermer mahsulotlari yetkazib berish",
     "description": "Toshkent viloyati fermalaridan mavsumiy sabzavotlar, mevalar, sut mahsulotlari va tuxum. Hafta qutisi 290 000 so‘mdan, ertasi kuni yetkazib berish, qabul qilganda to‘lov.",
     "keywords": [
       "fermer mahsulotlari Toshkent",
@@ -25,10 +25,10 @@
       "sabzavot qutisi",
       "eko mahsulotlar Toshkent"
     ],
-    "answer": "Dala — Toshkentdagi fermer mahsulotlarini yetkazib berish xizmati. 1–2 kishilik «Kichik» hafta qutisi 290 000 so‘m, «Oilaviy» — 490 000 so‘m, «Katta» — 690 000 so‘m. 18:00 gacha berilgan buyurtmani ertasi kuni 9:00 dan 21:00 gacha olib kelamiz, Toshkent bo‘ylab 300 000 so‘mdan yetkazib berish bepul, to‘lov qabul qilganda naqd yoki karta orqali."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi fermer mahsulotlarini yetkazib berish xizmati. 1–2 kishilik «Kichik» hafta qutisi 290 000 so‘m, «Oilaviy» — 490 000 so‘m, «Katta» — 690 000 so‘m. 18:00 gacha berilgan buyurtmani ertasi kuni 9:00 dan 21:00 gacha olib kelamiz, Toshkent bo‘ylab 300 000 so‘mdan yetkazib berish bepul, to‘lov qabul qilganda naqd yoki karta orqali."
   },
   "business": {
-    "legalName": "«Dala Food» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Farg‘ona yo‘li ko‘chasi, 27",
     "city": "Toshkent",
     "region": "Toshkent",

@@ -1,5 +1,5 @@
 {
-  "name": "Mebel Uy",
+  "name": "Your Company",
   "tagline": "A new-build flat — furnished in 30 days",
   "niche": "Furniture packages for new builds",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Mebel Uy — a furniture package for a new build in 30 days",
+    "title": "Your Company — a furniture package for a new build in 30 days",
     "description": "A kitchen, wardrobes, beds and a sofa for a new-build flat in one package: one-bedroom from 38 mln UZS, two-bedroom from 56 mln UZS. Measuring, design and assembly in 30 days.",
     "keywords": [
       "new-build furniture",
@@ -27,10 +27,10 @@
       "custom kitchen and wardrobes",
       "Sergeli furniture"
     ],
-    "answer": "Mebel Uy furnishes new-build flats with packages (Tashkent, 18 Yangi Sergeli St). A one-bedroom package from 38,000,000 UZS, two-bedroom from 56,000,000 UZS, three-bedroom from 74,000,000 UZS. Measuring, 3D design, production and assembly take 30 days; instalments up to 12 months."
+    "answer": "Your Company furnishes new-build flats with packages (Tashkent, 18 Yangi Sergeli St). A one-bedroom package from 38,000,000 UZS, two-bedroom from 56,000,000 UZS, three-bedroom from 74,000,000 UZS. Measuring, 3D design, production and assembly take 30 days; instalments up to 12 months."
   },
   "business": {
-    "legalName": "Mebel Uy LLC",
+    "legalName": "Your Company LLC",
     "street": "18 Yangi Sergeli St",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -127,7 +127,7 @@
       "id": "stats",
       "type": "stats",
       "label": "Numbers",
-      "title": "Mebel Uy in numbers",
+      "title": "Your Company in numbers",
       "items": [
         {
           "value": "640",

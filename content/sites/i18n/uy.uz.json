@@ -1,5 +1,5 @@
 {
-  "name": "Uy Interiors",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Qaytib kelgingiz keladigan uylar",
   "niche": "Interyer dizayn studiyasi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Uy Interiors — Toshkentda kvartira va uylar interyer dizayni",
+    "title": "«Sizning kompaniyangiz» — Toshkentda kvartira va uylar interyer dizayni",
     "description": "Dizayn-loyiha m² uchun 180 000 so‘mdan, mualliflik nazorati va mebel bilan jihozlash. Toshkentdagi kvartira va uylar uchun tabiiy materiallardan sokin interyerlar.",
     "keywords": [
       "interyer dizayni Toshkent",
@@ -24,10 +24,10 @@
       "mebel bilan jihozlash",
       "uy interyeri"
     ],
-    "answer": "Uy Interiors — Toshkentdagi interyer dizayn studiyasi (Bobur ko‘chasi, 41). Kvartira dizayn-loyihasi m² uchun 180 000 so‘mdan turadi va 6–10 hafta oladi, mualliflik nazorati — oyiga 4 000 000 so‘mdan, jihozlash — xarid byudjetining 8% idan. O‘lchash uchun obyektga chiqish bepul."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi interyer dizayn studiyasi (Bobur ko‘chasi, 41). Kvartira dizayn-loyihasi m² uchun 180 000 so‘mdan turadi va 6–10 hafta oladi, mualliflik nazorati — oyiga 4 000 000 so‘mdan, jihozlash — xarid byudjetining 8% idan. O‘lchash uchun obyektga chiqish bepul."
   },
   "business": {
-    "legalName": "«Uy Interiors» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Bobur ko‘chasi, 41",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -267,7 +267,7 @@
       "text": "Reja yoki bir-ikkita surat yuboring — bir ish kuni ichida javob berib, studiyada yoki obyektda uchrashish vaqtini taklif qilamiz.",
       "cta": {
         "label": "Studiyaga yozish",
-        "href": "mailto:studio@uy-interiors.uz"
+        "href": "mailto:info@company.uz"
       }
     }
   ]

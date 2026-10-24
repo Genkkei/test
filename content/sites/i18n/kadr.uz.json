@@ -1,5 +1,5 @@
 {
-  "name": "Kadr",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Yigirma yildan keyin ham eslashga arziydigan qilib suratga olaman",
   "niche": "Fotograf va videograf: to‘ylar, portretlar, tijoriy suratga olish",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Kadr — Toshkentdagi to‘y va portret fotografi",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi to‘y va portret fotografi",
     "description": "To‘ylar, portretlar, brendlar uchun kontent va qisqa filmlar. Sahnalashtirishsiz jonli reportaj, plyonka ranglari, tayyor suratlar 3 haftada.",
     "keywords": [
       "to‘y fotografi Toshkent",
@@ -24,10 +24,10 @@
       "brendlar uchun suratga olish",
       "fotostudiya Toshkent"
     ],
-    "answer": "Kadr — Toshkentdagi foto va video studiya: to‘y reportaji kuniga 6 000 000 so‘mdan, studiyada portret soatiga 1 200 000 so‘mdan, brendlar uchun kontent 4 500 000 so‘mdan. Tayyor suratlarni 3 haftada, prevyuni 3 kunda beramiz; sanani band qilish — 30% oldindan to‘lov."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi foto va video studiya: to‘y reportaji kuniga 6 000 000 so‘mdan, studiyada portret soatiga 1 200 000 so‘mdan, brendlar uchun kontent 4 500 000 so‘mdan. Tayyor suratlarni 3 haftada, prevyuni 3 kunda beramiz; sanani band qilish — 30% oldindan to‘lov."
   },
   "business": {
-    "legalName": "YaTT Rahimov T. A.",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Muqimiy ko‘chasi, 7, 3-qavatdagi studiya",
     "city": "Toshkent",
     "region": "Toshkent",

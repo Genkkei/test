@@ -1,5 +1,5 @@
 {
-  "name": "Drip Bar",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Afrosiyobdagi retro-qahvaxona: filtr-qahva, sirniki va yetmishinchi yillar musiqasi",
   "niche": "Nonushta va pishiriqli qahvaxona",
   "nav": {
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Drip Bar — Toshkentdagi nonushtali retro-qahvaxona",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi nonushtali retro-qahvaxona",
     "description": "Afrosiyob ko‘chasi, 12 da filtr-qahva, espresso va soat 15:00 gacha nonushta. Sirniki, granola, o‘z novvoyxonamizdan kruassanlar. Du–ju 8:00–22:00, sh–ya 9:00–23:00.",
     "keywords": [
       "Toshkent qahvaxona",
@@ -28,10 +28,10 @@
       "Mirobod qahvaxona",
       "retro-kafe"
     ],
-    "answer": "Drip Bar — Toshkentning Mirobod tumanidagi Afrosiyob ko‘chasi, 12 da joylashgan qahvaxona. Nonushta soat 15:00 gacha: sirniki — 42 000 so‘m, granola — 38 000 so‘m; filtr-qahva — 24 000 so‘mdan, kapuchino — 28 000 so‘m. Ish kunlari 8:00 dan 22:00 gacha, dam olish kunlari 9:00 dan 23:00 gacha ochiq."
+    "answer": "«Sizning kompaniyangiz» — Toshkentning Mirobod tumanidagi Afrosiyob ko‘chasi, 12 da joylashgan qahvaxona. Nonushta soat 15:00 gacha: sirniki — 42 000 so‘m, granola — 38 000 so‘m; filtr-qahva — 24 000 so‘mdan, kapuchino — 28 000 so‘m. Ish kunlari 8:00 dan 22:00 gacha, dam olish kunlari 9:00 dan 23:00 gacha ochiq."
   },
   "business": {
-    "legalName": "«Drip Bar» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Afrosiyob ko‘chasi, 12",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -54,7 +54,7 @@
       "type": "hero",
       "label": "",
       "title": "Tong bir tomchidan boshlanadi",
-      "eyebrow": "Drip Bar · Afrosiyob 12 · 8:00 dan",
+      "eyebrow": "«Sizning kompaniyangiz» · Afrosiyob 12 · 8:00 dan",
       "subtitle": "Voronkadan filtr-qahva, eritilgan sariyog‘da sirniki va ertalabdan kechgacha aylanadigan plastinkalar. Nonushta kunduzi soat uchgacha, shanba kuni ham.",
       "words": [],
       "cta": {

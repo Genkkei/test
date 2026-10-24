@@ -1,5 +1,5 @@
 {
-  "name": "Tashkent Heights",
+  "name": "Your Company",
   "tagline": "Homes that hold the horizon",
   "niche": "Business-class residential developer",
   "nav": {
@@ -9,7 +9,7 @@
     }
   },
   "seo": {
-    "title": "Tashkent Heights — business-class new-build apartments",
+    "title": "Your Company — business-class new-build apartments",
     "description": "Residential complexes in Yunusabad, Mirabad and Chilanzar: apartments from 15.9M UZS per m², up to 36 months of instalments, mortgages via partner banks.",
     "keywords": [
       "new builds Tashkent",
@@ -19,7 +19,7 @@
       "developer Tashkent",
       "new-build mortgage"
     ],
-    "answer": "Tashkent Heights is a Tashkent developer building business-class residential complexes since 2014, with 9 buildings delivered. Apartments on sale start at 15,900,000 UZS per m², with interest-free instalments for up to 36 months from a 30% down payment and mortgages through partner banks. The next handover is Q4 2026."
+    "answer": "Your Company is a Tashkent developer building business-class residential complexes since 2014, with 9 buildings delivered. Apartments on sale start at 15,900,000 UZS per m², with interest-free instalments for up to 36 months from a 30% down payment and mortgages through partner banks. The next handover is Q4 2026."
   },
   "listing": {
     "price": "",
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "Tashkent Heights Development LLC",
+    "legalName": "Your Company LLC",
     "street": "107B Amir Temur Ave",
     "city": "Tashkent",
     "region": "Tashkent",
@@ -86,7 +86,7 @@
       "title": "Residential complexes",
       "items": [
         {
-          "title": "Heights Boulevard",
+          "title": "Your Company Boulevard",
           "category": "Yunusabad · 24 floors · 312 apartments",
           "year": "Q4 2026",
           "text": "Two towers above the boulevard and a courtyard on the podium roof, from 17,400,000 UZS per m².",
@@ -249,7 +249,7 @@
         },
         {
           "q": "When are the buildings delivered?",
-          "a": "Heights Boulevard in Q4 2026, Sky Garden in Q2 2027. Chilonzor Park is already delivered and apartments are ready to move into."
+          "a": "Your Company Boulevard in Q4 2026, Sky Garden in Q2 2027. Chilonzor Park is already delivered and apartments are ready to move into."
         },
         {
           "q": "What finish do the apartments have?",

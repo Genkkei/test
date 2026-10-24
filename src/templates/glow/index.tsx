@@ -1,3 +1,4 @@
+import type React from 'react'
 import type { Site } from '@/lib/schema'
 import { Logo } from '@/components/brand/Logo'
 import { Media } from '@/motion/art'
@@ -135,7 +136,7 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
             </div>
           </dl>
         </div>
-        <p className="glow-footer__word" aria-hidden="true">
+        <p className="glow-footer__word" aria-hidden="true" style={{ ['--n' as string]: Math.max(...site.name.split(' ').map((w) => w.length)) } as React.CSSProperties}>
           {site.name}
         </p>
         <div className="glow-footer__bottom">

@@ -1,5 +1,5 @@
 {
-  "name": "Tun Kofe",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Uxlamaydiganlar uchun qahva va desertlar",
   "niche": "Tungi soat 3 gacha ishlaydigan qahvaxona",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Tun Kofe — Toshkentda tungi 3 gacha qahvaxona",
+    "title": "«Sizning kompaniyangiz» — Toshkentda tungi 3 gacha qahvaxona",
     "description": "Shevchenko, 21 da 18:00 dan 3:00 gacha qahva, raf, matcha va desertlar. Tunda ishlash uchun sokin zal, rozetkalar, Mirobod tumani bo‘ylab qahva va pirojniy yetkazib berish.",
     "keywords": [
       "tungi qahvaxona Toshkent",
@@ -23,10 +23,10 @@
       "Toshkentda tunda qayerda ishlash",
       "Mirobod qahvaxona"
     ],
-    "answer": "Tun Kofe — Toshkent, Taras Shevchenko ko‘chasi, 21 dagi tungi qahvaxona. Har kuni 18:00 dan 3:00 gacha ishlaydi. Kapuchino 28 000 so‘m, raf — 34 000 so‘m, chizkeyk — 36 000 so‘m. Rozetkali sokin zal va Mirobod tumani bo‘ylab 2:30 gacha yetkazib berish bor."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Taras Shevchenko ko‘chasi, 21 dagi tungi qahvaxona. Har kuni 18:00 dan 3:00 gacha ishlaydi. Kapuchino 28 000 so‘m, raf — 34 000 so‘m, chizkeyk — 36 000 so‘m. Rozetkali sokin zal va Mirobod tumani bo‘ylab 2:30 gacha yetkazib berish bor."
   },
   "business": {
-    "legalName": "«Tun Kofe» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Taras Shevchenko ko‘chasi, 21",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -44,7 +44,7 @@
     {
       "id": "hero",
       "type": "hero",
-      "title": "Tun Kofe",
+      "title": "«Sizning kompaniyangiz»",
       "eyebrow": "Tungi qahvaxona · Shevchenko 21 · 18:00–03:00",
       "subtitle": "Boshqalar yopilganda ochilamiz. Yangi espresso, iliq desertlar va diplom yozayotgan, rolik montaj qilayotgan yoki shunchaki uxlashni istamaganlar uchun sokinlik.",
       "words": [
@@ -152,7 +152,7 @@
       "type": "about",
       "label": "Biz haqimizda",
       "title": "Boyo‘g‘li uchun qahvaxona",
-      "text": "Biz o‘zimiz tunda ishlaganmiz va soat o‘ndan keyin noutbuk bilan bemalol o‘tiradigan joy topa olmaganmiz. Shuning uchun Tun Kofe kechki oltida ochiladi: yumshoq yorug‘lik, har stolda rozetka, tez Wi-Fi va o‘ylashga xalaqit bermaydigan musiqa.",
+      "text": "Biz o‘zimiz tunda ishlaganmiz va soat o‘ndan keyin noutbuk bilan bemalol o‘tiradigan joy topa olmaganmiz. Shuning uchun «Sizning kompaniyangiz» kechki oltida ochiladi: yumshoq yorug‘lik, har stolda rozetka, tez Wi-Fi va o‘ylashga xalaqit bermaydigan musiqa.",
       "image": ""
     },
     {
@@ -182,7 +182,7 @@
     {
       "id": "stats",
       "type": "stats",
-      "label": "Tun raqamlarda",
+      "label": "«Sizning kompaniyangiz» raqamlarda",
       "title": "",
       "items": [
         {

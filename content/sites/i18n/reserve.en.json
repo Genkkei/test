@@ -1,10 +1,10 @@
 {
-  "name": "Reserve Coffee",
+  "name": "Your Company",
   "tagline": "A roastery café on Makhtumkuli: rare lots, tastings and roasting in front of you",
   "niche": "Premium roastery café",
   "nav": {
     "cta": {
-      "label": "Reserve",
+      "label": "Your Company",
       "href": "#order"
     }
   },
@@ -18,7 +18,7 @@
     "thanks": ""
   },
   "seo": {
-    "title": "Reserve Coffee — roastery and coffee tastings in Tashkent",
+    "title": "Your Company — roastery and coffee tastings in Tashkent",
     "description": "A café with its own roaster at 3 Makhtumkuli St: rare lots from Ethiopia, Panama and Colombia, tasting flights and brewing workshops. Daily 9:00–23:00.",
     "keywords": [
       "Tashkent roastery",
@@ -28,10 +28,10 @@
       "geisha",
       "coffee workshop"
     ],
-    "answer": "Reserve Coffee is a roastery café at 3 Makhtumkuli St in Tashkent, open daily 9:00–23:00. Beans are roasted on site in small batches. A three-lot tasting flight costs 95,000 UZS, a pour-over workshop 290,000 UZS and a private tasting for up to 8 people 1,400,000 UZS."
+    "answer": "Your Company is a roastery café at 3 Makhtumkuli St in Tashkent, open daily 9:00–23:00. Beans are roasted on site in small batches. A three-lot tasting flight costs 95,000 UZS, a pour-over workshop 290,000 UZS and a private tasting for up to 8 people 1,400,000 UZS."
   },
   "business": {
-    "legalName": "Reserve Coffee LLC",
+    "legalName": "Your Company LLC",
     "street": "3 Makhtumkuli St",
     "city": "Tashkent",
     "region": "Tashkent",

@@ -1,5 +1,5 @@
 {
-  "name": "Sahifa",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Kitob o‘qiladigan qahvaxona",
   "niche": "Qahvaxona va kitob klubi",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Sahifa — Toshkentdagi qahvaxona va kitob klubi",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi qahvaxona va kitob klubi",
     "description": "Buyuk Ipak Yo‘li, 31 da qahva, pishiriqlar va javonlarda ming kitob. Chorshanba kunlari kitob klubi, kitob almashinuvi, o‘qish uchun sokin stollar. 9:00 dan 23:00 gacha ochiq.",
     "keywords": [
       "kitob qahvaxonasi Toshkent",
@@ -23,10 +23,10 @@
       "kitob almashinuvi",
       "Mirzo Ulug‘bek kafe"
     ],
-    "answer": "Sahifa — Toshkent, Buyuk Ipak Yo‘li ko‘chasi, 31 dagi kutubxonali qahvaxona. Har kuni 9:00 dan 23:00 gacha ishlaydi. Kapuchino 26 000 so‘m, chorshanba kunlari 19:00 dagi kitob klubi — qahva va desert bilan 60 000 so‘m. Javondagi kitoblarni bepul o‘qish va almashtirish mumkin."
+    "answer": "«Sizning kompaniyangiz» — Toshkent, Buyuk Ipak Yo‘li ko‘chasi, 31 dagi kutubxonali qahvaxona. Har kuni 9:00 dan 23:00 gacha ishlaydi. Kapuchino 26 000 so‘m, chorshanba kunlari 19:00 dagi kitob klubi — qahva va desert bilan 60 000 so‘m. Javondagi kitoblarni bepul o‘qish va almashtirish mumkin."
   },
   "business": {
-    "legalName": "«Sahifa» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirzo Ulug‘bek, Buyuk Ipak Yo‘li ko‘chasi, 31",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -82,7 +82,7 @@
       "type": "about",
       "label": "Biz haqimizda",
       "title": "Shivirlab gaplashsa bo‘ladigan kutubxona",
-      "text": "Sahifa — o‘zbekcha bet degani. Kitoblarni do‘stlar va o‘quvchilarning uy kutubxonalaridan to‘pladik: klassika, zamonaviy nasr, uch tildagi kitoblar. Istalganini stolga olib borish, o‘zingiznikini esa almashinuv javoniga qoldirish mumkin. Rozetkalar bor, lekin baland qo‘ng‘iroqlarni terassaga olib chiqishni so‘raymiz.",
+      "text": "«Sizning kompaniyangiz» — o‘zbekcha bet degani. Kitoblarni do‘stlar va o‘quvchilarning uy kutubxonalaridan to‘pladik: klassika, zamonaviy nasr, uch tildagi kitoblar. Istalganini stolga olib borish, o‘zingiznikini esa almashinuv javoniga qoldirish mumkin. Rozetkalar bor, lekin baland qo‘ng‘iroqlarni terassaga olib chiqishni so‘raymiz.",
       "image": ""
     },
     {

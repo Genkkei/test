@@ -1,5 +1,5 @@
 {
-  "name": "Teri Clinic",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Shifokorlik yondashuvi bilan kosmetologiya va dermatologiya",
   "niche": "Kosmetologiya va dermatologiya klinikasi",
   "nav": {
@@ -15,7 +15,7 @@
     "forSale": true
   },
   "seo": {
-    "title": "Teri Clinic — Toshkentda kosmetologiya va dermatologiya",
+    "title": "«Sizning kompaniyangiz» — Toshkentda kosmetologiya va dermatologiya",
     "description": "Dermatolog konsultatsiyasi, tozalash, pilinglar, biorevitalizatsiya va akneni davolash. Dermatokosmetolog shifokorlar, muolajalar ko‘rikdan keyin, Shahrisabz ko‘chasida qabul.",
     "keywords": [
       "kosmetolog Toshkent",
@@ -25,10 +25,10 @@
       "biorevitalizatsiya",
       "akneni davolash Toshkent"
     ],
-    "answer": "Teri Clinic — Toshkentdagi Shahrisabz ko‘chasi, 16 dagi kosmetologiya va dermatologiya klinikasi, dushanbadan shanbagacha 10:00 dan 20:00 gacha qabul qiladi. Teri ko‘rigi bilan dermatolog konsultatsiyasi — 200 000 so‘m, kombinatsiyalangan yuz tozalash — 350 000 so‘m, o‘rta piling — 450 000 so‘mdan. Har qanday muolaja faqat shifokor konsultatsiyasidan keyin tayinlanadi."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi Shahrisabz ko‘chasi, 16 dagi kosmetologiya va dermatologiya klinikasi, dushanbadan shanbagacha 10:00 dan 20:00 gacha qabul qiladi. Teri ko‘rigi bilan dermatolog konsultatsiyasi — 200 000 so‘m, kombinatsiyalangan yuz tozalash — 350 000 so‘m, o‘rta piling — 450 000 so‘mdan. Har qanday muolaja faqat shifokor konsultatsiyasidan keyin tayinlanadi."
   },
   "business": {
-    "legalName": "«Teri Clinic» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shahrisabz ko‘chasi, 16",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -70,7 +70,7 @@
       "type": "about",
       "label": "Klinika haqida",
       "title": "Avval suhbat, keyin muolaja",
-      "text": "Teri Clinic'ni «har ehtimolga qarshi» qilingan muolajalar oqibatlarini ko‘rishdan charchagan dermatolog shifokorlar ochgan. Birinchi tashrif — parvarishingiz, turmush tarzingiz va kutganlaringiz haqida 40 daqiqalik ko‘rik va suhbat. Agar uydagi parvarish yetarli bo‘lsa, shuni aytamiz. Muolaja kerak bo‘lsa — u nima berishini, nechta seans kerakligini va dastlabki kunlarda nimani kutish kerakligini tushuntiramiz.",
+      "text": "«Sizning kompaniyangiz»'ni «har ehtimolga qarshi» qilingan muolajalar oqibatlarini ko‘rishdan charchagan dermatolog shifokorlar ochgan. Birinchi tashrif — parvarishingiz, turmush tarzingiz va kutganlaringiz haqida 40 daqiqalik ko‘rik va suhbat. Agar uydagi parvarish yetarli bo‘lsa, shuni aytamiz. Muolaja kerak bo‘lsa — u nima berishini, nechta seans kerakligini va dastlabki kunlarda nimani kutish kerakligini tushuntiramiz.",
       "image": ""
     },
     {

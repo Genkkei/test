@@ -1,9 +1,9 @@
 {
-  "name": "Kiyim",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Logotipga muhtoj bo‘lmagan Toshkent kiyimi",
   "niche": "Kiyim brendi va shourum: zig‘ir, paxta, atlas",
   "seo": {
-    "title": "Kiyim — Toshkentdagi kiyim brendi va shourum",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi kiyim brendi va shourum",
     "description": "Zig‘ir, paxta va atlasdan kapsula kolleksiyalar: Toshkentda kichik tirajlarda tikamiz. Mirobodda shourum, oldindan yozilib kiyib ko‘rish, O‘zbekiston bo‘ylab yetkazish.",
     "keywords": [
       "kiyim brendi Toshkent",
@@ -13,7 +13,7 @@
       "o‘zbek dizaynerlari",
       "paxta kiyim"
     ],
-    "answer": "Kiyim — Toshkentdagi kiyim brendi: zig‘ir, paxta va atlasdan kapsula kolleksiyalar, o‘z sexida kichik tirajlarda tikiladi. Narxlar — futbolka uchun 390 000 so‘mdan palto uchun 1 850 000 so‘mgacha; Mirobod ko‘chasi, 21 dagi shourum har kuni ochiq, Toshkent bo‘ylab yetkazish 1 kunda, O‘zbekiston bo‘ylab — 2–4 kunda."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi kiyim brendi: zig‘ir, paxta va atlasdan kapsula kolleksiyalar, o‘z sexida kichik tirajlarda tikiladi. Narxlar — futbolka uchun 390 000 so‘mdan palto uchun 1 850 000 so‘mgacha; Mirobod ko‘chasi, 21 dagi shourum har kuni ochiq, Toshkent bo‘ylab yetkazish 1 kunda, O‘zbekiston bo‘ylab — 2–4 kunda."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Kiyim Studio» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mirobod ko‘chasi, 21, shourum 2-qavatda",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -143,7 +143,7 @@
       "type": "about",
       "label": "Brend haqida",
       "title": "Har bir buyum uzoq yashashi uchun kamroq tikamiz",
-      "text": "Kiyim 2021-yilda Mirobodagi ustaxonada paydo bo‘ldi. Matolarni Farg‘ona va Namangan fabrikalaridan olamiz, o‘zimiz bichamiz va tikamiz — 14 tikuvchili sexda. Har bir kolleksiya — 20–30 model, har biridan ko‘pi bilan 60 dona; sotilib ketganini qayta chiqarmaymiz. Yorliqda — buyum raqami va uni tikkan tikuvchining ismi.",
+      "text": "«Sizning kompaniyangiz» 2021-yilda Mirobodagi ustaxonada paydo bo‘ldi. Matolarni Farg‘ona va Namangan fabrikalaridan olamiz, o‘zimiz bichamiz va tikamiz — 14 tikuvchili sexda. Har bir kolleksiya — 20–30 model, har biridan ko‘pi bilan 60 dona; sotilib ketganini qayta chiqarmaymiz. Yorliqda — buyum raqami va uni tikkan tikuvchining ismi.",
       "image": ""
     },
     {

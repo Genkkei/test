@@ -1,5 +1,5 @@
 {
-  "name": "Hisob",
+  "name": "Your Company",
   "tagline": "Bookkeeping, taxes and reporting — so you run the business, not the paperwork",
   "niche": "Outsourced accounting, tax advisory and audit",
   "nav": {
@@ -14,7 +14,7 @@
     "features": []
   },
   "seo": {
-    "title": "Hisob — accounting services in Tashkent for sole traders and LLCs",
+    "title": "Your Company — accounting services in Tashkent for sole traders and LLCs",
     "description": "We keep the books and tax records for sole traders and LLCs, file on time, run payroll and prepare you for inspections. A fixed monthly price and a dedicated accountant.",
     "keywords": [
       "accounting services Tashkent",
@@ -24,10 +24,10 @@
       "tax consultant",
       "payroll services"
     ],
-    "answer": "Hisob keeps the books for sole traders and LLCs in Tashkent and remotely across Uzbekistan. Support for a sole trader starts at 800,000 UZS a month, an LLC on the simplified regime from 2,500,000 UZS, and a one-off tax consultation is 500,000 UZS per hour. Every client has a dedicated accountant; we file through the e-cabinet and issue a contract and an act every month."
+    "answer": "Your Company keeps the books for sole traders and LLCs in Tashkent and remotely across Uzbekistan. Support for a sole trader starts at 800,000 UZS a month, an LLC on the simplified regime from 2,500,000 UZS, and a one-off tax consultation is 500,000 UZS per hour. Every client has a dedicated accountant; we file through the e-cabinet and issue a contract and an act every month."
   },
   "business": {
-    "legalName": "Hisob Consulting LLC",
+    "legalName": "Your Company LLC",
     "street": "107B Amir Temur St, business centre, 5th floor",
     "city": "Tashkent",
     "region": "Tashkent",

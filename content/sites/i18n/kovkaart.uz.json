@@ -1,9 +1,9 @@
 {
-  "name": "Kovka Art",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Tomosha qilgingiz keladigan badiiy temirchilik",
   "niche": "Badiiy temirchilik: buyurtma asosida darvozalar, panjaralar, to‘rlar va dekor",
   "seo": {
-    "title": "Kovka Art — Toshkentda buyurtma asosida badiiy temirchilik",
+    "title": "«Sizning kompaniyangiz» — Toshkentda buyurtma asosida badiiy temirchilik",
     "description": "Individual eskizlar bo‘yicha bolg‘alangan darvozalar, panjaralar, deraza to‘rlari, shiyponlar va dekor. Mirzo Ulug‘bekdagi ustaxona, ishlar portfoliosi, Toshkent bo‘ylab o‘rnatish.",
     "keywords": [
       "badiiy temirchilik Toshkent",
@@ -11,7 +11,7 @@
       "bolg‘alangan panjaralar",
       "bolg‘alangan shiypon"
     ],
-    "answer": "Kovka Art — Mirzo Ulug‘bekdagi badiiy temirchilik ustaxonasi: bolg‘alangan darvozalar m² uchun 2 400 000 so‘mdan, panjaralar metriga 1 300 000 so‘mdan, deraza to‘rlari m² uchun 750 000 so‘mdan, shiyponlar 38 000 000 so‘mdan. Eskiz bepul, muddat 3–6 hafta, 5 yil kafolat, telefon +998 71 200-04-07."
+    "answer": "«Sizning kompaniyangiz» — Mirzo Ulug‘bekdagi badiiy temirchilik ustaxonasi: bolg‘alangan darvozalar m² uchun 2 400 000 so‘mdan, panjaralar metriga 1 300 000 so‘mdan, deraza to‘rlari m² uchun 750 000 so‘mdan, shiyponlar 38 000 000 so‘mdan. Eskiz bepul, muddat 3–6 hafta, 5 yil kafolat, telefon +998 71 200-04-07."
   },
   "nav": {
     "cta": {
@@ -29,7 +29,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Kovka Art» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Mustaqillik shoh ko‘chasi, 88, Mirzo Ulug‘bek",
     "city": "Toshkent",
     "region": "Toshkent",

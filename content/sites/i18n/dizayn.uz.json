@@ -1,9 +1,9 @@
 {
-  "name": "Dizayn",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Dizaynerlik mebeli va kolleksiya buyumlari galereyasi",
   "niche": "Dizaynerlik mebeli galereyasi",
   "seo": {
-    "title": "Dizayn — Toshkentda dizaynerlik mebeli galereyasi",
+    "title": "«Sizning kompaniyangiz» — Toshkentda dizaynerlik mebeli galereyasi",
     "description": "O‘zbekiston va Yevropa mualliflaridan dizaynerlik mebeli, chiroqlar va kolleksiya buyumlari. Har ikki oyda ko‘rgazmalar, vitrinadan va buyurtma asosida xarid, mamlakat bo‘ylab yetkazish.",
     "keywords": [
       "Toshkentda dizaynerlik mebeli",
@@ -12,7 +12,7 @@
       "kolleksiya dizayni",
       "dizaynerlik kreslosini sotib olish"
     ],
-    "answer": "Dizayn — Toshkentdagi dizaynerlik mebeli galereyasi (Shota Rustaveli ko‘chasi, 52). O‘zbekiston va Yevropa mualliflarining mebeli, chiroqlari va kolleksiya buyumlarini ko‘rsatadi va sotadi: kreslolar 9 500 000 so‘mdan, chiroqlar 2 800 000 so‘mdan. Ko‘rgazmalar har ikki oyda almashadi, seshanbadan yakshanbagacha 11–20 da ochiq."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi dizaynerlik mebeli galereyasi (Shota Rustaveli ko‘chasi, 52). O‘zbekiston va Yevropa mualliflarining mebeli, chiroqlari va kolleksiya buyumlarini ko‘rsatadi va sotadi: kreslolar 9 500 000 so‘mdan, chiroqlar 2 800 000 so‘mdan. Ko‘rgazmalar har ikki oyda almashadi, seshanbadan yakshanbagacha 11–20 da ochiq."
   },
   "nav": {
     "cta": {
@@ -30,7 +30,7 @@
     "thanks": ""
   },
   "business": {
-    "legalName": "«Dizayn Galereya» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shota Rustaveli ko‘chasi, 52, Yakkasaroy",
     "city": "Toshkent",
     "region": "Toshkent",

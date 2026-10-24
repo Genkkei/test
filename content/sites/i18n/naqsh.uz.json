@@ -1,9 +1,9 @@
 {
-  "name": "Naqsh",
+  "name": "Sizning kompaniyangiz",
   "tagline": "Uylar, interyerlar va jamoat joylarini loyihalaymiz — eskizdan mualliflik nazoratigacha",
   "niche": "Arxitektura byurosi va interyer dizayni",
   "seo": {
-    "title": "Naqsh — Toshkentdagi arxitektura byurosi va interyer dizayni",
+    "title": "«Sizning kompaniyangiz» — Toshkentdagi arxitektura byurosi va interyer dizayni",
     "description": "Xususiy uylar, kvartira interyerlari, restoran va ofislar loyihalari. Konsepsiya, ishchi hujjatlar, vizualizatsiya va qurilishda mualliflik nazorati.",
     "keywords": [
       "arxitektura byurosi Toshkent",
@@ -13,7 +13,7 @@
       "mualliflik nazorati",
       "arxitektor Toshkent"
     ],
-    "answer": "Naqsh — Toshkentdagi arxitektura byurosi: xususiy uy loyihasi m² uchun 120 000 so‘mdan, interyer dizayn-loyihasi m² uchun 180 000 so‘mdan, mualliflik nazorati oyiga 4 000 000 so‘mdan. Konsepsiya 3–4 haftada, ishchi chizmalarning to‘liq to‘plami 2–3 oyda tayyor bo‘ladi."
+    "answer": "«Sizning kompaniyangiz» — Toshkentdagi arxitektura byurosi: xususiy uy loyihasi m² uchun 120 000 so‘mdan, interyer dizayn-loyihasi m² uchun 180 000 so‘mdan, mualliflik nazorati oyiga 4 000 000 so‘mdan. Konsepsiya 3–4 haftada, ishchi chizmalarning to‘liq to‘plami 2–3 oyda tayyor bo‘ladi."
   },
   "nav": {
     "cta": {
@@ -27,7 +27,7 @@
     "features": []
   },
   "business": {
-    "legalName": "«Naqsh Architects» MChJ",
+    "legalName": "«Sizning kompaniyangiz» MChJ",
     "street": "Shota Rustaveli ko‘chasi, 41, 4-qavat",
     "city": "Toshkent",
     "region": "Toshkent",
@@ -87,7 +87,7 @@
       "type": "about",
       "label": "Byuro",
       "title": "O‘n ikki yil, qirqta obyekt, birontasi ham namunaviy emas",
-      "text": "Naqsh — to‘qqiz arxitektor, konstruktor va muhandisdan iborat jamoa. Biz internetdagi rasmdan emas, yer uchastkasi va odamlardan boshlaymiz: iyulda quyosh qanday tushadi, qo‘shni uyning soyasi qayerda, o‘n yildan keyin xonalarda kim yashaydi. Chizmalarni BIMda tayyorlaymiz — smeta va spetsifikatsiyalar shu modeldan hisoblanadi, shuning uchun qurilishda kutilmagan holatlar bo‘lmaydi. Har bir obyektga arxitektorimiz haftasiga bir marta keladi.",
+      "text": "«Sizning kompaniyangiz» — to‘qqiz arxitektor, konstruktor va muhandisdan iborat jamoa. Biz internetdagi rasmdan emas, yer uchastkasi va odamlardan boshlaymiz: iyulda quyosh qanday tushadi, qo‘shni uyning soyasi qayerda, o‘n yildan keyin xonalarda kim yashaydi. Chizmalarni BIMda tayyorlaymiz — smeta va spetsifikatsiyalar shu modeldan hisoblanadi, shuning uchun qurilishda kutilmagan holatlar bo‘lmaydi. Har bir obyektga arxitektorimiz haftasiga bir marta keladi.",
       "image": ""
     },
     {
