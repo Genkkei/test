@@ -1,6 +1,6 @@
 {
   "slug": "dizayn",
-  "template": "gallery",
+  "template": "exhibit",
   "name": "Ваша компания",
   "tagline": "Галерея дизайнерской мебели и коллекционных предметов",
   "niche": "Галерея дизайнерской мебели",
@@ -9,15 +9,16 @@
     "dizayn.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#f2f0ec",
-    "fg": "#121212",
-    "accent": "#2f4bff",
-    "muted": "#66645f",
-    "surface": "#e6e3dc",
-    "line": "#121212",
-    "display": "Unbounded",
-    "body": "Onest",
-    "motion": 1
+    "bg": "#0e0d0c",
+    "fg": "#efe9df",
+    "accent": "#e2b97a",
+    "muted": "#8f877b",
+    "surface": "#181614",
+    "line": "#2b2825",
+    "display": "Noto Serif Display",
+    "body": "Wix Madefor Text",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -105,7 +106,7 @@
         "label": "Выставки",
         "href": "#shows"
       },
-      "image": ""
+      "image": "/media/dizayn-76107c2e8d0e7d4a1e0d.webp"
     },
     {
       "id": "mq",
@@ -128,86 +129,86 @@
       "enabled": true,
       "anchor": "shop",
       "label": "Магазин",
-      "title": "Каталог мебели",
-      "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
+      "title": "Предметы в продаже",
+      "text": "Добавьте предмет в корзину — куратор перезвонит, расскажет историю вещи и договорится о показе или доставке.",
       "items": [
         {
-          "name": "Стул «Венский»",
-          "text": "Бук, мягкое сиденье.",
-          "price": 662000,
+          "name": "Кресло «Чинар»",
+          "text": "Орех, кожа растительного дубления. В одном экземпляре.",
+          "price": 14500000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кресла и стулья",
+          "image": "/media/dizayn-71d166372f5cfdc64033.webp",
+          "category": "Кресла",
+          "badge": "Выставка",
+          "unit": "шт"
+        },
+        {
+          "name": "Кресло «Беседа»",
+          "text": "Ясень и букле, тираж 12.",
+          "price": 9800000,
+          "oldPrice": 0,
+          "image": "/media/dizayn-2012f4740821bc2d662c.webp",
+          "category": "Кресла",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Журнальный стол круглый",
-          "text": "Шпон ореха, 80 см.",
-          "price": 1824000,
+          "name": "Стол «Арык»",
+          "text": "Массив дуба, 220 см, столешница с прорезью-«арыком».",
+          "price": 21000000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/dizayn-a771021a2615de2ef71a.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Комод на четыре ящика",
-          "text": "Доводчики, ЛДСП + дуб.",
-          "price": 2592000,
+          "name": "Консоль «Медресе»",
+          "text": "Орех и латунь, арки по мотивам Самарканда.",
+          "price": 12400000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/dizayn-7c18f434cdafcc58eff9.webp",
+          "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Стеллаж открытый",
-          "text": "Пять полок, металл и дерево.",
-          "price": 1536000,
+          "name": "Скамья «Курпача»",
+          "text": "Дуб и стёганое сиденье из адраса.",
+          "price": 7600000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/dizayn-d0631a1d86ac4d15c5af.webp",
+          "category": "Скамьи",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Табурет «Пиала»",
+          "text": "Шлифованный орех, тираж 20.",
+          "price": 2900000,
+          "oldPrice": 0,
+          "image": "/media/dizayn-1c18ebbf09a4c2e53362.webp",
+          "category": "Скамьи",
           "badge": "Новинка",
           "unit": "шт"
         },
         {
-          "name": "Кровать «Нордик» 160×200",
-          "text": "Массив сосны, ортопедическое основание.",
-          "price": 4608000,
+          "name": "Лампа «Ляган»",
+          "text": "Риштанская керамика, глазурь ишкор.",
+          "price": 3400000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кровати",
-          "badge": "Хит",
-          "unit": "шт"
-        },
-        {
-          "name": "Тумба прикроватная",
-          "text": "Ящик и ниша.",
-          "price": 758000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/dizayn-6685099c21d2c2d10278.webp",
+          "category": "Свет",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "ТВ-тумба 180",
-          "text": "Фасады с рифлением, скрытый кабель-канал.",
-          "price": 2976000,
+          "name": "Ваза «Хум»",
+          "text": "Керамика ручной лепки, 60 см.",
+          "price": 2200000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
-          "badge": "",
-          "unit": "шт"
-        },
-        {
-          "name": "Письменный стол",
-          "text": "120×60, ящик для мелочей.",
-          "price": 1632000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Столы",
+          "image": "/media/dizayn-174e975c4ec06160dbda.webp",
+          "category": "Керамика",
           "badge": "",
           "unit": "шт"
         }
@@ -221,7 +222,7 @@
       "label": "Галерея",
       "title": "Шоурум, где мебель выставляют как искусство",
       "text": "Мы отбираем мебель и свет у небольших мастерских и авторов: каждый предмет сделан руками, тиражом до 20 штук или в одном экземпляре. Раз в два месяца меняем экспозицию, рассказываем историю автора и помогаем вписать предмет в ваш интерьер.",
-      "image": ""
+      "image": "/media/dizayn-1601bb67f99a455077af.webp"
     },
     {
       "id": "shows",
@@ -236,7 +237,7 @@
           "category": "8 авторов, мебель из ореха и дуба",
           "year": "01.10 — 30.11.2026",
           "text": "Кресла, столы и скамьи от мастерских Ташкента и Самарканда.",
-          "image": "",
+          "image": "/media/dizayn-dd804cc72db2454ff64b.webp",
           "href": ""
         },
         {
@@ -244,7 +245,7 @@
           "category": "Керамические светильники",
           "year": "05.12.2026 — 31.01.2027",
           "text": "Лампы из риштанской глины в современной форме.",
-          "image": "",
+          "image": "/media/dizayn-7e748f13467b8e380f9b.webp",
           "href": ""
         },
         {
@@ -252,7 +253,7 @@
           "category": "Европейские кресла и диваны",
           "year": "07.02 — 31.03.2027",
           "text": "Мягкая мебель с выставок в Милане и Копенгагене.",
-          "image": "",
+          "image": "/media/dizayn-e257ed6159823c7dead4.webp",
           "href": ""
         }
       ]
@@ -263,31 +264,23 @@
       "enabled": true,
       "anchor": "",
       "label": "В зале",
-      "title": "Сейчас можно купить",
+      "title": "Как выглядит выставка",
       "items": [
         {
-          "caption": "Кресло «Чинар», орех",
-          "image": ""
+          "caption": "Зал «Тёплое дерево»",
+          "image": "/media/dizayn-a7a00d5a4f7d14962a77.webp"
         },
         {
-          "caption": "Стол «Арык», дуб",
-          "image": ""
+          "caption": "Витрина с керамикой",
+          "image": "/media/dizayn-0c8425c554c1f225401d.webp"
         },
         {
-          "caption": "Скамья «Курпача»",
-          "image": ""
+          "caption": "Мастерская автора в Самарканде",
+          "image": "/media/dizayn-ae6089a7c9c9ad471c0b.webp"
         },
         {
-          "caption": "Лампа «Ляган», керамика",
-          "image": ""
-        },
-        {
-          "caption": "Табурет «Пиала»",
-          "image": ""
-        },
-        {
-          "caption": "Консоль «Медресе»",
-          "image": ""
+          "caption": "Свет в зале вечером",
+          "image": "/media/dizayn-d2bbf30919257877bfc6.webp"
         }
       ]
     },
@@ -409,5 +402,21 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Тёмный зал галереи: свет только там, куда смотрит гость; у предмета — музейная этикетка; выставки — афиша, зал — проход вдоль стены",
+    "label": "IBM Plex Mono",
+    "skeleton": "museum-label",
+    "signature": "spotlight-cursor",
+    "sequence": [
+      "dark",
+      "title-wall",
+      "spot-flicker",
+      "spot-grow",
+      "label",
+      "text"
+    ],
+    "ease": "0.65,0,0.35,1",
+    "surface": "museum-tag"
+  }
 }

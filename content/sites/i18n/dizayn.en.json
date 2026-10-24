@@ -125,30 +125,22 @@
       "id": "gallery",
       "type": "gallery",
       "label": "On the floor",
-      "title": "Available now",
+      "title": "What the show looks like",
       "items": [
         {
-          "caption": "“Chinar” armchair, walnut",
+          "caption": "“Warm Wood” hall",
           "image": ""
         },
         {
-          "caption": "“Aryk” table, oak",
+          "caption": "Ceramics showcase",
           "image": ""
         },
         {
-          "caption": "“Kurpacha” bench",
+          "caption": "The maker’s workshop in Samarkand",
           "image": ""
         },
         {
-          "caption": "“Lagan” lamp, ceramic",
-          "image": ""
-        },
-        {
-          "caption": "“Piyola” stool",
-          "image": ""
-        },
-        {
-          "caption": "“Madrasa” console",
+          "caption": "The hall lit at night",
           "image": ""
         }
       ]
@@ -264,23 +256,33 @@
     {
       "id": "shop",
       "label": "Shop",
-      "title": "Furniture catalogue",
-      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "title": "Pieces for sale",
+      "text": "Add a piece to your cart — the curator will call, tell you its story and arrange a viewing or delivery.",
       "items": [
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
-          "price": 662000,
+          "name": "“Chinar” armchair",
+          "text": "Walnut, vegetable-tanned leather. One of a kind.",
+          "price": 14500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Chairs",
+          "category": "Armchairs",
+          "badge": "On show",
+          "unit": "pc"
+        },
+        {
+          "name": "“Talk” lounge chair",
+          "text": "Ash and bouclé, edition of 12.",
+          "price": 9800000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Armchairs",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Round coffee table",
-          "text": "Walnut veneer, 80 cm.",
-          "price": 1824000,
+          "name": "“Aryk” table",
+          "text": "Solid oak, 220 cm, top with a channel cut through it.",
+          "price": 21000000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -288,62 +290,52 @@
           "unit": "pc"
         },
         {
-          "name": "Four-drawer chest",
-          "text": "Soft-close, board and oak.",
-          "price": 2592000,
+          "name": "“Madrasa” console",
+          "text": "Walnut and brass, arches after Samarkand.",
+          "price": 12400000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
+          "category": "Tables",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Open shelving unit",
-          "text": "Five shelves, metal and wood.",
-          "price": 1536000,
+          "name": "“Kurpacha” bench",
+          "text": "Oak with a quilted adras seat.",
+          "price": 7600000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
+          "category": "Benches",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "“Piyola” stool",
+          "text": "Turned walnut, edition of 20.",
+          "price": 2900000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Benches",
           "badge": "New",
           "unit": "pc"
         },
         {
-          "name": "“Nordic” bed 160×200",
-          "text": "Solid pine, slatted base.",
-          "price": 4608000,
+          "name": "“Lagan” lamp",
+          "text": "Rishtan ceramic, ishkor glaze.",
+          "price": 3400000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beds",
-          "badge": "Bestseller",
-          "unit": "pc"
-        },
-        {
-          "name": "Bedside table",
-          "text": "Drawer and niche.",
-          "price": 758000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Storage",
+          "category": "Lighting",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "TV stand 180",
-          "text": "Fluted fronts, hidden cable channel.",
-          "price": 2976000,
+          "name": "“Khum” vase",
+          "text": "Hand-built ceramic, 60 cm.",
+          "price": 2200000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
-          "badge": "",
-          "unit": "pc"
-        },
-        {
-          "name": "Writing desk",
-          "text": "120×60 with a small drawer.",
-          "price": 1632000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Tables",
+          "category": "Ceramics",
           "badge": "",
           "unit": "pc"
         }

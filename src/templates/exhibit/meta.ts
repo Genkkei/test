@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'exhibit',
-  name: 'exhibit',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'exhibit' },
+  name: 'Экспозиция',
+  inspiredBy: 'howtotalktowhitekidsaboutracism.com (один предмет в темноте), музейная этикетка, haoqi.design (тонкий антиквенный заголовок, прибор-подписи)',
+  mood: 'Тёмный зал, в котором свет есть только там, куда вы смотрите',
+  niches: ['Галерея дизайна', 'шоурум авторской мебели', 'антиквариат'],
+  defaultTheme: { bg: '#0e0d0c', fg: '#efe9df', accent: '#e2b97a', muted: '#8f877b', surface: '#181614', line: '#2b2825', display: 'Noto Serif Display', body: 'Wix Madefor Text', motion: 1 },
+  art: 'orbit',
+  preview: { bg: '#0e0d0c', fg: '#efe9df', accent: '#e2b97a', word: 'Зал' },
 }

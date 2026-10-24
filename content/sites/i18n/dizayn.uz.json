@@ -125,30 +125,22 @@
       "id": "gallery",
       "type": "gallery",
       "label": "Zalda",
-      "title": "Hozir sotib olish mumkin",
+      "title": "Ko‘rgazma qanday ko‘rinadi",
       "items": [
         {
-          "caption": "«Chinor» kreslosi, yong‘oq",
+          "caption": "«Iliq yog‘och» zali",
           "image": ""
         },
         {
-          "caption": "«Ariq» stoli, eman",
+          "caption": "Sopol vitrinasi",
           "image": ""
         },
         {
-          "caption": "«Ko‘rpacha» skameykasi",
+          "caption": "Muallifning Samarqanddagi ustaxonasi",
           "image": ""
         },
         {
-          "caption": "«Lagan» lampasi, keramika",
-          "image": ""
-        },
-        {
-          "caption": "«Piyola» taburetkasi",
-          "image": ""
-        },
-        {
-          "caption": "«Madrasa» konsoli",
+          "caption": "Kechqurun zaldagi yorug‘lik",
           "image": ""
         }
       ]
@@ -264,23 +256,33 @@
     {
       "id": "shop",
       "label": "Do‘kon",
-      "title": "Mebel katalogi",
-      "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
+      "title": "Sotuvdagi buyumlar",
+      "text": "Buyumni savatga qo‘shing — kurator qo‘ng‘iroq qilib, buyum tarixini aytib beradi va ko‘rish yoki yetkazishni kelishadi.",
       "items": [
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 662000,
+          "name": "«Chinor» kreslosi",
+          "text": "Yong‘oq, o‘simlik oshlangan charm. Yagona nusxa.",
+          "price": 14500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Kreslo va stullar",
+          "category": "Kreslolar",
+          "badge": "Ko‘rgazma",
+          "unit": "dona"
+        },
+        {
+          "name": "«Suhbat» kreslosi",
+          "text": "Shumtol va bukle, 12 dona.",
+          "price": 9800000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Kreslolar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
-          "price": 1824000,
+          "name": "«Ariq» stoli",
+          "text": "Eman massivi, 220 sm, «ariq» kesimli stol usti.",
+          "price": 21000000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -288,62 +290,52 @@
           "unit": "dona"
         },
         {
-          "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
-          "price": 2592000,
+          "name": "«Madrasa» konsoli",
+          "text": "Yong‘oq va latun, Samarqand motividagi arkalar.",
+          "price": 12400000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Stollar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
-          "price": 1536000,
+          "name": "«Ko‘rpacha» skameykasi",
+          "text": "Eman va adrasdan qavilgan o‘rindiq.",
+          "price": 7600000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Skameykalar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Piyola» kursisi",
+          "text": "Silliqlangan yong‘oq, 20 dona.",
+          "price": 2900000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Skameykalar",
           "badge": "Yangi",
           "unit": "dona"
         },
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
-          "price": 4608000,
+          "name": "«Lagan» chirog‘i",
+          "text": "Rishton sopoli, ishqor sirli.",
+          "price": 3400000,
           "oldPrice": 0,
           "image": "",
-          "category": "Karavotlar",
-          "badge": "Xit",
-          "unit": "dona"
-        },
-        {
-          "name": "Karavot yoni tumbasi",
-          "text": "Tortma va tokcha.",
-          "price": 758000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Saqlash",
+          "category": "Yoritish",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "TV-tumba 180",
-          "text": "Rifli fasadlar, yashirin kabel kanali.",
-          "price": 2976000,
+          "name": "«Xum» vazasi",
+          "text": "Qo‘lda yasalgan sopol, 60 sm.",
+          "price": 2200000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Yozuv stoli",
-          "text": "120×60, mayda narsalar tortmasi.",
-          "price": 1632000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Stollar",
+          "category": "Sopol",
           "badge": "",
           "unit": "dona"
         }

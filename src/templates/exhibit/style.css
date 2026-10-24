@@ -1,1 +1,201 @@
-/* заготовка */
+/* ЭКСПОЗИЦИЯ — тёмный зал галереи. Свет тёплый и только на предметах; текст — как надписи на стене.
+   Noto Serif Display 200 — заголовки (тонкая антиква на тёмном), Wix Madefor Text — текст и этикетки,
+   IBM Plex Mono — даты. Ведущий приём — луч: предмет полностью освещён только там, куда вы смотрите. */
+
+@property --ex-r { syntax: '<length>'; inherits: true; initial-value: 900px; }
+
+.tpl-exhibit {
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --light: cubic-bezier(.65, 0, .35, 1);
+  --pad: max(16px, min(5vw, 80px));
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: clamp(15px, 1.05vw, 17px);
+  line-height: 1.6;
+}
+.tpl-exhibit ::selection { background: var(--accent); color: var(--bg); }
+.tpl-exhibit .exhibit-label { margin: 0; font: 400 12px/1.3 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.tpl-exhibit .exhibit-h2 { margin: 0; font-family: var(--font-display); font-weight: 200; font-size: clamp(38px, 5vw, 84px); line-height: 1; letter-spacing: -.02em; text-wrap: balance; }
+.tpl-exhibit .exhibit-head { display: grid; gap: 14px; max-width: 900px; margin-bottom: clamp(28px, 4vw, 60px); }
+.tpl-exhibit .exhibit-head__intro { margin: 0; max-width: 36em; color: var(--muted); }
+
+.tpl-exhibit .exhibit-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 0 26px; border-radius: 999px; background: var(--fg); color: var(--bg); font: 600 15px/1 var(--font-body); text-decoration: none; transition: transform 140ms var(--ease), background-color .2s ease, box-shadow .3s ease; }
+.tpl-exhibit .exhibit-btn:active { transform: scale(.97); }
+.tpl-exhibit .exhibit-btn--sm { min-height: 40px; padding: 0 18px; font-size: 14px; }
+.tpl-exhibit .exhibit-link { display: inline-flex; align-items: center; min-height: 50px; color: var(--fg); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; text-decoration-color: color-mix(in srgb, var(--fg) 40%, transparent); transition: text-decoration-color .2s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .tpl-exhibit .exhibit-btn:hover { background: var(--accent); box-shadow: 0 0 40px -6px color-mix(in srgb, var(--accent) 70%, transparent); }
+  .tpl-exhibit .exhibit-link:hover { text-decoration-color: var(--fg); }
+}
+
+.tpl-exhibit .exhibit-bar { position: sticky; top: 0; z-index: 30; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 14px var(--pad); background: linear-gradient(var(--bg) 40%, color-mix(in srgb, var(--bg) 0%, transparent)); }
+.tpl-exhibit .exhibit-bar__logo { font: 300 22px/1 var(--font-display); color: inherit; text-decoration: none; letter-spacing: -.01em; }
+.tpl-exhibit .exhibit-bar__nav { display: flex; justify-content: center; gap: 26px; }
+.tpl-exhibit .exhibit-bar__nav a { font-size: 14px; color: var(--muted); text-decoration: none; transition: color .2s ease; }
+.tpl-exhibit .exhibit-bar__nav a:hover { color: var(--fg); }
+.tpl-exhibit .exhibit-bar__side { display: flex; align-items: center; gap: 14px; }
+.tpl-exhibit .mmenu__btn { display: none; }
+@media (max-width: 980px) { .tpl-exhibit .exhibit-bar__nav { display: none; } .tpl-exhibit .exhibit-bar { grid-template-columns: 1fr auto; } .tpl-exhibit .mmenu__btn { display: inline-flex; } }
+@media (max-width: 520px) { .tpl-exhibit .exhibit-bar .exhibit-btn--sm { display: none; } }
+
+/* ───────── первый экран: предмет под софитом ───────── */
+.tpl-exhibit .exhibit-hero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); grid-template-areas: 'title object' 'foot object' 'foot tag'; gap: 18px clamp(24px, 4vw, 64px); min-height: min(900px, calc(100svh - 70px)); padding: clamp(16px, 3vw, 40px) var(--pad) clamp(40px, 5vw, 72px); overflow: clip; }
+.tpl-exhibit .exhibit-title { grid-area: title; align-self: end; margin: 0; font-family: var(--font-display); font-weight: 200; position: relative; z-index: 2; font-size: clamp(44px, 4.7vw, 90px); line-height: .98; letter-spacing: -.035em; text-wrap: balance; animation: exhibitWall 1.6s var(--ease) .15s both; }
+@keyframes exhibitWall { from { opacity: 0; letter-spacing: .02em; filter: blur(6px); } }
+.tpl-exhibit .exhibit-object { grid-area: object; position: relative; align-self: center; aspect-ratio: 3 / 2; --bx: 50%; --by: 42%; -webkit-mask: radial-gradient(closest-side, #000 72%, transparent); mask: radial-gradient(closest-side, #000 72%, transparent); }
+.tpl-exhibit .exhibit-object__dim, .tpl-exhibit .exhibit-object__lit { position: absolute; inset: 0; }
+.tpl-exhibit .exhibit-object .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.tpl-exhibit .exhibit-object__dim { filter: brightness(.22) saturate(.6); animation: exhibitFade 1s ease .2s both; }
+/* свет: круг с мягким краем; включение — мигание и разгорание радиуса */
+.tpl-exhibit .exhibit-object__lit { --ex-r: 900px; -webkit-mask: radial-gradient(circle var(--ex-r) at var(--bx) var(--by), #000 30%, transparent 100%); mask: radial-gradient(circle var(--ex-r) at var(--bx) var(--by), #000 30%, transparent 100%); animation: exhibitFlicker .5s steps(1) .85s both, exhibitSpot 1.2s var(--light) 1.2s both; }
+.tpl-exhibit .exhibit-object.is-live .exhibit-object__lit { animation: none; --ex-r: 380px; transition: --ex-r 1.1s var(--light); }
+@keyframes exhibitFlicker { 0% { opacity: 0; } 20% { opacity: .7; } 35% { opacity: 0; } 55% { opacity: .9; } 70% { opacity: .2; } 100% { opacity: 1; } }
+@keyframes exhibitSpot { from { --ex-r: 140px; } to { --ex-r: 900px; } }
+@keyframes exhibitFade { from { opacity: 0; } }
+.tpl-exhibit .exhibit-object__cone { position: absolute; left: calc(var(--bx) - 30%); top: -30%; width: 60%; height: 80%; pointer-events: none; background: radial-gradient(ellipse 50% 100% at 50% 0, color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%); mix-blend-mode: screen; animation: exhibitFlicker .5s steps(1) .85s both; }
+.tpl-exhibit .exhibit-tag { grid-area: tag; justify-self: end; display: grid; gap: 2px; align-self: end; align-content: start; min-width: 220px; max-width: 300px; padding: 14px 16px; background: #f5f2ec; color: #141210; font-size: 13px; line-height: 1.35; box-shadow: 0 10px 24px -14px #000; animation: exhibitTag .7s var(--ease) 1.75s both; }
+.tpl-exhibit .exhibit-tag b { font-size: 14px; }
+@keyframes exhibitTag { from { opacity: 0; transform: translateY(10px); } }
+.tpl-exhibit .exhibit-hero__foot { grid-area: foot; align-self: end; display: grid; gap: 22px; animation: exhibitTag .8s var(--ease) 1.95s both; }
+.tpl-exhibit .exhibit-hero__sub { margin: 0; max-width: 32em; color: color-mix(in srgb, var(--fg) 76%, transparent); }
+.tpl-exhibit .exhibit-hero__ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; }
+@media (max-width: 900px) {
+  .tpl-exhibit .exhibit-hero { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'title' 'object' 'tag' 'foot'; min-height: 0; }
+  .tpl-exhibit .exhibit-tag { justify-self: start; }
+  .tpl-exhibit .exhibit-object__lit { animation-delay: .6s, .9s; }
+  .tpl-exhibit .exhibit-tag { animation-delay: 1.4s; }
+  .tpl-exhibit .exhibit-hero__foot { animation-delay: 1.5s; }
+}
+
+.tpl-exhibit .s-answer { padding: 0 var(--pad) clamp(40px, 6vw, 80px); }
+.tpl-exhibit .s-answer .s__inner { max-width: 780px; margin: 0; padding: 0; }
+.tpl-exhibit .s-answer__text { margin: 0; color: var(--muted); }
+
+/* ───────── появление ───────── */
+html.motion .tpl-exhibit [data-ex] { transition: opacity .9s var(--ease), transform 1s var(--ease), filter 1.2s var(--light); transition-delay: calc(var(--i, 0) * 80ms); }
+html.motion .tpl-exhibit [data-ex]:not(.is-in) { opacity: 0; }
+html.motion .tpl-exhibit [data-ex='rise']:not(.is-in) { transform: translateY(18px); }
+html.motion .tpl-exhibit [data-ex='light']:not(.is-in) { opacity: 1; filter: brightness(.08); }
+
+/* ───────── о галерее ───────── */
+.tpl-exhibit .exhibit-about { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(28px, 6vw, 110px); align-items: center; padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .exhibit-about__text { display: grid; gap: 18px; }
+.tpl-exhibit .exhibit-about__body { margin: 0; max-width: 34em; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+.tpl-exhibit .exhibit-about__photo { position: relative; aspect-ratio: 3 / 2; overflow: hidden; }
+.tpl-exhibit .exhibit-about__photo .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 820px) { .tpl-exhibit .exhibit-about { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── афиша ───────── */
+.tpl-exhibit .exhibit-shows { position: relative; padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .exhibit-shows__list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.tpl-exhibit .exhibit-show { display: grid; grid-template-columns: minmax(160px, .7fr) minmax(0, 1.6fr) minmax(0, 1fr); gap: 8px clamp(18px, 3vw, 48px); align-items: baseline; padding: clamp(22px, 3vw, 40px) 0; border-bottom: 1px solid var(--line); }
+.tpl-exhibit .exhibit-show__date { font: 400 13px/1.3 var(--mono); color: var(--accent); }
+.tpl-exhibit .exhibit-show__title { margin: 0; font: italic 200 clamp(36px, 4.6vw, 80px)/.95 var(--font-display); letter-spacing: -.025em; transition: transform .6s var(--ease); }
+.tpl-exhibit .exhibit-show__meta { margin: 0; display: grid; gap: 4px; color: var(--muted); font-size: 15px; }
+.tpl-exhibit .exhibit-show__meta b { color: var(--fg); font-weight: 600; }
+.tpl-exhibit .exhibit-show__img { display: none; }
+.tpl-exhibit .exhibit-shows__float { position: absolute; left: 0; top: 0; z-index: 3; width: 300px; aspect-ratio: 5 / 4; margin: -120px 0 0 30px; pointer-events: none; opacity: 0; transition: opacity .3s ease; }
+.tpl-exhibit .exhibit-shows__float.is-on { opacity: 1; }
+.tpl-exhibit .exhibit-shows__float img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.06); transition: opacity .35s ease, transform .6s var(--ease); }
+.tpl-exhibit .exhibit-shows__float img.is-on { opacity: 1; transform: none; }
+@media (hover: hover) and (pointer: fine) { .tpl-exhibit .exhibit-show:hover .exhibit-show__title { transform: translateX(14px); } }
+@media (max-width: 860px) {
+  .tpl-exhibit .exhibit-show { grid-template-columns: minmax(0, 1fr); }
+  .tpl-exhibit .exhibit-show__img { display: block; position: relative; aspect-ratio: 5 / 4; overflow: hidden; margin-top: 10px; }
+  .tpl-exhibit .exhibit-show__img .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .tpl-exhibit .exhibit-shows__float { display: none; }
+}
+
+/* ───────── зал: проход вдоль стены ───────── */
+.tpl-exhibit .exhibit-walk { height: calc(100vh + var(--n) * 38vh); padding: 0; }
+.tpl-exhibit .exhibit-walk__pin { position: sticky; top: 0; display: grid; align-content: center; gap: 10px; height: 100vh; padding: 70px var(--pad) 40px; overflow: hidden; }
+.tpl-exhibit .exhibit-walk__track { list-style: none; margin: 0; padding: 0; display: flex; gap: clamp(20px, 3vw, 48px); align-items: flex-end; will-change: transform; }
+.tpl-exhibit .exhibit-walk__item { flex: none; width: clamp(280px, 34vw, 560px); }
+.tpl-exhibit .exhibit-walk__item:nth-child(2n) { width: clamp(240px, 24vw, 400px); }
+.tpl-exhibit .exhibit-walk__img { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.tpl-exhibit .exhibit-walk__item:nth-child(2n) .exhibit-walk__img { aspect-ratio: 3 / 4; }
+.tpl-exhibit .exhibit-walk__img .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.tpl-exhibit .exhibit-walk__item p { margin: 12px 0 0; display: flex; gap: 12px; font-size: 14px; color: var(--muted); }
+.tpl-exhibit .exhibit-walk__item p span { font-family: var(--mono); color: var(--accent); }
+@media (max-width: 899px), (prefers-reduced-motion: reduce) {
+  .tpl-exhibit .exhibit-walk { height: auto; padding: clamp(56px, 8vw, 130px) 0; }
+  .tpl-exhibit .exhibit-walk__pin { position: static; height: auto; padding: 0; overflow: visible; }
+  .tpl-exhibit .exhibit-walk__pin .exhibit-head { padding: 0 var(--pad); }
+  .tpl-exhibit .exhibit-walk__track { overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 var(--pad); scrollbar-width: none; align-items: flex-start; }
+  .tpl-exhibit .exhibit-walk__item, .tpl-exhibit .exhibit-walk__item:nth-child(2n) { width: 76vw; scroll-snap-align: start; }
+}
+
+/* ───────── цифры: надпись на стене ───────── */
+.tpl-exhibit .exhibit-wall { padding: clamp(40px, 6vw, 96px) var(--pad); }
+.tpl-exhibit .exhibit-wall dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px; }
+.tpl-exhibit .exhibit-wall dl > div { display: flex; flex-direction: column-reverse; gap: 6px; }
+.tpl-exhibit .exhibit-wall dd { margin: 0; font: 200 clamp(56px, 6vw, 104px)/.9 var(--font-display); letter-spacing: -.03em; }
+.tpl-exhibit .exhibit-wall dd small { font-size: .3em; margin-left: 6px; letter-spacing: 0; color: var(--muted); }
+.tpl-exhibit .exhibit-wall dt { font-size: 14px; color: var(--muted); }
+
+/* ───────── как купить ───────── */
+.tpl-exhibit .exhibit-buy { padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .exhibit-buy__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: clamp(24px, 3vw, 48px); }
+.tpl-exhibit .exhibit-buy__list li { display: grid; gap: 10px; align-content: start; padding-top: 18px; border-top: 1px solid var(--fg); }
+.tpl-exhibit .exhibit-buy__list h3 { margin: 0; font: 300 clamp(26px, 2.4vw, 36px)/1.05 var(--font-display); }
+.tpl-exhibit .exhibit-buy__list p { margin: 0; color: color-mix(in srgb, var(--fg) 76%, transparent); }
+.tpl-exhibit .exhibit-buy__price { font: 400 13px/1.4 var(--mono); color: var(--accent) !important; }
+.tpl-exhibit .exhibit-buy__price small { color: var(--muted); font-size: 12px; }
+
+/* ───────── книга отзывов ───────── */
+.tpl-exhibit .exhibit-book { padding: clamp(40px, 6vw, 100px) var(--pad); }
+.tpl-exhibit .exhibit-book__page { max-width: 820px; margin: 0 auto; padding: clamp(28px, 5vw, 64px); background: #f3efe7; color: #1a1714; background-image: linear-gradient(transparent 35px, rgba(30, 60, 120, .12) 35px, rgba(30, 60, 120, .12) 36px, transparent 36px); background-size: 100% 36px; box-shadow: 0 30px 60px -30px #000; }
+.tpl-exhibit .exhibit-book__page .exhibit-label { color: #8a5a1c; }
+.tpl-exhibit .exhibit-book__title { margin: 6px 0 22px; font: 300 clamp(30px, 3.4vw, 48px)/1.05 var(--font-display); }
+.tpl-exhibit .exhibit-book__entry { margin: 0 0 26px; }
+.tpl-exhibit .exhibit-book__entry blockquote { margin: 0; font: italic 300 clamp(20px, 1.8vw, 26px)/1.4 var(--font-display); }
+.tpl-exhibit .exhibit-book__entry figcaption { margin-top: 8px; font-size: 14px; color: #6d655b; }
+
+/* ───────── вопросы ───────── */
+.tpl-exhibit .exhibit-faq { padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .exhibit-faq__list { max-width: 960px; border-top: 1px solid var(--line); }
+.tpl-exhibit .exhibit-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-exhibit .exhibit-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 66px; cursor: pointer; list-style: none; font: 300 clamp(20px, 1.7vw, 26px)/1.25 var(--font-display); }
+.tpl-exhibit .exhibit-faq__item summary::-webkit-details-marker { display: none; }
+.tpl-exhibit .exhibit-faq__item summary i { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--line); transition: background-color .3s ease, box-shadow .3s ease; }
+.tpl-exhibit .exhibit-faq__item[open] summary i { background: var(--accent); box-shadow: 0 0 14px var(--accent); }
+.tpl-exhibit .exhibit-faq__item p { margin: 0; padding: 0 0 22px; max-width: 60ch; color: color-mix(in srgb, var(--fg) 78%, transparent); }
+
+/* ───────── визит ───────── */
+.tpl-exhibit .exhibit-visit { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: end; padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .exhibit-visit__title { margin: 12px 0 0; font: 200 clamp(52px, 7.4vw, 128px)/.92 var(--font-display); letter-spacing: -.035em; }
+.tpl-exhibit .exhibit-visit__plaque { display: grid; gap: 18px; }
+.tpl-exhibit .exhibit-visit__plaque p { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+@media (max-width: 820px) { .tpl-exhibit .exhibit-visit { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── подвал ───────── */
+.tpl-exhibit .exhibit-foot { padding: clamp(40px, 5vw, 72px) var(--pad) 28px; border-top: 1px solid var(--line); }
+.tpl-exhibit .exhibit-foot__logo { margin: 0; font: 200 clamp(48px, 9vw, 160px)/.9 var(--font-display); letter-spacing: -.035em; }
+.tpl-exhibit .exhibit-foot__cols { margin-top: 36px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 22px 32px; }
+.tpl-exhibit .exhibit-foot__cols p { margin: 0; display: grid; gap: 6px; align-content: start; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+.tpl-exhibit .exhibit-foot small { font: 400 11px/1 var(--mono); letter-spacing: .05em; text-transform: uppercase; color: var(--accent); }
+.tpl-exhibit .exhibit-foot a { color: inherit; }
+.tpl-exhibit .exhibit-foot__legal { margin: 36px 0 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font: 400 12px/1.3 var(--mono); color: var(--muted); }
+
+/* ───────── магазин (базовая разметка) — предметы с этикетками ───────── */
+.tpl-exhibit .s-shop { padding: clamp(56px, 8vw, 130px) var(--pad); }
+.tpl-exhibit .s-shop .s__inner { max-width: none; padding: 0; }
+.tpl-exhibit .s-shop .s__label { font: 400 12px/1.3 var(--mono); letter-spacing: .04em; color: var(--accent); }
+.tpl-exhibit .s-shop .s__title { font-family: var(--font-display); font-weight: 200; font-size: clamp(38px, 5vw, 84px); line-height: 1; letter-spacing: -.02em; text-transform: none; }
+.tpl-exhibit .s-shop .shop-cats button { border-color: var(--line); color: var(--muted); }
+.tpl-exhibit .s-shop .shop-cats button.is-on { background: var(--fg); color: var(--bg); }
+.tpl-exhibit .shop-grid { gap: 36px 20px; }
+.tpl-exhibit .shop-card__img { border-radius: 0; background: #000; }
+.tpl-exhibit .shop-card__img .media { filter: brightness(.86); transition: filter .6s var(--light), transform .8s var(--ease); }
+.tpl-exhibit .shop-card:hover .shop-card__img .media { filter: brightness(1.05); }
+.tpl-exhibit .shop-card__badge { background: var(--accent); color: var(--bg); }
+.tpl-exhibit .shop-card__name { font: 300 20px/1.2 var(--font-display); }
+.tpl-exhibit .shop-card__price b { font: 400 14px/1.4 var(--mono); color: var(--accent); }
+.tpl-exhibit .shop-add { border-color: color-mix(in srgb, var(--fg) 40%, transparent); transition: transform 140ms var(--ease), background .2s, color .2s; }
+.tpl-exhibit .shop-add:active { transform: scale(.97); }
+
+@media (prefers-reduced-motion: reduce) {
+  .tpl-exhibit *, .tpl-exhibit *::before, .tpl-exhibit *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
+}

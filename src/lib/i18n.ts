@@ -69,15 +69,21 @@ export function mergeTranslation(base: Site, tr: Json, lang: string): Site {
   return out
 }
 
+/** Поля медиа: фото и видео общие для всех языков — перевод хранит старые пустые строки, и без этого
+ *  узбекская и английская версии теряли бы снимки, добавленные в основную. */
+const MEDIA_KEYS = new Set(['image', 'video', 'sketch'])
+
 /** Кнопка, которую владелец направил на форму заявки (#order) в основной версии, ведёт на неё и в переводе:
- *  ссылки в старых переводах сняты до подключения формы. Обход идёт по одинаковым путям двух деревьев. */
+ *  ссылки в старых переводах сняты до подключения формы. Медиа — всегда из основной версии.
+ *  Обход идёт по одинаковым путям двух деревьев. */
 function keepFormLinks(tr: unknown, base: unknown): unknown {
   if (!tr || !base || typeof tr !== 'object' || typeof base !== 'object') return tr
   if (Array.isArray(tr)) return Array.isArray(base) ? tr.map((x, i) => keepFormLinks(x, base[i])) : tr
   const b = base as Json
   const out: Json = { ...(tr as Json) }
   if (typeof b.href === 'string' && b.href.startsWith('#order')) out.href = b.href
-  for (const k of Object.keys(out)) if (k !== 'href') out[k] = keepFormLinks(out[k], b[k])
+  for (const k of MEDIA_KEYS) if (typeof b[k] === 'string' && b[k]) out[k] = b[k]
+  for (const k of Object.keys(out)) if (k !== 'href' && !MEDIA_KEYS.has(k)) out[k] = keepFormLinks(out[k], b[k])
   return out
 }
 
