@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Buy",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Buy",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Pieces",
@@ -223,7 +223,7 @@
       "text": "Samarkand Darvoza mall, 3rd floor. Daily 10:00–22:00.",
       "cta": {
         "label": "Buy",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -233,9 +233,9 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "“Nordic” bed 160×200",
-          "text": "Solid pine, slatted base.",
-          "price": 4656000,
+          "name": "FRAME bed 160×200",
+          "text": "Solid oak, black edge.",
+          "price": 5600000,
           "oldPrice": 0,
           "image": "",
           "category": "Beds",
@@ -243,9 +243,9 @@
           "unit": "pc"
         },
         {
-          "name": "Bedside table",
-          "text": "Drawer and niche.",
-          "price": 766000,
+          "name": "FRAME nightstand",
+          "text": "Oak, handleless drawer.",
+          "price": 1100000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -253,9 +253,9 @@
           "unit": "pc"
         },
         {
-          "name": "TV stand 180",
-          "text": "Fluted fronts, hidden cable channel.",
-          "price": 3007000,
+          "name": "WHITE TV unit 180",
+          "text": "White matte, push-to-open.",
+          "price": 3200000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -263,9 +263,9 @@
           "unit": "pc"
         },
         {
-          "name": "Writing desk",
-          "text": "120×60 with a small drawer.",
-          "price": 1649000,
+          "name": "SLAB desk 140",
+          "text": "Architectural concrete on steel legs.",
+          "price": 3600000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -273,19 +273,19 @@
           "unit": "pc"
         },
         {
-          "name": "Floor mirror",
-          "text": "Oak frame, 170 cm.",
-          "price": 1212000,
-          "oldPrice": 1454000,
+          "name": "LINE mirror 180",
+          "text": "Black 8 mm steel frame.",
+          "price": 1400000,
+          "oldPrice": 0,
           "image": "",
           "category": "Decor",
           "badge": "Sale",
           "unit": "pc"
         },
         {
-          "name": "Two-door wardrobe",
-          "text": "Rail and shelves, 100 cm.",
-          "price": 3783000,
+          "name": "GRID shelving 80",
+          "text": "Black metal and oak, 80 cm module.",
+          "price": 2600000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -293,9 +293,9 @@
           "unit": "pc"
         },
         {
-          "name": "“Oak” dining table 160",
-          "text": "Solid oak, oil-wax finish.",
-          "price": 5238000,
+          "name": "SLAB table 180",
+          "text": "Concrete 180 × 90, stain-proof.",
+          "price": 4200000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -303,9 +303,9 @@
           "unit": "pc"
         },
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
-          "price": 669000,
+          "name": "BENT chair",
+          "text": "Black bent steel, oak seat.",
+          "price": 890000,
           "oldPrice": 0,
           "image": "",
           "category": "Chairs",

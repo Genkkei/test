@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Sotib olish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Sotib olish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Buyumlar",
@@ -223,7 +223,7 @@
       "text": "«Samarqand Darvoza» SM, 3-qavat. Har kuni 10:00 dan 22:00 gacha.",
       "cta": {
         "label": "Sotib olish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -233,9 +233,9 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
-          "price": 4656000,
+          "name": "FRAME karavoti 160×200",
+          "text": "Eman massivi, qora chet.",
+          "price": 5600000,
           "oldPrice": 0,
           "image": "",
           "category": "Karavotlar",
@@ -243,9 +243,9 @@
           "unit": "dona"
         },
         {
-          "name": "Karavot yoni tumbasi",
-          "text": "Tortma va tokcha.",
-          "price": 766000,
+          "name": "FRAME tumbasi",
+          "text": "Eman, tutqichsiz tortma.",
+          "price": 1100000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -253,9 +253,9 @@
           "unit": "dona"
         },
         {
-          "name": "TV-tumba 180",
-          "text": "Rifli fasadlar, yashirin kabel kanali.",
-          "price": 3007000,
+          "name": "WHITE TV tumbasi 180",
+          "text": "Oq mat, bosib ochiladi.",
+          "price": 3200000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -263,9 +263,9 @@
           "unit": "dona"
         },
         {
-          "name": "Yozuv stoli",
-          "text": "120×60, mayda narsalar tortmasi.",
-          "price": 1649000,
+          "name": "SLAB stoli 140",
+          "text": "Po‘lat oyoqlardagi arxitektura betoni.",
+          "price": 3600000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -273,19 +273,19 @@
           "unit": "dona"
         },
         {
-          "name": "Polga qo‘yiladigan oyna",
-          "text": "Eman rama, 170 sm.",
-          "price": 1212000,
-          "oldPrice": 1454000,
+          "name": "LINE oynasi 180",
+          "text": "8 mm qora po‘lat ramka.",
+          "price": 1400000,
+          "oldPrice": 0,
           "image": "",
           "category": "Dekor",
           "badge": "Chegirma",
           "unit": "dona"
         },
         {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
-          "price": 3783000,
+          "name": "GRID javoni 80",
+          "text": "Qora metall va eman, 80 sm modul.",
+          "price": 2600000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -293,9 +293,9 @@
           "unit": "dona"
         },
         {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
-          "price": 5238000,
+          "name": "SLAB stoli 180",
+          "text": "Beton 180 × 90, dog‘ga chidamli.",
+          "price": 4200000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -303,12 +303,12 @@
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 669000,
+          "name": "BENT stuli",
+          "text": "Qora egilgan po‘lat, eman o‘rindiq.",
+          "price": 890000,
           "oldPrice": 0,
           "image": "",
-          "category": "Kreslo va stullar",
+          "category": "Stullar",
           "badge": "",
           "unit": "dona"
         }

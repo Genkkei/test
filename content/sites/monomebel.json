@@ -1,6 +1,6 @@
 {
   "slug": "monomebel",
-  "template": "monolith",
+  "template": "mono",
   "name": "Ваша компания",
   "tagline": "Минимализм: чёрное, белое, бетон",
   "niche": "Минималистичная мебель",
@@ -15,9 +15,10 @@
     "muted": "#6a6a6c",
     "surface": "#dededb",
     "line": "#bcbcb8",
-    "display": "Oswald",
+    "display": "Sofia Sans Extra Condensed",
     "body": "Golos Text",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Купить",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -98,7 +99,7 @@
       ],
       "cta": {
         "label": "Купить",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Предметы",
@@ -116,82 +117,82 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Кровать «Нордик» 160×200",
-          "text": "Массив сосны, ортопедическое основание.",
-          "price": 4656000,
+          "name": "Кровать FRAME 160×200",
+          "text": "Массив дуба, чёрный торец.",
+          "price": 5600000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-df2ecc597664fb189276.webp",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Тумба прикроватная",
-          "text": "Ящик и ниша.",
-          "price": 766000,
+          "name": "Тумба FRAME",
+          "text": "Дуб, ящик без ручки.",
+          "price": 1100000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-c8a70826990f8f6d0614.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "ТВ-тумба 180",
-          "text": "Фасады с рифлением, скрытый кабель-канал.",
-          "price": 3007000,
+          "name": "ТВ-тумба WHITE 180",
+          "text": "Белый мат, открытие нажатием.",
+          "price": 3200000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-d6a07e09847332f45987.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Письменный стол",
-          "text": "120×60, ящик для мелочей.",
-          "price": 1649000,
+          "name": "Стол SLAB 140",
+          "text": "Архитектурный бетон на стальных опорах.",
+          "price": 3600000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-dc23de06606257bb780a.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Зеркало напольное",
-          "text": "Рама из дуба, 170 см.",
-          "price": 1212000,
-          "oldPrice": 1454000,
-          "image": "",
+          "name": "Зеркало LINE 180",
+          "text": "Чёрная стальная рама 8 мм.",
+          "price": 1400000,
+          "oldPrice": 0,
+          "image": "/media/monomebel-f7c8982f442b4d296df4.webp",
           "category": "Декор",
-          "badge": "Скидка",
+          "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Шкаф двухдверный",
-          "text": "Штанга и полки, 100 см.",
-          "price": 3783000,
+          "name": "Стеллаж GRID 80",
+          "text": "Чёрный металл и дуб, модуль 80 см.",
+          "price": 2600000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-531cade69d1c19c4063e.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Обеденный стол «Дуб» 160",
-          "text": "Массив дуба, масло-воск.",
-          "price": 5238000,
+          "name": "Стол SLAB 180",
+          "text": "Бетон 180 × 90, пропитка от пятен.",
+          "price": 4200000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/monomebel-bc0977026f990d684008.webp",
           "category": "Столы",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Стул «Венский»",
-          "text": "Бук, мягкое сиденье.",
-          "price": 669000,
+          "name": "Стул BENT",
+          "text": "Чёрная гнутая сталь, сиденье из дуба.",
+          "price": 890000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кресла и стулья",
+          "image": "/media/monomebel-260e1e29264b238caec9.webp",
+          "category": "Стулья",
           "badge": "",
           "unit": "шт"
         }
@@ -210,7 +211,7 @@
           "category": "",
           "year": "",
           "text": "Столешница из архитектурного бетона 180 × 90 см на чёрных стальных опорах. Пропитка от пятен. 4 200 000 сум, в наличии.",
-          "image": "",
+          "image": "/media/monomebel-2301caa4f857d1718fbd.webp",
           "href": ""
         },
         {
@@ -218,7 +219,7 @@
           "category": "",
           "year": "",
           "text": "Чёрный порошковый металл и полки из дуба, собирается в любую ширину модулями по 80 см. От 2 600 000 сум.",
-          "image": "",
+          "image": "/media/monomebel-5462bc0cf154f582b344.webp",
           "href": ""
         },
         {
@@ -226,7 +227,7 @@
           "category": "",
           "year": "",
           "text": "Белые матовые фасады без ручек, открытие нажатием. Высота до 280 см, изготовление 12 дней. От 3 900 000 сум за погонный метр.",
-          "image": "",
+          "image": "/media/monomebel-b8b7fadb14b90df2750f.webp",
           "href": ""
         },
         {
@@ -234,7 +235,7 @@
           "category": "",
           "year": "",
           "text": "Низкая кровать из массива дуба с чёрным торцом, 160 × 200 см. 5 600 000 сум, в наличии.",
-          "image": "",
+          "image": "/media/monomebel-fbeb883d6929a4f99255.webp",
           "href": ""
         },
         {
@@ -242,7 +243,7 @@
           "category": "",
           "year": "",
           "text": "Модульный диван из трёх кубов в сером букле — переставляется как угодно. От 7 800 000 сум.",
-          "image": "",
+          "image": "/media/monomebel-8c124ea191947d634822.webp",
           "href": ""
         }
       ]
@@ -364,9 +365,25 @@
       "text": "ТЦ «Самарканд Дарвоза», 3 этаж. Каждый день с 10:00 до 22:00.",
       "cta": {
         "label": "Купить",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Минимализм как вычитание: из комнаты исчезают лишние вещи, остаются силуэты стола, стеллажа, кровати и шкафа; предметы — строки с огромным именем, материалы — квадраты-образцы",
+    "label": "Cousine",
+    "skeleton": "subtract-room",
+    "signature": "declutter-vanish",
+    "sequence": [
+      "floor",
+      "clutter",
+      "vanish",
+      "silhouettes",
+      "title",
+      "side"
+    ],
+    "ease": "0.76,0,0.24,1",
+    "surface": "material-square"
+  }
 }

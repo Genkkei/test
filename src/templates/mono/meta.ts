@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'mono',
-  name: 'mono',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'mono' },
+  name: 'Моно',
+  inspiredBy: 'минимализм как вычитание: из захламлённой комнаты исчезает лишнее, остаются силуэты четырёх предметов; apple.com (воздух вокруг одного предмета), каталоги Muji и Hay',
+  mood: 'Чёрное, белое, бетон и пустота',
+  niches: ['Минималистичная мебель', 'монохромный интерьер', 'наборы для квартиры'],
+  defaultTheme: { bg: '#f0f0ee', fg: '#0b0b0b', accent: '#46464a', muted: '#6a6a6c', surface: '#dededb', line: '#bcbcb8', display: 'Sofia Sans Extra Condensed', body: 'Golos Text', motion: 1 },
+  art: 'stripes',
+  preview: { bg: '#f0f0ee', fg: '#0b0b0b', accent: '#46464a', word: 'Меньше' },
 }
