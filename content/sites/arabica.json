@@ -1,6 +1,6 @@
 {
   "slug": "arabica",
-  "template": "atelier",
+  "template": "cezve",
   "name": "Ваша компания",
   "tagline": "Спешелти-кофейня для эстетов: дегустационные сеты, редкие лоты и бар заваривания",
   "niche": "Спешелти-кофейня",
@@ -9,15 +9,16 @@
     "arabica.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#ece6dc",
-    "fg": "#1c1a17",
-    "accent": "#6b3e26",
-    "muted": "#76695d",
-    "surface": "#e0d8cb",
-    "line": "#d0c5b4",
-    "display": "Literata",
-    "body": "Inter Tight",
-    "motion": 1
+    "bg": "#f1ece3",
+    "fg": "#1f1a16",
+    "accent": "#a3352b",
+    "muted": "#776b5f",
+    "surface": "#e6ded1",
+    "line": "#d3c8b8",
+    "display": "Spectral",
+    "body": "Commissioner",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -99,7 +100,8 @@
         "label": "Карта лотов",
         "href": "#menu"
       },
-      "image": ""
+      "image": "/media/arabica-925408830aa06f70ddb4.webp",
+      "video": "/media/arabica-bf764e465aab4e4fd7e2.mp4"
     },
     {
       "id": "shop",
@@ -115,7 +117,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 72000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-bd8f222eee4c8a96d9d1.webp",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -125,7 +127,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 218000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-c5e43dacf084acdd9c6a.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -135,7 +137,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 191000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-9359a562176195669885.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -145,7 +147,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 628000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-7b57d8b181feddcdcd93.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -155,7 +157,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 168000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-00d5e9ef7ba4f6c4d6ad.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -165,7 +167,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 237000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-de6242843ca05b254cf4.webp",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -175,7 +177,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 172000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-ea3171dc62873bdb2fe2.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -185,7 +187,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 150000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/arabica-f06b06445ca259b230a0.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -200,7 +202,7 @@
       "label": "Ателье",
       "title": "Медленный кофе",
       "text": "В ателье нет сиропов и больших стаканов. Есть весы с точностью до десятой грамма, вода с подобранной минерализацией и бариста, который расскажет, почему эфиопский лот пахнет жасмином. Мы открыты для тех, кто хочет понимать кофе, — и для тех, кто просто хочет очень хорошую чашку.",
-      "image": ""
+      "image": "/media/arabica-5eb220ef784f20fcc2bd.webp"
     },
     {
       "id": "mq",
@@ -276,15 +278,15 @@
       "items": [
         {
           "caption": "Сифон на галогеновой горелке",
-          "image": ""
+          "image": "/media/arabica-47b8c71d3aa09edda5fe.webp"
         },
         {
           "caption": "Весы и воронки",
-          "image": ""
+          "image": "/media/arabica-d315f24d96506c80c464.webp"
         },
         {
           "caption": "Каппинг по субботам",
-          "image": ""
+          "image": "/media/arabica-67e18f50ef424ae36940.webp"
         }
       ]
     },
@@ -374,5 +376,22 @@
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Бар заваривания: весы с табло ведут гостя от дозы к проливу; карта лотов — лист каппинга с колесом вкусов",
+    "label": "Geist Mono",
+    "skeleton": "brew-scale",
+    "signature": "scale-readout",
+    "sequence": [
+      "scale",
+      "lcd-on",
+      "grams",
+      "iris-window",
+      "title-unblur",
+      "text",
+      "timer"
+    ],
+    "ease": "0.19,1,0.22,1",
+    "surface": "cupping-sheet"
+  }
 }

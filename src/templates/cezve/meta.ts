@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'cezve',
-  name: 'cezve',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'cezve' },
+  name: 'Каппинг',
+  inspiredBy: 'лист каппинга SCA и колесо вкусов, unbelievablycrap.com (строки из размытия), apple.com (тишина, один предмет)',
+  mood: 'Бар заваривания: весы с десятой грамма, воронка, ложка над чашкой',
+  niches: ['Спешелти-кофейня', 'обжарщик', 'чайная'],
+  defaultTheme: { bg: '#f1ece3', fg: '#1f1a16', accent: '#a3352b', muted: '#776b5f', surface: '#e6ded1', line: '#d3c8b8', display: 'Spectral', body: 'Commissioner', motion: 1 },
+  art: 'rings',
+  preview: { bg: '#f1ece3', fg: '#1f1a16', accent: '#a3352b', word: 'Каппинг' },
 }
