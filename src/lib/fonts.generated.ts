@@ -1,6 +1,7 @@
 // создаётся scripts/fonts.mjs — не править руками
 export const FONT_CSS: Record<string, string> = {
   "Alumni Sans": "/fonts/alumni-sans.ac3c4e6b0d.css",
+  "Balsamiq Sans": "/fonts/balsamiq-sans.22230a5284.css",
   "Brygada 1918": "/fonts/brygada-1918.a76096de57.css",
   "Commissioner": "/fonts/commissioner.0fda0e902e.css",
   "El Messiri": "/fonts/el-messiri.44a9f6e3bc.css",
@@ -10,6 +11,7 @@ export const FONT_CSS: Record<string, string> = {
   "IBM Plex Mono": "/fonts/ibm-plex-mono.aa94f770bb.css",
   "Lilex": "/fonts/lilex.4b80558a69.css",
   "Lunasima": "/fonts/lunasima.19cf26c77b.css",
+  "M PLUS Rounded 1c": "/fonts/m-plus-rounded-1c.1bba5f929f.css",
   "Martian Mono": "/fonts/martian-mono.526ed47d1e.css",
   "Noto Serif Display": "/fonts/noto-serif-display.8736fdc8e2.css",
   "PT Mono": "/fonts/pt-mono.a46801bd0f.css",
@@ -23,6 +25,7 @@ export const FONT_CSS: Record<string, string> = {
 }
 export const FONT_CATEGORY: Record<string, string> = {
   "Alumni Sans": "sans-serif",
+  "Balsamiq Sans": "display",
   "Brygada 1918": "serif",
   "Commissioner": "sans-serif",
   "El Messiri": "sans-serif",
@@ -32,6 +35,7 @@ export const FONT_CATEGORY: Record<string, string> = {
   "IBM Plex Mono": "monospace",
   "Lilex": "monospace",
   "Lunasima": "sans-serif",
+  "M PLUS Rounded 1c": "sans-serif",
   "Martian Mono": "monospace",
   "Noto Serif Display": "serif",
   "PT Mono": "monospace",

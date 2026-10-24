@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'kiddo',
-  name: 'kiddo',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'kiddo' },
+  name: 'Кубики',
+  inspiredBy: 'incredibles.dev (фигуры из квадратов-ступеней, пружинистая стопка), детские кубики с буквами, изометрия игр-конструкторов',
+  mood: 'Детская, которую строят из кубиков прямо на глазах',
+  niches: ['Детская мебель', 'игрушки', 'детский центр'],
+  defaultTheme: { bg: '#fff8ef', fg: '#2b2d5c', accent: '#ef6a4c', muted: '#6a6c96', surface: '#ffecd8', line: '#f0d8bf', display: 'Balsamiq Sans', body: 'M PLUS Rounded 1c', motion: 1 },
+  art: 'grid',
+  preview: { bg: '#fff8ef', fg: '#2b2d5c', accent: '#ef6a4c', word: 'Кубики' },
 }

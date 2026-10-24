@@ -143,8 +143,8 @@
     {
       "id": "gallery",
       "type": "gallery",
-      "label": "Kids’ rooms before and after",
-      "title": "Drag the slider",
+      "label": "Kids’ rooms",
+      "title": "Rooms we have furnished",
       "items": [
         {
           "caption": "A 9 m² room for two",

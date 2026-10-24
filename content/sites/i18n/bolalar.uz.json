@@ -143,8 +143,8 @@
     {
       "id": "gallery",
       "type": "gallery",
-      "label": "Bolalar xonasi oldin va keyin",
-      "title": "Slayderni suring",
+      "label": "Bolalar xonalari",
+      "title": "Biz jihozlagan xonalar",
       "items": [
         {
           "caption": "Ikki bola uchun 9 m² xona",
