@@ -1,6 +1,6 @@
 {
   "slug": "qahvauy",
-  "template": "bazaar",
+  "template": "salon",
   "name": "Ваша компания",
   "tagline": "Восточная кофейня у Чорсу: кофе по-турецки на песке, чай в пиалах и сладости",
   "niche": "Восточная кофейня",
@@ -9,15 +9,16 @@
     "qahvauy.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#e8efe9",
-    "fg": "#1d2b33",
+    "bg": "#f3ead9",
+    "fg": "#2a1b12",
     "accent": "#1f6f80",
-    "muted": "#5d6f73",
-    "surface": "#d9e4dd",
-    "line": "#c4d3cb",
-    "display": "Prata",
-    "body": "Lora",
-    "motion": 1
+    "muted": "#7a6450",
+    "surface": "#eadbc0",
+    "line": "#d8c6a6",
+    "display": "El Messiri",
+    "body": "Lunasima",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -104,7 +105,8 @@
         "label": "Меню",
         "href": "#menu"
       },
-      "image": ""
+      "image": "/media/qahvauy-7c98361c1281abd24698.webp",
+      "video": "/media/qahvauy-753fbc26666b649d3da8.mp4"
     },
     {
       "id": "mq",
@@ -126,88 +128,88 @@
       "enabled": true,
       "anchor": "shop",
       "label": "Магазин",
-      "title": "Кофе домой",
-      "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
+      "title": "Домой с базара",
+      "text": "Кофе нашего помола, медная посуда и сладости. Добавьте в корзину — перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Эфиопия Иргачефф",
-          "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
-          "price": 183000,
+          "name": "Кофе для джезвы, помол в пыль",
+          "text": "Бразилия и Эфиопия, обжарка у нас. 250 г.",
+          "price": 98000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
+          "image": "/media/qahvauy-04b68e87c97a679c8edc.webp",
+          "category": "Кофе",
           "badge": "Хит",
-          "unit": "250 г"
+          "unit": "пачка"
         },
         {
-          "name": "Колумбия Уила",
-          "text": "Карамель, красное яблоко, мягкая кислотность.",
-          "price": 160000,
+          "name": "Кофе с кардамоном",
+          "text": "Тот же помол с молотым зелёным кардамоном. 250 г.",
+          "price": 112000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
+          "image": "/media/qahvauy-964bd394adbbbf9bc433.webp",
+          "category": "Кофе",
           "badge": "",
-          "unit": "250 г"
+          "unit": "пачка"
         },
         {
-          "name": "Бразилия Серрадо",
-          "text": "Шоколад и орех — для эспрессо и молока.",
-          "price": 135000,
+          "name": "Медная джезва 250 мл",
+          "text": "Ручная чеканка, лужёная внутри, деревянная ручка.",
+          "price": 265000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
+          "image": "/media/qahvauy-b2d4b833b4247ddef26b.webp",
+          "category": "Посуда",
           "badge": "",
-          "unit": "250 г"
+          "unit": "шт"
         },
         {
-          "name": "Эспрессо-смесь «Дом»",
-          "text": "Плотная, сладкая, без горечи. Для кофемашины.",
-          "price": 407000,
+          "name": "Набор «Кофе на песке»",
+          "text": "Жаровня, кварцевый песок и джезва — варить дома, как у нас.",
+          "price": 690000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
-          "badge": "Хит",
-          "unit": "1 кг"
-        },
-        {
-          "name": "Кения АА",
-          "text": "Чёрная смородина, грейпфрут, сочное тело.",
-          "price": 209000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
+          "image": "/media/qahvauy-dc23d04b483cff877325.webp",
+          "category": "Посуда",
           "badge": "Новинка",
-          "unit": "250 г"
+          "unit": "набор"
         },
         {
-          "name": "Гватемала Антигуа",
-          "text": "Какао, специи, долгое послевкусие.",
-          "price": 170000,
+          "name": "Пиалы с орнаментом, пара",
+          "text": "Риштанская керамика, глазурь ишкор.",
+          "price": 140000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
+          "image": "/media/qahvauy-659d763ebd2d0793aad3.webp",
+          "category": "Посуда",
           "badge": "",
-          "unit": "250 г"
+          "unit": "пара"
         },
         {
-          "name": "Декаф Колумбия",
-          "text": "Без кофеина, но со вкусом: карамель и миндаль.",
-          "price": 154000,
+          "name": "Пахлава в коробке",
+          "text": "Грецкий орех и мёд, 500 г.",
+          "price": 120000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Зерно",
-          "badge": "",
-          "unit": "250 г"
-        },
-        {
-          "name": "Дрип-пакеты, ассорти",
-          "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
-          "price": 92000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Дрип и капсулы",
+          "image": "/media/qahvauy-df53414e1f407b590ae6.webp",
+          "category": "Сладости",
           "badge": "Хит",
-          "unit": "10 шт"
+          "unit": "коробка"
+        },
+        {
+          "name": "Халва кунжутная",
+          "text": "Плитка 400 г.",
+          "price": 58000,
+          "oldPrice": 0,
+          "image": "/media/qahvauy-45bd0569ea346c765d0a.webp",
+          "category": "Сладости",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Парварда",
+          "text": "Тянутая карамель с мукой, 300 г.",
+          "price": 36000,
+          "oldPrice": 0,
+          "image": "/media/qahvauy-192d45aac9e03f17f810.webp",
+          "category": "Сладости",
+          "badge": "",
+          "unit": "коробка"
         }
       ]
     },
@@ -219,7 +221,7 @@
       "label": "О доме",
       "title": "Дом кофе у старого базара",
       "text": "Мы варим кофе так, как его варили в караван-сараях: в медной джезве на горячем песке, медленно, с пеной. Зал — бывшая мастерская чеканщика с резными колоннами и айваном во дворе. Сладости делают по соседству — пахлава, халва и парварда.",
-      "image": ""
+      "image": "/media/qahvauy-185679314bf0f702e438.webp"
     },
     {
       "id": "menu",
@@ -296,15 +298,15 @@
       "items": [
         {
           "caption": "Песок и медные джезвы",
-          "image": ""
+          "image": "/media/qahvauy-5fed82b15a73005a39f9.webp"
         },
         {
           "caption": "Айван во дворе",
-          "image": ""
+          "image": "/media/qahvauy-4f6250baecd99b43ed69.webp"
         },
         {
           "caption": "Пахлава на подносе",
-          "image": ""
+          "image": "/media/qahvauy-75c7f5ff8bb116fca889.webp"
         }
       ]
     },
@@ -368,5 +370,22 @@
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Кофе на песке поднимают трижды: окно-пештак с джезвой наполняется тремя волнами, вокруг чертится гирих; меню — изразцы, двор — аркада, отзывы — открытки",
+    "label": "PT Mono",
+    "skeleton": "pishtaq-portal",
+    "signature": "three-rises",
+    "sequence": [
+      "girih-frame",
+      "rise-1",
+      "rise-2",
+      "rise-3",
+      "title",
+      "today-word",
+      "text"
+    ],
+    "ease": "0.33,1,0.68,1",
+    "surface": "majolica-tile"
+  }
 }

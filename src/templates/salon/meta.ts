@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'salon',
-  name: 'salon',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'salon' },
+  name: 'Джезва',
+  inspiredBy: 'пештак медресе и гирих, shopify editions (рамки, которые чертятся), кофе на песке — пена поднимается трижды',
+  mood: 'Медь, песок и бирюза купола Чорсу',
+  niches: ['Восточная кофейня', 'чайхана', 'кондитерская сладостей'],
+  defaultTheme: { bg: '#f3ead9', fg: '#2a1b12', accent: '#1f6f80', muted: '#7a6450', surface: '#eadbc0', line: '#d8c6a6', display: 'El Messiri', body: 'Lunasima', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#f3ead9', fg: '#2a1b12', accent: '#1f6f80', word: 'Джезва' },
 }

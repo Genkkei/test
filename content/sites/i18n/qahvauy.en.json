@@ -227,88 +227,88 @@
     {
       "id": "shop",
       "label": "Shop",
-      "title": "Coffee for home",
-      "text": "Add to cart and check out — we will call to confirm and deliver.",
+      "title": "Home from the bazaar",
+      "text": "Coffee of our own grind, copper ware and sweets. Add to cart — we will call, confirm and deliver.",
       "items": [
         {
-          "name": "Ethiopia Yirgacheffe",
-          "text": "Jasmine, bergamot, lemon zest. Light roast.",
-          "price": 183000,
+          "name": "Cezve coffee, powder-fine grind",
+          "text": "Brazil and Ethiopia, roasted in-house. 250 g.",
+          "price": 98000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
+          "category": "Coffee",
           "badge": "Bestseller",
-          "unit": "250 g"
+          "unit": "pack"
         },
         {
-          "name": "Colombia Huila",
-          "text": "Caramel, red apple, gentle acidity.",
-          "price": 160000,
+          "name": "Coffee with cardamom",
+          "text": "The same grind with ground green cardamom. 250 g.",
+          "price": 112000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
+          "category": "Coffee",
           "badge": "",
-          "unit": "250 g"
+          "unit": "pack"
         },
         {
-          "name": "Brazil Cerrado",
-          "text": "Chocolate and nuts — for espresso and milk.",
-          "price": 135000,
+          "name": "Copper cezve, 250 ml",
+          "text": "Hand-chased, tin-lined, wooden handle.",
+          "price": 265000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
+          "category": "Ware",
           "badge": "",
-          "unit": "250 g"
+          "unit": "pc"
         },
         {
-          "name": "House espresso blend",
-          "text": "Dense and sweet, no bitterness. For machines.",
-          "price": 407000,
+          "name": "“Coffee on sand” set",
+          "text": "Brazier, quartz sand and a cezve — brew at home the way we do.",
+          "price": 690000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
-          "badge": "Bestseller",
-          "unit": "1 kg"
-        },
-        {
-          "name": "Kenya AA",
-          "text": "Blackcurrant, grapefruit, juicy body.",
-          "price": 209000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Beans",
+          "category": "Ware",
           "badge": "New",
-          "unit": "250 g"
+          "unit": "set"
         },
         {
-          "name": "Guatemala Antigua",
-          "text": "Cocoa, spice, long finish.",
-          "price": 170000,
+          "name": "Ornamented piyolas, pair",
+          "text": "Rishtan ceramics, ishkor glaze.",
+          "price": 140000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
+          "category": "Ware",
           "badge": "",
-          "unit": "250 g"
+          "unit": "pair"
         },
         {
-          "name": "Decaf Colombia",
-          "text": "Caffeine-free, still tasty: caramel and almond.",
-          "price": 154000,
+          "name": "Pakhlava box",
+          "text": "Walnut and honey, 500 g.",
+          "price": 120000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beans",
-          "badge": "",
-          "unit": "250 g"
-        },
-        {
-          "name": "Drip bags, assorted",
-          "text": "Ten filter cups, no gear: pour and wait three minutes.",
-          "price": 92000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Drip & capsules",
+          "category": "Sweets",
           "badge": "Bestseller",
-          "unit": "10 pcs"
+          "unit": "box"
+        },
+        {
+          "name": "Sesame halva",
+          "text": "A 400 g slab.",
+          "price": 58000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sweets",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Parvarda",
+          "text": "Pulled caramel with flour, 300 g.",
+          "price": 36000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sweets",
+          "badge": "",
+          "unit": "box"
         }
       ]
     }
