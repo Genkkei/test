@@ -1,6 +1,6 @@
 {
   "slug": "nurkofe",
-  "template": "lumen",
+  "template": "nook",
   "name": "Ваша компания",
   "tagline": "Светлая кофейня-коворкинг с панорамными окнами: кофе, розетки у каждого стола и тихий зал",
   "niche": "Кофейня-коворкинг",
@@ -15,9 +15,10 @@
     "muted": "#66707c",
     "surface": "#f1eee6",
     "line": "#e2ded3",
-    "display": "Unbounded",
+    "display": "Ysabeau",
     "body": "Onest",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -66,7 +67,7 @@
   "nav": {
     "cta": {
       "label": "Забронировать место",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -94,7 +95,7 @@
       "words": [],
       "cta": {
         "label": "Забронировать место",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Цены",
@@ -116,7 +117,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 175000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-f269c93414ada74c5784.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -126,7 +127,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 105000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-18c2147cf41282484029.webp",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -136,7 +137,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 87000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-85d27f0b4344d1db78d9.webp",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -146,7 +147,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 264000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-5e75e0969a7ac0fcea75.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -156,7 +157,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 231000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-a7f652a63e4c846e4623.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -166,7 +167,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 759000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-5d969acf4ad85b3af3aa.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -176,7 +177,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 204000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-413fe84cb025546d6c72.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -186,7 +187,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 286000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/nurkofe-87d7feb15cf7e466abb6.webp",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -201,7 +202,7 @@
       "label": "О нас",
       "title": "Кофейня, где удобно работать",
       "text": "Мы сделали место, где не нужно выбирать между хорошим кофе и нормальным рабочим столом. Общий зал для тех, кому нравится шум кофемашины, тихий зал с библиотечными правилами и стеклянная переговорка. Бариста варят на зерне ташкентских обжарщиков.",
-      "image": ""
+      "image": "/media/nurkofe-9b86ca002776b8e390b3.webp"
     },
     {
       "id": "services",
@@ -274,17 +275,17 @@
         {
           "name": "Ислом",
           "role": "Старший бариста",
-          "image": ""
+          "image": "/media/nurkofe-32ccee83e8838dfc3fa1.webp"
         },
         {
           "name": "Мохира",
           "role": "Бариста, латте-арт",
-          "image": ""
+          "image": "/media/nurkofe-2dee8678833269be07d8.webp"
         },
         {
           "name": "Даниель",
           "role": "Администратор зала",
-          "image": ""
+          "image": "/media/nurkofe-b237e7df9cdb5456f148.webp"
         }
       ]
     },
@@ -366,9 +367,25 @@
       "text": "Ул. Мустакиллик, 59, 3 этаж. Будни 8:00–22:00, выходные 9:00–22:00.",
       "cta": {
         "label": "Забронировать место",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Панорамное окно третьего этажа: солнечные пятна ползут по стене, часы идут с 8:00, вилка входит в розетку; карточки цен отбрасывают длинные косые тени, этапы — дуга солнца",
+    "label": "Cousine",
+    "skeleton": "window-light-split",
+    "signature": "sunlight-sweep-plug",
+    "sequence": [
+      "window",
+      "sun-patches",
+      "clock",
+      "title",
+      "text",
+      "plug-in"
+    ],
+    "ease": "0.4,0,0.2,1",
+    "surface": "sun-shadow-card"
+  }
 }

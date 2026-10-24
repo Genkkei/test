@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book a seat",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -55,7 +55,7 @@
       "words": [],
       "cta": {
         "label": "Book a seat",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Prices",
@@ -220,7 +220,7 @@
       "text": "59 Mustaqillik St, 3rd floor. Weekdays 8:00–22:00, weekends 9:00–22:00.",
       "cta": {
         "label": "Book a seat",
-        "href": "#order"
+        "href": ""
       }
     },
     {
