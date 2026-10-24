@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Get a quote",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Get a quote",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Layouts",
@@ -246,7 +246,7 @@
       "text": "We will price the package within an hour. Showroom: 18 Yangi Sergeli St, Mon–Sat 09:00–19:00.",
       "cta": {
         "label": "Get a quote",
-        "href": "#order"
+        "href": ""
       }
     },
     {

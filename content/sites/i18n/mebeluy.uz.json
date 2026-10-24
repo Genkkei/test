@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "To‘plamni hisoblash",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "To‘plamni hisoblash",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Rejalar",
@@ -246,7 +246,7 @@
       "text": "To‘plamni bir soatda hisoblaymiz. Shourum: Yangi Sergeli, 18, du–sha 09:00 dan 19:00 gacha.",
       "cta": {
         "label": "To‘plamni hisoblash",
-        "href": "#order"
+        "href": ""
       }
     },
     {

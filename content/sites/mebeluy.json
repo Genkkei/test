@@ -1,6 +1,6 @@
 {
   "slug": "mebeluy",
-  "template": "nest",
+  "template": "flat",
   "name": "Ваша компания",
   "tagline": "Квартира в новостройке — с мебелью за 30 дней",
   "niche": "Мебель для новостроек пакетами",
@@ -15,9 +15,10 @@
     "muted": "#647079",
     "surface": "#e4eaed",
     "line": "#cbd5da",
-    "display": "Rubik",
+    "display": "Geologica",
     "body": "Golos Text",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Рассчитать пакет",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -97,7 +98,7 @@
       ],
       "cta": {
         "label": "Рассчитать пакет",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Планировки",
@@ -119,7 +120,7 @@
           "text": "Доводчики, ЛДСП + дуб.",
           "price": 2592000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-a0bb9d562fd765e69f65.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -129,7 +130,7 @@
           "text": "Пять полок, металл и дерево.",
           "price": 1536000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-8f6195ea207595c8ba78.webp",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
@@ -139,7 +140,7 @@
           "text": "Массив сосны, ортопедическое основание.",
           "price": 4608000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-cdb68068105b2ecfde48.webp",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
@@ -149,7 +150,7 @@
           "text": "Ящик и ниша.",
           "price": 758000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-75d10a2efb0a4fc09662.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -159,7 +160,7 @@
           "text": "Фасады с рифлением, скрытый кабель-канал.",
           "price": 2976000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-4b61de171e7b8eaa41e3.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -169,7 +170,7 @@
           "text": "120×60, ящик для мелочей.",
           "price": 1632000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-bb595ac4540651250453.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -179,7 +180,7 @@
           "text": "Рама из дуба, 170 см.",
           "price": 1200000,
           "oldPrice": 1440000,
-          "image": "",
+          "image": "/media/mebeluy-f64eb3a386d32a950d59.webp",
           "category": "Декор",
           "badge": "Скидка",
           "unit": "шт"
@@ -189,7 +190,7 @@
           "text": "Штанга и полки, 100 см.",
           "price": 3744000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/mebeluy-1f6c39be35738dbc1d25.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -337,19 +338,19 @@
       "items": [
         {
           "caption": "Двушка в Сергелях",
-          "image": ""
+          "image": "/media/mebeluy-c53bb01d4d0ccdf99983.webp"
         },
         {
           "caption": "Кухня в оливковом цвете",
-          "image": ""
+          "image": "/media/mebeluy-273e36c63f8f3a93c156.webp"
         },
         {
           "caption": "Прихожая с зеркалом",
-          "image": ""
+          "image": "/media/mebeluy-5344b205fe9500441d99.webp"
         },
         {
           "caption": "Детская с чердаком",
-          "image": ""
+          "image": "/media/mebeluy-51fa529c5ceb61bae091.webp"
         }
       ]
     },
@@ -389,9 +390,26 @@
       "text": "Рассчитаем пакет за час. Шоурум: Янги Сергели, 18, пн–сб с 09:00 до 19:00.",
       "cta": {
         "label": "Рассчитать пакет",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Планировка двушки: стены чертятся, мебель встаёт по комнатам, счётчик дней 1 → 30; планировки — мини-планы, ход заказа — календарь и кольца, пакеты — листы договора",
+    "label": "Noto Sans Mono",
+    "skeleton": "floorplan-split",
+    "signature": "furnish-plan",
+    "sequence": [
+      "sheet",
+      "walls",
+      "room-labels",
+      "furniture",
+      "day-counter",
+      "title",
+      "areas"
+    ],
+    "ease": "0.32,0.72,0,1",
+    "surface": "contract-sheet"
+  }
 }
