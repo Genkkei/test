@@ -69,8 +69,9 @@
 .tpl-hearth .hearth-mouth__fire::after { content: ''; position: absolute; inset: 0; background: radial-gradient(120% 70% at 50% 100%, transparent 40%, color-mix(in srgb, var(--bg) 70%, transparent)); pointer-events: none; }
 @keyframes hearthFire { from { opacity: 0; filter: blur(14px) brightness(1.8); transform: translateY(4%); } }
 .tpl-hearth .hearth-mouth__rim { position: absolute; inset: -1px; width: calc(100% + 2px); height: calc(100% + 2px); overflow: visible; pointer-events: none; opacity: calc(1 - var(--open, 0) * 2); }
-.tpl-hearth .hearth-mouth__rim path { fill: none; stroke: color-mix(in srgb, var(--fg) 55%, transparent); stroke-width: 1; stroke-dasharray: 1; stroke-dashoffset: 1; animation: hearthRim 1.2s var(--ease) both .1s; }
-@keyframes hearthRim { to { stroke-dashoffset: 0; } }
+.tpl-hearth .hearth-mouth__rim { animation: hearthRim 1.2s var(--ease) both .1s; }
+.tpl-hearth .hearth-mouth__rim path { fill: none; stroke: color-mix(in srgb, var(--fg) 55%, transparent); stroke-width: 1; }
+@keyframes hearthRim { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(-3%); } }
 
 .tpl-hearth .hearth-hero__foot { grid-column: 1; grid-row: 3; z-index: 2; display: grid; gap: 22px; max-width: min(30vw, 400px); opacity: calc(1 - var(--open, 0) * 2); }
 .tpl-hearth .hearth-hero__sub { margin: 0; color: color-mix(in srgb, var(--fg) 82%, transparent); }

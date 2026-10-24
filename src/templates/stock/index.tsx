@@ -258,7 +258,7 @@ function Services({ section: s }: SectionProps<'services'>) {
             <p>{it.text}</p>
             {it.price ? <span className="stock-cut__price">{it.price}</span> : null}
             <svg className="stock-cut__dim" viewBox="0 0 400 12" preserveAspectRatio="none" aria-hidden="true">
-              <path d="M1 0 V12 M399 0 V12 M1 6 H399 M1 6 L9 2 M1 6 L9 10 M399 6 L391 2 M399 6 L391 10" pathLength="1" vectorEffect="non-scaling-stroke" />
+              <path d="M1 0 V12 M399 0 V12 M1 6 H399 M1 6 L9 2 M1 6 L9 10 M399 6 L391 2 M399 6 L391 10" pathLength="1" />
             </svg>
           </li>
         ))}
