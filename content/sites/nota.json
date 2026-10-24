@@ -1,6 +1,6 @@
 {
   "slug": "nota",
-  "template": "vinyl",
+  "template": "score",
   "name": "Ваша компания",
   "tagline": "Музыкальная школа и студия, где учат играть то, что хочется слушать",
   "niche": "Музыкальная школа: гитара, фортепиано, вокал, барабаны, дутар; студия звукозаписи",
@@ -14,9 +14,10 @@
     "muted": "#a39a92",
     "surface": "#211c24",
     "line": "#352e38",
-    "display": "Unbounded",
+    "display": "Piazzolla",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "EducationalOrganization",
@@ -132,7 +133,7 @@
       "label": "О школе",
       "title": "Школа, где играют, а не сдают",
       "text": "«Ваша компания» открыли музыканты-сессионщики в 2017 году. Мы не готовим к экзаменам в консерваторию — мы учим играть: в группе, на сцене, для себя. Пять классов со звукоизоляцией, репетиционная комната с барабанами и усилителями и студия, где ученики записывают свой первый трек.",
-      "image": ""
+      "image": "/media/nota-5d2a6fe0269349d515a2.webp"
     },
     {
       "id": "lessons",
@@ -265,27 +266,27 @@
         {
           "name": "Сардор",
           "role": "гитара, бас",
-          "image": ""
+          "image": "/media/nota-852d99864da530728fc2.webp"
         },
         {
           "name": "Нилуфар",
           "role": "вокал",
-          "image": ""
+          "image": "/media/nota-43f4a2e995b91b18dbc9.webp"
         },
         {
           "name": "Дмитрий",
           "role": "барабаны",
-          "image": ""
+          "image": "/media/nota-959fdb50caf214c7af27.webp"
         },
         {
           "name": "Зиёда",
           "role": "фортепиано",
-          "image": ""
+          "image": "/media/nota-ebc756cc5287c93edb36.webp"
         },
         {
           "name": "Шавкат",
           "role": "дутар, макомы",
-          "image": ""
+          "image": "/media/nota-e54736aed96c731dd888.webp"
         }
       ]
     },
@@ -349,5 +350,22 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "craft": {
+    "concept": "Нотный стан во всю ширину: линейки и ключ чертятся, ноты падают в ритм, бегунок подсвечивает каждую, под нотами — инструменты; занятия — клавиши фортепиано, абонементы — нотные папки",
+    "label": "IBM Plex Mono",
+    "skeleton": "staff-across",
+    "signature": "notes-playhead",
+    "sequence": [
+      "staff-lines",
+      "clef",
+      "time",
+      "notes-drop",
+      "playhead",
+      "instruments",
+      "text"
+    ],
+    "ease": "0.33,1,0.68,1",
+    "surface": "piano-key"
+  }
 }
