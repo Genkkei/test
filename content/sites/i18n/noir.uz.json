@@ -79,7 +79,7 @@
       "type": "about",
       "label": "Bar",
       "title": "Qahva kokteyl kabi: aniq, sovuq, xarakterli",
-      "text": "Noirni shahar chempionatlarida g‘olib bo‘lgan va siropli lattedan charchagan baristalar ochgan. Har bir ichimlik ko‘z oldingizda tayyorlanadi, muzni qo‘lda maydalaymiz, sirop va damlamalarni o‘zimiz qaynatamiz. Bu yerda noutbuk va baland musiqa yo‘q — faqat peshtaxta, suhbat va ta’m.",
+      "text": "Baristamizni shahar chempionatlarida g‘olib bo‘lgan va siropli lattedan charchagan baristalar ochgan. Har bir ichimlik ko‘z oldingizda tayyorlanadi, muzni qo‘lda maydalaymiz, sirop va damlamalarni o‘zimiz qaynatamiz. Bu yerda noutbuk va baland musiqa yo‘q — faqat peshtaxta, suhbat va ta’m.",
       "image": ""
     },
     {
@@ -205,7 +205,7 @@
       "id": "testimonials",
       "type": "testimonials",
       "label": "Mehmonlar",
-      "title": "Noirdagi kechadan keyin",
+      "title": "Biznikidagi kechadan keyin",
       "items": [
         {
           "quote": "Uchrashuvga keldik, qahva haqidagi qaydlar daftari bilan ketdik. «Tutun» — bu teatr.",

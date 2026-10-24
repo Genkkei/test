@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'waffle',
-  name: 'waffle',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'waffle' },
+  name: 'Вафельница',
+  inspiredBy: 'unbelievablycrap.com (картинка проявляется ячейками по шагам), shopify editions (пружина у малого, рукописные пометки)',
+  mood: 'Утро выходного: тесто, ягоды, детские каракули на холодильнике',
+  niches: ['Семейное кафе', 'вафельная', 'блинная', 'кафе с детским уголком'],
+  defaultTheme: { bg: '#fdf4e3', fg: '#3a2316', accent: '#d9412f', muted: '#86654d', surface: '#f6e2b6', line: '#3a2316', display: 'Shantell Sans', body: 'Nunito', motion: 1 },
+  art: 'grid',
+  preview: { bg: '#fdf4e3', fg: '#3a2316', accent: '#d9412f', word: 'Вафли' },
 }

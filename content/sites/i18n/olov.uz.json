@@ -188,7 +188,7 @@
       "id": "gallery",
       "type": "gallery",
       "label": "Zal",
-      "title": "Olov’dagi oqshom",
+      "title": "Bizdagi oqshom",
       "items": [
         {
           "caption": "Ochiq oshxona va pech",
@@ -270,7 +270,7 @@
       "items": [
         {
           "q": "Stolni qanday bron qilish mumkin?",
-          "a": "+998 71 200-00-12 telefoni yoki Telegram’da @olov_table orqali har kuni 11:00 dan. Bronni 20 daqiqa ushlab turamiz, juma va shanba uchun 2–3 kun oldin bron qilgan ma’qul."
+          "a": "+998 71 200-00-12 telefoni yoki Telegram’da @yourcompany orqali har kuni 11:00 dan. Bronni 20 daqiqa ushlab turamiz, juma va shanba uchun 2–3 kun oldin bron qilgan ma’qul."
         },
         {
           "q": "O‘rtacha chek qancha?",

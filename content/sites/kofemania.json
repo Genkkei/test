@@ -1,6 +1,6 @@
 {
   "slug": "kofemania",
-  "template": "crust",
+  "template": "waffle",
   "name": "Ваша компания",
   "tagline": "Вафли, какао и кофе для всей семьи",
   "niche": "Семейная кофейня с вафлями",
@@ -8,15 +8,16 @@
     "kofemania.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#fff0f4",
-    "fg": "#2a1b3d",
-    "accent": "#7b3fe4",
-    "muted": "#6e5a80",
-    "surface": "#ffe1ea",
-    "line": "#2a1b3d",
-    "display": "Rubik Mono One",
+    "bg": "#fdf4e3",
+    "fg": "#3a2316",
+    "accent": "#d9412f",
+    "muted": "#86654d",
+    "surface": "#f6e2b6",
+    "line": "#3a2316",
+    "display": "Shantell Sans",
     "body": "Nunito",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -93,10 +94,11 @@
         "label": "Заказать домой",
         "href": "#order"
       },
-      "image": "",
+      "image": "/media/kofemania-a18d8d6e3325f2e86e64.webp",
       "enabled": true,
       "anchor": "",
-      "label": ""
+      "label": "",
+      "video": "/media/kofemania-8a5f624f285a94475b06.mp4"
     },
     {
       "id": "mq",
@@ -128,7 +130,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 210000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-891a729e09897aecccd5.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -138,7 +140,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 690000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-c99782447bff98d51f1e.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -148,7 +150,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 185000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-ad944bd250d71d8e9303.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -158,7 +160,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 260000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-8ca8a1ead3ca4f1353a7.webp",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -168,7 +170,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-72bee1a2167d801d61ba.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -178,7 +180,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 165000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-f58130d85a6712fa3017.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -188,7 +190,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 139000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-64475691585a46a5c906.webp",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -198,7 +200,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 420000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kofemania-7902329fa7f23ec28551.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -218,22 +220,26 @@
             {
               "name": "Классика с клубникой",
               "text": "Клубника, взбитые сливки, сахарная пудра",
-              "price": "38 000 сум"
+              "price": "38 000 сум",
+              "image": "/media/kofemania-d6d4da3268793d0a7352.webp"
             },
             {
               "name": "Нутелла и банан",
               "text": "Самая популярная у детей",
-              "price": "36 000 сум"
+              "price": "36 000 сум",
+              "image": "/media/kofemania-3381c64fd7e65590f1c7.webp"
             },
             {
               "name": "Сырная с ветчиной",
               "text": "Несладкая, на завтрак",
-              "price": "34 000 сум"
+              "price": "34 000 сум",
+              "image": "/media/kofemania-56738410d1b97fc6b1d5.webp"
             },
             {
               "name": "Мини-вафли",
               "text": "Пять штук с мёдом, порция для малышей",
-              "price": "22 000 сум"
+              "price": "22 000 сум",
+              "image": "/media/kofemania-abbeaed4b548ef40bcec.webp"
             }
           ]
         },
@@ -243,17 +249,20 @@
             {
               "name": "Какао с маршмеллоу",
               "text": "Тёплое, не горячее",
-              "price": "24 000 сум"
+              "price": "24 000 сум",
+              "image": "/media/kofemania-f2d6dfcf2f09cf213be6.webp"
             },
             {
               "name": "Молочный коктейль",
               "text": "Ваниль, клубника или шоколад",
-              "price": "27 000 сум"
+              "price": "27 000 сум",
+              "image": "/media/kofemania-9585a49d2fd285aacdfd.webp"
             },
             {
               "name": "Свежевыжатый сок",
               "text": "Яблоко или апельсин",
-              "price": "22 000 сум"
+              "price": "22 000 сум",
+              "image": "/media/kofemania-4ad8add439f9d5f0d711.webp"
             }
           ]
         },
@@ -263,17 +272,20 @@
             {
               "name": "Капучино",
               "text": "300 мл",
-              "price": "25 000 сум"
+              "price": "25 000 сум",
+              "image": "/media/kofemania-f3bc15f978dbb6457965.webp"
             },
             {
               "name": "Латте с халвой",
               "text": "Наш фирменный",
-              "price": "31 000 сум"
+              "price": "31 000 сум",
+              "image": "/media/kofemania-36486d3030f697d7d856.webp"
             },
             {
               "name": "Американо",
               "text": "Можно с собой",
-              "price": "19 000 сум"
+              "price": "19 000 сум",
+              "image": "/media/kofemania-cf3efeffacfe6bd652e2.webp"
             }
           ]
         }
@@ -287,7 +299,7 @@
       "label": "О нас",
       "title": "Кафе, куда можно с коляской",
       "text": "«Ваша компания» придумали двое родителей, которым надоело выбирать между хорошим кофе и местом, где ребёнку не скучно. У нас широкий вход без ступенек, пеленальный столик, детские стулья и уголок с конструктором и раскрасками. Тесто для вафель замешиваем каждое утро.",
-      "image": "",
+      "image": "/media/kofemania-ec54eda94232c5147505.webp",
       "enabled": true
     },
     {
@@ -319,7 +331,7 @@
     {
       "id": "stats",
       "type": "stats",
-      "label": "Кофемания в цифрах",
+      "label": "Мы в цифрах",
       "title": "",
       "items": [
         {
@@ -412,5 +424,21 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Вафельница: тесто в ячейках прожимается, в каждой открывается живая вафля; меню лежит в ячейках большой вафли",
+    "label": "Pangolin",
+    "skeleton": "waffle-iron",
+    "signature": "waffle-press",
+    "sequence": [
+      "letters-hop",
+      "iron",
+      "cells-press",
+      "steam",
+      "stickers",
+      "note"
+    ],
+    "ease": "0.22,1,0.36,1",
+    "surface": "waffle-pocket"
+  }
 }
