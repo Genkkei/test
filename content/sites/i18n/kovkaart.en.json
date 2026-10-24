@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Sketch",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -62,7 +62,7 @@
       ],
       "cta": {
         "label": "Order a sketch",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Portfolio",
@@ -280,49 +280,49 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Loft wall hanger",
-          "text": "Six hooks, powder coat.",
-          "price": 354000,
+          "name": "“Girih” window grille",
+          "text": "Eastern ornament, 100×120 cm.",
+          "price": 900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Grilles",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Wine rack",
-          "text": "Holds six bottles.",
-          "price": 468000,
+          "name": "“Wave” railing section, per m",
+          "text": "Walnut handrail.",
+          "price": 1300000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Railings",
           "badge": "New",
           "unit": "pc"
         },
         {
-          "name": "Hanging planter",
-          "text": "Forged ring and chain.",
-          "price": 302000,
+          "name": "Garden lantern",
+          "text": "Forged frame, glass, E27 bulb.",
+          "price": 1450000,
           "oldPrice": 0,
           "image": "",
-          "category": "Garden",
+          "category": "Lighting",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "House number plate",
-          "text": "Laser cut, your number.",
-          "price": 364000,
+          "name": "Forged garden bench",
+          "text": "Metal and pine, 150 cm.",
+          "price": 2704000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
+          "category": "Garden",
           "badge": "Bestseller",
           "unit": "pc"
         },
         {
-          "name": "“Mountains” wall art",
-          "text": "Corten, 90×45 cm.",
-          "price": 1248000,
+          "name": "“Vine” candle holder",
+          "text": "Three candles, grapes, gold patina.",
+          "price": 520000,
           "oldPrice": 0,
           "image": "",
           "category": "Decor",
@@ -335,14 +335,14 @@
           "price": 166000,
           "oldPrice": 0,
           "image": "",
-          "category": "Gifts",
+          "category": "Decor",
           "badge": "Bestseller",
           "unit": "pc"
         },
         {
-          "name": "Forged garden bench",
-          "text": "Steel and pine, 150 cm.",
-          "price": 2704000,
+          "name": "“Grape” planter",
+          "text": "Ring with vine and chain.",
+          "price": 340000,
           "oldPrice": 0,
           "image": "",
           "category": "Garden",
@@ -350,9 +350,9 @@
           "unit": "pc"
         },
         {
-          "name": "Railing section, per metre",
-          "text": "“Classic” pattern, fitting extra.",
-          "price": 1144000,
+          "name": "House number plaque",
+          "text": "Forged frame, gold patina.",
+          "price": 420000,
           "oldPrice": 0,
           "image": "",
           "category": "Decor",

@@ -1,6 +1,6 @@
 {
   "slug": "kovkaart",
-  "template": "darkroom",
+  "template": "arc",
   "name": "Ваша компания",
   "tagline": "Художественная ковка, которую хочется рассматривать",
   "niche": "Художественная ковка: ворота, перила, решётки и декор на заказ",
@@ -15,9 +15,10 @@
     "muted": "#8f8574",
     "surface": "#191714",
     "line": "#2e2a24",
-    "display": "Cormorant Garamond",
+    "display": "Old Standard TT",
     "body": "Jost",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -68,7 +69,7 @@
   "nav": {
     "cta": {
       "label": "Заказать эскиз",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -102,7 +103,7 @@
       ],
       "cta": {
         "label": "Заказать эскиз",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Портфолио",
@@ -120,51 +121,51 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Вешалка настенная лофт",
-          "text": "Шесть крюков, порошковая краска.",
-          "price": 354000,
+          "name": "Решётка «Гирих», оконная",
+          "text": "Восточный орнамент, 100×120 см.",
+          "price": 900000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/kovkaart-70fd59ab5f5b94f18cc3.webp",
+          "category": "Решётки",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Подставка для вина",
-          "text": "На шесть бутылок.",
-          "price": 468000,
+          "name": "Секция перил «Волна», пог. м",
+          "text": "Поручень из ореха.",
+          "price": 1300000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/kovkaart-b1bf47fa73f50b2ef23d.webp",
+          "category": "Перила",
           "badge": "Новинка",
           "unit": "шт"
         },
         {
-          "name": "Кашпо подвесное",
-          "text": "Кованое кольцо и цепь.",
-          "price": 302000,
+          "name": "Фонарь садовый",
+          "text": "Кованый каркас, стекло, под лампу E27.",
+          "price": 1450000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Для сада",
+          "image": "/media/kovkaart-655834697735bb2b6109.webp",
+          "category": "Свет",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Табличка с номером дома",
-          "text": "Лазерная резка, ваш номер.",
-          "price": 364000,
+          "name": "Скамья садовая кованая",
+          "text": "Металл и сосна, 150 см.",
+          "price": 2704000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/kovkaart-f772f30ca77e4b6adc87.webp",
+          "category": "Для сада",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Панно настенное «Горы»",
-          "text": "Кортен, 90×45 см.",
-          "price": 1248000,
+          "name": "Подсвечник «Лоза»",
+          "text": "Три свечи, гроздья, патина золотом.",
+          "price": 520000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kovkaart-8c1576d3603e97d4c411.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -174,27 +175,27 @@
           "text": "Подарок, который не вянет.",
           "price": 166000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Подарки",
+          "image": "/media/kovkaart-b63134c6bfcebb2de753.webp",
+          "category": "Декор",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Скамья садовая кованая",
-          "text": "Металл и сосна, 150 см.",
-          "price": 2704000,
+          "name": "Кашпо «Виноград»",
+          "text": "Кольцо с лозой и цепь.",
+          "price": 340000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kovkaart-a3efc612375ee04333d1.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Секция перил, погонный метр",
-          "text": "Узор «Классика», монтаж отдельно.",
-          "price": 1144000,
+          "name": "Табличка с номером дома",
+          "text": "Кованая рамка, патина золотом.",
+          "price": 420000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/kovkaart-587571965c02a2358a21.webp",
           "category": "Декор",
           "badge": "",
           "unit": "м"
@@ -214,7 +215,7 @@
           "category": "Частный дом",
           "year": "2026",
           "text": "Распашные ворота 4 м с лозой и гроздьями, патина золотом.",
-          "image": "",
+          "image": "/media/kovkaart-26f144c9bf19f185ac8d.webp",
           "href": ""
         },
         {
@@ -222,7 +223,7 @@
           "category": "Лестница",
           "year": "2025",
           "text": "Винтовая лестница на три этажа, поручень из ореха.",
-          "image": "",
+          "image": "/media/kovkaart-2bcc6c32120f717d7770.webp",
           "href": ""
         },
         {
@@ -230,7 +231,7 @@
           "category": "Сад",
           "year": "2025",
           "text": "Восьмигранная беседка с кованым куполом и фонарём.",
-          "image": "",
+          "image": "/media/kovkaart-5353c0c0eeeb236db2d8.webp",
           "href": ""
         },
         {
@@ -238,7 +239,7 @@
           "category": "Фасад",
           "year": "2024",
           "text": "Восточный орнамент на 12 окон старого дома в махалле.",
-          "image": "",
+          "image": "/media/kovkaart-194c2ec4bf46a4bb76da.webp",
           "href": ""
         }
       ]
@@ -253,27 +254,27 @@
       "items": [
         {
           "caption": "Завиток под молотом",
-          "image": ""
+          "image": "/media/kovkaart-89ee312ef4fda9f46efd.webp"
         },
         {
           "caption": "Ворота перед покраской",
-          "image": ""
+          "image": "/media/kovkaart-eecc50fecef2ce52f101.webp"
         },
         {
           "caption": "Патина золотом",
-          "image": ""
+          "image": "/media/kovkaart-47ee873c973444dbbac6.webp"
         },
         {
           "caption": "Монтаж перил",
-          "image": ""
+          "image": "/media/kovkaart-21715fda1a45e5e718f0.webp"
         },
         {
           "caption": "Лист с орнаментом",
-          "image": ""
+          "image": "/media/kovkaart-000f367b333413edb793.webp"
         },
         {
           "caption": "Купол беседки",
-          "image": ""
+          "image": "/media/kovkaart-fd84b39f560de1e35aa3.webp"
         }
       ]
     },
@@ -285,7 +286,7 @@
       "label": "Мастерская",
       "title": "Рисуем, прежде чем ковать",
       "text": "В мастерской работают художник и четыре кузнеца. Эскиз делаем в масштабе 1:10 с привязкой к фасаду вашего дома, а сложные элементы — в натуральную величину на плазе. Работаем с узором гирих, растительными мотивами и классическими завитками.",
-      "image": ""
+      "image": "/media/kovkaart-d42751817142da7190c5.webp"
     },
     {
       "id": "process",
@@ -420,5 +421,22 @@
         "href": "tel:+998712000407"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Эскиз навершия ворот: тонкая карандашная линия рисует арку и лозу, наливается толщиной прута, гроздья золотятся; портфолио — контактный лист с обведённым кадром, «плёнка» — лента",
+    "label": "Anonymous Pro",
+    "skeleton": "arch-frame-title",
+    "signature": "pencil-to-iron",
+    "sequence": [
+      "guides",
+      "arch-line",
+      "vine",
+      "forge-thick",
+      "grapes-gold",
+      "title",
+      "foot"
+    ],
+    "ease": "0.45,0,0.2,1",
+    "surface": "contact-sheet"
+  }
 }

@@ -1,6 +1,7 @@
 // создаётся scripts/fonts.mjs — не править руками
 export const FONT_CSS: Record<string, string> = {
   "Alumni Sans": "/fonts/alumni-sans.ac3c4e6b0d.css",
+  "Anonymous Pro": "/fonts/anonymous-pro.a4b87b6da1.css",
   "Balsamiq Sans": "/fonts/balsamiq-sans.22230a5284.css",
   "Bona Nova": "/fonts/bona-nova.65fb31ecf2.css",
   "Brygada 1918": "/fonts/brygada-1918.a76096de57.css",
@@ -28,6 +29,7 @@ export const FONT_CSS: Record<string, string> = {
   "Noto Sans Mono": "/fonts/noto-sans-mono.fe87359fe7.css",
   "Noto Serif Display": "/fonts/noto-serif-display.8736fdc8e2.css",
   "Nunito Sans": "/fonts/nunito-sans.8c82aa8452.css",
+  "Old Standard TT": "/fonts/old-standard-tt.e31556981d.css",
   "Overpass Mono": "/fonts/overpass-mono.f4a3947a66.css",
   "PT Mono": "/fonts/pt-mono.a46801bd0f.css",
   "PT Sans Narrow": "/fonts/pt-sans-narrow.a8fc356a71.css",
@@ -50,6 +52,7 @@ export const FONT_CSS: Record<string, string> = {
 }
 export const FONT_CATEGORY: Record<string, string> = {
   "Alumni Sans": "sans-serif",
+  "Anonymous Pro": "monospace",
   "Balsamiq Sans": "display",
   "Bona Nova": "serif",
   "Brygada 1918": "serif",
@@ -77,6 +80,7 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Noto Sans Mono": "sans-serif",
   "Noto Serif Display": "serif",
   "Nunito Sans": "sans-serif",
+  "Old Standard TT": "serif",
   "Overpass Mono": "monospace",
   "PT Mono": "monospace",
   "PT Sans Narrow": "sans-serif",

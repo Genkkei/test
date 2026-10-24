@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Eskiz",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -62,7 +62,7 @@
       ],
       "cta": {
         "label": "Eskiz buyurtma qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Portfolio",
@@ -280,49 +280,49 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Loft devor ilgichi",
-          "text": "Olti ilmoq, kukun bo‘yoq.",
-          "price": 354000,
+          "name": "«Girih» deraza panjarasi",
+          "text": "Sharqona naqsh, 100×120 sm.",
+          "price": 900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Panjaralar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Vino tokchasi",
-          "text": "Olti shisha uchun.",
-          "price": 468000,
+          "name": "«To‘lqin» panjara qismi, p. m",
+          "text": "Yong‘oq tutqich.",
+          "price": 1300000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Panjaralar",
           "badge": "Yangi",
           "unit": "dona"
         },
         {
-          "name": "Osma gultuvak",
-          "text": "Bolg‘alangan halqa va zanjir.",
-          "price": 302000,
+          "name": "Bog‘ chirog‘i",
+          "text": "Bolg‘alangan karkas, shisha, E27 lampa.",
+          "price": 1450000,
           "oldPrice": 0,
           "image": "",
-          "category": "Bog‘ uchun",
+          "category": "Yoritish",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Uy raqami lavhasi",
-          "text": "Lazer kesish, sizning raqamingiz.",
-          "price": 364000,
+          "name": "Bolg‘alangan bog‘ o‘rindig‘i",
+          "text": "Metall va qarag‘ay, 150 sm.",
+          "price": 2704000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
+          "category": "Bog‘ uchun",
           "badge": "Xit",
           "unit": "dona"
         },
         {
-          "name": "«Tog‘lar» devor panosi",
-          "text": "Korten, 90×45 sm.",
-          "price": 1248000,
+          "name": "«Tok» shamdoni",
+          "text": "Uch sham, boshlar, oltin patina.",
+          "price": 520000,
           "oldPrice": 0,
           "image": "",
           "category": "Dekor",
@@ -335,14 +335,14 @@
           "price": 166000,
           "oldPrice": 0,
           "image": "",
-          "category": "Sovg‘alar",
+          "category": "Dekor",
           "badge": "Xit",
           "unit": "dona"
         },
         {
-          "name": "Bolg‘alangan bog‘ skameykasi",
-          "text": "Metall va qarag‘ay, 150 sm.",
-          "price": 2704000,
+          "name": "«Uzum» gultoni",
+          "text": "Tokli halqa va zanjir.",
+          "price": 340000,
           "oldPrice": 0,
           "image": "",
           "category": "Bog‘ uchun",
@@ -350,9 +350,9 @@
           "unit": "dona"
         },
         {
-          "name": "Panjara bo‘lagi, metr",
-          "text": "«Klassika» naqshi, o‘rnatish alohida.",
-          "price": 1144000,
+          "name": "Uy raqami lavhasi",
+          "text": "Bolg‘alangan ramka, oltin patina.",
+          "price": 420000,
           "oldPrice": 0,
           "image": "",
           "category": "Dekor",
