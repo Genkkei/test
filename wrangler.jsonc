@@ -16,7 +16,9 @@
   // кэш готовых страниц сайтов: читают маршрутизаторы, стирает админка при сохранении (src/lib/pages-cache.ts)
   "kv_namespaces": [{ "binding": "PAGES", "id": "853cb4952bfb433e8740a3261abf2b7f" }],
   "vars": { "ATLAS_STORE": "d1", "ATLAS_URL": "https://atlas.genkai.workers.dev", "SITE_URL": "https://atlas.genkai.workers.dev" },
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  // карты исходников не загружаем: с 40+ шаблонами они больше лимита Cloudflare (15 МиБ сжатыми)
+  "upload_source_maps": false
   // Секреты: ADMIN_PASSWORD (вход владельца конструктора), ADMIN_SECRET (подпись кук и вебхуков) —
   // `npx wrangler secret put`, в репозиторий не попадают.
 }
