@@ -25,3 +25,4 @@ security/results/
 !.env.example
 /src/lib/export-snapshot.generated.ts
 .claude/worktrees/
+__pycache__/
