@@ -1,6 +1,6 @@
 {
   "slug": "temirchi",
-  "template": "bout",
+  "template": "workshop",
   "lang": "ru",
   "name": "Ваша компания",
   "tagline": "Молодая кузня: мастер-классы по ковке и кованые подарки",
@@ -15,9 +15,10 @@
     "muted": "#6a645c",
     "surface": "#e7e2d8",
     "line": "#d1c9bc",
-    "display": "Dela Gothic One",
+    "display": "Kelly Slab",
     "body": "Rubik",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Записаться",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -96,7 +97,7 @@
       ],
       "cta": {
         "label": "Записаться",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Программы",
@@ -130,73 +131,63 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Ключница-подкова",
-          "text": "Пять крючков, на счастье.",
-          "price": 167000,
+          "name": "Подкова на удачу",
+          "text": "Ручная ковка, воск, крючок для стены.",
+          "price": 180000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/temirchi-470cd1adda4c611938c2.webp",
+          "category": "Подарки",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Подсвечник с завитком",
+          "text": "Три свечи, кузнечная патина.",
+          "price": 420000,
+          "oldPrice": 0,
+          "image": "/media/temirchi-e8d29b7dffd35e1ddab5.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Полка на кронштейнах",
-          "text": "Дуб и чёрный металл, 80 см.",
-          "price": 484000,
+          "name": "Нож из рессоры",
+          "text": "Закалка, рукоять из ореха, ножны из кожи.",
+          "price": 1600000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/temirchi-ab220c4d75d0a3307f12.webp",
+          "category": "Ножи",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Вешалка настенная лофт",
-          "text": "Шесть крюков, порошковая краска.",
-          "price": 316000,
+          "name": "Кольца-обереги, пара",
+          "text": "Два кованых кольца в коробке.",
+          "price": 380000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
-          "badge": "",
-          "unit": "шт"
-        },
-        {
-          "name": "Подставка для вина",
-          "text": "На шесть бутылок.",
-          "price": 418000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/temirchi-3f4a316a8818ba66678b.webp",
+          "category": "Подарки",
           "badge": "Новинка",
           "unit": "шт"
         },
         {
-          "name": "Кашпо подвесное",
-          "text": "Кованое кольцо и цепь.",
-          "price": 270000,
+          "name": "Ключница-подкова",
+          "text": "Пять крючков, на счастье.",
+          "price": 167000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Для сада",
+          "image": "/media/temirchi-117bf9a8c7998237f5ed.webp",
+          "category": "Декор",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Табличка с номером дома",
-          "text": "Лазерная резка, ваш номер.",
-          "price": 326000,
+          "name": "Каминный набор",
+          "text": "Кочерга, совок и щипцы на стойке.",
+          "price": 690000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/temirchi-420783cef29f6d978bc0.webp",
+          "category": "Для дома",
           "badge": "Хит",
-          "unit": "шт"
-        },
-        {
-          "name": "Панно настенное «Горы»",
-          "text": "Кортен, 90×45 см.",
-          "price": 1116000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Декор",
-          "badge": "",
           "unit": "шт"
         },
         {
@@ -204,8 +195,18 @@
           "text": "Подарок, который не вянет.",
           "price": 149000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/temirchi-77225e81c9413b234c98.webp",
           "category": "Подарки",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Сертификат на мастер-класс",
+          "text": "Подкова на выбор, 2 часа у горна.",
+          "price": 350000,
+          "oldPrice": 0,
+          "image": "/media/temirchi-392582096daf57603f2e.webp",
+          "category": "Сертификаты",
           "badge": "Хит",
           "unit": "шт"
         }
@@ -218,7 +219,7 @@
       "label": "О кузне",
       "title": "Кузня, куда приходят за впечатлением",
       "text": "Нас трое кузнецов, и мы открыли кузню, чтобы люди могли почувствовать металл руками. Каждый участник работает у своей наковальни, а кузнец стоит рядом. Всё безопасно: защитные очки, кожаные фартуки и перчатки — наши, ваша задача — ударить.",
-      "image": "",
+      "image": "/media/temirchi-9e351078c96283428840.webp",
       "enabled": true
     },
     {
@@ -295,17 +296,17 @@
         {
           "name": "Шерзод",
           "role": "Главный кузнец, ножи и клинки",
-          "image": ""
+          "image": "/media/temirchi-8ebde46bce9d83862162.webp"
         },
         {
           "name": "Алишер",
           "role": "Художественная ковка, подсвечники",
-          "image": ""
+          "image": "/media/temirchi-f82b231f58dccd6352e3.webp"
         },
         {
           "name": "Камола",
           "role": "Мастер-классы для пар и детей",
-          "image": ""
+          "image": "/media/temirchi-b87a2ceda49a2c390c7c.webp"
         }
       ],
       "enabled": true
@@ -428,9 +429,26 @@
       "text": "Чиланзар, 19-й квартал, промзона, бокс 5. Вт–Пт 12:00–21:00, Сб–Вс 10:00–20:00.",
       "cta": {
         "label": "Записаться",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Афиша кузни: раскалённое слово на наковальне, три удара молотом — сплющивается, искрит, остывает по шкале каления, термометр 1200° → 700°; программы — полоски каления, сертификаты — жетоны",
+    "label": "Ubuntu Mono",
+    "skeleton": "anvil-poster",
+    "signature": "hammer-strike-cool",
+    "sequence": [
+      "anvil",
+      "hot-word",
+      "strike-1",
+      "strike-2",
+      "strike-3",
+      "cool",
+      "text"
+    ],
+    "ease": "0.2,0.9,0.3,1",
+    "surface": "forged-token"
+  }
 }

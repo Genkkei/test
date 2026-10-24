@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Yozilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "Yozilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Dasturlar",
@@ -279,7 +279,7 @@
       "text": "Chilonzor, 19-mavze, sanoat zonasi, 5-boks. Se–Ju 12:00–21:00, Sh–Ya 10:00–20:00.",
       "cta": {
         "label": "Yozilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -289,8 +289,48 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
+          "name": "Omad taqasi",
+          "text": "Qo‘lda bolg‘alangan, mum, devor ilgagi.",
+          "price": 180000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Jingalakli shamdon",
+          "text": "Uch sham, temirchi patinasi.",
+          "price": 420000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Dekor",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ressordan pichoq",
+          "text": "Toblangan, yong‘oq dasta, charm qin.",
+          "price": 1600000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Pichoqlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Tumor uzuklar, juft",
+          "text": "Qutidagi ikkita bolg‘alangan uzuk.",
+          "price": 380000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sovg‘alar",
+          "badge": "Yangi",
+          "unit": "dona"
+        },
+        {
           "name": "Taqa kalitdon",
-          "text": "Besh ilmoq, omad uchun.",
+          "text": "Beshta ilgak, omad uchun.",
           "price": 167000,
           "oldPrice": 0,
           "image": "",
@@ -299,63 +339,13 @@
           "unit": "dona"
         },
         {
-          "name": "Kronshteynli tokcha",
-          "text": "Eman va qora metall, 80 sm.",
-          "price": 484000,
+          "name": "Kamin to‘plami",
+          "text": "Kosov, kurakcha va qisqich tagligida.",
+          "price": 690000,
           "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Loft devor ilgichi",
-          "text": "Olti ilmoq, kukun bo‘yoq.",
-          "price": 316000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Dekor",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Vino tokchasi",
-          "text": "Olti shisha uchun.",
-          "price": 418000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Dekor",
-          "badge": "Yangi",
-          "unit": "dona"
-        },
-        {
-          "name": "Osma gultuvak",
-          "text": "Bolg‘alangan halqa va zanjir.",
-          "price": 270000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Bog‘ uchun",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Uy raqami lavhasi",
-          "text": "Lazer kesish, sizning raqamingiz.",
-          "price": 326000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Dekor",
+          "category": "Uy uchun",
           "badge": "Xit",
-          "unit": "dona"
-        },
-        {
-          "name": "«Tog‘lar» devor panosi",
-          "text": "Korten, 90×45 sm.",
-          "price": 1116000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Dekor",
-          "badge": "",
           "unit": "dona"
         },
         {
@@ -365,6 +355,16 @@
           "oldPrice": 0,
           "image": "",
           "category": "Sovg‘alar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Mahorat darsi sertifikati",
+          "text": "Tanlangan taqa, o‘choq yonida 2 soat.",
+          "price": 350000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sertifikatlar",
           "badge": "Xit",
           "unit": "dona"
         }

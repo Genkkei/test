@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "Book a place",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Workshops",
@@ -279,7 +279,7 @@
       "text": "Box 5, industrial zone, Block 19, Chilanzar. Tue–Fri 12:00–21:00, Sat–Sun 10:00–20:00.",
       "cta": {
         "label": "Book a place",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -289,7 +289,47 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Horseshoe key rack",
+          "name": "Lucky horseshoe",
+          "text": "Hand forged, waxed, wall hook.",
+          "price": 180000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Scroll candle holder",
+          "text": "Three candles, smith's patina.",
+          "price": 420000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Decor",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Leaf-spring knife",
+          "text": "Hardened, walnut handle, leather sheath.",
+          "price": 1600000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Knives",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Charm rings, pair",
+          "text": "Two forged rings in a box.",
+          "price": 380000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gifts",
+          "badge": "New",
+          "unit": "pc"
+        },
+        {
+          "name": "Horseshoe key holder",
           "text": "Five hooks, for luck.",
           "price": 167000,
           "oldPrice": 0,
@@ -299,63 +339,13 @@
           "unit": "pc"
         },
         {
-          "name": "Bracket shelf",
-          "text": "Oak and black steel, 80 cm.",
-          "price": 484000,
+          "name": "Fireplace set",
+          "text": "Poker, shovel and tongs on a stand.",
+          "price": 690000,
           "oldPrice": 0,
           "image": "",
-          "category": "Decor",
-          "badge": "",
-          "unit": "pc"
-        },
-        {
-          "name": "Loft wall hanger",
-          "text": "Six hooks, powder coat.",
-          "price": 316000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Decor",
-          "badge": "",
-          "unit": "pc"
-        },
-        {
-          "name": "Wine rack",
-          "text": "Holds six bottles.",
-          "price": 418000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Decor",
-          "badge": "New",
-          "unit": "pc"
-        },
-        {
-          "name": "Hanging planter",
-          "text": "Forged ring and chain.",
-          "price": 270000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Garden",
-          "badge": "",
-          "unit": "pc"
-        },
-        {
-          "name": "House number plate",
-          "text": "Laser cut, your number.",
-          "price": 326000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Decor",
+          "category": "Home",
           "badge": "Bestseller",
-          "unit": "pc"
-        },
-        {
-          "name": "“Mountains” wall art",
-          "text": "Corten, 90×45 cm.",
-          "price": 1116000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Decor",
-          "badge": "",
           "unit": "pc"
         },
         {
@@ -365,6 +355,16 @@
           "oldPrice": 0,
           "image": "",
           "category": "Gifts",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Workshop gift card",
+          "text": "Horseshoe of your choice, 2 hours at the forge.",
+          "price": 350000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Gift cards",
           "badge": "Bestseller",
           "unit": "pc"
         }
