@@ -1,6 +1,6 @@
 {
   "slug": "grain",
-  "template": "roast",
+  "template": "terroir",
   "name": "Ваша компания",
   "tagline": "Обжариваем спешелти в Ташкенте каждый вторник",
   "niche": "Обжарщик спешелти-кофе и кофейня",
@@ -9,15 +9,16 @@
     "grain.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#ebe3d6",
-    "fg": "#2b1d14",
+    "bg": "#efe8dc",
+    "fg": "#1f1a14",
     "accent": "#2f5bd3",
-    "muted": "#7a6656",
-    "surface": "#ddd0bd",
-    "line": "#c9b9a2",
-    "display": "Oswald",
-    "body": "Rubik",
-    "motion": 1
+    "muted": "#76695a",
+    "surface": "#e4dac9",
+    "line": "#cdbfa8",
+    "display": "Vollkorn",
+    "body": "Libre Franklin",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -94,7 +95,8 @@
         "label": "Меню кофейни",
         "href": "#menu"
       },
-      "image": ""
+      "image": "/media/grain-88c09d19b3922eb7643d.webp",
+      "video": "/media/grain-0d1679cd9e0a3906d3f5.mp4"
     },
     {
       "id": "tape",
@@ -125,7 +127,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 86000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-350efd3036ee760428d8.webp",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -135,7 +137,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 71000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-5491b44d4dbf678be2cf.webp",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -145,7 +147,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 216000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-0ea44e8c7ab5f336f1b4.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -155,7 +157,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-aca6592f33d449cdb52f.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -165,7 +167,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 621000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-36648b79169a498f3f04.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -175,7 +177,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 166000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-aab31195d83c7d3aaa86.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -185,7 +187,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 234000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-e82719f6cf5d17d623ee.webp",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -195,7 +197,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 170000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/grain-6d0ab53d891d30cbbc20.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -210,7 +212,7 @@
       "label": "О нас",
       "title": "Маленькая обжарочная с большим упрямством",
       "text": "Мы начали в 2021 году с ростера на пять килограммов в гараже на Чиланзаре. Сегодня жарим до 300 килограммов в неделю, но правила те же: знаем каждую ферму по имени, капируем каждую партию и не продаём кофе старше месяца после обжарки. В кофейне на Мирабаде можно попробовать любой сорт с полки — фильтром, эспрессо или на аэропрессе.",
-      "image": ""
+      "image": "/media/grain-2b2af9145da0edeb4845.webp"
     },
     {
       "id": "beans",
@@ -519,5 +521,22 @@
     "description": "Сайт для кофейни, обжарщика или пекарни. Пачки зерна на полке с нотами вкуса и ценой, пар над чашкой на WebGL, меню кофейни, подписка на зерно и путь от фермы до чашки.",
     "features": [],
     "forSale": true
+  },
+  "craft": {
+    "concept": "Карта кофейного пояса: от каждой фермы с полки недели к обжарке в Ташкенте чертится тропа зерна; у пачки — координаты и путь в км",
+    "label": "Source Code Pro",
+    "skeleton": "origin-chart",
+    "signature": "bean-trail",
+    "sequence": [
+      "grid",
+      "belt",
+      "farms",
+      "trails",
+      "tashkent-pin",
+      "roast-window",
+      "text"
+    ],
+    "ease": "0.65,0,0.35,1",
+    "surface": "coffee-bag"
   }
 }

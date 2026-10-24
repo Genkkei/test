@@ -9,6 +9,7 @@ export const FONT_CSS: Record<string, string> = {
   "Forum": "/fonts/forum.9807b2068f.css",
   "Geist Mono": "/fonts/geist-mono.11f0abddc3.css",
   "IBM Plex Mono": "/fonts/ibm-plex-mono.aa94f770bb.css",
+  "Libre Franklin": "/fonts/libre-franklin.1df66ccda2.css",
   "Lilex": "/fonts/lilex.4b80558a69.css",
   "Lunasima": "/fonts/lunasima.19cf26c77b.css",
   "M PLUS Rounded 1c": "/fonts/m-plus-rounded-1c.1bba5f929f.css",
@@ -19,7 +20,9 @@ export const FONT_CSS: Record<string, string> = {
   "Pangolin": "/fonts/pangolin.4bbf4510cc.css",
   "Roboto Mono": "/fonts/roboto-mono.7e79f537ea.css",
   "Shantell Sans": "/fonts/shantell-sans.4e00bdfa8a.css",
+  "Source Code Pro": "/fonts/source-code-pro.5ed135df90.css",
   "Spectral": "/fonts/spectral.6050401680.css",
+  "Vollkorn": "/fonts/vollkorn.081ed5df14.css",
   "Wix Madefor Text": "/fonts/wix-madefor-text.89b4bc3b79.css",
   "Ysabeau": "/fonts/ysabeau.0055b5715e.css"
 }
@@ -33,6 +36,7 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Forum": "display",
   "Geist Mono": "monospace",
   "IBM Plex Mono": "monospace",
+  "Libre Franklin": "sans-serif",
   "Lilex": "monospace",
   "Lunasima": "sans-serif",
   "M PLUS Rounded 1c": "sans-serif",
@@ -43,7 +47,9 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Pangolin": "handwriting",
   "Roboto Mono": "monospace",
   "Shantell Sans": "display",
+  "Source Code Pro": "monospace",
   "Spectral": "serif",
+  "Vollkorn": "serif",
   "Wix Madefor Text": "sans-serif",
   "Ysabeau": "sans-serif"
 }

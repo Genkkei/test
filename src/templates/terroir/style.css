@@ -1,1 +1,216 @@
-/* заготовка */
+/* ПРОИСХОЖДЕНИЕ — обжарщик спешелти. Бумага карты, тёмный кофе текста, синий картографический для маршрутов.
+   Vollkorn — заголовки, Libre Franklin — текст, Source Code Pro — координаты, метки и цены.
+   Ведущий приём — тропа зерна: от каждой фермы до обжарки чертится пунктир. */
+
+.tpl-terroir {
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --draw: cubic-bezier(.65, 0, .35, 1);
+  --pad: max(16px, min(5vw, 80px));
+  --mono: 'Source Code Pro', ui-monospace, monospace;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: clamp(15px, 1.05vw, 17px);
+  line-height: 1.6;
+}
+.tpl-terroir ::selection { background: var(--accent); color: var(--bg); }
+.tpl-terroir .terroir-label { margin: 0; font: 500 12px/1.3 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.tpl-terroir .terroir-h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(34px, 4.4vw, 68px); line-height: 1.02; letter-spacing: -.015em; text-wrap: balance; }
+.tpl-terroir .terroir-head { display: grid; gap: 12px; max-width: 900px; margin-bottom: clamp(28px, 4vw, 56px); }
+.tpl-terroir .terroir-head__intro { margin: 0; color: var(--muted); }
+
+.tpl-terroir .terroir-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 0 24px; border-radius: 6px; background: var(--fg); color: var(--bg); font: 600 15px/1 var(--font-body); text-decoration: none; transition: transform 140ms var(--ease), background-color .2s ease; }
+.tpl-terroir .terroir-btn:active { transform: scale(.97); }
+.tpl-terroir .terroir-btn--sm { min-height: 40px; padding: 0 16px; font-size: 14px; }
+.tpl-terroir .terroir-link { display: inline-flex; align-items: center; min-height: 50px; font-weight: 600; color: var(--accent); text-decoration: none; }
+@media (hover: hover) and (pointer: fine) { .tpl-terroir .terroir-btn:hover { background: var(--accent); } .tpl-terroir .terroir-link:hover { text-decoration: underline; text-underline-offset: 5px; } }
+
+.tpl-terroir .terroir-bar { position: sticky; top: 0; z-index: 30; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 12px var(--pad); background: color-mix(in srgb, var(--bg) 94%, transparent); border-bottom: 1px solid var(--line); }
+.tpl-terroir .terroir-bar__logo { font: 700 22px/1 var(--font-display); color: inherit; text-decoration: none; }
+.tpl-terroir .terroir-bar__nav { display: flex; justify-content: center; gap: 24px; }
+.tpl-terroir .terroir-bar__nav a { font-size: 14px; color: color-mix(in srgb, var(--fg) 72%, transparent); text-decoration: none; transition: color .15s ease; }
+.tpl-terroir .terroir-bar__nav a:hover { color: var(--accent); }
+.tpl-terroir .terroir-bar__side { display: flex; align-items: center; gap: 14px; }
+.tpl-terroir .mmenu__btn { display: none; }
+@media (max-width: 1020px) { .tpl-terroir .terroir-bar__nav { display: none; } .tpl-terroir .terroir-bar { grid-template-columns: 1fr auto; } .tpl-terroir .mmenu__btn { display: inline-flex; } }
+@media (max-width: 520px) { .tpl-terroir .terroir-bar .terroir-btn--sm { display: none; } }
+
+/* ───────── первый экран: карта кофейного пояса ───────── */
+.tpl-terroir .terroir-hero { padding: clamp(24px, 3.4vw, 52px) var(--pad) clamp(40px, 5vw, 72px); }
+.tpl-terroir .terroir-hero__head { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 20px clamp(24px, 5vw, 80px); align-items: end; margin-bottom: clamp(18px, 2.6vw, 40px); }
+.tpl-terroir .terroir-hero__text { display: grid; gap: 16px; }
+.tpl-terroir .terroir-title { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(42px, 5.4vw, 92px); line-height: .98; letter-spacing: -.025em; text-wrap: balance; }
+.tpl-terroir .terroir-hero__side { display: grid; gap: 16px; }
+.tpl-terroir .terroir-cup { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.tpl-terroir .terroir-cup span { font: 500 12px/1 var(--mono); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.tpl-terroir .terroir-cup b { display: inline-block; font: italic 600 clamp(26px, 2.4vw, 36px)/1 var(--font-display); color: var(--accent); }
+.tpl-terroir .terroir-hero__sub { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+.tpl-terroir .terroir-hero__ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; }
+.tpl-terroir .terroir-in { animation: terroirIn .8s var(--ease) both; animation-delay: calc(.1s + var(--i) * 90ms); }
+@keyframes terroirIn { from { opacity: 0; transform: translateY(12px); } }
+
+.tpl-terroir .terroir-chart { position: relative; border-block: 1px solid var(--fg); background: color-mix(in srgb, var(--surface) 55%, var(--bg)); }
+.tpl-terroir .terroir-chart__svg { display: block; width: 100%; height: auto; overflow: visible; }
+.tpl-terroir .terroir-grid line { stroke: color-mix(in srgb, var(--fg) 12%, transparent); stroke-width: 1; animation: terroirFade .8s ease both; }
+.tpl-terroir .terroir-grid line.is-eq { stroke: color-mix(in srgb, var(--fg) 30%, transparent); stroke-dasharray: 6 6; }
+.tpl-terroir .terroir-belt { fill: color-mix(in srgb, var(--accent) 7%, transparent); stroke: color-mix(in srgb, var(--accent) 35%, transparent); stroke-width: 1; animation: terroirBelt 1s var(--draw) .3s both; transform-origin: 0 50%; transform-box: fill-box; }
+@keyframes terroirBelt { from { transform: scaleX(0); } }
+@keyframes terroirFade { from { opacity: 0; } }
+.tpl-terroir .terroir-belt__label { font: 500 11px var(--mono); letter-spacing: .06em; fill: var(--accent); animation: terroirFade .6s ease 1s both; }
+.tpl-terroir .terroir-origin__dot { fill: var(--fg); animation: terroirPop .5s cubic-bezier(.34, 1.56, .64, 1) both; animation-delay: calc(.7s + var(--i) * 110ms); transform-box: fill-box; transform-origin: center; }
+@keyframes terroirPop { from { transform: scale(0); } }
+.tpl-terroir .terroir-origin__name { font: 600 15px var(--font-body); fill: var(--fg); animation: terroirFade .5s ease both; animation-delay: calc(.85s + var(--i) * 110ms); }
+.tpl-terroir .terroir-origin__coord { font: 500 10px var(--mono); fill: var(--muted); animation: terroirFade .5s ease both; animation-delay: calc(.95s + var(--i) * 110ms); }
+.tpl-terroir .terroir-trail { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-dasharray: .1 8; }
+.tpl-terroir .terroir-trail__reveal { fill: none; stroke: #fff; stroke-width: 10; stroke-dasharray: 1; stroke-dashoffset: 1; animation: terroirDraw 1.3s var(--draw) both; animation-delay: calc(1.2s + var(--i) * 160ms); }
+@keyframes terroirDraw { to { stroke-dashoffset: 0; } }
+.tpl-terroir .terroir-home .terroir-origin__name { font-size: 16px; font-weight: 700; animation-delay: 2.1s; }
+.tpl-terroir .terroir-home .terroir-origin__coord { animation-delay: 2.15s; }
+.tpl-terroir .terroir-home__dot { fill: var(--accent); animation: terroirPop .6s cubic-bezier(.34, 1.56, .64, 1) 2s both; transform-box: fill-box; transform-origin: center; }
+.tpl-terroir .terroir-home__ring { fill: none; stroke: var(--accent); stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: terroirPing 2.4s ease-out 2.2s infinite; }
+@keyframes terroirPing { 0% { transform: scale(.6); opacity: 1; } 80%, 100% { transform: scale(2.4); opacity: 0; } }
+.tpl-terroir .terroir-chart__window { position: absolute; width: clamp(110px, 15vw, 210px); aspect-ratio: 1; translate: 18% 14%; border-radius: 50%; overflow: hidden; border: 3px solid var(--bg); box-shadow: 0 0 0 1px var(--fg), 0 16px 30px -18px #000; animation: terroirWindow .9s var(--ease) 2.3s both; }
+.tpl-terroir .terroir-chart__window video, .tpl-terroir .terroir-chart__window .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+@keyframes terroirWindow { from { clip-path: circle(0% at 0% 0%); } to { clip-path: circle(75% at 50% 50%); } }
+@media (max-width: 860px) {
+  .tpl-terroir .terroir-hero__head { grid-template-columns: minmax(0, 1fr); }
+  .tpl-terroir .terroir-chart { margin-inline: calc(var(--pad) * -1); overflow-x: auto; scrollbar-width: none; }
+  .tpl-terroir .terroir-chart__svg { width: 720px; max-width: none; }
+  .tpl-terroir .terroir-chart__window { display: none; }
+}
+
+.tpl-terroir .s-answer { padding: 0 var(--pad) clamp(40px, 6vw, 80px); }
+.tpl-terroir .s-answer .s__inner { max-width: 780px; margin: 0; padding: 0; }
+.tpl-terroir .s-answer__text { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+
+/* ───────── появление ───────── */
+html.motion .tpl-terroir [data-te] { transition: opacity .7s var(--ease), transform .8s var(--ease); transition-delay: calc(var(--i, 0) * 80ms); }
+html.motion .tpl-terroir [data-te]:not(.is-in) { opacity: 0; }
+html.motion .tpl-terroir [data-te='rise']:not(.is-in) { transform: translateY(16px); }
+html.motion .tpl-terroir [data-te='stamp'] { transition: opacity .2s ease, transform .45s cubic-bezier(.34, 1.56, .64, 1); }
+html.motion .tpl-terroir [data-te='stamp']:not(.is-in) { transform: scale(1.6) rotate(var(--r)); }
+
+/* ───────── штампы ───────── */
+.tpl-terroir .terroir-stamps { padding: 0 var(--pad) clamp(40px, 5vw, 72px); }
+.tpl-terroir .terroir-stamps ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px 18px; }
+.tpl-terroir .terroir-stamps li { padding: 9px 14px; border: 2px solid color-mix(in srgb, var(--accent) 75%, transparent); border-radius: 6px; outline: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 3px; color: var(--accent); font: 600 12px/1.2 var(--mono); text-transform: uppercase; letter-spacing: .05em; rotate: var(--r); }
+
+/* ───────── о нас ───────── */
+.tpl-terroir .terroir-about { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(28px, 6vw, 110px); align-items: center; padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .terroir-about__text { display: grid; gap: 16px; }
+.tpl-terroir .terroir-about__text p:not(.terroir-label) { margin: 0; color: color-mix(in srgb, var(--fg) 82%, transparent); }
+.tpl-terroir .terroir-about__photo { position: relative; aspect-ratio: 3 / 2; overflow: hidden; border-radius: 4px; }
+.tpl-terroir .terroir-about__photo .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 820px) { .tpl-terroir .terroir-about { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── зерно недели: пачки ───────── */
+.tpl-terroir .terroir-shelf { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-terroir .terroir-bags { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: clamp(16px, 2vw, 28px); }
+.tpl-terroir .terroir-bag { position: relative; display: grid; gap: 10px; align-content: start; padding: 34px 22px 22px; background: #fbf7f0; border-radius: 4px 4px 14px 14px; box-shadow: 0 1px 0 var(--line), 0 18px 30px -24px rgba(40, 25, 10, .5); }
+.tpl-terroir .terroir-bag::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 12px; border-radius: 4px 4px 0 0; background: repeating-linear-gradient(90deg, color-mix(in srgb, var(--fg) 14%, transparent) 0 2px, transparent 2px 6px); }
+.tpl-terroir .terroir-bag__valve { position: absolute; top: 22px; right: 20px; width: 14px; height: 14px; border-radius: 50%; border: 2px solid color-mix(in srgb, var(--fg) 25%, transparent); }
+.tpl-terroir .terroir-bag__origin { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; font: 600 13px/1 var(--mono); text-transform: uppercase; letter-spacing: .04em; color: var(--accent); }
+.tpl-terroir .terroir-bag__origin small { font-size: 11px; color: var(--muted); }
+.tpl-terroir .terroir-bag h3 { margin: 0; font: 600 clamp(22px, 1.9vw, 28px)/1.1 var(--font-display); }
+.tpl-terroir .terroir-bag__notes { margin: 0; font: italic 400 17px/1.4 var(--font-display); color: color-mix(in srgb, var(--fg) 82%, transparent); }
+.tpl-terroir .terroir-bag__route { margin: 6px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); display: grid; gap: 2px; font: 500 11px/1.4 var(--mono); color: var(--muted); }
+.tpl-terroir .terroir-bag__price { font: 600 16px/1 var(--mono); }
+
+/* ───────── путь зерна ───────── */
+.tpl-terroir .terroir-path { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .terroir-path__list { position: relative; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: clamp(14px, 2vw, 28px); }
+.tpl-terroir .terroir-path__line { position: absolute; left: 0; right: 0; top: 8px; height: 2px; background: repeating-linear-gradient(90deg, var(--accent) 0 3px, transparent 3px 10px); clip-path: inset(0 calc((1 - var(--p, 1)) * 100%) 0 0); }
+.tpl-terroir .terroir-path__list li { position: relative; display: grid; gap: 8px; align-content: start; padding-top: 30px; opacity: clamp(.25, (var(--p, 1) * var(--n) - var(--i)) * 1.5, 1); }
+.tpl-terroir .terroir-path__dot { position: absolute; top: 0; left: 0; width: 18px; height: 18px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; background: #6b4325; box-shadow: inset -3px 0 0 #4a2c17; rotate: -30deg; }
+.tpl-terroir .terroir-path__n { font: 500 12px/1 var(--mono); color: var(--muted); }
+.tpl-terroir .terroir-path__list h3 { margin: 0; font: 600 clamp(22px, 1.9vw, 28px)/1.1 var(--font-display); }
+.tpl-terroir .terroir-path__list p { margin: 0; color: color-mix(in srgb, var(--fg) 78%, transparent); font-size: 15px; }
+@media (max-width: 860px) {
+  .tpl-terroir .terroir-path__list { grid-template-columns: minmax(0, 1fr); padding-left: 34px; gap: 26px; }
+  .tpl-terroir .terroir-path__line { left: 8px; right: auto; top: 0; bottom: 0; width: 2px; height: auto; background: repeating-linear-gradient(180deg, var(--accent) 0 3px, transparent 3px 10px); clip-path: inset(0 0 calc((1 - var(--p, 1)) * 100%) 0); }
+  .tpl-terroir .terroir-path__list li { padding-top: 0; }
+  .tpl-terroir .terroir-path__dot { left: -34px; }
+}
+
+/* ───────── меню кофейни ───────── */
+.tpl-terroir .terroir-menu { padding: clamp(56px, 8vw, 120px) var(--pad); background: #231b14; color: #efe8dc; }
+.tpl-terroir .terroir-menu .terroir-label { color: #8fb0ff; }
+.tpl-terroir .terroir-menu__cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: clamp(24px, 3vw, 48px); }
+.tpl-terroir .terroir-menu h3 { margin: 0 0 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(239, 232, 220, .25); font: italic 600 26px/1 var(--font-display); }
+.tpl-terroir .terroir-menu ul { list-style: none; margin: 0; padding: 0; }
+.tpl-terroir .terroir-menu li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px dashed rgba(239, 232, 220, .15); }
+.tpl-terroir .terroir-menu li span { display: grid; }
+.tpl-terroir .terroir-menu li small { color: #b5a891; font-size: 14px; }
+.tpl-terroir .terroir-menu li em { font: 500 14px/1.5 var(--mono); font-style: normal; white-space: nowrap; }
+
+/* ───────── подписка ───────── */
+.tpl-terroir .terroir-subs { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .terroir-subs__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: clamp(16px, 2vw, 28px); align-items: end; }
+.tpl-terroir .terroir-subs__list > li { display: grid; gap: 12px; padding: 26px 24px; border: 1px solid var(--fg); border-radius: 4px; background: #fbf7f0; }
+.tpl-terroir .terroir-subs__list > li.is-featured { padding-top: 48px; background: var(--accent); color: #f3f6ff; border-color: var(--accent); }
+.tpl-terroir .terroir-subs__list h3 { margin: 0; font: 600 28px/1 var(--font-display); }
+.tpl-terroir .terroir-subs__price { margin: 0; font: 600 20px/1.2 var(--mono); }
+.tpl-terroir .terroir-subs__price small { font-size: 13px; opacity: .7; }
+.tpl-terroir .terroir-subs__list ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.tpl-terroir .terroir-subs__list ul li { padding-left: 18px; position: relative; font-size: 15px; }
+.tpl-terroir .terroir-subs__list ul li::before { content: ''; position: absolute; left: 0; top: .55em; width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid currentColor; }
+
+/* ───────── цифры ───────── */
+.tpl-terroir .terroir-stats { padding: clamp(40px, 6vw, 96px) var(--pad); }
+.tpl-terroir .terroir-stats dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px; }
+.tpl-terroir .terroir-stats dl > div { display: flex; flex-direction: column-reverse; gap: 6px; border-left: 1px solid var(--fg); padding-left: 16px; }
+.tpl-terroir .terroir-stats dd { margin: 0; font: 600 clamp(48px, 5vw, 80px)/.95 var(--font-display); }
+.tpl-terroir .terroir-stats dd small { margin-left: 6px; font: 500 .3em var(--mono); color: var(--accent); }
+.tpl-terroir .terroir-stats dt { font-size: 14px; color: var(--muted); }
+
+/* ───────── отзывы ───────── */
+.tpl-terroir .terroir-notes { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-terroir .terroir-notes__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: clamp(24px, 3vw, 48px); }
+.tpl-terroir .terroir-notes figure { margin: 0; display: grid; gap: 14px; align-content: start; }
+.tpl-terroir .terroir-notes blockquote { margin: 0; font: italic 400 clamp(19px, 1.6vw, 24px)/1.4 var(--font-display); }
+.tpl-terroir .terroir-notes figcaption { display: grid; font-weight: 600; }
+.tpl-terroir .terroir-notes figcaption span { font: 500 12px/1.4 var(--mono); color: var(--muted); }
+
+/* ───────── вопросы ───────── */
+.tpl-terroir .terroir-faq { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .terroir-faq__list { max-width: 980px; border-top: 1px solid var(--fg); }
+.tpl-terroir .terroir-faq__item { border-bottom: 1px solid var(--line); }
+.tpl-terroir .terroir-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 62px; cursor: pointer; list-style: none; font: 600 clamp(18px, 1.5vw, 22px)/1.3 var(--font-display); }
+.tpl-terroir .terroir-faq__item summary::-webkit-details-marker { display: none; }
+.tpl-terroir .terroir-faq__item summary i { position: relative; flex: none; width: 22px; height: 22px; border: 1.5px solid var(--accent); border-radius: 50%; }
+.tpl-terroir .terroir-faq__item summary i::after { content: ''; position: absolute; inset: 5px; border-radius: 50%; background: var(--accent); transform: scale(0); transition: transform .3s cubic-bezier(.34, 1.56, .64, 1); }
+.tpl-terroir .terroir-faq__item[open] summary i::after { transform: none; }
+.tpl-terroir .terroir-faq__item p { margin: 0; padding: 0 0 20px; max-width: 62ch; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+
+/* ───────── контакты ───────── */
+.tpl-terroir .terroir-contact { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 80px); align-items: end; padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .terroir-contact__title { margin: 12px 0 0; font: 600 clamp(40px, 5.6vw, 92px)/1 var(--font-display); letter-spacing: -.02em; text-wrap: balance; }
+.tpl-terroir .terroir-contact__side { display: grid; gap: 18px; }
+.tpl-terroir .terroir-contact__side p { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+@media (max-width: 820px) { .tpl-terroir .terroir-contact { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── подвал ───────── */
+.tpl-terroir .terroir-foot { padding: clamp(40px, 5vw, 72px) var(--pad) 28px; border-top: 1px solid var(--fg); }
+.tpl-terroir .terroir-foot__logo { margin: 0; font: 700 clamp(44px, 8vw, 130px)/.95 var(--font-display); letter-spacing: -.02em; }
+.tpl-terroir .terroir-foot__coord { margin: 8px 0 0; font: 500 13px/1 var(--mono); color: var(--accent); }
+.tpl-terroir .terroir-foot__cols { margin-top: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 22px 32px; }
+.tpl-terroir .terroir-foot__cols p { margin: 0; display: grid; gap: 6px; align-content: start; }
+.tpl-terroir .terroir-foot small { font: 500 11px/1 var(--mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.tpl-terroir .terroir-foot a { color: inherit; }
+.tpl-terroir .terroir-foot__legal { margin: 30px 0 0; padding-top: 16px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); font: 500 12px/1.3 var(--mono); color: var(--muted); }
+
+/* ───────── магазин (базовая разметка) ───────── */
+.tpl-terroir .s-shop { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-terroir .s-shop .s__inner { max-width: none; padding: 0; }
+.tpl-terroir .s-shop .s__label { font: 500 12px/1.3 var(--mono); letter-spacing: .04em; color: var(--accent); }
+.tpl-terroir .s-shop .s__title { font-family: var(--font-display); font-weight: 600; font-size: clamp(34px, 4.4vw, 68px); line-height: 1.02; text-transform: none; }
+.tpl-terroir .shop-card__img { border-radius: 4px; }
+.tpl-terroir .shop-card__name { font: 600 18px/1.2 var(--font-display); }
+.tpl-terroir .shop-card__price b { font: 600 14px/1.4 var(--mono); }
+.tpl-terroir .shop-add { border-radius: 6px; transition: transform 140ms var(--ease), background .2s, color .2s; }
+.tpl-terroir .shop-add:active { transform: scale(.97); }
+
+@media (prefers-reduced-motion: reduce) {
+  .tpl-terroir *, .tpl-terroir *::before, .tpl-terroir *::after { animation-duration: .01ms !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+.tpl-terroir .terroir-stats dd, .tpl-terroir .terroir-title, .tpl-terroir .terroir-h2 { font-variant-numeric: lining-nums; }
