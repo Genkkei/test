@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book a visit",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Book a visit",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Services",
@@ -270,7 +270,7 @@
       "text": "The atelier at 12 Afrosiyob St. Mon–Sat 11:00–19:00, by appointment.",
       "cta": {
         "label": "Book",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -280,19 +280,19 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Two-door wardrobe",
-          "text": "Rail and shelves, 100 cm.",
-          "price": 3978000,
+          "name": "“Carra” console",
+          "text": "Carrara marble on a brass base, 140 cm.",
+          "price": 24000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
+          "category": "Consoles",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "“Oak” dining table 160",
-          "text": "Solid oak, oil-wax finish.",
-          "price": 5508000,
+          "name": "“Nero” dining table 220",
+          "text": "Nero Marquina on walnut legs.",
+          "price": 58000000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -300,9 +300,9 @@
           "unit": "pc"
         },
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
-          "price": 704000,
+          "name": "“Afrosiab” chair",
+          "text": "Walnut, nappa leather, brass ferrules.",
+          "price": 6800000,
           "oldPrice": 0,
           "image": "",
           "category": "Chairs",
@@ -310,9 +310,9 @@
           "unit": "pc"
         },
         {
-          "name": "Round coffee table",
-          "text": "Walnut veneer, 80 cm.",
-          "price": 1938000,
+          "name": "“Travertine” coffee table",
+          "text": "Round, 90 cm, filled travertine.",
+          "price": 16500000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -320,9 +320,9 @@
           "unit": "pc"
         },
         {
-          "name": "Four-drawer chest",
-          "text": "Soft-close, board and oak.",
-          "price": 2754000,
+          "name": "“Walnut” chest",
+          "text": "Four drawers, American walnut, brass handles.",
+          "price": 21000000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -330,9 +330,9 @@
           "unit": "pc"
         },
         {
-          "name": "Open shelving unit",
-          "text": "Five shelves, metal and wood.",
-          "price": 1632000,
+          "name": "“Library” bookcase",
+          "text": "Walnut with brass profile, lit shelves.",
+          "price": 32000000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -340,19 +340,19 @@
           "unit": "pc"
         },
         {
-          "name": "“Nordic” bed 160×200",
-          "text": "Solid pine, slatted base.",
-          "price": 4896000,
+          "name": "“Nappa” armchair",
+          "text": "Italian leather, walnut frame.",
+          "price": 19500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beds",
+          "category": "Chairs",
           "badge": "Bestseller",
           "unit": "pc"
         },
         {
-          "name": "Bedside table",
-          "text": "Drawer and niche.",
-          "price": 806000,
+          "name": "“Carra” nightstand",
+          "text": "Marble top, walnut drawer.",
+          "price": 8900000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",

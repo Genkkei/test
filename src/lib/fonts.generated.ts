@@ -2,6 +2,7 @@
 export const FONT_CSS: Record<string, string> = {
   "Alumni Sans": "/fonts/alumni-sans.ac3c4e6b0d.css",
   "Balsamiq Sans": "/fonts/balsamiq-sans.22230a5284.css",
+  "Bona Nova": "/fonts/bona-nova.65fb31ecf2.css",
   "Brygada 1918": "/fonts/brygada-1918.a76096de57.css",
   "Commissioner": "/fonts/commissioner.0fda0e902e.css",
   "Days One": "/fonts/days-one.5f054fe16a.css",
@@ -31,6 +32,7 @@ export const FONT_CSS: Record<string, string> = {
   "Shantell Sans": "/fonts/shantell-sans.4e00bdfa8a.css",
   "Source Code Pro": "/fonts/source-code-pro.5ed135df90.css",
   "Spectral": "/fonts/spectral.6050401680.css",
+  "Spectral SC": "/fonts/spectral-sc.75594d7811.css",
   "Tektur": "/fonts/tektur.992b44faf8.css",
   "Ubuntu Mono": "/fonts/ubuntu-mono.ce334645b7.css",
   "Vollkorn": "/fonts/vollkorn.081ed5df14.css",
@@ -40,6 +42,7 @@ export const FONT_CSS: Record<string, string> = {
 export const FONT_CATEGORY: Record<string, string> = {
   "Alumni Sans": "sans-serif",
   "Balsamiq Sans": "display",
+  "Bona Nova": "serif",
   "Brygada 1918": "serif",
   "Commissioner": "sans-serif",
   "Days One": "sans-serif",
@@ -69,6 +72,7 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Shantell Sans": "display",
   "Source Code Pro": "monospace",
   "Spectral": "serif",
+  "Spectral SC": "serif",
   "Tektur": "display",
   "Ubuntu Mono": "monospace",
   "Vollkorn": "serif",

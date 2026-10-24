@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Atelyega yozilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Atelyega yozilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Xizmatlar",
@@ -270,7 +270,7 @@
       "text": "Afrosiyob ko‘chasi, 12 dagi atelye. Du–sha 11:00 dan 19:00 gacha, yozilish orqali.",
       "cta": {
         "label": "Yozilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -280,19 +280,19 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
-          "price": 3978000,
+          "name": "«Karra» konsoli",
+          "text": "Latun asosdagi Karrara marmari, 140 sm.",
+          "price": 24000000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Konsollar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
-          "price": 5508000,
+          "name": "«Nero» ovqat stoli 220",
+          "text": "Yong‘oq oyoqlardagi Nero Markina.",
+          "price": 58000000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -300,9 +300,9 @@
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 704000,
+          "name": "«Afrosiyob» stuli",
+          "text": "Yong‘oq, nappa teri, latun uchliklar.",
+          "price": 6800000,
           "oldPrice": 0,
           "image": "",
           "category": "Kreslo va stullar",
@@ -310,9 +310,9 @@
           "unit": "dona"
         },
         {
-          "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
-          "price": 1938000,
+          "name": "«Travertin» jurnal stoli",
+          "text": "Dumaloq, 90 sm, to‘ldirilgan travertin.",
+          "price": 16500000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -320,9 +320,9 @@
           "unit": "dona"
         },
         {
-          "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
-          "price": 2754000,
+          "name": "«Yong‘oq» komodi",
+          "text": "To‘rt tortma, Amerika yong‘og‘i, latun tutqichlar.",
+          "price": 21000000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -330,9 +330,9 @@
           "unit": "dona"
         },
         {
-          "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
-          "price": 1632000,
+          "name": "«Kutubxona» javoni",
+          "text": "Yong‘oq va latun profil, yoritilgan tokchalar.",
+          "price": 32000000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -340,19 +340,19 @@
           "unit": "dona"
         },
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
-          "price": 4896000,
+          "name": "«Nappa» kreslosi",
+          "text": "Italiya terisi, yong‘oq karkas.",
+          "price": 19500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Karavotlar",
+          "category": "Kreslo va stullar",
           "badge": "Xit",
           "unit": "dona"
         },
         {
-          "name": "Karavot yoni tumbasi",
-          "text": "Tortma va tokcha.",
-          "price": 806000,
+          "name": "«Karra» tumbasi",
+          "text": "Marmar ustki qism, yong‘oq tortma.",
+          "price": 8900000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
