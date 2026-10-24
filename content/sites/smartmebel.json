@@ -1,6 +1,6 @@
 {
   "slug": "smartmebel",
-  "template": "pixel",
+  "template": "fold",
   "name": "Ваша компания",
   "tagline": "Трансформируемая мебель для маленьких квартир: одна комната — три сценария",
   "niche": "Мебель-трансформер",
@@ -15,9 +15,10 @@
     "muted": "#8b929d",
     "surface": "#181b21",
     "line": "#2a2f37",
-    "display": "Exo 2",
+    "display": "Handjet",
     "body": "Inter Tight",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -69,7 +70,7 @@
   "nav": {
     "cta": {
       "label": "Заказать замер",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -103,7 +104,7 @@
       ],
       "cta": {
         "label": "Заказать замер",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Модели",
@@ -136,82 +137,82 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Письменный стол",
-          "text": "120×60, ящик для мелочей.",
-          "price": 1870000,
+          "name": "Стол-консоль «Шаг»",
+          "text": "45 см сложенный, до 230 см разложенный.",
+          "price": 2400000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/smartmebel-5c2f9dcc12a4eca446bb.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Зеркало напольное",
-          "text": "Рама из дуба, 170 см.",
-          "price": 1375000,
-          "oldPrice": 1650000,
-          "image": "",
-          "category": "Декор",
-          "badge": "Скидка",
-          "unit": "шт"
-        },
-        {
-          "name": "Шкаф двухдверный",
-          "text": "Штанга и полки, 100 см.",
-          "price": 4290000,
+          "name": "Шкаф-кровать Vertical 160",
+          "text": "Газовые амортизаторы, ламели, глубина 45 см.",
+          "price": 11900000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/smartmebel-411987811e23086180d0.webp",
+          "category": "Шкафы-кровати",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Обеденный стол «Дуб» 160",
-          "text": "Массив дуба, масло-воск.",
-          "price": 5940000,
+          "name": "Шкаф-кровать с диваном 140",
+          "text": "Диван остаётся на месте, полки по бокам.",
+          "price": 16500000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Столы",
+          "image": "/media/smartmebel-57b395787bf9fb1c0607.webp",
+          "category": "Шкафы-кровати",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Диван с подъёмным механизмом",
+          "text": "Ящик для белья 180 л.",
+          "price": 6800000,
+          "oldPrice": 0,
+          "image": "/media/smartmebel-bcffcf400e62fc4de1a9.webp",
+          "category": "Диваны",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Стул «Венский»",
-          "text": "Бук, мягкое сиденье.",
-          "price": 759000,
+          "name": "Стол-книжка",
+          "text": "От 30 до 160 см, колёса со стопором.",
+          "price": 1900000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кресла и стулья",
-          "badge": "",
-          "unit": "шт"
-        },
-        {
-          "name": "Журнальный стол круглый",
-          "text": "Шпон ореха, 80 см.",
-          "price": 2090000,
-          "oldPrice": 0,
-          "image": "",
+          "image": "/media/smartmebel-dbfbcd7eb75e733267ad.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Комод на четыре ящика",
-          "text": "Доводчики, ЛДСП + дуб.",
-          "price": 2970000,
+          "name": "Табурет-стремянка",
+          "text": "Три ступени, складывается в табурет.",
+          "price": 650000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/smartmebel-2596efc72c6d42c8fa37.webp",
+          "category": "Стулья",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Стеллаж открытый",
-          "text": "Пять полок, металл и дерево.",
-          "price": 1760000,
+          "name": "Откидной стол на стену",
+          "text": "80×50, складывается в полку 12 см.",
+          "price": 980000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/smartmebel-97337f5e7fc35684fc43.webp",
+          "category": "Столы",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Кровать-подиум",
+          "text": "Выкатное спальное место 140×200, ящики.",
+          "price": 9400000,
+          "oldPrice": 0,
+          "image": "/media/smartmebel-9f1cb572a2e94c90db37.webp",
+          "category": "Шкафы-кровати",
           "badge": "Новинка",
           "unit": "шт"
         }
@@ -225,7 +226,7 @@
       "label": "О нас",
       "title": "Механизмы, которые проверены на 20 000 подъёмов",
       "text": "Корпус делаем в Ташкенте из влагостойкой плиты класса E1, механизмы ставим немецкие с газовыми амортизаторами. В шоуруме на Чиланзаре собрана студия 25 м²: можно сложить кровать самому и разложить стол на восьмерых.",
-      "image": ""
+      "image": "/media/smartmebel-918325c7f49946fe9d8e.webp"
     },
     {
       "id": "models",
@@ -358,19 +359,19 @@
       "items": [
         {
           "caption": "Студия днём",
-          "image": ""
+          "image": "/media/smartmebel-d8cc23c79c239af800c0.webp"
         },
         {
           "caption": "Та же студия ночью",
-          "image": ""
+          "image": "/media/smartmebel-4e731eda6fb4a4c911f6.webp"
         },
         {
           "caption": "Стол на восьмерых",
-          "image": ""
+          "image": "/media/smartmebel-00115a526dec4ecb9006.webp"
         },
         {
           "caption": "Офис в шкафу",
-          "image": ""
+          "image": "/media/smartmebel-bf326c1aa9a461c9d46f.webp"
         }
       ]
     },
@@ -413,5 +414,22 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Студия в разрезе: день, ночь, гости — кровать опускается из шкафа, консоль раскладывается в стол, толщина заголовка следует за сценарием; цифры — табло, установка — лог",
+    "label": "Fira Code",
+    "skeleton": "room-section-scenarios",
+    "signature": "scenario-switch-fold",
+    "sequence": [
+      "room",
+      "segments",
+      "title",
+      "day",
+      "night-bed-down",
+      "guests-table-out",
+      "back-to-day"
+    ],
+    "ease": "0.3,0.7,0.2,1",
+    "surface": "spec-card"
+  }
 }

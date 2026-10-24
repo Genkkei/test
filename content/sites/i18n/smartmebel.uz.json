@@ -17,7 +17,7 @@
   "nav": {
     "cta": {
       "label": "O‘lchashga buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -63,7 +63,7 @@
       ],
       "cta": {
         "label": "O‘lchashga buyurtma",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Modellar",
@@ -271,9 +271,9 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Yozuv stoli",
-          "text": "120×60, mayda narsalar tortmasi.",
-          "price": 1870000,
+          "name": "«Qadam» konsol-stoli",
+          "text": "Yig‘ilganda 45 sm, ochilganda 230 sm gacha.",
+          "price": 2400000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -281,49 +281,39 @@
           "unit": "dona"
         },
         {
-          "name": "Polga qo‘yiladigan oyna",
-          "text": "Eman rama, 170 sm.",
-          "price": 1375000,
-          "oldPrice": 1650000,
-          "image": "",
-          "category": "Dekor",
-          "badge": "Chegirma",
-          "unit": "dona"
-        },
-        {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
-          "price": 4290000,
+          "name": "Vertical shkaf-karavot 160",
+          "text": "Gaz amortizatorlar, lamellar, chuqurligi 45 sm.",
+          "price": 11900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Shkaf-karavotlar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
-          "price": 5940000,
+          "name": "Divanli shkaf-karavot 140",
+          "text": "Divan joyida qoladi, yon tokchalar.",
+          "price": 16500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Stollar",
+          "category": "Shkaf-karavotlar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Ko‘tarma mexanizmli divan",
+          "text": "180 l choyshab qutisi.",
+          "price": 6800000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Divanlar",
           "badge": "Xit",
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 759000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Kreslo va stullar",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
-          "price": 2090000,
+          "name": "Kitob-stol",
+          "text": "30 dan 160 sm gacha, tormozli g‘ildiraklar.",
+          "price": 1900000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -331,22 +321,32 @@
           "unit": "dona"
         },
         {
-          "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
-          "price": 2970000,
+          "name": "Narvon-taburet",
+          "text": "Uch pog‘ona, taburetga yig‘iladi.",
+          "price": 650000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Stullar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
-          "price": 1760000,
+          "name": "Devorga osma stol",
+          "text": "80×50, 12 sm tokchaga yig‘iladi.",
+          "price": 980000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Stollar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Podium-karavot",
+          "text": "140×200 chiqariladigan joy, tortmalar.",
+          "price": 9400000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Shkaf-karavotlar",
           "badge": "Yangi",
           "unit": "dona"
         }

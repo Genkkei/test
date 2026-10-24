@@ -17,7 +17,7 @@
   "nav": {
     "cta": {
       "label": "Book a measure",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -63,7 +63,7 @@
       ],
       "cta": {
         "label": "Book a measure",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Models",
@@ -271,9 +271,9 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Writing desk",
-          "text": "120×60 with a small drawer.",
-          "price": 1870000,
+          "name": "“Step” console table",
+          "text": "45 cm folded, up to 230 cm open.",
+          "price": 2400000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -281,39 +281,49 @@
           "unit": "pc"
         },
         {
-          "name": "Floor mirror",
-          "text": "Oak frame, 170 cm.",
-          "price": 1375000,
-          "oldPrice": 1650000,
-          "image": "",
-          "category": "Decor",
-          "badge": "Sale",
-          "unit": "pc"
-        },
-        {
-          "name": "Two-door wardrobe",
-          "text": "Rail and shelves, 100 cm.",
-          "price": 4290000,
+          "name": "Vertical wall bed 160",
+          "text": "Gas struts, slats, 45 cm deep.",
+          "price": 11900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
+          "category": "Wall beds",
           "badge": "",
           "unit": "pc"
         },
         {
-          "name": "“Oak” dining table 160",
-          "text": "Solid oak, oil-wax finish.",
-          "price": 5940000,
+          "name": "Wall bed with sofa 140",
+          "text": "Sofa stays in place, side shelves.",
+          "price": 16500000,
           "oldPrice": 0,
           "image": "",
-          "category": "Tables",
+          "category": "Wall beds",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Sofa with lift mechanism",
+          "text": "180 l bedding box.",
+          "price": 6800000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Sofas",
           "badge": "Bestseller",
           "unit": "pc"
         },
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
-          "price": 759000,
+          "name": "Gateleg table",
+          "text": "30 to 160 cm, locking casters.",
+          "price": 1900000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Tables",
+          "badge": "",
+          "unit": "pc"
+        },
+        {
+          "name": "Step stool",
+          "text": "Three steps, folds into a stool.",
+          "price": 650000,
           "oldPrice": 0,
           "image": "",
           "category": "Chairs",
@@ -321,9 +331,9 @@
           "unit": "pc"
         },
         {
-          "name": "Round coffee table",
-          "text": "Walnut veneer, 80 cm.",
-          "price": 2090000,
+          "name": "Wall-mounted drop table",
+          "text": "80×50, folds into a 12 cm shelf.",
+          "price": 980000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -331,22 +341,12 @@
           "unit": "pc"
         },
         {
-          "name": "Four-drawer chest",
-          "text": "Soft-close, board and oak.",
-          "price": 2970000,
+          "name": "Platform bed",
+          "text": "Pull-out 140×200 bed, drawers.",
+          "price": 9400000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
-          "badge": "",
-          "unit": "pc"
-        },
-        {
-          "name": "Open shelving unit",
-          "text": "Five shelves, metal and wood.",
-          "price": 1760000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Storage",
+          "category": "Wall beds",
           "badge": "New",
           "unit": "pc"
         }

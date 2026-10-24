@@ -20,6 +20,22 @@ const report = (title, list) => {
   console.log(`✗ ${title}`)
   for (const [v, l] of list) console.log(`   ${v}: ${l.join(', ')}`)
 }
+// та же схема, что в src/lib/craft.ts: неверный отпечаток не проходит схему сайта — и сайт отдаёт 404
+const word = /^[a-z0-9-]{2,40}$/
+const ease = /^-?[0-9.]+,\s*-?[0-9.]+,\s*-?[0-9.]+,\s*-?[0-9.]+$/
+const invalid = sites
+  .filter((s) => s.craft)
+  .map((s) => {
+    const c = s.craft
+    const why = []
+    if (typeof c.concept !== 'string' || c.concept.length < 8 || c.concept.length > 200) why.push(`concept ${c.concept?.length ?? 0} симв. (8–200)`)
+    for (const k of ['skeleton', 'signature', 'surface']) if (!word.test(c[k] ?? '')) why.push(`${k} «${c[k]}»`)
+    if (!Array.isArray(c.sequence) || c.sequence.length < 2 || c.sequence.length > 8 || !c.sequence.every((x) => word.test(x))) why.push('sequence')
+    if (!ease.test(c.ease ?? '')) why.push(`ease «${c.ease}»`)
+    return [s.slug, why.join(', ')]
+  })
+  .filter(([, why]) => why)
+report('отпечаток не проходит схему (сайт будет 404)', invalid)
 report('один шаблон у нескольких сайтов', by((s) => s.template))
 report('один display-шрифт', by((s) => s.theme.display))
 report('одна раскладка первого экрана', by((s) => s.craft?.skeleton))
