@@ -1,6 +1,6 @@
 {
   "slug": "bogmebel",
-  "template": "horizon",
+  "template": "terrace",
   "name": "Ваша компания",
   "tagline": "Садовая и террасная мебель для дачи, двора и айвана",
   "niche": "Садовая и террасная мебель",
@@ -9,15 +9,16 @@
     "bogmebel.genkai.workers.dev"
   ],
   "theme": {
-    "bg": "#e8eee4",
+    "bg": "#eef0e6",
     "fg": "#1f2d24",
     "accent": "#b8612f",
     "muted": "#5d6a60",
-    "surface": "#dae4d5",
-    "line": "#c3cfbf",
-    "display": "Cormorant Garamond",
-    "body": "Golos Text",
-    "motion": 1
+    "surface": "#e1e7d8",
+    "line": "#c6d0bf",
+    "display": "Philosopher",
+    "body": "Nunito Sans",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -116,7 +117,7 @@
           "text": "Трёхместные, с навесом.",
           "price": 4128000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-61da0c27998966f6ad2e.webp",
           "category": "Для сада",
           "badge": "Хит",
           "unit": "шт"
@@ -126,7 +127,7 @@
           "text": "Фиброцемент, 60 см.",
           "price": 624000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-eb9ebedbebbe10790da7.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -136,7 +137,7 @@
           "text": "Стол и четыре кресла, искусственный ротанг.",
           "price": 7584000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-4b312d4ee3da374d1330.webp",
           "category": "Для сада",
           "badge": "Хит",
           "unit": "набор"
@@ -146,7 +147,7 @@
           "text": "Алюминий, спинка в пяти положениях.",
           "price": 2208000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-7b06b9d69e507c4941f2.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -156,7 +157,7 @@
           "text": "С подушкой и стойкой.",
           "price": 3456000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-777d507797f4fe89bb0d.webp",
           "category": "Для сада",
           "badge": "Новинка",
           "unit": "шт"
@@ -166,7 +167,7 @@
           "text": "150 см, не боится дождя.",
           "price": 2688000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-1dafd66876cd5f7362d3.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -176,7 +177,7 @@
           "text": "Подушки со съёмными чехлами.",
           "price": 9024000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-99fb15e93cd5cc3e6c56.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "набор"
@@ -186,7 +187,7 @@
           "text": "3 м, поворот на 360°.",
           "price": 2016000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/bogmebel-00949a927bae53359465.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -201,7 +202,7 @@
       "label": "О нас",
       "title": "Мебель, которой не страшна улица",
       "text": "Мы восемь лет делаем и подбираем мебель для дач, дворов и ресторанных террас. Дерево пропитываем маслом в два слоя, металл — порошковая покраска, ткани — уличные, не выгорают и сохнут за час.\nПеред покупкой можно посидеть на всём в шоуруме под открытым небом.",
-      "image": ""
+      "image": "/media/bogmebel-0908213dc3608296d550.webp"
     },
     {
       "id": "sets",
@@ -216,7 +217,7 @@
           "category": "Акация · стол и 6 стульев",
           "year": "от 7 200 000 сум",
           "text": "Раздвижной стол 160–220 см, стулья со съёмными подушками.",
-          "image": "",
+          "image": "/media/bogmebel-b5bc6dc71ffc3af24a42.webp",
           "href": ""
         },
         {
@@ -224,7 +225,7 @@
           "category": "Ротанг · диван и 2 кресла",
           "year": "от 9 800 000 сум",
           "text": "Уличные подушки и журнальный стол со стеклом.",
-          "image": "",
+          "image": "/media/bogmebel-3b3b5d789974a25ef302.webp",
           "href": ""
         },
         {
@@ -232,7 +233,7 @@
           "category": "Карагач · 2×2,5 м",
           "year": "от 5 500 000 сум",
           "text": "Классический топчан с резьбой и матрасами-курпачами.",
-          "image": "",
+          "image": "/media/bogmebel-5d50dd90ea15b1fa8d15.webp",
           "href": ""
         },
         {
@@ -240,7 +241,7 @@
           "category": "Тик · на колёсах",
           "year": "от 2 900 000 сум",
           "text": "Пять положений спинки, выдвижной столик.",
-          "image": "",
+          "image": "/media/bogmebel-858cb37742bbcd490736.webp",
           "href": ""
         }
       ]
@@ -310,19 +311,19 @@
       "items": [
         {
           "caption": "Терраса в Бостанлыке",
-          "image": ""
+          "image": "/media/bogmebel-e79cd1828a54ad548520.webp"
         },
         {
           "caption": "Двор с сури в Юнусабаде",
-          "image": ""
+          "image": "/media/bogmebel-a450404ade512028c7a5.webp"
         },
         {
           "caption": "Лаунж у бассейна",
-          "image": ""
+          "image": "/media/bogmebel-f31a86a033a979b223c1.webp"
         },
         {
           "caption": "Летнее кафе",
-          "image": ""
+          "image": "/media/bogmebel-a337feaf063e106f6a3e.webp"
         }
       ]
     },
@@ -385,5 +386,22 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "План двора сверху: тени мебели поворачиваются за солнцем по часам работы шоурума — солнечные часы",
+    "label": "Ubuntu Mono",
+    "skeleton": "garden-plan",
+    "signature": "shadow-sundial",
+    "sequence": [
+      "lawn",
+      "path",
+      "trees",
+      "furniture",
+      "shadows",
+      "sun-dial",
+      "text"
+    ],
+    "ease": "0.25,1,0.5,1",
+    "surface": "stepping-stone"
+  }
 }
