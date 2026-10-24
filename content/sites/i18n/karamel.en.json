@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Order a cake",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Order a cake",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "The case",
@@ -264,7 +264,7 @@
       "text": "107 Amir Temur St, Yunusabad. Daily 9:00–22:00.",
       "cta": {
         "label": "Order a cake",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -301,7 +301,7 @@
           "image": "",
           "category": "Boxes",
           "badge": "Bestseller",
-          "unit": "10 pcs"
+          "unit": "12 pcs"
         },
         {
           "name": "Éclairs, 6 pcs",

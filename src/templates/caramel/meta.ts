@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'caramel',
-  name: 'caramel',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'caramel' },
+  name: 'Карамель',
+  inspiredBy: 'карамельный соус, стекающий по торту; стеклянная витрина кондитерской с ценниками-флажками, торт по ярусам, записки на кружевной салфетке; Эмиль Ковальски (медленное «густое» движение, без пружины)',
+  mood: 'Сливочный крем, жжёный сахар, стекло витрины',
+  niches: ['Кофейня-кондитерская', 'торты на заказ', 'десерты с доставкой'],
+  defaultTheme: { bg: '#f5ebe0', fg: '#3a2418', accent: '#a8551f', muted: '#85695a', surface: '#ecdccb', line: '#e0cbb6', display: 'Comfortaa', body: 'Manrope', motion: 1 },
+  art: 'waves',
+  preview: { bg: '#f5ebe0', fg: '#3a2418', accent: '#a8551f', word: 'Десерт' },
 }

@@ -1,6 +1,6 @@
 {
   "slug": "karamel",
-  "template": "sugar",
+  "template": "caramel",
   "name": "Ваша компания",
   "tagline": "Кофейня-кондитерская в Юнусабаде: десерты из витрины и кофе к ним",
   "niche": "Кофейня-кондитерская",
@@ -15,9 +15,10 @@
     "muted": "#85695a",
     "surface": "#ecdccb",
     "line": "#e0cbb6",
-    "display": "Yeseva One",
+    "display": "Comfortaa",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Заказать торт",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -98,7 +99,7 @@
       ],
       "cta": {
         "label": "Заказать торт",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Витрина",
@@ -134,7 +135,7 @@
           "text": "Сливочный сыр, песочная основа. 1 кг.",
           "price": 281000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-cf1a57f5c42f6d983225.webp",
           "category": "Торты",
           "badge": "",
           "unit": "шт"
@@ -144,7 +145,7 @@
           "text": "С крем-чизом. 1,5 кг.",
           "price": 330000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-5950f87539e4a79099a8.webp",
           "category": "Торты",
           "badge": "Новинка",
           "unit": "шт"
@@ -154,17 +155,17 @@
           "text": "Фисташка, малина, солёная карамель, лимон.",
           "price": 175000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-1aa9296bd69a0c57857c.webp",
           "category": "Наборы",
           "badge": "Хит",
-          "unit": "10 шт"
+          "unit": "12 шт"
         },
         {
           "name": "Эклеры, 6 штук",
           "text": "Ваниль, шоколад, кофе.",
           "price": 116000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-28a24454c2eb396502d9.webp",
           "category": "Пирожные",
           "badge": "",
           "unit": "набор"
@@ -174,7 +175,7 @@
           "text": "Французское масло, миндальный крем.",
           "price": 31000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-35f31ddf87625c33cb7f.webp",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -184,7 +185,7 @@
           "text": "Песочное тесто, крем, свежие ягоды.",
           "price": 44000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-b041a548fbc02478b36b.webp",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -194,7 +195,7 @@
           "text": "Маленький торт на двоих с вашей надписью.",
           "price": 146000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-9b29d865d945f58dfaa2.webp",
           "category": "Торты",
           "badge": "Хит",
           "unit": "шт"
@@ -204,7 +205,7 @@
           "text": "Как в детстве, с какао и ромом.",
           "price": 21000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/karamel-569ccb259acfb9946456.webp",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -341,15 +342,15 @@
       "items": [
         {
           "caption": "Утренняя витрина",
-          "image": ""
+          "image": "/media/karamel-a23c7523b93f1dd78b72.webp"
         },
         {
           "caption": "Медовик в разрезе",
-          "image": ""
+          "image": "/media/karamel-a3ffbcb5c36958ad3a0e.webp"
         },
         {
           "caption": "Торт на годовщину",
-          "image": ""
+          "image": "/media/karamel-b8e2d1db2a36a0b4ab16.webp"
         }
       ]
     },
@@ -409,9 +410,25 @@
       "text": "Ул. Амира Темура, 107, Юнусабад. Каждый день 9:00–22:00.",
       "cta": {
         "label": "Заказать торт",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Карамель стекает сверху густой волной с подтёками и бликом, названия десертов выводятся кремом; витрина — стеклянная полка с ценниками-флажками, торты — по ярусам, отзывы — на салфетке",
+    "label": "Ubuntu Mono",
+    "skeleton": "drip-top-centered",
+    "signature": "caramel-pour",
+    "sequence": [
+      "sauce-pour",
+      "shine",
+      "beads",
+      "title",
+      "sweets-piped",
+      "text"
+    ],
+    "ease": "0.6,0,0.3,1",
+    "surface": "price-flag"
+  }
 }

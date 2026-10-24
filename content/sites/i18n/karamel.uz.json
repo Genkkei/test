@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Tort buyurtma qilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Tort buyurtma qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Vitrina",
@@ -264,7 +264,7 @@
       "text": "Amir Temur ko‘chasi, 107, Yunusobod. Har kuni 9:00–22:00.",
       "cta": {
         "label": "Tort buyurtma qilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -301,7 +301,7 @@
           "image": "",
           "category": "To‘plamlar",
           "badge": "Xit",
-          "unit": "10 dona"
+          "unit": "12 dona"
         },
         {
           "name": "Eklerlar, 6 dona",
