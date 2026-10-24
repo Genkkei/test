@@ -1,6 +1,6 @@
 {
   "slug": "daraxt",
-  "template": "field",
+  "template": "timber",
   "name": "Ваша компания",
   "tagline": "Экомебель из цельного дерева без лака, клея с формальдегидом и пластика",
   "niche": "Экомебель из натурального дерева",
@@ -15,9 +15,10 @@
     "muted": "#76654f",
     "surface": "#e3d6c1",
     "line": "#cdbca2",
-    "display": "Literata",
+    "display": "Podkova",
     "body": "Jost",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -132,81 +133,81 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Шкаф двухдверный",
-          "text": "Штанга и полки, 100 см.",
+          "name": "Шкаф двухдверный из сосны",
+          "text": "Штанга и три полки, 100 см, масло-воск.",
           "price": 3627000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-ac9057da958caa1d8481.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Обеденный стол «Дуб» 160",
-          "text": "Массив дуба, масло-воск.",
+          "name": "Обеденный стол из карагача 160",
+          "text": "Три доски с живым краем, масло-воск.",
           "price": 5022000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-b6d04ec2c9514806bb10.webp",
           "category": "Столы",
           "badge": "Хит",
           "unit": "шт"
         },
         {
-          "name": "Стул «Венский»",
-          "text": "Бук, мягкое сиденье.",
+          "name": "Стул на шипах",
+          "text": "Орех, сиденье из цельной доски.",
           "price": 642000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-65bedc42be3d12ab18c7.webp",
           "category": "Кресла и стулья",
           "badge": "",
           "unit": "шт"
         },
         {
           "name": "Журнальный стол круглый",
-          "text": "Шпон ореха, 80 см.",
+          "text": "Орех, 80 см, без шпона.",
           "price": 1767000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-fdf7032fcc55fe3a193c.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
         },
         {
           "name": "Комод на четыре ящика",
-          "text": "Доводчики, ЛДСП + дуб.",
+          "text": "Карагач, ящики на шипах «ласточкин хвост».",
           "price": 2511000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-a6d025879d42c87cdf18.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
           "name": "Стеллаж открытый",
-          "text": "Пять полок, металл и дерево.",
+          "text": "Пять полок из сосны, без задней стенки.",
           "price": 1488000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-998f0c7131e38d15d919.webp",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
         },
         {
-          "name": "Кровать «Нордик» 160×200",
-          "text": "Массив сосны, ортопедическое основание.",
+          "name": "Кровать «Тонг» 160×200",
+          "text": "Сосна, ламели из бука.",
           "price": 4464000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-cb56ed575aa9f7b9e3f4.webp",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
         },
         {
           "name": "Тумба прикроватная",
-          "text": "Ящик и ниша.",
+          "text": "Карагач, ящик и ниша.",
           "price": 735000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/daraxt-ce7d3534ee0969696a8e.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -221,7 +222,7 @@
       "label": "Мастерская",
       "title": "Дерево, которое прожило свою жизнь",
       "text": "Карагач и орех берём из плановых рубок садов Ташкентской области, сушим полгода под навесом и только потом пускаем в работу. Соединяем на шипах, а не на шурупах, отделываем льняным маслом и пчелиным воском — царапину можно зашлифовать дома за пять минут.",
-      "image": ""
+      "image": "/media/daraxt-9433f2e2ac2b7d032125.webp"
     },
     {
       "id": "catalog",
@@ -236,7 +237,7 @@
           "category": "Сосна · 160×200",
           "year": "от 4 200 000 сум",
           "text": "Высокое изголовье, ламели из бука.",
-          "image": "",
+          "image": "/media/daraxt-db96fc5549921ffd04f1.webp",
           "href": ""
         },
         {
@@ -244,7 +245,7 @@
           "category": "Карагач · 180×90",
           "year": "от 5 600 000 сум",
           "text": "Столешница из трёх досок с живым краем.",
-          "image": "",
+          "image": "/media/daraxt-a5041f214262cfec338c.webp",
           "href": ""
         },
         {
@@ -252,7 +253,7 @@
           "category": "Орех · 5 полок",
           "year": "от 3 300 000 сум",
           "text": "Без задней стенки — дерево дышит.",
-          "image": "",
+          "image": "/media/daraxt-b1f013e7b15ee5c903b7.webp",
           "href": ""
         },
         {
@@ -260,7 +261,7 @@
           "category": "Карагач · 120 см",
           "year": "от 1 900 000 сум",
           "text": "С полкой для обуви.",
-          "image": "",
+          "image": "/media/daraxt-957be67adae573b14ca7.webp",
           "href": ""
         }
       ]
@@ -351,19 +352,19 @@
       "items": [
         {
           "caption": "Сушка досок",
-          "image": ""
+          "image": "/media/daraxt-207c8235009ba3c659ac.webp"
         },
         {
           "caption": "Соединение на шипах",
-          "image": ""
+          "image": "/media/daraxt-83db6daa3c15a177e718.webp"
         },
         {
           "caption": "Масло и воск",
-          "image": ""
+          "image": "/media/daraxt-9d5359ed64f4f92e5942.webp"
         },
         {
           "caption": "Готовая спальня",
-          "image": ""
+          "image": "/media/daraxt-0ca8e3c8d33a9271bae5.webp"
         }
       ]
     },
@@ -406,5 +407,22 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Доска с живым краем: рубанок проходит, за ним свежая древесина и стружка, заголовок выжигается; цифры — клейма на торцах, путь — складной метр",
+    "label": "PT Mono",
+    "skeleton": "plank-across",
+    "signature": "plane-shave",
+    "sequence": [
+      "paper",
+      "board",
+      "plane-pass",
+      "shaving",
+      "title-burn",
+      "end-grain",
+      "text"
+    ],
+    "ease": "0.65,0,0.35,1",
+    "surface": "hang-tag"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "slug": "zing",
-  "template": "fizz",
+  "template": "tube",
   "name": "Ваша компания",
   "tagline": "Заряд без сахара и без скуки",
   "niche": "Бренд крафтовых энергетиков и лимонадов",
@@ -15,9 +15,10 @@
     "muted": "#6e6e69",
     "surface": "#e2e2df",
     "line": "#cfcfca",
-    "display": "Onest",
+    "display": "Days One",
     "body": "Onest",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "Store",
@@ -126,20 +127,20 @@
       "items": [
         {
           "name": "Энергетик «Оригинал»",
-          "text": "Таурин, кофеин, без лишнего сахара. 0,45 л.",
-          "price": 13600,
+          "text": "Зелёный чай, гуарана, грейпфрут. 0,25 л.",
+          "price": 14000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-13fadb21f1c42973bafd.webp",
           "category": "Энергетики",
           "badge": "Хит",
           "unit": "шт"
         },
         {
           "name": "Энергетик «Ноль»",
-          "text": "Без сахара, вкус грейпфрута.",
-          "price": 13600,
+          "text": "Ноль сахара, лайм и мята. 0,25 л.",
+          "price": 14000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-268e64b0848bc089dd7f.webp",
           "category": "Энергетики",
           "badge": "",
           "unit": "шт"
@@ -149,7 +150,7 @@
           "text": "Настоящий эстрагон.",
           "price": 11600,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-d9fda292ffbc08b43e39.webp",
           "category": "Лимонады",
           "badge": "",
           "unit": "шт"
@@ -159,7 +160,7 @@
           "text": "Узбекский гранат.",
           "price": 12600,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-f19beb13479d3d555a27.webp",
           "category": "Лимонады",
           "badge": "Новинка",
           "unit": "шт"
@@ -169,7 +170,7 @@
           "text": "Все вкусы, скидка 15%.",
           "price": 135000,
           "oldPrice": 162000,
-          "image": "",
+          "image": "/media/zing-025b18cbb09af3d68750.webp",
           "category": "Наборы",
           "badge": "Скидка",
           "unit": "набор"
@@ -179,7 +180,7 @@
           "text": "Для фанатов бренда.",
           "price": 310000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-afe12379ec1ee130a161.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -189,7 +190,7 @@
           "text": "Для магазина или офиса, в месяц.",
           "price": 242000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/zing-d693565a49c1192b7557.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -251,7 +252,7 @@
       "label": "Почему «Ваша компания»",
       "title": "Энергетик, который можно пить, не читая состав с ужасом",
       "text": "Мы варим «Ваша компания» на небольшом производстве в Ташкенте: настоящий сок, кофеин растительного происхождения, никакого таурина ради таурина. Партии маленькие — поэтому вкус каждый раз один и тот же.",
-      "image": ""
+      "image": "/media/zing-9d8ef7d6272eb27cc324.webp"
     },
     {
       "id": "stats",
@@ -362,5 +363,22 @@
     "description": "Сайт для бренда напитков, FMCG-продукта или запуска новинки. Продукт в центре экрана поворачивается от прокрутки, бесконечные строки, карточки вкусов с ценами и где купить.",
     "features": [],
     "forSale": true
+  },
+  "craft": {
+    "concept": "Банка как плакат: язычок щёлкает, пузырьки выстреливают, строки заголовка въезжают навстречу; вкусы — полка холодильника за стеклянной дверью, цифры — этикетка «Пищевая ценность»",
+    "label": "Martian Mono",
+    "skeleton": "word-can-sandwich",
+    "signature": "can-pop-fizz",
+    "sequence": [
+      "fog",
+      "can-rise",
+      "tab-pop",
+      "fizz",
+      "title-lines",
+      "stickers",
+      "text"
+    ],
+    "ease": "0.19,1,0.22,1",
+    "surface": "price-tag"
   }
 }

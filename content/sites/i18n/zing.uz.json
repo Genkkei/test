@@ -226,8 +226,8 @@
       "items": [
         {
           "name": "«Original» energetigi",
-          "text": "Taurin, kofein, ortiqcha shakarsiz.",
-          "price": 13600,
+          "text": "Yashil choy, guarana, greypfrut. 0,25 l.",
+          "price": 14000,
           "oldPrice": 0,
           "image": "",
           "category": "Energetiklar",
@@ -236,8 +236,8 @@
         },
         {
           "name": "«Nol» energetigi",
-          "text": "Shakarsiz, greypfrut ta’mi.",
-          "price": 13600,
+          "text": "Shakarsiz, laym va yalpiz. 0,25 l.",
+          "price": 14000,
           "oldPrice": 0,
           "image": "",
           "category": "Energetiklar",

@@ -265,8 +265,8 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
+          "name": "Qarag‘aydan ikki eshikli shkaf",
+          "text": "Shtanga va uch tokcha, 100 sm, moy-mum.",
           "price": 3627000,
           "oldPrice": 0,
           "image": "",
@@ -275,8 +275,8 @@
           "unit": "dona"
         },
         {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
+          "name": "Qayrag‘ochdan ovqat stoli 160",
+          "text": "Tabiiy chetli uch taxta, moy-mum.",
           "price": 5022000,
           "oldPrice": 0,
           "image": "",
@@ -285,8 +285,8 @@
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
+          "name": "Tishli birikmali stul",
+          "text": "Yong‘oq, butun taxtadan o‘rindiq.",
           "price": 642000,
           "oldPrice": 0,
           "image": "",
@@ -296,7 +296,7 @@
         },
         {
           "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
+          "text": "Yong‘oq, 80 sm, shponsiz.",
           "price": 1767000,
           "oldPrice": 0,
           "image": "",
@@ -306,7 +306,7 @@
         },
         {
           "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
+          "text": "Qayrag‘och, «qaldirg‘och dumi» birikmali tortmalar.",
           "price": 2511000,
           "oldPrice": 0,
           "image": "",
@@ -316,7 +316,7 @@
         },
         {
           "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
+          "text": "Qarag‘aydan besh tokcha, orqa devorsiz.",
           "price": 1488000,
           "oldPrice": 0,
           "image": "",
@@ -325,8 +325,8 @@
           "unit": "dona"
         },
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
+          "name": "«Tong» karavoti 160×200",
+          "text": "Qarag‘ay, bukdan lamellar.",
           "price": 4464000,
           "oldPrice": 0,
           "image": "",
@@ -336,7 +336,7 @@
         },
         {
           "name": "Karavot yoni tumbasi",
-          "text": "Tortma va tokcha.",
+          "text": "Qayrag‘och, tortma va tokcha.",
           "price": 735000,
           "oldPrice": 0,
           "image": "",

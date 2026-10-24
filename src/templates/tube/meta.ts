@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'tube',
-  name: 'tube',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
+  name: 'Банка',
+  inspiredBy: 'упаковка крафтовых напитков (банка как плакат), холодильник у кассы, этикетка «Пищевая ценность»; twomuch.studio (один кислотный цвет), Эмиль Ковальски (пружина только у того, что «выстреливает»)',
+  mood: 'Оранжевый плакат, холодный металл, шипение',
+  niches: ['Бренд напитков', 'энергетики и лимонады', 'запуск FMCG-продукта'],
+  defaultTheme: { bg: '#eeeeee', fg: '#191917', accent: '#ff4d1c', muted: '#6e6e69', surface: '#e2e2df', line: '#cfcfca', display: 'Days One', body: 'Onest', motion: 1 },
   art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'tube' },
+  preview: { bg: '#ff4d1c', fg: '#191917', accent: '#eeeeee', word: 'Шипит' },
 }

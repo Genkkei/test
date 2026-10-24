@@ -226,8 +226,8 @@
       "items": [
         {
           "name": "“Original” energy",
-          "text": "Taurine, caffeine, low sugar. 0.45 l.",
-          "price": 13600,
+          "text": "Green tea, guarana, grapefruit. 0.25 l.",
+          "price": 14000,
           "oldPrice": 0,
           "image": "",
           "category": "Energy",
@@ -236,8 +236,8 @@
         },
         {
           "name": "“Zero” energy",
-          "text": "Sugar-free, grapefruit.",
-          "price": 13600,
+          "text": "Zero sugar, lime and mint. 0.25 l.",
+          "price": 14000,
           "oldPrice": 0,
           "image": "",
           "category": "Energy",

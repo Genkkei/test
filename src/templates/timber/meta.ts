@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'timber',
-  name: 'timber',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'timber' },
+  name: 'Брус',
+  inspiredBy: 'столярная мастерская: доска с живым краем, рубанок, торцы с годовыми кольцами, складной метр; shopify editions (линия чертится, потом раскрывается картина)',
+  mood: 'Тёплая бумага, масло на дереве, стружка',
+  niches: ['Мебель из массива', 'столярная мастерская', 'экотовары из дерева'],
+  defaultTheme: { bg: '#efe6d8', fg: '#2a1f14', accent: '#7e5226', muted: '#76654f', surface: '#e3d6c1', line: '#cdbca2', display: 'Podkova', body: 'Jost', motion: 1 },
+  art: 'rings',
+  preview: { bg: '#efe6d8', fg: '#2a1f14', accent: '#7e5226', word: 'Массив' },
 }

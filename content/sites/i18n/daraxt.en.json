@@ -265,8 +265,8 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Two-door wardrobe",
-          "text": "Rail and shelves, 100 cm.",
+          "name": "Pine two-door wardrobe",
+          "text": "Rail and three shelves, 100 cm, oil-wax.",
           "price": 3627000,
           "oldPrice": 0,
           "image": "",
@@ -275,8 +275,8 @@
           "unit": "pc"
         },
         {
-          "name": "“Oak” dining table 160",
-          "text": "Solid oak, oil-wax finish.",
+          "name": "Elm dining table 160",
+          "text": "Three live-edge boards, oil-wax.",
           "price": 5022000,
           "oldPrice": 0,
           "image": "",
@@ -285,8 +285,8 @@
           "unit": "pc"
         },
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
+          "name": "Mortise-and-tenon chair",
+          "text": "Walnut, solid-board seat.",
           "price": 642000,
           "oldPrice": 0,
           "image": "",
@@ -296,7 +296,7 @@
         },
         {
           "name": "Round coffee table",
-          "text": "Walnut veneer, 80 cm.",
+          "text": "Walnut, 80 cm, no veneer.",
           "price": 1767000,
           "oldPrice": 0,
           "image": "",
@@ -306,7 +306,7 @@
         },
         {
           "name": "Four-drawer chest",
-          "text": "Soft-close, board and oak.",
+          "text": "Elm, dovetailed drawers.",
           "price": 2511000,
           "oldPrice": 0,
           "image": "",
@@ -316,7 +316,7 @@
         },
         {
           "name": "Open shelving unit",
-          "text": "Five shelves, metal and wood.",
+          "text": "Five pine shelves, no back panel.",
           "price": 1488000,
           "oldPrice": 0,
           "image": "",
@@ -325,8 +325,8 @@
           "unit": "pc"
         },
         {
-          "name": "“Nordic” bed 160×200",
-          "text": "Solid pine, slatted base.",
+          "name": "“Tong” bed 160×200",
+          "text": "Pine, beech slats.",
           "price": 4464000,
           "oldPrice": 0,
           "image": "",
@@ -336,7 +336,7 @@
         },
         {
           "name": "Bedside table",
-          "text": "Drawer and niche.",
+          "text": "Elm, drawer and niche.",
           "price": 735000,
           "oldPrice": 0,
           "image": "",
