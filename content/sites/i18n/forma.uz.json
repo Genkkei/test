@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Loyihani muhokama qilish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -62,7 +62,7 @@
       ],
       "cta": {
         "label": "Loyihani muhokama qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Loyihalar",
@@ -226,7 +226,7 @@
       "text": "Bir kun ichida javob beramiz va muddatlarni aytamiz. Byuro: Shahrisabz ko‘chasi, 16, du–ju 10:00 dan 19:00 gacha.",
       "cta": {
         "label": "Loyihani muhokama qilish",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -236,19 +236,19 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Polga qo‘yiladigan oyna",
-          "text": "Eman rama, 170 sm.",
-          "price": 1138000,
-          "oldPrice": 1366000,
+          "name": "«Chizma» stoli 200",
+          "text": "Shumtol, sargidagi kabel kanali.",
+          "price": 7400000,
+          "oldPrice": 0,
           "image": "",
-          "category": "Dekor",
-          "badge": "Chegirma",
+          "category": "Stollar",
+          "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
-          "price": 3549000,
+          "name": "«Modul» javoni",
+          "text": "Eman shponi, tokcha qadami 32 sm, devorga mahkamlanadi.",
+          "price": 5900000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -256,29 +256,29 @@
           "unit": "dona"
         },
         {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
-          "price": 4914000,
+          "name": "«Chiziq» TV tumbasi 240",
+          "text": "Mat HPL, Blum bosib ochish.",
+          "price": 4800000,
           "oldPrice": 0,
           "image": "",
-          "category": "Stollar",
+          "category": "Saqlash",
           "badge": "Xit",
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 628000,
+          "name": "«O‘q» stuli",
+          "text": "Shumtol va egilgan fanera.",
+          "price": 1650000,
           "oldPrice": 0,
           "image": "",
-          "category": "Kreslo va stullar",
+          "category": "Stullar",
           "badge": "",
           "unit": "dona"
         },
         {
-          "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
-          "price": 1729000,
+          "name": "«Kvadrat» jurnal stoli 90",
+          "text": "Eman shponi, yashirin tortma.",
+          "price": 2900000,
           "oldPrice": 0,
           "image": "",
           "category": "Stollar",
@@ -286,9 +286,9 @@
           "unit": "dona"
         },
         {
-          "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
-          "price": 2457000,
+          "name": "«To‘r» komodi",
+          "text": "Oltita Hettich tortma, tutqichsiz fasadlar.",
+          "price": 6300000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -296,22 +296,22 @@
           "unit": "dona"
         },
         {
-          "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
-          "price": 1456000,
+          "name": "«Ramka» oynasi 180",
+          "text": "Ingichka shumtol ramka, devorga.",
+          "price": 1900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Saqlash",
+          "category": "Dekor",
           "badge": "Yangi",
           "unit": "dona"
         },
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
-          "price": 4368000,
+          "name": "«Konsol» tokchasi 120",
+          "text": "Yashirin mahkamlash, eman, 25 kg.",
+          "price": 980000,
           "oldPrice": 0,
           "image": "",
-          "category": "Karavotlar",
+          "category": "Saqlash",
           "badge": "Xit",
           "unit": "dona"
         }

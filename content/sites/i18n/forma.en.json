@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Discuss a project",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -62,7 +62,7 @@
       ],
       "cta": {
         "label": "Discuss a project",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Projects",
@@ -226,7 +226,7 @@
       "text": "We reply within a day with lead times. Bureau: 16 Shakhrisabz St, Mon–Fri 10:00–19:00.",
       "cta": {
         "label": "Discuss a project",
-        "href": "#order"
+        "href": ""
       }
     },
     {
@@ -236,19 +236,19 @@
       "text": "Add to cart and check out — we will call to confirm and deliver.",
       "items": [
         {
-          "name": "Floor mirror",
-          "text": "Oak frame, 170 cm.",
-          "price": 1138000,
-          "oldPrice": 1366000,
+          "name": "“Drawing” desk 200",
+          "text": "Ash, cable channel in the apron.",
+          "price": 7400000,
+          "oldPrice": 0,
           "image": "",
-          "category": "Decor",
-          "badge": "Sale",
+          "category": "Tables",
+          "badge": "",
           "unit": "pc"
         },
         {
-          "name": "Two-door wardrobe",
-          "text": "Rail and shelves, 100 cm.",
-          "price": 3549000,
+          "name": "“Module” shelving",
+          "text": "Oak veneer, 32 cm shelf pitch, wall-fixed.",
+          "price": 5900000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -256,19 +256,19 @@
           "unit": "pc"
         },
         {
-          "name": "“Oak” dining table 160",
-          "text": "Solid oak, oil-wax finish.",
-          "price": 4914000,
+          "name": "“Line” TV unit 240",
+          "text": "Matte HPL, Blum push-to-open.",
+          "price": 4800000,
           "oldPrice": 0,
           "image": "",
-          "category": "Tables",
+          "category": "Storage",
           "badge": "Bestseller",
           "unit": "pc"
         },
         {
-          "name": "“Bentwood” chair",
-          "text": "Beech with soft seat.",
-          "price": 628000,
+          "name": "“Axis” chair",
+          "text": "Ash and bent plywood.",
+          "price": 1650000,
           "oldPrice": 0,
           "image": "",
           "category": "Chairs",
@@ -276,9 +276,9 @@
           "unit": "pc"
         },
         {
-          "name": "Round coffee table",
-          "text": "Walnut veneer, 80 cm.",
-          "price": 1729000,
+          "name": "“Square” coffee table 90",
+          "text": "Oak veneer, hidden drawer.",
+          "price": 2900000,
           "oldPrice": 0,
           "image": "",
           "category": "Tables",
@@ -286,9 +286,9 @@
           "unit": "pc"
         },
         {
-          "name": "Four-drawer chest",
-          "text": "Soft-close, board and oak.",
-          "price": 2457000,
+          "name": "“Grid” chest",
+          "text": "Six Hettich drawers, handleless fronts.",
+          "price": 6300000,
           "oldPrice": 0,
           "image": "",
           "category": "Storage",
@@ -296,22 +296,22 @@
           "unit": "pc"
         },
         {
-          "name": "Open shelving unit",
-          "text": "Five shelves, metal and wood.",
-          "price": 1456000,
+          "name": "“Frame” mirror 180",
+          "text": "Slim ash frame, wall-mounted.",
+          "price": 1900000,
           "oldPrice": 0,
           "image": "",
-          "category": "Storage",
+          "category": "Decor",
           "badge": "New",
           "unit": "pc"
         },
         {
-          "name": "“Nordic” bed 160×200",
-          "text": "Solid pine, slatted base.",
-          "price": 4368000,
+          "name": "“Console” shelf 120",
+          "text": "Hidden fixing, oak, 25 kg load.",
+          "price": 980000,
           "oldPrice": 0,
           "image": "",
-          "category": "Beds",
+          "category": "Storage",
           "badge": "Bestseller",
           "unit": "pc"
         }
