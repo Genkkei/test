@@ -1,6 +1,6 @@
 {
   "slug": "yorug",
-  "template": "lumen",
+  "template": "lumina",
   "name": "Ваша компания",
   "tagline": "Светлая мебель и свет для дома, в котором хочется проводить вечера",
   "niche": "Светлая мебель и освещение",
@@ -15,9 +15,10 @@
     "muted": "#626b78",
     "surface": "#f2efe8",
     "line": "#e3dfd5",
-    "display": "Montserrat",
+    "display": "Advent Pro",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Оформить заказ",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -99,7 +100,7 @@
       ],
       "cta": {
         "label": "Оформить заказ",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Смотреть каталог",
@@ -121,7 +122,7 @@
           "text": "Шпон ясеня, 90 см.",
           "price": 1440000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-95407721eb035afd5c44.webp",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -131,7 +132,7 @@
           "text": "E27, 2700 K, диммируемая.",
           "price": 40000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-546d54d51e9b6800f272.webp",
           "category": "Свет",
           "badge": "",
           "unit": "шт"
@@ -141,7 +142,7 @@
           "text": "Матовый металл, Ø 40 см.",
           "price": 801000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-cd5e9fb45b3e408b64e5.webp",
           "category": "Свет",
           "badge": "Хит",
           "unit": "шт"
@@ -151,7 +152,7 @@
           "text": "Дуб и лён, 160 см.",
           "price": 1125000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-08ad254cec4f37002f47.webp",
           "category": "Свет",
           "badge": "",
           "unit": "шт"
@@ -161,7 +162,7 @@
           "text": "Опал, тёплый свет.",
           "price": 504000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-4176e8d575854304658d.webp",
           "category": "Свет",
           "badge": "Новинка",
           "unit": "шт"
@@ -171,7 +172,7 @@
           "text": "Для чтения у кровати.",
           "price": 423000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-e08b8db8f63cbbfa6c14.webp",
           "category": "Свет",
           "badge": "",
           "unit": "шт"
@@ -181,7 +182,7 @@
           "text": "Шесть стеклянных плафонов.",
           "price": 2610000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-40420b6d4612aa4e93e4.webp",
           "category": "Свет",
           "badge": "",
           "unit": "шт"
@@ -191,7 +192,7 @@
           "text": "Белый дуб, 180 см.",
           "price": 1710000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/yorug-7a7cc9693ec755c049db.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -206,7 +207,7 @@
       "label": "Салон",
       "title": "Свет — это тоже мебель",
       "text": "В нашем салоне каждый диван стоит под своей лампой: вы видите, как ткань выглядит при тёплом и холодном свете, и не ошибаетесь с оттенком. Работаем с фабриками Узбекистана, Турции и Польши, всё в наличии на складе в Ташкенте.",
-      "image": ""
+      "image": "/media/yorug-96d5034daddd814e9f55.webp"
     },
     {
       "id": "catalog",
@@ -375,5 +376,22 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Комната в сумерках: шнур опускается, абажур качается и включается, конус света ложится на диван, счётчик до 2700 K, свет переключается по кельвинам; каталог — ярлыки на шнурах",
+    "label": "Fira Code",
+    "skeleton": "dusk-room-split",
+    "signature": "pendant-switch-kelvin",
+    "sequence": [
+      "dusk",
+      "cord",
+      "swing",
+      "flicker",
+      "cone",
+      "sofa-draw",
+      "kelvin"
+    ],
+    "ease": "0.4,0,0.2,1",
+    "surface": "hanging-tag"
+  }
 }

@@ -17,7 +17,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma berish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Katalogni ko‘rish",

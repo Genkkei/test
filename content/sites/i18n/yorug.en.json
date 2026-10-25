@@ -17,7 +17,7 @@
   "nav": {
     "cta": {
       "label": "Place an order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Place an order",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "See the catalogue",
