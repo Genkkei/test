@@ -140,6 +140,8 @@ def put_image(slug, src, w=1600, q=80):
 
 
 def gen(slug, prompt, w=1536, h=1024):
+    # Владелец, 26.10: генерация через Cloudflare Workers AI запрещена — она платная и выставила большой счёт.
+    raise SystemExit('Генерация через Cloudflare Workers AI отключена владельцем (платно). Брать фото со стоков.')
     if not TOKEN:
         raise SystemExit('нет CLOUDFLARE_API_TOKEN')
     boundary = '----atlas' + hashlib.sha1(prompt.encode()).hexdigest()[:12]
