@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Call a welder",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Call a welder",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Prices",
@@ -268,7 +268,7 @@
       "text": "Daily 7:00–23:00, emergencies only at night. Base at 22 Lutfiy St, Uchtepa.",
       "cta": {
         "label": "Call a welder",
-        "href": "#order"
+        "href": ""
       }
     }
   ]

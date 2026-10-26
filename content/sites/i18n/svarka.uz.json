@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Payvandchini chaqirish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Payvandchini chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Narxlar",
@@ -268,7 +268,7 @@
       "text": "Har kuni 7:00–23:00, tunda — faqat avariyalar. Baza Uchtepada, Lutfiy ko‘chasi, 22.",
       "cta": {
         "label": "Payvandchini chaqirish",
-        "href": "#order"
+        "href": ""
       }
     }
   ]

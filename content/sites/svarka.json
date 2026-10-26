@@ -1,6 +1,6 @@
 {
   "slug": "svarka",
-  "template": "pipe",
+  "template": "frost",
   "lang": "ru",
   "name": "Ваша компания",
   "tagline": "Выездной сварщик через час по всему Ташкенту",
@@ -15,9 +15,10 @@
     "muted": "#8d98a5",
     "surface": "#1a1f26",
     "line": "#2b323b",
-    "display": "Russo One",
-    "body": "Onest",
-    "motion": 1
+    "display": "Fira Sans Extra Condensed",
+    "body": "IBM Plex Sans",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -64,7 +65,7 @@
   "nav": {
     "cta": {
       "label": "Вызвать сварщика",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -96,7 +97,7 @@
       ],
       "cta": {
         "label": "Вызвать сварщика",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Цены",
@@ -265,7 +266,7 @@
       "label": "О нас",
       "title": "Сварщики, которые приезжают вовремя",
       "text": "«Ваша компания» — двенадцать сварщиков на своих машинах с генераторами по всему Ташкенту. Диспетчер отправляет ближайшего, поэтому час — это обычный срок, а не обещание. Каждый мастер работает в спецодежде и убирает за собой окалину.",
-      "image": "",
+      "image": "/media/svarka-64459f34547dbfff5dbc.webp",
       "enabled": true
     },
     {
@@ -323,9 +324,26 @@
       "text": "Ежедневно 7:00–23:00, ночью — только аварии. База в Учтепе, ул. Лутфий, 22.",
       "cta": {
         "label": "Вызвать сварщика",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Диспетчерская: падает метка заявки, ближайший сварщик едет к ней по улицам схемы города, статусы трекера загораются, минуты идут к нулю, на месте — вспышка дуги; цены подчёркнуты швом",
+    "label": "IBM Plex Mono",
+    "skeleton": "text-map-split",
+    "signature": "dispatch-route-eta",
+    "sequence": [
+      "streets",
+      "pin-drop",
+      "route",
+      "van-drive",
+      "eta",
+      "tracker",
+      "arc-flash"
+    ],
+    "ease": "0.45,0,0.25,1",
+    "surface": "weld-bead-row"
+  }
 }

@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'frost',
-  name: 'frost',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'frost' },
+  name: 'Мороз',
+  inspiredBy: 'экран диспетчера такси: метка заявки, ближайшая машина едет по улицам, трекер статусов и минуты до приезда; холодный синий сварочной дуги; валик сварного шва',
+  mood: 'Графит, холодная синяя дуга, точность',
+  niches: ['Выездные сварочные работы', 'аварийные службы', 'мастер на час'],
+  defaultTheme: { bg: '#101317', fg: '#f2f4f6', accent: '#3fb8ff', muted: '#8d98a5', surface: '#1a1f26', line: '#2b323b', display: 'Fira Sans Extra Condensed', body: 'IBM Plex Sans', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#101317', fg: '#f2f4f6', accent: '#3fb8ff', word: '60 мин' },
 }
