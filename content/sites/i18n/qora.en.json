@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Order a piece",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Work",
@@ -244,7 +244,7 @@
           "text": "We forge and assemble and send you a video of the process."
         },
         {
-          "title": "Finishing",
+          "title": "Wax",
           "text": "Hot wax instead of paint for a warm, glowing black."
         },
         {
@@ -366,7 +366,7 @@
         },
         {
           "name": "Loft wall hanger",
-          "text": "Six hooks, powder coat.",
+          "text": "Six hooks, hot wax finish.",
           "price": 323000,
           "oldPrice": 0,
           "image": "",

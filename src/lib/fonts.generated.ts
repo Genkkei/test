@@ -58,6 +58,7 @@ export const FONT_CSS: Record<string, string> = {
   "Vollkorn": "/fonts/vollkorn.081ed5df14.css",
   "Wix Madefor Display": "/fonts/wix-madefor-display.28f7864556.css",
   "Wix Madefor Text": "/fonts/wix-madefor-text.89b4bc3b79.css",
+  "Yanone Kaffeesatz": "/fonts/yanone-kaffeesatz.cbee86ed48.css",
   "Ysabeau": "/fonts/ysabeau.0055b5715e.css"
 }
 export const FONT_CATEGORY: Record<string, string> = {
@@ -119,5 +120,6 @@ export const FONT_CATEGORY: Record<string, string> = {
   "Vollkorn": "serif",
   "Wix Madefor Display": "sans-serif",
   "Wix Madefor Text": "sans-serif",
+  "Yanone Kaffeesatz": "sans-serif",
   "Ysabeau": "sans-serif"
 }

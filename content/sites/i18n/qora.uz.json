@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Buyum buyurtma qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Ishlar",
@@ -244,7 +244,7 @@
           "text": "O‘choqda bolg‘alaymiz va yig‘amiz — jarayon videosini yuboramiz."
         },
         {
-          "title": "Bo‘yash",
+          "title": "Mum",
           "text": "Bo‘yoq o‘rniga issiq mum — tovlanuvchi iliq qora."
         },
         {
@@ -366,7 +366,7 @@
         },
         {
           "name": "Loft devor ilgichi",
-          "text": "Olti ilmoq, kukun bo‘yoq.",
+          "text": "Olti ilmoq, issiq mum bilan qoplangan.",
           "price": 323000,
           "oldPrice": 0,
           "image": "",

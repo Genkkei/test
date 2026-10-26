@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'blackline',
-  name: 'blackline',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'blackline' },
+  name: 'Чёрная линия',
+  inspiredBy: 'эскиз мастера одной линией; горячий воск вместо краски — кисть проходит по серому металлу, и он становится тёплым чёрным с коричневым отливом; шоурум со свечами',
+  mood: 'Тёплый чёрный, воск, огонь свечи',
+  niches: ['Кованый декор и лофт-аксессуары из чёрного металла', 'лофт-мебель', 'подарки ручной работы'],
+  defaultTheme: { bg: '#0b0b0b', fg: '#ede7df', accent: '#c77d3a', muted: '#8a837b', surface: '#151413', line: '#2b2826', display: 'Yanone Kaffeesatz', body: 'Manrope', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#0b0b0b', fg: '#ede7df', accent: '#c77d3a', word: 'воск' },
 }

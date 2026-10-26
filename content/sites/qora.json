@@ -1,6 +1,6 @@
 {
   "slug": "qora",
-  "template": "ink",
+  "template": "blackline",
   "name": "Ваша компания",
   "tagline": "Кованый декор, светильники и полки из чёрного металла",
   "niche": "Кованый декор и лофт-аксессуары из чёрного металла",
@@ -15,9 +15,10 @@
     "muted": "#8a837b",
     "surface": "#151413",
     "line": "#2b2826",
-    "display": "Dela Gothic One",
+    "display": "Yanone Kaffeesatz",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -64,7 +65,7 @@
   "nav": {
     "cta": {
       "label": "Заказать",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -98,7 +99,7 @@
       ],
       "cta": {
         "label": "Заказать изделие",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Работы",
@@ -136,7 +137,7 @@
           "text": "Кортен, 90×45 см.",
           "price": 1140000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-151909fa7b127285a3fc.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -146,7 +147,7 @@
           "text": "Подарок, который не вянет.",
           "price": 152000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-754e486fabd8df03fc04.webp",
           "category": "Подарки",
           "badge": "Хит",
           "unit": "шт"
@@ -156,7 +157,7 @@
           "text": "Металл и сосна, 150 см.",
           "price": 2470000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-01afb11740f86c620bc2.webp",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -166,7 +167,7 @@
           "text": "Узор «Классика», монтаж отдельно.",
           "price": 1045000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-a168a8c01af873693d63.webp",
           "category": "Декор",
           "badge": "",
           "unit": "м"
@@ -176,7 +177,7 @@
           "text": "На три свечи, ручная ковка.",
           "price": 370000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-20615305a7dfc5ceba42.webp",
           "category": "Декор",
           "badge": "Хит",
           "unit": "шт"
@@ -186,7 +187,7 @@
           "text": "Пять крючков, на счастье.",
           "price": 171000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-6f2a6ce6c0732684653b.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -196,17 +197,17 @@
           "text": "Дуб и чёрный металл, 80 см.",
           "price": 494000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-3c452e4f29d3cff29864.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
         },
         {
           "name": "Вешалка настенная лофт",
-          "text": "Шесть крюков, порошковая краска.",
+          "text": "Шесть крюков, горячий воск.",
           "price": 323000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/qora-a4658b2c7b6dba924069.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -226,7 +227,7 @@
           "category": "Прихожая",
           "year": "2 дня",
           "text": "Крюк для ключей и сумок в форме кованого клинка.",
-          "image": "",
+          "image": "/media/qora-0de8038606a30a5b7dfd.webp",
           "href": ""
         },
         {
@@ -234,7 +235,7 @@
           "category": "Двор",
           "year": "5 дней",
           "text": "Ласточка из листа 3 мм на стальной оси.",
-          "image": "",
+          "image": "/media/qora-5a6ee25c39f06d0452c1.webp",
           "href": ""
         },
         {
@@ -242,7 +243,7 @@
           "category": "Светильник",
           "year": "6 дней",
           "text": "Настенный светильник с тёплой лампой внутри кованого кольца.",
-          "image": "",
+          "image": "/media/qora-a741fae112b83f64cb36.webp",
           "href": ""
         },
         {
@@ -250,7 +251,7 @@
           "category": "Гостиная",
           "year": "7 дней",
           "text": "Настенное панно диаметром 80 см с латунной звездой.",
-          "image": "",
+          "image": "/media/qora-0d03db5b9eeb0778792a.webp",
           "href": ""
         },
         {
@@ -258,7 +259,7 @@
           "category": "Камин",
           "year": "3 дня",
           "text": "Витая кочерга с головой змея на рукояти.",
-          "image": "",
+          "image": "/media/qora-ab28ae79840519fd269b.webp",
           "href": ""
         },
         {
@@ -266,7 +267,7 @@
           "category": "Ванная",
           "year": "2 дня",
           "text": "Набор из трёх крючков для полотенец.",
-          "image": "",
+          "image": "/media/qora-5a9233e551a249969868.webp",
           "href": ""
         },
         {
@@ -274,7 +275,7 @@
           "category": "Подарок",
           "year": "2 дня",
           "text": "Подсвечник на три свечи с гравировкой имён.",
-          "image": "",
+          "image": "/media/qora-e5b77e8d3c9fbff93f89.webp",
           "href": ""
         },
         {
@@ -282,7 +283,7 @@
           "category": "Подарок",
           "year": "1 день",
           "text": "Кованая роза в натуральную величину — не завянет.",
-          "image": "",
+          "image": "/media/qora-109a4cb2b1ceada72d4e.webp",
           "href": ""
         }
       ]
@@ -295,7 +296,7 @@
       "label": "Мастерская",
       "title": "Металл, который хочется трогать",
       "text": "Мы маленькая мастерская с горном во дворе и шоурумом на первом этаже. Не красим изделия — нагреваем, проходим горячим воском и полируем щёткой. Получается тёплый чёрный цвет с коричневым отливом, который не облупится и со временем становится только красивее.",
-      "image": ""
+      "image": "/media/qora-6090e1b6593b388a3abe.webp"
     },
     {
       "id": "prices",
@@ -351,17 +352,17 @@
         {
           "name": "Азиз",
           "role": "кузнец, основатель",
-          "image": ""
+          "image": "/media/qora-2bb948cf9f6aed99acc4.webp"
         },
         {
           "name": "Лола",
           "role": "эскизы и гравировка",
-          "image": ""
+          "image": "/media/qora-b543d68e91e1d3954148.webp"
         },
         {
           "name": "Санжар",
           "role": "светильники и электрика",
-          "image": ""
+          "image": "/media/qora-52696c0c9641c95c78ce.webp"
         }
       ]
     },
@@ -386,7 +387,7 @@
           "text": "Куём в горне и собираем — присылаем видео процесса."
         },
         {
-          "title": "Покраска",
+          "title": "Воск",
           "text": "Горячий воск вместо краски — тёплый чёрный с отливом."
         },
         {
@@ -434,5 +435,21 @@
         "href": "https://t.me/yourcompany"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Подсвечник одной линией: эскиз, сырой серый металл, кисть с горячим воском проходит слева направо и делает его тёплым чёрным, загораются свечи; работы открываются мазком кисти",
+    "label": "JetBrains Mono",
+    "skeleton": "type-object-split",
+    "signature": "single-line-wax-brush",
+    "sequence": [
+      "line-draw",
+      "raw-iron",
+      "wax-brush",
+      "sheen",
+      "candles",
+      "glow"
+    ],
+    "ease": "0.7,0,0.3,1",
+    "surface": "sketch-sheet"
+  }
 }
