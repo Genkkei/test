@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Ustani chaqirish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Ustani chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Narxlar",
@@ -253,7 +253,7 @@
       "text": "Ustaxona: Qatortol, 60. Du–sha 09:00 dan 18:00 gacha.",
       "cta": {
         "label": "Ustani chaqirish",
-        "href": "#order"
+        "href": ""
       }
     }
   ]

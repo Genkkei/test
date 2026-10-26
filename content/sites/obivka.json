@@ -1,6 +1,6 @@
 {
   "slug": "obivka",
-  "template": "stitch",
+  "template": "tufted",
   "name": "Ваша компания",
   "tagline": "Вернём любимому дивану вторую жизнь",
   "niche": "Перетяжка и реставрация мягкой мебели",
@@ -15,9 +15,10 @@
     "muted": "#837669",
     "surface": "#efe4d6",
     "line": "#ddcbb7",
-    "display": "Yeseva One",
+    "display": "Gabriela",
     "body": "Nunito",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "ProfessionalService",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Вызвать мастера",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -97,7 +98,7 @@
       ],
       "cta": {
         "label": "Вызвать мастера",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Цены",
@@ -154,7 +155,7 @@
       "label": "О мастерской",
       "title": "Каркас из бука переживёт три обивки",
       "text": "Старые советские и турецкие диваны часто крепче новых: массив вместо ДСП. Мы снимаем обивку до каркаса, меняем всё мягкое и шьём чехол заново по выкройке. Ткани — более 300 образцов: велюр, рогожка, жаккард, антикоготь для домов с кошками. Мастер привозит образцы домой и сразу называет цену.",
-      "image": ""
+      "image": "/media/obivka-7966f7b24e5720c431c2.webp"
     },
     {
       "id": "process",
@@ -307,9 +308,26 @@
       "text": "Мастерская: Катартал, 60. Пн–сб с 09:00 до 18:00.",
       "cta": {
         "label": "Вызвать мастера",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Перетяжка кресла на глазах: старая ткань снимается до букового каркаса с пружинами, новый велюр натягивается снизу, складки стяжки и пуговицы по одной; образцы с краем зигзаг",
+    "label": "Anonymous Pro",
+    "skeleton": "text-chair-split",
+    "signature": "strip-reupholster-tuft",
+    "sequence": [
+      "strip",
+      "frame",
+      "strike",
+      "dress",
+      "pleats",
+      "buttons",
+      "words"
+    ],
+    "ease": "0.6,0,0.2,1",
+    "surface": "pinked-swatch"
+  }
 }

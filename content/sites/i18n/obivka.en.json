@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Call a master",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Call a master",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Prices",
@@ -253,7 +253,7 @@
       "text": "Workshop: 60 Katartal St. Mon–Sat 09:00–18:00.",
       "cta": {
         "label": "Call a master",
-        "href": "#order"
+        "href": ""
       }
     }
   ]
