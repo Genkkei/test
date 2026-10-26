@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "O‘lchovchini chaqirish",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "O‘lchovchini chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Naqshlar",
@@ -285,7 +285,7 @@
       "text": "Yunusobod, 11-mavze, 4. Du–Sh 9:00–19:00. Deraza suratini Telegramga yuboring — taxminiy narxni darhol aytamiz.",
       "cta": {
         "label": "O‘lchovchini chaqirish",
-        "href": "#order"
+        "href": ""
       }
     }
   ]

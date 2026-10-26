@@ -1,6 +1,6 @@
 {
   "slug": "panjara",
-  "template": "stage",
+  "template": "lattice",
   "lang": "ru",
   "name": "Ваша компания",
   "tagline": "Кованые решётки на окна, балконы и двери",
@@ -15,9 +15,10 @@
     "muted": "#93a39f",
     "surface": "#132024",
     "line": "#26393d",
-    "display": "Prata",
+    "display": "Cuprum",
     "body": "Raleway",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -64,7 +65,7 @@
   "nav": {
     "cta": {
       "label": "Вызвать замерщика",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -95,7 +96,7 @@
       ],
       "cta": {
         "label": "Вызвать замерщика",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Узоры",
@@ -111,7 +112,7 @@
       "label": "О мастерской",
       "title": "Решётка — первое, что видят гости дома",
       "text": "Мы в Юнусабаде, в мастерской работают четыре кузнеца и художник. Каждый узор сначала рисуем на фото вашего фасада, чтобы решётка подходила к окнам, а не к каталогу. Решётки на первом этаже делаем с распашной створкой — для пожарной безопасности.",
-      "image": "",
+      "image": "/media/panjara-ac3780972b036ce43212.webp",
       "enabled": true
     },
     {
@@ -126,7 +127,7 @@
           "category": "Окно · квадрат 12 мм",
           "year": "Акт I",
           "text": "Ровная сетка без декора — для современных фасадов и офисов.",
-          "image": "",
+          "image": "/media/panjara-7815dd2365b8ddfb6278.webp",
           "href": ""
         },
         {
@@ -134,7 +135,7 @@
           "category": "Окно · лучи из угла",
           "year": "Акт II",
           "text": "Прутки расходятся веером от нижнего угла, в центре — кованое солнце.",
-          "image": "",
+          "image": "/media/panjara-c4cbe3338ece2786dee0.webp",
           "href": ""
         },
         {
@@ -142,7 +143,7 @@
           "category": "Балкон · художественная ковка",
           "year": "Акт III",
           "text": "Листья и гроздья из листового металла, ручная чеканка.",
-          "image": "",
+          "image": "/media/panjara-c9f6c6a708ab577385ee.webp",
           "href": ""
         },
         {
@@ -150,7 +151,7 @@
           "category": "Дверь · восточный орнамент",
           "year": "Акт IV",
           "text": "Геометрия из звёзд и многоугольников, как на старых медресе.",
-          "image": "",
+          "image": "/media/panjara-6dddbb696d38905ae611.webp",
           "href": ""
         }
       ],
@@ -268,19 +269,19 @@
       "items": [
         {
           "caption": "Юнусабад, окна первого этажа",
-          "image": ""
+          "image": "/media/panjara-f92490a8543b1d19385a.webp"
         },
         {
           "caption": "Мирабад, французский балкон",
-          "image": ""
+          "image": "/media/panjara-a074cb055769e9b6de9e.webp"
         },
         {
           "caption": "Чиланзар, дверь в подъезд",
-          "image": ""
+          "image": "/media/panjara-66442a1d57046aaf62a9.webp"
         },
         {
           "caption": "Кибрай, веранда",
-          "image": ""
+          "image": "/media/panjara-2235b8b85d2cdf40719e.webp"
         }
       ],
       "enabled": true
@@ -340,9 +341,26 @@
       "text": "Юнусабад, 11-й квартал, 4. Пн–Сб 9:00–19:00. Пришлите фото окна в Telegram — назовём ориентир цены сразу.",
       "cta": {
         "label": "Вызвать замерщика",
-        "href": "#order"
+        "href": ""
       },
       "enabled": true
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Сцена театра: занавес расходится, в окне фасада загорается свет, узор решётки рисуется эскизом и становится железом с золотыми розетками, створка распахивается; узоры по кнопкам",
+    "label": "Overpass Mono",
+    "skeleton": "text-stage-split",
+    "signature": "curtain-sketch-forge-sash",
+    "sequence": [
+      "curtain",
+      "window-light",
+      "sketch",
+      "forge",
+      "rosettes",
+      "sash-swing",
+      "patterns"
+    ],
+    "ease": "0.6,0,0.2,1",
+    "surface": "theatre-ticket"
+  }
 }

@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book a measure",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "Book a measure",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Patterns",
@@ -285,7 +285,7 @@
       "text": "4 Block 11, Yunusabad. Mon–Sat 9:00–19:00. Send a photo of the window on Telegram for an instant price guide.",
       "cta": {
         "label": "Book a measure",
-        "href": "#order"
+        "href": ""
       }
     }
   ]

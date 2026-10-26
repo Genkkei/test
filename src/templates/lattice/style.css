@@ -1,1 +1,212 @@
-/* заготовка */
+/* РЕШЁТКА — кованые решётки, подача театром. Тёмная бирюза сцены, чёрное железо, золото розеток.
+   Cuprum — заголовки, Raleway — текст, Overpass Mono — метки.
+   Ведущий приём — сцена: занавес расходится → в окне свет → узор рисуется белым эскизом → железо →
+   золотые розетки → створка распахивается и закрывается. Узор меняется кнопками (data-p). */
+
+.tpl-lattice {
+  --ease: cubic-bezier(.4, 0, .2, 1);
+  --soft: cubic-bezier(.22, 1, .36, 1);
+  --pad: max(16px, min(5vw, 84px));
+  --mono: 'Overpass Mono', ui-monospace, monospace;
+  --iron: #0d0f10;
+  --stucco: #d8cdb8;
+  --velvet: #1d3b40;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: clamp(15px, 1.05vw, 17px);
+  line-height: 1.65;
+}
+.tpl-lattice ::selection { background: var(--accent); color: var(--bg); }
+.tpl-lattice .lt-label { margin: 0; font: 500 12px/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.tpl-lattice .lt-h2 { margin: 0; font: 700 clamp(38px, 5vw, 80px)/.98 var(--font-display); text-transform: uppercase; letter-spacing: .01em; text-wrap: balance; }
+.tpl-lattice .lt-head { display: grid; gap: 12px; max-width: 900px; margin-bottom: clamp(28px, 4vw, 56px); }
+
+.tpl-lattice .lt-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 30px; border-radius: 0; background: var(--accent); color: var(--bg); font: 700 15px/1 var(--font-body); letter-spacing: .02em; text-decoration: none; transition: transform 140ms ease-out, background-color .2s ease; }
+.tpl-lattice .lt-btn:active { transform: scale(.97); }
+.tpl-lattice .lt-btn--sm { min-height: 40px; padding: 0 18px; font-size: 14px; }
+.tpl-lattice .lt-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--fg); font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--accent); }
+@media (hover: hover) and (pointer: fine) { .tpl-lattice .lt-btn:hover { background: #e2bd45; } .tpl-lattice .lt-link:hover { color: var(--accent); } }
+
+/* ───────── шапка ───────── */
+.tpl-lattice .lt-bar { position: sticky; top: 0; z-index: 30; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 14px var(--pad); background: color-mix(in srgb, var(--bg) 90%, transparent); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+.tpl-lattice .lt-bar__logo { font: 700 24px/1 var(--font-display); text-transform: uppercase; color: inherit; text-decoration: none; }
+.tpl-lattice .lt-bar__nav { display: flex; justify-content: center; gap: 26px; }
+.tpl-lattice .lt-bar__nav a { font-size: 14px; color: var(--muted); text-decoration: none; transition: color .2s ease; }
+.tpl-lattice .lt-bar__nav a:hover { color: var(--fg); }
+.tpl-lattice .lt-bar__side { display: flex; align-items: center; gap: 12px; }
+.tpl-lattice .mmenu__btn { display: none; }
+@media (max-width: 960px) { .tpl-lattice .lt-bar__nav { display: none; } .tpl-lattice .lt-bar { grid-template-columns: 1fr auto; } .tpl-lattice .mmenu__btn { display: inline-flex; } }
+@media (max-width: 520px) { .tpl-lattice .lt-bar .lt-btn--sm { display: none; } }
+
+/* ───────── первый экран: сцена ───────── */
+.tpl-lattice .lt-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 88px); align-items: center; min-height: min(calc(100svh - 70px), 880px); padding: clamp(28px, 4vw, 64px) var(--pad) clamp(48px, 6vw, 96px); background: radial-gradient(60% 50% at 75% 45%, rgba(201, 162, 39, .1), transparent 70%); }
+.tpl-lattice .lt-hero__text { display: grid; gap: 22px; }
+.tpl-lattice .lt-title { margin: 0; font: 700 clamp(56px, 8vw, 140px)/.9 var(--font-display); text-transform: uppercase; letter-spacing: -.005em; text-wrap: balance; }
+.tpl-lattice .lt-hero__sub { margin: 0; max-width: 32em; color: color-mix(in srgb, var(--fg) 76%, transparent); }
+.tpl-lattice .lt-ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 26px; }
+.tpl-lattice .lt-words { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 22px; font: 500 12px/1.4 var(--mono); text-transform: uppercase; color: var(--muted); }
+.tpl-lattice .lt-words li + li::before { content: '◆'; margin-right: 22px; color: var(--accent); font-size: 8px; vertical-align: 2px; }
+.tpl-lattice .lt-in { animation: ltIn .9s var(--soft) both; animation-delay: calc(.3s + var(--i) * 110ms); }
+@keyframes ltIn { from { opacity: 0; transform: translateY(12px); } }
+
+.tpl-lattice .lt-stage { display: grid; gap: 14px; justify-self: end; width: min(100%, 500px); }
+.tpl-lattice .lt-scene { position: relative; aspect-ratio: 5 / 6; max-height: calc(100svh - 230px); width: 100%; overflow: hidden; isolation: isolate; border-top: 10px solid var(--accent); box-shadow: 0 0 0 1px var(--line); }
+.tpl-lattice .lt-wall { position: absolute; inset: 0; display: grid; place-items: center; background: radial-gradient(70% 60% at 50% 45%, rgba(255, 220, 160, .18), transparent 70%), repeating-linear-gradient(0deg, rgba(0, 0, 0, .05) 0 1px, transparent 1px 34px), var(--stucco); }
+.tpl-lattice .lt-window { position: relative; width: 56%; aspect-ratio: 200 / 260; background: #1e2a2c; box-shadow: 0 0 0 10px #c2b59c, 0 0 0 12px #a89a80, 0 20px 30px 6px rgba(0, 0, 0, .3); perspective: 900px; }
+.tpl-lattice .lt-window__light { position: absolute; inset: 0; background: radial-gradient(80% 70% at 40% 60%, #ffd998, #e8a24e 50%, #7a4a20); animation: ltLight 1s var(--ease) 1.2s both; }
+@keyframes ltLight { from { opacity: 0; } }
+.tpl-lattice .lt-sash { position: absolute; inset: -4%; transform-origin: 3% 50%; animation: ltSwing 1.6s cubic-bezier(.5, 0, .3, 1) 3.3s both; }
+@keyframes ltSwing { 0% { transform: rotateY(0); } 45% { transform: rotateY(-62deg); } 60% { transform: rotateY(-62deg); } 100% { transform: rotateY(0); } }
+.tpl-lattice .lt-sash svg { width: 100%; height: 100%; overflow: visible; display: block; }
+.tpl-lattice .lt-sash__frame { fill: none; stroke: var(--iron); stroke-width: 6; }
+.tpl-lattice .lt-pat { opacity: 0; transition: opacity .35s ease; }
+.tpl-lattice .lt-pat path { fill: none; stroke: var(--iron); stroke-width: 3.6; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; }
+.tpl-lattice .lt-pat circle { fill: none; stroke: var(--accent); stroke-width: 3; transform-box: fill-box; transform-origin: center; }
+.tpl-lattice .lt-scene[data-p='0'] .lt-pat--0, .tpl-lattice .lt-scene[data-p='1'] .lt-pat--1, .tpl-lattice .lt-scene[data-p='2'] .lt-pat--2, .tpl-lattice .lt-scene[data-p='3'] .lt-pat--3 { opacity: 1; }
+.tpl-lattice .lt-scene[data-p='0'] .lt-pat--0 path, .tpl-lattice .lt-scene[data-p='1'] .lt-pat--1 path, .tpl-lattice .lt-scene[data-p='2'] .lt-pat--2 path, .tpl-lattice .lt-scene[data-p='3'] .lt-pat--3 path { animation: ltDraw 1.2s var(--ease) both, ltForge .6s var(--ease) 1.25s backwards; }
+.tpl-lattice .lt-scene[data-p='0'] .lt-pat--0 circle, .tpl-lattice .lt-scene[data-p='1'] .lt-pat--1 circle, .tpl-lattice .lt-scene[data-p='2'] .lt-pat--2 circle, .tpl-lattice .lt-scene[data-p='3'] .lt-pat--3 circle { animation: ltRose .5s cubic-bezier(.3, 1.5, .5, 1) both; animation-delay: calc(1.5s + var(--j) * 90ms); }
+.tpl-lattice .lt-scene .lt-pat path { animation-delay: 1.5s, 2.75s !important; }
+.tpl-lattice .lt-scene.is-picked .lt-pat path { animation-delay: 0s, .9s !important; animation-duration: .8s, .4s !important; }
+.tpl-lattice .lt-scene.is-picked .lt-pat circle { animation-delay: calc(.9s + var(--j) * 80ms) !important; }
+.tpl-lattice .lt-scene:not(.is-picked) .lt-pat circle { animation-delay: calc(3s + var(--j) * 90ms) !important; }
+@keyframes ltDraw { from { stroke-dashoffset: 1; } }
+@keyframes ltForge { from { stroke: #fff; stroke-width: 1.2; } }
+@keyframes ltRose { from { transform: scale(0); opacity: 0; } }
+.tpl-lattice .lt-curtain { position: absolute; top: 0; bottom: 0; z-index: 2; width: 51%; background: repeating-linear-gradient(90deg, rgba(0, 0, 0, .28) 0 6%, rgba(255, 255, 255, .05) 9%, rgba(0, 0, 0, .28) 14%), var(--velvet); box-shadow: inset 0 -14px 0 -6px var(--accent); }
+.tpl-lattice .lt-curtain--l { left: 0; transform-origin: 0 0; animation: ltOpenL 1.3s cubic-bezier(.6, 0, .2, 1) .3s both; transform: translateX(-84%) skewX(4deg); }
+.tpl-lattice .lt-curtain--r { right: 0; transform-origin: 100% 0; animation: ltOpenR 1.3s cubic-bezier(.6, 0, .2, 1) .3s both; transform: translateX(84%) skewX(-4deg); }
+@keyframes ltOpenL { from { transform: none; } }
+@keyframes ltOpenR { from { transform: none; } }
+
+.tpl-lattice .lt-patterns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.tpl-lattice .lt-patterns button { display: grid; gap: 2px; min-height: 52px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 0; background: transparent; color: var(--fg); font: 700 14px/1.1 var(--font-display); text-transform: uppercase; text-align: left; cursor: pointer; animation: ltIn .6s var(--soft) both; animation-delay: calc(2.6s + var(--i) * 80ms); transition: border-color .2s ease, background-color .2s ease, transform 140ms ease-out; overflow: hidden; text-overflow: ellipsis; }
+.tpl-lattice .lt-patterns small { font: 500 10px/1 var(--mono); color: var(--accent); }
+.tpl-lattice .lt-patterns button:active { transform: scale(.97); }
+.tpl-lattice .lt-patterns button[aria-pressed='true'] { border-color: var(--accent); background: var(--surface); }
+.tpl-lattice .lt-patterns button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 860px) {
+  .tpl-lattice .lt-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+  .tpl-lattice .lt-stage { justify-self: stretch; width: auto; }
+  .tpl-lattice .lt-scene { aspect-ratio: 1; max-height: none; }
+  .tpl-lattice .lt-window { width: 48%; }
+}
+
+.tpl-lattice .s-answer { padding: 0 var(--pad) clamp(40px, 6vw, 80px); }
+.tpl-lattice .s-answer .s__inner { max-width: 820px; margin: 0; padding: 0; }
+.tpl-lattice .s-answer__text { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+
+/* ───────── появление ───────── */
+html.motion .tpl-lattice [data-lt='rise'] { transition: opacity .8s ease, transform 1s var(--soft); transition-delay: calc(var(--i, 0) * 90ms); }
+html.motion .tpl-lattice [data-lt='rise']:not(.is-in) { opacity: 0; transform: translateY(16px); }
+html.motion .tpl-lattice [data-lt='bill'] { transition: opacity .7s ease, transform 1s var(--soft); transition-delay: calc(var(--i, 0) * 120ms); }
+html.motion .tpl-lattice [data-lt='bill']:not(.is-in) { opacity: 0; transform: translateY(40px); }
+html.motion .tpl-lattice [data-lt='ticket'] { transition: opacity .6s ease, transform .8s var(--soft); transition-delay: calc(var(--i, 0) * 120ms); }
+html.motion .tpl-lattice [data-lt='ticket']:not(.is-in) { opacity: 0; transform: translateY(20px); }
+html.motion .tpl-lattice [data-lt='ticket'] .lt-tickets__stub { transition: transform .7s cubic-bezier(.3, 1.4, .5, 1); transition-delay: calc(.5s + var(--i, 0) * 120ms); }
+html.motion .tpl-lattice [data-lt='ticket']:not(.is-in) .lt-tickets__stub { transform: translateY(-10px) rotate(0); }
+
+/* ───────── о мастерской ───────── */
+.tpl-lattice .lt-about { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(28px, 5vw, 84px); align-items: center; padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-lattice .lt-about__photo { margin: 0; border-radius: 999px 999px 0 0; overflow: hidden; border: 1px solid var(--accent); padding: 8px; }
+.tpl-lattice .lt-about__photo .media { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 999px 999px 0 0; }
+.tpl-lattice .lt-about__text { display: grid; gap: 18px; }
+.tpl-lattice .lt-about__text > p:last-child { margin: 0; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+@media (max-width: 820px) { .tpl-lattice .lt-about { grid-template-columns: minmax(0, 1fr); } }
+
+/* ───────── узоры: афиши ───────── */
+.tpl-lattice .lt-bills { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-lattice .lt-bills__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: clamp(16px, 2vw, 28px); }
+.tpl-lattice .lt-bills__list li { display: grid; grid-template-rows: auto 1fr; background: #ece6da; color: #14201f; }
+.tpl-lattice .lt-bills__list figure { margin: 10px 10px 0; overflow: hidden; }
+.tpl-lattice .lt-bills__list .media { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.tpl-lattice .lt-bills__body { display: grid; gap: 6px; align-content: start; padding: 16px 18px 22px; text-align: center; }
+.tpl-lattice .lt-bills__act { font: 500 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: #8a6d12; }
+.tpl-lattice .lt-bills__body h3 { margin: 0; font: 700 clamp(26px, 2.4vw, 34px)/1 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-bills__cat { font: 500 12px/1.4 var(--mono); color: #5d6a68; }
+.tpl-lattice .lt-bills__body p { margin: 0; font-size: 15px; }
+
+/* ───────── цены: билеты ───────── */
+.tpl-lattice .lt-tickets { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-lattice .lt-tickets__row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: clamp(16px, 2vw, 28px); }
+.tpl-lattice .lt-tickets article { display: grid; grid-template-rows: 1fr auto; background: var(--surface); border: 1px solid var(--line); }
+.tpl-lattice .lt-tickets article.is-featured { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.tpl-lattice .lt-tickets__main { display: grid; gap: 14px; align-content: start; padding: 28px 26px 22px; }
+.tpl-lattice .lt-tickets h3 { margin: 0; font: 700 clamp(34px, 3.2vw, 48px)/1 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-tickets ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.tpl-lattice .lt-tickets li::before { content: '◆ '; font-size: 9px; vertical-align: 2px; color: var(--accent); }
+.tpl-lattice .lt-tickets .is-featured li::before { color: var(--bg); }
+.tpl-lattice .lt-tickets__stub { margin: 0; display: grid; gap: 2px; padding: 18px 26px 22px; border-top: 2px dashed color-mix(in srgb, currentColor 35%, transparent); font: 700 clamp(22px, 2vw, 28px)/1.1 var(--font-display); transform-origin: 0 0; transform: rotate(1.5deg); }
+.tpl-lattice .lt-tickets__stub span { font: 500 11px/1.4 var(--mono); text-transform: uppercase; opacity: .75; }
+
+/* ───────── цифры ───────── */
+.tpl-lattice .lt-stats { padding: clamp(48px, 7vw, 104px) var(--pad); border-block: 1px solid var(--line); }
+.tpl-lattice .lt-stats dl { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 28px; }
+.tpl-lattice .lt-stats dl > div { display: flex; flex-direction: column-reverse; gap: 6px; text-align: center; }
+.tpl-lattice .lt-stats dd { margin: 0; font: 700 clamp(64px, 7vw, 120px)/.9 var(--font-display); color: var(--accent); }
+.tpl-lattice .lt-stats dd small { margin-left: 6px; font: 500 14px/1 var(--mono); color: var(--fg); }
+.tpl-lattice .lt-stats dt { color: var(--muted); }
+
+/* ───────── команда ───────── */
+.tpl-lattice .lt-team { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-lattice .lt-team__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: clamp(16px, 2vw, 28px); }
+.tpl-lattice .lt-team__list figure { margin: 0 0 14px; border-radius: 999px 999px 0 0; overflow: hidden; }
+.tpl-lattice .lt-team__list .media { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.tpl-lattice .lt-team__list h3 { margin: 0; font: 700 26px/1.1 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-team__list p { margin: 4px 0 0; color: var(--muted); }
+
+/* ───────── как работаем: программка ───────── */
+.tpl-lattice .lt-program { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-lattice .lt-program__list { list-style: none; margin: 0; padding: 0; max-width: 980px; display: grid; }
+.tpl-lattice .lt-program__list li { display: grid; grid-template-columns: 64px auto 1fr; grid-template-rows: auto auto; align-items: baseline; column-gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.tpl-lattice .lt-program__n { grid-row: span 2; font: 700 28px/1 var(--font-display); color: var(--accent); }
+.tpl-lattice .lt-program__list h3 { margin: 0; font: 700 clamp(24px, 2.2vw, 32px)/1.1 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-program__list i { align-self: center; height: 0; border-bottom: 2px dotted var(--line); }
+.tpl-lattice .lt-program__list p { grid-column: 2 / -1; margin: 4px 0 0; color: var(--muted); }
+
+/* ───────── работы ───────── */
+.tpl-lattice .lt-gallery { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-lattice .lt-gallery__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: clamp(12px, 1.6vw, 20px); }
+.tpl-lattice .lt-gallery figure { margin: 0; display: grid; gap: 10px; }
+.tpl-lattice .lt-gallery .media { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.tpl-lattice .lt-gallery figcaption { font: 500 12px/1.4 var(--mono); color: var(--muted); }
+
+/* ───────── отзывы ───────── */
+.tpl-lattice .lt-voices { padding: clamp(56px, 8vw, 120px) var(--pad); background: var(--surface); }
+.tpl-lattice .lt-voices__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(18px, 2.4vw, 32px); }
+.tpl-lattice .lt-voices figure { margin: 0; display: grid; gap: 18px; align-content: space-between; padding: 30px 0 0; border-top: 3px double var(--accent); }
+.tpl-lattice .lt-voices blockquote { margin: 0; font: 400 clamp(22px, 2vw, 30px)/1.25 var(--font-display); }
+.tpl-lattice .lt-voices figcaption { display: grid; font-weight: 700; }
+.tpl-lattice .lt-voices figcaption span { font: 500 12px/1.5 var(--mono); text-transform: uppercase; color: var(--muted); }
+
+/* ───────── вопросы ───────── */
+.tpl-lattice .lt-faq { padding: clamp(56px, 8vw, 120px) var(--pad); }
+.tpl-lattice .lt-faq__list { max-width: 920px; display: grid; }
+.tpl-lattice .lt-faq__item { border-top: 1px solid var(--line); }
+.tpl-lattice .lt-faq__item:last-child { border-bottom: 1px solid var(--line); }
+.tpl-lattice .lt-faq__item summary { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 66px; padding: 0 2px; cursor: pointer; list-style: none; font: 700 clamp(20px, 1.6vw, 25px)/1.2 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-faq__item summary::-webkit-details-marker { display: none; }
+.tpl-lattice .lt-plus { position: relative; flex: none; width: 14px; height: 14px; rotate: 45deg; border: 1.5px solid var(--accent); transition: rotate .35s var(--soft), background-color .2s ease; }
+.tpl-lattice .lt-faq__item[open] .lt-plus { rotate: 225deg; background: var(--accent); }
+.tpl-lattice .lt-faq__item p { margin: 0; padding: 0 2px 22px; max-width: 62ch; color: color-mix(in srgb, var(--fg) 80%, transparent); }
+
+/* ───────── связь: занавес по краям ───────── */
+.tpl-lattice .lt-contact { position: relative; padding: clamp(70px, 10vw, 150px) calc(var(--pad) + 8vw); background: radial-gradient(50% 70% at 50% 30%, rgba(201, 162, 39, .14), transparent 70%), var(--bg); overflow: hidden; isolation: isolate; text-align: center; border-top: 10px solid var(--accent); }
+.tpl-lattice .lt-curtain--still { width: 9vw; animation: none; transform: none; }
+.tpl-lattice .lt-contact__inner { position: relative; z-index: 3; display: grid; justify-items: center; gap: 20px; max-width: 880px; margin: 0 auto; }
+.tpl-lattice .lt-contact__title { margin: 0; font: 700 clamp(44px, 6.4vw, 108px)/.95 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-contact__text { margin: 0; max-width: 34em; color: var(--muted); }
+.tpl-lattice .lt-contact .lt-ctas { justify-content: center; }
+
+/* ───────── подвал ───────── */
+.tpl-lattice .lt-foot { padding: clamp(40px, 5vw, 72px) var(--pad) 28px; border-top: 1px solid var(--line); }
+.tpl-lattice .lt-foot__logo { margin: 0; font: 700 clamp(40px, 6.4vw, 100px)/1 var(--font-display); text-transform: uppercase; }
+.tpl-lattice .lt-foot__cols { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 22px 32px; }
+.tpl-lattice .lt-foot__cols p { margin: 0; display: grid; gap: 6px; align-content: start; color: var(--muted); }
+.tpl-lattice .lt-foot small { font: 500 11px/1 var(--mono); text-transform: uppercase; color: var(--accent); }
+.tpl-lattice .lt-foot a { color: var(--fg); }
+.tpl-lattice .lt-foot__legal { margin: 28px 0 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; font: 500 12px/1.3 var(--mono); color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .tpl-lattice *, .tpl-lattice *::before, .tpl-lattice *::after { animation-duration: .01ms !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
