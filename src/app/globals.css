@@ -285,3 +285,6 @@ html.menu-open { overflow: hidden; }
 .brand-fit > .brand-logo { font-size: min(1em, calc(100cqi / (var(--n) * 0.95 + var(--m) + 0.2))); }
 /* в шапке шаблона знак самого шаблона не нужен — логотип сайта его заменяет */
 .has-brand-logo > :not(.brand-logo):not(.sr-only) { display: none !important; }
+
+/* Шрифты заголовков сайтов часто бывают в одном начертании — без фальшивого полужирного. */
+[class*="tpl-"] { font-synthesis-weight: none; }

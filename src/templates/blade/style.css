@@ -78,7 +78,7 @@
 .blade-pole--hero i, .blade-pole--hero b { height: 16px; }
 .blade-pole--r { animation-direction: reverse; }
 .blade-hero__type { display: grid; justify-items: center; text-align: center; gap: clamp(10px, 2vw, 22px); }
-.blade-hero__title { font-family: var(--font-display); font-weight: 700; text-transform: uppercase; font-size: clamp(64px, 17vw, 300px); line-height: .82; letter-spacing: -.01em; color: var(--fg); }
+.blade-hero__title { font-family: var(--font-display); font-weight: 700; text-transform: uppercase; font-size: clamp(56px, 13vw, 240px); line-height: .82; letter-spacing: -.01em; color: var(--fg); }
 .blade-hero__rot { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .14em; font-size: clamp(18px, 2.2vw, 30px); display: flex; gap: .5em; align-items: baseline; flex-wrap: wrap; justify-content: center; }
 .blade-hero__rot > span:first-child { color: var(--muted); }
 .blade-rot { display: inline-block; color: var(--accent); min-width: 6ch; text-align: left; }

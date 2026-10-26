@@ -174,7 +174,7 @@
 .v-footer__grid div { display: grid; gap: 6px; align-content: start; }
 .v-footer__grid small { font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
 .v-footer__grid a:hover { color: var(--accent); }
-.v-footer__word { font-family: var(--font-display); font-size: 27vw; line-height: .8; text-transform: uppercase; letter-spacing: -.04em; color: var(--accent); margin: 50px 0 10px calc(var(--pad) * -.3); white-space: nowrap; }
+.v-footer__word { font-family: var(--font-display); font-size: 27vw; line-height: .8; text-transform: uppercase; letter-spacing: -.04em; color: var(--accent); margin: 50px 0 10px calc(var(--pad) * -.3); white-space: nowrap; pointer-events: none; }
 .v-footer__legal { font-size: 12px; color: var(--muted); }
 
 .tpl-velocity .mmenu__panel { background: var(--accent); color: var(--bg); }

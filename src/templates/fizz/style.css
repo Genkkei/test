@@ -190,7 +190,7 @@
 .fizz-footer__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; padding: 50px var(--pad) 20px; }
 .fizz-footer__grid div { display: grid; gap: 8px; align-content: start; font-weight: 700; }
 .fizz-footer__grid a:hover { color: var(--accent); }
-.fizz-footer__word { font-weight: 900; font-size: 31vw; line-height: .78; letter-spacing: -.07em; text-transform: uppercase; text-align: center; margin: 20px 0 0; white-space: nowrap; }
+.fizz-footer__word { font-weight: 900; font-size: 31vw; line-height: .78; letter-spacing: -.07em; text-transform: uppercase; text-align: center; margin: 20px 0 0; white-space: nowrap; pointer-events: none; }
 .fizz-footer__legal { padding: 16px var(--pad) 0; font-size: 12px; color: var(--muted); }
 
 .tpl-fizz .mmenu__panel { background: var(--accent); color: var(--fg); }
