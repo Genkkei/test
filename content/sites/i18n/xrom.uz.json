@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "O‘lchovchi",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "O‘lchovchini chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Ishlar",

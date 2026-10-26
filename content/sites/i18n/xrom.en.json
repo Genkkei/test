@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Book a visit",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -59,7 +59,7 @@
       ],
       "cta": {
         "label": "Book a measurement",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Projects",
