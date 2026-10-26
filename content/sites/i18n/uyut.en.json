@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Order",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "See collections",
@@ -270,7 +270,7 @@
       "text": "Showroom at 7 Muqimiy St — daily 10:00–20:00. Parking in the courtyard.",
       "cta": {
         "label": "Order",
-        "href": "#order"
+        "href": ""
       }
     },
     {

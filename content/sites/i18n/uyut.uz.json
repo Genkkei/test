@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -60,7 +60,7 @@
       ],
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Kolleksiyalar",
@@ -270,7 +270,7 @@
       "text": "Muqimiy ko‘chasi, 7 dagi shourum — har kuni 10:00 dan 20:00 gacha. Hovlida avtoturargoh.",
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": ""
       }
     },
     {

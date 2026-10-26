@@ -1,6 +1,6 @@
 {
   "slug": "uyut",
-  "template": "kinfolk",
+  "template": "linen",
   "name": "Ваша компания",
   "tagline": "Мебель и текстиль для тёплого дома",
   "niche": "Мебель и домашний текстиль",
@@ -15,9 +15,10 @@
     "muted": "#86705f",
     "surface": "#ecdfd0",
     "line": "#dccab7",
-    "display": "Lora",
-    "body": "Manrope",
-    "motion": 1
+    "display": "Cormorant Infant",
+    "body": "Mulish",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "FurnitureStore",
@@ -66,7 +67,7 @@
   "nav": {
     "cta": {
       "label": "Заказать",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -98,7 +99,7 @@
       ],
       "cta": {
         "label": "Заказать",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Смотреть коллекции",
@@ -120,7 +121,7 @@
           "text": "Лён, 45×45, наполнитель холлофайбер.",
           "price": 187000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-90834bd8ee8066d6d021.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -130,7 +131,7 @@
           "text": "Для маленькой гостиной, 160 см.",
           "price": 5096000,
           "oldPrice": 6115000,
-          "image": "",
+          "image": "/media/uyut-d8f4ef1cb28f74905f26.webp",
           "category": "Диваны",
           "badge": "Скидка",
           "unit": "шт"
@@ -140,7 +141,7 @@
           "text": "Рогожка, съёмные чехлы, 220 см.",
           "price": 7176000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-f159a743b536dfce5131.webp",
           "category": "Диваны",
           "badge": "Хит",
           "unit": "шт"
@@ -150,7 +151,7 @@
           "text": "Угол меняется на месте, спальное место.",
           "price": 11856000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-a0269114925c3bbba5f6.webp",
           "category": "Диваны",
           "badge": "",
           "unit": "шт"
@@ -160,7 +161,7 @@
           "text": "Еврокнижка, ящик для белья.",
           "price": 8112000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-45545514e2bb81b048d4.webp",
           "category": "Диваны",
           "badge": "",
           "unit": "шт"
@@ -170,7 +171,7 @@
           "text": "Букле, деревянные ножки.",
           "price": 3328000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-a08f14c35c4b22952069.webp",
           "category": "Кресла и стулья",
           "badge": "Новинка",
           "unit": "шт"
@@ -180,7 +181,7 @@
           "text": "Механизм с подставкой для ног.",
           "price": 4784000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-d57c9b48a196eea16c46.webp",
           "category": "Кресла и стулья",
           "badge": "",
           "unit": "шт"
@@ -190,7 +191,7 @@
           "text": "Велюр, 50 см.",
           "price": 926000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/uyut-b9c9f0592d2590e0e19e.webp",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -205,7 +206,7 @@
       "label": "О нас",
       "title": "Вещи, которые становятся теплее со временем",
       "text": "Подбираем мебель так, чтобы её не хотелось менять через два года: каркасы из бука и берёзы, наполнители, которые не проседают, ткани с запасом прочности. Шьём шторы, покрывала и чехлы в своей мастерской в том же здании, поэтому цвет дивана и штор совпадает в точности. Дизайнер шоурума бесплатно соберёт для вас комнату из наших вещей.",
-      "image": ""
+      "image": "/media/uyut-6ae41d32cb8dda3d4d02.webp"
     },
     {
       "id": "collections",
@@ -220,7 +221,7 @@
           "category": "Гостиная",
           "year": "в наличии",
           "text": "Угловой диван в шенилле цвета корицы, журнальный стол из дуба и шерстяной плед · Диван: 280 × 180 см · Срок: 2 дня · Цена: от 9 400 000 сум",
-          "image": "",
+          "image": "/media/uyut-638ba77b99863130fbad.webp",
           "href": ""
         },
         {
@@ -228,7 +229,7 @@
           "category": "Спальня",
           "year": "под заказ",
           "text": "Кровать с высоким льняным изголовьем, тумбы из ясеня и шторы блэкаут · Кровать: 160 × 200 см · Срок: 14 дней · Цена: от 7 200 000 сум",
-          "image": "",
+          "image": "/media/uyut-82e368ef07127c81ff2c.webp",
           "href": ""
         },
         {
@@ -236,7 +237,7 @@
           "category": "Детская",
           "year": "в наличии",
           "text": "Кровать-домик из берёзы, мягкий пуф и хлопковые шторы с облаками · Кровать: 90 × 190 см · Срок: 3 дня · Цена: от 3 900 000 сум",
-          "image": "",
+          "image": "/media/uyut-a4ce3a5cfbfc449fe401.webp",
           "href": ""
         },
         {
@@ -244,7 +245,7 @@
           "category": "Столовая",
           "year": "под заказ",
           "text": "Раздвижной стол из карагача на 8 персон, стулья с тканевыми сиденьями и скатерть · Стол: 180–240 см · Срок: 21 день · Цена: от 8 600 000 сум",
-          "image": "",
+          "image": "/media/uyut-c660dc7541c2153cfa37.webp",
           "href": ""
         }
       ]
@@ -259,27 +260,27 @@
       "items": [
         {
           "caption": "Шенилл «корица»",
-          "image": ""
+          "image": "/media/uyut-ec76e6461b1c901be7fc.webp"
         },
         {
           "caption": "Лён «овсянка»",
-          "image": ""
+          "image": "/media/uyut-37707175de11c8d13565.webp"
         },
         {
           "caption": "Букле молочное",
-          "image": ""
+          "image": "/media/uyut-37a966c64490c986eed0.webp"
         },
         {
           "caption": "Велюр «олива»",
-          "image": ""
+          "image": "/media/uyut-54ba0093b6d127f26270.webp"
         },
         {
           "caption": "Шерсть для пледов",
-          "image": ""
+          "image": "/media/uyut-f5f4036a981c056ff3e9.webp"
         },
         {
           "caption": "Хлопок для штор",
-          "image": ""
+          "image": "/media/uyut-a4bbd12b9613e7f24ec8.webp"
         }
       ]
     },
@@ -415,9 +416,24 @@
       "text": "Шоурум на Мукими, 7 — каждый день с 10:00 до 20:00. Парковка во дворе.",
       "cta": {
         "label": "Заказать",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Замер окна: рулетка вытягивается по ширине и вниз по высоте, сантиметры бегут, льняные шторы разворачиваются с карниза по меркам, на диван ложится плед; коллекции — журнальные развороты",
+    "label": "Fira Mono",
+    "skeleton": "text-room-split",
+    "signature": "tape-measure-curtain",
+    "sequence": [
+      "rod",
+      "tape-width",
+      "tape-height",
+      "curtains",
+      "throw"
+    ],
+    "ease": "0.3,0,0.2,1",
+    "surface": "woven-label"
+  }
 }
