@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'baroque',
-  name: 'baroque',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'baroque' },
+  name: 'Барокко',
+  inspiredBy: 'резное изголовье из ореха: резец проходит по аканту, ложится патина «слоновая кость», проступает сусальное золото; латунная табличка с годами; паспорт гарнитура; овальные золочёные рамы',
+  mood: 'Орех, слоновая кость, бордо и золото',
+  niches: ['Классическая мебель', 'мебель из массива', 'салон интерьера'],
+  defaultTheme: { bg: '#f3ece0', fg: '#2a1d18', accent: '#7a1f2b', muted: '#7c6a5e', surface: '#e8dccb', line: '#d3c1aa', display: 'Oranienbaum', body: 'Vollkorn', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#f3ece0', fg: '#2a1d18', accent: '#7a1f2b', word: '2075' },
 }

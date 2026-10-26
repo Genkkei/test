@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       "words": [],
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Garniturlar",
@@ -239,7 +239,7 @@
       "text": "Amir Temur, 107. Du–sha 10:00–20:00, ya 11:00–18:00. Qahva va maslahat — bepul.",
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": ""
       }
     },
     {

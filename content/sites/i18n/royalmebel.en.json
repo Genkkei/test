@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       "words": [],
       "cta": {
         "label": "Order",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Suites",
@@ -239,7 +239,7 @@
       "text": "107 Amir Temur Ave. Mon–Sat 10:00–20:00, Sun 11:00–18:00. Coffee and advice are free.",
       "cta": {
         "label": "Order",
-        "href": "#order"
+        "href": ""
       }
     },
     {
