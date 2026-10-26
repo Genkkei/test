@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       },
       "ctaSecondary": {
         "label": "Order home",
-        "href": "#order"
+        "href": "#contact"
       },
       "image": ""
     },
@@ -281,7 +281,7 @@
       "text": "21 Shevchenko St, entrance from the courtyard. Every day 6 pm to 3 am. Order coffee home and we bring it in half an hour.",
       "cta": {
         "label": "Order",
-        "href": "#order"
+        "href": ""
       }
     },
     {

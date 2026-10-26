@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       },
       "ctaSecondary": {
         "label": "Uyga buyurtma",
-        "href": "#order"
+        "href": "#contact"
       },
       "image": ""
     },
@@ -281,7 +281,7 @@
       "text": "Shevchenko, 21, kirish hovli tomondan. Har kuni 18:00 dan 3:00 gacha. Uyga qahva buyurtma qiling — yarim soatda olib kelamiz.",
       "cta": {
         "label": "Buyurtma berish",
-        "href": "#order"
+        "href": ""
       }
     },
     {

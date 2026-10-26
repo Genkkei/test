@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'midnight',
-  name: 'midnight',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'midnight' },
+  name: 'Полночь',
+  inspiredBy: 'дом напротив в три часа ночи: окна гаснут одно за другим, горит только кофейня на первом этаже; табло ночного меню с фазами луны; маршрут ночного курьера',
+  mood: 'Глубокая ночь, циановый неон, тёплое окно',
+  niches: ['Ночная кофейня до 3 утра', 'ночной бар', 'круглосуточное кафе'],
+  defaultTheme: { bg: '#0a0f1a', fg: '#eef3ff', accent: '#4de1ff', muted: '#8fa0bf', surface: '#121a2b', line: '#22304a', display: 'Prosto One', body: 'Didact Gothic', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#0a0f1a', fg: '#eef3ff', accent: '#4de1ff', word: '03:00' },
 }
