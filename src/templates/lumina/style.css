@@ -53,7 +53,7 @@
 @keyframes lmIn { from { opacity: 0; transform: translateY(12px); } }
 
 .tpl-lumina .lm-stage { display: grid; gap: 14px; justify-self: end; width: min(100%, 520px); }
-.tpl-lumina .lm-room { container-type: size; --lc: 255, 196, 106; position: relative; aspect-ratio: 1; max-height: calc(100svh - 230px); width: 100%; justify-self: end; border-radius: 28px; overflow: hidden; isolation: isolate; background: linear-gradient(#e9eef2, #f6f1e7); counter-reset: k var(--k); animation: lmIn .8s var(--soft) both; transition: --k .7s var(--ease); }
+.tpl-lumina .lm-room { container-type: size; --lc: 255, 196, 106; position: relative; aspect-ratio: 1; max-height: calc(100svh - 230px); width: 100%; justify-self: end; border-radius: 28px; overflow: hidden; isolation: isolate; background: linear-gradient(#e9eef2, #f6f1e7); animation: lmIn .8s var(--soft) both; transition: --k .7s var(--ease); }
 .tpl-lumina .lm-room[data-k='3000'] { --lc: 255, 216, 158; --k: 3000; }
 .tpl-lumina .lm-room[data-k='4000'] { --lc: 226, 238, 255; --k: 4000; }
 .tpl-lumina .lm-room__dusk { position: absolute; inset: 0; z-index: -1; background: radial-gradient(120% 60% at 50% 110%, #2b3546, var(--night) 70%); animation: lmDusk 1.4s var(--ease) .2s both; }
@@ -78,7 +78,7 @@
 .tpl-lumina .lm-table .lm-sofa__line { stroke-width: 2.6; animation-delay: 2.5s; }
 @keyframes lmDraw { from { stroke-dashoffset: 1; } }
 .tpl-lumina .lm-room__k { position: absolute; left: 20px; top: 18px; display: flex; align-items: baseline; gap: 4px; padding: 7px 12px; border-radius: 999px; background: rgba(255, 255, 255, .1); color: rgb(var(--lc)); font: 500 15px/1 var(--mono); transition: color .6s var(--ease); animation: lmIn .6s var(--soft) 2.1s both; }
-.tpl-lumina .lm-room__k b { font-weight: 500; animation: lmK 1.4s var(--ease) 2.1s backwards; }
+.tpl-lumina .lm-room__k b { font-weight: 500; counter-reset: k var(--k); animation: lmK 1.4s var(--ease) 2.1s backwards; }
 .tpl-lumina .lm-room__k b::after { content: counter(k); }
 .tpl-lumina .lm-room__k small { font-size: 12px; }
 @keyframes lmK { from { --k: 0; } }

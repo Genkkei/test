@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Buyurtma",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -57,7 +57,7 @@
       "words": [],
       "cta": {
         "label": "Manqal buyurtma qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Katalog",

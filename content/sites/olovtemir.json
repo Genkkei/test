@@ -1,6 +1,6 @@
 {
   "slug": "olovtemir",
-  "template": "ember",
+  "template": "anneal",
   "name": "Ваша компания",
   "tagline": "Мангалы, печи под казан и камины ручной ковки",
   "niche": "Кузница: мангалы, печи под казан, камины и барбекю-зоны",
@@ -15,9 +15,10 @@
     "muted": "#7d665b",
     "surface": "#efe2d4",
     "line": "#e3d2c2",
-    "display": "Oswald",
+    "display": "Seymour One",
     "body": "Golos Text",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -68,7 +69,7 @@
   "nav": {
     "cta": {
       "label": "Заказать",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -97,7 +98,7 @@
       "words": [],
       "cta": {
         "label": "Заказать мангал",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Каталог",
@@ -134,7 +135,7 @@
           "text": "На 10 шампуров, сталь 6 мм, крыша.",
           "price": 3510000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-938758eb79dd4088be90.webp",
           "category": "Мангалы",
           "badge": "Хит",
           "unit": "шт"
@@ -144,7 +145,7 @@
           "text": "Для казана 12–22 л, дверца с колосником.",
           "price": 2160000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-e783aad2d9cadcf8c59c.webp",
           "category": "Камины и печи",
           "badge": "Хит",
           "unit": "шт"
@@ -154,7 +155,7 @@
           "text": "Мангал, печь, столешница и дровница.",
           "price": 13050000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-ee1df72fe3f19ce49862.webp",
           "category": "Мангалы",
           "badge": "Новинка",
           "unit": "набор"
@@ -164,7 +165,7 @@
           "text": "Нержавейка, ручка с завитком.",
           "price": 378000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-a0b41a7ef3cb6440035b.webp",
           "category": "Мангалы",
           "badge": "",
           "unit": "набор"
@@ -174,7 +175,7 @@
           "text": "Узбекский, с крышкой.",
           "price": 621000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-64bd5594d4dac82429af.webp",
           "category": "Мангалы",
           "badge": "",
           "unit": "шт"
@@ -184,7 +185,7 @@
           "text": "Кочерга, совок, щётка и щипцы на стойке.",
           "price": 882000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-6f167775201a28c6c7cb.webp",
           "category": "Камины и печи",
           "badge": "",
           "unit": "набор"
@@ -194,7 +195,7 @@
           "text": "Для дома и террасы.",
           "price": 684000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-26d5b7bb77b0f2396cf7.webp",
           "category": "Камины и печи",
           "badge": "",
           "unit": "шт"
@@ -204,7 +205,7 @@
           "text": "Нержавейка, ручки, 40×30 см.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/olovtemir-82bf2ed01d043d8427ed.webp",
           "category": "Мангалы",
           "badge": "",
           "unit": "шт"
@@ -219,7 +220,7 @@
       "label": "Кузница",
       "title": "Каждая вещь проходит через горн",
       "text": "Начинали с мангалов для соседей по махалле, теперь делаем по сорок изделий в месяц. Ножки, ручки и решётки куём вручную на наковальне, корпус сваривают сплошным швом — дым не выходит сбоку, а угли держат жар до последнего шампура.",
-      "image": ""
+      "image": "/media/olovtemir-a646bd1e9e2792ea177f.webp"
     },
     {
       "id": "catalog",
@@ -272,23 +273,23 @@
       "items": [
         {
           "caption": "Мангал с виноградной лозой",
-          "image": ""
+          "image": "/media/olovtemir-1edb70d04e186e713a49.webp"
         },
         {
           "caption": "Печь под казан на 22 литра",
-          "image": ""
+          "image": "/media/olovtemir-e51c32c74123974ee09c.webp"
         },
         {
           "caption": "Барбекю-зона в Кибрае",
-          "image": ""
+          "image": "/media/olovtemir-c53b3085eefed21ebbda.webp"
         },
         {
           "caption": "Камин с кованым экраном",
-          "image": ""
+          "image": "/media/olovtemir-089da774916248647411.webp"
         },
         {
           "caption": "Ковка ножек на наковальне",
-          "image": ""
+          "image": "/media/olovtemir-c7da8a13fb8ffad8672e.webp"
         }
       ]
     },
@@ -303,17 +304,17 @@
         {
           "name": "Рустам Ахмедов",
           "role": "кузнец и основатель",
-          "image": ""
+          "image": "/media/olovtemir-935ddb96216c2317a502.webp"
         },
         {
           "name": "Жамшид Каримов",
           "role": "сварщик",
-          "image": ""
+          "image": "/media/olovtemir-4db23760e93ca5d08b3b.webp"
         },
         {
           "name": "Отабек Юлдашев",
           "role": "монтаж и покраска",
-          "image": ""
+          "image": "/media/olovtemir-7b32ed5f42079f78d780.webp"
         }
       ]
     },
@@ -406,5 +407,21 @@
         "href": "tel:+998712000403"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Плита стали 6 мм над углями: снизу вверх по металлу идут цвета побежалости, термометр до 800 °C, тонкий лист 2 мм ведёт волной; каталог — шильды на заклёпках, этапы — шкала побежалости",
+    "label": "Source Code Pro",
+    "skeleton": "dark-forge-split",
+    "signature": "temper-colors-plate",
+    "sequence": [
+      "coals",
+      "plate",
+      "temper-rise",
+      "thermometer",
+      "sheet-warp",
+      "gauge"
+    ],
+    "ease": "0.45,0,0.2,1",
+    "surface": "riveted-nameplate"
+  }
 }

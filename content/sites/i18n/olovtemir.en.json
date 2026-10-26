@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Order",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -57,7 +57,7 @@
       "words": [],
       "cta": {
         "label": "Order a grill",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Catalogue",
