@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "O‘lchovchi",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "O‘lchovchini chaqirish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Quvvatni hisoblash",
@@ -109,7 +109,7 @@
         {
           "title": "Quyosh soyaboni",
           "text": "Panellar uchun karkas, invertor va uyga ulash.",
-          "price": "62 000 000 so‘mdan",
+          "price": "38 000 000 so‘mdan",
           "tag": "5 kun"
         },
         {

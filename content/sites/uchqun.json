@@ -1,6 +1,6 @@
 {
   "slug": "uchqun",
-  "template": "spark",
+  "template": "canopy",
   "name": "Ваша компания",
   "tagline": "Сварка, навесы и солнечные крыши над парковкой",
   "niche": "Сварочные работы и навесы с солнечными панелями",
@@ -15,9 +15,10 @@
     "muted": "#6e665a",
     "surface": "#f1eadc",
     "line": "#ddd3c1",
-    "display": "Unbounded",
+    "display": "Science Gothic",
     "body": "Manrope",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -64,7 +65,7 @@
   "nav": {
     "cta": {
       "label": "Вызвать замерщика",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -97,7 +98,7 @@
       ],
       "cta": {
         "label": "Вызвать замерщика",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Посчитать мощность",
@@ -129,7 +130,7 @@
       "label": "О нас",
       "title": "Варим с 2015 года, теперь ещё и ловим солнце",
       "text": "Начинали со сварки ворот и заборов на выезде. Клиенты всё чаще просили навесы, а затем — поставить на них солнечные панели. Теперь считаем нагрузку от панелей и ветра, варим каркас из трубы 80×80 и монтируем станцию вместе с партнёрами-электриками.",
-      "image": ""
+      "image": "/media/uchqun-43cbdd48ccaca8fe6373.webp"
     },
     {
       "id": "services",
@@ -154,7 +155,7 @@
         {
           "title": "Солнечный навес",
           "text": "Каркас под панели, инвертор и подключение к дому.",
-          "price": "от 62 000 000 сум",
+          "price": "от 38 000 000 сум",
           "tag": "5 дней"
         },
         {
@@ -279,19 +280,19 @@
       "items": [
         {
           "caption": "Солнечный навес на 2 машины, Янгихаёт",
-          "image": ""
+          "image": "/media/uchqun-692506426e3dbef1b3f4.webp"
         },
         {
           "caption": "Навес террасы с поликарбонатом",
-          "image": ""
+          "image": "/media/uchqun-eb8795d5586ad9926217.webp"
         },
         {
           "caption": "Парковка магазина на 8 мест",
-          "image": ""
+          "image": "/media/uchqun-4439d40187b718fb5af8.webp"
         },
         {
           "caption": "Сварка ворот на выезде",
-          "image": ""
+          "image": "/media/uchqun-901e8cdf6f9d515a756c.webp"
         }
       ]
     },
@@ -354,5 +355,22 @@
         "href": "tel:+998712000406"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Навес сбоку: стойки 80×80 поднимаются, балка ложится, швы искрят, панели встают по одной, солнце идёт по дуге, тень сдвигается, счётчик ватт растёт; цены — калькулятор мощности",
+    "label": "Noto Sans Mono",
+    "skeleton": "text-diagram-split",
+    "signature": "carport-sun-arc-meter",
+    "sequence": [
+      "posts",
+      "beam",
+      "sparks",
+      "panels",
+      "sun-arc",
+      "shadow",
+      "meter"
+    ],
+    "ease": "0.45,0,0.35,1",
+    "surface": "roof-section-card"
+  }
 }

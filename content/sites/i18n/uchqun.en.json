@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Book a visit",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -58,7 +58,7 @@
       ],
       "cta": {
         "label": "Book a measurement",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Estimate power",
@@ -109,7 +109,7 @@
         {
           "title": "Solar carport",
           "text": "A frame for the panels, an inverter and connection to the house.",
-          "price": "from 62,000,000 UZS",
+          "price": "from 38,000,000 UZS",
           "tag": "5 days"
         },
         {
