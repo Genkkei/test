@@ -1,6 +1,6 @@
 {
   "slug": "metallform",
-  "template": "monolith",
+  "template": "profile",
   "name": "Ваша компания",
   "tagline": "Мебель и конструкции из металла в минимализме",
   "niche": "Металлическая мебель и современные металлоконструкции",
@@ -15,9 +15,10 @@
     "muted": "#8d8b87",
     "surface": "#1c1d1f",
     "line": "#2f3033",
-    "display": "Montserrat",
-    "body": "Golos Text",
-    "motion": 1
+    "display": "Sofia Sans Condensed",
+    "body": "Commissioner",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "HomeAndConstructionBusiness",
@@ -69,7 +70,7 @@
   "nav": {
     "cta": {
       "label": "Обсудить проект",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "updatedAt": "",
@@ -103,7 +104,7 @@
       ],
       "cta": {
         "label": "Обсудить проект",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Проекты",
@@ -121,83 +122,83 @@
       "text": "Добавьте в корзину и оформите заказ — мы перезвоним, подтвердим и привезём.",
       "items": [
         {
-          "name": "Зеркало напольное",
-          "text": "Рама из дуба, 170 см.",
+          "name": "Стол обеденный «Рама» 160",
+          "text": "Подстолье 40×40, столешница из дуба.",
+          "price": 5724000,
+          "oldPrice": 0,
+          "image": "/media/metallform-d0b4cbb26a54738d1417.webp",
+          "category": "Столы",
+          "badge": "Хит",
+          "unit": "шт"
+        },
+        {
+          "name": "Журнальный стол «Куб»",
+          "text": "Профиль 20×20, стекло 8 мм, 80 см.",
+          "price": 2014000,
+          "oldPrice": 0,
+          "image": "/media/metallform-85d14ce6b4a7e471f05f.webp",
+          "category": "Столы",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Стеллаж открытый 180",
+          "text": "Пять полок, чёрная сталь и дуб.",
+          "price": 1696000,
+          "oldPrice": 0,
+          "image": "/media/metallform-221fc45118166fd41399.webp",
+          "category": "Хранение",
+          "badge": "",
+          "unit": "шт"
+        },
+        {
+          "name": "Консоль настенная",
+          "text": "Лист 3 мм, скрытый крепёж, 120 см.",
           "price": 1325000,
           "oldPrice": 1590000,
-          "image": "",
-          "category": "Декор",
+          "image": "/media/metallform-88814f20f24c88c3aa8a.webp",
+          "category": "Хранение",
           "badge": "Скидка",
           "unit": "шт"
         },
         {
-          "name": "Шкаф двухдверный",
-          "text": "Штанга и полки, 100 см.",
-          "price": 4134000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
-          "badge": "",
-          "unit": "шт"
-        },
-        {
-          "name": "Обеденный стол «Дуб» 160",
-          "text": "Массив дуба, масло-воск.",
-          "price": 5724000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Столы",
-          "badge": "Хит",
-          "unit": "шт"
-        },
-        {
-          "name": "Стул «Венский»",
-          "text": "Бук, мягкое сиденье.",
+          "name": "Барный стул «Т»",
+          "text": "Сталь 20×20, сиденье из ясеня, 75 см.",
           "price": 731000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кресла и стулья",
+          "image": "/media/metallform-bf10ddd6fde77cd475c4.webp",
+          "category": "Стулья",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Журнальный стол круглый",
-          "text": "Шпон ореха, 80 см.",
-          "price": 2014000,
+          "name": "Вешалка напольная",
+          "text": "Рейл и полка для обуви, 100 см.",
+          "price": 984000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Столы",
-          "badge": "",
-          "unit": "шт"
-        },
-        {
-          "name": "Комод на четыре ящика",
-          "text": "Доводчики, ЛДСП + дуб.",
-          "price": 2862000,
-          "oldPrice": 0,
-          "image": "",
+          "image": "/media/metallform-b8f7938e629198c63326.webp",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
         },
         {
-          "name": "Стеллаж открытый",
-          "text": "Пять полок, металл и дерево.",
-          "price": 1696000,
+          "name": "Кровать «Профиль» 160×200",
+          "text": "Рама из стали, ламели из берёзы.",
+          "price": 5088000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Хранение",
+          "image": "/media/metallform-e80bae2c4316f041d9a8.webp",
+          "category": "Спальня",
           "badge": "Новинка",
           "unit": "шт"
         },
         {
-          "name": "Кровать «Нордик» 160×200",
-          "text": "Массив сосны, ортопедическое основание.",
-          "price": 5088000,
+          "name": "Подставка под цветы",
+          "text": "Три уровня, порошковая окраска RAL.",
+          "price": 462000,
           "oldPrice": 0,
-          "image": "",
-          "category": "Кровати",
-          "badge": "Хит",
+          "image": "/media/metallform-ce8be0e8d8a338374c0a.webp",
+          "category": "Декор",
+          "badge": "",
           "unit": "шт"
         }
       ]
@@ -210,7 +211,7 @@
       "label": "Мастерская",
       "title": "Делаем вещи, которые проживут дольше ремонта",
       "text": "Нас шесть человек: конструктор, три сварщика и два маляра. Каждую вещь сначала чертим в масштабе, потом собираем из профиля 20×20 или листа 3 мм. Работаем с дизайнерами интерьеров и напрямую с владельцами квартир, кафе и офисов.",
-      "image": ""
+      "image": "/media/metallform-f53ebb45457b46650035.webp"
     },
     {
       "id": "projects",
@@ -225,7 +226,7 @@
           "category": "Таунхаус, Мирзо-Улугбек",
           "year": "март 2026",
           "text": "Косоур из листа 10 мм, ступени из дуба, без стоек — держится на стене.",
-          "image": "",
+          "image": "/media/metallform-3a4b1d2d0077cffa7404.webp",
           "href": ""
         },
         {
@@ -233,7 +234,7 @@
           "category": "Квартира, Яккасарай",
           "year": "январь 2026",
           "text": "Рама 20×20 в чёрном матовом, 42 полки, встроенная подсветка.",
-          "image": "",
+          "image": "/media/metallform-bd6e1c8acada2ed49247.webp",
           "href": ""
         },
         {
@@ -241,7 +242,7 @@
           "category": "Офис, Ташкент-Сити",
           "year": "ноябрь 2025",
           "text": "14 метров перегородок в стиле лофт, двери на скрытых петлях.",
-          "image": "",
+          "image": "/media/metallform-71f3ae745c87720c4ee2.webp",
           "href": ""
         },
         {
@@ -249,7 +250,7 @@
           "category": "Кафе, Чиланзар",
           "year": "сентябрь 2025",
           "text": "Барная стойка, 12 столов и высокие стулья в цвет терракоты.",
-          "image": "",
+          "image": "/media/metallform-1545688a6bf5747a10fc.webp",
           "href": ""
         }
       ]
@@ -408,5 +409,21 @@
         "href": "tel:+998712000402"
       }
     }
-  ]
+  ],
+  "craft": {
+    "concept": "CAD-изометрия стола из профиля 20×20: рёбра вытягиваются по одному, сварной шов вспыхивает и стачивается до невидимого, ложится столешница, выносной размер; кнопки RAL перекрашивают раму",
+    "label": "Source Code Pro",
+    "skeleton": "type-iso-split",
+    "signature": "iso-frame-extrude-ral",
+    "sequence": [
+      "edges",
+      "weld",
+      "grind",
+      "top",
+      "dimension",
+      "ral"
+    ],
+    "ease": "0.4,0,0.2,1",
+    "surface": "cut-list-row"
+  }
 }

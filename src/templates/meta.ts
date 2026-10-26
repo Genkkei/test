@@ -40,6 +40,7 @@ import { meta as tufted } from './tufted/meta'
 import { meta as caramel } from './caramel/meta'
 import { meta as baroque } from './baroque/meta'
 import { meta as score } from './score/meta'
+import { meta as profile } from './profile/meta'
 import { meta as silk } from './silk/meta'
 import { meta as prism } from './prism/meta'
 import { meta as fizz } from './fizz/meta'
@@ -123,7 +124,7 @@ import { meta as rivet } from './rivet/meta'
 import type { TemplateMeta } from './types'
 
 /** Метаданные без компонентов — для серверных действий и админки. */
-export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet, sketch, macaron, cezve, desk, workshop, salon, gilt, inox, waffle, anneal, hearth, timber, frost, exhibit, sculpt, terrace, blackline, chapter, moodboard, linen, whisk, stock, nook, lumina, tube, mono, midnight, gate, flat, kiddo, arc, fold, axis, blueprint, terroir, studio, canopy, lattice, tufted, caramel, baroque, score]
+export const TEMPLATE_METAS: TemplateMeta[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet, sketch, macaron, cezve, desk, workshop, salon, gilt, inox, waffle, anneal, hearth, timber, frost, exhibit, sculpt, terrace, blackline, chapter, moodboard, linen, whisk, stock, nook, lumina, tube, mono, midnight, gate, flat, kiddo, arc, fold, axis, blueprint, terroir, studio, canopy, lattice, tufted, caramel, baroque, score, profile]
 
 export function getTemplateMeta(id: string): TemplateMeta {
   return TEMPLATE_METAS.find((t) => t.id === id) ?? TEMPLATE_METAS[0]

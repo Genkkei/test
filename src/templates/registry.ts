@@ -40,6 +40,7 @@ import { template as tufted } from './tufted'
 import { template as caramel } from './caramel'
 import { template as baroque } from './baroque'
 import { template as score } from './score'
+import { template as profile } from './profile'
 import { template as silk } from './silk'
 import { template as prism } from './prism'
 import { template as fizz } from './fizz'
@@ -122,7 +123,7 @@ import { template as steel } from './steel'
 import { template as rivet } from './rivet'
 import type { TemplateDef } from './types'
 
-export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet, sketch, macaron, cezve, desk, workshop, salon, gilt, inox, waffle, anneal, hearth, timber, frost, exhibit, sculpt, terrace, blackline, chapter, moodboard, linen, whisk, stock, nook, lumina, tube, mono, midnight, gate, flat, kiddo, arc, fold, axis, blueprint, terroir, studio, canopy, lattice, tufted, caramel, baroque, score]
+export const TEMPLATES: TemplateDef[] = [silk, prism, fizz, atelier, lumen, monolith, ember, velocity, horizon, ledger, chrome, petal, roast, play, runway, breath, route, aurora, rave, paws, darkroom, kinfolk, suite, vow, crayon, lab, plinth, carat, drive, blade, bento, gallery, bazaar, neon, crust, sugar, sole, glow, optic, pixel, bout, court, wave, peak, orbit, inkwell, vinyl, stitch, spark, audit, shield, clean, pipe, ink, cinema, arcade, stage, field, leaf, spine, derma, nest, brew, crema, bean, drip, kiosk, reserve, oak, velvet, module, loft, sofa, joinery, anvil, iron, forge, scroll, steel, rivet, sketch, macaron, cezve, desk, workshop, salon, gilt, inox, waffle, anneal, hearth, timber, frost, exhibit, sculpt, terrace, blackline, chapter, moodboard, linen, whisk, stock, nook, lumina, tube, mono, midnight, gate, flat, kiddo, arc, fold, axis, blueprint, terroir, studio, canopy, lattice, tufted, caramel, baroque, score, profile]
 
 export function getTemplate(id: string): TemplateDef {
   return TEMPLATES.find((t) => t.id === id) ?? TEMPLATES[0]

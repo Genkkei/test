@@ -16,7 +16,7 @@
   "nav": {
     "cta": {
       "label": "Muhokama",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -62,7 +62,7 @@
       ],
       "cta": {
         "label": "Loyihani muhokama qilish",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Loyihalar",
@@ -267,28 +267,8 @@
       "text": "Savatga qo‘shing va buyurtma bering — qo‘ng‘iroq qilib, tasdiqlab, yetkazib beramiz.",
       "items": [
         {
-          "name": "Polga qo‘yiladigan oyna",
-          "text": "Eman rama, 170 sm.",
-          "price": 1325000,
-          "oldPrice": 1590000,
-          "image": "",
-          "category": "Dekor",
-          "badge": "Chegirma",
-          "unit": "dona"
-        },
-        {
-          "name": "Ikki eshikli shkaf",
-          "text": "Shtanga va tokchalar, 100 sm.",
-          "price": 4134000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Saqlash",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "«Eman» ovqat stoli 160",
-          "text": "Eman massivi, moy-mum.",
+          "name": "«Rama» ovqat stoli 160",
+          "text": "40×40 po‘lat asos, eman stoleshnitsa.",
           "price": 5724000,
           "oldPrice": 0,
           "image": "",
@@ -297,18 +277,8 @@
           "unit": "dona"
         },
         {
-          "name": "«Vena» stuli",
-          "text": "Buk, yumshoq o‘rindiq.",
-          "price": 731000,
-          "oldPrice": 0,
-          "image": "",
-          "category": "Kreslo va stullar",
-          "badge": "",
-          "unit": "dona"
-        },
-        {
-          "name": "Dumaloq jurnal stoli",
-          "text": "Yong‘oq shponi, 80 sm.",
+          "name": "«Kub» jurnal stoli",
+          "text": "20×20 profil, 8 mm shisha, 80 sm.",
           "price": 2014000,
           "oldPrice": 0,
           "image": "",
@@ -317,9 +287,9 @@
           "unit": "dona"
         },
         {
-          "name": "To‘rt tortmali komod",
-          "text": "Yopgichlar, LDSP + eman.",
-          "price": 2862000,
+          "name": "Ochiq stellaj 180",
+          "text": "Beshta tokcha, qora po‘lat va eman.",
+          "price": 1696000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
@@ -327,23 +297,53 @@
           "unit": "dona"
         },
         {
-          "name": "Ochiq javon",
-          "text": "Besh tokcha, metall va yog‘och.",
-          "price": 1696000,
+          "name": "Devor konsoli",
+          "text": "3 mm list, yashirin mahkamlash, 120 sm.",
+          "price": 1325000,
+          "oldPrice": 1590000,
+          "image": "",
+          "category": "Saqlash",
+          "badge": "Chegirma",
+          "unit": "dona"
+        },
+        {
+          "name": "«T» bar stuli",
+          "text": "20×20 po‘lat, shumtol o‘rindiq, 75 sm.",
+          "price": 731000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Stullar",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "Polga qo‘yiladigan kiyim ilgich",
+          "text": "Shtanga va poyabzal tokchasi, 100 sm.",
+          "price": 984000,
           "oldPrice": 0,
           "image": "",
           "category": "Saqlash",
+          "badge": "",
+          "unit": "dona"
+        },
+        {
+          "name": "«Profil» karavot 160×200",
+          "text": "Po‘lat rama, qayin lamellar.",
+          "price": 5088000,
+          "oldPrice": 0,
+          "image": "",
+          "category": "Yotoqxona",
           "badge": "Yangi",
           "unit": "dona"
         },
         {
-          "name": "«Nordik» karavot 160×200",
-          "text": "Qarag‘ay massivi, ortoped asos.",
-          "price": 5088000,
+          "name": "Gul tagligi",
+          "text": "Uch qavat, RAL kukun bo‘yoq.",
+          "price": 462000,
           "oldPrice": 0,
           "image": "",
-          "category": "Karavotlar",
-          "badge": "Xit",
+          "category": "Dekor",
+          "badge": "",
           "unit": "dona"
         }
       ]
