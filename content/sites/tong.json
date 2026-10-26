@@ -1,6 +1,6 @@
 {
   "slug": "tong",
-  "template": "kinfolk",
+  "template": "macaron",
   "name": "Ваша компания",
   "tagline": "Тихая утренняя кофейня в Мирабаде: завтраки весь день и кофе без спешки",
   "niche": "Кофейня с завтраками",
@@ -15,9 +15,10 @@
     "muted": "#7d7064",
     "surface": "#ece2d3",
     "line": "#dccfbd",
-    "display": "Playfair Display",
-    "body": "Raleway",
-    "motion": 1
+    "display": "Alice",
+    "body": "Literata",
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "CafeOrCoffeeShop",
@@ -65,7 +66,7 @@
   "nav": {
     "cta": {
       "label": "Забронировать стол",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -93,7 +94,7 @@
       "words": [],
       "cta": {
         "label": "Забронировать стол",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Завтраки",
@@ -115,7 +116,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 92000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-8cab62b15c1f81e4c20b.webp",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -125,7 +126,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 77000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-4883bbc84ff4eb239a07.webp",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -135,7 +136,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 233000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-4f28ce119d015dbf87c9.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -145,7 +146,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 204000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-f6e2fae6199811c692a1.webp",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -155,7 +156,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 669000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-bafcc70ba12f38d7fa65.webp",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -165,7 +166,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 179000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-9b49d7f691c7e6ad17df.webp",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -175,7 +176,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 252000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-da2a618185b1e8d8bdbc.webp",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -185,7 +186,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 183000,
           "oldPrice": 0,
-          "image": "",
+          "image": "/media/tong-d49d3695af016ae582c4.webp",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -200,7 +201,7 @@
       "label": "О нас",
       "title": "«Ваша компания» значит «утро»",
       "text": "Мы — небольшая кофейня на тихой улице Мирабада: двенадцать столов, светлые стены и окна во двор с карагачем. Завтраки готовим из продуктов с Миробадского базара, хлеб печём сами на закваске, а кофе обжаривают наши друзья-обжарщики в Ташкенте.",
-      "image": ""
+      "image": "/media/tong-5b73fa5576f2a26c6cbb.webp"
     },
     {
       "id": "menu",
@@ -270,7 +271,7 @@
           "category": "Завтрак",
           "year": "октябрь",
           "text": "Пшённая каша с запечённой тыквой, грецким орехом и сливочным маслом · 44 000 сум",
-          "image": "",
+          "image": "/media/tong-bc5aaa2529dd40044eed.webp",
           "href": ""
         },
         {
@@ -278,7 +279,7 @@
           "category": "Тост",
           "year": "ноябрь",
           "text": "Тост на закваске с рикоттой, хурмой и мёдом · 54 000 сум",
-          "image": "",
+          "image": "/media/tong-9c4b3c97471f03965bcd.webp",
           "href": ""
         },
         {
@@ -286,7 +287,7 @@
           "category": "Кофе",
           "year": "до весны",
           "text": "Латте с корицей, кардамоном и айвовым сиропом · 38 000 сум",
-          "image": "",
+          "image": "/media/tong-2e8b963d9efa36f13873.webp",
           "href": ""
         }
       ]
@@ -301,15 +302,15 @@
       "items": [
         {
           "caption": "Большой стол у окна",
-          "image": ""
+          "image": "/media/tong-3d298f7528f6fb84f4bc.webp"
         },
         {
           "caption": "Хлеб на закваске",
-          "image": ""
+          "image": "/media/tong-6053266ae2082ad1da3d.webp"
         },
         {
           "caption": "Утро во дворе",
-          "image": ""
+          "image": "/media/tong-89dff78b367c21b804de.webp"
         }
       ]
     },
@@ -369,9 +370,25 @@
       "text": "Ул. Шахрисабз, 22, Мирабад. Каждый день с 8:00 до 17:00.",
       "cta": {
         "label": "Забронировать стол",
-        "href": "#order"
+        "href": ""
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "craft": {
+    "concept": "Пуровер у окна: чайник наклоняется, тонкая струя в воронку, кофе капает в колбу и уровень медленно растёт, таймер 3:00 до нуля, пар над кружкой; меню-раскладушка, отрывной календарь",
+    "label": "PT Mono",
+    "skeleton": "text-still-life-split",
+    "signature": "pour-over-brew-timer",
+    "sequence": [
+      "kettle-tilt",
+      "stream",
+      "drops",
+      "fill",
+      "timer",
+      "steam"
+    ],
+    "ease": "0.3,0,0.2,1",
+    "surface": "tear-off-calendar"
+  }
 }

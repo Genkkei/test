@@ -1,6 +1,7 @@
 // создаётся scripts/fonts.mjs — не править руками
 export const FONT_CSS: Record<string, string> = {
   "Advent Pro": "/fonts/advent-pro.3d38c88134.css",
+  "Alice": "/fonts/alice.9edfd903f0.css",
   "Alumni Sans": "/fonts/alumni-sans.ac3c4e6b0d.css",
   "Anonymous Pro": "/fonts/anonymous-pro.a4b87b6da1.css",
   "Balsamiq Sans": "/fonts/balsamiq-sans.22230a5284.css",
@@ -69,6 +70,7 @@ export const FONT_CSS: Record<string, string> = {
 }
 export const FONT_CATEGORY: Record<string, string> = {
   "Advent Pro": "sans-serif",
+  "Alice": "serif",
   "Alumni Sans": "sans-serif",
   "Anonymous Pro": "monospace",
   "Balsamiq Sans": "display",

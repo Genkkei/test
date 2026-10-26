@@ -1,13 +1,12 @@
 import type { TemplateMeta } from '../types'
 
-// заготовка: шаблон в работе
 export const meta: TemplateMeta = {
   id: 'macaron',
-  name: 'macaron',
-  inspiredBy: '',
-  mood: '',
-  niches: [],
-  defaultTheme: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', muted: '#7a7268', surface: '#ece5d8', line: '#ddd4c4', display: 'Onest', body: 'Onest', motion: 1 },
-  art: 'blobs',
-  preview: { bg: '#f6f2ea', fg: '#1d1b18', accent: '#b5562b', word: 'macaron' },
+  name: 'Макарон',
+  inspiredBy: 'медленный пуровер у окна: чайник с гусиной шеей, капли в колбу и таймер заваривания; меню-раскладушка на столе; отрывной календарь сезонных блюд',
+  mood: 'Сливочное утро, керамика, корица',
+  niches: ['Кофейня с завтраками', 'пекарня', 'бранч-кафе'],
+  defaultTheme: { bg: '#f6efe4', fg: '#2b2420', accent: '#b5602e', muted: '#7d7064', surface: '#ece2d3', line: '#dccfbd', display: 'Alice', body: 'Literata', motion: 1 },
+  art: 'arch',
+  preview: { bg: '#f6efe4', fg: '#2b2420', accent: '#b5602e', word: '3:00' },
 }

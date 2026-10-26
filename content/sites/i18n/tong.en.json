@@ -5,7 +5,7 @@
   "nav": {
     "cta": {
       "label": "Book a table",
-      "href": "#order"
+      "href": "#contact"
     }
   },
   "listing": {
@@ -55,7 +55,7 @@
       "words": [],
       "cta": {
         "label": "Book a table",
-        "href": "#order"
+        "href": "#contact"
       },
       "ctaSecondary": {
         "label": "Breakfasts",
@@ -226,7 +226,7 @@
       "text": "22 Shahrisabz St, Mirabad. Daily 8:00–17:00.",
       "cta": {
         "label": "Book a table",
-        "href": "#order"
+        "href": ""
       }
     },
     {
