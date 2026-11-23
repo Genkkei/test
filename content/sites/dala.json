@@ -94,7 +94,7 @@
         "label": "Что в сезоне",
         "href": "#harvest"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1662990767856-e0d5388cd768?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8ZnJlc2glMjB2ZWdldGFibGVzJTIwbWFjcm8lMjBkZXd8ZW58MXwwfHx8MTc5NTQ3Nzk3OXww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -125,7 +125,7 @@
           "text": "Очищенный, урожай 2026.",
           "price": 136000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1791784923474-2c8821598344?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8YWxtb25kcyUyMG1hY3JvfGVufDF8Mnx8fDE3OTU0Nzc5ODN8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Бакалея",
           "badge": "Новинка",
           "unit": "кг"
@@ -135,7 +135,7 @@
           "text": "Для плова, выдержанный.",
           "price": 35000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1723879682969-a9364967b20f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8cmljZSUyMGdyYWlucyUyMG1hY3JvfGVufDF8Mnx8fDE3OTU0Nzc5ODR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Бакалея",
           "badge": "Хит",
           "unit": "кг"
@@ -145,7 +145,7 @@
           "text": "Нерафинированное, 1 л.",
           "price": 26000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1678113663534-d6995ef2d17f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8b2lsJTIwcG91cmluZyUyMGJvdHRsZSUyMGdvbGRlbnxlbnwxfDJ8fHwxNzk1NDc3OTg3fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Бакалея",
           "badge": "",
           "unit": "л"
@@ -155,7 +155,7 @@
           "text": "Овощи, зелень, яйца и сыр на семью.",
           "price": 355000,
           "oldPrice": 426000,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1692213982458-2ed44593c7ed?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGNhcmRib2FyZCUyMGJveCUyMHZlZ2V0YWJsZXN8ZW58MXwwfHx8MTc5NTQ3ODAxNHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Наборы",
           "badge": "Скидка",
           "unit": "набор"
@@ -165,7 +165,7 @@
           "text": "Сорт «Бычье сердце».",
           "price": 16400,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1790540742186-43670d9c773e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dG9tYXRvZXMlMjB2aW5lJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Nzk5MHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Фермерское",
           "badge": "",
           "unit": "кг"
@@ -175,7 +175,7 @@
           "text": "Бостанлык, нефильтрованный, 1 кг.",
           "price": 146000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1641878067318-1d1f79a77785?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8aG9uZXklMjBkcmlwcGluZyUyMG1hY3JvfGVufDF8Mnx8fDE3OTU0Nzc5OTN8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Фермерское",
           "badge": "Хит",
           "unit": "шт"
@@ -185,7 +185,7 @@
           "text": "Из фермерского молока.",
           "price": 109000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1751183146892-bf1021da2433?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGZyZXNoJTIwY2hlZXNlfGVufDF8Mnx8fDE3OTU0Nzc5OTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Фермерское",
           "badge": "",
           "unit": "кг"
@@ -195,7 +195,7 @@
           "text": "Куры на свободном выгуле.",
           "price": 25000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1559738928-5d5dc5c2458d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8ZmFybSUyMGVnZ3MlMjBiYXNrZXR8ZW58MXwyfHx8MTc5NTQ3Nzk5OHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Фермерское",
           "badge": "",
           "unit": "10 шт"
@@ -210,7 +210,7 @@
       "label": "О нас",
       "title": "Короткий путь от фермы до стола",
       "text": "Мы начали с одной фермы в Бостанлыке и знакомых, которые устали от безвкусных помидоров из супермаркета. Сегодня у нас 14 хозяйств: овощи из Паркента, фрукты из Бостанлыка, молочное и яйца из Зангиаты. Каждое утро мы забираем то, что собрали накануне, сортируем и развозим. Всё, что не продали, отдаём в столовые — ничего не лежит неделями.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1662585445239-6906fa73d9f5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZmFybSUyMGZpZWxkJTIwbW9ybmluZ3xlbnwxfDB8fHwxNzk1NDc4MDAzfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "harvest",
@@ -407,23 +407,23 @@
       "items": [
         {
           "caption": "Теплицы в Паркенте",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1623136299195-570a06bdae6b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Z3JlZW5ob3VzZSUyMHBsYW50c3xlbnwxfDB8fHwxNzk1NDc4MDA1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сад в Бостанлыке",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1537811465496-6c38a51d2d81?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8b3JjaGFyZCUyMGFwcGxlcyUyMHRyZWV8ZW58MXwwfHx8MTc5NTQ3ODAwN3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сортировка утром",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1633394681499-e9395ca84be9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c29ydGluZyUyMGhhcnZlc3QlMjBjcmF0ZXN8ZW58MXwwfHx8MTc5NTQ3ODAwOXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Молочная ферма в Зангиате",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1580570598977-4b2412d01bbc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y293cyUyMHBhc3R1cmV8ZW58MXwwfHx8MTc5NTQ3ODAxMnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Коробка перед отправкой",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1594917156256-37703f0c993c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y2FyZGJvYXJkJTIwYm94JTIwdmVnZXRhYmxlc3xlbnwxfDB8fHwxNzk1NDc4MDE0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -477,5 +477,67 @@
     "features": [],
     "forSale": true
   },
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Marina Smirnova",
+      "url": "https://unsplash.com/@slenderamigo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mustafa akın",
+      "url": "https://unsplash.com/@msaimakin?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Aditya Sethia",
+      "url": "https://unsplash.com/@aditya_sethia_97?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rick Rothenberg",
+      "url": "https://unsplash.com/@rick_rothenberg?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Calugar Ana Maria",
+      "url": "https://unsplash.com/@anamariacalugar?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Igor bispo",
+      "url": "https://unsplash.com/@eusouigorbispo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mahdi Kordi",
+      "url": "https://unsplash.com/@mahdikordi_ir?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paolo Boaretto",
+      "url": "https://unsplash.com/@paolo1971?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Court",
+      "url": "https://unsplash.com/@courtwhim?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Benjamin White",
+      "url": "https://unsplash.com/@bjwhite66212?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Katrien Van crombrugghe",
+      "url": "https://unsplash.com/@plants_and_music?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michael & Diane Weidner",
+      "url": "https://unsplash.com/@michaelbweidner?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "John Schaidler",
+      "url": "https://unsplash.com/@schaidler?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Monika Kubala",
+      "url": "https://unsplash.com/@monca?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Luismi Sánchez",
+      "url": "https://unsplash.com/@luismisanchez?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
