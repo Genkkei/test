@@ -99,7 +99,7 @@
         "label": "Вкусы",
         "href": "#flavors"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1601141928468-50e2d84d6836?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29sZCUyMGJyZXclMjBjb2ZmZWUlMjBpY2UlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NDczOTE2fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -134,7 +134,7 @@
           "text": "Стекло, силиконовый чехол, 500 мл.",
           "price": 131000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1682335926245-2a6d54e07029?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Z2xhc3MlMjBib3R0bGUlMjBjb2ZmZWV8ZW58MXwyfHx8MTc5NTQ3MzkxOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -144,7 +144,7 @@
           "text": "18 часов холодной экстракции, без сахара.",
           "price": 35000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1627898784518-b6ee18b7f22a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGNvbGQlMjBicmV3JTIwY29mZmVlJTIwaWNlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTQ3MzkxNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "Хит",
           "unit": "бутылка"
@@ -154,7 +154,7 @@
           "text": "Натуральная ваниль, чуть сладости.",
           "price": 38000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1789305577934-87366eea7089?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8aWNlZCUyMGxhdHRlJTIwbWlsayUyMHN3aXJsfGVufDF8Mnx8fDE3OTU0NzM5MjV8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "",
           "unit": "бутылка"
@@ -164,7 +164,7 @@
           "text": "Готовый латте в бутылке.",
           "price": 39000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1771555739328-6883188b50c4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8aWNlZCUyMGxhdHRlJTIwbWlsayUyMHN3aXJsfGVufDF8Mnx8fDE3OTU0NzM5MjV8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "",
           "unit": "бутылка"
@@ -174,7 +174,7 @@
           "text": "С азотом: пена как у пива, вкус сливочный.",
           "price": 43000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1590833526362-1ccf2066f0b8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvbGQlMjBicmV3JTIwY29mZmVlJTIwaWNlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTQ3MzkxNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "Новинка",
           "unit": "бутылка"
@@ -184,7 +184,7 @@
           "text": "Кофе, тоник и апельсин.",
           "price": 37000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1747103217713-43b8a7a3e3ba?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8ZXNwcmVzc28lMjB0b25pY3xlbnwxfDJ8fHwxNzk1NDczOTI3fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "",
           "unit": "бутылка"
@@ -194,7 +194,7 @@
           "text": "Шесть бутылок ассорти со скидкой.",
           "price": 195000,
           "oldPrice": 234000,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1712918081426-a80a8e3a834e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGJvdHRsZXMlMjB3b29kZW4lMjBjcmF0ZXxlbnwxfDJ8fHwxNzk1NDczOTMxfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Наборы",
           "badge": "Скидка",
           "unit": "6 бутылок"
@@ -204,7 +204,7 @@
           "text": "Разбавьте водой или молоком один к одному.",
           "price": 97000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1608632634409-edb4d61ec731?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGdsYXNzJTIwYm90dGxlJTIwY29mZmVlfGVufDF8Mnx8fDE3OTU0NzM5MTl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Колд-брю",
           "badge": "",
           "unit": "л"
@@ -253,7 +253,7 @@
       "label": "Как варим",
       "title": "Время вместо температуры",
       "text": "Горячая вода вытягивает из кофе горечь за минуты, холодная — сладость за часы. Мы настаиваем зерно 18 часов при +4 °C в цехе в Сергели, фильтруем через бумагу и разливаем в тот же день. Бутылки стеклянные — пустые принимаем обратно со скидкой.",
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1521677633993-721dd3f95c10?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y29mZmVlJTIwZHJpcCUyMHNsb3clMjBicmV3fGVufDF8MHx8fDE3OTU0NzM5MzR8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -394,5 +394,47 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "gazal kharbanda",
+      "url": "https://unsplash.com/@gazalkharbanda?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nemo",
+      "url": "https://unsplash.com/@nemo765?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chris Kursikowski",
+      "url": "https://unsplash.com/@c3k?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "fishy fishy",
+      "url": "https://unsplash.com/@its12_06pm?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Trương Tuyết Ly",
+      "url": "https://unsplash.com/@liliantruong2603?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ratapan Anantawat",
+      "url": "https://unsplash.com/@rtp_atw?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "- Kenny",
+      "url": "https://unsplash.com/@kennyzhang29?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Joey Hopkins",
+      "url": "https://unsplash.com/@joey_hopkins?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Bluewater Sweden",
+      "url": "https://unsplash.com/@bluewaterglobe?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Devin Avery",
+      "url": "https://unsplash.com/@devintavery?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
