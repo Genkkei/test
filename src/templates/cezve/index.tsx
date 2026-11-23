@@ -7,6 +7,8 @@ import { humanHours, pick, ui } from '@/lib/i18n'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { CezveMotion, ScaleReadout } from './client'
+import { AddToCart, ShopFilter } from '@/components/shop/AddToCart'
+import { money } from '@/components/shop/money'
 
 /*
  * КАППИНГ — спешелти-кофейня. Первый экран — бар заваривания: весы с табло (граммы с десятыми и таймер),
@@ -170,19 +172,43 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
 function Hero({ section: s, site }: SectionProps<'hero'>) {
   const ls = lines(s.title || site.name)
   const facts = site.sections.find((x) => x.type === 'marquee' && x.enabled)
+  const lot = site.sections.find((x) => x.type === 'menu' && x.enabled)
+  const first = lot && lot.type === 'menu' ? lot.groups[0]?.items[0] : undefined
   return (
     <section id={s.anchor || undefined} className="s s-hero cezve-hero" data-cezve-hero>
-      <div className="cezve-hero__text">
-        {s.eyebrow ? <p className="cezve-label cezve-in" style={{ ['--i' as string]: 0 }}>{s.eyebrow}</p> : null}
-        <h1 className="cezve-title">
-          {ls.map((l, i) => (
-            <span key={i} className="cezve-title__line" style={{ ['--i' as string]: i }}>
-              {l}
-            </span>
-          ))}
-        </h1>
-        {s.subtitle ? <p className="cezve-hero__sub cezve-in" style={{ ['--i' as string]: 4 }}>{s.subtitle}</p> : null}
-        <div className="cezve-hero__ctas cezve-in" style={{ ['--i' as string]: 5 }}>
+      <div className="cezve-hero__photo" aria-hidden="true">
+        {s.video ? (
+          <video src={s.video} poster={s.image || undefined} autoPlay muted loop playsInline preload="metadata" />
+        ) : (
+          <Media src={s.image} alt="" seed={`${site.slug}-hero`} colors={palette(site)} kind="rings" className="media" />
+        )}
+      </div>
+      {s.eyebrow ? (
+        <p className="cezve-hero__eyebrow cezve-in" style={{ ['--i' as string]: 0 }}>
+          <span className="cezve-dot" aria-hidden="true" />
+          {s.eyebrow}
+        </p>
+      ) : null}
+      <h1 className="cezve-title">
+        {ls.map((l, i) => (
+          <span key={i} className="cezve-title__line" style={{ ['--i' as string]: i }}>
+            {l}
+          </span>
+        ))}
+      </h1>
+      <aside className="cezve-glass cezve-in" style={{ ['--i' as string]: 3 }}>
+        <p className="cezve-label">{pick(site.lang, { ru: 'Сейчас на весах', uz: 'Hozir tarozida', en: 'On the scale now' })}</p>
+        <div className="cezve-scale__lcd">
+          <ScaleReadout />
+        </div>
+        {first ? (
+          <p className="cezve-glass__lot">
+            {first.name}
+            {first.text ? <small>{first.text}</small> : null}
+          </p>
+        ) : null}
+        {s.subtitle ? <p className="cezve-hero__sub">{s.subtitle}</p> : null}
+        <div className="cezve-hero__ctas">
           {s.cta.label ? (
             <a className="cezve-btn" href={s.cta.href || '#'}>
               {s.cta.label}
@@ -194,32 +220,60 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
             </a>
           ) : null}
         </div>
-      </div>
-      <div className="cezve-station" aria-hidden="true">
-        <div className="cezve-station__window">
-          {s.video ? (
-            <video src={s.video} poster={s.image || undefined} autoPlay muted loop playsInline preload="metadata" />
-          ) : (
-            <Media src={s.image} alt="" seed={`${site.slug}-hero`} colors={palette(site)} kind="rings" className="media" />
-          )}
-        </div>
-        <div className="cezve-scale">
-          <div className="cezve-scale__lcd">
-            <ScaleReadout />
-          </div>
-          <span className="cezve-scale__btn" />
-          <span className="cezve-scale__btn" />
-        </div>
-      </div>
+      </aside>
       {facts && facts.type === 'marquee' && facts.items.length ? (
         <ul className="cezve-facts">
           {facts.items.map((f, i) => (
-            <li key={i} className="cezve-in" style={{ ['--i' as string]: 6 + i * 0.5 }}>
+            <li key={i} className="cezve-in" style={{ ['--i' as string]: 5 + i * 0.5 }}>
               {f}
             </li>
           ))}
         </ul>
       ) : null}
+    </section>
+  )
+}
+
+/** Магазин — полка: лента крупных пачек с прокруткой вбок, первая — лот недели во всю высоту. */
+function Shop({ section: s, site }: SectionProps<'shop'>) {
+  const cats = [...new Set(s.items.map((it) => it.category).filter(Boolean))]
+  const id = `shelf-${s.id}`
+  return (
+    <section id={s.anchor || undefined} className="s s-shop cezve-shelf">
+      <div className="cezve-shelf__head" data-cz="rise">
+        <div className="cezve-head">
+          {s.label ? <p className="cezve-label">{s.label}</p> : null}
+          {s.title ? <h2 className="cezve-h2">{s.title}</h2> : null}
+          {s.text ? <p className="cezve-shelf__text">{s.text}</p> : null}
+        </div>
+        <ShopFilter cats={cats} lang={site.lang} target={id} />
+      </div>
+      <ul className="cezve-shelf__rail" id={id}>
+        {s.items.map((it, i) => (
+          <li key={i} className="cezve-pack" data-cat={it.category || undefined} data-cz="rise" style={{ ['--i' as string]: Math.min(i, 6) }}>
+            <div className="cezve-pack__img">
+              <Media src={it.image} alt={it.name} seed={`${site.slug}-p${i}`} colors={palette(site)} kind="rings" className="media" />
+              {it.badge ? <span className="cezve-pack__badge">{it.badge}</span> : null}
+              <span className="cezve-pack__n">№ {String(i + 1).padStart(2, '0')}</span>
+            </div>
+            <h3 className="cezve-pack__name">{it.name}</h3>
+            {it.text ? <p className="cezve-pack__text">{it.text}</p> : null}
+            <div className="cezve-pack__foot">
+              <span className="cezve-pack__price">
+                {it.price > 0 ? (
+                  <>
+                    {money(it.price, site.lang)}
+                    {it.unit ? <small> / {it.unit}</small> : null}
+                  </>
+                ) : (
+                  ui(site.lang, 'priceOnRequest')
+                )}
+              </span>
+              {it.price > 0 ? <AddToCart k={`${s.id}:${i}`} lang={site.lang} /> : null}
+            </div>
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }
@@ -409,5 +463,5 @@ function Contact({ section: s, site }: SectionProps<'contact'>) {
 export const template: TemplateDef = {
   ...meta,
   Shell,
-  sections: { hero: Hero, marquee: () => null, about: About, menu: Menu, gallery: Gallery, process: Process, testimonials: Testimonials, faq: Faq, contact: Contact },
+  sections: { hero: Hero, shop: Shop, marquee: () => null, about: About, menu: Menu, gallery: Gallery, process: Process, testimonials: Testimonials, faq: Faq, contact: Contact },
 }
