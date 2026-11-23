@@ -106,7 +106,7 @@
         "label": "Цены",
         "href": "#prices"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1763478958800-3a2a6321f645?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8a2lkcyUyMHJvb20lMjBpbnRlcmlvciUyMHdvb2RlbiUyMGZ1cm5pdHVyZXxlbnwxfDB8fHwxNzk1NDY5NzA5fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -137,7 +137,7 @@
           "text": "Тёплый свет, таймер на 30 минут.",
           "price": 247000,
           "oldPrice": 0,
-          "image": "/media/bolalar-f7c551e039095855ff5a.webp",
+          "image": "https://images.unsplash.com/photo-1693034433366-57fbb0286641?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8a2lkcyUyMHJvb20lMjBpbnRlcmlvciUyMHdvb2RlbiUyMGZ1cm5pdHVyZXxlbnwxfDB8fHwxNzk1NDY5NzA5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Свет",
           "badge": "",
           "unit": "шт"
@@ -147,7 +147,7 @@
           "text": "Массив берёзы, 80×160, бортики.",
           "price": 3230000,
           "oldPrice": 0,
-          "image": "/media/bolalar-4be6dd3e0f9197f8a2af.webp",
+          "image": "https://images.unsplash.com/photo-1600214859516-98999dba7cf1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjR8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Детская",
           "badge": "Хит",
           "unit": "шт"
@@ -157,7 +157,7 @@
           "text": "Регулируется от 3 до 14 лет.",
           "price": 2755000,
           "oldPrice": 0,
-          "image": "/media/bolalar-26844e929cdff5d51901.webp",
+          "image": "https://images.unsplash.com/photo-1730367020013-3bc24bb8b780?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Детская",
           "badge": "Новинка",
           "unit": "шт"
@@ -167,7 +167,7 @@
           "text": "Лестница-комод, два спальных места.",
           "price": 6460000,
           "oldPrice": 0,
-          "image": "/media/bolalar-f823b4952c76dc33c62a.webp",
+          "image": "https://images.unsplash.com/photo-1600493505500-afac3fc363e6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Детская",
           "badge": "",
           "unit": "шт"
@@ -177,7 +177,7 @@
           "text": "Шесть ящиков, низкий — ребёнок достаёт сам.",
           "price": 1045000,
           "oldPrice": 0,
-          "image": "/media/bolalar-79ebcade3bce3b28145b.webp",
+          "image": "https://images.unsplash.com/photo-1689686785163-a59f37656327?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -187,7 +187,7 @@
           "text": "Съёмный столик, четыре ящика.",
           "price": 2280000,
           "oldPrice": 0,
-          "image": "/media/bolalar-0db089279e7d31d48374.webp",
+          "image": "https://images.unsplash.com/photo-1653971858474-4f2dfa7f4dc1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8a2lkcyUyMHJvb20lMjBpbnRlcmlvciUyMHdvb2RlbiUyMGZ1cm5pdHVyZXxlbnwxfDB8fHwxNzk1NDY5NzA5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -197,7 +197,7 @@
           "text": "Раскладывается в мат для игр.",
           "price": 903000,
           "oldPrice": 0,
-          "image": "/media/bolalar-99a90ed829396d8a5c64.webp",
+          "image": "https://images.unsplash.com/photo-1663612864491-671a0672cc72?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Диваны",
           "badge": "Хит",
           "unit": "шт"
@@ -207,7 +207,7 @@
           "text": "Велюр, моется.",
           "price": 370000,
           "oldPrice": 0,
-          "image": "/media/bolalar-31fd56ecddca2b630e4f.webp",
+          "image": "https://images.unsplash.com/photo-1656599036673-73a13e8e6789?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjJ8fHdvb2RlbiUyMGtpZHMlMjBmdXJuaXR1cmUlMjBkZXRhaWx8ZW58MXwyfHx8MTc5NTQ2OTcxNHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -222,7 +222,7 @@
       "label": "О нас",
       "title": "Мебель, которую проверяют дети",
       "text": "Наши столяры — сами родители, поэтому каждая модель сначала живёт в детской у кого-то из команды. Делаем из берёзовой фанеры и массива, красим на водной основе, ящики на доводчиках, чтобы пальцы не прищемило.",
-      "image": "/media/bolalar-693ba34c21ef64dce0f4.webp"
+      "image": "https://images.unsplash.com/photo-1691085805002-08ad57dd3e75?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8d29vZGVuJTIwa2lkcyUyMGZ1cm5pdHVyZSUyMGRldGFpbHxlbnwxfDJ8fHwxNzk1NDY5NzE0fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "prices",
@@ -287,15 +287,15 @@
       "items": [
         {
           "caption": "Детская 9 м² для двоих",
-          "image": "/media/bolalar-9a83870035f9d9a4be96.webp"
+          "image": "https://images.unsplash.com/photo-1723359724788-677dca927b8d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8a2lkcyUyMHJvb20lMjBpbnRlcmlvciUyMHdvb2RlbiUyMGZ1cm5pdHVyZXxlbnwxfDB8fHwxNzk1NDY5NzA5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Уголок школьника",
-          "image": "/media/bolalar-5acae8705455b459d85a.webp"
+          "image": "https://images.unsplash.com/photo-1633605016074-9ea5617128a7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8a2lkcyUyMHJvb20lMjBpbnRlcmlvciUyMHdvb2RlbiUyMGZ1cm5pdHVyZXxlbnwxfDB8fHwxNzk1NDY5NzA5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Игровая с домиком",
-          "image": "/media/bolalar-687a66f27495e312124d.webp"
+          "image": "https://images.unsplash.com/photo-1636026093357-fc4751f9a16b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGtpZHMlMjByb29tJTIwaW50ZXJpb3IlMjB3b29kZW4lMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTQ2OTcwOXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -401,5 +401,55 @@
     ],
     "ease": "0.34,1.56,0.64,1",
     "surface": "toy-block"
-  }
+  },
+  "credits": [
+    {
+      "by": "Shoham Avisrur",
+      "url": "https://unsplash.com/@shoham_avisrur?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "The Artwill .",
+      "url": "https://unsplash.com/@theartwill?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Collov Home Design",
+      "url": "https://unsplash.com/@collovhome?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nereid Ndreu",
+      "url": "https://unsplash.com/@nereiq?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Taru Goyal",
+      "url": "https://unsplash.com/@tarugoyal?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "dada design",
+      "url": "https://unsplash.com/@dada_design?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Behnam Mohsenzadeh",
+      "url": "https://unsplash.com/@bmohsenzadeh?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nemo",
+      "url": "https://unsplash.com/@nemo765?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Santiago Boada",
+      "url": "https://unsplash.com/@santiagoboada?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Dream Touch Architects Ltd",
+      "url": "https://unsplash.com/@interiordesign1?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "sheela sahani",
+      "url": "https://unsplash.com/@ssahani123?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Manuel Torres Garcia",
+      "url": "https://unsplash.com/@matoga?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
