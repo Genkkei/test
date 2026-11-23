@@ -88,7 +88,7 @@
         "label": "Номера",
         "href": "#rooms"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1758407909328-6b46fbfc5f98?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bW91bnRhaW4lMjBzdW5yaXNlJTIwdmFsbGV5fGVufDF8MHx8fDE3OTU0Njk3MjV8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "about",
@@ -98,7 +98,7 @@
       "label": "Лодж",
       "title": "Дом из камня и дерева, построенный так, чтобы горы были главными",
       "text": "Мы поставили отель на склоне так, что из каждого номера видно вершину Большого Чимгана. Камень — из местного русла, дерево — карагач и орех, текстиль — ручной работы мастериц из Риштана и Маргилана.\nЗдесь нет шумных вечеринок и анимации. Есть утренний кофе на террасе, ужин у камина и звёзды, которых в городе не видно.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1677204685603-9a8af961ac38?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjB3b29kJTIwY2hhbGV0JTIwaW50ZXJpb3J8ZW58MXwyfHx8MTc5NTQ2OTczOHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "rooms",
@@ -113,7 +113,7 @@
           "category": "28 м² · 2 гостя",
           "year": "от 1 400 000 сум/ночь",
           "text": "Большая кровать, окно в пол на долину, душ с горячим камнем.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1561485010-84de4c6f06b9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fHN0b25lJTIwd29vZCUyMGNoYWxldCUyMGludGVyaW9yfGVufDF8Mnx8fDE3OTU0Njk3Mzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -121,7 +121,7 @@
           "category": "36 м² · 2 гостя",
           "year": "от 1 900 000 сум/ночь",
           "text": "Терраса с видом на Большой Чимган и отдельно стоящая ванна.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1710415807894-5c7d30c63289?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8c3RvbmUlMjB3b29kJTIwY2hhbGV0JTIwaW50ZXJpb3J8ZW58MXwyfHx8MTc5NTQ2OTczOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -129,7 +129,7 @@
           "category": "52 м² · 4 гостя",
           "year": "от 2 700 000 сум/ночь",
           "text": "Две спальни, гостиная с камином, детские принадлежности по запросу.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1785706313842-541f09684d5f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHN0b25lJTIwd29vZCUyMGNoYWxldCUyMGludGVyaW9yfGVufDF8Mnx8fDE3OTU0Njk3Mzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -137,7 +137,7 @@
           "category": "70 м² · 4 гостя",
           "year": "от 3 800 000 сум/ночь",
           "text": "Отдельный дом у ручья: своя баня, кухня и мангальная зона.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1626194463792-42b196d019ab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fHN0b25lJTIwd29vZCUyMGNoYWxldCUyMGludGVyaW9yfGVufDF8Mnx8fDE3OTU0Njk3Mzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -187,19 +187,19 @@
       "items": [
         {
           "caption": "Утро на террасе",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1587108639646-c6ea7b46b247?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fG1vdW50YWluJTIwc3VucmlzZSUyMHZhbGxleXxlbnwxfDB8fHwxNzk1NDY5NzI1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Водопады Бельдерсая",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1680666021665-d26da8ee8dea?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vdW50YWluJTIwd2F0ZXJmYWxsJTIwZmlyZXBsYWNlJTIwaG90JTIwdHVifGVufDF8Mnx8fDE3OTU0Njk3NDZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ужин у камина",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1569774813410-fd936b4eb678?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHN0b25lJTIwd29vZCUyMGNoYWxldCUyMGludGVyaW9yfGVufDF8Mnx8fDE3OTU0Njk3Mzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Купель после бани",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1658258598467-657cd036096c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bW91bnRhaW4lMjB3YXRlcmZhbGwlMjBmaXJlcGxhY2UlMjBob3QlMjB0dWJ8ZW58MXwyfHx8MTc5NTQ2OTc0Nnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -299,5 +299,47 @@
     "description": "Сайт для бутик-отеля, загородного клуба или глэмпинга. Рассвет над горами на WebGL, лента номеров с ценами, впечатления, маршрут и бронирование.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Luke Peterson",
+      "url": "https://unsplash.com/@ldpeterson11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "AllysherLow",
+      "url": "https://unsplash.com/@allysherlow_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "NOAA",
+      "url": "https://unsplash.com/@noaa?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nokting Je",
+      "url": "https://unsplash.com/@shieldxie?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Stuart Jenkins",
+      "url": "https://unsplash.com/@stu_jenkins?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mauro mari",
+      "url": "https://unsplash.com/@fotolunatics?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Eric BARBEAU",
+      "url": "https://unsplash.com/@ericbarbeau?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Duality Dork",
+      "url": "https://unsplash.com/@dualitydork?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Vadim Sadovski",
+      "url": "https://unsplash.com/@vadimsadovski?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rachel Reinhardt",
+      "url": "https://unsplash.com/@rreinhardt?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
