@@ -94,7 +94,7 @@
         "label": "Заказать заранее",
         "href": "#order"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1656248779809-21b67a2fbc7a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bWluaW1hbCUyMGphcGFuZXNlJTIwY29mZmVlJTIwbGF0dGUlMjBhcnR8ZW58MXwwfHx8MTc5NTQ3NzkyMHww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -129,7 +129,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 202000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1737064004501-6fc2b23d20d6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Mzk2NHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -139,7 +139,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 164000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1577984138336-9cffc0680c0f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Mzk2NHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -149,7 +149,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 149000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1589476915062-05701fb874c4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y29mZmVlJTIwYmVhbnMlMjBzcG9vbiUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ3Mzk2N3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -159,7 +159,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 89000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1643809981511-870227ad3bdd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8ZHJpcCUyMGNvZmZlZSUyMGJhZ3xlbnwxfDJ8fHwxNzk1NDczOTY5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -169,7 +169,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 74000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1611690464674-eb7c9c0dcc78?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y29mZmVlJTIwY2Fwc3VsZXN8ZW58MXwyfHx8MTc5NTQ3Mzk3MXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -179,7 +179,7 @@
           "text": "Для чистой чашки фильтра дома.",
           "price": 226000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1774294536061-1a5dd16437d2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8bWFudWFsJTIwY29mZmVlJTIwZ3JpbmRlcnxlbnwxfDJ8fHwxNzk1NDc3OTMyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -189,7 +189,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 197000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1592920704646-99d0d6792133?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8ZnJlbmNoJTIwcHJlc3MlMjBjb2ZmZWV8ZW58MXwyfHx8MTc5NTQ3Mzk3NXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -199,7 +199,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 649000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1519929676140-1384fc9052d4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8bWFudWFsJTIwY29mZmVlJTIwZ3JpbmRlcnxlbnwxfDJ8fHwxNzk1NDc3OTMyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -213,7 +213,7 @@
       "label": "Окно",
       "title": "Мы сделали всё лишнее невидимым",
       "text": "Нет вывески, нет меню на доске, нет сиропов. Белая стена, окно и кофе, который делают одинаково хорошо в 7:30 и в 21:30. Зерно — светлая обжарка из Ташкента, молоко — местное, стаканы — из переработанной бумаги. Пока вы ждёте, можно посмотреть, как рисуют розетту.",
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1787126077654-298dc827d8d7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bWluaW1hbCUyMGNvZmZlZSUyMHNob3AlMjBjb3VudGVyJTIwamFwYW5lc2V8ZW58MXwwfHx8MTc5NTQ3NzkzNXww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -320,27 +320,27 @@
       "items": [
         {
           "caption": "latte",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1763473821509-9a383b480844?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGxhdHRlJTIwYXJ0JTIwY3VwJTIwYWJvdmV8ZW58MXwyfHx8MTc5NTQ3NzkzNnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "window",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1747694932730-eed7574280ee?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29mZmVlJTIwY3VwJTIwbW9ybmluZyUyMGxpZ2h0JTIwd2luZG93fGVufDF8Mnx8fDE3OTU0Nzc5NDN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "matcha",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1790947167387-cc34755cc22e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8bWF0Y2hhJTIwbGF0dGV8ZW58MXwyfHx8MTc5NTQ3NzkzOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "mochi",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1677204705998-62610fcd234c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8bWF0Y2hhJTIwbGF0dGV8ZW58MXwyfHx8MTc5NTQ3NzkzOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "morning",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1680891559139-f5b8a6ab70c8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y29mZmVlJTIwY3VwJTIwbW9ybmluZyUyMGxpZ2h0JTIwd2luZG93fGVufDF8Mnx8fDE3OTU0Nzc5NDN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "cup",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1773921020831-5dd83b627641?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGxhdHRlJTIwYXJ0JTIwY3VwJTIwYWJvdmV8ZW58MXwyfHx8MTc5NTQ3NzkzNnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -386,5 +386,71 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Jhunelle Francis Sardido",
+      "url": "https://unsplash.com/@iamjhunelle?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Maria Kovalets",
+      "url": "https://unsplash.com/@marylooo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Martin Vysoudil",
+      "url": "https://unsplash.com/@vysix?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Daniel Jericó",
+      "url": "https://unsplash.com/@jrcdaniel?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "王 大洪",
+      "url": "https://unsplash.com/@mr_wdh?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nelly Antoniadou",
+      "url": "https://unsplash.com/@nelly13?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "syahmi syahir",
+      "url": "https://unsplash.com/@subspace_stills?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Arrowhead Coffee",
+      "url": "https://unsplash.com/@arrowheadcoffeeco?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Noora AlHammadi",
+      "url": "https://unsplash.com/@nh7_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yanhao Fang",
+      "url": "https://unsplash.com/@alamanga?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mehrpouya H",
+      "url": "https://unsplash.com/@mehrpouya?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paul Esch-Laurent",
+      "url": "https://unsplash.com/@pinjasaur?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kris Tian",
+      "url": "https://unsplash.com/@kris_tian?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "AllysherLow",
+      "url": "https://unsplash.com/@allysherlow_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Julián",
+      "url": "https://unsplash.com/@julianleon22?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nameless 3791",
+      "url": "https://unsplash.com/@unidentifieduser?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
