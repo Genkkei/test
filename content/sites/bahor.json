@@ -97,7 +97,7 @@
         "label": "Банкеты",
         "href": "#pricing"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1560490009-7a9a66e789b2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjN8fHV6YmVrJTIwcGxvdiUyMGNsb3NlJTIwdXB8ZW58MXwwfHx8MTc5NTQ2MTI2NXww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -126,7 +126,7 @@
       "label": "О чайхане",
       "title": "Дом, где всегда накрыт дастархан",
       "text": "Мы открылись в 2012 году во дворе старого махаллинского дома: топчаны под виноградником, фонтан, медные чайники. Плов готовит ошпаз Рустам-ака — каждое утро в казане на сорок килограммов, на хлопковом масле и девзире. Хлеб и самсу печём в своём тандыре, овощи берём на Чорсу.",
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1587834323138-befbf2c33797?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dGVhcG90JTIwcG91cmluZyUyMHRlYSUyMGNsb3NlJTIwdXB8ZW58MXwwfHx8MTc5NTQ2MTI2OXww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -286,27 +286,27 @@
       "items": [
         {
           "caption": "Двор под виноградником",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1688275372516-4abdc18799d5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8Y29wcGVyJTIwdGVhcG90fGVufDF8Mnx8fDE3OTU0NjEyNzR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Казан на сорок килограммов",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1558713605-d734e97de6bd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvcHBlciUyMHRlYXBvdHxlbnwxfDJ8fHwxNzk1NDYxMjc0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тандыр с самсой",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1637217632015-d1d00b77f327?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fGNvcHBlciUyMHRlYXBvdHxlbnwxfDJ8fHwxNzk1NDYxMjc0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Медные чайники",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1768768772927-a44003c5e04a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y29wcGVyJTIwdGVhcG90fGVufDF8Mnx8fDE3OTU0NjEyNzR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Банкетный зал",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1726208229202-0d54c1cf2ebc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dXpiZWslMjBwbG92JTIwY2xvc2UlMjB1cHxlbnwxfDB8fHwxNzk1NDYxMjY1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ляган плова",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1785571903557-dce44dcf3eab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8dXpiZWslMjBwbG92JTIwY2xvc2UlMjB1cHxlbnwxfDB8fHwxNzk1NDYxMjY1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -381,5 +381,35 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Tahereh Amin",
+      "url": "https://unsplash.com/@t_aminn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sergey N",
+      "url": "https://unsplash.com/@tipod?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ashad Mallick",
+      "url": "https://unsplash.com/@pictographer?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "A C",
+      "url": "https://unsplash.com/@a_s_c?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Moustafa Neamatalla",
+      "url": "https://unsplash.com/@stafaxxx?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "engin akyurt",
+      "url": "https://unsplash.com/@enginakyurt?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zulfugar Karimov",
+      "url": "https://unsplash.com/@zulfugarkarimov?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
