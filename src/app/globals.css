@@ -288,3 +288,14 @@ html.menu-open { overflow: hidden; }
 
 /* Шрифты заголовков сайтов часто бывают в одном начертании — без фальшивого полужирного. */
 [class*="tpl-"] { font-synthesis-weight: none; }
+
+/* авторы фото со стоков — одна тихая строка под подвалом любого шаблона */
+.photo-credits {
+  margin: 0;
+  padding: 10px clamp(16px, 4vw, 48px) 14px;
+  font: 400 11px/1.5 system-ui, sans-serif;
+  letter-spacing: 0.01em;
+  color: color-mix(in srgb, var(--fg, #111) 55%, transparent);
+  background: var(--bg, transparent);
+}
+.photo-credits a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }

@@ -294,6 +294,8 @@ export const siteSchema = z.object({
   /** бренд и айдентика (lib/brand.ts); пусто — у шаблона его собственная надпись */
   brand: brandSchema.optional(),
   craft: craftSchema.optional(),
+  /** авторы фото со стоков (Unsplash требует подпись) — строка «Фото: …» под подвалом */
+  credits: z.array(z.object({ by: text, url: href })).default([]),
   updatedAt: z.string().default(''),
   /** основной язык сайта; заполняется только у языковой версии (перевод поверх основного) */
   baseLang: z.string().optional(),

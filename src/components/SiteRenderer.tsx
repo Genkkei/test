@@ -14,7 +14,7 @@ import { TPL_CSS } from '@/templates/styles.generated'
 import { Answer, BASE } from './sections'
 import { MotionRuntime } from '@/motion/runtime'
 import { registerBrandArt } from '@/motion/art'
-import { LANG_LABEL, LANG_NAME, ui } from '@/lib/i18n'
+import { LANG_LABEL, LANG_NAME, pick, ui } from '@/lib/i18n'
 import { primaryLang } from '@/lib/seo'
 
 /** Переключатель языка — один на все шаблоны, в углу экрана. Ссылки внутри конструктора
@@ -107,6 +107,18 @@ export function SiteRenderer({ site, langs = [site.lang] }: { site: Site; langs?
           )
         })}
       </Shell>
+      {site.credits.length ? (
+        <p className="photo-credits">
+          {pick(site.lang, { ru: 'Фото', uz: 'Suratlar', en: 'Photos' })}:{' '}
+          {site.credits.map((c, i) => (
+            <span key={c.url || c.by}>
+              {i ? ', ' : ''}
+              {c.url ? <a href={c.url} target="_blank" rel="noopener nofollow">{c.by}</a> : c.by}
+            </span>
+          ))}{' '}
+          — <a href="https://unsplash.com/?utm_source=atlas&utm_medium=referral" target="_blank" rel="noopener nofollow">Unsplash</a>
+        </p>
+      ) : null}
       <LangSwitch site={site} langs={langs} />
       {site.leads.enabled || site.listing.forSale ? <LeadDialog slug={site.slug} lang={site.lang} leads={site.leads} phone={site.business.phone} /> : null}
       {products.length ? <CartDrawer slug={site.slug} lang={site.lang} products={products} demo={site.listing.forSale} phone={site.business.phone} /> : null}
