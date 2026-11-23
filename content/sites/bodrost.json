@@ -105,7 +105,7 @@
         "label": "Меню",
         "href": "#menu"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1768913651339-ed049ce26fa1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHRha2Vhd2F5JTIwY29mZmVlJTIwY3VwJTIwbW9ybmluZ3xlbnwxfDB8fHwxNzk1NDY1NjA0fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "tape",
@@ -135,7 +135,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 210000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1758196305629-b65aed3c0fa0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8ZnJlbmNoJTIwcHJlc3MlMjBjb2ZmZWUlMjBtYWtlcnxlbnwxfDF8fHwxNzk1NDU3MDIwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -145,7 +145,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 690000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1649493121215-a19b6051e6bf?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8bWFudWFsJTIwY29mZmVlJTIwZ3JpbmRlcnxlbnwxfDJ8fHwxNzk1NDU2OTg4fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -155,7 +155,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 185000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1645633388153-5695f40a91a8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8dHJhdmVsJTIwY29mZmVlJTIwbXVnfGVufDF8Mnx8fDE3OTU0NTY5OTB8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -165,7 +165,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 260000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1660033572241-4943ab055dd3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y29mZmVlJTIwZ2lmdCUyMGJveHxlbnwxfDJ8fHwxNzk1NDU2OTkzfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -175,7 +175,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y29mZmVlJTIwYmVhbnMlMjBtYWNybyUyMGNsb3NlJTIwdXB8ZW58MXwwfHx8MTc5NTQ1NzIxMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -185,7 +185,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 165000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1734453109341-cb256b811571?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y29mZmVlJTIwYmVhbnMlMjBtYWNybyUyMGNsb3NlJTIwdXB8ZW58MXwwfHx8MTc5NTQ1NzIxMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -195,7 +195,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 139000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1705937071166-d8acc4825ad7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8Z3JvdW5kJTIwY29mZmVlJTIwdGV4dHVyZSUyMG1hY3JvfGVufDF8Mnx8fDE3OTU0NTcyMTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -205,7 +205,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 420000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZXNwcmVzc28lMjBjcmVtYSUyMG1hY3JvfGVufDF8MHx8fDE3OTU0NTcyMDl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -220,7 +220,7 @@
       "label": "О нас",
       "title": "Утро начинается у выхода из метро",
       "text": "Мы открылись там, где каждое утро проходят тысячи людей, — и сделали кофе, который не стыдно пить на бегу. Ростер на 5 кг стоит прямо в зале: зерно обжариваем небольшими партиями трижды в неделю, поэтому эспрессо всегда свежий. Бариста запоминают постоянных гостей и их «как обычно».",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1552833755-fdb50eeb8cf1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZXNwcmVzc28lMjBleHRyYWN0aW9uJTIwY2xvc2UlMjB1cHxlbnwxfDF8fHwxNzk1NDU3MjE0fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "menu",
@@ -460,5 +460,43 @@
       }
     }
   ],
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Othman Alghanmi",
+      "url": "https://unsplash.com/@theemanofoth?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ilinca Roman",
+      "url": "https://unsplash.com/@ilincaroman?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Derick Sitt",
+      "url": "https://unsplash.com/@baiyi_wine_opener?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "quokkabottles",
+      "url": "https://unsplash.com/@quokkabottle?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Anastasiia Chepinska",
+      "url": "https://unsplash.com/@anastasiiachepinska?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michael Collett",
+      "url": "https://unsplash.com/@simplysquarespace?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photo 11",
+      "url": "https://unsplash.com/@photo_11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jordan Merrick",
+      "url": "https://unsplash.com/@jordanmerrick?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Victoria Shes",
+      "url": "https://unsplash.com/@victoriakosmo?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
