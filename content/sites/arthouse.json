@@ -103,7 +103,7 @@
         "label": "Все выставки",
         "href": "#exhibitions"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1524840127331-f2ca773ec28f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBwYWludGluZyUyMHRleHR1cmUlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NDYxMTg0fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -129,7 +129,7 @@
       "label": "Галерея",
       "title": "Место, где искусство случается сейчас",
       "text": "«Ваша компания» открылся в 2018 году в бывшем швейном цеху на Яхьё Гулямова. 600 метров белых стен, высокие потолки и свет с крыши. Мы показываем художников Узбекистана и Центральной Азии — от первых персональных выставок до больших ретроспектив, — проводим лекции и помогаем коллекционерам найти работы.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1577639275749-f0e71ef0db20?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGFydCUyMGdhbGxlcnklMjBleGhpYml0aW9uJTIwd2hpdGUlMjB3YWxsfGVufDF8MHx8fDE3OTU0NjExODh8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "works",
@@ -144,7 +144,7 @@
           "category": "Камила Юнусова, живопись",
           "year": "10.10 — 14.12.2026",
           "text": "Первая персональная выставка: тридцать холстов о летнем городе.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1578589385589-c94a956e2450?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8YWJzdHJhY3QlMjBvaWwlMjBwYWludGluZyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTQ2MTE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -152,7 +152,7 @@
           "category": "Групповая выставка, фотография",
           "year": "20.12.2026 — 28.02.2027",
           "text": "Двенадцать фотографов о дорогах Ферганской долины.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1601318314960-e17a48ebb6f2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8YWJzdHJhY3QlMjBvaWwlMjBwYWludGluZyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTQ2MTE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -160,7 +160,7 @@
           "category": "Новые медиа, видео и звук",
           "year": "март — май 2027",
           "text": "Инсталляции, которые слушают зрителя: звук, свет и движение.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1637157904545-81574908428a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8YWJzdHJhY3QlMjBvaWwlMjBwYWludGluZyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTQ2MTE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -168,7 +168,7 @@
           "category": "Керамика, архив и современность",
           "year": "июнь — август 2027",
           "text": "Риштанская керамика рядом с работами молодых скульпторов.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1565502232649-5855e7e64408?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -183,27 +183,27 @@
       "items": [
         {
           "caption": "«Полдень на Чорсу», 2025",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1576164705615-e29ce7c652ac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "«Тень чинары», 2026",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1565687950650-5238a94a9757?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "«Окно на Бешагач», 2024",
-          "image": ""
+          "image": "https://images.unsplash.com/flagged/photo-1563882687293-71c93ae4d7dc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "«Жара», 2026",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1512413209998-69dfe30bd487?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "«Вечер», 2025",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1531670440648-a439d0c42b11?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjJ8fGFic3RyYWN0JTIwb2lsJTIwcGFpbnRpbmclMjBjbG9zZSUyMHVwfGVufDF8Mnx8fDE3OTU0NjExOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "«Дворик», 2026",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1569314682706-fdede1aa9f15?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8YWJzdHJhY3QlMjBvaWwlMjBwYWludGluZyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTQ2MTE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -339,6 +339,40 @@
         "label": "Купить билет в Telegram",
         "href": "https://t.me/yourcompany"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Steve A Johnson",
+      "url": "https://unsplash.com/@steve_j?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Laura Cleffmann",
+      "url": "https://unsplash.com/@cloudett?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "USGS",
+      "url": "https://unsplash.com/@usgs?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Diana H",
+      "url": "https://unsplash.com/@diana_h?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Linda Fowler",
+      "url": "https://unsplash.com/@fowlerart15?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jr Korpa",
+      "url": "https://unsplash.com/@jrkorpa?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paul Blenkhorn",
+      "url": "https://unsplash.com/@sensoryarthouse?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Henrik Dønnestad",
+      "url": "https://unsplash.com/@spaceboy?utm_source=atlas&utm_medium=referral"
     }
   ]
 }

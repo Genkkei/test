@@ -92,7 +92,7 @@
         "label": "Практики",
         "href": "#practices"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1619771766980-368d32e44b82?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8bGF3JTIwbGlicmFyeSUyMG9sZCUyMGJvb2tzJTIwZGFya3xlbnwxfDB8fHwxNzk1NDYxMTcxfDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "about",
@@ -102,7 +102,7 @@
       "label": "Фирма",
       "title": "Мы говорим на языке бизнеса и закона одновременно",
       "text": "Двадцать два юриста и четыре партнёра. Каждое дело ведёт партнёр лично — от первой встречи до результата. Мы не обещаем исход судебного процесса, но всегда называем риски, шансы и стоимость до того, как вы примете решение. Работаем на русском, узбекском и английском.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1625396056350-91dd4f83fc5e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Zm91bnRhaW4lMjBwZW4lMjBzaWduaW5nJTIwY29udHJhY3QlMjBjbG9zZSUyMHVwfGVufDF8MHx8fDE3OTU0NjExNzN8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "practices",
@@ -194,7 +194,7 @@
           "category": "M&A",
           "year": "2025",
           "text": "Due diligence, структура сделки, закрытие за 11 недель.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1694109169117-725d7eabba8d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bGVnYWwlMjBkb2N1bWVudHMlMjBkZXNrJTIwZGFyayUyMG1vb2R5fGVufDF8Mnx8fDE3OTU0NjExNzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -202,7 +202,7 @@
           "category": "Налоги",
           "year": "2025",
           "text": "Доначисление отменено в апелляционной инстанции.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1540129277621-a5809708574d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8bGVnYWwlMjBkb2N1bWVudHMlMjBkZXNrJTIwZGFyayUyMG1vb2R5fGVufDF8Mnx8fDE3OTU0NjExNzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -210,7 +210,7 @@
           "category": "Инвестиции",
           "year": "2024",
           "text": "Регистрация, резидентство IT Park, локализация данных.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1656494649244-cead1ed7c344?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGxlZ2FsJTIwZG9jdW1lbnRzJTIwZGVzayUyMGRhcmslMjBtb29keXxlbnwxfDJ8fHwxNzk1NDYxMTc4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -218,7 +218,7 @@
           "category": "Споры",
           "year": "2024",
           "text": "Мировое соглашение с выкупом доли по рыночной оценке.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1589988065848-02cd3f3e8e87?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjJ8fGxlZ2FsJTIwZG9jdW1lbnRzJTIwZGVzayUyMGRhcmslMjBtb29keXxlbnwxfDJ8fHwxNzk1NDYxMTc4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -353,5 +353,31 @@
     "description": "Сайт для юридической фирмы, консалтинга или финансовой компании. Швейцарская сетка с линейками и параграфами, практики реестром, партнёры и обезличенные кейсы.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Nasser Eledroos",
+      "url": "https://unsplash.com/@nasser_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Dahee Jeoung",
+      "url": "https://unsplash.com/@lancott?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "manas rb",
+      "url": "https://unsplash.com/@manas_rb?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Annie Spratt",
+      "url": "https://unsplash.com/@anniespratt?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Adi ristan",
+      "url": "https://unsplash.com/@adiristan_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Corinne Kutz",
+      "url": "https://unsplash.com/@corinnekutz?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
