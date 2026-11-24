@@ -108,7 +108,7 @@
         "label": "Проекты",
         "href": "#works"
       },
-      "image": "/media/forma-2bd0fc43ff351cbbdc62.webp"
+      "image": "https://images.unsplash.com/photo-1608080969021-dd6328f897ca?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8YXJjaGl0ZWN0dXJhbCUyMG1pbmltYWwlMjBmdXJuaXR1cmUlMjBjb25jcmV0ZSUyMGxpZ2h0fGVufDF8MHx8fDE3OTU0OTAzNTZ8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "shop",
@@ -124,7 +124,7 @@
           "text": "Ясень, кабель-канал в царге.",
           "price": 7400000,
           "oldPrice": 0,
-          "image": "/media/forma-6d3d069bda33dba5a7b4.webp",
+          "image": "https://images.unsplash.com/photo-1572663330609-bc2c35f6a679?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8YXJjaGl0ZWN0dXJhbCUyMG1pbmltYWwlMjBmdXJuaXR1cmUlMjBjb25jcmV0ZSUyMGxpZ2h0fGVufDF8MHx8fDE3OTU0OTAzNTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -134,7 +134,7 @@
           "text": "Шпон дуба, шаг полок 32 см, крепление к стене.",
           "price": 5900000,
           "oldPrice": 0,
-          "image": "/media/forma-4458462e482056e1ca22.webp",
+          "image": "https://images.unsplash.com/photo-1614620026694-f5f38182ab9f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGhvbWUlMjBsaWJyYXJ5JTIwYnVpbHQlMjBpbiUyMHNoZWx2ZXN8ZW58MXwwfHx8MTc5NTQ5MDM2MHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -144,7 +144,7 @@
           "text": "Матовый HPL, открывание нажатием Blum.",
           "price": 4800000,
           "oldPrice": 0,
-          "image": "/media/forma-d605dad52761fe8acbd8.webp",
+          "image": "https://images.unsplash.com/photo-1783107193848-90a8b6929451?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHdvb2RlbiUyMHR2JTIwY29uc29sZXxlbnwxfDJ8fHwxNzk1NDg2MjE3fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "Хит",
           "unit": "шт"
@@ -154,7 +154,7 @@
           "text": "Ясень и гнутая фанера.",
           "price": 1650000,
           "oldPrice": 0,
-          "image": "/media/forma-fa7b021d51bdb8f8f51c.webp",
+          "image": "https://images.unsplash.com/photo-1791932041401-d0c7b0fce087?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bWluaW1hbCUyMHdvb2RlbiUyMGNoYWlyJTIwc3R1ZGlvfGVufDF8Mnx8fDE3OTU0OTAzNzJ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Стулья",
           "badge": "",
           "unit": "шт"
@@ -164,7 +164,7 @@
           "text": "Шпон дуба, скрытый ящик.",
           "price": 2900000,
           "oldPrice": 0,
-          "image": "/media/forma-de969661f1b262bc7ad5.webp",
+          "image": "https://images.unsplash.com/photo-1567389544422-cdbc04a2bb86?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGFyY2hpdGVjdHVyYWwlMjBtaW5pbWFsJTIwZnVybml0dXJlJTIwY29uY3JldGUlMjBsaWdodHxlbnwxfDB8fHwxNzk1NDkwMzU2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -174,7 +174,7 @@
           "text": "Шесть ящиков Hettich, фасады без ручек.",
           "price": 6300000,
           "oldPrice": 0,
-          "image": "/media/forma-5a0b9e763b982a80b6f1.webp",
+          "image": "https://images.unsplash.com/photo-1721119211162-2c3f2809d190?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHdhbG51dCUyMHNpZGVib2FyZCUyMGx1eHVyeXxlbnwxfDJ8fHwxNzk1NDg2Mjc2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -184,7 +184,7 @@
           "text": "Узкая рама из ясеня, крепление к стене.",
           "price": 1900000,
           "oldPrice": 0,
-          "image": "/media/forma-b3f1661764a1a0dbd139.webp",
+          "image": "https://images.unsplash.com/photo-1698486938441-9446c61527c6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Zmxvb3IlMjBtaXJyb3IlMjB3b29kZW4lMjBmcmFtZXxlbnwxfDJ8fHwxNzk1NDg2MjA5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "Новинка",
           "unit": "шт"
@@ -194,7 +194,7 @@
           "text": "Скрытый крепёж, дуб, нагрузка 25 кг.",
           "price": 980000,
           "oldPrice": 0,
-          "image": "/media/forma-58d4b34e5c61e127f803.webp",
+          "image": "https://images.unsplash.com/photo-1651052103405-463df24fe36c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHdhbG51dCUyMHNpZGVib2FyZCUyMGx1eHVyeXxlbnwxfDJ8fHwxNzk1NDg2Mjc2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "Хит",
           "unit": "шт"
@@ -209,7 +209,7 @@
       "label": "Бюро",
       "title": "Сначала чертёж, потом древесина",
       "text": "Нас восемь: три архитектора, конструктор и четыре мастера в собственном цеху в Сергелях. Каждая вещь начинается с обмерного плана квартиры и заканчивается монтажом, который ведёт тот же архитектор. Работаем с дубом, ясенем, шпоном и HPL-пластиком, фурнитура — Blum и Hettich.",
-      "image": "/media/forma-31751148597babe58b20.webp"
+      "image": "https://images.unsplash.com/photo-1603901622056-0a5bee231395?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8YXJjaGl0ZWN0JTIwZHJhd2luZyUyMHBsYW4lMjBkZXNrfGVufDF8MHx8fDE3OTU0OTAzNjl8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -259,7 +259,7 @@
           "category": "Квартира",
           "year": "2025",
           "text": "Книжная стена из ясеня на 1 400 томов с лестницей на рельсе · Длина: 7,2 м · Срок: 38 дней · Материал: ясень",
-          "image": "/media/forma-b335977ce721251e9a3d.webp",
+          "image": "https://images.unsplash.com/photo-1514894780887-121968d00567?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8aG9tZSUyMGxpYnJhcnklMjBidWlsdCUyMGluJTIwc2hlbHZlc3xlbnwxfDB8fHwxNzk1NDkwMzYwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -267,7 +267,7 @@
           "category": "Дом",
           "year": "2025",
           "text": "Остров 3,4 м с варочной поверхностью и скрытой вытяжкой · Длина: 6,8 м · Срок: 44 дня · Материал: шпон дуба",
-          "image": "/media/forma-7c736e8a4eb9a7667b38.webp",
+          "image": "https://images.unsplash.com/photo-1760072513457-651955c7074d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bW9kZXJuJTIwa2l0Y2hlbiUyMGlzbGFuZCUyMG1pbmltYWx8ZW58MXwwfHx8MTc5NTQ5MDM2M3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -275,7 +275,7 @@
           "category": "Офис",
           "year": "2024",
           "text": "Двадцать рабочих мест, переговорная и кофе-поинт в одной системе · Площадь: 240 м² · Срок: 52 дня · Материал: HPL",
-          "image": "/media/forma-ab14914192705acd4dff.webp",
+          "image": "https://images.unsplash.com/photo-1765371512971-9d4da531d004?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vZGVybiUyMG9mZmljZSUyMGludGVyaW9yJTIwd29vZHxlbnwxfDB8fHwxNzk1NDkwMzY2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -393,5 +393,59 @@
     ],
     "ease": "0.16,1,0.3,1",
     "surface": "drawing-stamp"
-  }
+  },
+  "credits": [
+    {
+      "by": "Morton Xiong",
+      "url": "https://unsplash.com/@good_bear?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Avinash Kumar",
+      "url": "https://unsplash.com/@ashishjha?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Elimende Inagella",
+      "url": "https://unsplash.com/@elimendeinagella?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Dmitry Reshetnikov",
+      "url": "https://unsplash.com/@reshetnikov?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jesse Kojo Kuntoh",
+      "url": "https://unsplash.com/@jesse_k?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Raychan",
+      "url": "https://unsplash.com/@wx1993?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Pascal Vugts",
+      "url": "https://unsplash.com/@devugts?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "VIE ATELIER BY IK",
+      "url": "https://unsplash.com/@vieatelierbyik?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Valentina Giarre",
+      "url": "https://unsplash.com/@valentinagiarre?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lucas Kepner",
+      "url": "https://unsplash.com/@lucaskphoto?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Radu Marcusu",
+      "url": "https://unsplash.com/@radu_marcusu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Obegi Home",
+      "url": "https://unsplash.com/@obegihome?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Caroline Badran",
+      "url": "https://unsplash.com/@___atmos?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
