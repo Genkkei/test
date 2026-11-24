@@ -93,7 +93,7 @@
         "label": "Смотреть меню",
         "href": "#menu"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1752613904094-f120ecbe8f1d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8cGFzdHJ5JTIwbWFjcm8lMjBjcm9pc3NhbnQlMjBsYXllcnN8ZW58MXwwfHx8MTc5NTUxNTEyMHww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "shop",
@@ -109,7 +109,7 @@
           "text": "Французское масло, миндальный крем.",
           "price": 29000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1613992258436-7d744cb20893?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -119,7 +119,7 @@
           "text": "Песочное тесто, крем, свежие ягоды.",
           "price": 40000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1785769616216-631a53210b7d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8YmVycnklMjB0YXJ0fGVufDF8Mnx8fDE3OTU1MTUxMjZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -129,7 +129,7 @@
           "text": "Маленький торт на двоих с вашей надписью.",
           "price": 135000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1763161693487-75f12054c452?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "Хит",
           "unit": "шт"
@@ -139,7 +139,7 @@
           "text": "Как в детстве, с какао и ромом.",
           "price": 20000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1596983474615-1ec9a659a9c1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fGZyZW5jaCUyMHBhc3RyeSUyMGRlc3NlcnQlMjBtaW5pbWFsfGVufDF8Mnx8fDE3OTU1MTUxMjF8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -149,7 +149,7 @@
           "text": "Шесть пирожных на выбор кондитера.",
           "price": 122000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1668674267358-c00ae6ac211a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Наборы",
           "badge": "",
           "unit": "набор"
@@ -159,7 +159,7 @@
           "text": "Восемь коржей, сметанный крем. 1,2 кг.",
           "price": 234000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1581693363882-3f6df5c2b3f6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fGZyZW5jaCUyMHBhc3RyeSUyMGRlc3NlcnQlMjBtaW5pbWFsfGVufDF8Mnx8fDE3OTU1MTUxMjF8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "Хит",
           "unit": "шт"
@@ -169,7 +169,7 @@
           "text": "Слоёное тесто и заварной крем. 1 кг.",
           "price": 216000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1713807756960-a44976cdb272?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fHBhdGlzc2VyaWUlMjBkaXNwbGF5fGVufDF8Mnx8fDE3OTU1MTUxMzZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "",
           "unit": "шт"
@@ -179,7 +179,7 @@
           "text": "Сливочный сыр, песочная основа. 1 кг.",
           "price": 261000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1679434759462-d15a1de993c1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "",
           "unit": "шт"
@@ -194,7 +194,7 @@
       "label": "Дом",
       "title": "Мы не спешим: тесто для круассанов отдыхает три дня, а крем для тарта варится на медленном огне.",
       "text": "«Ваша компания» открылась в 2021 году на тихой улице Мирабад. Наш шеф-кондитер училась в Париже и привезла оттуда главное правило: десерт не должен быть просто сладким — у него должен быть характер, текстура и послевкусие.\nМы печём небольшими партиями, поэтому витрина к вечеру пустеет. Торты собираем только на заказ — под ваш праздник, вкус и число гостей. Сезонные ягоды берём у фермеров Ташкентской области, орехи — у самаркандских поставщиков.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1649675602947-81a41c1ba4af?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fHBhc3RyeSUyMGNoZWYlMjBkb3VnaCUyMGxhbWluYXRpb258ZW58MXwwfHx8MTc5NTUxNTEzMnww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -327,27 +327,27 @@
       "items": [
         {
           "caption": "Тарт с инжиром",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1728129370212-a29c8f046399?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8YmVycnklMjB0YXJ0fGVufDF8Mnx8fDE3OTU1MTUxMjZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Макарон",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1582573097921-b97b06fc972c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Круассаны утром",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1790206392066-3d58376a74e5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHBhdGlzc2VyaWUlMjBkaXNwbGF5fGVufDF8Mnx8fDE3OTU1MTUxMzZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Торт «Люмьер»",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1602533438437-ce0c0b47faaa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGJlcnJ5JTIwdGFydHxlbnwxfDJ8fHwxNzk1NTE1MTI2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Париж–Брест",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1626079451152-bb93813bc373?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8ZnJlbmNoJTIwcGFzdHJ5JTIwZGVzc2VydCUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTUxNTEyMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Мильфей",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1692519978007-8a8e037ffb32?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGJlcnJ5JTIwdGFydHxlbnwxfDJ8fHwxNzk1NTE1MTI2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -456,5 +456,71 @@
     "description": "Сайт для кондитерской, пекарни, кофейни или бутика. Тёплая бумага и антиква, фото в арках, меню разделами с ценами и лента витрины — как издание о вкусной еде.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Haley Parson",
+      "url": "https://unsplash.com/@haleyparson?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Razvan Mirel",
+      "url": "https://unsplash.com/@razvan_mirel?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Brett Jordan",
+      "url": "https://unsplash.com/@brett_jordan?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mr. Pugo",
+      "url": "https://unsplash.com/@mrpugo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marius Girard",
+      "url": "https://unsplash.com/@mgird?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mk. s",
+      "url": "https://unsplash.com/@mk__s?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Simon Desarzens",
+      "url": "https://unsplash.com/@simon_desarzens?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Volodymyr Dobrovolskyy",
+      "url": "https://unsplash.com/@vladimir_d?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lorretta Oneke Ntui",
+      "url": "https://unsplash.com/@lorrettantui1?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "DDP",
+      "url": "https://unsplash.com/@moino007?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Haberdoedas",
+      "url": "https://unsplash.com/@haberdoedas?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "charlesdeluvio",
+      "url": "https://unsplash.com/@charlesdeluvio?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Remuel",
+      "url": "https://unsplash.com/@arellanuuu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jonathan Cooper",
+      "url": "https://unsplash.com/@theshuttervision?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Emmanuel Zua",
+      "url": "https://unsplash.com/@oldblack?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Babs Gorniak",
+      "url": "https://unsplash.com/@babs_gorniak?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
