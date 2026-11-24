@@ -102,7 +102,7 @@
         "label": "Работы",
         "href": "#works"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1621714204810-8aefcfe58f0c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8dGF0dG9vJTIwbWFjaGluZSUyMGluayUyMG1hY3JvfGVufDF8MHx8fDE3OTU1NDAxODR8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -129,7 +129,7 @@
       "label": "Студия",
       "title": "Каждый эскиз рисуем один раз",
       "text": "Три мастера и один стерильный кабинет в старом доме на Мукими. Мы не повторяем чужие работы: на консультации слушаем историю, рисуем эскиз и правим его, пока вы не скажете «да». Иглы и колпачки — одноразовые, поверхности обрабатываем после каждого гостя.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1763575648374-4aa2da800fac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8dGF0dG9vJTIwc2tldGNoJTIwZHJhd2luZyUyMHBhcGVyfGVufDF8MHx8fDE3OTU1NDAxODh8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "works",
@@ -144,7 +144,7 @@
           "category": "Графика",
           "year": "предплечье",
           "text": "Классический сюжет тонкой линией, 3 часа.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1570168983832-8989dae1522e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8ZmluZSUyMGxpbmUlMjB0YXR0b28lMjBhcm18ZW58MXwyfHx8MTc5NTU0MDE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -152,7 +152,7 @@
           "category": "Олдскул",
           "year": "ключица",
           "text": "Парная тату для двух сестёр.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1559578295-596a49c0e7cd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8ZmluZSUyMGxpbmUlMjB0YXR0b28lMjBhcm18ZW58MXwyfHx8MTc5NTU0MDE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -160,7 +160,7 @@
           "category": "Лайнворк",
           "year": "запястье",
           "text": "Минимализм, 40 минут.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1568667729388-5b8104d85291?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZmluZSUyMGxpbmUlMjB0YXR0b28lMjBhcm18ZW58MXwyfHx8MTc5NTU0MDE5Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -168,7 +168,7 @@
           "category": "Орнамент",
           "year": "лопатка",
           "text": "Звезда с узором из сюзане.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1587112622607-7b1a1665d012?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGZpbmUlMjBsaW5lJTIwdGF0dG9vJTIwYXJtfGVufDF8Mnx8fDE3OTU1NDAxOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -176,7 +176,7 @@
           "category": "Графика",
           "year": "голень",
           "text": "Перекрытие старой надписи, два сеанса.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1709094269206-cc77802ab4e0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGZpbmUlMjBsaW5lJTIwdGF0dG9vJTIwYXJtfGVufDF8Mnx8fDE3OTU1NDAxOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -184,7 +184,7 @@
           "category": "Олдскул",
           "year": "плечо",
           "text": "Подарок отцу-моряку.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1785100128813-3f1beac15969?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGZpbmUlMjBsaW5lJTIwdGF0dG9vJTIwYXJtfGVufDF8Mnx8fDE3OTU1NDAxOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -192,7 +192,7 @@
           "category": "Леттеринг",
           "year": "рёбра",
           "text": "Имя дочери в ленте.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1591900521514-936fad18b8fa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGZpbmUlMjBsaW5lJTIwdGF0dG9vJTIwYXJtfGVufDF8Mnx8fDE3OTU1NDAxOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -200,7 +200,7 @@
           "category": "Флэш",
           "year": "свободен",
           "text": "Готовый эскиз — можно забрать.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1595425279740-b39185842ec6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGZpbmUlMjBsaW5lJTIwdGF0dG9vJTIwYXJtfGVufDF8Mnx8fDE3OTU1NDAxOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -398,5 +398,47 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "benjamin lehman",
+      "url": "https://unsplash.com/@abject?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kwami Fattah Al Sissi",
+      "url": "https://unsplash.com/@kwami_heude_50?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Agathè Lov",
+      "url": "https://unsplash.com/@agathelov?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yeganeh Shahpourzadeh",
+      "url": "https://unsplash.com/@yegsz?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kaizen Nguyễn",
+      "url": "https://unsplash.com/@kaizennguyen?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "elizabeth lies",
+      "url": "https://unsplash.com/@elizabethlies?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Belva Adeina",
+      "url": "https://unsplash.com/@belvadeline?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sun Flower",
+      "url": "https://unsplash.com/@_sun_flower_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "David Todd McCarty",
+      "url": "https://unsplash.com/@davidtoddmccarty?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michael Rivera",
+      "url": "https://unsplash.com/@monkeydmykie?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
