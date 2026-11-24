@@ -104,7 +104,7 @@
         "label": "Услуги",
         "href": "#services"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1534947379496-bedc63409670?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8bWFyYmxlJTIwdHJhdmVydGluZSUyMHRleHR1cmUlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NDg2MjYwfDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "marquee",
@@ -135,7 +135,7 @@
           "text": "Каррарский мрамор на латунном основании, 140 см.",
           "price": 24000000,
           "oldPrice": 0,
-          "image": "/media/elit-0355cfddcec6285aed60.webp",
+          "image": "https://images.unsplash.com/photo-1567016520496-0cb37d8467a7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8bWFyYmxlJTIwY29uc29sZSUyMHRhYmxlfGVufDF8Mnx8fDE3OTU0ODYyNjR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Консоли",
           "badge": "",
           "unit": "шт"
@@ -145,7 +145,7 @@
           "text": "Неро Маркина на ореховых опорах.",
           "price": 58000000,
           "oldPrice": 0,
-          "image": "/media/elit-58d8780584b603f89263.webp",
+          "image": "https://images.unsplash.com/photo-1589804691470-c936cb0a4f2f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8YmxhY2slMjBkaW5pbmclMjB0YWJsZSUyMGx1eHVyeXxlbnwxfDJ8fHwxNzk1NDg2MjY4fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "Хит",
           "unit": "шт"
@@ -155,7 +155,7 @@
           "text": "Орех, кожа наппа, латунные набойки.",
           "price": 6800000,
           "oldPrice": 0,
-          "image": "/media/elit-b8e1ad616604c9a6aaaa.webp",
+          "image": "https://images.unsplash.com/photo-1652924132517-72144e3c4a2b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8ZGVzaWduZXIlMjBkaW5pbmclMjBjaGFpcnxlbnwxfDJ8fHwxNzk1NDg2MjcxfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кресла и стулья",
           "badge": "",
           "unit": "шт"
@@ -165,7 +165,7 @@
           "text": "Круглый, 90 см, травертин с заполненными порами.",
           "price": 16500000,
           "oldPrice": 0,
-          "image": "/media/elit-f7b22b32f5899dbe4eb5.webp",
+          "image": "https://images.unsplash.com/photo-1714926340157-dd3a67e7b2c4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dHJhdmVydGluZSUyMGNvZmZlZSUyMHRhYmxlfGVufDF8Mnx8fDE3OTU0ODYyNzJ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -175,7 +175,7 @@
           "text": "Четыре ящика, американский орех, латунные ручки.",
           "price": 21000000,
           "oldPrice": 0,
-          "image": "/media/elit-22fe8d3aa1a464d3abc4.webp",
+          "image": "https://images.unsplash.com/photo-1788684368261-447f2ff5792c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8d2FsbnV0JTIwc2lkZWJvYXJkJTIwbHV4dXJ5fGVufDF8Mnx8fDE3OTU0ODYyNzZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -185,7 +185,7 @@
           "text": "Орех и латунный профиль, подсветка полок.",
           "price": 32000000,
           "oldPrice": 0,
-          "image": "/media/elit-46a3a65f97f2a0f402aa.webp",
+          "image": "https://images.unsplash.com/photo-1578063527960-bf04c04e34d6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Ym9va3NoZWxmJTIwbGlicmFyeSUyMHdvb2RlbnxlbnwxfDJ8fHwxNzk1NDg2MjgwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
@@ -195,7 +195,7 @@
           "text": "Итальянская кожа, ореховый каркас.",
           "price": 19500000,
           "oldPrice": 0,
-          "image": "/media/elit-1ccca0139ba7dae37039.webp",
+          "image": "https://images.unsplash.com/photo-1718200675097-12611ddf6c4e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bGVhdGhlciUyMGxvdW5nZSUyMGNoYWlyfGVufDF8Mnx8fDE3OTU0ODYyODJ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кресла и стулья",
           "badge": "Хит",
           "unit": "шт"
@@ -205,7 +205,7 @@
           "text": "Мраморная столешница, ящик из ореха.",
           "price": 8900000,
           "oldPrice": 0,
-          "image": "/media/elit-933c3da4df23ab8eb3dd.webp",
+          "image": "https://images.unsplash.com/photo-1665116583017-ac4c2abb7152?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fG1hcmJsZSUyMGNvbnNvbGUlMjB0YWJsZXxlbnwxfDJ8fHwxNzk1NDg2MjY0fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -220,7 +220,7 @@
       "label": "Ателье",
       "title": "Двенадцать мастеров и ни одного конвейера",
       "text": "Каждый заказ ведёт один мастер от первого эскиза до установки. Латунь полируем вручную, мрамор подбираем по слэбам на складе поставщика вместе с вами, кожу берём только итальянскую. За год делаем не больше сорока заказов.",
-      "image": "/media/elit-b02acb60ea81f91814d8.webp"
+      "image": "https://images.unsplash.com/photo-1661446562470-56b6b71c18df?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y3JhZnRzbWFuJTIwaGFuZHMlMjB3b29kJTIwY2FydmluZ3xlbnwxfDB8fHwxNzk1NDg2Mjg3fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -440,5 +440,47 @@
     ],
     "ease": "0.66,0,0.01,1",
     "surface": "swatch-book"
-  }
+  },
+  "credits": [
+    {
+      "by": "Max van den Oetelaar",
+      "url": "https://unsplash.com/@maxvdo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Inside Weather",
+      "url": "https://unsplash.com/@insideweather?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Abeer Zeyad",
+      "url": "https://unsplash.com/@abeerzeyad?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Panos Katsigiannis",
+      "url": "https://unsplash.com/@panos_kats?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jejo Jose",
+      "url": "https://unsplash.com/@tomjejojose?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ela De Pure",
+      "url": "https://unsplash.com/@eladepure?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lex McKee",
+      "url": "https://unsplash.com/@the_dorset_photographer?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kali Graphist",
+      "url": "https://unsplash.com/@kaligraphist?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "tommao wang",
+      "url": "https://unsplash.com/@tommaomaoer?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Alex Gruber",
+      "url": "https://unsplash.com/@alex_gruber?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

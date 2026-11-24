@@ -105,7 +105,7 @@
         "label": "Как мы варим",
         "href": "#brew"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1627758754903-605d42c40ba6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHBvdXIlMjBvdmVyJTIwY29mZmVlJTIwZHJvcCUyMG1hY3JvfGVufDF8MHx8fDE3OTU0ODYxODl8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -137,7 +137,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 197000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1705937071149-f195cdf0f04a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMG1hY3JvfGVufDF8Mnx8fDE3OTU0NzM5NjR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -147,7 +147,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 172000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1776176623816-c4fd0e55f61c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Mzk2NHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -157,7 +157,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 145000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1732030297473-9023d7a7a23a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Mzk2NHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -167,7 +167,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 437000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1623859763838-a304cbfd4901?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8Y29mZmVlJTIwYmVhbnMlMjBzcG9vbiUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ3Mzk2N3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -177,7 +177,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 224000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1741041816273-26cbb2d689ef?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwbWFjcm98ZW58MXwyfHx8MTc5NTQ3Mzk2NHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -187,7 +187,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 182000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1581191853005-15f8b24f6302?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8Y29mZmVlJTIwYmVhbnMlMjBzcG9vbiUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ3Mzk2N3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -197,7 +197,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 165000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1606708820758-7a0781e1d700?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y29mZmVlJTIwYmVhbnMlMjBzcG9vbiUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ3Mzk2N3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -207,7 +207,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 99000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1646573090884-9760cb2db494?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29mZmVlJTIwYmFnJTIwbWluaW1hbHxlbnwxfDJ8fHwxNzk1NDg2MTk2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -222,7 +222,7 @@
       "label": "Кофейня",
       "title": "Мы открыли место, где можно никуда не торопиться",
       "text": "В зале двадцать восемь мест, проигрыватель, полка с пластинками и окно на старые чинары Афросиаба. Утром здесь завтракают перед работой, днём работают с ноутбуком, вечером приходят за десертом. Зерно обжаривают для нас раз в неделю, круассаны печём сами с шести утра.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1795309468309-efe0aed9b1bb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fHF1aWV0JTIwY29mZmVlJTIwYmFyJTIwd29vZGVuJTIwY291bnRlcnxlbnwxfDB8fHwxNzk1NDg2MTkzfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "menu",
@@ -418,6 +418,48 @@
         "label": "Заказать навынос",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Jakob Owens",
+      "url": "https://unsplash.com/@jakobowens1?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photo 11",
+      "url": "https://unsplash.com/@photo_11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Thomas Griggs",
+      "url": "https://unsplash.com/@viajeenparacaidas?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Aleksandr Zaitsev",
+      "url": "https://unsplash.com/@anwaltzzz?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Errol John",
+      "url": "https://unsplash.com/@erroljohn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Dmytro Koplyk",
+      "url": "https://unsplash.com/@dkoplyk?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tamas Pap",
+      "url": "https://unsplash.com/@tamasp?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Hadi farahani",
+      "url": "https://unsplash.com/@minimal_mhf?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Andrew Romanov",
+      "url": "https://unsplash.com/@romanovandrew?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Far Chinberdiev",
+      "url": "https://unsplash.com/@fardevio?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
