@@ -98,7 +98,7 @@
         "label": "Подписка",
         "href": "#subscription"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1561986810-4f3ba2f46ceb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y29mZmVlJTIwcm9hc3RpbmclMjBkcnVtJTIwYmVhbnN8ZW58MXwwfHx8MTc5NTUyMzQwN3ww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -117,7 +117,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 150000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1649372639640-6402377f3b28?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -127,7 +127,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 126000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1743356629215-abb470447e71?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -137,7 +137,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 382000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1518081692809-d68867210ca9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29mZmVlJTIwcm9hc3RpbmclMjBkcnVtJTIwYmVhbnN8ZW58MXwwfHx8MTc5NTUyMzQwN3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -147,7 +147,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 196000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1518164483967-d6d558aa44df?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y29mZmVlJTIwcm9hc3RpbmclMjBkcnVtJTIwYmVhbnN8ZW58MXwwfHx8MTc5NTUyMzQwN3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -157,7 +157,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 159000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1776176623814-4fae43da6a2a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -167,7 +167,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 145000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1705937071313-63776f6a8d2d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -177,7 +177,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 86000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1561480337-6645d95535b9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29mZmVlJTIwcm9hc3RpbmclMjBkcnVtJTIwYmVhbnN8ZW58MXwwfHx8MTc5NTUyMzQwN3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -187,7 +187,7 @@
           "text": "Наш кофе в алюминиевых капсулах.",
           "price": 72000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1531711964235-a035b2c9e440?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGNvZmZlZSUyMHJvYXN0aW5nJTIwZHJ1bSUyMGJlYW5zfGVufDF8MHx8fDE3OTU1MjM0MDd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "",
           "unit": "10 шт"
@@ -206,7 +206,7 @@
           "category": "натуральная · 2100 м",
           "year": "урожай текущего сезона",
           "text": "клубника, жасмин, тёмный шоколад",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1558618666-397fb0670f29?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGNvZmZlZSUyMHJvYXN0aW5nJTIwZHJ1bSUyMGJlYW5zfGVufDF8MHx8fDE3OTU1MjM0MDd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -214,7 +214,7 @@
           "category": "мытая · 1750 м",
           "year": "урожай текущего сезона",
           "text": "карамель, красное яблоко, какао",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1668419431630-b823d3261d82?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8cm9hc3RlZCUyMGNvZmZlZSUyMGJlYW5zJTIwY2xvc2UlMjB1cHxlbnwxfDJ8fHwxNzk1NTIzNDEyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -222,7 +222,7 @@
           "category": "мытая · 1800 м",
           "year": "урожай текущего сезона",
           "text": "чёрная смородина, грейпфрут, томат",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1776176623814-a570759b5190?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -230,7 +230,7 @@
           "category": "пульпированная · 1100 м",
           "year": "для эспрессо",
           "text": "орех, молочный шоколад, мёд",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1621114487365-a4931f11964f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGNvZmZlZSUyMHJvYXN0aW5nJTIwZHJ1bSUyMGJlYW5zfGVufDF8MHx8fDE3OTU1MjM0MDd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -238,7 +238,7 @@
           "category": "мытая · 1900 м",
           "year": "малый лот",
           "text": "бергамот, персик, чай с мёдом",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1631235816547-036c3690f687?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fHJvYXN0ZWQlMjBjb2ZmZWUlMjBiZWFucyUyMGNsb3NlJTIwdXB8ZW58MXwyfHx8MTc5NTUyMzQxMnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ],
@@ -413,5 +413,47 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Battlecreek Coffee Roasters",
+      "url": "https://unsplash.com/@battlecreekcoffeeroasters?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nick Harsell",
+      "url": "https://unsplash.com/@nickharsell?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Hannah Busing",
+      "url": "https://unsplash.com/@hannahbusing?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Volodymyr Proskurovskyi",
+      "url": "https://unsplash.com/@proskurovskiy?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Thomas Griggs",
+      "url": "https://unsplash.com/@viajeenparacaidas?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photo 11",
+      "url": "https://unsplash.com/@photo_11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Gregory Hayes",
+      "url": "https://unsplash.com/@gregoryallen?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Irish83",
+      "url": "https://unsplash.com/@irish83?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Will Dutton",
+      "url": "https://unsplash.com/@williamwesleydutton?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Megan Lee",
+      "url": "https://unsplash.com/@meganlee007?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

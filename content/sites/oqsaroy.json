@@ -97,7 +97,7 @@
         "label": "Смотреть залы",
         "href": "#halls"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1779308936221-89739e035a53?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8d2VkZGluZyUyMGhhbGwlMjBjaGFuZGVsaWVyfGVufDF8MHx8fDE3OTU1MjMzOTJ8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -123,7 +123,7 @@
       "label": "О доме",
       "title": "Мы держим всё, чтобы вы держали друг друга за руки",
       "text": "Свадьба в Узбекистане — это сотни гостей, дастархан и десятки решений за один вечер. С 2018 года мы провели больше тысячи торжеств и знаем, где обычно рвётся тайминг. Поэтому у каждой пары есть один координатор: он встречается с вами заранее, сводит ведущего, музыкантов, фотографа и кухню в один план и стоит у сцены весь вечер. Кухня своя, не привозная: плов, самса и торты готовятся здесь же, поэтому горячее приходит горячим.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1518384411282-d81d1af76508?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHdlZGRpbmclMjBoYW5kcyUyMHJpbmdzJTIwYm91cXVldHxlbnwxfDB8fHwxNzk1NTIzMzk3fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "halls",
@@ -224,27 +224,27 @@
       "items": [
         {
           "caption": "Фатиха в саду",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1765947384834-3bdcffcaffff?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHdlZGRpbmclMjBoYWxsJTIwY2hhbmRlbGllcnxlbnwxfDB8fHwxNzk1NTIzMzkyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Зал «Нур» до гостей",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1791791759125-921a90203790?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d2VkZGluZyUyMGhhbGwlMjBjaGFuZGVsaWVyfGVufDF8MHx8fDE3OTU1MjMzOTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Комната невесты",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1788684762236-836e37e75142?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHdlZGRpbmclMjB0YWJsZSUyMGRlY29yJTIwZmxvd2Vyc3xlbnwxfDJ8fHwxNzk1NTIzMzk5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Свадебный торт",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1672081880854-ea09c1e9ac44?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d2VkZGluZyUyMGNha2UlMjB3aGl0ZXxlbnwxfDJ8fHwxNzk1NTIzNDAzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Плов на подносах",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1715854501867-5533189a5e71?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8cGxvdiUyMHJpY2UlMjBkaXNofGVufDF8Mnx8fDE3OTU1MjM0MDR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Последний танец",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1519657502999-ab785d28a1f6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8d2VkZGluZyUyMGhhbmRzJTIwcmluZ3MlMjBib3VxdWV0fGVufDF8MHx8fDE3OTU1MjMzOTd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -363,5 +363,39 @@
     "features": [],
     "forSale": true
   },
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Simply thrilled",
+      "url": "https://unsplash.com/@simplythrilled_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Irina Iriser",
+      "url": "https://unsplash.com/@iriser?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Samuel Lopez Cruz",
+      "url": "https://unsplash.com/@fotogugu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lalit Jakhar",
+      "url": "https://unsplash.com/@lalitjakhar?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zhaoli JIN",
+      "url": "https://unsplash.com/@godling?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Gary Scott",
+      "url": "https://unsplash.com/@wanderingwithgarycpt?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Markus Winkler",
+      "url": "https://unsplash.com/@markuswinkler?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photos by Lanty",
+      "url": "https://unsplash.com/@photos_by_lanty?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
