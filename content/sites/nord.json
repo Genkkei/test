@@ -97,7 +97,7 @@
         "label": "Смотреть работы",
         "href": "#works"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1705674337411-3b89e5afcc11?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c2lsayUyMGZhYnJpYyUyMGZsb3dpbmclMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTE5MzI5fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -123,7 +123,7 @@
       "label": "Студия",
       "title": "Мы соединяем стратегию, ремесло и технологии, чтобы бренд работал на бизнес — и чтобы его запоминали с первого касания.",
       "text": "Двенадцать человек: стратеги, дизайнеры, моушн-художники и разработчики. Работаем небольшими командами на проект, без менеджеров-посредников — вы общаетесь с теми, кто делает. За шесть лет — больше 80 брендов в ритейле, девелопменте, HoReCa и технологиях.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1759563874672-e7dfb1ca3f73?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8YnJhbmQlMjBpZGVudGl0eSUyMGRlc2lnbiUyMG1vY2t1cHxlbnwxfDB8fHwxNzk1NTE5MzMyfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "works",
@@ -138,7 +138,7 @@
           "category": "Айдентика, сайт",
           "year": "2026",
           "text": "Ребрендинг ресторанной группы: система знаков, меню, сайт с бронированием.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1778567148288-233997494476?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8YnJhbmQlMjBpZGVudGl0eSUyMGRlc2lnbiUyMG1vY2t1cHxlbnwxfDB8fHwxNzk1NTE5MzMyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -146,7 +146,7 @@
           "category": "Digital-продукт",
           "year": "2025",
           "text": "Интерфейс мобильного банка и дизайн-система на 400 компонентов.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1646060542275-de43f818878f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHNpbGslMjBmYWJyaWMlMjBmbG93aW5nJTIwbWFjcm98ZW58MXwwfHx8MTc5NTUxOTMyOXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -154,7 +154,7 @@
           "category": "Упаковка",
           "year": "2025",
           "text": "Линейка из 14 чаёв: упаковка, фотосъёмка, запуск в сетях.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1582592641306-277abdcdbb7a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8c2lsayUyMGZhYnJpYyUyMGZsb3dpbmclMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTE5MzI5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -162,7 +162,7 @@
           "category": "Сайт, 3D",
           "year": "2024",
           "text": "Сайт жилого комплекса с интерактивным выбором квартиры.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1611242133994-78696d90da8d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHNpbGslMjBmYWJyaWMlMjBmbG93aW5nJTIwbWFjcm98ZW58MXwwfHx8MTc5NTUxOTMyOXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -170,7 +170,7 @@
           "category": "Кампания",
           "year": "2024",
           "text": "Имиджевая кампания и короткометражный фильм о ремесле.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1734216736145-7cd4b41e6f77?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8c2lsayUyMGZhYnJpYyUyMGZsb3dpbmclMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTE5MzI5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -336,5 +336,35 @@
     "description": "Сайт для креативного агентства, дизайн-студии или продакшна. Тёмная витрина с живым шёлком на WebGL, проекты строками с фото за курсором, огромная антиква — подаёт студию как бренд премиум-класса.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Leo Chen",
+      "url": "https://unsplash.com/@ceviljoy?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Laura Chouette",
+      "url": "https://unsplash.com/@laurachouette?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Avtar Singh",
+      "url": "https://unsplash.com/@avtar9w?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sandra Filipe",
+      "url": "https://unsplash.com/@sandra_filipe?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nadir sYzYgY",
+      "url": "https://unsplash.com/@nadir_syzygy?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "engin akyurt",
+      "url": "https://unsplash.com/@enginakyurt?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Pawel Czerwinski",
+      "url": "https://unsplash.com/@pawel_czerwinski?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
