@@ -102,7 +102,7 @@
         "label": "Калькулятор",
         "href": "#calc"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1609627016501-b862497c7294?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBzdHJ1Y3R1cmUlMjBiZWFtcyUyMG1hY3JvfGVufDF8MHx8fDE3OTU0OTg2NDV8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "пролёт до 36 м",
         "снег 80 кг/м²",
@@ -242,7 +242,7 @@
           "category": "Навес",
           "year": "2025",
           "text": "1 800 м², 120 машиномест, профнастил.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1788145748951-f0b6ed6a0101?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBjYW5vcHklMjBwYXJraW5nfGVufDF8MHx8fDE3OTU0OTg2NDh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -250,7 +250,7 @@
           "category": "Ангар",
           "year": "2025",
           "text": "Пролёт 24 м, ворота 6×5 м.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1652204775379-2b4ace437a2d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBoYW5nYXIlMjBjb25zdHJ1Y3Rpb258ZW58MXwwfHx8MTc5NTQ5ODY1Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -258,7 +258,7 @@
           "category": "Терраса",
           "year": "2024",
           "text": "Стекло и ламели, 140 м².",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1783442619190-c3165983db3d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMHRlcnJhY2UlMjBjYW5vcHl8ZW58MXwwfHx8MTc5NTQ5ODY1Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -266,7 +266,7 @@
           "category": "Склад",
           "year": "2024",
           "text": "2 400 м², сэндвич 150 мм, кран-балка 5 т.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1597246990850-622d277e4f02?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29sZCUyMHN0b3JhZ2UlMjB3YXJlaG91c2V8ZW58MXwwfHx8MTc5NTQ5ODY1NHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -398,6 +398,28 @@
         "label": "Вызвать инженера",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Luca Upper",
+      "url": "https://unsplash.com/@lucaupper?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Vincent Yap",
+      "url": "https://unsplash.com/@chonky_films?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Vladislav Glukhotko",
+      "url": "https://unsplash.com/@azzurobudgie?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Wojciech Wyszkowski",
+      "url": "https://unsplash.com/@fotodruk?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tibor Krizsak",
+      "url": "https://unsplash.com/@tiibo800?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
