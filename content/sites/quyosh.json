@@ -103,7 +103,7 @@
         "label": "Как мы работаем",
         "href": "#process"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1662340711617-d2de3572eb3e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHNvbGFyJTIwcGFuZWwlMjBtYWNybyUyMHN1bmxpZ2h0fGVufDF8MHx8fDE3OTU1Mjc2MDd8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -129,7 +129,7 @@
       "label": "О компании",
       "title": "Инженеры, а не продавцы панелей",
       "text": "Каждую станцию начинаем с выезда: смотрим крышу, тень от деревьев, счётчик и щиток. Считаем мощность по вашему реальному потреблению, а не «по максимуму». Монтажная бригада — наши сотрудники; после запуска станция видна в приложении, а сервис приезжает раз в год.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1655300256335-beef51a914fe?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8c29sYXIlMjBwYW5lbHMlMjByb29mJTIwaW5zdGFsbGF0aW9ufGVufDF8MHx8fDE3OTU1Mjc2MTB8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -292,19 +292,19 @@
       "items": [
         {
           "caption": "Дом в Юнусабаде · 8 кВт",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1655300256486-4ec7251bf84e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8c29sYXIlMjBwYW5lbHMlMjByb29mJTIwaW5zdGFsbGF0aW9ufGVufDF8MHx8fDE3OTU1Mjc2MTB8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Склад в Сергели · 60 кВт",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1544245607-99ac92ec1da5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHNvbGFyJTIwcGFuZWxzJTIwcm9vZiUyMGluc3RhbGxhdGlvbnxlbnwxfDB8fHwxNzk1NTI3NjEwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ферма в Паркенте · 20 кВт",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1719848575774-897ac64a13fd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHNvbGFyJTIwcGFuZWwlMjBtYWNybyUyMHN1bmxpZ2h0fGVufDF8MHx8fDE3OTU1Mjc2MDd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Магазин на Чиланзаре · 15 кВт",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1711214622639-42bb82a167e8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHNvbGFyJTIwcGFuZWxzJTIwcm9vZiUyMGluc3RhbGxhdGlvbnxlbnwxfDB8fHwxNzk1NTI3NjEwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -375,6 +375,28 @@
         "label": "Написать в Telegram",
         "href": "https://t.me/yourcompany"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Newpowa",
+      "url": "https://unsplash.com/@newpowa?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Watt A Lot",
+      "url": "https://unsplash.com/@wattalot?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Angie Warren",
+      "url": "https://unsplash.com/@angtheartist?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Siwawut Phoophinyo",
+      "url": "https://unsplash.com/@phoophinyo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michael Roberts",
+      "url": "https://unsplash.com/@mvroberts?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
