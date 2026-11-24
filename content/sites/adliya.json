@@ -17,7 +17,8 @@
     "line": "#d7d5cd",
     "display": "Playfair Display",
     "body": "Golos Text",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "LegalService",
@@ -379,5 +380,24 @@
       "by": "Corinne Kutz",
       "url": "https://unsplash.com/@corinnekutz?utm_source=atlas&utm_medium=referral"
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Разворот дела: слева текст на линованной бумаге, справа фото библиотеки и досье фирмы на стекле; практики — оглавление кодекса, дела — папка со снимком",
+    "display": "Playfair Display",
+    "text": "Golos Text",
+    "label": "Golos Text",
+    "skeleton": "split-library-dossier",
+    "signature": "code-index-expand",
+    "sequence": [
+      "curtain-photo",
+      "index",
+      "title-lines",
+      "voice-slot",
+      "text",
+      "ctas",
+      "dossier"
+    ],
+    "ease": "0.65,0,0.35,1",
+    "surface": "dossier-tab"
+  }
 }
