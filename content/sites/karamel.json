@@ -135,7 +135,7 @@
           "text": "Сливочный сыр, песочная основа. 1 кг.",
           "price": 281000,
           "oldPrice": 0,
-          "image": "/media/karamel-cf1a57f5c42f6d983225.webp",
+          "image": "https://images.unsplash.com/photo-1773632996592-e150b9ed5059?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bmV3JTIweW9yayUyMGNoZWVzZWNha2V8ZW58MXwyfHx8MTc5NTU1NzI1Nnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "",
           "unit": "шт"
@@ -145,7 +145,7 @@
           "text": "С крем-чизом. 1,5 кг.",
           "price": 330000,
           "oldPrice": 0,
-          "image": "/media/karamel-5950f87539e4a79099a8.webp",
+          "image": "https://images.unsplash.com/photo-1635117492718-695a17a5977a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8cmVkJTIwdmVsdmV0JTIwY2FrZXxlbnwxfDJ8fHwxNzk1NTU3MjU5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "Новинка",
           "unit": "шт"
@@ -155,7 +155,7 @@
           "text": "Фисташка, малина, солёная карамель, лимон.",
           "price": 175000,
           "oldPrice": 0,
-          "image": "/media/karamel-1aa9296bd69a0c57857c.webp",
+          "image": "https://images.unsplash.com/photo-1702034519527-b0975c467001?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWFjYXJvbnN8ZW58MXwyfHx8MTc5NTU1NzI2M3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Наборы",
           "badge": "Хит",
           "unit": "12 шт"
@@ -165,7 +165,7 @@
           "text": "Ваниль, шоколад, кофе.",
           "price": 116000,
           "oldPrice": 0,
-          "image": "/media/karamel-28a24454c2eb396502d9.webp",
+          "image": "https://images.unsplash.com/photo-1790123787069-f92504f555ff?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fHBhc3RyeSUyMGRpc3BsYXklMjBtb3JuaW5nfGVufDF8Mnx8fDE3OTU1NTcyNjd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "набор"
@@ -175,7 +175,7 @@
           "text": "Французское масло, миндальный крем.",
           "price": 31000,
           "oldPrice": 0,
-          "image": "/media/karamel-35f31ddf87625c33cb7f.webp",
+          "image": "https://images.unsplash.com/photo-1545823529-8cfa0a46a978?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8cGFzdHJ5JTIwZGlzcGxheSUyMG1vcm5pbmd8ZW58MXwyfHx8MTc5NTU1NzI2N3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -185,7 +185,7 @@
           "text": "Песочное тесто, крем, свежие ягоды.",
           "price": 44000,
           "oldPrice": 0,
-          "image": "/media/karamel-b041a548fbc02478b36b.webp",
+          "image": "https://images.unsplash.com/photo-1628838617281-065549dd37fe?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fG5ldyUyMHlvcmslMjBjaGVlc2VjYWtlfGVufDF8Mnx8fDE3OTU1NTcyNTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -195,7 +195,7 @@
           "text": "Маленький торт на двоих с вашей надписью.",
           "price": 146000,
           "oldPrice": 0,
-          "image": "/media/karamel-9b29d865d945f58dfaa2.webp",
+          "image": "https://images.unsplash.com/photo-1710417529913-9a065c298971?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHJlZCUyMHZlbHZldCUyMGNha2V8ZW58MXwyfHx8MTc5NTU1NzI1OXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Торты",
           "badge": "Хит",
           "unit": "шт"
@@ -205,7 +205,7 @@
           "text": "Как в детстве, с какао и ромом.",
           "price": 21000,
           "oldPrice": 0,
-          "image": "/media/karamel-569ccb259acfb9946456.webp",
+          "image": "https://images.unsplash.com/photo-1676080811961-4e90b60c7b68?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bWFjYXJvbnN8ZW58MXwyfHx8MTc5NTU1NzI2M3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Пирожные",
           "badge": "",
           "unit": "шт"
@@ -342,15 +342,15 @@
       "items": [
         {
           "caption": "Утренняя витрина",
-          "image": "/media/karamel-a23c7523b93f1dd78b72.webp"
+          "image": "https://images.unsplash.com/photo-1546237769-6f84ec1a512a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHBhc3RyeSUyMGRpc3BsYXklMjBtb3JuaW5nfGVufDF8Mnx8fDE3OTU1NTcyNjd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Медовик в разрезе",
-          "image": "/media/karamel-a3ffbcb5c36958ad3a0e.webp"
+          "image": "https://images.unsplash.com/photo-1654546518361-eef83e447521?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGhvbmV5JTIwY2FrZSUyMGxheWVyc3xlbnwxfDJ8fHwxNzk1NTU3MjcwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Торт на годовщину",
-          "image": "/media/karamel-b8e2d1db2a36a0b4ab16.webp"
+          "image": "https://images.unsplash.com/photo-1654797827228-764efe5a514c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGhvbmV5JTIwY2FrZSUyMGxheWVyc3xlbnwxfDJ8fHwxNzk1NTU3MjcwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -430,5 +430,51 @@
     ],
     "ease": "0.6,0,0.3,1",
     "surface": "price-flag"
-  }
+  },
+  "credits": [
+    {
+      "by": "Cheng Qi Huang",
+      "url": "https://unsplash.com/@candy_keeper?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Adrian Greaves",
+      "url": "https://unsplash.com/@silversurfer79?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rafik Wahba",
+      "url": "https://unsplash.com/@rafikwahba?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kris Tian",
+      "url": "https://unsplash.com/@kris_tian?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Claudio",
+      "url": "https://unsplash.com/@goeticmaster?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Fernando Andrade",
+      "url": "https://unsplash.com/@thisisnando?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "LUIZ CARLOS SANTI",
+      "url": "https://unsplash.com/@lcsanti?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Israel Caballero",
+      "url": "https://unsplash.com/@isracab?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Siebe Warmoeskerken",
+      "url": "https://unsplash.com/@devetpan?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Giorgio Trovato",
+      "url": "https://unsplash.com/@giorgiotrovato?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Liberal Visuals",
+      "url": "https://unsplash.com/@liberalvisuals?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

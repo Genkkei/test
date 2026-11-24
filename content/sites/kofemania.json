@@ -94,7 +94,7 @@
         "label": "Заказать домой",
         "href": "#order"
       },
-      "image": "/media/kofemania-a18d8d6e3325f2e86e64.webp",
+      "image": "https://images.unsplash.com/photo-1701694472041-fc7faca1bdb6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8YmVsZ2lhbiUyMHdhZmZsZXMlMjBzdHJhd2JlcnJpZXN8ZW58MXwwfHx8MTc5NTU1NzMyMHww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": "",
@@ -130,7 +130,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 210000,
           "oldPrice": 0,
-          "image": "/media/kofemania-891a729e09897aecccd5.webp",
+          "image": "https://images.unsplash.com/photo-1637029967725-b64c1a7449ff?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvZmZlZSUyMGdyaW5kZXJ8ZW58MXwyfHx8MTc5NTU1NzIxNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -140,7 +140,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 690000,
           "oldPrice": 0,
-          "image": "/media/kofemania-c99782447bff98d51f1e.webp",
+          "image": "https://images.unsplash.com/photo-1637030157778-794c92f75e97?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGNvZmZlZSUyMGdyaW5kZXJ8ZW58MXwyfHx8MTc5NTU1NzIxNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -150,7 +150,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 185000,
           "oldPrice": 0,
-          "image": "/media/kofemania-ad944bd250d71d8e9303.webp",
+          "image": "https://images.unsplash.com/photo-1789572555766-3d3a3cf9b00b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8cmV1c2FibGUlMjBjb2ZmZWUlMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -160,7 +160,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 260000,
           "oldPrice": 0,
-          "image": "/media/kofemania-8ca8a1ead3ca4f1353a7.webp",
+          "image": "https://images.unsplash.com/photo-1710542987734-ecb9ecfc6efa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvZmZlZSUyMGdpZnQlMjBib3h8ZW58MXwyfHx8MTc5NTU1NzIyOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -170,7 +170,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 189000,
           "oldPrice": 0,
-          "image": "/media/kofemania-72bee1a2167d801d61ba.webp",
+          "image": "https://images.unsplash.com/photo-1649777536625-8fe182eb37cb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fHNpbmdsZSUyMG9yaWdpbiUyMGNvZmZlZSUyMGJlYW5zfGVufDF8Mnx8fDE3OTU1NTcyMzR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -180,7 +180,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 165000,
           "oldPrice": 0,
-          "image": "/media/kofemania-f58130d85a6712fa3017.webp",
+          "image": "https://images.unsplash.com/photo-1617535884378-e19650e7a8b8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjJ8fHNpbmdsZSUyMG9yaWdpbiUyMGNvZmZlZSUyMGJlYW5zfGVufDF8Mnx8fDE3OTU1NTcyMzR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -190,7 +190,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 139000,
           "oldPrice": 0,
-          "image": "/media/kofemania-64475691585a46a5c906.webp",
+          "image": "https://images.unsplash.com/photo-1581850243376-9796dee7590d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjR8fHNpbmdsZSUyMG9yaWdpbiUyMGNvZmZlZSUyMGJlYW5zfGVufDF8Mnx8fDE3OTU1NTcyMzR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -200,7 +200,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 420000,
           "oldPrice": 0,
-          "image": "/media/kofemania-7902329fa7f23ec28551.webp",
+          "image": "https://images.unsplash.com/photo-1546638433-6cedb4bba303?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjZ8fHNpbmdsZSUyMG9yaWdpbiUyMGNvZmZlZSUyMGJlYW5zfGVufDF8Mnx8fDE3OTU1NTcyMzR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -221,25 +221,25 @@
               "name": "Классика с клубникой",
               "text": "Клубника, взбитые сливки, сахарная пудра",
               "price": "38 000 сум",
-              "image": "/media/kofemania-d6d4da3268793d0a7352.webp"
+              "image": "https://images.unsplash.com/photo-1653838049829-be00b1f4d59d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8YmVsZ2lhbiUyMHdhZmZsZXMlMjBzdHJhd2JlcnJpZXN8ZW58MXwwfHx8MTc5NTU1NzMyMHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Нутелла и банан",
               "text": "Самая популярная у детей",
               "price": "36 000 сум",
-              "image": "/media/kofemania-3381c64fd7e65590f1c7.webp"
+              "image": "https://images.unsplash.com/photo-1706166654770-56756519360b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGJlbGdpYW4lMjB3YWZmbGVzJTIwc3RyYXdiZXJyaWVzfGVufDF8MHx8fDE3OTU1NTczMjB8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Сырная с ветчиной",
               "text": "Несладкая, на завтрак",
               "price": "34 000 сум",
-              "image": "/media/kofemania-56738410d1b97fc6b1d5.webp"
+              "image": "https://images.unsplash.com/photo-1481931715705-36f5f79f1f3d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8d2FmZmxlJTIwZGVzc2VydCUyMHBsYXRlfGVufDF8Mnx8fDE3OTU1NTczMjN8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Мини-вафли",
               "text": "Пять штук с мёдом, порция для малышей",
               "price": "22 000 сум",
-              "image": "/media/kofemania-abbeaed4b548ef40bcec.webp"
+              "image": "https://images.unsplash.com/photo-1766233420709-73e6362bf418?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8d2FmZmxlJTIwZGVzc2VydCUyMHBsYXRlfGVufDF8Mnx8fDE3OTU1NTczMjN8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             }
           ]
         },
@@ -250,19 +250,19 @@
               "name": "Какао с маршмеллоу",
               "text": "Тёплое, не горячее",
               "price": "24 000 сум",
-              "image": "/media/kofemania-f2d6dfcf2f09cf213be6.webp"
+              "image": "https://images.unsplash.com/photo-1766240124647-6b85bdd8206c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aG90JTIwY29jb2ElMjBtYXJzaG1hbGxvd3xlbnwxfDJ8fHwxNzk1NTU3MzI1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Молочный коктейль",
               "text": "Ваниль, клубника или шоколад",
               "price": "27 000 сум",
-              "image": "/media/kofemania-9585a49d2fd285aacdfd.webp"
+              "image": "https://images.unsplash.com/photo-1766184860417-28d03098d963?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8aG90JTIwY29jb2ElMjBtYXJzaG1hbGxvd3xlbnwxfDJ8fHwxNzk1NTU3MzI1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Свежевыжатый сок",
               "text": "Яблоко или апельсин",
               "price": "22 000 сум",
-              "image": "/media/kofemania-4ad8add439f9d5f0d711.webp"
+              "image": "https://images.unsplash.com/photo-1766239303171-bb203eed3fe5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGhvdCUyMGNvY29hJTIwbWFyc2htYWxsb3d8ZW58MXwyfHx8MTc5NTU1NzMyNXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             }
           ]
         },
@@ -273,19 +273,19 @@
               "name": "Капучино",
               "text": "300 мл",
               "price": "25 000 сум",
-              "image": "/media/kofemania-f3bc15f978dbb6457965.webp"
+              "image": "https://images.unsplash.com/photo-1692456515654-a50b0c199d96?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8Y29mZmVlJTIwY2Fwc3VsZXN8ZW58MXwyfHx8MTc5NTU1NzIwN3ww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Латте с халвой",
               "text": "Наш фирменный",
               "price": "31 000 сум",
-              "image": "/media/kofemania-36486d3030f697d7d856.webp"
+              "image": "https://images.unsplash.com/photo-1611410255266-a1eaa3768021?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGNvZmZlZSUyMGNhcHN1bGVzfGVufDF8Mnx8fDE3OTU1NTcyMDd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             },
             {
               "name": "Американо",
               "text": "Можно с собой",
               "price": "19 000 сум",
-              "image": "/media/kofemania-cf3efeffacfe6bd652e2.webp"
+              "image": "https://images.unsplash.com/photo-1579493593557-e5afa4d230db?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGNvZmZlZSUyMGNhcHN1bGVzfGVufDF8Mnx8fDE3OTU1NTcyMDd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop"
             }
           ]
         }
@@ -299,7 +299,7 @@
       "label": "О нас",
       "title": "Кафе, куда можно с коляской",
       "text": "«Ваша компания» придумали двое родителей, которым надоело выбирать между хорошим кофе и местом, где ребёнку не скучно. У нас широкий вход без ступенек, пеленальный столик, детские стулья и уголок с конструктором и раскрасками. Тесто для вафель замешиваем каждое утро.",
-      "image": "/media/kofemania-ec54eda94232c5147505.webp",
+      "image": "https://images.unsplash.com/photo-1760326652193-bc25f0fe4a8e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8ZmFtaWx5JTIwY2FmZSUyMGJyaWdodCUyMGludGVyaW9yfGVufDF8MHx8fDE3OTU1NTczMjh8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -440,5 +440,71 @@
     ],
     "ease": "0.22,1,0.36,1",
     "surface": "waffle-pocket"
-  }
+  },
+  "credits": [
+    {
+      "by": "Christine Tan",
+      "url": "https://unsplash.com/@gurble?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Declan Cronin",
+      "url": "https://unsplash.com/@dipaccicoffeeco?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jesse Kojo Kuntoh",
+      "url": "https://unsplash.com/@jesse_k?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Richard Robertson",
+      "url": "https://unsplash.com/@towncoffee?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nancy Hughes",
+      "url": "https://unsplash.com/@mostlymarvelling?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Daniel Jericó",
+      "url": "https://unsplash.com/@jrcdaniel?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Priyanuch Konkaew",
+      "url": "https://unsplash.com/@ipriyanuch?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ben Moreland",
+      "url": "https://unsplash.com/@relentlessjpg?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Oksana Zub",
+      "url": "https://unsplash.com/@oxanamiles?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chiko Restaurant",
+      "url": "https://unsplash.com/@chikorestaurant?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Brooke Lark",
+      "url": "https://unsplash.com/@brookelark?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Stacy",
+      "url": "https://unsplash.com/@stacysuxx?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "joe boshra",
+      "url": "https://unsplash.com/@joestudios?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "KWON JUNHO",
+      "url": "https://unsplash.com/@juno1412?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Andrew M",
+      "url": "https://unsplash.com/@andymant?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Allen Y",
+      "url": "https://unsplash.com/@yanahd?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
