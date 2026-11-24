@@ -103,7 +103,7 @@
         "label": "Тарифы",
         "href": "#pricing"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1746221331496-a87689fc8eb9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y2FsY3VsYXRvciUyMGRvY3VtZW50cyUyMGRlc2slMjBtaW5pbWFsfGVufDF8MHx8fDE3OTU0OTQ1MjN8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "about",
@@ -113,7 +113,7 @@
       "label": "О нас",
       "title": "Личный бухгалтер и команда за ним",
       "text": "У каждого клиента — свой бухгалтер, который знает ваш бизнес, и главный бухгалтер, который проверяет каждую отчётность перед сдачей. Работаем в 1С и в электронном кабинете налогоплательщика, документы принимаем в Telegram и по почте.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1772588627342-5ec373e236d8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGNhbGN1bGF0b3IlMjBkb2N1bWVudHMlMjBkZXNrJTIwbWluaW1hbHxlbnwxfDB8fHwxNzk1NDk0NTIzfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -329,6 +329,16 @@
         "label": "Написать в Telegram",
         "href": "https://t.me/yourcompany"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "maks_d",
+      "url": "https://unsplash.com/@maks_d?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kelly Sikkema",
+      "url": "https://unsplash.com/@kellysikkema?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
