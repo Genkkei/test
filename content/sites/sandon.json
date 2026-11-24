@@ -103,7 +103,7 @@
         "label": "Каталог изделий",
         "href": "#catalog"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1502030818212-8601501607a6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8aG90JTIwY2hhcmNvYWwlMjBncmlsbCUyMGVtYmVycyUyMG1hY3JvfGVufDF8MHx8fDE3OTU1MzU5MDR8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "мангалы",
         "камины",
@@ -143,7 +143,7 @@
           "text": "Кочерга, совок, щётка и щипцы на стойке.",
           "price": 931000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1727413430950-ea623d4b2a42?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGJsYWNrc21pdGglMjBoYW1tZXIlMjBhbnZpbCUyMHNwYXJrc3xlbnwxfDB8fHwxNzk1NTM1OTEwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Камины и печи",
           "badge": "",
           "unit": "набор"
@@ -153,7 +153,7 @@
           "text": "Для дома и террасы.",
           "price": 722000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1597353811858-fbb7ce0a9ca6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8aG90JTIwY2hhcmNvYWwlMjBncmlsbCUyMGVtYmVycyUyMG1hY3JvfGVufDF8MHx8fDE3OTU1MzU5MDR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Камины и печи",
           "badge": "",
           "unit": "шт"
@@ -163,7 +163,7 @@
           "text": "Нержавейка, ручки, 40×30 см.",
           "price": 200000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1588182657969-777d766e31ab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8aG90JTIwY2hhcmNvYWwlMjBncmlsbCUyMGVtYmVycyUyMG1hY3JvfGVufDF8MHx8fDE3OTU1MzU5MDR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мангалы",
           "badge": "",
           "unit": "шт"
@@ -173,7 +173,7 @@
           "text": "Влагостойкая ткань.",
           "price": 247000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1593892260264-389929771951?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGhvdCUyMGNoYXJjb2FsJTIwZ3JpbGwlMjBlbWJlcnMlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTM1OTA0fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мангалы",
           "badge": "",
           "unit": "шт"
@@ -183,7 +183,7 @@
           "text": "На 10 шампуров, сталь 6 мм, крыша.",
           "price": 3705000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1536096347608-f2d054f64a17?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGhvdCUyMGNoYXJjb2FsJTIwZ3JpbGwlMjBlbWJlcnMlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTM1OTA0fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мангалы",
           "badge": "Хит",
           "unit": "шт"
@@ -193,7 +193,7 @@
           "text": "Для казана 12–22 л, дверца с колосником.",
           "price": 2280000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1629080054196-b3026ea323f2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fGhvdCUyMGNoYXJjb2FsJTIwZ3JpbGwlMjBlbWJlcnMlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTM1OTA0fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Камины и печи",
           "badge": "Хит",
           "unit": "шт"
@@ -203,7 +203,7 @@
           "text": "Мангал, печь, столешница и дровница.",
           "price": 13775000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1565812557693-208d29398fbb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGhvdCUyMGNoYXJjb2FsJTIwZ3JpbGwlMjBlbWJlcnMlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTM1OTA0fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мангалы",
           "badge": "Новинка",
           "unit": "набор"
@@ -213,7 +213,7 @@
           "text": "Нержавейка, ручка с завитком.",
           "price": 399000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1625944227313-4f7f68e6b3fa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c2hhc2hsaWslMjBza2V3ZXJzfGVufDF8Mnx8fDE3OTU1MzU5MDl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мангалы",
           "badge": "",
           "unit": "набор"
@@ -228,7 +228,7 @@
       "label": "О мастерской",
       "title": "Металл, который помнит удар молота",
       "text": "«Ваша компания» — это горн, две наковальни и четыре кузнеца во дворе на Бешёгоче. Мы не варим изделия из готовых штампованных деталей: каждый завиток, лист и пика вытягиваются из прутка вручную. Поэтому два одинаковых мангала у нас не получаются — и это главное, за чем к нам приходят. Перед работой приезжаем, меряем, рисуем эскиз в натуральную величину и согласовываем каждую деталь.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1658762944591-01e617527ffa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8YmxhY2tzbWl0aCUyMGhhbW1lciUyMGFudmlsJTIwc3BhcmtzfGVufDF8MHx8fDE3OTU1MzU5MTB8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "catalog",
@@ -320,7 +320,7 @@
           "category": "Частный дом, Юнусабад",
           "year": "2026",
           "text": "Лоза и листья на боковинах, крыша-навес и полка под казан.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1570374953872-7ede4492beb1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8aG90JTIwY2hhcmNvYWwlMjBncmlsbCUyMGVtYmVycyUyMG1hY3JvfGVufDF8MHx8fDE3OTU1MzU5MDR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -328,7 +328,7 @@
           "category": "Таунхаус, Мирзо-Улугбек",
           "year": "2026",
           "text": "18 погонных метров, поручень из ореха, ритм завитков по эскизу архитектора.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1565123852616-861a24a2ad74?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8d3JvdWdodCUyMGlyb24lMjBsYW50ZXJufGVufDF8Mnx8fDE3OTU1MzU5MTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -336,7 +336,7 @@
           "category": "Квартира, Ташкент Сити",
           "year": "2025",
           "text": "Хвост из 42 кованых перьев, патина под бронзу.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1558271343-850e591f02ae?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHdyb3VnaHQlMjBpcm9uJTIwbGFudGVybnxlbnwxfDJ8fHwxNzk1NTM1OTEzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -344,7 +344,7 @@
           "category": "Ресторан, Чиланзар",
           "year": "2025",
           "text": "Двенадцать фонарей с узором ислими и тёплым светом.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1668621111221-8b3f50a21fa4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fHdyb3VnaHQlMjBpcm9uJTIwbGFudGVybnxlbnwxfDJ8fHwxNzk1NTM1OTEzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -446,6 +446,64 @@
         "label": "Вызвать замерщика",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Andrey Andreyev",
+      "url": "https://unsplash.com/@ludenus?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tahamie Farooqui",
+      "url": "https://unsplash.com/@tami171091?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Julia Zyablova",
+      "url": "https://unsplash.com/@foyu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "iulian aghei",
+      "url": "https://unsplash.com/@yula33?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "streetsh",
+      "url": "https://unsplash.com/@streetsh?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Pawel Czerwinski",
+      "url": "https://unsplash.com/@pawel_czerwinski?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nikhil Anand",
+      "url": "https://unsplash.com/@nikhilanand157?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Faizan Nadeem",
+      "url": "https://unsplash.com/@faizannadeemm?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Farhad Ibrahimzade",
+      "url": "https://unsplash.com/@ferhadd?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rob Laughter",
+      "url": "https://unsplash.com/@roblaughter?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Liam Briese",
+      "url": "https://unsplash.com/@liam_1?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nelly Barquin",
+      "url": "https://unsplash.com/@mariaunchained?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Moses Geddes",
+      "url": "https://unsplash.com/@dmgtoronto?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chaitanya Maheshwari",
+      "url": "https://unsplash.com/@captain_slow07?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
