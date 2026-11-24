@@ -106,7 +106,7 @@
         "label": "Каталог",
         "href": "#catalog"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1522092663698-61ab4b1aa6a7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8d29vZCUyMGdyYWluJTIwbWFjcm8lMjB0ZXh0dXJlfGVufDF8MHx8fDE3OTU0ODE5Njl8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -137,7 +137,7 @@
           "text": "Штанга и три полки, 100 см, масло-воск.",
           "price": 3627000,
           "oldPrice": 0,
-          "image": "/media/daraxt-ac9057da958caa1d8481.webp",
+          "image": "https://images.unsplash.com/photo-1696774276977-131fc18de2a0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8d29vZGVuJTIwc2hlbGYlMjBjYWJpbmV0fGVufDF8Mnx8fDE3OTU0ODE5Nzd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -147,7 +147,7 @@
           "text": "Три доски с живым краем, масло-воск.",
           "price": 5022000,
           "oldPrice": 0,
-          "image": "/media/daraxt-b6d04ec2c9514806bb10.webp",
+          "image": "https://images.unsplash.com/photo-1605635544350-5796fb1622d1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aGFuZG1hZGUlMjB3b29kZW4lMjB0YWJsZSUyMGludGVyaW9yfGVufDF8MHx8fDE3OTU0ODE5ODR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "Хит",
           "unit": "шт"
@@ -157,7 +157,7 @@
           "text": "Орех, сиденье из цельной доски.",
           "price": 642000,
           "oldPrice": 0,
-          "image": "/media/daraxt-65bedc42be3d12ab18c7.webp",
+          "image": "https://images.unsplash.com/photo-1652346080508-e2a6b7298450?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHNvbGlkJTIwd29vZCUyMGZ1cm5pdHVyZSUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ4MTk3Mnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кресла и стулья",
           "badge": "",
           "unit": "шт"
@@ -167,7 +167,7 @@
           "text": "Орех, 80 см, без шпона.",
           "price": 1767000,
           "oldPrice": 0,
-          "image": "/media/daraxt-fdf7032fcc55fe3a193c.webp",
+          "image": "https://images.unsplash.com/photo-1605239435870-67df4c54a0b3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8aGFuZG1hZGUlMjB3b29kZW4lMjB0YWJsZSUyMGludGVyaW9yfGVufDF8MHx8fDE3OTU0ODE5ODR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -177,7 +177,7 @@
           "text": "Карагач, ящики на шипах «ласточкин хвост».",
           "price": 2511000,
           "oldPrice": 0,
-          "image": "/media/daraxt-a6d025879d42c87cdf18.webp",
+          "image": "https://images.unsplash.com/photo-1564431320783-712075e54134?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8c29saWQlMjB3b29kJTIwZnVybml0dXJlJTIwbWluaW1hbHxlbnwxfDJ8fHwxNzk1NDgxOTcyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -187,7 +187,7 @@
           "text": "Пять полок из сосны, без задней стенки.",
           "price": 1488000,
           "oldPrice": 0,
-          "image": "/media/daraxt-998f0c7131e38d15d919.webp",
+          "image": "https://images.unsplash.com/photo-1650238706244-757232353fd4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8d29vZGVuJTIwc2hlbGYlMjBjYWJpbmV0fGVufDF8Mnx8fDE3OTU0ODE5Nzd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
@@ -197,7 +197,7 @@
           "text": "Сосна, ламели из бука.",
           "price": 4464000,
           "oldPrice": 0,
-          "image": "/media/daraxt-cb56ed575aa9f7b9e3f4.webp",
+          "image": "https://images.unsplash.com/photo-1760067537346-520d3ecf9c29?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8d29vZGVuJTIwYmVkJTIwYmVkcm9vbSUyMG5hdHVyYWx8ZW58MXwyfHx8MTc5NTQ4MTk3NXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
@@ -207,7 +207,7 @@
           "text": "Карагач, ящик и ниша.",
           "price": 735000,
           "oldPrice": 0,
-          "image": "/media/daraxt-ce7d3534ee0969696a8e.webp",
+          "image": "https://images.unsplash.com/photo-1673981212210-70fc50316bfc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHdvb2QlMjBqb2ludCUyMG1vcnRpc2UlMjB0ZW5vbnxlbnwxfDB8fHwxNzk1NDgxOTkxfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -222,7 +222,7 @@
       "label": "Мастерская",
       "title": "Дерево, которое прожило свою жизнь",
       "text": "Карагач и орех берём из плановых рубок садов Ташкентской области, сушим полгода под навесом и только потом пускаем в работу. Соединяем на шипах, а не на шурупах, отделываем льняным маслом и пчелиным воском — царапину можно зашлифовать дома за пять минут.",
-      "image": "/media/daraxt-9433f2e2ac2b7d032125.webp"
+      "image": "https://images.unsplash.com/photo-1702195789139-4897ff9b0083?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fG9sZCUyMHRpbWJlciUyMHBsYW5rc3xlbnwxfDB8fHwxNzk1NDgxOTgxfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "catalog",
@@ -237,7 +237,7 @@
           "category": "Сосна · 160×200",
           "year": "от 4 200 000 сум",
           "text": "Высокое изголовье, ламели из бука.",
-          "image": "/media/daraxt-db96fc5549921ffd04f1.webp",
+          "image": "https://images.unsplash.com/photo-1760067537376-265afef0f362?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8d29vZGVuJTIwYmVkJTIwYmVkcm9vbSUyMG5hdHVyYWx8ZW58MXwyfHx8MTc5NTQ4MTk3NXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -245,7 +245,7 @@
           "category": "Карагач · 180×90",
           "year": "от 5 600 000 сум",
           "text": "Столешница из трёх досок с живым краем.",
-          "image": "/media/daraxt-a5041f214262cfec338c.webp",
+          "image": "https://images.unsplash.com/photo-1633435597188-27c1e70f329d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8aGFuZG1hZGUlMjB3b29kZW4lMjB0YWJsZSUyMGludGVyaW9yfGVufDF8MHx8fDE3OTU0ODE5ODR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -253,7 +253,7 @@
           "category": "Орех · 5 полок",
           "year": "от 3 300 000 сум",
           "text": "Без задней стенки — дерево дышит.",
-          "image": "/media/daraxt-b1f013e7b15ee5c903b7.webp",
+          "image": "https://images.unsplash.com/photo-1559583933-574dd93954c7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8d29vZGVuJTIwc2hlbGYlMjBjYWJpbmV0fGVufDF8Mnx8fDE3OTU0ODE5Nzd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -261,7 +261,7 @@
           "category": "Карагач · 120 см",
           "year": "от 1 900 000 сум",
           "text": "С полкой для обуви.",
-          "image": "/media/daraxt-957be67adae573b14ca7.webp",
+          "image": "https://images.unsplash.com/photo-1584254019502-76623fc564cc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8c29saWQlMjB3b29kJTIwZnVybml0dXJlJTIwbWluaW1hbHxlbnwxfDJ8fHwxNzk1NDgxOTcyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -352,19 +352,19 @@
       "items": [
         {
           "caption": "Сушка досок",
-          "image": "/media/daraxt-207c8235009ba3c659ac.webp"
+          "image": "https://images.unsplash.com/photo-1634672652995-ee7525bce595?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bHVtYmVyJTIwc3RhY2slMjBkcnlpbmd8ZW58MXwwfHx8MTc5NTQ4MTk4N3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Соединение на шипах",
-          "image": "/media/daraxt-83db6daa3c15a177e718.webp"
+          "image": "https://images.unsplash.com/photo-1711675253036-475a06cdd9aa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8d29vZCUyMGpvaW50JTIwbW9ydGlzZSUyMHRlbm9ufGVufDF8MHx8fDE3OTU0ODE5OTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Масло и воск",
-          "image": "/media/daraxt-9d5359ed64f4f92e5942.webp"
+          "image": "https://images.unsplash.com/photo-1635094420131-0337a3e732fc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHdvb2QlMjBvaWwlMjBmaW5pc2glMjBicnVzaHxlbnwxfDB8fHwxNzk1NDgxOTk0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Готовая спальня",
-          "image": "/media/daraxt-0ca8e3c8d33a9271bae5.webp"
+          "image": "https://images.unsplash.com/photo-1787145879056-d02365c5b911?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHNvbGlkJTIwd29vZCUyMGZ1cm5pdHVyZSUyMG1pbmltYWx8ZW58MXwyfHx8MTc5NTQ4MTk3Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -424,5 +424,75 @@
     ],
     "ease": "0.65,0,0.35,1",
     "surface": "hang-tag"
-  }
+  },
+  "credits": [
+    {
+      "by": "Artur Łuczka",
+      "url": "https://unsplash.com/@artur_luczka?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lucas de Moura",
+      "url": "https://unsplash.com/@root_br?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chastity Cortijo",
+      "url": "https://unsplash.com/@chastityco?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Priit Kangur",
+      "url": "https://unsplash.com/@priit_k?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mark Farías",
+      "url": "https://unsplash.com/@markfarias?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ruslan Zaplatin 🖤",
+      "url": "https://unsplash.com/@zri?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mk. s",
+      "url": "https://unsplash.com/@mk__s?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Alef Morais",
+      "url": "https://unsplash.com/@alef_visuals?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "amichai patchick",
+      "url": "https://unsplash.com/@amichai7?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Anna Evans",
+      "url": "https://unsplash.com/@anevans?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Veronika FitArt",
+      "url": "https://unsplash.com/@veronikafitart?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Thomas Thompson",
+      "url": "https://unsplash.com/@tomthompsonphotography?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "rade nugroho",
+      "url": "https://unsplash.com/@rade_nugroho?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Patrick Robert Doyle",
+      "url": "https://unsplash.com/@teapowered?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Micke Lindström",
+      "url": "https://unsplash.com/@misterlindstrom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Felicia Montenegro",
+      "url": "https://unsplash.com/@feliciamontenegro?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ela De Pure",
+      "url": "https://unsplash.com/@eladepure?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
