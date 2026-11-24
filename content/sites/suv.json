@@ -97,7 +97,7 @@
         "label": "Расписание",
         "href": "#schedule"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1451175714674-c840fe5ffbd6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHN3aW1taW5nJTIwcG9vbCUyMHdhdGVyJTIwcmlwcGxlcyUyMG1hY3JvfGVufDF8MHx8fDE3OTU1NDQzNDR8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "дети",
         "взрослые",
@@ -129,7 +129,7 @@
       "label": "О бассейне",
       "title": "Вода, в которой хочется остаться",
       "text": "«Ваша компания» открылся в 2016 году как детская школа плавания и вырос до полноценного бассейна: 25 метров, шесть дорожек, отдельная тёплая чаша для малышей. Вода очищается озоном и ультрафиолетом, поэтому почти не пахнет хлором. Анализ воды делаем каждый день, результаты висят у входа.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1724660583299-2356fe880e54?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8aW5kb29yJTIwc3dpbW1pbmclMjBwb29sJTIwbGFuZXMlMjBlbXB0eXxlbnwxfDB8fHwxNzk1NTQ0MzQ4fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -370,19 +370,19 @@
       "items": [
         {
           "caption": "Большая чаша, 6 дорожек",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1560090964-cc7c8bfb293e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aW5kb29yJTIwc3dpbW1pbmclMjBwb29sJTIwbGFuZXMlMjBlbXB0eXxlbnwxfDB8fHwxNzk1NTQ0MzQ4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тёплая чаша для малышей",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1773791362666-d81870a3b7ab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHNoYWxsb3clMjBwb29sfGVufDF8Mnx8fDE3OTU1NDQzNTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Раздевалки и душевые",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1571712704100-5cade806bf6d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwc2hvd2VyJTIwcm9vbSUyMHRpbGVzfGVufDF8Mnx8fDE3OTU1NDQzNjJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сауна",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1706048111522-e4865f909940?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHNhdW5hJTIwd29vZGVufGVufDF8Mnx8fDE3OTU1NDQzNTd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -450,5 +450,31 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "Jeremy Bishop",
+      "url": "https://unsplash.com/@jeremybishop?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Declan Sun",
+      "url": "https://unsplash.com/@declansun?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Serena Repice Lentini",
+      "url": "https://unsplash.com/@serenarepice?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Justin Dyer",
+      "url": "https://unsplash.com/@superfluousfacsimile?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "- Kenny",
+      "url": "https://unsplash.com/@kennyzhang29?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Gennady Nikiforov",
+      "url": "https://unsplash.com/@logecospa?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
