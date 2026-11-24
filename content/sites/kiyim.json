@@ -93,7 +93,7 @@
         "label": "Лукбук",
         "href": "#lookbook"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1582609978967-7857a3fa93d8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bGluZW4lMjBmYWJyaWMlMjB0ZXh0dXJlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTUwMjczMnww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -125,7 +125,7 @@
           "text": "Тёплое, с капюшоном и карманом.",
           "price": 355000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1604632482693-76d59bf352b0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGZvbGRlZCUyMGNsb3RoZXMlMjBuZXV0cmFsfGVufDF8Mnx8fDE3OTU1MDI3NDF8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Верх",
           "badge": "",
           "unit": "шт"
@@ -135,7 +135,7 @@
           "text": "Свободный крой.",
           "price": 291000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1776838103951-993ff1ffc916?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y2xvdGhpbmclMjBoYW5nZXIlMjBtaW5pbWFsJTIwbmV1dHJhbHxlbnwxfDJ8fHwxNzk1NTAyNzM2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Верх",
           "badge": "Новинка",
           "unit": "шт"
@@ -145,7 +145,7 @@
           "text": "Плотный деним.",
           "price": 410000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1714143164072-7646ef5cb24d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8ZGVuaW0lMjBqZWFucyUyMGZvbGRlZHxlbnwxfDJ8fHwxNzk1NTAyNzQ1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Низ",
           "badge": "",
           "unit": "шт"
@@ -155,7 +155,7 @@
           "text": "Шесть карманов, хлопок.",
           "price": 328000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1718252540511-e958742e4165?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8ZGVuaW0lMjBqZWFucyUyMGZvbGRlZHxlbnwxfDJ8fHwxNzk1NTAyNzQ1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Низ",
           "badge": "",
           "unit": "шт"
@@ -165,7 +165,7 @@
           "text": "Шерсть 70%, на осень.",
           "price": 1356000,
           "oldPrice": 1627000,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1793367890223-00dd920fbb84?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8d29vbCUyMGNvYXQlMjBoYW5nZXJ8ZW58MXwyfHx8MTc5NTUwMjc0OXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Верхняя одежда",
           "badge": "Скидка",
           "unit": "шт"
@@ -175,7 +175,7 @@
           "text": "Нейлон, утеплитель.",
           "price": 810000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1649937408746-4d2f603f91c8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8d29vbCUyMGNvYXQlMjBoYW5nZXJ8ZW58MXwyfHx8MTc5NTUwMjc0OXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Верхняя одежда",
           "badge": "",
           "unit": "шт"
@@ -185,7 +185,7 @@
           "text": "Плотная ткань.",
           "price": 81000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1655115807807-313f849201ac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fGNsb3RoaW5nJTIwaGFuZ2VyJTIwbWluaW1hbCUyMG5ldXRyYWx8ZW58MXwyfHx8MTc5NTUwMjczNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Аксессуары",
           "badge": "",
           "unit": "шт"
@@ -195,7 +195,7 @@
           "text": "Хлопок 240 г, узбекский трикотаж.",
           "price": 163000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358066384-26972e4c0461?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Верх",
           "badge": "Хит",
           "unit": "шт"
@@ -215,7 +215,7 @@
           "category": "Лён, молочный",
           "year": "690 000 сум",
           "text": "Свободный крой, перламутровые пуговицы, длина ниже бедра.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358065297-18e26b09887b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -223,7 +223,7 @@
           "category": "Лён, графит",
           "year": "820 000 сум",
           "text": "Высокая посадка, мягкая резинка сзади, глубокие карманы.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358060494-8b676cc94be7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -231,7 +231,7 @@
           "category": "Атлас, синий",
           "year": "1 150 000 сум",
           "text": "Косой крой, тонкие бретели, длина миди.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358062969-b78fd368689f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -239,7 +239,7 @@
           "category": "Хлопок, песочный",
           "year": "1 390 000 сум",
           "text": "Прямой силуэт, накладные карманы, рукав три четверти.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358063290-5198ba5794eb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -247,7 +247,7 @@
           "category": "Хлопок 240 г, белая",
           "year": "390 000 сум",
           "text": "Плотный хлопок, который держит форму после стирок.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358064663-e67d95dd5b2c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -255,7 +255,7 @@
           "category": "Атлас, чёрный",
           "year": "760 000 сум",
           "text": "Запах на завязке, длина до щиколотки.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358063729-1ec832236a57?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -263,7 +263,7 @@
           "category": "Шерсть, верблюжий",
           "year": "1 850 000 сум",
           "text": "Цельнокроеный рукав, пояс, без подкладки.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358065921-a820ef8b65df?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -271,7 +271,7 @@
           "category": "Лён, оливковый",
           "year": "540 000 сум",
           "text": "Стрелки, пояс на пуговице, длина до колена.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1666358063371-da9d2e2025b2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGNsb3RoaW5nJTIwcmFjayUyMGJvdXRpcXVlJTIwbmV1dHJhbHxlbnwxfDB8fHwxNzk1NTAyNzUzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -284,7 +284,7 @@
       "label": "О бренде",
       "title": "Мы шьём меньше, чтобы каждая вещь жила дольше",
       "text": "«Ваша компания» появился в 2021 году в мастерской на Мирабаде. Ткани покупаем у фабрик Ферганы и Намангана, кроим и шьём сами — в цеху на 14 швей. Каждая коллекция — 20–30 моделей и не больше 60 экземпляров каждой; распроданное не допечатываем. На ярлыке — номер вещи и имя швеи, которая её сшила.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "lookbook",
@@ -296,27 +296,27 @@
       "items": [
         {
           "caption": "Рубашка оверсайз и брюки палаццо",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Платье-комбинация из атласа",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1573879500655-98f2012dd1db?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Жакет и бермуды",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y2xvdGhpbmclMjByYWNrJTIwYm91dGlxdWUlMjBuZXV0cmFsfGVufDF8MHx8fDE3OTU1MDI3NTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Пальто-халат поверх льна",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1580981440054-9dbd7d830a6b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGZvbGRlZCUyMGNsb3RoZXMlMjBuZXV0cmFsfGVufDF8Mnx8fDE3OTU1MDI3NDF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Юбка с запахом и футболка",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1670905934075-0c3cb559e977?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fGZvbGRlZCUyMGNsb3RoZXMlMjBuZXV0cmFsfGVufDF8Mnx8fDE3OTU1MDI3NDF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тотал-лук в графите",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1604176354204-9268737828e4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Zm9sZGVkJTIwY2xvdGhlcyUyMG5ldXRyYWx8ZW58MXwyfHx8MTc5NTUwMjc0MXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -429,5 +429,67 @@
     "description": "Сайт для бренда одежды, бутика или шоурума. Брутальная мода: название на всю ширину, коллекция экспонатами с ценами, лукбук горизонтальной лентой, встречные бегущие строки.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Joshua Hoehne",
+      "url": "https://unsplash.com/@joshua_hoehne?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Katya Azimova",
+      "url": "https://unsplash.com/@_katishna_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Pesce Huang",
+      "url": "https://unsplash.com/@pesce?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "TuanAnh Blue",
+      "url": "https://unsplash.com/@blueeyeaa?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Aldo Vukaj",
+      "url": "https://unsplash.com/@mystical1?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nikola Tasic",
+      "url": "https://unsplash.com/@tasae34?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mustapha Saadouni",
+      "url": "https://unsplash.com/@saadounique?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Or Hakim",
+      "url": "https://unsplash.com/@orhakim?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Amanda Vick",
+      "url": "https://unsplash.com/@amandavickcreative?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Alyssa Strohmann",
+      "url": "https://unsplash.com/@anotherlovely?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Highlight ID",
+      "url": "https://unsplash.com/@highlightid?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Priscilla Du Preez 🇨🇦",
+      "url": "https://unsplash.com/@priscilladupreez?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Studio Crevettes",
+      "url": "https://unsplash.com/@louismornaud?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mk. s",
+      "url": "https://unsplash.com/@mk__s?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Maude Frédérique Lavoie",
+      "url": "https://unsplash.com/@maudefl?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
