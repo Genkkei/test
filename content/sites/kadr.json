@@ -97,7 +97,7 @@
         "label": "Смотреть серии",
         "href": "#works"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1580852300513-9b50125bf293?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8ZmlsbSUyMGNhbWVyYSUyMGRhcmslMjBsaWdodCUyMGxlYWt8ZW58MXwwfHx8MTc5NTQ5ODYwNnww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -123,7 +123,7 @@
       "label": "Студия",
       "title": "Тимур Рахимов, фотограф",
       "text": "Десять лет снимаю людей: двести с лишним свадеб, сотни портретов, кампании для ресторанов и брендов одежды. Работаю на цифру и плёнку, цвет собираю вручную под каждую историю. На съёмке почти незаметен — лучшие кадры случаются, когда о камере забывают.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1628453370496-d6da0b9a214e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8dmludGFnZSUyMGNhbWVyYSUyMG9uJTIwdGFibGV8ZW58MXwwfHx8MTc5NTQ5ODYxMHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "works",
@@ -138,7 +138,7 @@
           "category": "Свадьба",
           "year": "2026",
           "text": "Летняя свадьба в саду в Бостанлыке: от сборов на рассвете до танца под гирляндами.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1616598942275-54b2c4a7f6b1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d2VkZGluZyUyMHJpbmdzJTIwaGFuZHN8ZW58MXwyfHx8MTc5NTQ5ODYxM3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -146,7 +146,7 @@
           "category": "Бренд одежды",
           "year": "2025",
           "text": "Кампания коллекции льна, снятая в пустыне Кызылкум.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1564216379792-1d0c2bdd693a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGhvdXNlJTIwYnklMjByaXZlcnxlbnwxfDJ8fHwxNzk1NDk4NjI5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -154,7 +154,7 @@
           "category": "Портрет",
           "year": "2025",
           "text": "Серия портретов мастеров Бухары в их мастерских.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1792093341441-ede05b933304?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG9sZCUyMGNpdHklMjBzdHJlZXQlMjBtb3JuaW5nJTIwbGlnaHR8ZW58MXwyfHx8MTc5NTQ5ODYxOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -162,7 +162,7 @@
           "category": "Ресторан",
           "year": "2024",
           "text": "Меню, интерьер и гости ресторана для запуска сезона.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1707450021846-e069beb98d8d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8cm9vZnRvcCUyMGRpbm5lciUyMHRhYmxlJTIwbGlnaHRzfGVufDF8Mnx8fDE3OTU0OTg2Mjd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -170,7 +170,7 @@
           "category": "Семья",
           "year": "2024",
           "text": "Семейная съёмка в выходной день — без режиссуры.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1556837675-f48f2f7d3882?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8aG91c2UlMjBieSUyMHJpdmVyfGVufDF8Mnx8fDE3OTU0OTg2Mjl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -178,7 +178,7 @@
           "category": "Короткий фильм",
           "year": "2023",
           "text": "Документальный фильм о свадьбе в Самарканде.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1765391024091-1e1f8c1a14e4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGZpbG0lMjBjYW1lcmElMjBkYXJrJTIwbGlnaHQlMjBsZWFrfGVufDF8MHx8fDE3OTU0OTg2MDZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -193,27 +193,27 @@
       "items": [
         {
           "caption": "Сборы невесты",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1528472602515-4c7d6feea2cc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8d2VkZGluZyUyMGRldGFpbHMlMjBmbG93ZXJzJTIwZHJlc3N8ZW58MXwyfHx8MTc5NTQ5ODYyM3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ташкент, 6:40 утра",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1792093341415-8f214431f28d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8b2xkJTIwY2l0eSUyMHN0cmVldCUyMG1vcm5pbmclMjBsaWdodHxlbnwxfDJ8fHwxNzk1NDk4NjE4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Первый взгляд",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1644348178252-fe60a4abe762?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8d2VkZGluZyUyMHJpbmdzJTIwaGFuZHN8ZW58MXwyfHx8MTc5NTQ5ODYxM3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Мастерская в Бухаре",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1609881582722-4a8ab7cd54d8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8YXJ0aXNhbiUyMGhhbmRzJTIwd29ya3Nob3AlMjBwb3R0ZXJ5fGVufDF8Mnx8fDE3OTU0OTg2Mzh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Дастархан",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1503525766218-8efbcfe836a0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHdlZGRpbmclMjBkZXRhaWxzJTIwZmxvd2VycyUyMGRyZXNzfGVufDF8Mnx8fDE3OTU0OTg2MjN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Последний танец",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1655835521407-ac2a83addd54?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHdlZGRpbmclMjByaW5ncyUyMGhhbmRzfGVufDF8Mnx8fDE3OTU0OTg2MTN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -377,5 +377,55 @@
     "description": "Сайт для фотографа, видеографа или продакшна. Тёмная комната с красным светом: снимок проявляется на WebGL, работы контактным листом и плёнкой, пакеты съёмок.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Marcos Paulo Prado",
+      "url": "https://unsplash.com/@marcospradobr?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sebastian Mark",
+      "url": "https://unsplash.com/@sebastianmark?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marcus Lewis",
+      "url": "https://unsplash.com/@marcusvlewis?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Robert Bahn",
+      "url": "https://unsplash.com/@robertbahn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "moniek van rosse",
+      "url": "https://unsplash.com/@moniek365?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mariano Alvarez",
+      "url": "https://unsplash.com/@theurbaneyecatcher?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lucas Metz",
+      "url": "https://unsplash.com/@lucashew?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Liana S",
+      "url": "https://unsplash.com/@cherstve_pechivo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "ELIANO DAVIDE",
+      "url": "https://unsplash.com/@elianodavide?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Earl Wilcox",
+      "url": "https://unsplash.com/@earl_plannerzone?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Quilia",
+      "url": "https://unsplash.com/@heyquilia?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Adnan Ali",
+      "url": "https://unsplash.com/@adnanbinali?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
