@@ -103,7 +103,7 @@
         "label": "Ход работ",
         "href": "#object"
       },
-      "image": "/media/darvoza-79ae1ee9335a70d50f2b.webp",
+      "image": "https://images.unsplash.com/photo-1645005047304-223bb24b355a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fG1vZGVybiUyMG1ldGFsJTIwZ2F0ZSUyMGhvdXNlfGVufDF8MHx8fDE3OTU0ODIwNjN8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -113,7 +113,7 @@
       "label": "О компании",
       "title": "Двор, где всё сделано в одном стиле",
       "text": "«Ваша компания» — свой цех в Кибрае и четыре монтажные бригады. Мы делаем ворота, забор, калитку и навес из одного профиля и одного цвета, поэтому двор выглядит цельным. Фундамент, столбы и автоматику ставим сами — без субподрядчиков.",
-      "image": "/media/darvoza-e2e8c4d7d5992ba7ce6c.webp",
+      "image": "https://images.unsplash.com/photo-1792553532354-fe35685ae490?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bW9kZXJuJTIwY291cnR5YXJkJTIwZmVuY2UlMjBob3VzZXxlbnwxfDB8fHwxNzk1NDgyMDY3fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -128,7 +128,7 @@
           "category": "ворота 4 м + калитка",
           "year": "от 18 млн сум",
           "text": "Распашные или откатные ворота с калиткой и замком, столбы на бетоне.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1788009145769-e278b44782ee?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8bW9kZXJuJTIwbWV0YWwlMjBnYXRlJTIwaG91c2V8ZW58MXwwfHx8MTc5NTQ4MjA2M3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -136,7 +136,7 @@
           "category": "ворота + 30 м забора",
           "year": "от 42 млн сум",
           "text": "Забор из профлиста или жалюзи на ленточном фундаменте.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1775593047935-9f124b3f4e03?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vZGVybiUyMHNsYXR0ZWQlMjBtZXRhbCUyMGZlbmNlfGVufDF8MHx8fDE3OTU0ODIwNzF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -144,7 +144,7 @@
           "category": "+ навес на 2 машины",
           "year": "от 68 млн сум",
           "text": "Всё из второго пакета плюс навес с поликарбонатом или металлочерепицей.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1762811054947-605b20298615?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fG1vZGVybiUyMGNhcnBvcnR8ZW58MXwwfHx8MTc5NTQ4MjA4M3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -152,7 +152,7 @@
           "category": "привод + пульты + фотоэлементы",
           "year": "от 9 млн сум",
           "text": "Привод для готовых ворот, открывание с телефона и пульта.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1613850011958-cfb3e7364058?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fHNsaWRpbmclMjBnYXRlJTIwZHJpdmV3YXl8ZW58MXwwfHx8MTc5NTQ4MjA3N3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ],
@@ -261,19 +261,19 @@
       "items": [
         {
           "caption": "Кибрай, жалюзи графит",
-          "image": "/media/darvoza-08cd76b69f83011a9a49.webp"
+          "image": "https://images.unsplash.com/photo-1672031538857-66a7e0274494?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8bW9kZXJuJTIwc2xhdHRlZCUyMG1ldGFsJTIwZmVuY2V8ZW58MXwwfHx8MTc5NTQ4MjA3MXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Зангиата, откатные ворота 6 м",
-          "image": "/media/darvoza-ba5f5ed87f9c7c2b3634.webp"
+          "image": "https://images.unsplash.com/photo-1645005047809-8a7740441037?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8c2xpZGluZyUyMGdhdGUlMjBkcml2ZXdheXxlbnwxfDB8fHwxNzk1NDgyMDc3fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Юнусабад, навес на две машины",
-          "image": "/media/darvoza-271db9dbf44f0b237a33.webp"
+          "image": "https://images.unsplash.com/photo-1766848834880-59e1632d92a8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8bW9kZXJuJTIwY2FycG9ydHxlbnwxfDB8fHwxNzk1NDgyMDgzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сергели, калитка с козырьком",
-          "image": "/media/darvoza-e1ddd8a0713f0f0e089b.webp"
+          "image": "https://images.unsplash.com/photo-1577574331460-55d8be5e451a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fG1vZGVybiUyMG1ldGFsJTIwZ2F0ZSUyMGhvdXNlfGVufDF8MHx8fDE3OTU0ODIwNjN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -335,5 +335,43 @@
     ],
     "ease": "0.55,0,0.25,1",
     "surface": "site-passport"
-  }
+  },
+  "credits": [
+    {
+      "by": "Nenyasha Manzvera",
+      "url": "https://unsplash.com/@thedrinkbreak?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "buatakun satu5",
+      "url": "https://unsplash.com/@buatakunsatu5?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Timur Seyfelmlyukov",
+      "url": "https://unsplash.com/@timurse?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tatyana Rubleva",
+      "url": "https://unsplash.com/@lisoglazka?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "RETRATO INMOBILIARIO",
+      "url": "https://unsplash.com/@retratoinmobiliario?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tom Nora",
+      "url": "https://unsplash.com/@tomnora?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chaojie Ni",
+      "url": "https://unsplash.com/@ncj51518?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Esphera ArqEng",
+      "url": "https://unsplash.com/@espheraarqeng?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Guillermo Ruiz",
+      "url": "https://unsplash.com/@memotercero__?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
