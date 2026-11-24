@@ -101,7 +101,7 @@
         "label": "Афиша",
         "href": "#season"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1761229660731-891484da5c35?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHRoZWF0ZXIlMjBzdGFnZSUyMHJlZCUyMGN1cnRhaW4lMjBzcG90bGlnaHR8ZW58MXwwfHx8MTc5NTUzMTc2M3ww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "about",
@@ -111,7 +111,7 @@
       "label": "О театре",
       "title": "Сцена без четвёртой стены",
       "text": "Мы играем в бывшем Доме культуры, который восстановили в 2016 году: деревянный зал, живая акустика, оркестровая яма для камерного ансамбля. Труппа — двадцать актёров, а по выходным утром сцена отдана детям.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1610890690846-5149750c8634?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZW1wdHklMjB0aGVhdGVyJTIwc3RhZ2UlMjBsaWdodHN8ZW58MXwwfHx8MTc5NTUzMTc2Nnww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "works",
@@ -126,7 +126,7 @@
           "category": "Трагедия · Шекспир",
           "year": "24 октября",
           "text": "Премьера сезона: три часа, один антракт, перевод Пастернака.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1780024345559-5a3bc778404b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dGhlYXRlciUyMHN0YWdlJTIwcGVyZm9ybWFuY2UlMjBzaWxob3VldHRlfGVufDF8Mnx8fDE3OTU1MzE3Njl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -134,7 +134,7 @@
           "category": "Комедия · Чехов",
           "year": "8 ноября",
           "text": "Спектакль в репертуаре пятый год, состав обновлён.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1543261876-1a37d08f7b33?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8dGhlYXRlciUyMHN0YWdlJTIwcGVyZm9ybWFuY2UlMjBzaWxob3VldHRlfGVufDF8Mnx8fDE3OTU1MzE3Njl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -142,7 +142,7 @@
           "category": "Концерт",
           "year": "15 ноября",
           "text": "Камерный ансамбль, классическая музыка Бухары и Хорезма.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1722669377072-97c2b53f44aa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8dGhlYXRlciUyMHN0YWdlJTIwcGVyZm9ybWFuY2UlMjBzaWxob3VldHRlfGVufDF8Mnx8fDE3OTU1MzE3Njl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -150,7 +150,7 @@
           "category": "Детям от 6 лет · Экзюпери",
           "year": "по выходным, 11:00",
           "text": "Утренник с куклами и живой музыкой, 60 минут.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1689926628475-ab96429ea6d3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHRoZWF0ZXIlMjBzdGFnZSUyMHBlcmZvcm1hbmNlJTIwc2lsaG91ZXR0ZXxlbnwxfDJ8fHwxNzk1NTMxNzY5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -158,7 +158,7 @@
           "category": "Комедия · Гоголь",
           "year": "29 ноября",
           "text": "Гоголь, перенесённый в современный город.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1496208612508-eb52fba7d94e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHRoZWF0ZXIlMjBzdGFnZSUyMHBlcmZvcm1hbmNlJTIwc2lsaG91ZXR0ZXxlbnwxfDJ8fHwxNzk1NTMxNzY5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -243,15 +243,15 @@
       "items": [
         {
           "caption": "Зрительный зал",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1573901715464-3abada6ceed0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8ZW1wdHklMjB0aGVhdGVyJTIwc3RhZ2UlMjBsaWdodHN8ZW58MXwwfHx8MTc5NTUzMTc2Nnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Репетиция «Гамлета»",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1721532904025-c320861db395?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8dGhlYXRlciUyMHN0YWdlJTIwcGVyZm9ybWFuY2UlMjBzaWxob3VldHRlfGVufDF8Mnx8fDE3OTU1MzE3Njl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Фойе",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1792651431334-df768399d66f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dGhlYXRlciUyMGZveWVyJTIwY2hhbmRlbGllcnxlbnwxfDB8fHwxNzk1NTMxNzcyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -315,5 +315,47 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "Jimmy Liu",
+      "url": "https://unsplash.com/@jimmy__liu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paolo Chiabrando",
+      "url": "https://unsplash.com/@chiabra?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "sof bernal",
+      "url": "https://unsplash.com/@sofibernal27?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jacob McKay",
+      "url": "https://unsplash.com/@jacobamckay?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Aditya Sethia",
+      "url": "https://unsplash.com/@aditya_sethia_97?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mostafa Hassanzadeh",
+      "url": "https://unsplash.com/@mostafahunter?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jacob Morch",
+      "url": "https://unsplash.com/@jacobmorch?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Claire P",
+      "url": "https://unsplash.com/@claireslair?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Giuseppe Argenziano",
+      "url": "https://unsplash.com/@geppi?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Maximilian Bungart",
+      "url": "https://unsplash.com/@hypernature?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

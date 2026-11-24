@@ -97,7 +97,7 @@
         "label": "Как заказать",
         "href": "#process"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1575980967953-d812d957dca5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHJhbWVuJTIwYm93bCUyMHN0ZWFtJTIwZGFya3xlbnwxfDB8fHwxNzk1NTMxNzMwfDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -126,7 +126,7 @@
       "label": "Бар",
       "title": "Восемнадцать мест у стойки и один котёл",
       "text": "Шеф Тимур учился у мастера в Фукуоке и привёз оттуда правило: один бульон, доведённый до конца, лучше десяти средних. Котёл на 120 литров стоит прямо за стойкой — видно, как снимают пену и тянут лапшу. Курим только благовония, говорим громко, едим быстро и горячо.",
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1731078868200-48e3ff1ba37f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHJhbWVuJTIwY291bnRlciUyMGJhciUyMGphcGFuZXNlfGVufDF8MHx8fDE3OTU1MzE3MzR8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -269,19 +269,19 @@
       "items": [
         {
           "caption": "Стойка на восемнадцать мест",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1689297651498-2395488aa1b0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8cmFtZW4lMjBjb3VudGVyJTIwYmFyJTIwamFwYW5lc2V8ZW58MXwwfHx8MTc5NTUzMTczNHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тонкоцу с чашу",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1613232683444-de0a4942e932?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHJhbWVuJTIwYm93bCUyMHN0ZWFtJTIwZGFya3xlbnwxfDB8fHwxNzk1NTMxNzMwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Автомат с билетами",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1734295934093-c76f89bfaf1a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8amFwYW5lc2UlMjB0aWNrZXQlMjB2ZW5kaW5nJTIwbWFjaGluZXxlbnwxfDJ8fHwxNzk1NTMxNzQxfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Лапша утром",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1659752709914-c5cf8f4b169d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8cmFtZW4lMjBib3dsJTIwc3RlYW0lMjBkYXJrfGVufDF8MHx8fDE3OTU1MzE3MzB8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -352,5 +352,31 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Fidel Fernando",
+      "url": "https://unsplash.com/@fifernando?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Karl Joshua Bernal",
+      "url": "https://unsplash.com/@karljosh16?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Markus Winkler",
+      "url": "https://unsplash.com/@markuswinkler?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yolanda Djajakesukma",
+      "url": "https://unsplash.com/@yeolcolltos?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "John Zhou",
+      "url": "https://unsplash.com/@johnnzhou?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Brendan Sapp",
+      "url": "https://unsplash.com/@hypelights?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

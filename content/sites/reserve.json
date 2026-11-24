@@ -100,7 +100,7 @@
         "label": "Дегустационные сеты",
         "href": "#flights"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1775476792778-c86bfd29ba12?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fGNvZmZlZSUyMHJvYXN0ZXIlMjBtYWNoaW5lJTIwY2FmZXxlbnwxfDB8fHwxNzk1NTMxNzQ1fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -131,7 +131,7 @@
           "text": "Стекло и сталь, на три чашки.",
           "price": 195000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1732928730431-11c206639a38?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8Y29mZmVlJTIwZ2lmdCUyMGJveHxlbnwxfDJ8fHwxNzk1NTI3NTkwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "",
           "unit": "шт"
@@ -141,7 +141,7 @@
           "text": "Стальные жернова, помол от эспрессо до френча.",
           "price": 642000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1455134168668-4066045897c3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWFudWFsJTIwY29mZmVlJTIwZ3JpbmRlcnxlbnwxfDJ8fHwxNzk1NDc3OTMyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для заваривания",
           "badge": "Новинка",
           "unit": "шт"
@@ -151,7 +151,7 @@
           "text": "350 мл, держит тепло три часа.",
           "price": 172000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1766232590982-67ef5c70b787?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y29mZmVlJTIwZ2lmdCUyMGJveHxlbnwxfDJ8fHwxNzk1NTI3NTkwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -161,7 +161,7 @@
           "text": "Три пачки по 100 г и открытка с описанием вкуса.",
           "price": 242000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1732928729959-2e8fdb5a5cd7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29mZmVlJTIwZ2lmdCUyMGJveHxlbnwxfDJ8fHwxNzk1NTI3NTkwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "Хит",
           "unit": "набор"
@@ -171,7 +171,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 176000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1761936513644-cbc5f3207139?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGNvZmZlZSUyMGJlYW5zJTIwYmFnfGVufDF8Mnx8fDE3OTU1Mjc1OTR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -181,7 +181,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 153000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1772391264887-50a9e650e0fd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGNvZmZlZSUyMGJlYW5zJTIwYmFnfGVufDF8Mnx8fDE3OTU1Mjc1OTR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -191,7 +191,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 129000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1681366463291-30f169d575a2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fGNvZmZlZSUyMHJvYXN0aW5nJTIwZHJ1bSUyMGJlYW5zfGVufDF8MHx8fDE3OTU1MjM0MDd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -201,7 +201,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 391000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1558618666-4bfc6a7b2b93?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fGNvZmZlZSUyMHJvYXN0aW5nJTIwZHJ1bSUyMGJlYW5zfGVufDF8MHx8fDE3OTU1MjM0MDd8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -216,7 +216,7 @@
       "label": "Обжарочная",
       "title": "Двенадцать минут, которые решают вкус",
       "text": "Мы привозим зелёное зерно небольшими лотами напрямую от импортёров и обжариваем его здесь же, в зале, по пятнадцать килограммов за раз. Каждую партию пробуем по протоколу каппинга, прежде чем она попадёт в чашку или в пачку. Поэтому меню меняется: что-то заканчивается навсегда, что-то появляется на один сезон.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1556251573-e7f63ff1c273?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29mZmVlJTIwY3VwcGluZyUyMHRhYmxlJTIwc3Bvb25zfGVufDF8MHx8fDE3OTU1MzE3NDl8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "flights",
@@ -421,19 +421,19 @@
       "items": [
         {
           "caption": "Ростер в центре зала",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1777984994623-6e96b0d6be43?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvZmZlZSUyMHJvYXN0ZXIlMjBtYWNoaW5lJTIwY2FmZXxlbnwxfDB8fHwxNzk1NTMxNzQ1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Бар фильтр-кофе",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1606925596310-07f140a50c77?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fGNvZmZlZSUyMGN1cHBpbmclMjB0YWJsZSUyMHNwb29uc3xlbnwxfDB8fHwxNzk1NTMxNzQ5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Стол для каппинга",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1558996225-97c962538cb3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8Y29mZmVlJTIwY3VwcGluZyUyMHRhYmxlJTIwc3Bvb25zfGVufDF8MHx8fDE3OTU1MzE3NDl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Полка с лотами сезона",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1585597621365-00607210e3e4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGNvZmZlZSUyMGdpZnQlMjBib3h8ZW58MXwyfHx8MTc5NTUyNzU5MHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -475,6 +475,60 @@
         "label": "Забронировать",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Jacques Dillies",
+      "url": "https://unsplash.com/@jacques_dillies?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "I'M ZION",
+      "url": "https://unsplash.com/@ziontech?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Joshua Davis",
+      "url": "https://unsplash.com/@currentcoast?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Stacy",
+      "url": "https://unsplash.com/@stacysuxx?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Joëlle B Vasseur",
+      "url": "https://unsplash.com/@2808jb?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kris Tian",
+      "url": "https://unsplash.com/@kris_tian?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mira Kireeva",
+      "url": "https://unsplash.com/@solarfri?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Battlecreek Coffee Roasters",
+      "url": "https://unsplash.com/@battlecreekcoffeeroasters?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mae Mu",
+      "url": "https://unsplash.com/@picoftasty?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Beth Stevenson",
+      "url": "https://unsplash.com/@bthstvn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Davies Designs Studio",
+      "url": "https://unsplash.com/@davies_designs?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "René Porter",
+      "url": "https://unsplash.com/@reneporter?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Annie Spratt",
+      "url": "https://unsplash.com/@anniespratt?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
