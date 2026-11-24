@@ -191,3 +191,26 @@
 .tpl-gallery .mmenu__panel a:hover { color: var(--accent); }
 .tpl-gallery .mmenu__panel .mmenu__cta { border-radius: 0; }
 @media (max-width: 600px) { .gal-salon { columns: 2; column-gap: 14px; } .gal-frame__mat { border-width: 5px; } .gal-frame:nth-child(3n + 2) { padding-top: 0; } .gal-frame:nth-child(2) { padding-top: 40px; } }
+
+
+/* ───────── первый экран: стена со снимком мазка во всю ширину, название наезжает инверсией, лупа ───────── */
+.tpl-gallery .gal-hero { padding-top: 0; min-height: 0; gap: clamp(20px, 2.6vw, 40px); }
+.gal-hero__stage { position: relative; margin-inline: calc(-1 * var(--pad)); margin-top: 62px; isolation: isolate; }
+.gal-hero__wall { position: relative; height: min(64svh, 720px); overflow: hidden; background: #e9e4da; cursor: none; }
+.gal-hero__wall .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 40%; }
+html.motion .gal-hero__wall .media { animation: galBreath 30s ease-in-out 1.4s infinite alternate both; }
+@keyframes galBreath { from { transform: scale(1.02); } to { transform: scale(1.1) translateX(-1.5%); } }
+.gal-hero__wall.gal-rise { animation-name: galWall; animation-duration: 1.4s; }
+@keyframes galWall { from { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0); } }
+.gal-loupe { position: absolute; z-index: 3; left: var(--px, 50%); top: var(--py, 50%); width: 220px; height: 220px; margin: -110px 0 0 -110px; border-radius: 50%; background-size: 260% auto; background-position: var(--lx, 50%) var(--ly, 50%); background-repeat: no-repeat; box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--fg), 0 24px 50px -16px rgba(0, 0, 0, .55); opacity: 0; scale: .6; pointer-events: none; transition: opacity .25s ease, scale .45s var(--ease); }
+.gal-hero__wall.is-loupe .gal-loupe { opacity: 1; scale: 1; }
+@media (hover: none), (pointer: coarse) { .gal-hero__wall { cursor: auto; } .gal-loupe { display: none; } }
+.gal-hero__stage .gal-hero__word { position: absolute; z-index: 2; left: var(--pad); right: var(--pad); bottom: clamp(10px, 1.6vw, 26px); border: 0; padding: 0; color: #fff; mix-blend-mode: difference; pointer-events: none; }
+.gal-label--wall { position: absolute; z-index: 2; top: clamp(14px, 2vw, 28px); right: var(--pad); padding: 10px 12px 10px 14px; background: #fff; box-shadow: 0 10px 30px -14px rgba(0, 0, 0, .4); }
+.tpl-gallery .gal-hero__grid { grid-template-columns: minmax(0, .7fr) minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; gap: clamp(18px, 3vw, 48px); padding-top: clamp(28px, 4vw, 60px); border-top: 2px solid var(--fg); }
+.tpl-gallery .gal-hero__title { margin: 0; }
+.tpl-gallery .gal-hero__text { align-content: start; }
+@media (max-width: 900px) {
+  .gal-hero__wall { height: 56svh; }
+  .tpl-gallery .gal-hero__grid { grid-template-columns: 1fr; }
+}

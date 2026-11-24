@@ -6,7 +6,7 @@ import { Head, Shell as Sec, humanHours } from '@/components/sections'
 import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
 import { meta } from './meta'
 import { pick, ui } from '@/lib/i18n'
-import { ColorField, FitWord } from './client'
+import { FitWord, Loupe } from './client'
 
 /*
  * ГАЛЕРЕЯ — белый куб в духе Serpentine, Tate и MoMA: гигантская типографика во всю ширину,
@@ -89,21 +89,33 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
 }
 
 function Hero({ section: s, site }: SectionProps<'hero'>) {
-  const t = site.theme
   const label = s.eyebrow.split(' · ').filter(Boolean)
   return (
     <section id={s.anchor || undefined} className="s s-hero gal-hero">
-      <div className="gal-hero__word gal-rise">
-        <FitWord text={site.name} className="gal-fit" />
+      <div className="gal-hero__stage">
+        <Loupe src={s.image} className="gal-hero__wall gal-rise" style={{ ['--d' as string]: '.1s' }}>
+          <Media src={s.image} alt="" seed={`${site.slug}-hero`} colors={palette(site)} kind="grid" className="media" />
+        </Loupe>
+        <div className="gal-hero__word gal-rise" style={{ ['--d' as string]: '.35s' }}>
+          <FitWord text={site.name} className="gal-fit" />
+        </div>
+        {label.length ? (
+          <p className="gal-label gal-label--wall gal-rise" style={{ ['--d' as string]: '.9s' }}>
+            <b>{label[0]}</b>
+            {label.slice(1).map((l, i) => (
+              <span key={i}>{l}</span>
+            ))}
+          </p>
+        ) : null}
       </div>
       <div className="gal-hero__grid">
+        <p className="gal-k gal-rise" style={{ ['--d' as string]: '.5s' }}>
+          <span className="gal-dot" aria-hidden="true" /> {pick(site.lang, { ru: 'Сейчас в галерее', uz: 'Hozir galereyada', en: 'Now on view' })}
+        </p>
+        <h1 className="gal-hero__title" data-split="lines">
+          {s.title || site.name}
+        </h1>
         <div className="gal-hero__text">
-          <p className="gal-k gal-rise" style={{ ['--d' as string]: '.3s' }}>
-            <span className="gal-dot" aria-hidden="true" /> {pick(site.lang, { ru: 'Сейчас в галерее', uz: 'Hozir galereyada', en: 'Now on view' })}
-          </p>
-          <h1 className="gal-hero__title" data-split="lines">
-            {s.title || site.name}
-          </h1>
           {s.subtitle ? (
             <p className="gal-hero__sub gal-rise" style={{ ['--d' as string]: '.7s' }}>
               {s.subtitle}
@@ -122,19 +134,6 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
             ) : null}
           </div>
         </div>
-        <figure className="gal-hero__work gal-rise" style={{ ['--d' as string]: '.45s' }}>
-          <div className="gal-hero__canvas">
-            <ColorField colors={['#efe9df', t.accent, '#1d2a4a']} />
-          </div>
-          {label.length ? (
-            <figcaption className="gal-label">
-              <b>{label[0]}</b>
-              {label.slice(1).map((l, i) => (
-                <span key={i}>{l}</span>
-              ))}
-            </figcaption>
-          ) : null}
-        </figure>
       </div>
       {s.words.length ? (
         <ul className="gal-hero__tags gal-rise" style={{ ['--d' as string]: '1s' }}>
