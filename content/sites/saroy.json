@@ -92,7 +92,7 @@
         "label": "",
         "href": ""
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1576141034725-c64b35194fce?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Ym91dGlxdWUlMjBob3RlbCUyMGNvdXJ0eWFyZCUyMHRyYWRpdGlvbmFsfGVufDF8MHx8fDE3OTU1MzU5MjJ8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -118,7 +118,7 @@
       "label": "Дом",
       "title": "Купеческий дом, который мы не стали перестраивать",
       "text": "Дом построили в 1912 году для семьи торговцев шёлком. Мы три года снимали поздние перегородки, расчищали ганч и восстанавливали деревянные потолки вручную. Остались высокие окна, толстые стены, которые держат прохладу летом, и двор, куда выходят все номера. Здесь нет лобби с музыкой — есть чай, книги и тень от виноградника.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1726275566704-b9b85cf961eb?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG9sZCUyMGhvdXNlJTIwY2FydmVkJTIwd29vZGVuJTIwZG9vcnxlbnwxfDB8fHwxNzk1NTM1OTI3fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "rooms",
@@ -195,27 +195,27 @@
       "items": [
         {
           "caption": "Утро во дворе",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1721860983114-aab9363b604a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGJvdXRpcXVlJTIwaG90ZWwlMjBjb3VydHlhcmQlMjB0cmFkaXRpb25hbHxlbnwxfDB8fHwxNzk1NTM1OTIyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Завтрак у фонтана",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1543137158-526f3507f08d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGJyZWFrZmFzdCUyMHRyYXklMjB0ZWElMjB0cmFkaXRpb25hbHxlbnwxfDJ8fHwxNzk1NTM1OTMzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ганч в коридоре",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1547734366-596d99be6436?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fGhhbW1hbSUyMG1hcmJsZXxlbnwxfDJ8fHwxNzk1NTM1OTM3fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Хаммам",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1722285569928-2729c62f8de3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8aGFtbWFtJTIwbWFyYmxlfGVufDF8Mnx8fDE3OTU1MzU5Mzd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Чай на айване",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1674224287566-e8e7e39c2bd8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8YnJlYWtmYXN0JTIwdHJheSUyMHRlYSUyMHRyYWRpdGlvbmFsfGVufDF8Mnx8fDE3OTU1MzU5MzN8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Терраса на закате",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1561046876-826b073c9cd1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGJvdXRpcXVlJTIwaG90ZWwlMjBjb3VydHlhcmQlMjB0cmFkaXRpb25hbHxlbnwxfDB8fHwxNzk1NTM1OTIyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -334,5 +334,39 @@
     "features": [],
     "forSale": true
   },
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "Marco Montero Pisani",
+      "url": "https://unsplash.com/@monteropisani?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tadeusz Zachwieja",
+      "url": "https://unsplash.com/@haiku_ted?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Alex",
+      "url": "https://unsplash.com/@junypr?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Louis Hansel",
+      "url": "https://unsplash.com/@louishansel?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Wyn Sutuntivorakoon",
+      "url": "https://unsplash.com/@wyn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Bernd 📷 Dittrich",
+      "url": "https://unsplash.com/@hdbernd?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zhang liven",
+      "url": "https://unsplash.com/@lvenfoto?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Egor Kunovsky",
+      "url": "https://unsplash.com/@egorkaway?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
