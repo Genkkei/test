@@ -98,7 +98,7 @@
         "label": "Услуги и цены",
         "href": "#services"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1689791851794-65c1d3364f91?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHNld2luZyUyMHRocmVhZCUyMG5lZWRsZSUyMG1hY3JvfGVufDF8MHx8fDE3OTU1NDg0MjB8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -125,7 +125,7 @@
       "label": "Ателье",
       "title": "Мастерская, где вещь подгоняют, а не уговаривают",
       "text": "Пять портных и закройщица с опытом в мужском и женском пошиве. Работаем с тканями клиента и подбираем свои: шерсть, лён, хлопок, шёлк. Каждую вещь ведёт один мастер — от снятия мерок до последней пуговицы, поэтому объяснять заново ничего не придётся.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1587819390518-12c38c703ba2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8dGFpbG9yJTIwd29ya3Nob3AlMjBzZXdpbmclMjBtYWNoaW5lfGVufDF8MHx8fDE3OTU1NDg0MjN8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -283,27 +283,27 @@
       "items": [
         {
           "caption": "Раскройный стол",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1561822713-da02f57225b2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8dGFpbG9yaW5nJTIwdG9vbHMlMjBmYWJyaWMlMjBidXR0b25zfGVufDF8Mnx8fDE3OTU1NDg0MjZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ткани",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1610300698345-f2f149ecf2f3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHRhaWxvcmluZyUyMHRvb2xzJTIwZmFicmljJTIwYnV0dG9uc3xlbnwxfDJ8fHwxNzk1NTQ4NDI2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Примерочная",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1617370739229-a9d6e1d58f8d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHRhaWxvcmluZyUyMHRvb2xzJTIwZmFicmljJTIwYnV0dG9uc3xlbnwxfDJ8fHwxNzk1NTQ4NDI2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Пуговицы и фурнитура",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1566753626102-7317628528c6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8dGFpbG9yaW5nJTIwdG9vbHMlMjBmYWJyaWMlMjBidXR0b25zfGVufDF8Mnx8fDE3OTU1NDg0MjZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ручная строчка",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1698766902696-e3c98378d400?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c2V3aW5nJTIwdGhyZWFkJTIwbmVlZGxlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTU0ODQyMHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Готовые вещи",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1501978811118-e2abb948bb81?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHRhaWxvcmluZyUyMHRvb2xzJTIwZmFicmljJTIwYnV0dG9uc3xlbnwxfDJ8fHwxNzk1NTQ4NDI2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -374,6 +374,40 @@
         "label": "Написать в Telegram",
         "href": "https://t.me/yourcompany"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Snow White",
+      "url": "https://unsplash.com/@snowwhitesmellscoffee?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Every Angle",
+      "url": "https://unsplash.com/@everyangle?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Olesia 🇺🇦 Buiar",
+      "url": "https://unsplash.com/@olesichka?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ariane Frei",
+      "url": "https://unsplash.com/@ariane_977?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marco Timelli",
+      "url": "https://unsplash.com/@marcogiuseppetimelli?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Robert Anasch",
+      "url": "https://unsplash.com/@diesektion?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Immo Wegmann",
+      "url": "https://unsplash.com/@tinkerman?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Melinda Martin-Khan",
+      "url": "https://unsplash.com/@melindamartinkhan?utm_source=atlas&utm_medium=referral"
     }
   ]
 }

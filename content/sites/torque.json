@@ -98,7 +98,7 @@
         "label": "Пакеты и цены",
         "href": "#packages"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1567621440749-ebfc3df304ea?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y2FyJTIwcGFpbnQlMjByZWZsZWN0aW9uJTIwbWFjcm98ZW58MXwwfHx8MTc5NTU0ODQ1NXww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -125,7 +125,7 @@
       "label": "Гараж",
       "title": "Мы работаем как ателье, а не как мойка",
       "text": "Каждую машину принимает мастер: замеряет толщину лака, фотографирует дефекты, согласует план и сроки. Шесть закрытых боксов с приточной вентиляцией и студийным светом, плёнки и составы — только от производителей с официальной гарантией. Через 30 дней после керамики — бесплатная контрольная мойка.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1795165316507-5d11da34bb7e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fGNhciUyMGRldGFpbGluZyUyMHBvbGlzaGluZ3xlbnwxfDB8fHwxNzk1NTQ4NDYxfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -187,7 +187,7 @@
           "category": "Полная оклейка PPF",
           "year": "5 дней",
           "text": "Матовая плёнка на весь кузов, керамика на диски и суппорты.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1762077656278-d6c5800d6dc7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8bHV4dXJ5JTIwY2FyJTIwZGV0YWlsJTIwaGVhZGxpZ2h0JTIwZGFya3xlbnwxfDJ8fHwxNzk1NTQ4NDY1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -195,7 +195,7 @@
           "category": "Керамика, химчистка",
           "year": "2 дня",
           "text": "Трёхслойная керамика и восстановление кожи салона.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1553201107-86ea2300da5d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGx1eHVyeSUyMGNhciUyMGRldGFpbCUyMGhlYWRsaWdodCUyMGRhcmt8ZW58MXwyfHx8MTc5NTU0ODQ2NXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -203,7 +203,7 @@
           "category": "Восстановительная полировка",
           "year": "2 дня",
           "text": "Сняли голограммы после автомоек, толщина лака сохранена.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1762077656288-92ff7ec4dc83?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bHV4dXJ5JTIwY2FyJTIwZGV0YWlsJTIwaGVhZGxpZ2h0JTIwZGFya3xlbnwxfDJ8fHwxNzk1NTQ4NDY1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -211,7 +211,7 @@
           "category": "PPF на зоны риска",
           "year": "1 день",
           "text": "Капот, бампер, фары и пороги — то, что первым ловит камни.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1714764734689-1eac7614ba44?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGx1eHVyeSUyMGNhciUyMGRldGFpbCUyMGhlYWRsaWdodCUyMGRhcmt8ZW58MXwyfHx8MTc5NTU0ODQ2NXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -219,7 +219,7 @@
           "category": "Шумоизоляция, тонировка",
           "year": "3 дня",
           "text": "Шумоизоляция арок и дверей, атермальная плёнка на лобовое.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1648032745062-1b3c8fbfe110?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGx1eHVyeSUyMGNhciUyMGRldGFpbCUyMGhlYWRsaWdodCUyMGRhcmt8ZW58MXwyfHx8MTc5NTU0ODQ2NXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -407,5 +407,31 @@
     "description": "Сайт для детейлинг-центра, автосервиса или автосалона. Студийный свет скользит по кузову на WebGL, тахометр крутится от прокрутки, пакеты услуг, работы и лист характеристик.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Anne Nygård",
+      "url": "https://unsplash.com/@polarmermaid?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "RN Studiox Official",
+      "url": "https://unsplash.com/@rnstudioxofficial?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ryan Collins",
+      "url": "https://unsplash.com/@ironlogicfit?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Taylor Smith",
+      "url": "https://unsplash.com/@whoistaylorsmith?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Haberdoedas II",
+      "url": "https://unsplash.com/@haberdoedas2?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Riccardo Pini",
+      "url": "https://unsplash.com/@pinipixels?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
