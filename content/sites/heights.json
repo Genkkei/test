@@ -98,7 +98,7 @@
         "label": "Проекты",
         "href": "#projects"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1626705337675-c5b4c5756172?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwcmVzaWRlbnRpYWwlMjB0b3dlciUyMGZhY2FkZXxlbnwxfDB8fHwxNzk1NDk0NTA5fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -124,7 +124,7 @@
       "label": "Компания",
       "title": "Строим медленно, чтобы жить было долго",
       "text": "Мы проектируем дом от двора, а не от этажности: сначала свет, тишина и маршруты, потом — квадратные метры. Каждый проект проходит независимую экспертизу, строительство ведёт наш генподрядчик, а после сдачи домом управляет своя управляющая компания.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1563166423-482a8c14b2d6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8Y29uc3RydWN0aW9uJTIwY29uY3JldGUlMjBidWlsZGluZyUyMHNpdGV8ZW58MXwwfHx8MTc5NTQ5NDUxNHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "projects",
@@ -139,7 +139,7 @@
           "category": "Юнусабад · 24 этажа · 312 квартир",
           "year": "IV кв. 2026",
           "text": "Две башни над бульваром, двор на кровле стилобата, от 17 400 000 сум за м².",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1525953776754-6c4b7ee655ab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bW9kZXJuJTIwYXBhcnRtZW50JTIwYnVpbGRpbmd8ZW58MXwwfHx8MTc5NTQ5NDUxN3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -147,7 +147,7 @@
           "category": "Мирабад · 16 этажей · 198 квартир",
           "year": "II кв. 2027",
           "text": "Квартиры с террасами-садами на каждом этаже, от 19 900 000 сум за м².",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1527690499469-ef2eff9c6735?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8cm9vZnRvcCUyMGdhcmRlbiUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3OTU0OTQ1MTl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -155,7 +155,7 @@
           "category": "Чиланзар · 12 этажей · 420 квартир",
           "year": "Сдан в 2025",
           "text": "Квартал из шести домов вокруг парка, готовые квартиры от 15 900 000 сум за м².",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1604142484923-2cc1b626c481?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fG1vZGVybiUyMGFwYXJ0bWVudCUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3OTU0OTQ1MTd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -340,5 +340,27 @@
     "description": "Сайт для девелопера, агентства недвижимости или архитектурного бюро. Архитектурная сетка, фасад на WebGL, проекты с техданными, планировки чертежом и ипотека.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Simon Peter",
+      "url": "https://unsplash.com/@framedinframes?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ivan Henao",
+      "url": "https://unsplash.com/@ivanchenao?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ricardo Gomez Angel",
+      "url": "https://unsplash.com/@rgaleriacom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "CHUTTERSNAP",
+      "url": "https://unsplash.com/@chuttersnap?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marija Zaric",
+      "url": "https://unsplash.com/@simplicity?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
