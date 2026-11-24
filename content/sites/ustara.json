@@ -103,7 +103,7 @@
         "label": "Прейскурант",
         "href": "#services"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1600392309479-44334099ead2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHN0cmFpZ2h0JTIwcmF6b3IlMjBiYXJiZXIlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTUyNTk0fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -130,7 +130,7 @@
       "label": "О нас",
       "title": "Парикмахерская, куда ходят годами",
       "text": "Мы открылись в 2019 году в старом доме на Руставели: кожаные кресла, плитка на полу, проигрыватель с пластинками. Шесть мастеров, у каждого свой почерк — от строгой классики до коротких фейдов. Стрижём только мужчин и мальчиков, инструменты стерилизуем после каждого гостя, бритвы — одноразовые лезвия.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8dmludGFnZSUyMGJhcmJlcnNob3AlMjBjaGFpcnxlbnwxfDB8fHwxNzk1NTUyNTk4fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -324,19 +324,19 @@
       "items": [
         {
           "caption": "Кресла 1960-х",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1702865272115-5afdbae975af?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8dmludGFnZSUyMGJhcmJlcnNob3AlMjBjaGFpcnxlbnwxfDB8fHwxNzk1NTUyNTk4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Горячие полотенца",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1524230616393-d6229fcd2eff?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHN0cmFpZ2h0JTIwcmF6b3IlMjBiYXJiZXIlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTUyNTk0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Стена с пластинками",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1792523297859-6b92444b583c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHZpbnRhZ2UlMjBiYXJiZXJzaG9wJTIwY2hhaXJ8ZW58MXwwfHx8MTc5NTU1MjU5OHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Инструменты",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1612036329215-e9f06711a7fa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c3RyYWlnaHQlMjByYXpvciUyMGJhcmJlciUyMG1hY3JvfGVufDF8MHx8fDE3OTU1NTI1OTR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -407,6 +407,32 @@
         "label": "Записаться в Telegram",
         "href": "https://t.me/yourcompany"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Danist Soh",
+      "url": "https://unsplash.com/@danist07?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Chris Knight",
+      "url": "https://unsplash.com/@chrisknight?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Redd Francisco",
+      "url": "https://unsplash.com/@reddfrancisco?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Josh Sorenson",
+      "url": "https://unsplash.com/@joshsorenson?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mustafa Sheikhmouss",
+      "url": "https://unsplash.com/@xalo_mustafa?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jonathan Cooper",
+      "url": "https://unsplash.com/@theshuttervision?utm_source=atlas&utm_medium=referral"
     }
   ]
 }

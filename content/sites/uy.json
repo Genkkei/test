@@ -97,7 +97,7 @@
         "label": "Смотреть проекты",
         "href": "#projects"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1764867256379-3877b9cb5832?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHF1aWV0JTIwbWluaW1hbCUyMGludGVyaW9yJTIwbGluZW4lMjBsaWdodHxlbnwxfDB8fHwxNzk1NTUyNjAxfDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "about",
@@ -107,7 +107,7 @@
       "label": "О студии",
       "title": "Мы проектируем не красивые картинки, а жизнь внутри стен",
       "text": "Сначала слушаем: как вы просыпаетесь, где читаете, сколько у вас гостей по пятницам. Потом считаем свет, хранение и маршруты по дому — и только после этого выбираем материалы. Работаем с местными мастерами: столярами из Ферганы, керамистами из Риштана, ткачами из Маргилана. Берём не больше шести объектов одновременно, чтобы каждым заниматься лично.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1518548981607-b068130027d2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHF1aWV0JTIwbWluaW1hbCUyMGludGVyaW9yJTIwbGluZW4lMjBsaWdodHxlbnwxfDB8fHwxNzk1NTUyNjAxfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "projects",
@@ -122,7 +122,7 @@
           "category": "Квартира",
           "year": "2025",
           "text": "Светлая трёхкомнатная квартира для семьи с двумя детьми: дуб, известковая штукатурка, встроенное хранение · Площадь: 118 м² · Срок: 5 месяцев · Проект: 180 000 сум/м²",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1587048595115-553751fdc150?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bWluaW1hbCUyMGFwYXJ0bWVudCUyMGludGVyaW9yJTIwd2FybXxlbnwxfDB8fHwxNzk1NTUyNjA2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -130,7 +130,7 @@
           "category": "Частный дом",
           "year": "2024",
           "text": "Двухэтажный дом с внутренним двориком, айваном и библиотекой под лестницей · Площадь: 310 м² · Срок: 9 месяцев · Проект: 160 000 сум/м²",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1739293144760-99cbaec84356?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bWluaW1hbCUyMGFwYXJ0bWVudCUyMGludGVyaW9yJTIwd2FybXxlbnwxfDB8fHwxNzk1NTUyNjA2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -138,7 +138,7 @@
           "category": "Апартаменты",
           "year": "2024",
           "text": "Компактные апартаменты для сдачи в аренду: мебель на заказ и палитра песка · Площадь: 64 м² · Срок: 3 месяца · Проект: 200 000 сум/м²",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1699868744258-d0d3940205c5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fG1pbmltYWwlMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHdhcm18ZW58MXwwfHx8MTc5NTU1MjYwNnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -146,7 +146,7 @@
           "category": "Общественный интерьер",
           "year": "2023",
           "text": "Кофейня на двадцать мест: длинный общий стол из карагача и мягкий свет · Площадь: 85 м² · Срок: 4 месяца · Проект: 220 000 сум/м²",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1795508614077-063c642fd4d4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fG1pbmltYWwlMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHdhcm18ZW58MXwwfHx8MTc5NTU1MjYwNnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -161,27 +161,27 @@
       "items": [
         {
           "caption": "Дуб, масло",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1737032959204-23dbb1e5462c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8bmF0dXJhbCUyMG1hdGVyaWFscyUyMHRleHR1cmUlMjBwbGFzdGVyJTIwdHJhdmVydGluZSUyMGxpbmVufGVufDF8Mnx8fDE3OTU1NTI2MTB8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Известковая штукатурка",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1617457925026-0d11404d4953?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bmF0dXJhbCUyMG1hdGVyaWFscyUyMHRleHR1cmUlMjBwbGFzdGVyJTIwdHJhdmVydGluZSUyMGxpbmVufGVufDF8Mnx8fDE3OTU1NTI2MTB8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Травертин",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1600007098210-74a71aac22a1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fG5hdHVyYWwlMjBtYXRlcmlhbHMlMjB0ZXh0dXJlJTIwcGxhc3RlciUyMHRyYXZlcnRpbmUlMjBsaW5lbnxlbnwxfDJ8fHwxNzk1NTUyNjEwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Лён, небелёный",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1672674370960-4bb7a561cf8e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fHF1aWV0JTIwbWluaW1hbCUyMGludGVyaW9yJTIwbGluZW4lMjBsaWdodHxlbnwxfDB8fHwxNzk1NTUyNjAxfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Орех, тонированный",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1696360088551-acbb8609ed2e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fG5hdHVyYWwlMjBtYXRlcmlhbHMlMjB0ZXh0dXJlJTIwcGxhc3RlciUyMHRyYXZlcnRpbmUlMjBsaW5lbnxlbnwxfDJ8fHwxNzk1NTUyNjEwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Риштанская керамика",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1638976352303-3b1208f94079?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fG5hdHVyYWwlMjBtYXRlcmlhbHMlMjB0ZXh0dXJlJTIwcGxhc3RlciUyMHRyYXZlcnRpbmUlMjBsaW5lbnxlbnwxfDJ8fHwxNzk1NTUyNjEwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -336,5 +336,55 @@
     "description": "Сайт для студии дизайна интерьера, мебельного бренда или декора. Свет из окна с тенью листвы на WebGL, проекты-развороты с паспортом объекта, палитра материалов и тарифы за м².",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Efe Kekikciler",
+      "url": "https://unsplash.com/@mutanzom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Debby Hudson",
+      "url": "https://unsplash.com/@hudsoncrafted?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "David Huynh",
+      "url": "https://unsplash.com/@dvtzo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Oriol Hausmann",
+      "url": "https://unsplash.com/@hauxmann?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Le Quan",
+      "url": "https://unsplash.com/@mrkheu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tim Schmidbauer",
+      "url": "https://unsplash.com/@timschmidbauer?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Freddie",
+      "url": "https://unsplash.com/@seamlesstextures?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Pipe A.",
+      "url": "https://unsplash.com/@pipeaguileram?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tejj",
+      "url": "https://unsplash.com/@tejjj?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mk. s",
+      "url": "https://unsplash.com/@mk__s?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "David Foodphototasty",
+      "url": "https://unsplash.com/@phototastyfood?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michiel Annaert",
+      "url": "https://unsplash.com/@michielannaert?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

@@ -104,7 +104,7 @@
         "label": "Каталог и цены",
         "href": "#catalog"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1685932577098-fdc910881de9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGF1dG9tYXRpYyUyMGdhdGUlMjBtb2Rlcm4lMjBob3VzZXxlbnwxfDB8fHwxNzk1NTUyNjE4fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "Замер бесплатно",
         "Монтаж от 7 дней",
@@ -296,7 +296,7 @@
           "category": "Юнусабад, частный дом",
           "year": "2026",
           "text": "Привод под ключ, калитка с электрозамком, открытие с телефона.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1729680372531-f7e4d18980ab?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGF1dG9tYXRpYyUyMGdhdGUlMjBtb2Rlcm4lMjBob3VzZXxlbnwxfDB8fHwxNzk1NTUyNjE4fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -304,7 +304,7 @@
           "category": "Кибрай, коттедж",
           "year": "2026",
           "text": "Графит RAL 7024, столбы 80×80, срок — 9 дней.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1740217071636-34d814ac91c0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8YXV0b21hdGljJTIwZ2F0ZSUyMG1vZGVybiUyMGhvdXNlfGVufDF8MHx8fDE3OTU1NTI2MTh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -312,7 +312,7 @@
           "category": "Чиланзар, частная школа",
           "year": "2025",
           "text": "120 м с пиками без острых кромок, двое распашных ворот.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1645005049035-c35644b627ba?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8YXV0b21hdGljJTIwZ2F0ZSUyMG1vZGVybiUyMGhvdXNlfGVufDF8MHx8fDE3OTU1NTI2MTh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -384,6 +384,24 @@
         "label": "Вызвать замерщика",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Abhaya Behera",
+      "url": "https://unsplash.com/@abhaya?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ashes Sitoula",
+      "url": "https://unsplash.com/@awesome?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "angy5 angy5",
+      "url": "https://unsplash.com/@angy555?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nenyasha Manzvera",
+      "url": "https://unsplash.com/@thedrinkbreak?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
