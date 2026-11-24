@@ -93,7 +93,7 @@
         "label": "Цены на услуги",
         "href": "#services"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1601233292450-a20edaf6277a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y2F0JTIwcGF3JTIwbWFjcm98ZW58MXwwfHx8MTc5NTUxNTE1Mnww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "ribbon",
@@ -118,7 +118,7 @@
       "label": "о клинике",
       "title": "Сначала знакомимся, потом лечим",
       "text": "Каждый приём начинается с пяти минут на обнюхивание кабинета и лакомства. Врачи не торопятся, объясняют диагноз простыми словами и присылают план лечения в Telegram. В клинике своя лаборатория, рентген, УЗИ и стационар с камерами — вы можете посмотреть, как спит ваш питомец после операции.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1587945133178-1f8136579a98?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8dmV0ZXJpbmFyeSUyMGNsaW5pYyUyMGRvZ3xlbnwxfDB8fHwxNzk1NTE1MTUyfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -378,5 +378,15 @@
     "description": "Сайт для ветеринарной клиники, груминга или зоомагазина. Тёплый и дружелюбный: кот на SVG, следы лап за курсором, услуги с ценами, врачи и экстренная линия 24/7.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Syed Ali",
+      "url": "https://unsplash.com/@syedmohdali121?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Iris Wang",
+      "url": "https://unsplash.com/@irishappens?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
