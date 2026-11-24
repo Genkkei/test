@@ -118,7 +118,7 @@
           "text": "Жасмин, бергамот, лимонная цедра. Светлая обжарка.",
           "price": 183000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-32e100cc51c22506ba2b.webp",
+          "image": "https://images.unsplash.com/photo-1581191852946-c8b7c9caf935?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mjl8fHNpbmdsZSUyMG9yaWdpbiUyMGNvZmZlZSUyMGJlYW5zfGVufDF8Mnx8fDE3OTU1NTcyMzR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "250 г"
@@ -128,7 +128,7 @@
           "text": "Карамель, красное яблоко, мягкая кислотность.",
           "price": 160000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-6035a654b1d65a1d22b6.webp",
+          "image": "https://images.unsplash.com/photo-1669291076919-54aa16cb0107?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29mZmVlJTIwYmVhbnMlMjB0ZXh0dXJlJTIwZGFyayUyMHJvYXN0fGVufDF8Mnx8fDE3OTU1NjE1NTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -138,7 +138,7 @@
           "text": "Шоколад и орех — для эспрессо и молока.",
           "price": 135000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-f00df4ab96219362330d.webp",
+          "image": "https://images.unsplash.com/photo-1662560634645-cf2d4964dcbe?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjZ8fGNvZmZlZSUyMGJlYW5zJTIwdGV4dHVyZSUyMGRhcmslMjByb2FzdHxlbnwxfDJ8fHwxNzk1NTYxNTU2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -148,7 +148,7 @@
           "text": "Плотная, сладкая, без горечи. Для кофемашины.",
           "price": 407000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-f56dc41071391d4fe383.webp",
+          "image": "https://images.unsplash.com/photo-1574629173114-6b5296e6a632?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8ZHJpcCUyMGNvZmZlZSUyMGJhZyUyMGhhbmdpbmclMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIwMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Хит",
           "unit": "1 кг"
@@ -158,7 +158,7 @@
           "text": "Чёрная смородина, грейпфрут, сочное тело.",
           "price": 209000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-87df0412405fcbc12ea1.webp",
+          "image": "https://images.unsplash.com/photo-1623658179698-ec7b295754d0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8ZHJpcCUyMGNvZmZlZSUyMGJhZyUyMGhhbmdpbmclMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIwMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "Новинка",
           "unit": "250 г"
@@ -168,7 +168,7 @@
           "text": "Какао, специи, долгое послевкусие.",
           "price": 170000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-e3c49d963ff79d31f5d3.webp",
+          "image": "https://images.unsplash.com/photo-1605618826115-fb9e775cfb40?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8ZHJpcCUyMGNvZmZlZSUyMGJhZyUyMGhhbmdpbmclMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIwMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -178,7 +178,7 @@
           "text": "Без кофеина, но со вкусом: карамель и миндаль.",
           "price": 154000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-0b277e3402217714ce11.webp",
+          "image": "https://images.unsplash.com/photo-1610963349635-d34a47455591?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8ZHJpcCUyMGNvZmZlZSUyMGJhZyUyMGhhbmdpbmclMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIwMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Зерно",
           "badge": "",
           "unit": "250 г"
@@ -188,7 +188,7 @@
           "text": "Десять чашек фильтра без воронки: залил и ждёшь три минуты.",
           "price": 92000,
           "oldPrice": 0,
-          "image": "/media/kofeofis-1c1a1de396c1ecbf9ff1.webp",
+          "image": "https://images.unsplash.com/photo-1637760978539-c87137d809b0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8ZHJpcCUyMGNvZmZlZSUyMGJhZyUyMGhhbmdpbmclMjBjdXB8ZW58MXwyfHx8MTc5NTU1NzIwMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Дрип и капсулы",
           "badge": "Хит",
           "unit": "10 шт"
@@ -279,7 +279,7 @@
       "label": "О нас",
       "title": "Сначала кофейня, потом офис",
       "text": "«Ваша компания» — это не коворкинг с кофемашиной, а настоящая кофейня со спешелти-зерном и кухней, в которой продумали всё для работы: свет, розетки, тишину и стулья, на которых можно просидеть восемь часов. Приходите с ноутбуком или проводите встречи в переговорных.",
-      "image": "/media/kofeofis-f5ad8ada395ad8fb962a.webp",
+      "image": "https://images.unsplash.com/photo-1751199200315-ec34e0a79cf5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGNvZmZlZSUyMHNob3AlMjBjb3dvcmtpbmclMjBsYXB0b3B8ZW58MXwwfHx8MTc5NTU2MTUxM3ww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -383,23 +383,23 @@
       "items": [
         {
           "caption": "Стойка бариста",
-          "image": "/media/kofeofis-63a8020bec3f0a3c38e9.webp"
+          "image": "https://images.unsplash.com/photo-1556742393-d75f468bfcb0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y29mZmVlJTIwc2hvcCUyMGNvd29ya2luZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzk1NTYxNTEzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тихая зона",
-          "image": "/media/kofeofis-fcdf5c14d1a25818bdb8.webp"
+          "image": "https://images.unsplash.com/photo-1751151015850-ae5e0356bb15?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8Y2FmZSUyMHdvcmtzcGFjZSUyMHF1aWV0JTIwdGFibGV8ZW58MXwyfHx8MTc5NTU2MTUxOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Переговорная «Макси»",
-          "image": "/media/kofeofis-543059882ba3b242b6c2.webp"
+          "image": "https://images.unsplash.com/photo-1667050826750-cf411aff93c6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c21hbGwlMjBtZWV0aW5nJTIwcm9vbSUyMGNhZmV8ZW58MXwyfHx8MTc5NTU2MTUxOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Терраса на бульвар",
-          "image": "/media/kofeofis-ca71343d07b4a858d709.webp"
+          "image": "https://images.unsplash.com/photo-1751199199992-b32cefa81c72?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGNvZmZlZSUyMHNob3AlMjBjb3dvcmtpbmclMjBsYXB0b3B8ZW58MXwwfHx8MTc5NTU2MTUxM3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Бизнес-ланч",
-          "image": "/media/kofeofis-95a8066866544986b9eb.webp"
+          "image": "https://images.unsplash.com/photo-1518510227856-30619d542ea9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8YnVzaW5lc3MlMjBsdW5jaCUyMHBsYXRlfGVufDF8Mnx8fDE3OTU1NjE1MjR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -461,5 +461,55 @@
     ],
     "ease": "0.2,0.8,0.2,1",
     "surface": "lanyard-badge"
-  }
+  },
+  "credits": [
+    {
+      "by": "Tamas Pap",
+      "url": "https://unsplash.com/@tamasp?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photo 11",
+      "url": "https://unsplash.com/@photo_11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Anton K",
+      "url": "https://unsplash.com/@binderdonedat?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "lilartsy",
+      "url": "https://unsplash.com/@lilartsy?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "vyaesh shassya",
+      "url": "https://unsplash.com/@shassya?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Miska Sage",
+      "url": "https://unsplash.com/@miskasage?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nguyen linh",
+      "url": "https://unsplash.com/@nglinht?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "everdrop GmbH",
+      "url": "https://unsplash.com/@everdrop?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zoshua Colah",
+      "url": "https://unsplash.com/@zoshuacolah?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nathan Dumlao",
+      "url": "https://unsplash.com/@nate_dumlao?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Suhyeon Choi",
+      "url": "https://unsplash.com/@by_syeoni?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Raka Diraka",
+      "url": "https://unsplash.com/@nombekoz?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

@@ -155,7 +155,7 @@
           "category": "Коммерция",
           "year": "2026",
           "text": "Второй уровень для стеллажей интернет-магазина · Площадь: 320 м² · Нагрузка: 500 кг/м² · Срок: 4 недели",
-          "image": "/media/konstruktsiya-cef14ecb6cc655d5a50e.webp",
+          "image": "https://images.unsplash.com/photo-1572525908216-05ba18dade64?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHN0ZWVsJTIwbWV6emFuaW5lJTIwd2FyZWhvdXNlfGVufDF8Mnx8fDE3OTU1NjE1MzF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -163,7 +163,7 @@
           "category": "Частный дом",
           "year": "2025",
           "text": "П-образная на косоурах под облицовку дубом · Этажей: 3 · Срок: 3 недели",
-          "image": "/media/konstruktsiya-7fcc5a524ca733db1fd9.webp",
+          "image": "https://images.unsplash.com/photo-1681403490254-f51ab092b1b3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c3RlZWwlMjBzdGFpcmNhc2UlMjBob21lJTIwbW9kZXJufGVufDF8Mnx8fDE3OTU1NjE1MzZ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -171,7 +171,7 @@
           "category": "Пристройка",
           "year": "2025",
           "text": "Лёгкий стальной каркас на существующие стены · Площадь: 64 м² · Срок: 5 недель",
-          "image": "/media/konstruktsiya-293f45ed67f5e90c4c26.webp",
+          "image": "https://images.unsplash.com/photo-1621249263961-3b699beb0244?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHN0ZWVsJTIwc3RhaXJjYXNlJTIwaG9tZSUyMG1vZGVybnxlbnwxfDJ8fHwxNzk1NTYxNTM2fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -179,7 +179,7 @@
           "category": "Общепит",
           "year": "2024",
           "text": "Каркас летней террасы с раздвижной кровлей · Площадь: 140 м² · Срок: 6 недель",
-          "image": "/media/konstruktsiya-6186f5addeba5fbfb720.webp",
+          "image": "https://images.unsplash.com/photo-1584629515478-fb1a573e5f41?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8c3RlZWwlMjBtZXp6YW5pbmUlMjB3YXJlaG91c2V8ZW58MXwyfHx8MTc5NTU2MTUzMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -192,7 +192,7 @@
       "label": "Компания",
       "title": "Инженеры, которые сами стоят на монтаже",
       "text": "В команде два инженера-конструктора, свой цех на 600 м² и две монтажные бригады. Расчёт делаем по нормам КМК, на каждый объект выдаём паспорт с чертежами и актом скрытых работ — пригодится для приёмки и продажи дома.",
-      "image": "/media/konstruktsiya-d42407c68e1cf4647dec.webp"
+      "image": "https://images.unsplash.com/photo-1616224952327-6240f31e5bdc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8c3RydWN0dXJhbCUyMGVuZ2luZWVyJTIwc3RlZWwlMjBiZWFtcyUyMHNpdGV8ZW58MXwwfHx8MTc5NTU2MTUyOHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "process",
@@ -311,5 +311,27 @@
     ],
     "ease": "0.65,0,0.35,1",
     "surface": "spec-table"
-  }
+  },
+  "credits": [
+    {
+      "by": "Dana Fedoreeva",
+      "url": "https://unsplash.com/@302_bis?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paul Schnürle",
+      "url": "https://unsplash.com/@paulschnuerle?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ricardo Gomez Angel",
+      "url": "https://unsplash.com/@rgaleriacom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mos Sukjaroenkraisri",
+      "url": "https://unsplash.com/@mossuk?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rick Hyne",
+      "url": "https://unsplash.com/@quinley1770?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
