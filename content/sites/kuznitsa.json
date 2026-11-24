@@ -103,7 +103,7 @@
         "label": "Спецификация и цены",
         "href": "#spec"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1561824515-ee1ce2f26766?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGJsYWNrc21pdGglMjBmb3JnZSUyMHNwYXJrcyUyMGhvdCUyMG1ldGFsfGVufDF8MHx8fDE3OTU1MTEwMDF8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "Навесы",
         "Лестницы",
@@ -135,7 +135,7 @@
       "label": "Цех",
       "title": "Сначала расчёт, потом сварка",
       "text": "Наш цех в Сергели — 900 м², плазменная резка, гибочный станок и покрасочная камера. Мы не продаём «навес за три дня из того, что было на складе»: для каждого объекта инженер считает снеговую и ветровую нагрузку и подбирает сечение трубы. Поэтому наши навесы не провисают через зиму, а лестницы не гудят под шагами.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1522322512347-a0e57fd1744c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHdlbGRpbmclMjBzdGVlbCUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1MTEwMDV8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "spec",
@@ -227,7 +227,7 @@
           "category": "Частный дом, Кибрай",
           "year": "2026",
           "text": "54 м², металлочерепица, водосток в ливнёвку, монтаж за 2 дня.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1780369088486-74cda85c9abc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8c3RlZWwlMjBzdGFpcmNhc2UlMjBtb2Rlcm58ZW58MXwwfHx8MTc5NTUxMTAwOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -235,7 +235,7 @@
           "category": "Таунхаус, Юнусабад",
           "year": "2026",
           "text": "Ступени из дуба, стеклянное ограждение, без единой вибрации.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1526573059328-179b147e1b42?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBzdGFpcmNhc2UlMjBtb2Rlcm58ZW58MXwwfHx8MTc5NTUxMTAwOHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -243,7 +243,7 @@
           "category": "Дача, Бостанлык",
           "year": "2025",
           "text": "6×4 м, крыша под черепицу, отдельная зона под казан.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1628451035238-ca4c2ee37009?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWV0YWwlMjBnYXplYm8lMjBnYXJkZW58ZW58MXwwfHx8MTc5NTUxMTAxM3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -341,6 +341,28 @@
         "label": "Заказать расчёт",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Syed Ali",
+      "url": "https://unsplash.com/@syedmohdali121?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Karan Bhatia",
+      "url": "https://unsplash.com/@karanbhatia9?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Declan Sun",
+      "url": "https://unsplash.com/@declansun?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Serhat Beyazkaya",
+      "url": "https://unsplash.com/@serhatbeyazkaya?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kaylee Stepkoski",
+      "url": "https://unsplash.com/@kayleestepkoski?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
