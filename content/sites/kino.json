@@ -102,7 +102,7 @@
         "label": "Афиша",
         "href": "#schedule"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1768381937064-0cff674a09ca?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y2luZW1hJTIwc2VhdHMlMjByZWQlMjBkYXJrfGVufDF8MHx8fDE3OTU1MDI2ODl8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -203,7 +203,7 @@
           "category": "Ретроспектива",
           "year": "октябрь",
           "text": "Все полнометражные фильмы на большом экране, перед каждым — вступление киноведа.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1779696304920-e93d122c01d7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8ZmlsbSUyMHByb2plY3RvciUyMGxpZ2h0fGVufDF8Mnx8fDE3OTU1MDI2OTJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -211,7 +211,7 @@
           "category": "Фестивальная программа",
           "year": "ноябрь",
           "text": "Фильмы из Кореи, Японии и Тайваня последних двух лет.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1758881606455-26cc1c2c8de4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8YXNpYW4lMjBzdHJlZXQlMjBuZW9uJTIwbmlnaHR8ZW58MXwyfHx8MTc5NTUwMjY5Nnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -219,7 +219,7 @@
           "category": "Архив",
           "year": "декабрь",
           "text": "Восстановленные копии классики «Узбекфильма».",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1790147329622-2816d75e01d9?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8b2xkJTIwY2luZW1hJTIwZmFjYWRlfGVufDF8Mnx8fDE3OTU1MDI3MDJ8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -227,7 +227,7 @@
           "category": "Семейный показ",
           "year": "по воскресеньям",
           "text": "Анимация для детей от шести лет и их родителей.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1740736167029-8d8de871385f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGNpbmVtYSUyMHNjcmVlbiUyMGxpZ2h0JTIwYmVhbXxlbnwxfDJ8fHwxNzk1NTAyNzAyfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -281,7 +281,7 @@
       "label": "О кинотеатре",
       "title": "Зал, где слышно тишину",
       "text": "Мы открылись в бывшем клубе на Навои: оставили деревянные кресла, поставили цифровой проектор и 35-миллиметровый для особых показов. Реклама перед фильмом — одна минута, потом гаснет свет. Еду в зал не берём, телефоны просим выключить.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1781788990982-7d635339675a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8ZW1wdHklMjBjaW5lbWElMjBoYWxsfGVufDF8MHx8fDE3OTU1MDI3MDZ8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "stats",
@@ -357,5 +357,27 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "Quentin Baret",
+      "url": "https://unsplash.com/@quentin_baret?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Declan Sun",
+      "url": "https://unsplash.com/@declansun?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Intrepid",
+      "url": "https://unsplash.com/@intrepidfilm?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Anthony Hammer Photography",
+      "url": "https://unsplash.com/@anthonyhammerphotography?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Oleg Agafonov",
+      "url": "https://unsplash.com/@modernart_oleg?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
