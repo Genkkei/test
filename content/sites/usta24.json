@@ -102,7 +102,7 @@
         "label": "Цены",
         "href": "#services"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1709613439196-1c08b60af80c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8cGx1bWJlciUyMHRvb2xzJTIwcGlwZSUyMHdyZW5jaCUyMG1hY3JvfGVufDF8MHx8fDE3OTU1NTI1ODh8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -288,7 +288,7 @@
       "label": "О нас",
       "title": "Мастера, которых не стыдно пустить в дом",
       "text": "Каждый мастер проходит собеседование, проверку документов и пробный выезд со старшим. Приезжают в форме, с бахилами и пылесосом. Если после ремонта что-то снова сломалось в течение полугода — исправим бесплатно.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1585569695919-db237e7cc455?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8aGFuZHltYW4lMjB0b29sYm94JTIwdG9vbHN8ZW58MXwwfHx8MTc5NTU1MjU5Mnww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "testimonials",
@@ -359,5 +359,15 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "shraga kopstein",
+      "url": "https://unsplash.com/@sfkopstein?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tekton",
+      "url": "https://unsplash.com/@tekton_tools?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
