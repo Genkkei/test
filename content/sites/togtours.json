@@ -97,7 +97,7 @@
         "label": "Написать гиду",
         "href": "#contact"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1711274022743-2cdfa2b4baf2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8bW91bnRhaW4lMjByaWRnZSUyMHN1bnJpc2UlMjB1emJla2lzdGFufGVufDF8MHx8fDE3OTU1NDg0MzB8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "Чимган · 3309 м",
         "Бельдерсай · 2400 м",
@@ -131,7 +131,7 @@
       "label": "О нас",
       "title": "Мы ходим туда, куда водим",
       "text": "«Ваша компания» собрали инструкторы альпклуба в 2015 году. Каждый маршрут мы сначала проходим сами, знаем родники, места ночёвок и запасные спуски. У гидов — удостоверения инструктора и курс первой помощи в горах, в группе всегда спутниковый трекер и аптечка.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1707572387604-9beccf2c1977?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGhpa2luZyUyMHRyYWlsJTIwbW91bnRhaW5zJTIwYmFja3BhY2t8ZW58MXwwfHx8MTc5NTU0ODQ0MHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "routes",
@@ -146,7 +146,7 @@
           "category": "Лёгкий · 1 день",
           "year": "2100",
           "text": "Первый горный выход: тропа через арчовник к смотровой над Чарвакским водохранилищем.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1657997201741-32c799da6812?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTl8fG1vdW50YWluJTIwcmlkZ2UlMjBzdW5yaXNlJTIwdXpiZWtpc3RhbnxlbnwxfDB8fHwxNzk1NTQ4NDMwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -154,7 +154,7 @@
           "category": "Средний · 1 день",
           "year": "2400",
           "text": "Ущелье, три брода и водопад. Весной — тюльпаны, осенью — красные склоны.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1763031374586-913f8054f85e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8bW91bnRhaW4lMjBsYWtlJTIwYWxwaW5lfGVufDF8Mnx8fDE3OTU1NDg0NDR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -162,7 +162,7 @@
           "category": "Сложный · 2 дня",
           "year": "3309",
           "text": "Восхождение на главную вершину Западного Тянь-Шаня у Ташкента с ночёвкой в палатках.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1784390436118-36b60d7d83c2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vdW50YWluJTIwcmlkZ2UlMjBzdW5yaXNlJTIwdXpiZWtpc3RhbnxlbnwxfDB8fHwxNzk1NTQ4NDMwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -170,7 +170,7 @@
           "category": "Средний · 7 дней",
           "year": "3860",
           "text": "Бирюзовые озёра, перевал Алаудин и ночёвки у воды. Переезд через Самарканд.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1768574004250-4a72ac205be6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bW91bnRhaW4lMjBsYWtlJTIwYWxwaW5lfGVufDF8Mnx8fDE3OTU1NDg0NDR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -178,7 +178,7 @@
           "category": "Лёгкий · 3 дня",
           "year": "2169",
           "text": "Пешие переходы между кишлаками, ночёвка в юртах и гостевых домах, петроглифы Сармишсая.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1657997200838-a3daa26f4220?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fG1vdW50YWluJTIwcmlkZ2UlMjBzdW5yaXNlJTIwdXpiZWtpc3RhbnxlbnwxfDB8fHwxNzk1NTQ4NDMwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -296,23 +296,23 @@
       "items": [
         {
           "caption": "Перевал Алаудин",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1775713525968-69306496164d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8bW91bnRhaW4lMjBsYWtlJTIwYWxwaW5lfGVufDF8Mnx8fDE3OTU1NDg0NDR8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Ночёвка у Куликалона",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1768574004207-6a8c9e387bee?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fG1vdW50YWluJTIwbGFrZSUyMGFscGluZXxlbnwxfDJ8fHwxNzk1NTQ4NDQ0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Тропа на Большой Чимган",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1584907600887-9732fa3647ac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGhpa2luZyUyMHRyYWlsJTIwbW91bnRhaW5zJTIwYmFja3BhY2t8ZW58MXwwfHx8MTc5NTU0ODQ0MHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Юрты в Нуратау",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1792202141861-40f48077be2b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fG1vdW50YWluJTIwcmlkZ2UlMjBzdW5yaXNlJTIwdXpiZWtpc3RhbnxlbnwxfDB8fHwxNzk1NTQ4NDMwfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Водопад Бельдерсай",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1763031405479-4d7cbb422d80?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fG1vdW50YWluJTIwbGFrZSUyMGFscGluZXxlbnwxfDJ8fHwxNzk1NTQ4NDQ0fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -380,5 +380,43 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "Sodikjon Akhmedov",
+      "url": "https://unsplash.com/@sakhmedoff?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Hikerwise.com",
+      "url": "https://unsplash.com/@hikerwise?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Madina Khaitbaeva",
+      "url": "https://unsplash.com/@maduskh?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Charlie Underhill",
+      "url": "https://unsplash.com/@charlesbjerg?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Far Chinberdiev",
+      "url": "https://unsplash.com/@fardevio?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ben Bramhall",
+      "url": "https://unsplash.com/@silversn95?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zihao Wang",
+      "url": "https://unsplash.com/@zihao_wang?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ante Hamersmit",
+      "url": "https://unsplash.com/@ante_kante?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Bernd 📷 Dittrich",
+      "url": "https://unsplash.com/@hdbernd?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
