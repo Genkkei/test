@@ -2,9 +2,10 @@ import type { Site } from '@/lib/schema'
 import { Logo } from '@/components/brand/Logo'
 import { Clock, MobileMenu } from '@/motion/widgets'
 import { humanHours, pick, ui } from '@/lib/i18n'
-import { navLinks, type SectionProps, type TemplateDef } from '../types'
+import { navLinks, palette, type SectionProps, type TemplateDef } from '../types'
+import { Media } from '@/motion/art'
 import { meta } from './meta'
-import { PaperCanvas, Ruler, Voice , ClipReveal } from './client'
+import { Ruler, Voice, ClipReveal } from './client'
 
 function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   const links = navLinks(site)
@@ -85,12 +86,12 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
 }
 
 function Hero({ section: s, site }: SectionProps<'hero'>) {
-  const t = site.theme
+  const stats = site.sections.find((x) => x.type === 'stats' && x.enabled)
+  const facts = stats && stats.type === 'stats' ? stats.items.slice(0, 3) : []
   return (
     <section id={s.anchor || undefined} className="s s-hero ledger-hero">
-      <PaperCanvas colors={[t.bg, t.line, t.accent, t.fg]} />
       <div className="ledger-hero__inner">
-        <div className="ledger-hero__index" data-reveal="fade">
+        <div className="ledger-hero__index ledger-in" style={{ ['--i' as string]: 0 }}>
           <span>§ 00</span>
           <span>{s.eyebrow}</span>
         </div>
@@ -99,13 +100,13 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         </h1>
         <div className="ledger-hero__foot">
           {s.subtitle ? (
-            <p className="ledger-hero__sub" data-reveal="up" data-delay="0.3">
+            <p className="ledger-hero__sub ledger-in" style={{ ['--i' as string]: 4 }}>
               {s.subtitle}
             </p>
           ) : null}
-          <div className="ledger-hero__ctas" data-reveal="up" data-delay="0.45">
+          <div className="ledger-hero__ctas ledger-in" style={{ ['--i' as string]: 5 }}>
             {s.cta.label ? (
-              <a className="btn btn--primary" href={s.cta.href || '#'} data-magnetic>
+              <a className="btn btn--primary" href={s.cta.href || '#'}>
                 {s.cta.label}
               </a>
             ) : null}
@@ -117,6 +118,87 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           </div>
         </div>
       </div>
+      <figure className="ledger-hero__plate" aria-hidden="true">
+        <Media src={s.image} alt="" seed={`${site.slug}-hero`} colors={palette(site)} kind="grid" className="media" />
+        {facts.length ? (
+          <figcaption className="ledger-dossier">
+            <span className="ledger-dossier__tab">{pick(site.lang, { ru: 'Досье фирмы', uz: 'Firma dosyesi', en: 'Firm dossier' })}</span>
+            <dl>
+              {facts.map((f, i) => (
+                <div key={i}>
+                  <dt>
+                    {f.value}
+                    {f.suffix ? <small> {f.suffix}</small> : null}
+                  </dt>
+                  <dd>{f.label}</dd>
+                </div>
+              ))}
+            </dl>
+          </figcaption>
+        ) : null}
+      </figure>
+    </section>
+  )
+}
+
+/** Практики — оглавление кодекса: «ст. 01» и название крупно; наведение раскрывает строку, справа цена и срок. */
+function Services({ section: s }: SectionProps<'services'>) {
+  return (
+    <section id={s.anchor || undefined} className="s s-services ledger-code">
+      <div className="s__inner">
+        <div className="s__head">
+          {s.label ? <p className="s__label">{s.label}</p> : null}
+          {s.title ? <h2 className="s__title">{s.title}</h2> : null}
+          {s.intro ? <p className="s__intro">{s.intro}</p> : null}
+        </div>
+        <ol className="ledger-code__list">
+          {s.items.map((it, i) => (
+            <li key={i} className="ledger-article" tabIndex={0} data-reveal="up">
+              <span className="ledger-article__n">ст. {String(i + 1).padStart(2, '0')}</span>
+              <h3 className="ledger-article__title">{it.title}</h3>
+              <div className="ledger-article__body">
+                <div>
+                  {it.text ? <p>{it.text}</p> : null}
+                  <p className="ledger-article__meta">
+                    {it.price ? <b>{it.price}</b> : null}
+                    {it.tag ? <span>{it.tag}</span> : null}
+                  </p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )
+}
+
+/** Дела — список слева, справа закреплённая «папка» со снимком дела под курсором (без скрипта — первое дело). */
+function Works({ section: s, site }: SectionProps<'works'>) {
+  return (
+    <section id={s.anchor || undefined} className="s s-works ledger-cases">
+      <div className="s__inner">
+        <div className="s__head">
+          {s.label ? <p className="s__label">{s.label}</p> : null}
+          {s.title ? <h2 className="s__title">{s.title}</h2> : null}
+        </div>
+        <div className="ledger-cases__body">
+          <ul className="ledger-cases__list">
+            {s.items.map((it, i) => (
+              <li key={i} className="ledger-case" tabIndex={0} style={{ ['--k' as string]: i }}>
+                <span className="ledger-case__meta">
+                  {it.category} · {it.year}
+                </span>
+                <h3 className="ledger-case__title">{it.title}</h3>
+                {it.text ? <p className="ledger-case__text">{it.text}</p> : null}
+                <div className="ledger-case__img">
+                  <Media src={it.image} alt={it.title} seed={`${site.slug}-w${i}`} colors={palette(site)} kind="grid" className="media" />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
   )
 }
@@ -124,5 +206,5 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
 export const template: TemplateDef = {
   ...meta,
   Shell,
-  sections: { hero: Hero },
+  sections: { hero: Hero, services: Services, works: Works },
 }
