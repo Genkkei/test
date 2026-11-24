@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, type CSSProperties, type ReactNode } from 'react'
 import { ShaderCanvas } from '@/motion/shader'
 
 /*
@@ -52,5 +52,47 @@ export function FitWord({ text, className }: { text: string; className: string }
     <p ref={ref} className={className} aria-hidden="true">
       {text}
     </p>
+  )
+}
+
+/**
+ * Лупа: круг с тем же снимком в 2,6 раза крупнее идёт за курсором по стене — смотреть мазок вблизи.
+ * Только мышь (hover:hover); на телефоне и при reduced-motion лупы нет, снимок просто стоит.
+ */
+export function Loupe({ src, className, style, children }: { src: string; className?: string; style?: CSSProperties; children: ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    const el = ref.current
+    if (!el || !src || !matchMedia('(hover: hover) and (pointer: fine)').matches || matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    let raf = 0
+    const move = (e: PointerEvent) => {
+      const r = el.getBoundingClientRect()
+      const x = (e.clientX - r.left) / r.width
+      const y = (e.clientY - r.top) / r.height
+      cancelAnimationFrame(raf)
+      raf = requestAnimationFrame(() => {
+        el.style.setProperty('--lx', `${(x * 100).toFixed(2)}%`)
+        el.style.setProperty('--ly', `${(y * 100).toFixed(2)}%`)
+        el.style.setProperty('--px', `${e.clientX - r.left}px`)
+        el.style.setProperty('--py', `${e.clientY - r.top}px`)
+      })
+    }
+    const on = () => el.classList.add('is-loupe')
+    const off = () => el.classList.remove('is-loupe')
+    el.addEventListener('pointermove', move)
+    el.addEventListener('pointerenter', on)
+    el.addEventListener('pointerleave', off)
+    return () => {
+      cancelAnimationFrame(raf)
+      el.removeEventListener('pointermove', move)
+      el.removeEventListener('pointerenter', on)
+      el.removeEventListener('pointerleave', off)
+    }
+  }, [src])
+  return (
+    <div ref={ref} className={className} style={style}>
+      {children}
+      {src ? <span className="gal-loupe" aria-hidden="true" style={{ backgroundImage: `url(${src.replace(/w=\d+/, 'w=2400')})` }} /> : null}
+    </div>
   )
 }

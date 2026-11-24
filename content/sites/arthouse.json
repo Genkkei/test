@@ -17,7 +17,8 @@
     "line": "#0a0a0a",
     "display": "Dela Gothic One",
     "body": "Onest",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "ArtGallery",
@@ -374,5 +375,24 @@
       "by": "Henrik Dønnestad",
       "url": "https://unsplash.com/@spaceboy?utm_source=atlas&utm_medium=referral"
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Белый куб: снимок мазка во всю стену, название галереи наезжает на него инверсией, курсор — лупа, через которую смотрят краску вблизи",
+    "display": "Dela Gothic One",
+    "text": "Onest",
+    "label": "Onest",
+    "skeleton": "wall-band-knockout",
+    "signature": "paint-loupe",
+    "sequence": [
+      "wall-wipe",
+      "name-knockout",
+      "now-on-view",
+      "title-lines",
+      "text",
+      "ctas",
+      "wall-label"
+    ],
+    "ease": "0.16,1,0.3,1",
+    "surface": "museum-label"
+  }
 }
