@@ -96,7 +96,7 @@
         "label": "Смотреть курсы",
         "href": "#courses"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29kZSUyMG9uJTIwc2NyZWVuJTIwbWFjcm8lMjBkYXJrfGVufDF8MHx8fDE3OTU1MDY4ODV8MA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "npm create app",
         "python3 main.py",
@@ -132,7 +132,7 @@
       "label": "О школе",
       "title": "Учим так, как работают в командах",
       "text": "«Ваша компания» открылась в IT Park в 2020 году. Преподают практикующие разработчики: днём они пишут код в продуктовых компаниях, вечером ведут группы. Каждый модуль заканчивается проектом с код-ревью, к концу курса у выпускника 4–6 работ на GitHub и опыт командной разработки по задачам.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1728023881214-1d71a7a30a01?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bGFwdG9wJTIwY29kZSUyMGRlc2slMjB0ZWFtJTIwd29ya3NwYWNlfGVufDF8MHx8fDE3OTU1MDY4ODl8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "courses",
@@ -368,5 +368,15 @@
       }
     }
   ],
-  "lang": "ru"
+  "lang": "ru",
+  "credits": [
+    {
+      "by": "Florian Olivo",
+      "url": "https://unsplash.com/@florianolv?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jakub Żerdzicki",
+      "url": "https://unsplash.com/@jakubzerdzicki?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

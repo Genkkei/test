@@ -92,7 +92,7 @@
         "label": "Релизы",
         "href": "#works"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1680214181393-ad6e1d41b62a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fHNuZWFrZXIlMjBzb2xlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTUwNjkxMHww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "anchor": "",
       "label": ""
@@ -129,7 +129,7 @@
           "text": "Пена, щётка, салфетка.",
           "price": 116000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1740908357963-f1ecc5ea3246?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8c25lYWtlciUyMGNsZWFuaW5nJTIwa2l0JTIwYnJ1c2h8ZW58MXwyfHx8MTc5NTUwNjkyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Уход",
           "badge": "",
           "unit": "набор"
@@ -139,7 +139,7 @@
           "text": "Хлопок с компрессией.",
           "price": 73000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1641482850218-7a2fed872551?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3BvcnQlMjBzb2Nrc3xlbnwxfDJ8fHwxNzk1NTA2OTI2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Уход",
           "badge": "",
           "unit": "набор"
@@ -149,7 +149,7 @@
           "text": "Поддержка свода.",
           "price": 155000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1691519965902-82b37b6d0a14?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c25lYWtlciUyMGNsZWFuaW5nJTIwa2l0JTIwYnJ1c2h8ZW58MXwyfHx8MTc5NTUwNjkyMXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Уход",
           "badge": "",
           "unit": "шт"
@@ -159,7 +159,7 @@
           "text": "Амортизация, сетка, 260 г.",
           "price": 1251000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fHJ1bm5pbmclMjBzaG9lJTIwZGV0YWlsfGVufDF8Mnx8fDE3OTU1MDY5MTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Бег",
           "badge": "Хит",
           "unit": "шт"
@@ -169,7 +169,7 @@
           "text": "Белые, резиновый носок.",
           "price": 572000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1586556694812-fdae68467216?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8c25lYWtlciUyMHNvbGUlMjBtYWNyb3xlbnwxfDB8fHwxNzk1NTA2OTEwfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Повседневные",
           "badge": "",
           "unit": "шт"
@@ -179,7 +179,7 @@
           "text": "Замша и сетка.",
           "price": 1057000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1680254418548-02c8ac7ffb6c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHNuZWFrZXIlMjBzb2xlJTIwbWFjcm98ZW58MXwwfHx8MTc5NTUwNjkxMHww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Повседневные",
           "badge": "Новинка",
           "unit": "шт"
@@ -189,7 +189,7 @@
           "text": "Протектор для гор.",
           "price": 1445000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1750493101721-72dbceafef2f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8cnVubmluZyUyMHNob2UlMjBkZXRhaWx8ZW58MXwyfHx8MTc5NTUwNjkxNnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Бег",
           "badge": "",
           "unit": "шт"
@@ -199,7 +199,7 @@
           "text": "Мягкая пена.",
           "price": 281000,
           "oldPrice": 337000,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1793993534085-5d1ecbf1647a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c2xpZGVzJTIwc2FuZGFsc3xlbnwxfDJ8fHwxNzk1NTA2OTMzfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Повседневные",
           "badge": "Скидка",
           "unit": "шт"
@@ -271,7 +271,7 @@
       "label": "Магазин",
       "title": "Без подделок и без перекупов",
       "text": "Мы начинали в 2019 году с одной полки и Instagram, сегодня — магазин в Magic City и сотни пар на стене. Каждую пару проверяем по швам, этикеткам и коду, редкие релизы продаём через розыгрыш — одна пара в одни руки. Хотите вернуть старым кроссовкам вид — у нас своя мастерская чистки.",
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1678266622924-c7c38ddc25e1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8c25lYWtlciUyMHN0b3JlJTIwd2FsbHxlbnwxfDB8fHwxNzk1NTA2OTM0fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -382,11 +382,11 @@
         },
         {
           "caption": "Стена магазина",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1652631631797-af8035ed38fd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHNuZWFrZXIlMjBzdG9yZSUyMHdhbGx8ZW58MXwwfHx8MTc5NTUwNjkzNHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Мастерская чистки",
-          "image": ""
+          "image": "https://images.unsplash.com/photo-1577467013205-d8f193c25a98?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8c25lYWtlciUyMGNsZWFuaW5nJTIwa2l0JTIwYnJ1c2h8ZW58MXwyfHx8MTc5NTUwNjkyMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Air Max Day",
@@ -465,5 +465,55 @@
     }
   ],
   "lang": "ru",
-  "updatedAt": ""
+  "updatedAt": "",
+  "credits": [
+    {
+      "by": "mokhalad musavi",
+      "url": "https://unsplash.com/@mokhalad?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "GoGoNano",
+      "url": "https://unsplash.com/@gogonano?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "The Happy Toe",
+      "url": "https://unsplash.com/@thehappytoe?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Harper Sunday",
+      "url": "https://unsplash.com/@harpersunday?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Imani Bahati",
+      "url": "https://unsplash.com/@imani_bht?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yucel M",
+      "url": "https://unsplash.com/@ymoran?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Aditya Sharma",
+      "url": "https://unsplash.com/@adityaspace?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "van asten maarten",
+      "url": "https://unsplash.com/@veuge?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ghavam Cheraghali",
+      "url": "https://unsplash.com/@ghavix?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Danist Soh",
+      "url": "https://unsplash.com/@danist07?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Claudio Schwarz",
+      "url": "https://unsplash.com/@purzlbaum?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lina Verovaya",
+      "url": "https://unsplash.com/@linaverovaya?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
