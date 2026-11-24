@@ -99,7 +99,7 @@
         "label": "Кейсы",
         "href": "#works"
       },
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1545431613-51ec097943c6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBwcmlzbSUyMGxpZ2h0JTIwcmVmcmFjdGlvbnxlbnwxfDB8fHwxNzk1NTExMDE0fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop"
     },
     {
       "id": "mq",
@@ -128,7 +128,7 @@
       "label": "Компания",
       "title": "Мы — инженерная команда, которая отвечает не за часы, а за результат продукта.",
       "text": "40 инженеров, дизайнеров и аналитиков в Ташкенте. Работаем короткими итерациями по две недели, каждую пятницу показываем рабочую сборку. Код, инфраструктура и данные принадлежат вам с первого дня: репозиторий в вашем аккаунте, документация — в процессе, а не после.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1676276374803-36e48196d5ac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c29mdHdhcmUlMjB0ZWFtJTIwd2hpdGVib2FyZCUyMHBsYW5uaW5nfGVufDF8MHx8fDE3OTU1MTEwMTh8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -178,7 +178,7 @@
           "category": "LLM, поддержка",
           "year": "2026",
           "text": "ИИ-оператор колл-центра телеком-оператора: закрывает 62% обращений без человека.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1691256676376-357c3aa66c89?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bW9iaWxlJTIwYXBwJTIwaW50ZXJmYWNlJTIwaGFuZHxlbnwxfDJ8fHwxNzk1NTExMDIxfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -186,7 +186,7 @@
           "category": "SaaS, логистика",
           "year": "2025",
           "text": "Платформа управления складами для 120 дистрибьюторов региона.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1691480263262-869d2cf4d318?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8bW9iaWxlJTIwYXBwJTIwaW50ZXJmYWNlJTIwaGFuZHxlbnwxfDJ8fHwxNzk1NTExMDIxfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -194,7 +194,7 @@
           "category": "Mobile, финтех",
           "year": "2025",
           "text": "Кошелёк с P2P-переводами и оплатой по QR, 800 тысяч установок.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1740591834802-9926770cd1c2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vYmlsZSUyMGFwcCUyMGludGVyZmFjZSUyMGhhbmR8ZW58MXwyfHx8MTc5NTUxMTAyMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -202,7 +202,7 @@
           "category": "Computer Vision",
           "year": "2024",
           "text": "Распознавание рентгеновских снимков как второе мнение для врачей.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1529088148495-2d9f231db829?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fG1vYmlsZSUyMGFwcCUyMGludGVyZmFjZSUyMGhhbmR8ZW58MXwyfHx8MTc5NTUxMTAyMXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -210,7 +210,7 @@
           "category": "Data, аналитика",
           "year": "2024",
           "text": "Прогноз спроса для розничной сети из 300 магазинов.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1567473030733-7fe7286a70fd?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8bW9iaWxlJTIwYXBwJTIwaW50ZXJmYWNlJTIwaGFuZHxlbnwxfDJ8fHwxNzk1NTExMDIxfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -345,5 +345,31 @@
     "description": "Сайт для IT-компании, разработчика ИИ-продуктов или SaaS. Стеклянная сфера с радужной дисперсией, стена слов-дисциплин, карусель кейсов в перспективе — технологичный образ без шаблонности.",
     "features": [],
     "forSale": true
-  }
+  },
+  "credits": [
+    {
+      "by": "Sean Sinclair",
+      "url": "https://unsplash.com/@seanwsinclair?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Walls.io",
+      "url": "https://unsplash.com/@walls_io?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "personalgraphic.com",
+      "url": "https://unsplash.com/@personal_graphic?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jakub Żerdzicki",
+      "url": "https://unsplash.com/@jakubzerdzicki?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marianne Krohn",
+      "url": "https://unsplash.com/@marianne_krohn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "erica steeves",
+      "url": "https://unsplash.com/@ecees?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

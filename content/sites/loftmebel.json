@@ -104,7 +104,7 @@
         "label": "Каталог",
         "href": "#catalog"
       },
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1706288529082-6c3bc1807e6d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aW5kdXN0cmlhbCUyMGxvZnQlMjBmdXJuaXR1cmUlMjBzdGVlbCUyMHdvb2R8ZW58MXwwfHx8MTc5NTUxMTA0Nnww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "words": [
         "Сталь 40×40 мм",
         "Массив дуба и карагача",
@@ -144,7 +144,7 @@
           "text": "Массив дуба, масло-воск.",
           "price": 5670000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1751076605132-b4172bb8c6a4?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGxvZnQlMjBtZXRhbCUyMHdvb2QlMjBmdXJuaXR1cmV8ZW58MXwyfHx8MTc5NTUxMTA1MXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "Хит",
           "unit": "шт"
@@ -154,7 +154,7 @@
           "text": "Бук, мягкое сиденье.",
           "price": 724000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1706288529091-b9c6a00a5352?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8aW5kdXN0cmlhbCUyMGxvZnQlMjBmdXJuaXR1cmUlMjBzdGVlbCUyMHdvb2R8ZW58MXwwfHx8MTc5NTUxMTA0Nnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кресла и стулья",
           "badge": "",
           "unit": "шт"
@@ -164,7 +164,7 @@
           "text": "Шпон ореха, 80 см.",
           "price": 1995000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1631939889878-65c156255241?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGluZHVzdHJpYWwlMjBsb2Z0JTIwZnVybml0dXJlJTIwc3RlZWwlMjB3b29kfGVufDF8MHx8fDE3OTU1MTEwNDZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Столы",
           "badge": "",
           "unit": "шт"
@@ -174,7 +174,7 @@
           "text": "Доводчики, ЛДСП + дуб.",
           "price": 2835000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1667892702933-ec900d024fac?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGxvZnQlMjBtZXRhbCUyMHdvb2QlMjBmdXJuaXR1cmV8ZW58MXwyfHx8MTc5NTUxMTA1MXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -184,7 +184,7 @@
           "text": "Пять полок, металл и дерево.",
           "price": 1680000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1653067537163-08f8a37c8c2a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fGxvZnQlMjBtZXRhbCUyMHdvb2QlMjBmdXJuaXR1cmV8ZW58MXwyfHx8MTc5NTUxMTA1MXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "Новинка",
           "unit": "шт"
@@ -194,7 +194,7 @@
           "text": "Массив сосны, ортопедическое основание.",
           "price": 5040000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1609740700001-a0eef106241b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fGluZHVzdHJpYWwlMjBsb2Z0JTIwZnVybml0dXJlJTIwc3RlZWwlMjB3b29kfGVufDF8MHx8fDE3OTU1MTEwNDZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кровати",
           "badge": "Хит",
           "unit": "шт"
@@ -204,7 +204,7 @@
           "text": "Ящик и ниша.",
           "price": 830000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1667892703018-cff173f4b820?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8bG9mdCUyMG1ldGFsJTIwd29vZCUyMGZ1cm5pdHVyZXxlbnwxfDJ8fHwxNzk1NTExMDUxfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -214,7 +214,7 @@
           "text": "Фасады с рифлением, скрытый кабель-канал.",
           "price": 3255000,
           "oldPrice": 0,
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1745635621480-6a258cc1b1a2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8bG9mdCUyMG1ldGFsJTIwd29vZCUyMGZ1cm5pdHVyZXxlbnwxfDJ8fHwxNzk1NTExMDUxfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Хранение",
           "badge": "",
           "unit": "шт"
@@ -229,7 +229,7 @@
       "label": "О цехе",
       "title": "Мебель здесь варят, а не собирают из коробки",
       "text": "У нас свой цех в Сергели: сварочные посты, покрасочная камера и столярный участок. Каркас из профильной трубы 40×40 мм проваривается целиком и покрывается порошковой краской, столешница — массив дуба или карагача толщиной 40 мм под маслом. Поэтому стол не шатается через год, а стул выдерживает кафе с утра до ночи.",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1608126841512-ed53266c1d62?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8bWV0YWwlMjB3b3Jrc2hvcCUyMHdlbGRpbmclMjBmdXJuaXR1cmV8ZW58MXwwfHx8MTc5NTUxMTA1NXww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "catalog",
@@ -297,7 +297,7 @@
           "category": "Кафе",
           "year": "40 посадочных мест",
           "text": "Барная стойка, 12 столов и 40 стульев за пять недель.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1770991966683-472a770d0ebf?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8aW5kdXN0cmlhbCUyMGNhZmUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzk1NTExMDU5fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -305,7 +305,7 @@
           "category": "Офис",
           "year": "60 рабочих мест",
           "text": "Рабочие столы с кабель-каналами, стеллажи-перегородки, переговорная.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1762754104761-0f78181da3d3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fGluZHVzdHJpYWwlMjBjYWZlJTIwaW50ZXJpb3J8ZW58MXwwfHx8MTc5NTUxMTA1OXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -313,7 +313,7 @@
           "category": "Дом",
           "year": "120 м²",
           "text": "Обеденная зона, кухонный остров и библиотека во всю стену.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1740446569140-132d1bc0ebe5?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8aW5kdXN0cmlhbCUyMGxvZnQlMjBmdXJuaXR1cmUlMjBzdGVlbCUyMHdvb2R8ZW58MXwwfHx8MTc5NTUxMTA0Nnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -321,7 +321,7 @@
           "category": "Кафе",
           "year": "28 посадочных мест",
           "text": "Скамьи вдоль стен, барные стулья и стойка выдачи заказов.",
-          "image": "",
+          "image": "https://images.unsplash.com/photo-1563891315366-4606cd73a33f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8aW5kdXN0cmlhbCUyMHJlc3RhdXJhbnQlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzk1NTExMDYzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -453,6 +453,56 @@
         "label": "Оставить заявку",
         "href": "#order"
       }
+    }
+  ],
+  "credits": [
+    {
+      "by": "Jason Leung",
+      "url": "https://unsplash.com/@ninjason?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yuda Laurensius",
+      "url": "https://unsplash.com/@yudalaurensius_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Hans",
+      "url": "https://unsplash.com/@hansphoto?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "apryan widodo",
+      "url": "https://unsplash.com/@apryan_cahyo?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Raphael Fernandes",
+      "url": "https://unsplash.com/@rphfs?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sunguk Kim",
+      "url": "https://unsplash.com/@sunyu?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "kofa boyah",
+      "url": "https://unsplash.com/@kofaboyah?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Syd Mills",
+      "url": "https://unsplash.com/@sydmills?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Haberdoedas",
+      "url": "https://unsplash.com/@haberdoedas?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Syauqy Ayyash",
+      "url": "https://unsplash.com/@syauqyayyash?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jonathan Borba",
+      "url": "https://unsplash.com/@jonathanborba?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lindsey LaMont",
+      "url": "https://unsplash.com/@travelpen?utm_source=atlas&utm_medium=referral"
     }
   ]
 }
