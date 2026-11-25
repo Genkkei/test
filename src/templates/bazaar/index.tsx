@@ -145,7 +145,35 @@ function Shell({ site, children }: { site: Site; children: React.ReactNode }) {
   )
 }
 
+/* Пиала, в которую чай наливают и возвращают в чайник трижды — «чтобы заварился» (ведущий приём сайта). */
+function Piala() {
+  return (
+    <svg className="bazaar-piala" viewBox="0 0 120 96" aria-hidden="true">
+      <defs>
+        <clipPath id="bazaar-bowl">
+          <path d="M14 40 H106 C104 66 86 84 60 84 C34 84 16 66 14 40 Z" />
+        </clipPath>
+      </defs>
+      <g className="bazaar-piala__steam">
+        <path d="M46 30 C40 22 52 16 46 6" pathLength="1" />
+        <path d="M60 32 C54 22 66 16 60 4" pathLength="1" />
+        <path d="M74 30 C68 22 80 16 74 6" pathLength="1" />
+      </g>
+      <path d="M14 40 H106 C104 66 86 84 60 84 C34 84 16 66 14 40 Z M44 84 H76 L72 92 H48 Z" fill="#fffaf0" />
+      <g clipPath="url(#bazaar-bowl)">
+        <rect className="bazaar-piala__tea" x="0" y="40" width="120" height="50" />
+      </g>
+      <path className="bazaar-piala__bowl" d="M14 40 H106 C104 66 86 84 60 84 C34 84 16 66 14 40 Z M44 84 H76 L72 92 H48 Z" />
+      <path className="bazaar-piala__rim" d="M22 48 H98" />
+    </svg>
+  )
+}
+
 function Hero({ section: s, site }: SectionProps<'hero'>) {
+  // название — целыми словами: кегль считается от самого длинного слова, чтобы не было «компа-ния»
+  const title = s.title || site.name
+  const words = title.split(/\s+/).filter(Boolean)
+  const longest = Math.max(4, ...words.map((w) => w.length))
   return (
     <section id={s.anchor || undefined} className="s s-hero bazaar-hero">
       <div className="bazaar-hero__inner">
@@ -155,8 +183,12 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
               {s.eyebrow}
             </p>
           ) : null}
-          <h1 className="bazaar-hero__title">
-            <span data-split="chars">{s.title || site.name}</span>
+          <h1 className="bazaar-hero__title" aria-label={title} style={{ ['--len' as string]: longest }}>
+            {words.map((w, i) => (
+              <span key={i} className="bazaar-word" aria-hidden="true">
+                <span style={{ ['--i' as string]: i }}>{w}</span>
+              </span>
+            ))}
           </h1>
           {s.words.length ? (
             <p className="bazaar-hero__today bazaar-in" style={{ ['--d' as string]: '.6s' }}>
@@ -183,6 +215,7 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
         </div>
         <div className="bazaar-hero__arch">
           <Rosette className="bazaar-hero__rosette" />
+          <Piala />
           <figure className="bazaar-arch bazaar-in" style={{ ['--d' as string]: '.3s' }} data-parallax="0.08">
             <Media src={s.image} alt={s.title || site.name} seed={`${site.slug}-hero`} colors={palette(site)} kind="waves" className="media" />
           </figure>
