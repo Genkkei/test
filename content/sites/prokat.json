@@ -103,7 +103,7 @@
         "label": "Прайс",
         "href": "#price"
       },
-      "image": "/media/prokat-40efb76fbcd90f696eed.webp",
+      "image": "https://images.unsplash.com/photo-1695770264997-d1081a4a45b0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjJ8fHN0ZWVsJTIwcGlwZXMlMjBzdGFjayUyMHdhcmVob3VzZXxlbnwxfDB8fHwxNzk1NTc0MDU2fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true,
       "video": "/media/prokat-f87aad54d46136e05156.mp4"
     },
@@ -121,7 +121,7 @@
           "text": "Пачка 5 кг.",
           "price": 209000,
           "oldPrice": 0,
-          "image": "/media/prokat-aeda8e4a62f61b68dee1.webp",
+          "image": "https://images.unsplash.com/photo-1756781231345-39836a6d5684?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjF8fHN0ZWVsJTIwcGlwZXMlMjBzdGFjayUyMHdhcmVob3VzZXxlbnwxfDB8fHwxNzk1NTc0MDU2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Арматура и уголок",
           "badge": "",
           "unit": "шт"
@@ -131,7 +131,7 @@
           "text": "Чёрная сталь, хлыст 6 м.",
           "price": 25000,
           "oldPrice": 0,
-          "image": "/media/prokat-d4b9b8c40f9307ce4d2c.webp",
+          "image": "https://images.unsplash.com/photo-1490340254406-a0354b3cedc0?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8c3RlZWwlMjBwcm9maWxlJTIwdHViZSUyMHJlYmFyJTIwc2hlZXQlMjBtZXRhbHxlbnwxfDJ8fHwxNzk1NTc0MDYyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Труба",
           "badge": "Хит",
           "unit": "м"
@@ -141,7 +141,7 @@
           "text": "Для навесов и ворот.",
           "price": 42000,
           "oldPrice": 0,
-          "image": "/media/prokat-12b9bcf13cb23e10ed24.webp",
+          "image": "https://images.unsplash.com/photo-1600474848646-0142057eb600?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBwcm9maWxlJTIwdHViZSUyMHJlYmFyJTIwc2hlZXQlMjBtZXRhbHxlbnwxfDJ8fHwxNzk1NTc0MDYyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Труба",
           "badge": "",
           "unit": "м"
@@ -151,7 +151,7 @@
           "text": "Столбы и несущие конструкции.",
           "price": 87000,
           "oldPrice": 0,
-          "image": "/media/prokat-7b6aaf6a3d6fe06fde9c.webp",
+          "image": "https://images.unsplash.com/photo-1665724013155-eed51dd7cfa7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8c3RlZWwlMjBwaXBlcyUyMHN0YWNrJTIwd2FyZWhvdXNlfGVufDF8MHx8fDE3OTU1NzQwNTZ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Труба",
           "badge": "",
           "unit": "м"
@@ -161,7 +161,7 @@
           "text": "1250×2500 мм.",
           "price": 759000,
           "oldPrice": 0,
-          "image": "/media/prokat-903012d556fc96edd492.webp",
+          "image": "https://images.unsplash.com/photo-1516087166254-87e9bbf131ad?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8c3RlZWwlMjBwcm9maWxlJTIwdHViZSUyMHJlYmFyJTIwc2hlZXQlMjBtZXRhbHxlbnwxfDJ8fHwxNzk1NTc0MDYyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Лист",
           "badge": "",
           "unit": "лист"
@@ -171,7 +171,7 @@
           "text": "1250×2500 мм, для кровли.",
           "price": 341000,
           "oldPrice": 0,
-          "image": "/media/prokat-2fd74e3cc1762dba6f8a.webp",
+          "image": "https://images.unsplash.com/photo-1785268974308-54267b0b0d2f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTZ8fHN0ZWVsJTIwcHJvZmlsZSUyMHR1YmUlMjByZWJhciUyMHNoZWV0JTIwbWV0YWx8ZW58MXwyfHx8MTc5NTU3NDA2Mnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Лист",
           "badge": "",
           "unit": "лист"
@@ -181,7 +181,7 @@
           "text": "Рифлёная, хлыст 11,7 м.",
           "price": 10800,
           "oldPrice": 0,
-          "image": "/media/prokat-28018137347948ec0810.webp",
+          "image": "https://images.unsplash.com/photo-1575286065736-2002d2b2f441?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8c3RlZWwlMjBwcm9maWxlJTIwdHViZSUyMHJlYmFyJTIwc2hlZXQlMjBtZXRhbHxlbnwxfDJ8fHwxNzk1NTc0MDYyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Арматура и уголок",
           "badge": "Хит",
           "unit": "м"
@@ -191,7 +191,7 @@
           "text": "Равнополочный, 6 м.",
           "price": 37000,
           "oldPrice": 0,
-          "image": "/media/prokat-bb1c181989f0472f7ff0.webp",
+          "image": "https://images.unsplash.com/photo-1606585728636-2e20d31bc369?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8c3RlZWwlMjBwcm9maWxlJTIwdHViZSUyMHJlYmFyJTIwc2hlZXQlMjBtZXRhbHxlbnwxfDJ8fHwxNzk1NTc0MDYyfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Арматура и уголок",
           "badge": "",
           "unit": "м"
@@ -205,7 +205,7 @@
       "label": "О базе",
       "title": "Склад под открытым небом и цех порезки в одном месте",
       "text": "На площадке в Сергели держим ходовой прокат в наличии: трубы от 15×15 до 120×120, лист от 0,5 до 10 мм, арматуру и сортовой металл. Рядом — ленточная пила, гильотина и листогиб, поэтому заказ уходит уже нарезанным. Продаём и частникам на один навес, и бригадам на объект.",
-      "image": "/media/prokat-f9deddf1013531642645.webp",
+      "image": "https://images.unsplash.com/photo-1763926062529-1edf8664c366?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWV0YWwlMjB3YXJlaG91c2UlMjBjdXR0aW5nfGVufDF8MHx8fDE3OTU1NzQwNzB8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true,
       "video": "/media/prokat-e6efabcaa372c7a96c26.mp4"
     },
@@ -450,5 +450,43 @@
     ],
     "ease": "0.66,0,0.01,1",
     "surface": "departure-board"
-  }
+  },
+  "credits": [
+    {
+      "by": "Travis Leery",
+      "url": "https://unsplash.com/@jersey_photos?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sarthak Sachdeva",
+      "url": "https://unsplash.com/@sarthaksachdeva?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ricardo Gomez Angel",
+      "url": "https://unsplash.com/@rgaleriacom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rafik Wahba",
+      "url": "https://unsplash.com/@rafikwahba?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mihail Tregubov",
+      "url": "https://unsplash.com/@tregubov?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Richard Williams",
+      "url": "https://unsplash.com/@richardjw?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nakaharu Line",
+      "url": "https://unsplash.com/@rissun_line?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sam Moghadam",
+      "url": "https://unsplash.com/@sammoghadam?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Zoshua Colah",
+      "url": "https://unsplash.com/@zoshuacolah?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
