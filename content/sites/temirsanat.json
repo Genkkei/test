@@ -104,7 +104,7 @@
         "label": "Проекты",
         "href": "#projects"
       },
-      "image": "/media/temirsanat-f07f20f3de9f19bf17bc.webp",
+      "image": "https://images.unsplash.com/photo-1784119068518-9618ec00443d?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8Y29ydGVuJTIwc3RlZWwlMjBzY3VscHR1cmV8ZW58MXwwfHx8MTc5NTU4MjU2NHww&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -137,7 +137,7 @@
           "text": "На шесть бутылок.",
           "price": 491000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-df613cfa52586632b48b.webp",
+          "image": "https://images.unsplash.com/photo-1562952882-60e28c621020?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWV0YWwlMjB3aW5lJTIwYm90dGxlJTIwaG9sZGVyfGVufDF8Mnx8fDE3OTU1ODI1NzB8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "Новинка",
           "unit": "шт"
@@ -147,7 +147,7 @@
           "text": "Кованое кольцо и цепь.",
           "price": 316000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-8d8681a45d85d0bc786b.webp",
+          "image": "https://images.unsplash.com/photo-1593088177922-aa1c5055c7b1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8aGFuZ2luZyUyMG1ldGFsJTIwcGxhbnRlcnxlbnwxfDJ8fHwxNzk1NTgyNTczfDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -157,7 +157,7 @@
           "text": "Лазерная резка, ваш номер.",
           "price": 382000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-37e6832782a248e69a55.webp",
+          "image": "https://images.unsplash.com/photo-1747862697891-8b276fc86a79?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aG91c2UlMjBudW1iZXIlMjBzaWduJTIwbWV0YWx8ZW58MXwyfHx8MTc5NTU4MjU3Nnww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "Хит",
           "unit": "шт"
@@ -167,7 +167,7 @@
           "text": "Кортен, 90×45 см.",
           "price": 1308000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-3fbe8f9be991b4543f36.webp",
+          "image": "https://images.unsplash.com/photo-1575538040138-59b9f62044d7?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8bWV0YWwlMjB3YWxsJTIwYXJ0fGVufDF8Mnx8fDE3OTU1ODI1OTl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "",
           "unit": "шт"
@@ -177,7 +177,7 @@
           "text": "Подарок, который не вянет.",
           "price": 174000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-74734f23905e555f42a1.webp",
+          "image": "https://images.unsplash.com/photo-1647381191370-d4cd7b8ba4e8?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8bWV0YWwlMjByb3NlJTIwc2N1bHB0dXJlfGVufDF8Mnx8fDE3OTU1ODI2MDJ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Подарки",
           "badge": "Хит",
           "unit": "шт"
@@ -187,7 +187,7 @@
           "text": "Металл и сосна, 150 см.",
           "price": 2834000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-aa0de80de98cd887790c.webp",
+          "image": "https://images.unsplash.com/photo-1739926712147-01f8d3ba2d61?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8d3JvdWdodCUyMGlyb24lMjBnYXJkZW4lMjBiZW5jaHxlbnwxfDJ8fHwxNzk1NTgyNTc5fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Для сада",
           "badge": "",
           "unit": "шт"
@@ -197,7 +197,7 @@
           "text": "Узор «Классика», монтаж отдельно.",
           "price": 1199000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-76e82e43ef39176e98c7.webp",
+          "image": "https://images.unsplash.com/photo-1774272843376-4fb49e188c9a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8d3JvdWdodCUyMGlyb24lMjByYWlsaW5nfGVufDF8Mnx8fDE3OTU1ODI1ODF8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "",
           "unit": "м"
@@ -207,7 +207,7 @@
           "text": "На три свечи, ручная ковка.",
           "price": 425000,
           "oldPrice": 0,
-          "image": "/media/temirsanat-955c46ad254ae0bcebbf.webp",
+          "image": "https://images.unsplash.com/photo-1657648021741-951ca6482e2f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8aXJvbiUyMGNhbmRsZSUyMGhvbGRlcnxlbnwxfDJ8fHwxNzk1NTgyNTg1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Декор",
           "badge": "Хит",
           "unit": "шт"
@@ -221,7 +221,7 @@
       "label": "Студия",
       "title": "Мы делаем металл, на который смотрят",
       "text": "В студии работают скульптор, конструктор и шесть мастеров. Мы начинаем с места: где встанет объект, откуда на него будут смотреть, как на нём ляжет вечерний свет. Затем делаем макет в масштабе, считаем ветровую нагрузку и только потом режем металл.",
-      "image": "/media/temirsanat-b137d327bb3035e165b4.webp",
+      "image": "https://images.unsplash.com/photo-1684103483574-b241e91cd4ff?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8Y29ydGVuJTIwc3RlZWwlMjBzY3VscHR1cmV8ZW58MXwwfHx8MTc5NTU4MjU2NHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -236,7 +236,7 @@
           "category": "Парк · кортен",
           "year": "2026",
           "text": "Пять листов-скульптур высотой до 3,2 м вдоль прогулочной аллеи.",
-          "image": "/media/temirsanat-c6b7b99d85d8c766a6d3.webp",
+          "image": "https://images.unsplash.com/photo-1662499963151-f75f77a845d3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8Y29ydGVuJTIwc3RlZWwlMjBzY3VscHR1cmV8ZW58MXwwfHx8MTc5NTU4MjU2NHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -244,7 +244,7 @@
           "category": "Навигация · нержавейка",
           "year": "2025",
           "text": "Шестиметровая стела с подсветкой и сменными табличками арендаторов.",
-          "image": "/media/temirsanat-125cc626ca08476ed165.webp",
+          "image": "https://images.unsplash.com/photo-1780408059647-0a032a21a5e2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RlZWwlMjBzY3VscHR1cmUlMjBwdWJsaWMlMjBwYXJrfGVufDF8MHx8fDE3OTU1ODI1ODh8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -252,7 +252,7 @@
           "category": "ТРЦ · латунь и сталь",
           "year": "2025",
           "text": "Объёмное сердце из 480 пластин, которое собирает очередь из желающих сфотографироваться.",
-          "image": "/media/temirsanat-ac3269f51c92300e2fef.webp",
+          "image": "https://images.unsplash.com/photo-1646566418794-a0ef2c22c9be?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8Y29ydGVuJTIwc3RlZWwlMjBzY3VscHR1cmV8ZW58MXwwfHx8MTc5NTU4MjU2NHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -260,7 +260,7 @@
           "category": "Интерьер · латунь",
           "year": "2024",
           "text": "Стена 12 метров с орнаментом сюзане, вырезанным лазером.",
-          "image": "/media/temirsanat-d28e2c4ad6a185858446.webp",
+          "image": "https://images.unsplash.com/photo-1729033143711-8e3bfdfde286?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8Y29ydGVuJTIwc3RlZWwlMjBzY3VscHR1cmV8ZW58MXwwfHx8MTc5NTU4MjU2NHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ],
@@ -275,19 +275,19 @@
       "items": [
         {
           "caption": "Макет «Ржавого сада», 1:20",
-          "image": "/media/temirsanat-5637237b534d32f96d19.webp"
+          "image": "https://images.unsplash.com/photo-1727413433452-b5c4b6367416?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d2VsZGluZyUyMHNwYXJrcyUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1ODI1OTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сварка каркаса стелы",
-          "image": "/media/temirsanat-b407703028a2066f5ee8.webp"
+          "image": "https://images.unsplash.com/photo-1615990860014-99e51245218c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8d2VsZGluZyUyMHNwYXJrcyUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1ODI1OTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Патинирование кортена",
-          "image": "/media/temirsanat-6e7ab71de68421e79632.webp"
+          "image": "https://images.unsplash.com/photo-1782922160880-1956da2c142a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8d2VsZGluZyUyMHNwYXJrcyUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1ODI1OTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Монтаж ночью в ТРЦ",
-          "image": "/media/temirsanat-254b715e51d5fe8e3bd1.webp"
+          "image": "https://images.unsplash.com/photo-1726421690313-2e0519335b82?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8d2VsZGluZyUyMHNwYXJrcyUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1ODI1OTF8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -431,5 +431,79 @@
     ],
     "ease": "0.19,1,0.22,1",
     "surface": "object-passport"
-  }
+  },
+  "credits": [
+    {
+      "by": "Sebastian Dario",
+      "url": "https://unsplash.com/@sebag_23?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Kushal Ashok",
+      "url": "https://unsplash.com/@kushalashok?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Natural Goods Berlin",
+      "url": "https://unsplash.com/@naturalgoodsberlin?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Haberdoedas",
+      "url": "https://unsplash.com/@haberdoedas?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Ricardo Gomez Angel",
+      "url": "https://unsplash.com/@rgaleriacom?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Daniel Ahmadi",
+      "url": "https://unsplash.com/@fauxhealler?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jonathan Lim",
+      "url": "https://unsplash.com/@jonathankslim?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Rethanyaa Prabakar",
+      "url": "https://unsplash.com/@rethanyaa_?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Sandip Jana",
+      "url": "https://unsplash.com/@sandipj?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Marco Rodrigues",
+      "url": "https://unsplash.com/@macrodrigues?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Yucel M",
+      "url": "https://unsplash.com/@ymoran?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Charlie Solorzano",
+      "url": "https://unsplash.com/@csolorzanoe?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Luismi Sánchez",
+      "url": "https://unsplash.com/@luismisanchez?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tonia Kraakman",
+      "url": "https://unsplash.com/@tototosia?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Tahamie Farooqui",
+      "url": "https://unsplash.com/@tami171091?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mostafa mahmoudi",
+      "url": "https://unsplash.com/@mostafa_mahmoudi24?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Reilly Cook",
+      "url": "https://unsplash.com/@reillycook?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lorin Both",
+      "url": "https://unsplash.com/@lorinboth?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

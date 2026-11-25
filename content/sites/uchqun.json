@@ -130,7 +130,7 @@
       "label": "О нас",
       "title": "Варим с 2015 года, теперь ещё и ловим солнце",
       "text": "Начинали со сварки ворот и заборов на выезде. Клиенты всё чаще просили навесы, а затем — поставить на них солнечные панели. Теперь считаем нагрузку от панелей и ветра, варим каркас из трубы 80×80 и монтируем станцию вместе с партнёрами-электриками.",
-      "image": "/media/uchqun-43cbdd48ccaca8fe6373.webp"
+      "image": "https://images.unsplash.com/photo-1668140736531-d23950307b3c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Nnx8d2VsZGVyJTIwd29ya2luZ3xlbnwxfDB8fHwxNzk1NTgyNjIyfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -280,19 +280,19 @@
       "items": [
         {
           "caption": "Солнечный навес на 2 машины, Янгихаёт",
-          "image": "/media/uchqun-692506426e3dbef1b3f4.webp"
+          "image": "https://images.unsplash.com/photo-1766848834878-8278605cb754?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fG1vZGVybiUyMGNhcnBvcnR8ZW58MXwwfHx8MTc5NTQ4MjA4M3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Навес террасы с поликарбонатом",
-          "image": "/media/uchqun-eb8795d5586ad9926217.webp"
+          "image": "https://images.unsplash.com/photo-1770756051811-1612ac8bedfa?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8bW9kZXJuJTIwY2FycG9ydHxlbnwxfDB8fHwxNzk1NDgyMDgzfDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Парковка магазина на 8 мест",
-          "image": "/media/uchqun-4439d40187b718fb5af8.webp"
+          "image": "https://images.unsplash.com/photo-1660330589257-813305a4a383?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c29sYXIlMjBwYW5lbHMlMjByb29mJTIwaW5zdGFsbGF0aW9ufGVufDF8MHx8fDE3OTU1Mjc2MTB8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Сварка ворот на выезде",
-          "image": "/media/uchqun-901e8cdf6f9d515a756c.webp"
+          "image": "https://images.unsplash.com/photo-1694248581706-a645f65a2f27?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8c29sYXIlMjBwYW5lbCUyMG1hY3JvJTIwc3VubGlnaHR8ZW58MXwwfHx8MTc5NTUyNzYwN3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -372,5 +372,27 @@
     ],
     "ease": "0.45,0,0.35,1",
     "surface": "roof-section-card"
-  }
+  },
+  "credits": [
+    {
+      "by": "Heber Davis",
+      "url": "https://unsplash.com/@heberdavisphotography?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Esphera ArqEng",
+      "url": "https://unsplash.com/@espheraarqeng?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "GoodLifeConstruction",
+      "url": "https://unsplash.com/@goodlifeconstruction?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Raze Solar",
+      "url": "https://unsplash.com/@razesolar?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Michael Pointner",
+      "url": "https://unsplash.com/@pino_rumbero?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
