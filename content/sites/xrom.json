@@ -132,7 +132,7 @@
       "label": "О цехе",
       "title": "Делаем то, что потом трогают каждый день",
       "text": "Поручень — единственная деталь интерьера, которую держат в руке. Поэтому шлифуем сварные швы до невидимости, скругляем торцы и ставим заглушки, а стойки крепим химическими анкерами. Работаем с частными домами, ЖК и ресторанами Мирабада и всего Ташкента.",
-      "image": "/media/xrom-73d90499b0129fd825ec.webp"
+      "image": "https://images.unsplash.com/photo-1608126841830-53832c4b326f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8c3RhaW5sZXNzJTIwc3RlZWwlMjBtZXRhbCUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTU1ODcwNjB8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "services",
@@ -188,7 +188,7 @@
           "category": "Лестница, 3 этажа",
           "year": "6 дней",
           "text": "Стекло на точечных держателях и зеркальный поручень по всей высоте.",
-          "image": "/media/xrom-04f576ffb982db9a0a2b.webp",
+          "image": "https://images.unsplash.com/photo-1646281769704-a7506d2e080b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c3RhaW5sZXNzJTIwc3RlZWwlMjByYWlsaW5nJTIwZ2xhc3N8ZW58MXwwfHx8MTc5NTU4NzA1N3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -196,7 +196,7 @@
           "category": "Балконы, 48 шт.",
           "year": "3 недели",
           "text": "Ограждения с перфолистом, одинаковые на всех этажах фасада.",
-          "image": "/media/xrom-67af7dc772dde5f884c8.webp",
+          "image": "https://images.unsplash.com/photo-1611466982494-f81187793a7b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8c3RhaW5sZXNzJTIwc3RlZWwlMjByYWlsaW5nJTIwZ2xhc3N8ZW58MXwwfHx8MTc5NTU4NzA1N3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -204,7 +204,7 @@
           "category": "Антресоль",
           "year": "8 дней",
           "text": "Матовая нержавейка с латунными вставками под интерьер зала.",
-          "image": "/media/xrom-c435848f10c62633a2df.webp",
+          "image": "https://images.unsplash.com/photo-1603324495752-c08519fb18db?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8c3RhaW5sZXNzJTIwc3RlZWwlMjByYWlsaW5nJTIwZ2xhc3N8ZW58MXwwfHx8MTc5NTU4NzA1N3ww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -212,7 +212,7 @@
           "category": "Поручни, 120 м",
           "year": "5 дней",
           "text": "Двухуровневые поручни вдоль коридоров для пациентов.",
-          "image": "/media/xrom-4341168de35b042092bd.webp",
+          "image": "https://images.unsplash.com/photo-1597121593334-031c798785ec?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHN0YWlubGVzcyUyMHN0ZWVsJTIwcmFpbGluZyUyMGdsYXNzfGVufDF8MHx8fDE3OTU1ODcwNTd8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ]
@@ -379,5 +379,27 @@
     ],
     "ease": "0.5,0,0.3,1",
     "surface": "brushed-plate"
-  }
+  },
+  "credits": [
+    {
+      "by": "Syd Mills",
+      "url": "https://unsplash.com/@sydmills?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lucia Serone",
+      "url": "https://unsplash.com/@ls_photos05?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "A65 Design",
+      "url": "https://unsplash.com/@huutin23?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Andy Vult",
+      "url": "https://unsplash.com/@andyvult?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jan Canty",
+      "url": "https://unsplash.com/@jcanty123?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
