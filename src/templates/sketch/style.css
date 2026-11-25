@@ -64,6 +64,12 @@
 .tpl-sketch .sketch-sheet__photo { -webkit-mask: radial-gradient(circle at 52% 58%, #000 calc(var(--sk-r) - 22%), transparent var(--sk-r)); mask: radial-gradient(circle at 52% 58%, #000 calc(var(--sk-r) - 22%), transparent var(--sk-r)); animation: sketchDevelop 1.4s var(--ease) 1.65s both; }
 @keyframes sketchDevelop { from { --sk-r: 0%; } to { --sk-r: 150%; } }
 .tpl-sketch .sketch-sheet__photo { mix-blend-mode: multiply; }
+/* Эскиз кодом: обёртка несёт маску штриховки, внутри — то же фото через SVG-фильтр «карандаш». */
+.tpl-sketch .sketch-sheet__defs { position: absolute; width: 0; height: 0; }
+.tpl-sketch .sketch-sheet__pencil--code { overflow: hidden; }
+/* фото поверх эскиза-кода — непрозрачное: линии видны только до проявления и в окне под курсором */
+.tpl-sketch .sketch-sheet__pencil--code ~ .sketch-sheet__photo { mix-blend-mode: normal; }
+.tpl-sketch .sketch-sheet__lines, .tpl-sketch .sketch-sheet__lines .media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .tpl-sketch .sketch-sheet__photo.is-solo { -webkit-mask: none; mask: none; animation: sketchPaper 1s ease .4s both; }
 .tpl-sketch .sketch-sheet.is-done .sketch-sheet__photo:not(.is-solo) { animation: none; -webkit-mask: radial-gradient(circle var(--mr) at var(--mx) var(--my), transparent 96%, #000); mask: radial-gradient(circle var(--mr) at var(--mx) var(--my), transparent 96%, #000); }
 .tpl-sketch .sketch-sheet__dim { position: absolute; left: 0; right: 0; top: calc(100% + 8px); width: 100%; height: 20px; fill: none; stroke: var(--accent); stroke-width: 1; overflow: visible; }

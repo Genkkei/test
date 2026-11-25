@@ -146,8 +146,27 @@ function Hero({ section: s, site }: SectionProps<'hero'>) {
           {s.sketch ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img className="sketch-sheet__pencil" src={s.sketch} alt="" decoding="async" />
+          ) : s.image ? (
+            // эскиз рисуется кодом из того же фото: серый → контуры (лапласиан) → тёмные линии на бумаге
+            <div className="sketch-sheet__pencil sketch-sheet__pencil--code" aria-hidden="true">
+              <svg className="sketch-sheet__defs" width="0" height="0" focusable="false">
+                <filter id={`sk-pencil-${site.slug}`} colorInterpolationFilters="sRGB">
+                  <feColorMatrix type="saturate" values="0" />
+                  <feGaussianBlur stdDeviation="0.6" />
+                  <feConvolveMatrix order="3" kernelMatrix="-1 -1 -1 -1 8 -1 -1 -1 -1" preserveAlpha="true" />
+                  <feComponentTransfer>
+                    <feFuncR type="linear" slope="-3.2" intercept="1" />
+                    <feFuncG type="linear" slope="-3.2" intercept="1" />
+                    <feFuncB type="linear" slope="-3.2" intercept="1" />
+                  </feComponentTransfer>
+                </filter>
+              </svg>
+              <div className="sketch-sheet__lines" style={{ filter: `url(#sk-pencil-${site.slug})` }}>
+                <Media src={s.image} alt="" seed={`${site.slug}-hero`} colors={palette(site)} kind="grid" className="media" />
+              </div>
+            </div>
           ) : null}
-          <div className={`sketch-sheet__photo${s.sketch ? '' : ' is-solo'}`}>
+          <div className={`sketch-sheet__photo${s.sketch || s.image ? '' : ' is-solo'}`}>
             <Media src={s.image} alt={words[0] || s.title || site.name} seed={`${site.slug}-hero`} colors={palette(site)} kind="grid" className="media" />
           </div>
           {dims ? (
