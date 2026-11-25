@@ -105,7 +105,7 @@
         "label": "Меню",
         "href": "#menu"
       },
-      "image": "/media/qahvauy-7c98361c1281abd24698.webp",
+      "image": "https://images.unsplash.com/photo-1632929427496-05e89b7e8550?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8dHVya2lzaCUyMGNvZmZlZSUyMHNhbmQlMjBjZXp2ZXxlbnwxfDB8fHwxNzk1NTc0MDc1fDA&ixlib=rb-4.1.0&w=2400&q=78&auto=format&fit=crop",
       "video": "/media/qahvauy-753fbc26666b649d3da8.mp4"
     },
     {
@@ -136,7 +136,7 @@
           "text": "Бразилия и Эфиопия, обжарка у нас. 250 г.",
           "price": 98000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-04b68e87c97a679c8edc.webp",
+          "image": "https://images.unsplash.com/photo-1749648495229-235daf7b33cc?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTd8fGNvcHBlciUyMGNlenZlJTIwY29mZmVlfGVufDF8Mnx8fDE3OTU1NzQwNzl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кофе",
           "badge": "Хит",
           "unit": "пачка"
@@ -146,7 +146,7 @@
           "text": "Тот же помол с молотым зелёным кардамоном. 250 г.",
           "price": 112000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-964bd394adbbbf9bc433.webp",
+          "image": "https://images.unsplash.com/photo-1716211288726-73a237fd57ec?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fGNvcHBlciUyMGNlenZlJTIwY29mZmVlfGVufDF8Mnx8fDE3OTU1NzQwNzl8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Кофе",
           "badge": "",
           "unit": "пачка"
@@ -156,7 +156,7 @@
           "text": "Ручная чеканка, лужёная внутри, деревянная ручка.",
           "price": 265000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-b2d4b833b4247ddef26b.webp",
+          "image": "https://images.unsplash.com/photo-1731337270211-3974bd48fe0e?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8Y29wcGVyJTIwY2V6dmUlMjBjb2ZmZWV8ZW58MXwyfHx8MTc5NTU3NDA3OXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Посуда",
           "badge": "",
           "unit": "шт"
@@ -166,7 +166,7 @@
           "text": "Жаровня, кварцевый песок и джезва — варить дома, как у нас.",
           "price": 690000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-dc23d04b483cff877325.webp",
+          "image": "https://images.unsplash.com/photo-1745156504117-002a99c0fbb3?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8dHVya2lzaCUyMGNvZmZlZSUyMHNhbmQlMjBjZXp2ZXxlbnwxfDB8fHwxNzk1NTc0MDc1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Посуда",
           "badge": "Новинка",
           "unit": "набор"
@@ -176,7 +176,7 @@
           "text": "Риштанская керамика, глазурь ишкор.",
           "price": 140000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-659d763ebd2d0793aad3.webp",
+          "image": "https://images.unsplash.com/photo-1506778020041-0ea35027d019?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8dHVya2lzaCUyMGNvZmZlZSUyMHNhbmQlMjBjZXp2ZXxlbnwxfDB8fHwxNzk1NTc0MDc1fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Посуда",
           "badge": "",
           "unit": "пара"
@@ -186,7 +186,7 @@
           "text": "Грецкий орех и мёд, 500 г.",
           "price": 120000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-df53414e1f407b590ae6.webp",
+          "image": "https://images.unsplash.com/photo-1778448806128-18e8354356e1?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8YmFrbGF2YSUyMGhhbHZhJTIwc3dlZXRzfGVufDF8Mnx8fDE3OTU1NzQwODR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Сладости",
           "badge": "Хит",
           "unit": "коробка"
@@ -196,7 +196,7 @@
           "text": "Плитка 400 г.",
           "price": 58000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-45bd0569ea346c765d0a.webp",
+          "image": "https://images.unsplash.com/photo-1736134764507-462dd07e8904?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHR1cmtpc2glMjBjb2ZmZWUlMjBzYW5kJTIwY2V6dmV8ZW58MXwwfHx8MTc5NTU3NDA3NXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Сладости",
           "badge": "",
           "unit": "шт"
@@ -206,7 +206,7 @@
           "text": "Тянутая карамель с мукой, 300 г.",
           "price": 36000,
           "oldPrice": 0,
-          "image": "/media/qahvauy-192d45aac9e03f17f810.webp",
+          "image": "https://images.unsplash.com/photo-1668578973784-2962e3eff0ae?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTR8fHR1cmtpc2glMjBjb2ZmZWUlMjBzYW5kJTIwY2V6dmV8ZW58MXwwfHx8MTc5NTU3NDA3NXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Сладости",
           "badge": "",
           "unit": "коробка"
@@ -221,7 +221,7 @@
       "label": "О доме",
       "title": "Дом кофе у старого базара",
       "text": "Мы варим кофе так, как его варили в караван-сараях: в медной джезве на горячем песке, медленно, с пеной. Зал — бывшая мастерская чеканщика с резными колоннами и айваном во дворе. Сладости делают по соседству — пахлава, халва и парварда.",
-      "image": "/media/qahvauy-185679314bf0f702e438.webp"
+      "image": "https://images.unsplash.com/photo-1768006239286-6e85dc786bce?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8dHJhZGl0aW9uYWwlMjBjb3VydHlhcmQlMjB0ZWF8ZW58MXwyfHx8MTc5NTU3NDA4NHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "menu",
@@ -298,15 +298,15 @@
       "items": [
         {
           "caption": "Песок и медные джезвы",
-          "image": "/media/qahvauy-5fed82b15a73005a39f9.webp"
+          "image": "https://images.unsplash.com/photo-1634547812193-22f3527abcf6?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fHR1cmtpc2glMjBjb2ZmZWUlMjBzYW5kJTIwY2V6dmV8ZW58MXwwfHx8MTc5NTU3NDA3NXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Айван во дворе",
-          "image": "/media/qahvauy-4f6250baecd99b43ed69.webp"
+          "image": "https://images.unsplash.com/photo-1771748649011-14f3d5066651?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8Mnx8dHJhZGl0aW9uYWwlMjBjb3VydHlhcmQlMjB0ZWF8ZW58MXwyfHx8MTc5NTU3NDA4NHww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Пахлава на подносе",
-          "image": "/media/qahvauy-75c7f5ff8bb116fca889.webp"
+          "image": "https://images.unsplash.com/photo-1602964573801-f10e614849ee?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8dHVya2lzaCUyMGNvZmZlZSUyMHNhbmQlMjBjZXp2ZXxlbnwxfDB8fHwxNzk1NTc0MDc1fDA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ]
     },
@@ -387,5 +387,59 @@
     ],
     "ease": "0.33,1,0.68,1",
     "surface": "majolica-tile"
-  }
+  },
+  "credits": [
+    {
+      "by": "Ricardo Díaz",
+      "url": "https://unsplash.com/@rdiazcaris?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Vinícius Marçall",
+      "url": "https://unsplash.com/@viniciusmarcall?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Mustafa akın",
+      "url": "https://unsplash.com/@msaimakin?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Claudio Grande",
+      "url": "https://unsplash.com/@klaus20?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Renaldo Kodra",
+      "url": "https://unsplash.com/@renaldo97?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "yucar studios",
+      "url": "https://unsplash.com/@yucar?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Shoeib Abolhassani",
+      "url": "https://unsplash.com/@shoeibabhn?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Carol Mathias",
+      "url": "https://unsplash.com/@carolmathias?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Photo 11",
+      "url": "https://unsplash.com/@photo_11?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "zero take",
+      "url": "https://unsplash.com/@zerotake?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "engin akyurt",
+      "url": "https://unsplash.com/@enginakyurt?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Dean Zhang",
+      "url": "https://unsplash.com/@startdig?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Takenori Okada",
+      "url": "https://unsplash.com/@takenori1128?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }

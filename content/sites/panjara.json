@@ -112,7 +112,7 @@
       "label": "О мастерской",
       "title": "Решётка — первое, что видят гости дома",
       "text": "Мы в Юнусабаде, в мастерской работают четыре кузнеца и художник. Каждый узор сначала рисуем на фото вашего фасада, чтобы решётка подходила к окнам, а не к каталогу. Решётки на первом этаже делаем с распашной створкой — для пожарной безопасности.",
-      "image": "/media/panjara-ac3780972b036ce43212.webp",
+      "image": "https://images.unsplash.com/photo-1648944711721-378861d26580?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NHx8d2luZG93JTIwc2VjdXJpdHklMjBncmlsbGUlMjBob3VzZXxlbnwxfDB8fHwxNzk1NTc0MDQyfDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -127,7 +127,7 @@
           "category": "Окно · квадрат 12 мм",
           "year": "Акт I",
           "text": "Ровная сетка без декора — для современных фасадов и офисов.",
-          "image": "/media/panjara-7815dd2365b8ddfb6278.webp",
+          "image": "https://images.unsplash.com/photo-1774279636154-db80937fc99f?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MjB8fHdyb3VnaHQlMjBpcm9uJTIwd2luZG93JTIwZ3JpbGxlfGVufDF8Mnx8fDE3OTU1NzQwNDl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -135,7 +135,7 @@
           "category": "Окно · лучи из угла",
           "year": "Акт II",
           "text": "Прутки расходятся веером от нижнего угла, в центре — кованое солнце.",
-          "image": "/media/panjara-c4cbe3338ece2786dee0.webp",
+          "image": "https://images.unsplash.com/photo-1561747085-cad068df7b58?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OXx8d3JvdWdodCUyMGlyb24lMjB3aW5kb3clMjBncmlsbGV8ZW58MXwyfHx8MTc5NTU3NDA0OXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -143,7 +143,7 @@
           "category": "Балкон · художественная ковка",
           "year": "Акт III",
           "text": "Листья и гроздья из листового металла, ручная чеканка.",
-          "image": "/media/panjara-c9f6c6a708ab577385ee.webp",
+          "image": "https://images.unsplash.com/photo-1787407704104-e21243889582?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d3JvdWdodCUyMGlyb24lMjB3aW5kb3clMjBncmlsbGV8ZW58MXwyfHx8MTc5NTU3NDA0OXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         },
         {
@@ -151,7 +151,7 @@
           "category": "Дверь · восточный орнамент",
           "year": "Акт IV",
           "text": "Геометрия из звёзд и многоугольников, как на старых медресе.",
-          "image": "/media/panjara-6dddbb696d38905ae611.webp",
+          "image": "https://images.unsplash.com/photo-1613036449517-4dd802718201?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8N3x8d3JvdWdodCUyMGlyb24lMjB3aW5kb3clMjBncmlsbGV8ZW58MXwyfHx8MTc5NTU3NDA0OXww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop",
           "href": ""
         }
       ],
@@ -269,19 +269,19 @@
       "items": [
         {
           "caption": "Юнусабад, окна первого этажа",
-          "image": "/media/panjara-f92490a8543b1d19385a.webp"
+          "image": "https://images.unsplash.com/photo-1774450969929-5f457290eb3c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHdpbmRvdyUyMHNlY3VyaXR5JTIwZ3JpbGxlJTIwaG91c2V8ZW58MXwwfHx8MTc5NTU3NDA0Mnww&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Мирабад, французский балкон",
-          "image": "/media/panjara-a074cb055769e9b6de9e.webp"
+          "image": "https://images.unsplash.com/photo-1771620545269-b063ab785423?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTV8fHdyb3VnaHQlMjBpcm9uJTIwd2luZG93JTIwZ3JpbGxlfGVufDF8Mnx8fDE3OTU1NzQwNDl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Чиланзар, дверь в подъезд",
-          "image": "/media/panjara-66442a1d57046aaf62a9.webp"
+          "image": "https://images.unsplash.com/photo-1649711114998-3e09942f2d41?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTh8fHdyb3VnaHQlMjBpcm9uJTIwd2luZG93JTIwZ3JpbGxlfGVufDF8Mnx8fDE3OTU1NzQwNDl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         },
         {
           "caption": "Кибрай, веранда",
-          "image": "/media/panjara-2235b8b85d2cdf40719e.webp"
+          "image": "https://images.unsplash.com/photo-1669709882857-3dfb5ee63019?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTN8fHdyb3VnaHQlMjBpcm9uJTIwd2luZG93JTIwZ3JpbGxlfGVufDF8Mnx8fDE3OTU1NzQwNDl8MA&ixlib=rb-4.1.0&w=1200&q=78&auto=format&fit=crop"
         }
       ],
       "enabled": true
@@ -362,5 +362,43 @@
     ],
     "ease": "0.6,0,0.2,1",
     "surface": "theatre-ticket"
-  }
+  },
+  "credits": [
+    {
+      "by": "Lisette Harzing",
+      "url": "https://unsplash.com/@liszha?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Lei Hwang",
+      "url": "https://unsplash.com/@blackbird_ii?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Miguel Silva",
+      "url": "https://unsplash.com/@fmcs?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "mana5280",
+      "url": "https://unsplash.com/@mana5280?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Avinash Kumar",
+      "url": "https://unsplash.com/@ashishjha?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Giovanni L.",
+      "url": "https://unsplash.com/@presenzetransitorie?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "E Vos",
+      "url": "https://unsplash.com/@ecvirl?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "nyxx tape",
+      "url": "https://unsplash.com/@nyxxtape?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Amyt",
+      "url": "https://unsplash.com/@imamitraja?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
