@@ -266,7 +266,7 @@
       "label": "О нас",
       "title": "Сварщики, которые приезжают вовремя",
       "text": "«Ваша компания» — двенадцать сварщиков на своих машинах с генераторами по всему Ташкенту. Диспетчер отправляет ближайшего, поэтому час — это обычный срок, а не обещание. Каждый мастер работает в спецодежде и убирает за собой окалину.",
-      "image": "/media/svarka-64459f34547dbfff5dbc.webp",
+      "image": "https://images.unsplash.com/photo-1609348632802-b952f368fc3a?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8M3x8d2VsZGVyJTIwYXQlMjB3b3JrJTIwc3BhcmtzfGVufDF8MHx8fDE3OTU1NzgzNjB8MA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop",
       "enabled": true
     },
     {
@@ -345,5 +345,11 @@
     ],
     "ease": "0.45,0,0.25,1",
     "surface": "weld-bead-row"
-  }
+  },
+  "credits": [
+    {
+      "by": "Benjamin Wedemeyer",
+      "url": "https://unsplash.com/@benjawede?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
