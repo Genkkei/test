@@ -155,7 +155,7 @@
       "label": "О мастерской",
       "title": "Каркас из бука переживёт три обивки",
       "text": "Старые советские и турецкие диваны часто крепче новых: массив вместо ДСП. Мы снимаем обивку до каркаса, меняем всё мягкое и шьём чехол заново по выкройке. Ткани — более 300 образцов: велюр, рогожка, жаккард, антикоготь для домов с кошками. Мастер привозит образцы домой и сразу называет цену.",
-      "image": "/media/obivka-7966f7b24e5720c431c2.webp"
+      "image": "https://images.unsplash.com/photo-1778085970303-49c237134277?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8NXx8dXBob2xzdGVyeSUyMGJlZWNoJTIwY2hhaXIlMjBmcmFtZXxlbnwxfDB8fHwxNzk1NTY5OTA3fDA&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "process",
@@ -329,5 +329,11 @@
     ],
     "ease": "0.6,0,0.2,1",
     "surface": "pinked-swatch"
-  }
+  },
+  "credits": [
+    {
+      "by": "Marija Zaric",
+      "url": "https://unsplash.com/@simplicity?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
