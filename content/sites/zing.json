@@ -130,7 +130,7 @@
           "text": "Зелёный чай, гуарана, грейпфрут. 0,25 л.",
           "price": 14000,
           "oldPrice": 0,
-          "image": "/media/zing-13fadb21f1c42973bafd.webp",
+          "image": "https://images.unsplash.com/photo-1607027444804-e8e94b554700?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGVuZXJneSUyMGRyaW5rJTIwY2FufGVufDF8Mnx8fDE3OTU1OTEzMjR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Энергетики",
           "badge": "Хит",
           "unit": "шт"
@@ -140,7 +140,7 @@
           "text": "Ноль сахара, лайм и мята. 0,25 л.",
           "price": 14000,
           "oldPrice": 0,
-          "image": "/media/zing-268e64b0848bc089dd7f.webp",
+          "image": "https://images.unsplash.com/photo-1628835311817-2a726f68eb7c?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fGVuZXJneSUyMGRyaW5rJTIwY2FufGVufDF8Mnx8fDE3OTU1OTEzMjR8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Энергетики",
           "badge": "",
           "unit": "шт"
@@ -150,7 +150,7 @@
           "text": "Настоящий эстрагон.",
           "price": 11600,
           "oldPrice": 0,
-          "image": "/media/zing-d9fda292ffbc08b43e39.webp",
+          "image": "https://images.unsplash.com/photo-1720446838030-d914440e6a16?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTB8fGdyZWVuJTIwbGVtb25hZGUlMjBnbGFzc3xlbnwxfDJ8fHwxNzk1NTkxMzI2fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Лимонады",
           "badge": "",
           "unit": "шт"
@@ -160,7 +160,7 @@
           "text": "Узбекский гранат.",
           "price": 12600,
           "oldPrice": 0,
-          "image": "/media/zing-f19beb13479d3d555a27.webp",
+          "image": "https://images.unsplash.com/photo-1631503190221-0f6a15367926?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHBvbWVncmFuYXRlJTIwZHJpbmt8ZW58MXwyfHx8MTc5NTU5MTMyOXww&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Лимонады",
           "badge": "Новинка",
           "unit": "шт"
@@ -170,7 +170,7 @@
           "text": "Все вкусы, скидка 15%.",
           "price": 135000,
           "oldPrice": 162000,
-          "image": "/media/zing-025b18cbb09af3d68750.webp",
+          "image": "https://images.unsplash.com/photo-1674176508097-463b009c6004?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MXx8c29kYSUyMGNhbnMlMjBjb2xvcmZ1bHxlbnwxfDB8fHwxNzk1NTkxMzM4fDA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Наборы",
           "badge": "Скидка",
           "unit": "набор"
@@ -180,7 +180,7 @@
           "text": "Для фанатов бренда.",
           "price": 310000,
           "oldPrice": 0,
-          "image": "/media/zing-afe12379ec1ee130a161.webp",
+          "image": "https://images.unsplash.com/photo-1749380817272-3e99280535bf?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTF8fGJsYWNrJTIwaG9vZGllfGVufDF8Mnx8fDE3OTU1OTEzMzJ8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -190,7 +190,7 @@
           "text": "Для магазина или офиса, в месяц.",
           "price": 242000,
           "oldPrice": 0,
-          "image": "/media/zing-d693565a49c1192b7557.webp",
+          "image": "https://images.unsplash.com/photo-1723661973650-febc670fcea2?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8OHx8ZHJpbmtzJTIwZnJpZGdlfGVufDF8Mnx8fDE3OTU1OTEzMzV8MA&ixlib=rb-4.1.0&w=900&q=78&auto=format&fit=crop",
           "category": "Мерч",
           "badge": "",
           "unit": "шт"
@@ -252,7 +252,7 @@
       "label": "Почему «Ваша компания»",
       "title": "Энергетик, который можно пить, не читая состав с ужасом",
       "text": "Мы варим «Ваша компания» на небольшом производстве в Ташкенте: настоящий сок, кофеин растительного происхождения, никакого таурина ради таурина. Партии маленькие — поэтому вкус каждый раз один и тот же.",
-      "image": "/media/zing-9d8ef7d6272eb27cc324.webp"
+      "image": "https://images.unsplash.com/photo-1752801461692-4ea6af97443b?ixid=M3wxMTQyNjcwfDB8MXxzZWFyY2h8MTJ8fHNvZGElMjBjYW5zJTIwY29sb3JmdWx8ZW58MXwwfHx8MTc5NTU5MTMzOHww&ixlib=rb-4.1.0&w=1600&q=78&auto=format&fit=crop"
     },
     {
       "id": "stats",
@@ -380,5 +380,39 @@
     ],
     "ease": "0.19,1,0.22,1",
     "surface": "price-tag"
-  }
+  },
+  "credits": [
+    {
+      "by": "Juan Carlos García",
+      "url": "https://unsplash.com/@_juancagz8?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "krunal mistry",
+      "url": "https://unsplash.com/@krunal_km?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Paola F",
+      "url": "https://unsplash.com/@paolaeffe?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Jonas Allert",
+      "url": "https://unsplash.com/@visuallert?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Charlie Wollborg",
+      "url": "https://unsplash.com/@charlie_wollborg?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Nikita Chaturov",
+      "url": "https://unsplash.com/@nikchester?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "Juan Córdova",
+      "url": "https://unsplash.com/@juanca3992?utm_source=atlas&utm_medium=referral"
+    },
+    {
+      "by": "luthfi alfarizi",
+      "url": "https://unsplash.com/@luthfialfarizi?utm_source=atlas&utm_medium=referral"
+    }
+  ]
 }
