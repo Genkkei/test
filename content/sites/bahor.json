@@ -16,7 +16,8 @@
     "line": "#d6bf9c",
     "display": "Yeseva One",
     "body": "Lora",
-    "motion": 1
+    "motion": 1,
+    "actor": "none"
   },
   "business": {
     "type": "Restaurant",
@@ -411,5 +412,24 @@
       "by": "Zulfugar Karimov",
       "url": "https://unsplash.com/@zulfugarkarimov?utm_source=atlas&utm_medium=referral"
     }
-  ]
+  ],
+  "craft": {
+    "concept": "Чайхана как дастархан: под аркой с изразцом чай наливают в пиалу и возвращают трижды, чтобы заварился, — так встречает сайт",
+    "display": "Yeseva One",
+    "text": "Lora",
+    "label": "Lora",
+    "skeleton": "arch-dastarkhan",
+    "signature": "tea-three-pours",
+    "sequence": [
+      "eyebrow",
+      "title-words",
+      "arch",
+      "piala",
+      "three-pours",
+      "steam",
+      "stamp"
+    ],
+    "ease": "0.22,1,0.36,1",
+    "surface": "lagan"
+  }
 }
